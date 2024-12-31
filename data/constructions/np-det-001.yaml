@@ -1,0 +1,20 @@
+id: np-det-001
+pattern: "NP[Det Head:Nom]"
+name: "Determined Noun Phrase"
+coreMeaning: "Specific/definite reference, quantification, etc. depending on Det"
+examples:
+  - form: "the dog"
+    meaning: "Reference to specific dog"
+  - form: "all dogs"
+    meaning: "Quantification over all dogs"
+  - form: "this coffee"
+    meaning: "Reference to specific/proximal coffee"
+  - form: "those men"
+    meaning: "Reference to contextually salient group"
+constraints:
+  - type: "structural"
+    description: "Must have Det"
+semanticType: "reference"
+relatedConstructions:
+  - id: "np-bare-001"
+    relationship: "contrasts-with"

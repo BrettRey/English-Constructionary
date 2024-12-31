@@ -1,0 +1,21 @@
+id: nom-adjp-mod-001
+pattern: "Nom[Mod:AdjP Head:N]"
+name: "Adjectival Pre-head Modifier in Nominal"
+coreMeaning: "Property attribution to nominal head"
+examples:
+  - form: "old men"
+    meaning: "Attribution of age property to men"
+    notes: "Direct property attribution"
+  - form: "other men"
+    meaning: "Complement set relation"
+    notes: "Special case where property is relative to context"
+constraints:
+  - type: "structural"
+    description: "Mod must be AdjP with head Adj"
+  - type: "position"
+    description: "AdjP occurs in pre-head position in Nom"
+semanticType: "property_attribution"
+relatedConstructions:
+  - id: "nom-premod-000"
+    relationship: "inherits-from"
+    notes: "Specific type of pre-head modification"

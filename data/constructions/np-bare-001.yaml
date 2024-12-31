@@ -1,0 +1,18 @@
+id: np-bare-001
+pattern: "NP[Nom[Head:N]]"
+name: "Bare Noun Phrase"
+coreMeaning: "Generic/kind reference, potentially habitual/dispositional"
+examples:
+  - form: "dogs bark"
+    meaning: "Statement about dogs as a kind"
+  - form: "coffee keeps me awake"
+    meaning: "General statement about coffee's effect"
+constraints:
+  - type: "structural"
+    description: "No determiner"
+  - type: "syntactic"
+    description: "Nom has no Mod"
+semanticType: "reference"
+relatedConstructions:
+  - id: "np-det-001"
+    relationship: "contrasts-with"

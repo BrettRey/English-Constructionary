@@ -1,0 +1,21 @@
+id: nom-n-mod-001
+pattern: "NP[Nom[Mod:N Head:N]]"
+name: "Nominal Pre-head Modifier in Nominal"
+coreMeaning: "Type/purpose/origin specification of head nominal"
+examples:
+  - form: "army men"
+    meaning: "Men belonging to/serving in army"
+    notes: "Shows institutional affiliation"
+  - form: "kitchen table"
+    meaning: "Table used in/designed for kitchen"
+    notes: "Shows purpose/location relation"
+constraints:
+  - type: "structural"
+    description: "Mod must be bare N"
+  - type: "position"
+    description: "N occurs in pre-head position in Nom"
+semanticType: "classification"
+relatedConstructions:
+  - id: "nom-premod-000"
+    relationship: "inherits-from"
+    notes: "Specific type of pre-head modification"

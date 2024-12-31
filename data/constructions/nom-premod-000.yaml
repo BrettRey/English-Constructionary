@@ -1,0 +1,4 @@
+id: nom-premod-000
+pattern: "Nom[Mod:XP Head:N]"
+name: "Pre-head Modifier in Nominal"
+coreMeaning: "Modification of nominal head through pre-head constituent"

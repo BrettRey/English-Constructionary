@@ -1,0 +1,4 @@
+id: n-mass-001
+pattern: "N[Mass:YES]"
+name: "Mass Noun"
+coreMeaning: "Reference to undifferentiated substance/stuff"

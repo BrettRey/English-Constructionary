@@ -1,0 +1,4 @@
+id: n-sg-001
+pattern: "N[Number:SG]"
+name: "Singular Noun"
+coreMeaning: "Reference to single entity/count item"
