@@ -1,83 +1,21 @@
-import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-
-const ConstructionEntry = () => {
-  const sampleEntry = {
-    pattern: "[Modifier:AdjP Head:NP-PL]",
-    name: "Bare Plural with Prenominal Modifier",
-    coreMeaning: "Category/kind modification with property attribution",
-    examples: [
-      {
-        form: "old men",
-        meaning: "Direct property modification (age attribute)",
-        notes: "Prototypical property-denoting usage"
-      },
-      {
-        form: "other men",
-        meaning: "Complementary set relation",
-        notes: "Requires contextual reference set"
-      }
-    ],
-    constraints: [
-      "Modifier must be adjectival",
-      "Head must be count noun",
-      "Requires plural marking on head"
-    ],
-    relatedConstructions: [
-      "Definite NP with prenominal modifier",
-      "Mass noun with prenominal modifier"
-    ]
-  };
-
-  return (
-    <Card className="w-full max-w-4xl">
-      <CardHeader>
-        <CardTitle className="text-xl font-bold">{sampleEntry.name}</CardTitle>
-        <div className="text-sm font-mono bg-gray-100 p-2 rounded">
-          {sampleEntry.pattern}
-        </div>
-      </CardHeader>
-      <CardContent>
-        <div className="space-y-4">
-          <section>
-            <h3 className="font-semibold mb-2">Core Meaning</h3>
-            <p>{sampleEntry.coreMeaning}</p>
-          </section>
-          
-          <section>
-            <h3 className="font-semibold mb-2">Examples</h3>
-            <div className="space-y-2">
-              {sampleEntry.examples.map((example, idx) => (
-                <div key={idx} className="border-l-4 border-blue-200 pl-4">
-                  <p className="font-medium">{example.form}</p>
-                  <p className="text-sm">{example.meaning}</p>
-                  <p className="text-sm text-gray-600">{example.notes}</p>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section>
-            <h3 className="font-semibold mb-2">Constraints</h3>
-            <ul className="list-disc pl-5">
-              {sampleEntry.constraints.map((constraint, idx) => (
-                <li key={idx}>{constraint}</li>
-              ))}
-            </ul>
-          </section>
-
-          <section>
-            <h3 className="font-semibold mb-2">Related Constructions</h3>
-            <ul className="list-disc pl-5">
-              {sampleEntry.relatedConstructions.map((construction, idx) => (
-                <li key={idx}>{construction}</li>
-              ))}
-            </ul>
-          </section>
-        </div>
-      </CardContent>
-    </Card>
-  );
-};
-
-export default ConstructionEntry;
+id: prenominal-modifier-001
+pattern: "[Modifier:AdjP Head:NP-PL]"
+name: "Bare Plural with Prenominal Modifier"
+coreMeaning: "Category/kind modification with property attribution"
+examples:
+  - form: "old men"
+    meaning: "Direct property modification (age attribute)"
+    notes: "Prototypical property-denoting usage"
+  - form: "other men"
+    meaning: "Complementary set relation" 
+    notes: "Requires contextual reference set"
+constraints:
+  - type: "syntactic"
+    description: "Modifier must be adjectival"
+  - type: "morphological"
+    description: "Head must be plural"
+semanticType: "reference"
+relatedConstructions:
+  - id: "def-prenominal"
+    relationship: "alternates-with"
+    notes: "The definite version (the old men) refers to specific group"
