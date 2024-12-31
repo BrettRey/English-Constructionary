@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Construction Entry",
+  "description": "A grammatical construction in Construction Grammar (CxG)",
+  "type": "object",
+  "required": ["id", "pattern", "name", "coreMeaning"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the construction",
+      "pattern": "^[a-z-]+[0-9]{3}$"
+    },
+    "pattern": {
+      "type": "string",
+      "description": "Formal syntactic/morphological pattern"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the construction"
+    },
+    "coreMeaning": {
+      "type": "string",
+      "description": "Primary semantic function"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["form", "meaning"],
+        "properties": {
+          "form": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "sourceText": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "description"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["syntactic", "morphological", "semantic", "pragmatic"]
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "semanticType": {
+      "type": "string",
+      "enum": ["reference", "predication", "modification", "quantification"]
+    },
+    "relatedConstructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "relationship"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string",
+            "enum": ["alternates-with", "contains", "inherits-from", "similar-to"]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
