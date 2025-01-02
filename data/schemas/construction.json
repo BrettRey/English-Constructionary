@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Construction Entry",
+  "title": "Construction Entry (revised)",
   "description": "A grammatical construction in Construction Grammar (CxG)",
   "type": "object",
   "required": ["id", "pattern", "name", "meanings"],
@@ -10,79 +10,95 @@
       "description": "Unique identifier for the construction",
       "pattern": "^[a-z-]+[0-9]{3}$"
     },
-    "pattern": {
-      "type": "string",
-      "description": "Formal syntactic/morphological pattern"
-    },
     "name": {
       "type": "string",
       "description": "Human-readable name for the construction"
     },
-    "meanings": {
-      "type": "array",
-      "description": "Array of meanings (senses) for the construction",
-      "items": {
-        "type": "object",
-        "required": ["meaning", "examples"],
-        "properties": {
-          "meaning": {
-            "type": "string",
-            "description": "Description of a specific meaning/sense"
-          },
-          "examples": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["form"],
-              "properties": {
-                "form": {
-                  "type": "string"
-                },
-                "notes": {
-                  "type": "string"
-                },
-                "sourceText": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "notes": {
-            "type": "string",
-            "description": "Additional notes about this meaning/sense"
-          },
-          "relatedConstructions": {
-            "type": "array",
-            "description": "Constructions related to this specific meaning",
-            "items": {
-              "type": "object",
-              "required": ["id", "relationship"],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "relationship": {
-                  "type": "string",
-                  "enum": [
-                    "alternates-with",
-                    "contains",
-                    "inherits-from",
-                    "similar-to",
-                    "related-to",
-                    "transformed-from",
-                    "specialization-of",
-                    "see-also"
-                  ]
-                },
-                "notes": {
-                  "type": "string"
-                }
-              }
-            }
-          }
-        }
-      }
+    "pattern": {
+      "type": "string",
+      "description": "Formal syntactic/morphological pattern"
     },
+
+    "meanings": {
+      "type": "object",
+      "description": "Numbered meanings, keyed by integer strings",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "required": ["definition", "examples"],
+          "properties": {
+            "definition": {
+              "type": "string"
+            },
+            "details": {
+              "type": "string"
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["form"],
+                "properties": {
+                  "form": {
+                    "type": "string"
+                  },
+                  "note": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "relations": {
+              "type": "array",
+              "description": "Indices referencing items in top-level 'relations'",
+              "items": {
+                "type": "integer"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "relations": {
+      "type": "object",
+      "description": "Numbered relations, keyed by integer strings",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "required": ["construction", "type"],
+          "properties": {
+            "construction": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "description": "Relationship type",
+              "enum": [
+                "can-manifest-as",
+                "often-contains",
+                "overlaps-with",
+                "can-contain",
+                "inherits-from",
+                "similar-to",
+                "related-to",
+                "transformed-from",
+                "specialization-of",
+                "see-also"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
     "constraints": {
       "type": "array",
       "items": {
@@ -91,7 +107,15 @@
         "properties": {
           "type": {
             "type": "string",
-            "enum": ["syntactic", "morphological", "semantic", "pragmatic", "structural", "head", "position"]
+            "enum": [
+              "syntactic",
+              "morphological",
+              "semantic",
+              "pragmatic",
+              "structural",
+              "head",
+              "position"
+            ]
           },
           "description": {
             "type": "string"
@@ -99,10 +123,17 @@
         }
       }
     },
+
     "semanticType": {
       "type": "string",
-      "enum": ["reference", "predication", "modification", "quantification"]
+      "enum": [
+        "reference",
+        "predication",
+        "modification",
+        "quantification"
+      ]
     },
+
     "relatedConstructions": {
       "type": "array",
       "items": {
