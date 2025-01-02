@@ -3,7 +3,7 @@
   "title": "Construction Entry",
   "description": "A grammatical construction in Construction Grammar (CxG)",
   "type": "object",
-  "required": ["id", "pattern", "name", "coreMeaning"],
+  "required": ["id", "pattern", "name", "meanings"],
   "properties": {
     "id": {
       "type": "string",
@@ -18,27 +18,67 @@
       "type": "string",
       "description": "Human-readable name for the construction"
     },
-    "coreMeaning": {
-      "type": "string",
-      "description": "Primary semantic function"
-    },
-    "examples": {
+    "meanings": {
       "type": "array",
+      "description": "Array of meanings (senses) for the construction",
       "items": {
         "type": "object",
-        "required": ["form", "meaning"],
+        "required": ["meaning", "examples"],
         "properties": {
-          "form": {
-            "type": "string"
-          },
           "meaning": {
-            "type": "string"
+            "type": "string",
+            "description": "Description of a specific meaning/sense"
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["form"],
+              "properties": {
+                "form": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "string"
+                },
+                "sourceText": {
+                  "type": "string"
+                }
+              }
+            }
           },
           "notes": {
-            "type": "string"
+            "type": "string",
+            "description": "Additional notes about this meaning/sense"
           },
-          "sourceText": {
-            "type": "string"
+          "relatedConstructions": {
+            "type": "array",
+            "description": "Constructions related to this specific meaning",
+            "items": {
+              "type": "object",
+              "required": ["id", "relationship"],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "relationship": {
+                  "type": "string",
+                  "enum": [
+                    "alternates-with",
+                    "contains",
+                    "inherits-from",
+                    "similar-to",
+                    "related-to",
+                    "transformed-from",
+                    "specialization-of",
+                    "see-also"
+                  ]
+                },
+                "notes": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
@@ -51,7 +91,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "enum": ["syntactic", "morphological", "semantic", "pragmatic"]
+            "enum": ["syntactic", "morphological", "semantic", "pragmatic", "structural", "head", "position"]
           },
           "description": {
             "type": "string"
@@ -74,7 +114,16 @@
           },
           "relationship": {
             "type": "string",
-            "enum": ["alternates-with", "contains", "inherits-from", "similar-to"]
+            "enum": [
+              "alternates-with",
+              "contains",
+              "inherits-from",
+              "similar-to",
+              "related-to",
+              "transformed-from",
+              "specialization-of",
+              "see-also"
+            ]
           },
           "notes": {
             "type": "string"

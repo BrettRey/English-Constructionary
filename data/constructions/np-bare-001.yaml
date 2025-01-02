@@ -1,12 +1,52 @@
 id: np-bare-001
 pattern: "NP[Nom[Head:N]]"
 name: "Bare Noun Phrase"
-coreMeaning: "Generic/kind reference, potentially habitual/dispositional"
-examples:
-  - form: "dogs bark"
-    meaning: "Statement about dogs as a kind"
-  - form: "coffee keeps me awake"
-    meaning: "General statement about coffee's effect"
+meanings:
+  - meaning: "Generic/kind reference"
+    examples:
+      - form: "dogs bark"
+        notes: "Statement about dogs as a kind, not specific dogs"
+      - form: "coffee is a stimulant"
+        notes: "General statement about coffee as a substance"
+    notes: |
+      Bare plurals and mass nouns can also contribute to habitual or dispositional
+      readings when combined with verbs that express habitual actions (e.g., 'drinks',
+      'eats', 'smokes') and when the overall context supports such an interpretation.
+      For example, 'John drinks beer' can be interpreted as a statement about John's
+      habitual behavior. However, this habitual meaning is not solely due to the bare
+      NP construction but arises from the interaction of the bare NP with the verb
+      and the context.
+  - meaning: "Indefinite reference (often with plural or mass nouns)"
+    examples:
+      - form: "I saw dogs in the park."
+        notes: "Refers to some unspecified dogs, not a definite group"
+      - form: "There's coffee on the table."
+        notes: "Refers to an unspecified amount of coffee"
+  - meaning: "Incorporated/Institutionalized"
+    examples:
+      - form: "go to school"
+        notes: "Refers to the institution of education, not a specific school building"
+      - form: "be in hospital"
+        notes: "Refers to being admitted as a patient, not a specific hospital location"
+      - form: "go to town"
+        notes: "Means to do something with great effort or enthusiasm"
+      - form: "be at home"
+        notes: "Refers to being in one's place of residence"
+    notes: |
+      These are often fixed expressions with specialized meanings, particularly common
+      with singular bare NPs in specific contexts (e.g., 'go to', 'be in/at'). They
+      often refer to an institution or a general activity rather than a specific
+      physical place.
+  - meaning: "Abstract/Figurative"
+    examples:
+      - form: "Love conquers all."
+        notes: "Abstract concept used in a proverb"
+      - form: "Time is money."
+        notes: "Figurative use of 'time' and 'money'"
+    notes: |
+      Bare NPs can be used in abstract or figurative expressions, often in proverbs,
+      sayings, or literary language. The specific interpretation often depends heavily
+      on the idiom or the broader context.
 constraints:
   - type: "structural"
     description: "No determiner"
@@ -14,5 +54,5 @@ constraints:
     description: "Nom has no Mod"
 semanticType: "reference"
 relatedConstructions:
-  - id: "np-det-001"
-    relationship: "contrasts-with"
+  - id: "np-common-001"
+    relationship: "inherits-from"

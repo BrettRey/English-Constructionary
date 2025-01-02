@@ -1,0 +1,84 @@
+id: np-pron-001
+pattern: "NP[Pron]"
+name: "Pronominal Noun Phrase"
+meanings:
+  - meaning: "Anaphoric reference - refers back to a previously mentioned entity (antecedent)"
+    examples:
+      - form: "John arrived. He looked tired."
+        notes: "'He' refers back to 'John'."
+    constraints:
+      - type: "discourse"
+        description: "Requires an antecedent in the preceding discourse"
+    relatedConstructions:
+      - id: "np-pron-personal-001"
+        relationship: "can-be-filled-by"
+  - meaning: "Cataphoric reference - refers forward to an entity mentioned later in the discourse"
+    examples:
+      - form: "If you see him, tell John I need to talk to him."
+        notes: "'him' refers forward to 'John'."
+    constraints:
+      - type: "discourse"
+        description: "Requires an antecedent in the following discourse"
+    relatedConstructions:
+      - id: "np-pron-personal-001"
+        relationship: "can-be-filled-by"
+  - meaning: "Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)"
+    examples:
+      - form: "He's late again."
+        notes: "Said about someone not present, referring to a shared understanding of who 'he' is."
+      - form: "That is incredible!"
+        notes: "Said while experiencing something, where 'that' refers to the current situation."
+    constraints:
+      - type: "contextual"
+        description: "Requires a referent that is salient in the shared context of the speakers"
+    relatedConstructions:
+      - id: "np-pron-personal-001"
+        relationship: "can-be-filled-by"
+      - id: "np-pron-demonstrative-001"
+        relationship: "can-be-filled-by"
+  - meaning: "Bound variable reference - refers to an entity whose referent varies depending on a quantifier"
+    examples:
+      - form: "Every student thinks they are smart."
+        notes: "'they' refers to each student, and its referent varies with each student."
+    constraints:
+      - type: "syntactic"
+        description: "Requires a quantified antecedent, often in the same sentence"
+    relatedConstructions:
+      - id: "np-pron-personal-001"
+        relationship: "can-be-filled-by"
+  - meaning: "Dummy pronoun - has no referential meaning, serves a grammatical function"
+    examples:
+      - form: "It is raining."
+        notes: "'It' does not refer to anything; it's a grammatical placeholder."
+      - form: "There is a problem."
+        notes: "'There' does not refer to a place; it introduces the existence of something."
+    constraints:
+      - type: "semantic"
+        description: "Devoid of semantic content"
+    notes: "Limited to 'it' and 'there' in specific grammatical constructions."
+    relatedConstructions:
+      - id: "np-pron-dummy-001"
+        relationship: "can-be-filled-by"
+constraints:
+  - type: "syntactic"
+    description: "Must consist of a pronoun functioning as the head of the NP"
+semanticType: "reference"
+relatedConstructions:
+  - id: "np-001"
+    relationship: "inherits-from"
+  - id: "np-pron-personal-001"
+    relationship: "specialization-of"
+  - id: "np-pron-demonstrative-001"
+    relationship: "specialization-of"
+  - id: "np-pron-indefinite-001"
+    relationship: "specialization-of"
+  - id: "np-pron-reflexive-001"
+    relationship: "specialization-of"
+  - id: "np-pron-reciprocal-001"
+    relationship: "specialization-of"
+  - id: "np-pron-interrog-001"
+    relationship: "specialization-of"
+  - id: "np-pron-rel-001"
+    relationship: "specialization-of"
+  - id: "np-pron-dummy-001"
+    relationship: "specialization-of"

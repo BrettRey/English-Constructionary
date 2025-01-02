@@ -1,0 +1,24 @@
+id: np-001
+pattern: "NP"
+name: "Noun Phrase"
+meanings:
+  - meaning: "Can refer to entities, concepts, or be purely grammatical"
+    examples:
+      - form: "John"
+        notes: "Proper noun"
+      - form: "the book"
+        notes: "Common noun with determiner"
+      - form: "he"
+        notes: "Pronoun"
+    notes: "This is the most general NP construction, serving as a parent for all other NP types."
+constraints:
+  - type: "syntactic"
+    description: "Must be a valid NP constituent"
+semanticType: "varied"
+relatedConstructions:
+  - id: "np-common-001"
+    relationship: "specialization-of"
+  - id: "np-proper-name-001"
+    relationship: "specialization-of"
+  - id: "np-pron-001"
+    relationship: "specialization-of"

@@ -1,0 +1,25 @@
+id: np-def-001
+pattern: "NP[Det[Def:YES] Nom]"
+name: "Definite Noun Phrase"
+meanings:
+  - meaning: "Specific, identifiable referent"
+    examples:
+      - form: "the dog"
+        notes: "Refers to a particular dog that is known to both speaker and listener"
+      - form: "the book I bought yesterday"
+        notes: "Refers to a specific book that can be identified from the context"
+  - meaning: "Generic reference (with 'the')"
+    examples:
+      - form: "The tiger is an endangered species."
+        notes: "Refers to tigers as a kind, not one specific tiger."
+  - meaning: "Anaphoric reference"
+    examples:
+      - form: "I saw a cat. The cat was fluffy."
+        notes: "Refers back to the cat introduced in the previous sentence"
+constraints:
+  - type: "structural"
+    description: "Must have a definite determiner (e.g., 'the')"
+semanticType: "reference"
+relatedConstructions:
+  - id: "np-det-001"
+    relationship: "specialization-of"
