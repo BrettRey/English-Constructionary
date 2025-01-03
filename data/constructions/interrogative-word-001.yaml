@@ -1,0 +1,56 @@
+id: interrogative-word-001
+name: "Interrogative Word"
+pattern: "who/what/which/whose/where/when/why/how"
+meanings:
+ 1:
+   definition: "asks for information"
+   details: "Indicates what knowledge is being requested while constraining its type"
+   examples:
+     - form: "whose book"
+       note: "Seeks possessor identification"
+     - form: "who came"
+       note: "Seeks agent identification"
+   relations: [1, 2]
+ 2:
+   definition: "Creates open variable in proposition"
+   details: "Marks an unspecified element while constraining its type"
+   examples:
+     - form: "what she saw"
+       note: "Unspecified object"
+     - form: "whose it was"
+       note: "Unspecified possessor"
+   relations: [1, 3]
+ 3:
+   definition: "Marks scalar degree"
+   details: "Indicates point or extent on implicit or explicit scale"
+   examples:
+     - form: "how tall"
+       note: "Degree of height"
+     - form: "what speed"
+       note: "Extent of velocity"
+   relations: [1, 4]
+ 4:
+   definition: "Expresses evaluation against norm"
+   details: "Marks deviation from contextual standard or expectation"
+   examples:
+     - form: "what children"
+       note: "Notable children"
+     - form: "how fast"
+       note: "Remarkable speed"
+   relations: [1, 5]
+relations:
+ 1:
+   construction: "np-001"
+   type: "functions-as"
+ 2:
+   construction: "question-clause-001"
+   type: "can-form" 
+ 3:
+   construction: "variable-001"
+   type: "creates"
+ 4:
+   construction: "degree-001"
+   type: "can-express"
+ 5:
+   construction: "evaluative-001"
+   type: "enables"
