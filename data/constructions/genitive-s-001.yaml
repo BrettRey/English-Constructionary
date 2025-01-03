@@ -1,0 +1,99 @@
+id: genitive-s-001
+name: "Genitive 's"
+pattern: "Noun phrase + 's"
+meanings:
+1:
+  definition: "Indicates possession/ownership"
+  details: "Marks the NP as possessor or controller"
+  examples:
+    - form: "Mary's book"
+      note: "Personal ownership"
+    - form: "That car is John's"
+      note: "Independent possessive"
+    - form: "the bank's policies"
+      note: "Institutional control"
+  relations: [1, 2]
+2:
+  definition: "Marks intrinsic relationship/part-whole"
+  details: "Indicates inherent connection rather than ownership"
+  examples:
+    - form: "the tree's branches"
+      note: "Physical part-whole"
+    - form: "the novel's theme"
+      note: "Abstract component"
+    - form: "the body's cells"
+      note: "Biological part-whole"
+  relations: [1, 3, 4]
+3:
+  definition: "Indicates creation/authorship"
+  details: "Marks the creator or source"
+  examples:
+    - form: "Shakespeare's plays"
+      note: "Authored works"
+    - form: "nature's beauty"
+      note: "Natural source"
+    - form: "The painting is Picasso's"
+      note: "Created by"
+  relations: [1, 6]
+4:
+  definition: "Expresses time/duration relationship"
+  details: "Marks temporal measurement or occurrence"
+  examples:
+    - form: "a day's work"
+      note: "Duration measure"
+    - form: "tomorrow's meeting"
+      note: "Scheduled time"
+    - form: "last year's winner"
+      note: "Temporal association"
+  relations: [1, 5]
+5:
+  definition: "Indicates characteristic or property"
+  details: "Marks defining features or qualities"
+  examples:
+    - form: "the metal's strength"
+      note: "Physical property"
+    - form: "the proposal's weakness"
+      note: "Abstract quality"
+  relations: [1, 2, 4]
+6:
+  definition: "Marks subject-like relationship"
+  details: "Indicates the doer/experiencer of an action/state"
+  examples:
+    - form: "the sun's rise"
+      note: "Subject of intransitive"
+    - form: "the child's laughter"
+      note: "Source of action"
+  relations: [1, 4, 6]
+7:
+  definition: "Expresses social/institutional relationship"
+  details: "Marks organizational or relational connections"
+  examples:
+    - form: "the team's coach"
+      note: "Professional role"
+    - form: "Mary's brother"
+      note: "Family relationship"
+    - form: "the university's president"
+      note: "Institutional position"
+  relations: [1, 2, 7]
+relations:
+1:
+  construction: "np-001"
+  type: "requires"
+2:
+  construction: "property-of-001"
+  type: "instantiates"
+3:
+  construction: "part-whole-001"
+  type: "instantiates"
+4:
+  construction: "nominalization-001"
+  type: "interacts-with"
+5:
+  construction: "measure-phrase-001"
+  type: "can-form"
+6:
+  construction: "agent-of-001"
+  type: "can-express"
+7:
+  construction: "social-role-001"
+  type: "instantiates"

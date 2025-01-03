@@ -1,0 +1,42 @@
+id: plural-s-001
+name: "Plural -s" 
+pattern: "Common noun + -s/-es"
+meanings:
+ 1:
+   definition: "Modifies noun denotation to indicate not one"
+   details: "Changes what the noun denotes from single to non-singular without necessarily implying multiplicity. The core meaning is absence of singularity rather than presence of plurality."
+   examples:
+     - form: "cats"
+       note: "Modifies 'cat' denotation to non-singular"
+   relations: [1]
+ 2:
+   definition: "Indicates types/kinds"
+   details: "Shifts denotation from instances to varieties or categories, creating a higher-order classification"
+   examples:
+     - form: "wines"
+       note: "Types of wine rather than quantities"
+   relations: [2]
+ 3:
+   definition: "Marks recurrent/habitual instances"
+   details: "Shifts denotation to typical or repeated occurrences rather than counted instances"
+   examples:
+     - form: "I get headaches"
+       note: "Recurring condition rather than count"
+   relations: [1]
+ 4:
+   definition: "With proper nouns, indicates family/dynasty or similar entities"
+   details: "When applied to proper nouns via common noun construction, indicates grouped entities sharing the name"
+   examples:
+     - form: "the Kennedys"
+       note: "Members of Kennedy family/dynasty"
+   relations: [3]
+relations:
+ 1:
+   construction: "count-noun-001"
+   type: "applies-to"
+ 2:
+   construction: "mass-to-count-001"
+   type: "enables"
+ 3:
+   construction: "proper-to-common-001"
+   type: "requires"
