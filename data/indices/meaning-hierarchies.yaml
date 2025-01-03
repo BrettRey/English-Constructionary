@@ -1,6 +1,12 @@
 hierarchies:
-  plural:
-    root: plural-001
-    specializations:
-      - plural-s-001
-      - plural-pronouns-001
+  number:
+    root: grammatical-number-001
+    implementations:
+      - singular-001:
+          implementations:
+            - singular-morpheme-001  # hypothetical
+            - singular-pronouns-001  # hypothetical
+      - plural-001:
+          implementations:
+            - plural-s-001
+            - plural-pronouns-001  # hypothetical

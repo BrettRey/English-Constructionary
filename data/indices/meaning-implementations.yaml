@@ -1,7 +1,25 @@
 implementations:
+  grammatical-number-001:
+    1: # cardinality
+      - construction: singular-001
+        meaning: 1
+      - construction: plural-001
+        meaning: 1
+    2: # countability
+      - construction: singular-001
+        meaning: 2
+      - construction: plural-001
+        meaning: 3  # taxonomic features
   plural-001:
-    1: # meaning 1 is implemented by:
+    1:
       - construction: plural-s-001
         meaning: 1
-      - construction: plural-pronouns-001 
-        meaning: 1
+    2:
+      - construction: plural-s-001
+        meaning: 4  # groups
+    3:
+      - construction: plural-s-001
+        meaning: 2  # types
+    4:
+      - construction: plural-s-001
+        meaning: 3  # habitual

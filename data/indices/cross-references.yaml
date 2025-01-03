@@ -1,0 +1,7 @@
+relationships:
+  complementary:
+    - constructions: [singular-001, plural-001]
+      feature: "grammatical-number"
+  contrastive:
+    - constructions: [singular-morpheme-001, plural-s-001]
+      domain: "nominal-marking"

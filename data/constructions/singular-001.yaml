@@ -1,36 +1,22 @@
-id: singular-001
+   id: singular-001
 name: "Singular Construction"
-pattern: "Applies to nouns, pronouns, and determiners"
+pattern: "Applies to nouns, pronouns, determinatives, and proper names"
 meanings:
- 1:
-   definition: "Denotes individuation features"
-   details: "Semantic features characterizing a single, bounded entity"
-   examples:
-     - form: "cat-"
-       note: "Single entity features"
-     - form: "it"
-       note: "Single entity features"
-     - form: "this"
-       note: "Single entity features"
-   relations: [1, 2]
- 2:
-   definition: "Denotes unity features"
-   details: "Semantic features characterizing wholeness/completeness"
-   examples:
-     - form: "Kennedy-"
-       note: "Single entity features"
-     - form: "one"
-       note: "Single entity features"
-     - form: "that"
-       note: "Single entity features"
-   relations: [1, 3]
-relations:
- 1:
-   construction: "number-001"
-   type: "instantiates"
- 2:
-   construction: "count-001"
-   type: "enables"
- 3:
-   construction: "plural-001"
-   type: "contrasts-with"
+  1:
+    implements: "grammatical-number-001.1"
+    specialization: "Specifies exactly one countable entity"
+    examples:
+      - form: "cat-"
+        note: "Single entity"
+      - form: "it"
+        note: "Single entity reference"
+      - form: "this"
+        note: "Single entity determination"
+    relations: [1]
+  2:
+    implements: "grammatical-number-001.2" 
+    specialization: "Marks unity/wholeness for mass nouns"
+    examples:
+      - form: "rice"
+        note: "Undivided mass"
+    relations: [2]

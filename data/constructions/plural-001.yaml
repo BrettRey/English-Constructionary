@@ -1,41 +1,38 @@
+id: plural-001
+name: "Plural Construction"
+pattern: "Applies to nouns, pronouns, determinsyobrds, and proper names"
 meanings:
- 1:
-   definition: "Denotes non-singular features"
-   details: "Semantic features characterizing non-singular entities whether discrete or not"
-   examples:
-     - form: "cats-"
-       note: "Non-singular entities"
-     - form: "they"
-       note: "Non-singular entities"
-     - form: "these"
-       note: "Non-singular entities"
-   relations: [1, 2]
- 2:
-   definition: "Denotes aggregate features"
-   details: "Semantic features characterizing collectivity without specified count"
-   examples:
-     - form: "Kennedys-"
-       note: "Group entity features"
-     - form: "many"
-       note: "Group entity features"
-     - form: "those"
-       note: "Group entity features"
-   relations: [1, 3]
- 3: # New meaning for types/kinds
-   definition: "Denotes taxonomic features"
-   details: "Semantic features characterizing varieties or categories rather than instances"
-   examples:
-     - form: "wines-"
-       note: "Types rather than instances"
-     - form: "these"
-       note: "Categories of entities"
-   relations: [1, 2]
- 4: # New meaning for habitual/recurring
-   definition: "Denotes recurring features"
-   details: "Semantic features characterizing typical or repeated occurrences"
-   examples:
-     - form: "headaches-"
-       note: "Recurring instances"
-     - form: "these"
-       note: "Recurring events"
-   relations: [1]
+  1:
+    implements: "grammatical-number-001.1"
+    specialization: "Specifies non-singular quantities"
+    examples:
+      - form: "cats"
+        note: "Non-singular entities"
+      - form: "they"
+        note: "Non-singular entities"
+      - form: "these"
+        note: "Non-singular entities"
+    relations: [1, 2]
+  2:
+    implements: "grammatical-number-001.2"
+    specialization: "Marks countable aggregates/collections"
+    examples:
+      - form: "Kennedys"
+        note: "Group entity"
+      - form: "many"
+        note: "Group entity"
+    relations: [1, 3]
+  3:
+    implements: "grammatical-number-001.2"
+    specialization: "Marks countable taxonomic categories"
+    examples:
+      - form: "wines"
+        note: "Types rather than mass"
+    relations: [1, 2]
+  4:
+    implements: "grammatical-number-001.1"
+    specialization: "Marks recurring instances"
+    examples:
+      - form: "headaches"
+        note: "Recurring instances"
+    relations: [1]
