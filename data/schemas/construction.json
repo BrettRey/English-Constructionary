@@ -25,38 +25,79 @@
       "patternProperties": {
         "^[0-9]+$": {
           "type": "object",
-          "required": ["definition", "examples"],
-          "properties": {
-            "definition": {
-              "type": "string"
-            },
-            "details": {
-              "type": "string"
-            },
-            "examples": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "required": ["form"],
-                "properties": {
-                  "form": {
-                    "type": "string"
-                  },
-                  "note": {
-                    "type": "string"
+          "oneOf": [
+            {
+              "required": ["definition", "examples"],
+              "properties": {
+                "definition": {
+                  "type": "string"
+                },
+                "details": {
+                  "type": "string"
+                },
+                "examples": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["form"],
+                    "properties": {
+                      "form": {
+                        "type": "string"
+                      },
+                      "note": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "relations": {
+                  "type": "array",
+                  "description": "Indices referencing items in top-level 'relations'",
+                  "items": {
+                    "type": "integer"
                   }
                 }
-              }
+              },
+              "additionalProperties": false
             },
-            "relations": {
-              "type": "array",
-              "description": "Indices referencing items in top-level 'relations'",
-              "items": {
-                "type": "integer"
-              }
+            {
+              "required": ["implements", "specialization", "examples"],
+              "properties": {
+                "implements": {
+                  "type": "string",
+                  "description": "Reference to meaning in another construction (format: construction-id.meaning-number)",
+                  "pattern": "^[a-z-]+[0-9]{3}\\.[0-9]+$"
+                },
+                "specialization": {
+                  "type": "string",
+                  "description": "How this construction implements the referenced meaning"
+                },
+                "examples": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["form"],
+                    "properties": {
+                      "form": {
+                        "type": "string"
+                      },
+                      "note": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "relations": {
+                  "type": "array",
+                  "description": "Indices referencing items in top-level 'relations'",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "additionalProperties": false
             }
-          },
-          "additionalProperties": false
+          ]
         }
       },
       "additionalProperties": false
@@ -86,6 +127,7 @@
                 "related-to",
                 "transformed-from",
                 "specialization-of",
+                "implements",
                 "see-also"
               ]
             },
@@ -153,6 +195,7 @@
               "related-to",
               "transformed-from",
               "specialization-of",
+              "implements",
               "see-also"
             ]
           },
