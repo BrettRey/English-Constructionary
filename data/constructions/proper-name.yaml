@@ -1,0 +1,21 @@
+id: np-proper-name-001
+pattern: ""
+name: "Proper Name Phrase"
+meanings:
+  - meaning: "Refers to a unique individual, entity, place, event, etc."
+    examples:
+      - form: "John"
+        notes: "Refers to a specific person named John"
+      - form: "London"
+        notes: "Refers to the city of London"
+      - form: "the United Nations"
+        notes: "Refers to the international organization"
+constraints:
+  - type: "syntactic"
+    description: "Must contain a proper name"
+semanticType: "reference"
+relatedConstructions:
+  - id: "np-001"
+    relationship: "inherits-from"
+  - id: "np-proper-noun-001"
+    relationship: "specialization-of"

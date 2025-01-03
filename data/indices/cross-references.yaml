@@ -2,6 +2,21 @@ relationships:
   complementary:
     - constructions: [singular-001, plural-001]
       feature: "grammatical-number"
+    - constructions: [definite-001, indefinite-001]
+      feature: "grammatical-definiteness"
+    - constructions: [singular-001, plural-001]
+      feature: "grammatical-number"
+    - constructions: [definite-001, indefinite-001]
+      feature: "grammatical-definiteness"
   contrastive:
     - constructions: [singular-morpheme-001, plural-s-001]
       domain: "nominal-marking"
+    - constructions: [definite-determiner-001, indefinite-determiner-001]
+      domain: "determination"
+    - constructions: [singular-morpheme-001, plural-s-001]
+      domain: "nominal-marking"
+    - constructions: [definite-determiner-001, indefinite-determiner-001]
+      domain: "determination"
+    - constructions: [indefinite-determiner-001, bare-role-001]
+      domain: "role-marking"
+

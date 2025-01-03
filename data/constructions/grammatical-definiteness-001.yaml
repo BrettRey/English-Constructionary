@@ -1,0 +1,31 @@
+id: grammatical-definiteness-001
+name: "Grammatical Definiteness"
+pattern: "Semantic feature implemented through nominal determination"
+meanings:
+  1:
+    definition: "Identifiability status"
+    details: "Whether entity can be uniquely identified in context"
+    examples:
+      - form: "the/a cat"
+        note: "Identifiable vs non-identifiable"
+      - form: "John/some person"
+        note: "Inherent vs non-identifiable"
+    relations: [1]
+  2:
+    definition: "Reference scope"
+    details: "Whether reference exhausts contextual set"
+    examples:
+      - form: "every/some students"
+        note: "Maximal vs partial"
+      - form: "the/a winner"
+        note: "Unique vs arbitrary"
+    relations: [2]
+  3:
+    definition: "Discourse status"
+    details: "Whether entity is established in discourse"
+    examples:
+      - form: "the/a book"
+        note: "Given vs new"
+      - form: "it/something"
+        note: "Known vs novel"
+    relations: [3]

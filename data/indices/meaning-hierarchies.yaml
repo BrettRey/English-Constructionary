@@ -10,3 +10,22 @@ hierarchies:
           implementations:
             - plural-s-001
             - plural-pronouns-001  # hypothetical
+  definiteness:
+    root: grammatical-definiteness-001
+    implementations:
+      - definite-001:
+          implementations:
+            - definite-determiner-001  
+            - demonstrative-det-001  
+      - indefinite-001:
+          implementations:
+            - indefinite-determiner-001
+            - existential-quant-001
+            - bare-role-001
+  bare-np:
+    root: NP-bare-001
+    implementations:
+      - bare-role-001
+      - bare-mass-001  # hypothetical
+      - bare-plural-001  # hypothetical
+      - proper-name-001  # hypothetical

@@ -10,16 +10,35 @@ implementations:
         meaning: 2
       - construction: plural-001
         meaning: 3  # taxonomic features
-  plural-001:
-    1:
-      - construction: plural-s-001
+  grammatical-definiteness-001:
+    1: # identifiability
+      - construction: definite-001
         meaning: 1
-    2:
-      - construction: plural-s-001
-        meaning: 4  # groups
-    3:
-      - construction: plural-s-001
-        meaning: 2  # types
-    4:
-      - construction: plural-s-001
-        meaning: 3  # habitual
+      - construction: indefinite-001
+        meaning: 1
+    2: # reference scope
+      - construction: definite-001
+        meaning: 2 
+      - construction: indefinite-001
+        meaning: 3
+    3: # discourse status
+      - construction: definite-001
+        meaning: 4
+      - construction: indefinite-001
+        meaning: 2
+  indefinite-001:
+    3: # arbitrary role
+      - construction: bare-role-001
+        meaning: 1
+      - construction: bare-role-001
+        meaning: 2
+      - construction: bare-role-001
+        meaning: 3
+  NP-bare-001:
+    3: # role meaning
+      - construction: bare-role-001
+        meaning: 1
+      - construction: bare-role-001
+        meaning: 2
+      - construction: bare-role-001
+        meaning: 3

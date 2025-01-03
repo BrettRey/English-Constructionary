@@ -1,0 +1,40 @@
+id: definite-001
+name: "Definite Construction"
+pattern: "Definite determiner + Nominal | Proper name | Personal pronoun | Universal quantifier + Nominal"
+meanings:
+  1:
+    definition: "Identifiable referent"
+    details: "Entity uniquely identifiable in context through shared knowledge or previous mention"
+    examples:
+      - form: "the dog"
+        note: "Previously mentioned/contextually unique"
+      - form: "John"
+        note: "Inherently identifiable"
+    relations: [1]
+  2:
+    definition: "Unique/maximal entity"
+    details: "Entity or set exhausting relevant context"
+    examples:
+      - form: "the tallest student"
+        note: "Satisfies unique description"
+      - form: "every book"
+        note: "Complete set"
+    relations: [2]
+  3:
+    definition: "Kind/type"
+    details: "Category-level reference"
+    examples:
+      - form: "the lion"
+        note: "Species"
+      - form: "all cats"
+        note: "Category"
+    relations: [3]
+  4:
+    definition: "Familiar entity"
+    details: "Established in discourse/knowledge"
+    examples:
+      - form: "the Pope"
+        note: "Culturally established"
+      - form: "that same dog"
+        note: "Discourse established"
+    relations: [4]

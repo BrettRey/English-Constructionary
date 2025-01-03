@@ -1,25 +1,65 @@
-id: np-def-001
-pattern: "NP[Det[Def:YES] Nom]"
-name: "Definite Noun Phrase"
+id: NP-definite-001
+name: "Definite NP Construction" 
+pattern: "Definite determiner + Nominal | Personal pronoun | Universal quantifier + Nominal | Proper name"
 meanings:
-  - meaning: "Specific, identifiable referent"
-    examples:
-      - form: "the dog"
-        notes: "Refers to a particular dog that is known to both speaker and listener"
-      - form: "the book I bought yesterday"
-        notes: "Refers to a specific book that can be identified from the context"
-  - meaning: "Generic reference (with 'the')"
-    examples:
-      - form: "The tiger is an endangered species."
-        notes: "Refers to tigers as a kind, not one specific tiger."
-  - meaning: "Anaphoric reference"
-    examples:
-      - form: "I saw a cat. The cat was fluffy."
-        notes: "Refers back to the cat introduced in the previous sentence"
-constraints:
-  - type: "structural"
-    description: "Must have a definite determiner (e.g., 'the')"
-semanticType: "reference"
-relatedConstructions:
-  - id: "np-det-001"
-    relationship: "specialization-of"
+ 1:
+   definition: "Refers to/predicates identifiable instance"
+   details: "Refers to or predicates property of instance of nominal's type as uniquely identifiable in context"
+   examples:
+     - form: "The dog barked"
+       note: "Refers to specific dog"
+     - form: "She is the winner"
+       note: "Predicates unique role"
+   relations: [1, 2, 4]
+ 2:
+   definition: "Refers to/predicates maximal set"
+   details: "Refers to or predicates property of all contextually relevant instances of nominal's type"
+   examples:
+     - form: "All students passed"
+       note: "Refers to complete set"
+     - form: "They are the top performers"
+       note: "Predicates maximal group property"
+   relations: [1, 2, 3]
+ 3:
+   definition: "Refers to/predicates unique role"
+   details: "Refers to or predicates property of unique occupant/instance of role described by nominal"
+   examples:
+     - form: "The CEO resigned"
+       note: "Refers to role-holder"
+     - form: "That became the main issue"
+       note: "Predicates unique status"
+   relations: [1, 2, 4]
+ 4:
+   definition: "Refers to/predicates kind"
+   details: "Refers to or predicates property of entire species/type"
+   examples:
+     - form: "The dodo is extinct"
+       note: "Refers to species"
+     - form: "That animal is the lion"
+       note: "Predicates species membership"
+   relations: [1, 3, 4, 5]
+ 5:
+   definition: "Refers to/predicates generic property"
+   details: "Refers to or predicates property taken as generally characteristic"
+   examples:
+     - form: "The lion is dangerous"
+       note: "Refers to typical properties"
+     - form: "He became the typical bureaucrat"
+       note: "Predicates typical properties"
+   relations: [1, 4, 5]
+relations:
+ 1:
+   construction: "grammatical-definiteness-001.1"
+   type: "implements"
+ 2:
+   construction: "definite-001.1"
+   type: "elaborates"
+ 3:
+   construction: "quantifier-001"
+   type: "implements"
+ 4:
+   construction: "predication-001"
+   type: "enables"
+ 5:
+   construction: "kind-001"
+   type: "implements"
