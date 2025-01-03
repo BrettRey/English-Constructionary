@@ -1,0 +1,7 @@
+implementations:
+  plural-001:
+    1: # meaning 1 is implemented by:
+      - construction: plural-s-001
+        meaning: 1
+      - construction: plural-pronouns-001 
+        meaning: 1

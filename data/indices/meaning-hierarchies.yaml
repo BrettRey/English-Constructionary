@@ -1,0 +1,6 @@
+hierarchies:
+  plural:
+    root: plural-001
+    specializations:
+      - plural-s-001
+      - plural-pronouns-001
