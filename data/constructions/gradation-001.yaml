@@ -1,0 +1,44 @@
+id: gradation-001
+name: "Gradation"
+pattern: "X < {tall, deep, quick, ...} >"
+meanings:
+ 1:
+   definition: "Denotes scalar property"
+   details: "Core semantic features encoding measurable dimensions"
+   examples:
+     - form: "tall"
+       note: "Height scale"
+     - form: "quick"
+       note: "Speed scale"
+   relations: [1, 2]
+ 2:
+   definition: "Denotes scale structure"
+   details: "Semantic features encoding scale topology"
+   examples:
+     - form: "full/empty" 
+       note: "Closed scale"
+     - form: "long/short"
+       note: "Open scale"
+   relations: [2, 3]
+ 3:
+   definition: "Denotes standard reference"
+   details: "Semantic features encoding comparison class"
+   examples:
+     - form: "tall for a child"
+       note: "Class-relative"
+     - form: "perfectly clean"
+       note: "Absolute standard"
+   relations: [3, 4]
+relations:
+ 1:
+   construction: "scale-001"
+   type: "projects-to"
+ 2:
+   construction: "measure-001" 
+   type: "enables"
+ 3:
+   construction: "comparison-001"
+   type: "enables"
+ 4:
+   construction: "standard-001"
+   type: "enables"

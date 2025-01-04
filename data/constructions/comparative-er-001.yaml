@@ -1,0 +1,35 @@
+id: comparative-er-001
+name: "Comparative -er"
+pattern: "XP[X + -er] where X < {tall, deep, soon, near, few, ...} >"
+meanings:
+  1:
+    definition: "Denotes scalar superiority"
+    details: "Semantic operation comparing two points on scale denoted by base"
+    examples:
+      - form: "taller/deeper" 
+        note: "Property comparison"
+      - form: "sooner/nearer"
+        note: "Relation comparison"
+      - form: "fewer"
+        note: "Quantity comparison"  
+    relations: [1, 2]
+  2:
+    definition: "Denotes scalar difference"
+    details: "Semantic operation measuring interval between compared points"
+    examples:
+      - form: "much taller"
+        note: "Relative interval"
+      - form: "two inches taller" 
+        note: "Measured interval"
+    relations: [2, 3]
+  3:
+    definition: "Denotes comparison basis"
+    details: "Semantic operation establishing reference point"
+    examples:
+      - form: "taller than Bill"
+        note: "Explicit reference" 
+      - form: "the taller building"
+        note: "Contextual reference"
+    relations: [3, 4]
+relations:
+  [same as before]

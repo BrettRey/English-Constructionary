@@ -1,491 +1,68 @@
-id: adj-001
+id: adjective-001
 name: "Adjective"
-pattern: "Adj"
+pattern: "Adj root"
 meanings:
- 1:
-   definition: "Denotes dimensional scale"
-   details: "Encodes measurement on spatial extent parameter"
-   examples:
-     - form: "tall"
-       note: "Height parameter"
-     - form: "wide"
-       note: "Width parameter"
-   relations: [1, 2]
- 2: 
-   definition: "Denotes temperature scale"
-   details: "Encodes measurement on temperature parameter"
-   examples:
-     - form: "hot"
-       note: "High temperature"
-     - form: "cold"
-       note: "Low temperature"
-   relations: [1, 2]
- 3:
-   definition: "Denotes cost scale"
-   details: "Encodes measurement on economic value parameter" 
-   examples:
-     - form: "expensive"
-       note: "High cost"
-     - form: "cheap"
-       note: "Low cost"
-   relations: [1, 2]
- 4:
-   definition: "Denotes speed scale"
-   details: "Encodes measurement on rate parameter"
-   examples:
-     - form: "fast"
-       note: "High speed"
-     - form: "slow"
-       note: "Low speed"
-   relations: [1, 2]
- 5:
-   definition: "Denotes weight scale"
-   details: "Encodes measurement on mass parameter"
-   examples:
-     - form: "heavy"
-       note: "High mass"
-     - form: "light"
-       note: "Low mass"
-   relations: [1, 2]
- 6:
-   definition: "Denotes quality scale"
-   details: "Encodes measurement on evaluative parameter"
-   examples:
-     - form: "good"
-       note: "High quality"
-     - form: "bad"
-       note: "Low quality"
-   relations: [1, 2]
- 7:
-   definition: "Denotes intensity scale"
-   details: "Encodes measurement on strength parameter"
-   examples:
-     - form: "strong"
-       note: "High intensity"
-     - form: "weak"
-       note: "Low intensity"
-   relations: [1, 2]
- 8:
-   definition: "Denotes age scale"
-   details: "Encodes measurement on temporal existence parameter"
-   examples:
-     - form: "old"
-       note: "Extended existence"
-     - form: "new"
-       note: "Recent existence"
-   relations: [1, 2]
- 9:
-   definition: "Denotes difficulty scale"
-   details: "Encodes measurement on effort parameter"
-   examples:
-     - form: "difficult"
-       note: "High difficulty"
-     - form: "easy"
-       note: "Low difficulty"
-   relations: [1, 2]
- 10:
-   definition: "Denotes clarity scale"
-   details: "Encodes measurement on perceptibility parameter"
-   examples:
-     - form: "clear"
-       note: "High clarity"
-     - form: "vague"
-       note: "Low clarity"
-   relations: [1, 2]
- 11:
-   definition: "Denotes material property"
-   details: "Encodes composition or substance"
-   examples:
-     - form: "wooden"
-       note: "Wood material"
-     - form: "metallic"
-       note: "Metal material"
-   relations: [3, 4]
- 12:
-   definition: "Denotes origin property"
-   details: "Encodes source or provenance"
-   examples:
-     - form: "French"
-       note: "National origin"
-     - form: "urban"
-       note: "Location origin"
-   relations: [3, 4]
- 13:
-   definition: "Denotes purpose property"
-   details: "Encodes intended function"
-   examples:
-     - form: "surgical"
-       note: "Medical purpose"
-     - form: "educational"
-       note: "Teaching purpose"
-   relations: [3, 4]
- 14:
-   definition: "Denotes physical state"
-   details: "Encodes material condition"
-   examples:
-     - form: "broken"
-       note: "Damaged state"
-     - form: "intact"
-       note: "Whole state"
-   relations: [5, 6]
- 15:
-   definition: "Denotes mental state"
-   details: "Encodes psychological condition"
-   examples:
-     - form: "happy"
-       note: "Positive emotion"
-     - form: "confused"
-       note: "Cognitive state"
-   relations: [5, 6]
- 16:
-   definition: "Denotes health state"
-   details: "Encodes physical wellbeing"
-   examples:
-     - form: "healthy"
-       note: "Good health"
-     - form: "sick"
-       note: "Poor health"
-   relations: [5, 6]
- 17:
-   definition: "Denotes modal property"
-   details: "Encodes possibility or necessity"
-   examples:
-     - form: "possible"
-       note: "Can occur"
-     - form: "necessary"
-       note: "Must occur"
-   relations: [7, 8]
- 18:
-   definition: "Denotes epistemic property"
-   details: "Encodes degree of certainty"
-   examples:
-     - form: "certain"
-       note: "Known true"
-     - form: "doubtful"
-       note: "Likely false"
-   relations: [7, 8]
- 19:
-   definition: "Denotes temporal phase"
-   details: "Encodes stage in sequence"
-   examples:
-     - form: "current"
-       note: "Present phase"
-     - form: "former"
-       note: "Previous phase"
-   relations: [9, 10]
- 20:
-   definition: "Denotes temporal frequency"
-   details: "Encodes rate of occurrence"
-   examples:
-     - form: "frequent"
-       note: "Often occurring"
-     - form: "rare"
-       note: "Seldom occurring"
-   relations: [9, 10]
- 21:
-   definition: "Denotes quantity"
-   details: "Encodes numeric amount"
-   examples:
-     - form: "multiple"
-       note: "More than one"
-     - form: "numerous"
-       note: "Large number"
-   relations: [11, 12]
- 22:
-   definition: "Denotes completeness"
-   details: "Encodes degree of totality"
-   examples:
-     - form: "complete"
-       note: "Fully done"
-     - form: "partial"
-       note: "Partly done"
-   relations: [11, 12]
- 23:
-   definition: "Denotes reference type"
-   details: "Encodes mode of identification"
-   examples:
-     - form: "other"
-       note: "Different reference"
-     - form: "same"
-       note: "Identical reference"
-   relations: [13, 14]
- 24:
-   definition: "Denotes similarity degree"
-   details: "Encodes extent of resemblance"
-   examples:
-     - form: "similar"
-       note: "Like properties"
-     - form: "different"
-       note: "Unlike properties"
-   relations: [13, 14]
- 25:
-   definition: "Denotes sequence position"
-   details: "Encodes location in ordering"
-   examples:
-     - form: "next"
-       note: "Following position"
-     - form: "previous"
-       note: "Prior position"
-   relations: [15, 16]
- 26:
-   definition: "Denotes authenticity"
-   details: "Encodes degree of genuineness"
-   examples:
-     - form: "genuine"
-       note: "Actually true"
-     - form: "fake"
-       note: "Not genuine"
-   relations: [17, 18]
- 27:
-   definition: "Denotes adequacy"
-   details: "Encodes degree of sufficiency"
-   examples:
-     - form: "adequate"
-       note: "Sufficient amount"
-     - form: "insufficient"
-       note: "Not enough"
-   relations: [17, 18]
- 28:
-   definition: "Denotes correctness"
-   details: "Encodes degree of accuracy"
-   examples:
-     - form: "correct"
-       note: "Without error"
-     - form: "wrong"
-       note: "Having error"
-   relations: [17, 18]
- 29:
-   definition: "Denotes aesthetic quality"
-   details: "Encodes visual or artistic appeal"
-   examples:
-     - form: "beautiful"
-       note: "High aesthetic appeal"
-     - form: "ugly"
-       note: "Low aesthetic appeal"
-   relations: [17, 18]
- 30:
-   definition: "Denotes behavioral trait"
-   details: "Encodes characteristic conduct pattern"
-   examples:
-     - form: "friendly"
-       note: "Positive social behavior"
-     - form: "aggressive"
-       note: "Hostile behavior"
-   relations: [5, 6]
- 31:
-   definition: "Denotes technical nature"
-   details: "Encodes technological characteristics"
-   examples:
-     - form: "digital"
-       note: "Computer-based"
-     - form: "analog"
-       note: "Non-digital technology"
-   relations: [3, 4]
- 32:
-   definition: "Denotes social status"
-   details: "Encodes position in society"
-   examples:
-     - form: "influential"
-       note: "High social impact"
-     - form: "unknown"
-       note: "Low social recognition"
-   relations: [1, 2]
- 33:
-   definition: "Denotes moral quality"
-   details: "Encodes ethical value"
-   examples:
-     - form: "righteous"
-       note: "Morally good"
-     - form: "wicked"
-       note: "Morally bad"
-   relations: [17, 18]
- 34:
-   definition: "Denotes cognitive trait"
-   details: "Encodes mental capability"
-   examples:
-     - form: "intelligent"
-       note: "High mental capacity"
-     - form: "foolish"
-       note: "Low mental capacity"
-   relations: [1, 2]
- 35:
-   definition: "Denotes environmental impact"
-   details: "Encodes effect on surroundings"
-   examples:
-     - form: "sustainable"
-       note: "Environmentally beneficial"
-     - form: "polluting"
-       note: "Environmentally harmful"
-   relations: [17, 18]
- 36:
-   definition: "Denotes innovation degree"
-   details: "Encodes level of novelty"
-   examples:
-     - form: "innovative"
-       note: "Highly novel"
-     - form: "conventional"
-       note: "Not novel"
-   relations: [1, 2]
- 37:
-   definition: "Denotes sensory quality"
-   details: "Encodes perceptual experience"
-   examples:
-     - form: "loud"
-       note: "High auditory intensity"
-     - form: "quiet"
-       note: "Low auditory intensity"
-   relations: [1, 2]
- 38:
-   definition: "Denotes emotional impact"
-   details: "Encodes affective response"
-   examples:
-     - form: "exciting"
-       note: "High emotional arousal"
-     - form: "boring"
-       note: "Low emotional arousal"
-   relations: [1, 2]
- 39:
-   definition: "Denotes complexity level"
-   details: "Encodes structural intricacy"
-   examples:
-     - form: "complex"
-       note: "High intricacy"
-     - form: "simple"
-       note: "Low intricacy"
-   relations: [1, 2]
- 40:
-   definition: "Denotes reliability"
-   details: "Encodes dependability measure"
-   examples:
-     - form: "reliable"
-       note: "High dependability"
-     - form: "unreliable"
-       note: "Low dependability"
-   relations: [1, 2]
- 41:
-   definition: "Denotes cultural significance"
-   details: "Encodes societal importance"
-   examples:
-     - form: "traditional"
-       note: "High cultural value"
-     - form: "insignificant"
-       note: "Low cultural value"
-   relations: [3, 4]
- 42:
-   definition: "Denotes physical accessibility"
-   details: "Encodes ease of physical access"
-   examples:
-     - form: "accessible"
-       note: "Easy to reach"
-     - form: "remote"
-       note: "Hard to reach"
-   relations: [1, 2]
- 43:
-   definition: "Denotes functional state"
-   details: "Encodes operational condition"
-   examples:
-     - form: "functional"
-       note: "Working condition"
-     - form: "inoperative"
-       note: "Non-working condition"
-   relations: [5, 6]
- 44:
-   definition: "Denotes naturalness"
-   details: "Encodes degree of artificiality"
-   examples:
-     - form: "natural"
-       note: "Not artificial"
-     - form: "synthetic"
-       note: "Artificially made"
-   relations: [3, 4]
- 45:
-   definition: "Denotes economic significance"
-   details: "Encodes market importance"
-   examples:
-     - form: "profitable"
-       note: "High economic value"
-     - form: "unprofitable"
-       note: "Low economic value"
-   relations: [1, 2]
- 46:
-   definition: "Denotes temporal relevance"
-   details: "Encodes current applicability"
-   examples:
-     - form: "relevant"
-       note: "Currently applicable"
-     - form: "outdated"
-       note: "No longer applicable"
-   relations: [9, 10]
- 47:
-   definition: "Denotes social conformity"
-   details: "Encodes adherence to norms"
-   examples:
-     - form: "conventional"
-       note: "Following norms"
-     - form: "unconventional"
-       note: "Breaking norms"
-   relations: [3, 4]
- 48:
-   definition: "Denotes developmental stage"
-   details: "Encodes maturity level"
-   examples:
-     - form: "mature"
-       note: "Fully developed"
-     - form: "immature"
-       note: "Not fully developed"
-   relations: [5, 6]
+  1:
+    definition: "Denotes scalar feature bundle"
+    details: "Core semantic features that position entities on measurable dimensions"
+    examples:
+      - form: "tall-"
+        note: "Spatial scale features"
+      - form: "fast-"
+        note: "Rate scale features"
+    relations: [1, 2]
+  2:
+    definition: "Denotes classificatory feature bundle"
+    details: "Semantic features that assign entities to categories or types"
+    examples:
+      - form: "wooden-"
+        note: "Material classification"
+      - form: "French-"
+        note: "Origin classification"
+    relations: [1, 3]
+  3:
+    definition: "Denotes state feature bundle"
+    details: "Semantic features describing temporary or permanent conditions"
+    examples:
+      - form: "broken-"
+        note: "Physical state"
+      - form: "happy-"
+        note: "Mental state"
+    relations: [2, 4]
+  4:
+    definition: "Denotes evaluative feature bundle"
+    details: "Semantic features expressing assessment or judgment"
+    examples:
+      - form: "good-"
+        note: "Quality evaluation"
+      - form: "correct-"
+        note: "Accuracy evaluation"
+    relations: [3, 4]
+  5:
+    definition: "Denotes reference feature bundle"
+    details: "Semantic features establishing identity relations between entities"
+    examples:
+      - form: "same-"
+        note: "Identity reference"
+      - form: "other-"
+        note: "Non-identity reference"
+    relations: [5, 6]
 relations:
- 1:
-   construction: "property-001"
-   type: "implements"
- 2:
-   construction: "scalar-001"
-   type: "implements"
- 3:
-   construction: "class-001"
-   type: "implements"
- 4:
-   construction: "categorization-001"
-   type: "enables"
- 5:
-   construction: "state-001"
-   type: "implements"
- 6:
-   construction: "condition-001"
-   type: "enables"
- 7:
-   construction: "modality-001"
-   type: "implements"
- 8:
-   construction: "possibility-001"
-   type: "enables"
- 9:
-   construction: "temporal-001"
-   type: "implements"
- 10:
-   construction: "sequence-001"
-   type: "enables"
- 11:
-   construction: "quantity-001"
-   type: "implements"
- 12:
-   construction: "amount-001"
-   type: "enables"
- 13:
-   construction: "reference-001"
-   type: "implements"
- 14:
-   construction: "identity-001"
-   type: "enables"
- 15:
-   construction: "order-001"
-   type: "implements"
- 16:
-   construction: "succession-001"
-   type: "enables"
- 17:
-   construction: "evaluation-001"
-   type: "implements"
- 18:
-   construction: "truth-001"
-   type: "enables"
+  1:
+    construction: "property-001"
+    type: "projects-to"
+  2:
+    construction: "scale-001"
+    type: "enables"
+  3:
+    construction: "category-001"
+    type: "enables"
+  4:
+    construction: "evaluation-001"
+    type: "enables"
+  5:
+    construction: "reference-001"
+    type: "projects-to"
+  6:
+    construction: "identity-001" 
+    type: "enables"

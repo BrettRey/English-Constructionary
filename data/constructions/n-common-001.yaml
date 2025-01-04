@@ -1,53 +1,68 @@
-id: n-common-001
-name: "Common Noun"
-pattern: "Uncapitalized noun root [a-z]+"
+id: adj-001
+name: "Adjective"
+pattern: "Adj root"
 meanings:
- 1:
-   definition: "Denotes categorical feature bundle"
-   details: "Core semantic features that characterize a category of entities"
-   examples:
-     - form: "dog-"
-       note: "Canine-related features"
-     - form: "chair-"
-       note: "Seating-related features"
-   relations: [1, 2]
- 2:
-   definition: "Denotes functional feature bundle"
-   details: "Semantic features related to typical uses or roles"
-   examples:
-     - form: "teacher-"
-       note: "Teaching-related features"
-     - form: "knife-"
-       note: "Cutting-related features"
-   relations: [1, 3]
- 3:
-   definition: "Denotes compositional feature bundle"
-   details: "Semantic features related to typical material or structure"
-   examples:
-     - form: "wood-"
-       note: "Material-related features"
-     - form: "wall-"
-       note: "Structure-related features"
-   relations: [2, 4]
- 4:
-   definition: "Denotes relational feature bundle"
-   details: "Semantic features indicating typical relations to other entities"
-   examples:
-     - form: "mother-"
-       note: "Parental-relation features"
-     - form: "neighbor-"
-       note: "Proximity-relation features"
-   relations: [3, 4]
+  1:
+    definition: "Denotes scalar feature bundle"
+    details: "Core semantic features that position entities on measurable dimensions"
+    examples:
+      - form: "tall-"
+        note: "Spatial scale features"
+      - form: "fast-"
+        note: "Rate scale features"
+    relations: [1, 2]
+  2:
+    definition: "Denotes classificatory feature bundle"
+    details: "Semantic features that assign entities to categories or types"
+    examples:
+      - form: "wooden-"
+        note: "Material classification"
+      - form: "French-"
+        note: "Origin classification"
+    relations: [1, 3]
+  3:
+    definition: "Denotes state feature bundle"
+    details: "Semantic features describing temporary or permanent conditions"
+    examples:
+      - form: "broken-"
+        note: "Physical state"
+      - form: "happy-"
+        note: "Mental state"
+    relations: [2, 4]
+  4:
+    definition: "Denotes evaluative feature bundle"
+    details: "Semantic features expressing assessment or judgment"
+    examples:
+      - form: "good-"
+        note: "Quality evaluation"
+      - form: "correct-"
+        note: "Accuracy evaluation"
+    relations: [3, 4]
+   5:
+    definition: "Denotes reference feature bundle"
+    details: "Semantic features establishing identity relations between entities"
+    examples:
+      - form: "same-"
+        note: "Identity reference"
+      - form: "other-"
+        note: "Non-identity reference"
+    relations: [5, 6]
 relations:
- 1:
-   construction: "nom-common-001"
-   type: "projects-to"
- 2:
-   construction: "category-001"
-   type: "enables"
- 3:
-   construction: "function-001"
-   type: "enables"
- 4:
-   construction: "relation-001"
-   type: "enables"
+  1:
+    construction: "property-001"
+    type: "projects-to"
+  2:
+    construction: "scale-001"
+    type: "enables"
+  3:
+    construction: "category-001"
+    type: "enables"
+  4:
+    construction: "evaluation-001"
+    type: "enables"
+  5:
+    construction: "reference-001"
+    type: "projects-to"
+  6:
+    construction: "identity-001" 
+    type: "enables"
