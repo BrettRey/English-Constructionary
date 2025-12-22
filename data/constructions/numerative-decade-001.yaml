@@ -1,0 +1,18 @@
+id: numerative-decade-001
+name: Decade Numerative
+pattern: "Det[decade] + N"
+meanings:
+  '1':
+    definition: Specifies a cardinality in tens (20, 30, …, 90)
+    examples:
+      - form: twenty people
+        note: Cardinality 20
+      - form: seventy miles
+        note: Cardinality 70
+formRefs:
+  - numerative-decade
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: determination-001
+    relationship: related-to

@@ -229,6 +229,15 @@
       }
     },
 
+    "formRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/form-features.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+
     "syntacticRefs": {
       "type": "array",
       "description": "References to entries in data/indices/syntactic-diagnostics.yaml",

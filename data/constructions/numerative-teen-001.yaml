@@ -1,0 +1,18 @@
+id: numerative-teen-001
+name: Teen Numerative
+pattern: "Det[teen] + N"
+meanings:
+  '1':
+    definition: Specifies a cardinality from ten to nineteen
+    examples:
+      - form: ten students
+        note: Cardinality 10
+      - form: thirteen pages
+        note: Cardinality 13
+formRefs:
+  - numerative-teen
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: determination-001
+    relationship: related-to

@@ -1,0 +1,44 @@
+form_features:
+  numerative-single-digit:
+    description: "Basic single-digit determinatives (1–9)."
+    members:
+      - one
+      - two
+      - three
+      - four
+      - five
+      - six
+      - seven
+      - eight
+      - nine
+  numerative-teen:
+    description: "Teen determinatives (10–19)."
+    members:
+      - ten
+      - eleven
+      - twelve
+      - thirteen
+      - fourteen
+      - fifteen
+      - sixteen
+      - seventeen
+      - eighteen
+      - nineteen
+  numerative-decade:
+    description: "Decade determinatives (20, 30, …, 90)."
+    members:
+      - twenty
+      - thirty
+      - forty
+      - fifty
+      - sixty
+      - seventy
+      - eighty
+      - ninety
+  numerative-compound-basic:
+    description: "Compound basic numeratives (21–99) built from decade + single‑digit, typically hyphenated."
+    pattern: "decade + single-digit"
+    examples:
+      - twenty-one
+      - forty-two
+      - ninety-nine

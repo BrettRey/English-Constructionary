@@ -44,6 +44,7 @@ Meanings can reference these relations via their `relations` array.
 - `relatedConstructions`: array of `{ id, relationship, notes? }` using the schema’s relationship enums.
 - `hpc`: optional HPC metadata block (see below).
 - `semanticRefs`: list of IDs in `data/indices/semantic-features.yaml` relevant to the construction.
+- `formRefs`: list of IDs in `data/indices/form-features.yaml` relevant to the construction.
 - `syntacticRefs`: list of IDs in `data/indices/syntactic-diagnostics.yaml` relevant to the construction.
 
 ## HPC Metadata (`hpc`)
@@ -97,9 +98,10 @@ Common types include: `acquisition`, `entrenchment`, `alignment`, `transmission`
 ## Semantic & Syntax Registries
 Two non-construction registries live in `data/indices/`:
 - `semantic-features.yaml`: shared semantic property clusters and diagnostics (e.g., definiteness, identifiability).
+- `form-features.yaml`: shared form/lexical classes (e.g., single‑digit, decade, compound numeratives).
 - `syntactic-diagnostics.yaml`: shared syntactic diagnostics (e.g., existential *there* pivot, partitive *of*, one-substitution).
 
-Constructions can reference these via `semanticRefs` and `syntacticRefs` to avoid repeating long diagnostics across entries.
+Constructions can reference these via `semanticRefs`, `formRefs`, and `syntacticRefs` to avoid repeating long diagnostics across entries.
 
 ## CGEL Terminology
 Use CGEL-aligned terms where applicable, e.g., **determinative** (lexical category) rather than **determiner** (function), and **genitive** rather than **possessive**.

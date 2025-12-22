@@ -1,0 +1,30 @@
+id: numerative-compound-basic-001
+name: Compound Basic Numerative (Decade + Single-digit)
+pattern: "Det[decade + single-digit] + N (typically hyphenated)"
+meanings:
+  '1':
+    definition: Specifies a cardinality formed by additive composition of tens and ones
+    examples:
+      - form: twenty-one books
+        note: 20 + 1
+      - form: forty-two people
+        note: 40 + 2
+      - form: ninety-nine problems
+        note: 90 + 9
+constraints:
+  - type: structural
+    description: Requires a decade base with a single-digit addition; excludes *twenty-ten.
+formRefs:
+  - numerative-compound-basic
+  - numerative-decade
+  - numerative-single-digit
+semanticRefs:
+  - cardinality
+  - additive-composition
+relatedConstructions:
+  - id: numerative-decade-001
+    relationship: related-to
+  - id: numerative-single-digit-001
+    relationship: related-to
+  - id: determination-001
+    relationship: related-to

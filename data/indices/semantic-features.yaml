@@ -16,3 +16,7 @@ semantic_features:
     description: "Referent is discourse-given or previously established."
   anaphoric-recoverability:
     description: "Referent can be recovered from prior discourse context."
+  cardinality:
+    description: "Encodes numerical quantity of a set or entity."
+  additive-composition:
+    description: "Indicates additive composition within a numerative (e.g., 20 + 3)."
