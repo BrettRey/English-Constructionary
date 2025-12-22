@@ -1,0 +1,18 @@
+id: progressive-ing-001
+name: Progressive -ing
+pattern: Aux BE + V-ing
+meanings:
+  '1':
+    definition: Marks an ongoing or unfolding situation at a reference time
+    examples:
+      - form: She is reading
+        note: Situation in progress
+      - form: They were walking home
+        note: Ongoing event in past time frame
+  '2':
+    definition: Marks temporary or contingent situation framing
+    examples:
+      - form: He is living in Chicago
+        note: Temporary residence
+      - form: The server is running slow today
+        note: Contingent state

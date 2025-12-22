@@ -1,0 +1,18 @@
+id: perfect-have-001
+name: Perfect HAVE + V-en
+pattern: Aux HAVE + V-en
+meanings:
+  '1':
+    definition: Marks a prior situation with current relevance
+    examples:
+      - form: She has finished the report
+        note: Prior completion relevant now
+      - form: They had already left
+        note: Prior event relative to a past reference time
+  '2':
+    definition: Marks experiential or repeatable prior occurrence
+    examples:
+      - form: I have visited Japan
+        note: Experiential perfect
+      - form: We have met before
+        note: Prior occurrence with relevance
