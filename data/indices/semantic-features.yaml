@@ -24,3 +24,9 @@ semantic_features:
     description: "Ranks or orders an entity within an ordered set."
   fractional-quantity:
     description: "Specifies a partitive fraction of a whole."
+  countability:
+    description: "Morphosyntactic cluster distinguishing count vs mass profiles."
+  individuation:
+    description: "Semantic construal of referents as discrete units for counting."
+  individuation-precision:
+    description: "Degree of precision required to individuate units (tight vs loose)."

@@ -20,6 +20,14 @@ meanings:
         note: Mass vs count construal
     relations:
       - 2
+  '3':
+    definition: Encodes the tight/loose hierarchy of count diagnostics
+    details: Tight diagnostics (a/an, low cardinals, distributives) require higher individuation precision than loose diagnostics (many, high round numerals, plural agreement).
+    examples:
+      - form: many cattle vs *three cattle
+        note: Quasi-count pattern
+      - form: many folks vs ?three folks
+        note: Boundary item
 hpc:
   status: hpc
   cluster:
@@ -33,6 +41,9 @@ hpc:
     peripheral:
       - property: "Collective/aggregate construals"
         diagnostics: ["plural agreement with singular-looking nouns", "quasi-count behavior"]
+        weight: medium
+      - property: "Ordered dissociation of count diagnostics"
+        diagnostics: ["countability-hierarchy"]
         weight: medium
   stabilisers:
     - type: acquisition
@@ -71,3 +82,13 @@ hpc:
   coupling:
     linked_cluster: "individuation construal"
     mechanism: "bidirectional inference between construal and morphosyntax"
+semanticRefs:
+  - countability
+  - individuation
+  - individuation-precision
+syntacticRefs:
+  - countability-diagnostics
+  - countability-hierarchy
+relatedConstructions:
+  - id: quasi-count-noun-001
+    relationship: related-to

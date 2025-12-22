@@ -3,6 +3,7 @@ statuses:
     - degree-001
     - grammatical-number-001
     - n-mass-001
+    - quasi-count-noun-001
   thin: []
   fat:
     - adjective-001

@@ -1,0 +1,81 @@
+id: quasi-count-noun-001
+name: Quasi-count Plural Noun
+pattern: "N[plural-only quasi-count]"
+meanings:
+  '1':
+    definition: Denotes aggregates of discrete individuals with weakened individuation, yielding a mixed countability profile
+    examples:
+      - form: many cattle
+        note: Loose count property
+      - form: "*a cattle"
+        note: Tight property rejected
+      - form: three head of cattle
+        note: Specialized singulative counting frame
+constraints:
+  - type: syntactic
+    description: Plural-only morphology with plural agreement; resists singular and a/an.
+  - type: semantic
+    description: Individuation is weakened; tight count properties (low cardinals, distributives) are degraded.
+  - type: pragmatic
+    description: Tight cardinality uses surface mainly in specialized registers.
+formRefs:
+  - quasi-count-nouns
+semanticRefs:
+  - countability
+  - individuation
+  - individuation-precision
+syntacticRefs:
+  - countability-diagnostics
+  - countability-hierarchy
+relatedConstructions:
+  - id: grammatical-number-001
+    relationship: related-to
+  - id: n-mass-001
+    relationship: related-to
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Plural-only morphology with loose count diagnostics"
+        diagnostics: ["many/few N", "plural agreement", "high round numerals"]
+        weight: high
+      - property: "Rejection of tight count diagnostics"
+        diagnostics: ["a/an", "low cardinals", "distributives"]
+        weight: high
+    peripheral:
+      - property: "Functional singulative anchoring"
+        diagnostics: ["cow/officer for cattle/police", "head of N"]
+        weight: medium
+  stabilisers:
+    - type: entrenchment
+      evidence: "High-frequency quasi-count lexemes stabilize the profile."
+    - type: functional-pressure
+      evidence: "Singulative reference is offloaded to functional alternatives (cow, officer)."
+    - type: transmission
+      evidence: "Iterated transmission preserves the ordered dissociation pattern."
+  projectibility:
+    scope: "New aggregate nouns align with loose diagnostics before tight ones."
+    evidence: "Quasi-count class shows implicational hierarchy."
+    confidence: medium
+  homeostasis:
+    perturbations:
+      - "Loss of functional singulatives pushes toward full count or mass profiles."
+  variation:
+    activation_states:
+      - context: "specialized counting registers"
+        effect: "Occasional low-cardinal tokens are tolerated."
+    speaker_variation: "Boundary items (e.g., folks) show instability."
+  boundaries:
+    overlaps_with:
+      - grammatical-number-001
+      - n-mass-001
+    known_boundary_items:
+      - "folks"
+      - "people"
+  grain:
+    level: meso
+    parent_families:
+      - countability
+  coupling:
+    linked_cluster: "individuation construal"
+    mechanism: "bidirectional inference between construal and count morphosyntax"

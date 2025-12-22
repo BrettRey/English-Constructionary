@@ -51,6 +51,31 @@ syntactic_diagnostics:
       - "*twenty ‖ one"
       - "*twenty exactly one (books)"
 
+  countability-diagnostics:
+    description: "Countability cluster diagnostics separate tight (high-precision) from loose (low-precision) properties."
+    diagnostics:
+      - countability-tight
+      - countability-loose
+      - countability-hierarchy
+
+  countability-tight:
+    description: "Tight-linkage count properties requiring high individuation precision."
+    examples:
+      - "a/an N (a cow)"
+      - "low cardinals (three dogs)"
+      - "distributives (each/every N)"
+      - "singular morphology (dog vs dogs)"
+
+  countability-loose:
+    description: "Loose-linkage count properties tolerating low individuation precision."
+    examples:
+      - "many/few N"
+      - "high round numerals (a hundred N)"
+      - "plural agreement"
+
+  countability-hierarchy:
+    description: "Implicational hierarchy: if a noun rejects loose properties it will reject tight ones; quasi-count nouns keep loose properties while rejecting tight ones."
+
   clause-polarity-diagnostics:
     description: "Clause polarity can be diagnosed by continuations, tags, and inversion patterns."
     diagnostics:

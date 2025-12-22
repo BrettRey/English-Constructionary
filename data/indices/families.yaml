@@ -7,6 +7,7 @@ families:
     members:
       - grammatical-number-001
       - n-mass-001
+      - quasi-count-noun-001
   numeratives:
     members:
       - numerative-basic-lexeme-001

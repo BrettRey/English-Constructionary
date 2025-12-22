@@ -52,6 +52,8 @@ hpc:
       - "chicken"
       - "paper"
       - "furniture"
+      - "cattle"
+      - "police"
   grain:
     level: meso
     parent_families:
@@ -59,3 +61,12 @@ hpc:
   coupling:
     linked_cluster: "individuation construal"
     mechanism: "construal-driven frame selection"
+semanticRefs:
+  - countability
+  - individuation
+  - individuation-precision
+syntacticRefs:
+  - countability-diagnostics
+relatedConstructions:
+  - id: quasi-count-noun-001
+    relationship: related-to

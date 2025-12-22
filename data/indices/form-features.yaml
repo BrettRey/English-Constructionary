@@ -123,3 +123,12 @@ form_features:
     examples:
       - over thirty
       - up to thirty
+  quasi-count-nouns:
+    description: "Plural-only quasi-count nouns with reduced number possibilities."
+    members:
+      - cattle
+      - police
+      - clergy
+      - poultry
+      - livestock
+      - vermin
