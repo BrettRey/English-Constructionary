@@ -24,5 +24,7 @@ relatedConstructions:
     relationship: contains
   - id: numerative-basic-lexeme-001
     relationship: contains
+  - id: numerative-complex-001
+    relationship: related-to
   - id: determination-001
     relationship: related-to

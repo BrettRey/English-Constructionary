@@ -1,0 +1,31 @@
+id: numerative-complex-001
+name: Complex Numerative (Phrasal >99)
+pattern: "[factor + magnitude] (+ addition)"
+meanings:
+  '1':
+    definition: Phrasal numeratives above the lexical 0–99 range, built from magnitude phrases with optional additions
+    examples:
+      - form: one thousand twenty-four
+        note: factor + magnitude + asyndetic addition
+      - form: two hundred and five
+        note: factor + magnitude + and-addition
+constraints:
+  - type: structural
+    description: Requires a magnitude head with a factor; additions are coordinated constituents.
+  - type: structural
+    description: Applies above the basic numerative lexicon (0–99).
+semanticRefs:
+  - cardinality
+  - additive-composition
+syntacticRefs:
+  - prosodic-breaks-magnitude
+  - coordination-ellipsis-numerative
+relatedConstructions:
+  - id: numerative-factor-modifier-001
+    relationship: contains
+  - id: numerative-addition-coordination-001
+    relationship: contains
+  - id: numerative-addition-asyndetic-001
+    relationship: contains
+  - id: numerative-basic-lexeme-001
+    relationship: related-to

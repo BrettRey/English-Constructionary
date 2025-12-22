@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T15:52:28.698Z",
+  "generatedAt": "2025-12-22T16:11:30.149Z",
   "sections": [
     {
       "id": "project",
@@ -633,9 +633,19 @@
             {
               "id": "numerative-addition-coordination-001",
               "relationship": "alternates-with"
+            },
+            {
+              "id": "numerative-complex-001",
+              "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "numerative-complex-001",
+              "title": "numerative-complex-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "numerative-addition-coordination-001",
@@ -657,11 +667,21 @@
               "relationship": "alternates-with"
             },
             {
+              "id": "numerative-complex-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "numerative-magnitude-head-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "numerative-complex-001",
+              "title": "numerative-complex-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "numerative-basic-lexeme-001",
@@ -726,6 +746,32 @@
               "relationship": "contains"
             }
           ]
+        },
+        {
+          "id": "numerative-complex-001",
+          "title": "numerative-complex-001",
+          "subtitle": "Complex Numerative (Phrasal >99)",
+          "path": "/data/constructions/numerative-complex-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-factor-modifier-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "numerative-compound-basic-001",
@@ -804,6 +850,10 @@
               "relationship": "contains"
             },
             {
+              "id": "numerative-complex-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "determination-001",
               "relationship": "related-to"
             }
@@ -817,6 +867,11 @@
             {
               "id": "numerative-addition-coordination-001",
               "title": "numerative-addition-coordination-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-complex-001",
+              "title": "numerative-complex-001",
               "relationship": "contains"
             }
           ]

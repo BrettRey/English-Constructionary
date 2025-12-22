@@ -28,5 +28,7 @@ relatedConstructions:
     relationship: contains
   - id: numerative-addition-asyndetic-001
     relationship: alternates-with
+  - id: numerative-complex-001
+    relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to

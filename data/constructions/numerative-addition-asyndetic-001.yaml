@@ -30,3 +30,5 @@ relatedConstructions:
     relationship: contains
   - id: numerative-addition-coordination-001
     relationship: alternates-with
+  - id: numerative-complex-001
+    relationship: related-to
