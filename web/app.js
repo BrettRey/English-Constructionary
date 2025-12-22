@@ -128,7 +128,7 @@ const renderYamlSummary = (data) => {
   headerBlock.appendChild(headerTitle);
   const grid = document.createElement('div');
   grid.className = 'detail-grid';
-  ['id', 'name', 'pattern'].forEach((key) => {
+  ['id', 'name'].forEach((key) => {
     if (data[key]) {
       const row = document.createElement('div');
       row.innerHTML = `<strong>${key}</strong>: ${data[key]}`;
@@ -137,6 +137,40 @@ const renderYamlSummary = (data) => {
   });
   headerBlock.appendChild(grid);
   detailBody.appendChild(headerBlock);
+
+  const formBlock = document.createElement('div');
+  formBlock.className = 'detail-block';
+  const formTitle = document.createElement('h3');
+  formTitle.textContent = 'Form';
+  formBlock.appendChild(formTitle);
+  const formGrid = document.createElement('div');
+  formGrid.className = 'detail-grid';
+  if (data.pattern) {
+    const row = document.createElement('div');
+    row.innerHTML = `<strong>pattern</strong>: ${data.pattern}`;
+    formGrid.appendChild(row);
+  }
+  if (Array.isArray(data.constraints) && data.constraints.length > 0) {
+    const row = document.createElement('div');
+    const list = data.constraints
+      .map((item) => `${item.type}: ${item.description}`)
+      .join('; ');
+    row.innerHTML = `<strong>constraints</strong>: ${list}`;
+    formGrid.appendChild(row);
+  }
+  if (Array.isArray(data.formRefs) && data.formRefs.length > 0) {
+    const row = document.createElement('div');
+    row.innerHTML = `<strong>formRefs</strong>: ${data.formRefs.join(', ')}`;
+    formGrid.appendChild(row);
+  }
+  if (formGrid.children.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty';
+    empty.textContent = 'No form details provided.';
+    formGrid.appendChild(empty);
+  }
+  formBlock.appendChild(formGrid);
+  detailBody.appendChild(formBlock);
 
   if (data.meanings) {
     const meaningsBlock = document.createElement('div');
@@ -155,6 +189,45 @@ const renderYamlSummary = (data) => {
     });
     meaningsBlock.appendChild(meaningsList);
     detailBody.appendChild(meaningsBlock);
+  }
+
+  if (data.meanings) {
+    const examples = [];
+    Object.entries(data.meanings).forEach(([key, value]) => {
+      if (!value || typeof value !== 'object' || !Array.isArray(value.examples)) return;
+      value.examples.forEach((example) => {
+        if (!example || !example.form) return;
+        examples.push({
+          meaning: key,
+          form: example.form,
+          note: example.note || ''
+        });
+      });
+    });
+
+    const exampleBlock = document.createElement('div');
+    exampleBlock.className = 'detail-block';
+    const exampleTitle = document.createElement('h3');
+    exampleTitle.textContent = 'Examples';
+    exampleBlock.appendChild(exampleTitle);
+    const exampleGrid = document.createElement('div');
+    exampleGrid.className = 'detail-grid';
+
+    if (examples.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'empty';
+      empty.textContent = 'No examples listed.';
+      exampleGrid.appendChild(empty);
+    } else {
+      examples.forEach((example) => {
+        const row = document.createElement('div');
+        const note = example.note ? ` — ${example.note}` : '';
+        row.innerHTML = `<strong>${example.meaning}</strong>: ${example.form}${note}`;
+        exampleGrid.appendChild(row);
+      });
+    }
+    exampleBlock.appendChild(exampleGrid);
+    detailBody.appendChild(exampleBlock);
   }
 
   if (data.hpc && data.hpc.status) {

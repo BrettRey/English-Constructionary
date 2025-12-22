@@ -5,17 +5,15 @@ meanings:
   '1':
     definition: Genitive NP realizes determiner function with a subject-like semantic relation to the head nominal
     examples:
-      - form: "Ally's new car"
-        note: Genitive NP as determiner
-      - form: "the boy's shoes"
-        note: Definite genitive determiner
       - form: "Brett's use of the microphone"
         note: Genitive NP corresponds to the subject/agent of the nominalization
+      - form: "the committee's approval of the plan"
+        note: Genitive NP corresponds to the notional subject of the event noun
 constraints:
   - type: syntactic
     description: Genitive NP occupies the determiner position in NP structure.
   - type: semantic
-    description: Genitive NP stands in a subject-like relation to the head noun (e.g., agent/experiencer of a nominalized predicate).
+    description: Genitive NP stands in a subject-like relation to the head noun (e.g., agent/experiencer of a nominalized predicate), not mere possession.
 formRefs:
   - subject-determiner-genitive
 syntacticRefs:
