@@ -1,13 +1,13 @@
 id: numerative-decade-001
 name: Decade Numerative
-pattern: "Det[decade] + N"
+pattern: "Det[decade]"
 meanings:
   '1':
     definition: Specifies a cardinality in tens (20, 30, …, 90)
     examples:
-      - form: twenty people
+      - form: twenty
         note: Cardinality 20
-      - form: seventy miles
+      - form: seventy
         note: Cardinality 70
 formRefs:
   - numerative-decade

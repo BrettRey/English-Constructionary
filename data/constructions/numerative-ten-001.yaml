@@ -1,11 +1,11 @@
 id: numerative-ten-001
 name: Ten Numerative
-pattern: "Det[ten] + N"
+pattern: "Det[ten]"
 meanings:
   '1':
     definition: Specifies a cardinality of ten
     examples:
-      - form: ten students
+      - form: ten
         note: Cardinality 10
 formRefs:
   - numerative-ten

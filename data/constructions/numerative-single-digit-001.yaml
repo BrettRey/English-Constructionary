@@ -1,13 +1,13 @@
 id: numerative-single-digit-001
 name: Single-digit Numerative
-pattern: "Det[single-digit] + N"
+pattern: "Det[single-digit]"
 meanings:
   '1':
     definition: Specifies a cardinality from one to nine
     examples:
-      - form: one cat
+      - form: one
         note: Cardinality 1
-      - form: five books
+      - form: five
         note: Cardinality 5
 formRefs:
   - numerative-single-digit

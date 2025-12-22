@@ -1,13 +1,13 @@
 id: numerative-teen-irregular-001
 name: Irregular Teen Numerative (eleven/twelve)
-pattern: "Det[irregular-teen] + N"
+pattern: "Det[irregular-teen]"
 meanings:
   '1':
     definition: Suppletive teen numeratives for 11 and 12
     examples:
-      - form: eleven students
+      - form: eleven
         note: Cardinality 11
-      - form: twelve pages
+      - form: twelve
         note: Cardinality 12
 constraints:
   - type: morphological

@@ -1,21 +1,21 @@
 id: numerative-basic-lexeme-001
 name: Basic Numerative Lexeme (0–99)
-pattern: "Det[basic numerative] + N"
+pattern: "Det[basic numerative]"
 meanings:
   '1':
-    definition: Lexical numeratives from zero to ninety-nine used in determiner function
+    definition: Lexical numeratives from zero to ninety-nine
     examples:
-      - form: five books
+      - form: five
         note: Single-digit
-      - form: ten students
+      - form: ten
         note: Ten
-      - form: twelve pages
+      - form: twelve
         note: Irregular teen
-      - form: nineteen errors
+      - form: nineteen
         note: Regular -teen
-      - form: forty people
+      - form: forty
         note: Decade
-      - form: twenty-six items
+      - form: twenty-six
         note: Compound basic numerative
 constraints:
   - type: morphological
