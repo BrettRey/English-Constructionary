@@ -1,0 +1,14 @@
+id: nom-prehead-mod-001
+name: Nominal Pre-head Modifier
+pattern: Nom[Mod:XP Head:N]
+meanings:
+  '1':
+    definition: A nominal that includes a pre-head modifier
+    examples:
+      - form: old book
+        note: Adjectival pre-head modifier
+      - form: dog breeder
+        note: Nominal pre-head modifier
+relatedConstructions:
+  - id: nom-premod-000
+    relationship: see-also

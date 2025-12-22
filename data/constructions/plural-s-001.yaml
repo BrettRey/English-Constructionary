@@ -1,32 +1,36 @@
 id: plural-s-001
-name: "Plural -s" 
-pattern: "Common noun + -s/-es"
+name: Plural -s
+pattern: Common noun + -s/-es
 meanings:
- 1:
-   implements: "plural-001.1"
-   specialization: "Marks common nouns as non-singular via -s/-es suffix"
-   examples:
-     - form: "cats"
-       note: "Marks 'cat' as non-singular"
-   relations: [1]
- 2:
-   implements: "plural-001.3"
-   specialization: "Shifts common noun denotation from instances to types/varieties"
-   examples:
-     - form: "wines"
-       note: "Types of wine"
-   relations: [2]
- 3:
-   implements: "plural-001.4"
-   specialization: "Marks common nouns in habitual/recurring contexts"
-   examples:
-     - form: "I get headaches"
-       note: "Recurring condition"
-   relations: [1]
- 4:
-   implements: "plural-001.2"
-   specialization: "Forms common nouns denoting groups from proper names"
-   examples:
-     - form: "the Kennedys"
-       note: "Kennedy family/dynasty members"
-   relations: [3]
+  '1':
+    implements: plural-001.1
+    specialization: Marks common nouns as non-singular via -s/-es suffix
+    examples:
+      - form: cats
+        note: Marks 'cat' as non-singular
+    relations:
+      - 1
+  '2':
+    implements: plural-001.3
+    specialization: Shifts common noun denotation from instances to types/varieties
+    examples:
+      - form: wines
+        note: Types of wine
+    relations:
+      - 2
+  '3':
+    implements: plural-001.4
+    specialization: Marks common nouns in habitual/recurring contexts
+    examples:
+      - form: I get headaches
+        note: Recurring condition
+    relations:
+      - 1
+  '4':
+    implements: plural-001.2
+    specialization: Forms common nouns denoting groups from proper names
+    examples:
+      - form: the Kennedys
+        note: Kennedy family/dynasty members
+    relations:
+      - 3

@@ -1,0 +1,14 @@
+id: np-gen-indep-001
+name: Independent Genitive NP
+pattern: NP[Genitive:Independent]
+meanings:
+  '1':
+    definition: An NP in independent genitive form without an overt head noun
+    examples:
+      - form: mine
+        note: Independent genitive pronoun
+      - form: yours
+        note: Independent genitive pronoun
+relatedConstructions:
+  - id: independent-genitive-pronoun-001
+    relationship: related-to

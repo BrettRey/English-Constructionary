@@ -1,21 +1,22 @@
 id: np-common-001
-pattern: "NP[N-Type: Common]"
-name: "Common Noun Phrase"
+name: Common Noun Phrase
+pattern: 'NP[N-Type: Common]'
 meanings:
-  - meaning: "Refers to entities or concepts that are not unique individuals"
+  '1':
+    definition: Refers to entities or concepts that are not unique individuals
     examples:
-      - form: "dog"
-        notes: "General reference to the kind"
-      - form: "the books"
-        notes: "Specific reference to a set of books"
+      - form: dog
+        note: General reference to the kind
+      - form: the books
+        note: Specific reference to a set of books
 constraints:
-  - type: "syntactic"
-    description: "Must contain a common noun"
-semanticType: "reference"
+  - type: syntactic
+    description: Must contain a common noun
+semanticType: reference
 relatedConstructions:
-  - id: "np-001"
-    relationship: "inherits-from"
-  - id: "np-bare-001"
-    relationship: "specialization-of"
-  - id: "np-det-001"
-    relationship: "specialization-of"
+  - id: np-001
+    relationship: inherits-from
+  - id: np-bare-001
+    relationship: specialization-of
+  - id: np-det-001
+    relationship: specialization-of

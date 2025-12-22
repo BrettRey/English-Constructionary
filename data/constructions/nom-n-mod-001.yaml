@@ -1,95 +1,61 @@
 id: nom-n-mod-001
-pattern: "Nom[Mod:Nom Head:N]"
-name: "Nominal Pre-head Modifier in Nominal"
+name: Nominal Pre-head Modifier in Nominal
+pattern: Nom[Mod:Nom Head:N]
 meanings:
-  - meaning: "The first nominal specifies the type or category of the second nominal."
+  '1':
+    definition: The first nominal specifies the type or category of the second nominal.
+    details: 'Constraints: semantic: The first nominal denotes a type or category that the second nominal belongs to. Related constructions: n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
-      - form: "[[dog] breeder]"
-        notes: "Specifies the type of breeder: one who breeds dogs."
-      - form: "[[toy] factory]"
-        notes: "Specifies the type of factory: one that makes toys."
-    constraints:
-      - type: "semantic"
-        description: "The first nominal denotes a type or category that the second nominal belongs to."
-    relatedConstructions:
-      - id: "n-common-001"
-        relationship: "can-fill-left"
-      - id: "n-common-001"
-        relationship: "can-fill-right"
-  - meaning: "The first nominal indicates the purpose or function of the second nominal."
+      - form: '[[dog] breeder]'
+        note: 'Specifies the type of breeder: one who breeds dogs.'
+      - form: '[[toy] factory]'
+        note: 'Specifies the type of factory: one that makes toys.'
+  '2':
+    definition: The first nominal indicates the purpose or function of the second nominal.
+    details: 'Constraints: semantic: The first nominal denotes a purpose or function associated with the second nominal. Related constructions: n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
-      - form: "[[coffee] cup]"
-        notes: "A cup intended for holding coffee."
-      - form: "[[work] clothes]"
-        notes: "Clothes worn for work."
-    constraints:
-      - type: "semantic"
-        description: "The first nominal denotes a purpose or function associated with the second nominal."
-    relatedConstructions:
-      - id: "n-common-001"
-        relationship: "can-fill-left"
-      - id: "n-common-001"
-        relationship: "can-fill-right"
-  - meaning: "The first nominal specifies the origin or location of the second nominal."
+      - form: '[[coffee] cup]'
+        note: A cup intended for holding coffee.
+      - form: '[[work] clothes]'
+        note: Clothes worn for work.
+  '3':
+    definition: The first nominal specifies the origin or location of the second nominal.
+    details: 'Constraints: semantic: The first nominal denotes a location or origin associated with the second nominal. Related constructions: n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
-      - form: "[[city] council]"
-        notes: "Indicates the council is associated with a particular city."
-      - form: "[[country] music]"
-        notes: "Music originating from or associated with a particular country."
-    constraints:
-      - type: "semantic"
-        description: "The first nominal denotes a location or origin associated with the second nominal."
-    relatedConstructions:
-      - id: "n-common-001"
-        relationship: "can-fill-left"
-      - id: "n-common-001"
-        relationship: "can-fill-right"
-  - meaning: "The first nominal describes a defining characteristic of the second nominal"
+      - form: '[[city] council]'
+        note: Indicates the council is associated with a particular city.
+      - form: '[[country] music]'
+        note: Music originating from or associated with a particular country.
+  '4':
+    definition: The first nominal describes a defining characteristic of the second nominal
+    details: 'Constraints: semantic: The first nominal denotes a defining characteristic of the second nominal Related constructions: np-commonized-pron-001 (can-fill); n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
-      - form: "the [[me] generation]"
-        notes: "The first nominal describes a defining characteristic of the second nominal"
-      - form: "[[man] hours]"
-        notes: "The first nominal describes a defining characteristic of the second nominal"
-    constraints:
-      - type: "semantic"
-        description: "The first nominal denotes a defining characteristic of the second nominal"
-    relatedConstructions:
-      - id: "np-commonized-pron-001"
-        relationship: "can-fill"
-      - id: "n-common-001"
-        relationship: "can-fill-left"
-      - id: "n-common-001"
-        relationship: "can-fill-right"
-  - meaning: "The first nominal has a relationship with the second nominal that is similar to that expressed by a genitive construction, indicating a relationship such as possession, association, or inalienable part."
+      - form: the [[me] generation]
+        note: The first nominal describes a defining characteristic of the second nominal
+      - form: '[[man] hours]'
+        note: The first nominal describes a defining characteristic of the second nominal
+  '5':
+    definition: The first nominal has a relationship with the second nominal that is similar to that expressed by a genitive construction, indicating a relationship such as possession, association, or inalienable part.
+    details: 'Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using ''of'' or ''''s''). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
-      - form: "[[student] representative]"
-        notes: "Equivalent to 'representative of the students'."
-      - form: "[[government] land]"
-        notes: "Could be paraphrased as 'the government's land'."
-      - form: "[[baby] food]"
-        notes: "Meaning 'food for babies'."
-    constraints:
-      - type: "semantic"
-        description: "The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using 'of' or ''s')."
-    relatedConstructions:
-      - id: "np-gen-dep-001"
-        relationship: "semantically-related-to"
-      - id: "np-gen-indep-001"
-        relationship: "semantically-related-to"
-      - id: "n-common-001"
-        relationship: "can-fill-left"
-      - id: "n-common-001"
-        relationship: "can-fill-right"
+      - form: '[[student] representative]'
+        note: Equivalent to 'representative of the students'.
+      - form: '[[government] land]'
+        note: Could be paraphrased as 'the government's land'.
+      - form: '[[baby] food]'
+        note: Meaning 'food for babies'.
 constraints:
-  - type: "structural"
-    description: "A nominal functions as a pre-head modifier within a larger noun phrase."
-  - type: "syntactic"
-    description: "The first nominal modifies the second nominal (which is the head of the larger NP). The head of the modifying nominal is a Noun."
-  - type: "semantic"
-    description: "The modifying nominal typically restricts or specifies the meaning of the head nominal."
-semanticType: "modification"
+  - type: structural
+    description: A nominal functions as a pre-head modifier within a larger noun phrase.
+  - type: syntactic
+    description: The first nominal modifies the second nominal (which is the head of the larger NP). The head of the modifying nominal is a Noun.
+  - type: semantic
+    description: The modifying nominal typically restricts or specifies the meaning of the head nominal.
+semanticType: modification
 relatedConstructions:
-  - id: "nom-001"
-    relationship: "can-fill"
-  - id: "np-001"
-    relationship: "can-be-part-of"
+  - id: nom-001
+    relationship: related-to
+    notes: 'Original relationship: can-fill.'
+  - id: np-001
+    relationship: related-to
+    notes: 'Original relationship: can-be-part-of.'

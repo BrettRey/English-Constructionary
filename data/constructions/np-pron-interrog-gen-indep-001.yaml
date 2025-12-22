@@ -1,0 +1,12 @@
+id: np-pron-interrog-gen-indep-001
+name: Independent Interrogative Genitive Pronoun NP
+pattern: whose
+meanings:
+  '1':
+    definition: Interrogative independent genitive pronoun functioning as an NP
+    examples:
+      - form: Whose is this?
+        note: Asks for the possessor
+relatedConstructions:
+  - id: independent-genitive-pronoun-001
+    relationship: related-to

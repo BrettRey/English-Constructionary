@@ -23,7 +23,7 @@ hierarchies:
             - existential-quant-001
             - bare-role-001
   bare-np:
-    root: NP-bare-001
+    root: np-bare-001
     implementations:
       - bare-role-001
       - bare-mass-001  # hypothetical

@@ -1,95 +1,116 @@
-id: NP-bare-001
-name: "Bare NP Construction"
-pattern: "NP[Head:Nom]"
+id: np-bare-001
+name: Bare NP Construction
+pattern: NP[Head:Nom]
 meanings:
- 1:
-   definition: "Refers to/predicates mass substance"
-   details: "Refers to or predicates uncountable substance/material"
-   examples:
-     - form: "Water is essential"
-       note: "Mass substance reference"
-     - form: "That is gold"
-       note: "Mass substance predication"
-   relations: [1, 2]
- 2:
-   definition: "Refers to/predicates kind"
-   details: "Refers to or predicates type/category through plural form"
-   examples:
-     - form: "Dogs are loyal"
-       note: "Kind reference"
-     - form: "Those are bears"
-       note: "Kind predication"
-   relations: [2, 3]
- 3:
-   definition: "Refers to/predicates role"
-   details: "Predicates institutional/professional role status"
-   examples:
-     - form: "is president"
-       note: "Role predication"
-     - form: "became chair"
-       note: "Role assumption"
-   relations: [3, 4]
- 4:
-   definition: "Refers to individual"
-   details: "Refers to uniquely identifiable individual through proper name"
-   examples:
-     - form: "John arrived"
-       note: "Individual reference"
-     - form: "That is Mary"
-       note: "Individual identification"
-   relations: [1, 4]
- 5:
-   definition: "Refers to/predicates activity"
-   details: "Refers to or predicates generic activity type"
-   examples:
-     - form: "Playing piano takes practice"
-       note: "Activity reference"
-     - form: "That is swimming"
-       note: "Activity identification"
-   relations: [2, 5]
- 6:
-   definition: "Refers to/predicates time"
-   details: "Refers to or predicates temporal point/period"
-   examples:
-     - form: "Monday works"
-       note: "Time reference"
-     - form: "That is noon"
-       note: "Time identification"
-   relations: [4, 6]
- 7:
-   definition: "Refers to/predicates place" 
-   details: "Refers to or predicates location/space"
-   examples:
-     - form: "Home is where..."
-       note: "Place reference"
-     - form: "This is downtown"
-       note: "Place identification"
-   relations: [4, 6]
- 8:
-   definition: "Refers to/predicates abstract concept"
-   details: "Refers to or predicates abstract notion/quality"
-   examples:
-     - form: "Freedom isn't free"
-       note: "Abstract reference"
-     - form: "That is justice"
-       note: "Abstract identification"
-   relations: [2, 5]
+  '1':
+    definition: Refers to/predicates mass substance
+    details: Refers to or predicates uncountable substance/material
+    examples:
+      - form: Water is essential
+        note: Mass substance reference
+      - form: That is gold
+        note: Mass substance predication
+    relations:
+      - 1
+      - 2
+  '2':
+    definition: Refers to/predicates kind
+    details: Refers to or predicates type/category through plural form
+    examples:
+      - form: Dogs are loyal
+        note: Kind reference
+      - form: Those are bears
+        note: Kind predication
+    relations:
+      - 2
+      - 3
+  '3':
+    definition: Refers to/predicates role
+    details: Predicates institutional/professional role status
+    examples:
+      - form: is president
+        note: Role predication
+      - form: became chair
+        note: Role assumption
+    relations:
+      - 3
+      - 4
+  '4':
+    definition: Refers to individual
+    details: Refers to uniquely identifiable individual through proper name
+    examples:
+      - form: John arrived
+        note: Individual reference
+      - form: That is Mary
+        note: Individual identification
+    relations:
+      - 1
+      - 4
+  '5':
+    definition: Refers to/predicates activity
+    details: Refers to or predicates generic activity type
+    examples:
+      - form: Playing piano takes practice
+        note: Activity reference
+      - form: That is swimming
+        note: Activity identification
+    relations:
+      - 2
+      - 5
+  '6':
+    definition: Refers to/predicates time
+    details: Refers to or predicates temporal point/period
+    examples:
+      - form: Monday works
+        note: Time reference
+      - form: That is noon
+        note: Time identification
+    relations:
+      - 4
+      - 6
+  '7':
+    definition: Refers to/predicates place
+    details: Refers to or predicates location/space
+    examples:
+      - form: Home is where...
+        note: Place reference
+      - form: This is downtown
+        note: Place identification
+    relations:
+      - 4
+      - 6
+  '8':
+    definition: Refers to/predicates abstract concept
+    details: Refers to or predicates abstract notion/quality
+    examples:
+      - form: Freedom isn't free
+        note: Abstract reference
+      - form: That is justice
+        note: Abstract identification
+    relations:
+      - 2
+      - 5
 relations:
- 1:
-   construction: "NP-indefinite-001"
-   type: "implements"
- 2:
-   construction: "mass-001"
-   type: "enables"
- 3:
-   construction: "kind-001"
-   type: "enables"
- 4:
-   construction: "proper-name-001"
-   type: "enables"
- 5:
-   construction: "abstract-001"
-   type: "enables"
- 6:
-   construction: "deictic-001"
-   type: "enables"
+  '1':
+    construction: np-indef-001
+    type: implements
+  '2':
+    construction: mass-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '3':
+    construction: kind-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '4':
+    construction: proper-name-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '5':
+    construction: abstract-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '6':
+    construction: deictic-001
+    type: related-to
+    notes: 'Original type: enables.'

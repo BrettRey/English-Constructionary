@@ -1,84 +1,61 @@
 id: np-pron-001
-pattern: "NP[Pron]"
-name: "Pronominal Noun Phrase"
+name: Pronominal Noun Phrase
+pattern: NP[Pron]
 meanings:
-  - meaning: "Anaphoric reference - refers back to a previously mentioned entity (antecedent)"
+  '1':
+    definition: Anaphoric reference - refers back to a previously mentioned entity (antecedent)
+    details: 'Constraints: discourse: Requires an antecedent in the preceding discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: "John arrived. He looked tired."
-        notes: "'He' refers back to 'John'."
-    constraints:
-      - type: "discourse"
-        description: "Requires an antecedent in the preceding discourse"
-    relatedConstructions:
-      - id: "np-pron-personal-001"
-        relationship: "can-be-filled-by"
-  - meaning: "Cataphoric reference - refers forward to an entity mentioned later in the discourse"
+      - form: John arrived. He looked tired.
+        note: '''He'' refers back to ''John''.'
+  '2':
+    definition: Cataphoric reference - refers forward to an entity mentioned later in the discourse
+    details: 'Constraints: discourse: Requires an antecedent in the following discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: "If you see him, tell John I need to talk to him."
-        notes: "'him' refers forward to 'John'."
-    constraints:
-      - type: "discourse"
-        description: "Requires an antecedent in the following discourse"
-    relatedConstructions:
-      - id: "np-pron-personal-001"
-        relationship: "can-be-filled-by"
-  - meaning: "Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)"
+      - form: If you see him, tell John I need to talk to him.
+        note: '''him'' refers forward to ''John''.'
+  '3':
+    definition: Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)
+    details: 'Constraints: contextual: Requires a referent that is salient in the shared context of the speakers Related constructions: np-pron-personal-001 (can-be-filled-by); np-pron-demonstrative-001 (can-be-filled-by)'
     examples:
-      - form: "He's late again."
-        notes: "Said about someone not present, referring to a shared understanding of who 'he' is."
-      - form: "That is incredible!"
-        notes: "Said while experiencing something, where 'that' refers to the current situation."
-    constraints:
-      - type: "contextual"
-        description: "Requires a referent that is salient in the shared context of the speakers"
-    relatedConstructions:
-      - id: "np-pron-personal-001"
-        relationship: "can-be-filled-by"
-      - id: "np-pron-demonstrative-001"
-        relationship: "can-be-filled-by"
-  - meaning: "Bound variable reference - refers to an entity whose referent varies depending on a quantifier"
+      - form: He's late again.
+        note: Said about someone not present, referring to a shared understanding of who 'he' is.
+      - form: That is incredible!
+        note: Said while experiencing something, where 'that' refers to the current situation.
+  '4':
+    definition: Bound variable reference - refers to an entity whose referent varies depending on a quantifier
+    details: 'Constraints: syntactic: Requires a quantified antecedent, often in the same sentence Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: "Every student thinks they are smart."
-        notes: "'they' refers to each student, and its referent varies with each student."
-    constraints:
-      - type: "syntactic"
-        description: "Requires a quantified antecedent, often in the same sentence"
-    relatedConstructions:
-      - id: "np-pron-personal-001"
-        relationship: "can-be-filled-by"
-  - meaning: "Dummy pronoun - has no referential meaning, serves a grammatical function"
+      - form: Every student thinks they are smart.
+        note: '''they'' refers to each student, and its referent varies with each student.'
+  '5':
+    definition: Dummy pronoun - has no referential meaning, serves a grammatical function
+    details: 'Limited to ''it'' and ''there'' in specific grammatical constructions. Constraints: semantic: Devoid of semantic content Related constructions: np-pron-dummy-001 (can-be-filled-by)'
     examples:
-      - form: "It is raining."
-        notes: "'It' does not refer to anything; it's a grammatical placeholder."
-      - form: "There is a problem."
-        notes: "'There' does not refer to a place; it introduces the existence of something."
-    constraints:
-      - type: "semantic"
-        description: "Devoid of semantic content"
-    notes: "Limited to 'it' and 'there' in specific grammatical constructions."
-    relatedConstructions:
-      - id: "np-pron-dummy-001"
-        relationship: "can-be-filled-by"
+      - form: It is raining.
+        note: '''It'' does not refer to anything; it''s a grammatical placeholder.'
+      - form: There is a problem.
+        note: '''There'' does not refer to a place; it introduces the existence of something.'
 constraints:
-  - type: "syntactic"
-    description: "Must consist of a pronoun functioning as the head of the NP"
-semanticType: "reference"
+  - type: syntactic
+    description: Must consist of a pronoun functioning as the head of the NP
+semanticType: reference
 relatedConstructions:
-  - id: "np-001"
-    relationship: "inherits-from"
-  - id: "np-pron-personal-001"
-    relationship: "specialization-of"
-  - id: "np-pron-demonstrative-001"
-    relationship: "specialization-of"
-  - id: "np-pron-indefinite-001"
-    relationship: "specialization-of"
-  - id: "np-pron-reflexive-001"
-    relationship: "specialization-of"
-  - id: "np-pron-reciprocal-001"
-    relationship: "specialization-of"
-  - id: "np-pron-interrog-001"
-    relationship: "specialization-of"
-  - id: "np-pron-rel-001"
-    relationship: "specialization-of"
-  - id: "np-pron-dummy-001"
-    relationship: "specialization-of"
+  - id: np-001
+    relationship: inherits-from
+  - id: np-pron-personal-001
+    relationship: specialization-of
+  - id: np-pron-demonstrative-001
+    relationship: specialization-of
+  - id: np-pron-indefinite-001
+    relationship: specialization-of
+  - id: np-pron-reflexive-001
+    relationship: specialization-of
+  - id: np-pron-reciprocal-001
+    relationship: specialization-of
+  - id: np-pron-interrog-001
+    relationship: specialization-of
+  - id: np-pron-rel-001
+    relationship: specialization-of
+  - id: np-pron-dummy-001
+    relationship: specialization-of

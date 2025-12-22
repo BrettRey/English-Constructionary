@@ -1,15 +1,12 @@
 id: np-det-001
-pattern: "NP[Det Nom]"
-name: "Determined Noun Phrase"
+name: Determined Noun Phrase
+pattern: NP[Det Nom]
 meanings:
-  - meaning: "Referential, typically with specific or contextually identifiable referent"
+  '1':
+    definition: Referential, typically with specific or contextually identifiable referent
+    details: 'Related constructions: np-def-001 (inherits-from); np-indef-001 (inherits-from)'
     examples:
-      - form: "the dog"
-        notes: "Could refer to a specific dog previously mentioned or identifiable from context."
-      - form: "those books"
-        notes: "Refers to specific books that are likely identifiable by the listener."
-    relatedConstructions:
-      - id: "np-def-001"
-        relationship: "inherits-from"
-      - id: "np-indef-001"
-        relationship: "inherits-from"
+      - form: the dog
+        note: Could refer to a specific dog previously mentioned or identifiable from context.
+      - form: those books
+        note: Refers to specific books that are likely identifiable by the listener.

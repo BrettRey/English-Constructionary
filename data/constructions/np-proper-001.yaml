@@ -1,0 +1,16 @@
+id: np-proper-001
+name: Proper Noun Phrase
+pattern: NP[Head:ProperName]
+meanings:
+  '1':
+    definition: NP headed by a proper name identifying a unique entity
+    examples:
+      - form: London
+        note: Proper name NP
+      - form: the United Nations
+        note: Proper name phrase
+relatedConstructions:
+  - id: np-001
+    relationship: inherits-from
+  - id: np-proper-name-001
+    relationship: related-to

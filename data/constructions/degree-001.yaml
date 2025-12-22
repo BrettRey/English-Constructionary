@@ -1,49 +1,59 @@
 id: degree-001
-name: "Degree"
-pattern: "XP[{more|less} + X] | XP[X + -er] | XP[{most|least} + X] | XP[X + -est] | XP[as + X + as]"
+name: Degree
+pattern: XP[{more|less} + X] | XP[X + -er] | XP[{most|least} + X] | XP[X + -est] | XP[as + X + as]
 meanings:
- 1:
-   definition: "Denotes relative scale position"
-   details: "Semantic features encoding comparative, superlative and equative scale relations"
-   examples:
-     - form: "taller/shorter than; more/less expensive than"
-       note: "Bidirectional comparison"
-     - form: "tallest/shortest; most/least expensive"
-       note: "Scale endpoints"
-     - form: "as tall as" 
-       note: "Scale equality"
-   relations: [1, 2]
- 2:
-   definition: "Denotes scale intervals"
-   details: "Semantic features encoding degree of difference between scale points"
-   examples:
-     - form: "much taller/slightly shorter"
-       note: "Relative intervals"
-     - form: "two feet taller/three times less"
-       note: "Measured intervals"
-   relations: [2, 3]
- 3:
-   definition: "Denotes comparison classes"
-   details: "Semantic features encoding reference sets for comparison"
-   examples:
-     - form: "taller than average/most expensive of all"
-       note: "Set comparison"
-     - form: "as tall as expected/least expensive option"
-       note: "Standard comparison"
-   relations: [3, 4]
+  '1':
+    definition: Denotes relative scale position
+    details: Semantic features encoding comparative, superlative and equative scale relations
+    examples:
+      - form: taller/shorter than; more/less expensive than
+        note: Bidirectional comparison
+      - form: tallest/shortest; most/least expensive
+        note: Scale endpoints
+      - form: as tall as
+        note: Scale equality
+    relations:
+      - 1
+      - 2
+  '2':
+    definition: Denotes scale intervals
+    details: Semantic features encoding degree of difference between scale points
+    examples:
+      - form: much taller/slightly shorter
+        note: Relative intervals
+      - form: two feet taller/three times less
+        note: Measured intervals
+    relations:
+      - 2
+      - 3
+  '3':
+    definition: Denotes comparison classes
+    details: Semantic features encoding reference sets for comparison
+    examples:
+      - form: taller than average/most expensive of all
+        note: Set comparison
+      - form: as tall as expected/least expensive option
+        note: Standard comparison
+    relations:
+      - 3
+      - 4
 relations:
- 1:
-   construction: "comparison-001"
-   type: "projects-to"
- 2:
-   construction: "measure-001"
-   type: "enables"
- 3:
-   construction: "standard-001"
-   type: "enables"
- 4:
-   construction: "scale-001"
-   type: "enables"
- 5:
-   construction: "gradation-001"
-   type: "implements"
+  '1':
+    construction: comparison-001
+    type: related-to
+    notes: 'Original type: projects-to.'
+  '2':
+    construction: measure-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '3':
+    construction: standard-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '4':
+    construction: scale-001
+    type: related-to
+    notes: 'Original type: enables.'
+  '5':
+    construction: gradation-001
+    type: implements

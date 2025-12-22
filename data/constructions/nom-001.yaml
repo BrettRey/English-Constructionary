@@ -1,22 +1,24 @@
 id: nom-001
-name: "Nominal Construction"
-pattern: "Optional modifiers + Required head (N-001 + {singular-001 | plural-001}) + Optional post modifiers/complements"
+name: Nominal Construction
+pattern: Optional modifiers + Required head (N-001 + {singular-001 | plural-001}) + Optional post modifiers/complements
 meanings:
-  1:
-    definition: "Specifies/restricts feature bundles"
-    details: "Modifies/narrows the feature bundle denoted by the head"
+  '1':
+    definition: Specifies/restricts feature bundles
+    details: Modifies/narrows the feature bundle denoted by the head
     examples:
-      - form: "wooden chair"
-        note: "Restricts material features"
-      - form: "helpful neighbors"
-        note: "Specifies relational features"
-    relations: [1]
-  2:
-    definition: "Elaborates relational features"
-    details: "Extends relational aspects of feature bundle through complements"
+      - form: wooden chair
+        note: Restricts material features
+      - form: helpful neighbors
+        note: Specifies relational features
+    relations:
+      - 1
+  '2':
+    definition: Elaborates relational features
+    details: Extends relational aspects of feature bundle through complements
     examples:
-      - form: "mother of three"
-        note: "Elaborates parental relation"
-      - form: "knowledge that it is true"
-        note: "Elaborates contents of the knowledge"
-    relations: [2]
+      - form: mother of three
+        note: Elaborates parental relation
+      - form: knowledge that it is true
+        note: Elaborates contents of the knowledge
+    relations:
+      - 2

@@ -1,91 +1,116 @@
 id: independent-genitive-pronoun-001
-name: "Independent Genitive Pronoun"
-pattern: "mine/yours/his/hers/its/ours/theirs/whose"
+name: Independent Genitive Pronoun
+pattern: mine/yours/his/hers/its/ours/theirs/whose
 meanings:
- 1:
-   definition: "Indicates possession/ownership"
-   details: "Marks the pronoun as possessor or controller"
-   examples:
-     - form: "That car is mine"
-       note: "Personal ownership"
-     - form: "These policies are theirs"
-       note: "Institutional control"
-     - form: "Whose is this?"
-       note: "Questioning possession"
-   relations: [1, 2]
- 2:
-   definition: "Marks intrinsic relationship/part-whole"
-   details: "Indicates inherent connection rather than ownership"
-   examples:
-     - form: "These branches must be yours"
-       note: "Parts of your tree"
-     - form: "The theme is theirs"
-       note: "Component of their work"
-   relations: [1, 3, 4]
- 3:
-   definition: "Indicates creation/authorship"
-   details: "Marks the creator or source"
-   examples:
-     - form: "Those paintings are hers"
-       note: "She created them"
-     - form: "This theory is ours"
-       note: "We developed it"
-   relations: [1, 6]
- 4:
-   definition: "Expresses time/duration relationship"
-   details: "Marks temporal measurement or occurrence"
-   examples:
-     - form: "That meeting is yours"
-       note: "In your time slot"
-     - form: "These tasks are theirs"
-       note: "Assigned to their period"
-   relations: [1, 5]
- 5:
-   definition: "Indicates characteristic or property"
-   details: "Marks defining features or qualities"
-   examples:
-     - form: "That strength is its"
-       note: "Property of it"
-     - form: "Those weaknesses are theirs"
-       note: "Their characteristics"
-   relations: [1, 2, 4]
- 6:
-   definition: "Marks subject-like relationship"
-   details: "Indicates the doer/experiencer of an action/state"
-   examples:
-     - form: "That laughter is hers"
-       note: "She is the one laughing"
-     - form: "The decision was yours"
-       note: "You decided"
-   relations: [1, 4, 6]
- 7:
-   definition: "Expresses social/institutional relationship"
-   details: "Marks organizational or relational connections"
-   examples:
-     - form: "That coach is ours"
-       note: "Coaches our team"
-     - form: "These employees are yours"
-       note: "Work for you"
-   relations: [1, 2, 7]
+  '1':
+    definition: Indicates possession/ownership
+    details: Marks the pronoun as possessor or controller
+    examples:
+      - form: That car is mine
+        note: Personal ownership
+      - form: These policies are theirs
+        note: Institutional control
+      - form: Whose is this?
+        note: Questioning possession
+    relations:
+      - 1
+      - 2
+  '2':
+    definition: Marks intrinsic relationship/part-whole
+    details: Indicates inherent connection rather than ownership
+    examples:
+      - form: These branches must be yours
+        note: Parts of your tree
+      - form: The theme is theirs
+        note: Component of their work
+    relations:
+      - 1
+      - 3
+      - 4
+  '3':
+    definition: Indicates creation/authorship
+    details: Marks the creator or source
+    examples:
+      - form: Those paintings are hers
+        note: She created them
+      - form: This theory is ours
+        note: We developed it
+    relations:
+      - 1
+      - 6
+  '4':
+    definition: Expresses time/duration relationship
+    details: Marks temporal measurement or occurrence
+    examples:
+      - form: That meeting is yours
+        note: In your time slot
+      - form: These tasks are theirs
+        note: Assigned to their period
+    relations:
+      - 1
+      - 5
+  '5':
+    definition: Indicates characteristic or property
+    details: Marks defining features or qualities
+    examples:
+      - form: That strength is its
+        note: Property of it
+      - form: Those weaknesses are theirs
+        note: Their characteristics
+    relations:
+      - 1
+      - 2
+      - 4
+  '6':
+    definition: Marks subject-like relationship
+    details: Indicates the doer/experiencer of an action/state
+    examples:
+      - form: That laughter is hers
+        note: She is the one laughing
+      - form: The decision was yours
+        note: You decided
+    relations:
+      - 1
+      - 4
+      - 6
+  '7':
+    definition: Expresses social/institutional relationship
+    details: Marks organizational or relational connections
+    examples:
+      - form: That coach is ours
+        note: Coaches our team
+      - form: These employees are yours
+        note: Work for you
+    relations:
+      - 1
+      - 2
+      - 7
 relations:
- 1:
-   construction: "np-001"
-   type: "functions-as"
- 2:
-   construction: "property-of-001"
-   type: "instantiates"
- 3:
-   construction: "part-whole-001"
-   type: "instantiates"
- 4:
-   construction: "nominalization-001"
-   type: "interacts-with"
- 5:
-   construction: "measure-phrase-001"
-   type: "can-form"
- 6:
-   construction: "agent-of-001"
-   type: "can-express"
- 7:
-   construction: "social-role-001"
-   type: "instantiates"
+  '1':
+    construction: np-001
+    type: related-to
+    notes: 'Original type: functions-as.'
+  '2':
+    construction: property-of-001
+    type: implements
+    notes: 'Original type: instantiates.'
+  '3':
+    construction: part-whole-001
+    type: implements
+    notes: 'Original type: instantiates.'
+  '4':
+    construction: nominalization-001
+    type: related-to
+    notes: 'Original type: interacts-with.'
+  '5':
+    construction: measure-phrase-001
+    type: related-to
+    notes: 'Original type: can-form.'
+  '6':
+    construction: agent-of-001
+    type: related-to
+    notes: 'Original type: can-express.'
+  '7':
+    construction: social-role-001
+    type: implements
+    notes: 'Original type: instantiates.'

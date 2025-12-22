@@ -1,56 +1,74 @@
 id: proper-name-001
-name: "Proper Name"
-pattern: "Any linguistic form that functions to uniquely identify"
+name: Proper Name
+pattern: Any linguistic form that functions to uniquely identify
 meanings:
- 1:
-   definition: "Refers to a unique individual, entity, place, event, etc."
-   details: "Names create cognitive access points, allowing discourse participants to track and accumulate information about the referent over time. They serve as anchors for both encyclopedic and episodic knowledge."
-   examples:
-     - form: "The Boring Company"
-       note: "Company name using common nouns"
-     - form: "Brett Reynolds"
-       note: "Personal name"
-   relations: [1, 2, 3, 4]
- 2:
-   definition: "Creates social/institutional facts through naming"
-   details: "Names don't just label but can constitute social reality. They can confer status, rights, responsibilities, and social relationships."
-   examples:
-     - form: "His Holiness the 14th Dalai Lama"
-       note: "Establishes institutional role"
-   relations: [1, 2, 3, 4]
- 3:
-   definition: "Signals membership in name categories"
-   details: "Names often carry cultural, social, and categorical information through their form. Company names, book titles, personal names each tend to follow recognizable patterns that help hearers identify the type of entity being named."
-   examples:
-     - form: "If on a winter's night a traveler"
-       note: "Literary title following artistic conventions"
-   relations: [1, 2, 3, 4]
- 4:
-   definition: "Indexes social relationships and hierarchies"
-   details: "The choice of which form of a name to use (full name, first name, nickname, title + name, etc.) can indicate social distance, formality, power relationships, and discourse context."
-   examples:
-     - form: "Professor Smith" 
-       note: "Formal title indicating professional relationship"
-   relations: [1, 2, 3]
- 5:
-   definition: "Establishes legal/organizational status"
-   details: "Certain name elements (Inc., Ltd., Co., etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing."
-   examples:
-     - form: "Apple Inc."
-       note: "Corporate designation indicating incorporation"
-     - form: "Johnson & Johnson Limited Partnership"
-       note: "Multiple status indicators"
-   relations: [1, 3, 4]
+  '1':
+    definition: Refers to a unique individual, entity, place, event, etc.
+    details: Names create cognitive access points, allowing discourse participants to track and accumulate information about the referent over time. They serve as anchors for both encyclopedic and episodic knowledge.
+    examples:
+      - form: The Boring Company
+        note: Company name using common nouns
+      - form: Brett Reynolds
+        note: Personal name
+    relations:
+      - 1
+      - 2
+      - 3
+      - 4
+  '2':
+    definition: Creates social/institutional facts through naming
+    details: Names don't just label but can constitute social reality. They can confer status, rights, responsibilities, and social relationships.
+    examples:
+      - form: His Holiness the 14th Dalai Lama
+        note: Establishes institutional role
+    relations:
+      - 1
+      - 2
+      - 3
+      - 4
+  '3':
+    definition: Signals membership in name categories
+    details: Names often carry cultural, social, and categorical information through their form. Company names, book titles, personal names each tend to follow recognizable patterns that help hearers identify the type of entity being named.
+    examples:
+      - form: If on a winter's night a traveler
+        note: Literary title following artistic conventions
+    relations:
+      - 1
+      - 2
+      - 3
+      - 4
+  '4':
+    definition: Indexes social relationships and hierarchies
+    details: The choice of which form of a name to use (full name, first name, nickname, title + name, etc.) can indicate social distance, formality, power relationships, and discourse context.
+    examples:
+      - form: Professor Smith
+        note: Formal title indicating professional relationship
+    relations:
+      - 1
+      - 2
+      - 3
+  '5':
+    definition: Establishes legal/organizational status
+    details: Certain name elements (Inc., Ltd., Co., etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing.
+    examples:
+      - form: Apple Inc.
+        note: Corporate designation indicating incorporation
+      - form: Johnson & Johnson Limited Partnership
+        note: Multiple status indicators
+    relations:
+      - 1
+      - 3
+      - 4
 relations:
- 1:
-   construction: "np-001"
-   type: "can-manifest-as"
- 2:
-   construction: "honorific-001"
-   type: "often-contains"
- 3:
-   construction: "title-001" 
-   type: "overlaps-with"
- 4:
-   construction: "corporate-designation-001"
-   type: "can-contain"
+  '1':
+    construction: np-001
+    type: can-manifest-as
+  '2':
+    construction: honorific-001
+    type: often-contains
+  '3':
+    construction: title-001
+    type: overlaps-with
+  '4':
+    construction: corporate-designation-001
+    type: can-contain

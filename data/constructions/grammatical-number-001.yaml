@@ -1,20 +1,22 @@
 id: grammatical-number-001
-name: "Grammatical Number"
-pattern: "Applies to nouns and agreement targets"
+name: Grammatical Number
+pattern: Applies to nouns and agreement targets
 meanings:
-  1:
-    definition: "Specifies cardinality features"
-    details: "Core semantic features relating to quantity/cardinality of referents"
+  '1':
+    definition: Specifies cardinality features
+    details: Core semantic features relating to quantity/cardinality of referents
     examples:
-      - form: "cat/cats"
-        note: "Singular vs non-singular reference"
-      - form: "this/these"
-        note: "Singular vs non-singular determination"
-    relations: [1]
-  2:
-    definition: "Marks countability status"
-    details: "Indicates whether referents are construed as countable units"
+      - form: cat/cats
+        note: Singular vs non-singular reference
+      - form: this/these
+        note: Singular vs non-singular determination
+    relations:
+      - 1
+  '2':
+    definition: Marks countability status
+    details: Indicates whether referents are construed as countable units
     examples:
-      - form: "rice/rices"
-        note: "Mass vs count construal"
-    relations: [2]
+      - form: rice/rices
+        note: Mass vs count construal
+    relations:
+      - 2

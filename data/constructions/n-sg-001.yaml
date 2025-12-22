@@ -1,4 +1,7 @@
 id: n-sg-001
-pattern: "N[Number:SG]"
-name: "Singular Noun"
-coreMeaning: "Reference to single entity/count item"
+name: Singular Noun
+pattern: N[Number:SG]
+meanings:
+  '1':
+    definition: Reference to single entity/count item
+    examples: []

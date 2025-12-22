@@ -1,0 +1,11 @@
+id: n-common-pl-001
+name: Plural Common Noun
+pattern: N[Type:Common, Number:PL]
+meanings:
+  '1':
+    definition: Denotes multiple instances of a common noun category
+    examples:
+      - form: dogs
+        note: Plural count noun
+      - form: cities
+        note: Plural common noun

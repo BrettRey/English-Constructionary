@@ -34,7 +34,7 @@ implementations:
         meaning: 2
       - construction: bare-role-001
         meaning: 3
-  NP-bare-001:
+  np-bare-001:
     3: # role meaning
       - construction: bare-role-001
         meaning: 1

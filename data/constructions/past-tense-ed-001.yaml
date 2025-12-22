@@ -1,55 +1,67 @@
 id: past-tense-ed-001
-name: "Past Tense -ed"
-pattern: "Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)"
+name: Past Tense -ed
+pattern: Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)
 meanings:
- 1:
-   definition: "Marks temporal/modal/social distance"
-   details: "Core meaning potentially involving displacement from a reference point (temporal, modal, or interpersonal) - though this unification remains debatable"
-   examples:
-     - form: "She walked home"
-       note: "Temporal displacement"
-     - form: "If I owned a car"
-       note: "Modal displacement"
-     - form: "I wanted to ask you"
-       note: "Social displacement"
-   relations: [1, 2]
- 2:
-   definition: "Temporal anteriority"
-   details: "Marks situation as occurring before reference time (but see cases like sports commentary where this breaks down)"
-   examples:
-     - form: "They finished yesterday"
-       note: "Clear anterior time"
-     - form: "Jones passed to Smith!"
-       note: "Immediate past challenging pure anteriority"
-   relations: [1, 3]
- 3:
-   definition: "Non-actual/hypothetical marking"
-   details: "Indicates displacement from actual/current reality"
-   examples:
-     - form: "If she studied more"
-       note: "Counterfactual condition"
-     - form: "I wish I lived there"
-       note: "Contrary-to-fact desire"
-   relations: [1, 4]
- 4:
-   definition: "Social distancing marker"
-   details: "Creates interpersonal distance, often for politeness"
-   examples:
-     - form: "Did you want coffee?"
-       note: "Polite offer"
-     - form: "I hoped we could talk"
-       note: "Tentative approach"
-   relations: [1, 5]
+  '1':
+    definition: Marks temporal/modal/social distance
+    details: Core meaning potentially involving displacement from a reference point (temporal, modal, or interpersonal) - though this unification remains debatable
+    examples:
+      - form: She walked home
+        note: Temporal displacement
+      - form: If I owned a car
+        note: Modal displacement
+      - form: I wanted to ask you
+        note: Social displacement
+    relations:
+      - 1
+      - 2
+  '2':
+    definition: Temporal anteriority
+    details: Marks situation as occurring before reference time (but see cases like sports commentary where this breaks down)
+    examples:
+      - form: They finished yesterday
+        note: Clear anterior time
+      - form: Jones passed to Smith!
+        note: Immediate past challenging pure anteriority
+    relations:
+      - 1
+      - 3
+  '3':
+    definition: Non-actual/hypothetical marking
+    details: Indicates displacement from actual/current reality
+    examples:
+      - form: If she studied more
+        note: Counterfactual condition
+      - form: I wish I lived there
+        note: Contrary-to-fact desire
+    relations:
+      - 1
+      - 4
+  '4':
+    definition: Social distancing marker
+    details: Creates interpersonal distance, often for politeness
+    examples:
+      - form: Did you want coffee?
+        note: Polite offer
+      - form: I hoped we could talk
+        note: Tentative approach
+    relations:
+      - 1
+      - 5
 relations:
- 1:
-   construction: "tense-marking-001"
-   type: "instantiates"
- 2:
-   construction: "temporal-relation-001"
-   type: "expresses"
- 3:
-   construction: "irrealis-001"
-   type: "participates-in"
- 4:
-   construction: "politeness-001"
-   type: "contributes-to"
+  '1':
+    construction: tense-marking-001
+    type: implements
+    notes: 'Original type: instantiates.'
+  '2':
+    construction: temporal-relation-001
+    type: related-to
+    notes: 'Original type: expresses.'
+  '3':
+    construction: irrealis-001
+    type: related-to
+    notes: 'Original type: participates-in.'
+  '4':
+    construction: politeness-001
+    type: related-to
+    notes: 'Original type: contributes-to.'

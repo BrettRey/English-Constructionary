@@ -1,22 +1,24 @@
-   id: singular-001
-name: "Singular Construction"
-pattern: "Applies to nouns, pronouns, determinatives, and proper names"
+id: singular-001
+name: Singular Construction
+pattern: Applies to nouns, pronouns, determinatives, and proper names
 meanings:
-  1:
-    implements: "grammatical-number-001.1"
-    specialization: "Specifies exactly one countable entity"
+  '1':
+    implements: grammatical-number-001.1
+    specialization: Specifies exactly one countable entity
     examples:
-      - form: "cat-"
-        note: "Single entity"
-      - form: "it"
-        note: "Single entity reference"
-      - form: "this"
-        note: "Single entity determination"
-    relations: [1]
-  2:
-    implements: "grammatical-number-001.2" 
-    specialization: "Marks unity/wholeness for mass nouns"
+      - form: cat-
+        note: Single entity
+      - form: it
+        note: Single entity reference
+      - form: this
+        note: Single entity determination
+    relations:
+      - 1
+  '2':
+    implements: grammatical-number-001.2
+    specialization: Marks unity/wholeness for mass nouns
     examples:
-      - form: "rice"
-        note: "Undivided mass"
-    relations: [2]
+      - form: rice
+        note: Undivided mass
+    relations:
+      - 2

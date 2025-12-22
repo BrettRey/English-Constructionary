@@ -1,40 +1,44 @@
 id: indefinite-001
-name: "Indefinite Construction"
-pattern: "Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare NP"
+name: Indefinite Construction
+pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare NP
 meanings:
- 1:
-   definition: "Non-identifiable entity"
-   details: "Entity not uniquely identifiable in context"
-   examples:
-     - form: "a dog"
-       note: "Novel referent"
-     - form: "some students" 
-       note: "Non-specific set"
-   relations: [1]
- 2:
-   definition: "New discourse entity"
-   details: "Entity being introduced to discourse"
-   examples:
-     - form: "there is a solution"
-       note: "First mention"
-     - form: "some people say..."
-       note: "Discourse-new source"
-   relations: [2]
- 3:
-   definition: "Arbitrary instance"
-   details: "Any satisfying instance of type"
-   examples:
-     - form: "take a card"
-       note: "Any card"
-     - form: "some help"
-       note: "Any assistance"
-   relations: [3]
- 4:
-   definition: "Type membership"
-   details: "Instance of category"  
-   examples:
-     - form: "is a teacher"
-       note: "Category instance"
-     - form: "is some kind of expert"
-       note: "Category type"
-   relations: [4]
+  '1':
+    definition: Non-identifiable entity
+    details: Entity not uniquely identifiable in context
+    examples:
+      - form: a dog
+        note: Novel referent
+      - form: some students
+        note: Non-specific set
+    relations:
+      - 1
+  '2':
+    definition: New discourse entity
+    details: Entity being introduced to discourse
+    examples:
+      - form: there is a solution
+        note: First mention
+      - form: some people say...
+        note: Discourse-new source
+    relations:
+      - 2
+  '3':
+    definition: Arbitrary instance
+    details: Any satisfying instance of type
+    examples:
+      - form: take a card
+        note: Any card
+      - form: some help
+        note: Any assistance
+    relations:
+      - 3
+  '4':
+    definition: Type membership
+    details: Instance of category
+    examples:
+      - form: is a teacher
+        note: Category instance
+      - form: is some kind of expert
+        note: Category type
+    relations:
+      - 4

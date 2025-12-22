@@ -1,4 +1,7 @@
 id: n-pl-001
-pattern: "N[Number:PL]"
-name: "Plural Noun"
-coreMeaning: "Reference to multiple entities/count items"
+name: Plural Noun
+pattern: N[Number:PL]
+meanings:
+  '1':
+    definition: Reference to multiple entities/count items
+    examples: []

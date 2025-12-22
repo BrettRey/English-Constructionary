@@ -1,21 +1,21 @@
 id: prenominal-modifier-001
-pattern: "[Modifier:AdjP Head:NP-PL]"
-name: "Bare Plural with Prenominal Modifier"
-coreMeaning: "Category/kind modification with property attribution"
-examples:
-  - form: "old men"
-    meaning: "Direct property modification (age attribute)"
-    notes: "Prototypical property-denoting usage"
-  - form: "other men"
-    meaning: "Complementary set relation" 
-    notes: "Requires contextual reference set"
+name: Bare Plural with Prenominal Modifier
+pattern: '[Modifier:AdjP Head:NP-PL]'
+meanings:
+  '1':
+    definition: Category/kind modification with property attribution
+    examples:
+      - form: old men
+        note: Prototypical property-denoting usage; Direct property modification (age attribute)
+      - form: other men
+        note: Requires contextual reference set; Complementary set relation
 constraints:
-  - type: "syntactic"
-    description: "Modifier must be adjectival"
-  - type: "morphological"
-    description: "Head must be plural"
-semanticType: "reference"
+  - type: syntactic
+    description: Modifier must be adjectival
+  - type: morphological
+    description: Head must be plural
+semanticType: reference
 relatedConstructions:
-  - id: "def-prenominal"
-    relationship: "alternates-with"
-    notes: "The definite version (the old men) refers to specific group"
+  - id: def-prenominal
+    relationship: alternates-with
+    notes: The definite version (the old men) refers to specific group
