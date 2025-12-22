@@ -59,8 +59,7 @@
 Status: Completed for numeratives core (cardinal, ordinal, fractional).
 
 ## Batch 2 (Next): Negation Refinements
-- Add secondary verbal negation and synthetic absolute negators (e.g., nobody/nothing) as separate constructions.
-- Add diagnostics for scope/focus where bounded and testable.
+Status: Completed (secondary verbal negation, absolute negator pronouns, neither/nor coordination, polarity diagnostics).
 
 ## Batch 3 (Next): Determination/Deitality Expansion
 - Add more examples and diagnostics to `determination-001`.

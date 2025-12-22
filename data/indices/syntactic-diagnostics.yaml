@@ -44,6 +44,30 @@ syntactic_diagnostics:
   coordination-ellipsis-numerative:
     description: "Coordination and ellipsis target numerative constituents (e.g., two hundred and five; twenty-two alone)."
 
+  clause-polarity-diagnostics:
+    description: "Clause polarity can be diagnosed by continuations, tags, and inversion patterns."
+    diagnostics:
+      - not-even-continuation
+      - neither-nor-continuation
+      - reversed-polarity-tag
+      - negative-fronting-inversion
+
+  not-even-continuation:
+    description: "Negative clauses allow a not even continuation (e.g., He didn’t read it, not even the abstract)."
+
+  neither-nor-continuation:
+    description: "Negative clauses license neither/nor continuation in connective adjunct position."
+    examples:
+      - "He didn’t read it; neither/nor did I."
+
+  reversed-polarity-tag:
+    description: "Negative clauses prefer positive tags (e.g., He didn’t read it, did he?)."
+
+  negative-fronting-inversion:
+    description: "Fronted negative elements trigger subject–auxiliary inversion."
+    examples:
+      - "Not once did Ed read it."
+
   determinatives-inventory:
     description: "Inventory of determinatives (terminology: Simple English Wiktionary uses 'determiners' for the category; CGEL uses 'determinatives')."
     sources:

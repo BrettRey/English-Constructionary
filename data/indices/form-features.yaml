@@ -87,3 +87,18 @@ form_features:
       - hundredth
     notes:
       - "Fractionals are count nouns and inflect for number."
+  absolute-negator-compound:
+    description: "Absolute negator pro-forms built with no- (and none)."
+    members:
+      - none
+      - nobody
+      - no one
+      - nothing
+      - nowhere
+      - no place
+  neither-nor-correlative:
+    description: "Correlative markers for negative coordination."
+    pattern: "neither X nor Y"
+    examples:
+      - neither agree nor comply
+      - neither Kim nor Pat
