@@ -15,6 +15,7 @@ const filtersEl = document.getElementById('filters');
 const detailTitle = document.getElementById('detail-title');
 const detailSubtitle = document.getElementById('detail-subtitle');
 const detailBody = document.getElementById('detail-body');
+const breadcrumbsEl = document.getElementById('breadcrumbs');
 const toggleViewBtn = document.getElementById('toggle-view');
 const openLink = document.getElementById('open-link');
 
@@ -294,9 +295,66 @@ const renderRaw = (text) => {
   detailBody.appendChild(pre);
 };
 
+const renderBreadcrumbs = (item) => {
+  if (!breadcrumbsEl) return;
+  breadcrumbsEl.innerHTML = '';
+  const crumbs = [];
+  const sectionLabel = item.sectionLabel || 'Item';
+  crumbs.push({ label: sectionLabel, item: null });
+
+  const isConstruction = item.sectionId === 'constructions';
+  if (isConstruction && item.id && state.byId) {
+    const visited = new Set();
+    let currentId = item.id;
+    const ancestry = [];
+    const parentPriority = ['specialization-of', 'inherits-from', 'implements'];
+    while (currentId && !visited.has(currentId)) {
+      visited.add(currentId);
+      const current = state.byId.get(currentId);
+      if (!current) break;
+      const relations = current.relations || [];
+      let parentRel = null;
+      for (const relType of parentPriority) {
+        parentRel = relations.find((rel) => rel.relationship === relType);
+        if (parentRel) break;
+      }
+      if (!parentRel) break;
+      ancestry.unshift(parentRel.id);
+      currentId = parentRel.id;
+    }
+    ancestry.forEach((ancestorId) => {
+      const target = state.byId.get(ancestorId);
+      crumbs.push({
+        label: target ? target.title : ancestorId,
+        item: target || null
+      });
+    });
+  }
+
+  crumbs.push({ label: item.title, item });
+
+  crumbs.forEach((crumb, index) => {
+    const span = document.createElement('span');
+    span.className = 'breadcrumb';
+    if (index === crumbs.length - 1) span.classList.add('is-current');
+    span.textContent = crumb.label;
+    if (crumb.item && index !== crumbs.length - 1) {
+      span.addEventListener('click', () => selectItem(crumb.item));
+    }
+    breadcrumbsEl.appendChild(span);
+    if (index < crumbs.length - 1) {
+      const sep = document.createElement('span');
+      sep.className = 'breadcrumb-sep';
+      sep.textContent = '/';
+      breadcrumbsEl.appendChild(sep);
+    }
+  });
+};
+
 const selectItem = async (item) => {
   state.active = item;
   renderList();
+  renderBreadcrumbs(item);
   detailTitle.textContent = item.title;
   detailSubtitle.textContent = item.subtitle || item.path;
   toggleViewBtn.disabled = false;

@@ -177,6 +177,32 @@ p {
   font-family: var(--font-serif);
 }
 
+.breadcrumbs {
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.breadcrumb {
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(45, 95, 93, 0.08);
+}
+
+.breadcrumb.is-current {
+  cursor: default;
+  background: rgba(45, 95, 93, 0.18);
+}
+
+.breadcrumb-sep {
+  opacity: 0.5;
+}
+
 .detail__actions {
   display: flex;
   gap: 8px;
