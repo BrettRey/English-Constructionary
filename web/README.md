@@ -1,14 +1,15 @@
 # Constructionary Browser
 
 ## Run locally
-1. From the repo root, build the manifest:
+1. From the repo root:
    ```bash
-   npm run build:web
+   npm run web
    ```
-2. Start a local server (from repo root):
-   ```bash
-   python3 -m http.server 8000
-   ```
-3. Open `http://localhost:8000/web/`.
+2. Open the URL printed in the terminal (defaults to `http://localhost:8000/web/`).
+
+If you only want to rebuild the manifest without starting a server:
+```bash
+npm run build:web
+```
 
 The browser reads YAML/MD/TEX/PDF files directly from the repo via HTTP.
