@@ -19,6 +19,8 @@ formRefs:
   - numerative-ordinal-rightmost
 semanticRefs:
   - fractional-quantity
+syntacticRefs:
+  - ordinal-fractional-rightmost-base
 relatedConstructions:
   - id: numerative-ordinal-rightmost-001
     relationship: related-to

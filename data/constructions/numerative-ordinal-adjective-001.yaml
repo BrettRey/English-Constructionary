@@ -16,6 +16,8 @@ formRefs:
   - numerative-ordinal-adjective
 semanticRefs:
   - ordinal-rank
+syntacticRefs:
+  - ordinal-fractional-rightmost-base
 relatedConstructions:
   - id: numerative-ordinal-rightmost-001
     relationship: related-to

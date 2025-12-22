@@ -14,3 +14,8 @@ constraints:
     description: Adverbial negator modifying VP.
   - type: semantic
     description: Negates the occurrence across the relevant time span.
+syntacticRefs:
+  - clause-polarity-diagnostics
+relatedConstructions:
+  - id: absolute-negator-pronoun-001
+    relationship: related-to

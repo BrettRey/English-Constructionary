@@ -19,6 +19,8 @@ formRefs:
   - numerative-magnitude
 semanticRefs:
   - cardinality
+syntacticRefs:
+  - coordination-ellipsis-numerative
 relatedConstructions:
   - id: numerative-compound-basic-001
     relationship: related-to

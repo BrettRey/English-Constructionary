@@ -17,6 +17,8 @@ formRefs:
 semanticRefs:
   - cardinality
   - additive-composition
+syntacticRefs:
+  - coordination-ellipsis-numerative
 relatedConstructions:
   - id: numerative-magnitude-head-001
     relationship: related-to

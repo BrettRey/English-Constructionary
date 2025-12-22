@@ -17,6 +17,8 @@ constraints:
 formRefs:
   - minor-determiner-plain-np
   - minor-determiner-pp
+syntacticRefs:
+  - deitality-diagnostics
 relatedConstructions:
   - id: determination-001
     relationship: specialization-of

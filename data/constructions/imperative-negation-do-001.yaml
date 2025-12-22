@@ -19,3 +19,6 @@ constraints:
     description: Imperative clause with base-form VP.
   - type: structural
     description: Negation is expressed with do-support (do not/don't) in imperatives.
+relatedConstructions:
+  - id: secondary-verbal-negation-001
+    relationship: related-to

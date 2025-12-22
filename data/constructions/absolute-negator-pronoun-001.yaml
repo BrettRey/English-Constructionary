@@ -18,6 +18,8 @@ constraints:
     description: Alternates with verbal negation plus any/either/ever (e.g., "didn't do anything").
 formRefs:
   - absolute-negator-compound
+syntacticRefs:
+  - clause-polarity-diagnostics
 relatedConstructions:
   - id: no-determiner-001
     relationship: related-to

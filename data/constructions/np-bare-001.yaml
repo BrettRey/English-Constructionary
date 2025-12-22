@@ -114,3 +114,5 @@ relations:
     construction: deictic-001
     type: related-to
     notes: 'Original type: enables.'
+syntacticRefs:
+  - bare-singular-exceptions

@@ -14,3 +14,8 @@ constraints:
     description: Determiner function with NP head.
   - type: semantic
     description: Construes the NP as having zero members or instances.
+syntacticRefs:
+  - clause-polarity-diagnostics
+relatedConstructions:
+  - id: absolute-negator-pronoun-001
+    relationship: related-to
