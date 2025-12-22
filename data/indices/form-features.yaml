@@ -11,12 +11,18 @@ form_features:
       - seven
       - eight
       - nine
-  numerative-teen:
-    description: "Teen determinatives (10–19)."
+  numerative-ten:
+    description: "Base numerative for 10."
     members:
       - ten
+  numerative-teen-irregular:
+    description: "Irregular teen lexemes (suppletive; non -teen forms)."
+    members:
       - eleven
       - twelve
+  numerative-teen:
+    description: "Regular -teen determinatives (13–19)."
+    members:
       - thirteen
       - fourteen
       - fifteen

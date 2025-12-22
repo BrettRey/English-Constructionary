@@ -1,14 +1,14 @@
 id: numerative-teen-001
-name: Teen Numerative
+name: Regular Teen Numerative (-teen)
 pattern: "Det[teen] + N"
 meanings:
   '1':
-    definition: Specifies a cardinality from ten to nineteen
+    definition: Specifies a cardinality from thirteen to nineteen via -teen morphology
     examples:
-      - form: ten students
-        note: Cardinality 10
       - form: thirteen pages
         note: Cardinality 13
+      - form: nineteen students
+        note: Cardinality 19
 formRefs:
   - numerative-teen
 semanticRefs:

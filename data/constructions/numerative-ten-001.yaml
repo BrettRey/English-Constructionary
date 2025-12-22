@@ -1,0 +1,16 @@
+id: numerative-ten-001
+name: Ten Numerative
+pattern: "Det[ten] + N"
+meanings:
+  '1':
+    definition: Specifies a cardinality of ten
+    examples:
+      - form: ten students
+        note: Cardinality 10
+formRefs:
+  - numerative-ten
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: determination-001
+    relationship: related-to

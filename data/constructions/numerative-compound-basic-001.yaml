@@ -1,6 +1,6 @@
 id: numerative-compound-basic-001
 name: Compound Basic Numerative (Decade + Single-digit)
-pattern: "Det[decade + single-digit] + N (typically hyphenated)"
+pattern: "Det[decade] + Det[single-digit] + N (typically hyphenated)"
 meanings:
   '1':
     definition: Specifies a cardinality formed by additive composition of tens and ones
@@ -23,8 +23,8 @@ semanticRefs:
   - additive-composition
 relatedConstructions:
   - id: numerative-decade-001
-    relationship: related-to
+    relationship: contains
   - id: numerative-single-digit-001
-    relationship: related-to
+    relationship: contains
   - id: determination-001
     relationship: related-to
