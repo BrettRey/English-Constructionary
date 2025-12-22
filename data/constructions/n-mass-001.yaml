@@ -1,12 +1,12 @@
 id: n-mass-001
-name: Mass Noun
-pattern: N[Mass:YES]
+name: Non-count Noun
+pattern: N[Non-count:YES]
 meanings:
   '1':
-    definition: Reference to undifferentiated substance/stuff
+    definition: Non-count morphosyntax with a default substance/aggregate construal
     examples:
       - form: water
-        note: Mass substance reference
+        note: Non-count substance reference
       - form: rice
         note: Undifferentiated substance
 hpc:
@@ -25,16 +25,16 @@ hpc:
         weight: medium
   stabilisers:
     - type: acquisition
-      evidence: "early mapping of substance terms to mass frames"
+      evidence: "early mapping of substance terms to non-count frames"
     - type: entrenchment
-      evidence: "high-frequency mass nouns anchor quantifier patterns"
+      evidence: "high-frequency non-count nouns anchor quantifier patterns"
     - type: transmission
-      evidence: "stable mass-marking conventions across generations"
+      evidence: "stable non-count marking conventions across generations"
     - type: functional-pressure
       evidence: "need to distinguish substance from individuated reference"
   projectibility:
-    scope: "new substance terms default to mass frames; count conversion is constrained"
-    evidence: "mass quantifier compatibility for novel materials"
+    scope: "new substance terms default to non-count frames; count conversion is constrained"
+    evidence: "non-count quantifier compatibility for novel materials"
     confidence: medium
   homeostasis:
     perturbations:
@@ -43,7 +43,7 @@ hpc:
     activation_states:
       - context: "container/portion construal"
         effect: "count readings become available"
-    speaker_variation: "lexeme-specific flexibility in mass/count alternations"
+    speaker_variation: "lexeme-specific flexibility in non-count/count alternations"
   boundaries:
     overlaps_with:
       - grammatical-number-001

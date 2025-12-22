@@ -31,7 +31,7 @@ meanings:
     specialization: Marks countable taxonomic categories
     examples:
       - form: wines
-        note: Types rather than mass
+        note: Types rather than non-count
     relations:
       - 1
       - 2

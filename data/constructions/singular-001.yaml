@@ -16,9 +16,9 @@ meanings:
       - 1
   '2':
     implements: grammatical-number-001.2
-    specialization: Marks unity/wholeness for mass nouns
+    specialization: Marks unity/wholeness for non-count nouns
     examples:
       - form: rice
-        note: Undivided mass
+        note: Undivided non-count substance
     relations:
       - 2

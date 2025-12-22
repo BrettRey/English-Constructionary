@@ -59,7 +59,7 @@ hpc:
     confidence: medium
   homeostasis:
     perturbations:
-      - "Loss of functional singulatives pushes toward full count or mass profiles."
+      - "Loss of functional singulatives pushes toward full count or non-count profiles."
   variation:
     activation_states:
       - context: "specialized counting registers"

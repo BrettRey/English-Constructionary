@@ -1,6 +1,6 @@
 id: np-indef-001
 name: Indefinite NP Construction
-pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/mass Nominal
+pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/non-count Nominal
 meanings:
   '1':
     definition: Refers to/predicates non-identifiable instance

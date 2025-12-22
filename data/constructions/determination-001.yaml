@@ -20,7 +20,7 @@ constraints:
   - type: syntactic
     description: Determiner is a dependent within NP structure.
   - type: structural
-    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless, and a small set of bare singular count frames are licensed (institutional/time/iteration).
+    description: Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames are licensed (institutional/time/iteration).
 semanticRefs:
   - definiteness
   - indefiniteness

@@ -3,11 +3,11 @@ name: Bare NP Construction
 pattern: NP[Head:Nom]
 meanings:
   '1':
-    definition: Refers to/predicates mass substance
+    definition: Refers to/predicates non-count substance
     details: Refers to or predicates uncountable substance/material
     examples:
       - form: Water is essential
-        note: Mass substance reference
+        note: Non-count substance reference
       - form: That is gold
         note: Mass substance predication
     relations:
@@ -95,7 +95,7 @@ relations:
     construction: np-indef-001
     type: implements
   '2':
-    construction: mass-001
+    construction: n-mass-001
     type: related-to
     notes: 'Original type: enables.'
   '3':

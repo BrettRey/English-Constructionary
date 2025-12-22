@@ -17,7 +17,7 @@ constraints:
   - type: syntactic
     description: Determiner function is a dependent in NP structure.
   - type: structural
-    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless in some contexts.
+    description: Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless in some contexts.
 relatedConstructions:
   - id: determination-001
     relationship: implements
