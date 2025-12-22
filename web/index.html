@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Constructionary Browser</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <div>
+          <h1>Constructionary Browser</h1>
+          <p>Browse constructions, indices, docs, and literature.</p>
+        </div>
+        <div class="app__status" id="status">Loading manifest…</div>
+      </header>
+      <main class="app__main">
+        <aside class="panel panel--list">
+          <div class="panel__controls">
+            <label class="input">
+              <span>Search</span>
+              <input id="search" type="search" placeholder="id, name, path" />
+            </label>
+            <div class="filters" id="filters"></div>
+          </div>
+          <div class="panel__list" id="list"></div>
+        </aside>
+        <section class="panel panel--detail">
+          <div class="panel__detail-header">
+            <div>
+              <h2 id="detail-title">Select an item</h2>
+              <p id="detail-subtitle">Pick a file from the list to preview.</p>
+            </div>
+            <div class="detail__actions">
+              <button class="button" id="toggle-view" disabled>Show raw</button>
+              <a class="button button--ghost" id="open-link" href="#" target="_blank" rel="noreferrer" aria-disabled="true">Open file</a>
+            </div>
+          </div>
+          <div class="panel__detail-body" id="detail-body"></div>
+        </section>
+      </main>
+    </div>
+    <script src="./vendor/js-yaml.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

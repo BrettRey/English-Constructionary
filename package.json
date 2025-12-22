@@ -4,7 +4,8 @@
   "description": "A collaborative dictionary of English constructions in CxG",
   "scripts": {
     "validate": "node scripts/validate.js && node scripts/lint.js",
-    "lint": "node scripts/lint.js"
+    "lint": "node scripts/lint.js",
+    "build:web": "node scripts/build-web-manifest.js"
   },
   "dependencies": {
     "ajv": "^8.12.0",

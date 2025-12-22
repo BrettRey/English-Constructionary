@@ -1,0 +1,605 @@
+{
+  "generatedAt": "2025-12-22T15:23:17.340Z",
+  "sections": [
+    {
+      "id": "project",
+      "label": "Project",
+      "items": [
+        {
+          "title": "README.md",
+          "subtitle": "Project file",
+          "path": "/README.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "STATUS.md",
+          "subtitle": "Project file",
+          "path": "/STATUS.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "LICENSE",
+          "subtitle": "Project file",
+          "path": "/LICENSE",
+          "kind": "text"
+        },
+        {
+          "title": "AGENTS.md",
+          "subtitle": "Project file",
+          "path": "/AGENTS.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "CLAUDE.md",
+          "subtitle": "Project file",
+          "path": "/CLAUDE.md",
+          "kind": "markdown"
+        }
+      ]
+    },
+    {
+      "id": "constructions",
+      "label": "Constructions",
+      "items": [
+        {
+          "title": "bare-role-001",
+          "subtitle": "Bare Role Construction",
+          "path": "/data/constructions/NP-bare-role.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "absolute-negator-pronoun-001",
+          "subtitle": "Absolute Negator Pronouns",
+          "path": "/data/constructions/absolute-negator-pronoun-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "adjective-001",
+          "subtitle": "Adjective",
+          "path": "/data/constructions/adjective-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "comparative-er-001",
+          "subtitle": "Comparative -er",
+          "path": "/data/constructions/comparative-er-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "constituent-not-negation-001",
+          "subtitle": "Constituent Negation with not",
+          "path": "/data/constructions/constituent-not-negation-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "definite-001",
+          "subtitle": "Definite Construction",
+          "path": "/data/constructions/definite-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "degree-001",
+          "subtitle": "Degree",
+          "path": "/data/constructions/degree-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "determination-001",
+          "subtitle": "Determination",
+          "path": "/data/constructions/determination-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "genitive-s-001",
+          "subtitle": "Genitive 's",
+          "path": "/data/constructions/genitive-s-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "gradation-001",
+          "subtitle": "Gradation",
+          "path": "/data/constructions/gradation-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "grammatical-definiteness-001",
+          "subtitle": "Grammatical Definiteness",
+          "path": "/data/constructions/grammatical-definiteness-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "grammatical-number-001",
+          "subtitle": "Grammatical Number",
+          "path": "/data/constructions/grammatical-number-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "imperative-negation-do-001",
+          "subtitle": "Imperative Negation with do-support",
+          "path": "/data/constructions/imperative-negation-do-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "indefinite-001",
+          "subtitle": "Indefinite Construction",
+          "path": "/data/constructions/indefinite-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "independent-genitive-pronoun-001",
+          "subtitle": "Independent Genitive Pronoun",
+          "path": "/data/constructions/independent-genitive-pronoun-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "interrogative-word-001",
+          "subtitle": "Interrogative Word",
+          "path": "/data/constructions/interrogative-word-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "minor-determiner-001",
+          "subtitle": "Minor Determiner (Plain NP/PP)",
+          "path": "/data/constructions/minor-determiner-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-common-001",
+          "subtitle": "Common Noun",
+          "path": "/data/constructions/n-common-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-common-pl-001",
+          "subtitle": "Plural Common Noun",
+          "path": "/data/constructions/n-common-pl-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-mass-001",
+          "subtitle": "Non-count Noun",
+          "path": "/data/constructions/n-mass-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-pl-001",
+          "subtitle": "Plural Noun",
+          "path": "/data/constructions/n-pl-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-proper-001",
+          "subtitle": "Proper Noun",
+          "path": "/data/constructions/n-proper-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "n-sg-001",
+          "subtitle": "Singular Noun",
+          "path": "/data/constructions/n-sg-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "proper-name-001",
+          "subtitle": "Proper Name",
+          "path": "/data/constructions/name-proper-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "neither-nor-coordination-001",
+          "subtitle": "Correlative Coordination with neither...nor",
+          "path": "/data/constructions/neither-nor-coordination-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "never-adv-negation-001",
+          "subtitle": "Adverbial Negation with never",
+          "path": "/data/constructions/never-adv-negation-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "no-determiner-001",
+          "subtitle": "Negative Determiner \"no\"",
+          "path": "/data/constructions/no-determiner-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "nom-001",
+          "subtitle": "Nominal Construction",
+          "path": "/data/constructions/nom-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "nom-adjp-mod-001",
+          "subtitle": "Adjectival Pre-head Modifier in Nominal",
+          "path": "/data/constructions/nom-adjp-mod-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "nom-n-mod-001",
+          "subtitle": "Nominal Pre-head Modifier in Nominal",
+          "path": "/data/constructions/nom-n-mod-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "nom-premod-000",
+          "subtitle": "Pre-head Modifier in Nominal",
+          "path": "/data/constructions/nom-premod-000.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "nom-prehead-mod-001",
+          "subtitle": "Nominal Pre-head Modifier",
+          "path": "/data/constructions/nom_prehead_mod.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-001",
+          "subtitle": "Noun Phrase",
+          "path": "/data/constructions/np-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-bare-001",
+          "subtitle": "Bare NP Construction",
+          "path": "/data/constructions/np-bare-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-common-001",
+          "subtitle": "Common Noun Phrase",
+          "path": "/data/constructions/np-common-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-def-001",
+          "subtitle": "Definite NP Construction",
+          "path": "/data/constructions/np-def-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-det-001",
+          "subtitle": "Determined Noun Phrase",
+          "path": "/data/constructions/np-det-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-gen-indep-001",
+          "subtitle": "Independent Genitive NP",
+          "path": "/data/constructions/np-gen-indep-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-indef-001",
+          "subtitle": "Indefinite NP Construction",
+          "path": "/data/constructions/np-indef-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-pron-001",
+          "subtitle": "Pronominal Noun Phrase",
+          "path": "/data/constructions/np-pron-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-pron-interrog-gen-indep-001",
+          "subtitle": "Independent Interrogative Genitive Pronoun NP",
+          "path": "/data/constructions/np-pron-interrog-gen-indep-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-pron-personal-gen-indep-001",
+          "subtitle": "Independent Personal Genitive Pronoun NP",
+          "path": "/data/constructions/np-pron-personal-gen-indep-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-proper-001",
+          "subtitle": "Proper Noun Phrase",
+          "path": "/data/constructions/np-proper-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-addition-asyndetic-001",
+          "subtitle": "Numerative Addition Coordination (without and)",
+          "path": "/data/constructions/numerative-addition-asyndetic-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-addition-coordination-001",
+          "subtitle": "Numerative Addition Coordination (with and)",
+          "path": "/data/constructions/numerative-addition-coordination-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-basic-lexeme-001",
+          "subtitle": "Basic Numerative Lexeme (0–99)",
+          "path": "/data/constructions/numerative-basic-lexeme-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-compound-basic-001",
+          "subtitle": "Compound Basic Numerative (Decade + Single-digit)",
+          "path": "/data/constructions/numerative-compound-basic-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-decade-001",
+          "subtitle": "Decade Numerative",
+          "path": "/data/constructions/numerative-decade-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-factor-modifier-001",
+          "subtitle": "Factor + Magnitude Numerative",
+          "path": "/data/constructions/numerative-factor-modifier-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-fractional-001",
+          "subtitle": "Fractional Numerative",
+          "path": "/data/constructions/numerative-fractional-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-fused-head-001",
+          "subtitle": "Fused-head Numerative",
+          "path": "/data/constructions/numerative-fused-head-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-magnitude-head-001",
+          "subtitle": "Magnitude Head Numerative",
+          "path": "/data/constructions/numerative-magnitude-head-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-ordinal-adjective-001",
+          "subtitle": "Ordinal Adjective",
+          "path": "/data/constructions/numerative-ordinal-adjective-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-ordinal-rightmost-001",
+          "subtitle": "Rightmost-base Ordinal Formation in Numeratives",
+          "path": "/data/constructions/numerative-ordinal-rightmost-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-single-digit-001",
+          "subtitle": "Single-digit Numerative",
+          "path": "/data/constructions/numerative-single-digit-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-teen-001",
+          "subtitle": "Regular Teen Numerative (-teen)",
+          "path": "/data/constructions/numerative-teen-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-teen-irregular-001",
+          "subtitle": "Irregular Teen Numerative (eleven/twelve)",
+          "path": "/data/constructions/numerative-teen-irregular-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "numerative-ten-001",
+          "subtitle": "Ten Numerative",
+          "path": "/data/constructions/numerative-ten-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "past-tense-ed-001",
+          "subtitle": "Past Tense -ed",
+          "path": "/data/constructions/past-tense-ed-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "perfect-have-001",
+          "subtitle": "Perfect HAVE + V-en",
+          "path": "/data/constructions/perfect-have-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "plural-001",
+          "subtitle": "Plural Construction",
+          "path": "/data/constructions/plural-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "plural-s-001",
+          "subtitle": "Plural -s",
+          "path": "/data/constructions/plural-s-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "prenominal-modifier-001",
+          "subtitle": "Bare Plural with Prenominal Modifier",
+          "path": "/data/constructions/prenominal_modifier.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "progressive-ing-001",
+          "subtitle": "Progressive -ing",
+          "path": "/data/constructions/progressive-ing-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "np-proper-name-001",
+          "subtitle": "Proper Name Phrase",
+          "path": "/data/constructions/proper-name.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "quasi-count-noun-001",
+          "subtitle": "Quasi-count Plural Noun",
+          "path": "/data/constructions/quasi-count-noun-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "secondary-verbal-negation-001",
+          "subtitle": "Secondary Verbal Negation",
+          "path": "/data/constructions/secondary-verbal-negation-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "singular-001",
+          "subtitle": "Singular Construction",
+          "path": "/data/constructions/singular-001.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "subject-determiner-001",
+          "subtitle": "Subject-determiner (Genitive NP)",
+          "path": "/data/constructions/subject-determiner-001.yaml",
+          "kind": "yaml"
+        }
+      ]
+    },
+    {
+      "id": "indices",
+      "label": "Indices",
+      "items": [
+        {
+          "title": "boundary-overlaps.yaml",
+          "subtitle": "",
+          "path": "/data/indices/boundary-overlaps.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "cross-references.yaml",
+          "subtitle": "",
+          "path": "/data/indices/cross-references.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "families.yaml",
+          "subtitle": "",
+          "path": "/data/indices/families.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "form-features.yaml",
+          "subtitle": "",
+          "path": "/data/indices/form-features.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "hpc-status.yaml",
+          "subtitle": "",
+          "path": "/data/indices/hpc-status.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "meaning-hierarchies.yaml",
+          "subtitle": "",
+          "path": "/data/indices/meaning-hierarchies.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "meaning-implementations.yaml",
+          "subtitle": "",
+          "path": "/data/indices/meaning-implementations.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "semantic-features.yaml",
+          "subtitle": "",
+          "path": "/data/indices/semantic-features.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "stabilisers.yaml",
+          "subtitle": "",
+          "path": "/data/indices/stabilisers.yaml",
+          "kind": "yaml"
+        },
+        {
+          "title": "syntactic-diagnostics.yaml",
+          "subtitle": "",
+          "path": "/data/indices/syntactic-diagnostics.yaml",
+          "kind": "yaml"
+        }
+      ]
+    },
+    {
+      "id": "schemas",
+      "label": "Schemas",
+      "items": [
+        {
+          "title": "construction.json",
+          "subtitle": "",
+          "path": "/data/schemas/construction.json",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "label": "Docs",
+      "items": [
+        {
+          "title": "LITERATURE-PLAN.md",
+          "subtitle": "",
+          "path": "/docs/LITERATURE-PLAN.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "ROADMAP.md",
+          "subtitle": "",
+          "path": "/docs/ROADMAP.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "SCHEMA.md",
+          "subtitle": "",
+          "path": "/docs/SCHEMA.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "hpc-implications.md",
+          "subtitle": "",
+          "path": "/docs/hpc-implications.md",
+          "kind": "markdown"
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "label": "Literature",
+      "items": [
+        {
+          "title": "cgel-determiner.pdf",
+          "subtitle": "",
+          "path": "/literature/cgel-determiner.pdf",
+          "kind": "pdf"
+        },
+        {
+          "title": "cgel-negation.pdf",
+          "subtitle": "",
+          "path": "/literature/cgel-negation.pdf",
+          "kind": "pdf"
+        },
+        {
+          "title": "countability copy.tex",
+          "subtitle": "",
+          "path": "/literature/countability copy.tex",
+          "kind": "text"
+        },
+        {
+          "title": "deitality copy.tex",
+          "subtitle": "",
+          "path": "/literature/deitality copy.tex",
+          "kind": "text"
+        },
+        {
+          "title": "numerals.tex",
+          "subtitle": "",
+          "path": "/literature/numerals.tex",
+          "kind": "text"
+        }
+      ]
+    }
+  ]
+}
