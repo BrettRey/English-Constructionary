@@ -9,6 +9,7 @@ meanings:
         note: Prior completion relevant now
       - form: They had already left
         note: Prior event relative to a past reference time
+    details: Typically contrasts with simple past by leaving the time open; often resists definite past-time adverbials in many varieties.
   '2':
     definition: Marks experiential or repeatable prior occurrence
     examples:
@@ -16,3 +17,10 @@ meanings:
         note: Experiential perfect
       - form: We have met before
         note: Prior occurrence with relevance
+  '3':
+    definition: Marks a continuing situation spanning up to the reference time (universal/continuative perfect)
+    examples:
+      - form: I have lived there for three years
+        note: Residence continues up to now
+      - form: She has worked here since 2020
+        note: Ongoing state with inception in the past
