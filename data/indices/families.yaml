@@ -7,3 +7,19 @@ families:
     members:
       - grammatical-number-001
       - n-mass-001
+  numeratives:
+    members:
+      - numerative-basic-lexeme-001
+      - numerative-single-digit-001
+      - numerative-ten-001
+      - numerative-teen-irregular-001
+      - numerative-teen-001
+      - numerative-decade-001
+      - numerative-compound-basic-001
+      - numerative-magnitude-head-001
+      - numerative-factor-modifier-001
+      - numerative-addition-coordination-001
+      - numerative-addition-asyndetic-001
+      - numerative-ordinal-rightmost-001
+      - numerative-ordinal-adjective-001
+      - numerative-fractional-001

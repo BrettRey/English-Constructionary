@@ -13,7 +13,7 @@ constraints:
   - type: structural
     description: Fractional noun heads a nominal; numerator functions as determiner.
   - type: morphological
-    description: Fractional noun inflects for number (one third vs two thirds).
+    description: Fractional noun inflects for number (one third vs two thirds); half/quarter are suppletive.
 formRefs:
   - numerative-fractional-noun
   - numerative-ordinal-rightmost
@@ -24,5 +24,7 @@ syntacticRefs:
 relatedConstructions:
   - id: numerative-ordinal-rightmost-001
     relationship: related-to
+  - id: numerative-basic-lexeme-001
+    relationship: contains
   - id: determination-001
     relationship: related-to

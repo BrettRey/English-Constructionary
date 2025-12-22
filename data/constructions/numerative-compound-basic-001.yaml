@@ -21,6 +21,8 @@ formRefs:
 semanticRefs:
   - cardinality
   - additive-composition
+syntacticRefs:
+  - basic-numerative-atomicity
 relatedConstructions:
   - id: numerative-basic-lexeme-001
     relationship: specialization-of

@@ -44,6 +44,13 @@ syntactic_diagnostics:
   coordination-ellipsis-numerative:
     description: "Coordination and ellipsis target numerative constituents (e.g., two hundred and five; twenty-two alone)."
 
+  basic-numerative-atomicity:
+    description: "Basic numeratives (0–99) resist internal coordination, modification, and prosodic breaks."
+    examples:
+      - "*twenty and one (books)"
+      - "*twenty ‖ one"
+      - "*twenty exactly one (books)"
+
   clause-polarity-diagnostics:
     description: "Clause polarity can be diagnosed by continuations, tags, and inversion patterns."
     diagnostics:

@@ -20,6 +20,8 @@ meanings:
 constraints:
   - type: morphological
     description: Behaves as a lexical unit for syntax (no internal coordination or modification).
+syntacticRefs:
+  - basic-numerative-atomicity
 semanticRefs:
   - cardinality
 relatedConstructions:

@@ -12,6 +12,8 @@ meanings:
 constraints:
   - type: structural
     description: Ordinal/fractional morphology selects the rightmost simple base in the numerative constituent.
+  - type: morphological
+    description: Irregular bases (first/second/third) are lexically specified.
 formRefs:
   - numerative-compound-basic
   - numerative-magnitude
@@ -24,3 +26,5 @@ relatedConstructions:
     relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to
+  - id: numerative-basic-lexeme-001
+    relationship: contains
