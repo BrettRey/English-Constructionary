@@ -1,15 +1,15 @@
 id: numerative-compound-basic-001
 name: Compound Basic Numerative (Decade + Single-digit)
-pattern: "Det[decade] + Det[single-digit] + N (typically hyphenated)"
+pattern: "Det[decade] + Det[single-digit] (typically hyphenated)"
 meanings:
   '1':
     definition: Specifies a cardinality formed by additive composition of tens and ones
     examples:
-      - form: twenty-one books
+      - form: twenty-one
         note: 20 + 1
-      - form: forty-two people
+      - form: forty-two
         note: 40 + 2
-      - form: ninety-nine problems
+      - form: ninety-nine
         note: 90 + 9
 constraints:
   - type: structural
