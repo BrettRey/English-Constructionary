@@ -82,3 +82,47 @@ relations:
     construction: identity-001
     type: related-to
     notes: 'Original type: enables.'
+hpc:
+  status: fat
+  cluster:
+    core:
+      - property: "Modifier of nominal reference"
+        diagnostics: ["attributive position", "predicative position"]
+        weight: medium
+    peripheral:
+      - property: "Gradability/degree modification"
+        diagnostics: ["accepts very/too/so", "comparative/superlative morphology"]
+        weight: medium
+      - property: "Classificatory subtype"
+        diagnostics: ["resists degree modification", "often denominal"]
+        weight: low
+  stabilisers:
+    - type: acquisition
+      evidence: "early acquisition of adjective slots in NP and predicative complements"
+    - type: entrenchment
+      evidence: "high-frequency descriptive adjectives anchor category use"
+    - type: functional-pressure
+      evidence: "need to encode properties for reference and predication"
+  projectibility:
+    scope: "new adjectives generalize to core modifier frames but not reliably across subtypes"
+    evidence: "gradable vs classificatory diagnostics diverge"
+    confidence: low
+  homeostasis:
+    perturbations:
+      - "reduced exposure to degree morphology weakens gradable diagnostics but leaves classificatory uses intact"
+  variation:
+    activation_states:
+      - context: "attributive vs predicative frame"
+        effect: "boundary items shift acceptability"
+    speaker_variation: "lexeme- and register-sensitive subcategory weighting"
+  boundaries:
+    overlaps_with:
+      - degree-001
+    known_boundary_items:
+      - "fast"
+      - "near"
+      - "fun"
+  grain:
+    level: macro
+    parent_families:
+      - modification

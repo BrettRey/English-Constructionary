@@ -218,6 +218,158 @@
           }
         }
       }
+    },
+
+    "hpc": {
+      "type": "object",
+      "description": "Homeostatic Property Cluster (HPC) metadata for mechanism-grounded categories",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["hpc", "thin", "fat", "negative", "uncertain"]
+        },
+        "cluster": {
+          "type": "object",
+          "properties": {
+            "core": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["property"],
+                "properties": {
+                  "property": { "type": "string" },
+                  "diagnostics": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "weight": {
+                    "type": "string",
+                    "enum": ["high", "medium", "low"]
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "peripheral": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["property"],
+                "properties": {
+                  "property": { "type": "string" },
+                  "diagnostics": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "weight": {
+                    "type": "string",
+                    "enum": ["high", "medium", "low"]
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "stabilisers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["type", "evidence"],
+            "properties": {
+              "type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "evidence": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "provisional": {
+          "type": "boolean",
+          "description": "Marks exploratory or draft HPC metadata"
+        },
+        "projectibility": {
+          "type": "object",
+          "properties": {
+            "scope": { "type": "string" },
+            "evidence": { "type": "string" },
+            "confidence": {
+              "type": "string",
+              "enum": ["high", "medium", "low"]
+            }
+          },
+          "additionalProperties": false
+        },
+        "homeostasis": {
+          "type": "object",
+          "properties": {
+            "perturbations": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "additionalProperties": false
+        },
+        "variation": {
+          "type": "object",
+          "properties": {
+            "activation_states": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["context", "effect"],
+                "properties": {
+                  "context": { "type": "string" },
+                  "effect": { "type": "string" }
+                },
+                "additionalProperties": false
+              }
+            },
+            "speaker_variation": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "boundaries": {
+          "type": "object",
+          "properties": {
+            "overlaps_with": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "known_boundary_items": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "additionalProperties": false
+        },
+        "grain": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": ["micro", "meso", "macro"]
+            },
+            "parent_families": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "additionalProperties": false
+        },
+        "coupling": {
+          "type": "object",
+          "properties": {
+            "linked_cluster": { "type": "string" },
+            "mechanism": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

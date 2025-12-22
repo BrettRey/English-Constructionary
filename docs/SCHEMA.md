@@ -42,6 +42,55 @@ Meanings can reference these relations via their `relations` array.
 - `constraints`: array of `{ type, description }` where `type` is one of `syntactic`, `morphological`, `semantic`, `pragmatic`, `structural`, `head`, `position`.
 - `semanticType`: `reference`, `predication`, `modification`, or `quantification`.
 - `relatedConstructions`: array of `{ id, relationship, notes? }` using the schema’s relationship enums.
+- `hpc`: optional HPC metadata block (see below).
+
+## HPC Metadata (`hpc`)
+Use `hpc` to document mechanism-grounded cluster structure, stabilisers, and diagnostics. The stabiliser types are open-ended; add new types as needed with clear evidence.
+
+Example:
+```yaml
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Degree modification compatibility"
+        diagnostics: ["accepts very/too/so", "supports -er/-est"]
+        weight: high
+    peripheral:
+      - property: "Predicative-only adjectives"
+        diagnostics: ["attributive position degraded"]
+        weight: low
+  stabilisers:
+    - type: entrenchment
+      evidence: "high-frequency degree frames"
+    - type: acquisition
+      evidence: "early acquisition of adjective templates"
+  projectibility:
+    scope: "new adjectives generalize to degree frames"
+    evidence: "productivity of -er/-est and very"
+    confidence: medium
+  homeostasis:
+    perturbations:
+      - "reduced exposure to degree morphology weakens comparative usage"
+  variation:
+    activation_states:
+      - context: "predicative vs attributive frame"
+        effect: "acceptability shifts at boundary items"
+    speaker_variation: "lexeme- and register-sensitive"
+  boundaries:
+    overlaps_with: ["preposition-001", "adverb-001"]
+    known_boundary_items: ["near", "fast", "fun"]
+  grain:
+    level: meso
+    parent_families: ["modifier-001"]
+  coupling:
+    linked_cluster: "semantic gradability"
+    mechanism: "bidirectional inference between scale semantics and form"
+  provisional: true
+```
+
+### Stabiliser Types (Non-exhaustive)
+Common types include: `acquisition`, `entrenchment`, `alignment`, `transmission`, `functional-pressure`, `processing-economy`, `social-indexing`. New types are expected; record them directly with evidence.
 
 ## CGEL Terminology
 Use CGEL-aligned terms where applicable, e.g., **determinative** (lexical category) rather than **determiner** (function), and **genitive** rather than **possessive**.

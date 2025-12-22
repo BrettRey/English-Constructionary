@@ -3,16 +3,22 @@ name: Progressive -ing
 pattern: Aux BE + V-ing
 meanings:
   '1':
-    definition: Marks an ongoing or unfolding situation at a reference time
+    definition: Marks an ongoing or unfolding situation at a reference time (imperfective viewpoint; endpoints are not asserted)
     examples:
       - form: She is reading
         note: Situation in progress
       - form: They were walking home
         note: Ongoing event in past time frame
+      - form: She was building a house
+        note: Ongoing process; does not entail completion
+      - form: She built a house
+        note: Perfective contrast with completion entailment
   '2':
-    definition: Marks temporary or contingent situation framing
+    definition: Marks current-phase or contingent construal (often contrasted with a default habitual/simple-present reading)
     examples:
       - form: He is living in Chicago
-        note: Temporary residence
+        note: Current-phase framing of residence
       - form: The server is running slow today
-        note: Contingent state
+        note: Contingent framing of a state
+      - form: I'm living in Mississauga
+        note: Current/contingent residence framing

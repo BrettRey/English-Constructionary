@@ -1,0 +1,24 @@
+stabilisers:
+  acquisition:
+    - adjective-001
+    - degree-001
+    - grammatical-number-001
+    - n-mass-001
+  entrenchment:
+    - adjective-001
+    - degree-001
+    - grammatical-number-001
+    - n-mass-001
+  alignment:
+    - grammatical-number-001
+  transmission:
+    - grammatical-number-001
+    - n-mass-001
+  functional-pressure:
+    - adjective-001
+    - degree-001
+    - grammatical-number-001
+    - n-mass-001
+  processing-economy:
+    - degree-001
+  social-indexing: []

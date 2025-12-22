@@ -57,3 +57,51 @@ relations:
   '5':
     construction: gradation-001
     type: implements
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Scale comparison morphology/periphrasis"
+        diagnostics: ["-er/-est", "more/most", "as X as"]
+        weight: high
+      - property: "Degree modification of gradable predicates"
+        diagnostics: ["compatible with gradable adjectives/adverbs"]
+        weight: high
+    peripheral:
+      - property: "Measure phrase integration"
+        diagnostics: ["two inches taller", "three times as X"]
+        weight: medium
+  stabilisers:
+    - type: acquisition
+      evidence: "early acquisition of comparative frames"
+    - type: entrenchment
+      evidence: "high-frequency degree templates reinforce usage"
+    - type: functional-pressure
+      evidence: "need to encode relative scale positions"
+    - type: processing-economy
+      evidence: "short comparative morphology favored in production"
+  projectibility:
+    scope: "new gradable predicates generalize to degree frames"
+    evidence: "productivity of -er/-est and periphrastic more/most"
+    confidence: medium
+  homeostasis:
+    perturbations:
+      - "loss of degree morphology shifts toward periphrastic comparatives"
+  variation:
+    activation_states:
+      - context: "gradable vs nongradable predicates"
+        effect: "degree frames degraded with absolute adjectives"
+    speaker_variation: "analytic vs synthetic comparative preference by register"
+  boundaries:
+    overlaps_with:
+      - adjective-001
+    known_boundary_items:
+      - "unique"
+      - "dead"
+  grain:
+    level: meso
+    parent_families:
+      - modification
+  coupling:
+    linked_cluster: "semantic gradability"
+    mechanism: "bidirectional inference between scale construal and degree morphology"

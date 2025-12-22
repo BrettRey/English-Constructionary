@@ -1,0 +1,9 @@
+families:
+  modification:
+    members:
+      - adjective-001
+      - degree-001
+  countability:
+    members:
+      - grammatical-number-001
+      - n-mass-001

@@ -1,0 +1,5 @@
+overlaps:
+  - constructions: [adjective-001, degree-001]
+    notes: "Degree morphology couples tightly to gradable adjectives; non-gradable subtypes sit at the boundary."
+  - constructions: [grammatical-number-001, n-mass-001]
+    notes: "Countability interface; mass construal interacts with number marking and agreement."

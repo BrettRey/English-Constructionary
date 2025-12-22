@@ -6,10 +6,24 @@ const constructionsDir = path.join(__dirname, '../data/constructions');
 const files = fs.readdirSync(constructionsDir).filter((file) => file.endsWith('.yaml')).sort();
 
 const issues = [];
+const warnings = [];
 const idPattern = /^[a-z-]+[0-9]{3}$/;
+const knownHpcStabilisers = new Set([
+  'acquisition',
+  'entrenchment',
+  'alignment',
+  'transmission',
+  'functional-pressure',
+  'processing-economy',
+  'social-indexing'
+]);
 
 const record = (file, message) => {
   issues.push(`${file}: ${message}`);
+};
+
+const warn = (file, message) => {
+  warnings.push(`${file}: ${message}`);
 };
 
 const checkTrim = (file, value, label) => {
@@ -90,6 +104,24 @@ for (const file of files) {
       checkTrim(file, rel.notes, `relatedConstructions[${index}].notes`);
     });
   }
+
+  if (doc.hpc && Array.isArray(doc.hpc.stabilisers)) {
+    doc.hpc.stabilisers.forEach((stabiliser, index) => {
+      if (!stabiliser || typeof stabiliser !== 'object') return;
+      const type = stabiliser.type;
+      if (typeof type === 'string' && type.trim().length > 0 && !knownHpcStabilisers.has(type)) {
+        warn(
+          file,
+          `hpc.stabilisers[${index}].type '${type}' is not in the recommended list`
+        );
+      }
+    });
+  }
+}
+
+if (warnings.length > 0) {
+  console.warn('Lint warnings:');
+  warnings.forEach((warning) => console.warn(`- ${warning}`));
 }
 
 if (issues.length > 0) {

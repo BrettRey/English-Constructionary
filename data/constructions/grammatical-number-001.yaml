@@ -20,3 +20,54 @@ meanings:
         note: Mass vs count construal
     relations:
       - 2
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Number inflection and agreement"
+        diagnostics: ["singular vs plural morphology", "agreement on determiners/verbs"]
+        weight: high
+      - property: "Cardinality construal"
+        diagnostics: ["compatibility with cardinals", "singular/plural reference shift"]
+        weight: high
+    peripheral:
+      - property: "Collective/aggregate construals"
+        diagnostics: ["plural agreement with singular-looking nouns", "quasi-count behavior"]
+        weight: medium
+  stabilisers:
+    - type: acquisition
+      evidence: "early acquisition of singular/plural contrasts"
+    - type: entrenchment
+      evidence: "high-frequency noun paradigms anchor agreement"
+    - type: alignment
+      evidence: "community convergence on agreement targets"
+    - type: transmission
+      evidence: "consistent marking across generations"
+    - type: functional-pressure
+      evidence: "need to track individuation and plurality in discourse"
+  projectibility:
+    scope: "new nouns participate in number marking and agreement"
+    evidence: "productive plural formation and determiner agreement"
+    confidence: high
+  homeostasis:
+    perturbations:
+      - "reduced transmission or contact leads to erosion of number marking"
+  variation:
+    activation_states:
+      - context: "collective vs distributive construal"
+        effect: "agreement and quantifier choices shift"
+    speaker_variation: "register and dialect differences in agreement"
+  boundaries:
+    overlaps_with:
+      - n-mass-001
+    known_boundary_items:
+      - "cattle"
+      - "police"
+      - "furniture"
+  grain:
+    level: meso
+    parent_families:
+      - countability
+  coupling:
+    linked_cluster: "individuation construal"
+    mechanism: "bidirectional inference between construal and morphosyntax"

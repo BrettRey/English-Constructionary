@@ -9,3 +9,53 @@ meanings:
         note: Mass substance reference
       - form: rice
         note: Undifferentiated substance
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Non-count morphosyntax"
+        diagnostics: ["rejects cardinals", "takes much/less", "singular agreement default"]
+        weight: high
+      - property: "Non-individuated construal"
+        diagnostics: ["stuff/aggregate interpretation", "homogeneous part structure"]
+        weight: high
+    peripheral:
+      - property: "Object-mass and flexible nouns"
+        diagnostics: ["portion/container shifts", "count conversion in specific frames"]
+        weight: medium
+  stabilisers:
+    - type: acquisition
+      evidence: "early mapping of substance terms to mass frames"
+    - type: entrenchment
+      evidence: "high-frequency mass nouns anchor quantifier patterns"
+    - type: transmission
+      evidence: "stable mass-marking conventions across generations"
+    - type: functional-pressure
+      evidence: "need to distinguish substance from individuated reference"
+  projectibility:
+    scope: "new substance terms default to mass frames; count conversion is constrained"
+    evidence: "mass quantifier compatibility for novel materials"
+    confidence: medium
+  homeostasis:
+    perturbations:
+      - "portioning practices or registers promote count conversion"
+  variation:
+    activation_states:
+      - context: "container/portion construal"
+        effect: "count readings become available"
+    speaker_variation: "lexeme-specific flexibility in mass/count alternations"
+  boundaries:
+    overlaps_with:
+      - grammatical-number-001
+    known_boundary_items:
+      - "beer"
+      - "chicken"
+      - "paper"
+      - "furniture"
+  grain:
+    level: meso
+    parent_families:
+      - countability
+  coupling:
+    linked_cluster: "individuation construal"
+    mechanism: "construal-driven frame selection"
