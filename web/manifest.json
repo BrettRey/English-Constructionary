@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T15:23:17.340Z",
+  "generatedAt": "2025-12-22T15:52:28.698Z",
   "sections": [
     {
       "id": "project",
@@ -42,418 +42,1122 @@
       "label": "Constructions",
       "items": [
         {
+          "id": "bare-role-001",
           "title": "bare-role-001",
           "subtitle": "Bare Role Construction",
           "path": "/data/constructions/NP-bare-role.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "absolute-negator-pronoun-001",
           "title": "absolute-negator-pronoun-001",
           "subtitle": "Absolute Negator Pronouns",
           "path": "/data/constructions/absolute-negator-pronoun-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "no-determiner-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "never-adv-negation-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "adjective-001",
           "title": "adjective-001",
           "subtitle": "Adjective",
           "path": "/data/constructions/adjective-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "comparative-er-001",
           "title": "comparative-er-001",
           "subtitle": "Comparative -er",
           "path": "/data/constructions/comparative-er-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "constituent-not-negation-001",
           "title": "constituent-not-negation-001",
           "subtitle": "Constituent Negation with not",
           "path": "/data/constructions/constituent-not-negation-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "definite-001",
           "title": "definite-001",
           "subtitle": "Definite Construction",
           "path": "/data/constructions/definite-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "degree-001",
           "title": "degree-001",
           "subtitle": "Degree",
           "path": "/data/constructions/degree-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "determination-001",
           "title": "determination-001",
           "subtitle": "Determination",
           "path": "/data/constructions/determination-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-det-001",
+              "relationship": "implements"
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "subject-determiner-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "minor-determiner-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "genitive-s-001",
           "title": "genitive-s-001",
           "subtitle": "Genitive 's",
           "path": "/data/constructions/genitive-s-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "gradation-001",
           "title": "gradation-001",
           "subtitle": "Gradation",
           "path": "/data/constructions/gradation-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "grammatical-definiteness-001",
           "title": "grammatical-definiteness-001",
           "subtitle": "Grammatical Definiteness",
           "path": "/data/constructions/grammatical-definiteness-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "grammatical-number-001",
           "title": "grammatical-number-001",
           "subtitle": "Grammatical Number",
           "path": "/data/constructions/grammatical-number-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "quasi-count-noun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "imperative-negation-do-001",
           "title": "imperative-negation-do-001",
           "subtitle": "Imperative Negation with do-support",
           "path": "/data/constructions/imperative-negation-do-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "secondary-verbal-negation-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "indefinite-001",
           "title": "indefinite-001",
           "subtitle": "Indefinite Construction",
           "path": "/data/constructions/indefinite-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "independent-genitive-pronoun-001",
           "title": "independent-genitive-pronoun-001",
           "subtitle": "Independent Genitive Pronoun",
           "path": "/data/constructions/independent-genitive-pronoun-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "interrogative-word-001",
           "title": "interrogative-word-001",
           "subtitle": "Interrogative Word",
           "path": "/data/constructions/interrogative-word-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "minor-determiner-001",
           "title": "minor-determiner-001",
           "subtitle": "Minor Determiner (Plain NP/PP)",
           "path": "/data/constructions/minor-determiner-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "determination-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "n-common-001",
           "title": "n-common-001",
           "subtitle": "Common Noun",
           "path": "/data/constructions/n-common-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "n-common-pl-001",
           "title": "n-common-pl-001",
           "subtitle": "Plural Common Noun",
           "path": "/data/constructions/n-common-pl-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "n-mass-001",
           "title": "n-mass-001",
           "subtitle": "Non-count Noun",
           "path": "/data/constructions/n-mass-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "quasi-count-noun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "n-pl-001",
           "title": "n-pl-001",
           "subtitle": "Plural Noun",
           "path": "/data/constructions/n-pl-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "n-proper-001",
           "title": "n-proper-001",
           "subtitle": "Proper Noun",
           "path": "/data/constructions/n-proper-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "n-sg-001",
           "title": "n-sg-001",
           "subtitle": "Singular Noun",
           "path": "/data/constructions/n-sg-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "proper-name-001",
           "title": "proper-name-001",
           "subtitle": "Proper Name",
           "path": "/data/constructions/name-proper-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "neither-nor-coordination-001",
           "title": "neither-nor-coordination-001",
           "subtitle": "Correlative Coordination with neither...nor",
           "path": "/data/constructions/neither-nor-coordination-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "absolute-negator-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "never-adv-negation-001",
           "title": "never-adv-negation-001",
           "subtitle": "Adverbial Negation with never",
           "path": "/data/constructions/never-adv-negation-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "absolute-negator-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "no-determiner-001",
           "title": "no-determiner-001",
           "subtitle": "Negative Determiner \"no\"",
           "path": "/data/constructions/no-determiner-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "absolute-negator-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "nom-001",
           "title": "nom-001",
           "subtitle": "Nominal Construction",
           "path": "/data/constructions/nom-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "nom-adjp-mod-001",
           "title": "nom-adjp-mod-001",
           "subtitle": "Adjectival Pre-head Modifier in Nominal",
           "path": "/data/constructions/nom-adjp-mod-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "nom-premod-000",
+              "relationship": "inherits-from",
+              "notes": "Specific type of pre-head modification"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "nom-n-mod-001",
           "title": "nom-n-mod-001",
           "subtitle": "Nominal Pre-head Modifier in Nominal",
           "path": "/data/constructions/nom-n-mod-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "nom-001",
+              "relationship": "related-to",
+              "notes": "Original relationship: can-fill."
+            },
+            {
+              "id": "np-001",
+              "relationship": "related-to",
+              "notes": "Original relationship: can-be-part-of."
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "nom-premod-000",
           "title": "nom-premod-000",
           "subtitle": "Pre-head Modifier in Nominal",
           "path": "/data/constructions/nom-premod-000.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "nom-prehead-mod-001",
           "title": "nom-prehead-mod-001",
           "subtitle": "Nominal Pre-head Modifier",
           "path": "/data/constructions/nom_prehead_mod.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "nom-premod-000",
+              "relationship": "see-also"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-001",
           "title": "np-001",
           "subtitle": "Noun Phrase",
           "path": "/data/constructions/np-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-common-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-proper-name-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-bare-001",
           "title": "np-bare-001",
           "subtitle": "Bare NP Construction",
           "path": "/data/constructions/np-bare-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "np-common-001",
           "title": "np-common-001",
           "subtitle": "Common Noun Phrase",
           "path": "/data/constructions/np-common-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-bare-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-det-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-def-001",
           "title": "np-def-001",
           "subtitle": "Definite NP Construction",
           "path": "/data/constructions/np-def-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "np-det-001",
           "title": "np-det-001",
           "subtitle": "Determined Noun Phrase",
           "path": "/data/constructions/np-det-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "determination-001",
+              "relationship": "implements"
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-gen-indep-001",
           "title": "np-gen-indep-001",
           "subtitle": "Independent Genitive NP",
           "path": "/data/constructions/np-gen-indep-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "independent-genitive-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-indef-001",
           "title": "np-indef-001",
           "subtitle": "Indefinite NP Construction",
           "path": "/data/constructions/np-indef-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "np-pron-001",
           "title": "np-pron-001",
           "subtitle": "Pronominal Noun Phrase",
           "path": "/data/constructions/np-pron-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-pron-personal-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-demonstrative-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-indefinite-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-reflexive-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-reciprocal-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-interrog-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-rel-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-dummy-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-pron-interrog-gen-indep-001",
           "title": "np-pron-interrog-gen-indep-001",
           "subtitle": "Independent Interrogative Genitive Pronoun NP",
           "path": "/data/constructions/np-pron-interrog-gen-indep-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "independent-genitive-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-pron-personal-gen-indep-001",
           "title": "np-pron-personal-gen-indep-001",
           "subtitle": "Independent Personal Genitive Pronoun NP",
           "path": "/data/constructions/np-pron-personal-gen-indep-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "independent-genitive-pronoun-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "np-proper-001",
           "title": "np-proper-001",
           "subtitle": "Proper Noun Phrase",
           "path": "/data/constructions/np-proper-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-proper-name-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-addition-asyndetic-001",
           "title": "numerative-addition-asyndetic-001",
           "subtitle": "Numerative Addition Coordination (without and)",
           "path": "/data/constructions/numerative-addition-asyndetic-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-factor-modifier-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "relationship": "alternates-with"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-addition-coordination-001",
           "title": "numerative-addition-coordination-001",
           "subtitle": "Numerative Addition Coordination (with and)",
           "path": "/data/constructions/numerative-addition-coordination-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-factor-modifier-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "relationship": "alternates-with"
+            },
+            {
+              "id": "numerative-magnitude-head-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-basic-lexeme-001",
           "title": "numerative-basic-lexeme-001",
           "subtitle": "Basic Numerative Lexeme (0–99)",
           "path": "/data/constructions/numerative-basic-lexeme-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-single-digit-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-ten-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-teen-irregular-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-teen-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-decade-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-compound-basic-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "title": "numerative-addition-asyndetic-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-factor-modifier-001",
+              "title": "numerative-factor-modifier-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-fractional-001",
+              "title": "numerative-fractional-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-ordinal-rightmost-001",
+              "title": "numerative-ordinal-rightmost-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-compound-basic-001",
           "title": "numerative-compound-basic-001",
           "subtitle": "Compound Basic Numerative (Decade + Single-digit)",
           "path": "/data/constructions/numerative-compound-basic-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-decade-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-single-digit-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-decade-001",
           "title": "numerative-decade-001",
           "subtitle": "Decade Numerative",
           "path": "/data/constructions/numerative-decade-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-compound-basic-001",
+              "title": "numerative-compound-basic-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-factor-modifier-001",
           "title": "numerative-factor-modifier-001",
           "subtitle": "Factor + Magnitude Numerative",
           "path": "/data/constructions/numerative-factor-modifier-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-magnitude-head-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "title": "numerative-addition-asyndetic-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-fractional-001",
           "title": "numerative-fractional-001",
           "subtitle": "Fractional Numerative",
           "path": "/data/constructions/numerative-fractional-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-ordinal-rightmost-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-fused-head-001",
           "title": "numerative-fused-head-001",
           "subtitle": "Fused-head Numerative",
           "path": "/data/constructions/numerative-fused-head-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-compound-basic-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-magnitude-head-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-magnitude-head-001",
           "title": "numerative-magnitude-head-001",
           "subtitle": "Magnitude Head Numerative",
           "path": "/data/constructions/numerative-magnitude-head-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-factor-modifier-001",
+              "title": "numerative-factor-modifier-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-ordinal-adjective-001",
           "title": "numerative-ordinal-adjective-001",
           "subtitle": "Ordinal Adjective",
           "path": "/data/constructions/numerative-ordinal-adjective-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-ordinal-rightmost-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-ordinal-rightmost-001",
           "title": "numerative-ordinal-rightmost-001",
           "subtitle": "Rightmost-base Ordinal Formation in Numeratives",
           "path": "/data/constructions/numerative-ordinal-rightmost-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-compound-basic-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-magnitude-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "numerative-single-digit-001",
           "title": "numerative-single-digit-001",
           "subtitle": "Single-digit Numerative",
           "path": "/data/constructions/numerative-single-digit-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-compound-basic-001",
+              "title": "numerative-compound-basic-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-teen-001",
           "title": "numerative-teen-001",
           "subtitle": "Regular Teen Numerative (-teen)",
           "path": "/data/constructions/numerative-teen-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-teen-irregular-001",
           "title": "numerative-teen-irregular-001",
           "subtitle": "Irregular Teen Numerative (eleven/twelve)",
           "path": "/data/constructions/numerative-teen-irregular-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-teen-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "numerative-ten-001",
           "title": "numerative-ten-001",
           "subtitle": "Ten Numerative",
           "path": "/data/constructions/numerative-ten-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
+          "id": "past-tense-ed-001",
           "title": "past-tense-ed-001",
           "subtitle": "Past Tense -ed",
           "path": "/data/constructions/past-tense-ed-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "perfect-have-001",
           "title": "perfect-have-001",
           "subtitle": "Perfect HAVE + V-en",
           "path": "/data/constructions/perfect-have-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "plural-001",
           "title": "plural-001",
           "subtitle": "Plural Construction",
           "path": "/data/constructions/plural-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "plural-s-001",
           "title": "plural-s-001",
           "subtitle": "Plural -s",
           "path": "/data/constructions/plural-s-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "prenominal-modifier-001",
           "title": "prenominal-modifier-001",
           "subtitle": "Bare Plural with Prenominal Modifier",
           "path": "/data/constructions/prenominal_modifier.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "def-prenominal-001",
+              "relationship": "alternates-with",
+              "notes": "The definite version (the old men) refers to specific group"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "progressive-ing-001",
           "title": "progressive-ing-001",
           "subtitle": "Progressive -ing",
           "path": "/data/constructions/progressive-ing-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "np-proper-name-001",
           "title": "np-proper-name-001",
           "subtitle": "Proper Name Phrase",
           "path": "/data/constructions/proper-name.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-proper-noun-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "quasi-count-noun-001",
           "title": "quasi-count-noun-001",
           "subtitle": "Quasi-count Plural Noun",
           "path": "/data/constructions/quasi-count-noun-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-mass-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "secondary-verbal-negation-001",
           "title": "secondary-verbal-negation-001",
           "subtitle": "Secondary Verbal Negation",
           "path": "/data/constructions/secondary-verbal-negation-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "imperative-negation-do-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "constituent-not-negation-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
         },
         {
+          "id": "singular-001",
           "title": "singular-001",
           "subtitle": "Singular Construction",
           "path": "/data/constructions/singular-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": "subject-determiner-001",
           "title": "subject-determiner-001",
           "subtitle": "Subject-determiner (Genitive NP)",
           "path": "/data/constructions/subject-determiner-001.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "determination-001",
+              "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
         }
       ]
     },
@@ -462,64 +1166,94 @@
       "label": "Indices",
       "items": [
         {
+          "id": null,
           "title": "boundary-overlaps.yaml",
           "subtitle": "",
           "path": "/data/indices/boundary-overlaps.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "cross-references.yaml",
           "subtitle": "",
           "path": "/data/indices/cross-references.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "families.yaml",
           "subtitle": "",
           "path": "/data/indices/families.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "form-features.yaml",
           "subtitle": "",
           "path": "/data/indices/form-features.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "hpc-status.yaml",
           "subtitle": "",
           "path": "/data/indices/hpc-status.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "meaning-hierarchies.yaml",
           "subtitle": "",
           "path": "/data/indices/meaning-hierarchies.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "meaning-implementations.yaml",
           "subtitle": "",
           "path": "/data/indices/meaning-implementations.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "semantic-features.yaml",
           "subtitle": "",
           "path": "/data/indices/semantic-features.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "stabilisers.yaml",
           "subtitle": "",
           "path": "/data/indices/stabilisers.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "syntactic-diagnostics.yaml",
           "subtitle": "",
           "path": "/data/indices/syntactic-diagnostics.yaml",
-          "kind": "yaml"
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     },
@@ -528,10 +1262,13 @@
       "label": "Schemas",
       "items": [
         {
+          "id": null,
           "title": "construction.json",
           "subtitle": "",
           "path": "/data/schemas/construction.json",
-          "kind": "text"
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     },
@@ -540,28 +1277,40 @@
       "label": "Docs",
       "items": [
         {
+          "id": null,
           "title": "LITERATURE-PLAN.md",
           "subtitle": "",
           "path": "/docs/LITERATURE-PLAN.md",
-          "kind": "markdown"
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "ROADMAP.md",
           "subtitle": "",
           "path": "/docs/ROADMAP.md",
-          "kind": "markdown"
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "SCHEMA.md",
           "subtitle": "",
           "path": "/docs/SCHEMA.md",
-          "kind": "markdown"
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "hpc-implications.md",
           "subtitle": "",
           "path": "/docs/hpc-implications.md",
-          "kind": "markdown"
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     },
@@ -570,34 +1319,49 @@
       "label": "Literature",
       "items": [
         {
+          "id": null,
           "title": "cgel-determiner.pdf",
           "subtitle": "",
           "path": "/literature/cgel-determiner.pdf",
-          "kind": "pdf"
+          "kind": "pdf",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "cgel-negation.pdf",
           "subtitle": "",
           "path": "/literature/cgel-negation.pdf",
-          "kind": "pdf"
+          "kind": "pdf",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "countability copy.tex",
           "subtitle": "",
           "path": "/literature/countability copy.tex",
-          "kind": "text"
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "deitality copy.tex",
           "subtitle": "",
           "path": "/literature/deitality copy.tex",
-          "kind": "text"
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
         },
         {
+          "id": null,
           "title": "numerals.tex",
           "subtitle": "",
           "path": "/literature/numerals.tex",
-          "kind": "text"
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     }

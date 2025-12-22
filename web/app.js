@@ -114,7 +114,7 @@ const setActiveViewButton = () => {
   toggleViewBtn.textContent = state.viewMode === 'summary' ? 'Show raw' : 'Show summary';
 };
 
-const renderYamlSummary = (data) => {
+const renderYamlSummary = (data, itemMeta = null) => {
   detailBody.innerHTML = '';
   if (!data || typeof data !== 'object') {
     detailBody.innerHTML = '<div class="empty">No structured data found.</div>';
@@ -242,6 +242,65 @@ const renderYamlSummary = (data) => {
     hpcBlock.appendChild(tag);
     detailBody.appendChild(hpcBlock);
   }
+
+  if (itemMeta && (itemMeta.relations?.length || itemMeta.incomingRelations?.length)) {
+    const relationBlock = document.createElement('div');
+    relationBlock.className = 'detail-block';
+    const relationTitle = document.createElement('h3');
+    relationTitle.textContent = 'Relations';
+    relationBlock.appendChild(relationTitle);
+    const relationGrid = document.createElement('div');
+    relationGrid.className = 'detail-grid';
+
+    const instanceOf = (itemMeta.relations || []).filter((rel) =>
+      ['specialization-of', 'implements', 'inherits-from'].includes(rel.relationship)
+    );
+    const contains = (itemMeta.relations || []).filter((rel) => rel.relationship === 'contains');
+    const contributesTo = (itemMeta.incomingRelations || []).filter(
+      (rel) => rel.relationship === 'contains'
+    );
+    const related = (itemMeta.relations || []).filter(
+      (rel) =>
+        !['specialization-of', 'implements', 'inherits-from', 'contains'].includes(rel.relationship)
+    );
+
+    const renderRelationList = (label, rels, isIncoming = false) => {
+      if (!rels.length) return;
+      const row = document.createElement('div');
+      const items = rels
+        .map((rel) => {
+          const targetId = isIncoming ? rel.id : rel.id;
+          const relLabel = rel.relationship || 'related-to';
+          return `<span class=\"tag\" data-rel=\"${targetId}\">${targetId} (${relLabel})</span>`;
+        })
+        .join(' ');
+      row.innerHTML = `<strong>${label}</strong>: ${items}`;
+      relationGrid.appendChild(row);
+    };
+
+    renderRelationList('Is an instance of', instanceOf);
+    renderRelationList('Contains', contains);
+    renderRelationList('Contributes to', contributesTo, true);
+    renderRelationList('Related to', related);
+
+    if (relationGrid.children.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'empty';
+      empty.textContent = 'No relations listed.';
+      relationGrid.appendChild(empty);
+    }
+
+    relationBlock.appendChild(relationGrid);
+    detailBody.appendChild(relationBlock);
+
+    relationBlock.querySelectorAll('.tag[data-rel]').forEach((tag) => {
+      tag.addEventListener('click', () => {
+        const relId = tag.dataset.rel;
+        const target = state.byId?.get(relId);
+        if (target) selectItem(target);
+      });
+    });
+  }
 };
 
 const renderRaw = (text) => {
@@ -280,7 +339,7 @@ const selectItem = async (item) => {
     if (state.viewMode === 'summary' && item.kind === 'yaml') {
       try {
         const data = jsyaml.load(text);
-        renderYamlSummary(data);
+        renderYamlSummary(data, item);
       } catch (err) {
         renderRaw(text);
       }
@@ -301,6 +360,11 @@ const init = async () => {
     const manifest = await response.json();
     state.manifest = manifest;
     state.items = buildItems(manifest);
+    state.byId = new Map(
+      state.items
+        .filter((item) => item.id)
+        .map((item) => [item.id, item])
+    );
     state.filtered = state.items;
     renderFilters(manifest.sections);
     renderList();

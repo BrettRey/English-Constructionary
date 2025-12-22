@@ -13,7 +13,10 @@ const readYamlMeta = (filePath) => {
       return {
         id: data.id || null,
         name: data.name || null,
-        pattern: data.pattern || null
+        pattern: data.pattern || null,
+        relatedConstructions: Array.isArray(data.relatedConstructions)
+          ? data.relatedConstructions
+          : []
       };
     }
   } catch (err) {
@@ -45,19 +48,26 @@ const buildSection = ({ id, label, dir, exts, includeMeta }) => {
     const relPath = `/${dir}/${file}`;
     let title = file;
     let subtitle = '';
+    let metaId = null;
+    let relations = [];
     const kind = kindForExt(path.extname(file));
     if (includeMeta) {
       const meta = readYamlMeta(fullPath);
       if (meta) {
         title = meta.id || file;
         subtitle = meta.name || '';
+        metaId = meta.id || null;
+        relations = meta.relatedConstructions || [];
       }
     }
     return {
+      id: metaId,
       title,
       subtitle,
       path: relPath,
-      kind
+      kind,
+      relations,
+      incomingRelations: []
     };
   });
   return { id, label, items };
@@ -117,6 +127,32 @@ const manifest = {
     })
   ]
 };
+
+const constructionSection = manifest.sections.find((section) => section.id === 'constructions');
+if (constructionSection) {
+  const byId = new Map();
+  constructionSection.items.forEach((item) => {
+    if (item.id) byId.set(item.id, item);
+  });
+  constructionSection.items.forEach((item) => {
+    item.relations.forEach((rel) => {
+      const target = byId.get(rel.id);
+      if (target) {
+        target.incomingRelations.push({
+          id: item.id,
+          title: item.title,
+          relationship: rel.relationship || rel.type || 'related-to'
+        });
+      }
+    });
+  });
+
+  constructionSection.items.forEach((item) => {
+    item.incomingRelations = item.incomingRelations.filter(
+      (incoming) => incoming.relationship === 'contains'
+    );
+  });
+}
 
 fs.writeFileSync(path.join(webDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
 console.log(`Wrote web/manifest.json with ${manifest.sections.reduce((sum, section) => sum + section.items.length, 0)} items.`);
