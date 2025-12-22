@@ -1,0 +1,24 @@
+syntactic_diagnostics:
+  determiner-obligatoriness-singular-count:
+    description: "Singular count nominals generally require determination to form an NP."
+    examples:
+      - "*New car was stolen."
+      - "The/One/Ally's new car was stolen."
+  deitality-diagnostics:
+    description: "Diagnostic profile for deitality in determiner realizations."
+    diagnostics:
+      - existential-there-pivot
+      - partitive-of-complement
+      - identificational-hosting
+      - one-substitution
+  existential-there-pivot:
+    description: "Under neutral prosody, deital determiners resist pivot position in existential there."
+    examples:
+      - "*There is the key on the table."
+      - "There is a key on the table."
+  partitive-of-complement:
+    description: "Eligibility as complement of partitive of (e.g., 'some of the N')."
+  identificational-hosting:
+    description: "Ability to host identificational constructions (e.g., equatives/clefts)."
+  one-substitution:
+    description: "Compatibility with one-substitution as a test of determiner status."

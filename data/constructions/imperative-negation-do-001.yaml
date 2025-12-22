@@ -1,0 +1,21 @@
+id: imperative-negation-do-001
+name: Imperative Negation with do-support
+pattern: "Do not/Don't + VP (imperative)"
+meanings:
+  '1':
+    definition: Issues a negative directive (prohibitive imperative)
+    details: Uses do-support for negation in imperatives, even when an auxiliary could negate in declaratives.
+    examples:
+      - form: "Don't look at me."
+        note: Prohibitive directive
+      - form: "Don't be afraid."
+        note: do-support despite auxiliary be
+      - form: "Don't you look at me!"
+        note: Emphatic negative imperative with subject
+      - form: "Don't everyone shout it out."
+        note: Negative imperative with quantified subject
+constraints:
+  - type: syntactic
+    description: Imperative clause with base-form VP.
+  - type: structural
+    description: Negation is expressed with do-support (do not/don't) in imperatives.

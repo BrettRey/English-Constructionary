@@ -1,0 +1,16 @@
+id: no-determiner-001
+name: Negative Determiner "no"
+pattern: "no + N"
+meanings:
+  '1':
+    definition: Negatively quantifies a nominal by asserting zero instances
+    examples:
+      - form: "no books"
+        note: Zero instances of books
+      - form: "no evidence"
+        note: Absence of evidence
+constraints:
+  - type: syntactic
+    description: Determiner function with NP head.
+  - type: semantic
+    description: Construes the NP as having zero members or instances.

@@ -220,6 +220,24 @@
       }
     },
 
+    "semanticRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/semantic-features.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+
+    "syntacticRefs": {
+      "type": "array",
+      "description": "References to entries in data/indices/syntactic-diagnostics.yaml",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+
     "hpc": {
       "type": "object",
       "description": "Homeostatic Property Cluster (HPC) metadata for mechanism-grounded categories",

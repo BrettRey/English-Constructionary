@@ -43,6 +43,8 @@ Meanings can reference these relations via their `relations` array.
 - `semanticType`: `reference`, `predication`, `modification`, or `quantification`.
 - `relatedConstructions`: array of `{ id, relationship, notes? }` using the schema’s relationship enums.
 - `hpc`: optional HPC metadata block (see below).
+- `semanticRefs`: list of IDs in `data/indices/semantic-features.yaml` relevant to the construction.
+- `syntacticRefs`: list of IDs in `data/indices/syntactic-diagnostics.yaml` relevant to the construction.
 
 ## HPC Metadata (`hpc`)
 Use `hpc` to document mechanism-grounded cluster structure, stabilisers, and diagnostics. The stabiliser types are open-ended; add new types as needed with clear evidence.
@@ -91,6 +93,13 @@ hpc:
 
 ### Stabiliser Types (Non-exhaustive)
 Common types include: `acquisition`, `entrenchment`, `alignment`, `transmission`, `functional-pressure`, `processing-economy`, `social-indexing`. New types are expected; record them directly with evidence.
+
+## Semantic & Syntax Registries
+Two non-construction registries live in `data/indices/`:
+- `semantic-features.yaml`: shared semantic property clusters and diagnostics (e.g., definiteness, identifiability).
+- `syntactic-diagnostics.yaml`: shared syntactic diagnostics (e.g., existential *there* pivot, partitive *of*, one-substitution).
+
+Constructions can reference these via `semanticRefs` and `syntacticRefs` to avoid repeating long diagnostics across entries.
 
 ## CGEL Terminology
 Use CGEL-aligned terms where applicable, e.g., **determinative** (lexical category) rather than **determiner** (function), and **genitive** rather than **possessive**.

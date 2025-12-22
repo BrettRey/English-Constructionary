@@ -1,0 +1,16 @@
+id: never-adv-negation-001
+name: Adverbial Negation with never
+pattern: "never + VP"
+meanings:
+  '1':
+    definition: Negates occurrence over time (no instances at any time)
+    examples:
+      - form: "She never called."
+        note: No calling events occurred
+      - form: "I have never been there."
+        note: No prior occurrences in experience
+constraints:
+  - type: syntactic
+    description: Adverbial negator modifying VP.
+  - type: semantic
+    description: Negates the occurrence across the relevant time span.

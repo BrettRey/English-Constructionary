@@ -1,0 +1,18 @@
+semantic_features:
+  definiteness:
+    description: "Semantic property cluster involving identifiability, uniqueness, and recoverability."
+    properties:
+      - identifiability
+      - uniqueness
+      - familiarity
+      - anaphoric-recoverability
+  indefiniteness:
+    description: "Semantic property cluster that introduces or profiles non-unique, non-anaphoric referents."
+  identifiability:
+    description: "Referent is identifiable for the addressee in the discourse situation."
+  uniqueness:
+    description: "Exactly one entity satisfies the description in the relevant domain."
+  familiarity:
+    description: "Referent is discourse-given or previously established."
+  anaphoric-recoverability:
+    description: "Referent can be recovered from prior discourse context."

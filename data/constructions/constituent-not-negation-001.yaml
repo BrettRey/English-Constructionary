@@ -1,0 +1,18 @@
+id: constituent-not-negation-001
+name: Constituent Negation with not
+pattern: "not + XP (predicative)"
+meanings:
+  '1':
+    definition: Negates a non-verbal predicate or constituent within a clause
+    examples:
+      - form: "It is not happy."
+        note: Negated predicative AdjP
+      - form: "She is not in the box."
+        note: Negated PP complement
+      - form: "That is not a solution."
+        note: Negated predicative NP
+constraints:
+  - type: syntactic
+    description: Occurs with predicative XP (AdjP/PP/NP) in a copular or similar frame.
+  - type: semantic
+    description: Negates the property or relation expressed by the XP.

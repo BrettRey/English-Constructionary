@@ -3,10 +3,25 @@ name: Determined Noun Phrase
 pattern: NP[Det Nom]
 meanings:
   '1':
-    definition: Referential, typically with specific or contextually identifiable referent
-    details: 'Related constructions: np-def-001 (inherits-from); np-indef-001 (inherits-from)'
+    definition: Nominal with a determiner function, forming an NP marked as definite or indefinite
     examples:
-      - form: the dog
-        note: Could refer to a specific dog previously mentioned or identifiable from context.
-      - form: those books
-        note: Refers to specific books that are likely identifiable by the listener.
+      - form: the new car
+        note: Definite determinative realization
+      - form: one new car
+        note: Indefinite determinative realization
+      - form: Ally's new car
+        note: Genitive NP realizing determiner function
+      - form: what size hat
+        note: Plain NP determiner in interrogatives
+constraints:
+  - type: syntactic
+    description: Determiner function is a dependent in NP structure.
+  - type: structural
+    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless in some contexts.
+relatedConstructions:
+  - id: determination-001
+    relationship: implements
+  - id: np-def-001
+    relationship: specialization-of
+  - id: np-indef-001
+    relationship: specialization-of

@@ -1,0 +1,36 @@
+id: determination-001
+name: Determination
+pattern: "Determiner function in NP"
+meanings:
+  '1':
+    definition: Licenses a nominal as an NP and marks it for definiteness or indefiniteness
+    details: Realized by determinatives, genitive NPs (subject-determiners), and a limited set of plain-case NPs or PPs.
+    examples:
+      - form: "the new car"
+        note: Determinative realization; definite
+      - form: "one new car"
+        note: Determinative realization; indefinite
+      - form: "Ally's new car"
+        note: Genitive NP realizing determiner function
+      - form: "what size hat"
+        note: Plain NP determiner in interrogatives
+      - form: "over 20 times"
+        note: PP determiner in a measure NP
+constraints:
+  - type: syntactic
+    description: Determiner is a dependent within NP structure.
+  - type: structural
+    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless in some contexts.
+semanticRefs:
+  - definiteness
+  - indefiniteness
+syntacticRefs:
+  - determiner-obligatoriness-singular-count
+  - deitality-diagnostics
+relatedConstructions:
+  - id: np-det-001
+    relationship: implements
+  - id: np-def-001
+    relationship: related-to
+  - id: np-indef-001
+    relationship: related-to
