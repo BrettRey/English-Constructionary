@@ -65,3 +65,25 @@ form_features:
     examples:
       - twenty-second
       - two hundredth
+  numerative-ordinal-adjective:
+    description: "Ordinal adjectives derived from numeratives."
+    examples:
+      - first
+      - second
+      - third
+      - twenty-second
+      - two hundredth
+    notes:
+      - "Irregular bases: first, second, third."
+  numerative-fractional-noun:
+    description: "Fractional nouns denoting denominators in partitive numeratives."
+    members:
+      - half
+      - third
+      - quarter
+      - fourth
+      - fifth
+      - tenth
+      - hundredth
+    notes:
+      - "Fractionals are count nouns and inflect for number."

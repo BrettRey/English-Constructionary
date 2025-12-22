@@ -1,0 +1,21 @@
+id: numerative-ordinal-adjective-001
+name: Ordinal Adjective
+pattern: "Adj[ordinal] + N"
+meanings:
+  '1':
+    definition: Specifies rank or order position within a sequence
+    examples:
+      - form: first page
+        note: Rank 1
+      - form: twenty-second step
+        note: Rank 22
+constraints:
+  - type: structural
+    description: Ordinal adjectives typically function as modifiers in NPs and can co-occur with determiners.
+formRefs:
+  - numerative-ordinal-adjective
+semanticRefs:
+  - ordinal-rank
+relatedConstructions:
+  - id: numerative-ordinal-rightmost-001
+    relationship: related-to

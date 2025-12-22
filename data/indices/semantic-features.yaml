@@ -20,3 +20,7 @@ semantic_features:
     description: "Encodes numerical quantity of a set or entity."
   additive-composition:
     description: "Indicates additive composition within a numerative (e.g., 20 + 3)."
+  ordinal-rank:
+    description: "Ranks or orders an entity within an ordered set."
+  fractional-quantity:
+    description: "Specifies a partitive fraction of a whole."

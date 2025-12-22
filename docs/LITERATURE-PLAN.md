@@ -13,7 +13,7 @@
 
 ### Scope (what we will do)
 - Add **core numeratives constructions** grounded in morphosyntax and diagnostics.
-- Keep scope limited to **cardinal numeratives** and their internal syntax.
+- Cover **cardinals plus ordinal/fractional morphology** where it diagnoses constituency.
 - Do **not** cover decimals, algebraic expressions, or idiomatic quantity nouns (dozen, score, etc.) in this batch.
 
 ### New/Updated Constructions
@@ -36,6 +36,12 @@
 5) **`numerative-fused-head-001`** (optional)
    - Form: DP in fused determiner‑head function ("twenty‑two" standing alone).
    - Evidence: substitution/ellipsis.
+6) **`numerative-ordinal-adjective-001`**
+   - Form: ordinal adjectives in modifier position.
+   - Meaning: rank/order.
+7) **`numerative-fractional-001`**
+   - Form: numerator + fractional noun (+ of NP).
+   - Meaning: partitive fraction.
 
 ### Registry Additions
 - **Syntactic diagnostics** (new entries):
@@ -47,9 +53,10 @@
   - measure
 
 ### Deliverables
-- 4–5 new constructions with examples and constraints.
+- 6–7 new constructions with examples and constraints.
 - 3–4 new syntactic diagnostics entries.
 - Validation after each small batch; one themed commit.
+Status: Completed for numeratives core (cardinal, ordinal, fractional).
 
 ## Batch 2 (Next): Negation Refinements
 - Add secondary verbal negation and synthetic absolute negators (e.g., nobody/nothing) as separate constructions.
