@@ -1,13 +1,13 @@
 id: numerative-ordinal-adjective-001
 name: Ordinal Adjective
-pattern: "Adj[ordinal] + N"
+pattern: "Adj[ordinal]"
 meanings:
   '1':
     definition: Specifies rank or order position within a sequence
     examples:
-      - form: first page
+      - form: first
         note: Rank 1
-      - form: twenty-second step
+      - form: twenty-second
         note: Rank 22
 constraints:
   - type: structural

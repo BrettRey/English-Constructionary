@@ -1,17 +1,17 @@
 id: numerative-fractional-001
-name: Fractional Numerative
-pattern: "Det[numerator] + N[fraction] (+ of + NP)"
+name: Fractional Noun
+pattern: "N[fraction]"
 meanings:
   '1':
-    definition: Specifies a fractional quantity relative to a whole
+    definition: Fractional noun denoting a denominator; used in fraction NPs with a numeral determiner
     examples:
-      - form: one fifth (of the cake)
-        note: Fractional denominator with partitive complement
-      - form: three quarters of the students
-        note: Plural fractional noun
+      - form: fifth
+        note: Denominator noun
+      - form: quarter
+        note: Suppletive fractional noun
 constraints:
   - type: structural
-    description: Fractional noun heads a nominal; numerator functions as determiner.
+    description: Fractional noun heads a nominal; numerator functions as determiner in fraction NPs (e.g., one fifth).
   - type: morphological
     description: Fractional noun inflects for number (one third vs two thirds); half/quarter are suppletive.
 formRefs:
