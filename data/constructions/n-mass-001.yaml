@@ -4,4 +4,8 @@ pattern: N[Mass:YES]
 meanings:
   '1':
     definition: Reference to undifferentiated substance/stuff
-    examples: []
+    examples:
+      - form: water
+        note: Mass substance reference
+      - form: rice
+        note: Undifferentiated substance

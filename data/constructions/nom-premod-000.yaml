@@ -4,4 +4,8 @@ pattern: Nom[Mod:XP Head:N]
 meanings:
   '1':
     definition: Modification of nominal head through pre-head constituent
-    examples: []
+    examples:
+      - form: old book
+        note: Adjectival pre-head modifier
+      - form: dog breeder
+        note: Nominal pre-head modifier

@@ -8,20 +8,24 @@
     "id": {
       "type": "string",
       "description": "Unique identifier for the construction",
-      "pattern": "^[a-z-]+[0-9]{3}$"
+      "pattern": "^[a-z-]+[0-9]{3}$",
+      "minLength": 1
     },
     "name": {
       "type": "string",
-      "description": "Human-readable name for the construction"
+      "description": "Human-readable name for the construction",
+      "minLength": 1
     },
     "pattern": {
       "type": "string",
-      "description": "Formal syntactic/morphological pattern"
+      "description": "Formal syntactic/morphological pattern",
+      "minLength": 1
     },
 
     "meanings": {
       "type": "object",
       "description": "Numbered meanings, keyed by integer strings",
+      "minProperties": 1,
       "patternProperties": {
         "^[0-9]+$": {
           "type": "object",
@@ -30,22 +34,27 @@
               "required": ["definition", "examples"],
               "properties": {
                 "definition": {
-                  "type": "string"
+                  "type": "string",
+                  "minLength": 1
                 },
                 "details": {
-                  "type": "string"
+                  "type": "string",
+                  "minLength": 1
                 },
                 "examples": {
                   "type": "array",
+                  "minItems": 1,
                   "items": {
                     "type": "object",
                     "required": ["form"],
                     "properties": {
                       "form": {
-                        "type": "string"
+                        "type": "string",
+                        "minLength": 1
                       },
                       "note": {
-                        "type": "string"
+                        "type": "string",
+                        "minLength": 1
                       }
                     }
                   }
@@ -66,23 +75,28 @@
                 "implements": {
                   "type": "string",
                   "description": "Reference to meaning in another construction (format: construction-id.meaning-number)",
-                  "pattern": "^[a-z-]+[0-9]{3}\\.[0-9]+$"
+                  "pattern": "^[a-z-]+[0-9]{3}\\.[0-9]+$",
+                  "minLength": 1
                 },
                 "specialization": {
                   "type": "string",
-                  "description": "How this construction implements the referenced meaning"
+                  "description": "How this construction implements the referenced meaning",
+                  "minLength": 1
                 },
                 "examples": {
                   "type": "array",
+                  "minItems": 1,
                   "items": {
                     "type": "object",
                     "required": ["form"],
                     "properties": {
                       "form": {
-                        "type": "string"
+                        "type": "string",
+                        "minLength": 1
                       },
                       "note": {
-                        "type": "string"
+                        "type": "string",
+                        "minLength": 1
                       }
                     }
                   }

@@ -47,7 +47,7 @@ meanings:
         note: Tentative approach
     relations:
       - 1
-      - 5
+      - 4
 relations:
   '1':
     construction: tense-marking-001

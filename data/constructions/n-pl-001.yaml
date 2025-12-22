@@ -4,4 +4,8 @@ pattern: N[Number:PL]
 meanings:
   '1':
     definition: Reference to multiple entities/count items
-    examples: []
+    examples:
+      - form: cats
+        note: Multiple countable entities
+      - form: books
+        note: Plural count noun

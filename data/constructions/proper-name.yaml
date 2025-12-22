@@ -1,6 +1,6 @@
 id: np-proper-name-001
 name: Proper Name Phrase
-pattern: ''
+pattern: NP[Head:ProperName]
 meanings:
   '1':
     definition: Refers to a unique individual, entity, place, event, etc.

@@ -3,5 +3,9 @@ name: Singular Noun
 pattern: N[Number:SG]
 meanings:
   '1':
-    definition: Reference to single entity/count item
-    examples: []
+    definition: Reference to a single entity/count item
+    examples:
+      - form: cat
+        note: Single countable entity
+      - form: book
+        note: Singular count noun

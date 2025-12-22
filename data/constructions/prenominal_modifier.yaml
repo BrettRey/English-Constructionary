@@ -16,6 +16,6 @@ constraints:
     description: Head must be plural
 semanticType: reference
 relatedConstructions:
-  - id: def-prenominal
+  - id: def-prenominal-001
     relationship: alternates-with
     notes: The definite version (the old men) refers to specific group
