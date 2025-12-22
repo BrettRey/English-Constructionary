@@ -12,6 +12,8 @@ meanings:
 constraints:
   - type: structural
     description: Coordination targets numerative constituents; additions are coordinated DPs.
+  - type: structural
+    description: "Recursive: the addition DP can itself be a basic numerative or a magnitude phrase."
 formRefs:
   - numerative-addition-coordination
 semanticRefs:
@@ -20,7 +22,19 @@ semanticRefs:
 syntacticRefs:
   - coordination-ellipsis-numerative
 relatedConstructions:
-  - id: numerative-magnitude-head-001
-    relationship: related-to
+  - id: numerative-single-digit-001
+    relationship: contains
+  - id: numerative-ten-001
+    relationship: contains
+  - id: numerative-teen-irregular-001
+    relationship: contains
+  - id: numerative-teen-001
+    relationship: contains
+  - id: numerative-decade-001
+    relationship: contains
   - id: numerative-compound-basic-001
+    relationship: contains
+  - id: numerative-factor-modifier-001
+    relationship: contains
+  - id: numerative-magnitude-head-001
     relationship: related-to
