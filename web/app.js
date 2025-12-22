@@ -247,24 +247,25 @@ const renderYamlSummary = (data, itemMeta = null) => {
         !['specialization-of', 'implements', 'inherits-from', 'contains'].includes(rel.relationship)
     );
 
-    const renderRelationList = (label, rels, isIncoming = false) => {
+    const renderRelationList = (label, rels, isIncoming = false, includeLabel = true) => {
       if (!rels.length) return;
       const row = document.createElement('div');
       const items = rels
         .map((rel) => {
           const targetId = isIncoming ? rel.id : rel.id;
           const relLabel = rel.relationship || 'related-to';
-          return `<span class=\"tag\" data-rel=\"${targetId}\">${targetId} (${relLabel})</span>`;
+          const suffix = includeLabel ? ` (${relLabel})` : '';
+          return `<span class=\"tag\" data-rel=\"${targetId}\">${targetId}${suffix}</span>`;
         })
         .join(' ');
       row.innerHTML = `<strong>${label}</strong>: ${items}`;
       relationGrid.appendChild(row);
     };
 
-    renderRelationList('Is an instance of', instanceOf);
-    renderRelationList('Contains', contains);
-    renderRelationList('Contributes to', contributesTo, true);
-    renderRelationList('Related to', related);
+    renderRelationList('Is an instance of', instanceOf, false, false);
+    renderRelationList('Contains', contains, false, false);
+    renderRelationList('Contributes to', contributesTo, true, false);
+    renderRelationList('Related to', related, false, false);
 
     if (relationGrid.children.length === 0) {
       const empty = document.createElement('div');
