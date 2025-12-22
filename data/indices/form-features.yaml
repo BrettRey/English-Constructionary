@@ -42,3 +42,21 @@ form_features:
       - twenty-one
       - forty-two
       - ninety-nine
+  numerative-magnitude:
+    description: "Magnitude determinatives (hundred, thousand, million, etc.)."
+    members:
+      - hundred
+      - thousand
+      - million
+      - billion
+      - trillion
+  numerative-factor:
+    description: "Factors that modify magnitude heads in multiplicative numeratives."
+    notes:
+      - "Typically basic numeratives (0–99), with factors functioning as modifiers rather than determiners."
+  numerative-addition-coordination:
+    description: "Additive coordination of numerative constituents with and."
+    pattern: "[DP magnitude] and [DP addition]"
+    examples:
+      - two hundred and five
+      - two thousand and seven

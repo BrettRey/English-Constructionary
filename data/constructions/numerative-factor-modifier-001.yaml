@@ -1,0 +1,24 @@
+id: numerative-factor-modifier-001
+name: Factor + Magnitude Numerative
+pattern: "Det[factor] + Det[magnitude] (+ N)"
+meanings:
+  '1':
+    definition: Multiplicative numerative built by combining a factor with a magnitude head
+    examples:
+      - form: two hundred books
+        note: 2 × 100
+      - form: forty-two million people
+        note: 42 × 1,000,000
+constraints:
+  - type: structural
+    description: Factor is a modifier of the magnitude head, not a determiner of the NP.
+formRefs:
+  - numerative-factor
+  - numerative-magnitude
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: numerative-magnitude-head-001
+    relationship: related-to
+  - id: determination-001
+    relationship: related-to

@@ -1,0 +1,18 @@
+id: numerative-magnitude-head-001
+name: Magnitude Head Numerative
+pattern: "Det[magnitude] (+ of + NP)"
+meanings:
+  '1':
+    definition: Denotes a base magnitude (hundred, thousand, million, etc.) that can scale a quantity
+    examples:
+      - form: hundred (of them)
+        note: Magnitude head in determiner/fused-head function
+      - form: thousand (of people)
+        note: Magnitude head with partitive complement
+formRefs:
+  - numerative-magnitude
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: determination-001
+    relationship: related-to

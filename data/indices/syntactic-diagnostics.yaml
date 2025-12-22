@@ -28,6 +28,22 @@ syntactic_diagnostics:
   one-substitution:
     description: "Compatibility with one-substitution as a test of determiner status."
 
+  numerative-constituency:
+    description: "Constituent boundaries in numeratives are diagnosed by morphology, prosody, and coordination/ellipsis."
+    diagnostics:
+      - ordinal-fractional-rightmost-base
+      - prosodic-breaks-magnitude
+      - coordination-ellipsis-numerative
+
+  ordinal-fractional-rightmost-base:
+    description: "Ordinal/fractional morphology targets the rightmost simple base (e.g., twenty-second, two hundredth)."
+
+  prosodic-breaks-magnitude:
+    description: "Prosodic breaks occur at magnitude boundaries (e.g., two thousand ‖ twenty-two)."
+
+  coordination-ellipsis-numerative:
+    description: "Coordination and ellipsis target numerative constituents (e.g., two hundred and five; twenty-two alone)."
+
   determinatives-inventory:
     description: "Inventory of determinatives (terminology: Simple English Wiktionary uses 'determiners' for the category; CGEL uses 'determinatives')."
     sources:

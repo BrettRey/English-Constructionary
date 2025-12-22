@@ -1,0 +1,24 @@
+id: numerative-addition-coordination-001
+name: Numerative Addition Coordination
+pattern: "[DP magnitude] + and + [DP addition]"
+meanings:
+  '1':
+    definition: Additive numerative formed by coordinating magnitude units and additions
+    examples:
+      - form: two hundred and five
+        note: 200 + 5
+      - form: two thousand and seven
+        note: 2000 + 7
+constraints:
+  - type: structural
+    description: Coordination targets numerative constituents; additions are coordinated DPs.
+formRefs:
+  - numerative-addition-coordination
+semanticRefs:
+  - cardinality
+  - additive-composition
+relatedConstructions:
+  - id: numerative-magnitude-head-001
+    relationship: related-to
+  - id: numerative-compound-basic-001
+    relationship: related-to
