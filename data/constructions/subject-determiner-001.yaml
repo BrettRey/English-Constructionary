@@ -1,0 +1,19 @@
+id: subject-determiner-001
+name: Subject-determiner (Genitive NP)
+pattern: "NP[genitive] + N"
+meanings:
+  '1':
+    definition: Genitive NP realizes determiner function, typically signaling possession or association
+    examples:
+      - form: "Ally's new car"
+        note: Genitive NP as determiner
+      - form: "the boy's shoes"
+        note: Definite genitive determiner
+constraints:
+  - type: syntactic
+    description: Genitive NP occupies the determiner position in NP structure.
+formRefs:
+  - subject-determiner-genitive
+relatedConstructions:
+  - id: determination-001
+    relationship: specialization-of

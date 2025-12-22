@@ -4,7 +4,7 @@ pattern: "Determiner function in NP"
 meanings:
   '1':
     definition: Licenses a nominal as an NP and marks it for definiteness or indefiniteness
-    details: Realized by determinatives, genitive NPs (subject-determiners), and a limited set of plain-case NPs or PPs.
+    details: Realized by basic determiners (determinatives), subject-determiners (genitive NPs), and a limited set of minor determiners (plain-case NPs or PPs).
     examples:
       - form: "the new car"
         note: Determinative realization; definite
@@ -33,4 +33,8 @@ relatedConstructions:
   - id: np-def-001
     relationship: related-to
   - id: np-indef-001
+    relationship: related-to
+  - id: subject-determiner-001
+    relationship: related-to
+  - id: minor-determiner-001
     relationship: related-to

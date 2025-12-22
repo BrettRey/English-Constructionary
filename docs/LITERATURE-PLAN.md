@@ -62,8 +62,7 @@ Status: Completed for numeratives core (cardinal, ordinal, fractional).
 Status: Completed (secondary verbal negation, absolute negator pronouns, neither/nor coordination, polarity diagnostics).
 
 ## Batch 3 (Next): Determination/Deitality Expansion
-- Add more examples and diagnostics to `determination-001`.
-- Add HPC notes for deitality/definiteness mismatch if desired.
+Status: Completed (subject and minor determiners added; determination entry updated with CGEL determiner types).
 
 ## Workflow
 1) Draft constructions/diagnostics in small chunks.

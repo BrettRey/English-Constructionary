@@ -1,0 +1,22 @@
+id: minor-determiner-001
+name: Minor Determiner (Plain NP/PP)
+pattern: "(NP | PP) + N"
+meanings:
+  '1':
+    definition: Non-determinative phrase realizes determiner function in a restricted set of NP types
+    examples:
+      - form: "what size hat"
+        note: Plain NP determiner in interrogative
+      - form: "this size shoes"
+        note: Measure NP determiner
+      - form: "over thirty ties"
+        note: PP determiner in measure NP
+constraints:
+  - type: syntactic
+    description: Restricted to specific NP types (interrogatives, measure/quantity frames).
+formRefs:
+  - minor-determiner-plain-np
+  - minor-determiner-pp
+relatedConstructions:
+  - id: determination-001
+    relationship: specialization-of

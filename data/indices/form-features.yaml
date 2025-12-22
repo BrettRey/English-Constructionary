@@ -102,3 +102,18 @@ form_features:
     examples:
       - neither agree nor comply
       - neither Kim nor Pat
+  subject-determiner-genitive:
+    description: "Genitive NP determiners."
+    examples:
+      - Ally's
+      - the boy's
+  minor-determiner-plain-np:
+    description: "Plain NP determiners in interrogative or measure contexts."
+    examples:
+      - what size
+      - this size
+  minor-determiner-pp:
+    description: "PP determiners in measure/quantity NPs."
+    examples:
+      - over thirty
+      - up to thirty
