@@ -23,7 +23,6 @@ meanings:
         note: Kind predication
     relations:
       - 2
-      - 3
   '3':
     definition: Refers to/predicates role
     details: Predicates institutional/professional role status
@@ -32,9 +31,6 @@ meanings:
         note: Role predication
       - form: became chair
         note: Role assumption
-    relations:
-      - 3
-      - 4
   '4':
     definition: Refers to individual
     details: Refers to uniquely identifiable individual through proper name
@@ -56,7 +52,6 @@ meanings:
         note: Activity identification
     relations:
       - 2
-      - 5
   '6':
     definition: Refers to/predicates time
     details: Refers to or predicates temporal point/period
@@ -65,9 +60,6 @@ meanings:
         note: Time reference
       - form: That is noon
         note: Time identification
-    relations:
-      - 4
-      - 6
   '7':
     definition: Refers to/predicates place
     details: Refers to or predicates location/space
@@ -76,9 +68,6 @@ meanings:
         note: Place reference
       - form: This is downtown
         note: Place identification
-    relations:
-      - 4
-      - 6
   '8':
     definition: Refers to/predicates abstract concept
     details: Refers to or predicates abstract notion/quality
@@ -89,30 +78,21 @@ meanings:
         note: Abstract identification
     relations:
       - 2
-      - 5
 relations:
   '1':
     construction: np-indef-001
-    type: implements
+    type: related-to
   '2':
     construction: n-mass-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '3':
-    construction: kind-001
     type: related-to
     notes: 'Original type: enables.'
   '4':
     construction: proper-name-001
     type: related-to
     notes: 'Original type: enables.'
-  '5':
-    construction: abstract-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '6':
-    construction: deictic-001
-    type: related-to
-    notes: 'Original type: enables.'
+semanticRefs:
+  - kind
+  - abstract
+  - deictic
 syntacticRefs:
   - bare-singular-exceptions

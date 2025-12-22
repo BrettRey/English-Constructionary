@@ -1,6 +1,7 @@
 id: numerative-addition-coordination-001
 name: Numerative Addition Coordination (with and)
 pattern: "[DP magnitude] + and + [DP addition]"
+type: syntactic
 meanings:
   '1':
     definition: Additive numerative formed by coordinating magnitude units and additions

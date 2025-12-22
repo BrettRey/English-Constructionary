@@ -1,6 +1,7 @@
 id: numerative-ordinal-adjective-001
 name: Ordinal Adjective
-pattern: "Adj[ordinal]"
+pattern: Cardinal base + -th
+type: morphological
 meanings:
   '1':
     definition: Specifies rank or order position within a sequence
@@ -19,5 +20,7 @@ semanticRefs:
 syntacticRefs:
   - ordinal-fractional-rightmost-base
 relatedConstructions:
+  - id: adjective-001
+    relationship: specialization-of
   - id: numerative-ordinal-rightmost-001
     relationship: related-to

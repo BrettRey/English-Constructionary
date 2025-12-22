@@ -1,6 +1,7 @@
 id: numerative-compound-basic-001
 name: Compound Basic Numerative (Decade + Single-digit)
 pattern: "Det[decade] + Det[single-digit] (typically hyphenated)"
+type: morphological
 meanings:
   '1':
     definition: Specifies a cardinality formed by additive composition of tens and ones

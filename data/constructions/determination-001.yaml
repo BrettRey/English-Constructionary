@@ -1,6 +1,7 @@
 id: determination-001
 name: Determination
 pattern: "Determiner function in NP"
+type: syntactic
 meanings:
   '1':
     definition: Licenses a nominal as an NP and marks it for definiteness or indefiniteness

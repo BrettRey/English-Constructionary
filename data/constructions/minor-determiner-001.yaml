@@ -1,6 +1,7 @@
 id: minor-determiner-001
 name: Minor Determiner (Plain NP/PP)
 pattern: "(NP | PP) + N"
+type: syntactic
 meanings:
   '1':
     definition: Non-determinative phrase realizes determiner function in a restricted set of NP types

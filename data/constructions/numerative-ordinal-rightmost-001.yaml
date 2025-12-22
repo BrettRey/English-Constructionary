@@ -1,6 +1,7 @@
 id: numerative-ordinal-rightmost-001
 name: Rightmost-base Ordinal Formation in Numeratives
 pattern: "[numerative] + ordinal suffix on rightmost simple base"
+type: morphological
 meanings:
   '1':
     definition: Ordinal morphology targets the rightmost simple base within a numerative

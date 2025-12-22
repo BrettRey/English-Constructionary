@@ -1,6 +1,7 @@
 id: quasi-count-noun-001
 name: Quasi-count Plural Noun
 pattern: "N[plural-only quasi-count]"
+type: semantic
 meanings:
   '1':
     definition: Denotes aggregates of discrete individuals with weakened individuation, yielding a mixed countability profile

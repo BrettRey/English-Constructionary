@@ -1,6 +1,7 @@
 id: cardinal-noun-proper-001
 name: Cardinal Proper Noun
 pattern: "N[cardinal proper]"
+type: syntactic
 meanings:
   '1':
     definition: Proper-noun use of a cardinal to name a number entity or unique label
@@ -23,3 +24,5 @@ relatedConstructions:
     relationship: specialization-of
   - id: proper-name-001
     relationship: related-to
+  - id: n-proper-001
+    relationship: specialization-of

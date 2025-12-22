@@ -1,6 +1,7 @@
 id: np-001
 name: Noun Phrase
 pattern: NP
+type: syntactic
 meanings:
   '1':
     definition: Can refer to entities, concepts, or be purely grammatical

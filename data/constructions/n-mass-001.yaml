@@ -1,6 +1,7 @@
 id: n-mass-001
 name: Non-count Noun
 pattern: N[Non-count:YES]
+type: syntactic
 meanings:
   '1':
     definition: Non-count morphosyntax with a default substance/aggregate construal

@@ -1,6 +1,7 @@
 id: numerative-fused-head-001
 name: Fused-head Numerative
 pattern: "Det[numerative] (fused determiner-head)"
+type: syntactic
 meanings:
   '1':
     definition: Numerative used as a standalone DP/NP without an overt head noun

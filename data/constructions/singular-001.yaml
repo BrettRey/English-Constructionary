@@ -22,3 +22,12 @@ meanings:
         note: Undivided non-count substance
     relations:
       - 2
+relations:
+  '1':
+    construction: n-common-001
+    type: related-to
+    notes: Standard host
+  '2':
+    construction: n-mass-001
+    type: related-to
+    notes: Mass host (unity construal)

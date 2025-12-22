@@ -1,6 +1,7 @@
 id: numerative-addition-asyndetic-001
 name: Numerative Addition Coordination (without and)
 pattern: "[DP magnitude] + [DP addition]"
+type: syntactic
 meanings:
   '1':
     definition: Additive numerative formed by juxtaposing magnitude and addition without and

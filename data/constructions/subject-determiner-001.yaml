@@ -1,6 +1,7 @@
 id: subject-determiner-001
 name: Subject-determiner (Genitive NP)
 pattern: "NP[genitive] + N"
+type: syntactic
 meanings:
   '1':
     definition: Genitive NP realizes determiner function with a subject-like semantic relation to the head nominal

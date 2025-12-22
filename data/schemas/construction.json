@@ -21,6 +21,17 @@
       "description": "Formal syntactic/morphological pattern",
       "minLength": 1
     },
+    "type": {
+      "type": "string",
+      "description": "Domain providing maximal projectability for this cluster – where knowing category membership supports the most reliable predictions. Not an ontological claim about what the entry 'is made of.'",
+      "enum": [
+        "syntactic",
+        "semantic",
+        "morphological",
+        "phonological",
+        "mixed"
+      ]
+    },
 
     "meanings": {
       "type": "object",

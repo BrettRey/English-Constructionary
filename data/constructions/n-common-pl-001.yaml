@@ -1,6 +1,7 @@
 id: n-common-pl-001
 name: Plural Common Noun
 pattern: N[Type:Common, Number:PL]
+type: syntactic
 meanings:
   '1':
     definition: Denotes multiple instances of a common noun category

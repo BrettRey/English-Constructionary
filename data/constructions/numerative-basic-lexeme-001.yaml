@@ -1,6 +1,7 @@
 id: numerative-basic-lexeme-001
 name: Basic Numerative Lexeme (0–99)
 pattern: "Det[basic numerative]"
+type: syntactic
 meanings:
   '1':
     definition: Lexical numeratives from zero to ninety-nine

@@ -1,6 +1,7 @@
 id: numerative-decade-001
 name: Decade Numerative
-pattern: "Det[decade]"
+pattern: Base (2-9) + -ty
+type: morphological
 meanings:
   '1':
     definition: Specifies a cardinality in tens (20, 30, …, 90)

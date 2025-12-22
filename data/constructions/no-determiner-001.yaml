@@ -1,6 +1,7 @@
 id: no-determiner-001
 name: Negative Determiner "no"
 pattern: "no + N"
+type: syntactic
 meanings:
   '1':
     definition: Negatively quantifies a nominal by asserting zero instances

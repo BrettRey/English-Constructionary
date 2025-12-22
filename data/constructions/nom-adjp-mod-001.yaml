@@ -1,6 +1,7 @@
 id: nom-adjp-mod-001
 name: Adjectival Pre-head Modifier in Nominal
 pattern: Nom[Mod:AdjP Head:N]
+type: syntactic
 meanings:
   '1':
     definition: Property attribution to nominal head

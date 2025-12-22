@@ -1,6 +1,7 @@
 id: numerative-teen-001
 name: Regular Teen Numerative (-teen)
 pattern: "Det[teen]"
+type: morphological
 meanings:
   '1':
     definition: Specifies a cardinality from thirteen to nineteen via -teen morphology

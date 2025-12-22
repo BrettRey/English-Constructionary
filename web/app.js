@@ -4,6 +4,7 @@ const state = {
   items: [],
   filtered: [],
   active: null,
+  history: [],
   cache: new Map(),
   viewMode: 'summary'
 };
@@ -18,9 +19,17 @@ const detailBody = document.getElementById('detail-body');
 const breadcrumbsEl = document.getElementById('breadcrumbs');
 const toggleViewBtn = document.getElementById('toggle-view');
 const openLink = document.getElementById('open-link');
+const backButton = document.getElementById('back-button');
 
 const setStatus = (text) => {
   statusEl.textContent = text;
+};
+
+const updateBackButton = () => {
+  if (!backButton) return;
+  const disabled = state.history.length === 0;
+  backButton.disabled = disabled;
+  backButton.setAttribute('aria-disabled', disabled ? 'true' : 'false');
 };
 
 const buildItems = (manifest) => {
@@ -132,6 +141,11 @@ const renderYamlSummary = (data, itemMeta = null) => {
   if (data.pattern) {
     const row = document.createElement('div');
     row.innerHTML = `<strong>pattern</strong>: ${data.pattern}`;
+    formGrid.appendChild(row);
+  }
+  if (data.type) {
+    const row = document.createElement('div');
+    row.innerHTML = `<strong>type</strong>: ${data.type}`;
     formGrid.appendChild(row);
   }
   if (Array.isArray(data.constraints) && data.constraints.length > 0) {
@@ -351,7 +365,18 @@ const renderBreadcrumbs = (item) => {
   });
 };
 
-const selectItem = async (item) => {
+const pushHistory = (item) => {
+  state.history.push(item);
+  if (state.history.length > 50) {
+    state.history.shift();
+  }
+};
+
+const selectItem = async (item, options = {}) => {
+  const { pushHistory: shouldPush = true } = options;
+  if (shouldPush && state.active && state.active.path !== item.path) {
+    pushHistory(state.active);
+  }
   state.active = item;
   renderList();
   renderBreadcrumbs(item);
@@ -381,6 +406,11 @@ const selectItem = async (item) => {
     if (state.viewMode === 'summary' && item.kind === 'yaml') {
       try {
         const data = jsyaml.load(text);
+        // Update subtitle to include type if present
+        if (data.type) {
+          const typeLabel = data.type.charAt(0).toUpperCase() + data.type.slice(1);
+          detailSubtitle.textContent = `${typeLabel} · ${item.subtitle || item.path}`;
+        }
         renderYamlSummary(data, item);
       } catch (err) {
         renderRaw(text);
@@ -393,6 +423,7 @@ const selectItem = async (item) => {
     detailBody.innerHTML = `<div class="empty">Failed to load file: ${error.message}</div>`;
     setStatus('Failed to load file');
   }
+  updateBackButton();
 };
 
 const init = async () => {
@@ -423,9 +454,19 @@ toggleViewBtn.addEventListener('click', () => {
   state.viewMode = state.viewMode === 'summary' ? 'raw' : 'summary';
   setActiveViewButton();
   if (state.active) {
-    selectItem(state.active);
+    selectItem(state.active, { pushHistory: false });
   }
 });
+
+if (backButton) {
+  backButton.addEventListener('click', () => {
+    const previous = state.history.pop();
+    if (previous) {
+      updateBackButton();
+      selectItem(previous, { pushHistory: false });
+    }
+  });
+}
 
 setActiveViewButton();
 init();

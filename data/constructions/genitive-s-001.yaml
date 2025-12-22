@@ -14,7 +14,6 @@ meanings:
         note: Institutional control
     relations:
       - 1
-      - 2
   '2':
     definition: Marks intrinsic relationship/part-whole
     details: Indicates inherent connection rather than ownership
@@ -25,10 +24,6 @@ meanings:
         note: Abstract component
       - form: the body's cells
         note: Biological part-whole
-    relations:
-      - 1
-      - 3
-      - 4
   '3':
     definition: Indicates creation/authorship
     details: Marks the creator or source
@@ -39,9 +34,6 @@ meanings:
         note: Natural source
       - form: The painting is Picasso's
         note: Created by
-    relations:
-      - 1
-      - 6
   '4':
     definition: Expresses time/duration relationship
     details: Marks temporal measurement or occurrence
@@ -52,9 +44,6 @@ meanings:
         note: Scheduled time
       - form: last year's winner
         note: Temporal association
-    relations:
-      - 1
-      - 5
   '5':
     definition: Indicates characteristic or property
     details: Marks defining features or qualities
@@ -63,10 +52,6 @@ meanings:
         note: Physical property
       - form: the proposal's weakness
         note: Abstract quality
-    relations:
-      - 1
-      - 2
-      - 4
   '6':
     definition: Marks subject-like relationship
     details: Indicates the doer/experiencer of an action/state
@@ -75,10 +60,6 @@ meanings:
         note: Subject of intransitive
       - form: the child's laughter
         note: Source of action
-    relations:
-      - 1
-      - 4
-      - 6
   '7':
     definition: Expresses social/institutional relationship
     details: Marks organizational or relational connections
@@ -89,36 +70,15 @@ meanings:
         note: Family relationship
       - form: the university's president
         note: Institutional position
-    relations:
-      - 1
-      - 2
-      - 7
 relations:
   '1':
     construction: np-001
     type: related-to
     notes: 'Original type: requires.'
-  '2':
-    construction: property-of-001
-    type: implements
-    notes: 'Original type: instantiates.'
-  '3':
-    construction: part-whole-001
-    type: implements
-    notes: 'Original type: instantiates.'
-  '4':
-    construction: nominalization-001
-    type: related-to
-    notes: 'Original type: interacts-with.'
-  '5':
-    construction: measure-phrase-001
-    type: related-to
-    notes: 'Original type: can-form.'
-  '6':
-    construction: agent-of-001
-    type: related-to
-    notes: 'Original type: can-express.'
-  '7':
-    construction: social-role-001
-    type: implements
-    notes: 'Original type: instantiates.'
+semanticRefs:
+  - property
+  - part-whole
+  - nominalization
+  - measure
+  - agent
+  - social-role

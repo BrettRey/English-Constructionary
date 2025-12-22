@@ -1,6 +1,7 @@
 id: gradation-001
 name: Gradation
 pattern: X < {tall, deep, quick, ...} >
+type: semantic
 meanings:
   '1':
     definition: Denotes scalar property
@@ -10,9 +11,6 @@ meanings:
         note: Height scale
       - form: quick
         note: Speed scale
-    relations:
-      - 1
-      - 2
   '2':
     definition: Denotes scale structure
     details: Semantic features encoding scale topology
@@ -21,9 +19,6 @@ meanings:
         note: Closed scale
       - form: long/short
         note: Open scale
-    relations:
-      - 2
-      - 3
   '3':
     definition: Denotes standard reference
     details: Semantic features encoding comparison class
@@ -32,23 +27,8 @@ meanings:
         note: Class-relative
       - form: perfectly clean
         note: Absolute standard
-    relations:
-      - 3
-      - 4
-relations:
-  '1':
-    construction: scale-001
-    type: related-to
-    notes: 'Original type: projects-to.'
-  '2':
-    construction: measure-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '3':
-    construction: comparison-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '4':
-    construction: standard-001
-    type: related-to
-    notes: 'Original type: enables.'
+semanticRefs:
+  - scale
+  - measure
+  - comparison
+  - standard

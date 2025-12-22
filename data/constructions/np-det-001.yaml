@@ -1,6 +1,7 @@
 id: np-det-001
 name: Determined Noun Phrase
 pattern: NP[Det Nom]
+type: syntactic
 meanings:
   '1':
     definition: Nominal with a determiner function, forming an NP marked as definite or indefinite

@@ -1,6 +1,7 @@
 id: n-common-001
 name: Common Noun
 pattern: N[Type:Common]
+type: syntactic
 meanings:
   '1':
     definition: Denotes a class or category of entities rather than a unique individual
@@ -9,3 +10,7 @@ meanings:
         note: Common noun denoting a kind
       - form: city
         note: Category-level reference
+relatedConstructions:
+  - id: n-proper-001
+    relationship: related-to
+    notes: Parallel noun category

@@ -1,6 +1,7 @@
 id: neither-nor-coordination-001
 name: Correlative Coordination with neither...nor
 pattern: "neither X nor Y"
+type: syntactic
 meanings:
   '1':
     definition: Negates both conjuncts in a coordination

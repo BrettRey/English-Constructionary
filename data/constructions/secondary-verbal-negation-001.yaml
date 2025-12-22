@@ -1,6 +1,7 @@
 id: secondary-verbal-negation-001
 name: Secondary Verbal Negation
 pattern: "not + VP[secondary]"
+type: syntactic
 meanings:
   '1':
     definition: Negates a non-finite or subjunctive clause without do-support

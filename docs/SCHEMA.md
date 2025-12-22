@@ -2,6 +2,40 @@
 
 This repository validates construction entries against `data/schemas/construction.json`. Use this document as the human-readable guide for authoring or editing YAML in `data/constructions/`.
 
+## Theoretical Framework
+
+### Constructions as Form-Meaning Pairings
+
+In Construction Grammar, a construction is a conventional pairing of form and meaning. But form and meaning aren't separable components that get linked together – they're mutually constituting through bidirectional homeostatic mechanisms. Count morphosyntax cues individuated construals in comprehension; individuated construals license count morphosyntax in production. Deital morphology tends to mark definite referents; definite referents tend to receive deital marking. The pairing is maintained by mechanisms operating across both domains.
+
+### The `type` Field: Projectability, Not Ontology
+
+The `type` field (`syntactic`, `semantic`, `morphological`, `mixed`) indicates which domain provides **maximal projectability** for the cluster documented in that entry – not an ontological claim about what the entry "is made of."
+
+- **Projectability** (from Boyd's HPC framework): A category is projectable if treating it as a natural kind supports reliable generalizations and predictions.
+- **Deitality** is maximally projectable for the syntactician: knowing something is deital lets you predict distributional behaviour (partitive licensing, *there*-resistance, identificational hosting).
+- **Definiteness** is maximally projectable for the semanticist: knowing something is definite lets you predict interpretive properties (identifiability, uniqueness, anaphoric accessibility).
+
+Both clusters are real in Boyd's sense. Neither reduces to the other. The overlap is substantial but imperfect – which is why both categories exist and why separate entries documenting each are legitimate.
+
+### Why Separate Entries for Related Clusters?
+
+Entries like `n-proper-001` (type: syntactic) and `proper-name-001` (type: semantic) aren't redundant or poorly factored. They document different HPC kinds serving different explanatory purposes:
+
+- `n-proper-001` documents the cluster maximally projectable for syntactic purposes: distributional properties, morphological behaviour, syntactic diagnostics
+- `proper-name-001` documents the cluster maximally projectable for semantic purposes: interpretive properties, discourse functions, semantic diagnostics
+
+Each cluster includes tendencies toward the other as part of what makes it a cluster (the syntactic cluster has semantic tendencies; the semantic cluster has formal tendencies). The `implements` or `realized-by` relations between entries document the conventional pairing that speakers rely on – how the clusters co-occur and what stabilises that co-occurrence.
+
+### Construal vs Construction
+
+Construal (e.g., individuation, definiteness-as-interpretation) is what licenses or is licensed by construction. It's a cognitive/semantic operation – how the speaker chooses to conceptualise a referent (treating a baby as a person or not, construing rice as mass or portions). Construal isn't the construction; it's what motivates choice among constructions.
+
+The Constructionary documents:
+1. **Constructions** – conventional form-meaning pairings with their diagnostics and mechanisms
+2. **Semantic clusters** (in `type: semantic` entries) – the interpretive property clusters that constructions encode
+3. **The interface** – via relations like `implements`, `realized-by`, `can-manifest-as`
+
 ## Required Top-Level Fields
 - `id`: unique identifier matching `^[a-z-]+[0-9]{3}$` (example: `np-001`).
 - `name`: human-readable construction name.

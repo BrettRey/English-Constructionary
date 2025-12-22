@@ -1,6 +1,7 @@
 id: comparative-er-001
 name: Comparative -er
 pattern: XP[X + -er] where X < {tall, deep, soon, near, few, ...} >
+type: morphological
 meanings:
   '1':
     definition: Denotes scalar superiority
@@ -12,9 +13,6 @@ meanings:
         note: Relation comparison
       - form: fewer
         note: Quantity comparison
-    relations:
-      - 1
-      - 2
   '2':
     definition: Denotes scalar difference
     details: Semantic operation measuring interval between compared points
@@ -23,9 +21,6 @@ meanings:
         note: Relative interval
       - form: two inches taller
         note: Measured interval
-    relations:
-      - 2
-      - 3
   '3':
     definition: Denotes comparison basis
     details: Semantic operation establishing reference point
@@ -34,6 +29,8 @@ meanings:
         note: Explicit reference
       - form: the taller building
         note: Contextual reference
-    relations:
-      - 3
-      - 4
+semanticRefs:
+  - comparison
+  - scale
+  - measure
+  - standard

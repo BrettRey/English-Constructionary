@@ -1,6 +1,7 @@
 id: np-pron-001
 name: Pronominal Noun Phrase
 pattern: NP[Pron]
+type: syntactic
 meanings:
   '1':
     definition: Anaphoric reference - refers back to a previously mentioned entity (antecedent)

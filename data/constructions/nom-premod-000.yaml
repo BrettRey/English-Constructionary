@@ -1,6 +1,7 @@
 id: nom-premod-000
 name: Pre-head Modifier in Nominal
 pattern: Nom[Mod:XP Head:N]
+type: syntactic
 meanings:
   '1':
     definition: Modification of nominal head through pre-head constituent

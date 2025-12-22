@@ -1,6 +1,7 @@
 id: numerative-ten-001
 name: Ten Numerative
 pattern: "Det[ten]"
+type: syntactic
 meanings:
   '1':
     definition: Specifies a cardinality of ten

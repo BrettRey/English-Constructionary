@@ -10,9 +10,6 @@ meanings:
         note: Leadership role
       - form: became chair
         note: Organizational role
-    relations:
-      - 1
-      - 2
   '2':
     definition: Predicates occupational role
     details: Predicates membership in professional category
@@ -21,9 +18,6 @@ meanings:
         note: Professional role
       - form: became teacher
         note: Educational role
-    relations:
-      - 1
-      - 3
   '3':
     definition: Predicates kinship role
     details: Predicates familial relationship role
@@ -32,17 +26,11 @@ meanings:
         note: Parental role
       - form: became godfather
         note: Ritual kinship role
-    relations:
-      - 2
-      - 3
 relations:
   '1':
-    construction: np-bare-001.3
+    construction: np-bare-001
     type: implements
-  '2':
-    construction: role-001
-    type: specialization-of
-    notes: 'Original type: specifies.'
-  '3':
-    construction: category-001
-    type: implements
+    notes: Implements bare role meaning (3)
+semanticRefs:
+  - role
+  - category

@@ -1,6 +1,7 @@
 id: np-common-001
 name: Common Noun Phrase
 pattern: 'NP[N-Type: Common]'
+type: syntactic
 meanings:
   '1':
     definition: Refers to entities or concepts that are not unique individuals

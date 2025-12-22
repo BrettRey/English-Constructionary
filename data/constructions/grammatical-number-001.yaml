@@ -1,6 +1,7 @@
 id: grammatical-number-001
 name: Grammatical Number
 pattern: Applies to nouns and agreement targets
+type: semantic
 meanings:
   '1':
     definition: Specifies cardinality features
@@ -10,16 +11,12 @@ meanings:
         note: Singular vs non-singular reference
       - form: this/these
         note: Singular vs non-singular determination
-    relations:
-      - 1
   '2':
     definition: Marks countability status
     details: Indicates whether referents are construed as countable units
     examples:
       - form: rice/rices
         note: Mass vs count construal
-    relations:
-      - 2
   '3':
     definition: Encodes the tight/loose hierarchy of count diagnostics
     details: Tight diagnostics (a/an, low cardinals, distributives) require higher individuation precision than loose diagnostics (many, high round numerals, plural agreement).
@@ -86,9 +83,22 @@ semanticRefs:
   - countability
   - individuation
   - individuation-precision
+  - cardinality
 syntacticRefs:
   - countability-diagnostics
   - countability-hierarchy
 relatedConstructions:
   - id: quasi-count-noun-001
+    relationship: related-to
+  - id: singular-001
+    relationship: related-to
+  - id: plural-001
+    relationship: related-to
+  - id: cardinal-determinative-001
+    relationship: related-to
+  - id: determination-001
+    relationship: related-to
+  - id: np-det-001
+    relationship: related-to
+  - id: verb-number-agreement-001
     relationship: related-to

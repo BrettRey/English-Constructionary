@@ -1,6 +1,7 @@
 id: grammatical-definiteness-001
 name: Grammatical Definiteness
 pattern: Semantic feature implemented through nominal determination
+type: semantic
 meanings:
   '1':
     definition: Identifiability status
@@ -10,8 +11,6 @@ meanings:
         note: Identifiable vs non-identifiable
       - form: John/some person
         note: Inherent vs non-identifiable
-    relations:
-      - 1
   '2':
     definition: Reference scope
     details: Whether reference exhausts contextual set
@@ -20,8 +19,6 @@ meanings:
         note: Maximal vs partial
       - form: the/a winner
         note: Unique vs arbitrary
-    relations:
-      - 2
   '3':
     definition: Discourse status
     details: Whether entity is established in discourse
@@ -30,5 +27,7 @@ meanings:
         note: Given vs new
       - form: it/something
         note: Known vs novel
-    relations:
-      - 3
+semanticRefs:
+  - identifiability
+  - uniqueness
+  - familiarity

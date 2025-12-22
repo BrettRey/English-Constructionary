@@ -1,6 +1,7 @@
 id: np-pron-personal-gen-indep-001
 name: Independent Personal Genitive Pronoun NP
 pattern: mine/yours/his/hers/ours/theirs
+type: syntactic
 meanings:
   '1':
     definition: Independent personal genitive pronoun functioning as an NP

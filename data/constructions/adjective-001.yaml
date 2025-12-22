@@ -1,6 +1,7 @@
 id: adjective-001
 name: Adjective
 pattern: Adj root
+type: syntactic
 meanings:
   '1':
     definition: Denotes scalar feature bundle
@@ -10,9 +11,6 @@ meanings:
         note: Spatial scale features
       - form: fast-
         note: Rate scale features
-    relations:
-      - 1
-      - 2
   '2':
     definition: Denotes classificatory feature bundle
     details: Semantic features that assign entities to categories or types
@@ -21,9 +19,6 @@ meanings:
         note: Material classification
       - form: French-
         note: Origin classification
-    relations:
-      - 1
-      - 3
   '3':
     definition: Denotes state feature bundle
     details: Semantic features describing temporary or permanent conditions
@@ -32,9 +27,6 @@ meanings:
         note: Physical state
       - form: happy-
         note: Mental state
-    relations:
-      - 2
-      - 4
   '4':
     definition: Denotes evaluative feature bundle
     details: Semantic features expressing assessment or judgment
@@ -43,9 +35,6 @@ meanings:
         note: Quality evaluation
       - form: correct-
         note: Accuracy evaluation
-    relations:
-      - 3
-      - 4
   '5':
     definition: Denotes reference feature bundle
     details: Semantic features establishing identity relations between entities
@@ -54,34 +43,13 @@ meanings:
         note: Identity reference
       - form: other-
         note: Non-identity reference
-    relations:
-      - 5
-      - 6
-relations:
-  '1':
-    construction: property-001
-    type: related-to
-    notes: 'Original type: projects-to.'
-  '2':
-    construction: scale-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '3':
-    construction: category-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '4':
-    construction: evaluation-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '5':
-    construction: reference-001
-    type: related-to
-    notes: 'Original type: projects-to.'
-  '6':
-    construction: identity-001
-    type: related-to
-    notes: 'Original type: enables.'
+semanticRefs:
+  - property
+  - scale
+  - category
+  - evaluation
+  - reference
+  - identity
 hpc:
   status: fat
   cluster:

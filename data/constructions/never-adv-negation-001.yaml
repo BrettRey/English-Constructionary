@@ -1,6 +1,7 @@
 id: never-adv-negation-001
 name: Adverbial Negation with never
 pattern: "never + VP"
+type: syntactic
 meanings:
   '1':
     definition: Negates occurrence over time (no instances at any time)

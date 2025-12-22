@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T16:21:03.100Z",
+  "generatedAt": "2025-12-22T17:57:08.353Z",
   "sections": [
     {
       "id": "project",
@@ -42,9 +42,9 @@
       "label": "Constructions",
       "items": [
         {
-          "id": "bare-role-001",
-          "title": "bare-role-001",
-          "subtitle": "Bare Role Construction",
+          "id": null,
+          "title": "NP-bare-role.yaml",
+          "subtitle": "",
           "path": "/data/constructions/NP-bare-role.yaml",
           "kind": "yaml",
           "relations": [],
@@ -141,6 +141,10 @@
               "relationship": "specialization-of"
             },
             {
+              "id": "n-common-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "determination-001",
               "relationship": "related-to"
             }
@@ -161,6 +165,10 @@
             {
               "id": "proper-name-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "specialization-of"
             }
           ],
           "incomingRelations": []
@@ -232,9 +240,9 @@
           "incomingRelations": []
         },
         {
-          "id": "genitive-s-001",
-          "title": "genitive-s-001",
-          "subtitle": "Genitive 's",
+          "id": null,
+          "title": "genitive-s-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/genitive-s-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -268,6 +276,30 @@
             {
               "id": "quasi-count-noun-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "singular-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "plural-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "cardinal-determinative-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-det-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "verb-number-agreement-001",
+              "relationship": "related-to"
             }
           ],
           "incomingRelations": []
@@ -296,18 +328,18 @@
           "incomingRelations": []
         },
         {
-          "id": "independent-genitive-pronoun-001",
-          "title": "independent-genitive-pronoun-001",
-          "subtitle": "Independent Genitive Pronoun",
+          "id": null,
+          "title": "independent-genitive-pronoun-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/independent-genitive-pronoun-001.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
         },
         {
-          "id": "interrogative-word-001",
-          "title": "interrogative-word-001",
-          "subtitle": "Interrogative Word",
+          "id": null,
+          "title": "interrogative-word-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/interrogative-word-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -387,15 +419,6 @@
           "incomingRelations": []
         },
         {
-          "id": "proper-name-001",
-          "title": "proper-name-001",
-          "subtitle": "Proper Name",
-          "path": "/data/constructions/name-proper-001.yaml",
-          "kind": "yaml",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
           "id": "neither-nor-coordination-001",
           "title": "neither-nor-coordination-001",
           "subtitle": "Correlative Coordination with neither...nor",
@@ -438,9 +461,9 @@
           "incomingRelations": []
         },
         {
-          "id": "nom-001",
-          "title": "nom-001",
-          "subtitle": "Nominal Construction",
+          "id": null,
+          "title": "nom-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/nom-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -527,9 +550,9 @@
           "incomingRelations": []
         },
         {
-          "id": "np-bare-001",
-          "title": "np-bare-001",
-          "subtitle": "Bare NP Construction",
+          "id": null,
+          "title": "np-bare-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/np-bare-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -558,9 +581,9 @@
           "incomingRelations": []
         },
         {
-          "id": "np-def-001",
-          "title": "np-def-001",
-          "subtitle": "Definite NP Construction",
+          "id": null,
+          "title": "np-def-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/np-def-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -603,9 +626,9 @@
           "incomingRelations": []
         },
         {
-          "id": "np-indef-001",
-          "title": "np-indef-001",
-          "subtitle": "Indefinite NP Construction",
+          "id": null,
+          "title": "np-indef-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/np-indef-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -697,8 +720,9 @@
               "relationship": "inherits-from"
             },
             {
-              "id": "np-proper-name-001",
-              "relationship": "related-to"
+              "id": "proper-name-001",
+              "relationship": "implements",
+              "notes": "Realizes the proper name function"
             }
           ],
           "incomingRelations": []
@@ -991,6 +1015,10 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "n-common-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "numerative-ordinal-rightmost-001",
               "relationship": "related-to"
             },
@@ -1050,6 +1078,10 @@
           "path": "/data/constructions/numerative-ordinal-adjective-001.yaml",
           "kind": "yaml",
           "relations": [
+            {
+              "id": "adjective-001",
+              "relationship": "specialization-of"
+            },
             {
               "id": "numerative-ordinal-rightmost-001",
               "relationship": "related-to"
@@ -1203,18 +1235,18 @@
           "incomingRelations": []
         },
         {
-          "id": "plural-001",
-          "title": "plural-001",
-          "subtitle": "Plural Construction",
+          "id": null,
+          "title": "plural-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/plural-001.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
         },
         {
-          "id": "plural-s-001",
-          "title": "plural-s-001",
-          "subtitle": "Plural -s",
+          "id": null,
+          "title": "plural-s-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/plural-s-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -1245,21 +1277,12 @@
           "incomingRelations": []
         },
         {
-          "id": "np-proper-name-001",
-          "title": "np-proper-name-001",
-          "subtitle": "Proper Name Phrase",
-          "path": "/data/constructions/proper-name.yaml",
+          "id": "proper-name-001",
+          "title": "proper-name-001",
+          "subtitle": "Proper Name",
+          "path": "/data/constructions/proper-name-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "np-001",
-              "relationship": "inherits-from"
-            },
-            {
-              "id": "np-proper-noun-001",
-              "relationship": "specialization-of"
-            }
-          ],
+          "relations": [],
           "incomingRelations": []
         },
         {
@@ -1299,9 +1322,9 @@
           "incomingRelations": []
         },
         {
-          "id": "singular-001",
-          "title": "singular-001",
-          "subtitle": "Singular Construction",
+          "id": null,
+          "title": "singular-001.yaml",
+          "subtitle": "",
           "path": "/data/constructions/singular-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -1317,6 +1340,28 @@
             {
               "id": "determination-001",
               "relationship": "specialization-of"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "verb-number-agreement-001",
+          "title": "verb-number-agreement-001",
+          "subtitle": "Verb Number Agreement",
+          "path": "/data/constructions/verb-number-agreement-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "singular-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "plural-001",
+              "relationship": "related-to"
             }
           ],
           "incomingRelations": []
@@ -1512,6 +1557,15 @@
           "title": "deitality copy.tex",
           "subtitle": "",
           "path": "/literature/deitality copy.tex",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "mereology.tex",
+          "subtitle": "",
+          "path": "/literature/mereology.tex",
           "kind": "text",
           "relations": [],
           "incomingRelations": []

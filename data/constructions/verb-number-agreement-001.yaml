@@ -1,0 +1,24 @@
+id: verb-number-agreement-001
+name: Verb Number Agreement
+pattern: Subject NP[singular/plural] + finite verb agreeing in number
+type: syntactic
+meanings:
+  '1':
+    definition: Finite verb inflects to match the grammatical number of the subject NP
+    examples:
+      - form: This dog runs
+        note: Singular subject with singular verb
+      - form: These dogs run
+        note: Plural subject with plural verb
+constraints:
+  - type: syntactic
+    description: Agreement is realized on finite verbs/auxiliaries that bear number morphology (e.g., present -s, is/are).
+  - type: pragmatic
+    description: Collective and notional agreement can override strict grammatical number in some varieties.
+relatedConstructions:
+  - id: grammatical-number-001
+    relationship: related-to
+  - id: singular-001
+    relationship: related-to
+  - id: plural-001
+    relationship: related-to

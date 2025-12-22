@@ -1,6 +1,7 @@
 id: n-pl-001
 name: Plural Noun
 pattern: N[Number:PL]
+type: syntactic
 meanings:
   '1':
     definition: Reference to multiple entities/count items

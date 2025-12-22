@@ -34,3 +34,16 @@ meanings:
         note: Kennedy family/dynasty members
     relations:
       - 3
+relations:
+  '1':
+    construction: n-common-001
+    type: related-to
+    notes: Standard host
+  '2':
+    construction: n-mass-001
+    type: related-to
+    notes: Mass-to-count coercion source
+  '3':
+    construction: n-proper-001
+    type: related-to
+    notes: Proper-to-common coercion source

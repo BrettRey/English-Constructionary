@@ -1,6 +1,7 @@
 id: n-proper-001
 name: Proper Noun
 pattern: Capitalized noun root [A-Z][a-z]+
+type: syntactic
 meanings:
   '1':
     definition: Denotes individual-specific feature bundle
@@ -12,7 +13,7 @@ meanings:
         note: Features of Shakespeare-ness
     relations:
       - 1
-      - 2
+      - 5
   '2':
     definition: Denotes archetypal feature bundle
     details: Characteristic semantic features that can ground metaphorical extension
@@ -23,7 +24,6 @@ meanings:
         note: Endurance-related features
     relations:
       - 1
-      - 3
   '3':
     definition: Denotes institutional feature bundle
     details: Semantic features associated with institutional entities
@@ -32,9 +32,6 @@ meanings:
         note: University-related features
       - form: Congress-
         note: Legislative-related features
-    relations:
-      - 2
-      - 4
   '4':
     definition: Denotes geographical feature bundle
     details: Semantic features associated with locations
@@ -43,23 +40,23 @@ meanings:
         note: Ocean-related features
       - form: Everest-
         note: Mountain-related features
-    relations:
-      - 3
-      - 4
 relations:
   '1':
-    construction: nom-proper-001
+    construction: np-proper-001
     type: related-to
     notes: 'Original type: projects-to.'
-  '2':
-    construction: metaphor-source-001
+  '5':
+    construction: proper-name-001
     type: related-to
-    notes: 'Original type: enables.'
-  '3':
-    construction: institution-type-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '4':
-    construction: location-type-001
-    type: related-to
-    notes: 'Original type: enables.'
+    notes: Semantic counterpart
+relatedConstructions:
+  - id: proper-name-001
+    relationship: implements
+    notes: Lexical realization of proper naming semantics
+  - id: n-common-001
+    relationship: related-to
+    notes: Parallel noun category
+semanticRefs:
+  - metaphor-source
+  - institution-type
+  - location-type

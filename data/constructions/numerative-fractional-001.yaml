@@ -1,6 +1,7 @@
 id: numerative-fractional-001
 name: Fractional Noun
-pattern: "N[fraction]"
+pattern: Cardinal base + -th
+type: morphological
 meanings:
   '1':
     definition: Fractional noun denoting a denominator; used in fraction NPs with a numeral determiner
@@ -22,6 +23,8 @@ semanticRefs:
 syntacticRefs:
   - ordinal-fractional-rightmost-base
 relatedConstructions:
+  - id: n-common-001
+    relationship: specialization-of
   - id: numerative-ordinal-rightmost-001
     relationship: related-to
   - id: numerative-basic-lexeme-001

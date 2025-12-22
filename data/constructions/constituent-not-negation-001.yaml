@@ -1,6 +1,7 @@
 id: constituent-not-negation-001
 name: Constituent Negation with not
 pattern: "not + XP (predicative)"
+type: syntactic
 meanings:
   '1':
     definition: Negates a non-verbal predicate or constituent within a clause

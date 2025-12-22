@@ -1,6 +1,7 @@
 id: cardinal-noun-common-001
 name: Cardinal Common Noun
 pattern: "N[cardinal common]"
+type: syntactic
 meanings:
   '1':
     definition: Common-noun use of a cardinal to denote quantities, labels, or numerically named kinds
@@ -20,6 +21,8 @@ semanticRefs:
   - cardinality
 relatedConstructions:
   - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: n-common-001
     relationship: specialization-of
   - id: determination-001
     relationship: related-to

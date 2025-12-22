@@ -1,6 +1,7 @@
 id: numerative-factor-modifier-001
 name: Factor + Magnitude Numerative
 pattern: "Det[factor] + Det[magnitude]"
+type: syntactic
 meanings:
   '1':
     definition: Multiplicative numerative built by combining a factor with a magnitude head

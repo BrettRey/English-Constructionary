@@ -1,6 +1,7 @@
 id: absolute-negator-pronoun-001
 name: Absolute Negator Pronouns
 pattern: "NP[absolute negator] + VP"
+type: syntactic
 meanings:
   '1':
     definition: Encodes clausal negation via a negative pronoun or pro-form

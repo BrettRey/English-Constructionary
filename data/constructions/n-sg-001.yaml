@@ -1,6 +1,7 @@
 id: n-sg-001
 name: Singular Noun
 pattern: N[Number:SG]
+type: syntactic
 meanings:
   '1':
     definition: Reference to a single entity/count item

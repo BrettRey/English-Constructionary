@@ -1,6 +1,7 @@
 id: np-gen-indep-001
 name: Independent Genitive NP
 pattern: NP[Genitive:Independent]
+type: syntactic
 meanings:
   '1':
     definition: An NP in independent genitive form without an overt head noun

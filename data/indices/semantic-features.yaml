@@ -30,3 +30,67 @@ semantic_features:
     description: "Semantic construal of referents as discrete units for counting."
   individuation-precision:
     description: "Degree of precision required to individuate units (tight vs loose)."
+  property:
+    description: "Core semantic features describing attributes or qualities of an entity."
+  scale:
+    description: "Ordered set of values (magnitude, degree, intensity) on a dimension."
+  category:
+    description: "Classificatory features assigning entities to types or classes."
+  evaluation:
+    description: "Subjective assessment or judgment (e.g., quality, correctness)."
+  reference:
+    description: "Semantic features establishing identity or picking out entities."
+  identity:
+    description: "Sameness or distinctness relation between referents."
+  comparison:
+    description: "Semantic operation establishing an ordering between two values."
+  measure:
+    description: "Assignment of a value to a dimension using a standard unit."
+  standard:
+    description: "Reference value against which a comparison is made."
+  role:
+    description: "Function or capacity served by an entity in a context."
+  agent:
+    description: "The initiator or doer of an event."
+  social-role:
+    description: "Function or position within a social structure."
+  part-whole:
+    description: "Relation between a constituent part and a containing whole."
+  variable:
+    description: "An entity whose identity is open or determined by a binder."
+  temporal-relation:
+    description: "Ordering of events or states in time."
+  irrealis:
+    description: "Non-factual modality (e.g., hypothetical, counterfactual)."
+  politeness:
+    description: "Pragmatic marking of social distance or respect."
+  kind:
+    description: "Generic reference to a class or type."
+  abstract:
+    description: "Reference to non-physical entities or concepts."
+  deictic:
+    description: "Reference dependent on the immediate context of utterance."
+  predication:
+    description: "Act of ascribing a property or relation to a subject."
+  quantifier:
+    description: "Operator expressing quantity or scope."
+  nominalization:
+    description: "Process or result of forming a noun from another category."
+  tense:
+    description: "Grammatical marking of location in time."
+  aspect:
+    description: "Grammatical marking of the internal temporal constituency of an event."
+  institution-type:
+    description: "Features distinguishing types of institutions (e.g., educational, governmental)."
+  location-type:
+    description: "Features distinguishing types of locations (e.g., city, mountain, ocean)."
+  metaphor-source:
+    description: "Source domain for metaphorical extension."
+  corporate-designation:
+    description: "Term indicating legal status of a company (e.g., Inc., Ltd.)."
+  honorific:
+    description: "Title expressing respect or social status."
+  title:
+    description: "Official name or designation of a work, person, or position."
+  question-clause:
+    description: "Clause type used to ask a question."

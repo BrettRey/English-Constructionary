@@ -1,6 +1,7 @@
 id: np-pron-interrog-gen-indep-001
 name: Independent Interrogative Genitive Pronoun NP
 pattern: whose
+type: syntactic
 meanings:
   '1':
     definition: Interrogative independent genitive pronoun functioning as an NP

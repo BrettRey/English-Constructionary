@@ -1,6 +1,7 @@
 id: prenominal-modifier-001
 name: Bare Plural with Prenominal Modifier
 pattern: '[Modifier:AdjP Head:NP-PL]'
+type: syntactic
 meanings:
   '1':
     definition: Category/kind modification with property attribution

@@ -12,9 +12,6 @@ meanings:
         note: Scale endpoints
       - form: as tall as
         note: Scale equality
-    relations:
-      - 1
-      - 2
   '2':
     definition: Denotes scale intervals
     details: Semantic features encoding degree of difference between scale points
@@ -23,9 +20,6 @@ meanings:
         note: Relative intervals
       - form: two feet taller/three times less
         note: Measured intervals
-    relations:
-      - 2
-      - 3
   '3':
     definition: Denotes comparison classes
     details: Semantic features encoding reference sets for comparison
@@ -34,29 +28,15 @@ meanings:
         note: Set comparison
       - form: as tall as expected/least expensive option
         note: Standard comparison
-    relations:
-      - 3
-      - 4
 relations:
-  '1':
-    construction: comparison-001
-    type: related-to
-    notes: 'Original type: projects-to.'
-  '2':
-    construction: measure-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '3':
-    construction: standard-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '4':
-    construction: scale-001
-    type: related-to
-    notes: 'Original type: enables.'
   '5':
     construction: gradation-001
-    type: implements
+    type: related-to
+semanticRefs:
+  - comparison
+  - measure
+  - standard
+  - scale
 hpc:
   status: hpc
   cluster:

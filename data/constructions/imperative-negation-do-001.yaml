@@ -1,6 +1,7 @@
 id: imperative-negation-do-001
 name: Imperative Negation with do-support
 pattern: "Do not/Don't + VP (imperative)"
+type: syntactic
 meanings:
   '1':
     definition: Issues a negative directive (prohibitive imperative)

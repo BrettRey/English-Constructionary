@@ -1,6 +1,7 @@
 id: nom-n-mod-001
 name: Nominal Pre-head Modifier in Nominal
 pattern: Nom[Mod:Nom Head:N]
+type: syntactic
 meanings:
   '1':
     definition: The first nominal specifies the type or category of the second nominal.

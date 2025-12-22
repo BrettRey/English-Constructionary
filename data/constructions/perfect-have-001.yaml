@@ -1,6 +1,7 @@
 id: perfect-have-001
 name: Perfect HAVE + V-en
 pattern: Aux HAVE + V-en
+type: syntactic
 meanings:
   '1':
     definition: Marks a prior situation with current relevance

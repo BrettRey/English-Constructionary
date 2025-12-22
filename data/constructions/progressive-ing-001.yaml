@@ -1,6 +1,7 @@
 id: progressive-ing-001
 name: Progressive -ing
 pattern: Aux BE + V-ing
+type: morphological
 meanings:
   '1':
     definition: Marks an ongoing or unfolding situation at a reference time (imperfective viewpoint; endpoints are not asserted)

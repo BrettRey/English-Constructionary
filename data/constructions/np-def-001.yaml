@@ -13,7 +13,6 @@ meanings:
     relations:
       - 1
       - 2
-      - 4
   '2':
     definition: Refers to/predicates maximal set
     details: Refers to or predicates property of all contextually relevant instances of nominal's type
@@ -25,7 +24,6 @@ meanings:
     relations:
       - 1
       - 2
-      - 3
   '3':
     definition: Refers to/predicates unique role
     details: Refers to or predicates property of unique occupant/instance of role described by nominal
@@ -37,7 +35,6 @@ meanings:
     relations:
       - 1
       - 2
-      - 4
   '4':
     definition: Refers to/predicates kind
     details: Refers to or predicates property of entire species/type
@@ -48,9 +45,6 @@ meanings:
         note: Predicates species membership
     relations:
       - 1
-      - 3
-      - 4
-      - 5
   '5':
     definition: Refers to/predicates generic property
     details: Refers to or predicates property taken as generally characteristic
@@ -61,23 +55,16 @@ meanings:
         note: Predicates typical properties
     relations:
       - 1
-      - 4
-      - 5
 relations:
   '1':
-    construction: grammatical-definiteness-001.1
+    construction: grammatical-definiteness-001
     type: implements
+    notes: Implements meaning 1
   '2':
-    construction: definite-001.1
+    construction: definite-001
     type: related-to
-    notes: 'Original type: elaborates.'
-  '3':
-    construction: quantifier-001
-    type: implements
-  '4':
-    construction: predication-001
-    type: related-to
-    notes: 'Original type: enables.'
-  '5':
-    construction: kind-001
-    type: implements
+    notes: 'Original type: elaborates. Related to meaning 1.'
+semanticRefs:
+  - quantifier
+  - predication
+  - kind
