@@ -1,0 +1,26 @@
+id: numerative-fused-head-001
+name: Fused-head Numerative
+pattern: "Det[numerative] (fused determiner-head)"
+meanings:
+  '1':
+    definition: Numerative used as a standalone DP/NP without an overt head noun
+    examples:
+      - form: "She bought twenty books, but I bought twenty-two."
+        note: Fused determiner-head use
+      - form: "How many thousand? Two."
+        note: Factor as fused head
+constraints:
+  - type: structural
+    description: Functions as a fused determiner-head in NP structure; may license partitive of-complements.
+formRefs:
+  - numerative-compound-basic
+  - numerative-decade
+  - numerative-single-digit
+  - numerative-magnitude
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: numerative-compound-basic-001
+    relationship: related-to
+  - id: numerative-magnitude-head-001
+    relationship: related-to

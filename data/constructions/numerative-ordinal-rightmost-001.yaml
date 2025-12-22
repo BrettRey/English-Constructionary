@@ -1,0 +1,24 @@
+id: numerative-ordinal-rightmost-001
+name: Rightmost-base Ordinal Formation in Numeratives
+pattern: "[numerative] + ordinal suffix on rightmost simple base"
+meanings:
+  '1':
+    definition: Ordinal morphology targets the rightmost simple base within a numerative
+    examples:
+      - form: twenty-second
+        note: Ordinal suffix on rightmost base (two)
+      - form: two hundredth
+        note: Ordinal suffix on magnitude base (hundred)
+constraints:
+  - type: structural
+    description: Ordinal/fractional morphology selects the rightmost simple base in the numerative constituent.
+formRefs:
+  - numerative-compound-basic
+  - numerative-magnitude
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: numerative-compound-basic-001
+    relationship: related-to
+  - id: numerative-magnitude-head-001
+    relationship: related-to

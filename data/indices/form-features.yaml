@@ -60,3 +60,8 @@ form_features:
     examples:
       - two hundred and five
       - two thousand and seven
+  numerative-ordinal-rightmost:
+    description: "Ordinal morphology targets the rightmost simple base in a numerative."
+    examples:
+      - twenty-second
+      - two hundredth
