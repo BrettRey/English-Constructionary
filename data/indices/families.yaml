@@ -10,6 +10,7 @@ families:
       - quasi-count-noun-001
   numeratives:
     members:
+      - cardinal-determinative-001
       - numerative-basic-lexeme-001
       - numerative-single-digit-001
       - numerative-ten-001

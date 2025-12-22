@@ -1,0 +1,27 @@
+id: cardinal-determinative-001
+name: Cardinal Determinative
+pattern: "Det[cardinal]"
+meanings:
+  '1':
+    definition: Cardinal numerative used in determiner function to specify exact quantity
+    examples:
+      - form: three
+        note: Low cardinal determiner
+      - form: twenty-six
+        note: Basic compound determiner
+      - form: one thousand twenty-four
+        note: Complex cardinal determiner
+constraints:
+  - type: syntactic
+    description: Functions as determiner in NP structure; can appear as fused head (e.g., "I bought three").
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: numerative-basic-lexeme-001
+    relationship: contains
+  - id: numerative-complex-001
+    relationship: contains
+  - id: numerative-fused-head-001
+    relationship: related-to
+  - id: determination-001
+    relationship: related-to

@@ -21,6 +21,8 @@ syntacticRefs:
   - prosodic-breaks-magnitude
   - coordination-ellipsis-numerative
 relatedConstructions:
+  - id: cardinal-determinative-001
+    relationship: specialization-of
   - id: numerative-factor-modifier-001
     relationship: contains
   - id: numerative-addition-coordination-001

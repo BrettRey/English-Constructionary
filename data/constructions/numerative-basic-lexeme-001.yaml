@@ -25,6 +25,8 @@ syntacticRefs:
 semanticRefs:
   - cardinality
 relatedConstructions:
+  - id: cardinal-determinative-001
+    relationship: specialization-of
   - id: numerative-single-digit-001
     relationship: contains
   - id: numerative-ten-001

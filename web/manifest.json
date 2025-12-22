@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T16:11:30.149Z",
+  "generatedAt": "2025-12-22T16:14:08.039Z",
   "sections": [
     {
       "id": "project",
@@ -75,6 +75,32 @@
           "path": "/data/constructions/adjective-001.yaml",
           "kind": "yaml",
           "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": "cardinal-determinative-001",
+          "title": "cardinal-determinative-001",
+          "subtitle": "Cardinal Determinative",
+          "path": "/data/constructions/cardinal-determinative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-basic-lexeme-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-complex-001",
+              "relationship": "contains"
+            },
+            {
+              "id": "numerative-fused-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -691,6 +717,10 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "cardinal-determinative-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "numerative-single-digit-001",
               "relationship": "contains"
             },
@@ -720,6 +750,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "cardinal-determinative-001",
+              "title": "cardinal-determinative-001",
+              "relationship": "contains"
+            },
             {
               "id": "numerative-addition-asyndetic-001",
               "title": "numerative-addition-asyndetic-001",
@@ -755,6 +790,10 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "cardinal-determinative-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "numerative-factor-modifier-001",
               "relationship": "contains"
             },
@@ -771,7 +810,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "cardinal-determinative-001",
+              "title": "cardinal-determinative-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "numerative-compound-basic-001",
