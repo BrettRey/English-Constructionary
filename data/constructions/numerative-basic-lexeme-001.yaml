@@ -1,0 +1,39 @@
+id: numerative-basic-lexeme-001
+name: Basic Numerative Lexeme (0–99)
+pattern: "Det[basic numerative] + N"
+meanings:
+  '1':
+    definition: Lexical numeratives from zero to ninety-nine used in determiner function
+    examples:
+      - form: five books
+        note: Single-digit
+      - form: ten students
+        note: Ten
+      - form: twelve pages
+        note: Irregular teen
+      - form: nineteen errors
+        note: Regular -teen
+      - form: forty people
+        note: Decade
+      - form: twenty-six items
+        note: Compound basic numerative
+constraints:
+  - type: morphological
+    description: Behaves as a lexical unit for syntax (no internal coordination or modification).
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: numerative-single-digit-001
+    relationship: contains
+  - id: numerative-ten-001
+    relationship: contains
+  - id: numerative-teen-irregular-001
+    relationship: contains
+  - id: numerative-teen-001
+    relationship: contains
+  - id: numerative-decade-001
+    relationship: contains
+  - id: numerative-compound-basic-001
+    relationship: contains
+  - id: determination-001
+    relationship: related-to

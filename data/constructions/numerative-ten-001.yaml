@@ -12,5 +12,7 @@ formRefs:
 semanticRefs:
   - cardinality
 relatedConstructions:
+  - id: numerative-basic-lexeme-001
+    relationship: specialization-of
   - id: determination-001
     relationship: related-to

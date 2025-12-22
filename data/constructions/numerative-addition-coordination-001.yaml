@@ -1,5 +1,5 @@
 id: numerative-addition-coordination-001
-name: Numerative Addition Coordination
+name: Numerative Addition Coordination (with and)
 pattern: "[DP magnitude] + and + [DP addition]"
 meanings:
   '1':
@@ -22,19 +22,11 @@ semanticRefs:
 syntacticRefs:
   - coordination-ellipsis-numerative
 relatedConstructions:
-  - id: numerative-single-digit-001
-    relationship: contains
-  - id: numerative-ten-001
-    relationship: contains
-  - id: numerative-teen-irregular-001
-    relationship: contains
-  - id: numerative-teen-001
-    relationship: contains
-  - id: numerative-decade-001
-    relationship: contains
-  - id: numerative-compound-basic-001
+  - id: numerative-basic-lexeme-001
     relationship: contains
   - id: numerative-factor-modifier-001
     relationship: contains
+  - id: numerative-addition-asyndetic-001
+    relationship: alternates-with
   - id: numerative-magnitude-head-001
     relationship: related-to

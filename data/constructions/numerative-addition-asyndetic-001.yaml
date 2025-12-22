@@ -1,0 +1,32 @@
+id: numerative-addition-asyndetic-001
+name: Numerative Addition Coordination (without and)
+pattern: "[DP magnitude] + [DP addition]"
+meanings:
+  '1':
+    definition: Additive numerative formed by juxtaposing magnitude and addition without and
+    examples:
+      - form: two hundred five
+        note: 200 + 5 (asyndetic addition)
+      - form: two thousand seven
+        note: 2000 + 7 (asyndetic addition)
+constraints:
+  - type: structural
+    description: Coordination targets numerative constituents; conjunction and is omitted.
+  - type: structural
+    description: "Recursive: the addition DP can itself be a basic numerative or a magnitude phrase."
+  - type: pragmatic
+    description: Strongly preferred in AmE and in faster or less formal registers.
+formRefs:
+  - numerative-addition-coordination
+semanticRefs:
+  - cardinality
+  - additive-composition
+syntacticRefs:
+  - coordination-ellipsis-numerative
+relatedConstructions:
+  - id: numerative-basic-lexeme-001
+    relationship: contains
+  - id: numerative-factor-modifier-001
+    relationship: contains
+  - id: numerative-addition-coordination-001
+    relationship: alternates-with

@@ -22,6 +22,8 @@ semanticRefs:
   - cardinality
   - additive-composition
 relatedConstructions:
+  - id: numerative-basic-lexeme-001
+    relationship: specialization-of
   - id: numerative-decade-001
     relationship: contains
   - id: numerative-single-digit-001
