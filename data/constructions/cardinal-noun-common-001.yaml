@@ -1,0 +1,25 @@
+id: cardinal-noun-common-001
+name: Cardinal Common Noun
+pattern: "N[cardinal common]"
+meanings:
+  '1':
+    definition: Common-noun use of a cardinal to denote quantities, labels, or numerically named kinds
+    examples:
+      - form: "a ten"
+        note: Quantity/score label
+      - form: "tens of people"
+        note: Plural cardinal noun with of-PP complement
+      - form: "three tens"
+        note: Cardinal noun with determiner and plural morphology
+constraints:
+  - type: syntactic
+    description: Behaves like a count noun; inflects for number and can take determiners.
+  - type: structural
+    description: Of-PP complements are licensed mainly by plural magnitude nouns (e.g., tens/hundreds of N).
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: determination-001
+    relationship: related-to

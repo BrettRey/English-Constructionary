@@ -1,0 +1,23 @@
+id: cardinal-noun-001
+name: Cardinal Noun
+pattern: "N[cardinal]"
+meanings:
+  '1':
+    definition: Cardinal numerative used as a noun to denote a number entity or quantity concept
+    examples:
+      - form: "Ten is even."
+        note: Proper-name use for a number entity
+      - form: "a ten"
+        note: Common-noun use for a quantity/label
+constraints:
+  - type: semantic
+    description: Denotes a number entity or quantity concept, not a determiner function.
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: cardinal-noun-proper-001
+    relationship: specialization-of
+  - id: cardinal-noun-common-001
+    relationship: specialization-of
+  - id: cardinal-determinative-001
+    relationship: related-to

@@ -17,6 +17,8 @@ constraints:
 semanticRefs:
   - cardinality
 relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: related-to
   - id: numerative-basic-lexeme-001
     relationship: contains
   - id: numerative-complex-001

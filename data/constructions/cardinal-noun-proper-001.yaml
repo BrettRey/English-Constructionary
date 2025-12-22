@@ -1,0 +1,25 @@
+id: cardinal-noun-proper-001
+name: Cardinal Proper Noun
+pattern: "N[cardinal proper]"
+meanings:
+  '1':
+    definition: Proper-noun use of a cardinal to name a number entity or unique label
+    examples:
+      - form: "Twenty-seven is prime."
+        note: Number entity
+      - form: "1066 was decisive."
+        note: Year label as a proper name
+      - form: "Room 101 was locked."
+        note: Numeric label in a proper-name frame
+constraints:
+  - type: syntactic
+    description: Heads a bare NP; resists determiners, attributive modifiers, and of-PP complements.
+  - type: semantic
+    description: Rigidly designates a number entity or unique label.
+semanticRefs:
+  - cardinality
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: proper-name-001
+    relationship: related-to

@@ -11,6 +11,9 @@ families:
   numeratives:
     members:
       - cardinal-determinative-001
+      - cardinal-noun-001
+      - cardinal-noun-proper-001
+      - cardinal-noun-common-001
       - numerative-basic-lexeme-001
       - numerative-single-digit-001
       - numerative-ten-001

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T16:14:08.039Z",
+  "generatedAt": "2025-12-22T16:21:03.100Z",
   "sections": [
     {
       "id": "project",
@@ -85,6 +85,10 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "cardinal-noun-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "numerative-basic-lexeme-001",
               "relationship": "contains"
             },
@@ -98,6 +102,64 @@
             },
             {
               "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "cardinal-noun-001",
+          "title": "cardinal-noun-001",
+          "subtitle": "Cardinal Noun",
+          "path": "/data/constructions/cardinal-noun-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-proper-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "cardinal-noun-common-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "cardinal-determinative-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "cardinal-noun-common-001",
+          "title": "cardinal-noun-common-001",
+          "subtitle": "Cardinal Common Noun",
+          "path": "/data/constructions/cardinal-noun-common-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "cardinal-noun-proper-001",
+          "title": "cardinal-noun-proper-001",
+          "subtitle": "Cardinal Proper Noun",
+          "path": "/data/constructions/cardinal-noun-proper-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "proper-name-001",
               "relationship": "related-to"
             }
           ],
@@ -924,7 +986,7 @@
         {
           "id": "numerative-fractional-001",
           "title": "numerative-fractional-001",
-          "subtitle": "Fractional Numerative",
+          "subtitle": "Fractional Noun",
           "path": "/data/constructions/numerative-fractional-001.yaml",
           "kind": "yaml",
           "relations": [
