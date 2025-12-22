@@ -20,13 +20,14 @@ constraints:
   - type: syntactic
     description: Determiner is a dependent within NP structure.
   - type: structural
-    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless in some contexts.
+    description: Singular count nominals generally require determination; bare plural and mass nominals can be determinerless, and a small set of bare singular count frames are licensed (institutional/time/iteration).
 semanticRefs:
   - definiteness
   - indefiniteness
 syntacticRefs:
   - determiner-obligatoriness-singular-count
   - deitality-diagnostics
+  - bare-singular-exceptions
 relatedConstructions:
   - id: np-det-001
     relationship: implements
@@ -38,3 +39,61 @@ relatedConstructions:
     relationship: related-to
   - id: minor-determiner-001
     relationship: related-to
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Determiner slot realization licensing NP"
+        diagnostics: ["determiner-obligatoriness-singular-count"]
+        weight: high
+      - property: "Deital distributional profile"
+        diagnostics:
+          - "existential-there-pivot"
+          - "partitive-of-complement"
+          - "identificational-hosting"
+          - "one-substitution"
+        weight: medium
+    peripheral:
+      - property: "Tendency to align with semantic definiteness"
+        diagnostics: ["identifiability", "uniqueness", "anaphoric-recoverability"]
+        weight: low
+  stabilisers:
+    - type: transmission
+      evidence: "Demonstrative > article grammaticalization stabilizes determiner distribution across generations."
+    - type: acquisition
+      evidence: "Learners acquire determiner distribution before full definiteness semantics."
+    - type: alignment
+      evidence: "Interactive alignment reinforces determiner placement in NP."
+    - type: social-indexing
+      evidence: "Prestige selection shapes which determiner variants persist in a community."
+  projectibility:
+    scope: "New determinatives or genitives generalize to the determiner slot; semantic definiteness alignment is strong but defeasible."
+    evidence: "Weak/generic definites and bare definites show mismatch."
+    confidence: medium
+  homeostasis:
+    perturbations:
+      - "Weak definites (go to the hospital) weaken semantic definiteness while preserving deital marking."
+      - "Generic definites (The tiger is endangered) shift to kind reference."
+      - "Proper names are semantically definite without deital marking."
+  variation:
+    activation_states:
+      - context: "institutional weak definite frames"
+        effect: "deital marking with non-unique reference"
+      - context: "generic/kind statements"
+        effect: "deital marking with kind reference"
+    speaker_variation: "Dialectal bare-noun patterns (in hospital, at university) shift deitality distribution."
+  boundaries:
+    overlaps_with:
+      - np-def-001
+      - np-bare-001
+    known_boundary_items:
+      - "weak definites"
+      - "generic definites"
+      - "proper names"
+  grain:
+    level: meso
+    parent_families:
+      - np
+  coupling:
+    linked_cluster: "semantic definiteness"
+    mechanism: "historical grammaticalization + discourse-pragmatic alignment"

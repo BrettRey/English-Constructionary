@@ -68,6 +68,14 @@ syntactic_diagnostics:
     examples:
       - "Not once did Ed read it."
 
+  bare-singular-exceptions:
+    description: "Limited bare singular count nominals are licensed in institutional, temporal, or iterative frames."
+    examples:
+      - "Henry became treasurer."
+      - "Ed went to school."
+      - "What time did you have breakfast?"
+      - "We are monitoring the situation day by day."
+
   determinatives-inventory:
     description: "Inventory of determinatives (terminology: Simple English Wiktionary uses 'determiners' for the category; CGEL uses 'determinatives')."
     sources:
