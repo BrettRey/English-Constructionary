@@ -121,23 +121,6 @@ const renderYamlSummary = (data, itemMeta = null) => {
     return;
   }
 
-  const headerBlock = document.createElement('div');
-  headerBlock.className = 'detail-block';
-  const headerTitle = document.createElement('h3');
-  headerTitle.textContent = 'Overview';
-  headerBlock.appendChild(headerTitle);
-  const grid = document.createElement('div');
-  grid.className = 'detail-grid';
-  ['id', 'name'].forEach((key) => {
-    if (data[key]) {
-      const row = document.createElement('div');
-      row.innerHTML = `<strong>${key}</strong>: ${data[key]}`;
-      grid.appendChild(row);
-    }
-  });
-  headerBlock.appendChild(grid);
-  detailBody.appendChild(headerBlock);
-
   const formBlock = document.createElement('div');
   formBlock.className = 'detail-block';
   const formTitle = document.createElement('h3');
