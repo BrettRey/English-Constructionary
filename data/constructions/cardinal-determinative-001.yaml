@@ -11,11 +11,11 @@ meanings:
   '1':
     definition: Cardinal numerative used in determiner function to specify exact quantity
     examples:
-      - form: three
+      - form: "I saw [three] cats."
         note: Low cardinal determiner
-      - form: twenty-six
+      - form: "She has [twenty-six] students."
         note: Basic compound determiner
-      - form: one thousand twenty-four
+      - form: "The building has [one thousand twenty-four] rooms."
         note: Complex cardinal determiner
 constraints:
   - type: syntactic
