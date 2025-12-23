@@ -2,6 +2,11 @@ id: numerative-decade-001
 name: Decade Numerative
 pattern: Base (2-9) + -ty
 type: morphological
+dimensions:
+  form: "Single-digit base + -ty suffix (twenty through ninety)"
+  meaning: "Specifies cardinality in tens (20, 30, ..., 90)"
+  function: "Base for compound formation; determiner, factor"
+  distribution: "Combines with single-digits to form compounds (twenty-one)"
 meanings:
   '1':
     definition: Specifies a cardinality in tens (20, 30, …, 90)

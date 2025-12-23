@@ -2,6 +2,11 @@ id: numerative-addition-asyndetic-001
 name: Numerative Addition Coordination (without and)
 pattern: "[DP magnitude] + [DP addition]"
 type: syntactic
+dimensions:
+  form: "Asyndetic coordination; juxtaposition without 'and'"
+  meaning: "Same additive semantics as syndetic variant"
+  function: "Builds complex numeratives recursively"
+  distribution: "Preferred in AmE; faster/less formal registers"
 meanings:
   '1':
     definition: Additive numerative formed by juxtaposing magnitude and addition without and

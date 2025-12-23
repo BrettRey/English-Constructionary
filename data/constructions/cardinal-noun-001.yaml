@@ -2,23 +2,48 @@ id: cardinal-noun-001
 name: Cardinal Noun
 pattern: "N[cardinal]"
 type: syntactic
+dimensions:
+  form: "Cardinal numerative in noun category; may be proper or common"
+  meaning: "Denotes number entities, quantities, labels, or numerical tokens"
+  function: "Heads NPs in various uses (naming, quantifying, labelling)"
+  distribution: "Subject, object, complement; proper uses are bare, common uses take determiners"
 meanings:
   '1':
     definition: Cardinal numerative used as a noun to denote a number entity or quantity concept
     examples:
       - form: "Ten is even."
-        note: Proper-name use for a number entity
+        note: Proper-noun use (abstract numeral)
       - form: "a ten"
-        note: Common-noun use for a quantity/label
+        note: Common-noun use (denominator/token)
+      - form: "Room 101"
+        note: Proper-noun use (numerical label)
+      - form: "hundreds of people"
+        note: Common-noun use (magnitude quantifier)
 constraints:
   - type: semantic
     description: Denotes a number entity or quantity concept, not a determiner function.
+  - type: syntactic
+    description: Proper-noun uses head bare NPs; common-noun uses take determiners and plural.
 semanticRefs:
   - cardinality
 relatedConstructions:
-  - id: cardinal-noun-proper-001
-    relationship: specialization-of
-  - id: cardinal-noun-common-001
-    relationship: specialization-of
   - id: cardinal-determinative-001
     relationship: related-to
+  - id: numerical-label-001
+    relationship: contains
+    notes: Proper-noun use for identifying entities
+  - id: abstract-numeral-001
+    relationship: contains
+    notes: Proper-noun use for mathematical entities
+  - id: year-name-001
+    relationship: contains
+    notes: Proper-noun use for temporal reference
+  - id: magnitude-quantifier-001
+    relationship: contains
+    notes: Common-noun use for vague large quantities
+  - id: collective-numeral-001
+    relationship: contains
+    notes: Common-noun use for group arrangements
+  - id: denominator-numeral-001
+    relationship: contains
+    notes: Common-noun use for numeral tokens

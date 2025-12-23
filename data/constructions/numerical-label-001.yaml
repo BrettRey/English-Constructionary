@@ -1,0 +1,38 @@
+id: numerical-label-001
+name: Numerical Label Construction
+pattern: "[Embellishment] + N[cardinal proper]"
+type: syntactic
+dimensions:
+  form: "Cardinal noun (basic or complex) following an embellishment noun; bare NP"
+  meaning: "Rigid designation of a unique entity via numerical identifier"
+  function: "Names/identifies specific entities (rooms, highways, addresses, etc.)"
+  distribution: "Subject, object, complement positions; typically without determiner"
+meanings:
+  '1':
+    definition: Cardinal noun functions as a proper noun to identify a unique entity through direct reference
+    examples:
+      - form: Room 101
+        note: Numerical label identifying a specific room
+      - form: Highway 401
+        note: Numerical label for a specific highway
+      - form: 20 Pheasant Street
+        note: Address with numerical component
+      - form: Flight 447
+        note: Numerical identifier for specific flight
+constraints:
+  - type: syntactic
+    description: Cardinal noun heads a bare NP; resists determiners and attributive modifiers.
+  - type: semantic
+    description: Rigidly designates a unique entity; reference is direct, not mediated by descriptive content.
+  - type: structural
+    description: The non-numeral element (Room, Highway, etc.) functions as embellishment, not attributive modifier.
+semanticRefs:
+  - identity
+  - reference
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: proper-name-001
+    relationship: related-to
+  - id: n-proper-001
+    relationship: related-to

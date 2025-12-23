@@ -2,6 +2,11 @@ id: numerative-complex-001
 name: Complex Numerative (Phrasal >99)
 pattern: "[factor + magnitude] (+ addition)"
 type: syntactic
+dimensions:
+  form: "Syntactic phrase or coordination; magnitude head with factor modifier"
+  meaning: "Multiplicative and additive composition for values above 99"
+  function: "Same functions as basic numeratives but with internal syntactic structure"
+  distribution: "Prosodic breaks at magnitude boundaries; allows internal modification"
 meanings:
   '1':
     definition: Phrasal numeratives above the lexical 0–99 range, built from magnitude phrases with optional additions

@@ -2,6 +2,11 @@ id: numerative-fractional-001
 name: Fractional Noun
 pattern: Cardinal base → fractional noun (-th or suppletive)
 type: morphological
+dimensions:
+  form: "Cardinal base + -th or suppletive (half, quarter); count noun"
+  meaning: "Denotes denominator in fraction; partitive semantics"
+  function: "Heads nominal in fraction NPs; numerator is determiner"
+  distribution: "Inflects for number (one fifth, two fifths); licenses factors"
 meanings:
   '1':
     definition: Fractional noun denoting a denominator; used in fraction NPs with a numeral determiner

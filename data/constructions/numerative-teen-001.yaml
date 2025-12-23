@@ -2,6 +2,11 @@ id: numerative-teen-001
 name: Regular Teen Numerative (-teen)
 pattern: "Det[teen]"
 type: morphological
+dimensions:
+  form: "Single-digit base + -teen suffix (thirteen through nineteen)"
+  meaning: "Specifies cardinality from thirteen to nineteen"
+  function: "Same distribution as single-digit numeratives"
+  distribution: "Determiner, factor, addition; lexically atomic"
 meanings:
   '1':
     definition: Specifies a cardinality from thirteen to nineteen via -teen morphology

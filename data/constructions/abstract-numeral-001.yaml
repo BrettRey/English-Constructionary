@@ -1,0 +1,37 @@
+id: abstract-numeral-001
+name: Abstract Numeral Construction
+pattern: "N[cardinal proper] + VP[predication]"
+type: syntactic
+dimensions:
+  form: "Cardinal noun as bare NP subject; no determiner or modifier"
+  meaning: "Denotes abstract mathematical entity as subject of predication"
+  function: "Names a number-as-object for mathematical or metalinguistic statements"
+  distribution: "Subject position in clauses predicating properties of numbers"
+meanings:
+  '1':
+    definition: Cardinal noun denotes an abstract mathematical object rather than a count or quantity
+    examples:
+      - form: Seven is prime.
+        note: Predicating a mathematical property
+      - form: Twenty is even.
+        note: Mathematical classification
+      - form: Two plus two is four.
+        note: Arithmetic identity statement
+constraints:
+  - type: syntactic
+    description: Cardinal noun heads a bare NP; resists determiners (*the seven is prime).
+  - type: syntactic
+    description: Resists attributive modifiers (*prime seven is odd).
+  - type: semantic
+    description: Rigidly designates a particular abstract quantity via nominal number assignment.
+semanticRefs:
+  - identity
+  - abstract
+  - reference
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: proper-name-001
+    relationship: related-to
+  - id: n-proper-001
+    relationship: related-to

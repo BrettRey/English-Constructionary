@@ -2,6 +2,11 @@ id: numerative-compound-basic-001
 name: Compound Basic Numerative (Decade + Single-digit)
 pattern: "Det[decade] + Det[single-digit] (typically hyphenated)"
 type: morphological
+dimensions:
+  form: "Decade + single-digit compound; hyphenated; lexically atomic"
+  meaning: "Specifies cardinality from twenty-one to ninety-nine"
+  function: "Same distribution as simple basic numeratives"
+  distribution: "Determiner, factor, addition; resists internal coordination (*twenty and one)"
 meanings:
   '1':
     definition: Specifies a cardinality formed by additive composition of tens and ones

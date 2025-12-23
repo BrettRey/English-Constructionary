@@ -1,0 +1,38 @@
+id: magnitude-quantifier-001
+name: Magnitude Quantifier Construction
+pattern: "N[magnitude, plural] + of + NP"
+type: syntactic
+dimensions:
+  form: "Plural magnitude noun (hundreds, thousands) with of-PP complement"
+  meaning: "Approximate large quantity; vague quantification"
+  function: "Quantifies without precise count; emphasizes scale"
+  distribution: "Determiner position or as head of quantificational NP"
+meanings:
+  '1':
+    definition: Plural magnitude noun quantifies an approximate large number
+    examples:
+      - form: hundreds of people
+        note: Vague large quantity
+      - form: tens of thousands of dollars
+        note: Nested magnitude quantification
+      - form: millions of stars
+        note: Very large approximate quantity
+constraints:
+  - type: structural
+    description: Only magnitude nouns (tens, hundreds, thousands, millions) and 'dozens' participate.
+  - type: structural
+    description: Distinct from partitive (two of the cats) where numerative is DP in fused-head function.
+  - type: syntactic
+    description: The of-complement NP may be indefinite (unlike true partitives).
+semanticRefs:
+  - cardinality
+  - quantifier
+formRefs:
+  - numerative-magnitude
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: n-common-001
+    relationship: related-to
+  - id: numerative-magnitude-head-001
+    relationship: related-to

@@ -1,0 +1,32 @@
+id: denominator-numeral-001
+name: Denominator Numeral Construction
+pattern: "Det + N[cardinal]"
+type: syntactic
+dimensions:
+  form: "Cardinal noun with determiner; may take plural morphology"
+  meaning: "Denotes a token of a numerical type (score, label, symbol)"
+  function: "Refers to instances of numerals as objects"
+  distribution: "Object position; count noun syntax"
+meanings:
+  '1':
+    definition: Cardinal noun denotes a token numeral (score, written symbol, etc.)
+    examples:
+      - form: I rolled a ten.
+        note: Numeral as game score
+      - form: She drew three tens.
+        note: Plural cardinal noun for multiple tokens
+      - form: That's a perfect ten.
+        note: Rating/score use
+constraints:
+  - type: syntactic
+    description: Behaves as count noun; takes determiners and plural morphology.
+  - type: semantic
+    description: Denotes a token or instance of a numeral, not an abstract number.
+semanticRefs:
+  - cardinality
+  - reference
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: n-common-001
+    relationship: related-to

@@ -2,6 +2,11 @@ id: numerative-magnitude-head-001
 name: Magnitude Head Numerative
 pattern: "Det[magnitude] (+ of + NP)"
 type: syntactic
+dimensions:
+  form: "Magnitude determinative (hundred, thousand, million, etc.)"
+  meaning: "Denotes base magnitude value (powers of ten > 10)"
+  function: "Head of magnitude phrase; licenses factor modifier"
+  distribution: "Requires factor in most contexts; heads DP"
 meanings:
   '1':
     definition: Denotes a base magnitude (hundred, thousand, million, etc.) that can scale a quantity

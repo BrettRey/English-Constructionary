@@ -2,6 +2,11 @@ id: numerative-single-digit-001
 name: Single-digit Numerative
 pattern: "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
 type: syntactic
+dimensions:
+  form: "Monomorphemic lexemes (one through nine, plus zero)"
+  meaning: "Specifies cardinality from zero to nine"
+  function: "Factor, addition, determiner; most versatile numerative subclass"
+  distribution: "All numerative positions; combine freely in compounds"
 meanings:
   '1':
     definition: Specifies a cardinality from one to nine

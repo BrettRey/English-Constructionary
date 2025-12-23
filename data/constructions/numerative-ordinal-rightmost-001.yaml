@@ -2,6 +2,11 @@ id: numerative-ordinal-rightmost-001
 name: Rightmost-base Ordinal Formation in Numeratives
 pattern: "[numerative] + ordinal suffix on rightmost simple base"
 type: morphological
+dimensions:
+  form: "Complex numerative with ordinal morphology on rightmost base only"
+  meaning: "Ordinal meaning applies to entire numerative"
+  function: "Morphological targeting rule for ordinal/fractional formation"
+  distribution: "Defines constituent boundary before noun; key evidence against cascading NumP"
 meanings:
   '1':
     definition: Ordinal morphology targets the rightmost simple base within a numerative

@@ -2,6 +2,11 @@ id: numerative-factor-modifier-001
 name: Factor + Magnitude Numerative
 pattern: "Det[factor] + Det[magnitude]"
 type: syntactic
+dimensions:
+  form: "Basic numerative (0-99) + magnitude; factor is modifier, not determiner"
+  meaning: "Multiplicative composition (factor × magnitude)"
+  function: "Factor scales magnitude head; near-obligatory in most contexts"
+  distribution: "Factor precedes magnitude head; prosodic break after magnitude"
 meanings:
   '1':
     definition: Multiplicative numerative built by combining a factor with a magnitude head

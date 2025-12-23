@@ -2,6 +2,11 @@ id: cardinal-determinative-001
 name: Cardinal Determinative
 pattern: "Det[cardinal]"
 type: syntactic
+dimensions:
+  form: "Basic (0-99) or magnitude determinative; no number inflection"
+  meaning: "Specifies exact cardinality of referent set"
+  function: "Heads DPs functioning as determiners, factors, or fused heads"
+  distribution: "Determiner in NP; factor in magnitude phrases; fused determiner-head"
 meanings:
   '1':
     definition: Cardinal numerative used in determiner function to specify exact quantity

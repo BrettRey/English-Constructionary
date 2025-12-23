@@ -1,0 +1,34 @@
+id: collective-numeral-001
+name: Collective Numeral Construction
+pattern: "in + N[cardinal, plural] + (and + N[cardinal, plural])"
+type: syntactic
+dimensions:
+  form: "Plural cardinal noun in PP, often coordinated (twos and threes)"
+  meaning: "Grouping or distribution by numerical size"
+  function: "Specifies manner of grouping or arrangement"
+  distribution: "Adverbial PP modifying manner of action"
+meanings:
+  '1':
+    definition: Cardinal nouns denote group sizes for collective arrangement
+    examples:
+      - form: in twos and threes
+        note: Arriving/arranged in small groups
+      - form: by the hundreds
+        note: In groups of approximately 100
+      - form: count by fives
+        note: Grouping for counting
+constraints:
+  - type: syntactic
+    description: Cardinal noun is a common noun; takes plural morphology.
+  - type: structural
+    description: Typically in PP with 'in' or 'by'.
+semanticRefs:
+  - cardinality
+  - category
+formRefs:
+  - numerative-single-digit
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: n-common-001
+    relationship: related-to

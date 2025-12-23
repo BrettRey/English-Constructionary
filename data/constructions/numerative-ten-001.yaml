@@ -2,6 +2,11 @@ id: numerative-ten-001
 name: Ten Numerative
 pattern: "Det[ten]"
 type: syntactic
+dimensions:
+  form: "Monomorphemic lexeme; base for teen and decade derivation"
+  meaning: "Specifies cardinality of ten"
+  function: "Determiner, factor; morphological base for -teen and -ty"
+  distribution: "All basic numerative positions"
 meanings:
   '1':
     definition: Specifies a cardinality of ten

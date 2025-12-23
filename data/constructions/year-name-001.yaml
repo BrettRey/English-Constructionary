@@ -1,0 +1,37 @@
+id: year-name-001
+name: Year Name Construction
+pattern: "N[cardinal proper] (as temporal reference)"
+type: syntactic
+dimensions:
+  form: "Cardinal noun (typically four-digit); bare NP or in PP complement"
+  meaning: "Rigid designation of a specific calendar year"
+  function: "Temporal reference via proper naming rather than counting"
+  distribution: "In PPs (in 1066), as appositive (the year 1066), subject position"
+meanings:
+  '1':
+    definition: Cardinal noun names a specific year through direct reference
+    examples:
+      - form: born in 1994
+        note: Year as PP complement
+      - form: The year 1066 saw the Norman Conquest.
+        note: Year as appositive to embellishment noun
+      - form: 2025 will be different.
+        note: Year as bare NP subject
+constraints:
+  - type: syntactic
+    description: Heads a bare NP; resists determiners and attributive modifiers.
+  - type: morphological
+    description: Typically uses basic numeratives and 'oh' (ten sixty-six, not one thousand sixty-six).
+  - type: semantic
+    description: Rigidly designates a unique temporal point.
+semanticRefs:
+  - identity
+  - temporal-relation
+  - reference
+relatedConstructions:
+  - id: cardinal-noun-001
+    relationship: specialization-of
+  - id: proper-name-001
+    relationship: related-to
+  - id: numerical-label-001
+    relationship: related-to

@@ -2,6 +2,11 @@ id: numerative-ordinal-adjective-001
 name: Ordinal Adjective
 pattern: Cardinal base → ordinal form (-th or suppletive)
 type: morphological
+dimensions:
+  form: "Cardinal base + -th suffix or suppletive (first, second, third)"
+  meaning: "Specifies rank or position in an ordered sequence"
+  function: "Heads AdjPs; attributive modifier or predicative complement"
+  distribution: "Pre-nominal modifier; licenses factors in complex ordinals"
 meanings:
   '1':
     definition: Specifies rank or order position within a sequence

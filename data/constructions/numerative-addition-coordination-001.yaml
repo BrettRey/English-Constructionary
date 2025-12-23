@@ -2,6 +2,11 @@ id: numerative-addition-coordination-001
 name: Numerative Addition Coordination (with and)
 pattern: "[DP magnitude] + and + [DP addition]"
 type: syntactic
+dimensions:
+  form: "Coordination with overt 'and' marker; right-branching"
+  meaning: "Additive composition of magnitude and addition"
+  function: "Builds complex numeratives recursively"
+  distribution: "Preferred in BrE; more formal registers"
 meanings:
   '1':
     definition: Additive numerative formed by coordinating magnitude units and additions
