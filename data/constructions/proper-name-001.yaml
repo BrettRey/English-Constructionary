@@ -2,6 +2,11 @@ id: proper-name-001
 name: Proper Name
 pattern: Any linguistic form that functions to uniquely identify
 type: semantic
+dimensions:
+  form: "Variable; typically proper noun, but can be any form (common NP, clause, etc.)"
+  meaning: "Unique identification; rigid designation; individual-tracking across discourse"
+  function: "Creates cognitive access points; anchors encyclopedic and episodic knowledge"
+  distribution: "Wherever referential expressions appear; subject to pragmatic naming conventions"
 meanings:
   '1':
     definition: Refers to a unique individual, entity, place, event, etc.
@@ -43,7 +48,16 @@ relations:
     type: can-manifest-as
   '2':
     construction: n-proper-001
-    type: often-contains
+    type: interfaces-with
+    notes: Bidirectional syntax-semantics interface
+relatedConstructions:
+  - id: n-proper-001
+    relationship: interfaces-with
+    notes: Bidirectional interface; proper-name intention licenses proper noun choice, proper nouns cue proper-name interpretation
+  - id: np-proper-001
+    relationship: can-manifest-as
+    parthood: formal
+    notes: Proper names are formally realized as proper NPs
 semanticRefs:
   - honorific
   - title

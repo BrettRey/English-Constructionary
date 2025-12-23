@@ -2,6 +2,11 @@ id: grammatical-number-001
 name: Grammatical Number
 pattern: Applies to nouns and agreement targets
 type: semantic
+dimensions:
+  form: "Singular/plural morphology on nouns; agreement on determiners, verbs, pronouns"
+  meaning: "Cardinality, individuation, countability status"
+  function: "Enables reference tracking; supports quantification"
+  distribution: "Nouns, determiners, verbs, pronouns; agreement domain extends across clause"
 meanings:
   '1':
     definition: Specifies cardinality features
@@ -88,12 +93,15 @@ syntacticRefs:
   - countability-diagnostics
   - countability-hierarchy
 relatedConstructions:
+  - id: singular-001
+    relationship: interfaces-with
+    notes: Bidirectional; singular form cues singular construal, singular construal licenses singular form
+  - id: plural-001
+    relationship: interfaces-with
+    notes: Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form
   - id: quasi-count-noun-001
     relationship: related-to
-  - id: singular-001
-    relationship: related-to
-  - id: plural-001
-    relationship: related-to
+    notes: Boundary items showing ordered dissociation of count diagnostics
   - id: cardinal-determinative-001
     relationship: related-to
   - id: determination-001

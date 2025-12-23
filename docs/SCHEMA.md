@@ -36,6 +36,100 @@ The Constructionary documents:
 2. **Semantic clusters** (in `type: semantic` entries) – the interpretive property clusters that constructions encode
 3. **The interface** – via relations like `implements`, `realized-by`, `can-manifest-as`
 
+### Mereological Framework
+
+The Constructionary employs a typed mereology – part-whole relations that are dimension-specific and cross-cutting.
+
+#### The Constructicon as Whole
+
+Constructions are parts of **the constructicon**: the structured inventory of conventional form-meaning pairings that constitutes a speaker's grammatical knowledge. The constructicon isn't a list; it's a network with inheritance, overlap, and interface relations. Individual constructions are what the constructicon is made of; the constructicon is what makes individual constructions cohere.
+
+#### Typed Parthood
+
+A single parthood relation (≤) is too coarse. Construction A can be "part of" construction B in different senses:
+
+| Parthood Type | Notation | Meaning | Example |
+|---------------|----------|---------|---------|
+| **Formal** | A ≤_form B | A's form is a subpattern of B's | N ≤_form Nom ≤_form NP |
+| **Semantic** | A ≤_sem B | A's meaning specializes B's | definite-reference ≤_sem reference |
+| **Functional** | A ≤_func B | A serves a functional role in B | determinative ≤_func NP (in determiner function) |
+
+These don't always align. A determinative is formally contained in an NP but semantically operates on the whole NP's reference. Typed parthood captures this without forcing false choices.
+
+In the schema, use the `parthood` field in relations to specify which dimension:
+```yaml
+relations:
+  1:
+    construction: np-001
+    type: contains
+    parthood: formal
+    notes: NP formally contains Nom
+```
+
+#### Adjacency vs Containment
+
+Not all systematic interactions are containment. The `interfaces-with` relation captures **adjacency**: constructions that interact bidirectionally without one containing the other.
+
+- Deitality and definiteness are adjacent: deital forms cue definite interpretations; definite intentions license deital forms. Neither contains the other.
+- Syntax and semantics at clause level are adjacent: syntactic structure constrains interpretation; intended interpretation shapes syntactic choice.
+
+Use `interfaces-with` when:
+- The interaction is bidirectional (each side influences the other)
+- Neither construction is a proper part of the other
+- The connection is systematic, not accidental
+
+```yaml
+relatedConstructions:
+  - id: definiteness-001
+    relationship: interfaces-with
+    notes: Bidirectional form-meaning interface; see deitality paper
+```
+
+#### Constructions as Bundles
+
+Following the mereology paper's ⟨P, M, T⟩ structure for subfields, constructions can be viewed as bundles across dimensions:
+
+| Dimension | What it captures | Schema field |
+|-----------|-----------------|--------------|
+| **Form** | Phonological, morphological, syntactic pattern | `pattern`, `formRefs` |
+| **Meaning** | Semantic content, interpretive properties | `meanings`, `semanticRefs` |
+| **Function** | Discourse role, pragmatic contribution | `semanticType`, `constraints` |
+| **Distribution** | Where the construction can appear | `syntacticRefs`, diagnostics |
+
+The optional `dimensions` field makes this explicit:
+```yaml
+dimensions:
+  form: "Det + Nom"
+  meaning: "Referential, identifiable"
+  function: "Argument, topic-worthy"
+  distribution: "Appears in argument positions; hosts identification"
+```
+
+#### Typed Overlap
+
+Two constructions can share parts without either containing the other. The `overlaps-with` relation should specify which dimension:
+
+```yaml
+relatedConstructions:
+  - id: adjective-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: Shares prenominal modifier position
+```
+
+Overlap is pervasive and principled:
+- **Formal overlap**: different constructions using the same structural slot
+- **Semantic overlap**: different forms expressing related meanings
+- **Functional overlap**: different constructions serving similar discourse roles
+
+#### Intensional Mereology
+
+Classical mereology describes structure but doesn't ask why parts cohere. **Intensional mereology** asks: what makes parthood real rather than stipulated?
+
+For constructions, the answer is the HPC stabilisation mechanisms: bidirectional inference, entrenchment, acquisition, alignment, transmission. A construction that lacks stabilising mechanisms isn't a genuine part of the constructicon – it's a nonce formation or an analyst's invention.
+
+This connects to Newton's Third Law precedent: mereology as consistency constraint. Internal forces must cancel for a whole to be genuine. Analogously, a construction's form-meaning pairing must be stabilised by mechanisms for it to be a genuine part of the grammar.
+
 ## Required Top-Level Fields
 - `id`: unique identifier matching `^[a-z-]+[0-9]{3}$` (example: `np-001`).
 - `name`: human-readable construction name.

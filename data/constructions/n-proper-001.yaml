@@ -2,6 +2,11 @@ id: n-proper-001
 name: Proper Noun
 pattern: Capitalized noun root [A-Z][a-z]+
 type: syntactic
+dimensions:
+  form: "Capitalized noun root; morphologically simple or compound"
+  meaning: "Individual-specific, archetypal, institutional, or geographical features"
+  function: "Head of proper NP; licenses bare NP without determiner"
+  distribution: "Heads Nom in proper NPs; modifier position in N-N compounds"
 meanings:
   '1':
     definition: Denotes individual-specific feature bundle
@@ -51,11 +56,15 @@ relations:
     notes: Semantic counterpart
 relatedConstructions:
   - id: proper-name-001
-    relationship: implements
-    notes: Lexical realization of proper naming semantics
+    relationship: interfaces-with
+    notes: Bidirectional syntax-semantics interface; proper nouns cue proper-name interpretation, proper-name intention licenses proper noun choice
   - id: n-common-001
     relationship: related-to
     notes: Parallel noun category
+  - id: np-proper-001
+    relationship: contains
+    parthood: formal
+    notes: Proper noun formally heads proper NP (via Nom)
 semanticRefs:
   - metaphor-source
   - institution-type

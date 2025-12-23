@@ -153,8 +153,14 @@
                 "transformed-from",
                 "specialization-of",
                 "implements",
+                "interfaces-with",
                 "see-also"
               ]
+            },
+            "parthood": {
+              "type": "string",
+              "description": "Which dimension this parthood relation applies to (typed mereology)",
+              "enum": ["formal", "semantic", "functional"]
             },
             "notes": {
               "type": "string"
@@ -201,6 +207,30 @@
       ]
     },
 
+    "dimensions": {
+      "type": "object",
+      "description": "Bundle structure: what this construction contributes across mereological dimensions",
+      "properties": {
+        "form": {
+          "type": "string",
+          "description": "Phonological, morphological, or syntactic pattern"
+        },
+        "meaning": {
+          "type": "string",
+          "description": "Semantic content, interpretive properties"
+        },
+        "function": {
+          "type": "string",
+          "description": "Discourse role, pragmatic contribution"
+        },
+        "distribution": {
+          "type": "string",
+          "description": "Where the construction can appear, syntactic contexts"
+        }
+      },
+      "additionalProperties": false
+    },
+
     "relatedConstructions": {
       "type": "array",
       "items": {
@@ -214,6 +244,7 @@
             "type": "string",
             "enum": [
               "alternates-with",
+              "can-manifest-as",
               "contains",
               "inherits-from",
               "similar-to",
@@ -221,8 +252,20 @@
               "transformed-from",
               "specialization-of",
               "implements",
+              "interfaces-with",
+              "overlaps-with",
               "see-also"
             ]
+          },
+          "parthood": {
+            "type": "string",
+            "description": "Which dimension this parthood relation applies to (typed mereology)",
+            "enum": ["formal", "semantic", "functional"]
+          },
+          "overlap-dimension": {
+            "type": "string",
+            "description": "For overlaps-with relations, which dimension overlaps",
+            "enum": ["formal", "semantic", "functional", "distributional"]
           },
           "notes": {
             "type": "string"

@@ -2,6 +2,11 @@ id: adjective-001
 name: Adjective
 pattern: Adj root
 type: syntactic
+dimensions:
+  form: "Lexical stem; accepts degree morphology (-er/-est) or degree modifiers (very)"
+  meaning: "Scalar, classificatory, state, evaluative, or referential feature bundles"
+  function: "Modifier of nominal; predicative complement; rarely argument"
+  distribution: "Attributive (prenominal), predicative, postpositive; some restricted to one position"
 meanings:
   '1':
     definition: Denotes scalar feature bundle
@@ -43,6 +48,14 @@ meanings:
         note: Identity reference
       - form: other-
         note: Non-identity reference
+relatedConstructions:
+  - id: degree-001
+    relationship: overlaps-with
+    overlap-dimension: semantic
+    notes: Scalar adjectives share gradability semantics with degree constructions
+  - id: gradation-001
+    relationship: interfaces-with
+    notes: Bidirectional; gradable adjectives license degree modification, degree modification cues scalar interpretation
 semanticRefs:
   - property
   - scale

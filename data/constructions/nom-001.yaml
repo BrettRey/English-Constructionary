@@ -1,6 +1,12 @@
 id: nom-001
 name: Nominal Construction
 pattern: Optional modifiers + Required head (n-common-001 + {singular-001 | plural-001}) + Optional post modifiers/complements
+type: syntactic
+dimensions:
+  form: "Head noun with optional pre- and post-modifiers; number marking"
+  meaning: "Descriptive content that restricts or elaborates the head's denotation"
+  function: "Provides the core descriptive content of NP; hosts modification"
+  distribution: "Immediately dominated by NP; can be bare in certain contexts"
 meanings:
   '1':
     definition: Specifies/restricts feature bundles
@@ -26,16 +32,29 @@ relations:
   '1':
     construction: nom-premod-000
     type: can-contain
+    parthood: formal
     notes: Pre-head modifiers
   '2':
     construction: n-common-001
     type: can-contain
+    parthood: formal
     notes: Head noun
   '3':
     construction: singular-001
     type: can-contain
+    parthood: formal
     notes: Number marking
   '4':
     construction: plural-001
     type: can-contain
+    parthood: formal
     notes: Number marking
+relatedConstructions:
+  - id: np-001
+    relationship: contains
+    parthood: formal
+    notes: NP formally contains Nom as immediate constituent
+  - id: n-common-001
+    relationship: contains
+    parthood: formal
+    notes: Nom formally contains N as head

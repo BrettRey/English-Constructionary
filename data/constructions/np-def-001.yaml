@@ -1,6 +1,12 @@
 id: np-def-001
 name: Definite NP Construction
 pattern: Definite determiner + Nominal | Personal pronoun | Universal quantifier + Nominal | Proper name
+type: syntactic
+dimensions:
+  form: "Deital determiner (the, this, that, possessives) + Nom, or personal pronoun, or proper name"
+  meaning: "Identifiable, unique, or familiar referent; anchors discourse-established entity"
+  function: "Topic-worthy argument; hosts identificational predication"
+  distribution: "Argument positions; existential there-resistance; partitive licensing"
 meanings:
   '1':
     definition: Refers to/predicates identifiable instance
@@ -64,6 +70,16 @@ relations:
     construction: definite-001
     type: related-to
     notes: 'Original type: elaborates. Related to meaning 1.'
+relatedConstructions:
+  - id: grammatical-definiteness-001
+    relationship: interfaces-with
+    notes: Bidirectional interface; deital form cues definite interpretation in comprehension, definite intention licenses deital form in production
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: np-indef-001
+    relationship: alternates-with
+    notes: Paradigmatic contrast in the definiteness system
 semanticRefs:
   - quantifier
   - predication

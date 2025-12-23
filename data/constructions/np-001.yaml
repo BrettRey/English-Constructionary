@@ -2,6 +2,11 @@ id: np-001
 name: Noun Phrase
 pattern: NP
 type: syntactic
+dimensions:
+  form: "Headed by N or pronoun; optional determiner, modifiers"
+  meaning: "Referential or predicative; can denote entities, concepts, or properties"
+  function: "Argument, topic, focus; anchors discourse referents"
+  distribution: "Subject, object, complement of preposition, predicative complement"
 meanings:
   '1':
     definition: Can refer to entities, concepts, or be purely grammatical
@@ -20,7 +25,15 @@ semanticType: reference
 relatedConstructions:
   - id: np-common-001
     relationship: specialization-of
-  - id: np-proper-name-001
+    parthood: formal
+    notes: Common NPs specialize the formal pattern with common noun head
+  - id: np-proper-001
     relationship: specialization-of
+    parthood: formal
   - id: np-pron-001
     relationship: specialization-of
+    parthood: formal
+  - id: nom-001
+    relationship: contains
+    parthood: formal
+    notes: NP formally contains Nom as immediate constituent

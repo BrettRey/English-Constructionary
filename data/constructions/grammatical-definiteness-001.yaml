@@ -2,6 +2,11 @@ id: grammatical-definiteness-001
 name: Grammatical Definiteness
 pattern: Semantic feature implemented through nominal determination
 type: semantic
+dimensions:
+  form: "Typically realized by deital determiners (the, this, that, possessives) or bare proper nouns"
+  meaning: "Identifiability, uniqueness, discourse familiarity"
+  function: "Establishes referent accessibility; anchors information structure"
+  distribution: "NPs in argument and predicative positions"
 meanings:
   '1':
     definition: Identifiability status
@@ -27,6 +32,17 @@ meanings:
         note: Given vs new
       - form: it/something
         note: Known vs novel
+relatedConstructions:
+  - id: np-def-001
+    relationship: interfaces-with
+    notes: Bidirectional interface; definite interpretation cues deital form in production, deital form cues definite interpretation in comprehension
+  - id: definite-001
+    relationship: specialization-of
+    parthood: semantic
+    notes: Grammatical definiteness is realized through definite construction
+  - id: indefinite-001
+    relationship: alternates-with
+    notes: Paradigmatic contrast in the definiteness system
 semanticRefs:
   - identifiability
   - uniqueness

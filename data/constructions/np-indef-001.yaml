@@ -1,6 +1,12 @@
 id: np-indef-001
 name: Indefinite NP Construction
 pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/non-count Nominal
+type: syntactic
+dimensions:
+  form: "Indefinite determiner (a/an, some) + Nom, or bare plural/mass Nom"
+  meaning: "Non-identifiable, novel, or arbitrary referent; introduces new discourse entity"
+  function: "Introduces new referents; hosts existential predication"
+  distribution: "Argument positions; existential there-pivot; predicative complement"
 meanings:
   '1':
     definition: Refers to/predicates non-identifiable instance
@@ -85,6 +91,16 @@ relations:
     construction: indefinite-001
     type: related-to
     notes: 'Original type: elaborates. Related to meaning 1.'
+relatedConstructions:
+  - id: grammatical-definiteness-001
+    relationship: interfaces-with
+    notes: Bidirectional interface; indefinite form cues non-identifiable interpretation in comprehension, non-identifiable intention licenses indefinite form in production
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: np-def-001
+    relationship: alternates-with
+    notes: Paradigmatic contrast in the definiteness system
 semanticRefs:
   - quantifier
   - predication

@@ -1,6 +1,12 @@
 id: plural-001
 name: Plural Construction
 pattern: Applies to nouns, pronouns, determinatives, and proper names
+type: morphological
+dimensions:
+  form: "Plural morphology (-s, -es, irregular, zero); agreement marking"
+  meaning: "Non-singular reference; more than one or construed as aggregate"
+  function: "Signals non-singular construal; triggers agreement"
+  distribution: "Nouns, pronouns, determinatives; agreement targets in clause"
 meanings:
   '1':
     implements: grammatical-number-001.1
@@ -46,13 +52,26 @@ meanings:
 relations:
   '1':
     construction: grammatical-number-001
-    type: implements
-    notes: Core number system
+    type: interfaces-with
+    notes: Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form
   '2':
     construction: n-common-001
     type: related-to
+    parthood: formal
     notes: Standard domain (common nouns)
   '3':
     construction: n-proper-001
     type: related-to
+    parthood: formal
     notes: Extension to proper nouns
+relatedConstructions:
+  - id: grammatical-number-001
+    relationship: interfaces-with
+    notes: Bidirectional syntax-semantics interface for number
+  - id: singular-001
+    relationship: alternates-with
+    notes: Paradigmatic contrast in the number system
+  - id: plural-s-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Regular plural suffix is specialization of plural construction

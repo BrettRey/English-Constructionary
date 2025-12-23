@@ -143,11 +143,6 @@ const renderYamlSummary = (data, itemMeta = null) => {
     row.innerHTML = `<strong>pattern</strong>: ${data.pattern}`;
     formGrid.appendChild(row);
   }
-  if (data.type) {
-    const row = document.createElement('div');
-    row.innerHTML = `<strong>type</strong>: ${data.type}`;
-    formGrid.appendChild(row);
-  }
   if (Array.isArray(data.constraints) && data.constraints.length > 0) {
     const row = document.createElement('div');
     const list = data.constraints

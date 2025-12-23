@@ -2,6 +2,11 @@ id: n-common-001
 name: Common Noun
 pattern: N[Type:Common]
 type: syntactic
+dimensions:
+  form: "Noun stem; typically uncapitalized; takes number and case inflection"
+  meaning: "Denotes class or category of entities; supports count/mass distinction"
+  function: "Head of Nom; provides descriptive content for reference"
+  distribution: "Heads Nom in common NPs; modifier position in N-N compounds"
 meanings:
   '1':
     definition: Denotes a class or category of entities rather than a unique individual
