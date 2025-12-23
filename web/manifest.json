@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-22T17:57:08.353Z",
+  "generatedAt": "2025-12-23T10:27:09.656Z",
   "sections": [
     {
       "id": "project",
@@ -42,9 +42,9 @@
       "label": "Constructions",
       "items": [
         {
-          "id": null,
-          "title": "NP-bare-role.yaml",
-          "subtitle": "",
+          "id": "bare-role-001",
+          "title": "bare-role-001",
+          "subtitle": "Bare Role Construction",
           "path": "/data/constructions/NP-bare-role.yaml",
           "kind": "yaml",
           "relations": [],
@@ -69,12 +69,52 @@
           "incomingRelations": []
         },
         {
+          "id": "abstract-numeral-001",
+          "title": "abstract-numeral-001",
+          "subtitle": "Abstract Numeral Construction",
+          "path": "/data/constructions/abstract-numeral-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
+            }
+          ]
+        },
+        {
           "id": "adjective-001",
           "title": "adjective-001",
           "subtitle": "Adjective",
           "path": "/data/constructions/adjective-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "degree-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "semantic",
+              "notes": "Scalar adjectives share gradability semantics with degree constructions"
+            },
+            {
+              "id": "gradation-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; gradable adjectives license degree modification, degree modification cues scalar interpretation"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -115,25 +155,47 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "cardinal-noun-proper-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "cardinal-noun-common-001",
-              "relationship": "specialization-of"
-            },
-            {
               "id": "cardinal-determinative-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "numerical-label-001",
+              "relationship": "contains",
+              "notes": "Proper-noun use for identifying entities"
+            },
+            {
+              "id": "abstract-numeral-001",
+              "relationship": "contains",
+              "notes": "Proper-noun use for mathematical entities"
+            },
+            {
+              "id": "year-name-001",
+              "relationship": "contains",
+              "notes": "Proper-noun use for temporal reference"
+            },
+            {
+              "id": "magnitude-quantifier-001",
+              "relationship": "contains",
+              "notes": "Common-noun use for vague large quantities"
+            },
+            {
+              "id": "collective-numeral-001",
+              "relationship": "contains",
+              "notes": "Common-noun use for group arrangements"
+            },
+            {
+              "id": "denominator-numeral-001",
+              "relationship": "contains",
+              "notes": "Common-noun use for numeral tokens"
             }
           ],
           "incomingRelations": []
         },
         {
-          "id": "cardinal-noun-common-001",
-          "title": "cardinal-noun-common-001",
-          "subtitle": "Cardinal Common Noun",
-          "path": "/data/constructions/cardinal-noun-common-001.yaml",
+          "id": "collective-numeral-001",
+          "title": "collective-numeral-001",
+          "subtitle": "Collective Numeral Construction",
+          "path": "/data/constructions/collective-numeral-001.yaml",
           "kind": "yaml",
           "relations": [
             {
@@ -142,36 +204,16 @@
             },
             {
               "id": "n-common-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "determination-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
-        },
-        {
-          "id": "cardinal-noun-proper-001",
-          "title": "cardinal-noun-proper-001",
-          "subtitle": "Cardinal Proper Noun",
-          "path": "/data/constructions/cardinal-noun-proper-001.yaml",
-          "kind": "yaml",
-          "relations": [
+          "incomingRelations": [
             {
               "id": "cardinal-noun-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "proper-name-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "n-proper-001",
-              "relationship": "specialization-of"
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
             }
-          ],
-          "incomingRelations": []
+          ]
         },
         {
           "id": "comparative-er-001",
@@ -210,6 +252,30 @@
           "incomingRelations": []
         },
         {
+          "id": "denominator-numeral-001",
+          "title": "denominator-numeral-001",
+          "subtitle": "Denominator Numeral Construction",
+          "path": "/data/constructions/denominator-numeral-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
+            }
+          ]
+        },
+        {
           "id": "determination-001",
           "title": "determination-001",
           "subtitle": "Determination",
@@ -240,9 +306,9 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "genitive-s-001.yaml",
-          "subtitle": "",
+          "id": "genitive-s-001",
+          "title": "genitive-s-001",
+          "subtitle": "Genitive 's",
           "path": "/data/constructions/genitive-s-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -263,7 +329,24 @@
           "subtitle": "Grammatical Definiteness",
           "path": "/data/constructions/grammatical-definiteness-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "np-def-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; definite interpretation cues deital form in production, deital form cues definite interpretation in comprehension"
+            },
+            {
+              "id": "definite-001",
+              "relationship": "specialization-of",
+              "parthood": "semantic",
+              "notes": "Grammatical definiteness is realized through definite construction"
+            },
+            {
+              "id": "indefinite-001",
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -274,16 +357,19 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "quasi-count-noun-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "singular-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; singular form cues singular construal, singular construal licenses singular form"
             },
             {
               "id": "plural-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form"
+            },
+            {
+              "id": "quasi-count-noun-001",
+              "relationship": "related-to",
+              "notes": "Boundary items showing ordered dissociation of count diagnostics"
             },
             {
               "id": "cardinal-determinative-001",
@@ -328,22 +414,50 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "independent-genitive-pronoun-001.yaml",
-          "subtitle": "",
+          "id": "independent-genitive-pronoun-001",
+          "title": "independent-genitive-pronoun-001",
+          "subtitle": "Independent Genitive Pronoun",
           "path": "/data/constructions/independent-genitive-pronoun-001.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "interrogative-word-001.yaml",
-          "subtitle": "",
+          "id": "interrogative-word-001",
+          "title": "interrogative-word-001",
+          "subtitle": "Interrogative Word",
           "path": "/data/constructions/interrogative-word-001.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
+        },
+        {
+          "id": "magnitude-quantifier-001",
+          "title": "magnitude-quantifier-001",
+          "subtitle": "Magnitude Quantifier Construction",
+          "path": "/data/constructions/magnitude-quantifier-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-magnitude-head-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "minor-determiner-001",
@@ -365,8 +479,20 @@
           "subtitle": "Common Noun",
           "path": "/data/constructions/n-common-001.yaml",
           "kind": "yaml",
-          "relations": [],
-          "incomingRelations": []
+          "relations": [
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to",
+              "notes": "Parallel noun category"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "nom-001",
+              "title": "nom-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "n-common-pl-001",
@@ -406,7 +532,24 @@
           "subtitle": "Proper Noun",
           "path": "/data/constructions/n-proper-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "proper-name-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface; proper nouns cue proper-name interpretation, proper-name intention licenses proper noun choice"
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "related-to",
+              "notes": "Parallel noun category"
+            },
+            {
+              "id": "np-proper-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "Proper noun formally heads proper NP (via Nom)"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -461,13 +604,32 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "nom-001.yaml",
-          "subtitle": "",
+          "id": "nom-001",
+          "title": "nom-001",
+          "subtitle": "Nominal Construction",
           "path": "/data/constructions/nom-001.yaml",
           "kind": "yaml",
-          "relations": [],
-          "incomingRelations": []
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "NP formally contains Nom as immediate constituent"
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "Nom formally contains N as head"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "np-001",
+              "title": "np-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "nom-adjp-mod-001",
@@ -536,23 +698,39 @@
           "relations": [
             {
               "id": "np-common-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "Common NPs specialize the formal pattern with common noun head"
             },
             {
-              "id": "np-proper-name-001",
-              "relationship": "specialization-of"
+              "id": "np-proper-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
             },
             {
               "id": "np-pron-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "nom-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "NP formally contains Nom as immediate constituent"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "nom-001",
+              "title": "nom-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
-          "id": null,
-          "title": "np-bare-001.yaml",
-          "subtitle": "",
+          "id": "np-bare-001",
+          "title": "np-bare-001",
+          "subtitle": "Bare NP Construction",
           "path": "/data/constructions/np-bare-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -581,12 +759,28 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "np-def-001.yaml",
-          "subtitle": "",
+          "id": "np-def-001",
+          "title": "np-def-001",
+          "subtitle": "Definite NP Construction",
           "path": "/data/constructions/np-def-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "grammatical-definiteness-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; deital form cues definite interpretation in comprehension, definite intention licenses deital form in production"
+            },
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -626,12 +820,28 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "np-indef-001.yaml",
-          "subtitle": "",
+          "id": "np-indef-001",
+          "title": "np-indef-001",
+          "subtitle": "Indefinite NP Construction",
           "path": "/data/constructions/np-indef-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "grammatical-definiteness-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; indefinite form cues non-identifiable interpretation in comprehension, non-identifiable intention licenses indefinite form in production"
+            },
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -725,7 +935,13 @@
               "notes": "Realizes the proper name function"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "n-proper-001",
+              "title": "n-proper-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "numerative-addition-asyndetic-001",
@@ -1217,6 +1433,34 @@
           ]
         },
         {
+          "id": "numerical-label-001",
+          "title": "numerical-label-001",
+          "subtitle": "Numerical Label Construction",
+          "path": "/data/constructions/numerical-label-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
+            }
+          ]
+        },
+        {
           "id": "past-tense-ed-001",
           "title": "past-tense-ed-001",
           "subtitle": "Past Tense -ed",
@@ -1235,18 +1479,35 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "plural-001.yaml",
-          "subtitle": "",
+          "id": "plural-001",
+          "title": "plural-001",
+          "subtitle": "Plural Construction",
           "path": "/data/constructions/plural-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "grammatical-number-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface for number"
+            },
+            {
+              "id": "singular-001",
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the number system"
+            },
+            {
+              "id": "plural-s-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "Regular plural suffix is specialization of plural construction"
+            }
+          ],
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "plural-s-001.yaml",
-          "subtitle": "",
+          "id": "plural-s-001",
+          "title": "plural-s-001",
+          "subtitle": "Plural -s",
           "path": "/data/constructions/plural-s-001.yaml",
           "kind": "yaml",
           "relations": [],
@@ -1282,7 +1543,19 @@
           "subtitle": "Proper Name",
           "path": "/data/constructions/proper-name-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "n-proper-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; proper-name intention licenses proper noun choice, proper nouns cue proper-name interpretation"
+            },
+            {
+              "id": "np-proper-001",
+              "relationship": "can-manifest-as",
+              "parthood": "formal",
+              "notes": "Proper names are formally realized as proper NPs"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -1322,12 +1595,23 @@
           "incomingRelations": []
         },
         {
-          "id": null,
-          "title": "singular-001.yaml",
-          "subtitle": "",
+          "id": "singular-001",
+          "title": "singular-001",
+          "subtitle": "Singular Construction",
           "path": "/data/constructions/singular-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "grammatical-number-001",
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface for number"
+            },
+            {
+              "id": "plural-001",
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the number system"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -1365,6 +1649,34 @@
             }
           ],
           "incomingRelations": []
+        },
+        {
+          "id": "year-name-001",
+          "title": "year-name-001",
+          "subtitle": "Year Name Construction",
+          "path": "/data/constructions/year-name-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "cardinal-noun-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerical-label-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "contains"
+            }
+          ]
         }
       ]
     },
@@ -1431,6 +1743,15 @@
           "title": "meaning-implementations.yaml",
           "subtitle": "",
           "path": "/data/indices/meaning-implementations.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "morphological-strategies.yaml",
+          "subtitle": "",
+          "path": "/data/indices/morphological-strategies.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []

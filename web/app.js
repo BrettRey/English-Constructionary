@@ -103,18 +103,13 @@ const renderList = () => {
     }
     const title = document.createElement('div');
     title.className = 'item__title';
-    title.textContent = item.title;
-    const meta = document.createElement('div');
-    meta.className = 'item__meta';
-    meta.textContent = `${item.sectionLabel} · ${item.path}`;
+    // Show name prominently, id in meta
+    title.textContent = item.subtitle || item.title;
+    const idMeta = document.createElement('div');
+    idMeta.className = 'item__meta';
+    idMeta.textContent = item.title;
     card.appendChild(title);
-    if (item.subtitle) {
-      const subtitle = document.createElement('div');
-      subtitle.className = 'item__meta';
-      subtitle.textContent = item.subtitle;
-      card.appendChild(subtitle);
-    }
-    card.appendChild(meta);
+    card.appendChild(idMeta);
     card.addEventListener('click', () => selectItem(item));
     listEl.appendChild(card);
   });
@@ -164,6 +159,29 @@ const renderYamlSummary = (data, itemMeta = null) => {
   }
   formBlock.appendChild(formGrid);
   detailBody.appendChild(formBlock);
+
+  // Dimensions block (mereological bundle)
+  if (data.dimensions && typeof data.dimensions === 'object') {
+    const dimBlock = document.createElement('div');
+    dimBlock.className = 'detail-block';
+    const dimTitle = document.createElement('h3');
+    dimTitle.textContent = 'Dimensions';
+    dimBlock.appendChild(dimTitle);
+    const dimGrid = document.createElement('div');
+    dimGrid.className = 'detail-grid';
+    const dimLabels = { form: 'Form', meaning: 'Meaning', function: 'Function', distribution: 'Distribution' };
+    Object.entries(dimLabels).forEach(([key, label]) => {
+      if (data.dimensions[key]) {
+        const row = document.createElement('div');
+        row.innerHTML = `<strong>${label}</strong>: ${data.dimensions[key]}`;
+        dimGrid.appendChild(row);
+      }
+    });
+    if (dimGrid.children.length > 0) {
+      dimBlock.appendChild(dimGrid);
+      detailBody.appendChild(dimBlock);
+    }
+  }
 
   if (data.meanings) {
     const meaningsBlock = document.createElement('div');
@@ -252,19 +270,27 @@ const renderYamlSummary = (data, itemMeta = null) => {
     const contributesTo = (itemMeta.incomingRelations || []).filter(
       (rel) => rel.relationship === 'contains'
     );
+    const interfacesWith = (itemMeta.relations || []).filter(
+      (rel) => rel.relationship === 'interfaces-with'
+    );
+    const alternatesWith = (itemMeta.relations || []).filter(
+      (rel) => rel.relationship === 'alternates-with'
+    );
     const related = (itemMeta.relations || []).filter(
       (rel) =>
-        !['specialization-of', 'implements', 'inherits-from', 'contains'].includes(rel.relationship)
+        !['specialization-of', 'implements', 'inherits-from', 'contains', 'interfaces-with', 'alternates-with'].includes(rel.relationship)
     );
 
-    const renderRelationList = (label, rels, isIncoming = false, includeLabel = true) => {
+    const renderRelationList = (label, rels, isIncoming = false, showParthood = false) => {
       if (!rels.length) return;
       const row = document.createElement('div');
       const items = rels
         .map((rel) => {
-          const targetId = isIncoming ? rel.id : rel.id;
-          const relLabel = rel.relationship || 'related-to';
-          const suffix = includeLabel ? ` (${relLabel})` : '';
+          const targetId = rel.id;
+          let suffix = '';
+          if (showParthood && rel.parthood) {
+            suffix = ` (${rel.parthood})`;
+          }
           return `<span class=\"tag\" data-rel=\"${targetId}\">${targetId}${suffix}</span>`;
         })
         .join(' ');
@@ -272,10 +298,12 @@ const renderYamlSummary = (data, itemMeta = null) => {
       relationGrid.appendChild(row);
     };
 
-    renderRelationList('Is an instance of', instanceOf, false, false);
-    renderRelationList('Contains', contains, false, false);
+    renderRelationList('Is an instance of', instanceOf, false, true);
+    renderRelationList('Interfaces with', interfacesWith, false, true);
+    renderRelationList('Alternates with', alternatesWith, false, false);
+    renderRelationList('Contains', contains, false, true);
     renderRelationList('Contributes to', contributesTo, true, false);
-    renderRelationList('Related to', related, false, false);
+    renderRelationList('Related to', related, false, true);
 
     if (relationGrid.children.length === 0) {
       const empty = document.createElement('div');
@@ -375,8 +403,9 @@ const selectItem = async (item, options = {}) => {
   state.active = item;
   renderList();
   renderBreadcrumbs(item);
-  detailTitle.textContent = item.title;
-  detailSubtitle.textContent = item.subtitle || item.path;
+  // item.title = id, item.subtitle = name; display name prominently
+  detailTitle.textContent = item.subtitle || item.title;
+  detailSubtitle.textContent = item.title;
   toggleViewBtn.disabled = false;
   openLink.href = item.path;
   openLink.setAttribute('aria-disabled', 'false');
@@ -401,10 +430,10 @@ const selectItem = async (item, options = {}) => {
     if (state.viewMode === 'summary' && item.kind === 'yaml') {
       try {
         const data = jsyaml.load(text);
-        // Update subtitle to include type if present
+        // Update subtitle to show type + id
         if (data.type) {
           const typeLabel = data.type.charAt(0).toUpperCase() + data.type.slice(1);
-          detailSubtitle.textContent = `${typeLabel} · ${item.subtitle || item.path}`;
+          detailSubtitle.textContent = `${typeLabel} · ${item.title}`;
         }
         renderYamlSummary(data, item);
       } catch (err) {
