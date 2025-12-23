@@ -15,6 +15,7 @@ constraints:
     description: Not derived by -teen suffixation.
 formRefs:
   - numerative-teen-irregular
+  - suppletion
 semanticRefs:
   - cardinality
 relatedConstructions:

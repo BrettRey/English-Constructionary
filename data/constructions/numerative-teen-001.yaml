@@ -12,6 +12,7 @@ meanings:
         note: Cardinality 19
 formRefs:
   - numerative-teen
+  - suffixation
 semanticRefs:
   - cardinality
 relatedConstructions:

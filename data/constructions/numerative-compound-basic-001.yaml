@@ -19,6 +19,7 @@ formRefs:
   - numerative-compound-basic
   - numerative-decade
   - numerative-single-digit
+  - compounding
 semanticRefs:
   - cardinality
   - additive-composition

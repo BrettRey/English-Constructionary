@@ -1,0 +1,65 @@
+morphological_strategies:
+  suppletion:
+    description: "Paradigm cells filled by phonologically unrelated stems rather than regular derivation."
+    characteristics:
+      - "Stems share no phonological resemblance"
+      - "Paradigmatic link is stored, not computed"
+      - "Typically high-frequency items"
+      - "Blocks regular formation (*goed, *gooder)"
+    examples:
+      - "go/went"
+      - "good/better/best"
+      - "be/am/is/are/was/were"
+      - "first, second, third (ordinals of one, two, three)"
+      - "once, twice (multiplicatives)"
+      - "eleven, twelve (teens)"
+    notes:
+      - "Stabilised by token frequency and early acquisition"
+      - "Cross-linguistically common in high-frequency paradigms"
+  affixation:
+    description: "Word formation by adding bound morphemes to a base."
+    subtypes:
+      - suffixation
+      - prefixation
+      - infixation
+  suffixation:
+    description: "Affixation at the right edge of the base."
+    examples:
+      - "-s (plural)"
+      - "-ed (past tense)"
+      - "-th (ordinal)"
+      - "-er (comparative)"
+  prefixation:
+    description: "Affixation at the left edge of the base."
+    examples:
+      - "un- (negation)"
+      - "re- (repetition)"
+      - "pre- (temporal)"
+  ablaut:
+    description: "Vowel alternation signalling morphological distinction."
+    examples:
+      - "sing/sang/sung"
+      - "foot/feet"
+      - "man/men"
+    notes:
+      - "Also called apophony or vowel gradation"
+  conversion:
+    description: "Category change without overt morphological marking."
+    examples:
+      - "water (N) → water (V)"
+      - "clean (Adj) → clean (V)"
+    notes:
+      - "Also called zero-derivation"
+  compounding:
+    description: "Word formation by combining two or more free morphemes."
+    examples:
+      - "blackbird"
+      - "twenty-one"
+      - "ice cream"
+  reduplication:
+    description: "Word formation by copying all or part of the base."
+    examples:
+      - "goody-goody"
+      - "teeny-weeny"
+    notes:
+      - "Limited productivity in English; more common in other languages"

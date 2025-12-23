@@ -1,6 +1,6 @@
 id: numerative-ordinal-adjective-001
 name: Ordinal Adjective
-pattern: Cardinal base + -th
+pattern: Cardinal base → ordinal form (-th or suppletive)
 type: morphological
 meanings:
   '1':
@@ -15,6 +15,7 @@ constraints:
     description: Ordinal adjectives typically function as modifiers in NPs and can co-occur with determiners.
 formRefs:
   - numerative-ordinal-adjective
+  - suppletion
 semanticRefs:
   - ordinal-rank
 syntacticRefs:

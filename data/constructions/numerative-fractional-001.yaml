@@ -1,6 +1,6 @@
 id: numerative-fractional-001
 name: Fractional Noun
-pattern: Cardinal base + -th
+pattern: Cardinal base → fractional noun (-th or suppletive)
 type: morphological
 meanings:
   '1':
@@ -18,6 +18,8 @@ constraints:
 formRefs:
   - numerative-fractional-noun
   - numerative-ordinal-rightmost
+  - suffixation
+  - suppletion
 semanticRefs:
   - fractional-quantity
 syntacticRefs:

@@ -12,6 +12,7 @@ meanings:
         note: Cardinality 70
 formRefs:
   - numerative-decade
+  - suffixation
 semanticRefs:
   - cardinality
 relatedConstructions:
