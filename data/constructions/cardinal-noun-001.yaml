@@ -29,21 +29,4 @@ semanticRefs:
 relatedConstructions:
   - id: cardinal-determinative-001
     relationship: related-to
-  - id: numerical-label-001
-    relationship: contains
-    notes: Proper-noun use for identifying entities
-  - id: abstract-numeral-001
-    relationship: contains
-    notes: Proper-noun use for mathematical entities
-  - id: year-name-001
-    relationship: contains
-    notes: Proper-noun use for temporal reference
-  - id: magnitude-quantifier-001
-    relationship: contains
-    notes: Common-noun use for vague large quantities
-  - id: collective-numeral-001
-    relationship: contains
-    notes: Common-noun use for group arrangements
-  - id: denominator-numeral-001
-    relationship: contains
-    notes: Common-noun use for numeral tokens
+    notes: Cardinal determinatives vs cardinal nouns

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T10:33:44.693Z",
+  "generatedAt": "2025-12-23T10:38:27.016Z",
   "sections": [
     {
       "id": "project",
@@ -104,13 +104,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "adjective-001",
@@ -199,37 +193,8 @@
           "relations": [
             {
               "id": "cardinal-determinative-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "numerical-label-001",
-              "relationship": "contains",
-              "notes": "Proper-noun use for identifying entities"
-            },
-            {
-              "id": "abstract-numeral-001",
-              "relationship": "contains",
-              "notes": "Proper-noun use for mathematical entities"
-            },
-            {
-              "id": "year-name-001",
-              "relationship": "contains",
-              "notes": "Proper-noun use for temporal reference"
-            },
-            {
-              "id": "magnitude-quantifier-001",
-              "relationship": "contains",
-              "notes": "Common-noun use for vague large quantities"
-            },
-            {
-              "id": "collective-numeral-001",
-              "relationship": "contains",
-              "notes": "Common-noun use for group arrangements"
-            },
-            {
-              "id": "denominator-numeral-001",
-              "relationship": "contains",
-              "notes": "Common-noun use for numeral tokens"
+              "relationship": "related-to",
+              "notes": "Cardinal determinatives vs cardinal nouns"
             }
           ],
           "incomingRelations": [
@@ -286,13 +251,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "comparative-er-001",
@@ -364,13 +323,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "determination-001",
@@ -690,13 +643,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "minor-determiner-001",
@@ -2002,11 +1949,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            },
-            {
               "id": "year-name-001",
               "title": "year-name-001",
               "relationship": "related-to"
@@ -2316,13 +2258,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         }
       ]
     },
