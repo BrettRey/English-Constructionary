@@ -6,11 +6,11 @@ meanings:
   '1':
     definition: Encodes clausal negation via a negative pronoun or pro-form
     examples:
-      - form: "Nobody knew where Kim was."
+      - form: "[Nobody] knew where Kim was."
         note: Negative subject
-      - form: "Kim had done nothing about it."
+      - form: "Kim had done [nothing] about it."
         note: Negative object
-      - form: "We liked none of them."
+      - form: "We liked [none] of them."
         note: Independent negative determinative
 constraints:
   - type: syntactic

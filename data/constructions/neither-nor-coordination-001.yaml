@@ -6,9 +6,9 @@ meanings:
   '1':
     definition: Negates both conjuncts in a coordination
     examples:
-      - form: "He neither knew nor cared where his children were."
+      - form: "He [neither] knew [nor] cared where his children were."
         note: VP coordination
-      - form: "Neither Kim nor Pat replied."
+      - form: "[Neither] Kim [nor] Pat replied."
         note: NP coordination
 constraints:
   - type: syntactic

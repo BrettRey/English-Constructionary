@@ -11,9 +11,9 @@ meanings:
   '1':
     definition: Numerative used as a standalone DP/NP without an overt head noun
     examples:
-      - form: "She bought twenty books, but I bought twenty-two."
+      - form: "She bought twenty books, but I bought [twenty-two]."
         note: Fused determiner-head use
-      - form: "How many thousand? Two."
+      - form: "How many thousand? [Two]."
         note: Factor as fused head
 constraints:
   - type: structural

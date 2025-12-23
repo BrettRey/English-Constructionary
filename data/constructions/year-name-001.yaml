@@ -11,11 +11,11 @@ meanings:
   '1':
     definition: Cardinal noun names a specific year through direct reference
     examples:
-      - form: born in 1994
+      - form: "born in [1994]"
         note: Year as PP complement
-      - form: The year 1066 saw the Norman Conquest.
+      - form: "The year [1066] saw the Norman Conquest."
         note: Year as appositive to embellishment noun
-      - form: 2025 will be different.
+      - form: "[2025] will be different."
         note: Year as bare NP subject
 constraints:
   - type: syntactic

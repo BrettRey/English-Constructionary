@@ -7,13 +7,13 @@ meanings:
     definition: Issues a negative directive (prohibitive imperative)
     details: Uses do-support for negation in imperatives, even when an auxiliary could negate in declaratives.
     examples:
-      - form: "Don't look at me."
+      - form: "[Don't] look at me."
         note: Prohibitive directive
-      - form: "Don't be afraid."
+      - form: "[Don't] be afraid."
         note: do-support despite auxiliary be
-      - form: "Don't you look at me!"
+      - form: "[Don't] you look at me!"
         note: Emphatic negative imperative with subject
-      - form: "Don't everyone shout it out."
+      - form: "[Don't] everyone shout it out."
         note: Negative imperative with quantified subject
 constraints:
   - type: syntactic

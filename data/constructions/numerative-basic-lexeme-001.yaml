@@ -33,17 +33,5 @@ semanticRefs:
 relatedConstructions:
   - id: cardinal-determinative-001
     relationship: specialization-of
-  - id: numerative-single-digit-001
-    relationship: contains
-  - id: numerative-ten-001
-    relationship: contains
-  - id: numerative-teen-irregular-001
-    relationship: contains
-  - id: numerative-teen-001
-    relationship: contains
-  - id: numerative-decade-001
-    relationship: contains
-  - id: numerative-compound-basic-001
-    relationship: contains
   - id: determination-001
     relationship: related-to

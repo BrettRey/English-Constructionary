@@ -6,9 +6,9 @@ meanings:
   '1':
     definition: Independent personal genitive pronoun functioning as an NP
     examples:
-      - form: The red one is mine.
+      - form: "The red one is [mine]."
         note: Independent personal genitive
-      - form: Those seats are theirs.
+      - form: "Those seats are [theirs]."
         note: Independent personal genitive
 relatedConstructions:
   - id: independent-genitive-pronoun-001

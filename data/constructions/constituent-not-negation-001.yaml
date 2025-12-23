@@ -6,11 +6,11 @@ meanings:
   '1':
     definition: Negates a non-verbal predicate or constituent within a clause
     examples:
-      - form: "It is not happy."
+      - form: "It is [not] happy."
         note: Negated predicative AdjP
-      - form: "She is not in the box."
+      - form: "She is [not] in the box."
         note: Negated PP complement
-      - form: "That is not a solution."
+      - form: "That is [not] a solution."
         note: Negated predicative NP
 constraints:
   - type: syntactic

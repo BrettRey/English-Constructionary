@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T10:38:27.016Z",
+  "generatedAt": "2025-12-23T10:47:14.758Z",
   "sections": [
     {
       "id": "project",
@@ -143,14 +143,6 @@
             {
               "id": "cardinal-noun-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-complex-001",
-              "relationship": "contains"
             },
             {
               "id": "numerative-fused-head-001",
@@ -1416,40 +1408,11 @@
               "relationship": "specialization-of"
             },
             {
-              "id": "numerative-single-digit-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-ten-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-teen-irregular-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-teen-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-decade-001",
-              "relationship": "contains"
-            },
-            {
-              "id": "numerative-compound-basic-001",
-              "relationship": "contains"
-            },
-            {
               "id": "determination-001",
               "relationship": "related-to"
             }
           ],
           "incomingRelations": [
-            {
-              "id": "cardinal-determinative-001",
-              "title": "cardinal-determinative-001",
-              "relationship": "contains"
-            },
             {
               "id": "numerative-addition-asyndetic-001",
               "title": "numerative-addition-asyndetic-001",
@@ -1542,11 +1505,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "cardinal-determinative-001",
-              "title": "cardinal-determinative-001",
-              "relationship": "contains"
-            },
-            {
               "id": "numerative-addition-asyndetic-001",
               "title": "numerative-addition-asyndetic-001",
               "relationship": "related-to"
@@ -1589,11 +1547,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            },
-            {
               "id": "numerative-fused-head-001",
               "title": "numerative-fused-head-001",
               "relationship": "related-to"
@@ -1622,11 +1575,6 @@
             }
           ],
           "incomingRelations": [
-            {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            },
             {
               "id": "numerative-compound-basic-001",
               "title": "numerative-compound-basic-001",
@@ -1835,11 +1783,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            },
-            {
               "id": "numerative-compound-basic-001",
               "title": "numerative-compound-basic-001",
               "relationship": "contains"
@@ -1863,11 +1806,6 @@
             }
           ],
           "incomingRelations": [
-            {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            },
             {
               "id": "numerative-teen-irregular-001",
               "title": "numerative-teen-irregular-001",
@@ -1895,13 +1833,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "numerative-ten-001",
@@ -1919,13 +1851,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "numerative-basic-lexeme-001",
-              "title": "numerative-basic-lexeme-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "numerical-label-001",

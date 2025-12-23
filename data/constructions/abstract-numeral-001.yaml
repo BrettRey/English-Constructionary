@@ -11,11 +11,11 @@ meanings:
   '1':
     definition: Cardinal noun denotes an abstract mathematical object rather than a count or quantity
     examples:
-      - form: Seven is prime.
+      - form: "[Seven] is prime."
         note: Predicating a mathematical property
-      - form: Twenty is even.
+      - form: "[Twenty] is even."
         note: Mathematical classification
-      - form: Two plus two is four.
+      - form: "[Two] plus [two] is [four]."
         note: Arithmetic identity statement
 constraints:
   - type: syntactic

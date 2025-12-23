@@ -11,11 +11,11 @@ meanings:
   '1':
     definition: Cardinal noun denotes a token numeral (score, written symbol, etc.)
     examples:
-      - form: I rolled a ten.
+      - form: "I rolled [a ten]."
         note: Numeral as game score
-      - form: She drew three tens.
+      - form: "She drew [three tens]."
         note: Plural cardinal noun for multiple tokens
-      - form: That's a perfect ten.
+      - form: "That's [a perfect ten]."
         note: Rating/score use
 constraints:
   - type: syntactic

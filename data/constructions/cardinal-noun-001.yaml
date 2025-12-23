@@ -11,7 +11,7 @@ meanings:
   '1':
     definition: Cardinal numerative used as a noun to denote a number entity or quantity concept
     examples:
-      - form: "Ten is even."
+      - form: "[Ten] is even."
         note: Proper-noun use (abstract numeral)
       - form: "a ten"
         note: Common-noun use (denominator/token)

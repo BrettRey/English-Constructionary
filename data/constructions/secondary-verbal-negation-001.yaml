@@ -6,13 +6,13 @@ meanings:
   '1':
     definition: Negates a non-finite or subjunctive clause without do-support
     examples:
-      - form: "It is vital that he not be told."
+      - form: "It is vital that he [not] be told."
         note: Subjunctive clause
-      - form: "Not locking the doors is unwise."
+      - form: "[Not] locking the doors is unwise."
         note: Gerund-participial clause
-      - form: "a plan not approved by the board"
+      - form: "a plan [not] approved by the board"
         note: Past-participial clause
-      - form: "It looks bad for them not to smile."
+      - form: "It looks bad for them [not] to smile."
         note: Infinitival clause
 constraints:
   - type: syntactic

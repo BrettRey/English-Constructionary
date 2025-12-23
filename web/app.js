@@ -25,6 +25,11 @@ const setStatus = (text) => {
   statusEl.textContent = text;
 };
 
+// Convert [target] brackets to <strong> for example highlighting
+const highlightTarget = (text) => {
+  return text.replace(/\[([^\]]+)\]/g, '<strong>$1</strong>');
+};
+
 const updateBackButton = () => {
   if (!backButton) return;
   const disabled = state.history.length === 0;
@@ -233,7 +238,8 @@ const renderYamlSummary = (data, itemMeta = null) => {
       examples.forEach((example) => {
         const row = document.createElement('div');
         const note = example.note ? ` — ${example.note}` : '';
-        row.innerHTML = `<strong>${example.meaning}</strong>: ${example.form}${note}`;
+        const formDisplay = highlightTarget(example.form);
+        row.innerHTML = `<strong>${example.meaning}</strong>: ${formDisplay}${note}`;
         exampleGrid.appendChild(row);
       });
     }

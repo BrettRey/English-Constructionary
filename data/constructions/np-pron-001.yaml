@@ -7,35 +7,35 @@ meanings:
     definition: Anaphoric reference - refers back to a previously mentioned entity (antecedent)
     details: 'Constraints: discourse: Requires an antecedent in the preceding discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: John arrived. He looked tired.
+      - form: "John arrived. [He] looked tired."
         note: '''He'' refers back to ''John''.'
   '2':
     definition: Cataphoric reference - refers forward to an entity mentioned later in the discourse
     details: 'Constraints: discourse: Requires an antecedent in the following discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: If you see him, tell John I need to talk to him.
+      - form: "If you see [him], tell John I need to talk to [him]."
         note: '''him'' refers forward to ''John''.'
   '3':
     definition: Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)
     details: 'Constraints: contextual: Requires a referent that is salient in the shared context of the speakers Related constructions: np-pron-personal-001 (can-be-filled-by); np-pron-demonstrative-001 (can-be-filled-by)'
     examples:
-      - form: He's late again.
+      - form: "[He]'s late again."
         note: Said about someone not present, referring to a shared understanding of who 'he' is.
-      - form: That is incredible!
+      - form: "[That] is incredible!"
         note: Said while experiencing something, where 'that' refers to the current situation.
   '4':
     definition: Bound variable reference - refers to an entity whose referent varies depending on a quantifier
     details: 'Constraints: syntactic: Requires a quantified antecedent, often in the same sentence Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
-      - form: Every student thinks they are smart.
+      - form: "Every student thinks [they] are smart."
         note: '''they'' refers to each student, and its referent varies with each student.'
   '5':
     definition: Dummy pronoun - has no referential meaning, serves a grammatical function
     details: 'Limited to ''it'' and ''there'' in specific grammatical constructions. Constraints: semantic: Devoid of semantic content Related constructions: np-pron-dummy-001 (can-be-filled-by)'
     examples:
-      - form: It is raining.
+      - form: "[It] is raining."
         note: '''It'' does not refer to anything; it''s a grammatical placeholder.'
-      - form: There is a problem.
+      - form: "[There] is a problem."
         note: '''There'' does not refer to a place; it introduces the existence of something.'
 constraints:
   - type: syntactic
