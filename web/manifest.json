@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T10:27:09.656Z",
+  "generatedAt": "2025-12-23T10:33:44.693Z",
   "sections": [
     {
       "id": "project",
@@ -66,7 +66,23 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "neither-nor-coordination-001",
+              "title": "neither-nor-coordination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "never-adv-negation-001",
+              "title": "never-adv-negation-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "no-determiner-001",
+              "title": "no-determiner-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "abstract-numeral-001",
@@ -115,7 +131,13 @@
               "notes": "Bidirectional; gradable adjectives license degree modification, degree modification cues scalar interpretation"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "numerative-ordinal-adjective-001",
+              "title": "numerative-ordinal-adjective-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "cardinal-determinative-001",
@@ -145,7 +167,28 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "cardinal-noun-001",
+              "title": "cardinal-noun-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-complex-001",
+              "title": "numerative-complex-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "cardinal-noun-001",
@@ -189,7 +232,43 @@
               "notes": "Common-noun use for numeral tokens"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "abstract-numeral-001",
+              "title": "abstract-numeral-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "cardinal-determinative-001",
+              "title": "cardinal-determinative-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "collective-numeral-001",
+              "title": "collective-numeral-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "denominator-numeral-001",
+              "title": "denominator-numeral-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "magnitude-quantifier-001",
+              "title": "magnitude-quantifier-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerical-label-001",
+              "title": "numerical-label-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "year-name-001",
+              "title": "year-name-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "collective-numeral-001",
@@ -231,7 +310,13 @@
           "path": "/data/constructions/constituent-not-negation-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "secondary-verbal-negation-001",
+              "title": "secondary-verbal-negation-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "definite-001",
@@ -240,7 +325,13 @@
           "path": "/data/constructions/definite-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-definiteness-001",
+              "title": "grammatical-definiteness-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "degree-001",
@@ -249,7 +340,13 @@
           "path": "/data/constructions/degree-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "adjective-001",
+              "title": "adjective-001",
+              "relationship": "overlaps-with"
+            }
+          ]
         },
         {
           "id": "denominator-numeral-001",
@@ -303,7 +400,83 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "cardinal-determinative-001",
+              "title": "cardinal-determinative-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "minor-determiner-001",
+              "title": "minor-determiner-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-det-001",
+              "title": "np-det-001",
+              "relationship": "implements"
+            },
+            {
+              "id": "numerative-basic-lexeme-001",
+              "title": "numerative-basic-lexeme-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-compound-basic-001",
+              "title": "numerative-compound-basic-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-decade-001",
+              "title": "numerative-decade-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-factor-modifier-001",
+              "title": "numerative-factor-modifier-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-fractional-001",
+              "title": "numerative-fractional-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-magnitude-head-001",
+              "title": "numerative-magnitude-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-single-digit-001",
+              "title": "numerative-single-digit-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-teen-001",
+              "title": "numerative-teen-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-teen-irregular-001",
+              "title": "numerative-teen-irregular-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-ten-001",
+              "title": "numerative-ten-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "subject-determiner-001",
+              "title": "subject-determiner-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "genitive-s-001",
@@ -321,7 +494,13 @@
           "path": "/data/constructions/gradation-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "adjective-001",
+              "title": "adjective-001",
+              "relationship": "interfaces-with"
+            }
+          ]
         },
         {
           "id": "grammatical-definiteness-001",
@@ -347,7 +526,18 @@
               "notes": "Paradigmatic contrast in the definiteness system"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "np-def-001",
+              "title": "np-def-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "np-indef-001",
+              "title": "np-indef-001",
+              "relationship": "interfaces-with"
+            }
+          ]
         },
         {
           "id": "grammatical-number-001",
@@ -388,7 +578,28 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "plural-001",
+              "title": "plural-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "quasi-count-noun-001",
+              "title": "quasi-count-noun-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "singular-001",
+              "title": "singular-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "verb-number-agreement-001",
+              "title": "verb-number-agreement-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "imperative-negation-do-001",
@@ -402,7 +613,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "secondary-verbal-negation-001",
+              "title": "secondary-verbal-negation-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "indefinite-001",
@@ -411,7 +628,13 @@
           "path": "/data/constructions/indefinite-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-definiteness-001",
+              "title": "grammatical-definiteness-001",
+              "relationship": "alternates-with"
+            }
+          ]
         },
         {
           "id": "independent-genitive-pronoun-001",
@@ -420,7 +643,23 @@
           "path": "/data/constructions/independent-genitive-pronoun-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "np-gen-indep-001",
+              "title": "np-gen-indep-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-pron-interrog-gen-indep-001",
+              "title": "np-pron-interrog-gen-indep-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-pron-personal-gen-indep-001",
+              "title": "np-pron-personal-gen-indep-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "interrogative-word-001",
@@ -471,7 +710,13 @@
               "relationship": "specialization-of"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "determination-001",
+              "title": "determination-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "n-common-001",
@@ -488,9 +733,34 @@
           ],
           "incomingRelations": [
             {
+              "id": "collective-numeral-001",
+              "title": "collective-numeral-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "denominator-numeral-001",
+              "title": "denominator-numeral-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "magnitude-quantifier-001",
+              "title": "magnitude-quantifier-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-proper-001",
+              "title": "n-proper-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "nom-001",
               "title": "nom-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-fractional-001",
+              "title": "numerative-fractional-001",
+              "relationship": "specialization-of"
             }
           ]
         },
@@ -515,7 +785,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "quasi-count-noun-001",
+              "title": "quasi-count-noun-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "n-pl-001",
@@ -550,7 +826,28 @@
               "notes": "Proper noun formally heads proper NP (via Nom)"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "abstract-numeral-001",
+              "title": "abstract-numeral-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-common-001",
+              "title": "n-common-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerical-label-001",
+              "title": "numerical-label-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "proper-name-001",
+              "title": "proper-name-001",
+              "relationship": "interfaces-with"
+            }
+          ]
         },
         {
           "id": "n-sg-001",
@@ -587,7 +884,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "absolute-negator-pronoun-001",
+              "title": "absolute-negator-pronoun-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "no-determiner-001",
@@ -601,7 +904,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "absolute-negator-pronoun-001",
+              "title": "absolute-negator-pronoun-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "nom-001",
@@ -624,6 +933,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "nom-n-mod-001",
+              "title": "nom-n-mod-001",
+              "relationship": "related-to"
+            },
             {
               "id": "np-001",
               "title": "np-001",
@@ -673,7 +987,18 @@
           "path": "/data/constructions/nom-premod-000.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "nom-adjp-mod-001",
+              "title": "nom-adjp-mod-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "nom-prehead-mod-001",
+              "title": "nom-prehead-mod-001",
+              "relationship": "see-also"
+            }
+          ]
         },
         {
           "id": "nom-prehead-mod-001",
@@ -724,6 +1049,36 @@
               "id": "nom-001",
               "title": "nom-001",
               "relationship": "contains"
+            },
+            {
+              "id": "nom-n-mod-001",
+              "title": "nom-n-mod-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-common-001",
+              "title": "np-common-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-def-001",
+              "title": "np-def-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-indef-001",
+              "title": "np-indef-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-pron-001",
+              "title": "np-pron-001",
+              "relationship": "inherits-from"
+            },
+            {
+              "id": "np-proper-001",
+              "title": "np-proper-001",
+              "relationship": "inherits-from"
             }
           ]
         },
@@ -734,7 +1089,13 @@
           "path": "/data/constructions/np-bare-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "np-common-001",
+              "title": "np-common-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "np-common-001",
@@ -756,7 +1117,13 @@
               "relationship": "specialization-of"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "np-001",
+              "title": "np-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "np-def-001",
@@ -781,7 +1148,28 @@
               "notes": "Paradigmatic contrast in the definiteness system"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "determination-001",
+              "title": "determination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "grammatical-definiteness-001",
+              "title": "grammatical-definiteness-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "np-det-001",
+              "title": "np-det-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-indef-001",
+              "title": "np-indef-001",
+              "relationship": "alternates-with"
+            }
+          ]
         },
         {
           "id": "np-det-001",
@@ -803,7 +1191,23 @@
               "relationship": "specialization-of"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "determination-001",
+              "title": "determination-001",
+              "relationship": "implements"
+            },
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-common-001",
+              "title": "np-common-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "np-gen-indep-001",
@@ -842,7 +1246,23 @@
               "notes": "Paradigmatic contrast in the definiteness system"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "determination-001",
+              "title": "determination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "np-def-001",
+              "title": "np-def-001",
+              "relationship": "alternates-with"
+            },
+            {
+              "id": "np-det-001",
+              "title": "np-det-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "np-pron-001",
@@ -888,7 +1308,13 @@
               "relationship": "specialization-of"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "np-001",
+              "title": "np-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "np-pron-interrog-gen-indep-001",
@@ -940,6 +1366,16 @@
               "id": "n-proper-001",
               "title": "n-proper-001",
               "relationship": "contains"
+            },
+            {
+              "id": "np-001",
+              "title": "np-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "proper-name-001",
+              "title": "proper-name-001",
+              "relationship": "can-manifest-as"
             }
           ]
         },
@@ -968,6 +1404,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "alternates-with"
+            },
             {
               "id": "numerative-complex-001",
               "title": "numerative-complex-001",
@@ -1004,6 +1445,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "title": "numerative-addition-asyndetic-001",
+              "relationship": "alternates-with"
+            },
             {
               "id": "numerative-complex-001",
               "title": "numerative-complex-001",
@@ -1068,6 +1514,21 @@
               "relationship": "contains"
             },
             {
+              "id": "numerative-complex-001",
+              "title": "numerative-complex-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-compound-basic-001",
+              "title": "numerative-compound-basic-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-decade-001",
+              "title": "numerative-decade-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "numerative-factor-modifier-001",
               "title": "numerative-factor-modifier-001",
               "relationship": "contains"
@@ -1081,6 +1542,26 @@
               "id": "numerative-ordinal-rightmost-001",
               "title": "numerative-ordinal-rightmost-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-single-digit-001",
+              "title": "numerative-single-digit-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-teen-001",
+              "title": "numerative-teen-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-teen-irregular-001",
+              "title": "numerative-teen-irregular-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-ten-001",
+              "title": "numerative-ten-001",
+              "relationship": "specialization-of"
             }
           ]
         },
@@ -1117,6 +1598,21 @@
               "id": "cardinal-determinative-001",
               "title": "cardinal-determinative-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "title": "numerative-addition-asyndetic-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-factor-modifier-001",
+              "title": "numerative-factor-modifier-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1149,6 +1645,16 @@
               "id": "numerative-basic-lexeme-001",
               "title": "numerative-basic-lexeme-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-fused-head-001",
+              "title": "numerative-fused-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-ordinal-rightmost-001",
+              "title": "numerative-ordinal-rightmost-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1265,7 +1771,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "cardinal-determinative-001",
+              "title": "cardinal-determinative-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "numerative-magnitude-head-001",
@@ -1281,9 +1793,29 @@
           ],
           "incomingRelations": [
             {
+              "id": "magnitude-quantifier-001",
+              "title": "magnitude-quantifier-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "numerative-factor-modifier-001",
               "title": "numerative-factor-modifier-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-fused-head-001",
+              "title": "numerative-fused-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-ordinal-rightmost-001",
+              "title": "numerative-ordinal-rightmost-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1325,7 +1857,18 @@
               "relationship": "contains"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "numerative-fractional-001",
+              "title": "numerative-fractional-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "numerative-ordinal-adjective-001",
+              "title": "numerative-ordinal-adjective-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "numerative-single-digit-001",
@@ -1377,6 +1920,11 @@
               "id": "numerative-basic-lexeme-001",
               "title": "numerative-basic-lexeme-001",
               "relationship": "contains"
+            },
+            {
+              "id": "numerative-teen-irregular-001",
+              "title": "numerative-teen-irregular-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1457,6 +2005,11 @@
               "id": "cardinal-noun-001",
               "title": "cardinal-noun-001",
               "relationship": "contains"
+            },
+            {
+              "id": "year-name-001",
+              "title": "year-name-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1502,7 +2055,23 @@
               "notes": "Regular plural suffix is specialization of plural construction"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "singular-001",
+              "title": "singular-001",
+              "relationship": "alternates-with"
+            },
+            {
+              "id": "verb-number-agreement-001",
+              "title": "verb-number-agreement-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "plural-s-001",
@@ -1511,7 +2080,13 @@
           "path": "/data/constructions/plural-s-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "plural-001",
+              "title": "plural-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "prenominal-modifier-001",
@@ -1556,7 +2131,33 @@
               "notes": "Proper names are formally realized as proper NPs"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "abstract-numeral-001",
+              "title": "abstract-numeral-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-proper-001",
+              "title": "n-proper-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "np-proper-001",
+              "title": "np-proper-001",
+              "relationship": "implements"
+            },
+            {
+              "id": "numerical-label-001",
+              "title": "numerical-label-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "year-name-001",
+              "title": "year-name-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "quasi-count-noun-001",
@@ -1574,7 +2175,18 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "n-mass-001",
+              "title": "n-mass-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "secondary-verbal-negation-001",
@@ -1592,7 +2204,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "imperative-negation-do-001",
+              "title": "imperative-negation-do-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "singular-001",
@@ -1612,7 +2230,23 @@
               "notes": "Paradigmatic contrast in the number system"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "plural-001",
+              "title": "plural-001",
+              "relationship": "alternates-with"
+            },
+            {
+              "id": "verb-number-agreement-001",
+              "title": "verb-number-agreement-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "subject-determiner-001",
@@ -1626,7 +2260,13 @@
               "relationship": "specialization-of"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "determination-001",
+              "title": "determination-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "verb-number-agreement-001",
@@ -1648,7 +2288,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "grammatical-number-001",
+              "title": "grammatical-number-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "year-name-001",

@@ -147,11 +147,7 @@ if (constructionSection) {
     });
   });
 
-  constructionSection.items.forEach((item) => {
-    item.incomingRelations = item.incomingRelations.filter(
-      (incoming) => incoming.relationship === 'contains'
-    );
-  });
+  // Keep all incoming relations for symmetric mereological display
 }
 
 fs.writeFileSync(path.join(webDir, 'manifest.json'), JSON.stringify(manifest, null, 2));

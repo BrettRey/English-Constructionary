@@ -263,13 +263,11 @@ const renderYamlSummary = (data, itemMeta = null) => {
     const relationGrid = document.createElement('div');
     relationGrid.className = 'detail-grid';
 
+    // Outgoing relations
     const instanceOf = (itemMeta.relations || []).filter((rel) =>
       ['specialization-of', 'implements', 'inherits-from'].includes(rel.relationship)
     );
     const contains = (itemMeta.relations || []).filter((rel) => rel.relationship === 'contains');
-    const contributesTo = (itemMeta.incomingRelations || []).filter(
-      (rel) => rel.relationship === 'contains'
-    );
     const interfacesWith = (itemMeta.relations || []).filter(
       (rel) => rel.relationship === 'interfaces-with'
     );
@@ -281,7 +279,21 @@ const renderYamlSummary = (data, itemMeta = null) => {
         !['specialization-of', 'implements', 'inherits-from', 'contains', 'interfaces-with', 'alternates-with'].includes(rel.relationship)
     );
 
-    const renderRelationList = (label, rels, isIncoming = false, showParthood = false) => {
+    // Incoming relations (inverse)
+    const isPartOf = (itemMeta.incomingRelations || []).filter(
+      (rel) => rel.relationship === 'contains'
+    );
+    const isSpecializedBy = (itemMeta.incomingRelations || []).filter(
+      (rel) => rel.relationship === 'specialization-of'
+    );
+    const isImplementedBy = (itemMeta.incomingRelations || []).filter(
+      (rel) => rel.relationship === 'implements'
+    );
+    const isInheritedBy = (itemMeta.incomingRelations || []).filter(
+      (rel) => rel.relationship === 'inherits-from'
+    );
+
+    const renderRelationList = (label, rels, showParthood = false) => {
       if (!rels.length) return;
       const row = document.createElement('div');
       const items = rels
@@ -298,12 +310,21 @@ const renderYamlSummary = (data, itemMeta = null) => {
       relationGrid.appendChild(row);
     };
 
-    renderRelationList('Is an instance of', instanceOf, false, true);
-    renderRelationList('Interfaces with', interfacesWith, false, true);
-    renderRelationList('Alternates with', alternatesWith, false, false);
-    renderRelationList('Contains', contains, false, true);
-    renderRelationList('Contributes to', contributesTo, true, false);
-    renderRelationList('Related to', related, false, true);
+    // Mereological hierarchy (part-whole)
+    renderRelationList('Contains', contains, true);
+    renderRelationList('Is part of', isPartOf, false);
+
+    // Taxonomic hierarchy (type-subtype)
+    renderRelationList('Is an instance of', instanceOf, true);
+    renderRelationList('Is specialized by', isSpecializedBy, false);
+    renderRelationList('Is implemented by', isImplementedBy, false);
+
+    // Symmetric relations
+    renderRelationList('Interfaces with', interfacesWith, true);
+    renderRelationList('Alternates with', alternatesWith, false);
+
+    // Other
+    renderRelationList('Related to', related, true);
 
     if (relationGrid.children.length === 0) {
       const empty = document.createElement('div');
