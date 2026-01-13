@@ -1,0 +1,35 @@
+id: with-an-uppercase-letter-001
+name: "With an Uppercase Letter Construction"
+pattern: "with + an + uppercase + Letter-name"
+type: semantic
+dimensions:
+  form: "PP headed by with, followed by uppercase + letter name."
+  meaning: "Signals uppercase orthography and a proper/institutional sense for the label."
+  function: "Disambiguates official or proper-name use from ordinary descriptive use."
+  distribution: "Postposed adjunct or parenthetical after a label."
+meanings:
+  '1':
+    implements: letter-case-specification-001.1
+    specialization: "Specifies uppercase orthography for the relevant label using uppercase."
+    examples:
+      - form: "internet [with an uppercase I]."
+        note: "Institutional or official sense."
+      - form: "reformation [with an uppercase R]."
+        note: "Proper or historical event sense."
+semanticRefs:
+  - metalinguistic
+  - orthographic-case
+  - category
+  - reference
+relatedConstructions:
+  - id: letter-case-specification-001
+    relationship: specialization-of
+  - id: with-a-capital-letter-001
+    relationship: alternates-with
+    notes: "Lexical variant using capital."
+  - id: n-proper-001
+    relationship: related-to
+    notes: "Uppercase specification aligns with proper-noun readings."
+  - id: proper-name-001
+    relationship: related-to
+    notes: "Uppercase specification often cues proper-name interpretation."

@@ -1,0 +1,31 @@
+id: letter-case-modifier-001
+name: "Letter-Case Modifier Construction"
+pattern: "small/big/little + Letter-name (often hyphenated) + N[label]"
+type: semantic
+dimensions:
+  form: "Premodifying adjective phrase (often hyphenated) naming letter case."
+  meaning: "Signals lowercase vs uppercase interpretation of the modified label."
+  function: "Marks ordinary vs institutional/proper readings within NP structure."
+  distribution: "Premodifier of category labels and role nouns."
+meanings:
+  '1':
+    implements: letter-case-specification-001.1
+    specialization: "Encodes letter-case as a premodifier (small-c, big-D), specifying the intended interpretive status."
+    examples:
+      - form: "He's a [small-c] catholic."
+        note: "Ordinary descriptive sense; not the institution."
+      - form: "She is a [Big-D] Democrat."
+        note: "Institutional or party-affiliated sense."
+      - form: "That was [little-p] politics."
+        note: "Ordinary sense of the label."
+semanticRefs:
+  - metalinguistic
+  - orthographic-case
+  - category
+  - reference
+relatedConstructions:
+  - id: letter-case-specification-001
+    relationship: specialization-of
+  - id: nom-adjp-mod-001
+    relationship: interfaces-with
+    notes: "Realized as an adjectival pre-head modifier in nominals."

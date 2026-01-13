@@ -1,0 +1,35 @@
+id: with-a-capital-letter-001
+name: "With a Capital Letter Construction"
+pattern: "with + a + capital + Letter-name"
+type: semantic
+dimensions:
+  form: "PP headed by with, followed by capital + letter name."
+  meaning: "Signals uppercase orthography and a proper/institutional sense for the label."
+  function: "Disambiguates official or proper-name use from ordinary descriptive use."
+  distribution: "Postposed adjunct or parenthetical after a label."
+meanings:
+  '1':
+    implements: letter-case-specification-001.1
+    specialization: "Specifies uppercase orthography for the relevant label, favoring an institutional/proper sense."
+    examples:
+      - form: "democrat [with a capital D]."
+        note: "Party-affiliated sense."
+      - form: "church [with a capital C]."
+        note: "Institutional sense."
+semanticRefs:
+  - metalinguistic
+  - orthographic-case
+  - category
+  - reference
+relatedConstructions:
+  - id: letter-case-specification-001
+    relationship: specialization-of
+  - id: with-an-uppercase-letter-001
+    relationship: alternates-with
+    notes: "Lexical variant using uppercase."
+  - id: n-proper-001
+    relationship: related-to
+    notes: "Uppercase specification aligns with proper-noun readings."
+  - id: proper-name-001
+    relationship: related-to
+    notes: "Uppercase specification often cues proper-name interpretation."

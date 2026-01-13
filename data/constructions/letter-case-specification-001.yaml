@@ -1,0 +1,33 @@
+id: letter-case-specification-001
+name: "Letter-Case Specification Construction"
+pattern: "Case-specifying phrase or modifier attached to a label (e.g., with a small X, with a lowercase X, small-X)"
+type: semantic
+dimensions:
+  form: "PP or adjectival modifier naming a letter and its case (small/big/capital/uppercase/lowercase)."
+  meaning: "Specifies orthographic case to disambiguate the sense or status of a label."
+  function: "Metalinguistic instruction about how a label should be written and interpreted."
+  distribution: "Adjunct to category labels; often parenthetical after the label."
+meanings:
+  '1':
+    definition: "Specifies letter-case to mark whether a label is used in a proper/institutional vs common/ordinary sense."
+    details: "Uppercase/capital typically signals institutional or proper-name status; lowercase/small signals ordinary descriptive use."
+    examples:
+      - form: "Catholic [with a small c]."
+        note: "Non-institutional, descriptive sense."
+      - form: "She is a [Big-D] Democrat."
+        note: "Institutional or party-affiliated sense."
+semanticRefs:
+  - metalinguistic
+  - orthographic-case
+  - category
+  - reference
+relatedConstructions:
+  - id: n-common-001
+    relationship: related-to
+    notes: "Lowercase specifications align with common-noun readings."
+  - id: proper-name-001
+    relationship: related-to
+    notes: "Case specification often disambiguates proper-name readings."
+  - id: n-proper-001
+    relationship: related-to
+    notes: "Letter-case cues interact with proper-noun orthography."

@@ -94,3 +94,7 @@ semantic_features:
     description: "Official name or designation of a work, person, or position."
   question-clause:
     description: "Clause type used to ask a question."
+  metalinguistic:
+    description: "Meaning that explicitly refers to language form, spelling, or usage."
+  orthographic-case:
+    description: "Specification of uppercase or lowercase spelling as a meaningful distinction."

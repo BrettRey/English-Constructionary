@@ -1,0 +1,32 @@
+id: with-a-lowercase-letter-001
+name: "With a Lowercase Letter Construction"
+pattern: "with + a + lowercase + Letter-name"
+type: semantic
+dimensions:
+  form: "PP headed by with, followed by lowercase + letter name."
+  meaning: "Signals lowercase orthography and an ordinary/common sense for the label."
+  function: "Disambiguates descriptive use from institutional/proper use."
+  distribution: "Postposed adjunct or parenthetical after a label."
+meanings:
+  '1':
+    implements: letter-case-specification-001.1
+    specialization: "Specifies lowercase orthography for the relevant label using lowercase."
+    examples:
+      - form: "republican [with a lowercase r]."
+        note: "Ordinary descriptive sense."
+      - form: "romantic [with a lowercase r]."
+        note: "Non-institutional sense."
+semanticRefs:
+  - metalinguistic
+  - orthographic-case
+  - category
+  - reference
+relatedConstructions:
+  - id: letter-case-specification-001
+    relationship: specialization-of
+  - id: with-a-small-letter-001
+    relationship: alternates-with
+    notes: "Lexical variant using small."
+  - id: n-common-001
+    relationship: related-to
+    notes: "Lowercase specification aligns with common-noun readings."

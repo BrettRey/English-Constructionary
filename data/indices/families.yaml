@@ -29,3 +29,11 @@ families:
       - numerative-ordinal-rightmost-001
       - numerative-ordinal-adjective-001
       - numerative-fractional-001
+  letter-case:
+    members:
+      - letter-case-specification-001
+      - with-a-small-letter-001
+      - with-a-lowercase-letter-001
+      - with-a-capital-letter-001
+      - with-an-uppercase-letter-001
+      - letter-case-modifier-001
