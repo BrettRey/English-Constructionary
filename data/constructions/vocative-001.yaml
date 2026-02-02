@@ -1,0 +1,80 @@
+id: vocative-001
+name: Vocative Construction
+pattern: NP[vocative]
+type: syntactic
+meanings:
+  '1':
+    definition: Addresses the hearer directly, identifying them as the intended recipient
+    details: Forms its own intonation phrase, typically with fall-rise or level contour; summons use may have high sustained "calling" contour. Not syntactically integrated as a clause argument. NP is either bare or determined by 1st/2nd person forms only (genitive my/our/your, or determinative you).
+    examples:
+      - form: "[Mom], can you help me?"
+        note: Bare kinship term, clause-initial
+      - form: "I think, [Brett], you're wrong."
+        note: Bare proper name, clause-medial
+      - form: "[Moooom]!"
+        note: Summons with calling contour (high sustained pitch)
+      - form: "[Ladies and gentlemen], welcome."
+        note: Bare coordinated NPs, formulaic
+      - form: "[My friend], let me explain."
+        note: 1st-person genitive determiner
+      - form: "[Our Father], who art in heaven..."
+        note: 1st-person plural genitive
+      - form: "[Your majesty], we request an audience."
+        note: 2nd-person genitive, honorific
+      - form: "[You idiot], watch out!"
+        note: 2nd-person personal determinative
+constraints:
+  - type: syntactic
+    description: NP is bare or determined only by 1st/2nd person forms (my, our, your, you); 3rd-person and non-deictic determiners excluded
+  - type: pragmatic
+    description: Requires addressee to be present (real or imagined)
+  - type: structural
+    description: Forms separate intonation phrase with fall-rise, level, or calling contour
+  - type: position
+    description: Can occur clause-initially, clause-medially, or clause-finally
+relations:
+  '1':
+    construction: np-bare-001
+    type: related-to
+    notes: Vocatives strongly favour bare NPs, especially for proper names and kinship terms
+  '2':
+    construction: np-proper-001
+    type: related-to
+    notes: Proper names are prototypical vocatives
+relatedConstructions:
+  - id: np-bare-001
+    relationship: interfaces-with
+    notes: Vocative function licenses bare NP for kinship terms that would otherwise require determination
+  - id: np-proper-001
+    relationship: interfaces-with
+    notes: Proper names freely occur as vocatives
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Person-restricted determination"
+        diagnostics: ["bare or 1st/2nd person determiners only", "3rd-person determiners excluded", "definite article excluded"]
+        weight: high
+      - property: "Vocative intonation phrase"
+        diagnostics: ["fall-rise or level contour", "calling contour for summons", "pause boundaries"]
+        weight: high
+      - property: "Non-argument status"
+        diagnostics: ["not selected by verb", "removable without affecting clause grammaticality"]
+        weight: high
+      - property: "Addressee reference"
+        diagnostics: ["picks out hearer", "second-person compatible"]
+        weight: high
+    peripheral:
+      - property: "Bare NP preference"
+        diagnostics: ["kinship terms bare in vocative but determined elsewhere", "proper names typically bare"]
+        weight: medium
+  stabilisers:
+    - type: functional-pressure
+      evidence: "Need to secure attention and identify addressee"
+    - type: entrenchment
+      evidence: "High frequency of vocative proper names and kinship terms in child-directed speech"
+    - type: acquisition
+      evidence: "Early-acquired; vocative kinship terms among first multi-word uses"
+  coupling:
+    linked_cluster: "proper-name-like behaviour"
+    mechanism: "Vocative use licenses bare form; bare form signals vocative construal"

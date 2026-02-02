@@ -1,7 +1,9 @@
 # English Constructionary
 
 **Status:** Active development
-**Last updated:** 2026-01-10
+**Last updated:** 2026-02-01
+
+**See also:** `NOTES.md` for theoretical ideas in progress
 
 ---
 
@@ -45,6 +47,7 @@ Major areas:
 
 ## Session Log
 
+- **2026-02-01**: Brief session. Discussed whether Peircean triad (from mereology work) could improve the form+meaning schema. Created NOTES.md to track the idea.
 - **2026-01-10**: Status check and update after 2+ week gap. 79 constructions now in repository.
 - **Late Dec 2025**: Major session on numeratives and cardinal nouns. Implemented category vs use distinction (cardinal-noun-001 as category, numerical-label-001/year-name-001/etc. as uses). Added bracket notation `[target]` for in-context examples. Browser improvements: name prominent, dimensions block, symmetric mereological relations. Fixed redundant contains/specialization-of relations. Added morphological strategies index (suppletion, affixation, ablaut, etc.).
 - **2025-12-22**: Major development session. HPC theoretical architecture added (typed mereology, projectability as field-specificity criterion). Validation and lint scripts built. Web interface functional.

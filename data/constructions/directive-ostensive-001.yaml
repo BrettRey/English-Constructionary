@@ -1,0 +1,66 @@
+id: directive-ostensive-001
+name: Directive-Ostensive Construction
+pattern: NP[directive-ostensive]
+type: syntactic
+meanings:
+  '1':
+    definition: Alerts addressee to attend to referent in shared environment
+    details: Directs addressee's attention to something present or imminent. Ostensive in the Sperber & Wilson sense - showing rather than describing. Typically exclamatory intonation with fall or rise-fall. Not syntactically integrated as a clause argument. Normal NP determination applies.
+    examples:
+      - form: "[The robbers]!"
+        note: Definite, alerting to threat
+      - form: "[Robbers]!"
+        note: Bare plural
+      - form: "[A snake]!"
+        note: Indefinite singular count (determiner required)
+      - form: "[That man]!"
+        note: Demonstrative, pointing out
+      - form: "[Your keys]!"
+        note: 2nd-person genitive, reminding
+      - form: "[Fire]!"
+        note: Bare mass noun
+      - form: "[The bus]!"
+        note: Definite, alerting to imminent departure
+constraints:
+  - type: syntactic
+    description: Normal NP determination (singular count nouns require a determiner; mass and plural can be bare)
+  - type: pragmatic
+    description: Referent must be present or imminent in shared environment
+  - type: structural
+    description: Exclamatory intonation, typically fall or rise-fall
+  - type: semantic
+    description: Referent is NOT the addressee (distinguishes from vocative)
+relations:
+  '1':
+    construction: vocative-001
+    type: related-to
+    notes: Both are non-argumental NPs with directive function; vocative addresses hearer, directive-ostensive alerts hearer to something else
+relatedConstructions:
+  - id: vocative-001
+    relationship: alternates-with
+    notes: Both direct attention but differ in target (addressee vs. environment)
+hpc:
+  status: hpc
+  cluster:
+    core:
+      - property: "Alerting function"
+        diagnostics: ["directs attention to referent", "implies urgency or relevance"]
+        weight: high
+      - property: "Exclamatory prosody"
+        diagnostics: ["fall or rise-fall contour", "heightened pitch"]
+        weight: high
+      - property: "Non-argument status"
+        diagnostics: ["not selected by verb", "syntactically independent"]
+        weight: high
+      - property: "Environmental reference"
+        diagnostics: ["referent present or imminent", "not the addressee"]
+        weight: high
+    peripheral:
+      - property: "Normal NP determination"
+        diagnostics: ["singular count requires determiner", "mass and plural can be bare"]
+        weight: medium
+  stabilisers:
+    - type: functional-pressure
+      evidence: "Need to rapidly alert others to threats or opportunities"
+    - type: entrenchment
+      evidence: "High-frequency alerting expressions (Fire!, Watch out!)"
