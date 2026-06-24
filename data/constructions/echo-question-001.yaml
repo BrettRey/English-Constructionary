@@ -1,0 +1,38 @@
+id: echo-question-001
+name: Echo Question
+pattern: "[Declarative clause] + rising intonation / ?"
+type: mixed
+meanings:
+  '1':
+    definition: Seeks confirmation or expresses surprise about a proposition using declarative syntax with question prosody
+    details: "A declarative clause receives rising intonation (in speech) or question mark punctuation (in writing) to function as a question. Distinct from interrogative clauses, which have subject-auxiliary inversion. Can express: (a) request for confirmation, (b) surprise/disbelief, (c) challenge to the proposition. Often layers with other constructions."
+    examples:
+      - form: "[You're leaving]?"
+        note: Confirmation-seeking; declarative clause with question prosody
+      - form: "[She said that]?"
+        note: Surprise/disbelief
+      - form: "[He's a doctor]?"
+        note: Seeking confirmation of unexpected information
+      - form: "[You think you're upset]?"
+        note: Layered with scalar recalibration construction
+      - form: "[You call that a sandwich]?"
+        note: Layered with scalar challenge construction
+constraints:
+  - type: syntactic
+    description: Base is a declarative clause (no subject-auxiliary inversion)
+  - type: structural
+    description: Rising intonation on final syllable(s)
+  - type: pragmatic
+    description: Speaker treats proposition as given or previously asserted, seeks confirmation or expresses reaction
+dimensions:
+  form: Declarative clause structure + rising intonation contour
+  meaning: Proposition is backgrounded; speaker questions or reacts to it
+  function: Confirmation request, surprise marker, or challenge
+  distribution: Typically responds to prior utterance or situational evidence
+relatedConstructions:
+  - id: scalar-recalibration-declarative-001
+    relationship: related-to
+    notes: Scalar recalibration often layers with echo question for confrontational effect
+  - id: scalar-challenge-call-001
+    relationship: related-to
+    notes: Scalar challenge typically layers with echo question

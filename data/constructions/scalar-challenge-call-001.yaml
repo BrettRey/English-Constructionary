@@ -1,0 +1,29 @@
+id: scalar-challenge-call-001
+name: You Call That X Challenge
+pattern: "You call that (a) [N/PRED]?"
+type: mixed
+meanings:
+  '1':
+    definition: Challenges the appropriateness of a category label by implying the speaker has a better exemplar
+    details: Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies "that doesn't deserve the label X" or "let me show you what X really is." The speaker positions themselves as having superior knowledge of what counts as X.
+    examples:
+      - form: "[You call that a sandwich]? It's just bread with lettuce."
+        note: Challenges category membership; implying it fails to meet criteria
+      - form: "[You call that clean]? There's dust everywhere."
+        note: With predicative adjective; challenges threshold for category
+      - form: "[You call that music]?"
+        note: Dismissive; implies speaker has higher standards
+      - form: "[You call that an apology]? You didn't even say sorry."
+        note: Challenges whether token meets criteria for type
+constraints:
+  - type: syntactic
+    description: Declarative clause with 2nd person subject and "call" as main verb; typically layered with echo question construction
+  - type: semantic
+    description: Complement is a category label (N or predicative expression)
+  - type: pragmatic
+    description: Challenges appropriateness of categorization
+relatedConstructions:
+  - id: scalar-recalibration-declarative-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: Shares addressee-directed challenge function; targets category membership rather than scalar degree

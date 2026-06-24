@@ -1,0 +1,44 @@
+id: degree-adjective-indefinite-001
+name: Degree-Adjective-Indefinite (Big Mess Construction)
+pattern: "[Deg + Adj + (of) + a(n) + N]"
+type: syntactic
+meanings:
+  '1':
+    definition: Degree word and adjective precede the indefinite article, expressing degree or extent of the adjectival property
+    details: "The degree word (how, so, too, that, as) combines with an adjective and precedes the indefinite article, inverting the normal order (cf. \"a big mess\" → \"how big a mess\"). Only compatible with indefinite \"a(n)\", not definite \"the\" (*\"how big the mess\"). The \"how\" variant can function as an interrogative phrase, fronting to clause-initial position. The \"so\" variant (\"so big a crowd\") is more literary; other variants are colloquial. An of-insertion variant (\"that big of a deal\") is common, especially in North American English."
+    examples:
+      - form: "[How big a mess] was it?"
+        note: Interrogative; degree phrase fronted
+      - form: "He's not [that good a teacher]."
+        note: Degree word \"that\"; negative context common
+      - form: "It was [too big a problem] to ignore."
+        note: Degree word \"too\" with infinitival complement
+      - form: "She's [so good a student] that she skipped a year."
+        note: Degree word \"so\" with result clause
+      - form: "It's not [as big a deal] as you think."
+        note: Comparative \"as...as\" construction
+      - form: "I've never seen [so big a crowd]."
+        note: "\"So\" variant; more literary than other degree words"
+      - form: "It's not [that big of a deal]."
+        note: Of-insertion variant; common in North American English
+constraints:
+  - type: syntactic
+    description: "Degree word must be one of: how, so, too, that, as"
+  - type: syntactic
+    description: "Article must be indefinite a(n); definite the is ungrammatical"
+  - type: syntactic
+    description: "\"How\" variant can be interrogative, fronting to clause-initial position"
+  - type: pragmatic
+    description: "The \"so\" variant is literary/formal; other degree words (how, too, that, as) are colloquial"
+dimensions:
+  form: Degree word + adjective + indefinite article + noun
+  meaning: "Expresses degree/extent of adjectival property; scalar semantics"
+  function: Degree modification with displaced adjective
+  distribution: "Common in speech and writing; competes with such a big N and a N that big"
+relatedConstructions:
+  - id: indefinite-001
+    relationship: interfaces-with
+    notes: "Requires indefinite article; incompatible with definite"
+  - id: degree-001
+    relationship: specialization-of
+    notes: Specialized degree construction with unusual word order

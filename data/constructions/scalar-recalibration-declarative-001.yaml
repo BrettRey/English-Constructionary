@@ -1,0 +1,29 @@
+id: scalar-recalibration-declarative-001
+name: Declarative Scalar Recalibration
+pattern: "You think you're/NP is [GRADABLE-PRED]"
+type: mixed
+meanings:
+  '1':
+    definition: Signals that the speaker will introduce something exceeding the addressee's claim on the relevant scale
+    details: "The surface form attributes a belief to the addressee, but the constructional meaning is scalar recalibration: the speaker has Z that exceeds X on the Y dimension. Direction is flexible - the speaker may exceed from superiority (dismissive) or from being worse off (self-deprecating, ironic). Typically followed by the speaker's evidence for exceeding."
+    examples:
+      - form: "[You think you're upset]. I wrote a paper predicting that this wouldn't happen."
+        note: Self-deprecating; speaker exceeds on upset-scale due to embarrassing wrong prediction (Joshua Gans)
+      - form: "[You think you're tired]? I've been up for 36 hours."
+        note: With echo question construction layered; speaker exceeds on tiredness scale
+      - form: "[You think that's expensive]. Wait till you see the repair bill."
+        note: With demonstrative subject; introduces something more expensive
+      - form: "[You think you know stress]. Try raising triplets."
+        note: Dismissive; speaker's experience exceeds addressee's
+constraints:
+  - type: syntactic
+    description: Matrix clause with 2nd person subject and "think" as main verb
+  - type: semantic
+    description: Embedded predicate must be gradable (scalar)
+  - type: pragmatic
+    description: Requires follow-up providing speaker's evidence for exceeding on the scale
+relatedConstructions:
+  - id: scalar-challenge-call-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: Shares addressee-directed scalar-challenge function; differs in matrix verb and targets category membership rather than degree

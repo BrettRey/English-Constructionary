@@ -1,0 +1,40 @@
+id: deverbal-noun-of-argument-001
+name: Deverbal Noun Of-Argument
+pattern: "[the V-nom of NP]"
+type: mixed
+meanings:
+  '1':
+    definition: Of-PP expresses a semantic argument of the nominalized verb, providing structural anchoring that licenses the definite article
+    details: "The of-PP expresses a participant in the event denoted by the deverbal noun. Typically non-agentive: agents prefer genitive marking (\"the enemy's destruction of the city\"). The of-complement provides structural anchoring for definiteness, substituting for the deictic/contextual support that \"the\" would otherwise require. Compare: \"the failure\" (needs contextual anchoring) vs. \"the failure of Washington Mutual\" (structurally anchored)."
+    examples:
+      - form: "[the failure of Washington Mutual]"
+        note: Argument is the entity that failed; structural anchoring licenses the definite article
+      - form: "[the arrival of the guests]"
+        note: Argument is the entity that arrived
+      - form: "[the destruction of the city]"
+        note: Argument is the entity destroyed
+      - form: "[the death of the king]"
+        note: Argument is the entity that died
+      - form: "the enemy's destruction of [the city]"
+        note: Agent expressed by genitive; of-PP reserved for non-agentive argument
+constraints:
+  - type: syntactic
+    description: Head noun is deverbal (nominalized verb)
+  - type: syntactic
+    description: Of-PP is complement to the deverbal noun
+  - type: semantic
+    description: Of-NP expresses a semantic argument of the underlying verb, typically non-agentive
+  - type: semantic
+    description: Definite article licensed by structural anchoring from the of-complement
+dimensions:
+  form: Definite NP with deverbal head and of-PP complement
+  meaning: Event nominalization with participant expressed; referent uniquely identifiable via structural anchoring
+  function: Refers to events while maintaining argument structure of underlying verb
+  distribution: Common in formal and narrative registers; alternates with genitive construction
+relatedConstructions:
+  - id: genitive-s-001
+    relationship: alternates-with
+    notes: "\"The failure of WM\" ~ \"WM's failure\"; genitive preferred for agents, of-PP for non-agentive arguments"
+  - id: grammatical-definiteness-001
+    relationship: interfaces-with
+    notes: Of-complement provides structural anchoring as alternative to deictic anchoring for licensing definiteness
