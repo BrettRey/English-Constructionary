@@ -14,6 +14,8 @@ meanings:
     examples:
       - form: "go [to the shop]"
         note: Transitive-preposition goal
+      - form: "go [to church]"
+        note: "To-PP goal with a bare institutional NP as object of to (cf. np-bare-001; in hospital, at university)"
       - form: "go [home]"
         note: Goal realized by a bare PP headed by the intransitive preposition home
       - form: "The sailors went [ashore]."
