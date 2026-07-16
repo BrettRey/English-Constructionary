@@ -4,7 +4,7 @@ pattern: N[Type:Common, Number:PL]
 type: syntactic
 meanings:
   '1':
-    definition: Denotes multiple instances of a common noun category
+    definition: Plural-marked common noun; plural agreement and determinative selection. Typically denotes more than one instance, though lexicalized and non-canonical plurals diverge
     examples:
       - form: dogs
         note: Plural count noun

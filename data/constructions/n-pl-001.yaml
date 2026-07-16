@@ -4,7 +4,7 @@ pattern: N[Number:PL]
 type: syntactic
 meanings:
   '1':
-    definition: Reference to multiple entities/count items
+    definition: Plural number form; selects plural agreement and combines with cardinals above one. Typically construes referents as more than one unit, but the category is morphosyntactic, not semantic (cf. pluralia tantum)
     examples:
       - form: cats
         note: Multiple countable entities

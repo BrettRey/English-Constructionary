@@ -4,7 +4,7 @@ pattern: 'NP[N-Type: Common]'
 type: syntactic
 meanings:
   '1':
-    definition: Refers to entities or concepts that are not unique individuals
+    definition: NP whose nominal head is a common noun; compatible with definite or indefinite, and unique or non-unique, reference
     examples:
       - form: dog
         note: General reference to the kind
@@ -12,7 +12,7 @@ meanings:
         note: Specific reference to a set of books
 constraints:
   - type: syntactic
-    description: Must contain a common noun
+    description: The nominal head must be a common noun
 semanticType: reference
 relatedConstructions:
   - id: np-001

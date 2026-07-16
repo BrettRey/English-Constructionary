@@ -4,7 +4,7 @@ pattern: N[Number:SG]
 type: syntactic
 meanings:
   '1':
-    definition: Reference to a single entity/count item
+    definition: Singular number form; selects singular agreement and singular-selecting determinatives. Typically construes the referent as a single unit, but the category is morphosyntactic, not semantic
     examples:
       - form: cat
         note: Single countable entity

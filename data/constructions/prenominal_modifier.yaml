@@ -1,6 +1,6 @@
 id: prenominal-modifier-001
 name: Bare Plural with Prenominal Modifier
-pattern: '[Modifier:AdjP Head:NP-PL]'
+pattern: "NP[Head:Nom[Modifier:AdjP + Head:N[plural]]]"
 type: syntactic
 meanings:
   '1':
@@ -12,7 +12,7 @@ meanings:
         note: Requires contextual reference set; Complementary set relation
 constraints:
   - type: syntactic
-    description: Modifier must be adjectival
+    description: The modifier function must be realized by an AdjP; the lexical head is the plural noun
   - type: morphological
     description: Head must be plural
 semanticType: reference

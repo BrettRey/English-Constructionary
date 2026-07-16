@@ -46,9 +46,9 @@ meanings:
     definition: Refers to/predicates activity
     details: Refers to or predicates generic activity type
     examples:
-      - form: Playing piano takes practice
-        note: Activity reference
-      - form: That is swimming
+      - form: Competitive swimming takes practice
+        note: Activity reference (modifier forces the noun analysis; bare "playing piano" is a gerund-participial clause, not an NP)
+      - form: That is competitive swimming
         note: Activity identification
     relations:
       - 2
