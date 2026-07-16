@@ -16,7 +16,7 @@ hierarchies:
       - definite-001:
           implementations:
             - definite-determiner-001  
-            - demonstrative-det-001  
+            - demonstrative-determinative-fused-head-001
       - indefinite-001:
           implementations:
             - indefinite-determiner-001
@@ -26,6 +26,6 @@ hierarchies:
     root: np-bare-001
     implementations:
       - bare-role-001
-      - bare-mass-001  # hypothetical
+      - bare-non-count-001  # hypothetical
       - bare-plural-001  # hypothetical
       - proper-name-001  # hypothetical

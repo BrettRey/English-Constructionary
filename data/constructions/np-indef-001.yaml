@@ -3,7 +3,7 @@ name: Indefinite NP Construction
 pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/non-count Nominal
 type: syntactic
 dimensions:
-  form: "Indefinite determiner (a/an, some) + Nom, or bare plural/mass Nom"
+  form: "Indefinite determiner (a/an, some) + Nom, or bare plural or non-count Nom"
   meaning: "Non-identifiable, novel, or arbitrary referent; introduces new discourse entity"
   function: "Introduces new referents; hosts existential predication"
   distribution: "Argument positions; existential there-pivot; predicative complement"

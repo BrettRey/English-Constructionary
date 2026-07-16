@@ -1,4 +1,4 @@
-id: n-mass-001
+id: n-non-count-001
 name: Non-count Noun
 pattern: N[Non-count:YES]
 type: syntactic
@@ -22,7 +22,7 @@ kind:
         diagnostics: ["stuff/aggregate interpretation", "homogeneous part structure"]
         weight: high
     peripheral:
-      - property: "Object-mass and flexible nouns"
+      - property: "Aggregate-denoting and flexible nouns"
         diagnostics: ["portion/container shifts", "count conversion in specific frames"]
         weight: medium
   stabilisers:

@@ -31,7 +31,7 @@ syntacticRefs:
 relatedConstructions:
   - id: grammatical-number-001
     relationship: related-to
-  - id: n-mass-001
+  - id: n-non-count-001
     relationship: related-to
 kind:
   provisional: true
@@ -70,7 +70,7 @@ kind:
   boundaries:
     overlaps_with:
       - grammatical-number-001
-      - n-mass-001
+      - n-non-count-001
     known_boundary_items:
       - "folks"
       - "people"

@@ -17,12 +17,10 @@ meanings:
         note: '''him'' refers forward to ''John''.'
   '3':
     definition: Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)
-    details: 'Constraints: contextual: Requires a referent that is salient in the shared context of the speakers Related constructions: np-pron-personal-001 (can-be-filled-by); np-pron-demonstrative-001 (can-be-filled-by)'
+    details: 'Constraints: contextual: Requires a referent that is salient in the shared context of the speakers Related constructions: np-pron-personal-001 (can-be-filled-by)'
     examples:
       - form: "[He]'s late again."
         note: Said about someone not present, referring to a shared understanding of who 'he' is.
-      - form: "[That] is incredible!"
-        note: Said while experiencing something, where 'that' refers to the current situation.
   '4':
     definition: Bound variable reference - refers to an entity whose referent varies depending on a quantifier
     details: 'Constraints: syntactic: Requires a quantified antecedent, often in the same sentence Related constructions: np-pron-personal-001 (can-be-filled-by)'
@@ -45,8 +43,6 @@ relatedConstructions:
   - id: np-001
     relationship: inherits-from
   - id: np-pron-personal-001
-    relationship: specialization-of
-  - id: np-pron-demonstrative-001
     relationship: specialization-of
   - id: np-pron-indefinite-001
     relationship: specialization-of

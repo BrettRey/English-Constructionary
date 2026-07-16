@@ -4,7 +4,7 @@ pattern: Applies to nouns, pronouns, determinatives, and proper names
 type: morphological
 dimensions:
   form: "Singular morphology (often zero); singular agreement marking"
-  meaning: "Single entity reference; unity/wholeness for mass nouns"
+  meaning: "Single entity reference; unity/wholeness for non-count nouns"
   function: "Signals singular construal; triggers singular agreement"
   distribution: "Nouns, pronouns, determinatives; agreement targets in clause"
 meanings:
@@ -35,10 +35,10 @@ relations:
     parthood: formal
     notes: Standard host
   '2':
-    construction: n-mass-001
+    construction: n-non-count-001
     type: related-to
     parthood: formal
-    notes: Mass host (unity construal)
+    notes: Non-count host (unity construal)
 relatedConstructions:
   - id: grammatical-number-001
     relationship: interfaces-with

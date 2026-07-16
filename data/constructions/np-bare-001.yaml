@@ -4,12 +4,12 @@ pattern: NP[Head:Nom]
 meanings:
   '1':
     definition: Refers to/predicates non-count substance
-    details: Refers to or predicates uncountable substance/material
+    details: Refers to or predicates non-count substance/material
     examples:
       - form: Water is essential
         note: Non-count substance reference
       - form: That is gold
-        note: Mass substance predication
+        note: Non-count substance predication
     relations:
       - 1
       - 2
@@ -83,7 +83,7 @@ relations:
     construction: np-indef-001
     type: related-to
   '2':
-    construction: n-mass-001
+    construction: n-non-count-001
     type: related-to
     notes: 'Original type: enables.'
   '4':

@@ -18,12 +18,12 @@ meanings:
       - form: "[Your keys]!"
         note: 2nd-person genitive, reminding
       - form: "[Fire]!"
-        note: Bare mass noun
+        note: Bare non-count noun
       - form: "[The bus]!"
         note: Definite, alerting to imminent departure
 constraints:
   - type: syntactic
-    description: Normal NP determination (singular count nouns require a determiner; mass and plural can be bare)
+    description: Normal NP determination (singular count nouns require a determiner; non-count and plural can be bare)
   - type: pragmatic
     description: Referent must be present or imminent in shared environment
   - type: structural
@@ -57,7 +57,7 @@ kind:
         weight: high
     peripheral:
       - property: "Normal NP determination"
-        diagnostics: ["singular count requires determiner", "mass and plural can be bare"]
+        diagnostics: ["singular count requires determiner", "non-count and plural can be bare"]
         weight: medium
   stabilisers:
     - type: functional-pressure

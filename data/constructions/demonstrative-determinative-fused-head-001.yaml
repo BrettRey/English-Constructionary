@@ -1,0 +1,18 @@
+id: demonstrative-determinative-fused-head-001
+name: Demonstrative Determinative in Fused Determiner-Head Function
+pattern: "NP[demonstrative determinative as fused determiner-head]"
+type: syntactic
+meanings:
+  '1':
+    definition: A demonstrative determinative realizes fused determiner-head function in an NP and refers deictically to a salient entity or situation
+    details: CGEL treats this, that, these, and those as determinatives; independent NP use does not reclassify them as pronouns.
+    examples:
+      - form: "[That] is incredible!"
+        note: That is a demonstrative determinative in fused determiner-head function, referring to the current situation.
+constraints:
+  - type: syntactic
+    description: The fused determiner-head must be realized by this, that, these, or those.
+semanticType: reference
+relatedConstructions:
+  - id: np-001
+    relationship: inherits-from

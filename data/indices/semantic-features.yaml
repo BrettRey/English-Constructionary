@@ -25,7 +25,7 @@ semantic_features:
   fractional-quantity:
     description: "Specifies a partitive fraction of a whole."
   countability:
-    description: "Morphosyntactic cluster distinguishing count vs mass profiles."
+    description: "Morphosyntactic cluster distinguishing count vs non-count profiles."
   individuation:
     description: "Semantic construal of referents as discrete units for counting."
   individuation-precision:
