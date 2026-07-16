@@ -90,6 +90,19 @@ const buildLexemeSection = () => {
     });
   }
 
+  // Glosses extracted from the Simple English dump (scripts/extract-glosses.py)
+  const glossMap = new Map();
+  const glossDoc = loadYaml(path.join(root, 'data/lexicon/glosses.yaml'));
+  if (glossDoc && Array.isArray(glossDoc.glosses)) {
+    glossDoc.glosses.forEach((g) => glossMap.set(`${g.lemma}|${g.pos}`, g.senses));
+  }
+  const posForGoldFile = {
+    'determinatives.yaml': 'det',
+    'prepositions.yaml': 'prep',
+    'pronouns.yaml': 'pron',
+    'conjunctions.yaml': 'conj'
+  };
+
   const pushLexeme = (lemma, category, sourceFile, extra = {}) => {
     const lexeme = {
       lemma,
@@ -116,14 +129,18 @@ const buildLexemeSection = () => {
       const doc = loadYaml(path.join(goldDir, file));
       if (!doc) return;
       const constructions = doc.constructions || [];
-      const extra = { status: doc.status || 'seed', constructions };
+      const posCode = posForGoldFile[file];
+      const withGloss = (lemma) => {
+        const senses = glossMap.get(`${lemma}|${posCode}`);
+        return senses ? { status: doc.status || 'seed', constructions, senses } : { status: doc.status || 'seed', constructions };
+      };
       if (Array.isArray(doc.items)) {
-        doc.items.forEach((lemma) => pushLexeme(String(lemma), doc['cgel-category'], `gold/${file}`, extra));
+        doc.items.forEach((lemma) => pushLexeme(String(lemma), doc['cgel-category'], `gold/${file}`, withGloss(String(lemma))));
       }
       if (doc.split) {
         Object.entries(doc.split).forEach(([bucket, lemmas]) => {
           const category = bucket === 'to-adjudicate' ? null : bucket;
-          (lemmas || []).forEach((lemma) => pushLexeme(String(lemma), category, `gold/${file}`, extra));
+          (lemmas || []).forEach((lemma) => pushLexeme(String(lemma), category, `gold/${file}`, withGloss(String(lemma))));
         });
       }
     });
@@ -151,7 +168,9 @@ const buildLexemeSection = () => {
           match.subtitle = `${match.lexeme.category} (${record.cgel.subclass})`;
         }
       } else {
-        pushLexeme(record.lemma, category, 'overrides.yaml', { override: detail, status: 'adjudicated' });
+        const senses = glossMap.get(`${record.lemma}|${record['source-pos']}`);
+        pushLexeme(record.lemma, category, 'overrides.yaml',
+          senses ? { override: detail, status: 'adjudicated', senses } : { override: detail, status: 'adjudicated' });
       }
     });
   }

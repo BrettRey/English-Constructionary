@@ -26,6 +26,10 @@ From the CxG perspective, individual words are constructions, so a complete Cons
 - `overrides.yaml` — the override records (gold lists + adjudications); seeded with worked examples
 - `../schemas/lexicon-override.json` — JSON Schema for `overrides.yaml`
 
+## Glosses
+
+`glosses.yaml` carries dictionary content (up to four senses with one example each) for the gold-list lexemes, extracted from the Simple English dump by `scripts/extract-glosses.py` (run locally when the dump refreshes; the extract is committed so CI needs no dump). This is the one sliver of Wiktionary content the repo vendors, under CC BY-SA; the browser's lexeme cards join it with the grammatical layer and link out to Wiktionary for full entries.
+
 ## Wiring into the Constructionary
 
 Closed-class construction entries point at their lexical membership via `lexiconRefs` (e.g. `determination-001` → `gold/determinatives`), and gold files carry reciprocal `constructions:` pointers. `npm run validate` checks `overrides.yaml` against its schema and parse-checks the gold files; the web browser exposes this directory as its Lexicon sections.

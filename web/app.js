@@ -465,7 +465,14 @@ const renderLexemeSummary = (lexeme) => {
     row.innerHTML = html;
     grid.appendChild(row);
   };
-  addRow(`<strong>Source</strong>: data/lexicon/${lexeme.source}${lexeme.override && lexeme.override['source-pos'] ? ` (source POS: ${lexeme.override['source-pos']})` : ''}`);
+  if (lexeme.senses && lexeme.senses.length) {
+    lexeme.senses.forEach((sense, index) => {
+      const example = sense.example ? ` <em>${sense.example}</em>` : '';
+      addRow(`<strong>${index + 1}.</strong> ${sense.gloss}${example}`);
+    });
+  }
+  const wikiSlug = encodeURIComponent(lexeme.lemma.replace(/ /g, '_'));
+  addRow(`<strong>Source</strong>: data/lexicon/${lexeme.source}${lexeme.override && lexeme.override['source-pos'] ? ` (source POS: ${lexeme.override['source-pos']})` : ''} · <a href="https://en.wiktionary.org/wiki/${wikiSlug}#English" target="_blank" rel="noreferrer">Wiktionary</a> · <a href="https://simple.wiktionary.org/wiki/${wikiSlug}" target="_blank" rel="noreferrer">Simple</a>`);
   if (lexeme.override && lexeme.override.notes) addRow(`<strong>Notes</strong>: ${lexeme.override.notes}`);
   if (lexeme.override && lexeme.override.tests.length) {
     lexeme.override.tests.forEach((test) => {
