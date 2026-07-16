@@ -1,0 +1,30 @@
+id: pp-001
+name: Preposition Phrase
+pattern: PP
+type: syntactic
+dimensions:
+  form: "Headed by a preposition; optional object (in the garden) or no object (outside, home)"
+  meaning: "Relates an entity or situation to another in space, time, or abstract structure"
+  function: "Complement (including goal), modifier, adjunct; predicative complement"
+  distribution: "Complement of verbs and nouns, modifier in NPs and clauses, complement of prepositions (from under the bed)"
+meanings:
+  '1':
+    definition: Phrase headed by a preposition, with or without an object
+    details: "The head preposition may take an object (in [the garden]), a clause (because [it rained]), a PP (from [under the bed]), or nothing (she waited [outside]; go [home]). A single intransitive preposition constitutes a complete PP."
+    examples:
+      - form: "[in the garden]"
+        note: P with NP object
+      - form: "[outside]"
+        note: Complete PP consisting of one intransitive preposition
+      - form: "[from under the bed]"
+        note: P with PP object
+constraints:
+  - type: syntactic
+    description: Headed by a preposition; accepts right/straight modification in locative uses.
+relatedConstructions:
+  - id: preposition-001
+    relationship: contains
+    parthood: formal
+    notes: The head is a preposition
+lexiconRefs:
+  - gold/prepositions

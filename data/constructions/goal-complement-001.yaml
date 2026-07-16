@@ -59,11 +59,9 @@ kind:
       - "caused-motion (He sneezed the napkin off the table): transitive sister frame"
       - "here/there as deictic goals (wider distribution; classification pending)"
 relatedConstructions:
-  - id: intransitive-preposition-001
+  - id: pp-001
     relationship: contains
     parthood: formal
-    notes: Bare intransitive prepositions (home, abroad, ashore) are one realization of the goal slot
-  - id: preposition-001
-    relationship: related-to
+    notes: The goal slot is a PP; to-PPs and single-preposition PPs (home, ashore) alike
 lexiconRefs:
   - gold/prepositions

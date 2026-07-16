@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:02:50.729Z",
+  "generatedAt": "2026-07-16T19:07:34.054Z",
   "sections": [
     {
       "id": "project",
@@ -748,14 +748,10 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "intransitive-preposition-001",
+              "id": "pp-001",
               "relationship": "contains",
               "parthood": "formal",
-              "notes": "Bare intransitive prepositions (home, abroad, ashore) are one realization of the goal slot"
-            },
-            {
-              "id": "preposition-001",
-              "relationship": "related-to"
+              "notes": "The goal slot is a PP; to-PPs and single-preposition PPs (home, ashore) alike"
             }
           ],
           "incomingRelations": []
@@ -1017,13 +1013,7 @@
               "parthood": "formal"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "goal-complement-001",
-              "title": "goal-complement-001",
-              "relationship": "contains"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "letter-case-modifier-001",
@@ -2536,6 +2526,28 @@
           ]
         },
         {
+          "id": "pp-001",
+          "title": "pp-001",
+          "subtitle": "Preposition Phrase",
+          "path": "/data/constructions/pp-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "preposition-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "The head is a preposition"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "goal-complement-001",
+              "title": "goal-complement-001",
+              "relationship": "contains"
+            }
+          ]
+        },
+        {
           "id": "prenominal-modifier-001",
           "title": "prenominal-modifier-001",
           "subtitle": "Bare Plural with Prenominal Modifier",
@@ -2559,14 +2571,14 @@
           "relations": [],
           "incomingRelations": [
             {
-              "id": "goal-complement-001",
-              "title": "goal-complement-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "intransitive-preposition-001",
               "title": "intransitive-preposition-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "pp-001",
+              "title": "pp-001",
+              "relationship": "contains"
             }
           ]
         },
