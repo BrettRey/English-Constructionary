@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: A preposition used without an NP object, whether or not it has another kind of complement
-    details: "Intransitive means no object, not no complement. A complementless member such as outside heads a one-word PP, but an intransitive preposition may instead take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). The category remains preposition throughout (CGEL p. 272)."
+    details: "Intransitive means no object, not no complement. A complementless member such as outside heads a one-word PP, but an intransitive preposition may instead take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). Ago is intransitive-only and occurs with an obligatory pre-head measure modifier (ten years ago; cf. ten years before Christ). The category remains preposition throughout (CGEL p. 272); the analysis of ago deliberately rejects CGEL p. 632."
     examples:
       - form: "She waited [outside]."
         note: Complementless intransitive use; the same lexeme also has transitive outside the door
@@ -20,6 +20,8 @@ meanings:
         note: Intransitive preposition with a predicative complement
       - form: "We left [because it rained]."
         note: Intransitive preposition with a clause complement
+      - form: "ten years [ago]"
+        note: "Intransitive-only, with an obligatory pre-head measure modifier (*I went ago); the measure phrase is a modifier, not a complement (cf. ten years before Christ)"
       - form: "Bill slept the afternoon [away]."
         note: Complementless intransitive preposition heading a one-word PP in particle use
 constraints:

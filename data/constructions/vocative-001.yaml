@@ -59,6 +59,11 @@ relatedConstructions:
 kind:
   provisional: true
   projection:
+    grounds:
+      - source: reynolds-kinship
+        locator: "CHILDES study: vocative concentration 16-43% parent terms vs 4-7% extended kin; rho = 0.73"
+        relation: cites
+        bears-on: stability
     target: "A noun's concentration in vocative function predicts its drift toward proper-noun syntax: bare singular argument use (Mom called) without determiners, and the acquisition pathway that produces it"
     evidence: "CHILDES: parent terms show 16-43% vocative concentration vs 4-7% for extended kin; vocative concentration correlates with bare-argument realization across terms (Spearman rho = 0.73); children, not caregivers, drive the skew (Reynolds, English kinship terms, submitted to JEngL, JEngL-26-0039; LingBuzz 009751)"
     confidence: medium

@@ -24,6 +24,11 @@ constraints:
 kind:
   provisional: true
   projection:
+    grounds:
+      - source: reynolds-deitality
+        locator: "SS4 diagnostics; SS5 sources and stabilizers"
+        relation: cites
+        bears-on: stability
     target: "Locating a form or construction in the deital profile predicts which diagnostic residues survive semantic mismatch, which diagnostics split under prosodic and specificity manipulation, and where dialectal and acquisitional variation appears"
     evidence: "Convergence of the ranked diagnostics across the core inventory; decoupling cases (weak definites, generic definites, narrative this, proper names) behave as the profile predicts"
     confidence: high

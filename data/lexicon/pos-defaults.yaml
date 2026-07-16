@@ -39,7 +39,7 @@ rules:
     source-pos: adv
     cgel-category: adverb
     confidence: medium
-    notes: "A sizeable chunk of traditional adverbs are CGEL intransitive prepositions (outside, abroad, downstairs, home, upstairs...). Exceptional complement-head ago is also a preposition, but not intransitive. These are handled by the preposition gold list, which overrides this rule. Expect this default to be wrong more often than any other."
+    notes: "A sizeable chunk of traditional adverbs are CGEL intransitive prepositions (outside, abroad, ago, downstairs, home, upstairs...). These are handled by the preposition gold list, which overrides this rule. Expect this default to be wrong more often than any other."
 
   preposition-default:
     source-pos: prep
@@ -50,7 +50,7 @@ rules:
     source-pos: postp
     cgel-category: preposition
     confidence: high
-    notes: "CGEL treats heads that follow their complements (notwithstanding, ago in ten years ago) as prepositions; linear position is not category. Ago is especially exceptional because it invariably follows its obligatory NP complement (CGEL p. 632)."
+    notes: "CGEL treats postposed-complement items (notwithstanding) as prepositions; linear position is not category. Ago is not postposed: its preceding measure phrase is an obligatory pre-head modifier, not a complement. This Constructionary analysis rejects CGEL p. 632."
 
   conjunction-no-default:
     source-pos: conj

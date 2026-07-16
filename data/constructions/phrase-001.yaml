@@ -9,7 +9,7 @@ dimensions:
   distribution: "Determined principally by the head: an NP distributes as its nominal head allows, a PP as its preposition head allows, and a central verbal clause as its VP head allows"
 meanings:
   '1':
-    definition: A headed constituent; the head determines the phrase's category and distribution
+    definition: A constituent organized around a head, which licenses its dependents and principally determines its distribution
     details: "Phrases contrast with coordinations, which are non-headed constituents made up of coordinates (see coordination-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are the CGEL phrasal categories. A central verbal clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. CGEL also recognizes exceptional verbless clauses, so the Subject + Head:VP analysis is the central verbal pattern rather than a universal definition of Clause. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP)."
     examples:
       - form: "[in the garden]"
@@ -39,3 +39,8 @@ relatedConstructions:
   - id: coordination-001
     relationship: see-also
     notes: The non-headed constituent type; the contrast is definitional
+grounds:
+  - source: cgel-2002
+    locator: "pp. 22-25"
+    relation: cites
+    note: "Clause included among headed constituents; Predicate/VP as clause head"

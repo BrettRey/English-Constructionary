@@ -30,3 +30,9 @@ relatedConstructions:
     relationship: related-to
 lexiconRefs:
   - gold/determinatives
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 9, SS3.2"
+    relation: cites
+    bears-on: category-assignment
+    note: "no/none dependent and independent forms of the determinative no; compounds are single words"

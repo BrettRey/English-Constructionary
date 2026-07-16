@@ -32,3 +32,9 @@ relatedConstructions:
   - id: deitality-001
     relationship: see-also
     notes: Exclamative uses pattern non-deitally (Reynolds, deitality inventory)
+grounds:
+  - source: cgel-2002
+    locator: "pp. 918-20"
+    relation: cites
+    bears-on: category-assignment
+    note: "Exclamative what is an adjective; interrogative what a determinative"

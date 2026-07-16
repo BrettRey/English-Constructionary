@@ -3,7 +3,12 @@
   "title": "Construction Entry (revised)",
   "description": "A grammatical construction in Construction Grammar (CxG)",
   "type": "object",
-  "required": ["id", "pattern", "name", "meanings"],
+  "required": [
+    "id",
+    "pattern",
+    "name",
+    "meanings"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -23,7 +28,7 @@
     },
     "type": {
       "type": "string",
-      "description": "Domain providing maximal projectability for this cluster – where knowing category membership supports the most reliable predictions. Not an ontological claim about what the entry 'is made of.'",
+      "description": "Domain providing maximal projectability for this cluster \u2013 where knowing category membership supports the most reliable predictions. Not an ontological claim about what the entry 'is made of.'",
       "enum": [
         "syntactic",
         "semantic",
@@ -33,7 +38,6 @@
         "mixed"
       ]
     },
-
     "meanings": {
       "type": "object",
       "description": "Numbered meanings, keyed by integer strings",
@@ -43,7 +47,10 @@
           "type": "object",
           "oneOf": [
             {
-              "required": ["definition", "examples"],
+              "required": [
+                "definition",
+                "examples"
+              ],
               "properties": {
                 "definition": {
                   "type": "string",
@@ -58,7 +65,9 @@
                   "minItems": 1,
                   "items": {
                     "type": "object",
-                    "required": ["form"],
+                    "required": [
+                      "form"
+                    ],
                     "properties": {
                       "form": {
                         "type": "string",
@@ -67,6 +76,9 @@
                       "note": {
                         "type": "string",
                         "minLength": 1
+                      },
+                      "grounds": {
+                        "$ref": "#/definitions/grounds"
                       }
                     }
                   }
@@ -82,7 +94,11 @@
               "additionalProperties": false
             },
             {
-              "required": ["implements", "specialization", "examples"],
+              "required": [
+                "implements",
+                "specialization",
+                "examples"
+              ],
               "properties": {
                 "implements": {
                   "type": "string",
@@ -100,7 +116,9 @@
                   "minItems": 1,
                   "items": {
                     "type": "object",
-                    "required": ["form"],
+                    "required": [
+                      "form"
+                    ],
                     "properties": {
                       "form": {
                         "type": "string",
@@ -109,6 +127,9 @@
                       "note": {
                         "type": "string",
                         "minLength": 1
+                      },
+                      "grounds": {
+                        "$ref": "#/definitions/grounds"
                       }
                     }
                   }
@@ -128,14 +149,16 @@
       },
       "additionalProperties": false
     },
-
     "relations": {
       "type": "object",
       "description": "Numbered relations, keyed by integer strings",
       "patternProperties": {
         "^[0-9]+$": {
           "type": "object",
-          "required": ["construction", "type"],
+          "required": [
+            "construction",
+            "type"
+          ],
           "properties": {
             "construction": {
               "type": "string"
@@ -161,7 +184,11 @@
             "parthood": {
               "type": "string",
               "description": "Which dimension this parthood relation applies to (typed mereology)",
-              "enum": ["formal", "semantic", "functional"]
+              "enum": [
+                "formal",
+                "semantic",
+                "functional"
+              ]
             },
             "notes": {
               "type": "string"
@@ -172,12 +199,14 @@
       },
       "additionalProperties": false
     },
-
     "constraints": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["type", "description"],
+        "required": [
+          "type",
+          "description"
+        ],
         "properties": {
           "type": {
             "type": "string",
@@ -197,7 +226,6 @@
         }
       }
     },
-
     "semanticType": {
       "type": "string",
       "enum": [
@@ -207,7 +235,6 @@
         "quantification"
       ]
     },
-
     "dimensions": {
       "type": "object",
       "description": "Bundle structure: what this construction contributes across mereological dimensions",
@@ -231,12 +258,14 @@
       },
       "additionalProperties": false
     },
-
     "relatedConstructions": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "relationship"],
+        "required": [
+          "id",
+          "relationship"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -261,12 +290,21 @@
           "parthood": {
             "type": "string",
             "description": "Which dimension this parthood relation applies to (typed mereology)",
-            "enum": ["formal", "semantic", "functional"]
+            "enum": [
+              "formal",
+              "semantic",
+              "functional"
+            ]
           },
           "overlap-dimension": {
             "type": "string",
             "description": "For overlaps-with relations, which dimension overlaps",
-            "enum": ["formal", "semantic", "functional", "distributional"]
+            "enum": [
+              "formal",
+              "semantic",
+              "functional",
+              "distributional"
+            ]
           },
           "notes": {
             "type": "string"
@@ -274,7 +312,6 @@
         }
       }
     },
-
     "semanticRefs": {
       "type": "array",
       "description": "References to entries in data/indices/semantic-features.yaml",
@@ -283,7 +320,6 @@
         "minLength": 1
       }
     },
-
     "formRefs": {
       "type": "array",
       "description": "References to entries in data/indices/form-features.yaml",
@@ -292,7 +328,6 @@
         "minLength": 1
       }
     },
-
     "syntacticRefs": {
       "type": "array",
       "description": "References to entries in data/indices/syntactic-diagnostics.yaml",
@@ -301,7 +336,6 @@
         "minLength": 1
       }
     },
-
     "lexiconRefs": {
       "type": "array",
       "description": "References into data/lexicon/ (gold-list files or override records) giving the lexical membership relevant to this construction, e.g. 'gold/determinatives'",
@@ -310,7 +344,6 @@
         "minLength": 1
       }
     },
-
     "kind": {
       "type": "object",
       "description": "Projectibility-first kind metadata: what the category licenses us to project, and which securing tier the recorded evidence reaches. Replaces the legacy 'hpc' block (2026-07-16).",
@@ -319,11 +352,22 @@
           "type": "object",
           "description": "The point of the kind claim: a field-relative inference the category supports, declared before mechanisms",
           "properties": {
-            "target": { "type": "string" },
-            "evidence": { "type": "string" },
+            "target": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "string"
+            },
             "confidence": {
               "type": "string",
-              "enum": ["high", "medium", "low"]
+              "enum": [
+                "high",
+                "medium",
+                "low"
+              ]
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
             }
           },
           "additionalProperties": false
@@ -331,12 +375,21 @@
         "secured": {
           "type": "string",
           "description": "Highest securing tier the recorded evidence reaches; each tier needs its own evidence (no free upgrades)",
-          "enum": ["stable", "networked", "maintained", "controlled"]
+          "enum": [
+            "stable",
+            "networked",
+            "maintained",
+            "controlled"
+          ]
         },
         "failure-mode": {
           "type": "string",
           "description": "Demotion flag: thin (too little content), fat (heterogeneous lump to split), negative (defined by absence)",
-          "enum": ["thin", "fat", "negative"]
+          "enum": [
+            "thin",
+            "fat",
+            "negative"
+          ]
         },
         "profile": {
           "type": "object",
@@ -345,16 +398,26 @@
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["property"],
+                "required": [
+                  "property"
+                ],
                 "properties": {
-                  "property": { "type": "string" },
+                  "property": {
+                    "type": "string"
+                  },
                   "diagnostics": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": {
+                      "type": "string"
+                    }
                   },
                   "weight": {
                     "type": "string",
-                    "enum": ["high", "medium", "low"]
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ]
                   }
                 },
                 "additionalProperties": false
@@ -364,16 +427,26 @@
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["property"],
+                "required": [
+                  "property"
+                ],
                 "properties": {
-                  "property": { "type": "string" },
+                  "property": {
+                    "type": "string"
+                  },
                   "diagnostics": {
                     "type": "array",
-                    "items": { "type": "string" }
+                    "items": {
+                      "type": "string"
+                    }
                   },
                   "weight": {
                     "type": "string",
-                    "enum": ["high", "medium", "low"]
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ]
                   }
                 },
                 "additionalProperties": false
@@ -386,8 +459,15 @@
           "type": "object",
           "description": "Ordering relation that explains which projections are licensed; required for secured: networked",
           "properties": {
-            "ordering": { "type": "string" },
-            "evidence": { "type": "string" }
+            "ordering": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "string"
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
           },
           "additionalProperties": false
         },
@@ -396,13 +476,21 @@
           "description": "Named maintainers with evidence bearing on the removal counterfactual; required for secured: maintained",
           "items": {
             "type": "object",
-            "required": ["type", "evidence"],
+            "required": [
+              "type",
+              "evidence"
+            ],
             "properties": {
               "type": {
                 "type": "string",
                 "minLength": 1
               },
-              "evidence": { "type": "string" }
+              "evidence": {
+                "type": "string"
+              },
+              "grounds": {
+                "$ref": "#/definitions/grounds"
+              }
             },
             "additionalProperties": false
           }
@@ -417,7 +505,12 @@
           "properties": {
             "perturbations": {
               "type": "array",
-              "items": { "type": "string" }
+              "items": {
+                "type": "string"
+              }
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
             }
           },
           "additionalProperties": false
@@ -426,10 +519,21 @@
           "type": "object",
           "description": "Strict corrective control, the only tier that earns 'homeostatic'; all four marks required for secured: controlled",
           "properties": {
-            "perturbation": { "type": "string" },
-            "coupled-relation": { "type": "string" },
-            "response": { "type": "string" },
-            "preserved-relation": { "type": "string" }
+            "perturbation": {
+              "type": "string"
+            },
+            "coupled-relation": {
+              "type": "string"
+            },
+            "response": {
+              "type": "string"
+            },
+            "preserved-relation": {
+              "type": "string"
+            },
+            "grounds": {
+              "$ref": "#/definitions/grounds"
+            }
           },
           "additionalProperties": false
         },
@@ -440,15 +544,24 @@
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["context", "effect"],
+                "required": [
+                  "context",
+                  "effect"
+                ],
                 "properties": {
-                  "context": { "type": "string" },
-                  "effect": { "type": "string" }
+                  "context": {
+                    "type": "string"
+                  },
+                  "effect": {
+                    "type": "string"
+                  }
                 },
                 "additionalProperties": false
               }
             },
-            "speaker_variation": { "type": "string" }
+            "speaker_variation": {
+              "type": "string"
+            }
           },
           "additionalProperties": false
         },
@@ -457,11 +570,15 @@
           "properties": {
             "overlaps_with": {
               "type": "array",
-              "items": { "type": "string" }
+              "items": {
+                "type": "string"
+              }
             },
             "known_boundary_items": {
               "type": "array",
-              "items": { "type": "string" }
+              "items": {
+                "type": "string"
+              }
             }
           },
           "additionalProperties": false
@@ -471,11 +588,17 @@
           "properties": {
             "level": {
               "type": "string",
-              "enum": ["micro", "meso", "macro"]
+              "enum": [
+                "micro",
+                "meso",
+                "macro"
+              ]
             },
             "parent_families": {
               "type": "array",
-              "items": { "type": "string" }
+              "items": {
+                "type": "string"
+              }
             }
           },
           "additionalProperties": false
@@ -483,13 +606,69 @@
         "coupling": {
           "type": "object",
           "properties": {
-            "linked_cluster": { "type": "string" },
-            "mechanism": { "type": "string" }
+            "linked_cluster": {
+              "type": "string"
+            },
+            "mechanism": {
+              "type": "string"
+            }
           },
           "additionalProperties": false
         }
       },
       "additionalProperties": false
+    },
+    "grounds": {
+      "$ref": "#/definitions/grounds"
+    }
+  },
+  "definitions": {
+    "grounds": {
+      "type": "array",
+      "description": "Typed links to ground sources (data/sources.yaml); see docs/evidence-grounding.md",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "relation"
+        ],
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "cites",
+              "attests",
+              "adjudicates",
+              "derives-from",
+              "contradicts",
+              "discusses"
+            ]
+          },
+          "bears-on": {
+            "type": "string",
+            "enum": [
+              "category-assignment",
+              "attestation",
+              "projection",
+              "stability",
+              "network",
+              "maintenance",
+              "control"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
     }
   }
 }

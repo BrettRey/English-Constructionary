@@ -71,6 +71,45 @@ try {
     });
   }
 
+  // Grounds resolution: every grounds[].source must exist in data/sources.yaml
+  const sourcesPath = path.join(__dirname, '../data/sources.yaml');
+  if (fs.existsSync(sourcesPath)) {
+    const registry = yaml.load(fs.readFileSync(sourcesPath, 'utf8'));
+    const knownSources = new Set(Object.keys((registry && registry.sources) || {}));
+    const collectGrounds = (node, found) => {
+      if (Array.isArray(node)) {
+        node.forEach((child) => collectGrounds(child, found));
+      } else if (node && typeof node === 'object') {
+        if (Array.isArray(node.grounds)) {
+          node.grounds.forEach((g) => found.push(g));
+        }
+        Object.entries(node).forEach(([key, child]) => {
+          if (key !== 'grounds') collectGrounds(child, found);
+        });
+      }
+    };
+    const checkFile = (label, doc) => {
+      const found = [];
+      collectGrounds(doc, found);
+      found.forEach((g) => {
+        if (g && g.source && !knownSources.has(g.source)) {
+          console.error(`\n${label}: grounds source '${g.source}' not in data/sources.yaml`);
+          errorCount += 1;
+        }
+      });
+    };
+    files.forEach((file) => {
+      try {
+        checkFile(file, yaml.load(fs.readFileSync(path.join(constructionsDir, file), 'utf8')));
+      } catch (parseError) { /* already reported above */ }
+    });
+    if (fs.existsSync(overridesPath)) {
+      try {
+        checkFile('data/lexicon/overrides.yaml', yaml.load(fs.readFileSync(overridesPath, 'utf8')));
+      } catch (parseError) { /* already reported above */ }
+    }
+  }
+
   if (errorCount > 0) {
     console.error(`\n${errorCount} file(s) failed validation.`);
     process.exit(1);

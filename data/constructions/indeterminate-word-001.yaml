@@ -47,3 +47,7 @@ relatedConstructions:
 lexiconRefs:
   - gold/pronouns
   - gold/determinatives
+grounds:
+  - source: kuroda-1965
+    relation: cites
+    note: "Indeterminate as the term for the analogous Japanese series"

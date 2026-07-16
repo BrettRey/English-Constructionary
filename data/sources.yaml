@@ -1,0 +1,55 @@
+# Ground-source registry for typed evidence links (see docs/evidence-grounding.md).
+# Every `grounds[].source` in constructions and lexicon records must resolve here.
+# agent judgment is NOT a source type: it can't be checked or replicated (Brett,
+# 2026-07-16); agent-drafted claims stay ungrounded until real ground attaches.
+sources:
+  cgel-2002:
+    type: reference-grammar
+    citation: "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP"
+  reynolds-2026-numerals:
+    type: paper
+    citation: "Reynolds, Brett (2026), The lexicon-syntax boundary in English numerals: cardinals, ordinals, and fractionals. English Language & Linguistics"
+    doi: "10.1017/S1360674325100518"
+  reynolds-deitality:
+    type: paper
+    citation: "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)"
+    url: "https://ling.auf.net/lingbuzz/009369"
+    status: under-review
+  reynolds-kinship:
+    type: paper
+    citation: "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)"
+    url: "https://ling.auf.net/lingbuzz/009751"
+    status: under-review
+  reynolds-stable-cluster:
+    type: paper
+    citation: "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)"
+  goldberg-1995:
+    type: paper
+    citation: "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press"
+  kuroda-1965:
+    type: paper
+    citation: "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation"
+  wiktionary-simple:
+    type: dictionary
+    citation: "Simple English Wiktionary, wiktextract extraction via kaikki.org"
+    url: "https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz"
+    version: "retrieved 2026-07-16"
+  wiktionary-en:
+    type: dictionary
+    citation: "English Wiktionary, wiktextract extraction via kaikki.org"
+    url: "https://kaikki.org/dictionary/English/"
+    version: "enwiktionary dump 2026-07-06"
+  coca:
+    type: corpus
+    citation: "Davies, Mark (2008-), The Corpus of Contemporary American English"
+    access-note: "agent wrapper blocked (Cloudflare, 2026-07-12); Brett supplies queries and counts by hand"
+  cgelbank:
+    type: treebank
+    citation: "Reynolds, Arora & Schneider (2023), CGELBank"
+    url: "https://github.com/nert-nlp/cgel"
+  childes:
+    type: corpus
+    citation: "MacWhinney, Brian, The CHILDES Project"
+  brett-judgment:
+    type: author-judgment
+    citation: "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"

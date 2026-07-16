@@ -131,6 +131,24 @@ for (const file of files) {
     if (kind.secured === 'maintained' && !Array.isArray(kind.stabilisers)) {
       warn(file, "kind.secured is 'maintained' but no stabilisers are recorded");
     }
+    // Ground-presence (transitional): if any kind-level grounds exist, the
+    // secured tier needs a link bearing on its rung.
+    const tierBearsOn = { stable: 'stability', networked: 'network', maintained: 'maintenance', controlled: 'control' };
+    if (kind.secured && tierBearsOn[kind.secured]) {
+      const kindGrounds = [];
+      const collect = (node) => {
+        if (Array.isArray(node)) node.forEach(collect);
+        else if (node && typeof node === 'object') {
+          if (Array.isArray(node.grounds)) kindGrounds.push(...node.grounds);
+          Object.values(node).forEach(collect);
+        }
+      };
+      collect(kind);
+      if (kindGrounds.length > 0 && !kindGrounds.some((g) => g && g['bears-on'] === tierBearsOn[kind.secured])) {
+        warn(file, `kind.secured is '${kind.secured}' but no kind-level grounds bear on ${tierBearsOn[kind.secured]}`);
+      }
+    }
+
     if (kind.secured === 'controlled') {
       const control = kind.control || {};
       const marks = ['perturbation', 'coupled-relation', 'response', 'preserved-relation'];

@@ -71,3 +71,7 @@ relatedConstructions:
     notes: Sister semantic roles within the locative-complement family
 lexiconRefs:
   - gold/prepositions
+grounds:
+  - source: goldberg-1995
+    relation: cites
+    note: "Intransitive motion construction; coercion of manner verbs"

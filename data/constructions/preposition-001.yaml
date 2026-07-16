@@ -10,14 +10,14 @@ dimensions:
 meanings:
   '1':
     definition: Lexical category heading preposition phrases, with optional complements for much of the class
-    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs), the exceptional heads that follow their complement (notwithstanding and ago), and clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
+    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare complement-head members (notwithstanding), and clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
     examples:
       - form: "[in] the garden"
         note: "Transitive: the garden bears the object function within the PP"
       - form: "She waited [outside]."
         note: Intransitive use (no object)
-      - form: "[ten years ago]"
-        note: "Exceptional complement-head order: the obligatory NP ten years is complement of the preposition ago (CGEL p. 632)"
+      - form: "ten years [ago]"
+        note: "Intransitive, with an obligatory pre-head measure modifier (cf. ten years before Christ); the Constructionary rejects CGEL's complement analysis on p. 632"
       - form: "[because] it rained"
         note: Clause complement (traditional subordinating conjunction)
 constraints:

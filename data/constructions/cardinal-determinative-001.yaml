@@ -31,3 +31,7 @@ relatedConstructions:
     relationship: related-to
 lexiconRefs:
   - gold/determinatives
+grounds:
+  - source: reynolds-2026-numerals
+    relation: cites
+    bears-on: category-assignment

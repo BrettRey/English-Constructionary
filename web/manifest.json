@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T20:22:01.318Z",
+  "generatedAt": "2026-07-16T20:37:12.613Z",
   "sections": [
     {
       "id": "project",
@@ -4287,7 +4287,7 @@
         {
           "id": null,
           "title": "ago",
-          "subtitle": "preposition (post-complement-head)",
+          "subtitle": "preposition (intransitive)",
           "path": "/data/lexicon/gold/prepositions.yaml",
           "kind": "lexeme",
           "lexeme": {
@@ -4312,9 +4312,9 @@
               "confidence": "high",
               "tests": [
                 {
-                  "test": "obligatory preceding dependent",
-                  "result": "obligatoriness diagnoses complement rather than optional measure modifier",
-                  "example": "[ten years ago] / *I went [ago]"
+                  "test": "pre-head measure modifier",
+                  "result": "obligatory; a modifier, not an object or other complement",
+                  "example": "ten years [ago] / *I went [ago]; cf. ten years [before Christ]"
                 },
                 {
                   "test": "adverb modification",
@@ -4322,10 +4322,10 @@
                 }
               ],
               "references": [
-                "CGEL Ch. 7 §4.2, p. 632"
+                "CGEL Ch. 7 §2.4, p. 613 (measure-modifier parallel); contra Ch. 7 §4.2, p. 632"
               ],
-              "notes": "Exceptional preposition that invariably follows its obligatory NP complement: [ten years] ago",
-              "subclass": "post-complement-head"
+              "notes": "Intransitive, with an obligatory pre-head measure modifier (ten years ago; cf. ten years before Christ). Not postposed: contrast notwithstanding, whose preposed NP is a complement",
+              "subclass": "intransitive"
             }
           },
           "relations": [],
@@ -20377,6 +20377,15 @@
           "title": "SCHEMA.md",
           "subtitle": "",
           "path": "/docs/SCHEMA.md",
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "evidence-grounding.md",
+          "subtitle": "",
+          "path": "/docs/evidence-grounding.md",
           "kind": "markdown",
           "relations": [],
           "incomingRelations": []

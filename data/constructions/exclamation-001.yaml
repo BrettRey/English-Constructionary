@@ -73,3 +73,8 @@ relatedConstructions:
   - id: vocative-001
     relationship: can-manifest-as
     notes: Only via the summons/call use
+grounds:
+  - source: cgel-2002
+    locator: "p. 923"
+    relation: discusses
+    note: "CGEL treats exclamation as structurally nebulous; this entry proposes a cross-form pragmatic profile"

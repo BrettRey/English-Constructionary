@@ -67,3 +67,9 @@ relatedConstructions:
   - id: exclamation-001
     relationship: overlaps-with
     overlap-dimension: functional
+grounds:
+  - source: cgel-2002
+    locator: "pp. 522-23"
+    relation: cites
+    bears-on: category-assignment
+    note: "Vocative function licenses restricted bare common-noun NPs"

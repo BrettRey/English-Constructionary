@@ -38,3 +38,7 @@ relatedConstructions:
     relationship: contains
   - id: numerative-basic-lexeme-001
     relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    relation: cites
+    bears-on: category-assignment

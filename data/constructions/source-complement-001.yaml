@@ -33,7 +33,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "An integrated motion or change VP containing a locative PP headed by from, away, off, or out predicts an initial-location construal, head-specific complementation, and compatibility with a separate goal-role complement"
+    target: "In their central motion uses, integrated locative PPs headed by from, away, off, or out predict an initial-location construal, head-specific complementation, and compatibility with a separate goal-role complement"
     evidence: "CGEL gives the four-head realization inventory and its distinct complement patterns on p. 687; spatial, state, and possession examples distinguish initial-location source from final-location goal on pp. 258–60"
     confidence: medium
   secured: stable
@@ -51,6 +51,7 @@ kind:
         weight: medium
   boundaries:
     known_boundary_items:
+      - "Away from can express retrospective direction, and off has restricted goal uses; the containing event distinguishes these from the central source uses"
       - "path or route complements such as through the tunnel and via Chicago: a third locative-role family member, with no entry yet"
       - "derivational sources such as made from grapes: extension beyond literal motion"
   grain:
