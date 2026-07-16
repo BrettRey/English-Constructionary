@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:41:24.808Z",
+  "generatedAt": "2026-07-16T19:41:50.357Z",
   "sections": [
     {
       "id": "project",
@@ -289,6 +289,21 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "neither-nor-coordination-001",
+              "title": "neither-nor-coordination-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-addition-asyndetic-001",
+              "title": "numerative-addition-asyndetic-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "numerative-addition-coordination-001",
+              "title": "numerative-addition-coordination-001",
+              "relationship": "specialization-of"
+            },
             {
               "id": "phrase-001",
               "title": "phrase-001",
@@ -1337,6 +1352,11 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "coordination-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
               "id": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
@@ -1896,6 +1916,11 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "coordination-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
               "id": "numerative-basic-lexeme-001",
               "relationship": "contains"
             },
@@ -1932,6 +1957,11 @@
           "path": "/data/constructions/numerative-addition-coordination-001.yaml",
           "kind": "yaml",
           "relations": [
+            {
+              "id": "coordination-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
             {
               "id": "numerative-basic-lexeme-001",
               "relationship": "contains"

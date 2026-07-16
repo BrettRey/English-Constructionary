@@ -18,6 +18,9 @@ constraints:
 formRefs:
   - neither-nor-correlative
 relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
   - id: absolute-negator-determinative-001
     relationship: related-to
 lexiconRefs:

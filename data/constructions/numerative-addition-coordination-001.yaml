@@ -28,6 +28,9 @@ semanticRefs:
 syntacticRefs:
   - coordination-ellipsis-numerative
 relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
   - id: numerative-basic-lexeme-001
     relationship: contains
   - id: numerative-factor-modifier-001
