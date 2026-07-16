@@ -81,3 +81,5 @@ relatedConstructions:
     notes: Deitality is the structural profile that ranks and organizes the determination system's diagnostics
   - id: np-def-001
     relationship: related-to
+lexiconRefs:
+  - gold/determinatives

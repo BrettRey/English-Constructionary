@@ -44,3 +44,6 @@ relatedConstructions:
   - id: deitality-001
     relationship: interfaces-with
     notes: "Deitality status varies by packaging: ignorance-reading fused relatives pattern deitally; free-choice readings are mixed; exclamative uses are non-deital (Reynolds, deitality inventory)"
+lexiconRefs:
+  - gold/pronouns
+  - gold/determinatives

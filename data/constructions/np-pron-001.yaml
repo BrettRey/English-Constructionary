@@ -57,3 +57,5 @@ relatedConstructions:
     relationship: specialization-of
   - id: np-pron-dummy-001
     relationship: specialization-of
+lexiconRefs:
+  - gold/pronouns

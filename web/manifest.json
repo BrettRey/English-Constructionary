@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T17:32:05.285Z",
+  "generatedAt": "2026-07-16T17:43:27.063Z",
   "sections": [
     {
       "id": "project",
@@ -3096,6 +3096,81 @@
           "title": "syntactic-diagnostics.yaml",
           "subtitle": "",
           "path": "/data/indices/syntactic-diagnostics.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        }
+      ]
+    },
+    {
+      "id": "lexicon",
+      "label": "Lexicon",
+      "items": [
+        {
+          "id": null,
+          "title": "README.md",
+          "subtitle": "",
+          "path": "/data/lexicon/README.md",
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "overrides.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/overrides.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "pos-defaults.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/pos-defaults.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        }
+      ]
+    },
+    {
+      "id": "lexicon-gold",
+      "label": "Lexicon: gold lists",
+      "items": [
+        {
+          "id": null,
+          "title": "conjunctions.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/gold/conjunctions.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "determinatives.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/gold/determinatives.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "prepositions.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/gold/prepositions.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "pronouns.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/gold/pronouns.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []

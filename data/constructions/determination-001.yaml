@@ -99,3 +99,5 @@ kind:
   coupling:
     linked_cluster: "semantic definiteness"
     mechanism: "historical grammaticalization + discourse-pragmatic alignment"
+lexiconRefs:
+  - gold/determinatives

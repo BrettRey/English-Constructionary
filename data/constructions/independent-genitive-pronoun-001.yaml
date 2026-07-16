@@ -72,3 +72,5 @@ semanticRefs:
   - measure
   - agent
   - social-role
+lexiconRefs:
+  - gold/pronouns

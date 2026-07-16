@@ -73,3 +73,7 @@ items:
   - "yourselves"
 notes:
   - "CGEL-clean: genitive pronouns included; -body/-one/-thing compounds absent (they are determinatives)."
+constructions:
+  - np-pron-001
+  - independent-genitive-pronoun-001
+  - indeterminate-word-001

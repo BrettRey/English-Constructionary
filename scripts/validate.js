@@ -42,6 +42,35 @@ try {
     }
   });
 
+  // Lexicon layer: overrides validated against their own schema; gold lists parse-checked
+  const lexiconSchemaPath = path.join(__dirname, '../data/schemas/lexicon-override.json');
+  const overridesPath = path.join(__dirname, '../data/lexicon/overrides.yaml');
+  if (fs.existsSync(lexiconSchemaPath) && fs.existsSync(overridesPath)) {
+    const lexiconValidate = ajv.compile(JSON.parse(fs.readFileSync(lexiconSchemaPath, 'utf8')));
+    try {
+      const overrides = yaml.load(fs.readFileSync(overridesPath, 'utf8'));
+      if (!lexiconValidate(overrides)) {
+        console.error('\ndata/lexicon/overrides.yaml failed schema validation:');
+        lexiconValidate.errors.forEach((error) => console.error(formatError(error)));
+        errorCount += 1;
+      }
+    } catch (parseError) {
+      console.error(`\ndata/lexicon/overrides.yaml failed YAML parsing: ${parseError.message}`);
+      errorCount += 1;
+    }
+  }
+  const goldDir = path.join(__dirname, '../data/lexicon/gold');
+  if (fs.existsSync(goldDir)) {
+    fs.readdirSync(goldDir).filter((file) => file.endsWith('.yaml')).forEach((file) => {
+      try {
+        yaml.load(fs.readFileSync(path.join(goldDir, file), 'utf8'));
+      } catch (parseError) {
+        console.error(`\ndata/lexicon/gold/${file} failed YAML parsing: ${parseError.message}`);
+        errorCount += 1;
+      }
+    });
+  }
+
   if (errorCount > 0) {
     console.error(`\n${errorCount} file(s) failed validation.`);
     process.exit(1);

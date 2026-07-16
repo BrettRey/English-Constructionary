@@ -32,3 +32,5 @@ relatedConstructions:
   - id: absolute-negator-determinative-001
     relationship: related-to
     notes: Absolute negators standing alone as NPs instantiate this construction
+lexiconRefs:
+  - gold/determinatives

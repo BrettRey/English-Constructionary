@@ -28,3 +28,5 @@ relatedConstructions:
     notes: Same determinative no in dependent (determiner) function
   - id: never-adv-negation-001
     relationship: related-to
+lexiconRefs:
+  - gold/determinatives

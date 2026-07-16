@@ -302,6 +302,15 @@
       }
     },
 
+    "lexiconRefs": {
+      "type": "array",
+      "description": "References into data/lexicon/ (gold-list files or override records) giving the lexical membership relevant to this construction, e.g. 'gold/determinatives'",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+
     "kind": {
       "type": "object",
       "description": "Projectibility-first kind metadata: what the category licenses us to project, and which securing tier the recorded evidence reaches. Replaces the legacy 'hpc' block (2026-07-16).",

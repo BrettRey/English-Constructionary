@@ -40,3 +40,6 @@ split:
     - "yet"
 notes:
   - "Only unambiguous CGEL coordinators and the small subordinator class pre-assigned; the residue (as well as, rather than, instead of, whilst, iff, plus, slash, et, how, for, so, yet, whether or not, if and only if, including, along with, a priori-adjacent items) needs item-by-item adjudication with tests."
+constructions:
+  - neither-nor-coordination-001
+  - numerative-addition-coordination-001

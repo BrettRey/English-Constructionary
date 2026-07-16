@@ -29,3 +29,5 @@ relatedConstructions:
     relationship: related-to
   - id: determination-001
     relationship: related-to
+lexiconRefs:
+  - gold/determinatives

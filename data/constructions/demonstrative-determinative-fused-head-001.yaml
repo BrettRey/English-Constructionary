@@ -20,3 +20,5 @@ relatedConstructions:
   - id: deitality-001
     relationship: related-to
     notes: The demonstratives are the prototype of the deital profile
+lexiconRefs:
+  - gold/determinatives

@@ -20,3 +20,5 @@ formRefs:
 relatedConstructions:
   - id: absolute-negator-determinative-001
     relationship: related-to
+lexiconRefs:
+  - gold/conjunctions

@@ -42,6 +42,7 @@ Each construction is one YAML file in `data/constructions/`, named after its `id
 - `constraints` — typed restrictions (`syntactic`, `semantic`, `pragmatic`, …) with descriptions.
 - `relatedConstructions` — links to other entries (see Relations below).
 - `semanticRefs`, `formRefs`, `syntacticRefs` — pointers into the shared registries in `data/indices/` (semantic features, form features, syntactic diagnostics).
+- `lexiconRefs` — pointers into `data/lexicon/` gold lists giving the construction's lexical membership.
 - `kind` — projectibility-first kind metadata: `projection` (target, evidence, confidence), `secured` (tier reached), `failure-mode` (thin/fat/negative), `profile` (core and peripheral properties with diagnostics), `network`, `stabilisers`, `maintenance`, `control`, `boundaries`, `grain`. Use `provisional: true` for exploratory metadata. See `docs/SCHEMA.md` and `docs/projectibility-first.md`.
 
 ### Examples and bracket notation

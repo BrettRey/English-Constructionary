@@ -38,3 +38,5 @@ relatedConstructions:
     relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to
+lexiconRefs:
+  - gold/conjunctions

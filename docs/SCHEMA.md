@@ -177,6 +177,7 @@ Meanings can reference these relations via their `relations` array.
 - `semanticRefs`: list of IDs in `data/indices/semantic-features.yaml` relevant to the construction.
 - `formRefs`: list of IDs in `data/indices/form-features.yaml` relevant to the construction.
 - `syntacticRefs`: list of IDs in `data/indices/syntactic-diagnostics.yaml` relevant to the construction.
+- `lexiconRefs`: references into `data/lexicon/` (e.g. `gold/determinatives`) giving the construction's lexical membership; gold files carry reciprocal `constructions:` pointers.
 
 ## Kind Metadata (`kind`)
 Use `kind` to record the kind claim for an entry: what the category licenses us to project, and which securing tier the recorded evidence has reached. The block replaces the earlier `hpc` block (renamed 2026-07-16); the migration mapping is at the end of this section.

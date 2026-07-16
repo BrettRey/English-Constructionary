@@ -105,6 +105,20 @@ const manifest = {
       includeMeta: false
     }),
     buildSection({
+      id: 'lexicon',
+      label: 'Lexicon',
+      dir: 'data/lexicon',
+      exts: ['.yaml', '.md'],
+      includeMeta: false
+    }),
+    buildSection({
+      id: 'lexicon-gold',
+      label: 'Lexicon: gold lists',
+      dir: 'data/lexicon/gold',
+      exts: ['.yaml'],
+      includeMeta: false
+    }),
+    buildSection({
       id: 'schemas',
       label: 'Schemas',
       dir: 'data/schemas',
