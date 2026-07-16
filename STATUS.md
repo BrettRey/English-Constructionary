@@ -50,8 +50,8 @@ See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry q
 - [x] Add morphological strategies index
 - [x] Public deployment (GitHub Pages) + CI + CONTRIBUTING
 - [x] Migrate `hpc` metadata to projectibility-first `kind` blocks
-- [ ] Review remaining entries for CGEL alignment (Codex audit dispatched 2026-07-16)
-- [ ] Add projection targets to `directive-ostensive-001` and `vocative-001` (lint warns)
+- [x] Review remaining entries for CGEL alignment (Codex audit triaged 2026-07-16; 26 findings resolved)
+- [x] Add projection targets to `directive-ostensive-001` and `vocative-001`
 - [ ] Rung-by-rung review of migrated `secured: stable` assignments (all provisional)
 - [ ] Split `adjective-001` (failure-mode: fat)
 - [ ] Expand to clausal constructions
