@@ -6,7 +6,7 @@ dimensions:
   form: "Verb with a goal-denoting PP complement; the PP may be headed by a transitive preposition (to the shop, into the cave) or a bare intransitive preposition (home, abroad, ashore)"
   meaning: "Directed motion toward a goal; the frame can impose the motion reading"
   function: "Goal complement of the verb"
-  distribution: "VP-internal with motion verbs (go, come, head, run, arrive) and coerced manner verbs; also PP-internal, as complement of path prepositions (off to school, back to the start) - provisional"
+  distribution: "VP-internal with motion verbs (go, come, head, run, arrive) and coerced manner verbs; PP-internal status unresolved (off to school: either off heads a PP with a to-PP goal complement, or off and to school are distinct PPs)"
 meanings:
   '1':
     definition: A verb takes a goal-denoting PP complement, yielding directed motion toward the goal
@@ -21,7 +21,7 @@ meanings:
       - form: "The sailors went [ashore]."
         note: Bare-PP goal
       - form: "She headed back [to the start]."
-        note: "PP-internal host: the to-PP is a goal complement of the preposition back (provisional; cf. off to school, down to the river)"
+        note: "Analysis open: either back heads a PP taking the to-PP as goal complement, or back and to the start are distinct PPs (intransitive path PP + goal PP). Unit fronting (Off to school she went) and fragment answers favour the first; mutual optionality and separability (Off she went to school) favour the second. The out-from-under source case seems tighter, so the class may not be uniform."
   '2':
     definition: The frame coerces a directed-motion reading onto verbs without lexical motion semantics
     details: "The constructional residue: manner verbs contribute manner while the frame supplies the motion and the goal (Goldberg 1995, the intransitive motion construction). This licensing does not follow from any lexeme's category or valency, which is what earns the frame its own entry."
@@ -57,6 +57,7 @@ kind:
       evidence: "Very high frequency of go/come + goal anchors the frame"
   boundaries:
     known_boundary_items:
+      - "off/back/down + to-PP sequences: single PP with goal complement vs two stacked PPs, unresolved"
       - "the way-construction (She elbowed her way in): related but distinct frame"
       - "caused-motion (He sneezed the napkin off the table): transitive sister frame"
       - "here/there as deictic goals (wider distribution; classification pending)"
