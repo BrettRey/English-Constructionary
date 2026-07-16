@@ -53,7 +53,7 @@ kind:
       - "here/there (deictic goals with wider distribution)"
 relatedConstructions:
   - id: intransitive-preposition-001
-    relationship: often-contains
+    relationship: contains
     parthood: formal
     notes: The goal slot is filled by locative intransitive prepositions
   - id: preposition-001

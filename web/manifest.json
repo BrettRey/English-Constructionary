@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:17:32.116Z",
+  "generatedAt": "2026-07-16T18:17:58.607Z",
   "sections": [
     {
       "id": "project",
@@ -148,7 +148,7 @@
           "relations": [
             {
               "id": "intransitive-preposition-001",
-              "relationship": "often-contains",
+              "relationship": "contains",
               "parthood": "formal",
               "notes": "The goal slot is filled by locative intransitive prepositions"
             },
@@ -1021,7 +1021,7 @@
             {
               "id": "bare-goal-complement-001",
               "title": "bare-goal-complement-001",
-              "relationship": "often-contains"
+              "relationship": "contains"
             }
           ]
         },
