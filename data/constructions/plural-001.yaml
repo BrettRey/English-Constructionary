@@ -1,6 +1,6 @@
 id: plural-001
 name: Plural Construction
-pattern: Applies to nouns, pronouns, determinatives, and proper names
+pattern: Applies to common and proper nouns, pronouns, and determinatives
 type: morphological
 dimensions:
   form: "Plural morphology (-s, -es, irregular, zero); agreement marking"

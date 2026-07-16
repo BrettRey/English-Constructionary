@@ -1,10 +1,10 @@
 id: np-proper-001
 name: Proper Noun Phrase
-pattern: NP[Head:ProperName]
+pattern: "NP[Head:N[proper]]"
 type: syntactic
 meanings:
   '1':
-    definition: NP headed by a proper name identifying a unique entity
+    definition: NP whose nominal head is a proper noun; prototypically used as a proper name identifying a unique entity
     examples:
       - form: London
         note: Proper name NP

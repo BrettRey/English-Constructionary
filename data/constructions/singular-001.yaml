@@ -1,6 +1,6 @@
 id: singular-001
 name: Singular Construction
-pattern: Applies to nouns, pronouns, determinatives, and proper names
+pattern: Applies to common and proper nouns, pronouns, and determinatives
 type: morphological
 dimensions:
   form: "Singular morphology (often zero); singular agreement marking"

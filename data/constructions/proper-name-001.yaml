@@ -57,7 +57,7 @@ relatedConstructions:
   - id: np-proper-001
     relationship: can-manifest-as
     parthood: formal
-    notes: Proper names are formally realized as proper NPs
+    notes: Proper names can be realized as proper-noun-headed NPs
 semanticRefs:
   - honorific
   - title

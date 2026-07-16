@@ -9,7 +9,7 @@ dimensions:
   distribution: "Subject, object, complement positions; typically without determiner"
 meanings:
   '1':
-    definition: Cardinal noun functions as a proper noun to identify a unique entity through direct reference
+    definition: A cardinal proper noun heads a bare NP used as a proper name, identifying a unique entity through direct reference
     examples:
       - form: Room 101
         note: Numerical label identifying a specific room

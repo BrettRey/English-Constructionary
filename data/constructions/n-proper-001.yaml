@@ -1,9 +1,9 @@
 id: n-proper-001
 name: Proper Noun
-pattern: Capitalized noun root [A-Z][a-z]+
+pattern: "N[proper]"
 type: syntactic
 dimensions:
-  form: "Capitalized noun root; morphologically simple or compound"
+  form: "Noun specialized to head proper names; morphologically simple or compound. Normally written with an initial capital, subject to lexical and stylistic exceptions."
   meaning: "Individual-specific, archetypal, institutional, or geographical features"
   function: "Head of proper NP; licenses bare NP without determiner"
   distribution: "Heads Nom in proper NPs; modifier position in N-N compounds"

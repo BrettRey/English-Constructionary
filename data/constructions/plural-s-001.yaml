@@ -28,7 +28,7 @@ meanings:
       - 1
   '4':
     implements: plural-001.2
-    specialization: Forms common nouns denoting groups from proper names
+    specialization: Forms common nouns denoting groups from proper nouns used as names
     examples:
       - form: the Kennedys
         note: Kennedy family/dynasty members
