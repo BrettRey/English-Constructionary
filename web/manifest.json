@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:28:22.439Z",
+  "generatedAt": "2026-07-16T18:47:44.020Z",
   "sections": [
     {
       "id": "project",
@@ -12643,7 +12643,7 @@
               "references": [
                 "CGEL Ch. 7"
               ],
-              "notes": "Traditional 'adverb' use is the intransitive (complement-less) use of the same preposition",
+              "notes": "Traditional 'adverb' use is the intransitive (objectless) use of the same preposition",
               "subclass": "intransitive"
             }
           },

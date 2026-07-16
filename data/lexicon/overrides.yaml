@@ -32,7 +32,7 @@ records:
     cgel:
       category: preposition
       subclass: intransitive
-      notes: "Traditional 'adverb' use is the intransitive (complement-less) use of the same preposition"
+      notes: "Traditional 'adverb' use is the intransitive (objectless) use of the same preposition"
     provenance: gold-list
     tests:
       - test: "optional NP complement"

@@ -13,7 +13,7 @@ meanings:
     details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), the intransitive members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare postposed-complement members (notwithstanding), and the clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
     examples:
       - form: "[in] the garden"
-        note: Transitive, NP complement
+        note: "Transitive: the garden bears the object function within the PP"
       - form: "She waited [outside]."
         note: Intransitive use (no complement)
       - form: "ten years [ago]"
