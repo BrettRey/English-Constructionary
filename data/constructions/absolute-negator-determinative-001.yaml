@@ -1,0 +1,30 @@
+id: absolute-negator-determinative-001
+name: Absolute Negator Determinatives
+pattern: "NP[absolute negator determinative as fused head]"
+type: syntactic
+meanings:
+  '1':
+    definition: Encodes clausal negation via an NP headed by an absolute negator determinative in fused determiner-head function
+    details: "CGEL (Ch. 9, §3.2) treats no and none as dependent and independent forms of the determinative no, and nobody, no one, nothing, nowhere, no place as single-word compounds of no. These are determinatives, not pronouns; standing alone as NPs they occupy fused determiner-head function."
+    examples:
+      - form: "[Nobody] knew where Kim was."
+        note: Compound determinative as negative subject
+      - form: "Kim had done [nothing] about it."
+        note: Compound determinative as negative object
+      - form: "We liked [none] of them."
+        note: Independent form of the determinative no
+constraints:
+  - type: syntactic
+    description: Negative property percolates from the negator NP to the clause.
+  - type: semantic
+    description: Alternates with verbal negation plus any/either/ever (e.g., "didn't do anything").
+formRefs:
+  - absolute-negator-compound
+syntacticRefs:
+  - clause-polarity-diagnostics
+relatedConstructions:
+  - id: no-determiner-001
+    relationship: related-to
+    notes: Same determinative no in dependent (determiner) function
+  - id: never-adv-negation-001
+    relationship: related-to

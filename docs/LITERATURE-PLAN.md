@@ -59,7 +59,7 @@
 Status: Completed for numeratives core (cardinal, ordinal, fractional).
 
 ## Batch 2 (Next): Negation Refinements
-Status: Completed (secondary verbal negation, absolute negator pronouns, neither/nor coordination, polarity diagnostics).
+Status: Completed (secondary verbal negation, absolute negator determinatives, neither/nor coordination, polarity diagnostics).
 
 ## Batch 3 (Next): Determination/Deitality Expansion
 Status: Completed (subject and minor determiners added; determination entry updated with CGEL determiner types).

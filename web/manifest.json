@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T13:17:26.285Z",
+  "generatedAt": "2026-07-16T13:46:35.399Z",
   "sections": [
     {
       "id": "project",
@@ -51,15 +51,16 @@
           "incomingRelations": []
         },
         {
-          "id": "absolute-negator-pronoun-001",
-          "title": "absolute-negator-pronoun-001",
-          "subtitle": "Absolute Negator Pronouns",
-          "path": "/data/constructions/absolute-negator-pronoun-001.yaml",
+          "id": "absolute-negator-determinative-001",
+          "title": "absolute-negator-determinative-001",
+          "subtitle": "Absolute Negator Determinatives",
+          "path": "/data/constructions/absolute-negator-determinative-001.yaml",
           "kind": "yaml",
           "relations": [
             {
               "id": "no-determiner-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Same determinative no in dependent (determiner) function"
             },
             {
               "id": "never-adv-negation-001",
@@ -1001,7 +1002,7 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "absolute-negator-pronoun-001",
+              "id": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
           ],
@@ -1015,14 +1016,14 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "absolute-negator-pronoun-001",
+              "id": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
-              "id": "absolute-negator-pronoun-001",
-              "title": "absolute-negator-pronoun-001",
+              "id": "absolute-negator-determinative-001",
+              "title": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
           ]
@@ -1035,14 +1036,14 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "absolute-negator-pronoun-001",
+              "id": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
-              "id": "absolute-negator-pronoun-001",
-              "title": "absolute-negator-pronoun-001",
+              "id": "absolute-negator-determinative-001",
+              "title": "absolute-negator-determinative-001",
               "relationship": "related-to"
             }
           ]

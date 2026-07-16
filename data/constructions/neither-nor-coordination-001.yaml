@@ -18,5 +18,5 @@ constraints:
 formRefs:
   - neither-nor-correlative
 relatedConstructions:
-  - id: absolute-negator-pronoun-001
+  - id: absolute-negator-determinative-001
     relationship: related-to

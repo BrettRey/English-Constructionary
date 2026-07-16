@@ -94,7 +94,7 @@ form_features:
     notes:
       - "Fractionals are count nouns and inflect for number."
   absolute-negator-compound:
-    description: "Absolute negator pro-forms built with no- (and none)."
+    description: "Absolute negator compound determinatives built with no- (plus independent none)."
     members:
       - none
       - nobody
