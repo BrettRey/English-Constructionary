@@ -1,0 +1,83 @@
+id: deitality-001
+name: Deitality
+pattern: "Structural profile over determination: there-resistance + partitive domain establishment + identificational hosting"
+type: syntactic
+dimensions:
+  form: "Prototype: the demonstratives (this, that, these, those); core members include the, personal genitives, genitive NPs in determiner function; graded membership beyond the core"
+  meaning: "Strongly but imperfectly correlated with semantic definiteness; the correlation is leaky in principled ways"
+  function: "Domain establishment for reference; anchors partitive and identificational structure"
+  distribution: "Resists neutral existential there pivots; supplies the domain-establishing complement in true partitives; hosts identificational material"
+meanings:
+  '1':
+    definition: A structural (morphosyntactic) profile of English determination, distinct from semantic definiteness, for which English grammar previously had no agreed name
+    details: "Reynolds, Definiteness and Deitality in English (under review at Journal of Linguistics; LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of the). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory."
+    examples:
+      - form: "*There was [the] dog in the yard."
+        note: "There-resistance under neutral prosody (definiteness effect)"
+      - form: "two of [the] dogs / *two of [some] dogs (true partitive)"
+        note: Domain-establishing complement in a true partitive
+      - form: "[that] idiot Larry"
+        note: Identificational hosting
+constraints:
+  - type: syntactic
+    description: Membership is graded; status labels are deital, non-deital, mixed, and provisional (see the inventory index).
+kind:
+  provisional: true
+  projection:
+    target: "Locating a form or construction in the deital profile predicts which diagnostic residues survive semantic mismatch, which diagnostics split under prosodic and specificity manipulation, and where dialectal and acquisitional variation appears"
+    evidence: "Convergence of the ranked diagnostics across the core inventory; decoupling cases (weak definites, generic definites, narrative this, proper names) behave as the profile predicts"
+    confidence: high
+  secured: stable
+  profile:
+    core:
+      - property: "Resistance to neutral existential there pivots"
+        diagnostics: ["existential-there-pivot"]
+        weight: high
+      - property: "Domain establishment in true partitives"
+        diagnostics: ["partitive-of-complement"]
+        weight: high
+      - property: "Identificational hosting"
+        diagnostics: ["identificational-hosting"]
+        weight: high
+    peripheral:
+      - property: "Bare one-substitution residue"
+        diagnostics: ["one-substitution"]
+        weight: low
+  stabilisers:
+    - type: transmission
+      evidence: "Demonstrative > article grammaticalization; demonstratives are the profile's prototype and the historical source of the"
+    - type: acquisition
+      evidence: "Learners acquire deital distribution before full definiteness semantics"
+  maintenance:
+    perturbations:
+      - "Weak and generic definites weaken semantic definiteness while deital marking survives"
+      - "Narrative this recruits deital form for non-identifiable referents"
+  boundaries:
+    overlaps_with:
+      - grammatical-definiteness-001
+    known_boundary_items:
+      - "weak definites"
+      - "generic definites"
+      - "narrative this"
+      - "proper names"
+  grain:
+    level: meso
+    parent_families:
+      - np
+  coupling:
+    linked_cluster: "semantic definiteness"
+    mechanism: "Correlated kinds: strong, bidirectional, but imperfect alignment; the paper argues sources and stabilizers across timescales, so the maintained tier is plausible pending rung review"
+syntacticRefs:
+  - existential-there-pivot
+  - partitive-of-complement
+  - identificational-hosting
+  - one-substitution
+relatedConstructions:
+  - id: grammatical-definiteness-001
+    relationship: interfaces-with
+    notes: The correlated semantic kind; deital form cues definite interpretation, definite intention licenses deital form, with principled leaks
+  - id: determination-001
+    relationship: interfaces-with
+    notes: Deitality is the structural profile that ranks and organizes the determination system's diagnostics
+  - id: np-def-001
+    relationship: related-to

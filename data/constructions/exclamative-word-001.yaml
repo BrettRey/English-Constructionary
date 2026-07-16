@@ -1,0 +1,34 @@
+id: exclamative-word-001
+name: Exclamative Use of Indeterminates
+pattern: what/how (exclamative packaging)
+type: semantic
+dimensions:
+  form: "Only what and how from the indeterminate series; what a with singular count nouns"
+  meaning: "The open variable is packaged as evaluation against a contextual norm"
+  function: "Exclamatory assessment; marks remarkable degree or kind"
+  distribution: "Exclamative clauses (What children they are!, How fast she ran!) and exclamative NPs"
+meanings:
+  '1':
+    definition: Expresses evaluation of the variable's value against a contextual standard or expectation
+    details: "Membership is the tightest of the three packagings: what and how only. Exclamative uses pattern non-deitally on the deitality inventory; such (a) and so many/much pattern with them in exclamative NPs without being indeterminates."
+    examples:
+      - form: "[what] children"
+        note: Notable children (evaluation against norm)
+      - form: "[how] fast"
+        note: Remarkable speed
+      - form: "[What a] day it's been!"
+        note: Exclamative NP with singular count noun
+semanticRefs:
+  - variable
+  - evaluation
+formRefs:
+  - indeterminate-series
+relatedConstructions:
+  - id: indeterminate-word-001
+    relationship: specialization-of
+    parthood: semantic
+  - id: degree-001
+    relationship: related-to
+  - id: deitality-001
+    relationship: see-also
+    notes: Exclamative uses pattern non-deitally (Reynolds, deitality inventory)

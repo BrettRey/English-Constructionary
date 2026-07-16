@@ -132,3 +132,18 @@ form_features:
       - poultry
       - livestock
       - vermin
+  indeterminate-series:
+    description: "The indeterminate words: closed series contributing an open sortal variable, feeding interrogative, relative, and exclamative packagings."
+    members:
+      - who
+      - whom
+      - whose
+      - what
+      - which
+      - where
+      - when
+      - why
+      - how
+    notes:
+      - "The -ever series (whoever, whatever, whichever, wherever, whenever, however) derives from exactly this base set."
+      - "Members belong to different lexical categories (pronoun, determinative, ...); category facts live in the lexicon layer."

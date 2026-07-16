@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:12:55.812Z",
+  "generatedAt": "2026-07-16T16:03:00.921Z",
   "sections": [
     {
       "id": "project",
@@ -307,6 +307,11 @@
               "id": "degree-adjective-indefinite-001",
               "title": "degree-adjective-indefinite-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "exclamative-word-001",
+              "title": "exclamative-word-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -331,6 +336,56 @@
           "incomingRelations": []
         },
         {
+          "id": "deitality-001",
+          "title": "deitality-001",
+          "subtitle": "Deitality",
+          "path": "/data/constructions/deitality-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "grammatical-definiteness-001",
+              "relationship": "interfaces-with",
+              "notes": "The correlated semantic kind; deital form cues definite interpretation, definite intention licenses deital form, with principled leaks"
+            },
+            {
+              "id": "determination-001",
+              "relationship": "interfaces-with",
+              "notes": "Deitality is the structural profile that ranks and organizes the determination system's diagnostics"
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "demonstrative-determinative-fused-head-001",
+              "title": "demonstrative-determinative-fused-head-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "exclamative-word-001",
+              "title": "exclamative-word-001",
+              "relationship": "see-also"
+            },
+            {
+              "id": "indeterminate-word-001",
+              "title": "indeterminate-word-001",
+              "relationship": "interfaces-with"
+            },
+            {
+              "id": "interrogative-word-001",
+              "title": "interrogative-word-001",
+              "relationship": "see-also"
+            },
+            {
+              "id": "relative-word-001",
+              "title": "relative-word-001",
+              "relationship": "see-also"
+            }
+          ]
+        },
+        {
           "id": "demonstrative-determinative-fused-head-001",
           "title": "demonstrative-determinative-fused-head-001",
           "subtitle": "Demonstrative Determinative in Fused Determiner-Head Function",
@@ -338,8 +393,14 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "np-001",
-              "relationship": "inherits-from"
+              "id": "determinative-fused-head-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "deitality-001",
+              "relationship": "related-to",
+              "notes": "The demonstratives are the prototype of the deital profile"
             }
           ],
           "incomingRelations": []
@@ -395,6 +456,11 @@
               "id": "cardinal-determinative-001",
               "title": "cardinal-determinative-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "deitality-001",
+              "title": "deitality-001",
+              "relationship": "interfaces-with"
             },
             {
               "id": "grammatical-number-001",
@@ -488,6 +554,11 @@
           ],
           "incomingRelations": [
             {
+              "id": "demonstrative-determinative-fused-head-001",
+              "title": "demonstrative-determinative-fused-head-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "np-pron-001",
               "title": "np-pron-001",
               "relationship": "see-also"
@@ -552,6 +623,36 @@
               "notes": "Scalar challenge typically layers with echo question"
             }
           ],
+          "incomingRelations": [
+            {
+              "id": "interrogative-word-001",
+              "title": "interrogative-word-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "exclamative-word-001",
+          "title": "exclamative-word-001",
+          "subtitle": "Exclamative Use of Indeterminates",
+          "path": "/data/constructions/exclamative-word-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "indeterminate-word-001",
+              "relationship": "specialization-of",
+              "parthood": "semantic"
+            },
+            {
+              "id": "degree-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "deitality-001",
+              "relationship": "see-also",
+              "notes": "Exclamative uses pattern non-deitally (Reynolds, deitality inventory)"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -609,6 +710,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "deitality-001",
+              "title": "deitality-001",
+              "relationship": "interfaces-with"
+            },
             {
               "id": "deverbal-noun-of-argument-001",
               "title": "deverbal-noun-of-argument-001",
@@ -754,12 +860,58 @@
           ]
         },
         {
+          "id": "indeterminate-word-001",
+          "title": "indeterminate-word-001",
+          "subtitle": "Indeterminate Word",
+          "path": "/data/constructions/indeterminate-word-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "deitality-001",
+              "relationship": "interfaces-with",
+              "notes": "Deitality status varies by packaging: ignorance-reading fused relatives pattern deitally; free-choice readings are mixed; exclamative uses are non-deital (Reynolds, deitality inventory)"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "exclamative-word-001",
+              "title": "exclamative-word-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "interrogative-word-001",
+              "title": "interrogative-word-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "relative-word-001",
+              "title": "relative-word-001",
+              "relationship": "specialization-of"
+            }
+          ]
+        },
+        {
           "id": "interrogative-word-001",
           "title": "interrogative-word-001",
-          "subtitle": "Interrogative Word",
+          "subtitle": "Interrogative Use of Indeterminates",
           "path": "/data/constructions/interrogative-word-001.yaml",
           "kind": "yaml",
-          "relations": [],
+          "relations": [
+            {
+              "id": "indeterminate-word-001",
+              "relationship": "specialization-of",
+              "parthood": "semantic"
+            },
+            {
+              "id": "echo-question-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "deitality-001",
+              "relationship": "see-also",
+              "notes": "Deitality diagnostics are largely undefined for fronted interrogatives (clause-type dependent)"
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -1238,11 +1390,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "demonstrative-determinative-fused-head-001",
-              "title": "demonstrative-determinative-fused-head-001",
-              "relationship": "inherits-from"
-            },
-            {
               "id": "determinative-fused-head-001",
               "title": "determinative-fused-head-001",
               "relationship": "specialization-of"
@@ -1356,6 +1503,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "deitality-001",
+              "title": "deitality-001",
+              "relationship": "related-to"
+            },
             {
               "id": "determination-001",
               "title": "determination-001",
@@ -2347,6 +2499,26 @@
           ]
         },
         {
+          "id": "relative-word-001",
+          "title": "relative-word-001",
+          "subtitle": "Relative Use of Indeterminates",
+          "path": "/data/constructions/relative-word-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "indeterminate-word-001",
+              "relationship": "specialization-of",
+              "parthood": "semantic"
+            },
+            {
+              "id": "deitality-001",
+              "relationship": "see-also",
+              "notes": "Ignorance-reading fused relatives are deital; free-choice readings mixed (Reynolds, deitality inventory)"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "scalar-challenge-call-001",
           "title": "scalar-challenge-call-001",
           "subtitle": "You Call That X Challenge",
@@ -2706,6 +2878,15 @@
           "title": "cross-references.yaml",
           "subtitle": "",
           "path": "/data/indices/cross-references.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "deitality-status.yaml",
+          "subtitle": "",
+          "path": "/data/indices/deitality-status.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []

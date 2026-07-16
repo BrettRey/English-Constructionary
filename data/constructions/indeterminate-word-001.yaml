@@ -1,0 +1,46 @@
+id: indeterminate-word-001
+name: Indeterminate Word
+pattern: who/whom/whose/what/which/where/when/why/how (+ the -ever series)
+type: semantic
+dimensions:
+  form: "Closed series sharing historical wh- orthography (how included); internal paradigm structure (whose, whom as case forms of who); productive -ever derivation"
+  meaning: "Contributes an open variable restricted to a sort (person, thing, selection, possessor, place, time, reason, manner/degree)"
+  function: "Feeds interrogative, relative, and exclamative packagings; fronting and upward percolation of the marked property"
+  distribution: "Clause-initial position under fronting; availability per packaging differs by member"
+meanings:
+  '1':
+    definition: Contributes an open variable restricted to a sort, available to different clause-type packagings
+    details: "Term: indeterminate (cf. Kuroda 1965 for the Japanese analogue). Not a CGEL lexical category: members are pronouns (who, whose), determinatives (what, which in determiner function), and others; the set cross-cuts the lexical categories. Three projections make the overarching set real rather than a mere union: (i) sortal-variable semantics across packagings; (ii) fronting plus upward percolation of the interrogative/relative/exclamative property regardless of the consuming clause type; (iii) the -ever series (whoever, whatever, whichever, wherever, whenever, however) derives from exactly this base set and nothing else. Per-word category facts live in the lexicon layer."
+    examples:
+      - form: "[what] she saw"
+        note: Open variable over things (fused relative packaging)
+      - form: "[who] came"
+        note: Open variable over persons (interrogative packaging)
+    relations:
+      - 1
+  '2':
+    definition: Marks scalar degree, a point or extent on an implicit or explicit scale
+    details: Degree is one of the sorts the series ranges over
+    examples:
+      - form: "[how] tall"
+        note: Degree of height
+      - form: "[what] speed"
+        note: Extent of velocity
+    relations:
+      - 1
+      - 2
+relations:
+  '1':
+    construction: np-001
+    type: can-manifest-as
+  '2':
+    construction: degree-001
+    type: can-manifest-as
+formRefs:
+  - indeterminate-series
+semanticRefs:
+  - variable
+relatedConstructions:
+  - id: deitality-001
+    relationship: interfaces-with
+    notes: "Deitality status varies by packaging: ignorance-reading fused relatives pattern deitally; free-choice readings are mixed; exclamative uses are non-deital (Reynolds, deitality inventory)"

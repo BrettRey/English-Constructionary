@@ -1,0 +1,34 @@
+id: relative-word-001
+name: Relative Use of Indeterminates
+pattern: who/whom/whose/which/where/when/why (relative packaging)
+type: semantic
+dimensions:
+  form: "Restricted subset of the indeterminate series; what and how join only in fused relatives"
+  meaning: "The open variable is bound by the head nominal (integrated) or supplies it (fused)"
+  function: "Relativization; links the variable to a discourse referent"
+  distribution: "Integrated and supplementary relatives; fused relatives for what, how, and the -ever series"
+meanings:
+  '1':
+    definition: The indeterminate's variable is identified with the relativized element
+    details: "Membership differs from the interrogative packaging: what and how are excluded from integrated relatives (*the thing what he said in standard English); why is limited (the reason why). Relative that is a subordinator in CGEL, not a member of this series. Fused relatives (what she saw; whatever you choose) supply their own head; on the deitality inventory, ignorance-reading fused relatives pattern deitally while free-choice readings are mixed."
+    examples:
+      - form: "the woman [who] called"
+        note: Integrated relative, person sort
+      - form: "the reason [why] she left"
+        note: Limited reason-sort relative
+      - form: "I'll take [whatever] you're offering."
+        note: Fused relative, -ever series
+constraints:
+  - type: syntactic
+    description: Integrated-relative membership excludes what and how; fused relatives have their own syntax and may deserve a separate entry as coverage grows.
+semanticRefs:
+  - variable
+formRefs:
+  - indeterminate-series
+relatedConstructions:
+  - id: indeterminate-word-001
+    relationship: specialization-of
+    parthood: semantic
+  - id: deitality-001
+    relationship: see-also
+    notes: Ignorance-reading fused relatives are deital; free-choice readings mixed (Reynolds, deitality inventory)

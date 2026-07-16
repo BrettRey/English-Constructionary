@@ -11,12 +11,12 @@ relationships:
   contrastive:
     - constructions: [singular-morpheme-001, plural-s-001]
       domain: "nominal-marking"
-    - constructions: [definite-determiner-001, indefinite-determiner-001]
+    - constructions: [np-def-001, np-indef-001]
       domain: "determination"
     - constructions: [singular-morpheme-001, plural-s-001]
       domain: "nominal-marking"
-    - constructions: [definite-determiner-001, indefinite-determiner-001]
+    - constructions: [np-def-001, np-indef-001]
       domain: "determination"
-    - constructions: [indefinite-determiner-001, bare-role-001]
+    - constructions: [np-indef-001, bare-role-001]
       domain: "role-marking"
 

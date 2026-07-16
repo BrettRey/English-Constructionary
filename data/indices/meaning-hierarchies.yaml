@@ -15,12 +15,11 @@ hierarchies:
     implementations:
       - definite-001:
           implementations:
-            - definite-determiner-001  
+            - np-def-001
             - demonstrative-determinative-fused-head-001
       - indefinite-001:
           implementations:
-            - indefinite-determiner-001
-            - existential-quant-001
+            - np-indef-001
             - bare-role-001
   bare-np:
     root: np-bare-001

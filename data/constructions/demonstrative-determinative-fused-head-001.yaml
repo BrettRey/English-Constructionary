@@ -14,5 +14,9 @@ constraints:
     description: The fused determiner-head must be realized by this, that, these, or those.
 semanticType: reference
 relatedConstructions:
-  - id: np-001
-    relationship: inherits-from
+  - id: determinative-fused-head-001
+    relationship: specialization-of
+    parthood: formal
+  - id: deitality-001
+    relationship: related-to
+    notes: The demonstratives are the prototype of the deital profile

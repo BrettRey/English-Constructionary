@@ -1,58 +1,37 @@
 id: interrogative-word-001
-name: Interrogative Word
-pattern: who/what/which/whose/where/when/why/how
+name: Interrogative Use of Indeterminates
+pattern: who/whom/whose/what/which/where/when/why/how (interrogative packaging)
+type: semantic
+dimensions:
+  form: "Full indeterminate series; fronted in open interrogatives"
+  meaning: "The open variable is packaged as a request for its value"
+  function: "Marks the focus of the question; question-answer congruence"
+  distribution: "Main-clause interrogatives (with subject-auxiliary inversion) and subordinate interrogatives"
 meanings:
   '1':
-    definition: asks for information
-    details: Indicates what knowledge is being requested while constraining its type
+    definition: Asks for the value of the indeterminate's open variable, constraining its sort
+    details: All members of the indeterminate series participate in this packaging
     examples:
-      - form: whose book
+      - form: "[whose] book"
         note: Seeks possessor identification
-      - form: who came
+      - form: "[who] came"
         note: Seeks agent identification
-    relations:
-      - 1
-  '2':
-    definition: Creates open variable in proposition
-    details: Marks an unspecified element while constraining its type
-    examples:
-      - form: what she saw
-        note: Unspecified object
-      - form: whose it was
-        note: Unspecified possessor
-    relations:
-      - 1
-  '3':
-    definition: Marks scalar degree
-    details: Indicates point or extent on implicit or explicit scale
-    examples:
-      - form: how tall
-        note: Degree of height
-      - form: what speed
-        note: Extent of velocity
-    relations:
-      - 1
-      - 4
-  '4':
-    definition: Expresses evaluation against norm
-    details: Marks deviation from contextual standard or expectation
-    examples:
-      - form: what children
-        note: Notable children
-      - form: how fast
-        note: Remarkable speed
-    relations:
-      - 1
-relations:
-  '1':
-    construction: np-001
-    type: can-manifest-as
-    notes: 'Original type: functions-as.'
-  '4':
-    construction: degree-001
-    type: can-manifest-as
-    notes: 'Original type: can-express.'
+      - form: "I wonder [where] she went."
+        note: Subordinate interrogative
+constraints:
+  - type: syntactic
+    description: Interrogative fronting; the interrogative property percolates upward from the indeterminate to its phrase and clause.
 semanticRefs:
   - question-clause
   - variable
-  - evaluation
+formRefs:
+  - indeterminate-series
+relatedConstructions:
+  - id: indeterminate-word-001
+    relationship: specialization-of
+    parthood: semantic
+  - id: echo-question-001
+    relationship: related-to
+  - id: deitality-001
+    relationship: see-also
+    notes: Deitality diagnostics are largely undefined for fronted interrogatives (clause-type dependent)

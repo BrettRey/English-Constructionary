@@ -1,0 +1,99 @@
+# Provisional deitality inventory, transcribed from Reynolds, Definiteness and
+# Deitality in English (under review at Journal of Linguistics; LingBuzz 009369),
+# appendix table. Author judgments intended to make the profile auditable; only
+# the core contrasts are used as evidence in the paper. Diagnostics, ranked:
+# there-resistance, partitive domain establishment, identificational hosting
+# (bare-one substitution as corroborating residue). See deitality-001.
+source:
+  paper: "Definiteness and Deitality in English: A Projectibility-First Account"
+  preprint: "https://ling.auf.net/lingbuzz/009369"
+  status-as-of: "2026-07-16"
+statuses:
+  deital:
+    - the
+    - this
+    - that
+    - these
+    - those
+    - "personal genitives (my, your, ...)"
+    - "genitive NPs in determiner function (John's)"
+    - "(the) most/fewest/least (referential)"
+    - last
+    - next
+    - said
+  mixed:
+    - each
+    - every
+    - all
+    - both
+    - either
+    - neither
+    - "whatever (free-choice)"
+    - "whichever (free-choice)"
+  non-deital:
+    - "no"
+    - nobody
+    - no one
+    - nothing
+    - none
+    - a/an
+    - a certain
+    - a few
+    - a little
+    - another
+    - some
+    - somebody
+    - someone
+    - something
+    - any
+    - anybody
+    - anyone
+    - anything
+    - many
+    - much
+    - few
+    - fewer
+    - little
+    - less
+    - more
+    - "most (proportional)"
+    - several
+    - "certain (plural)"
+    - various
+    - multiple
+    - enough
+    - sufficient
+    - umpteen
+    - zero
+    - "one (numeral)"
+    - "basic cardinals (two ... ninety-nine)"
+    - "magnitude words (hundred, thousand, million)"
+    - once
+    - twice
+    - thrice
+    - "what (exclamative)"
+    - what a
+    - such
+    - such a
+    - so many/much
+    - "how many/much (exclamative)"
+  provisional:
+    - everybody
+    - everyone
+    - everything
+    - everywhere
+    - nowhere
+    - somewhere
+    - anywhere
+    - "what (interrogative)"
+    - "which (interrogative)"
+    - "whose (interrogative)"
+    - "how many/much (interrogative)"
+    - "what/which kind of"
+    - "which (relative, overt head)"
+    - "what (fused relative)"
+    - "whatever (ignorance)"
+    - "whichever (ignorance)"
+    - "us (us linguists)"
+    - "we (we linguists)"
+    - "you (you linguists)"
