@@ -50,7 +50,7 @@ rules:
     source-pos: postp
     cgel-category: preposition
     confidence: high
-    notes: "CGEL treats postposed items (ago, notwithstanding) as prepositions; linear position is not category."
+    notes: "CGEL treats postposed-complement items (notwithstanding) as prepositions; linear position is not category. ago is not postposed: its preceding measure phrase is an obligatory pre-head modifier, not a complement."
 
   conjunction-no-default:
     source-pos: conj

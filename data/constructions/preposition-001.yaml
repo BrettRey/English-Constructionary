@@ -10,14 +10,14 @@ dimensions:
 meanings:
   '1':
     definition: Lexical category heading preposition phrases, with optional complements for much of the class
-    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), the intransitive members traditionally called adverbs (home, abroad, ashore, upstairs), postposed members (ago), and the clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
+    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), the intransitive members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare postposed-complement members (notwithstanding), and the clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
     examples:
       - form: "[in] the garden"
         note: Transitive, NP complement
       - form: "She waited [outside]."
         note: Intransitive use (no complement)
       - form: "ten years [ago]"
-        note: Postposed, with preceding measure-NP complement
+        note: "Intransitive, with an obligatory pre-head measure modifier (cf. ten years before I went); not postposed"
       - form: "[because] it rained"
         note: Clause complement (traditional subordinating conjunction)
 constraints:

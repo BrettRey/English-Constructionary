@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:22:16.141Z",
+  "generatedAt": "2026-07-16T18:25:14.211Z",
   "sections": [
     {
       "id": "project",
@@ -4017,9 +4017,9 @@
               "confidence": "high",
               "tests": [
                 {
-                  "test": "NP complement",
-                  "result": "obligatory preceding measure NP",
-                  "example": "ten years [ago] / *ago"
+                  "test": "pre-head measure modifier",
+                  "result": "obligatory; a modifier, not a complement",
+                  "example": "ten years [ago] / *I went [ago]"
                 },
                 {
                   "test": "adverb modification",
@@ -4029,7 +4029,7 @@
               "references": [
                 "CGEL Ch. 7"
               ],
-              "notes": "Postposed; takes a preceding NP measure complement",
+              "notes": "Intransitive, with an obligatory pre-head measure modifier (ten years ago; cf. ten years before I went). Not postposed: contrast notwithstanding, whose preposed NP is a complement",
               "subclass": "intransitive"
             }
           },
