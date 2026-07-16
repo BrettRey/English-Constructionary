@@ -10,9 +10,10 @@ meanings:
         note: Non-count substance reference
       - form: rice
         note: Undifferentiated substance
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  secured: stable
+  profile:
     core:
       - property: "Non-count morphosyntax"
         diagnostics: ["rejects cardinals", "takes much/less", "singular agreement default"]
@@ -33,11 +34,11 @@ hpc:
       evidence: "stable non-count marking conventions across generations"
     - type: functional-pressure
       evidence: "need to distinguish substance from individuated reference"
-  projectibility:
-    scope: "new substance terms default to non-count frames; count conversion is constrained"
+  projection:
+    target: "new substance terms default to non-count frames; count conversion is constrained"
     evidence: "non-count quantifier compatibility for novel materials"
     confidence: medium
-  homeostasis:
+  maintenance:
     perturbations:
       - "portioning practices or registers promote count conversion"
   variation:

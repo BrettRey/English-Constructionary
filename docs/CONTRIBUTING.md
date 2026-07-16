@@ -8,7 +8,7 @@ The Constructionary documents English constructions: conventional pairings of fo
 
 The framework is **projectibility-first**. A category earns an entry because knowing that an expression belongs to it licenses reliable predictions about its other properties (what observing some features licenses us to predict about others; Goodman 1955). Each entry's `type` field records the domain (syntactic, semantic, morphological, phonological, mixed) in which membership supports the most reliable predictions. That's a claim about predictive purchase, not about what the construction "is made of". Two entries can legitimately cover overlapping territory when they project in different domains: the syntactician's *proper noun* and the semanticist's *proper name* are both real, and neither reduces to the other.
 
-Stronger claims sit on a ladder, and each rung needs its own evidence: a stable property profile; network order that makes the profile non-accidental; a mechanism that maintains the profile; and, last and strictest, corrective (homeostatic) control. Don't describe an entry as homeostatic, or as an HPC kind, just because its properties cluster stably. The schema's `hpc` metadata block is a legacy name; within it, treat `projectibility` as the primary field, and fill in `stabilisers` or `homeostasis` only with evidence for those specific rungs.
+Stronger claims sit on a ladder, and each rung needs its own evidence: a stable property profile; network order that makes the profile non-accidental; a mechanism that maintains the profile; and, last and strictest, corrective (homeostatic) control. Don't describe an entry as homeostatic just because its properties cluster stably. The schema's `kind` block records the claim: `projection.target` comes first (what membership licenses us to predict), `secured` names the tier the recorded evidence actually reaches (`stable`, `networked`, `maintained`, `controlled`), and the `network`, `stabilisers`, `maintenance`, and `control` fields hold the rung-specific evidence. The linter warns when a tier is claimed without its evidence.
 
 ## Quick start
 
@@ -42,7 +42,7 @@ Each construction is one YAML file in `data/constructions/`, named after its `id
 - `constraints` — typed restrictions (`syntactic`, `semantic`, `pragmatic`, …) with descriptions.
 - `relatedConstructions` — links to other entries (see Relations below).
 - `semanticRefs`, `formRefs`, `syntacticRefs` — pointers into the shared registries in `data/indices/` (semantic features, form features, syntactic diagnostics).
-- `hpc` — projectibility metadata: `projectibility` (scope, evidence, confidence), `cluster` (core and peripheral properties with diagnostics), `stabilisers`, `boundaries`, `grain`. Use `provisional: true` for exploratory metadata.
+- `kind` — projectibility-first kind metadata: `projection` (target, evidence, confidence), `secured` (tier reached), `failure-mode` (thin/fat/negative), `profile` (core and peripheral properties with diagnostics), `network`, `stabilisers`, `maintenance`, `control`, `boundaries`, `grain`. Use `provisional: true` for exploratory metadata. See `docs/SCHEMA.md` and `docs/projectibility-first.md`.
 
 ### Examples and bracket notation
 

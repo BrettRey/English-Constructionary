@@ -49,7 +49,7 @@ The **English Constructionary** is a collaborative dictionary of English constru
 *   **IDs:** Must match the regex `^[a-z-]+[0-9]{3}$` (e.g., `np-001`, `subject-determiner-001`).
 *   **Terminology:** Use **CGEL** (Cambridge Grammar of the English Language) terminology (e.g., *determinative* instead of *determiner*, *genitive* instead of *possessive*).
 *   **Meanings:** Indexed by integer strings (`"1"`, `"2"`, ...). Can be defined inline or implement another construction's meaning.
-*   **HPC Metadata:** Optional `hpc` block for documenting "Hyper-Plastic Construction" properties (clusters, stabilisers, diagnostics).
+*   **Kind Metadata:** Optional `kind` block recording the projectibility-first kind claim: projection target, securing tier (`stable`/`networked`/`maintained`/`controlled`), profile, stabilisers, diagnostics. See `docs/projectibility-first.md`.
 
 ### Validation
 *   Always run `npm run validate` after modifying any YAML files in `data/constructions/`.

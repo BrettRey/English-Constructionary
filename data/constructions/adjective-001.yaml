@@ -63,9 +63,10 @@ semanticRefs:
   - evaluation
   - reference
   - identity
-hpc:
-  status: fat
-  cluster:
+kind:
+  provisional: true
+  failure-mode: fat
+  profile:
     core:
       - property: "Modifier of nominal reference"
         diagnostics: ["attributive position", "predicative position"]
@@ -84,11 +85,11 @@ hpc:
       evidence: "high-frequency descriptive adjectives anchor category use"
     - type: functional-pressure
       evidence: "need to encode properties for reference and predication"
-  projectibility:
-    scope: "new adjectives generalize to core modifier frames but not reliably across subtypes"
+  projection:
+    target: "new adjectives generalize to core modifier frames but not reliably across subtypes"
     evidence: "gradable vs classificatory diagnostics diverge"
     confidence: low
-  homeostasis:
+  maintenance:
     perturbations:
       - "reduced exposure to degree morphology weakens gradable diagnostics but leaves classificatory uses intact"
   variation:

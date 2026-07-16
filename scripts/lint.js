@@ -8,7 +8,7 @@ const files = fs.readdirSync(constructionsDir).filter((file) => file.endsWith('.
 const issues = [];
 const warnings = [];
 const idPattern = /^[a-z-]+[0-9]{3}$/;
-const knownHpcStabilisers = new Set([
+const knownStabilisers = new Set([
   'acquisition',
   'entrenchment',
   'alignment',
@@ -105,17 +105,40 @@ for (const file of files) {
     });
   }
 
-  if (doc.hpc && Array.isArray(doc.hpc.stabilisers)) {
-    doc.hpc.stabilisers.forEach((stabiliser, index) => {
-      if (!stabiliser || typeof stabiliser !== 'object') return;
-      const type = stabiliser.type;
-      if (typeof type === 'string' && type.trim().length > 0 && !knownHpcStabilisers.has(type)) {
-        warn(
-          file,
-          `hpc.stabilisers[${index}].type '${type}' is not in the recommended list`
-        );
+  if (doc.kind && typeof doc.kind === 'object') {
+    const kind = doc.kind;
+
+    if (Array.isArray(kind.stabilisers)) {
+      kind.stabilisers.forEach((stabiliser, index) => {
+        if (!stabiliser || typeof stabiliser !== 'object') return;
+        const type = stabiliser.type;
+        if (typeof type === 'string' && type.trim().length > 0 && !knownStabilisers.has(type)) {
+          warn(
+            file,
+            `kind.stabilisers[${index}].type '${type}' is not in the recommended list`
+          );
+        }
+      });
+    }
+
+    // Securing-ladder discipline: each tier needs its own evidence field.
+    if (!kind.projection || !kind.projection.target) {
+      warn(file, 'kind block has no projection.target (declare what the category licenses us to project)');
+    }
+    if (kind.secured === 'networked' && !kind.network) {
+      warn(file, "kind.secured is 'networked' but no network ordering is recorded");
+    }
+    if (kind.secured === 'maintained' && !Array.isArray(kind.stabilisers)) {
+      warn(file, "kind.secured is 'maintained' but no stabilisers are recorded");
+    }
+    if (kind.secured === 'controlled') {
+      const control = kind.control || {};
+      const marks = ['perturbation', 'coupled-relation', 'response', 'preserved-relation'];
+      const missing = marks.filter((mark) => !control[mark]);
+      if (missing.length > 0) {
+        record(file, `kind.secured is 'controlled' but control is missing: ${missing.join(', ')} (all four marks required)`);
       }
-    });
+    }
   }
 }
 

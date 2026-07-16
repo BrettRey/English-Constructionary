@@ -40,9 +40,10 @@ relatedConstructions:
     relationship: related-to
   - id: minor-determiner-001
     relationship: related-to
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  secured: stable
+  profile:
     core:
       - property: "Determiner slot realization licensing NP"
         diagnostics: ["determiner-obligatoriness-singular-count"]
@@ -67,11 +68,11 @@ hpc:
       evidence: "Interactive alignment reinforces determiner placement in NP."
     - type: social-indexing
       evidence: "Prestige selection shapes which determiner variants persist in a community."
-  projectibility:
-    scope: "New determinatives or genitives generalize to the determiner slot; semantic definiteness alignment is strong but defeasible."
+  projection:
+    target: "New determinatives or genitives generalize to the determiner slot; semantic definiteness alignment is strong but defeasible."
     evidence: "Weak/generic definites and bare definites show mismatch."
     confidence: medium
-  homeostasis:
+  maintenance:
     perturbations:
       - "Weak definites (go to the hospital) weaken semantic definiteness while preserving deital marking."
       - "Generic definites (The tiger is endangered) shift to kind reference."

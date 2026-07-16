@@ -37,9 +37,10 @@ semanticRefs:
   - measure
   - standard
   - scale
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  secured: stable
+  profile:
     core:
       - property: "Scale comparison morphology/periphrasis"
         diagnostics: ["-er/-est", "more/most", "as X as"]
@@ -60,11 +61,11 @@ hpc:
       evidence: "need to encode relative scale positions"
     - type: processing-economy
       evidence: "short comparative morphology favored in production"
-  projectibility:
-    scope: "new gradable predicates generalize to degree frames"
+  projection:
+    target: "new gradable predicates generalize to degree frames"
     evidence: "productivity of -er/-est and periphrastic more/most"
     confidence: medium
-  homeostasis:
+  maintenance:
     perturbations:
       - "loss of degree morphology shifts toward periphrastic comparatives"
   variation:

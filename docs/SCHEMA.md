@@ -6,21 +6,24 @@ This repository validates construction entries against `data/schemas/constructio
 
 ### Constructions as Form-Meaning Pairings
 
-In Construction Grammar, a construction is a conventional pairing of form and meaning. But form and meaning aren't separable components that get linked together – they're mutually constituting through bidirectional homeostatic mechanisms. Count morphosyntax cues individuated construals in comprehension; individuated construals license count morphosyntax in production. Deital morphology tends to mark definite referents; definite referents tend to receive deital marking. The pairing is maintained by mechanisms operating across both domains.
+In Construction Grammar, a construction is a conventional pairing of form and meaning. But form and meaning aren't separable components that get linked together – they're mutually constituting through bidirectional mechanisms. Count morphosyntax cues individuated construals in comprehension; individuated construals license count morphosyntax in production. Deital morphology tends to mark definite referents; definite referents tend to receive deital marking. The pairing is maintained by mechanisms operating across both domains.
 
-### The `type` Field: Projectability, Not Ontology
+### Projectibility First
 
-The `type` field (`syntactic`, `semantic`, `morphological`, `mixed`) indicates which domain provides **maximal projectability** for the cluster documented in that entry – not an ontological claim about what the entry "is made of."
+The framework is projectibility-first (Reynolds 2026, "Not every stable cluster is homeostatic"). A category documented here is a **projectible profile**: observing part of it licenses expectations about the rest (what observing some features licenses us to predict about others; Goodman 1955), for a declared field-relative purpose. Claims that the profile is *stable*, *network-ordered*, *maintained*, or *secured by corrective control* are four further evidential achievements. Each rung of that ladder needs its own evidence, and only corrective control earns the label "homeostatic". The earlier HPC framing of this document is deprecated; where older text or fields say "HPC", read "projectible kind" and check which rung the evidence actually supports.
 
-- **Projectability** (from Boyd's HPC framework): A category is projectable if treating it as a natural kind supports reliable generalizations and predictions.
-- **Deitality** is maximally projectable for the syntactician: knowing something is deital lets you predict distributional behaviour (partitive licensing, *there*-resistance, identificational hosting).
-- **Definiteness** is maximally projectable for the semanticist: knowing something is definite lets you predict interpretive properties (identifiability, uniqueness, anaphoric accessibility).
+### The `type` Field: Projectibility, Not Ontology
 
-Both clusters are real in Boyd's sense. Neither reduces to the other. The overlap is substantial but imperfect – which is why both categories exist and why separate entries documenting each are legitimate.
+The `type` field (`syntactic`, `semantic`, `morphological`, `mixed`) indicates which domain provides **maximal projectibility** for the cluster documented in that entry – not an ontological claim about what the entry "is made of."
+
+- **Deitality** is maximally projectible for the syntactician: knowing something is deital lets you predict distributional behaviour (partitive licensing, *there*-resistance, identificational hosting).
+- **Definiteness** is maximally projectible for the semanticist: knowing something is definite lets you predict interpretive properties (identifiability, uniqueness, anaphoric accessibility).
+
+Both clusters are projectible; neither reduces to the other. The overlap is substantial but imperfect – which is why both categories exist and why separate entries documenting each are legitimate. Field-relativity is scope, not truth: the field selects which question to ask; it doesn't make the projection succeed.
 
 ### Why Separate Entries for Related Clusters?
 
-Entries like `n-proper-001` (type: syntactic) and `proper-name-001` (type: semantic) aren't redundant or poorly factored. They document different HPC kinds serving different explanatory purposes:
+Entries like `n-proper-001` (type: syntactic) and `proper-name-001` (type: semantic) aren't redundant or poorly factored. They document different projectible kinds serving different explanatory purposes:
 
 - `n-proper-001` documents the cluster maximally projectable for syntactic purposes: distributional properties, morphological behaviour, syntactic diagnostics
 - `proper-name-001` documents the cluster maximally projectable for semantic purposes: interpretive properties, discourse functions, semantic diagnostics
@@ -126,7 +129,7 @@ Overlap is pervasive and principled:
 
 Classical mereology describes structure but doesn't ask why parts cohere. **Intensional mereology** asks: what makes parthood real rather than stipulated?
 
-For constructions, the answer is the HPC stabilisation mechanisms: bidirectional inference, entrenchment, acquisition, alignment, transmission. A construction that lacks stabilising mechanisms isn't a genuine part of the constructicon – it's a nonce formation or an analyst's invention.
+For constructions, the answer is the stabilising mechanisms: bidirectional inference, entrenchment, acquisition, alignment, transmission. A construction that lacks stabilising mechanisms isn't a genuine part of the constructicon – it's a nonce formation or an analyst's invention. (Naming a stabiliser is a maintenance claim, not a control claim; see the `kind` block below.)
 
 This connects to Newton's Third Law precedent: mereology as consistency constraint. Internal forces must cancel for a whole to be genuine. Analogously, a construction's form-meaning pairing must be stabilised by mechanisms for it to be a genuine part of the grammar.
 
@@ -170,58 +173,67 @@ Meanings can reference these relations via their `relations` array.
 - `constraints`: array of `{ type, description }` where `type` is one of `syntactic`, `morphological`, `semantic`, `pragmatic`, `structural`, `head`, `position`.
 - `semanticType`: `reference`, `predication`, `modification`, or `quantification`.
 - `relatedConstructions`: array of `{ id, relationship, notes? }` using the schema’s relationship enums.
-- `hpc`: optional HPC metadata block (see below).
+- `kind`: optional projectibility-first kind metadata block (see below).
 - `semanticRefs`: list of IDs in `data/indices/semantic-features.yaml` relevant to the construction.
 - `formRefs`: list of IDs in `data/indices/form-features.yaml` relevant to the construction.
 - `syntacticRefs`: list of IDs in `data/indices/syntactic-diagnostics.yaml` relevant to the construction.
 
-## HPC Metadata (`hpc`)
-Use `hpc` to document mechanism-grounded cluster structure, stabilisers, and diagnostics. The stabiliser types are open-ended; add new types as needed with clear evidence.
+## Kind Metadata (`kind`)
+Use `kind` to record the kind claim for an entry: what the category licenses us to project, and which securing tier the recorded evidence has reached. The block replaces the earlier `hpc` block (renamed 2026-07-16); the migration mapping is at the end of this section.
 
-Example:
+The order of fields mirrors the diagnostic ladder:
+
+1. **`projection`** – the point of the entry, declared before mechanisms. `target` states the field-relative inference the category supports; `evidence` says why it's reliable; `confidence` is `high`/`medium`/`low`. A projection should go beyond the diagnostics used to detect membership (predicting only your own membership tests is circularity, not projection).
+2. **`secured`** – the highest rung the recorded evidence reaches: `stable` → `networked` → `maintained` → `controlled`. Each rung needs its own evidence. Co-occurrence doesn't establish network order; persistence doesn't establish a maintainer; a maintainer doesn't establish corrective control.
+3. **`failure-mode`** – demotion flag: `thin` (too little content), `fat` (heterogeneous lump that needs splitting), `negative` (defined by absence).
+4. **`profile`** – core and peripheral properties with their diagnostics and weights.
+5. **`network`** – the ordering relation (core-to-derivative, conditioning, licensing) that explains *which* projections are licensed. Required for `secured: networked`.
+6. **`stabilisers`** – named maintainers with evidence. The types are open-ended; common ones: `acquisition`, `entrenchment`, `alignment`, `transmission`, `functional-pressure`, `processing-economy`, `social-indexing`. Required for `secured: maintained`.
+7. **`maintenance`** – removal counterfactuals: what should fragment or drift if a stabiliser weakens. This is still maintenance evidence, not control.
+8. **`control`** – strict corrective control, the only thing that earns "homeostatic". All four marks: `perturbation` (what threatens the profile), `coupled-relation` (what the response pathway tracks), `response` (what changes lower-scale conditions), `preserved-relation` (the higher-scale relation kept projectible). Required for `secured: controlled`. Entrenchment and transmission can maintain a profile without controlling anything.
+9. **`variation`**, **`boundaries`**, **`grain`**, **`coupling`** – as before: activation states and speaker variation; overlaps and boundary items; micro/meso/macro level and parent families; linked cluster and mechanism.
+10. **`provisional`** – marks exploratory metadata, including tiers assigned during migration that haven't had a rung-by-rung review.
+
+Example (deliberately stopping at the rung the evidence earns):
 ```yaml
-hpc:
-  status: hpc
-  cluster:
+kind:
+  projection:
+    target: "new gradable predicates generalize to degree frames"
+    evidence: "productivity of -er/-est and periphrastic more/most"
+    confidence: medium
+  secured: stable
+  profile:
     core:
-      - property: "Degree modification compatibility"
-        diagnostics: ["accepts very/too/so", "supports -er/-est"]
+      - property: "Scale comparison morphology/periphrasis"
+        diagnostics: ["-er/-est", "more/most", "as X as"]
         weight: high
     peripheral:
-      - property: "Predicative-only adjectives"
-        diagnostics: ["attributive position degraded"]
-        weight: low
+      - property: "Measure phrase integration"
+        diagnostics: ["two inches taller"]
+        weight: medium
   stabilisers:
     - type: entrenchment
-      evidence: "high-frequency degree frames"
-    - type: acquisition
-      evidence: "early acquisition of adjective templates"
-  projectibility:
-    scope: "new adjectives generalize to degree frames"
-    evidence: "productivity of -er/-est and very"
-    confidence: medium
-  homeostasis:
+      evidence: "high-frequency degree templates reinforce usage"
+  maintenance:
     perturbations:
-      - "reduced exposure to degree morphology weakens comparative usage"
-  variation:
-    activation_states:
-      - context: "predicative vs attributive frame"
-        effect: "acceptability shifts at boundary items"
-    speaker_variation: "lexeme- and register-sensitive"
+      - "loss of degree morphology shifts toward periphrastic comparatives"
   boundaries:
-    overlaps_with: ["preposition-001", "adverb-001"]
-    known_boundary_items: ["near", "fast", "fun"]
+    overlaps_with: ["adjective-001"]
+    known_boundary_items: ["unique", "dead"]
   grain:
     level: meso
-    parent_families: ["modifier-001"]
-  coupling:
-    linked_cluster: "semantic gradability"
-    mechanism: "bidirectional inference between scale semantics and form"
+    parent_families: ["modification"]
   provisional: true
 ```
+Here `secured: stable` because the projection evidence is distributional productivity; the stabilisers are named candidates (plausible support, not demonstrated removal counterfactuals), so `maintained` is not claimed, and nothing approaching corrective control is on record, so `controlled` would be an overclaim.
 
-### Stabiliser Types (Non-exhaustive)
-Common types include: `acquisition`, `entrenchment`, `alignment`, `transmission`, `functional-pressure`, `processing-economy`, `social-indexing`. New types are expected; record them directly with evidence.
+### Migration from `hpc` (2026-07-16)
+- `hpc:` → `kind:`
+- `status: hpc` → deleted; `secured` now records the earned tier (entries migrated with projection evidence got `secured: stable` and `provisional: true`)
+- `status: thin | fat | negative` → `failure-mode`
+- `status: uncertain` → `provisional: true`
+- `cluster` → `profile`; `projectibility` → `projection` (`scope` → `target`); `homeostasis` → `maintenance`
+- `control` and `network` are new, and empty until rung-specific evidence exists
 
 ## Semantic & Syntax Registries
 Two non-construction registries live in `data/indices/`:

@@ -33,9 +33,10 @@ relatedConstructions:
     relationship: related-to
   - id: n-mass-001
     relationship: related-to
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  secured: stable
+  profile:
     core:
       - property: "Plural-only morphology with loose count diagnostics"
         diagnostics: ["many/few N", "plural agreement", "high round numerals"]
@@ -54,11 +55,11 @@ hpc:
       evidence: "Singulative reference is offloaded to functional alternatives (cow, officer)."
     - type: transmission
       evidence: "Iterated transmission preserves the ordered dissociation pattern."
-  projectibility:
-    scope: "New aggregate nouns align with loose diagnostics before tight ones."
+  projection:
+    target: "New aggregate nouns align with loose diagnostics before tight ones."
     evidence: "Quasi-count class shows implicational hierarchy."
     confidence: medium
-  homeostasis:
+  maintenance:
     perturbations:
       - "Loss of functional singulatives pushes toward full count or non-count profiles."
   variation:

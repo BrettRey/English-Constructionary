@@ -6,7 +6,7 @@
 |---|---|---|---|
 | `literature/cgel-negation.pdf` | Clause polarity, verbal/non-verbal negation, diagnostics | Negation constructions (imperative negation, constituent not, never, negative determinatives), syntactic diagnostics | Already added imperative negation + constituent/never/no. Remaining: secondary verbal negation, synthetic absolute negators, non-verbal negation scope notes. |
 | `literature/cgel-determiner.pdf` | Determiner function, determinatives, subject‑determiners | Determination construction refinements, syntactic diagnostics for deitality, determinative inventory | Determination + diagnostics already added; can expand examples/constraints. |
-| `literature/deitality copy.tex` | Deitality vs definiteness (HPC), diagnostics | Syntactic diagnostics registry, HPC notes for determination | Diagnostics added; can add deitality HPC notes or notes on mismatches. |
+| `literature/deitality copy.tex` | Deitality vs definiteness (projectible clusters), diagnostics | Syntactic diagnostics registry, kind-block notes for determination | Diagnostics added; can add deitality kind notes or notes on mismatches. |
 | `literature/numerals.tex` | Numeratives: determinatives vs phrases; factors/magnitudes/additions | Numerative constructions, determinative inventory refinement, syntactic diagnostics | Best next batch: creates multiple bounded constructions with clear diagnostics. |
 
 ## Batch 1 Proposal: Numeratives Core (from `numerals.tex`)

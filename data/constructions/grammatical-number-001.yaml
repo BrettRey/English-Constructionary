@@ -30,9 +30,10 @@ meanings:
         note: Quasi-count pattern
       - form: many folks vs ?three folks
         note: Boundary item
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  secured: stable
+  profile:
     core:
       - property: "Number inflection and agreement"
         diagnostics: ["singular vs plural morphology", "agreement on determiners/verbs"]
@@ -58,11 +59,11 @@ hpc:
       evidence: "consistent marking across generations"
     - type: functional-pressure
       evidence: "need to track individuation and plurality in discourse"
-  projectibility:
-    scope: "new nouns participate in number marking and agreement"
+  projection:
+    target: "new nouns participate in number marking and agreement"
     evidence: "productive plural formation and determiner agreement"
     confidence: high
-  homeostasis:
+  maintenance:
     perturbations:
       - "reduced transmission or contact leads to erosion of number marking"
   variation:

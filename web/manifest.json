@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T13:46:35.399Z",
+  "generatedAt": "2026-07-16T14:08:45.056Z",
   "sections": [
     {
       "id": "project",
@@ -2668,9 +2668,9 @@
         },
         {
           "id": null,
-          "title": "hpc-status.yaml",
+          "title": "kind-status.yaml",
           "subtitle": "",
-          "path": "/data/indices/hpc-status.yaml",
+          "path": "/data/indices/kind-status.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
@@ -2788,9 +2788,9 @@
         },
         {
           "id": null,
-          "title": "hpc-implications.md",
+          "title": "projectibility-first.md",
           "subtitle": "",
-          "path": "/docs/hpc-implications.md",
+          "path": "/docs/projectibility-first.md",
           "kind": "markdown",
           "relations": [],
           "incomingRelations": []

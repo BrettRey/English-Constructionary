@@ -48,9 +48,9 @@ relatedConstructions:
   - id: np-proper-001
     relationship: interfaces-with
     notes: Proper names freely occur as vocatives
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  profile:
     core:
       - property: "Person-restricted determination"
         diagnostics: ["bare or 1st/2nd person determiners only", "3rd-person determiners excluded", "definite article excluded"]

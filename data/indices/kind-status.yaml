@@ -1,0 +1,22 @@
+# Securing tiers under the projectibility-first framework (see docs/projectibility-first.md).
+# Each tier needs its own evidence; only corrective control earns "homeostatic".
+# Migration 2026-07-16: former status "hpc" was an overclaim and was not carried over;
+# all listed entries are provisional pending rung-by-rung review.
+secured:
+  stable:
+    - degree-001
+    - determination-001
+    - grammatical-number-001
+    - n-mass-001
+    - quasi-count-noun-001
+  networked: []
+  maintained: []
+  controlled: []
+failure-modes:
+  thin: []
+  fat:
+    - adjective-001
+  negative: []
+needs-projection-target:
+  - directive-ostensive-001
+  - vocative-001

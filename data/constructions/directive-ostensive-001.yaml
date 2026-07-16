@@ -39,9 +39,9 @@ relatedConstructions:
   - id: vocative-001
     relationship: alternates-with
     notes: Both direct attention but differ in target (addressee vs. environment)
-hpc:
-  status: hpc
-  cluster:
+kind:
+  provisional: true
+  profile:
     core:
       - property: "Alerting function"
         diagnostics: ["directs attention to referent", "implies urgency or relevance"]

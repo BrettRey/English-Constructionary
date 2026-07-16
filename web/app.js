@@ -253,17 +253,28 @@ const renderYamlSummary = (data, itemMeta = null) => {
     detailBody.appendChild(exampleBlock);
   }
 
-  if (data.hpc && data.hpc.status) {
-    const hpcBlock = document.createElement('div');
-    hpcBlock.className = 'detail-block';
-    const hpcTitle = document.createElement('h3');
-    hpcTitle.textContent = 'HPC';
-    hpcBlock.appendChild(hpcTitle);
-    const tag = document.createElement('span');
-    tag.className = 'tag';
-    tag.textContent = `status: ${data.hpc.status}`;
-    hpcBlock.appendChild(tag);
-    detailBody.appendChild(hpcBlock);
+  if (data.kind) {
+    const kindBlock = document.createElement('div');
+    kindBlock.className = 'detail-block';
+    const kindTitle = document.createElement('h3');
+    kindTitle.textContent = 'Kind';
+    kindBlock.appendChild(kindTitle);
+    const securedTag = document.createElement('span');
+    securedTag.className = 'tag';
+    securedTag.textContent = `secured: ${data.kind.secured || 'unassessed'}`;
+    kindBlock.appendChild(securedTag);
+    if (data.kind['failure-mode']) {
+      const failureTag = document.createElement('span');
+      failureTag.className = 'tag';
+      failureTag.textContent = `failure-mode: ${data.kind['failure-mode']}`;
+      kindBlock.appendChild(failureTag);
+    }
+    if (data.kind.projection && data.kind.projection.target) {
+      const projection = document.createElement('p');
+      projection.textContent = `Projects: ${data.kind.projection.target}`;
+      kindBlock.appendChild(projection);
+    }
+    detailBody.appendChild(kindBlock);
   }
 
   if (itemMeta && (itemMeta.relations?.length || itemMeta.incomingRelations?.length)) {

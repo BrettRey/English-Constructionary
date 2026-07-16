@@ -1,30 +1,17 @@
 # Handoff Notes
+<!-- SUMMARY: Working-state handoff for the English Constructionary · status: current · updated: 2026-07-16 -->
 
-**Date:** 2026-01-10
-**Last commit:** `67dae10` "add bracketed context to cardinal-determinative examples"
-
----
-
-## Uncommitted Changes
-
-- `STATUS.md` updated with current state (79 constructions, session log)
-
-To commit:
-```bash
-cd /Users/brettreynolds/Documents/LLM-CLI-projects/tools/English-Constructionary
-git add STATUS.md && git commit -m "update status for Jan 10"
-git push
-```
+**Date:** 2026-07-16
 
 ---
 
-## Project Location
+## Current State
 
-Moved to: `/Users/brettreynolds/Documents/LLM-CLI-projects/tools/English-Constructionary/`
-
-(Previously was at portfolio root level)
-
----
+- 91 construction files, all validating; tree clean at last commit
+- Public site: https://brettrey.github.io/English-Constructionary/ (Pages deploys from main on push)
+- CI: `npm run validate` runs on every push/PR
+- Framework: **projectibility-first**; the `kind` block replaced `hpc` (see `docs/projectibility-first.md` and the migration map in `docs/SCHEMA.md`)
+- A Codex audit for CGEL category violations was dispatched 2026-07-16; report lands in `/tmp/claude-agent-output/cgel-category-audit.md`
 
 ## Key Design Principles (see CLAUDE.md for full details)
 
@@ -36,29 +23,17 @@ Moved to: `/Users/brettreynolds/Documents/LLM-CLI-projects/tools/English-Constru
 
 4. **Morphological strategies** (suppletion, affixation, ablaut) are NOT constructions - they're strategies for filling paradigm cells. See `data/indices/morphological-strategies.yaml`.
 
----
-
-## Current Coverage (79 files)
-
-- Numeratives: complete (basic, teens, decades, compounds, magnitude, factor, addition, ordinals, fractionals, fused-head)
-- Cardinal nouns/determinatives: restructured with use constructions
-- Negation: secondary verbal, constituent, imperative, absolute negators, never-adv
-- NP structure: bare, determined, genitive, pronominal, proper
-- Definiteness, number, countability: full HPC treatment
-
----
+5. **Securing-ladder discipline**: `kind.projection.target` first; `secured` only as high as the rung-specific evidence; only corrective control earns "homeostatic". The linter warns on violations.
 
 ## Next logical steps
 
-- Review remaining entries for CGEL alignment
+- Triage the Codex CGEL audit when it completes
+- Add projection targets to `directive-ostensive-001` and `vocative-001`
+- Rung-by-rung review of the migrated `secured: stable` assignments (all provisional)
+- Split `adjective-001` (failure-mode: fat)
 - Expand to clausal constructions (relative clauses, conditionals, etc.)
-- Expand HPC metadata (stabilisers, mechanisms)
-
----
 
 ## Technical notes
 
-- Web browser: `npm run web`
-- Validation: `npm run validate`
-- Lint: `npm run lint`
-- Build manifest: `npm run build:web`
+- Web browser: `npm run web` (local); site rebuilds manifest in CI, so `web/manifest.json` need not be committed fresh
+- Validation: `npm run validate` · Lint only: `npm run lint` · Manifest: `npm run build:web`

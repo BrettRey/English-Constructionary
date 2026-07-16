@@ -301,15 +301,34 @@
       }
     },
 
-    "hpc": {
+    "kind": {
       "type": "object",
-      "description": "Homeostatic Property Cluster (HPC) metadata for mechanism-grounded categories",
+      "description": "Projectibility-first kind metadata: what the category licenses us to project, and which securing tier the recorded evidence reaches. Replaces the legacy 'hpc' block (2026-07-16).",
       "properties": {
-        "status": {
-          "type": "string",
-          "enum": ["hpc", "thin", "fat", "negative", "uncertain"]
+        "projection": {
+          "type": "object",
+          "description": "The point of the kind claim: a field-relative inference the category supports, declared before mechanisms",
+          "properties": {
+            "target": { "type": "string" },
+            "evidence": { "type": "string" },
+            "confidence": {
+              "type": "string",
+              "enum": ["high", "medium", "low"]
+            }
+          },
+          "additionalProperties": false
         },
-        "cluster": {
+        "secured": {
+          "type": "string",
+          "description": "Highest securing tier the recorded evidence reaches; each tier needs its own evidence (no free upgrades)",
+          "enum": ["stable", "networked", "maintained", "controlled"]
+        },
+        "failure-mode": {
+          "type": "string",
+          "description": "Demotion flag: thin (too little content), fat (heterogeneous lump to split), negative (defined by absence)",
+          "enum": ["thin", "fat", "negative"]
+        },
+        "profile": {
           "type": "object",
           "properties": {
             "core": {
@@ -353,8 +372,18 @@
           },
           "additionalProperties": false
         },
+        "network": {
+          "type": "object",
+          "description": "Ordering relation that explains which projections are licensed; required for secured: networked",
+          "properties": {
+            "ordering": { "type": "string" },
+            "evidence": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
         "stabilisers": {
           "type": "array",
+          "description": "Named maintainers with evidence bearing on the removal counterfactual; required for secured: maintained",
           "items": {
             "type": "object",
             "required": ["type", "evidence"],
@@ -370,27 +399,27 @@
         },
         "provisional": {
           "type": "boolean",
-          "description": "Marks exploratory or draft HPC metadata"
+          "description": "Marks exploratory metadata or migration-assigned tiers pending rung-by-rung review"
         },
-        "projectibility": {
+        "maintenance": {
           "type": "object",
-          "properties": {
-            "scope": { "type": "string" },
-            "evidence": { "type": "string" },
-            "confidence": {
-              "type": "string",
-              "enum": ["high", "medium", "low"]
-            }
-          },
-          "additionalProperties": false
-        },
-        "homeostasis": {
-          "type": "object",
+          "description": "Removal counterfactuals: expected fragmentation or drift if a stabiliser weakens. Maintenance is not control.",
           "properties": {
             "perturbations": {
               "type": "array",
               "items": { "type": "string" }
             }
+          },
+          "additionalProperties": false
+        },
+        "control": {
+          "type": "object",
+          "description": "Strict corrective control, the only tier that earns 'homeostatic'; all four marks required for secured: controlled",
+          "properties": {
+            "perturbation": { "type": "string" },
+            "coupled-relation": { "type": "string" },
+            "response": { "type": "string" },
+            "preserved-relation": { "type": "string" }
           },
           "additionalProperties": false
         },
