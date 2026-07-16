@@ -26,7 +26,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "Category membership predicts PP-internal distribution (complement of become-of/from, modifier positions), right/straight modifiability for locatives, and non-inflection"
+    target: "Category membership predicts PP distribution (goal and locative complement positions, from-embedding for locative members, modifier positions), right/straight modifiability for locatives, and non-inflection"
     evidence: "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)"
     confidence: medium
   secured: stable

@@ -18,6 +18,8 @@ meanings:
         note: Intransitive-only member
       - form: "He came straight [back]."
         note: With straight-modification typical of PPs
+      - form: "go [home]"
+        note: "Bare PP as goal complement of a motion verb; *go to home is out simply because to takes NP, not PP, complements (go to work is fine)"
 constraints:
   - type: syntactic
     description: Accepts right/straight modification (right outside, straight home), unlike adverbs.
