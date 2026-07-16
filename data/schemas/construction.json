@@ -29,6 +29,7 @@
         "semantic",
         "morphological",
         "phonological",
+        "pragmatic",
         "mixed"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:03:00.921Z",
+  "generatedAt": "2026-07-16T17:32:05.285Z",
   "sections": [
     {
       "id": "project",
@@ -598,12 +598,30 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "ostensive-np-001",
+              "relationship": "specialization-of",
+              "parthood": "functional",
+              "notes": "Environment-directed packaging of the ostensive NP"
+            },
+            {
               "id": "vocative-001",
               "relationship": "alternates-with",
               "notes": "Both direct attention but differ in target (addressee vs. environment)"
+            },
+            {
+              "id": "exclamation-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Prototypically exclamatory, but murmured reminders show the profiles can come apart"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "exclamation-001",
+              "title": "exclamation-001",
+              "relationship": "can-manifest-as"
+            }
+          ]
         },
         {
           "id": "echo-question-001",
@@ -632,6 +650,52 @@
           ]
         },
         {
+          "id": "exclamation-001",
+          "title": "exclamation-001",
+          "subtitle": "Exclamation",
+          "path": "/data/constructions/exclamation-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "ostensive-np-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Cross-cutting, not containment; the leak cases are the boundary items"
+            },
+            {
+              "id": "exclamative-word-001",
+              "relationship": "related-to",
+              "notes": "The exclamative packaging of the indeterminates feeds core members (what/how exclamatives)"
+            },
+            {
+              "id": "directive-ostensive-001",
+              "relationship": "can-manifest-as"
+            },
+            {
+              "id": "vocative-001",
+              "relationship": "can-manifest-as",
+              "notes": "Only via the summons/call use"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "directive-ostensive-001",
+              "title": "directive-ostensive-001",
+              "relationship": "overlaps-with"
+            },
+            {
+              "id": "ostensive-np-001",
+              "title": "ostensive-np-001",
+              "relationship": "overlaps-with"
+            },
+            {
+              "id": "vocative-001",
+              "title": "vocative-001",
+              "relationship": "overlaps-with"
+            }
+          ]
+        },
+        {
           "id": "exclamative-word-001",
           "title": "exclamative-word-001",
           "subtitle": "Exclamative Use of Indeterminates",
@@ -653,7 +717,13 @@
               "notes": "Exclamative uses pattern non-deitally (Reynolds, deitality inventory)"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "exclamation-001",
+              "title": "exclamation-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "genitive-s-001",
@@ -1428,6 +1498,11 @@
               "id": "np-proper-001",
               "title": "np-proper-001",
               "relationship": "inherits-from"
+            },
+            {
+              "id": "ostensive-np-001",
+              "title": "ostensive-np-001",
+              "relationship": "specialization-of"
             }
           ]
         },
@@ -2309,6 +2384,42 @@
           ]
         },
         {
+          "id": "ostensive-np-001",
+          "title": "ostensive-np-001",
+          "subtitle": "Ostensive NP",
+          "path": "/data/constructions/ostensive-np-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "exclamation-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "directive-ostensive-001",
+              "title": "directive-ostensive-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "exclamation-001",
+              "title": "exclamation-001",
+              "relationship": "overlaps-with"
+            },
+            {
+              "id": "vocative-001",
+              "title": "vocative-001",
+              "relationship": "specialization-of"
+            }
+          ]
+        },
+        {
           "id": "past-tense-ed-001",
           "title": "past-tense-ed-001",
           "subtitle": "Past Tense -ed",
@@ -2688,6 +2799,18 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "ostensive-np-001",
+              "relationship": "specialization-of",
+              "parthood": "functional",
+              "notes": "Addressee-directed packaging of the ostensive NP (securing the channel)"
+            },
+            {
+              "id": "exclamation-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Only the summons/call use is exclamatory; tag and address vocatives are not"
+            },
+            {
               "id": "np-bare-001",
               "relationship": "interfaces-with",
               "notes": "Vocative function licenses bare NP for kinship terms that would otherwise require determination"
@@ -2703,6 +2826,11 @@
               "id": "directive-ostensive-001",
               "title": "directive-ostensive-001",
               "relationship": "alternates-with"
+            },
+            {
+              "id": "exclamation-001",
+              "title": "exclamation-001",
+              "relationship": "can-manifest-as"
             }
           ]
         },

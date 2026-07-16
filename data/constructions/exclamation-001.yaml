@@ -1,0 +1,74 @@
+id: exclamation-001
+name: Exclamation
+pattern: "Utterance with exclamatory prosody and heightened-stance force"
+type: pragmatic
+dimensions:
+  form: "Realized by interjections, exclamative clauses, extra-clausal NPs, or prosodically marked declaratives"
+  meaning: "Heightened speaker stance toward a referent, situation, or degree"
+  function: "Expressive force; stands alone as a complete utterance"
+  distribution: "Utterance-level; resists syntactic integration and at-issue challenge"
+meanings:
+  '1':
+    definition: An utterance-level force category, expressing heightened speaker stance with exclamatory prosody
+    details: "Terminology: exclamative is the clause type (syntactic), exclamatory the property of uses, exclamation the utterance-level force category (pragmatic). Membership is graded: interjections are the prototype (pure force, no propositional content, no discourse referent); exclamative clauses are core; directive-ostensive NPs are prototypically members; vocatives only via the summons/call use; declaratives join by prosody alone (That's amazing!). The category cross-cuts the structural profile of extra-clausal NPs (ostensive-np-001) rather than containing it: tag vocatives are structural-yes/force-no, exclamatory declaratives force-yes/structural-no."
+    examples:
+      - form: "[Ouch]!"
+        note: Interjection; the prototype (pure force, no discourse referent)
+      - form: "[What a lovely day]!"
+        note: Exclamative clause (reduced; cf. What a lovely day it is!)
+      - form: "[A snake]!"
+        note: Directive-ostensive NP as exclamation
+      - form: "[That's amazing]!"
+        note: Declarative recruited by prosody alone
+constraints:
+  - type: pragmatic
+    description: Not at-issue; the force resists direct denial (That's false cannot target the exclamatory stance).
+  - type: structural
+    description: Exclamatory prosody is non-reducible; deaccenting removes membership.
+kind:
+  provisional: true
+  projection:
+    target: "Locating an utterance in the exclamation profile predicts stand-alone viability, non-reducible exclamatory prosody, heightened-stance interpretation, and resistance to at-issue denial, across formally unrelated realizations"
+    evidence: "The projections hold from interjections through exclamative clauses to recruited declaratives; the profile is realizationally promiscuous but functionally uniform"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: "Exclamatory prosody"
+        diagnostics: ["fall or rise-fall contour", "non-reducible under deaccenting"]
+        weight: high
+      - property: "Stand-alone utterance-hood"
+        diagnostics: ["complete without clausal integration"]
+        weight: high
+      - property: "Heightened-stance force"
+        diagnostics: ["resists at-issue denial", "expressive rather than descriptive"]
+        weight: high
+  stabilisers:
+    - type: entrenchment
+      evidence: "High-frequency expressive routines (interjections, formulaic exclamatives)"
+    - type: functional-pressure
+      evidence: "Need to express heightened stance rapidly, without clausal assembly"
+  boundaries:
+    overlaps_with:
+      - ostensive-np-001
+    known_boundary_items:
+      - "tag and address vocatives (structural profile without exclamatory force)"
+      - "exclamatory declaratives (force without the extra-clausal structure)"
+      - "murmured reminders (Your keys, said flatly)"
+  grain:
+    level: macro
+    parent_families:
+      - utterance
+relatedConstructions:
+  - id: ostensive-np-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: Cross-cutting, not containment; the leak cases are the boundary items
+  - id: exclamative-word-001
+    relationship: related-to
+    notes: The exclamative packaging of the indeterminates feeds core members (what/how exclamatives)
+  - id: directive-ostensive-001
+    relationship: can-manifest-as
+  - id: vocative-001
+    relationship: can-manifest-as
+    notes: Only via the summons/call use

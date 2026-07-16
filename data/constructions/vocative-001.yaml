@@ -42,6 +42,14 @@ relations:
     type: related-to
     notes: Proper names are prototypical vocatives
 relatedConstructions:
+  - id: ostensive-np-001
+    relationship: specialization-of
+    parthood: functional
+    notes: Addressee-directed packaging of the ostensive NP (securing the channel)
+  - id: exclamation-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: Only the summons/call use is exclamatory; tag and address vocatives are not
   - id: np-bare-001
     relationship: interfaces-with
     notes: Vocative function licenses bare NP for kinship terms that would otherwise require determination

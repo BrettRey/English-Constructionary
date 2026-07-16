@@ -1,0 +1,69 @@
+id: ostensive-np-001
+name: Ostensive NP
+pattern: "NP[extra-clausal, attention-directing]"
+type: syntactic
+dimensions:
+  form: "Extra-clausal NP with marked prosody; full NP-internal grammar"
+  meaning: "Directs attention to a referent (addressee or environmental)"
+  function: "Attention-securing utterance; not an argument of any predicator"
+  distribution: "Stand-alone or supplement position; resists embedding, tags, and questioning"
+meanings:
+  '1':
+    definition: An extra-clausal NP whose utterance directs attention to its referent, with normal NP-internal syntax preserved
+    details: "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). The packagings shade into each other: Taxi! is ambiguous between hailing the driver and alerting companions, and reminders (Your keys!) sit between alerting and addressing. Cross-cuts the force category exclamation-001: tag vocatives instantiate this profile without exclamatory force."
+    examples:
+      - form: "[Mom]! (calling)"
+        note: Vocative packaging (addressee-directed)
+      - form: "[A snake]!"
+        note: Directive-ostensive packaging (environment-directed)
+      - form: "[Taxi]!"
+        note: Boundary case, ambiguous between the two packagings
+constraints:
+  - type: syntactic
+    description: Full NP-internal determination is preserved (a snake, the bus), unlike block language (headlines, labels), which sheds determiners.
+  - type: syntactic
+    description: Not selected by any predicator; resists embedding, tags, and question formation.
+kind:
+  provisional: true
+  projection:
+    target: "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language), introduction of a discourse referent available to anaphora (contrast interjections), orientation-type rather than verbal response, and marked prosody"
+    evidence: "The determination contrast (A snake! vs headline Snake found in library) and the anaphora contrast (A snake! It's moving vs Ouch! *It...) hold across both packagings; acquisitional continuity with joint-attention pointing is a testable prediction (cf. CHILDES vocative results for kinship terms)"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: "Extra-clausal status"
+        diagnostics: ["not selected by verb", "resists embedding and tags"]
+        weight: high
+      - property: "Full NP-internal grammar"
+        diagnostics: ["singular count requires determiner", "non-count and plural can be bare"]
+        weight: high
+      - property: "Attention-directing function"
+        diagnostics: ["secures channel or joint attention", "licenses orientation response"]
+        weight: high
+      - property: "Discourse-referent introduction"
+        diagnostics: ["referent available to subsequent anaphora"]
+        weight: medium
+  stabilisers:
+    - type: functional-pressure
+      evidence: "Attention-securing must be fast; minimal structure with maximal prosodic salience"
+    - type: acquisition
+      evidence: "Plausibly continuous with pre-linguistic pointing and the one-word stage; testable in CHILDES"
+  boundaries:
+    overlaps_with:
+      - exclamation-001
+    known_boundary_items:
+      - "Taxi! (vocative/directive-ostensive ambiguity)"
+      - "block language (form without prosody or determination)"
+      - "clausal alerts (There's a fire!: function without the form)"
+  grain:
+    level: meso
+    parent_families:
+      - np
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: exclamation-001
+    relationship: overlaps-with
+    overlap-dimension: functional

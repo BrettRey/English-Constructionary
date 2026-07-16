@@ -36,11 +36,24 @@ relations:
     type: related-to
     notes: Both are non-argumental NPs with directive function; vocative addresses hearer, directive-ostensive alerts hearer to something else
 relatedConstructions:
+  - id: ostensive-np-001
+    relationship: specialization-of
+    parthood: functional
+    notes: Environment-directed packaging of the ostensive NP
   - id: vocative-001
     relationship: alternates-with
     notes: Both direct attention but differ in target (addressee vs. environment)
+  - id: exclamation-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: Prototypically exclamatory, but murmured reminders show the profiles can come apart
 kind:
   provisional: true
+  projection:
+    target: "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language: A snake! vs headline Snake found in library), introduction of a discourse referent available to anaphora (contrast interjections: A snake! It's moving vs Ouch! *It...), orientation-type rather than verbal response (contrast interrogatives), and immediacy construal (referent present or imminent)"
+    evidence: "The determination and anaphora contrasts separate the construction from its nearest neighbours (block language, interjections); acquisitional continuity with joint-attention pointing is a testable CHILDES prediction, parallel to the vocative kinship result"
+    confidence: medium
+  secured: stable
   profile:
     core:
       - property: "Alerting function"

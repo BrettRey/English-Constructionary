@@ -14,7 +14,7 @@ The framework is projectibility-first (Reynolds 2026, "Not every stable cluster 
 
 ### The `type` Field: Projectibility, Not Ontology
 
-The `type` field (`syntactic`, `semantic`, `morphological`, `mixed`) indicates which domain provides **maximal projectibility** for the cluster documented in that entry – not an ontological claim about what the entry "is made of."
+The `type` field (`syntactic`, `semantic`, `morphological`, `phonological`, `pragmatic`, `mixed`) indicates which domain provides **maximal projectibility** for the cluster documented in that entry – not an ontological claim about what the entry "is made of."
 
 - **Deitality** is maximally projectible for the syntactician: knowing something is deital lets you predict distributional behaviour (partitive licensing, *there*-resistance, identificational hosting).
 - **Definiteness** is maximally projectible for the semanticist: knowing something is definite lets you predict interpretive properties (identifiability, uniqueness, anaphoric accessibility).
