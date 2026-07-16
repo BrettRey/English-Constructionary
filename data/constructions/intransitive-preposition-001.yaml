@@ -1,6 +1,6 @@
 id: intransitive-preposition-001
 name: Intransitive Preposition Use
-pattern: "P (no complement)"
+pattern: "P (no object)"
 type: syntactic
 dimensions:
   form: "Preposition with no object (this entry: no complement at all)"
