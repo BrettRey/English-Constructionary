@@ -73,6 +73,93 @@ const buildSection = ({ id, label, dir, exts, includeMeta }) => {
   return { id, label, items };
 };
 
+// Explode the lexicon layer into per-lexeme items so lemmas are searchable.
+const buildLexemeSection = () => {
+  const items = [];
+  const goldDir = path.join(root, 'data/lexicon/gold');
+  const loadYaml = (p) => {
+    try { return yaml.load(fs.readFileSync(p, 'utf8')); } catch (err) { return null; }
+  };
+
+  // Deitality statuses join on exact lemma match
+  const deitality = new Map();
+  const deitalityDoc = loadYaml(path.join(root, 'data/indices/deitality-status.yaml'));
+  if (deitalityDoc && deitalityDoc.statuses) {
+    Object.entries(deitalityDoc.statuses).forEach(([status, lemmas]) => {
+      (lemmas || []).forEach((lemma) => deitality.set(String(lemma), status));
+    });
+  }
+
+  const pushLexeme = (lemma, category, sourceFile, extra = {}) => {
+    const lexeme = {
+      lemma,
+      category: category || 'to adjudicate',
+      source: sourceFile,
+      ...extra
+    };
+    const deitalityStatus = deitality.get(lemma);
+    if (deitalityStatus) lexeme.deitality = deitalityStatus;
+    items.push({
+      id: null,
+      title: lemma,
+      subtitle: lexeme.category,
+      path: `/data/lexicon/${sourceFile}`,
+      kind: 'lexeme',
+      lexeme,
+      relations: [],
+      incomingRelations: []
+    });
+  };
+
+  if (fs.existsSync(goldDir)) {
+    listFiles(goldDir, ['.yaml']).forEach((file) => {
+      const doc = loadYaml(path.join(goldDir, file));
+      if (!doc) return;
+      const constructions = doc.constructions || [];
+      const extra = { status: doc.status || 'seed', constructions };
+      if (Array.isArray(doc.items)) {
+        doc.items.forEach((lemma) => pushLexeme(String(lemma), doc['cgel-category'], `gold/${file}`, extra));
+      }
+      if (doc.split) {
+        Object.entries(doc.split).forEach(([bucket, lemmas]) => {
+          const category = bucket === 'to-adjudicate' ? null : bucket;
+          (lemmas || []).forEach((lemma) => pushLexeme(String(lemma), category, `gold/${file}`, extra));
+        });
+      }
+    });
+  }
+
+  // Override records enrich matching gold lexemes, or stand alone
+  const overrides = loadYaml(path.join(root, 'data/lexicon/overrides.yaml'));
+  if (overrides && Array.isArray(overrides.records)) {
+    overrides.records.forEach((record) => {
+      const category = record.cgel && record.cgel.category;
+      const match = items.find((item) => item.lexeme.lemma === record.lemma
+        && (!category || item.lexeme.category.startsWith(category)));
+      const detail = {
+        'source-pos': record['source-pos'],
+        provenance: record.provenance,
+        confidence: record.confidence,
+        tests: record.tests || [],
+        references: record.references || [],
+        notes: record.cgel && record.cgel.notes,
+        subclass: record.cgel && record.cgel.subclass
+      };
+      if (match) {
+        Object.assign(match.lexeme, { override: detail });
+        if (record.cgel && record.cgel.subclass) {
+          match.subtitle = `${match.lexeme.category} (${record.cgel.subclass})`;
+        }
+      } else {
+        pushLexeme(record.lemma, category, 'overrides.yaml', { override: detail, status: 'adjudicated' });
+      }
+    });
+  }
+
+  items.sort((a, b) => a.title.localeCompare(b.title));
+  return { id: 'lexemes', label: 'Lexemes', items };
+};
+
 const projectFiles = ['README.md', 'STATUS.md', 'LICENSE', 'AGENTS.md', 'CLAUDE.md']
   .filter((file) => fs.existsSync(path.join(root, file)))
   .map((file) => ({
@@ -118,6 +205,7 @@ const manifest = {
       exts: ['.yaml'],
       includeMeta: false
     }),
+    buildLexemeSection(),
     buildSection({
       id: 'schemas',
       label: 'Schemas',

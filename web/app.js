@@ -439,6 +439,72 @@ const pushHistory = (item) => {
   }
 };
 
+const renderLexemeSummary = (lexeme) => {
+  detailBody.innerHTML = '';
+  const block = document.createElement('div');
+  block.className = 'detail-block';
+  const title = document.createElement('h3');
+  title.textContent = 'Lexeme';
+  block.appendChild(title);
+
+  const addTag = (text) => {
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.textContent = text;
+    block.appendChild(tag);
+  };
+  addTag(`category: ${lexeme.category}${lexeme.override && lexeme.override.subclass ? ` (${lexeme.override.subclass})` : ''}`);
+  if (lexeme.deitality) addTag(`deitality: ${lexeme.deitality}`);
+  addTag(lexeme.override ? `provenance: ${lexeme.override.provenance}` : `status: ${lexeme.status || 'seed'}`);
+  if (lexeme.override && lexeme.override.confidence) addTag(`confidence: ${lexeme.override.confidence}`);
+
+  const grid = document.createElement('div');
+  grid.className = 'detail-grid';
+  const addRow = (html) => {
+    const row = document.createElement('div');
+    row.innerHTML = html;
+    grid.appendChild(row);
+  };
+  addRow(`<strong>Source</strong>: data/lexicon/${lexeme.source}${lexeme.override && lexeme.override['source-pos'] ? ` (source POS: ${lexeme.override['source-pos']})` : ''}`);
+  if (lexeme.override && lexeme.override.notes) addRow(`<strong>Notes</strong>: ${lexeme.override.notes}`);
+  if (lexeme.override && lexeme.override.tests.length) {
+    lexeme.override.tests.forEach((test) => {
+      addRow(`<strong>Test</strong>: ${test.test} — ${test.result}${test.example ? ` (${test.example})` : ''}`);
+    });
+  }
+  if (lexeme.override && lexeme.override.references.length) {
+    addRow(`<strong>References</strong>: ${lexeme.override.references.join('; ')}`);
+  }
+  block.appendChild(grid);
+  detailBody.appendChild(block);
+
+  if (lexeme.constructions && lexeme.constructions.length) {
+    const relBlock = document.createElement('div');
+    relBlock.className = 'detail-block';
+    const relTitle = document.createElement('h3');
+    relTitle.textContent = 'Constructions';
+    relBlock.appendChild(relTitle);
+    const relGrid = document.createElement('div');
+    relGrid.className = 'detail-grid';
+    lexeme.constructions.forEach((cid) => {
+      const row = document.createElement('div');
+      const target = state.byId && state.byId.get(cid);
+      if (target) {
+        const link = document.createElement('span');
+        link.className = 'breadcrumb';
+        link.textContent = cid;
+        link.addEventListener('click', () => selectItem(target));
+        row.appendChild(link);
+      } else {
+        row.textContent = cid;
+      }
+      relGrid.appendChild(row);
+    });
+    relBlock.appendChild(relGrid);
+    detailBody.appendChild(relBlock);
+  }
+};
+
 const selectItem = async (item, options = {}) => {
   const { pushHistory: shouldPush = true } = options;
   if (shouldPush && state.active && state.active.path !== item.path) {
@@ -453,6 +519,14 @@ const selectItem = async (item, options = {}) => {
   toggleViewBtn.disabled = false;
   openLink.href = resolvePath(item.path);
   openLink.setAttribute('aria-disabled', 'false');
+
+  if (item.kind === 'lexeme' && item.lexeme && state.viewMode === 'summary') {
+    detailSubtitle.textContent = `Lexeme · ${item.lexeme.category}`;
+    renderLexemeSummary(item.lexeme);
+    setStatus('Ready');
+    updateBackButton();
+    return;
+  }
 
   setStatus(`Loading ${item.title}…`);
   try {
