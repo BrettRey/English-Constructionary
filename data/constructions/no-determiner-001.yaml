@@ -1,5 +1,5 @@
 id: no-determiner-001
-name: Negative Determiner "no"
+name: Negative determinative "no" in determiner function
 pattern: "no + N"
 type: syntactic
 meanings:
@@ -12,7 +12,7 @@ meanings:
         note: Absence of evidence
 constraints:
   - type: syntactic
-    description: Determiner function with NP head.
+    description: A DP headed by the determinative no functions as determiner within the NP.
   - type: semantic
     description: Construes the NP as having zero members or instances.
 syntacticRefs:

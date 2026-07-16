@@ -3,7 +3,7 @@ name: Grammatical Definiteness
 pattern: Semantic feature implemented through nominal determination
 type: semantic
 dimensions:
-  form: "Typically realized by deital determiners (the, this, that, possessives) or bare proper nouns"
+  form: "Typically realized by deital determiners (the, this, that, dependent genitive pronouns, genitive NPs) or bare proper nouns"
   meaning: "Identifiability, uniqueness, discourse familiarity"
   function: "Establishes referent accessibility; anchors information structure"
   distribution: "NPs in argument and predicative positions"

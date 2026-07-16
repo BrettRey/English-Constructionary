@@ -3,7 +3,7 @@ name: Definite NP Construction
 pattern: Definite determiner + Nominal | Personal pronoun | Universal quantifier + Nominal | Proper name
 type: syntactic
 dimensions:
-  form: "Deital determiner (the, this, that, possessives) + Nom, or personal pronoun, or proper name"
+  form: "Deital determiner (the, this, that, dependent genitive pronoun, or genitive NP) + Nom, or personal pronoun, or bare proper-noun NP"
   meaning: "Identifiable, unique, or familiar referent; anchors discourse-established entity"
   function: "Topic-worthy argument; hosts identificational predication"
   distribution: "Argument positions; existential there-resistance; partitive licensing"

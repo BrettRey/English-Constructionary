@@ -3,10 +3,10 @@ name: Grammatical Number
 pattern: Applies to nouns and agreement targets
 type: semantic
 dimensions:
-  form: "Singular/plural morphology on nouns; agreement on determiners, verbs, pronouns"
+  form: "Singular/plural morphology on nouns; agreement on demonstrative determinatives, verbs, pronouns"
   meaning: "Cardinality, individuation, countability status"
   function: "Enables reference tracking; supports quantification"
-  distribution: "Nouns, determiners, verbs, pronouns; agreement domain extends across clause"
+  distribution: "Nouns, determinatives, verbs, pronouns; agreement domain extends across clause"
 meanings:
   '1':
     definition: Specifies cardinality features
@@ -36,7 +36,7 @@ kind:
   profile:
     core:
       - property: "Number inflection and agreement"
-        diagnostics: ["singular vs plural morphology", "agreement on determiners/verbs"]
+        diagnostics: ["singular vs plural morphology", "agreement on demonstrative determinatives/verbs"]
         weight: high
       - property: "Cardinality construal"
         diagnostics: ["compatibility with cardinals", "singular/plural reference shift"]
@@ -61,7 +61,7 @@ kind:
       evidence: "need to track individuation and plurality in discourse"
   projection:
     target: "new nouns participate in number marking and agreement"
-    evidence: "productive plural formation and determiner agreement"
+    evidence: "productive plural formation and demonstrative-determinative agreement"
     confidence: high
   maintenance:
     perturbations:
