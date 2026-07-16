@@ -30,9 +30,5 @@ kind:
     evidence: "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)"
     confidence: medium
   secured: stable
-relatedConstructions:
-  - id: no-determiner-001
-    relationship: see-also
-    notes: Parallel case of a category entry paired with function-named use entries
 lexiconRefs:
   - gold/prepositions

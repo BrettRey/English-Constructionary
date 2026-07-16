@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:25:14.211Z",
+  "generatedAt": "2026-07-16T18:28:22.439Z",
   "sections": [
     {
       "id": "project",
@@ -1332,11 +1332,6 @@
               "id": "absolute-negator-determinative-001",
               "title": "absolute-negator-determinative-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "preposition-001",
-              "title": "preposition-001",
-              "relationship": "see-also"
             }
           ]
         },
@@ -2535,13 +2530,7 @@
           "subtitle": "Preposition",
           "path": "/data/constructions/preposition-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "no-determiner-001",
-              "relationship": "see-also",
-              "notes": "Parallel case of a category entry paired with function-named use entries"
-            }
-          ],
+          "relations": [],
           "incomingRelations": [
             {
               "id": "intransitive-preposition-001",
