@@ -1,56 +1,63 @@
 id: source-complement-001
-name: Source Complement
-pattern: "V/P + PP[source]"
+name: Source Locative-Complement Construction
+pattern: "Head:V + Comp:PP[locative, source]"
 type: syntactic
+semanticType: predication
 dimensions:
-  form: "Source-denoting PP complement, overwhelmingly from-headed"
-  meaning: "Origin of motion or derivation"
-  function: "Source complement of a verb or of a preposition"
-  distribution: "VP-internal (came from Toronto), PP-internal (out from under the bed), and recursively within from-PPs (from [under the bed])"
+  form: "Verb head with a source-denoting PP in locative-complement function, overwhelmingly headed by from"
+  meaning: "Origin or initial location of motion, derivation, or change"
+  function: "Locative complement of the verb, bearing the semantic role source"
+  distribution: "VP-internal with motion and change verbs; compatible with a following goal-role locative complement"
 meanings:
   '1':
-    definition: A verb or preposition takes a source-denoting PP complement, marking the origin of motion
-    details: "At the verb/path-preposition host level the source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. The function recurs inside the from-PP: from's own complement (an NP like Toronto or a locative PP like under the bed) is itself a source complement specifying the source region, so out from under the bed stacks the function twice. The inner relation is forced: from is never intransitive, so under the bed must be its complement, which proves that prepositions take PP source complements. The outer attachment (from-PP as complement of out versus as a separate PP alongside it) is not forced, since out has intransitive uses; that layer shares the indeterminacy of the goal-side off to school cases. Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
+    definition: A VP contains a locative complement bearing the source role, marking the initial location of motion or change
+    details: "Source is a semantic role, while locative complement is the CGEL syntactic function. From marks source: its complement may be an NP (from Toronto) or a locative PP expressing the source location (from under the bed). The inner PP is a complement of from, not another source complement, so the construction does not recurse inside the from-PP (CGEL pp. 257–59)."
     examples:
       - form: "She came [from Toronto]."
-        note: VP-internal source complement
-      - form: "out [from under the bed]"
-        note: "From-PP in the source frame; whether it is a complement of out or a separate PP is not forced (out has intransitive uses)"
-      - form: "out from [under the bed]"
-        note: "The forced case: from is never intransitive, so under the bed must be its source complement - the proof that P takes PP source complements"
+        note: From-PP in source-role locative-complement function
+      - form: "Ed emerged [from [under the car]]."
+        note: "The whole from-PP is the source-role locative complement; the inner PP expresses the source location"
       - form: "They flew [from Toronto] [to Ottawa]."
-        note: Source and goal complements co-occurring
+        note: Source- and goal-role locative complements co-occurring
 constraints:
   - type: syntactic
-    description: The source PP is a complement of its verb or preposition host, not an adjunct.
+    description: "The whole source-denoting PP is integrated as a locative complement of the verb, not added as a locative adjunct."
   - type: semantic
-    description: Denotes origin of motion or derivation; pairs with goal complements in the full path frame.
+    description: "The complement denotes the initial location or state and can co-occur with a separate goal-role locative complement."
 kind:
   provisional: true
   projection:
-    target: "Locating a PP in the source slot predicts from-headedness at the verb/path-preposition host level, recursive source specification inside the from-PP (NP or locative PP complement of from), free co-occurrence with a goal complement in the same frame, and availability in both VP and PP hosts"
-    evidence: "from-headedness is near-exceptionless where the goal slot ranges over to/into/onto and bare PPs; the two-host distribution is attested in both directions (came from Toronto; out from under the bed)"
+    target: "Locating a PP in the source-role locative-complement slot predicts an initial-location interpretation, strong preference for overt from or out-of marking, and compatibility with a separate goal-role complement in the same motion frame"
+    evidence: "CGEL's spatial, state, and possession examples distinguish initial-location source from final-location goal and show obligatory from before locative-PP source locations (pp. 258–60)"
     confidence: medium
   secured: stable
   profile:
     core:
-      - property: "From-headed PP in complement function"
-        diagnostics: ["selected by motion verbs and path prepositions", "not omissible without changing the frame"]
+      - property: Source role borne by a locative PP complement
+        diagnostics: ["initial-location interpretation", "integration in a motion or change frame"]
         weight: high
-      - property: "Two host types"
-        diagnostics: ["VP-internal and PP-internal occurrence"]
+      - property: Overt source marking
+        diagnostics: ["from-headed PP", "out-of realization in a restricted subset"]
+        weight: high
+    peripheral:
+      - property: Source-goal co-occurrence
+        diagnostics: ["from Toronto to Ottawa", "from bad to worse"]
         weight: medium
   boundaries:
     known_boundary_items:
-      - "path/route complements (through the tunnel, via Chicago): third member of the path family, no entry yet"
-      - "derivational sources (made from grapes): motion metaphor, classification pending"
+      - "path or route complements such as through the tunnel and via Chicago: a third locative-role family member, with no entry yet"
+      - "derivational sources such as made from grapes: extension beyond literal motion"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
 relatedConstructions:
   - id: pp-001
     relationship: contains
     parthood: formal
-    notes: The source slot is a PP (from-headed)
+    notes: The source-role locative complement is a PP, usually headed by from
   - id: goal-complement-001
     relationship: related-to
-    notes: Sister path complements; freely co-occurring (from Toronto to Ottawa), not alternating
+    notes: Sister semantic roles within the locative-complement family
 lexiconRefs:
   - gold/prepositions

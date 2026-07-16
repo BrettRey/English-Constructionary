@@ -1,32 +1,32 @@
 id: intransitive-preposition-001
 name: Intransitive Preposition Use
-pattern: "P (no object)"
+pattern: "Head:P (no Obj:NP; + optional non-object Comp)"
 type: syntactic
 dimensions:
-  form: "Preposition with no object (this entry: no complement at all)"
-  meaning: "Location, direction, or time anchored deictically or contextually"
-  function: "Heads a complement-less PP in complement or adjunct function"
-  distribution: "Same PP positions as full PPs; embeddable under from (from abroad, from upstairs)"
+  form: "Preposition heading a PP without an NP object; it may be complementless or take a PP, clause, or predicative complement"
+  meaning: "Varies with the head and complement: location, direction, time, reason, comparison, and other relations"
+  function: "Heads an intransitive PP in complement, modifier, adjunct, or predicative function"
+  distribution: "The full CGEL objectless class; complementless locative members occupy the same PP positions as full locative PPs"
 meanings:
   '1':
-    definition: A preposition used without an object, heading a complete PP
-    details: "Intransitive means no object, for prepositions as for verbs: the NP complement of a preposition bears the object function (the garden is the object of in in in the garden). This entry covers the fully complement-less members traditional grammar calls adverbs of place (home, abroad, ashore, away, back, outside, upstairs, downtown, overseas). Many alternate between transitive and intransitive uses (outside (the door)); some are intransitive-only (abroad, ago). Prepositions with non-NP complements (because + clause) are likewise objectless; they are covered by the category entry rather than here. The category stays preposition throughout; only the complementation differs."
+    definition: A preposition used without an NP object, whether or not it has another kind of complement
+    details: "Intransitive means no object, not no complement. A complementless member such as outside heads a one-word PP, but an intransitive preposition may instead take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). The category remains preposition throughout (CGEL p. 272)."
     examples:
       - form: "She waited [outside]."
-        note: Intransitive; same lexeme as transitive outside the door
-      - form: "They live [abroad]."
-        note: Intransitive-only member
-      - form: "ten years [ago]"
-        note: "Intransitive-only, with an obligatory pre-head measure modifier (*I went ago); the measure phrase is a modifier, not a complement (cf. ten years before I went)"
-      - form: "He came straight [back]."
-        note: With straight-modification typical of PPs
-      - form: "go [home]"
-        note: "Bare PP as goal complement of a motion verb; *go to home is out simply because to takes NP, not PP, complements (go to work is fine)"
+        note: Complementless intransitive use; the same lexeme also has transitive outside the door
+      - form: "This happened [owing [to the rain]]."
+        note: Intransitive preposition with a PP complement
+      - form: "That counts [as satisfactory]."
+        note: Intransitive preposition with a predicative complement
+      - form: "We left [because it rained]."
+        note: Intransitive preposition with a clause complement
+      - form: "Bill slept the afternoon [away]."
+        note: Complementless intransitive preposition heading a one-word PP in particle use
 constraints:
   - type: syntactic
-    description: Accepts right/straight modification (right outside, straight home), unlike adverbs.
+    description: "The head has no NP object in this use; the presence of a non-object complement does not make the PP transitive."
   - type: syntactic
-    description: Embeddable as complement of from (from abroad, from upstairs), a PP position closed to adverbs.
+    description: "Within the complementless locative subset, right/straight modification and from-embedding help distinguish PPs from AdvPs (right outside, straight home, from abroad)."
 relatedConstructions:
   - id: preposition-001
     relationship: specialization-of

@@ -1,73 +1,73 @@
 id: goal-complement-001
-name: Goal Complement
-pattern: "V + PP[goal]"
+name: Goal Locative-Complement Construction
+pattern: "Head:V + Comp:PP[locative, goal]"
 type: syntactic
+semanticType: predication
 dimensions:
-  form: "Verb with a goal-denoting PP complement; the PP may be headed by a transitive preposition (to the shop, into the cave) or a bare intransitive preposition (home, abroad, ashore)"
-  meaning: "Directed motion toward a goal; the frame can impose the motion reading"
-  function: "Goal complement of the verb"
-  distribution: "VP-internal with motion verbs (go, come, head, run, arrive) and coerced manner verbs; PP-internal goal complements unestablished (see example note)"
+  form: "Verb head with a goal-denoting PP in locative-complement function; the PP may be transitive or complementless"
+  meaning: "Directed motion toward a final location; the frame can impose the motion reading"
+  function: "Locative complement of the verb, bearing the semantic role goal"
+  distribution: "VP-internal with motion verbs and constructionally coerced manner or emission verbs"
 meanings:
   '1':
-    definition: A verb takes a goal-denoting PP complement, yielding directed motion toward the goal
-    details: "Realizations of the goal slot are equal citizens: to-PPs (go to the shop), directional PPs (run into the garden), and bare PPs headed by intransitive prepositions (go home, head abroad). *go to home is ruled out by to's NP-only complementation, not by this construction."
+    definition: A VP contains a locative complement bearing the goal role, yielding directed motion toward a final location
+    details: "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), directional PPs (run into the garden), and one-word PPs headed by complementless prepositions (go home, head abroad). *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59)."
     examples:
       - form: "go [to the shop]"
-        note: Transitive-preposition goal
+        note: Goal-role locative complement headed by transitive to
       - form: "go [to church]"
-        note: "To-PP goal with a bare institutional NP as object of to (cf. np-bare-001; in hospital, at university)"
+        note: To-PP with a bare institutional NP object
       - form: "go [home]"
-        note: Goal realized by a bare PP headed by the intransitive preposition home
+        note: Goal-role locative complement realized by a one-word PP
       - form: "The sailors went [ashore]."
-        note: Bare-PP goal
-      - form: "She headed back [to the start]."
-        note: "Unestablished as PP-internal: the disambiguation test is a never-intransitive preposition in the host slot, which forces the complement parse (from under the bed proves P + PP-source-complement because from cannot stand alone). Every candidate goal host (off, back, down) has intransitive uses, so the two-PP parse (intransitive path PP + goal PP) is always available, and no never-intransitive preposition takes a to-PP goal complement. Contrast source-complement-001."
+        note: Complementless-P realization of the goal slot
   '2':
-    definition: The frame coerces a directed-motion reading onto verbs without lexical motion semantics
-    details: "The constructional residue: manner verbs contribute manner while the frame supplies the motion and the goal (Goldberg 1995, the intransitive motion construction). This licensing does not follow from any lexeme's category or valency, which is what earns the frame its own entry."
+    definition: The frame coerces a directed-motion reading onto a verb without lexical direction or goal semantics
+    details: "This is the constructional residue: the verb contributes manner or emission while the frame supplies motion and the goal (Goldberg 1995, intransitive-motion construction)."
     examples:
       - form: "The bottle floated [into the cave]."
-        note: Float has no lexical goal argument; the frame supplies directed motion
+        note: The frame supplies directed motion toward the goal
       - form: "The fly buzzed [into the room]."
         note: Sound-emission verb coerced into motion
       - form: "She danced [into the hall]."
-        note: Manner-of-motion verb with frame-supplied goal
+        note: Activity verb with frame-supplied goal
 constraints:
   - type: syntactic
-    description: The goal is a complement, not an adjunct; it is selected in the directed-motion frame.
+    description: "The PP is integrated as a locative complement in the directed-motion VP, not added as a locative adjunct."
   - type: semantic
-    description: With non-motion verbs, the frame supplies the motion semantics (coercion); the verb contributes manner.
+    description: "When the verb does not lexically encode direction or a goal, the frame supplies the directed-motion relation while the verb contributes manner or emission."
 kind:
   provisional: true
   projection:
-    target: "Locating a clause in the goal-complement frame predicts a directed-motion interpretation even when the verb lacks lexical motion semantics, and predicts the goal slot's realizational range (to-PP, directional PP, bare intransitive-P PP)"
-    evidence: "Manner-verb coercion (float/buzz/dance + path PP) is not derivable from the verbs' lexical entries or from selection; realizational range holds across the motion verbs and the coerced cases (Goldberg 1995)"
+    target: "Locating a VP in the goal-locative-complement frame predicts a directed-motion interpretation even when the verb lacks lexical direction or goal semantics, and predicts the goal slot's realizational range across to-PPs, directional PPs, and one-word locative PPs"
+    evidence: "Manner and emission verbs acquire directed-motion readings in this frame, while the realizational range holds across lexical motion and coerced cases (Goldberg 1995; CGEL pp. 257–59)"
     confidence: medium
   secured: stable
   profile:
     core:
-      - property: "Goal PP as complement"
-        diagnostics: ["selected in the motion frame", "not omissible without changing the frame"]
+      - property: Goal-role PP in locative-complement function
+        diagnostics: ["final-location interpretation", "integration in the motion frame"]
         weight: high
-      - property: "Coercion of non-motion verbs"
-        diagnostics: ["manner verbs acquire directed-motion readings in the frame"]
+      - property: Constructional coercion
+        diagnostics: ["manner or emission verbs acquire directed-motion readings"]
         weight: high
-  stabilisers:
-    - type: entrenchment
-      evidence: "Very high frequency of go/come + goal anchors the frame"
   boundaries:
     known_boundary_items:
-      - "off/back/down + to-PP sequences: undecidable between one PP and two, because the hosts all have intransitive uses (no forcing case exists for goals)"
-      - "the way-construction (She elbowed her way in): related but distinct frame"
-      - "caused-motion (He sneezed the napkin off the table): transitive sister frame"
-      - "here/there as deictic goals (wider distribution; classification pending)"
+      - "off, back, or down followed by a to-PP: the sequence may contain two separate PP complements because each first P also has a complementless use"
+      - "from under the bed proves only that from can take a PP complement; it does not establish PP-internal goal complementation"
+      - "the way construction: related but distinct frame"
+      - "caused motion: transitive sister frame with an Od theme"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
 relatedConstructions:
   - id: pp-001
     relationship: contains
     parthood: formal
-    notes: The goal slot is a PP; to-PPs and single-preposition PPs (home, ashore) alike
+    notes: The goal-role locative complement is a PP
   - id: source-complement-001
     relationship: related-to
-    notes: Sister path complements; freely co-occurring (from Toronto to Ottawa)
+    notes: Sister semantic roles within the locative-complement family
 lexiconRefs:
   - gold/prepositions

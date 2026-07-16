@@ -6,18 +6,18 @@ dimensions:
   form: "Mostly short, closed-class lexemes; no inflection"
   meaning: "Relates an entity or situation to another in space, time, or abstract structure"
   function: "Head of PP; PPs serve as complements, modifiers, and adjuncts"
-  distribution: "Complements optional for much of the class (intransitive use); some members take clause complements"
+  distribution: "NP objects and other complements are optional for much of the class; a few exceptional heads follow their complement"
 meanings:
   '1':
     definition: Lexical category heading preposition phrases, with optional complements for much of the class
-    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), the intransitive members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare postposed-complement members (notwithstanding), and the clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
+    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs), the exceptional heads that follow their complement (notwithstanding and ago), and clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
     examples:
       - form: "[in] the garden"
         note: "Transitive: the garden bears the object function within the PP"
       - form: "She waited [outside]."
         note: Intransitive use (no object)
-      - form: "ten years [ago]"
-        note: "Intransitive, with an obligatory pre-head measure modifier (cf. ten years before I went); not postposed"
+      - form: "[ten years ago]"
+        note: "Exceptional complement-head order: the obligatory NP ten years is complement of the preposition ago (CGEL p. 632)"
       - form: "[because] it rained"
         note: Clause complement (traditional subordinating conjunction)
 constraints:

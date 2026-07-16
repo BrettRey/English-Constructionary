@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: An utterance-level force category, expressing heightened speaker stance with exclamatory prosody
-    details: "Terminology: exclamative is the clause type (syntactic), exclamatory the property of uses, exclamation the utterance-level force category (pragmatic). Membership is graded: interjections are the prototype (pure force, no propositional content, no discourse referent); exclamative clauses are core; directive-ostensive NPs are prototypically members; vocatives only via the summons/call use; declaratives join by prosody alone (That's amazing!). The category cross-cuts the structural profile of extra-clausal NPs (ostensive-np-001) rather than containing it: tag vocatives are structural-yes/force-no, exclamatory declaratives force-yes/structural-no."
+    details: "Terminology: exclamative is the clause type (syntactic), exclamatory the property of uses, exclamation the utterance-level force category (pragmatic). This entry is a Constructionary pragmatic profile, not a claim that CGEL recognizes a unified grammatical class: CGEL p. 923 treats exclamation as structurally nebulous and samples several formally distinct realizations. Membership here is graded: interjections are the prototype; exclamative clauses are core; directive-ostensive NPs are prototypically members; vocatives enter only via the summons/call use; declaratives join by prosody alone (That's amazing!). The category cross-cuts ostensive-np-001 rather than containing it: tag vocatives are structural-yes/force-no, while exclamatory declaratives are force-yes/structural-no."
     examples:
       - form: "[Ouch]!"
         note: Interjection; the prototype (pure force, no discourse referent)
@@ -52,6 +52,7 @@ kind:
     overlaps_with:
       - ostensive-np-001
     known_boundary_items:
+      - "CGEL does not posit a well-defined grammatical class of non-exclamative exclamations; this entry proposes a cross-form pragmatic profile"
       - "tag and address vocatives (structural profile without exclamatory force)"
       - "exclamatory declaratives (force without the extra-clausal structure)"
       - "murmured reminders (Your keys, said flatly)"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:41:50.357Z",
+  "generatedAt": "2026-07-16T20:20:51.297Z",
   "sections": [
     {
       "id": "project",
@@ -230,6 +230,38 @@
               "id": "year-name-001",
               "title": "year-name-001",
               "relationship": "specialization-of"
+            }
+          ]
+        },
+        {
+          "id": "caused-motion-001",
+          "title": "caused-motion-001",
+          "subtitle": "Caused-Motion Construction",
+          "path": "/data/constructions/caused-motion-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "pp-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "The final dependent is a locative PP complement"
+            },
+            {
+              "id": "goal-complement-001",
+              "relationship": "related-to",
+              "notes": "Transitive sister of the intransitive motion/goal frame; caused motion adds an Od theme"
+            },
+            {
+              "id": "source-complement-001",
+              "relationship": "related-to",
+              "notes": "The final locative complement can bear the source role"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "ditransitive-vp-001",
+              "title": "ditransitive-vp-001",
+              "relationship": "see-also"
             }
           ]
         },
@@ -660,6 +692,27 @@
           ]
         },
         {
+          "id": "ditransitive-vp-001",
+          "title": "ditransitive-vp-001",
+          "subtitle": "Ditransitive VP (Double-object Construction)",
+          "path": "/data/constructions/ditransitive-vp-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "The two object slots are normally realized by NPs"
+            },
+            {
+              "id": "caused-motion-001",
+              "relationship": "see-also",
+              "notes": "Caused motion has one Od plus a locative PP complement and is therefore monotransitive, not ditransitive"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "echo-question-001",
           "title": "echo-question-001",
           "subtitle": "Echo Question",
@@ -779,7 +832,7 @@
         {
           "id": "goal-complement-001",
           "title": "goal-complement-001",
-          "subtitle": "Goal Complement",
+          "subtitle": "Goal Locative-Complement Construction",
           "path": "/data/constructions/goal-complement-001.yaml",
           "kind": "yaml",
           "relations": [
@@ -787,15 +840,20 @@
               "id": "pp-001",
               "relationship": "contains",
               "parthood": "formal",
-              "notes": "The goal slot is a PP; to-PPs and single-preposition PPs (home, ashore) alike"
+              "notes": "The goal-role locative complement is a PP"
             },
             {
               "id": "source-complement-001",
               "relationship": "related-to",
-              "notes": "Sister path complements; freely co-occurring (from Toronto to Ottawa)"
+              "notes": "Sister semantic roles within the locative-complement family"
             }
           ],
           "incomingRelations": [
+            {
+              "id": "caused-motion-001",
+              "title": "caused-motion-001",
+              "relationship": "related-to"
+            },
             {
               "id": "source-complement-001",
               "title": "source-complement-001",
@@ -1060,7 +1118,13 @@
               "parthood": "formal"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "time-away-001",
+              "title": "time-away-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "letter-case-modifier-001",
@@ -1556,6 +1620,11 @@
               "id": "determinative-fused-head-001",
               "title": "determinative-fused-head-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "ditransitive-vp-001",
+              "title": "ditransitive-vp-001",
+              "relationship": "contains"
             },
             {
               "id": "nom-001",
@@ -2654,6 +2723,11 @@
           ],
           "incomingRelations": [
             {
+              "id": "caused-motion-001",
+              "title": "caused-motion-001",
+              "relationship": "contains"
+            },
+            {
               "id": "goal-complement-001",
               "title": "goal-complement-001",
               "relationship": "contains"
@@ -2937,7 +3011,7 @@
         {
           "id": "source-complement-001",
           "title": "source-complement-001",
-          "subtitle": "Source Complement",
+          "subtitle": "Source Locative-Complement Construction",
           "path": "/data/constructions/source-complement-001.yaml",
           "kind": "yaml",
           "relations": [
@@ -2945,15 +3019,20 @@
               "id": "pp-001",
               "relationship": "contains",
               "parthood": "formal",
-              "notes": "The source slot is a PP (from-headed)"
+              "notes": "The source-role locative complement is a PP, usually headed by from"
             },
             {
               "id": "goal-complement-001",
               "relationship": "related-to",
-              "notes": "Sister path complements; freely co-occurring (from Toronto to Ottawa), not alternating"
+              "notes": "Sister semantic roles within the locative-complement family"
             }
           ],
           "incomingRelations": [
+            {
+              "id": "caused-motion-001",
+              "title": "caused-motion-001",
+              "relationship": "related-to"
+            },
             {
               "id": "goal-complement-001",
               "title": "goal-complement-001",
@@ -2980,6 +3059,22 @@
               "relationship": "related-to"
             }
           ]
+        },
+        {
+          "id": "time-away-001",
+          "title": "time-away-001",
+          "subtitle": "Time-Away Construction",
+          "path": "/data/constructions/time-away-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "intransitive-preposition-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "Fixed away is an intransitive preposition heading a one-word PP; particle names its syntactic use, not its lexical category"
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "verb-number-agreement-001",
@@ -4192,7 +4287,7 @@
         {
           "id": null,
           "title": "ago",
-          "subtitle": "preposition (intransitive)",
+          "subtitle": "preposition (post-complement-head)",
           "path": "/data/lexicon/gold/prepositions.yaml",
           "kind": "lexeme",
           "lexeme": {
@@ -4217,9 +4312,9 @@
               "confidence": "high",
               "tests": [
                 {
-                  "test": "pre-head measure modifier",
-                  "result": "obligatory; a modifier, not a complement",
-                  "example": "ten years [ago] / *I went [ago]"
+                  "test": "obligatory preceding dependent",
+                  "result": "obligatoriness diagnoses complement rather than optional measure modifier",
+                  "example": "[ten years ago] / *I went [ago]"
                 },
                 {
                   "test": "adverb modification",
@@ -4227,10 +4322,10 @@
                 }
               ],
               "references": [
-                "CGEL Ch. 7"
+                "CGEL Ch. 7 §4.2, p. 632"
               ],
-              "notes": "Intransitive, with an obligatory pre-head measure modifier (ten years ago; cf. ten years before I went). Not postposed: contrast notwithstanding, whose preposed NP is a complement",
-              "subclass": "intransitive"
+              "notes": "Exceptional preposition that invariably follows its obligatory NP complement: [ten years] ago",
+              "subclass": "post-complement-head"
             }
           },
           "relations": [],
@@ -20241,6 +20336,15 @@
       "id": "docs",
       "label": "Docs",
       "items": [
+        {
+          "id": null,
+          "title": "2026-07-16-cgel-compliance-and-argument-structure-plan.md",
+          "subtitle": "",
+          "path": "/docs/2026-07-16-cgel-compliance-and-argument-structure-plan.md",
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        },
         {
           "id": null,
           "title": "CONTRIBUTING.md",

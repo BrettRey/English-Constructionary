@@ -1,21 +1,21 @@
 id: exclamative-word-001
 name: Exclamative Use of Indeterminates
-pattern: what/how (exclamative packaging)
+pattern: "what:Adj / how:Adv (exclamative packaging)"
 type: semantic
 dimensions:
-  form: "Only what and how from the indeterminate series; what a with singular count nouns"
+  form: "Only what and how from the indeterminate series; exclamative what is an adjective, while exclamative how is adverbial"
   meaning: "The open variable is packaged as evaluation against a contextual norm"
-  function: "Exclamatory assessment; marks remarkable degree or kind"
+  function: "Marks exclamative clause type and, in its core role, remarkable degree or quality"
   distribution: "Exclamative clauses (What children they are!, How fast she ran!) and exclamative NPs"
 meanings:
   '1':
     definition: Expresses evaluation of the variable's value against a contextual standard or expectation
-    details: "Membership is the tightest of the three packagings: what and how only. Exclamative uses pattern non-deitally on the deitality inventory; such (a) and so many/much pattern with them in exclamative NPs without being indeterminates."
+    details: "Membership is the tightest of the three packagings: what and how only. Exclamative how is adverbial, modifying an adjective, degree determinative, adverb, or verb. Exclamative what is an adjective functioning as external or internal modifier in NP structure; this contrasts with interrogative what, a determinative functioning as determiner (CGEL pp. 918–20). Exclamative uses pattern non-deitally on the deitality inventory; such (a) and so many/much pattern with them in exclamatory NPs without being indeterminates."
     examples:
       - form: "[what] children"
-        note: Notable children (evaluation against norm)
+        note: Adjective in modifier function; notable children evaluated against a norm
       - form: "[how] fast"
-        note: Remarkable speed
+        note: Adverb modifying an adjective; remarkable speed
       - form: "[What a] day it's been!"
         note: Exclamative NP with singular count noun
 semanticRefs:

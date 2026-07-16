@@ -5,12 +5,12 @@ type: semantic
 dimensions:
   form: "Closed series sharing historical wh- orthography (how included); internal paradigm structure (whose, whom as case forms of who); productive -ever derivation"
   meaning: "Contributes an open variable restricted to a sort (person, thing, selection, possessor, place, time, reason, manner/degree)"
-  function: "Feeds interrogative, relative, and exclamative packagings; fronting and upward percolation of the marked property"
-  distribution: "Clause-initial position under fronting; availability per packaging differs by member"
+  function: "Feeds interrogative, relative, and exclamative packagings; the marked property percolates upward, with non-subject fronting where the packaging requires it"
+  distribution: "Availability and lexical category vary by member and packaging; non-subject phrases are fronted in the relevant constructions"
 meanings:
   '1':
     definition: Contributes an open variable restricted to a sort, available to different clause-type packagings
-    details: "Term: indeterminate (cf. Kuroda 1965 for the Japanese analogue). Not a CGEL lexical category: members are pronouns (who, whose), determinatives (what, which in determiner function), and others; the set cross-cuts the lexical categories. Three projections make the overarching set real rather than a mere union: (i) sortal-variable semantics across packagings; (ii) fronting plus upward percolation of the interrogative/relative/exclamative property regardless of the consuming clause type; (iii) the -ever series (whoever, whatever, whichever, wherever, whenever, however) derives from exactly this base set and nothing else. Per-word category facts live in the lexicon layer."
+    details: "Term: indeterminate (cf. Kuroda 1965 for the Japanese analogue). Not a CGEL lexical category: the set cross-cuts lexical categories, and category may differ by packaging—interrogative what is a determinative, whereas exclamative what is an adjective; how is adverbial. Three projections support the overarching set: (i) sortal-variable semantics across packagings; (ii) upward percolation of the interrogative, relative, or exclamative property, plus non-subject fronting where required; (iii) the -ever series (whoever, whatever, whichever, wherever, whenever, however) derives from this base set. Packaging-specific category facts live in the specialization entries and lexicon layer."
     examples:
       - form: "[what] she saw"
         note: Open variable over things (fused relative packaging)

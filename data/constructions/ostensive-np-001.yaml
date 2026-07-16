@@ -3,14 +3,14 @@ name: Ostensive NP
 pattern: "NP[extra-clausal, attention-directing]"
 type: syntactic
 dimensions:
-  form: "Extra-clausal NP with marked prosody; full NP-internal grammar"
+  form: "Extra-clausal NP with marked prosody; NP-internal licensing is preserved but differs between vocative and directive-ostensive packaging"
   meaning: "Directs attention to a referent (addressee or environmental)"
   function: "Attention-securing utterance; not an argument of any predicator"
   distribution: "Stand-alone or supplement position; resists embedding, tags, and questioning"
 meanings:
   '1':
-    definition: An extra-clausal NP whose utterance directs attention to its referent, with normal NP-internal syntax preserved
-    details: "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). The packagings shade into each other: Taxi! is ambiguous between hailing the driver and alerting companions, and reminders (Your keys!) sit between alerting and addressing. Cross-cuts the force category exclamation-001: tag vocatives instantiate this profile without exclamatory force."
+    definition: An extra-clausal NP whose utterance directs attention to its referent, with packaging-specific NP-internal syntax preserved
+    details: "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). Ordinary determination applies in the directive-ostensive packaging, while vocative function independently licenses bare common-noun NPs such as Mum, driver, officer, and buddy (CGEL pp. 522–23). The packagings shade into each other: Taxi! is ambiguous between hailing the driver and alerting companions, and reminders (Your keys!) sit between alerting and addressing. The construction cross-cuts exclamation-001: tag vocatives instantiate this profile without exclamatory force."
     examples:
       - form: "[Mom]! (calling)"
         note: Vocative packaging (addressee-directed)
@@ -20,14 +20,14 @@ meanings:
         note: Boundary case, ambiguous between the two packagings
 constraints:
   - type: syntactic
-    description: Full NP-internal determination is preserved (a snake, the bus), unlike block language (headlines, labels), which sheds determiners.
+    description: "Determination is packaging-sensitive: directive-ostensives preserve ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, buddy)."
   - type: syntactic
     description: Not selected by any predicator; resists embedding, tags, and question formation.
 kind:
   provisional: true
   projection:
-    target: "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language), introduction of a discourse referent available to anaphora (contrast interjections), orientation-type rather than verbal response, and marked prosody"
-    evidence: "The determination contrast (A snake! vs headline Snake found in library) and the anaphora contrast (A snake! It's moving vs Ouch! *It...) hold across both packagings; acquisitional continuity with joint-attention pointing is a testable prediction (cf. CHILDES vocative results for kinship terms)"
+    target: "Membership predicts packaging-specific NP syntax despite extra-clausal status, introduction of a discourse referent available to anaphora, an orientation-type rather than verbal response, and marked prosody"
+    evidence: "Directive-ostensives preserve ordinary determination where block language sheds it, while vocatives license a restricted bare-NP inventory (CGEL pp. 522–23); both packagings retain referential and orientation behaviour unlike interjections"
     confidence: medium
   secured: stable
   profile:
@@ -35,8 +35,8 @@ kind:
       - property: "Extra-clausal status"
         diagnostics: ["not selected by verb", "resists embedding and tags"]
         weight: high
-      - property: "Full NP-internal grammar"
-        diagnostics: ["singular count requires determiner", "non-count and plural can be bare"]
+      - property: "Packaging-specific NP-internal grammar"
+        diagnostics: ["ordinary determination in directive-ostensives", "licensed bare common nouns in vocatives"]
         weight: high
       - property: "Attention-directing function"
         diagnostics: ["secures channel or joint attention", "licenses orientation response"]

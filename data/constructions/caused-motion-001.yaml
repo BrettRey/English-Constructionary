@@ -1,0 +1,67 @@
+id: caused-motion-001
+name: Caused-Motion Construction
+pattern: "Head:V + Od:NP[theme] + Comp:PP[locative, source/path/goal]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "VP headed by a verb followed by an NP direct object and an object-oriented locative PP complement"
+  meaning: "The subject referent causes the direct-object referent to move along a path, from a source, or to a goal or location"
+  function: "Packages a causing event and the resulting change of location; the verb can supply manner or causal means"
+  distribution: "VP-internal in active and passive clauses; productive with verbs that do not lexically license the object or locative complement"
+meanings:
+  '1':
+    definition: The subject participant causes the direct-object theme to undergo the change of location described by the locative complement
+    details: "The construction, not necessarily the verb's lexical valency, licenses the theme object and locative complement. In He sneezed his tooth right across town, sneeze supplies the causal event while the frame supplies the caused-motion relation. In CGEL terms, across town is an object-oriented locative complement with path semantics, not an adjunct, a predicative complement, or an oblique object (CGEL pp. 257–59, 684–88; Goldberg 2006: 6, 33–35, 94, 98–100)."
+    examples:
+      - form: "He sneezed [his tooth] [right across town]."
+        note: "Attested Munsch/Goldberg example; sneeze does not independently have a three-argument sense"
+      - form: "She sneezed [the foam] [off the cappuccino]."
+        note: Construction-licensed theme and source/path
+      - form: "Pat shoveled [the hay] [into the wagon]."
+        note: The verb supplies the means; the frame supplies caused motion and goal
+constraints:
+  - type: syntactic
+    description: "The NP after the verb is Od; the following PP is an object-oriented locative complement, not a second object and not a locative adjunct."
+  - type: semantic
+    description: "The external subject must be construable as the source of causal force; volition is not required, as sneeze and knock show."
+  - type: semantic
+    description: "The direct-object referent is construed as the moving theme, and the PP supplies source, path, goal, direction, or resulting location."
+  - type: semantic
+    description: "The verbal event must be construable as causally relevant means or manner; productivity is constrained by semantic similarity and statistical pre-emption."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing the Head–Od–locative-complement frame predicts a causer subject, a moving-theme object, an object-oriented change-of-location PP, and a caused-motion reading even when the verb does not lexically license those dependents"
+    evidence: "Novel sneeze examples isolate constructional licensing (Goldberg 2006: 6, 94, 98–100); child-directed-speech results support predictive association between the form and caused-motion meaning (pp. 106–10); CGEL p. 684 treats change-of-location dependents as complements in motion frames"
+    confidence: high
+  secured: stable
+  profile:
+    core:
+      - property: NP direct object as moving theme
+        diagnostics: ["object orientation of following locative", "passive correspondence"]
+        weight: high
+      - property: Locative PP complement
+        diagnostics: ["included in do-so scope", "source, path, goal, or resulting-location interpretation"]
+        weight: high
+      - property: Constructional causation
+        diagnostics: ["licensed with intransitive sneeze", "verb contributes manner or means rather than all valency"]
+        weight: high
+  boundaries:
+    known_boundary_items:
+      - "Caused location, enabled motion, and prevented motion are established extensions, but they do not replace the core caused-motion meaning."
+      - "CGEL calls the PP a locative complement and keeps locatives distinct from predicative complements; causative path resultative is a construction-family label, not the CGEL function label."
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: The final dependent is a locative PP complement
+  - id: goal-complement-001
+    relationship: related-to
+    notes: Transitive sister of the intransitive motion/goal frame; caused motion adds an Od theme
+  - id: source-complement-001
+    relationship: related-to
+    notes: The final locative complement can bear the source role

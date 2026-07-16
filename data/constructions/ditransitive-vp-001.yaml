@@ -1,0 +1,103 @@
+id: ditransitive-vp-001
+name: Ditransitive VP (Double-object Construction)
+pattern: "Head:V + Oi:NP + Od:NP"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "VP headed by a verb with two internal core complements: indirect object followed by direct object"
+  meaning: "Role alignment is centred on recipient and theme, but extends to goods-beneficiary, prevention, source, loss, and other affected-participant interpretations"
+  function: "Packages two participants as indirect and direct object"
+  distribution: "Licensed by particular verb senses; many, but not all, have a related monotransitive VP with a to- or for-PP"
+meanings:
+  '1':
+    definition: The indirect object denotes a recipient of the entity, information, or experience denoted by the direct object
+    details: "CGEL defines ditransitive complementation syntactically for clauses and verb uses by Oi + Od; both objects are internal to the VP and licensed by its head verb. This entry records that complementation pattern at VP level, not a necessary caused-possession meaning. Goldberg instead organizes the double-object pattern around a caused-receipt or giving prototype with related extensions (CGEL Ch. 4 §§1–1.1, 4.3, 8.2, pp. 215–17, 248–51, 308–13; Goldberg 2006: 20–28)."
+    examples:
+      - form: "I [sent Sue a copy]."
+        note: Recipient Oi plus transferred-theme Od
+      - form: "She [told him the truth]."
+        note: Information recipient plus communicated content
+  '2':
+    definition: The indirect object denotes the intended beneficiary or recipient of goods created or obtained
+    details: "CGEL restricts the central beneficiary alternation mainly to beneficiaries of goods rather than services; the interpretation normally includes intended transfer of the direct-object referent (CGEL pp. 310–11)."
+    examples:
+      - form: "She [baked Kim a cake]."
+        note: Created goods intended for Kim
+      - form: "I'll [do you a quiche]."
+        note: Goods-beneficiary use; contrast service-beneficiary *I'll do you the washing-up
+  '3':
+    definition: The indirect object denotes a prevented recipient, source, loser, or other affected participant rather than an actual recipient
+    details: "These participants are still indirect objects on syntactic evidence. CGEL includes Oi-only permission and refusal verbs and source-role uses of charge, cost, and fine (pp. 309, 311–13); Goldberg analyzes prevented receipt and loss as extensions of the giving prototype."
+    examples:
+      - form: "They [refused Kim permission]."
+        note: Prevented receipt
+      - form: "They [charged Ed ten dollars]."
+        note: Ed is source rather than recipient
+      - form: "It [cost Mel his job]."
+        note: Loss or reversed-transfer extension
+constraints:
+  - type: head
+    description: "Licensing is lexeme- and sense-specific: give allows Oi or to, explain is to-only, buy allows Oi or for, borrow is for-only, and spare has Oi-only senses."
+  - type: position
+    description: "In the canonical VP, Oi precedes Od. Some chiefly BrE varieties allow Od–Oi when both are personal pronouns, as in He gave it her."
+  - type: syntactic
+    description: "A to- or for-PP is not an indirect object. In sent a copy to Sue, the VP is monotransitive: a copy is Od, the to-PP is a complement, and Sue is oblique within that PP."
+  - type: syntactic
+    description: "With only one object in a canonical active VP, that object is Od even when its semantic role corresponds to the Oi of a ditransitive alternant."
+  - type: semantic
+    description: "Recipient, animacy, and caused receipt are central tendencies, not necessary conditions for membership in the CGEL syntactic class."
+kind:
+  provisional: true
+  projection:
+    target: "A verb sense attested in the canonical Head–NP–NP frame predicts reduced frontability and postposability of the first NP relative to the second, preference for first-object passivization, and an animate, given, and topical bias in the first-object slot"
+    evidence: "CGEL documents fixed order and extraction asymmetries on pp. 248–50, passive asymmetries on pp. 249–50, information-packaging preferences on pp. 309–10, and role and alternant classes on pp. 308–13"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: Two internal core-complement objects, Oi and Od
+        diagnostics: ["canonical Head–Oi–Od structure", "contrast with Od plus PP and Od plus predicative complement"]
+        weight: high
+      - property: Indirect-before-direct object asymmetry
+        diagnostics: ["fixed canonical Oi–Od order"]
+        weight: high
+      - property: Verb-sense-specific licensing
+        diagnostics: ["Oi-or-to, to-only, Oi-or-for, for-only, and Oi-only lexical classes"]
+        weight: high
+    peripheral:
+      - property: Recipient or goods-beneficiary bias for Oi
+        diagnostics: ["animate and discourse-given first-object preference"]
+        weight: medium
+      - property: Prepositional alternant
+        diagnostics: ["Od plus to-PP or for-PP for many, but not all, verb senses"]
+        weight: medium
+      - property: First-passive preference
+        diagnostics: ["Oi-corresponding passive subject generally preferred over Od-corresponding passive subject"]
+        weight: medium
+  variation:
+    activation_states:
+      - context: Both objects are personal pronouns in some BrE varieties
+        effect: Od–Oi order may be licensed
+      - context: Oi corresponds to a for-beneficiary
+        effect: Passive acceptability is generally lower and more speaker-variable
+    speaker_variation: "Judgements vary for second passives, for-beneficiary passives, and some service-beneficiary double-object VPs."
+  boundaries:
+    overlaps_with:
+      - Goldberg-style caused-receipt semantic network
+    known_boundary_items:
+      - "sent a copy to Sue: Od plus PP, hence monotransitive, not ditransitive"
+      - "considered Ed a fool: Od plus NP predicative complement, not two objects"
+      - "sent Kim to the back: Od plus locative-goal PP, hence monotransitive and not ditransitive"
+      - "teaches the students: its sole object is Od despite matching the semantic role of a ditransitive Oi"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: np-001
+    relationship: contains
+    parthood: formal
+    notes: The two object slots are normally realized by NPs
+  - id: caused-motion-001
+    relationship: see-also
+    notes: "Caused motion has one Od plus a locative PP complement and is therefore monotransitive, not ditransitive"

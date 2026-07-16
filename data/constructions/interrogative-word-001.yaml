@@ -3,10 +3,10 @@ name: Interrogative Use of Indeterminates
 pattern: who/whom/whose/what/which/where/when/why/how (interrogative packaging)
 type: semantic
 dimensions:
-  form: "Full indeterminate series; fronted in open interrogatives"
+  form: "Full indeterminate series; non-subject interrogative phrases are normally fronted, while interrogative subjects remain in basic position and echoes may remain in situ"
   meaning: "The open variable is packaged as a request for its value"
   function: "Marks the focus of the question; question-answer congruence"
-  distribution: "Main-clause interrogatives (with subject-auxiliary inversion) and subordinate interrogatives"
+  distribution: "Main and subordinate open interrogatives; main-clause inversion follows a fronted non-subject, while subordinate interrogatives and interrogative subjects normally retain subject–verb order"
 meanings:
   '1':
     definition: Asks for the value of the indeterminate's open variable, constraining its sort
@@ -15,12 +15,12 @@ meanings:
       - form: "[whose] book"
         note: Seeks possessor identification
       - form: "[who] came"
-        note: Seeks agent identification
+        note: "Interrogative subject in basic subject position; no subject–auxiliary inversion"
       - form: "I wonder [where] she went."
         note: Subordinate interrogative
 constraints:
   - type: syntactic
-    description: Interrogative fronting; the interrogative property percolates upward from the indeterminate to its phrase and clause.
+    description: "The interrogative property percolates from the indeterminate to its phrase and clause. Non-subject phrases are normally fronted and trigger subject–auxiliary inversion in main clauses; subjects are not fronted, subordinate clauses normally do not invert, and echoes may leave the phrase in situ."
 semanticRefs:
   - question-clause
   - variable

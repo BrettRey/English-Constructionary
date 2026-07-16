@@ -1,0 +1,68 @@
+id: time-away-001
+name: Time-Away Construction
+pattern: "Head:V[activity] + Od:NP[time-period] + Comp:PP[particle, Head:away]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Activity-verb head followed by a construction-licensed time-period direct object and the one-word PP away"
+  meaning: "The subject uses up a bounded interval by engaging continuously or repeatedly in the verbal activity"
+  function: "Construes a time interval as wholly occupied by an activity, often with a defeasible heedless, pleasurable, or time-wasting implication"
+  distribution: "VP-internal; canonical Head–Od–away order, with Head–away–Od available especially for a heavy time NP"
+meanings:
+  '1':
+    definition: An agentively engaged subject uses up the time interval denoted by the direct object in carrying out the verbal activity
+    details: "The time NP is a genuine Od licensed by the construction, not a temporal adjunct: it passivizes, enters the tough construction, and cannot be stranded by VP ellipsis. Away is fixed and is syntactically a particle; in CGEL category terms it is an intransitive preposition heading a one-word PP complement, since particle is not a lexical category. The activity is normally atelic, while a repeatable bounded event is coerced to iteration. The heedless, pleasurable, or time-wasting implication is defeasible (Jackendoff 1997: 534–43; CGEL pp. 280–84)."
+    examples:
+      - form: "Bill slept [the afternoon] [away]."
+        note: Canonical time-away VP
+      - form: "Saul sneezed [the afternoon] [away]."
+        note: Repeatable bounded event coerced to repeated sneezing
+      - form: "The evening had been nearly slept away."
+        note: Passive evidence that the time NP is Od rather than adjunct
+      - form: "Hermione programmed [three whole evenings] [away]."
+        note: Productive activity-verb slot
+constraints:
+  - type: syntactic
+    description: "The time NP occupies Od position and excludes a lexical direct object: Fred drank the night away, not *Fred drank scotch the night away; obligatorily transitive verb uses are excluded."
+  - type: position
+    description: "Canonical order is Head–Od–away. Away may precede a sufficiently heavy NP, but modified away must follow the NP."
+  - type: semantic
+    description: "The NP must denote a time period; resource and activity-denoting NPs are excluded, though journey-context distance NPs can metonymically measure elapsed time."
+  - type: semantic
+    description: "The external subject is construed as agentively engaged and the verb denotes an activity rather than a state."
+  - type: semantic
+    description: "The base activity is atelic, or a repeatable bounded event receives an iterative reading; nonrepeatable achievements are excluded."
+  - type: semantic
+    description: "The construction construes the interval as bounded or used up; the heedless-pleasure or should-have-done-something-else implication is conventional but defeasible."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing Head–Od[time]–away predicts that the time NP behaves as a direct object despite lacking verb-level licensing, that away is a one-word intransitive-preposition PP in particle syntax, and that the VP denotes a bounded interval occupied by an agentive activity or iterated event"
+    evidence: "Passivization, tough-construction, VP-ellipsis, particle placement, and lexical-object exclusion converge on direct-object status; independent activity, agentivity, and time-use diagnostics establish the semantic profile (Jackendoff 1997: 535–41)"
+    confidence: high
+  secured: stable
+  profile:
+    core:
+      - property: Construction-licensed time direct object
+        diagnostics: ["passive", "tough construction", "cannot be stranded by VP ellipsis", "blocks lexical direct object"]
+        weight: high
+      - property: Fixed away particle
+        diagnostics: ["particle shift with heavy NP", "modified away follows NP"]
+        weight: high
+      - property: Activity consumes a bounded interval
+        diagnostics: ["atelic activity", "iterative coercion", "use-up interpretation"]
+        weight: high
+  boundaries:
+    known_boundary_items:
+      - "Ordinary aspectual Head + away (work away) is atelic and has no time object; it is not the time-away construction."
+      - "The construction is distinct from the resultative and way constructions."
+      - "Distance-as-time readings are contextual extensions; activity-nominal objects are excluded."
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: intransitive-preposition-001
+    relationship: contains
+    parthood: formal
+    notes: Fixed away is an intransitive preposition heading a one-word PP; particle names its syntactic use, not its lexical category

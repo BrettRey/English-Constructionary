@@ -1,4 +1,11 @@
 families:
+  argument-structure:
+    members:
+      - ditransitive-vp-001
+      - caused-motion-001
+      - goal-complement-001
+      - source-complement-001
+      - time-away-001
   modification:
     members:
       - adjective-001

@@ -4,11 +4,24 @@
 # all listed entries are provisional pending rung-by-rung review.
 secured:
   stable:
+    - caused-motion-001
+    - coordination-001
     - degree-001
+    - deitality-001
     - determination-001
+    - directive-ostensive-001
+    - ditransitive-vp-001
+    - exclamation-001
+    - goal-complement-001
     - grammatical-number-001
     - n-non-count-001
+    - ostensive-np-001
+    - phrase-001
+    - preposition-001
     - quasi-count-noun-001
+    - source-complement-001
+    - time-away-001
+    - vocative-001
   networked: []
   maintained: []
   controlled: []
@@ -17,6 +30,4 @@ failure-modes:
   fat:
     - adjective-001
   negative: []
-needs-projection-target:
-  - directive-ostensive-001
-  - vocative-001
+needs-projection-target: []

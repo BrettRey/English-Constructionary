@@ -13,18 +13,18 @@ records:
     source-pos: adv
     cgel:
       category: preposition
-      subclass: intransitive
-      notes: "Intransitive, with an obligatory pre-head measure modifier (ten years ago; cf. ten years before I went). Not postposed: contrast notwithstanding, whose preposed NP is a complement"
+      subclass: post-complement-head
+      notes: "Exceptional preposition that invariably follows its obligatory NP complement: [ten years] ago"
     provenance: adjudicated
     tests:
-      - test: "pre-head measure modifier"
-        result: "obligatory; a modifier, not a complement"
-        example: "ten years [ago] / *I went [ago]"
+      - test: "obligatory preceding dependent"
+        result: "obligatoriness diagnoses complement rather than optional measure modifier"
+        example: "[ten years ago] / *I went [ago]"
       - test: "adverb modification"
         result: "not modifiable by -ly adverb placement typical of adverbs"
     confidence: high
     references:
-      - "CGEL Ch. 7"
+      - "CGEL Ch. 7 §4.2, p. 632"
     provisional: true
 
   - lemma: outside

@@ -1,26 +1,32 @@
 id: pp-001
 name: Preposition Phrase
-pattern: "Head:P (+ Obj:NP / Comp:PP / Comp:clause, or no complement)"
+pattern: "Head:P (+ Obj:NP / PredComp:NP/AdjP / Comp:PP/AdvP/clause; or no complement)"
 type: syntactic
 dimensions:
-  form: "Headed by a preposition; optional object (in the garden) or no object (outside, home)"
-  meaning: "Relates an entity or situation to another in space, time, or abstract structure"
-  function: "Complement (including goal), modifier, adjunct; predicative complement"
-  distribution: "Complement of verbs and nouns, modifier in NPs and clauses, complement of prepositions (from under the bed)"
+  form: "Phrase headed by a preposition; NP complements may be objects or predicatives, and PP, AdvP, or clause complements are also licensed"
+  meaning: "Relates an entity or situation to another in space, time, comparison, reason, or abstract structure"
+  function: "Complement, modifier, adjunct, or predicative complement in a containing construction"
+  distribution: "Complement of verbs and nouns, modifier in NPs and clauses, and complement of prepositions"
 meanings:
   '1':
-    definition: Phrase headed by a preposition, with or without an object
-    details: "The head preposition may take an object (in [the garden]), a clause (because [it rained]), a PP (from [under the bed]), or nothing (she waited [outside]; go [home]). A single intransitive preposition constitutes a complete PP."
+    definition: Phrase headed by a preposition, with or without a complement
+    details: "The head may take an NP object (in the garden), a predicative NP or AdjP (as a liability, as reasonable), an AdvP (until recently), a clause (because it rained), a PP (from under the bed), or no complement (outside). A single complementless preposition constitutes a complete PP (CGEL Ch. 2 §7, p. 58)."
     examples:
       - form: "[in the garden]"
         note: P with NP object
-      - form: "[outside]"
-        note: Complete PP consisting of one intransitive preposition
+      - form: "[as a liability]"
+        note: P with predicative NP complement
+      - form: "[until recently]"
+        note: P with AdvP complement
+      - form: "[because it rained]"
+        note: P with clause complement
       - form: "[from under the bed]"
-        note: P with PP object
+        note: P with PP complement; under the bed expresses the source location
+      - form: "[outside]"
+        note: Complete PP consisting of one complementless preposition
 constraints:
   - type: syntactic
-    description: Headed by a preposition; accepts right/straight modification in locative uses.
+    description: "The phrase is headed by a preposition; locative members accept such modifiers as right and straight."
 relatedConstructions:
   - id: phrase-001
     relationship: specialization-of
