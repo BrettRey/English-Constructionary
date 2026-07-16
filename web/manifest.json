@@ -1,5 +1,70 @@
 {
-  "generatedAt": "2026-07-16T20:37:12.613Z",
+  "generatedAt": "2026-07-16T20:56:15.321Z",
+  "sources": {
+    "cgel-2002": {
+      "type": "reference-grammar",
+      "citation": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP"
+    },
+    "reynolds-2026-numerals": {
+      "type": "paper",
+      "citation": "Reynolds, Brett (2026), The lexicon-syntax boundary in English numerals: cardinals, ordinals, and fractionals. English Language & Linguistics",
+      "doi": "10.1017/S1360674325100518"
+    },
+    "reynolds-deitality": {
+      "type": "paper",
+      "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+      "url": "https://ling.auf.net/lingbuzz/009369",
+      "status": "under-review"
+    },
+    "reynolds-kinship": {
+      "type": "paper",
+      "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+      "url": "https://ling.auf.net/lingbuzz/009751",
+      "status": "under-review"
+    },
+    "reynolds-stable-cluster": {
+      "type": "paper",
+      "citation": "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)"
+    },
+    "goldberg-1995": {
+      "type": "paper",
+      "citation": "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press"
+    },
+    "kuroda-1965": {
+      "type": "paper",
+      "citation": "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation"
+    },
+    "wiktionary-simple": {
+      "type": "dictionary",
+      "citation": "Simple English Wiktionary, wiktextract extraction via kaikki.org",
+      "url": "https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz",
+      "version": "retrieved 2026-07-16"
+    },
+    "wiktionary-en": {
+      "type": "dictionary",
+      "citation": "English Wiktionary, wiktextract extraction via kaikki.org",
+      "url": "https://kaikki.org/dictionary/English/",
+      "version": "enwiktionary dump 2026-07-06"
+    },
+    "coca": {
+      "type": "corpus",
+      "citation": "Davies, Mark (2008-), The Corpus of Contemporary American English",
+      "access-note": "agent wrapper blocked (Cloudflare, 2026-07-12); Brett supplies queries and counts by hand"
+    },
+    "cgelbank": {
+      "type": "treebank",
+      "citation": "Reynolds, Arora & Schneider (2023), CGELBank",
+      "url": "https://github.com/nert-nlp/cgel"
+    },
+    "childes": {
+      "type": "corpus",
+      "citation": "MacWhinney, Brian, The CHILDES Project"
+    },
+    "brett-judgment": {
+      "type": "author-judgment",
+      "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+    }
+  },
   "sections": [
     {
       "id": "project",
@@ -4325,7 +4390,28 @@
                 "CGEL Ch. 7 §2.4, p. 613 (measure-modifier parallel); contra Ch. 7 §4.2, p. 632"
               ],
               "notes": "Intransitive, with an obligatory pre-head measure modifier (ten years ago; cf. ten years before Christ). Not postposed: contrast notwithstanding, whose preposed NP is a complement",
-              "subclass": "intransitive"
+              "subclass": "intransitive",
+              "grounds": [
+                {
+                  "source": "cgel-2002",
+                  "locator": "Ch. 7 §2.4, p. 613",
+                  "relation": "cites",
+                  "bears-on": "category-assignment",
+                  "note": "Measure-modifier parallel (ten years before Christ)"
+                },
+                {
+                  "source": "cgel-2002",
+                  "locator": "Ch. 7 §4.2, p. 632",
+                  "relation": "contradicts",
+                  "note": "CGEL's treatment there differs from the adopted analysis"
+                },
+                {
+                  "source": "brett-judgment",
+                  "locator": "2026-07-16",
+                  "relation": "adjudicates",
+                  "note": "Obligatory pre-head measure modifier; not a postposed complement"
+                }
+              ]
             }
           },
           "relations": [],
@@ -4838,7 +4924,8 @@
               ],
               "references": [
                 "CGEL Ch. 15"
-              ]
+              ],
+              "grounds": []
             }
           },
           "relations": [],
@@ -5956,7 +6043,8 @@
               "references": [
                 "CGEL Ch. 7"
               ],
-              "notes": "Traditional subordinating conjunction; CGEL analyses it as a preposition taking a clause complement"
+              "notes": "Traditional subordinating conjunction; CGEL analyses it as a preposition taking a clause complement",
+              "grounds": []
             }
           },
           "relations": [],
@@ -8254,7 +8342,8 @@
                 "CGEL Ch. 5",
                 "absolute-negator-determinative-001"
               ],
-              "notes": "Compound determinative, fused determiner-head when standing as an NP; not an 'indefinite pronoun'"
+              "notes": "Compound determinative, fused determiner-head when standing as an NP; not an 'indefinite pronoun'",
+              "grounds": []
             }
           },
           "relations": [],
@@ -13152,7 +13241,8 @@
                 "CGEL Ch. 7"
               ],
               "notes": "Traditional 'adverb' use is the intransitive (objectless) use of the same preposition",
-              "subclass": "intransitive"
+              "subclass": "intransitive",
+              "grounds": []
             }
           },
           "relations": [],
@@ -19301,7 +19391,8 @@
               "references": [
                 "CGEL Ch. 11"
               ],
-              "notes": "One of the small closed subordinator class with that and interrogative if"
+              "notes": "One of the small closed subordinator class with that and interrogative if",
+              "grounds": []
             }
           },
           "relations": [],
@@ -20302,6 +20393,301 @@
               }
             ],
             "deitality": "non-deital"
+          },
+          "relations": [],
+          "incomingRelations": []
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "label": "Sources",
+      "items": [
+        {
+          "id": null,
+          "title": "cgel-2002",
+          "subtitle": "reference-grammar",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "cgel-2002",
+            "type": "reference-grammar",
+            "citation": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP",
+            "grounded": [
+              {
+                "id": "absolute-negator-determinative-001",
+                "name": "Absolute Negator Determinatives"
+              },
+              {
+                "id": "exclamation-001",
+                "name": "Exclamation"
+              },
+              {
+                "id": "exclamative-word-001",
+                "name": "Exclamative Use of Indeterminates"
+              },
+              {
+                "id": "ostensive-np-001",
+                "name": "Ostensive NP"
+              },
+              {
+                "id": "phrase-001",
+                "name": "Phrase"
+              },
+              {
+                "id": "ago",
+                "name": "ago"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "reynolds-2026-numerals",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "reynolds-2026-numerals",
+            "type": "paper",
+            "citation": "Reynolds, Brett (2026), The lexicon-syntax boundary in English numerals: cardinals, ordinals, and fractionals. English Language & Linguistics",
+            "doi": "10.1017/S1360674325100518",
+            "grounded": [
+              {
+                "id": "cardinal-determinative-001",
+                "name": "Cardinal Determinative"
+              },
+              {
+                "id": "cardinal-noun-001",
+                "name": "Cardinal Noun"
+              },
+              {
+                "id": "numerative-addition-asyndetic-001",
+                "name": "Numerative Addition Coordination (without and)"
+              },
+              {
+                "id": "numerative-addition-coordination-001",
+                "name": "Numerative Addition Coordination (with and)"
+              },
+              {
+                "id": "numerative-complex-001",
+                "name": "Complex Numerative (Phrasal >99)"
+              },
+              {
+                "id": "numerative-factor-modifier-001",
+                "name": "Factor + Magnitude Numerative"
+              },
+              {
+                "id": "numerative-fused-head-001",
+                "name": "Fused-head Numerative"
+              },
+              {
+                "id": "numerative-magnitude-head-001",
+                "name": "Magnitude Head Numerative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "reynolds-deitality",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "reynolds-deitality",
+            "type": "paper",
+            "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+            "url": "https://ling.auf.net/lingbuzz/009369",
+            "status": "under-review",
+            "grounded": [
+              {
+                "id": "deitality-001",
+                "name": "Deitality"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "reynolds-kinship",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "reynolds-kinship",
+            "type": "paper",
+            "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+            "url": "https://ling.auf.net/lingbuzz/009751",
+            "status": "under-review",
+            "grounded": [
+              {
+                "id": "vocative-001",
+                "name": "Vocative Construction"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "reynolds-stable-cluster",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "reynolds-stable-cluster",
+            "type": "paper",
+            "citation": "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "goldberg-1995",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "goldberg-1995",
+            "type": "paper",
+            "citation": "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press",
+            "grounded": [
+              {
+                "id": "goal-complement-001",
+                "name": "Goal Locative-Complement Construction"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "kuroda-1965",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "kuroda-1965",
+            "type": "paper",
+            "citation": "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation",
+            "grounded": [
+              {
+                "id": "indeterminate-word-001",
+                "name": "Indeterminate Word"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "wiktionary-simple",
+          "subtitle": "dictionary",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "wiktionary-simple",
+            "type": "dictionary",
+            "citation": "Simple English Wiktionary, wiktextract extraction via kaikki.org",
+            "url": "https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz",
+            "version": "retrieved 2026-07-16",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "wiktionary-en",
+          "subtitle": "dictionary",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "wiktionary-en",
+            "type": "dictionary",
+            "citation": "English Wiktionary, wiktextract extraction via kaikki.org",
+            "url": "https://kaikki.org/dictionary/English/",
+            "version": "enwiktionary dump 2026-07-06",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "coca",
+          "subtitle": "corpus",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "coca",
+            "type": "corpus",
+            "citation": "Davies, Mark (2008-), The Corpus of Contemporary American English",
+            "access-note": "agent wrapper blocked (Cloudflare, 2026-07-12); Brett supplies queries and counts by hand",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "cgelbank",
+          "subtitle": "treebank",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "cgelbank",
+            "type": "treebank",
+            "citation": "Reynolds, Arora & Schneider (2023), CGELBank",
+            "url": "https://github.com/nert-nlp/cgel",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "childes",
+          "subtitle": "corpus",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "childes",
+            "type": "corpus",
+            "citation": "MacWhinney, Brian, The CHILDES Project",
+            "grounded": []
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "brett-judgment",
+          "subtitle": "author-judgment",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "brett-judgment",
+            "type": "author-judgment",
+            "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records",
+            "grounded": [
+              {
+                "id": "ago",
+                "name": "ago"
+              }
+            ]
           },
           "relations": [],
           "incomingRelations": []

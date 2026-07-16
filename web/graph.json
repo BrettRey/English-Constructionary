@@ -1,0 +1,8259 @@
+{
+  "nodes": [
+    {
+      "id": "absolute-negator-determinative-001",
+      "kind": "construction",
+      "label": "Absolute Negator Determinatives",
+      "type": "syntactic"
+    },
+    {
+      "id": "abstract-numeral-001",
+      "kind": "construction",
+      "label": "Abstract Numeral Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "adjective-001",
+      "kind": "construction",
+      "label": "Adjective",
+      "type": "syntactic"
+    },
+    {
+      "id": "bare-role-001",
+      "kind": "construction",
+      "label": "Bare Role Construction"
+    },
+    {
+      "id": "bare-singular-exceptions",
+      "kind": "diagnostic",
+      "label": "bare-singular-exceptions"
+    },
+    {
+      "id": "basic-numerative-atomicity",
+      "kind": "diagnostic",
+      "label": "basic-numerative-atomicity"
+    },
+    {
+      "id": "brett-judgment",
+      "kind": "source",
+      "label": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records",
+      "type": "author-judgment"
+    },
+    {
+      "id": "cardinal-determinative-001",
+      "kind": "construction",
+      "label": "Cardinal Determinative",
+      "type": "syntactic"
+    },
+    {
+      "id": "cardinal-noun-001",
+      "kind": "construction",
+      "label": "Cardinal Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "caused-motion-001",
+      "kind": "construction",
+      "label": "Caused-Motion Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "cgel-2002",
+      "kind": "source",
+      "label": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP",
+      "type": "reference-grammar"
+    },
+    {
+      "id": "cgelbank",
+      "kind": "source",
+      "label": "Reynolds, Arora & Schneider (2023), CGELBank",
+      "type": "treebank"
+    },
+    {
+      "id": "childes",
+      "kind": "source",
+      "label": "MacWhinney, Brian, The CHILDES Project",
+      "type": "corpus"
+    },
+    {
+      "id": "clause-polarity-diagnostics",
+      "kind": "diagnostic",
+      "label": "clause-polarity-diagnostics"
+    },
+    {
+      "id": "coca",
+      "kind": "source",
+      "label": "Davies, Mark (2008-), The Corpus of Contemporary American English",
+      "type": "corpus"
+    },
+    {
+      "id": "collective-numeral-001",
+      "kind": "construction",
+      "label": "Collective Numeral Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "comparative-er-001",
+      "kind": "construction",
+      "label": "Comparative -er",
+      "type": "morphological"
+    },
+    {
+      "id": "constituent-not-negation-001",
+      "kind": "construction",
+      "label": "Constituent Negation with not",
+      "type": "syntactic"
+    },
+    {
+      "id": "coordination-001",
+      "kind": "construction",
+      "label": "Coordination",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "coordination-ellipsis-numerative",
+      "kind": "diagnostic",
+      "label": "coordination-ellipsis-numerative"
+    },
+    {
+      "id": "countability-diagnostics",
+      "kind": "diagnostic",
+      "label": "countability-diagnostics"
+    },
+    {
+      "id": "countability-hierarchy",
+      "kind": "diagnostic",
+      "label": "countability-hierarchy"
+    },
+    {
+      "id": "countability-loose",
+      "kind": "diagnostic",
+      "label": "countability-loose"
+    },
+    {
+      "id": "countability-tight",
+      "kind": "diagnostic",
+      "label": "countability-tight"
+    },
+    {
+      "id": "definite-001",
+      "kind": "construction",
+      "label": "Definite Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "degree-001",
+      "kind": "construction",
+      "label": "Degree",
+      "secured": "stable"
+    },
+    {
+      "id": "degree-adjective-indefinite-001",
+      "kind": "construction",
+      "label": "Degree-Adjective-Indefinite (Big Mess Construction)",
+      "type": "syntactic"
+    },
+    {
+      "id": "deitality-001",
+      "kind": "construction",
+      "label": "Deitality",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "deitality-diagnostics",
+      "kind": "diagnostic",
+      "label": "deitality-diagnostics"
+    },
+    {
+      "id": "demonstrative-determinative-fused-head-001",
+      "kind": "construction",
+      "label": "Demonstrative Determinative in Fused Determiner-Head Function",
+      "type": "syntactic"
+    },
+    {
+      "id": "denominator-numeral-001",
+      "kind": "construction",
+      "label": "Denominator Numeral Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "determination-001",
+      "kind": "construction",
+      "label": "Determination",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "determinative-fused-head-001",
+      "kind": "construction",
+      "label": "Fused Determiner-Head",
+      "type": "syntactic"
+    },
+    {
+      "id": "determinatives-inventory",
+      "kind": "diagnostic",
+      "label": "determinatives-inventory"
+    },
+    {
+      "id": "determiner-obligatoriness-singular-count",
+      "kind": "diagnostic",
+      "label": "determiner-obligatoriness-singular-count"
+    },
+    {
+      "id": "deverbal-noun-of-argument-001",
+      "kind": "construction",
+      "label": "Deverbal Noun Of-Argument",
+      "type": "mixed"
+    },
+    {
+      "id": "directive-ostensive-001",
+      "kind": "construction",
+      "label": "Directive-Ostensive Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "ditransitive-vp-001",
+      "kind": "construction",
+      "label": "Ditransitive VP (Double-object Construction)",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "echo-question-001",
+      "kind": "construction",
+      "label": "Echo Question",
+      "type": "mixed"
+    },
+    {
+      "id": "exclamation-001",
+      "kind": "construction",
+      "label": "Exclamation",
+      "type": "pragmatic",
+      "secured": "stable"
+    },
+    {
+      "id": "exclamative-word-001",
+      "kind": "construction",
+      "label": "Exclamative Use of Indeterminates",
+      "type": "semantic"
+    },
+    {
+      "id": "existential-there-pivot",
+      "kind": "diagnostic",
+      "label": "existential-there-pivot"
+    },
+    {
+      "id": "genitive-s-001",
+      "kind": "construction",
+      "label": "Genitive 's"
+    },
+    {
+      "id": "goal-complement-001",
+      "kind": "construction",
+      "label": "Goal Locative-Complement Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "gold:conjunctions",
+      "kind": "gold-list",
+      "label": "conjunctions"
+    },
+    {
+      "id": "gold:determinatives",
+      "kind": "gold-list",
+      "label": "determinatives"
+    },
+    {
+      "id": "gold:prepositions",
+      "kind": "gold-list",
+      "label": "prepositions"
+    },
+    {
+      "id": "gold:pronouns",
+      "kind": "gold-list",
+      "label": "pronouns"
+    },
+    {
+      "id": "goldberg-1995",
+      "kind": "source",
+      "label": "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press",
+      "type": "paper"
+    },
+    {
+      "id": "gradation-001",
+      "kind": "construction",
+      "label": "Gradation",
+      "type": "semantic"
+    },
+    {
+      "id": "grammatical-definiteness-001",
+      "kind": "construction",
+      "label": "Grammatical Definiteness",
+      "type": "semantic"
+    },
+    {
+      "id": "grammatical-number-001",
+      "kind": "construction",
+      "label": "Grammatical Number",
+      "type": "semantic",
+      "secured": "stable"
+    },
+    {
+      "id": "identificational-hosting",
+      "kind": "diagnostic",
+      "label": "identificational-hosting"
+    },
+    {
+      "id": "imperative-negation-do-001",
+      "kind": "construction",
+      "label": "Imperative Negation with do-support",
+      "type": "syntactic"
+    },
+    {
+      "id": "indefinite-001",
+      "kind": "construction",
+      "label": "Indefinite Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "independent-genitive-pronoun-001",
+      "kind": "construction",
+      "label": "Independent Genitive Pronoun"
+    },
+    {
+      "id": "indeterminate-word-001",
+      "kind": "construction",
+      "label": "Indeterminate Word",
+      "type": "semantic"
+    },
+    {
+      "id": "interrogative-word-001",
+      "kind": "construction",
+      "label": "Interrogative Use of Indeterminates",
+      "type": "semantic"
+    },
+    {
+      "id": "intransitive-preposition-001",
+      "kind": "construction",
+      "label": "Intransitive Preposition Use",
+      "type": "syntactic"
+    },
+    {
+      "id": "kuroda-1965",
+      "kind": "source",
+      "label": "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation",
+      "type": "paper"
+    },
+    {
+      "id": "letter-case-modifier-001",
+      "kind": "construction",
+      "label": "Letter-Case Modifier Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "letter-case-specification-001",
+      "kind": "construction",
+      "label": "Letter-Case Specification Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "lex:'s",
+      "kind": "lexeme",
+      "label": "'s"
+    },
+    {
+      "id": "lex:/",
+      "kind": "lexeme",
+      "label": "/"
+    },
+    {
+      "id": "lex:a",
+      "kind": "lexeme",
+      "label": "a"
+    },
+    {
+      "id": "lex:a certain",
+      "kind": "lexeme",
+      "label": "a certain"
+    },
+    {
+      "id": "lex:a few",
+      "kind": "lexeme",
+      "label": "a few"
+    },
+    {
+      "id": "lex:à la",
+      "kind": "lexeme",
+      "label": "à la"
+    },
+    {
+      "id": "lex:a little",
+      "kind": "lexeme",
+      "label": "a little"
+    },
+    {
+      "id": "lex:a priori",
+      "kind": "lexeme",
+      "label": "a priori"
+    },
+    {
+      "id": "lex:a.m.",
+      "kind": "lexeme",
+      "label": "a.m."
+    },
+    {
+      "id": "lex:abaft",
+      "kind": "lexeme",
+      "label": "abaft"
+    },
+    {
+      "id": "lex:aboard",
+      "kind": "lexeme",
+      "label": "aboard"
+    },
+    {
+      "id": "lex:about",
+      "kind": "lexeme",
+      "label": "about"
+    },
+    {
+      "id": "lex:above",
+      "kind": "lexeme",
+      "label": "above"
+    },
+    {
+      "id": "lex:aboveboard",
+      "kind": "lexeme",
+      "label": "aboveboard"
+    },
+    {
+      "id": "lex:abreast",
+      "kind": "lexeme",
+      "label": "abreast"
+    },
+    {
+      "id": "lex:abroad",
+      "kind": "lexeme",
+      "label": "abroad"
+    },
+    {
+      "id": "lex:absent",
+      "kind": "lexeme",
+      "label": "absent"
+    },
+    {
+      "id": "lex:according",
+      "kind": "lexeme",
+      "label": "according"
+    },
+    {
+      "id": "lex:across",
+      "kind": "lexeme",
+      "label": "across"
+    },
+    {
+      "id": "lex:adjacent",
+      "kind": "lexeme",
+      "label": "adjacent"
+    },
+    {
+      "id": "lex:adrift",
+      "kind": "lexeme",
+      "label": "adrift"
+    },
+    {
+      "id": "lex:afloat",
+      "kind": "lexeme",
+      "label": "afloat"
+    },
+    {
+      "id": "lex:aft",
+      "kind": "lexeme",
+      "label": "aft"
+    },
+    {
+      "id": "lex:after",
+      "kind": "lexeme",
+      "label": "after"
+    },
+    {
+      "id": "lex:afterward",
+      "kind": "lexeme",
+      "label": "afterward"
+    },
+    {
+      "id": "lex:afterwards",
+      "kind": "lexeme",
+      "label": "afterwards"
+    },
+    {
+      "id": "lex:again",
+      "kind": "lexeme",
+      "label": "again"
+    },
+    {
+      "id": "lex:against",
+      "kind": "lexeme",
+      "label": "against"
+    },
+    {
+      "id": "lex:ago",
+      "kind": "lexeme",
+      "label": "ago"
+    },
+    {
+      "id": "lex:aground",
+      "kind": "lexeme",
+      "label": "aground"
+    },
+    {
+      "id": "lex:ahead",
+      "kind": "lexeme",
+      "label": "ahead"
+    },
+    {
+      "id": "lex:albeit",
+      "kind": "lexeme",
+      "label": "albeit"
+    },
+    {
+      "id": "lex:all",
+      "kind": "lexeme",
+      "label": "all"
+    },
+    {
+      "id": "lex:allowing",
+      "kind": "lexeme",
+      "label": "allowing"
+    },
+    {
+      "id": "lex:aloft",
+      "kind": "lexeme",
+      "label": "aloft"
+    },
+    {
+      "id": "lex:alone",
+      "kind": "lexeme",
+      "label": "alone"
+    },
+    {
+      "id": "lex:along",
+      "kind": "lexeme",
+      "label": "along"
+    },
+    {
+      "id": "lex:along with",
+      "kind": "lexeme",
+      "label": "along with"
+    },
+    {
+      "id": "lex:alongside",
+      "kind": "lexeme",
+      "label": "alongside"
+    },
+    {
+      "id": "lex:although",
+      "kind": "lexeme",
+      "label": "although"
+    },
+    {
+      "id": "lex:amid",
+      "kind": "lexeme",
+      "label": "amid"
+    },
+    {
+      "id": "lex:amidst",
+      "kind": "lexeme",
+      "label": "amidst"
+    },
+    {
+      "id": "lex:among",
+      "kind": "lexeme",
+      "label": "among"
+    },
+    {
+      "id": "lex:amongst",
+      "kind": "lexeme",
+      "label": "amongst"
+    },
+    {
+      "id": "lex:an",
+      "kind": "lexeme",
+      "label": "an"
+    },
+    {
+      "id": "lex:and",
+      "kind": "lexeme",
+      "label": "and"
+    },
+    {
+      "id": "lex:and/or",
+      "kind": "lexeme",
+      "label": "and/or"
+    },
+    {
+      "id": "lex:another",
+      "kind": "lexeme",
+      "label": "another"
+    },
+    {
+      "id": "lex:ante",
+      "kind": "lexeme",
+      "label": "ante"
+    },
+    {
+      "id": "lex:ante meridiem",
+      "kind": "lexeme",
+      "label": "ante meridiem"
+    },
+    {
+      "id": "lex:anti",
+      "kind": "lexeme",
+      "label": "anti"
+    },
+    {
+      "id": "lex:any",
+      "kind": "lexeme",
+      "label": "any"
+    },
+    {
+      "id": "lex:anybody",
+      "kind": "lexeme",
+      "label": "anybody"
+    },
+    {
+      "id": "lex:anyone",
+      "kind": "lexeme",
+      "label": "anyone"
+    },
+    {
+      "id": "lex:anything",
+      "kind": "lexeme",
+      "label": "anything"
+    },
+    {
+      "id": "lex:anytime",
+      "kind": "lexeme",
+      "label": "anytime"
+    },
+    {
+      "id": "lex:anywhere",
+      "kind": "lexeme",
+      "label": "anywhere"
+    },
+    {
+      "id": "lex:apart",
+      "kind": "lexeme",
+      "label": "apart"
+    },
+    {
+      "id": "lex:aplenty",
+      "kind": "lexeme",
+      "label": "aplenty"
+    },
+    {
+      "id": "lex:apropos",
+      "kind": "lexeme",
+      "label": "apropos"
+    },
+    {
+      "id": "lex:around",
+      "kind": "lexeme",
+      "label": "around"
+    },
+    {
+      "id": "lex:as",
+      "kind": "lexeme",
+      "label": "as"
+    },
+    {
+      "id": "lex:as for",
+      "kind": "lexeme",
+      "label": "as for"
+    },
+    {
+      "id": "lex:as from",
+      "kind": "lexeme",
+      "label": "as from"
+    },
+    {
+      "id": "lex:as if",
+      "kind": "lexeme",
+      "label": "as if"
+    },
+    {
+      "id": "lex:as long as",
+      "kind": "lexeme",
+      "label": "as long as"
+    },
+    {
+      "id": "lex:as of",
+      "kind": "lexeme",
+      "label": "as of"
+    },
+    {
+      "id": "lex:as per",
+      "kind": "lexeme",
+      "label": "as per"
+    },
+    {
+      "id": "lex:as soon as",
+      "kind": "lexeme",
+      "label": "as soon as"
+    },
+    {
+      "id": "lex:as though",
+      "kind": "lexeme",
+      "label": "as though"
+    },
+    {
+      "id": "lex:as to",
+      "kind": "lexeme",
+      "label": "as to"
+    },
+    {
+      "id": "lex:as well as",
+      "kind": "lexeme",
+      "label": "as well as"
+    },
+    {
+      "id": "lex:ashore",
+      "kind": "lexeme",
+      "label": "ashore"
+    },
+    {
+      "id": "lex:aside",
+      "kind": "lexeme",
+      "label": "aside"
+    },
+    {
+      "id": "lex:assuming",
+      "kind": "lexeme",
+      "label": "assuming"
+    },
+    {
+      "id": "lex:at",
+      "kind": "lexeme",
+      "label": "at"
+    },
+    {
+      "id": "lex:atop",
+      "kind": "lexeme",
+      "label": "atop"
+    },
+    {
+      "id": "lex:away",
+      "kind": "lexeme",
+      "label": "away"
+    },
+    {
+      "id": "lex:awry",
+      "kind": "lexeme",
+      "label": "awry"
+    },
+    {
+      "id": "lex:back",
+      "kind": "lexeme",
+      "label": "back"
+    },
+    {
+      "id": "lex:backstage",
+      "kind": "lexeme",
+      "label": "backstage"
+    },
+    {
+      "id": "lex:backward",
+      "kind": "lexeme",
+      "label": "backward"
+    },
+    {
+      "id": "lex:backwards",
+      "kind": "lexeme",
+      "label": "backwards"
+    },
+    {
+      "id": "lex:bar",
+      "kind": "lexeme",
+      "label": "bar"
+    },
+    {
+      "id": "lex:barring",
+      "kind": "lexeme",
+      "label": "barring"
+    },
+    {
+      "id": "lex:because",
+      "kind": "lexeme",
+      "label": "because"
+    },
+    {
+      "id": "lex:before",
+      "kind": "lexeme",
+      "label": "before"
+    },
+    {
+      "id": "lex:beforehand",
+      "kind": "lexeme",
+      "label": "beforehand"
+    },
+    {
+      "id": "lex:behind",
+      "kind": "lexeme",
+      "label": "behind"
+    },
+    {
+      "id": "lex:being",
+      "kind": "lexeme",
+      "label": "being"
+    },
+    {
+      "id": "lex:below",
+      "kind": "lexeme",
+      "label": "below"
+    },
+    {
+      "id": "lex:beneath",
+      "kind": "lexeme",
+      "label": "beneath"
+    },
+    {
+      "id": "lex:beside",
+      "kind": "lexeme",
+      "label": "beside"
+    },
+    {
+      "id": "lex:besides",
+      "kind": "lexeme",
+      "label": "besides"
+    },
+    {
+      "id": "lex:between",
+      "kind": "lexeme",
+      "label": "between"
+    },
+    {
+      "id": "lex:betwixt",
+      "kind": "lexeme",
+      "label": "betwixt"
+    },
+    {
+      "id": "lex:beyond",
+      "kind": "lexeme",
+      "label": "beyond"
+    },
+    {
+      "id": "lex:billion",
+      "kind": "lexeme",
+      "label": "billion"
+    },
+    {
+      "id": "lex:both",
+      "kind": "lexeme",
+      "label": "both"
+    },
+    {
+      "id": "lex:but",
+      "kind": "lexeme",
+      "label": "but"
+    },
+    {
+      "id": "lex:by",
+      "kind": "lexeme",
+      "label": "by"
+    },
+    {
+      "id": "lex:by virtue",
+      "kind": "lexeme",
+      "label": "by virtue"
+    },
+    {
+      "id": "lex:ceilingward",
+      "kind": "lexeme",
+      "label": "ceilingward"
+    },
+    {
+      "id": "lex:ceilingwards",
+      "kind": "lexeme",
+      "label": "ceilingwards"
+    },
+    {
+      "id": "lex:centillion",
+      "kind": "lexeme",
+      "label": "centillion"
+    },
+    {
+      "id": "lex:certain",
+      "kind": "lexeme",
+      "label": "certain"
+    },
+    {
+      "id": "lex:chez",
+      "kind": "lexeme",
+      "label": "chez"
+    },
+    {
+      "id": "lex:circa",
+      "kind": "lexeme",
+      "label": "circa"
+    },
+    {
+      "id": "lex:clear",
+      "kind": "lexeme",
+      "label": "clear"
+    },
+    {
+      "id": "lex:close",
+      "kind": "lexeme",
+      "label": "close"
+    },
+    {
+      "id": "lex:closer",
+      "kind": "lexeme",
+      "label": "closer"
+    },
+    {
+      "id": "lex:closest",
+      "kind": "lexeme",
+      "label": "closest"
+    },
+    {
+      "id": "lex:come",
+      "kind": "lexeme",
+      "label": "come"
+    },
+    {
+      "id": "lex:compared",
+      "kind": "lexeme",
+      "label": "compared"
+    },
+    {
+      "id": "lex:concerning",
+      "kind": "lexeme",
+      "label": "concerning"
+    },
+    {
+      "id": "lex:consequent",
+      "kind": "lexeme",
+      "label": "consequent"
+    },
+    {
+      "id": "lex:considering",
+      "kind": "lexeme",
+      "label": "considering"
+    },
+    {
+      "id": "lex:contra",
+      "kind": "lexeme",
+      "label": "contra"
+    },
+    {
+      "id": "lex:contrary",
+      "kind": "lexeme",
+      "label": "contrary"
+    },
+    {
+      "id": "lex:counter",
+      "kind": "lexeme",
+      "label": "counter"
+    },
+    {
+      "id": "lex:counting",
+      "kind": "lexeme",
+      "label": "counting"
+    },
+    {
+      "id": "lex:coupled",
+      "kind": "lexeme",
+      "label": "coupled"
+    },
+    {
+      "id": "lex:cum",
+      "kind": "lexeme",
+      "label": "cum"
+    },
+    {
+      "id": "lex:decillion",
+      "kind": "lexeme",
+      "label": "decillion"
+    },
+    {
+      "id": "lex:depending",
+      "kind": "lexeme",
+      "label": "depending"
+    },
+    {
+      "id": "lex:despite",
+      "kind": "lexeme",
+      "label": "despite"
+    },
+    {
+      "id": "lex:directly",
+      "kind": "lexeme",
+      "label": "directly"
+    },
+    {
+      "id": "lex:down",
+      "kind": "lexeme",
+      "label": "down"
+    },
+    {
+      "id": "lex:down under",
+      "kind": "lexeme",
+      "label": "down under"
+    },
+    {
+      "id": "lex:downhill",
+      "kind": "lexeme",
+      "label": "downhill"
+    },
+    {
+      "id": "lex:downstage",
+      "kind": "lexeme",
+      "label": "downstage"
+    },
+    {
+      "id": "lex:downstairs",
+      "kind": "lexeme",
+      "label": "downstairs"
+    },
+    {
+      "id": "lex:downstream",
+      "kind": "lexeme",
+      "label": "downstream"
+    },
+    {
+      "id": "lex:downtown",
+      "kind": "lexeme",
+      "label": "downtown"
+    },
+    {
+      "id": "lex:downward",
+      "kind": "lexeme",
+      "label": "downward"
+    },
+    {
+      "id": "lex:downwards",
+      "kind": "lexeme",
+      "label": "downwards"
+    },
+    {
+      "id": "lex:downwind",
+      "kind": "lexeme",
+      "label": "downwind"
+    },
+    {
+      "id": "lex:due",
+      "kind": "lexeme",
+      "label": "due"
+    },
+    {
+      "id": "lex:duodecillion",
+      "kind": "lexeme",
+      "label": "duodecillion"
+    },
+    {
+      "id": "lex:during",
+      "kind": "lexeme",
+      "label": "during"
+    },
+    {
+      "id": "lex:each",
+      "kind": "lexeme",
+      "label": "each"
+    },
+    {
+      "id": "lex:each other",
+      "kind": "lexeme",
+      "label": "each other"
+    },
+    {
+      "id": "lex:earthward",
+      "kind": "lexeme",
+      "label": "earthward"
+    },
+    {
+      "id": "lex:earthwards",
+      "kind": "lexeme",
+      "label": "earthwards"
+    },
+    {
+      "id": "lex:east",
+      "kind": "lexeme",
+      "label": "east"
+    },
+    {
+      "id": "lex:eastward",
+      "kind": "lexeme",
+      "label": "eastward"
+    },
+    {
+      "id": "lex:eastwards",
+      "kind": "lexeme",
+      "label": "eastwards"
+    },
+    {
+      "id": "lex:effective",
+      "kind": "lexeme",
+      "label": "effective"
+    },
+    {
+      "id": "lex:eight",
+      "kind": "lexeme",
+      "label": "eight"
+    },
+    {
+      "id": "lex:eighteen",
+      "kind": "lexeme",
+      "label": "eighteen"
+    },
+    {
+      "id": "lex:eighty",
+      "kind": "lexeme",
+      "label": "eighty"
+    },
+    {
+      "id": "lex:eighty-eight",
+      "kind": "lexeme",
+      "label": "eighty-eight"
+    },
+    {
+      "id": "lex:eighty-five",
+      "kind": "lexeme",
+      "label": "eighty-five"
+    },
+    {
+      "id": "lex:eighty-four",
+      "kind": "lexeme",
+      "label": "eighty-four"
+    },
+    {
+      "id": "lex:eighty-nine",
+      "kind": "lexeme",
+      "label": "eighty-nine"
+    },
+    {
+      "id": "lex:eighty-one",
+      "kind": "lexeme",
+      "label": "eighty-one"
+    },
+    {
+      "id": "lex:eighty-seven",
+      "kind": "lexeme",
+      "label": "eighty-seven"
+    },
+    {
+      "id": "lex:eighty-six",
+      "kind": "lexeme",
+      "label": "eighty-six"
+    },
+    {
+      "id": "lex:eighty-three",
+      "kind": "lexeme",
+      "label": "eighty-three"
+    },
+    {
+      "id": "lex:eighty-two",
+      "kind": "lexeme",
+      "label": "eighty-two"
+    },
+    {
+      "id": "lex:either",
+      "kind": "lexeme",
+      "label": "either"
+    },
+    {
+      "id": "lex:eleven",
+      "kind": "lexeme",
+      "label": "eleven"
+    },
+    {
+      "id": "lex:else",
+      "kind": "lexeme",
+      "label": "else"
+    },
+    {
+      "id": "lex:elsewhere",
+      "kind": "lexeme",
+      "label": "elsewhere"
+    },
+    {
+      "id": "lex:enough",
+      "kind": "lexeme",
+      "label": "enough"
+    },
+    {
+      "id": "lex:ere",
+      "kind": "lexeme",
+      "label": "ere"
+    },
+    {
+      "id": "lex:et",
+      "kind": "lexeme",
+      "label": "et"
+    },
+    {
+      "id": "lex:every",
+      "kind": "lexeme",
+      "label": "every"
+    },
+    {
+      "id": "lex:everybody",
+      "kind": "lexeme",
+      "label": "everybody"
+    },
+    {
+      "id": "lex:everyone",
+      "kind": "lexeme",
+      "label": "everyone"
+    },
+    {
+      "id": "lex:everything",
+      "kind": "lexeme",
+      "label": "everything"
+    },
+    {
+      "id": "lex:everywhere",
+      "kind": "lexeme",
+      "label": "everywhere"
+    },
+    {
+      "id": "lex:except",
+      "kind": "lexeme",
+      "label": "except"
+    },
+    {
+      "id": "lex:excepting",
+      "kind": "lexeme",
+      "label": "excepting"
+    },
+    {
+      "id": "lex:excluding",
+      "kind": "lexeme",
+      "label": "excluding"
+    },
+    {
+      "id": "lex:exclusive",
+      "kind": "lexeme",
+      "label": "exclusive"
+    },
+    {
+      "id": "lex:failing",
+      "kind": "lexeme",
+      "label": "failing"
+    },
+    {
+      "id": "lex:far",
+      "kind": "lexeme",
+      "label": "far"
+    },
+    {
+      "id": "lex:farther",
+      "kind": "lexeme",
+      "label": "farther"
+    },
+    {
+      "id": "lex:farthest",
+      "kind": "lexeme",
+      "label": "farthest"
+    },
+    {
+      "id": "lex:few",
+      "kind": "lexeme",
+      "label": "few"
+    },
+    {
+      "id": "lex:fewer",
+      "kind": "lexeme",
+      "label": "fewer"
+    },
+    {
+      "id": "lex:fewest",
+      "kind": "lexeme",
+      "label": "fewest"
+    },
+    {
+      "id": "lex:fifteen",
+      "kind": "lexeme",
+      "label": "fifteen"
+    },
+    {
+      "id": "lex:fifty",
+      "kind": "lexeme",
+      "label": "fifty"
+    },
+    {
+      "id": "lex:five",
+      "kind": "lexeme",
+      "label": "five"
+    },
+    {
+      "id": "lex:following",
+      "kind": "lexeme",
+      "label": "following"
+    },
+    {
+      "id": "lex:for",
+      "kind": "lexeme",
+      "label": "for"
+    },
+    {
+      "id": "lex:for all",
+      "kind": "lexeme",
+      "label": "for all"
+    },
+    {
+      "id": "lex:fore",
+      "kind": "lexeme",
+      "label": "fore"
+    },
+    {
+      "id": "lex:forever",
+      "kind": "lexeme",
+      "label": "forever"
+    },
+    {
+      "id": "lex:forth",
+      "kind": "lexeme",
+      "label": "forth"
+    },
+    {
+      "id": "lex:forty",
+      "kind": "lexeme",
+      "label": "forty"
+    },
+    {
+      "id": "lex:forward",
+      "kind": "lexeme",
+      "label": "forward"
+    },
+    {
+      "id": "lex:forwards",
+      "kind": "lexeme",
+      "label": "forwards"
+    },
+    {
+      "id": "lex:four",
+      "kind": "lexeme",
+      "label": "four"
+    },
+    {
+      "id": "lex:fourteen",
+      "kind": "lexeme",
+      "label": "fourteen"
+    },
+    {
+      "id": "lex:fro",
+      "kind": "lexeme",
+      "label": "fro"
+    },
+    {
+      "id": "lex:from",
+      "kind": "lexeme",
+      "label": "from"
+    },
+    {
+      "id": "lex:further",
+      "kind": "lexeme",
+      "label": "further"
+    },
+    {
+      "id": "lex:given",
+      "kind": "lexeme",
+      "label": "given"
+    },
+    {
+      "id": "lex:goalward",
+      "kind": "lexeme",
+      "label": "goalward"
+    },
+    {
+      "id": "lex:goalwards",
+      "kind": "lexeme",
+      "label": "goalwards"
+    },
+    {
+      "id": "lex:going",
+      "kind": "lexeme",
+      "label": "going"
+    },
+    {
+      "id": "lex:googol",
+      "kind": "lexeme",
+      "label": "googol"
+    },
+    {
+      "id": "lex:googolplex",
+      "kind": "lexeme",
+      "label": "googolplex"
+    },
+    {
+      "id": "lex:granted",
+      "kind": "lexeme",
+      "label": "granted"
+    },
+    {
+      "id": "lex:he",
+      "kind": "lexeme",
+      "label": "he"
+    },
+    {
+      "id": "lex:heavenward",
+      "kind": "lexeme",
+      "label": "heavenward"
+    },
+    {
+      "id": "lex:heavenwards",
+      "kind": "lexeme",
+      "label": "heavenwards"
+    },
+    {
+      "id": "lex:hence",
+      "kind": "lexeme",
+      "label": "hence"
+    },
+    {
+      "id": "lex:henceforth",
+      "kind": "lexeme",
+      "label": "henceforth"
+    },
+    {
+      "id": "lex:her",
+      "kind": "lexeme",
+      "label": "her"
+    },
+    {
+      "id": "lex:here",
+      "kind": "lexeme",
+      "label": "here"
+    },
+    {
+      "id": "lex:hers",
+      "kind": "lexeme",
+      "label": "hers"
+    },
+    {
+      "id": "lex:herself",
+      "kind": "lexeme",
+      "label": "herself"
+    },
+    {
+      "id": "lex:him",
+      "kind": "lexeme",
+      "label": "him"
+    },
+    {
+      "id": "lex:himself",
+      "kind": "lexeme",
+      "label": "himself"
+    },
+    {
+      "id": "lex:his",
+      "kind": "lexeme",
+      "label": "his"
+    },
+    {
+      "id": "lex:home",
+      "kind": "lexeme",
+      "label": "home"
+    },
+    {
+      "id": "lex:homeward",
+      "kind": "lexeme",
+      "label": "homeward"
+    },
+    {
+      "id": "lex:how",
+      "kind": "lexeme",
+      "label": "how"
+    },
+    {
+      "id": "lex:hundred",
+      "kind": "lexeme",
+      "label": "hundred"
+    },
+    {
+      "id": "lex:I",
+      "kind": "lexeme",
+      "label": "I"
+    },
+    {
+      "id": "lex:idem",
+      "kind": "lexeme",
+      "label": "idem"
+    },
+    {
+      "id": "lex:if",
+      "kind": "lexeme",
+      "label": "if"
+    },
+    {
+      "id": "lex:if and only if",
+      "kind": "lexeme",
+      "label": "if and only if"
+    },
+    {
+      "id": "lex:iff",
+      "kind": "lexeme",
+      "label": "iff"
+    },
+    {
+      "id": "lex:immediately",
+      "kind": "lexeme",
+      "label": "immediately"
+    },
+    {
+      "id": "lex:in",
+      "kind": "lexeme",
+      "label": "in"
+    },
+    {
+      "id": "lex:in addition",
+      "kind": "lexeme",
+      "label": "in addition"
+    },
+    {
+      "id": "lex:in case",
+      "kind": "lexeme",
+      "label": "in case"
+    },
+    {
+      "id": "lex:in charge",
+      "kind": "lexeme",
+      "label": "in charge"
+    },
+    {
+      "id": "lex:in consequence",
+      "kind": "lexeme",
+      "label": "in consequence"
+    },
+    {
+      "id": "lex:in front",
+      "kind": "lexeme",
+      "label": "in front"
+    },
+    {
+      "id": "lex:in league",
+      "kind": "lexeme",
+      "label": "in league"
+    },
+    {
+      "id": "lex:in line",
+      "kind": "lexeme",
+      "label": "in line"
+    },
+    {
+      "id": "lex:in order",
+      "kind": "lexeme",
+      "label": "in order"
+    },
+    {
+      "id": "lex:in spite",
+      "kind": "lexeme",
+      "label": "in spite"
+    },
+    {
+      "id": "lex:in step",
+      "kind": "lexeme",
+      "label": "in step"
+    },
+    {
+      "id": "lex:in view",
+      "kind": "lexeme",
+      "label": "in view"
+    },
+    {
+      "id": "lex:inasmuch",
+      "kind": "lexeme",
+      "label": "inasmuch"
+    },
+    {
+      "id": "lex:including",
+      "kind": "lexeme",
+      "label": "including"
+    },
+    {
+      "id": "lex:indoors",
+      "kind": "lexeme",
+      "label": "indoors"
+    },
+    {
+      "id": "lex:inland",
+      "kind": "lexeme",
+      "label": "inland"
+    },
+    {
+      "id": "lex:inside",
+      "kind": "lexeme",
+      "label": "inside"
+    },
+    {
+      "id": "lex:instead",
+      "kind": "lexeme",
+      "label": "instead"
+    },
+    {
+      "id": "lex:instead of",
+      "kind": "lexeme",
+      "label": "instead of"
+    },
+    {
+      "id": "lex:into",
+      "kind": "lexeme",
+      "label": "into"
+    },
+    {
+      "id": "lex:inward",
+      "kind": "lexeme",
+      "label": "inward"
+    },
+    {
+      "id": "lex:inwards",
+      "kind": "lexeme",
+      "label": "inwards"
+    },
+    {
+      "id": "lex:irrespective",
+      "kind": "lexeme",
+      "label": "irrespective"
+    },
+    {
+      "id": "lex:it",
+      "kind": "lexeme",
+      "label": "it"
+    },
+    {
+      "id": "lex:its",
+      "kind": "lexeme",
+      "label": "its"
+    },
+    {
+      "id": "lex:itself",
+      "kind": "lexeme",
+      "label": "itself"
+    },
+    {
+      "id": "lex:landward",
+      "kind": "lexeme",
+      "label": "landward"
+    },
+    {
+      "id": "lex:landwards",
+      "kind": "lexeme",
+      "label": "landwards"
+    },
+    {
+      "id": "lex:last",
+      "kind": "lexeme",
+      "label": "last"
+    },
+    {
+      "id": "lex:least",
+      "kind": "lexeme",
+      "label": "least"
+    },
+    {
+      "id": "lex:leeward",
+      "kind": "lexeme",
+      "label": "leeward"
+    },
+    {
+      "id": "lex:leftward",
+      "kind": "lexeme",
+      "label": "leftward"
+    },
+    {
+      "id": "lex:leftwards",
+      "kind": "lexeme",
+      "label": "leftwards"
+    },
+    {
+      "id": "lex:less",
+      "kind": "lexeme",
+      "label": "less"
+    },
+    {
+      "id": "lex:lest",
+      "kind": "lexeme",
+      "label": "lest"
+    },
+    {
+      "id": "lex:level",
+      "kind": "lexeme",
+      "label": "level"
+    },
+    {
+      "id": "lex:like",
+      "kind": "lexeme",
+      "label": "like"
+    },
+    {
+      "id": "lex:little",
+      "kind": "lexeme",
+      "label": "little"
+    },
+    {
+      "id": "lex:many",
+      "kind": "lexeme",
+      "label": "many"
+    },
+    {
+      "id": "lex:many a",
+      "kind": "lexeme",
+      "label": "many a"
+    },
+    {
+      "id": "lex:me",
+      "kind": "lexeme",
+      "label": "me"
+    },
+    {
+      "id": "lex:million",
+      "kind": "lexeme",
+      "label": "million"
+    },
+    {
+      "id": "lex:mine",
+      "kind": "lexeme",
+      "label": "mine"
+    },
+    {
+      "id": "lex:minus",
+      "kind": "lexeme",
+      "label": "minus"
+    },
+    {
+      "id": "lex:modulo",
+      "kind": "lexeme",
+      "label": "modulo"
+    },
+    {
+      "id": "lex:more",
+      "kind": "lexeme",
+      "label": "more"
+    },
+    {
+      "id": "lex:most",
+      "kind": "lexeme",
+      "label": "most"
+    },
+    {
+      "id": "lex:much",
+      "kind": "lexeme",
+      "label": "much"
+    },
+    {
+      "id": "lex:multiple",
+      "kind": "lexeme",
+      "label": "multiple"
+    },
+    {
+      "id": "lex:my",
+      "kind": "lexeme",
+      "label": "my"
+    },
+    {
+      "id": "lex:myself",
+      "kind": "lexeme",
+      "label": "myself"
+    },
+    {
+      "id": "lex:nationwide",
+      "kind": "lexeme",
+      "label": "nationwide"
+    },
+    {
+      "id": "lex:near",
+      "kind": "lexeme",
+      "label": "near"
+    },
+    {
+      "id": "lex:nearby",
+      "kind": "lexeme",
+      "label": "nearby"
+    },
+    {
+      "id": "lex:nearer",
+      "kind": "lexeme",
+      "label": "nearer"
+    },
+    {
+      "id": "lex:nearest",
+      "kind": "lexeme",
+      "label": "nearest"
+    },
+    {
+      "id": "lex:neither",
+      "kind": "lexeme",
+      "label": "neither"
+    },
+    {
+      "id": "lex:next",
+      "kind": "lexeme",
+      "label": "next"
+    },
+    {
+      "id": "lex:nine",
+      "kind": "lexeme",
+      "label": "nine"
+    },
+    {
+      "id": "lex:nineteen",
+      "kind": "lexeme",
+      "label": "nineteen"
+    },
+    {
+      "id": "lex:ninety",
+      "kind": "lexeme",
+      "label": "ninety"
+    },
+    {
+      "id": "lex:ninety-nine",
+      "kind": "lexeme",
+      "label": "ninety-nine"
+    },
+    {
+      "id": "lex:no",
+      "kind": "lexeme",
+      "label": "no"
+    },
+    {
+      "id": "lex:no matter",
+      "kind": "lexeme",
+      "label": "no matter"
+    },
+    {
+      "id": "lex:no one",
+      "kind": "lexeme",
+      "label": "no one"
+    },
+    {
+      "id": "lex:nobody",
+      "kind": "lexeme",
+      "label": "nobody"
+    },
+    {
+      "id": "lex:none",
+      "kind": "lexeme",
+      "label": "none"
+    },
+    {
+      "id": "lex:nonillion",
+      "kind": "lexeme",
+      "label": "nonillion"
+    },
+    {
+      "id": "lex:nor",
+      "kind": "lexeme",
+      "label": "nor"
+    },
+    {
+      "id": "lex:north",
+      "kind": "lexeme",
+      "label": "north"
+    },
+    {
+      "id": "lex:northeast",
+      "kind": "lexeme",
+      "label": "northeast"
+    },
+    {
+      "id": "lex:northward",
+      "kind": "lexeme",
+      "label": "northward"
+    },
+    {
+      "id": "lex:northwards",
+      "kind": "lexeme",
+      "label": "northwards"
+    },
+    {
+      "id": "lex:nothing",
+      "kind": "lexeme",
+      "label": "nothing"
+    },
+    {
+      "id": "lex:notwithstanding",
+      "kind": "lexeme",
+      "label": "notwithstanding"
+    },
+    {
+      "id": "lex:novemdecillion",
+      "kind": "lexeme",
+      "label": "novemdecillion"
+    },
+    {
+      "id": "lex:now",
+      "kind": "lexeme",
+      "label": "now"
+    },
+    {
+      "id": "lex:nowhere",
+      "kind": "lexeme",
+      "label": "nowhere"
+    },
+    {
+      "id": "lex:o'clock",
+      "kind": "lexeme",
+      "label": "o'clock"
+    },
+    {
+      "id": "lex:octillion",
+      "kind": "lexeme",
+      "label": "octillion"
+    },
+    {
+      "id": "lex:octodecillion",
+      "kind": "lexeme",
+      "label": "octodecillion"
+    },
+    {
+      "id": "lex:of",
+      "kind": "lexeme",
+      "label": "of"
+    },
+    {
+      "id": "lex:off",
+      "kind": "lexeme",
+      "label": "off"
+    },
+    {
+      "id": "lex:offshore",
+      "kind": "lexeme",
+      "label": "offshore"
+    },
+    {
+      "id": "lex:on",
+      "kind": "lexeme",
+      "label": "on"
+    },
+    {
+      "id": "lex:on account",
+      "kind": "lexeme",
+      "label": "on account"
+    },
+    {
+      "id": "lex:on board",
+      "kind": "lexeme",
+      "label": "on board"
+    },
+    {
+      "id": "lex:on condition",
+      "kind": "lexeme",
+      "label": "on condition"
+    },
+    {
+      "id": "lex:on to",
+      "kind": "lexeme",
+      "label": "on to"
+    },
+    {
+      "id": "lex:on top",
+      "kind": "lexeme",
+      "label": "on top"
+    },
+    {
+      "id": "lex:once",
+      "kind": "lexeme",
+      "label": "once"
+    },
+    {
+      "id": "lex:one",
+      "kind": "lexeme",
+      "label": "one"
+    },
+    {
+      "id": "lex:one another",
+      "kind": "lexeme",
+      "label": "one another"
+    },
+    {
+      "id": "lex:oneself",
+      "kind": "lexeme",
+      "label": "oneself"
+    },
+    {
+      "id": "lex:online",
+      "kind": "lexeme",
+      "label": "online"
+    },
+    {
+      "id": "lex:only",
+      "kind": "lexeme",
+      "label": "only"
+    },
+    {
+      "id": "lex:onshore",
+      "kind": "lexeme",
+      "label": "onshore"
+    },
+    {
+      "id": "lex:onto",
+      "kind": "lexeme",
+      "label": "onto"
+    },
+    {
+      "id": "lex:onward",
+      "kind": "lexeme",
+      "label": "onward"
+    },
+    {
+      "id": "lex:onwards",
+      "kind": "lexeme",
+      "label": "onwards"
+    },
+    {
+      "id": "lex:opposite",
+      "kind": "lexeme",
+      "label": "opposite"
+    },
+    {
+      "id": "lex:or",
+      "kind": "lexeme",
+      "label": "or"
+    },
+    {
+      "id": "lex:other than",
+      "kind": "lexeme",
+      "label": "other than"
+    },
+    {
+      "id": "lex:our",
+      "kind": "lexeme",
+      "label": "our"
+    },
+    {
+      "id": "lex:ours",
+      "kind": "lexeme",
+      "label": "ours"
+    },
+    {
+      "id": "lex:ourselves",
+      "kind": "lexeme",
+      "label": "ourselves"
+    },
+    {
+      "id": "lex:out",
+      "kind": "lexeme",
+      "label": "out"
+    },
+    {
+      "id": "lex:outdoors",
+      "kind": "lexeme",
+      "label": "outdoors"
+    },
+    {
+      "id": "lex:outside",
+      "kind": "lexeme",
+      "label": "outside"
+    },
+    {
+      "id": "lex:outward",
+      "kind": "lexeme",
+      "label": "outward"
+    },
+    {
+      "id": "lex:outwards",
+      "kind": "lexeme",
+      "label": "outwards"
+    },
+    {
+      "id": "lex:over",
+      "kind": "lexeme",
+      "label": "over"
+    },
+    {
+      "id": "lex:overboard",
+      "kind": "lexeme",
+      "label": "overboard"
+    },
+    {
+      "id": "lex:overhead",
+      "kind": "lexeme",
+      "label": "overhead"
+    },
+    {
+      "id": "lex:overland",
+      "kind": "lexeme",
+      "label": "overland"
+    },
+    {
+      "id": "lex:overnight",
+      "kind": "lexeme",
+      "label": "overnight"
+    },
+    {
+      "id": "lex:overseas",
+      "kind": "lexeme",
+      "label": "overseas"
+    },
+    {
+      "id": "lex:owing",
+      "kind": "lexeme",
+      "label": "owing"
+    },
+    {
+      "id": "lex:p.m.",
+      "kind": "lexeme",
+      "label": "p.m."
+    },
+    {
+      "id": "lex:pace",
+      "kind": "lexeme",
+      "label": "pace"
+    },
+    {
+      "id": "lex:past",
+      "kind": "lexeme",
+      "label": "past"
+    },
+    {
+      "id": "lex:pending",
+      "kind": "lexeme",
+      "label": "pending"
+    },
+    {
+      "id": "lex:per",
+      "kind": "lexeme",
+      "label": "per"
+    },
+    {
+      "id": "lex:pertaining",
+      "kind": "lexeme",
+      "label": "pertaining"
+    },
+    {
+      "id": "lex:plus",
+      "kind": "lexeme",
+      "label": "plus"
+    },
+    {
+      "id": "lex:point",
+      "kind": "lexeme",
+      "label": "point"
+    },
+    {
+      "id": "lex:post",
+      "kind": "lexeme",
+      "label": "post"
+    },
+    {
+      "id": "lex:post meridiem",
+      "kind": "lexeme",
+      "label": "post meridiem"
+    },
+    {
+      "id": "lex:pre",
+      "kind": "lexeme",
+      "label": "pre"
+    },
+    {
+      "id": "lex:preliminary",
+      "kind": "lexeme",
+      "label": "preliminary"
+    },
+    {
+      "id": "lex:preparatory",
+      "kind": "lexeme",
+      "label": "preparatory"
+    },
+    {
+      "id": "lex:previous",
+      "kind": "lexeme",
+      "label": "previous"
+    },
+    {
+      "id": "lex:prior",
+      "kind": "lexeme",
+      "label": "prior"
+    },
+    {
+      "id": "lex:pro",
+      "kind": "lexeme",
+      "label": "pro"
+    },
+    {
+      "id": "lex:provided",
+      "kind": "lexeme",
+      "label": "provided"
+    },
+    {
+      "id": "lex:providing",
+      "kind": "lexeme",
+      "label": "providing"
+    },
+    {
+      "id": "lex:pursuant",
+      "kind": "lexeme",
+      "label": "pursuant"
+    },
+    {
+      "id": "lex:qua",
+      "kind": "lexeme",
+      "label": "qua"
+    },
+    {
+      "id": "lex:quadrillion",
+      "kind": "lexeme",
+      "label": "quadrillion"
+    },
+    {
+      "id": "lex:quattuordecillion",
+      "kind": "lexeme",
+      "label": "quattuordecillion"
+    },
+    {
+      "id": "lex:quindecillion",
+      "kind": "lexeme",
+      "label": "quindecillion"
+    },
+    {
+      "id": "lex:quintillion",
+      "kind": "lexeme",
+      "label": "quintillion"
+    },
+    {
+      "id": "lex:rather than",
+      "kind": "lexeme",
+      "label": "rather than"
+    },
+    {
+      "id": "lex:re",
+      "kind": "lexeme",
+      "label": "re"
+    },
+    {
+      "id": "lex:rearward",
+      "kind": "lexeme",
+      "label": "rearward"
+    },
+    {
+      "id": "lex:rearwards",
+      "kind": "lexeme",
+      "label": "rearwards"
+    },
+    {
+      "id": "lex:regarding",
+      "kind": "lexeme",
+      "label": "regarding"
+    },
+    {
+      "id": "lex:regardless",
+      "kind": "lexeme",
+      "label": "regardless"
+    },
+    {
+      "id": "lex:respecting",
+      "kind": "lexeme",
+      "label": "respecting"
+    },
+    {
+      "id": "lex:rightward",
+      "kind": "lexeme",
+      "label": "rightward"
+    },
+    {
+      "id": "lex:rightwards",
+      "kind": "lexeme",
+      "label": "rightwards"
+    },
+    {
+      "id": "lex:round",
+      "kind": "lexeme",
+      "label": "round"
+    },
+    {
+      "id": "lex:said",
+      "kind": "lexeme",
+      "label": "said"
+    },
+    {
+      "id": "lex:sans",
+      "kind": "lexeme",
+      "label": "sans"
+    },
+    {
+      "id": "lex:save",
+      "kind": "lexeme",
+      "label": "save"
+    },
+    {
+      "id": "lex:saving",
+      "kind": "lexeme",
+      "label": "saving"
+    },
+    {
+      "id": "lex:seaward",
+      "kind": "lexeme",
+      "label": "seaward"
+    },
+    {
+      "id": "lex:seawards",
+      "kind": "lexeme",
+      "label": "seawards"
+    },
+    {
+      "id": "lex:seeing",
+      "kind": "lexeme",
+      "label": "seeing"
+    },
+    {
+      "id": "lex:septendecillion",
+      "kind": "lexeme",
+      "label": "septendecillion"
+    },
+    {
+      "id": "lex:septillion",
+      "kind": "lexeme",
+      "label": "septillion"
+    },
+    {
+      "id": "lex:seven",
+      "kind": "lexeme",
+      "label": "seven"
+    },
+    {
+      "id": "lex:seventeen",
+      "kind": "lexeme",
+      "label": "seventeen"
+    },
+    {
+      "id": "lex:seventy",
+      "kind": "lexeme",
+      "label": "seventy"
+    },
+    {
+      "id": "lex:several",
+      "kind": "lexeme",
+      "label": "several"
+    },
+    {
+      "id": "lex:sexdecillion",
+      "kind": "lexeme",
+      "label": "sexdecillion"
+    },
+    {
+      "id": "lex:sextillion",
+      "kind": "lexeme",
+      "label": "sextillion"
+    },
+    {
+      "id": "lex:she",
+      "kind": "lexeme",
+      "label": "she"
+    },
+    {
+      "id": "lex:shoreward",
+      "kind": "lexeme",
+      "label": "shoreward"
+    },
+    {
+      "id": "lex:shorewards",
+      "kind": "lexeme",
+      "label": "shorewards"
+    },
+    {
+      "id": "lex:short",
+      "kind": "lexeme",
+      "label": "short"
+    },
+    {
+      "id": "lex:sideward",
+      "kind": "lexeme",
+      "label": "sideward"
+    },
+    {
+      "id": "lex:sidewards",
+      "kind": "lexeme",
+      "label": "sidewards"
+    },
+    {
+      "id": "lex:sideways",
+      "kind": "lexeme",
+      "label": "sideways"
+    },
+    {
+      "id": "lex:since",
+      "kind": "lexeme",
+      "label": "since"
+    },
+    {
+      "id": "lex:six",
+      "kind": "lexeme",
+      "label": "six"
+    },
+    {
+      "id": "lex:sixteen",
+      "kind": "lexeme",
+      "label": "sixteen"
+    },
+    {
+      "id": "lex:sixty",
+      "kind": "lexeme",
+      "label": "sixty"
+    },
+    {
+      "id": "lex:skyward",
+      "kind": "lexeme",
+      "label": "skyward"
+    },
+    {
+      "id": "lex:skywards",
+      "kind": "lexeme",
+      "label": "skywards"
+    },
+    {
+      "id": "lex:slash",
+      "kind": "lexeme",
+      "label": "slash"
+    },
+    {
+      "id": "lex:so",
+      "kind": "lexeme",
+      "label": "so"
+    },
+    {
+      "id": "lex:some",
+      "kind": "lexeme",
+      "label": "some"
+    },
+    {
+      "id": "lex:somebody",
+      "kind": "lexeme",
+      "label": "somebody"
+    },
+    {
+      "id": "lex:someday",
+      "kind": "lexeme",
+      "label": "someday"
+    },
+    {
+      "id": "lex:someone",
+      "kind": "lexeme",
+      "label": "someone"
+    },
+    {
+      "id": "lex:something",
+      "kind": "lexeme",
+      "label": "something"
+    },
+    {
+      "id": "lex:sometime",
+      "kind": "lexeme",
+      "label": "sometime"
+    },
+    {
+      "id": "lex:somewhat",
+      "kind": "lexeme",
+      "label": "somewhat"
+    },
+    {
+      "id": "lex:somewhere",
+      "kind": "lexeme",
+      "label": "somewhere"
+    },
+    {
+      "id": "lex:south",
+      "kind": "lexeme",
+      "label": "south"
+    },
+    {
+      "id": "lex:southeast",
+      "kind": "lexeme",
+      "label": "southeast"
+    },
+    {
+      "id": "lex:southward",
+      "kind": "lexeme",
+      "label": "southward"
+    },
+    {
+      "id": "lex:southwards",
+      "kind": "lexeme",
+      "label": "southwards"
+    },
+    {
+      "id": "lex:spite",
+      "kind": "lexeme",
+      "label": "spite"
+    },
+    {
+      "id": "lex:subsequent",
+      "kind": "lexeme",
+      "label": "subsequent"
+    },
+    {
+      "id": "lex:sufficient",
+      "kind": "lexeme",
+      "label": "sufficient"
+    },
+    {
+      "id": "lex:summat",
+      "kind": "lexeme",
+      "label": "summat"
+    },
+    {
+      "id": "lex:sunward",
+      "kind": "lexeme",
+      "label": "sunward"
+    },
+    {
+      "id": "lex:sunwards",
+      "kind": "lexeme",
+      "label": "sunwards"
+    },
+    {
+      "id": "lex:supposing",
+      "kind": "lexeme",
+      "label": "supposing"
+    },
+    {
+      "id": "lex:take away",
+      "kind": "lexeme",
+      "label": "take away"
+    },
+    {
+      "id": "lex:ten",
+      "kind": "lexeme",
+      "label": "ten"
+    },
+    {
+      "id": "lex:than",
+      "kind": "lexeme",
+      "label": "than"
+    },
+    {
+      "id": "lex:thanks",
+      "kind": "lexeme",
+      "label": "thanks"
+    },
+    {
+      "id": "lex:that",
+      "kind": "lexeme",
+      "label": "that"
+    },
+    {
+      "id": "lex:the",
+      "kind": "lexeme",
+      "label": "the"
+    },
+    {
+      "id": "lex:thee",
+      "kind": "lexeme",
+      "label": "thee"
+    },
+    {
+      "id": "lex:their",
+      "kind": "lexeme",
+      "label": "their"
+    },
+    {
+      "id": "lex:theirs",
+      "kind": "lexeme",
+      "label": "theirs"
+    },
+    {
+      "id": "lex:them",
+      "kind": "lexeme",
+      "label": "them"
+    },
+    {
+      "id": "lex:them all",
+      "kind": "lexeme",
+      "label": "them all"
+    },
+    {
+      "id": "lex:them both",
+      "kind": "lexeme",
+      "label": "them both"
+    },
+    {
+      "id": "lex:themself",
+      "kind": "lexeme",
+      "label": "themself"
+    },
+    {
+      "id": "lex:themselves",
+      "kind": "lexeme",
+      "label": "themselves"
+    },
+    {
+      "id": "lex:then",
+      "kind": "lexeme",
+      "label": "then"
+    },
+    {
+      "id": "lex:thence",
+      "kind": "lexeme",
+      "label": "thence"
+    },
+    {
+      "id": "lex:there",
+      "kind": "lexeme",
+      "label": "there"
+    },
+    {
+      "id": "lex:thereabouts",
+      "kind": "lexeme",
+      "label": "thereabouts"
+    },
+    {
+      "id": "lex:thereby",
+      "kind": "lexeme",
+      "label": "thereby"
+    },
+    {
+      "id": "lex:therefore",
+      "kind": "lexeme",
+      "label": "therefore"
+    },
+    {
+      "id": "lex:thereof",
+      "kind": "lexeme",
+      "label": "thereof"
+    },
+    {
+      "id": "lex:these",
+      "kind": "lexeme",
+      "label": "these"
+    },
+    {
+      "id": "lex:they",
+      "kind": "lexeme",
+      "label": "they"
+    },
+    {
+      "id": "lex:thirteen",
+      "kind": "lexeme",
+      "label": "thirteen"
+    },
+    {
+      "id": "lex:thirty",
+      "kind": "lexeme",
+      "label": "thirty"
+    },
+    {
+      "id": "lex:thirty-eight",
+      "kind": "lexeme",
+      "label": "thirty-eight"
+    },
+    {
+      "id": "lex:thirty-five",
+      "kind": "lexeme",
+      "label": "thirty-five"
+    },
+    {
+      "id": "lex:thirty-four",
+      "kind": "lexeme",
+      "label": "thirty-four"
+    },
+    {
+      "id": "lex:thirty-nine",
+      "kind": "lexeme",
+      "label": "thirty-nine"
+    },
+    {
+      "id": "lex:thirty-one",
+      "kind": "lexeme",
+      "label": "thirty-one"
+    },
+    {
+      "id": "lex:thirty-seven",
+      "kind": "lexeme",
+      "label": "thirty-seven"
+    },
+    {
+      "id": "lex:thirty-six",
+      "kind": "lexeme",
+      "label": "thirty-six"
+    },
+    {
+      "id": "lex:thirty-three",
+      "kind": "lexeme",
+      "label": "thirty-three"
+    },
+    {
+      "id": "lex:thirty-two",
+      "kind": "lexeme",
+      "label": "thirty-two"
+    },
+    {
+      "id": "lex:this",
+      "kind": "lexeme",
+      "label": "this"
+    },
+    {
+      "id": "lex:those",
+      "kind": "lexeme",
+      "label": "those"
+    },
+    {
+      "id": "lex:thou",
+      "kind": "lexeme",
+      "label": "thou"
+    },
+    {
+      "id": "lex:though",
+      "kind": "lexeme",
+      "label": "though"
+    },
+    {
+      "id": "lex:thousand",
+      "kind": "lexeme",
+      "label": "thousand"
+    },
+    {
+      "id": "lex:three",
+      "kind": "lexeme",
+      "label": "three"
+    },
+    {
+      "id": "lex:thrice",
+      "kind": "lexeme",
+      "label": "thrice"
+    },
+    {
+      "id": "lex:through",
+      "kind": "lexeme",
+      "label": "through"
+    },
+    {
+      "id": "lex:throughout",
+      "kind": "lexeme",
+      "label": "throughout"
+    },
+    {
+      "id": "lex:thy",
+      "kind": "lexeme",
+      "label": "thy"
+    },
+    {
+      "id": "lex:till",
+      "kind": "lexeme",
+      "label": "till"
+    },
+    {
+      "id": "lex:times",
+      "kind": "lexeme",
+      "label": "times"
+    },
+    {
+      "id": "lex:to",
+      "kind": "lexeme",
+      "label": "to"
+    },
+    {
+      "id": "lex:together",
+      "kind": "lexeme",
+      "label": "together"
+    },
+    {
+      "id": "lex:touching",
+      "kind": "lexeme",
+      "label": "touching"
+    },
+    {
+      "id": "lex:toward",
+      "kind": "lexeme",
+      "label": "toward"
+    },
+    {
+      "id": "lex:towards",
+      "kind": "lexeme",
+      "label": "towards"
+    },
+    {
+      "id": "lex:tredecillion",
+      "kind": "lexeme",
+      "label": "tredecillion"
+    },
+    {
+      "id": "lex:trillion",
+      "kind": "lexeme",
+      "label": "trillion"
+    },
+    {
+      "id": "lex:turning",
+      "kind": "lexeme",
+      "label": "turning"
+    },
+    {
+      "id": "lex:twelve",
+      "kind": "lexeme",
+      "label": "twelve"
+    },
+    {
+      "id": "lex:twenty",
+      "kind": "lexeme",
+      "label": "twenty"
+    },
+    {
+      "id": "lex:twenty-eight",
+      "kind": "lexeme",
+      "label": "twenty-eight"
+    },
+    {
+      "id": "lex:twenty-five",
+      "kind": "lexeme",
+      "label": "twenty-five"
+    },
+    {
+      "id": "lex:twenty-four",
+      "kind": "lexeme",
+      "label": "twenty-four"
+    },
+    {
+      "id": "lex:twenty-nine",
+      "kind": "lexeme",
+      "label": "twenty-nine"
+    },
+    {
+      "id": "lex:twenty-one",
+      "kind": "lexeme",
+      "label": "twenty-one"
+    },
+    {
+      "id": "lex:twenty-seven",
+      "kind": "lexeme",
+      "label": "twenty-seven"
+    },
+    {
+      "id": "lex:twenty-six",
+      "kind": "lexeme",
+      "label": "twenty-six"
+    },
+    {
+      "id": "lex:twenty-three",
+      "kind": "lexeme",
+      "label": "twenty-three"
+    },
+    {
+      "id": "lex:twenty-two",
+      "kind": "lexeme",
+      "label": "twenty-two"
+    },
+    {
+      "id": "lex:twice",
+      "kind": "lexeme",
+      "label": "twice"
+    },
+    {
+      "id": "lex:two",
+      "kind": "lexeme",
+      "label": "two"
+    },
+    {
+      "id": "lex:two thousand",
+      "kind": "lexeme",
+      "label": "two thousand"
+    },
+    {
+      "id": "lex:umpteen",
+      "kind": "lexeme",
+      "label": "umpteen"
+    },
+    {
+      "id": "lex:unbeknown",
+      "kind": "lexeme",
+      "label": "unbeknown"
+    },
+    {
+      "id": "lex:unbeknownst",
+      "kind": "lexeme",
+      "label": "unbeknownst"
+    },
+    {
+      "id": "lex:undecillion",
+      "kind": "lexeme",
+      "label": "undecillion"
+    },
+    {
+      "id": "lex:under",
+      "kind": "lexeme",
+      "label": "under"
+    },
+    {
+      "id": "lex:underfoot",
+      "kind": "lexeme",
+      "label": "underfoot"
+    },
+    {
+      "id": "lex:underground",
+      "kind": "lexeme",
+      "label": "underground"
+    },
+    {
+      "id": "lex:underneath",
+      "kind": "lexeme",
+      "label": "underneath"
+    },
+    {
+      "id": "lex:unless",
+      "kind": "lexeme",
+      "label": "unless"
+    },
+    {
+      "id": "lex:unlike",
+      "kind": "lexeme",
+      "label": "unlike"
+    },
+    {
+      "id": "lex:until",
+      "kind": "lexeme",
+      "label": "until"
+    },
+    {
+      "id": "lex:up",
+      "kind": "lexeme",
+      "label": "up"
+    },
+    {
+      "id": "lex:uphill",
+      "kind": "lexeme",
+      "label": "uphill"
+    },
+    {
+      "id": "lex:upon",
+      "kind": "lexeme",
+      "label": "upon"
+    },
+    {
+      "id": "lex:upstage",
+      "kind": "lexeme",
+      "label": "upstage"
+    },
+    {
+      "id": "lex:upstairs",
+      "kind": "lexeme",
+      "label": "upstairs"
+    },
+    {
+      "id": "lex:upstream",
+      "kind": "lexeme",
+      "label": "upstream"
+    },
+    {
+      "id": "lex:upward",
+      "kind": "lexeme",
+      "label": "upward"
+    },
+    {
+      "id": "lex:upwards",
+      "kind": "lexeme",
+      "label": "upwards"
+    },
+    {
+      "id": "lex:upwind",
+      "kind": "lexeme",
+      "label": "upwind"
+    },
+    {
+      "id": "lex:us",
+      "kind": "lexeme",
+      "label": "us"
+    },
+    {
+      "id": "lex:us all",
+      "kind": "lexeme",
+      "label": "us all"
+    },
+    {
+      "id": "lex:us both",
+      "kind": "lexeme",
+      "label": "us both"
+    },
+    {
+      "id": "lex:v.",
+      "kind": "lexeme",
+      "label": "v."
+    },
+    {
+      "id": "lex:various",
+      "kind": "lexeme",
+      "label": "various"
+    },
+    {
+      "id": "lex:versus",
+      "kind": "lexeme",
+      "label": "versus"
+    },
+    {
+      "id": "lex:via",
+      "kind": "lexeme",
+      "label": "via"
+    },
+    {
+      "id": "lex:vigintillion",
+      "kind": "lexeme",
+      "label": "vigintillion"
+    },
+    {
+      "id": "lex:vis-à-vis",
+      "kind": "lexeme",
+      "label": "vis-à-vis"
+    },
+    {
+      "id": "lex:vs",
+      "kind": "lexeme",
+      "label": "vs"
+    },
+    {
+      "id": "lex:vs.",
+      "kind": "lexeme",
+      "label": "vs."
+    },
+    {
+      "id": "lex:wanting",
+      "kind": "lexeme",
+      "label": "wanting"
+    },
+    {
+      "id": "lex:we",
+      "kind": "lexeme",
+      "label": "we"
+    },
+    {
+      "id": "lex:west",
+      "kind": "lexeme",
+      "label": "west"
+    },
+    {
+      "id": "lex:westward",
+      "kind": "lexeme",
+      "label": "westward"
+    },
+    {
+      "id": "lex:westwards",
+      "kind": "lexeme",
+      "label": "westwards"
+    },
+    {
+      "id": "lex:what",
+      "kind": "lexeme",
+      "label": "what"
+    },
+    {
+      "id": "lex:whatever",
+      "kind": "lexeme",
+      "label": "whatever"
+    },
+    {
+      "id": "lex:whatsoever",
+      "kind": "lexeme",
+      "label": "whatsoever"
+    },
+    {
+      "id": "lex:when",
+      "kind": "lexeme",
+      "label": "when"
+    },
+    {
+      "id": "lex:whence",
+      "kind": "lexeme",
+      "label": "whence"
+    },
+    {
+      "id": "lex:whenever",
+      "kind": "lexeme",
+      "label": "whenever"
+    },
+    {
+      "id": "lex:where",
+      "kind": "lexeme",
+      "label": "where"
+    },
+    {
+      "id": "lex:whereabouts",
+      "kind": "lexeme",
+      "label": "whereabouts"
+    },
+    {
+      "id": "lex:whereafter",
+      "kind": "lexeme",
+      "label": "whereafter"
+    },
+    {
+      "id": "lex:whereas",
+      "kind": "lexeme",
+      "label": "whereas"
+    },
+    {
+      "id": "lex:whereby",
+      "kind": "lexeme",
+      "label": "whereby"
+    },
+    {
+      "id": "lex:wherein",
+      "kind": "lexeme",
+      "label": "wherein"
+    },
+    {
+      "id": "lex:whereupon",
+      "kind": "lexeme",
+      "label": "whereupon"
+    },
+    {
+      "id": "lex:wherever",
+      "kind": "lexeme",
+      "label": "wherever"
+    },
+    {
+      "id": "lex:whether",
+      "kind": "lexeme",
+      "label": "whether"
+    },
+    {
+      "id": "lex:whether or not",
+      "kind": "lexeme",
+      "label": "whether or not"
+    },
+    {
+      "id": "lex:which",
+      "kind": "lexeme",
+      "label": "which"
+    },
+    {
+      "id": "lex:whichever",
+      "kind": "lexeme",
+      "label": "whichever"
+    },
+    {
+      "id": "lex:while",
+      "kind": "lexeme",
+      "label": "while"
+    },
+    {
+      "id": "lex:whilst",
+      "kind": "lexeme",
+      "label": "whilst"
+    },
+    {
+      "id": "lex:whither",
+      "kind": "lexeme",
+      "label": "whither"
+    },
+    {
+      "id": "lex:who",
+      "kind": "lexeme",
+      "label": "who"
+    },
+    {
+      "id": "lex:whoever",
+      "kind": "lexeme",
+      "label": "whoever"
+    },
+    {
+      "id": "lex:whom",
+      "kind": "lexeme",
+      "label": "whom"
+    },
+    {
+      "id": "lex:whose",
+      "kind": "lexeme",
+      "label": "whose"
+    },
+    {
+      "id": "lex:whosoever",
+      "kind": "lexeme",
+      "label": "whosoever"
+    },
+    {
+      "id": "lex:wide",
+      "kind": "lexeme",
+      "label": "wide"
+    },
+    {
+      "id": "lex:windward",
+      "kind": "lexeme",
+      "label": "windward"
+    },
+    {
+      "id": "lex:with",
+      "kind": "lexeme",
+      "label": "with"
+    },
+    {
+      "id": "lex:within",
+      "kind": "lexeme",
+      "label": "within"
+    },
+    {
+      "id": "lex:without",
+      "kind": "lexeme",
+      "label": "without"
+    },
+    {
+      "id": "lex:worldwide",
+      "kind": "lexeme",
+      "label": "worldwide"
+    },
+    {
+      "id": "lex:y'all",
+      "kind": "lexeme",
+      "label": "y'all"
+    },
+    {
+      "id": "lex:ya",
+      "kind": "lexeme",
+      "label": "ya"
+    },
+    {
+      "id": "lex:ye",
+      "kind": "lexeme",
+      "label": "ye"
+    },
+    {
+      "id": "lex:yet",
+      "kind": "lexeme",
+      "label": "yet"
+    },
+    {
+      "id": "lex:yo",
+      "kind": "lexeme",
+      "label": "yo"
+    },
+    {
+      "id": "lex:you",
+      "kind": "lexeme",
+      "label": "you"
+    },
+    {
+      "id": "lex:you all",
+      "kind": "lexeme",
+      "label": "you all"
+    },
+    {
+      "id": "lex:you both",
+      "kind": "lexeme",
+      "label": "you both"
+    },
+    {
+      "id": "lex:your",
+      "kind": "lexeme",
+      "label": "your"
+    },
+    {
+      "id": "lex:yours",
+      "kind": "lexeme",
+      "label": "yours"
+    },
+    {
+      "id": "lex:yourself",
+      "kind": "lexeme",
+      "label": "yourself"
+    },
+    {
+      "id": "lex:yourselves",
+      "kind": "lexeme",
+      "label": "yourselves"
+    },
+    {
+      "id": "lex:zero",
+      "kind": "lexeme",
+      "label": "zero"
+    },
+    {
+      "id": "magnitude-quantifier-001",
+      "kind": "construction",
+      "label": "Magnitude Quantifier Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "minor-determiner-001",
+      "kind": "construction",
+      "label": "Minor Determiner (Plain NP/PP)",
+      "type": "syntactic"
+    },
+    {
+      "id": "n-common-001",
+      "kind": "construction",
+      "label": "Common Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "n-common-pl-001",
+      "kind": "construction",
+      "label": "Plural Common Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "n-non-count-001",
+      "kind": "construction",
+      "label": "Non-count Noun",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "n-pl-001",
+      "kind": "construction",
+      "label": "Plural Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "n-proper-001",
+      "kind": "construction",
+      "label": "Proper Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "n-sg-001",
+      "kind": "construction",
+      "label": "Singular Noun",
+      "type": "syntactic"
+    },
+    {
+      "id": "negative-fronting-inversion",
+      "kind": "diagnostic",
+      "label": "negative-fronting-inversion"
+    },
+    {
+      "id": "neither-nor-continuation",
+      "kind": "diagnostic",
+      "label": "neither-nor-continuation"
+    },
+    {
+      "id": "neither-nor-coordination-001",
+      "kind": "construction",
+      "label": "Correlative Coordination with neither...nor",
+      "type": "syntactic"
+    },
+    {
+      "id": "never-adv-negation-001",
+      "kind": "construction",
+      "label": "Adverbial Negation with never",
+      "type": "syntactic"
+    },
+    {
+      "id": "no-determiner-001",
+      "kind": "construction",
+      "label": "Negative determinative \"no\" in determiner function",
+      "type": "syntactic"
+    },
+    {
+      "id": "nom-001",
+      "kind": "construction",
+      "label": "Nominal Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "nom-adjp-mod-001",
+      "kind": "construction",
+      "label": "Adjectival Pre-head Modifier in Nominal",
+      "type": "syntactic"
+    },
+    {
+      "id": "nom-n-mod-001",
+      "kind": "construction",
+      "label": "Nominal Pre-head Modifier in Nominal",
+      "type": "syntactic"
+    },
+    {
+      "id": "nom-prehead-mod-001",
+      "kind": "construction",
+      "label": "Nominal Pre-head Modifier",
+      "type": "syntactic"
+    },
+    {
+      "id": "nom-premod-000",
+      "kind": "construction",
+      "label": "Pre-head Modifier in Nominal",
+      "type": "syntactic"
+    },
+    {
+      "id": "not-even-continuation",
+      "kind": "diagnostic",
+      "label": "not-even-continuation"
+    },
+    {
+      "id": "np-001",
+      "kind": "construction",
+      "label": "Noun Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-bare-001",
+      "kind": "construction",
+      "label": "Bare NP Construction"
+    },
+    {
+      "id": "np-common-001",
+      "kind": "construction",
+      "label": "Common Noun Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-def-001",
+      "kind": "construction",
+      "label": "Definite NP Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-det-001",
+      "kind": "construction",
+      "label": "Determined Noun Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-gen-indep-001",
+      "kind": "construction",
+      "label": "Independent Genitive NP",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-indef-001",
+      "kind": "construction",
+      "label": "Indefinite NP Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-pron-001",
+      "kind": "construction",
+      "label": "Pronominal Noun Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-pron-interrog-gen-indep-001",
+      "kind": "construction",
+      "label": "Independent Interrogative Genitive Pronoun NP",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-pron-personal-gen-indep-001",
+      "kind": "construction",
+      "label": "Independent Personal Genitive Pronoun NP",
+      "type": "syntactic"
+    },
+    {
+      "id": "np-proper-001",
+      "kind": "construction",
+      "label": "Proper Noun Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-addition-asyndetic-001",
+      "kind": "construction",
+      "label": "Numerative Addition Coordination (without and)",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-addition-coordination-001",
+      "kind": "construction",
+      "label": "Numerative Addition Coordination (with and)",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-basic-lexeme-001",
+      "kind": "construction",
+      "label": "Basic Numerative Lexeme (0–99)",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-complex-001",
+      "kind": "construction",
+      "label": "Complex Numerative (Phrasal >99)",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-compound-basic-001",
+      "kind": "construction",
+      "label": "Compound Basic Numerative (Decade + Single-digit)",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-constituency",
+      "kind": "diagnostic",
+      "label": "numerative-constituency"
+    },
+    {
+      "id": "numerative-decade-001",
+      "kind": "construction",
+      "label": "Decade Numerative",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-factor-modifier-001",
+      "kind": "construction",
+      "label": "Factor + Magnitude Numerative",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-fractional-001",
+      "kind": "construction",
+      "label": "Fractional Noun",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-fused-head-001",
+      "kind": "construction",
+      "label": "Fused-head Numerative",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-magnitude-head-001",
+      "kind": "construction",
+      "label": "Magnitude Head Numerative",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-ordinal-adjective-001",
+      "kind": "construction",
+      "label": "Ordinal Adjective",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-ordinal-rightmost-001",
+      "kind": "construction",
+      "label": "Rightmost-base Ordinal Formation in Numeratives",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-single-digit-001",
+      "kind": "construction",
+      "label": "Single-digit Numerative",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerative-teen-001",
+      "kind": "construction",
+      "label": "Regular Teen Numerative (-teen)",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-teen-irregular-001",
+      "kind": "construction",
+      "label": "Irregular Teen Numerative (eleven/twelve)",
+      "type": "morphological"
+    },
+    {
+      "id": "numerative-ten-001",
+      "kind": "construction",
+      "label": "Ten Numerative",
+      "type": "syntactic"
+    },
+    {
+      "id": "numerical-label-001",
+      "kind": "construction",
+      "label": "Numerical Label Construction",
+      "type": "syntactic"
+    },
+    {
+      "id": "one-substitution",
+      "kind": "diagnostic",
+      "label": "one-substitution"
+    },
+    {
+      "id": "ordinal-fractional-rightmost-base",
+      "kind": "diagnostic",
+      "label": "ordinal-fractional-rightmost-base"
+    },
+    {
+      "id": "ostensive-np-001",
+      "kind": "construction",
+      "label": "Ostensive NP",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "partitive-of-complement",
+      "kind": "diagnostic",
+      "label": "partitive-of-complement"
+    },
+    {
+      "id": "past-tense-ed-001",
+      "kind": "construction",
+      "label": "Past Tense -ed",
+      "type": "morphological"
+    },
+    {
+      "id": "perfect-have-001",
+      "kind": "construction",
+      "label": "Perfect HAVE + V-en",
+      "type": "syntactic"
+    },
+    {
+      "id": "phrase-001",
+      "kind": "construction",
+      "label": "Phrase",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "plural-001",
+      "kind": "construction",
+      "label": "Plural Construction",
+      "type": "morphological"
+    },
+    {
+      "id": "plural-s-001",
+      "kind": "construction",
+      "label": "Plural -s"
+    },
+    {
+      "id": "pp-001",
+      "kind": "construction",
+      "label": "Preposition Phrase",
+      "type": "syntactic"
+    },
+    {
+      "id": "prenominal-modifier-001",
+      "kind": "construction",
+      "label": "Bare Plural with Prenominal Modifier",
+      "type": "syntactic"
+    },
+    {
+      "id": "preposition-001",
+      "kind": "construction",
+      "label": "Preposition",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "progressive-ing-001",
+      "kind": "construction",
+      "label": "Progressive -ing",
+      "type": "morphological"
+    },
+    {
+      "id": "proper-name-001",
+      "kind": "construction",
+      "label": "Proper Name",
+      "type": "semantic"
+    },
+    {
+      "id": "prosodic-breaks-magnitude",
+      "kind": "diagnostic",
+      "label": "prosodic-breaks-magnitude"
+    },
+    {
+      "id": "quasi-count-noun-001",
+      "kind": "construction",
+      "label": "Quasi-count Plural Noun",
+      "type": "semantic",
+      "secured": "stable"
+    },
+    {
+      "id": "relative-word-001",
+      "kind": "construction",
+      "label": "Relative Use of Indeterminates",
+      "type": "semantic"
+    },
+    {
+      "id": "reversed-polarity-tag",
+      "kind": "diagnostic",
+      "label": "reversed-polarity-tag"
+    },
+    {
+      "id": "reynolds-2026-numerals",
+      "kind": "source",
+      "label": "Reynolds, Brett (2026), The lexicon-syntax boundary in English numerals: cardinals, ordinals, and fractionals. English Language & Linguistics",
+      "type": "paper"
+    },
+    {
+      "id": "reynolds-deitality",
+      "kind": "source",
+      "label": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+      "type": "paper"
+    },
+    {
+      "id": "reynolds-kinship",
+      "kind": "source",
+      "label": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+      "type": "paper"
+    },
+    {
+      "id": "reynolds-stable-cluster",
+      "kind": "source",
+      "label": "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)",
+      "type": "paper"
+    },
+    {
+      "id": "scalar-challenge-call-001",
+      "kind": "construction",
+      "label": "You Call That X Challenge",
+      "type": "mixed"
+    },
+    {
+      "id": "scalar-recalibration-declarative-001",
+      "kind": "construction",
+      "label": "Declarative Scalar Recalibration",
+      "type": "mixed"
+    },
+    {
+      "id": "secondary-verbal-negation-001",
+      "kind": "construction",
+      "label": "Secondary Verbal Negation",
+      "type": "syntactic"
+    },
+    {
+      "id": "singular-001",
+      "kind": "construction",
+      "label": "Singular Construction",
+      "type": "morphological"
+    },
+    {
+      "id": "source-complement-001",
+      "kind": "construction",
+      "label": "Source Locative-Complement Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "subject-determiner-001",
+      "kind": "construction",
+      "label": "Subject-determiner (Genitive NP)",
+      "type": "syntactic"
+    },
+    {
+      "id": "time-away-001",
+      "kind": "construction",
+      "label": "Time-Away Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "verb-number-agreement-001",
+      "kind": "construction",
+      "label": "Verb Number Agreement",
+      "type": "syntactic"
+    },
+    {
+      "id": "vocative-001",
+      "kind": "construction",
+      "label": "Vocative Construction",
+      "type": "syntactic",
+      "secured": "stable"
+    },
+    {
+      "id": "wiktionary-en",
+      "kind": "source",
+      "label": "English Wiktionary, wiktextract extraction via kaikki.org",
+      "type": "dictionary"
+    },
+    {
+      "id": "wiktionary-simple",
+      "kind": "source",
+      "label": "Simple English Wiktionary, wiktextract extraction via kaikki.org",
+      "type": "dictionary"
+    },
+    {
+      "id": "with-a-capital-letter-001",
+      "kind": "construction",
+      "label": "With a Capital Letter Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "with-a-lowercase-letter-001",
+      "kind": "construction",
+      "label": "With a Lowercase Letter Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "with-a-small-letter-001",
+      "kind": "construction",
+      "label": "With a Small Letter Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "with-an-uppercase-letter-001",
+      "kind": "construction",
+      "label": "With an Uppercase Letter Construction",
+      "type": "semantic"
+    },
+    {
+      "id": "year-name-001",
+      "kind": "construction",
+      "label": "Year Name Construction",
+      "type": "syntactic"
+    }
+  ],
+  "edges": [
+    {
+      "from": "absolute-negator-determinative-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 9, SS3.2",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "absolute-negator-determinative-001",
+      "to": "clause-polarity-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "absolute-negator-determinative-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "absolute-negator-determinative-001",
+      "to": "never-adv-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "absolute-negator-determinative-001",
+      "to": "no-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "abstract-numeral-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "abstract-numeral-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "abstract-numeral-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "adjective-001",
+      "to": "degree-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "semantic"
+    },
+    {
+      "from": "adjective-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "cardinal-determinative-001",
+      "to": "cardinal-noun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cardinal-determinative-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cardinal-determinative-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "cardinal-determinative-001",
+      "to": "numerative-fused-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cardinal-determinative-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "cardinal-noun-001",
+      "to": "cardinal-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cardinal-noun-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "caused-motion-001",
+      "to": "goal-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "caused-motion-001",
+      "to": "pp-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "caused-motion-001",
+      "to": "source-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "collective-numeral-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "collective-numeral-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "coordination-001",
+      "to": "phrase-001",
+      "type": "see-also"
+    },
+    {
+      "from": "degree-adjective-indefinite-001",
+      "to": "degree-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "degree-adjective-indefinite-001",
+      "to": "indefinite-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "deitality-001",
+      "to": "determination-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "deitality-001",
+      "to": "existential-there-pivot",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "deitality-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "deitality-001",
+      "to": "grammatical-definiteness-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "deitality-001",
+      "to": "identificational-hosting",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "deitality-001",
+      "to": "np-def-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deitality-001",
+      "to": "one-substitution",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "deitality-001",
+      "to": "partitive-of-complement",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "deitality-001",
+      "to": "reynolds-deitality",
+      "type": "cites",
+      "locator": "SS4 diagnostics; SS5 sources and stabilizers",
+      "bears-on": "stability"
+    },
+    {
+      "from": "demonstrative-determinative-fused-head-001",
+      "to": "deitality-001",
+      "type": "related-to"
+    },
+    {
+      "from": "demonstrative-determinative-fused-head-001",
+      "to": "determinative-fused-head-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "demonstrative-determinative-fused-head-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "denominator-numeral-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "denominator-numeral-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determination-001",
+      "to": "bare-singular-exceptions",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "determination-001",
+      "to": "deitality-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "determination-001",
+      "to": "determiner-obligatoriness-singular-count",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "determination-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "determination-001",
+      "to": "minor-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determination-001",
+      "to": "np-def-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determination-001",
+      "to": "np-det-001",
+      "type": "implements"
+    },
+    {
+      "from": "determination-001",
+      "to": "np-indef-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determination-001",
+      "to": "subject-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determinative-fused-head-001",
+      "to": "absolute-negator-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "determinative-fused-head-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "determinative-fused-head-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "determinative-fused-head-001",
+      "to": "one-substitution",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "deverbal-noun-of-argument-001",
+      "to": "genitive-s-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "deverbal-noun-of-argument-001",
+      "to": "grammatical-definiteness-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "directive-ostensive-001",
+      "to": "exclamation-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "directive-ostensive-001",
+      "to": "ostensive-np-001",
+      "type": "specialization-of",
+      "parthood": "functional"
+    },
+    {
+      "from": "directive-ostensive-001",
+      "to": "vocative-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "ditransitive-vp-001",
+      "to": "caused-motion-001",
+      "type": "see-also"
+    },
+    {
+      "from": "ditransitive-vp-001",
+      "to": "np-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "echo-question-001",
+      "to": "scalar-challenge-call-001",
+      "type": "related-to"
+    },
+    {
+      "from": "echo-question-001",
+      "to": "scalar-recalibration-declarative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "exclamation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "p. 923"
+    },
+    {
+      "from": "exclamation-001",
+      "to": "directive-ostensive-001",
+      "type": "can-manifest-as"
+    },
+    {
+      "from": "exclamation-001",
+      "to": "exclamative-word-001",
+      "type": "related-to"
+    },
+    {
+      "from": "exclamation-001",
+      "to": "ostensive-np-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "exclamation-001",
+      "to": "vocative-001",
+      "type": "can-manifest-as"
+    },
+    {
+      "from": "exclamative-word-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "pp. 918-20",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "exclamative-word-001",
+      "to": "degree-001",
+      "type": "related-to"
+    },
+    {
+      "from": "exclamative-word-001",
+      "to": "deitality-001",
+      "type": "see-also"
+    },
+    {
+      "from": "exclamative-word-001",
+      "to": "indeterminate-word-001",
+      "type": "specialization-of",
+      "parthood": "semantic"
+    },
+    {
+      "from": "goal-complement-001",
+      "to": "gold:prepositions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "goal-complement-001",
+      "to": "goldberg-1995",
+      "type": "cites"
+    },
+    {
+      "from": "goal-complement-001",
+      "to": "pp-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "goal-complement-001",
+      "to": "source-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "grammatical-definiteness-001",
+      "to": "definite-001",
+      "type": "specialization-of",
+      "parthood": "semantic"
+    },
+    {
+      "from": "grammatical-definiteness-001",
+      "to": "indefinite-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "grammatical-definiteness-001",
+      "to": "np-def-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "cardinal-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "countability-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "countability-hierarchy",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "np-det-001",
+      "type": "related-to"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "plural-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "quasi-count-noun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "singular-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "grammatical-number-001",
+      "to": "verb-number-agreement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "imperative-negation-do-001",
+      "to": "secondary-verbal-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "independent-genitive-pronoun-001",
+      "to": "gold:pronouns",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "indeterminate-word-001",
+      "to": "deitality-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "indeterminate-word-001",
+      "to": "gold:determinatives",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "indeterminate-word-001",
+      "to": "gold:pronouns",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "indeterminate-word-001",
+      "to": "kuroda-1965",
+      "type": "cites"
+    },
+    {
+      "from": "interrogative-word-001",
+      "to": "deitality-001",
+      "type": "see-also"
+    },
+    {
+      "from": "interrogative-word-001",
+      "to": "echo-question-001",
+      "type": "related-to"
+    },
+    {
+      "from": "interrogative-word-001",
+      "to": "indeterminate-word-001",
+      "type": "specialization-of",
+      "parthood": "semantic"
+    },
+    {
+      "from": "intransitive-preposition-001",
+      "to": "gold:prepositions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "intransitive-preposition-001",
+      "to": "preposition-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "letter-case-modifier-001",
+      "to": "letter-case-specification-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "letter-case-modifier-001",
+      "to": "nom-adjp-mod-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "letter-case-specification-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "letter-case-specification-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "letter-case-specification-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "lex:'s",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:/",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a certain",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a few",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:à la",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a little",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a priori",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:a.m.",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:abaft",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aboard",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:about",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:above",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aboveboard",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:abreast",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:abroad",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:absent",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:according",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:across",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:adjacent",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:adrift",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:afloat",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aft",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:after",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:afterward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:afterwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:again",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:against",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ago",
+      "to": "brett-judgment",
+      "type": "adjudicates",
+      "locator": "2026-07-16"
+    },
+    {
+      "from": "lex:ago",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 7 §2.4, p. 613",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "lex:ago",
+      "to": "cgel-2002",
+      "type": "contradicts",
+      "locator": "Ch. 7 §4.2, p. 632"
+    },
+    {
+      "from": "lex:ago",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aground",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ahead",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:albeit",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:all",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:allowing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aloft",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:alone",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:along",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:along with",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:alongside",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:although",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:amid",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:amidst",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:among",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:amongst",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:an",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:and",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:and/or",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:another",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ante",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ante meridiem",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anti",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:any",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anybody",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anyone",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anything",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anytime",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:anywhere",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:apart",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aplenty",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:apropos",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:around",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as for",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as from",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as if",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as long as",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as of",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as per",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as soon as",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as though",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as to",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:as well as",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ashore",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:aside",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:assuming",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:at",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:atop",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:away",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:awry",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:back",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:backstage",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:backward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:backwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:bar",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:barring",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:because",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:before",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:beforehand",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:behind",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:being",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:below",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:beneath",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:beside",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:besides",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:between",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:betwixt",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:beyond",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:billion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:both",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:but",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:but",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:by",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:by virtue",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ceilingward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ceilingwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:centillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:certain",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:chez",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:circa",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:clear",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:close",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:closer",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:closest",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:come",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:compared",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:concerning",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:consequent",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:considering",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:contra",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:contrary",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:counter",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:counting",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:coupled",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:cum",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:decillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:depending",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:despite",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:directly",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:down",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:down under",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downhill",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downstage",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downstairs",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downstream",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downtown",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:downwind",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:due",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:duodecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:during",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:each",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:each other",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:earthward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:earthwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:east",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eastward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eastwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:effective",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eight",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-eight",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-five",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-four",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-nine",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-one",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-seven",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-six",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-three",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eighty-two",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:either",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:eleven",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:else",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:elsewhere",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:enough",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ere",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:et",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:every",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:everybody",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:everyone",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:everything",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:everywhere",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:except",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:excepting",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:excluding",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:exclusive",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:failing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:far",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:farther",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:farthest",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:few",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fewer",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fewest",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fifteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fifty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:five",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:following",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:for",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:for",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:for all",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fore",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:forever",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:forth",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:forty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:forward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:forwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:four",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fourteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:fro",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:from",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:further",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:given",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:goalward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:goalwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:going",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:googol",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:googolplex",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:granted",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:he",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:heavenward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:heavenwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:hence",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:henceforth",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:her",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:here",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:hers",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:herself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:him",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:himself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:his",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:home",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:homeward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:how",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:hundred",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:I",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:idem",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:if",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:if",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:if and only if",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:iff",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:immediately",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in addition",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in case",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in charge",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in consequence",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in front",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in league",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in line",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in order",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in spite",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in step",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:in view",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:inasmuch",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:including",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:including",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:indoors",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:inland",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:inside",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:instead",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:instead of",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:into",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:inward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:inwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:irrespective",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:it",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:its",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:itself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:landward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:landwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:last",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:least",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:leeward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:leftward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:leftwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:less",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:less",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:lest",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:level",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:like",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:little",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:many",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:many a",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:me",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:million",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:mine",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:minus",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:modulo",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:more",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:most",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:much",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:multiple",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:my",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:myself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nationwide",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:near",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nearby",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nearer",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nearest",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:neither",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:next",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:next",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nine",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nineteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ninety",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ninety-nine",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:no",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:no matter",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:no one",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nobody",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:none",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nonillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nor",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:north",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:northeast",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:northward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:northwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nothing",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:notwithstanding",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:novemdecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:now",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:nowhere",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:o'clock",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:octillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:octodecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:of",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:off",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:offshore",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on account",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on board",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on condition",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on to",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:on top",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:once",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:once",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:one",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:one",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:one another",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:oneself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:online",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:only",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:onshore",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:onto",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:onward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:onwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:opposite",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:or",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:other than",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:our",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ours",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ourselves",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:out",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:outdoors",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:outside",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:outward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:outwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:over",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:overboard",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:overhead",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:overland",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:overnight",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:overseas",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:owing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:p.m.",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pace",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:past",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pending",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:per",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pertaining",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:plus",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:plus",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:point",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:post",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:post meridiem",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pre",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:preliminary",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:preparatory",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:previous",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:prior",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pro",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:provided",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:providing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:pursuant",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:qua",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:quadrillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:quattuordecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:quindecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:quintillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:rather than",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:re",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:rearward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:rearwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:regarding",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:regardless",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:respecting",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:rightward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:rightwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:round",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:said",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sans",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:save",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:saving",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seaward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seawards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seeing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:septendecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:septillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seven",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seventeen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:seventy",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:several",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sexdecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sextillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:she",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:shoreward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:shorewards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:short",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sideward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sidewards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sideways",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:since",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:six",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sixteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sixty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:skyward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:skywards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:slash",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:so",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:so",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:some",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:somebody",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:someday",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:someone",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:something",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sometime",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:somewhat",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:somewhere",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:south",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:southeast",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:southward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:southwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:spite",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:subsequent",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sufficient",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:summat",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sunward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:sunwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:supposing",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:take away",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ten",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:than",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thanks",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:that",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:that",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:the",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thee",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:their",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:theirs",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:them",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:them all",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:them both",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:themself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:themselves",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:then",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thence",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:there",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:there",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thereabouts",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thereby",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:therefore",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thereof",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:these",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:they",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-eight",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-five",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-four",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-nine",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-one",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-seven",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-six",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-three",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thirty-two",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:this",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:those",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thou",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thou",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:though",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thousand",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:three",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thrice",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:through",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:throughout",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:thy",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:till",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:times",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:to",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:together",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:touching",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:toward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:towards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:tredecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:trillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:turning",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twelve",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-eight",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-five",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-four",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-nine",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-one",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-seven",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-six",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-three",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twenty-two",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:twice",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:two",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:two thousand",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:umpteen",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:unbeknown",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:unbeknownst",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:undecillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:under",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:underfoot",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:underground",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:underneath",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:unless",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:unlike",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:until",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:up",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:uphill",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upon",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upstage",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upstairs",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upstream",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:upwind",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:us",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:us",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:us all",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:us both",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:v.",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:various",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:versus",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:via",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:vigintillion",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:vis-à-vis",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:vs",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:vs.",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:wanting",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:we",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:we",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:west",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:westward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:westwards",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:what",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:what",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whatever",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whatever",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whatsoever",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:when",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whence",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whenever",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:where",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whereabouts",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whereafter",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whereas",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whereby",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:wherein",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whereupon",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:wherever",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whether",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whether or not",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:which",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:which",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whichever",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whichever",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:while",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whilst",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whither",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:who",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whoever",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whom",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whose",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:whosoever",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:wide",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:windward",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:with",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:within",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:without",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:worldwide",
+      "to": "gold:prepositions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:y'all",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ya",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ye",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:ye",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:yet",
+      "to": "gold:conjunctions",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:yo",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:you",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:you",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:you all",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:you both",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:your",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:yours",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:yourself",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:yourselves",
+      "to": "gold:pronouns",
+      "type": "listed-in"
+    },
+    {
+      "from": "lex:zero",
+      "to": "gold:determinatives",
+      "type": "listed-in"
+    },
+    {
+      "from": "magnitude-quantifier-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "magnitude-quantifier-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "magnitude-quantifier-001",
+      "to": "numerative-magnitude-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "minor-determiner-001",
+      "to": "deitality-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "minor-determiner-001",
+      "to": "determination-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "n-common-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "n-non-count-001",
+      "to": "countability-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "n-non-count-001",
+      "to": "quasi-count-noun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "n-proper-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "n-proper-001",
+      "to": "np-proper-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "n-proper-001",
+      "to": "proper-name-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "neither-nor-coordination-001",
+      "to": "absolute-negator-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "neither-nor-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "neither-nor-coordination-001",
+      "to": "gold:conjunctions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "never-adv-negation-001",
+      "to": "absolute-negator-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "never-adv-negation-001",
+      "to": "clause-polarity-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "no-determiner-001",
+      "to": "absolute-negator-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "no-determiner-001",
+      "to": "clause-polarity-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "nom-001",
+      "to": "n-common-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "nom-001",
+      "to": "np-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "nom-001",
+      "to": "phrase-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "nom-adjp-mod-001",
+      "to": "nom-premod-000",
+      "type": "inherits-from"
+    },
+    {
+      "from": "nom-n-mod-001",
+      "to": "nom-001",
+      "type": "related-to"
+    },
+    {
+      "from": "nom-n-mod-001",
+      "to": "np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "nom-prehead-mod-001",
+      "to": "nom-premod-000",
+      "type": "see-also"
+    },
+    {
+      "from": "np-001",
+      "to": "nom-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-001",
+      "to": "np-common-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-001",
+      "to": "np-pron-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-001",
+      "to": "np-proper-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-001",
+      "to": "phrase-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-bare-001",
+      "to": "bare-singular-exceptions",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "np-common-001",
+      "to": "np-001",
+      "type": "inherits-from"
+    },
+    {
+      "from": "np-common-001",
+      "to": "np-bare-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-common-001",
+      "to": "np-det-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-def-001",
+      "to": "grammatical-definiteness-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "np-def-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-def-001",
+      "to": "np-indef-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "np-det-001",
+      "to": "determination-001",
+      "type": "implements"
+    },
+    {
+      "from": "np-det-001",
+      "to": "np-def-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-det-001",
+      "to": "np-indef-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-gen-indep-001",
+      "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-indef-001",
+      "to": "grammatical-definiteness-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "np-indef-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "np-indef-001",
+      "to": "np-def-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "np-pron-001",
+      "to": "determinative-fused-head-001",
+      "type": "see-also"
+    },
+    {
+      "from": "np-pron-001",
+      "to": "gold:pronouns",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "np-pron-001",
+      "to": "np-001",
+      "type": "inherits-from"
+    },
+    {
+      "from": "np-pron-interrog-gen-indep-001",
+      "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-pron-personal-gen-indep-001",
+      "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-proper-001",
+      "to": "np-001",
+      "type": "inherits-from"
+    },
+    {
+      "from": "np-proper-001",
+      "to": "proper-name-001",
+      "type": "implements"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "coordination-ellipsis-numerative",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "numerative-addition-coordination-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "numerative-complex-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "numerative-factor-modifier-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-addition-asyndetic-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "coordination-ellipsis-numerative",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "gold:conjunctions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "numerative-addition-asyndetic-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "numerative-complex-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "numerative-factor-modifier-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "numerative-magnitude-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-addition-coordination-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-basic-lexeme-001",
+      "to": "basic-numerative-atomicity",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-basic-lexeme-001",
+      "to": "cardinal-determinative-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-basic-lexeme-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "cardinal-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "coordination-ellipsis-numerative",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "numerative-addition-asyndetic-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "numerative-addition-coordination-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "numerative-factor-modifier-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "prosodic-breaks-magnitude",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-complex-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-compound-basic-001",
+      "to": "basic-numerative-atomicity",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-compound-basic-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-compound-basic-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-compound-basic-001",
+      "to": "numerative-decade-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-compound-basic-001",
+      "to": "numerative-single-digit-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-decade-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-decade-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-factor-modifier-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-factor-modifier-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-factor-modifier-001",
+      "to": "numerative-complex-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-factor-modifier-001",
+      "to": "numerative-magnitude-head-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-factor-modifier-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-fractional-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-fractional-001",
+      "to": "n-common-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-fractional-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-fractional-001",
+      "to": "numerative-ordinal-rightmost-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-fractional-001",
+      "to": "ordinal-fractional-rightmost-base",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-fused-head-001",
+      "to": "coordination-ellipsis-numerative",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-fused-head-001",
+      "to": "determinative-fused-head-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-fused-head-001",
+      "to": "numerative-compound-basic-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-fused-head-001",
+      "to": "numerative-magnitude-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-fused-head-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-magnitude-head-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-magnitude-head-001",
+      "to": "prosodic-breaks-magnitude",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-magnitude-head-001",
+      "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerative-ordinal-adjective-001",
+      "to": "adjective-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-ordinal-adjective-001",
+      "to": "numerative-ordinal-rightmost-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-ordinal-adjective-001",
+      "to": "ordinal-fractional-rightmost-base",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-ordinal-rightmost-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "contains"
+    },
+    {
+      "from": "numerative-ordinal-rightmost-001",
+      "to": "numerative-compound-basic-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-ordinal-rightmost-001",
+      "to": "numerative-magnitude-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-ordinal-rightmost-001",
+      "to": "ordinal-fractional-rightmost-base",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "numerative-single-digit-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-single-digit-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-teen-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-teen-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-teen-irregular-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-teen-irregular-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerative-teen-irregular-001",
+      "to": "numerative-teen-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-ten-001",
+      "to": "determination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerative-ten-001",
+      "to": "numerative-basic-lexeme-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "ostensive-np-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "pp. 522-23",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "ostensive-np-001",
+      "to": "exclamation-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "ostensive-np-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "phrase-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "pp. 22-25"
+    },
+    {
+      "from": "phrase-001",
+      "to": "coordination-001",
+      "type": "see-also"
+    },
+    {
+      "from": "plural-001",
+      "to": "grammatical-number-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "plural-001",
+      "to": "plural-s-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "plural-001",
+      "to": "singular-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "pp-001",
+      "to": "gold:prepositions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "pp-001",
+      "to": "phrase-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "pp-001",
+      "to": "preposition-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "preposition-001",
+      "to": "gold:prepositions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "proper-name-001",
+      "to": "n-proper-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "proper-name-001",
+      "to": "np-proper-001",
+      "type": "can-manifest-as",
+      "parthood": "formal"
+    },
+    {
+      "from": "quasi-count-noun-001",
+      "to": "countability-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "quasi-count-noun-001",
+      "to": "countability-hierarchy",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "quasi-count-noun-001",
+      "to": "grammatical-number-001",
+      "type": "related-to"
+    },
+    {
+      "from": "quasi-count-noun-001",
+      "to": "n-non-count-001",
+      "type": "related-to"
+    },
+    {
+      "from": "relative-word-001",
+      "to": "deitality-001",
+      "type": "see-also"
+    },
+    {
+      "from": "relative-word-001",
+      "to": "indeterminate-word-001",
+      "type": "specialization-of",
+      "parthood": "semantic"
+    },
+    {
+      "from": "scalar-challenge-call-001",
+      "to": "scalar-recalibration-declarative-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "scalar-recalibration-declarative-001",
+      "to": "scalar-challenge-call-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "secondary-verbal-negation-001",
+      "to": "constituent-not-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "secondary-verbal-negation-001",
+      "to": "imperative-negation-do-001",
+      "type": "related-to"
+    },
+    {
+      "from": "singular-001",
+      "to": "grammatical-number-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "singular-001",
+      "to": "plural-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "source-complement-001",
+      "to": "goal-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "source-complement-001",
+      "to": "gold:prepositions",
+      "type": "lexicon-members"
+    },
+    {
+      "from": "source-complement-001",
+      "to": "pp-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "subject-determiner-001",
+      "to": "deitality-diagnostics",
+      "type": "diagnosed-by"
+    },
+    {
+      "from": "subject-determiner-001",
+      "to": "determination-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "time-away-001",
+      "to": "intransitive-preposition-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "verb-number-agreement-001",
+      "to": "grammatical-number-001",
+      "type": "related-to"
+    },
+    {
+      "from": "verb-number-agreement-001",
+      "to": "plural-001",
+      "type": "related-to"
+    },
+    {
+      "from": "verb-number-agreement-001",
+      "to": "singular-001",
+      "type": "related-to"
+    },
+    {
+      "from": "vocative-001",
+      "to": "exclamation-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "vocative-001",
+      "to": "np-bare-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "vocative-001",
+      "to": "np-proper-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "vocative-001",
+      "to": "ostensive-np-001",
+      "type": "specialization-of",
+      "parthood": "functional"
+    },
+    {
+      "from": "vocative-001",
+      "to": "reynolds-kinship",
+      "type": "cites",
+      "locator": "CHILDES study: vocative concentration 16-43% parent terms vs 4-7% extended kin; rho = 0.73",
+      "bears-on": "stability"
+    },
+    {
+      "from": "with-a-capital-letter-001",
+      "to": "letter-case-specification-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "with-a-capital-letter-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-a-capital-letter-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-a-capital-letter-001",
+      "to": "with-an-uppercase-letter-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "with-a-lowercase-letter-001",
+      "to": "letter-case-specification-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "with-a-lowercase-letter-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-a-lowercase-letter-001",
+      "to": "with-a-small-letter-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "with-a-small-letter-001",
+      "to": "letter-case-specification-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "with-a-small-letter-001",
+      "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-a-small-letter-001",
+      "to": "with-a-lowercase-letter-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "with-an-uppercase-letter-001",
+      "to": "letter-case-specification-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "with-an-uppercase-letter-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-an-uppercase-letter-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "with-an-uppercase-letter-001",
+      "to": "with-a-capital-letter-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "year-name-001",
+      "to": "cardinal-noun-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "year-name-001",
+      "to": "numerical-label-001",
+      "type": "related-to"
+    },
+    {
+      "from": "year-name-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    }
+  ]
+}

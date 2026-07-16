@@ -160,7 +160,8 @@ const buildLexemeSection = () => {
         tests: record.tests || [],
         references: record.references || [],
         notes: record.cgel && record.cgel.notes,
-        subclass: record.cgel && record.cgel.subclass
+        subclass: record.cgel && record.cgel.subclass,
+        grounds: record.grounds || []
       };
       if (match) {
         Object.assign(match.lexeme, { override: detail });
@@ -179,6 +180,81 @@ const buildLexemeSection = () => {
   return { id: 'lexemes', label: 'Lexemes', items };
 };
 
+// Build the ground-source registry section plus a reverse index of what each
+// source grounds. `grounds` arrays can sit anywhere in a construction (top
+// level, inside kind subfields, on override records), so walk recursively.
+const buildSourcesSection = () => {
+  const loadYaml = (p) => {
+    try { return yaml.load(fs.readFileSync(p, 'utf8')); } catch (err) { return null; }
+  };
+
+  const sourcesDoc = loadYaml(path.join(root, 'data/sources.yaml'));
+  const registry = (sourcesDoc && sourcesDoc.sources) || {};
+
+  // Collect every distinct source id referenced by a `grounds` array anywhere
+  // in the given object.
+  const collectGroundSources = (node, sourceIds) => {
+    if (!node || typeof node !== 'object') return;
+    if (Array.isArray(node)) {
+      node.forEach((el) => collectGroundSources(el, sourceIds));
+      return;
+    }
+    Object.entries(node).forEach(([key, value]) => {
+      if (key === 'grounds' && Array.isArray(value)) {
+        value.forEach((link) => {
+          if (link && typeof link === 'object' && link.source) sourceIds.add(link.source);
+        });
+      }
+      collectGroundSources(value, sourceIds);
+    });
+  };
+
+  // reverse index: source id -> [{ id, name }]
+  const grounded = new Map();
+  const record = (sourceId, ref) => {
+    if (!grounded.has(sourceId)) grounded.set(sourceId, []);
+    const list = grounded.get(sourceId);
+    if (!list.some((r) => r.id === ref.id)) list.push(ref);
+  };
+
+  const constructionsDir = path.join(root, 'data/constructions');
+  listFiles(constructionsDir, ['.yaml']).forEach((file) => {
+    const doc = loadYaml(path.join(constructionsDir, file));
+    if (!doc || typeof doc !== 'object') return;
+    const sourceIds = new Set();
+    collectGroundSources(doc, sourceIds);
+    if (sourceIds.size === 0) return;
+    const ref = { id: doc.id || file, name: doc.name || null };
+    sourceIds.forEach((sid) => record(sid, ref));
+  });
+
+  const overrides = loadYaml(path.join(root, 'data/lexicon/overrides.yaml'));
+  if (overrides && Array.isArray(overrides.records)) {
+    overrides.records.forEach((rec) => {
+      const sourceIds = new Set();
+      collectGroundSources(rec, sourceIds);
+      if (sourceIds.size === 0) return;
+      const ref = { id: rec.lemma, name: rec.lemma };
+      sourceIds.forEach((sid) => record(sid, ref));
+    });
+  }
+
+  const items = Object.entries(registry).map(([id, entry]) => ({
+    id: null,
+    title: id,
+    subtitle: entry.type || '',
+    path: '/data/sources.yaml',
+    kind: 'source',
+    source: { id, ...entry, grounded: grounded.get(id) || [] },
+    relations: [],
+    incomingRelations: []
+  }));
+
+  return { section: { id: 'sources', label: 'Sources', items }, registry };
+};
+
+const sourcesData = buildSourcesSection();
+
 const projectFiles = ['README.md', 'STATUS.md', 'LICENSE', 'AGENTS.md', 'CLAUDE.md']
   .filter((file) => fs.existsSync(path.join(root, file)))
   .map((file) => ({
@@ -190,6 +266,7 @@ const projectFiles = ['README.md', 'STATUS.md', 'LICENSE', 'AGENTS.md', 'CLAUDE.
 
 const manifest = {
   generatedAt: new Date().toISOString(),
+  sources: sourcesData.registry,
   sections: [
     {
       id: 'project',
@@ -225,6 +302,7 @@ const manifest = {
       includeMeta: false
     }),
     buildLexemeSection(),
+    sourcesData.section,
     buildSection({
       id: 'schemas',
       label: 'Schemas',

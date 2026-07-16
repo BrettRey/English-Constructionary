@@ -130,6 +130,53 @@ const setActiveViewButton = () => {
   toggleViewBtn.textContent = state.viewMode === 'summary' ? 'Show raw' : 'Show summary';
 };
 
+// Collect every `grounds` link anywhere in an object (top level, kind
+// subfields, override records). Mirrors the manifest builder's walk.
+const collectGrounds = (node, acc = []) => {
+  if (!node || typeof node !== 'object') return acc;
+  if (Array.isArray(node)) {
+    node.forEach((el) => collectGrounds(el, acc));
+    return acc;
+  }
+  Object.entries(node).forEach(([key, value]) => {
+    if (key === 'grounds' && Array.isArray(value)) {
+      value.forEach((link) => {
+        if (link && typeof link === 'object' && link.source) acc.push(link);
+      });
+    }
+    collectGrounds(value, acc);
+  });
+  return acc;
+};
+
+// Render a "Grounds" detail-block: one row per evidence link, with the source
+// citation resolved from the registry. Not clickable — source items carry a
+// null id, so they never enter state.byId.
+const appendGroundsBlock = (container, links) => {
+  if (!links || !links.length) return;
+  const block = document.createElement('div');
+  block.className = 'detail-block';
+  const title = document.createElement('h3');
+  title.textContent = 'Grounds';
+  block.appendChild(title);
+  const grid = document.createElement('div');
+  grid.className = 'detail-grid';
+  const registry = (state.manifest && state.manifest.sources) || {};
+  links.forEach((link) => {
+    const row = document.createElement('div');
+    const entry = registry[link.source];
+    const citation = (entry && entry.citation) || link.source;
+    const locator = link.locator ? ` (${link.locator})` : '';
+    const relationTag = ` <span class="tag">${link.relation}</span>`;
+    const bearsOn = link['bears-on'] ? ` <span class="tag">bears on: ${link['bears-on']}</span>` : '';
+    const note = link.note ? ` — ${link.note}` : '';
+    row.innerHTML = `<strong>${citation}</strong>${locator}${relationTag}${bearsOn}${note}`;
+    grid.appendChild(row);
+  });
+  block.appendChild(grid);
+  container.appendChild(block);
+};
+
 const renderYamlSummary = (data, itemMeta = null) => {
   detailBody.innerHTML = '';
   if (!data || typeof data !== 'object') {
@@ -276,6 +323,8 @@ const renderYamlSummary = (data, itemMeta = null) => {
     }
     detailBody.appendChild(kindBlock);
   }
+
+  appendGroundsBlock(detailBody, collectGrounds(data));
 
   if (itemMeta && (itemMeta.relations?.length || itemMeta.incomingRelations?.length)) {
     const relationBlock = document.createElement('div');
@@ -518,6 +567,82 @@ const renderLexemeSummary = (lexeme) => {
     relBlock.appendChild(relGrid);
     detailBody.appendChild(relBlock);
   }
+
+  if (lexeme.override && lexeme.override.grounds) {
+    appendGroundsBlock(detailBody, lexeme.override.grounds);
+  }
+};
+
+// Render a ground-source registry entry: citation, typed tags, linked
+// URL/DOI, access note, and the constructions/lemmas it grounds.
+const renderSourceSummary = (source) => {
+  detailBody.innerHTML = '';
+  const block = document.createElement('div');
+  block.className = 'detail-block';
+  const title = document.createElement('h3');
+  title.textContent = source.citation || source.id;
+  block.appendChild(title);
+
+  const addTag = (text) => {
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.textContent = text;
+    block.appendChild(tag);
+  };
+  if (source.type) addTag(`type: ${source.type}`);
+  if (source.version) addTag(`version: ${source.version}`);
+  if (source.status) addTag(`status: ${source.status}`);
+
+  const grid = document.createElement('div');
+  grid.className = 'detail-grid';
+  const addRow = (html) => {
+    const row = document.createElement('div');
+    row.innerHTML = html;
+    grid.appendChild(row);
+  };
+  if (source.url) {
+    addRow(`<strong>URL</strong>: <a href="${source.url}" target="_blank" rel="noreferrer">${source.url}</a>`);
+  }
+  if (source.doi) {
+    addRow(`<strong>DOI</strong>: <a href="https://doi.org/${source.doi}" target="_blank" rel="noreferrer">${source.doi}</a>`);
+  }
+  if (source['access-note']) {
+    addRow(`<strong>Access note</strong>: ${source['access-note']}`);
+  }
+  if (grid.children.length > 0) block.appendChild(grid);
+  detailBody.appendChild(block);
+
+  const groundedBlock = document.createElement('div');
+  groundedBlock.className = 'detail-block';
+  const groundedTitle = document.createElement('h3');
+  groundedTitle.textContent = 'Grounds';
+  groundedBlock.appendChild(groundedTitle);
+  const groundedGrid = document.createElement('div');
+  groundedGrid.className = 'detail-grid';
+  const grounded = source.grounded || [];
+  if (grounded.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty';
+    empty.textContent = 'Grounds nothing yet.';
+    groundedGrid.appendChild(empty);
+  } else {
+    grounded.forEach((ref) => {
+      const row = document.createElement('div');
+      const target = state.byId && state.byId.get(ref.id);
+      if (target) {
+        const link = document.createElement('span');
+        link.className = 'breadcrumb';
+        link.textContent = ref.name || ref.id;
+        link.addEventListener('click', () => selectItem(target));
+        row.appendChild(link);
+      } else {
+        row.textContent = ref.name || ref.id;
+      }
+      groundedGrid.appendChild(row);
+    });
+  }
+  groundedBlock.appendChild(groundedGrid);
+  detailBody.appendChild(groundedBlock);
 };
 
 const selectItem = async (item, options = {}) => {
@@ -538,6 +663,14 @@ const selectItem = async (item, options = {}) => {
   if (item.kind === 'lexeme' && item.lexeme && state.viewMode === 'summary') {
     detailSubtitle.textContent = `Lexeme · ${item.lexeme.category}`;
     renderLexemeSummary(item.lexeme);
+    setStatus('Ready');
+    updateBackButton();
+    return;
+  }
+
+  if (item.kind === 'source' && item.source && state.viewMode === 'summary') {
+    detailSubtitle.textContent = `Source · ${item.source.type || ''}`;
+    renderSourceSummary(item.source);
     setStatus('Ready');
     updateBackButton();
     return;
