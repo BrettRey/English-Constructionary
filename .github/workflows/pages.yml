@@ -33,7 +33,7 @@ jobs:
           cp -r data _site/data
           cp -r docs _site/docs
           for f in README.md STATUS.md LICENSE AGENTS.md CLAUDE.md; do
-            [ -f "$f" ] && cp "$f" _site/
+            if [ -f "$f" ]; then cp "$f" _site/; fi
           done
       - uses: actions/upload-pages-artifact@v3
         with:
