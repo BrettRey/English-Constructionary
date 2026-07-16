@@ -547,7 +547,7 @@ const selectItem = async (item, options = {}) => {
   try {
     let text = state.cache.get(item.path);
     if (!text) {
-      const response = await fetch(resolvePath(item.path));
+      const response = await fetch(resolvePath(item.path), { cache: 'no-cache' });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       text = await response.text();
       state.cache.set(item.path, text);
@@ -585,7 +585,7 @@ const selectItem = async (item, options = {}) => {
 
 const init = async () => {
   try {
-    const response = await fetch('./manifest.json');
+    const response = await fetch('./manifest.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const manifest = await response.json();
     state.manifest = manifest;
