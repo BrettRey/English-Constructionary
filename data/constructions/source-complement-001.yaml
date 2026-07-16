@@ -10,14 +10,14 @@ dimensions:
 meanings:
   '1':
     definition: A verb or preposition takes a source-denoting PP complement, marking the origin of motion
-    details: "At the verb/path-preposition host level the source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. The function recurs inside the from-PP: from's own complement (an NP like Toronto or a locative PP like under the bed) is itself a source complement specifying the source region, so out from under the bed stacks the function twice: [out [from [under the bed]]]. Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
+    details: "At the verb/path-preposition host level the source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. The function recurs inside the from-PP: from's own complement (an NP like Toronto or a locative PP like under the bed) is itself a source complement specifying the source region, so out from under the bed stacks the function twice. The inner relation is forced: from is never intransitive, so under the bed must be its complement, which proves that prepositions take PP source complements. The outer attachment (from-PP as complement of out versus as a separate PP alongside it) is not forced, since out has intransitive uses; that layer shares the indeterminacy of the goal-side off to school cases. Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
     examples:
       - form: "She came [from Toronto]."
         note: VP-internal source complement
       - form: "out [from under the bed]"
-        note: PP-internal; from-PP as source complement of out
+        note: "From-PP in the source frame; whether it is a complement of out or a separate PP is not forced (out has intransitive uses)"
       - form: "out from [under the bed]"
-        note: "The recursion: under the bed is itself the source complement of from, a locative PP naming the source region"
+        note: "The forced case: from is never intransitive, so under the bed must be its source complement - the proof that P takes PP source complements"
       - form: "They flew [from Toronto] [to Ottawa]."
         note: Source and goal complements co-occurring
 constraints:
