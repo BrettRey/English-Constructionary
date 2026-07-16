@@ -465,10 +465,18 @@ const renderLexemeSummary = (lexeme) => {
     row.innerHTML = html;
     grid.appendChild(row);
   };
+  const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const boldLemma = (text) => {
+    if (!text) return text;
+    const lead = /^\w/.test(lexeme.lemma) ? '\\b' : '';
+    const trail = /\w$/.test(lexeme.lemma) ? '\\b' : '';
+    const re = new RegExp(`${lead}(${escapeRe(lexeme.lemma)})${trail}`, 'gi');
+    return text.replace(re, '<strong>$1</strong>');
+  };
   if (lexeme.senses && lexeme.senses.length) {
     lexeme.senses.forEach((sense, index) => {
-      const example = sense.example ? ` <em>${sense.example}</em>` : '';
-      addRow(`<strong>${index + 1}.</strong> ${sense.gloss}${example}`);
+      const example = sense.example ? ` <em>${boldLemma(sense.example)}</em>` : '';
+      addRow(`<strong>${index + 1}.</strong> ${boldLemma(sense.gloss)}${example}`);
     });
   }
   const wikiSlug = encodeURIComponent(lexeme.lemma.replace(/ /g, '_'));
