@@ -6,16 +6,18 @@ dimensions:
   form: "Source-denoting PP complement, overwhelmingly from-headed"
   meaning: "Origin of motion or derivation"
   function: "Source complement of a verb or of a preposition"
-  distribution: "VP-internal (came from Toronto) and PP-internal (out from under the bed)"
+  distribution: "VP-internal (came from Toronto), PP-internal (out from under the bed), and recursively within from-PPs (from [under the bed])"
 meanings:
   '1':
     definition: A verb or preposition takes a source-denoting PP complement, marking the origin of motion
-    details: "The source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. Both hosts are attested: VPs (came from Toronto) and PPs, where a preposition head takes the from-PP as complement (out from under the bed). Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
+    details: "At the verb/path-preposition host level the source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. The function recurs inside the from-PP: from's own complement (an NP like Toronto or a locative PP like under the bed) is itself a source complement specifying the source region, so out from under the bed stacks the function twice: [out [from [under the bed]]]. Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
     examples:
       - form: "She came [from Toronto]."
         note: VP-internal source complement
       - form: "out [from under the bed]"
-        note: PP-internal; from-PP as complement of out
+        note: PP-internal; from-PP as source complement of out
+      - form: "out from [under the bed]"
+        note: "The recursion: under the bed is itself the source complement of from, a locative PP naming the source region"
       - form: "They flew [from Toronto] [to Ottawa]."
         note: Source and goal complements co-occurring
 constraints:
@@ -26,7 +28,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "Locating a PP in the source slot predicts from-headedness, free co-occurrence with a goal complement in the same frame, and availability in both VP and PP hosts"
+    target: "Locating a PP in the source slot predicts from-headedness at the verb/path-preposition host level, recursive source specification inside the from-PP (NP or locative PP complement of from), free co-occurrence with a goal complement in the same frame, and availability in both VP and PP hosts"
     evidence: "from-headedness is near-exceptionless where the goal slot ranges over to/into/onto and bare PPs; the two-host distribution is attested in both directions (came from Toronto; out from under the bed)"
     confidence: medium
   secured: stable
