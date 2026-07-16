@@ -1,4 +1,10 @@
 /* global jsyaml */
+// Manifest paths are root-absolute (e.g. /data/constructions/np-001.yaml).
+// Locally the server root is the repo root, so they resolve as-is. On GitHub
+// Pages the site lives under /<repo>/, so prefix them with the site base.
+const SITE_BASE = window.location.pathname.replace(/\/(?:web\/)?[^/]*$/, '');
+const resolvePath = (p) => (p.startsWith('/') ? SITE_BASE + p : p);
+
 const state = {
   manifest: null,
   items: [],
@@ -434,14 +440,14 @@ const selectItem = async (item, options = {}) => {
   detailTitle.textContent = item.subtitle || item.title;
   detailSubtitle.textContent = item.title;
   toggleViewBtn.disabled = false;
-  openLink.href = item.path;
+  openLink.href = resolvePath(item.path);
   openLink.setAttribute('aria-disabled', 'false');
 
   setStatus(`Loading ${item.title}…`);
   try {
     let text = state.cache.get(item.path);
     if (!text) {
-      const response = await fetch(item.path);
+      const response = await fetch(resolvePath(item.path));
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       text = await response.text();
       state.cache.set(item.path, text);

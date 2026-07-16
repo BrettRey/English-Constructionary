@@ -2,6 +2,8 @@
 
 A collaborative dictionary of English constructions in the Construction Grammar (CxG) framework. This project documents form-meaning pairings beyond individual lexical items, focusing on morphosyntactic patterns and constructions.
 
+**Browse the constructions:** https://brettrey.github.io/English-Constructionary/
+
 ## Overview
 
 The English Constructionary catalogs and describes grammatical constructions, documenting:

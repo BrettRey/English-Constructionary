@@ -150,5 +150,8 @@ if (constructionSection) {
   // Keep all incoming relations for symmetric mereological display
 }
 
+// Drop sections with no files (e.g. literature/ is untracked and absent in CI)
+manifest.sections = manifest.sections.filter((section) => section.items.length > 0);
+
 fs.writeFileSync(path.join(webDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
 console.log(`Wrote web/manifest.json with ${manifest.sections.reduce((sum, section) => sum + section.items.length, 0)} items.`);

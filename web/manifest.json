@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-23T10:47:14.758Z",
+  "generatedAt": "2026-07-16T13:17:26.285Z",
   "sections": [
     {
       "id": "project",
@@ -296,8 +296,33 @@
               "id": "adjective-001",
               "title": "adjective-001",
               "relationship": "overlaps-with"
+            },
+            {
+              "id": "degree-adjective-indefinite-001",
+              "title": "degree-adjective-indefinite-001",
+              "relationship": "specialization-of"
             }
           ]
+        },
+        {
+          "id": "degree-adjective-indefinite-001",
+          "title": "degree-adjective-indefinite-001",
+          "subtitle": "Degree-Adjective-Indefinite (Big Mess Construction)",
+          "path": "/data/constructions/degree-adjective-indefinite-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "indefinite-001",
+              "relationship": "interfaces-with",
+              "notes": "Requires indefinite article; incompatible with definite"
+            },
+            {
+              "id": "degree-001",
+              "relationship": "specialization-of",
+              "notes": "Specialized degree construction with unusual word order"
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "denominator-numeral-001",
@@ -424,13 +449,74 @@
           ]
         },
         {
+          "id": "deverbal-noun-of-argument-001",
+          "title": "deverbal-noun-of-argument-001",
+          "subtitle": "Deverbal Noun Of-Argument",
+          "path": "/data/constructions/deverbal-noun-of-argument-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "genitive-s-001",
+              "relationship": "alternates-with",
+              "notes": "\"The failure of WM\" ~ \"WM's failure\"; genitive preferred for agents, of-PP for non-agentive arguments"
+            },
+            {
+              "id": "grammatical-definiteness-001",
+              "relationship": "interfaces-with",
+              "notes": "Of-complement provides structural anchoring as alternative to deictic anchoring for licensing definiteness"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "directive-ostensive-001",
+          "title": "directive-ostensive-001",
+          "subtitle": "Directive-Ostensive Construction",
+          "path": "/data/constructions/directive-ostensive-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "vocative-001",
+              "relationship": "alternates-with",
+              "notes": "Both direct attention but differ in target (addressee vs. environment)"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "echo-question-001",
+          "title": "echo-question-001",
+          "subtitle": "Echo Question",
+          "path": "/data/constructions/echo-question-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "scalar-recalibration-declarative-001",
+              "relationship": "related-to",
+              "notes": "Scalar recalibration often layers with echo question for confrontational effect"
+            },
+            {
+              "id": "scalar-challenge-call-001",
+              "relationship": "related-to",
+              "notes": "Scalar challenge typically layers with echo question"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "genitive-s-001",
           "title": "genitive-s-001",
           "subtitle": "Genitive 's",
           "path": "/data/constructions/genitive-s-001.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "deverbal-noun-of-argument-001",
+              "title": "deverbal-noun-of-argument-001",
+              "relationship": "alternates-with"
+            }
+          ]
         },
         {
           "id": "gradation-001",
@@ -472,6 +558,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "deverbal-noun-of-argument-001",
+              "title": "deverbal-noun-of-argument-001",
+              "relationship": "interfaces-with"
+            },
             {
               "id": "np-def-001",
               "title": "np-def-001",
@@ -575,6 +666,11 @@
           "relations": [],
           "incomingRelations": [
             {
+              "id": "degree-adjective-indefinite-001",
+              "title": "degree-adjective-indefinite-001",
+              "relationship": "interfaces-with"
+            },
+            {
               "id": "grammatical-definiteness-001",
               "title": "grammatical-definiteness-001",
               "relationship": "alternates-with"
@@ -614,6 +710,76 @@
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
+        },
+        {
+          "id": "letter-case-modifier-001",
+          "title": "letter-case-modifier-001",
+          "subtitle": "Letter-Case Modifier Construction",
+          "path": "/data/constructions/letter-case-modifier-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "letter-case-specification-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "nom-adjp-mod-001",
+              "relationship": "interfaces-with",
+              "notes": "Realized as an adjectival pre-head modifier in nominals."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "letter-case-specification-001",
+          "title": "letter-case-specification-001",
+          "subtitle": "Letter-Case Specification Construction",
+          "path": "/data/constructions/letter-case-specification-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "n-common-001",
+              "relationship": "related-to",
+              "notes": "Lowercase specifications align with common-noun readings."
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to",
+              "notes": "Case specification often disambiguates proper-name readings."
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to",
+              "notes": "Letter-case cues interact with proper-noun orthography."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "letter-case-modifier-001",
+              "title": "letter-case-modifier-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-capital-letter-001",
+              "title": "with-a-capital-letter-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-lowercase-letter-001",
+              "title": "with-a-lowercase-letter-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-small-letter-001",
+              "title": "with-a-small-letter-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-an-uppercase-letter-001",
+              "title": "with-an-uppercase-letter-001",
+              "relationship": "specialization-of"
+            }
+          ]
         },
         {
           "id": "magnitude-quantifier-001",
@@ -682,6 +848,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "letter-case-specification-001",
+              "title": "letter-case-specification-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "magnitude-quantifier-001",
               "title": "magnitude-quantifier-001",
               "relationship": "related-to"
@@ -700,6 +871,16 @@
               "id": "numerative-fractional-001",
               "title": "numerative-fractional-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-lowercase-letter-001",
+              "title": "with-a-lowercase-letter-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "with-a-small-letter-001",
+              "title": "with-a-small-letter-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -772,6 +953,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "letter-case-specification-001",
+              "title": "letter-case-specification-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "n-common-001",
               "title": "n-common-001",
               "relationship": "related-to"
@@ -785,6 +971,16 @@
               "id": "proper-name-001",
               "title": "proper-name-001",
               "relationship": "interfaces-with"
+            },
+            {
+              "id": "with-a-capital-letter-001",
+              "title": "with-a-capital-letter-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "with-an-uppercase-letter-001",
+              "title": "with-an-uppercase-letter-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -897,7 +1093,13 @@
               "notes": "Specific type of pre-head modification"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "letter-case-modifier-001",
+              "title": "letter-case-modifier-001",
+              "relationship": "interfaces-with"
+            }
+          ]
         },
         {
           "id": "nom-n-mod-001",
@@ -1033,6 +1235,11 @@
               "id": "np-common-001",
               "title": "np-common-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "vocative-001",
+              "title": "vocative-001",
+              "relationship": "interfaces-with"
             }
           ]
         },
@@ -1315,6 +1522,11 @@
               "id": "proper-name-001",
               "title": "proper-name-001",
               "relationship": "can-manifest-as"
+            },
+            {
+              "id": "vocative-001",
+              "title": "vocative-001",
+              "relationship": "interfaces-with"
             }
           ]
         },
@@ -2006,6 +2218,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "letter-case-specification-001",
+              "title": "letter-case-specification-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "n-proper-001",
               "title": "n-proper-001",
               "relationship": "interfaces-with"
@@ -2018,6 +2235,16 @@
             {
               "id": "numerical-label-001",
               "title": "numerical-label-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "with-a-capital-letter-001",
+              "title": "with-a-capital-letter-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "with-an-uppercase-letter-001",
+              "title": "with-an-uppercase-letter-001",
               "relationship": "related-to"
             },
             {
@@ -2053,6 +2280,60 @@
               "id": "n-mass-001",
               "title": "n-mass-001",
               "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "scalar-challenge-call-001",
+          "title": "scalar-challenge-call-001",
+          "subtitle": "You Call That X Challenge",
+          "path": "/data/constructions/scalar-challenge-call-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "scalar-recalibration-declarative-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Shares addressee-directed challenge function; targets category membership rather than scalar degree"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "echo-question-001",
+              "title": "echo-question-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "scalar-recalibration-declarative-001",
+              "title": "scalar-recalibration-declarative-001",
+              "relationship": "overlaps-with"
+            }
+          ]
+        },
+        {
+          "id": "scalar-recalibration-declarative-001",
+          "title": "scalar-recalibration-declarative-001",
+          "subtitle": "Declarative Scalar Recalibration",
+          "path": "/data/constructions/scalar-recalibration-declarative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "scalar-challenge-call-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Shares addressee-directed scalar-challenge function; differs in matrix verb and targets category membership rather than degree"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "echo-question-001",
+              "title": "echo-question-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "scalar-challenge-call-001",
+              "title": "scalar-challenge-call-001",
+              "relationship": "overlaps-with"
             }
           ]
         },
@@ -2161,6 +2442,162 @@
               "id": "grammatical-number-001",
               "title": "grammatical-number-001",
               "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "vocative-001",
+          "title": "vocative-001",
+          "subtitle": "Vocative Construction",
+          "path": "/data/constructions/vocative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-bare-001",
+              "relationship": "interfaces-with",
+              "notes": "Vocative function licenses bare NP for kinship terms that would otherwise require determination"
+            },
+            {
+              "id": "np-proper-001",
+              "relationship": "interfaces-with",
+              "notes": "Proper names freely occur as vocatives"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "directive-ostensive-001",
+              "title": "directive-ostensive-001",
+              "relationship": "alternates-with"
+            }
+          ]
+        },
+        {
+          "id": "with-a-capital-letter-001",
+          "title": "with-a-capital-letter-001",
+          "subtitle": "With a Capital Letter Construction",
+          "path": "/data/constructions/with-a-capital-letter-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "letter-case-specification-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-an-uppercase-letter-001",
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using uppercase."
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to",
+              "notes": "Uppercase specification aligns with proper-noun readings."
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to",
+              "notes": "Uppercase specification often cues proper-name interpretation."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "with-an-uppercase-letter-001",
+              "title": "with-an-uppercase-letter-001",
+              "relationship": "alternates-with"
+            }
+          ]
+        },
+        {
+          "id": "with-a-lowercase-letter-001",
+          "title": "with-a-lowercase-letter-001",
+          "subtitle": "With a Lowercase Letter Construction",
+          "path": "/data/constructions/with-a-lowercase-letter-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "letter-case-specification-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-small-letter-001",
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using small."
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "related-to",
+              "notes": "Lowercase specification aligns with common-noun readings."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "with-a-small-letter-001",
+              "title": "with-a-small-letter-001",
+              "relationship": "alternates-with"
+            }
+          ]
+        },
+        {
+          "id": "with-a-small-letter-001",
+          "title": "with-a-small-letter-001",
+          "subtitle": "With a Small Letter Construction",
+          "path": "/data/constructions/with-a-small-letter-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "letter-case-specification-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-lowercase-letter-001",
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using lowercase."
+            },
+            {
+              "id": "n-common-001",
+              "relationship": "related-to",
+              "notes": "Lowercase specification aligns with common-noun readings."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "with-a-lowercase-letter-001",
+              "title": "with-a-lowercase-letter-001",
+              "relationship": "alternates-with"
+            }
+          ]
+        },
+        {
+          "id": "with-an-uppercase-letter-001",
+          "title": "with-an-uppercase-letter-001",
+          "subtitle": "With an Uppercase Letter Construction",
+          "path": "/data/constructions/with-an-uppercase-letter-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "letter-case-specification-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "with-a-capital-letter-001",
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using capital."
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to",
+              "notes": "Uppercase specification aligns with proper-noun readings."
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to",
+              "notes": "Uppercase specification often cues proper-name interpretation."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "with-a-capital-letter-001",
+              "title": "with-a-capital-letter-001",
+              "relationship": "alternates-with"
             }
           ]
         },
@@ -2312,6 +2749,15 @@
       "id": "docs",
       "label": "Docs",
       "items": [
+        {
+          "id": null,
+          "title": "CONTRIBUTING.md",
+          "subtitle": "",
+          "path": "/docs/CONTRIBUTING.md",
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        },
         {
           "id": null,
           "title": "LITERATURE-PLAN.md",
