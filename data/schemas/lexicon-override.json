@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lexical Category Override Layer",
+  "description": "Standoff CGEL category assignments keyed to lemma + source POS in a dated Wiktionary (wiktextract/kaikki.org) dump. The layer records where and why dictionary categories stop licensing the inferences a grammar needs.",
+  "type": "object",
+  "required": ["keyed-to", "records"],
+  "properties": {
+    "keyed-to": {
+      "type": "object",
+      "description": "The dated dump this release of the layer was checked against",
+      "required": ["source", "dump-date"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "e.g. 'kaikki.org enwiktionary English extraction'"
+        },
+        "dump-date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "url": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["lemma", "source-pos", "cgel", "provenance"],
+        "properties": {
+          "lemma": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Headword as it appears in the source dictionary"
+          },
+          "source-pos": {
+            "type": "string",
+            "minLength": 1,
+            "description": "POS as tagged in the source (wiktextract pos code, e.g. 'adv', 'conj', 'det')"
+          },
+          "homograph": {
+            "type": "string",
+            "description": "Optional disambiguator when one lemma + source POS covers distinct lexemes needing different assignments"
+          },
+          "cgel": {
+            "type": "object",
+            "required": ["category"],
+            "properties": {
+              "category": {
+                "type": "string",
+                "description": "CGEL lexical category",
+                "enum": [
+                  "noun",
+                  "verb",
+                  "adjective",
+                  "adverb",
+                  "preposition",
+                  "determinative",
+                  "subordinator",
+                  "coordinator",
+                  "interjection"
+                ]
+              },
+              "subclass": {
+                "type": "string",
+                "description": "e.g. 'pronoun' or 'proper' (subclasses of noun), 'cardinal-numeral' (determinative), 'intransitive' (preposition)"
+              },
+              "notes": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "provenance": {
+            "type": "string",
+            "description": "How the assignment was made: a default mapping rule, membership in a hand-curated closed-class gold list, or item-by-item adjudication",
+            "enum": ["default-rule", "gold-list", "adjudicated"]
+          },
+          "rule": {
+            "type": "string",
+            "description": "For provenance: default-rule, the id of the rule in pos-defaults.yaml"
+          },
+          "tests": {
+            "type": "array",
+            "description": "Distributional tests justifying the call; what makes the layer citable rather than stipulative",
+            "items": {
+              "type": "object",
+              "required": ["test", "result"],
+              "properties": {
+                "test": {
+                  "type": "string",
+                  "description": "Free text, or an id from data/indices/syntactic-diagnostics.yaml"
+                },
+                "result": { "type": "string" },
+                "example": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "references": {
+            "type": "array",
+            "description": "Citations, e.g. 'CGEL Ch. 7 §2' or a construction id in data/constructions/",
+            "items": { "type": "string" }
+          },
+          "provisional": {
+            "type": "boolean",
+            "description": "Marks seeds and drafts pending review"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

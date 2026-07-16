@@ -1,0 +1,108 @@
+# Standoff CGEL category overrides. Validated against data/schemas/lexicon-override.json.
+# Seeds only (2026-07-16): worked examples establishing the record shape.
+# Gold lists get populated after the CGEL audit corrections land in the
+# determinatives inventory (see docs/audits/2026-07-16-cgel-category-audit.md).
+
+keyed-to:
+  source: "kaikki.org enwiktionary English extraction"
+  dump-date: "2026-07-06"
+  url: "https://kaikki.org/dictionary/English/"
+
+records:
+  - lemma: ago
+    source-pos: adv
+    cgel:
+      category: preposition
+      subclass: intransitive
+      notes: "Postposed; takes a preceding NP measure complement"
+    provenance: adjudicated
+    tests:
+      - test: "NP complement"
+        result: "obligatory preceding measure NP"
+        example: "ten years [ago] / *ago"
+      - test: "adverb modification"
+        result: "not modifiable by -ly adverb placement typical of adverbs"
+    confidence: high
+    references:
+      - "CGEL Ch. 7"
+    provisional: true
+
+  - lemma: outside
+    source-pos: adv
+    cgel:
+      category: preposition
+      subclass: intransitive
+      notes: "Traditional 'adverb' use is the intransitive (complement-less) use of the same preposition"
+    provenance: gold-list
+    tests:
+      - test: "optional NP complement"
+        result: "same lexeme with and without complement"
+        example: "she waited [outside] (the door)"
+      - test: "right modification"
+        result: "accepts right/straight modification typical of PPs"
+        example: "right [outside]"
+    confidence: high
+    references:
+      - "CGEL Ch. 7"
+    provisional: true
+
+  - lemma: because
+    source-pos: conj
+    cgel:
+      category: preposition
+      notes: "Traditional subordinating conjunction; CGEL analyses it as a preposition taking a clause complement"
+    provenance: gold-list
+    rule: conjunction-no-default
+    tests:
+      - test: "complement type"
+        result: "takes declarative clause or of-PP complement"
+        example: "[because] it rained / [because] of the rain"
+    confidence: high
+    references:
+      - "CGEL Ch. 7"
+    provisional: true
+
+  - lemma: and
+    source-pos: conj
+    cgel:
+      category: coordinator
+    provenance: gold-list
+    rule: conjunction-no-default
+    tests:
+      - test: "coordination of unlike-function constituents"
+        result: "links elements of equal syntactic status; no subordination diagnostics"
+    confidence: high
+    references:
+      - "CGEL Ch. 15"
+    provisional: true
+
+  - lemma: whether
+    source-pos: conj
+    cgel:
+      category: subordinator
+      notes: "One of the small closed subordinator class with that and interrogative if"
+    provenance: gold-list
+    rule: conjunction-no-default
+    tests:
+      - test: "marks subordinate interrogative clause"
+        result: "no independent-clause use; alternates with if in embedded interrogatives"
+        example: "I wonder [whether] it matters"
+    confidence: high
+    references:
+      - "CGEL Ch. 11"
+    provisional: true
+
+  - lemma: everybody
+    source-pos: pron
+    cgel:
+      category: determinative
+      notes: "Compound determinative, fused determiner-head when standing as an NP; not an 'indefinite pronoun'"
+    provenance: gold-list
+    tests:
+      - test: "compound of determinative every"
+        result: "patterns with the every/some/any/no compound series"
+    confidence: high
+    references:
+      - "CGEL Ch. 5"
+      - "absolute-negator-determinative-001"
+    provisional: true
