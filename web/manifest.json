@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T14:54:43.294Z",
+  "generatedAt": "2026-07-16T15:00:38.854Z",
   "sections": [
     {
       "id": "project",
@@ -68,6 +68,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "determinative-fused-head-001",
+              "title": "determinative-fused-head-001",
+              "relationship": "related-to"
+            },
             {
               "id": "neither-nor-coordination-001",
               "title": "neither-nor-coordination-001",
@@ -173,7 +178,7 @@
             {
               "id": "numerative-complex-001",
               "title": "numerative-complex-001",
-              "relationship": "specialization-of"
+              "relationship": "related-to"
             }
           ]
         },
@@ -459,6 +464,37 @@
             {
               "id": "subject-determiner-001",
               "title": "subject-determiner-001",
+              "relationship": "specialization-of"
+            }
+          ]
+        },
+        {
+          "id": "determinative-fused-head-001",
+          "title": "determinative-fused-head-001",
+          "subtitle": "Fused Determiner-Head",
+          "path": "/data/constructions/determinative-fused-head-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
+              "id": "absolute-negator-determinative-001",
+              "relationship": "related-to",
+              "notes": "Absolute negators standing alone as NPs instantiate this construction"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "np-pron-001",
+              "title": "np-pron-001",
+              "relationship": "see-also"
+            },
+            {
+              "id": "numerative-fused-head-001",
+              "title": "numerative-fused-head-001",
               "relationship": "specialization-of"
             }
           ]
@@ -909,10 +945,10 @@
           "incomingRelations": []
         },
         {
-          "id": "n-mass-001",
-          "title": "n-mass-001",
+          "id": "n-non-count-001",
+          "title": "n-non-count-001",
           "subtitle": "Non-count Noun",
-          "path": "/data/constructions/n-mass-001.yaml",
+          "path": "/data/constructions/n-non-count-001.yaml",
           "kind": "yaml",
           "relations": [
             {
@@ -1045,7 +1081,7 @@
         {
           "id": "no-determiner-001",
           "title": "no-determiner-001",
-          "subtitle": "Negative Determiner \"no\"",
+          "subtitle": "Negative determinative \"no\" in determiner function",
           "path": "/data/constructions/no-determiner-001.yaml",
           "kind": "yaml",
           "relations": [
@@ -1205,6 +1241,11 @@
               "id": "demonstrative-determinative-fused-head-001",
               "title": "demonstrative-determinative-fused-head-001",
               "relationship": "inherits-from"
+            },
+            {
+              "id": "determinative-fused-head-001",
+              "title": "determinative-fused-head-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "nom-001",
@@ -1446,8 +1487,9 @@
               "relationship": "specialization-of"
             },
             {
-              "id": "np-pron-indefinite-001",
-              "relationship": "specialization-of"
+              "id": "determinative-fused-head-001",
+              "relationship": "see-also",
+              "notes": "Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns"
             },
             {
               "id": "np-pron-reflexive-001",
@@ -1712,7 +1754,8 @@
           "relations": [
             {
               "id": "cardinal-determinative-001",
-              "relationship": "specialization-of"
+              "relationship": "related-to",
+              "notes": "Phrasal construction headed by cardinal determinatives; not a specialization of the lexical category (lexeme/phrase boundary at 99, Reynolds 2026 EL&L)"
             },
             {
               "id": "numerative-factor-modifier-001",
@@ -1885,6 +1928,10 @@
           "path": "/data/constructions/numerative-fused-head-001.yaml",
           "kind": "yaml",
           "relations": [
+            {
+              "id": "determinative-fused-head-001",
+              "relationship": "specialization-of"
+            },
             {
               "id": "numerative-compound-basic-001",
               "relationship": "related-to"
@@ -2224,7 +2271,7 @@
               "id": "np-proper-001",
               "relationship": "can-manifest-as",
               "parthood": "formal",
-              "notes": "Proper names are formally realized as proper NPs"
+              "notes": "Proper names can be realized as proper-noun-headed NPs"
             }
           ],
           "incomingRelations": [
@@ -2282,7 +2329,7 @@
               "relationship": "related-to"
             },
             {
-              "id": "n-mass-001",
+              "id": "n-non-count-001",
               "relationship": "related-to"
             }
           ],
@@ -2293,8 +2340,8 @@
               "relationship": "related-to"
             },
             {
-              "id": "n-mass-001",
-              "title": "n-mass-001",
+              "id": "n-non-count-001",
+              "title": "n-non-count-001",
               "relationship": "related-to"
             }
           ]
