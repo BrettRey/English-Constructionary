@@ -14,11 +14,13 @@ From the CxG perspective, individual words are constructions, so a complete Cons
 **Method** (corrections are small and systematic):
 
 1. **Default mapping rules** from traditional POS to CGEL categories: `pos-defaults.yaml`. Examples: *determiner/article* → determinative; *conjunction* splits into coordinator, subordinator, and preposition; a sizeable chunk of "adverbs" (*outside*, *abroad*, *ago*, *downstairs*) → intransitive preposition.
-2. **Hand-curated gold lists for the closed classes** (determinatives, prepositions, subordinators, coordinators, pronouns). Finite, bounded; they override the defaults. This is where most of the real work sits. Seed the determinative list from `data/indices/syntactic-diagnostics.yaml` only after the 2026-07 CGEL audit corrections land there.
+2. **Hand-curated gold lists for the closed classes** (determinatives, prepositions, subordinators, coordinators, pronouns). Finite, bounded; they override the defaults. This is where most of the real work sits. Seeded (2026-07-16) from **Simple English Wiktionary**, where Brett hand-curated the closed-category lexemes: see `gold/` (158 determinatives incl. the compound series and magnitude words; 356 prepositions incl. intransitive and conjunction-reanalysis items; 61 CGEL-clean pronouns; 25 conjunctions pre-split into coordinator/subordinator/to-adjudicate). Cross-check against `data/indices/syntactic-diagnostics.yaml`.
 3. **Adjudicate the open-class residue** lexeme by lexeme (*worth*, *near*, *several*, *due*), recording the distributional tests that justify each call as evidence fields. The tests are what make the layer citable rather than stipulative: this layer is precisely the point where dictionary categories stop licensing the inferences a grammar needs.
 4. **Publish as versioned data**: each release keyed to a dated dump (`keyed-to` block in `overrides.yaml`), validated against `data/schemas/lexicon-override.json`.
 
 ## Files
+
+- `gold/` — closed-class gold-list seeds extracted from the Simple English Wiktionary kaikki dump (see each file's source block)
 
 - `pos-defaults.yaml` — default mapping table, source POS → CGEL category, with rule notes and confidence
 - `overrides.yaml` — the override records (gold lists + adjudications); seeded with worked examples
