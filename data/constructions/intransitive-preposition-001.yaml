@@ -1,0 +1,31 @@
+id: intransitive-preposition-001
+name: Intransitive Preposition Use
+pattern: "P (no complement)"
+type: syntactic
+dimensions:
+  form: "Preposition with no complement"
+  meaning: "Location, direction, or time anchored deictically or contextually"
+  function: "Heads a complement-less PP in complement or adjunct function"
+  distribution: "Same PP positions as full PPs; embeddable under from (from abroad, from upstairs)"
+meanings:
+  '1':
+    definition: A preposition used without a complement, heading a complete PP
+    details: "Covers the words traditional grammar calls adverbs of place (home, abroad, ashore, away, back, outside, upstairs, downtown, overseas). Many members alternate between transitive and intransitive uses (outside (the door)); some are intransitive-only (abroad). The category stays preposition; only the complementation differs."
+    examples:
+      - form: "She waited [outside]."
+        note: Intransitive; same lexeme as transitive outside the door
+      - form: "They live [abroad]."
+        note: Intransitive-only member
+      - form: "He came straight [back]."
+        note: With straight-modification typical of PPs
+constraints:
+  - type: syntactic
+    description: Accepts right/straight modification (right outside, straight home), unlike adverbs.
+  - type: syntactic
+    description: Embeddable as complement of from (from abroad, from upstairs), a PP position closed to adverbs.
+relatedConstructions:
+  - id: preposition-001
+    relationship: specialization-of
+    parthood: formal
+lexiconRefs:
+  - gold/prepositions

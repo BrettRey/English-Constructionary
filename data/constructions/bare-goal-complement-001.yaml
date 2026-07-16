@@ -1,0 +1,62 @@
+id: bare-goal-complement-001
+name: Bare Goal Complement
+pattern: "V[motion] + PP[intransitive P, goal]"
+type: syntactic
+dimensions:
+  form: "Motion verb with a bare (to-less) preposition as goal complement"
+  meaning: "Goal-directed motion; the bare preposition names the goal"
+  function: "Goal complement of the motion verb"
+  distribution: "go/come/head/get/run/arrive + home, abroad, ashore, upstairs, downtown, outside, back..."
+meanings:
+  '1':
+    definition: The goal of a motion verb is realized by a bare intransitive preposition rather than a to-PP
+    details: "The construction blocks to-insertion for its members: go home / *go to home, against go to the house; likewise *head to abroad, *run to upstairs. The same lexemes also serve as stative locatives (be home, be abroad) and embed under from (from home, from abroad), so membership in the bare-goal class projects well beyond the goal frame itself."
+    examples:
+      - form: "go [home]"
+        note: The prototype; to-insertion blocked (*go to home)
+      - form: "She headed [abroad]."
+        note: Intransitive-only preposition as goal
+      - form: "The sailors went [ashore]."
+        note: Bare goal with directional motion verb
+      - form: "He ran [upstairs] and slammed the door."
+        note: Vertical-axis member
+constraints:
+  - type: syntactic
+    description: Licensed by motion verbs (go, come, head, get, run, arrive); the goal preposition is drawn from the locative intransitive class.
+  - type: syntactic
+    description: To-insertion is blocked for class members (*go to home), while NP goals require to (go to the house).
+kind:
+  provisional: true
+  projection:
+    target: "A preposition's membership in the bare-goal class predicts its bare stative-locative use (be home/abroad/upstairs), its embeddability under from (from home/abroad/upstairs), and straight/right modifiability (straight home) - three behaviours beyond the defining goal frame"
+    evidence: "The predictions hold across home, abroad, ashore, upstairs, downstairs, outside, downtown, overseas, back; contrast NP goals, which need to and reject all three"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: "To-less goal complementation"
+        diagnostics: ["go __ grammatical", "*go to __ for class members"]
+        weight: high
+      - property: "Stative-locative alternation"
+        diagnostics: ["be __ grammatical (be home, be abroad)"]
+        weight: high
+      - property: "From-embedding"
+        diagnostics: ["from __ grammatical (from home, from upstairs)"]
+        weight: medium
+  stabilisers:
+    - type: entrenchment
+      evidence: "Very high frequency of go/come/get home anchors the to-less frame"
+  boundaries:
+    known_boundary_items:
+      - "north/south/east/west (bare goals with compass semantics: head north)"
+      - "downtown/uptown (AmE-weighted members)"
+      - "here/there (deictic goals with wider distribution)"
+relatedConstructions:
+  - id: intransitive-preposition-001
+    relationship: often-contains
+    parthood: formal
+    notes: The goal slot is filled by locative intransitive prepositions
+  - id: preposition-001
+    relationship: related-to
+lexiconRefs:
+  - gold/prepositions

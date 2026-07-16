@@ -1,0 +1,38 @@
+id: preposition-001
+name: Preposition
+pattern: P
+type: syntactic
+dimensions:
+  form: "Mostly short, closed-class lexemes; no inflection"
+  meaning: "Relates an entity or situation to another in space, time, or abstract structure"
+  function: "Head of PP; PPs serve as complements, modifiers, and adjuncts"
+  distribution: "Complements optional for much of the class (intransitive use); some members take clause complements"
+meanings:
+  '1':
+    definition: Lexical category heading preposition phrases, with optional complements for much of the class
+    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), the intransitive members traditionally called adverbs (home, abroad, ashore, upstairs), postposed members (ago), and the clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
+    examples:
+      - form: "[in] the garden"
+        note: Transitive, NP complement
+      - form: "She waited [outside]."
+        note: Intransitive use (no complement)
+      - form: "ten years [ago]"
+        note: Postposed, with preceding measure-NP complement
+      - form: "[because] it rained"
+        note: Clause complement (traditional subordinating conjunction)
+constraints:
+  - type: syntactic
+    description: Heads a PP; accepts right/straight modification in locative uses (right outside, straight home).
+kind:
+  provisional: true
+  projection:
+    target: "Category membership predicts PP-internal distribution (complement of become-of/from, modifier positions), right/straight modifiability for locatives, and non-inflection"
+    evidence: "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)"
+    confidence: medium
+  secured: stable
+relatedConstructions:
+  - id: no-determiner-001
+    relationship: see-also
+    notes: Parallel case of a category entry paired with function-named use entries
+lexiconRefs:
+  - gold/prepositions
