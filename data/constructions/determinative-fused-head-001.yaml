@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: A determinative (or the DP it heads) functions simultaneously as determiner and head of the NP, with no separate nominal head
-    details: "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused."
+    details: "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. Contested: Reynolds, Determinatives as nouns in English (under review at ELL; LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly."
     examples:
       - form: "She bought twenty books, but I bought [twenty-two]."
         note: Anaphoric fused head (numerative)
