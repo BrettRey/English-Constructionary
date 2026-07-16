@@ -11,7 +11,7 @@ dimensions:
 meanings:
   '1':
     definition: A VP contains a locative complement bearing the goal role, yielding directed motion toward a final location
-    details: "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), directional PPs (run into the garden), and one-word PPs headed by complementless prepositions (go home, head abroad). *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59)."
+    details: "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and unmarked goal PPs headed by complementless locative prepositions (go home, head abroad). Direction PPs headed by towards or compass terms form a distinct category. *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88)."
     examples:
       - form: "go [to the shop]"
         note: Goal-role locative complement headed by transitive to
@@ -39,8 +39,8 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "Locating a VP in the goal-locative-complement frame predicts a directed-motion interpretation even when the verb lacks lexical direction or goal semantics, and predicts the goal slot's realizational range across to-PPs, directional PPs, and one-word locative PPs"
-    evidence: "Manner and emission verbs acquire directed-motion readings in this frame, while the realizational range holds across lexical motion and coerced cases (Goldberg 1995; CGEL pp. 257–59)"
+    target: "A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across to-PPs, compound into/onto PPs, and unmarked locative PPs"
+    evidence: "Manner and emission verbs acquire directed-motion readings in this frame (Goldberg 1995), while CGEL distinguishes goal realizations from direction on pp. 686–88"
     confidence: medium
   secured: stable
   profile:

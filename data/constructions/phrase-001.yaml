@@ -1,16 +1,16 @@
 id: phrase-001
 name: Phrase
-pattern: "Phrase: Head + dependents; Clause: (Subject +) Head:VP"
+pattern: "Phrase: Head + dependents; central verbal Clause: (Subject +) Head:VP"
 type: syntactic
 dimensions:
   form: "Headed constituent; the immediate head may be a word or phrase, and the ultimate head is a word of a lexical category"
   meaning: "The head's semantic contribution, elaborated by its dependents"
   function: "Whatever functions the head's category makes available (argument, modifier, predicate, ...)"
-  distribution: "Determined principally by the head: an NP distributes as its nominal head allows, a PP as its preposition head allows, and a clause as its VP head allows"
+  distribution: "Determined principally by the head: an NP distributes as its nominal head allows, a PP as its preposition head allows, and a central verbal clause as its VP head allows"
 meanings:
   '1':
     definition: A headed constituent; the head determines the phrase's category and distribution
-    details: "Phrases contrast with coordinations, which are non-headed constituents made up of coordinates (see coordination-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are the CGEL phrasal categories. A clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP)."
+    details: "Phrases contrast with coordinations, which are non-headed constituents made up of coordinates (see coordination-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are the CGEL phrasal categories. A central verbal clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. CGEL also recognizes exceptional verbless clauses, so the Subject + Head:VP analysis is the central verbal pattern rather than a universal definition of Clause. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP)."
     examples:
       - form: "[in the garden]"
         note: PP; head in
@@ -24,14 +24,17 @@ meanings:
         note: "Subjectless imperative Clause; Head is the VP leave early"
 constraints:
   - type: syntactic
-    description: "Exactly one immediate head; dependents are licensed by that head and its ultimate lexical head. In a clause the Head is VP and Subject is optional."
+    description: "Exactly one immediate head in the central headed pattern; dependents are licensed by that head and its ultimate lexical head. In a central verbal clause the Head is VP and Subject is optional; verbless clauses are an exceptional boundary case."
 kind:
   provisional: true
   projection:
-    target: "Identifying a constituent's immediate and ultimate heads predicts its external distribution and internal function structure, including the optional Subject plus Head:VP organization of Clause"
+    target: "Identifying a constituent's immediate and ultimate heads predicts its external distribution and internal function structure, including the optional Subject plus Head:VP organization of central verbal Clauses"
     evidence: "Distribution inheritance and head-dependent licensing hold across the phrasal categories; CGEL Ch. 1, pp. 22–25 explicitly includes Clause and analyses Predicate/VP as its head"
     confidence: high
   secured: stable
+  boundaries:
+    known_boundary_items:
+      - "Verbless clauses lack the central Head:VP realization and require a separate exceptional analysis"
 relatedConstructions:
   - id: coordination-001
     relationship: see-also

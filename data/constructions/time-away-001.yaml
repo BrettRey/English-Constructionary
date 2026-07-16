@@ -1,17 +1,17 @@
 id: time-away-001
 name: Time-Away Construction
-pattern: "Head:V[activity] + Od:NP[time-period] + Comp:PP[particle, Head:away]"
+pattern: "Head:V[activity construal] + Od:NP[time-period] + Comp:PP[particle, Head:away]"
 type: syntactic
 semanticType: predication
 dimensions:
-  form: "Activity-verb head followed by a construction-licensed time-period direct object and the one-word PP away"
+  form: "Verb head with an activity construal followed by a construction-licensed time-period direct object and the one-word PP away"
   meaning: "The subject uses up a bounded interval by engaging continuously or repeatedly in the verbal activity"
   function: "Construes a time interval as wholly occupied by an activity, often with a defeasible heedless, pleasurable, or time-wasting implication"
   distribution: "VP-internal; canonical Head–Od–away order, with Head–away–Od available especially for a heavy time NP"
 meanings:
   '1':
     definition: An agentively engaged subject uses up the time interval denoted by the direct object in carrying out the verbal activity
-    details: "The time NP is a genuine Od licensed by the construction, not a temporal adjunct: it passivizes, enters the tough construction, and cannot be stranded by VP ellipsis. Away is fixed and is syntactically a particle; in CGEL category terms it is an intransitive preposition heading a one-word PP complement, since particle is not a lexical category. The activity is normally atelic, while a repeatable bounded event is coerced to iteration. The heedless, pleasurable, or time-wasting implication is defeasible (Jackendoff 1997: 534–43; CGEL pp. 280–84)."
+    details: "The time NP is a genuine Od licensed by the construction, not a temporal adjunct: it passivizes, enters the tough construction, and cannot be stranded by VP ellipsis. Away is fixed and is syntactically a particle; in CGEL category terms it is an intransitive preposition heading a one-word PP complement, since particle is not a lexical category. The VP receives an activity construal: a lexical activity is normally atelic, while a repeatable bounded event such as sneeze is coerced to iteration. The heedless, pleasurable, or time-wasting implication is defeasible (Jackendoff 1997: 534–43; CGEL pp. 280–84)."
     examples:
       - form: "Bill slept [the afternoon] [away]."
         note: Canonical time-away VP
@@ -29,7 +29,7 @@ constraints:
   - type: semantic
     description: "The NP must denote a time period; resource and activity-denoting NPs are excluded, though journey-context distance NPs can metonymically measure elapsed time."
   - type: semantic
-    description: "The external subject is construed as agentively engaged and the verb denotes an activity rather than a state."
+    description: "The external subject is construed as agentively engaged and the VP denotes an activity rather than a state; the lexical verb may instead denote a repeatable bounded event."
   - type: semantic
     description: "The base activity is atelic, or a repeatable bounded event receives an iterative reading; nonrepeatable achievements are excluded."
   - type: semantic

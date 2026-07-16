@@ -1,5 +1,5 @@
 # English Constructionary
-<!-- SUMMARY: CxG dictionary of English constructions, projectibility-first framework, public site + CI live · status: active · updated: 2026-07-16 -->
+<!-- SUMMARY: CxG dictionary of English constructions, projectibility-first, public site + CI + lexicon layer live; Brett authors entries, agents maintain · status: active · updated: 2026-07-16 -->
 
 **Status:** Active development
 **Last updated:** 2026-07-16
@@ -10,7 +10,9 @@
 
 ## Current State
 
-- **91 construction YAML files** in `data/constructions/`
+- **108 construction YAML files** in `data/constructions/`
+- **Lexicon layer**: 600 lexemes from Simple English Wiktionary (Brett's curated closed classes) with glosses, deitality statuses, and construction links, browsable on the site
+- **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
 - **Public site live:** https://brettrey.github.io/English-Constructionary/ (GitHub Pages, auto-deploys from main)
 - **CI:** schema validation + lint on every push/PR (`.github/workflows/validate.yml`)
@@ -39,6 +41,8 @@ Major areas:
 
 ## Next Steps
 
+See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry queue (Brett), adjudication queue, and agent infrastructure queue.
+
 - [x] Build validation tooling
 - [x] Develop web interface
 - [x] Implement category vs use distinction
@@ -56,6 +60,7 @@ Major areas:
 
 ## Session Log
 
+- **2026-07-16 (evening addendum)**: Lexicon layer built end to end (Wiktionary standoff design, gold lists from Simple English, glosses, per-lexeme browser cards). Indeterminate and deitality architectures per Brett's rulings and papers; exclamation/ostensive-NP two-axis analysis; constituent-type layer (phrase/coordination); preposition batch and path-complement family, heavily Brett-corrected (ago, intransitive = no object, PP grain, forcing test). Division of labour set: Brett authors entries, agents plan/maintain. ROADMAP.md rewritten as prioritized queues.
 - **2026-07-16**: Major session. Public GitHub Pages site + CI validation live; `docs/CONTRIBUTING.md` added. Absolute negators recategorized as determinatives (CGEL Ch. 9 §3.2), entry renamed. HPC framing deprecated in favour of projectibility-first framework: `hpc` block → `kind` block (projection target first; secured tier stable/networked/maintained/controlled; only corrective control earns "homeostatic"); 8 entries migrated with honest tier deflation; docs, schema, lint, and browser updated; `docs/hpc-implications.md` → `docs/projectibility-first.md`. Codex dispatched for CGEL category-violation audit.
 - **2026-02-01**: Brief session. Discussed whether Peircean triad (from mereology work) could improve the form+meaning schema. Created NOTES.md to track the idea.
 - **2026-01-10**: Status check and update after 2+ week gap. 79 constructions now in repository.

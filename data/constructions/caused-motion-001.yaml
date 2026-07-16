@@ -1,11 +1,11 @@
 id: caused-motion-001
 name: Caused-Motion Construction
-pattern: "Head:V + Od:NP[theme] + Comp:PP[locative, source/path/goal]"
+pattern: "Head:V + Od:NP[theme] + Comp:PP[locative: source/path/goal/direction/location]"
 type: syntactic
 semanticType: predication
 dimensions:
   form: "VP headed by a verb followed by an NP direct object and an object-oriented locative PP complement"
-  meaning: "The subject referent causes the direct-object referent to move along a path, from a source, or to a goal or location"
+  meaning: "The subject referent causes the direct-object referent to move along a path, from a source, toward a direction, or to a goal or resulting location"
   function: "Packages a causing event and the resulting change of location; the verb can supply manner or causal means"
   distribution: "VP-internal in active and passive clauses; productive with verbs that do not lexically license the object or locative complement"
 meanings:

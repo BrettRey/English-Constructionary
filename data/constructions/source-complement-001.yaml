@@ -4,19 +4,25 @@ pattern: "Head:V + Comp:PP[locative, source]"
 type: syntactic
 semanticType: predication
 dimensions:
-  form: "Verb head with a source-denoting PP in locative-complement function, overwhelmingly headed by from"
+  form: "Verb head with a source-denoting PP in locative-complement function, headed centrally by from, away, off, or out"
   meaning: "Origin or initial location of motion, derivation, or change"
   function: "Locative complement of the verb, bearing the semantic role source"
   distribution: "VP-internal with motion and change verbs; compatible with a following goal-role locative complement"
 meanings:
   '1':
     definition: A VP contains a locative complement bearing the source role, marking the initial location of motion or change
-    details: "Source is a semantic role, while locative complement is the CGEL syntactic function. From marks source: its complement may be an NP (from Toronto) or a locative PP expressing the source location (from under the bed). The inner PP is a complement of from, not another source complement, so the construction does not recurse inside the from-PP (CGEL pp. 257–59)."
+    details: "Source is a semantic role, while locative complement is the CGEL syntactic function. Source complements are generally headed by from, away, off, or out. From takes an NP or locative-PP complement; the inner PP in from under the bed expresses the source location and is not another source complement. Away occurs alone or with a from-PP complement; off occurs alone or with an NP object; out occurs alone or with an of- or from-PP complement (CGEL pp. 257–59, 687)."
     examples:
       - form: "She came [from Toronto]."
         note: From-PP in source-role locative-complement function
       - form: "Ed emerged [from [under the car]]."
         note: "The whole from-PP is the source-role locative complement; the inner PP expresses the source location"
+      - form: "She walked [away]."
+        note: Complementless away-PP bearing the source role
+      - form: "Kim jumped [off the pier]."
+        note: Off-PP bearing the source role
+      - form: "He came [out of the room]."
+        note: Out-PP bearing the source role
       - form: "They flew [from Toronto] [to Ottawa]."
         note: Source- and goal-role locative complements co-occurring
 constraints:
@@ -27,8 +33,8 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "Locating a PP in the source-role locative-complement slot predicts an initial-location interpretation, strong preference for overt from or out-of marking, and compatibility with a separate goal-role complement in the same motion frame"
-    evidence: "CGEL's spatial, state, and possession examples distinguish initial-location source from final-location goal and show obligatory from before locative-PP source locations (pp. 258–60)"
+    target: "An integrated motion or change VP containing a locative PP headed by from, away, off, or out predicts an initial-location construal, head-specific complementation, and compatibility with a separate goal-role complement"
+    evidence: "CGEL gives the four-head realization inventory and its distinct complement patterns on p. 687; spatial, state, and possession examples distinguish initial-location source from final-location goal on pp. 258–60"
     confidence: medium
   secured: stable
   profile:
@@ -37,7 +43,7 @@ kind:
         diagnostics: ["initial-location interpretation", "integration in a motion or change frame"]
         weight: high
       - property: Overt source marking
-        diagnostics: ["from-headed PP", "out-of realization in a restricted subset"]
+        diagnostics: ["from, away, off, or out as PP head", "head-specific object or PP complementation"]
         weight: high
     peripheral:
       - property: Source-goal co-occurrence
@@ -55,7 +61,7 @@ relatedConstructions:
   - id: pp-001
     relationship: contains
     parthood: formal
-    notes: The source-role locative complement is a PP, usually headed by from
+    notes: The source-role locative complement is a PP headed centrally by from, away, off, or out
   - id: goal-complement-001
     relationship: related-to
     notes: Sister semantic roles within the locative-complement family
