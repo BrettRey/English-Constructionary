@@ -50,6 +50,9 @@ relations:
     parthood: formal
     notes: Number marking
 relatedConstructions:
+  - id: phrase-001
+    relationship: specialization-of
+    parthood: formal
   - id: np-001
     relationship: contains
     parthood: formal

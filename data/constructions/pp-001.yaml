@@ -22,6 +22,9 @@ constraints:
   - type: syntactic
     description: Headed by a preposition; accepts right/straight modification in locative uses.
 relatedConstructions:
+  - id: phrase-001
+    relationship: specialization-of
+    parthood: formal
   - id: preposition-001
     relationship: contains
     parthood: formal

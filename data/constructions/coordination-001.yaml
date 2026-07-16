@@ -1,0 +1,34 @@
+id: coordination-001
+name: Coordination
+pattern: "Coordinate (+ Marker:coordinator) + Coordinate ..."
+type: syntactic
+dimensions:
+  form: "Two or more coordinates, optionally linked by coordinators (and, or, but, nor); no head"
+  meaning: "Joint contribution of the coordinates (conjunction, disjunction, contrast, addition)"
+  function: "Whatever function the coordinates jointly serve"
+  distribution: "Distributes as its coordinates allow; category difference between coordinates is tolerated where there is likeness of function"
+meanings:
+  '1':
+    definition: A non-headed constituent made up of coordinates; not a phrase
+    details: "Coordinations contrast with phrases, which are headed (see phrase-001). No coordinate is the head; the coordination's distribution follows from the coordinates jointly, and a difference of category is generally tolerated where there is likeness of function (e.g., the DP + NP numerative coordinations in two thousand and twenty-seven)."
+    examples:
+      - form: "[bread and butter]"
+        note: NP coordinates with coordinator and
+      - form: "[slowly but surely]"
+        note: AdvP coordinates with contrast marker
+      - form: "[two thousand and twenty-seven]"
+        note: Numerative coordination; coordinates of different categories under likeness of function
+constraints:
+  - type: syntactic
+    description: No head; each coordinate could typically stand in the coordination's position alone.
+kind:
+  provisional: true
+  projection:
+    target: "Identifying a constituent as a coordination predicts headlessness (no single element determines distribution), coordinate-wise distribution, and tolerance of category mixture under likeness of function"
+    evidence: "Coordinate-category mixture under functional likeness is attested across the numerative coordinations and ordinary NP/AdjP coordination"
+    confidence: high
+  secured: stable
+relatedConstructions:
+  - id: phrase-001
+    relationship: see-also
+    notes: The headed constituent type; the contrast is definitional

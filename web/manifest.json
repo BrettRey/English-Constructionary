@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:40:09.703Z",
+  "generatedAt": "2026-07-16T19:41:24.808Z",
   "sections": [
     {
       "id": "project",
@@ -272,6 +272,27 @@
               "id": "secondary-verbal-negation-001",
               "title": "secondary-verbal-negation-001",
               "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "coordination-001",
+          "title": "coordination-001",
+          "subtitle": "Coordination",
+          "path": "/data/constructions/coordination-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "phrase-001",
+              "relationship": "see-also",
+              "notes": "The headed constituent type; the contrast is definitional"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "phrase-001",
+              "title": "phrase-001",
+              "relationship": "see-also"
             }
           ]
         },
@@ -1370,6 +1391,11 @@
           "kind": "yaml",
           "relations": [
             {
+              "id": "phrase-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
               "id": "np-001",
               "relationship": "contains",
               "parthood": "formal",
@@ -1477,6 +1503,11 @@
           "path": "/data/constructions/np-001.yaml",
           "kind": "yaml",
           "relations": [
+            {
+              "id": "phrase-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
             {
               "id": "np-common-001",
               "relationship": "specialization-of",
@@ -2480,6 +2511,42 @@
           "incomingRelations": []
         },
         {
+          "id": "phrase-001",
+          "title": "phrase-001",
+          "subtitle": "Phrase",
+          "path": "/data/constructions/phrase-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "coordination-001",
+              "relationship": "see-also",
+              "notes": "The non-headed constituent type; the contrast is definitional"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "coordination-001",
+              "title": "coordination-001",
+              "relationship": "see-also"
+            },
+            {
+              "id": "nom-001",
+              "title": "nom-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "np-001",
+              "title": "np-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "pp-001",
+              "title": "pp-001",
+              "relationship": "specialization-of"
+            }
+          ]
+        },
+        {
           "id": "plural-001",
           "title": "plural-001",
           "subtitle": "Plural Construction",
@@ -2543,6 +2610,11 @@
           "path": "/data/constructions/pp-001.yaml",
           "kind": "yaml",
           "relations": [
+            {
+              "id": "phrase-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
             {
               "id": "preposition-001",
               "relationship": "contains",

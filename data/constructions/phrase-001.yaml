@@ -1,0 +1,34 @@
+id: phrase-001
+name: Phrase
+pattern: "Head + dependents (complements, modifiers, determiners as licensed)"
+type: syntactic
+dimensions:
+  form: "Headed constituent; the head is a word of some lexical category"
+  meaning: "The head's semantic contribution, elaborated by its dependents"
+  function: "Whatever functions the head's category makes available (argument, modifier, predicate, ...)"
+  distribution: "Determined by the head: an NP distributes as its noun head allows, a PP as its preposition head allows"
+meanings:
+  '1':
+    definition: A headed constituent; the head determines the phrase's category and distribution
+    details: "Phrases contrast with coordinations, which are non-headed constituents made up of coordinates (see coordination-001). NP, Nom, PP, DP, VP, AdjP, and AdvP are all kinds of phrase; a phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP)."
+    examples:
+      - form: "[in the garden]"
+        note: PP; head in
+      - form: "[the old house]"
+        note: NP; head house
+      - form: "[very old]"
+        note: AdjP; head old
+constraints:
+  - type: syntactic
+    description: Exactly one head; dependents are licensed by the head's category and lexical properties.
+kind:
+  provisional: true
+  projection:
+    target: "Identifying a constituent's head predicts the constituent's external distribution (it distributes as the head's category allows) and its internal function structure (which dependent functions are available)"
+    evidence: "Distribution-inheritance from the head holds across the phrasal categories; it is what category labels like NP and PP summarize"
+    confidence: high
+  secured: stable
+relatedConstructions:
+  - id: coordination-001
+    relationship: see-also
+    notes: The non-headed constituent type; the contrast is definitional

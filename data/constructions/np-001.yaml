@@ -23,6 +23,9 @@ constraints:
     description: Must be a valid NP constituent
 semanticType: reference
 relatedConstructions:
+  - id: phrase-001
+    relationship: specialization-of
+    parthood: formal
   - id: np-common-001
     relationship: specialization-of
     parthood: formal
