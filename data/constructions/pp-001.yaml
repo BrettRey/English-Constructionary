@@ -1,6 +1,6 @@
 id: pp-001
 name: Preposition Phrase
-pattern: PP
+pattern: "Head:P (+ Obj:NP / Comp:PP / Comp:clause, or no complement)"
 type: syntactic
 dimensions:
   form: "Headed by a preposition; optional object (in the garden) or no object (outside, home)"

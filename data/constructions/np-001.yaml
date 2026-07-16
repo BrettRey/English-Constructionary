@@ -1,6 +1,6 @@
 id: np-001
 name: Noun Phrase
-pattern: NP
+pattern: "(Det:DP +) Head:Nom"
 type: syntactic
 dimensions:
   form: "Headed by N or pronoun; optional determiner, modifiers"
