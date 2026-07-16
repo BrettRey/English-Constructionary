@@ -1,0 +1,54 @@
+id: source-complement-001
+name: Source Complement
+pattern: "V/P + PP[source]"
+type: syntactic
+dimensions:
+  form: "Source-denoting PP complement, overwhelmingly from-headed"
+  meaning: "Origin of motion or derivation"
+  function: "Source complement of a verb or of a preposition"
+  distribution: "VP-internal (came from Toronto) and PP-internal (out from under the bed)"
+meanings:
+  '1':
+    definition: A verb or preposition takes a source-denoting PP complement, marking the origin of motion
+    details: "The source slot is from-headed almost without exception, unlike the goal slot's wider realizational range. Both hosts are attested: VPs (came from Toronto) and PPs, where a preposition head takes the from-PP as complement (out from under the bed). Source and goal complements co-occur freely in one frame (flew from Toronto to Ottawa)."
+    examples:
+      - form: "She came [from Toronto]."
+        note: VP-internal source complement
+      - form: "out [from under the bed]"
+        note: PP-internal; from-PP as complement of out
+      - form: "They flew [from Toronto] [to Ottawa]."
+        note: Source and goal complements co-occurring
+constraints:
+  - type: syntactic
+    description: The source PP is a complement of its verb or preposition host, not an adjunct.
+  - type: semantic
+    description: Denotes origin of motion or derivation; pairs with goal complements in the full path frame.
+kind:
+  provisional: true
+  projection:
+    target: "Locating a PP in the source slot predicts from-headedness, free co-occurrence with a goal complement in the same frame, and availability in both VP and PP hosts"
+    evidence: "from-headedness is near-exceptionless where the goal slot ranges over to/into/onto and bare PPs; the two-host distribution is attested in both directions (came from Toronto; out from under the bed)"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: "From-headed PP in complement function"
+        diagnostics: ["selected by motion verbs and path prepositions", "not omissible without changing the frame"]
+        weight: high
+      - property: "Two host types"
+        diagnostics: ["VP-internal and PP-internal occurrence"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "path/route complements (through the tunnel, via Chicago): third member of the path family, no entry yet"
+      - "derivational sources (made from grapes): motion metaphor, classification pending"
+relatedConstructions:
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: The source slot is a PP (from-headed)
+  - id: goal-complement-001
+    relationship: related-to
+    notes: Sister path complements; freely co-occurring (from Toronto to Ottawa), not alternating
+lexiconRefs:
+  - gold/prepositions

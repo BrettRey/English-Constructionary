@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T19:07:34.054Z",
+  "generatedAt": "2026-07-16T19:25:56.152Z",
   "sections": [
     {
       "id": "project",
@@ -752,9 +752,20 @@
               "relationship": "contains",
               "parthood": "formal",
               "notes": "The goal slot is a PP; to-PPs and single-preposition PPs (home, ashore) alike"
+            },
+            {
+              "id": "source-complement-001",
+              "relationship": "related-to",
+              "notes": "Sister path complements; freely co-occurring (from Toronto to Ottawa)"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "source-complement-001",
+              "title": "source-complement-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "gradation-001",
@@ -2544,6 +2555,11 @@
               "id": "goal-complement-001",
               "title": "goal-complement-001",
               "relationship": "contains"
+            },
+            {
+              "id": "source-complement-001",
+              "title": "source-complement-001",
+              "relationship": "contains"
             }
           ]
         },
@@ -2812,6 +2828,33 @@
             {
               "id": "verb-number-agreement-001",
               "title": "verb-number-agreement-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "source-complement-001",
+          "title": "source-complement-001",
+          "subtitle": "Source Complement",
+          "path": "/data/constructions/source-complement-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "pp-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "The source slot is a PP (from-headed)"
+            },
+            {
+              "id": "goal-complement-001",
+              "relationship": "related-to",
+              "notes": "Sister path complements; freely co-occurring (from Toronto to Ottawa), not alternating"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "goal-complement-001",
+              "title": "goal-complement-001",
               "relationship": "related-to"
             }
           ]
