@@ -6,7 +6,7 @@ dimensions:
   form: "Plural magnitude noun (hundreds, thousands) with of-PP complement"
   meaning: "Approximate large quantity; vague quantification"
   function: "Quantifies without precise count; emphasizes scale"
-  distribution: "Determiner position or as head of quantificational NP"
+  distribution: "Heads quantificational NPs in subject, object, and other NP positions"
 meanings:
   '1':
     definition: Plural magnitude noun quantifies an approximate large number

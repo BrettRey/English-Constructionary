@@ -62,7 +62,7 @@ form_features:
       - "Typically basic numeratives (0–99), with factors functioning as modifiers rather than determiners."
   numerative-addition-coordination:
     description: "Additive coordination of numerative constituents with and."
-    pattern: "[DP magnitude] and [DP addition]"
+    pattern: "[DP magnitude] and [DP/NP addition]"
     examples:
       - two hundred and five
       - two thousand and seven

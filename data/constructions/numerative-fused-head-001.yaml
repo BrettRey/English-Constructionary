@@ -14,7 +14,7 @@ meanings:
       - form: "She bought twenty books, but I bought [twenty-two]."
         note: Fused determiner-head use
       - form: "How many thousand? [Two]."
-        note: Factor as fused head
+        note: Factor substitution (fragment answering the factor constituent, not a fused head)
 constraints:
   - type: structural
     description: Functions as a fused determiner-head in NP structure; may license partitive of-complements.

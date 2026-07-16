@@ -1,6 +1,6 @@
 id: numerative-factor-modifier-001
 name: Factor + Magnitude Numerative
-pattern: "Det[factor] + Det[magnitude]"
+pattern: "DP[factor] + D[magnitude]"
 type: syntactic
 dimensions:
   form: "Basic numerative (0-99) + magnitude; factor is modifier, not determiner"

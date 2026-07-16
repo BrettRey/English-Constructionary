@@ -12,8 +12,12 @@ families:
     members:
       - cardinal-determinative-001
       - cardinal-noun-001
-      - cardinal-noun-proper-001
-      - cardinal-noun-common-001
+      - abstract-numeral-001
+      - numerical-label-001
+      - year-name-001
+      - magnitude-quantifier-001
+      - collective-numeral-001
+      - denominator-numeral-001
       - numerative-basic-lexeme-001
       - numerative-single-digit-001
       - numerative-ten-001

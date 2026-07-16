@@ -1,6 +1,6 @@
 id: numerative-addition-coordination-001
 name: Numerative Addition Coordination (with and)
-pattern: "[DP magnitude] + and + [DP addition]"
+pattern: "[DP magnitude] + and + [DP/NP addition]"
 type: syntactic
 dimensions:
   form: "Coordination with overt 'and' marker; right-branching"
@@ -17,9 +17,9 @@ meanings:
         note: 2000 + 7
 constraints:
   - type: structural
-    description: Coordination targets numerative constituents; additions are coordinated DPs.
+    description: Coordination targets numerative constituents; additions are coordinates (DP or NP).
   - type: structural
-    description: "Recursive: the addition DP can itself be a basic numerative or a magnitude phrase."
+    description: "Recursive: the addition coordinate can itself be a basic numerative or a magnitude phrase; its category may be DP or NP (category difference is tolerated under likeness of function)."
 formRefs:
   - numerative-addition-coordination
 semanticRefs:

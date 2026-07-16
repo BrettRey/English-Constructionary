@@ -11,10 +11,10 @@ meanings:
   '1':
     definition: Denotes a base magnitude (hundred, thousand, million, etc.) that can scale a quantity
     examples:
-      - form: hundred (of them)
-        note: Magnitude head in determiner/fused-head function
-      - form: thousand (of people)
-        note: Magnitude head with partitive complement
+      - form: "two [hundred]"
+        note: Magnitude determinative head; factor two is its modifier
+      - form: "twelve [thousand] and forty-one"
+        note: Magnitude head inside an additive coordination
 formRefs:
   - numerative-magnitude
 semanticRefs:

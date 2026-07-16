@@ -28,7 +28,8 @@ syntacticRefs:
   - coordination-ellipsis-numerative
 relatedConstructions:
   - id: cardinal-determinative-001
-    relationship: specialization-of
+    relationship: related-to
+    notes: Phrasal construction headed by cardinal determinatives; not a specialization of the lexical category (lexeme/phrase boundary at 99, Reynolds 2026 EL&L)
   - id: numerative-factor-modifier-001
     relationship: contains
   - id: numerative-addition-coordination-001
