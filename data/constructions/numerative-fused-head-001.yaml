@@ -28,6 +28,8 @@ semanticRefs:
 syntacticRefs:
   - coordination-ellipsis-numerative
 relatedConstructions:
+  - id: determinative-fused-head-001
+    relationship: specialization-of
   - id: numerative-compound-basic-001
     relationship: related-to
   - id: numerative-magnitude-head-001

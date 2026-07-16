@@ -44,8 +44,9 @@ relatedConstructions:
     relationship: inherits-from
   - id: np-pron-personal-001
     relationship: specialization-of
-  - id: np-pron-indefinite-001
-    relationship: specialization-of
+  - id: determinative-fused-head-001
+    relationship: see-also
+    notes: Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns
   - id: np-pron-reflexive-001
     relationship: specialization-of
   - id: np-pron-reciprocal-001
