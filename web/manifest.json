@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T18:51:39.690Z",
+  "generatedAt": "2026-07-16T19:02:21.258Z",
   "sections": [
     {
       "id": "project",
@@ -741,6 +741,26 @@
           ]
         },
         {
+          "id": "goal-complement-001",
+          "title": "goal-complement-001",
+          "subtitle": "Goal Complement",
+          "path": "/data/constructions/goal-complement-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "intransitive-preposition-001",
+              "relationship": "contains",
+              "parthood": "formal",
+              "notes": "Bare intransitive prepositions (home, abroad, ashore) are one realization of the goal slot"
+            },
+            {
+              "id": "preposition-001",
+              "relationship": "related-to"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "gradation-001",
           "title": "gradation-001",
           "subtitle": "Gradation",
@@ -997,7 +1017,13 @@
               "parthood": "formal"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "goal-complement-001",
+              "title": "goal-complement-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "letter-case-modifier-001",
@@ -2533,6 +2559,11 @@
           "relations": [],
           "incomingRelations": [
             {
+              "id": "goal-complement-001",
+              "title": "goal-complement-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "intransitive-preposition-001",
               "title": "intransitive-preposition-001",
               "relationship": "specialization-of"
@@ -3374,7 +3405,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3428,7 +3460,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3452,7 +3485,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3477,7 +3511,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3501,7 +3536,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3526,7 +3562,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3563,7 +3600,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3592,7 +3630,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3619,7 +3658,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3648,7 +3688,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3677,7 +3718,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3702,7 +3744,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3727,7 +3770,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3760,7 +3804,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3785,7 +3830,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3810,7 +3856,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3835,7 +3882,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3860,7 +3908,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3889,7 +3938,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3914,7 +3964,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3938,7 +3989,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3963,7 +4015,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -3992,7 +4045,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4038,7 +4092,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4063,7 +4118,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4087,7 +4143,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4145,7 +4202,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4170,7 +4228,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4195,7 +4254,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4224,7 +4284,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4286,7 +4347,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4313,7 +4375,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4338,7 +4401,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4366,7 +4430,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4395,7 +4460,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4427,7 +4493,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4592,7 +4659,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4616,7 +4684,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4641,7 +4710,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4843,7 +4913,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4872,7 +4943,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4897,7 +4969,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4922,7 +4995,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4947,7 +5021,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -4984,7 +5059,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5008,7 +5084,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5033,7 +5110,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5062,7 +5140,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5087,7 +5166,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5112,7 +5192,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5141,7 +5222,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5166,7 +5248,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5191,7 +5274,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5241,7 +5325,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5266,7 +5351,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5295,7 +5381,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5320,7 +5407,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5357,7 +5445,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5382,7 +5471,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5407,7 +5497,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5432,7 +5523,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5461,7 +5553,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5486,7 +5579,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5510,7 +5604,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5534,7 +5629,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5559,7 +5655,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5584,7 +5681,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5625,7 +5723,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5658,7 +5757,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5683,7 +5783,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5716,7 +5817,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5741,7 +5843,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5765,7 +5868,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5790,7 +5894,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5815,7 +5920,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5844,7 +5950,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5869,7 +5976,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -5893,7 +6001,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6004,7 +6113,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6029,7 +6139,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6066,7 +6177,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6091,7 +6203,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6115,7 +6228,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6194,7 +6308,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6219,7 +6334,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6244,7 +6360,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6269,7 +6386,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6294,7 +6412,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6318,7 +6437,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6342,7 +6462,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6367,7 +6488,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6392,7 +6514,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6417,7 +6540,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6442,7 +6566,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6467,7 +6592,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6492,7 +6618,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6521,7 +6648,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6545,7 +6673,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6570,7 +6699,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6595,7 +6725,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6646,7 +6777,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6671,7 +6803,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6700,7 +6833,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6725,7 +6859,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6757,7 +6892,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6786,7 +6922,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6811,7 +6948,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6836,7 +6974,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6861,7 +7000,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6886,7 +7026,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6915,7 +7056,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6940,7 +7082,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6965,7 +7108,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -6990,7 +7134,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7042,7 +7187,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7122,7 +7268,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7146,7 +7293,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7170,7 +7318,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7195,7 +7344,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7219,7 +7369,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7243,7 +7394,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7665,7 +7817,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7690,7 +7843,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7744,7 +7898,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7952,7 +8107,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -7977,7 +8133,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8002,7 +8159,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8027,7 +8185,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8052,7 +8211,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8077,7 +8237,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8102,7 +8263,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8126,7 +8288,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8320,7 +8483,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8370,7 +8534,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8399,7 +8564,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8428,7 +8594,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8453,7 +8620,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8478,7 +8646,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8531,7 +8700,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8561,7 +8731,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8647,7 +8818,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8672,7 +8844,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8705,7 +8878,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8730,7 +8904,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8759,7 +8934,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8783,7 +8959,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8807,7 +8984,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8894,7 +9072,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8953,7 +9132,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -8977,7 +9157,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9001,7 +9182,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9030,7 +9212,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9085,7 +9268,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9244,7 +9428,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9273,7 +9458,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9426,7 +9612,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9508,7 +9695,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9533,7 +9721,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9570,7 +9759,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9595,7 +9785,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9624,7 +9815,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9649,7 +9841,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9674,7 +9867,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9703,7 +9897,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9728,7 +9923,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9753,7 +9949,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9778,7 +9975,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9803,7 +10001,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9828,7 +10027,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9853,7 +10053,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9903,7 +10104,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9928,7 +10130,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9953,7 +10156,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -9978,7 +10182,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10003,7 +10208,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10053,7 +10259,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10078,7 +10285,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10102,7 +10310,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10126,7 +10335,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10237,7 +10447,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10261,7 +10472,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10342,7 +10554,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10366,7 +10579,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10390,7 +10604,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10443,7 +10658,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10469,7 +10685,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10494,7 +10711,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10519,7 +10737,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10710,7 +10929,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10735,7 +10955,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10947,7 +11168,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10971,7 +11193,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -10996,7 +11219,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11020,7 +11244,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11044,7 +11269,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11138,7 +11364,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11325,7 +11552,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11488,7 +11716,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11513,7 +11742,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11538,7 +11768,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11562,7 +11793,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11623,7 +11855,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11675,7 +11908,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11741,7 +11975,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11820,7 +12055,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11853,7 +12089,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11882,7 +12119,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11907,7 +12145,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11944,7 +12183,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11969,7 +12209,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -11994,7 +12235,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12019,7 +12261,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12044,7 +12287,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12110,7 +12354,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12242,7 +12487,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12271,7 +12517,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12296,7 +12543,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12321,7 +12569,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12346,7 +12595,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12370,7 +12620,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12395,7 +12646,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12445,7 +12697,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12555,7 +12808,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12592,7 +12846,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12616,7 +12871,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12663,7 +12919,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12687,7 +12944,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12711,7 +12969,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12748,7 +13007,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12773,7 +13033,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12797,7 +13058,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12822,7 +13084,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12847,7 +13110,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12876,7 +13140,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12901,7 +13166,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12926,7 +13192,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12951,7 +13218,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -12976,7 +13244,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13001,7 +13270,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13026,7 +13296,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13080,7 +13351,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13113,7 +13385,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13138,7 +13411,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13163,7 +13437,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13188,7 +13463,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13213,7 +13489,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13238,7 +13515,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13263,7 +13541,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13288,7 +13567,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13313,7 +13593,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13338,7 +13619,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13363,7 +13645,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13388,7 +13671,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13413,7 +13697,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13571,7 +13856,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13596,7 +13882,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13620,7 +13907,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13644,7 +13932,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13669,7 +13958,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13694,7 +13984,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13719,7 +14010,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13743,7 +14035,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13767,7 +14060,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13825,7 +14119,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13850,7 +14145,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13875,7 +14171,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13900,7 +14197,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13925,7 +14223,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -13949,7 +14248,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14225,7 +14525,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14250,7 +14551,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14274,7 +14576,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14311,7 +14614,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14335,7 +14639,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14359,7 +14664,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14383,7 +14689,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14496,7 +14803,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14520,7 +14828,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14594,7 +14903,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14872,7 +15182,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14897,7 +15208,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14922,7 +15234,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14946,7 +15259,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14970,7 +15284,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -14994,7 +15309,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15075,7 +15391,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15099,7 +15416,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15123,7 +15441,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15148,7 +15467,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15201,7 +15521,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15226,7 +15547,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15574,7 +15896,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15607,7 +15930,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15632,7 +15956,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15683,7 +16008,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15708,7 +16034,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15733,7 +16060,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -15758,7 +16086,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16278,7 +16607,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16396,7 +16726,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16421,7 +16752,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16476,7 +16808,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16501,7 +16834,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16526,7 +16860,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16563,7 +16898,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16592,7 +16928,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16617,7 +16954,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16650,7 +16988,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -16742,7 +17081,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17193,7 +17533,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17218,7 +17559,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17270,7 +17612,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17303,7 +17646,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17328,7 +17672,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17356,7 +17701,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17381,7 +17727,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17406,7 +17753,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17431,7 +17779,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17456,7 +17805,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17493,7 +17843,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17518,7 +17869,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17551,7 +17903,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17579,7 +17932,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17604,7 +17958,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17629,7 +17984,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17654,7 +18010,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17679,7 +18036,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17810,7 +18168,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17863,7 +18222,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17888,7 +18248,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17940,7 +18301,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17969,7 +18331,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -17994,7 +18357,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18018,7 +18382,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18101,7 +18466,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18126,7 +18492,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18150,7 +18517,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18342,7 +18710,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18375,7 +18744,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18400,7 +18770,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18429,7 +18800,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18462,7 +18834,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18487,7 +18860,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18512,7 +18886,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18540,7 +18915,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18565,7 +18941,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18590,7 +18967,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18615,7 +18993,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18842,7 +19221,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -18891,7 +19271,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19066,7 +19447,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19095,7 +19477,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19119,7 +19502,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19156,7 +19540,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19189,7 +19574,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
@@ -19221,7 +19607,8 @@
             "status": "seed",
             "constructions": [
               "preposition-001",
-              "intransitive-preposition-001"
+              "intransitive-preposition-001",
+              "goal-complement-001"
             ],
             "senses": [
               {
