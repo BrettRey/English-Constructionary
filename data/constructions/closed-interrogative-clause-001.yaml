@@ -1,0 +1,81 @@
+id: closed-interrogative-clause-001
+name: Closed Interrogative Clause
+pattern: "Clause: (Subject:XP +) Head:VP[closed interrogative; main-clause subject–auxiliary inversion]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Clause headed by a VP; main clauses show clause-type-triggered subject–auxiliary inversion, while subordinate content clauses are normally marked by whether or if and retain basic Subject–Predicator order"
+  meaning: "Characteristically presents a closed set of answers, prototypically the positive and negative values of a proposition"
+  function: "Characteristically asks a closed question, but can perform directives, acknowledgements, statements, and other indirect speech acts"
+  distribution: "Tensed main clauses and subordinate closed-interrogative content clauses"
+meanings:
+  '1':
+    definition: A headed clause type characteristically used to present a closed question
+    details: "Closed and open interrogatives are distinct primary clause types in CGEL, not syntactic subtypes defined by a shared interrogative form. In main closed interrogatives, clause type itself triggers subject–auxiliary inversion and do-support where no other auxiliary is available. Subordinate closed interrogatives normally use whether or if without inversion. Closed-question force is characteristic rather than necessary: Would you mind opening the door? is syntactically closed interrogative but conventionally functions as a directive (CGEL pp. 853–57, 865–72, 951–55)."
+    examples:
+      - form: "[Are you generous?]"
+        note: Main closed interrogative with subject–auxiliary inversion
+      - form: "[Did Kim finish the report?]"
+        note: Do-support supplies the auxiliary required by main-clause inversion
+      - form: "I wonder [whether Kim finished the report]."
+        note: Subordinate closed interrogative with whether and basic Subject–Predicator order
+      - form: "[Would you mind opening the door?]"
+        note: Closed interrogative conventionally used as an indirect directive
+constraints:
+  - type: syntactic
+    description: "The construction remains a Clause headed by VP. In a main clause the finite auxiliary precedes the Subject through subject–auxiliary inversion; subordinate closed interrogatives normally have whether/if marking and no inversion."
+  - type: semantic
+    description: "The characteristic question defines a closed answer set; alternative questions are a use of coordination with closed-interrogative syntax, not a sixth clause type."
+  - type: pragmatic
+    description: "Inquiry force is not necessary: indirect directives and strongly biased or rhetorical uses retain closed-interrogative clause type."
+kind:
+  provisional: true
+  projection:
+    target: "Clause-type-triggered inversion in a main clause, or subordinate whether/if marking, predicts a closed answer space and the corresponding main/subordinate distribution, while leaving room for indirect forces such as directives"
+    evidence: "The inversion and subordinator diagnostics distinguish closed interrogatives from declaratives and open interrogatives independently of whether a particular utterance is used to inquire"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 853-57, 865-72, 951-55"
+        relation: cites
+        bears-on: projection
+        note: "Main inversion and subordinate whether/if marking project answer-space and distributional contrasts"
+      - source: cgel-2002
+        locator: "pp. 853-57, 865-72, 951-55"
+        relation: cites
+        bears-on: stability
+        note: "The linked main/subordinate profile recurs independently of actual inquiry force"
+  secured: stable
+  profile:
+    core:
+      - property: Main-clause subject–auxiliary inversion
+        diagnostics: ["finite auxiliary before Subject", "do-support without another auxiliary"]
+        weight: high
+      - property: Subordinate whether/if marking
+        diagnostics: ["whether or interrogative if", "basic Subject–Predicator order in the standard variety"]
+        weight: high
+      - property: Closed answer space
+        diagnostics: ["polar answers", "polar-alternative answers"]
+        weight: medium
+  grain:
+    level: meso
+    parent_families:
+      - clause-type
+      - question-constructions
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: open-interrogative-clause-001
+    relationship: see-also
+    notes: Closed and open interrogatives are distinct primary clause types with different syntactic marking
+  - id: declarative-question-001
+    relationship: see-also
+    notes: A declarative question asks without subject–auxiliary inversion and carries a stronger same-polarity bias
+semanticRefs:
+  - question
+grounds:
+  - source: cgel-2002
+    locator: "pp. 853-57, 865-72, 951-55"
+    relation: cites
+    note: "Closed-interrogative syntax, closed questions, indirect-force uses, and main/subordinate contrast"

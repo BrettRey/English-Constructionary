@@ -1,0 +1,118 @@
+id: path-complement-001
+name: Path Locative-Complement Construction
+pattern: "Head:V + Comp:PP[locative, path]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Verb head with a path-denoting PP in locative-complement function"
+  meaning: "Intermediate location or route traversed during motion, without itself necessarily specifying either terminal point"
+  function: "Locative complement of the verb, bearing the semantic role path"
+  distribution: "VP-internal with motion verbs and motion construals; compatible with separate source- and goal-role complements"
+meanings:
+  '1':
+    definition: A VP contains a locative PP complement that identifies the route or intermediate location traversed by the moving theme
+    details: "Path is a semantic role, while locative complement is the CGEL syntactic function. Via uniquely marks path in its central spatial use, and along is strongly path-associated. PPs headed by across, through, up, and similar prepositions can instead express location, source, or goal; a path construal identifies an intermediate portion of a larger trajectory. Path complements are integrated into the motion VP and fall within do so scope (CGEL Ch. 8 §4.3, pp. 684–88)."
+    examples:
+      - form: "She [came via the bridge]."
+        note: Via-PP with an unambiguous spatial-path role
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 8, §4.3, p. 687"
+            relation: attests
+            bears-on: attestation
+      - form: "They [strolled along the castle wall]."
+        note: Along-PP identifying a route without a terminal point
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 8, §4.3, p. 687"
+            relation: attests
+            bears-on: attestation
+      - form: "They [walked from the station up the hill to the new Civic Centre]."
+        note: Path up the hill occurs between separate source and goal complements
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 8, §4.3, pp. 687–88"
+            relation: attests
+            bears-on: attestation
+constraints:
+  - type: syntactic
+    description: "The path PP is an integrated locative complement in a motion VP, not a clause-level location adjunct."
+  - type: semantic
+    description: "The PP identifies the route or an intermediate location; it need not identify the initial or final location."
+  - type: semantic
+    description: "A path complement normally leaves the motion unbounded and therefore permits a for-duration phrase; a syncretic path-goal reading can instead bound the event and license an in-duration phrase."
+  - type: structural
+    description: "Source, path, and goal may be separately realized in one VP; their co-occurrence does not impose an invariant surface order."
+  - type: syntactic
+    description: "This entry establishes V-hosted path complementation only; it makes no claim that a path PP is selected inside a larger PP without independent attachment evidence."
+kind:
+  provisional: true
+  projection:
+    target: "Identifying an integrated PP as a path complement predicts an intermediate-location interpretation, compatibility with separate source and goal complements, and absence of event bounding unless the PP simultaneously receives a goal construal"
+    evidence: "CGEL contrasts path and goal readings by terminal-point entailments and in/for duration, identifies via and along as central path markers, and shows paths co-occurring between source and goal (Ch. 8 §4.3, pp. 684–88)."
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 8, §4.3, pp. 684–88"
+        relation: cites
+        bears-on: projection
+      - source: cgel-2002
+        locator: "Ch. 8, §4.3, pp. 684–88"
+        relation: cites
+        bears-on: stability
+  secured: stable
+  profile:
+    core:
+      - property: Path role borne by a locative PP complement
+        diagnostics: ["intermediate-location interpretation", "integration in a motion frame"]
+        weight: high
+      - property: Non-terminal route construal
+        diagnostics: ["no endpoint entailment", "compatibility with an overt following goal"]
+        weight: high
+      - property: Normally non-bounding
+        diagnostics: ["for-duration compatibility", "contrast with bounded goal reading"]
+        weight: high
+    peripheral:
+      - property: Dedicated path marking
+        diagnostics: ["via", "along"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "ran across the bridge: across the bridge can be goal when it supplies the final location, or path when a later goal is expressed"
+      - "walked through the forest in eight hours: the in-duration phrase selects a goal construal in which the end of the forest is reached"
+      - "A location adjunct describes where the situation occurs; a path complement describes the trajectory of the moving theme and is included in do so scope"
+      - "No PP-internal path-complement attachment is asserted by this VP-level entry"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The path-role locative complement is licensed within VP structure
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: The path-role dependent is a PP in locative-complement function
+  - id: goal-complement-001
+    relationship: related-to
+    notes: Sister locative role; a goal supplies the final location and typically bounds a motion event
+  - id: source-complement-001
+    relationship: related-to
+    notes: Sister locative role; source, path, and goal can co-occur in a single motion VP
+  - id: caused-motion-001
+    relationship: related-to
+    notes: The object-oriented locative complement in caused motion can bear the path role
+lexiconRefs:
+  - gold/prepositions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 8, §4.3, pp. 684–88"
+    relation: cites
+    bears-on: category-assignment
+    note: "Path dependents in motion VPs are locative complements, with path distinct from source, goal, and direction"
+  - source: cgel-2002
+    locator: "Ch. 8, §4.3, pp. 684–88"
+    relation: cites
+    note: "Role, realization, co-occurrence, and aspectual diagnostics converge on the path profile"

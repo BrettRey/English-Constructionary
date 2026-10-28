@@ -42,6 +42,15 @@ kind:
     target: "A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across to-PPs, compound into/onto PPs, and unmarked locative PPs"
     evidence: "Manner and emission verbs acquire directed-motion readings in this frame (Goldberg 1995), while CGEL distinguishes goal realizations from direction on pp. 686–88"
     confidence: medium
+    grounds:
+      - source: goldberg-1995
+        relation: cites
+        bears-on: projection
+        note: "Manner and emission verbs acquire constructionally licensed directed-motion readings"
+      - source: goldberg-1995
+        relation: cites
+        bears-on: stability
+        note: "Productive coercion supports a recurrent form-meaning profile"
   secured: stable
   profile:
     core:
@@ -62,6 +71,10 @@ kind:
     parent_families:
       - argument-structure
 relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The goal-role locative complement is licensed within VP structure
   - id: pp-001
     relationship: contains
     parthood: formal
@@ -72,6 +85,11 @@ relatedConstructions:
 lexiconRefs:
   - gold/prepositions
 grounds:
+  - source: cgel-2002
+    locator: "Ch. 4 §5.2, pp. 257-59; Ch. 8 §4.3, pp. 686-88"
+    relation: cites
+    bears-on: category-assignment
+    note: "Goal is a semantic role borne by a PP in locative-complement function"
   - source: goldberg-1995
     relation: cites
     note: "Intransitive motion construction; coercion of manner verbs"

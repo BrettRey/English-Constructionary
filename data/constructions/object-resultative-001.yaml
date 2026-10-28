@@ -1,0 +1,124 @@
+id: object-resultative-001
+name: Object-Oriented Resultative Construction
+pattern: "Head:V + Od:NP[predicand] + PredComp:AdjP/NP[resultative]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "VP headed by a verb with an NP direct object followed by an object-oriented predicative complement"
+  meaning: "The direct-object referent comes to have the property or status expressed by the predicative complement as a result of the verbal event"
+  function: "Adds a secondary result predication whose predicand is Od"
+  distribution: "VP-internal in complex-transitive clauses; the PredComp may be lexically selected or constructionally licensed and may be obligatory or optional"
+meanings:
+  '1':
+    definition: The direct-object referent is in the state expressed by PredComp at the end of the process denoted by the VP
+    details: "PredComp is a syntactic complement oriented toward Od, and resultative is its semantic interpretation. Unlike a depictive, a resultative entails a change culminating in the PredComp state. CGEL recognizes obligatory and optional object-oriented resultatives; optional resultatives remain complements, whereas optional depictives are analyzed as adjuncts. In a related passive, the active Od becomes subject and the PredComp is correspondingly subject-oriented (CGEL Ch. 4 §§1.1, 5, 5.3, pp. 217, 251–62)."
+    examples:
+      - form: "He [washed it clean]."
+        note: Optional resultative PredComp clean is predicated of Od it
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §5.3, p. 261"
+            relation: attests
+            bears-on: attestation
+      - form: "He [painted the fence blue]."
+        note: The fence comes to be blue as a result of the painting
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §5.3, p. 261"
+            relation: attests
+            bears-on: attestation
+  '2':
+    definition: An agentive activity verb licenses a reflexive Od as predicand for an obligatory resultative PredComp
+    details: "In He talked himself hoarse, talk does not require internal complementation on its own, but himself and hoarse are licensed together: dropping both yields He talked, while dropping only PredComp does not preserve the analysis because himself is then not Od. CGEL restricts this subtype to a reflexive predicand; an arbitrary affected NP is excluded (Ch. 4 §5.3, pp. 261–62)."
+    examples:
+      - form: "He [talked himself hoarse]."
+        note: Constructionally licensed reflexive Od plus obligatory resultative PredComp
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §5.3, pp. 261–62"
+            relation: attests
+            bears-on: attestation
+constraints:
+  - type: syntactic
+    description: "The NP is Od and the following AdjP or NP is PredComp, not a second object; PredComp is oriented toward Od in the active VP."
+  - type: semantic
+    description: "PredComp denotes a resultant state of its predicand, not a state merely holding during the verbal situation."
+  - type: syntactic
+    description: "An optional resultative is still a complement; an optional depictive such as almost raw in ate the steak almost raw is an adjunct in CGEL's analysis."
+  - type: syntactic
+    description: "Marked state-goal PPs such as to sleep and into a stupor are locative complements rather than PredComp and therefore fall outside this pattern."
+  - type: structural
+    description: "With an agentive intransitive base such as talk, the resultative subtype requires a reflexive Od; the reflexive and PredComp are jointly licensed."
+kind:
+  provisional: true
+  projection:
+    target: "An Od followed by an object-oriented resultative PredComp predicts an end-state entailment for the Od referent, reorientation of PredComp to the subject under passive, and complement behavior distinct from optional depictive adjuncts and marked locative state goals"
+    evidence: "CGEL's predicand orientation, passive correspondence, resultative-depictive contrast, and obligatory/optional complementation tests converge on this profile (Ch. 4 §§1.1, 5, 5.3, pp. 217, 251–62)."
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 4, §§1.1, 5, 5.3, pp. 217, 251–62"
+        relation: cites
+        bears-on: projection
+      - source: cgel-2002
+        locator: "Ch. 4, §§5, 5.3, pp. 251–62"
+        relation: cites
+        bears-on: stability
+  secured: stable
+  profile:
+    core:
+      - property: Od serves as result predicand
+        diagnostics: ["object orientation", "passive reorientation to subject"]
+        weight: high
+      - property: End-state predication
+        diagnostics: ["change-of-state entailment", "contrast with depictive simultaneity"]
+        weight: high
+      - property: PredComp function
+        diagnostics: ["AdjP or NP realization", "not a second object", "not a locative PP"]
+        weight: high
+    peripheral:
+      - property: Constructionally licensed reflexive object
+        diagnostics: ["talk oneself hoarse", "joint omission of reflexive and PredComp"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "ate the steak almost raw: optional depictive adjunct, not a resultative PredComp"
+      - "cried himself to sleep or drank himself into a stupor: to/into PPs express marked state goals and are locative complements"
+      - "considered Ed a fool: object-oriented PredComp but depictive rather than resultative"
+      - "caused motion uses an object-oriented locative Comp:PP, not PredComp"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Object-oriented resultatives are VP-level complement constructions
+  - id: np-001
+    relationship: contains
+    parthood: formal
+    notes: The result predicand is realized by an NP direct object; PredComp itself may also be an NP
+  - id: caused-motion-001
+    relationship: overlaps-with
+    overlap-dimension: semantic
+    notes: Both express caused change, but caused motion uses a locative Comp:PP where the resultative uses PredComp
+  - id: ditransitive-vp-001
+    relationship: see-also
+    notes: Head–Od–PredComp is complex-transitive, not the Head–Oi–Od double-object pattern
+  - id: goal-complement-001
+    relationship: related-to
+    notes: Marked state goals such as to sleep are locative complements rather than PredComp
+  - id: time-away-001
+    relationship: see-also
+    notes: Time-away contains Od plus a particle PP complement and does not predicate a result property of Od
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 4, §§1.1, 5, pp. 217, 251–53"
+    relation: cites
+    bears-on: category-assignment
+    note: "PredComp is a core complement oriented toward a predicand; in transitive clauses the predicand is normally Od"
+  - source: cgel-2002
+    locator: "Ch. 4, §5.3, pp. 261–62"
+    relation: cites
+    note: "Result interpretation, optionality, adjunct contrast, and reflexive licensing provide convergent diagnostics"

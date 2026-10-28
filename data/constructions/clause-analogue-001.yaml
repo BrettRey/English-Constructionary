@@ -1,0 +1,107 @@
+id: clause-analogue-001
+name: Clause-Analogue Construction
+pattern: "Non-headed constituent[clause-like interpretation; no Head:VP]"
+type: semantic
+dimensions:
+  form: "A non-headed construction realized by one or more overt phrases, but with no VP and no constituent in Head function at the construction's own level"
+  meaning: "A recoverable predication, situation, proposition, or speech-act update comparable to the interpretation of a Clause"
+  function: "Construction-specific complement, adjunct, supplement, exclamation, echo, directive, or other stand-alone utterance"
+  distribution: "Restricted to licensed non-verbal frames; it is not freely interchangeable with a Clause"
+meanings:
+  '1':
+    definition: Conveys clause-like semantic or discourse content through a non-headed construction that is not a Clause
+    details: "This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (their hands above their heads; Dinner over); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (What a disaster!; No entry). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax."
+    examples:
+      - form: "They stood with [their hands above their heads]."
+        note: "Subject-like NP plus locative predicative, licensed as complement of with"
+      - form: "[Dinner over], they resumed their game."
+        note: "Supplement with subject-like NP and predicative expression"
+      - form: "[What a disaster]!"
+        note: "Non-headed exclamative packaging with understood subject and copular relation"
+      - form: "[No entry]."
+        note: "Non-verbal directive whose prohibition is supplied constructionally"
+      - form: "[Ed quite competent]?"
+        note: "Bare-predication polar echo with subject-like NP and predicative AdjP"
+constraints:
+  - type: head
+    description: "No VP occurs in Head function; if the construction has a VP Head, it is a Clause instead."
+  - type: structural
+    description: "Overt daughters may themselves be headed NPs, AdjPs, or PPs, but no daughter is Head of the higher clausal-semantics construction."
+  - type: semantic
+    description: "Clause-like content is recovered from the licensed construction and context; the analysis does not posit an unpronounced verbal Head."
+  - type: syntactic
+    description: "Membership is construction-specific: an arbitrary non-verbal fragment does not automatically instantiate this construction."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing the clause-analogue construction predicts recovery of an implicit predicational or speech-act relation and licensing in a delimited clause-like discourse or dependent function, while predicting the absence of verbal tense, auxiliary, and VP-complementation behavior"
+    evidence: "CGEL documents recurrent, construction-specific correspondences between these non-verbal forms and finite or non-finite Clause interpretations across complements, supplements, exclamatives, echoes, and directives, even though this Constructionary draws the category boundary differently"
+    confidence: medium
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 14 §10, pp. 1266-68; Ch. 10 §§8.1.4, 9.6.3, pp. 921, 942"
+        relation: discusses
+        bears-on: projection
+        note: "The licensed non-verbal forms project recoverable predicational or speech-act content and restricted distributions"
+      - source: cgel-2002
+        locator: "Ch. 14 §10, pp. 1266-68; Ch. 10 §§8.1.4, 9.6.3, pp. 921, 942"
+        relation: discusses
+        bears-on: stability
+        note: "Documents recurrent form–interpretation pairings and their restricted complement, supplement, exclamative, and directive distributions"
+  secured: stable
+  profile:
+    core:
+      - property: "No Head at the construction's own level"
+        diagnostics: ["no VP Head", "no other daughter determines the construction's distribution"]
+        weight: high
+      - property: "Recoverable clause-like content"
+        diagnostics: ["finite-Clause paraphrase", "implicit predicational or speech-act relation"]
+        weight: high
+      - property: "Construction-specific licensing"
+        diagnostics: ["restricted governors", "recognized supplement, echo, exclamative, or directive frame"]
+        weight: high
+    peripheral:
+      - property: "Subject-like plus predicative realization"
+        diagnostics: ["NP + locative/predicative phrase", "recoverable subject in reduced frame"]
+        weight: medium
+      - property: "Single-phrase realization"
+        diagnostics: ["NP/AdjP/PP utterance with conventional clause-like force"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "A Clause has a VP Head and is therefore formally disjoint from this construction"
+      - "A headed NP or AdjP used merely as a referential fragment need not have clausal semantics"
+      - "Coordination is also non-headed, but coordinate structure alone does not supply clausal semantics"
+  grain:
+    level: macro
+    parent_families:
+      - constituent-structure
+relatedConstructions:
+  - id: clause-001
+    relationship: overlaps-with
+    overlap-dimension: semantic
+    notes: "Shares clause-like semantic and discourse work but not the defining VP-headed form"
+  - id: phrase-001
+    relationship: see-also
+    notes: "Its daughters may be headed Phrases, but the higher clausal-semantics construction is not itself a Phrase"
+  - id: coordination-001
+    relationship: see-also
+    notes: "Both are non-headed constructions, but their internal organization and projections differ"
+  - id: exclamation-001
+    relationship: interfaces-with
+    notes: "Some non-headed exclamative realizations carry exclamation force, while many exclamations and many members of this construction fall outside that overlap"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 14 §10, pp. 1266-68"
+    relation: discusses
+    note: "Detailed inventory and analysis of the structures CGEL calls verbless clauses"
+  - source: cgel-2002
+    locator: "Ch. 1 §4.2, pp. 22-25; Ch. 14 §10, pp. 1266-68"
+    relation: contradicts
+    bears-on: category-assignment
+    note: "CGEL includes these non-VP-headed structures in Clause despite its general head-based Phrase architecture; the Constructionary does not"
+  - source: brett-judgment
+    locator: "2026-07-16"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Anything without a VP Head is not a Clause; CGEL's verbless-clause residue belongs in this separate clause-analogue construction"

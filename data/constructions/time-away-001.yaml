@@ -1,6 +1,6 @@
 id: time-away-001
 name: Time-Away Construction
-pattern: "Head:V[activity construal] + Od:NP[time-period] + Comp:PP[particle, Head:away]"
+pattern: "Head:V[activity construal] + Od:NP[time-period] + Comp:PP[particle, Head:P[away]]"
 type: syntactic
 semanticType: predication
 dimensions:
@@ -15,10 +15,25 @@ meanings:
     examples:
       - form: "Bill slept [the afternoon] [away]."
         note: Canonical time-away VP
+        grounds:
+          - source: jackendoff-1997
+            locator: "pp. 534-41"
+            relation: attests
+            bears-on: attestation
       - form: "Saul sneezed [the afternoon] [away]."
         note: Repeatable bounded event coerced to repeated sneezing
+        grounds:
+          - source: jackendoff-1997
+            locator: "pp. 537-39"
+            relation: attests
+            bears-on: attestation
       - form: "The evening had been nearly slept away."
         note: Passive evidence that the time NP is Od rather than adjunct
+        grounds:
+          - source: jackendoff-1997
+            locator: "pp. 535-37"
+            relation: attests
+            bears-on: attestation
       - form: "Hermione programmed [three whole evenings] [away]."
         note: Productive activity-verb slot
 constraints:
@@ -40,6 +55,17 @@ kind:
     target: "Recognizing Head–Od[time]–away predicts that the time NP behaves as a direct object despite lacking verb-level licensing, that away is a one-word intransitive-preposition PP in particle syntax, and that the VP denotes a bounded interval occupied by an agentive activity or iterated event"
     evidence: "Passivization, tough-construction, VP-ellipsis, particle placement, and lexical-object exclusion converge on direct-object status; independent activity, agentivity, and time-use diagnostics establish the semantic profile (Jackendoff 1997: 535–41)"
     confidence: high
+    grounds:
+      - source: jackendoff-1997
+        locator: "pp. 534-43"
+        relation: cites
+        bears-on: projection
+        note: "Independent object, particle-placement, aspectual, and semantic diagnostics"
+      - source: jackendoff-1997
+        locator: "pp. 534-43"
+        relation: cites
+        bears-on: stability
+        note: "The recurrent diagnostic cluster supports the stable constructional profile"
   secured: stable
   profile:
     core:
@@ -62,7 +88,25 @@ kind:
     parent_families:
       - argument-structure
 relatedConstructions:
-  - id: intransitive-preposition-001
+  - id: verb-particle-object-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Time-away fixes away as the particle and restricts the direct object to a time-period NP
+  - id: np-001
     relationship: contains
     parthood: formal
-    notes: Fixed away is an intransitive preposition heading a one-word PP; particle names its syntactic use, not its lexical category
+    notes: The construction-licensed time direct object is realized by an NP
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: Away heads the one-word PP in particle function
+grounds:
+  - source: jackendoff-1997
+    locator: "pp. 534-43"
+    relation: cites
+    note: "Time-object licensing, activity construal, ordering, and constructional semantics"
+  - source: cgel-2002
+    locator: "Ch. 4 §6.2, pp. 280-84"
+    relation: cites
+    bears-on: category-assignment
+    note: "Away is an intransitive preposition heading a one-word PP in particle use"

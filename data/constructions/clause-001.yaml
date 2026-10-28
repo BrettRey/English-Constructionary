@@ -1,0 +1,104 @@
+id: clause-001
+name: Clause
+pattern: "(Subject +) Head:VP"
+type: syntactic
+dimensions:
+  form: "Phrase headed immediately by a VP, optionally with a Subject; the VP is ultimately headed by V"
+  meaning: "Clause-level content organized around the situation profile of the VP and, when expressed, its Subject"
+  function: "Main or subordinate predication; argument, complement, modifier, supplement, or complete utterance where licensed"
+  distribution: "Occurs independently and in the dependent positions licensed for finite and non-finite Clauses"
+meanings:
+  '1':
+    definition: A Phrase whose Head is a VP and whose Subject is optional
+    details: "Clause is defined here without exception as a headed Phrase. Its immediate Head is VP and its ultimate Head is V. An overt Subject, when present, is a Clause-level dependent rather than part of the VP. Subjectless imperative and non-finite Clauses therefore satisfy the same pattern as subject-bearing Clauses. Markers, prenuclear elements, and other Clause-level dependents do not alter the Head relation. A constituent without a VP in Head function is not a Clause in this Constructionary; non-headed structures with clause-like interpretations are assigned to clause-analogue-001."
+    examples:
+      - form: "[Kim left early]."
+        note: "Subject Kim plus Head VP left early"
+      - form: "[Leave early!]"
+        note: "Subjectless imperative Clause consisting overtly of its Head VP"
+      - form: "[Leaving early annoyed Pat]."
+        note: "The matrix Clause has Subject Clause leaving early and Head VP annoyed Pat"
+constraints:
+  - type: head
+    description: "A Clause must have a VP in Head function; a constituent without a VP Head is not a Clause."
+  - type: syntactic
+    description: "The Subject is optional in the general Clause pattern and, when present, is a dependent of Clause rather than VP."
+  - type: structural
+    description: "Clause-level markers, prenuclear material, and supplements do not replace the VP as Head."
+  - type: structural
+    description: "A coordination of Clauses is a non-headed coordination, not itself a Clause."
+kind:
+  provisional: true
+  projection:
+    target: "Clause membership predicts availability of clause-level polarity, clause-type, subordination, and information-packaging contrasts, together with distribution as a main unit or as a clausal dependent; the VP Head predicts the Clause's internal complementation profile"
+    evidence: "CGEL's canonical and non-canonical Clause systems preserve the VP-headed organization across polarity, clause type, voice, subordination, and information packaging, while non-finite data show that an overt Subject is not required"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 2 §§2-3, pp. 46-51; Ch. 14 §1.1, p. 1175"
+        relation: cites
+        bears-on: projection
+        note: "VP-headed membership projects Clause-level systems and distribution beyond the Head/Subject diagnostics"
+      - source: cgel-2002
+        locator: "Ch. 2 §§2-3, pp. 46-51; Ch. 14 §1.1, p. 1175"
+        relation: cites
+        bears-on: stability
+        note: "VP-headed structure persists across major Clause contrasts; non-finite Clauses establish the optionality of overt Subject"
+  secured: stable
+  profile:
+    core:
+      - property: "Immediate VP Head"
+        diagnostics: ["Predicate/Head realized by VP", "ultimate verbal Head"]
+        weight: high
+      - property: "Optional Clause-level Subject"
+        diagnostics: ["subject-bearing canonical Clause", "subjectless imperative and non-finite Clauses"]
+        weight: high
+      - property: "Clause-level grammatical systems"
+        diagnostics: ["polarity", "clause type", "subordination", "information packaging"]
+        weight: high
+    peripheral:
+      - property: "Additional Clause-level dependents"
+        diagnostics: ["markers", "prenuclear constituents", "supplements"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "Constituents that CGEL calls verbless clauses have clause-like interpretations but no VP Head; they are excluded here"
+      - "Attributive VPs are VPs but do not thereby instantiate a separate Clause node"
+  grain:
+    level: macro
+    parent_families:
+      - constituent-structure
+relatedConstructions:
+  - id: phrase-001
+    relationship: specialization-of
+    parthood: formal
+    notes: "Clause specializes Phrase with VP as its immediate Head"
+  - id: vp-001
+    relationship: contains
+    parthood: formal
+    notes: "The Clause's obligatory Head constituent is a VP"
+  - id: clause-analogue-001
+    relationship: overlaps-with
+    overlap-dimension: semantic
+    notes: "Both can convey clause-like content, but only Clause is formally headed by VP"
+  - id: verb-number-agreement-001
+    relationship: interfaces-with
+    notes: "Finite subject-bearing Clauses provide the Subject–verb configuration in which number agreement is realized"
+  - id: coordination-001
+    relationship: see-also
+    notes: "A coordination may contain Clauses as coordinates, but the coordination itself is non-headed and is not a Clause"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 1 §4.2, pp. 22-25; Ch. 2 §3, p. 50"
+    relation: cites
+    bears-on: category-assignment
+    note: "Clause is a phrasal category whose Predicate/Head is VP, ultimately headed by V"
+  - source: cgel-2002
+    locator: "Ch. 14 §1.1, p. 1175"
+    relation: cites
+    note: "Subjectless non-finites show that an overt Subject is not necessary for Clause status"
+  - source: brett-judgment
+    locator: "2026-07-16"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Clause is strictly a Phrase headed by VP with an optional Subject; there is no verbless exception"

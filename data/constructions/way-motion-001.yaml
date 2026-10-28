@@ -1,0 +1,123 @@
+id: way-motion-001
+name: Way-Motion Construction
+pattern: "Head:V + Od:NP[x's way] + Comp:PP[locative, path/goal/direction]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "VP headed by make or a manner-denoting verb, followed by the direct-object NP x's way and a change-of-location PP complement, centrally bearing a path, goal, or direction role"
+  meaning: "The participant identified by x progresses along a route, in a direction, or toward a goal by the activity or means expressed by the verb"
+  function: "The fixed way-object frame licenses a change-of-location complement and allows the verb to specify the manner or means of progress"
+  distribution: "VP-internal; found in the make one's way idiom and a productive extension with manner or means verbs"
+meanings:
+  '1':
+    definition: A participant progresses along the path, in the direction, or toward the goal expressed by the locative complement
+    details: "CGEL analyzes x's way as an Od, not as a preposition or as part of the following PP. Make one's way is an idiom meaning approximately 'progress' that licenses change-of-location complements although make alone does not do so. This idiom provides the basis for a productive construction in which another verb supplies the manner or means of progress (CGEL Ch. 8 §4.3, p. 685; Ch. 4 §8.1.3, p. 305)."
+    examples:
+      - form: "We [made our way to the station]."
+        note: Make one's way idiom with a goal-role locative complement
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 8, §4.3, p. 685"
+            relation: attests
+            bears-on: attestation
+      - form: "Jill had to [elbow her way to the exit]."
+        note: Productive manner/means verb; the frame supplies progress toward the goal
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 8, §4.3, p. 685"
+            relation: attests
+            bears-on: attestation
+      - form: "They [pushed their way to the front]."
+        note: Way Od precedes a goal-role locative complement
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §8.1.3, p. 305"
+            relation: attests
+            bears-on: attestation
+constraints:
+  - type: syntactic
+    description: "The fixed-form NP x's way is Od of the verb; the following PP is a separate change-of-location Comp:PP, centrally bearing a path, goal, or direction role."
+  - type: structural
+    description: "The way NP contains a genitive determiner form and way as nominal head; the genitive identifies the participant whose progress is described."
+  - type: head
+    description: "Make licenses the frame idiomatically; productive alternatives contribute the manner or means by which progress is achieved."
+  - type: semantic
+    description: "The VP denotes directed progress along a route, in a direction, or toward a goal rather than ordinary creation or possession of a way referent."
+  - type: semantic
+    description: "In CGEL's account, the movement consists of a series of stops and starts rather than uninterrupted continuous motion."
+kind:
+  provisional: true
+  projection:
+    target: "The fixed x's way Od followed by a change-of-location complement predicts a progress interpretation, constructional licensing of path, goal, or direction with non-motion manner verbs, and interpretation of the verb as the manner or means of progress rather than as selecting an ordinary way object"
+    evidence: "CGEL relates the make one's way idiom to productive manner/means replacements such as elbow and push, while retaining Od and locative-complement functions (Ch. 8 §4.3, p. 685; Ch. 4 §8.1.3, p. 305)."
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 8, §4.3, p. 685; Ch. 4, §8.1.3, p. 305"
+        relation: cites
+        bears-on: projection
+      - source: cgel-2002
+        locator: "Ch. 8, §4.3, p. 685; Ch. 4, §8.1.3, p. 305"
+        relation: cites
+        bears-on: stability
+  secured: stable
+  profile:
+    core:
+      - property: Fixed x's way direct object
+        diagnostics: ["way-headed Od", "genitive identifies progressor"]
+        weight: high
+      - property: Change-of-location complement
+        diagnostics: ["path, goal, or direction interpretation", "PP separate from way NP"]
+        weight: high
+      - property: Manner or means supplied by Head:V
+        diagnostics: ["productive replacement of make", "motion construal with non-motion verb"]
+        weight: high
+    peripheral:
+      - property: Stop-and-start progress
+        diagnostics: ["series of locally bounded advances"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "made a way through the wall: ordinary creation of a path-denoting object lacks the fixed genitive way-object profile"
+      - "caused motion: its Od denotes the moving theme, whereas the way construction's Od is the fixed x's way NP"
+      - "An ordinary goal-complement VP lacks the construction-specific way object"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Way-motion is a VP-level argument-structure specialization
+  - id: np-001
+    relationship: contains
+    parthood: formal
+    notes: The fixed x's way constituent is an NP functioning as Od
+  - id: genitive-s-001
+    relationship: interfaces-with
+    notes: Non-pronominal x's way NPs realize the determiner through the genitive-s construction
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: The route, direction, or endpoint is expressed by a locative PP complement
+  - id: path-complement-001
+    relationship: related-to
+    notes: The final locative complement can express the route traversed
+  - id: goal-complement-001
+    relationship: related-to
+    notes: The final locative complement can express the endpoint of progress
+  - id: caused-motion-001
+    relationship: overlaps-with
+    overlap-dimension: semantic
+    notes: Both combine manner or means with motion, but they assign different functions and roles to Od
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 8, §4.3, p. 685; Ch. 4, §8.1.3, p. 305"
+    relation: cites
+    bears-on: category-assignment
+    note: "x's way is Od and the following change-of-location dependent is a locative complement"
+  - source: cgel-2002
+    locator: "Ch. 8, §4.3, p. 685; Ch. 4, §8.1.3, p. 305"
+    relation: cites
+    note: "Fixed way object, productive manner-verb replacement, and locative licensing form a recurrent profile"

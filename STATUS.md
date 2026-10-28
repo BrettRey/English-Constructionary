@@ -1,8 +1,8 @@
 # English Constructionary
-<!-- SUMMARY: CxG dictionary of English constructions, projectibility-first, public site + CI + lexicon layer live; Brett authors entries, agents maintain · status: active · updated: 2026-07-16 -->
+<!-- SUMMARY: CxG dictionary of English constructions, projectibility-first, public site + CI + lexicon layer live; Brett authors entries, agents maintain · status: active · updated: 2026-07-24 -->
 
 **Status:** Active development
-**Last updated:** 2026-07-16
+**Last updated:** 2026-07-24
 
 **See also:** `NOTES.md` for theoretical ideas in progress
 
@@ -10,7 +10,7 @@
 
 ## Current State
 
-- **108 construction YAML files** in `data/constructions/`
+- **125 construction YAML files** in `data/constructions/`
 - **Lexicon layer**: 600 lexemes from Simple English Wiktionary (Brett's curated closed classes) with glosses, deitality statuses, and construction links, browsable on the site
 - **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
@@ -38,6 +38,11 @@ Major areas:
 - **Negation**: Secondary verbal, constituent, imperative, absolute negator determinatives, never-adv
 - **NP structure**: Bare, determined, genitive, pronominal, proper
 - **Definiteness, number, countability**: kind metadata with securing tiers
+- **Clause structure**: VP-headed Clause backbone; declarative, closed/open interrogative, exclamative, and imperative Clause types; clause-analogue semantics kept outside Clause
+- **Questions**: semantic Question parent with declarative, tag, and echo specializations, interfacing with interrogative Clause types
+- **Argument structure**: ditransitive, caused motion, time-away, prepositional particle-object, goal/source/path, object resultative, and way motion
+- **Fused-head network**: broader `fused-head-001` parent with `fused-determiner-head-001`, plus numerative and demonstrative subtypes
+- **Fused-head network**: broader `fused-head-001` parent with `fused-determiner-head-001`, plus numerative and demonstrative subtypes
 
 ## Next Steps
 
@@ -54,12 +59,15 @@ See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry q
 - [x] Add projection targets to `directive-ostensive-001` and `vocative-001`
 - [ ] Rung-by-rung review of migrated `secured: stable` assignments (all provisional)
 - [ ] Split `adjective-001` (failure-mode: fat)
-- [ ] Expand to clausal constructions
+- [x] Add Clause/VP backbone and primary Clause-type entries
+- [ ] Expand the Clause network with relative and content Clauses
 
 ---
 
 ## Session Log
 
+- **2026-07-24 (shutdown addendum)**: Broadened the fused-head taxonomy with a new `fused-head-001` parent, renamed `determinative-fused-head-001` to `fused-determiner-head-001`, kept `numerative-fused-head-001` as a determiner-head subtype, and regenerated the derived web artifacts after validation. The clause-analogue rename from the previous session remains in place. Repository now has 125 constructions.
+- **2026-07-16 (construction-network addendum)**: Added 15 connected entries: VP, strict VP-headed Clause, clause-analogue semantics, five primary Clause types, semantic Question, declarative question, Tag Question, and four argument-structure neighbours (prepositional particle-object, path, object resultative, way motion). Reworked Echo Question as a semantic overlay, kept Question distinct from Clause type, connected the new nodes through families and typed relations, and added rung-matching grounds. Repository now has 124 constructions.
 - **2026-07-16 (evening addendum)**: Lexicon layer built end to end (Wiktionary standoff design, gold lists from Simple English, glosses, per-lexeme browser cards). Indeterminate and deitality architectures per Brett's rulings and papers; exclamation/ostensive-NP two-axis analysis; constituent-type layer (phrase/coordination); preposition batch and path-complement family, heavily Brett-corrected (ago, intransitive = no object, PP grain, forcing test). Division of labour set: Brett authors entries, agents plan/maintain. ROADMAP.md rewritten as prioritized queues.
 - **2026-07-16**: Major session. Public GitHub Pages site + CI validation live; `docs/CONTRIBUTING.md` added. Absolute negators recategorized as determinatives (CGEL Ch. 9 §3.2), entry renamed. HPC framing deprecated in favour of projectibility-first framework: `hpc` block → `kind` block (projection target first; secured tier stable/networked/maintained/controlled; only corrective control earns "homeostatic"); 8 entries migrated with honest tier deflation; docs, schema, lint, and browser updated; `docs/hpc-implications.md` → `docs/projectibility-first.md`. Codex dispatched for CGEL category-violation audit.
 - **2026-02-01**: Brief session. Discussed whether Peircean triad (from mereology work) could improve the form+meaning schema. Created NOTES.md to track the idea.

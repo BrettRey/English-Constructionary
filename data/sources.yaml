@@ -24,8 +24,15 @@ sources:
     type: paper
     citation: "Reynolds, Brett (2026), Not every stable cluster is homeostatic: stability, network order, and control in projectible kinds (ms.)"
   goldberg-1995:
-    type: paper
+    type: book
     citation: "Goldberg, Adele (1995), Constructions: A Construction Grammar Approach to Argument Structure. Chicago: University of Chicago Press"
+  goldberg-2006:
+    type: book
+    citation: "Goldberg, Adele E. (2006), Constructions at Work: The Nature of Generalization in Language. Oxford: Oxford University Press"
+  jackendoff-1997:
+    type: paper
+    citation: "Jackendoff, Ray (1997), Twistin' the Night Away. Language 73(3): 534-559"
+    doi: "10.2307/415883"
   kuroda-1965:
     type: paper
     citation: "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation"

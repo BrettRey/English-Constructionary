@@ -27,8 +27,26 @@ kind:
     target: "Identifying a constituent as a coordination predicts headlessness (no single element determines distribution), coordinate-wise distribution, and tolerance of category mixture under likeness of function"
     evidence: "Coordinate-category mixture under functional likeness is attested across the numerative coordinations and ordinary NP/AdjP coordination"
     confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 15 §§1-2"
+        relation: cites
+        bears-on: projection
+        note: "Non-headed coordinate structure projects coordinate-wise distribution and functional likeness"
+      - source: cgel-2002
+        locator: "Ch. 15 §§1-2"
+        relation: cites
+        bears-on: stability
+        note: "The same non-headed profile recurs across coordination categories"
   secured: stable
+  grain:
+    level: macro
+    parent_families:
+      - constituent-structure
 relatedConstructions:
   - id: phrase-001
     relationship: see-also
     notes: The headed constituent type; the contrast is definitional
+  - id: clause-analogue-001
+    relationship: see-also
+    notes: "Both are non-headed constituent types, but coordination is organized into coordinates rather than licensed by clausal semantics"

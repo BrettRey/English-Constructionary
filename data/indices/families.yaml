@@ -3,9 +3,36 @@ families:
     members:
       - ditransitive-vp-001
       - caused-motion-001
+      - object-resultative-001
+      - way-motion-001
+      - verb-particle-object-001
       - goal-complement-001
       - source-complement-001
+      - path-complement-001
       - time-away-001
+  constituent-structure:
+    members:
+      - phrase-001
+      - coordination-001
+      - vp-001
+      - clause-001
+      - fused-head-001
+      - clause-analogue-001
+  clause-type:
+    members:
+      - declarative-clause-001
+      - closed-interrogative-clause-001
+      - open-interrogative-clause-001
+      - exclamative-clause-001
+      - imperative-clause-001
+  question-constructions:
+    members:
+      - question-001
+      - declarative-question-001
+      - tag-question-001
+      - echo-question-001
+      - closed-interrogative-clause-001
+      - open-interrogative-clause-001
   modification:
     members:
       - adjective-001

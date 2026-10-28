@@ -21,5 +21,9 @@ constraints:
   - type: structural
     description: Negation is expressed with do-support (do not/don't) in imperatives.
 relatedConstructions:
+  - id: imperative-clause-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Negative imperative retains imperative clause type and its special do-support requirement
   - id: secondary-verbal-negation-001
     relationship: related-to

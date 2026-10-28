@@ -15,7 +15,7 @@ meanings:
       - form: "[Ouch]!"
         note: Interjection; the prototype (pure force, no discourse referent)
       - form: "[What a lovely day]!"
-        note: "Verbless exclamative clause; cf. What a lovely day it is!"
+        note: "Non-headed construction with exclamative clausal semantics; cf. the headed Clause What a lovely day it is!"
       - form: "[A snake]!"
         note: Directive-ostensive NP as exclamation
       - form: "[That's amazing]!"
@@ -73,6 +73,15 @@ relatedConstructions:
   - id: vocative-001
     relationship: can-manifest-as
     notes: Only via the summons/call use
+  - id: exclamative-clause-001
+    relationship: can-manifest-as
+    notes: A headed exclamative Clause is a core realization of exclamation force
+  - id: declarative-clause-001
+    relationship: can-manifest-as
+    notes: A declarative Clause can be recruited as an exclamation by prosody
+  - id: clause-analogue-001
+    relationship: can-manifest-as
+    notes: Phrase-only exclamative forms realize the force without instantiating Clause
 grounds:
   - source: cgel-2002
     locator: "p. 923"

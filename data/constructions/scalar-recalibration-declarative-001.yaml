@@ -10,7 +10,7 @@ meanings:
       - form: "[You think you're upset]. I wrote a paper predicting that this wouldn't happen."
         note: Self-deprecating; speaker exceeds on upset-scale due to embarrassing wrong prediction (Joshua Gans)
       - form: "[You think you're tired]? I've been up for 36 hours."
-        note: With echo question construction layered; speaker exceeds on tiredness scale
+        note: With declarative-question construction layered; speaker exceeds on tiredness scale
       - form: "[You think that's expensive]. Wait till you see the repair bill."
         note: With demonstrative subject; introduces something more expensive
       - form: "[You think you know stress]. Try raising triplets."
@@ -23,6 +23,13 @@ constraints:
   - type: pragmatic
     description: Requires follow-up providing speaker's evidence for exceeding on the scale
 relatedConstructions:
+  - id: declarative-clause-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The scalar-recalibration frame retains declarative clause type
+  - id: declarative-question-001
+    relationship: interfaces-with
+    notes: Question prosody commonly layers onto the declarative scalar frame
   - id: scalar-challenge-call-001
     relationship: overlaps-with
     overlap-dimension: functional

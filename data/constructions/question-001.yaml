@@ -1,0 +1,120 @@
+id: question-001
+name: Question
+pattern: "Host:SyntacticExpression => Meaning:Question[set of logically possible answers]"
+type: semantic
+dimensions:
+  form: "No unique syntactic form: the semantic category applies to headed Clauses of more than one type, coordinations, and constructionally licensed non-clausal expressions"
+  meaning: "A structured set of logically possible answers, closed or open according to the variables and alternatives presented"
+  function: "Makes resolution of an informationally incomplete answer space relevant; inquiry is the prototype but not a condition of membership"
+  distribution: "A semantic layer over syntactic hosts, including interrogative and declarative Clauses, multi-Clause coordinations, and reduced or non-headed question expressions"
+meanings:
+  '1':
+    definition: A semantic category in which an expression defines a set of logically possible answers
+    details: "Question is not a clause type and is not identified with the pragmatic act of making an inquiry. A question determines answerhood conditions: a closed question presents a delimited answer set, while an open question contains a variable whose possible values differentiate the answers. An answer supplies the relevant missing information; a conversational response need not do so. Questions can serve acknowledgement, wondering, examination, exposition, and indirect speech acts as well as information-seeking inquiry, and the same semantic category can be realized by syntactically different hosts (CGEL Ch. 10 §§4.1–4.3, pp. 865–72)."
+    examples:
+      - form: "[Have you seen it?]"
+        note: "Closed-interrogative Clause defining positive and negative answers"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §4.1, p. 865"
+            relation: attests
+            bears-on: attestation
+      - form: "[Who broke it?]"
+        note: "Open-interrogative Clause defining answers by values of the variable who"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §4.1, p. 865"
+            relation: attests
+            bears-on: attestation
+      - form: "[You're leaving?]"
+        note: "Declarative Clause carrying question meaning without becoming interrogative"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §4.2, pp. 867-68"
+            relation: attests
+            bears-on: attestation
+      - form: "[Which one?]"
+        note: "Reduced syntactic host with question meaning; it is not thereby a Clause"
+constraints:
+  - type: semantic
+    description: "Membership is determined by the answer set an expression defines, not by interrogative morphology, word order, punctuation, or any single clause type."
+  - type: semantic
+    description: "An answer must resolve the relevant alternative or assign a value to the relevant variable; other conversational responses can be appropriate without constituting answers."
+  - type: pragmatic
+    description: "Information-seeking inquiry is a prototypical use rather than the definition: acknowledgement, wondering, quiz, expository, rhetorical, and indirect-act uses remain possible."
+  - type: structural
+    description: "When the host is a Clause, it independently satisfies (Subject +) Head:VP. A coordination or constructionally licensed fragment may host question meaning without being reclassified as a Clause."
+  - type: semantic
+    description: "Independent dimensions distinguish polar, alternative, and variable questions; information and direction questions; neutral and biased questions; and ordinary and echo questions."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing Question meaning predicts a structured class of congruent answers, a principled distinction between answers and merely appropriate responses, informational incompleteness resolvable by an answer, and semantic contrasts of answer-space, bias, direction, and echo status that remain independent of the host's clause type"
+    evidence: "Closed, open, declarative, coordinated, and reduced realizations differ formally but preserve answer-set organization; the same organization persists across inquiry, acknowledgement, wondering, examination, exposition, and indirect-act uses"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 10 §§4.1–4.3, pp. 865–72"
+        relation: cites
+        bears-on: projection
+        note: "Defines questions by answer sets, distinguishes answers from responses, and cross-classifies questions independently of clause type"
+      - source: cgel-2002
+        locator: "Ch. 10 §§4.1–4.2, pp. 865–68"
+        relation: attests
+        bears-on: stability
+        note: "The answer-set generalizations recur across closed, open, declarative, coordinated, and reduced hosts"
+  secured: stable
+  profile:
+    core:
+      - property: "Structured answer set"
+        diagnostics: ["positive/negative alternatives", "variable-value alternatives", "answer congruence"]
+        weight: high
+      - property: "Informational incompleteness"
+        diagnostics: ["completion by an answer", "distinction between answer and response"]
+        weight: high
+      - property: "Independence from clause type"
+        diagnostics: ["interrogative host", "declarative host", "coordination or reduced host"]
+        weight: high
+    peripheral:
+      - property: "Information-seeking inquiry"
+        diagnostics: ["speaker seeks information from addressee"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "Interrogative is a syntactic property of particular words, phrases, and Clauses; it is neither necessary nor by itself a definition of Question meaning."
+      - "Question punctuation is an orthographic cue and does not determine semantic membership by itself."
+      - "A reduced or non-headed question expression may have Question meaning without satisfying the VP-headed definition of Clause."
+  grain:
+    level: macro
+    parent_families:
+      - question-constructions
+relatedConstructions:
+  - id: clause-001
+    relationship: interfaces-with
+    notes: "Many questions have a Clause host, which remains independently defined as (Subject +) Head:VP"
+  - id: closed-interrogative-clause-001
+    relationship: interfaces-with
+    notes: "Closed interrogatives are the characteristic syntactic host of closed questions, but clause type and Question meaning are distinct"
+  - id: open-interrogative-clause-001
+    relationship: interfaces-with
+    notes: "Open interrogatives characteristically host variable questions without defining the semantic category"
+  - id: declarative-clause-001
+    relationship: interfaces-with
+    notes: "Declarative Clauses can host Question meaning while retaining declarative clause type"
+  - id: coordination-001
+    relationship: interfaces-with
+    notes: "A coordination of Clauses may jointly present one alternative question while remaining a non-headed coordination"
+  - id: clause-analogue-001
+    relationship: interfaces-with
+    notes: "Constructionally licensed non-headed expressions may carry Question meaning without becoming Clauses"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 10 §§4.1–4.3, pp. 865–72"
+    relation: cites
+    bears-on: category-assignment
+    note: "Treats question at the semantic level as an answer-set category and distinguishes it from both clause type and pragmatic inquiry"
+  - source: brett-judgment
+    locator: "2026-07-16"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Question is a semantic category applied to syntactic hosts; clausal hosts retain the strict (Subject +) Head:VP ontology"

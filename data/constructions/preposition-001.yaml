@@ -29,6 +29,23 @@ kind:
     target: "Category membership predicts PP distribution (goal and locative complement positions, from-embedding for locative members, modifier positions), right/straight modifiability for locatives, and non-inflection"
     evidence: "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)"
     confidence: medium
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 7 §§2-4"
+        relation: cites
+        bears-on: projection
+        note: "The expanded category projects PP-head distribution across traditional, objectless, and clause-taking members"
+      - source: cgel-2002
+        locator: "Ch. 7 §§2-4"
+        relation: cites
+        bears-on: stability
+        note: "Shared distributional behavior supports the stable expanded preposition profile"
   secured: stable
 lexiconRefs:
   - gold/prepositions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 2 §7, p. 58; Ch. 7 §§2-4"
+    relation: cites
+    bears-on: category-assignment
+    note: "Prepositions head PPs and include objectless and clause-taking members beyond the traditional class"

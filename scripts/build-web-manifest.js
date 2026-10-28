@@ -337,16 +337,20 @@ if (constructionSection) {
     item.relations.forEach((rel) => {
       const target = byId.get(rel.id);
       if (target) {
-        target.incomingRelations.push({
+        const incoming = {
           id: item.id,
           title: item.title,
           relationship: rel.relationship || rel.type || 'related-to'
-        });
+        };
+        if (rel.parthood) incoming.parthood = rel.parthood;
+        if (rel['overlap-dimension']) incoming['overlap-dimension'] = rel['overlap-dimension'];
+        target.incomingRelations.push(incoming);
       }
     });
   });
 
-  // Keep all incoming relations for symmetric mereological display
+  // Keep all incoming relations so the UI can display hierarchy inverses and
+  // symmetric relations without duplicating the data edges in both directions.
 }
 
 // Drop sections with no files (e.g. literature/ is untracked and absent in CI)

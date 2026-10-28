@@ -23,3 +23,8 @@ meanings:
         note: Contingent framing of a state
       - form: I'm living in Mississauga
         note: Current/contingent residence framing
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The progressive auxiliary and gerund-participial complement form a VP headed by be

@@ -32,6 +32,12 @@ relatedConstructions:
   - id: deitality-001
     relationship: see-also
     notes: Exclamative uses pattern non-deitally (Reynolds, deitality inventory)
+  - id: exclamative-clause-001
+    relationship: interfaces-with
+    notes: Exclamative what/how marks headed exclamative Clauses
+  - id: clause-analogue-001
+    relationship: interfaces-with
+    notes: Exclamative what/how also occurs in non-headed constructions with exclamative clausal semantics
 grounds:
   - source: cgel-2002
     locator: "pp. 918-20"

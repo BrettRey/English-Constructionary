@@ -1,0 +1,90 @@
+id: declarative-question-001
+name: Declarative Question
+pattern: "Question[closed, same-polarity bias] applied to Declarative Clause + question intonation"
+type: semantic
+dimensions:
+  form: "Declarative Clause syntax, without subject–auxiliary inversion, combined with question intonation or corresponding question punctuation"
+  meaning: "A polar question strongly biased toward the answer with the same propositional content and polarity as the declarative base"
+  function: "Typically seeks confirmation of a proposition the speaker is already inclined to accept"
+  distribution: "Independent declarative Clauses in confirmation-seeking and other strongly biased question contexts"
+meanings:
+  '1':
+    definition: A declarative Clause used as a strongly same-polarity-biased question through question prosody
+    details: "Positive declarative questions are biased toward a positive answer and negative declarative questions toward a negative answer. The expected answer therefore has the same propositional content as the question, and confirmatory responses such as That's right, Exactly, and Quite so are especially natural. Question is the semantic category applied to a syntactically declarative Clause, with question intonation marking the combination; the host does not change clause type. It is not an echo question, since it need not repeat or query the wording of a prior stimulus (CGEL pp. 879–83)."
+    examples:
+      - form: "[They've finished?]"
+        note: Positive declarative question biased toward confirmation that they have finished
+      - form: "[They haven't finished?]"
+        note: Negative declarative question biased toward confirmation that they have not finished
+      - form: "[And the manager has been informed, of course?]"
+        note: Confidence marker reinforces the positive bias while remaining outside question scope
+      - form: "[There isn't any chance of her changing her mind, I take it?]"
+        note: Natural confirmation-seeking declarative question with negative polarity
+constraints:
+  - type: syntactic
+    description: "The Clause retains declarative syntax and is headed by VP; there is no clause-type-triggered subject–auxiliary inversion."
+  - type: structural
+    description: "Question intonation in speech, or corresponding question punctuation in writing, supplies the question interpretation without changing declarative clause type."
+  - type: semantic
+    description: "Question is a semantic classification of the whole form–interpretation pairing, while declarative remains the syntactic type of the headed host Clause."
+  - type: pragmatic
+    description: "The construction is strongly epistemically biased toward the same-polarity answer and is infelicitous as a neutral request between equally open positive and negative alternatives."
+  - type: pragmatic
+    description: "No prior utterance is required. If the form instead queries whether particular wording was said or heard, the independent echo-question construction is involved."
+kind:
+  provisional: true
+  projection:
+    target: "Declarative order plus question prosody predicts strong same-polarity bias, confirmation-seeking function, and compatibility with responses such as That's right or Exactly, in contrast to a neutral closed interrogative"
+    evidence: "Positive and negative declarative questions consistently reverse neither polarity nor expected answer; their response profile and confidence-marker compatibility diagnose bias independently of declarative word order"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 879-83"
+        relation: cites
+        bears-on: projection
+        note: "Question interpretation applied to declarative form projects polarity bias and response profile"
+      - source: cgel-2002
+        locator: "pp. 879-83"
+        relation: cites
+        bears-on: stability
+        note: "The same-polarity bias recurs across positive and negative declarative questions"
+  secured: stable
+  profile:
+    core:
+      - property: Declarative clause syntax
+        diagnostics: ["Subject–Predicator order", "no interrogative inversion"]
+        weight: high
+      - property: Question prosody
+        diagnostics: ["question intonation", "question-mark punctuation"]
+        weight: high
+      - property: Same-polarity bias
+        diagnostics: ["positive-to-positive expectation", "negative-to-negative expectation", "confirmatory response profile"]
+        weight: high
+  boundaries:
+    known_boundary_items:
+      - "She is a genius?: ordinary declarative question if it asks whether she is a genius; echo question if it asks whether the speaker said that she is"
+  grain:
+    level: meso
+    parent_families:
+      - question-constructions
+relatedConstructions:
+  - id: question-001
+    relationship: specialization-of
+    parthood: semantic
+    notes: Declarative Question is the same-polarity-biased subtype realized on a declarative Clause
+  - id: declarative-clause-001
+    relationship: interfaces-with
+    notes: The syntactic host retains declarative Clause type while receiving question semantics
+  - id: closed-interrogative-clause-001
+    relationship: see-also
+    notes: Closed interrogatives use interrogative syntax and can be neutral; declarative questions retain declarative syntax and are strongly biased
+  - id: echo-question-001
+    relationship: see-also
+    notes: Echo questions depend on a stimulus and question some aspect of that prior wording; ordinary declarative questions need not
+semanticRefs:
+  - question
+grounds:
+  - source: cgel-2002
+    locator: "pp. 879-83"
+    relation: cites
+    note: "Declarative questions as strongly biased indirect questions with same-polarity expectations and distinctive response patterns"

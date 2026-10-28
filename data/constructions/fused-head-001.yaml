@@ -1,0 +1,38 @@
+id: fused-head-001
+name: Fused-Head Construction
+pattern: "NP[non-nominal constituent in fused-head function]"
+type: syntactic
+dimensions:
+  form: "A non-nominal constituent realizes the NP without an overt nominal head"
+  meaning: "Head interpretation is recovered from the constituent itself, context, or a licensed complement structure"
+  function: "Head-like realization of an NP slot by a determiner, modifier, or related constituent"
+  distribution: "NP positions where a nominal head is omitted, absent, or constructionally unrecovered"
+meanings:
+  '1':
+    definition: A non-nominal constituent functions as the head of an NP without an overt nominal head
+    details: "This family covers fused determiner-head uses and fused modifier-head uses. The overt constituent may be a DP, an adjective phrase, a participial phrase, or a related non-nominal expression, depending on the subtype. The point of the construction is that the NP's head interpretation is supplied without an overt noun."
+    examples:
+      - form: "[Everybody] left early."
+        note: "Fused determiner-head subtype"
+      - form: "The [rich] were taxed more heavily."
+        note: "Fused modifier-head subtype"
+constraints:
+  - type: syntactic
+    description: The construction lacks an overt nominal head and is realized by a non-nominal constituent whose head interpretation is recoverable.
+  - type: structural
+    description: Fused determiner-head and fused modifier-head uses are subtypes of this broader family.
+relatedConstructions:
+  - id: fused-determiner-head-001
+    relationship: specialization-of
+    parthood: formal
+  - id: numerative-fused-head-001
+    relationship: specialization-of
+    parthood: formal
+  - id: demonstrative-determinative-fused-head-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §9"
+    relation: discusses
+    note: "CGEL's fused-head analysis covers determiner-head and modifier-head uses"

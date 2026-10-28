@@ -16,6 +16,12 @@ constraints:
   - type: pragmatic
     description: Collective and notional agreement can override strict grammatical number in some varieties.
 relatedConstructions:
+  - id: clause-001
+    relationship: interfaces-with
+    notes: Agreement links an overt Subject to the finite verbal head within Clause structure
+  - id: vp-001
+    relationship: interfaces-with
+    notes: Number is realized on the finite verb or auxiliary in the VP head of the Clause
   - id: grammatical-number-001
     relationship: related-to
   - id: singular-001

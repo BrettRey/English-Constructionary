@@ -1,0 +1,90 @@
+id: open-interrogative-clause-001
+name: Open Interrogative Clause
+pattern: "Clause: Interrogative:XP[non-subject] + (Subject:XP +) Head:VP / Subject:XP[interrogative] + Head:VP"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Clause headed by a VP and marked by an interrogative phrase; a non-subject interrogative phrase is normally fronted and triggers inversion in a main clause, while an interrogative Subject retains basic position"
+  meaning: "Characteristically presents an open proposition whose variable is assigned a value by an answer"
+  function: "Characteristically asks an open question, while also supporting rhetorical, directive, and other indirect uses"
+  distribution: "Tensed and infinitival main clauses and subordinate open-interrogative content clauses"
+meanings:
+  '1':
+    definition: A headed clause type marked by an interrogative phrase and characteristically used to ask for a variable's value
+    details: "The interrogative phrase is based on who, whom, whose, which, what, when, where, why, how, or a phrase containing one of these. If it is Subject, it occupies the same basic position as a declarative Subject and does not trigger inversion. A non-subject interrogative phrase is normally fronted and triggers subject–auxiliary inversion in a main clause, but subordinate clauses normally retain Subject–Predicator order. Reduced interrogative phrases are outside this headed-clause entry and belong with clause-analogue semantics (CGEL pp. 853–57, 872–76, 902–18)."
+    examples:
+      - form: "[Who broke the window?]"
+        note: Interrogative phrase as Subject; basic order and no subject–auxiliary inversion
+      - form: "[Which report did Kim finish?]"
+        note: Fronted non-subject interrogative phrase triggering inversion
+      - form: "I know [which report Kim finished]."
+        note: Subordinate open interrogative with basic Subject–Predicator order
+      - form: "[Why are you making such a fuss?]"
+        note: Open interrogative whose actual force may be rhetorical rather than information-seeking
+constraints:
+  - type: syntactic
+    description: "The construction is a Clause headed by VP and contains an interrogative phrase. Main-clause inversion follows normal fronting of a non-subject interrogative phrase, not interrogativity alone."
+  - type: syntactic
+    description: "An interrogative Subject remains in basic Subject position; subordinate open interrogatives normally lack subject–auxiliary inversion."
+  - type: structural
+    description: "A phrase-only reduction such as Which one? is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
+  - type: pragmatic
+    description: "A request for information is characteristic but not necessary; open interrogatives can be rhetorical or convey indirect directives and evaluations."
+kind:
+  provisional: true
+  projection:
+    target: "The grammatical role of the interrogative phrase predicts whether main-clause fronting and inversion occur, while its variable predicts answer congruence; subordinate status independently predicts retention of basic Subject–Predicator order"
+    evidence: "Subject, non-subject main-clause, and subordinate interrogative phrases show the predicted three-way order contrast, while all contribute a variable to the characteristic question interpretation"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 853-57, 872-76, 902-18"
+        relation: cites
+        bears-on: projection
+        note: "The interrogative phrase's role projects order, inversion, answer congruence, and subordinate behavior"
+      - source: cgel-2002
+        locator: "pp. 853-57, 872-76, 902-18"
+        relation: cites
+        bears-on: stability
+        note: "The role-sensitive profile recurs across main and subordinate open interrogatives"
+  secured: stable
+  profile:
+    core:
+      - property: Interrogative phrase marking
+        diagnostics: ["who/whom/whose/which/what/when/where/why/how base", "variable in open proposition"]
+        weight: high
+      - property: Role-sensitive order
+        diagnostics: ["basic order for interrogative Subject", "fronting plus inversion for a non-subject in a main clause", "normally no inversion in a subordinate clause"]
+        weight: high
+  grain:
+    level: meso
+    parent_families:
+      - clause-type
+      - question-constructions
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: interrogative-word-001
+    relationship: interfaces-with
+    notes: The interrogative property percolates from the word through its phrase to mark the open-interrogative Clause
+  - id: closed-interrogative-clause-001
+    relationship: see-also
+    notes: Open and closed interrogatives are distinct primary clause types with different syntactic marking
+  - id: exclamative-clause-001
+    relationship: see-also
+    notes: What and how can mark either type, but role, order, meaning, and context distinguish them
+  - id: echo-question-001
+    relationship: see-also
+    notes: Echo marking is independent of clause type and can preserve the stimulus order instead of showing open-interrogative order
+  - id: clause-analogue-001
+    relationship: see-also
+    notes: Phrase-only open-question expressions are interpreted clausally without being headed Clauses
+semanticRefs:
+  - question
+  - variable
+grounds:
+  - source: cgel-2002
+    locator: "pp. 853-57, 872-76, 902-18"
+    relation: cites
+    note: "Open-interrogative marking, role-sensitive order, variable questions, and interrogative-phrase percolation"

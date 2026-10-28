@@ -7,11 +7,11 @@
 
 ## Current State
 
-- 91 construction files, all validating; tree clean at last commit
+- 124 construction files; Clause/VP, Clause-type, Question, and expanded argument-structure networks are implemented in the current worktree
 - Public site: https://brettrey.github.io/English-Constructionary/ (Pages deploys from main on push)
 - CI: `npm run validate` runs on every push/PR
 - Framework: **projectibility-first**; the `kind` block replaced `hpc` (see `docs/projectibility-first.md` and the migration map in `docs/SCHEMA.md`)
-- A Codex audit for CGEL category violations was dispatched 2026-07-16; report lands in `/tmp/claude-agent-output/cgel-category-audit.md`
+- The CGEL category audit was triaged and retained at `docs/audits/2026-07-16-cgel-category-audit.md`
 
 ## Key Design Principles (see CLAUDE.md for full details)
 
@@ -27,13 +27,12 @@
 
 ## Next logical steps
 
-- Triage the Codex CGEL audit when it completes
-- Add projection targets to `directive-ostensive-001` and `vocative-001`
+- Add relative and content Clause constructions on the new Clause backbone
+- Assess a high-degree locative-complement parent for goal/source/path
 - Rung-by-rung review of the migrated `secured: stable` assignments (all provisional)
 - Split `adjective-001` (failure-mode: fat)
-- Expand to clausal constructions (relative clauses, conditionals, etc.)
 
 ## Technical notes
 
-- Web browser: `npm run web` (local); site rebuilds manifest in CI, so `web/manifest.json` need not be committed fresh
-- Validation: `npm run validate` · Lint only: `npm run lint` · Manifest: `npm run build:web`
+- Web browser: `npm run web` (local); site rebuilds manifest in CI
+- Validation: `npm run validate` · Lint only: `npm run lint` · Manifest: `npm run build:web` · Typed graph: `npm run graph` · Grounding coverage: `npm run grounding`

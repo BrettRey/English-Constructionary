@@ -1,0 +1,81 @@
+id: imperative-clause-001
+name: Imperative Clause
+pattern: "Clause: (Subject:XP +) Head:VP[plain-form imperative]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Clause headed by a plain-form VP; a second-person Subject is normally optional, and imperative do-support has properties distinct from declarative negation"
+  meaning: "Presents a potential situation for addressee-oriented realization, while also permitting wishes, conditionals, and other non-directive interpretations"
+  function: "Characteristically issues a directive"
+  distribution: "Normally a main clause; English lacks a general subordinate imperative construction"
+meanings:
+  '1':
+    definition: A headed clause type with plain-form VP and optional second-person Subject, characteristically used as a directive
+    details: "Imperative is defined by its grammatical profile, not by directive force. The Subject is often absent and normally understood as second person, but overt you and third-person-like quantified Subjects are licensed. The verb is plain-form; supportive do is required for verbal negation, emphatic polarity, and code even with be. Sleep well illustrates a wish use rather than a directive. Non-finite and non-headed directives do not thereby become imperative clauses (CGEL pp. 853–57, 924–43)."
+    examples:
+      - form: "[Be generous.]"
+        note: Subjectless imperative with plain-form be
+      - form: "[You be careful.]"
+        note: Imperative with overt second-person Subject
+      - form: "[Everybody stand up.]"
+        note: Imperative with quantified overt Subject and plain-form verb
+      - form: "[Sleep well.]"
+        note: Imperative clause used to express a wish rather than a directive
+      - form: "[Don't be late.]"
+        note: Imperative do-support with be
+constraints:
+  - type: syntactic
+    description: "The construction is a Clause headed by a plain-form VP. A second-person Subject is omissible; an overt Subject precedes the positive VP but normally follows don't in a negative imperative."
+  - type: syntactic
+    description: "Supportive do is required in verbal negation and emphatic polarity even with be; imperative clauses are normally restricted to main-clause distribution."
+  - type: pragmatic
+    description: "Directive force is characteristic, not necessary: wishes and conditional interpretations retain imperative clause type, while interrogative, declarative, non-finite, and non-headed expressions can convey directives without becoming imperatives."
+kind:
+  provisional: true
+  projection:
+    target: "Plain-form imperative VP syntax predicts optional second-person Subject, special do-support with be, and main-clause distribution; directive force is the default pragmatic inference but can be overridden by wish or conditional uses"
+    evidence: "The linked cluster of plain-form inflection, Subject optionality, imperative negation, and main-clause restriction holds independently of whether a token is actually used to direct the addressee"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 853-57, 924-43"
+        relation: cites
+        bears-on: projection
+        note: "Plain-form imperative syntax projects Subject optionality, special do-support, and main-clause distribution"
+      - source: cgel-2002
+        locator: "pp. 853-57, 924-43"
+        relation: cites
+        bears-on: stability
+        note: "The linked grammatical profile recurs across directive and non-directive uses"
+  secured: stable
+  profile:
+    core:
+      - property: Plain-form VP head
+        diagnostics: ["plain be", "plain form with quantified Subject"]
+        weight: high
+      - property: Subject optionality
+        diagnostics: ["understood second-person Subject", "overt you or quantified Subject"]
+        weight: high
+      - property: Imperative do-support
+        diagnostics: ["don't be", "emphatic do be"]
+        weight: high
+    peripheral:
+      - property: Directive force
+        diagnostics: ["request", "command", "instruction"]
+        weight: medium
+  grain:
+    level: meso
+    parent_families:
+      - clause-type
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: clause-analogue-001
+    relationship: see-also
+    notes: Non-finite and non-headed directives can convey directive meaning without being imperative Clauses
+grounds:
+  - source: cgel-2002
+    locator: "pp. 853-57, 924-43"
+    relation: cites
+    note: "Imperative syntax, Subject optionality, do-support, characteristic directive use, and absence of a general subordinate imperative"

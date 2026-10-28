@@ -1,38 +1,96 @@
 id: echo-question-001
 name: Echo Question
-pattern: "[Declarative clause] + rising intonation / ?"
-type: mixed
+pattern: "Question[echo] applied to Host:Clause[clause type preserved] / Non-headed clausal-semantics construction + echo prosody (+ variable phrase in situ)"
+type: semantic
+dimensions:
+  form: "An independently typed Clause or licensed clause-analogue construction echoes a prior utterance, often with rising or rise-fall prosody; a questioned constituent may be replaced by an in-situ variable phrase"
+  meaning: "Questions what the previous speaker said or meant, rather than directly questioning the echoed proposition"
+  function: "Requests repetition or clarification of a prior utterance, often also conveying surprise or incredulity"
+  distribution: "Response to a linguistic stimulus; overlays declarative, closed-interrogative, imperative, and other Clause types without replacing them, and also licenses non-headed echo hosts"
 meanings:
   '1':
-    definition: Seeks confirmation or expresses surprise about a proposition using declarative syntax with question prosody
-    details: "A declarative clause receives rising intonation (in speech) or question mark punctuation (in writing) to function as a question. Distinct from interrogative clauses, which have subject-auxiliary inversion. Can express: (a) request for confirmation, (b) surprise/disbelief, (c) challenge to the proposition. Often layers with other constructions."
+    definition: Repeats all or part of a prior utterance to ask whether that is what the previous speaker said
+    details: "The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of Is he resigning? asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90)."
     examples:
-      - form: "[You're leaving]?"
-        note: Confirmation-seeking; declarative clause with question prosody
-      - form: "[She said that]?"
-        note: Surprise/disbelief
-      - form: "[He's a doctor]?"
-        note: Seeking confirmation of unexpected information
-      - form: "[You think you're upset]?"
-        note: Layered with scalar recalibration construction
-      - form: "[You call that a sandwich]?"
-        note: Layered with scalar challenge construction
+      - form: "A: She is leaving on Saturday. B: [She is leaving on Saturday]?"
+        note: Repetition echo with declarative clause type preserved
+      - form: "A: Is he going to resign? B: [Is he going to resign]?"
+        note: The echo remains a closed interrogative Clause
+      - form: "A: Ed is quite competent. B: [Ed quite competent]?"
+        note: Bare-predication echo with a non-headed host; question semantics does not make it a Clause
+  '2':
+    definition: Replaces a poorly heard or understood part of the stimulus with an in-situ variable phrase to request clarification
+    details: "Variable echoes normally retain the word order and clause type of the stimulus rather than acquiring ordinary open-interrogative syntax. Reduction and deictic adjustment are common because the stimulus came from another speaker."
+    examples:
+      - form: "A: Give it to Angela. B: [Give it to who]?"
+        note: Variable echo superimposed on an imperative Clause
+      - form: "A: Did you use a macro? B: [Did I use a what]?"
+        note: Variable echo superimposed on a closed interrogative Clause, with deictic shift
 constraints:
-  - type: syntactic
-    description: Base is a declarative clause (no subject-auxiliary inversion)
-  - type: structural
-    description: Rising intonation on final syllable(s)
   - type: pragmatic
-    description: Speaker treats proposition as given or previously asserted, seeks confirmation or expresses reaction
-dimensions:
-  form: Declarative clause structure + rising intonation contour
-  meaning: Proposition is backgrounded; speaker questions or reacts to it
-  function: Confirmation request, surprise marker, or challenge
-  distribution: Typically responds to prior utterance or situational evidence
+    description: "Requires a recoverable linguistic stimulus whose wording or interpretation is being repeated or clarified."
+  - type: syntactic
+    description: "The echo overlay does not determine syntactic category: an underlying declarative, closed-interrogative, imperative, or other headed Clause retains its defining syntax, and a licensed non-headed host does not become a Clause."
+  - type: structural
+    description: "Variable echoes may leave the questioned phrase in the position corresponding to the stimulus and may reduce other recoverable material."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing an echo question predicts preservation of the host's syntactic classification, stimulus-bound deictic adjustment, possible in-situ variable replacement, and answers directed to what was said or meant rather than directly to the echoed proposition"
+    evidence: "CGEL contrasts echo with ordinary questions through clause-type preservation, stimulus dependence, deictic shift, variable placement, and response interpretation on pp. 853–54 and 886–90"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 853-54, 886-90"
+        relation: cites
+        bears-on: projection
+      - source: cgel-2002
+        locator: "pp. 853-54, 886-90"
+        relation: cites
+        bears-on: stability
+        note: "Clause-type preservation, stimulus dependence, and variable placement recur across echo subtypes"
+  secured: stable
+  profile:
+    core:
+      - property: Stimulus-bound repetition or clarification
+        diagnostics: ["recoverable prior utterance", "response targets what was said or meant"]
+        weight: high
+      - property: Host-category preservation
+        diagnostics: ["imperative echo", "closed-interrogative echo", "declarative echo", "non-headed echo"]
+        weight: high
+      - property: Echo-specific variable placement
+        diagnostics: ["in-situ who/what phrase", "reduction of recoverable material"]
+        weight: high
+  boundaries:
+    known_boundary_items:
+      - "Declarative questions such as They've finished? seek confirmation of a proposition using declarative syntax but need not echo a linguistic stimulus."
+      - "Ordinary open interrogatives are typed by an interrogative phrase and normally front a non-subject phrase; variable echoes preserve stimulus order."
+  grain:
+    level: meso
+    parent_families:
+      - question-constructions
 relatedConstructions:
-  - id: scalar-recalibration-declarative-001
-    relationship: related-to
-    notes: Scalar recalibration often layers with echo question for confrontational effect
-  - id: scalar-challenge-call-001
-    relationship: related-to
-    notes: Scalar challenge typically layers with echo question
+  - id: question-001
+    relationship: specialization-of
+    parthood: semantic
+    notes: Echo Question specializes Question by making the questioned content a prior linguistic stimulus
+  - id: clause-001
+    relationship: interfaces-with
+    notes: "Many echoes overlay an independently typed headed Clause without becoming a clause type"
+  - id: clause-analogue-001
+    relationship: interfaces-with
+    notes: "A licensed non-headed expression can host echo-question semantics without becoming a Clause"
+  - id: declarative-question-001
+    relationship: see-also
+    notes: "Declarative questions have declarative syntax and confirmation bias but do not require a linguistic stimulus"
+  - id: open-interrogative-clause-001
+    relationship: see-also
+    notes: "Variable echoes may contain similar forms but preserve stimulus order rather than instantiating ordinary open-interrogative syntax"
+semanticRefs:
+  - question
+  - metalinguistic
+grounds:
+  - source: cgel-2002
+    locator: "pp. 853-54, 886-90"
+    relation: cites
+    note: "Echo questions overlay independently determined clause types and seek repetition or clarification"

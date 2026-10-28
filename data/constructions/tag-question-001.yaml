@@ -1,0 +1,155 @@
+id: tag-question-001
+name: Tag Question
+pattern: "Anchor:Clause[declarative | exclamative] + Tag:Clause[Head:VP[Head:V[auxiliary]]; Subject:NP[personal pronoun]; surface Auxiliary–Subject (+ not)] => Meaning:Question"
+type: semantic
+dimensions:
+  form: "A declarative or exclamative Anchor Clause followed by a supplementary short closed-interrogative Tag Clause; the tag has a personal-pronoun Subject and an auxiliary-headed VP, with surface subject–auxiliary inversion"
+  meaning: "A normally biased polar question anchored to the proposition of the first Clause; polarity relation and prosody distinguish reversed- and constant-polarity interpretations"
+  function: "Seeks verification, acknowledgement, agreement, or uptake of the anchor, with exclamative anchors normally supporting acknowledgement or rhetorical force rather than doubt"
+  distribution: "Independent utterances in which a declarative or exclamative Clause licenses a following supplementary Tag Clause"
+meanings:
+  '1':
+    implements: question-001.1
+    specialization: "A reversed-polarity tag presents a biased polar answer set whose salient positive member confirms the anchor proposition. A rising tag asks for verification or expresses doubt; a falling tag seeks acknowledgement and may be rhetorical. Exclamative anchors normally take this falling pattern because the truth of their proposition is presented as not at issue."
+    examples:
+      - form: "[He is ill], [isn't he]?"
+        note: "Positive declarative Anchor Clause plus negative Tag Clause; reversed polarity"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §5.1, p. 892, [3ia]"
+            relation: attests
+            bears-on: attestation
+      - form: "[Everybody has read it], [haven't they]?"
+        note: "Tag auxiliary agrees with plural tag Subject they, not directly with singular anchor Subject everybody"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §5.1, p. 893, [7iv] discussion"
+            relation: attests
+            bears-on: attestation
+      - form: "[What a mess I've made of things], [haven't I]?"
+        note: "Exclamative Anchor Clause with the normally falling, acknowledgement-oriented reversed tag"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §5.2, p. 895"
+            relation: attests
+            bears-on: attestation
+  '2':
+    implements: question-001.1
+    specialization: "A constant-polarity tag has the same polarity as its typically positive declarative anchor. With its characteristic slight rise, it commonly attributes the anchor content to the addressee and conveys acknowledgement, surprise, disapproval, reproach, or sarcasm rather than speaker doubt."
+    examples:
+      - form: "[He is ill], [is he]?"
+        note: "Positive declarative anchor and positive tag; constant polarity"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §5.1, p. 892, [3iia]"
+            relation: attests
+            bears-on: attestation
+      - form: "[So you have forgotten your homework again], [have you]?"
+        note: "Constant-polarity tag with reproachful or disapproving force"
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 10 §5.2, p. 895, [12i]"
+            relation: attests
+            bears-on: attestation
+constraints:
+  - type: structural
+    description: "The construction combines an Anchor Clause with a supplementary Tag Clause; it does not turn their combination into a single Clause. Each Clause independently has the strict structure (Subject +) Head:VP."
+  - type: syntactic
+    description: "The Anchor is a declarative or exclamative Clause. The Tag is a short closed-interrogative Clause with a personal-pronoun Subject and a VP headed by an auxiliary; subject–auxiliary inversion determines surface order."
+  - type: syntactic
+    description: "If the relevant anchor Predicator is auxiliary-headed, the tag normally selects the same auxiliary lexeme; otherwise it selects do. The tag auxiliary normally has the anchor's tense."
+  - type: syntactic
+    description: "The personal-pronoun tag Subject repeats a pronominal anchor Subject or is anaphorically selected for a non-pronominal one. Person–number agreement is controlled by the tag Subject, as Everybody has read it, haven't they? demonstrates."
+  - type: morphological
+    description: "A negative tag permits synthetic auxiliary negation in ordinary style or analytic final not in more formal style."
+  - type: semantic
+    description: "The tag has polarity opposite to the anchor in the frequent reversed-polarity variant and the same polarity in the constant-polarity variant; semantically negative anchors such as Few of them liked it select a positive reversed tag."
+  - type: pragmatic
+    description: "Prosody is constructionally significant: a reversed rising tag normally requests verification, a reversed falling tag seeks acknowledgement, and a constant tag characteristically has a slight rise with attributional or emotive effects."
+kind:
+  provisional: true
+  projection:
+    target: "Recognizing Tag Question membership predicts an anaphoric personal-pronoun Subject, same-auxiliary selection or do-support, preservation of relevant tense, agreement with the tag Subject, a systematic reversed-or-constant polarity relation, and prosody-sensitive verification, acknowledgement, or emotive force"
+    evidence: "The predictions jointly distinguish direct tags from arbitrary interrogative supplements: anchor Subject and Predicator determine pronoun, auxiliary, tense, and agreement, while polarity relation and contour predict the characteristic interpretations"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 10 §§5.1–5.2, pp. 892–95"
+        relation: cites
+        bears-on: projection
+        note: "Provides the direct tag-formation procedure and the polarity-by-prosody interpretation contrasts"
+      - source: cgel-2002
+        locator: "Ch. 10 §5, pp. 891–95"
+        relation: attests
+        bears-on: stability
+        note: "The pronoun, auxiliary, tense, agreement, polarity, and prosody cluster recurs across declarative and exclamative anchors"
+  secured: stable
+  profile:
+    core:
+      - property: "Two-Clause anchor-plus-tag realization"
+        diagnostics: ["declarative or exclamative Anchor Clause", "supplementary closed-interrogative Tag Clause"]
+        weight: high
+      - property: "Auxiliary–pronoun tag form"
+        diagnostics: ["personal-pronoun Subject", "auxiliary-headed VP", "surface subject–auxiliary inversion", "do-support where required"]
+        weight: high
+      - property: "Anchor-dependent feature selection"
+        diagnostics: ["anaphoric pronoun", "same auxiliary lexeme or do", "same tense", "agreement with tag Subject"]
+        weight: high
+      - property: "Polarity–prosody interpretation"
+        diagnostics: ["reversed versus constant polarity", "rising verification", "falling acknowledgement"]
+        weight: high
+    peripheral:
+      - property: "Emotive constant-polarity use"
+        diagnostics: ["surprise", "reproach", "sarcasm"]
+        weight: medium
+  boundaries:
+    known_boundary_items:
+      - "CGEL also attests tags with closed-interrogative and imperative anchors; those lie outside this declarative-or-exclamative-anchor constructional node."
+      - "Lovely day, isn't it? has a non-clausal anchor under the strict VP-headed Clause ontology and therefore is not an instance of this Clause-anchored node."
+      - "Interrogative parentheticals such as don't you think? are larger interrogative supplements, not auxiliary-plus-pronoun tags."
+  grain:
+    level: meso
+    parent_families:
+      - question-constructions
+relatedConstructions:
+  - id: question-001
+    relationship: specialization-of
+    parthood: semantic
+    notes: "Tag Question inherits answer-set semantics and specializes it as an anchor-dependent, normally biased polar question"
+  - id: clause-001
+    relationship: interfaces-with
+    notes: "Both Anchor and Tag satisfy (Subject +) Head:VP; their supplemented combination is not itself a Clause"
+  - id: declarative-clause-001
+    relationship: interfaces-with
+    notes: "A declarative Clause is the default Anchor realization"
+  - id: exclamative-clause-001
+    relationship: interfaces-with
+    notes: "An exclamative Clause can anchor a normally falling reversed-polarity tag"
+  - id: closed-interrogative-clause-001
+    relationship: interfaces-with
+    notes: "The short Tag is a closed-interrogative Clause with surface subject–auxiliary inversion"
+  - id: verb-number-agreement-001
+    relationship: interfaces-with
+    notes: "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-they cases"
+  - id: vp-001
+    relationship: interfaces-with
+    notes: "The Tag Clause retains an auxiliary-headed VP despite surface inversion"
+  - id: declarative-question-001
+    relationship: see-also
+    notes: "A declarative question applies Question meaning to one declarative Clause; a Tag Question adds a distinct Tag Clause to its Anchor"
+  - id: clause-analogue-001
+    relationship: see-also
+    notes: "Non-clausal anchors in forms such as Lovely day, isn't it? require a separate host analysis"
+semanticRefs:
+  - question
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 10 §5, pp. 891–95"
+    relation: cites
+    bears-on: category-assignment
+    note: "Describes anchor-plus-tag questions, direct tag formation, polarity classes, agreement, and prosodically conditioned interpretations"
+  - source: brett-judgment
+    locator: "2026-07-16"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Tag Question is a semantic specialization realized by a declarative or exclamative Anchor Clause plus a Tag Clause with a pronominal Subject and auxiliary-headed VP; every Clause remains strictly VP-headed"

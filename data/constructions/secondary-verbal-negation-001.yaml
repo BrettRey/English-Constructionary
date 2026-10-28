@@ -20,6 +20,13 @@ constraints:
   - type: position
     description: In to-infinitivals, not may appear before or after to (e.g., "for them to not smile").
 relatedConstructions:
+  - id: vp-001
+    relationship: contains
+    parthood: formal
+    notes: Secondary not premodifies the VP that heads the non-finite or subjunctive Clause
+  - id: clause-001
+    relationship: interfaces-with
+    notes: Secondary verbal negation applies within headed non-finite and subjunctive Clauses
   - id: imperative-negation-do-001
     relationship: related-to
   - id: constituent-not-negation-001

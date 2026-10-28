@@ -25,3 +25,8 @@ meanings:
         note: Residence continues up to now
       - form: She has worked here since 2020
         note: Ongoing state with inception in the past
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The perfect auxiliary and participial complement form a VP headed by have

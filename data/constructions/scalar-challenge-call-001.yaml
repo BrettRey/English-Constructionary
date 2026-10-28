@@ -17,12 +17,19 @@ meanings:
         note: Challenges whether token meets criteria for type
 constraints:
   - type: syntactic
-    description: Declarative clause with 2nd person subject and "call" as main verb; typically layered with echo question construction
+    description: Declarative clause with 2nd person subject and "call" as main verb; typically layered with the declarative-question construction
   - type: semantic
     description: Complement is a category label (N or predicative expression)
   - type: pragmatic
     description: Challenges appropriateness of categorization
 relatedConstructions:
+  - id: declarative-clause-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The challenge frame retains declarative clause type
+  - id: declarative-question-001
+    relationship: interfaces-with
+    notes: Question prosody conventionally layers onto the declarative challenge frame
   - id: scalar-recalibration-declarative-001
     relationship: overlaps-with
     overlap-dimension: functional

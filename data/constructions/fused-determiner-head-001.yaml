@@ -1,0 +1,40 @@
+id: fused-determiner-head-001
+name: Fused Determiner-Head Construction
+pattern: "NP[DP in fused-head function]"
+type: syntactic
+dimensions:
+  form: "DP with no following nominal head"
+  meaning: "Quantity, identity, or person reference with the head interpretation recovered anaphorically, from a partitive complement, or from the determinative's own content"
+  function: "Determiner and head functions fused in one constituent"
+  distribution: "Any NP position; may license a partitive of-complement"
+meanings:
+  '1':
+    definition: A DP functions simultaneously as determiner and head of the NP, with no separate nominal head
+    details: "CGEL Ch. 5 §9. Covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where (traditional 'indefinite pronouns'), and demonstratives standing alone. These are not pronouns; the category stays determinative while the head function is fused. This entry is a determiner-head subtype of the broader fused-head construction. Contested: Reynolds, Determinatives as nouns in English (under review at ELL; LingBuzz 009939), analyzes determinatives as a fourth noun subclass, with simple independent uses (Some left) as ordinary Head rather than fused Det-Head, narrowing fusion to a residue. If adopted, this entry shrinks accordingly."
+    examples:
+      - form: "She bought twenty books, but I bought [twenty-two]."
+        note: Anaphoric fused head (numerative)
+      - form: "We liked [none] of them."
+        note: Partitive; independent form of the determinative no
+      - form: "[Everybody] left early."
+        note: Compound determinative, not an indefinite pronoun
+      - form: "[Those] are mine."
+        note: Demonstrative determinative standing alone, not a demonstrative pronoun
+constraints:
+  - type: syntactic
+    description: The fused element is a DP; NPs headed by pronouns are a different construction (np-pron-001).
+syntacticRefs:
+  - one-substitution
+relatedConstructions:
+  - id: fused-head-001
+    relationship: specialization-of
+    parthood: formal
+    notes: "Determinative-head subtype of the broader fused-head family"
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: absolute-negator-determinative-001
+    relationship: related-to
+    notes: Absolute negators standing alone as NPs instantiate this construction
+lexiconRefs:
+  - gold/determinatives

@@ -22,7 +22,7 @@ constraints:
   - type: syntactic
     description: "The interrogative property percolates from the indeterminate to its phrase and clause. Non-subject phrases are normally fronted and trigger subject–auxiliary inversion in main clauses; subjects are not fronted, subordinate clauses normally do not invert, and echoes may leave the phrase in situ."
 semanticRefs:
-  - question-clause
+  - question
   - variable
 formRefs:
   - indeterminate-series
@@ -31,7 +31,17 @@ relatedConstructions:
     relationship: specialization-of
     parthood: semantic
   - id: echo-question-001
-    relationship: related-to
+    relationship: see-also
+    notes: "Variable echoes may use similar forms in situ but preserve the stimulus's independently determined clause type"
+  - id: open-interrogative-clause-001
+    relationship: interfaces-with
+    notes: Interrogative words mark headed open-interrogative Clauses through upward percolation
+  - id: question-001
+    relationship: interfaces-with
+    notes: Interrogative words contribute variables to open-question semantics
+  - id: clause-analogue-001
+    relationship: interfaces-with
+    notes: An interrogative phrase can form a non-headed question construction without instantiating Clause
   - id: deitality-001
     relationship: see-also
     notes: Deitality diagnostics are largely undefined for fronted interrogatives (clause-type dependent)

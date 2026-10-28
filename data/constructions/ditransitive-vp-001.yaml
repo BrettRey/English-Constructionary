@@ -52,6 +52,17 @@ kind:
     target: "A verb sense attested in the canonical Head–NP–NP frame predicts reduced frontability and postposability of the first NP relative to the second, preference for first-object passivization, and an animate, given, and topical bias in the first-object slot"
     evidence: "CGEL documents fixed order and extraction asymmetries on pp. 248–50, passive asymmetries on pp. 249–50, information-packaging preferences on pp. 309–10, and role and alternant classes on pp. 308–13"
     confidence: medium
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 4 §4.3, pp. 248-51; §8.2, pp. 308-13"
+        relation: cites
+        bears-on: projection
+        note: "Order, extraction, passive, information-packaging, and alternant diagnostics"
+      - source: cgel-2002
+        locator: "Ch. 4 §4.3, pp. 248-51; §8.2, pp. 308-13"
+        relation: cites
+        bears-on: stability
+        note: "The Oi/Od asymmetries recur across independently defined verb-sense classes"
   secured: stable
   profile:
     core:
@@ -94,6 +105,10 @@ kind:
     parent_families:
       - argument-structure
 relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: Ditransitive complementation is a specialization of VP structure
   - id: np-001
     relationship: contains
     parthood: formal
@@ -101,3 +116,13 @@ relatedConstructions:
   - id: caused-motion-001
     relationship: see-also
     notes: "Caused motion has one Od plus a locative PP complement and is therefore monotransitive, not ditransitive"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 4 §§1-1.1, 4.3, 8.2, pp. 215-17, 248-51, 308-13"
+    relation: cites
+    bears-on: category-assignment
+    note: "Ditransitive complementation is the syntactic Head-Oi-Od pattern, not a semantic transfer class"
+  - source: goldberg-2006
+    locator: "pp. 20-28"
+    relation: discusses
+    note: "Caused-receipt prototype and extensions in the double-object semantic network"

@@ -1,0 +1,125 @@
+id: verb-particle-object-001
+name: Prepositional Verb-Particle-Object Construction
+pattern: "Head:V + Comp:PP[particle, Head:P[intransitive]] + Od:NP ↔ Head:V + Od:NP + Comp:PP[particle, Head:P[intransitive]]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "VP headed by a verb with an NP direct object and a separate one-word PP complement in particle use, ordered either Head–particle–Od or Head–Od–particle"
+  meaning: "Ranges from transparent spatial or directional combinations to aspectual and idiomatic verb-particle combinations"
+  function: "Allows a one-word PP complement to occur exceptionally between the verb head and its NP direct object"
+  distribution: "VP-internal in transitive clauses; post-object order is required with an unstressed personal-pronoun Od, while lexical and information-weight factors affect the two orders elsewhere"
+meanings:
+  '1':
+    definition: A one-word PP complement in particle use combines with a verb and a distinct NP direct object
+    details: "Particle is a syntactic use, not a lexical category. In the central case, the particle is a one-word PP headed by an intransitive preposition. In She took off the label, off is a complement of take and the label is a separate Od; this differs from She jumped off the wall, where off is a transitive preposition and off the wall is a single PP complement. The particle construction is diagnosed by order alternation, obligatory pre-particle placement of an unstressed pronoun, and the failure of particle + Od to behave as a constituent (CGEL Ch. 4 §6.2, pp. 280–83)."
+    examples:
+      - form: "She [brought down the bed]."
+        note: Head–particle–Od order with down as a one-word PP complement
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §6.2, p. 280"
+            relation: attests
+            bears-on: attestation
+      - form: "She [brought the bed down]."
+        note: Alternating Head–Od–particle order
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §6.2, p. 280"
+            relation: attests
+            bears-on: attestation
+      - form: "She [took the label off]."
+        note: Post-object particle; compare the impossible unstressed-pronoun order *took off it
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 4, §6.2, pp. 281–82"
+            relation: attests
+            bears-on: attestation
+constraints:
+  - type: syntactic
+    description: "The particle is a Comp:PP of the verb and the NP is a separate Od of the verb; particle + NP is not a PP constituent."
+  - type: structural
+    description: "In the central prepositional subtype recorded here, the particle is a one-word PP headed by an intransitive P; the term particle identifies its syntactic use rather than a lexical category."
+  - type: position
+    description: "An ordinary non-pronominal Od generally permits Head–particle–Od and Head–Od–particle orders, but an unstressed personal-pronoun Od must immediately follow the verb: take it off, not *take off it."
+  - type: syntactic
+    description: "Particle + Od cannot normally be fronted, foregrounded in an it-cleft, or repeated as a coordinated phrase; these failures distinguish the sequence from a transitive PP."
+  - type: position
+    description: "Heavy-NP postposing and lexical fossilisation can obscure the ordinary alternation, so no single placement test is necessary in every token."
+kind:
+  provisional: true
+  projection:
+    target: "The ability of a one-word PP complement to intervene between Head:V and a non-pronominal Od predicts a corresponding post-object placement, obligatory pre-particle placement of an unstressed pronoun, and non-constituency of particle + Od"
+    evidence: "CGEL's order, pronoun-substitution, fronting, coordination, and adverb-insertion contrasts jointly distinguish the particle construction from V + transitive-PP structure (Ch. 4 §6.2, pp. 280–83)."
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "Ch. 4, §6.2, pp. 280–83"
+        relation: cites
+        bears-on: projection
+      - source: cgel-2002
+        locator: "Ch. 4, §6.2, pp. 281–83"
+        relation: cites
+        bears-on: stability
+  secured: stable
+  profile:
+    core:
+      - property: One-word PP complement in particle use
+        diagnostics: ["intransitive-P head", "separate Od dependent of V"]
+        weight: high
+      - property: Particle placement alternation
+        diagnostics: ["Head–particle–Od", "Head–Od–particle"]
+        weight: high
+      - property: Pronoun-order asymmetry
+        diagnostics: ["unstressed personal pronoun immediately follows V", "*Head–particle–pronoun"]
+        weight: high
+      - property: Particle plus Od is not a constituent
+        diagnostics: ["fronting failure", "it-cleft failure", "coordination failure"]
+        weight: high
+    peripheral:
+      - property: Semantic transparency
+        diagnostics: ["literal locative combination", "aspectual extension", "lexical idiom"]
+        weight: low
+  variation:
+    activation_states:
+      - context: Heavy Od
+        effect: End placement of the Od may be licensed independently of the particle construction
+      - context: Fossilised verb-particle idiom
+        effect: One of the two particle positions may be strongly preferred or excluded
+  boundaries:
+    known_boundary_items:
+      - "jump off the wall: off heads a transitive PP containing its own Obj, rather than a particle PP followed by Od"
+      - "read through the prospectus versus read the prospectus through: CGEL treats this as alternation between a transitive PP and NP plus non-particle intransitive PP"
+      - "Adjectival and verbal particles occur in a small set of idioms, but the present entry records the central PP subtype"
+  grain:
+    level: meso
+    parent_families:
+      - argument-structure
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The particle and direct object are dependents in a VP headed by V
+  - id: np-001
+    relationship: contains
+    parthood: formal
+    notes: The separate direct object is realized by an NP
+  - id: pp-001
+    relationship: contains
+    parthood: formal
+    notes: The particle is a one-word PP complement
+  - id: caused-motion-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: Literal directional particles can realize the locative complement in caused-motion VPs, while idiomatic particles need not express motion
+lexiconRefs:
+  - gold/prepositions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 4, §6.2, pp. 280–81"
+    relation: cites
+    bears-on: category-assignment
+    note: "Particle is a syntactic use; central particles are one-word PPs headed by intransitive prepositions"
+  - source: cgel-2002
+    locator: "Ch. 4, §6.2, pp. 281–83"
+    relation: cites
+    note: "Convergent order, pronoun, constituency, coordination, and insertion diagnostics"

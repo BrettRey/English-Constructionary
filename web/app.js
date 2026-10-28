@@ -340,16 +340,32 @@ const renderYamlSummary = (data, itemMeta = null) => {
       ['specialization-of', 'implements', 'inherits-from'].includes(rel.relationship)
     );
     const contains = (itemMeta.relations || []).filter((rel) => rel.relationship === 'contains');
-    const interfacesWith = (itemMeta.relations || []).filter(
-      (rel) => rel.relationship === 'interfaces-with'
+    const uniqueRelations = (rels) => {
+      const seen = new Set();
+      return rels.filter((rel) => {
+        const key = `${rel.id}|${rel.relationship}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    };
+    const incomingSymmetric = (itemMeta.incomingRelations || []).filter((rel) =>
+      ['interfaces-with', 'alternates-with', 'overlaps-with', 'related-to', 'see-also'].includes(rel.relationship)
     );
-    const alternatesWith = (itemMeta.relations || []).filter(
-      (rel) => rel.relationship === 'alternates-with'
-    );
-    const related = (itemMeta.relations || []).filter(
+    const interfacesWith = uniqueRelations([
+      ...(itemMeta.relations || []).filter((rel) => rel.relationship === 'interfaces-with'),
+      ...incomingSymmetric.filter((rel) => rel.relationship === 'interfaces-with')
+    ]);
+    const alternatesWith = uniqueRelations([
+      ...(itemMeta.relations || []).filter((rel) => rel.relationship === 'alternates-with'),
+      ...incomingSymmetric.filter((rel) => rel.relationship === 'alternates-with')
+    ]);
+    const related = uniqueRelations((itemMeta.relations || []).filter(
       (rel) =>
         !['specialization-of', 'implements', 'inherits-from', 'contains', 'interfaces-with', 'alternates-with'].includes(rel.relationship)
-    );
+    ).concat(incomingSymmetric.filter((rel) =>
+      ['overlaps-with', 'related-to', 'see-also'].includes(rel.relationship)
+    )));
 
     // Incoming relations (inverse)
     const isPartOf = (itemMeta.incomingRelations || []).filter(

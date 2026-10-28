@@ -92,8 +92,8 @@ semantic_features:
     description: "Title expressing respect or social status."
   title:
     description: "Official name or designation of a work, person, or position."
-  question-clause:
-    description: "Clause type used to ask a question."
+  question:
+    description: "Semantic category that presents an open or closed set of possible answers; it can be applied to more than one syntactic Clause type and to licensed non-headed forms."
   metalinguistic:
     description: "Meaning that explicitly refers to language form, spelling, or usage."
   orthographic-case:

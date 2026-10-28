@@ -1,0 +1,67 @@
+id: declarative-clause-001
+name: Declarative Clause
+pattern: "Clause: (Subject:XP +) Head:VP[declarative]"
+type: syntactic
+semanticType: predication
+dimensions:
+  form: "Clause headed by a VP, with an optional Subject and no interrogative, exclamative, or imperative clause-type marking"
+  meaning: "Presents propositional content without encoding an open or closed question, remarkable degree, or imperative marking as clause type"
+  function: "Characteristically makes a statement, but also supports directives, promises, questions, and other forces"
+  distribution: "The default clause type; occurs as a main clause and as a subordinate content clause"
+meanings:
+  '1':
+    definition: The default headed clause type, characteristically used to make a statement
+    details: "Declarative is a category of syntactic form, not a statement-force category. Basic declaratives normally have Subject–Predicator order, but their actual force depends on construction and context: Passengers are requested to remain seated is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur both as main clauses and as subordinate content clauses (CGEL pp. 853–55, 951–55)."
+    examples:
+      - form: "[Kim finished the report.]"
+        note: Main declarative in its characteristic statement use
+      - form: "[Passengers are requested to remain seated.]"
+        note: Declarative clause used as a directive; force does not determine clause type
+      - form: "She says [that Kim finished the report]."
+        note: Subordinate declarative content clause
+constraints:
+  - type: syntactic
+    description: "The construction is a Clause headed by VP, with an optional Subject; declarative is the default type and lacks the specialized type-marking properties of closed interrogatives, open interrogatives, exclamatives, and imperatives."
+  - type: pragmatic
+    description: "Statement is the characteristic use, not a necessary condition: declarative syntax is compatible with indirect questions and directives and with performative forces such as promising."
+kind:
+  provisional: true
+  projection:
+    target: "Basic declarative clause structure predicts broad main- and subordinate-clause distribution and leaves illocutionary force comparatively open, while making statement force the unmarked interpretation in an independent assertion context"
+    evidence: "CGEL contrasts the declarative's default Subject–Predicator organization and broad content-clause distribution with the specialized marking and distribution of the other four major clause types"
+    confidence: high
+    grounds:
+      - source: cgel-2002
+        locator: "pp. 853-55, 951-55"
+        relation: cites
+        bears-on: projection
+        note: "Default declarative form projects broad main/subordinate distribution without fixing illocutionary force"
+      - source: cgel-2002
+        locator: "pp. 853-55, 951-55"
+        relation: cites
+        bears-on: stability
+        note: "The form/distribution profile recurs independently of characteristic statement use"
+  secured: stable
+  profile:
+    core:
+      - property: Default clause-type organization
+        diagnostics: ["basic Subject–Predicator order", "absence of interrogative, exclamative, or imperative type marking"]
+        weight: high
+      - property: Broad force compatibility
+        diagnostics: ["statement use", "declarative directive", "declarative question"]
+        weight: medium
+  grain:
+    level: meso
+    parent_families:
+      - clause-type
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+semanticRefs:
+  - predication
+grounds:
+  - source: cgel-2002
+    locator: "pp. 853-55, 951-55"
+    relation: cites
+    note: "Declarative as the default major clause type, distinct from statement force, in main and subordinate clauses"
