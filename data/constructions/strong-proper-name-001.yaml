@@ -1,0 +1,120 @@
+id: strong-proper-name-001
+name: Strong Proper Name Construction
+pattern: "NP[Head:Nom[sg]; no Det] with naming semantics, in referential use"
+type: mixed
+dimensions:
+  form: "Singular NP with no determiner. Its head may be a proper noun (Kim, Ukraine) or a common noun in naming use (Mom, Grandma)."
+  meaning: "Naming semantics: the NP identifies its referent as the bearer of a conventional name, and is inherently definite."
+  function: "Referential use in argument functions: subject, object in a VP, object in a PP."
+  distribution: "Not names with the article (weak proper names: the Thames, the Philippines), not bare vocatives (Waiter!, Sally!), whose bareness comes from the vocative function."
+meanings:
+  '1':
+    definition: Identifies its referent as the bearer of a conventional name, with no determiner
+    details: "CGEL distinguishes strong proper names, with no determiner (Kim, New York), from weak ones, where the article marks definiteness redundantly (the Thames). The construction is the strong kind, stated as a form-meaning pairing: a determinerless singular NP with naming semantics in referential use. Proper name is a semantic classification; strong and weak describe the form of the NP; the head belongs to the NP, not to the name."
+    examples:
+      - form: "[Kim] called."
+        note: Proper-noun head
+      - form: "She lives in [New York]."
+        note: Proper-noun head, object in a PP
+      - form: "[Mom] called."
+        note: Common-noun head in naming use; the same noun takes a determiner in its relational use (my mom called)
+      - form: "You wanna roll the ball to [Mommy]?"
+        note: "Attested, object in a PP; mother to child (CHILDES Brent/Siskind, s1/010224.cha, line 1826)"
+      - form: "Did you tell [Grampa] you went out to see him?"
+        note: "Attested, object in a VP; father to child (CHILDES Demetras2, Jimmy/father/020702.cha, line 281)"
+  '2':
+    definition: Takes non-restrictive embellishments without a determiner
+    details: "A small set of emotive adjectives can embellish a strong name in a bare NP, without selecting among bearers. An ordinary singular count noun takes the same adjective only with a determiner (the poor dog needs a rest)."
+    examples:
+      - form: "[Poor Henry] needs a rest."
+        note: Emotive embellishment of a proper-noun-headed name
+      - form: "[Poor Mom] needs a rest."
+        note: Constructed; the same pattern with a common-noun head in naming use
+constraints:
+  - type: syntactic
+    description: "No determiner, and the NP is singular. Names plural in form (Naples, the surname Fields) are fine; syntactically plural names (the Alps) are always weak."
+  - type: semantic
+    description: "Requires a conventional naming relation between the form and its referent; identifiability alone is not enough (the doctor can identify one person without being a name)."
+  - type: head
+    description: "Proper nouns are specialized for heading the NPs used as names, but a common noun in naming use can head the construction; on CGEL's analysis kin terms used as names remain common nouns."
+  - type: pragmatic
+    description: "Referential use only. Bare vocatives are not instances: the vocative function allows bare common nouns too (Waiter!)."
+relatedConstructions:
+  - id: np-bare-001
+    relationship: specialization-of
+    notes: Specializes the bare-NP individual-reference use (meaning 4) to NPs with naming semantics
+  - id: proper-name-001
+    relationship: implements
+    notes: Realizes the proper-name function in a determinerless singular NP; proper name stays the semantic classification
+  - id: np-proper-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "Overlap is the strong proper-noun-headed NPs (London); weak names (the United Nations) are proper-noun NPs outside the construction, and common-noun heads in naming use (Mom) are inside it but not proper-noun NPs"
+  - id: n-proper-001
+    relationship: related-to
+    notes: Proper nouns are specialized for heading NPs used as names but are not required by the construction
+  - id: definite-001
+    relationship: related-to
+    notes: Strong proper names are inherently definite, so the construction needs no determiner to mark definiteness
+  - id: vocative-001
+    relationship: see-also
+    notes: Bare vocatives share the bare form but not the construction; their bareness is licensed by the vocative function
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §20.1-20.2.1, pp. 515-517"
+    relation: cites
+    bears-on: category-assignment
+    note: "Proper names in primary use have NP status; strong (no determiner) vs weak (redundant the); plural proper names are always weak; proper nouns specialized for heading proper names"
+  - source: cgel-2002
+    locator: "Ch. 5 §20.2.2, p. 518"
+    relation: cites
+    bears-on: category-assignment
+    note: "Kin terms used as proper names belong syntactically to the category of common nouns"
+  - source: cgel-2002
+    locator: "Ch. 5 §20.3, pp. 519-520"
+    relation: cites
+    bears-on: projection
+    note: "Emotive adjectives as embellishments in bare NPs (poor Henry)"
+  - source: goldberg-2006
+    locator: "ch. 1"
+    relation: cites
+    bears-on: category-assignment
+    note: "A construction is a learned pairing of form with semantic or discourse function"
+  - source: childes
+    locator: "Brent/Siskind s1/010224.cha line 1826; Demetras2 Jimmy/father/020702.cha line 281"
+    relation: attests
+    bears-on: attestation
+    note: "Bare kin-term arguments in caregiver speech (object in a PP, object in a VP)"
+  - source: brett-judgment
+    locator: "2026-10-30"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Only the strong kind is treated as a construction; names are semantic and have no heads, the NPs used as names do (a deliberate departure from CGEL's usage); bare vocatives are excluded"
+kind:
+  provisional: true
+  projection:
+    target: "Knowing that a singular form is someone's conventional name predicts its bare use as an argument (Mom called, Ask Mom), its definite reading, and its bare emotive embellishment (poor Mom), where the same noun in relational use requires a determiner (my mom)"
+    evidence: "CGEL's descriptions of strong names, kin-term names and emotive embellishment (pp. 517-520), and attested bare kin-term arguments in CHILDES caregiver speech"
+    confidence: medium
+  secured: stable
+  profile:
+    core:
+      - property: "No determiner"
+        diagnostics: ["no article or genitive determiner in argument functions", "indefinite determiners excluded"]
+        weight: high
+      - property: "Naming semantics"
+        diagnostics: ["conventional name of its referent", "not merely identifying (the doctor)"]
+        weight: high
+      - property: "Singular, referential"
+        diagnostics: ["argument function", "not vocative", "not predicative"]
+        weight: high
+    peripheral:
+      - property: "Bare emotive embellishment"
+        diagnostics: ["poor Henry", "dear old Mr Smithers"]
+        weight: medium
+  boundaries:
+    overlaps_with: ["np-proper-001", "np-bare-001"]
+    known_boundary_items: ["Gambia / the Gambia (optional article)", "titles such as If on a winter's night a traveler (not NPs; CGEL excludes titles from the strong/weak account)"]
+  grain:
+    level: meso
+    parent_families: ["reference", "determination"]

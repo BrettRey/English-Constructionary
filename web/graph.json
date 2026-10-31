@@ -3798,6 +3798,13 @@
       "secured": "stable"
     },
     {
+      "id": "strong-proper-name-001",
+      "kind": "construction",
+      "label": "Strong Proper Name Construction",
+      "type": "mixed",
+      "secured": "stable"
+    },
+    {
       "id": "subject-determiner-001",
       "kind": "construction",
       "label": "Subject-determiner (Genitive NP)",
@@ -3834,8 +3841,7 @@
       "id": "vocative-001",
       "kind": "construction",
       "label": "Vocative Construction",
-      "type": "syntactic",
-      "secured": "stable"
+      "type": "syntactic"
     },
     {
       "id": "vp-001",
@@ -9176,6 +9182,79 @@
       "parthood": "formal"
     },
     {
+      "from": "strong-proper-name-001",
+      "to": "brett-judgment",
+      "type": "adjudicates",
+      "locator": "2026-10-30",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 5 §20.1-20.2.1, pp. 515-517",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 5 §20.2.2, p. 518",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 5 §20.3, pp. 519-520",
+      "bears-on": "projection"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Brent/Siskind s1/010224.cha line 1826; Demetras2 Jimmy/father/020702.cha line 281",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "definite-001",
+      "type": "related-to"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "goldberg-2006",
+      "type": "cites",
+      "locator": "ch. 1",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "n-proper-001",
+      "type": "related-to"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "np-bare-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "np-proper-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "proper-name-001",
+      "type": "implements"
+    },
+    {
+      "from": "strong-proper-name-001",
+      "to": "vocative-001",
+      "type": "see-also"
+    },
+    {
       "from": "subject-determiner-001",
       "to": "deitality-diagnostics",
       "type": "diagnosed-by"
@@ -9483,13 +9562,6 @@
       "to": "ostensive-np-001",
       "type": "specialization-of",
       "parthood": "functional"
-    },
-    {
-      "from": "vocative-001",
-      "to": "reynolds-kinship",
-      "type": "cites",
-      "locator": "CHILDES study: vocative concentration 16-43% parent terms vs 4-7% extended kin; rho = 0.73",
-      "bears-on": "stability"
     },
     {
       "from": "vp-001",

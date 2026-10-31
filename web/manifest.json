@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T12:29:41.129Z",
+  "generatedAt": "2026-10-31T01:21:43.134Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -832,6 +832,11 @@
               "title": "grammatical-definiteness-001",
               "relationship": "specialization-of",
               "parthood": "semantic"
+            },
+            {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -2134,6 +2139,11 @@
               "relationship": "interfaces-with"
             },
             {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
               "relationship": "related-to"
@@ -2465,6 +2475,11 @@
               "relationship": "specialization-of"
             },
             {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "vocative-001",
               "title": "vocative-001",
               "relationship": "interfaces-with"
@@ -2757,6 +2772,12 @@
               "title": "proper-name-001",
               "relationship": "can-manifest-as",
               "parthood": "formal"
+            },
+            {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal"
             },
             {
               "id": "vocative-001",
@@ -3847,6 +3868,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "implements"
+            },
+            {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
               "relationship": "related-to"
@@ -4159,6 +4185,47 @@
           ]
         },
         {
+          "id": "strong-proper-name-001",
+          "title": "strong-proper-name-001",
+          "subtitle": "Strong Proper Name Construction",
+          "path": "/data/constructions/strong-proper-name-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-bare-001",
+              "relationship": "specialization-of",
+              "notes": "Specializes the bare-NP individual-reference use (meaning 4) to NPs with naming semantics"
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "implements",
+              "notes": "Realizes the proper-name function in a determinerless singular NP; proper name stays the semantic classification"
+            },
+            {
+              "id": "np-proper-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Overlap is the strong proper-noun-headed NPs (London); weak names (the United Nations) are proper-noun NPs outside the construction, and common-noun heads in naming use (Mom) are inside it but not proper-noun NPs"
+            },
+            {
+              "id": "n-proper-001",
+              "relationship": "related-to",
+              "notes": "Proper nouns are specialized for heading NPs used as names but are not required by the construction"
+            },
+            {
+              "id": "definite-001",
+              "relationship": "related-to",
+              "notes": "Strong proper names are inherently definite, so the construction needs no determiner to mark definiteness"
+            },
+            {
+              "id": "vocative-001",
+              "relationship": "see-also",
+              "notes": "Bare vocatives share the bare form but not the construction; their bareness is licensed by the vocative function"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "subject-determiner-001",
           "title": "subject-determiner-001",
           "subtitle": "Subject-determiner (Genitive NP)",
@@ -4397,6 +4464,11 @@
               "id": "exclamation-001",
               "title": "exclamation-001",
               "relationship": "can-manifest-as"
+            },
+            {
+              "id": "strong-proper-name-001",
+              "title": "strong-proper-name-001",
+              "relationship": "see-also"
             }
           ]
         },
@@ -23271,6 +23343,10 @@
                 "name": "Source Locative-Complement Construction"
               },
               {
+                "id": "strong-proper-name-001",
+                "name": "Strong Proper Name Construction"
+              },
+              {
                 "id": "tag-question-001",
                 "name": "Tag Question"
               },
@@ -23382,12 +23458,7 @@
             "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
             "url": "https://ling.auf.net/lingbuzz/009751",
             "status": "under-review",
-            "grounded": [
-              {
-                "id": "vocative-001",
-                "name": "Vocative Construction"
-              }
-            ]
+            "grounded": []
           },
           "relations": [],
           "incomingRelations": []
@@ -23445,6 +23516,10 @@
               {
                 "id": "ditransitive-vp-001",
                 "name": "Ditransitive VP (Double-object Construction)"
+              },
+              {
+                "id": "strong-proper-name-001",
+                "name": "Strong Proper Name Construction"
               }
             ]
           },
@@ -23568,7 +23643,12 @@
             "id": "childes",
             "type": "corpus",
             "citation": "MacWhinney, Brian, The CHILDES Project",
-            "grounded": []
+            "grounded": [
+              {
+                "id": "strong-proper-name-001",
+                "name": "Strong Proper Name Construction"
+              }
+            ]
           },
           "relations": [],
           "incomingRelations": []
@@ -23599,6 +23679,10 @@
               {
                 "id": "question-001",
                 "name": "Question"
+              },
+              {
+                "id": "strong-proper-name-001",
+                "name": "Strong Proper Name Construction"
               },
               {
                 "id": "tag-question-001",
