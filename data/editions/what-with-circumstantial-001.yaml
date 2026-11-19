@@ -1,0 +1,47 @@
+id: what-with-circumstantial-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: What with, giving reasons
+  summary: What with and one or more circumstances offers them as the reason for what happened.
+  body: |-
+    What with the trains being late and the roads blocked, we stayed put. The part before the comma lists the circumstances, and they explain why we stayed.
+
+    A simple noun phrase can fill the same slot: What with the weather, we never left the house. A plain with phrase can show an accompanying circumstance with no explanation, as in She waited with her arms folded. Adding what invites a reason reading.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: '[What with the trains being late and the roads blocked], we stayed put.'
+      from: entry
+    - text: '[What with the weather], we never left the house.'
+      from: entry
+    - text: She waited with her arms folded.
+      from: entry
+  try: Explain why you were late using What with and two reasons. Does it sound like an excuse?
+teacher:
+  summary: For advanced classes, what with as a way to present circumstances as the reason for a situation.
+  explain: The pattern is an adjunct beginning with what with, followed by a noun phrase, a non-finite or verbless predication, or a coordination. It presents one or more circumstances as explaining the main situation. A plain with phrase can depict an accompanying circumstance with no explanatory force, as in She waited with her arms folded. Adding what invites a reason reading. A simple noun phrase such as the weather can fill the same slot. This dictionary marks its analysis provisional.
+  terms: This dictionary treats what with as an idiom introducing a reason adjunct, and relates it to absolute supplements, which can also express circumstances with their own predication.
+  examples:
+    - text: '[What with the trains being late and the roads blocked], we stayed put.'
+      from: entry
+    - text: '[What with the weather], we never left the house.'
+      from: entry
+  contrasts:
+    - text: What with the weather, we never left the house.
+      from: entry
+      note: Reason reading.
+    - text: She waited with her arms folded.
+      from: entry
+      note: Accompanying circumstance, no explanation.
+  watch_for:
+    - A learner might read what with as a question about what, when it introduces a reason.
+    - A learner might take a plain with phrase to explain the main situation, when it can depict an accompanying circumstance.
+  activity: Students write sentences with with in two uses, one a depiction and one with what added as a reason, and say which is which.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.terms no longer calls the clause-like part after with ''absolute'' (the entry only relates the construction to absolute supplements); ''the entry'' replaced by ''this dictionary''.'

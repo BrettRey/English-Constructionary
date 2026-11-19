@@ -1,0 +1,42 @@
+id: deverbal-able-adjective-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Adjectives ending in -able
+  summary: In its central pattern, adding -able to a verb gives an adjective that says something can have that action done to it.
+  body: |-
+    Searchable describes a document that someone can search. Readable normally describes what people can read. So a new -able adjective built on a verb that takes an object normally describes the thing the action would be done to, not the person doing it. There are related forms in -ible.
+
+    Some verbs bring a small word along. Dependable is built on depend on, and it describes what you can depend on.
+
+    Not every case fits. Perishable doesn't simply mean that something can be perished, so some -able words go beyond this central meaning.
+  examples:
+    - text: The document is [searchable].
+      from: entry
+    - text: A [dependable] source is hard to find.
+      from: entry
+  try: Take a verb you use and add -able. Does the new word describe the thing the action would happen to?
+teacher:
+  summary: Helps explain that an -able adjective built on a transitive verb is oriented to the verb's object, and that its central reading can be paraphrased as can be Xed.
+  explain: 'A deverbal adjective in -able (or -ible) characterizes a potential participant of an action by the possibility or suitability of that action. With a transitive base the adjective is oriented to the base verb''s object: readable describes what people can read. The central reading can typically be paraphrased with a modal passive (can be searched). A prepositional verb can supply an oblique participant, as in dependable (depend on). Intransitive-base and lexicalized readings, such as perishable, extend beyond this central pattern.'
+  terms: The paraphrase can be called a modal passive.
+  examples:
+    - text: The document is [searchable].
+      from: entry
+    - text: A [dependable] source is hard to find.
+      from: entry
+  contrasts:
+    - text: This fabric washes well.
+      from: entry
+      note: A related idea in a clause with an active verb; washable is the adjective counterpart.
+  watch_for:
+    - A learner might read dependable as describing the person who depends, when it describes what can be depended on.
+    - A learner might assume every -able word means can be Xed, though perishable and other lexicalized forms extend beyond that pattern.
+  activity: Students list verbs from a class text, add -able where it makes a word they know, and paraphrase each as can be Xed. They flag any word that doesn't paraphrase that way.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious summary and body and teacher summary now confine object orientation to the central (transitive-base) pattern, as the entry does, and mention readings that go beyond it; dropped the claim that some -able words ''drifted'' from the central meaning; dropped the unsupported ''verbal adjectives'' traditional-term mapping.'

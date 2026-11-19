@@ -1,0 +1,51 @@
+id: instrumental-with-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Doing something with a tool
+  summary: A phrase with with and a thing can name what was used to do something.
+  body: |-
+    In Lee opened the case with a small screwdriver, the phrase with a small screwdriver names what Lee used. The screwdriver helped the action happen.
+
+    The same words with can introduce someone who came along, as in with the watchman. That's a different meaning, so the sentence around it matters.
+  examples:
+    - text: Lee opened the case [with a small screwdriver].
+      from: entry
+    - text: She stirred the soup [with a wooden spoon].
+      from: constructed
+  try: Say Lee opened the case with a screwdriver, then Lee opened the case with the watchman. How does the meaning of with change?
+teacher:
+  summary: Covers with plus a noun phrase naming the instrument used in an action.
+  explain: 'The pattern is a prepositional phrase of with plus an instrument noun phrase, used as an adjunct. It identifies an object that mediates or enables an action: in Lee opened the case with a small screwdriver, the screwdriver has a means role. With the watchman can instead identify an accompanying participant, which is a distinct interpretation. This dictionary treats the phrase as a specialization of the prepositional phrase and relates it to by plus gerund means phrases. It is provisional.'
+  terms: Traditionally called an adverbial of instrument. This dictionary treats it as an adjunct prepositional phrase.
+  examples:
+    - text: Lee opened the case [with a small screwdriver].
+      from: entry
+    - text: She stirred the soup [with a wooden spoon].
+      from: constructed
+  contrasts:
+    - text: Lee opened the case with a small screwdriver.
+      from: entry
+      note: The with-phrase names the means.
+    - text: Lee opened the case with the watchman.
+      from: constructed
+      note: Can identify an accompanying participant.
+  watch_for:
+    - A learner might read with the watchman as naming a tool.
+    - A learner might think every with-phrase names an accompanying person.
+  activity: Students ask How did you do it? about classroom actions and answer with with plus a tool. They then replace the tool with a person and discuss how the meaning shifts.
+child:
+  hook: What do you use to do things, and how do you say it?
+  explain: With can name a tool you used. Lee opened the case with a small screwdriver. The screwdriver is what helped him do it.
+  examples:
+    - text: Lee opened the case [with a small screwdriver].
+      from: entry
+    - text: I drew the picture [with a blue pen].
+      from: constructed
+  play: Act out a job without saying the tool. A partner says what you did, ending with the tool, such as "with a spoon."
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

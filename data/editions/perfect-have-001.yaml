@@ -1,0 +1,66 @@
+id: perfect-have-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Have plus a past participle
+  summary: Have followed by a verb's past-participle form relates a situation to a point in time, such as now. The situation can be earlier than that point, or continue up to it.
+  body: |-
+    In She has finished the report, the finishing came before now, and it matters now. In They had already left, the leaving came before some time in the past.
+
+    The same build also covers I have visited Japan and We have met before, which report something that happened earlier, and I have lived there for three years, where the living continues up to now. This dictionary notes that the present version often suggests current relevance, and that in many varieties it resists an explicitly finished past-time setting.
+  examples:
+    - text: She [has finished the report].
+      from: entry
+    - text: They [had already left].
+      from: entry
+    - text: I [have visited Japan].
+      from: entry
+    - text: I [have lived there for three years].
+      from: entry
+  try: Compare I have lived there for three years with I lived there for three years. What does each tell you about whether I still live there?
+teacher:
+  summary: Core pattern for the perfect, with its present, past, experiential and continuing uses.
+  explain: 'Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Textbooks sometimes call these the present perfect and the past perfect. This dictionary's preterite perfect is the version with a past anchor. The continuing use is also called the universal or continuative perfect.
+  examples:
+    - text: She [has finished the report].
+      from: entry
+    - text: They [had already left].
+      from: entry
+    - text: I [have visited Japan].
+      from: entry
+    - text: We [have met before].
+      from: entry
+    - text: I [have lived there for three years].
+      from: entry
+    - text: She [has worked here since 2020].
+      from: entry
+  contrasts:
+    - text: She has finished the report.
+      from: entry
+      note: Present anchor; prior completion relevant now.
+    - text: They had already left.
+      from: entry
+      note: Past anchor; leaving precedes a past reference time.
+  watch_for:
+    - A learner might read has finished as a plain past event, missing the link to the present anchor.
+    - A learner might read I have lived there for three years as ending in the past, when the residence continues up to now.
+  activity: Give students three cards (finished the report, visited Japan, lived there for three years). They write a have-sentence for each and a one-line note saying whether it is a completed event, an experience, or a situation continuing up to now.
+child:
+  hook: When someone says I have finished, what happened before now?
+  explain: Have or has plus a word like finished can tell us something already happened. She has finished the report. They had already left means the leaving came before some time in the past.
+  examples:
+    - text: She has finished the report.
+      from: entry
+    - text: They had already left.
+      from: entry
+    - text: We have met before.
+      from: entry
+  play: Say what you have done today, starting with I have. Then a partner says what they had already done before lunch, starting with I had.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.summary and teacher.explain no longer define the whole pattern as placing a situation before the anchor (the continuing use extends up to it); teacher.explain''s first use is now ''a prior situation relative to the anchor'', with current relevance left as the present perfect''s suggestion; cut ''pluperfect''; ''the entry'' replaced by ''this dictionary''. Second round: fixed child.explain, tells us changed to can tell us (the entry also has a use where the situation continues up to now); curious.title now says past participle, as the entry requires. Dismissed the low flag on teacher.explain (its examples are prior situations, and the continuing use follows in the same paragraph).'

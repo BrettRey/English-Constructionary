@@ -1,0 +1,42 @@
+id: into-causative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Talking someone into going
+  summary: A verb, a person and into plus an -ing verb can say how someone was brought to do something.
+  body: |-
+    In talked him into going to London, talking is the means, and him is the person who ends up going. He's both the one affected and the one doing the going.
+
+    The same pattern works with other verbs. In They laughed him into joining in, the laughter is understood as the means by which he was induced to join. The result is claimed only for an actual completed case. A conditional, an attempt or a negation can suspend it. Into followed by a place, by contrast, describes movement.
+  examples:
+    - text: '[talked him into going to London]'
+      from: entry
+    - text: They [laughed him into joining in].
+      from: entry
+  try: Say She talked him into going. Who goes? Now say She tried to talk him into going. Did he go?
+teacher:
+  summary: Covers verb plus object plus into plus a gerund-participial clause, as in talked him into going.
+  explain: The pattern is a verb, an object, and a prepositional phrase with into plus a gerund-participial clause whose understood subject is the object. It presents the object's action or change of mental state as a result of what the matrix verb describes. In talked him into going to London, talk supplies a means and him supplies the understood subject of going. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance; a conditional, an attempt or negation can suspend it. Into followed by a locative noun phrase can have the distinct caused-motion interpretation. This dictionary marks the analysis as provisional.
+  terms: No widely used traditional name is given in this dictionary. It is related to caused-motion and object resultative constructions.
+  examples:
+    - text: '[talked him into going to London]'
+      from: entry
+    - text: They [laughed him into joining in].
+      from: entry
+  contrasts:
+    - text: talked him into going to London
+      from: entry
+      note: Into plus a gerund-participial clause; him is the understood subject of going.
+    - text: They pushed the cart into the barn.
+      from: constructed
+      note: Into plus a place; caused motion.
+  watch_for:
+    - A learner might read talked him into going as saying that he talked.
+    - A learner might take She tried to talk him into going to mean that he went.
+  activity: Students write sentences with a verb, a person and into plus -ing. They then add a conditional, an attempt or a negative and discuss whether the result still follows.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

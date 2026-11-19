@@ -1,0 +1,58 @@
+id: absolute-negator-determinative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Negative words that stand in for a noun phrase
+  summary: Words like nobody, nothing and none can make a whole sentence negative without a separate not.
+  body: |-
+    In Nobody knew where Kim was, the word nobody does two jobs. It fills the place of the person who knew, and it makes the whole sentence negative. The same goes for nothing in Kim had done nothing about it, and for none in We liked none of them.
+
+    This dictionary treats nobody, nothing, nowhere, no one and no place as compounds of the word no, and none as another form of no. They aren't pronouns here. A sentence with one of them can be rephrased with a verb negated and a word like any, as in Kim didn't do anything about it.
+  examples:
+    - text: '[Nobody] knew where Kim was.'
+      from: entry
+    - text: Kim had done [nothing] about it.
+      from: entry
+    - text: We liked [none] of them.
+      from: entry
+  try: Take a sentence with nothing in it and say it again with didn't and anything. Do the two versions give the same message?
+teacher:
+  summary: Useful for showing that nobody, nothing and none carry the negation of the clause themselves.
+  explain: 'No and none are the dependent and independent forms of the determinative no. Nobody, no one, nothing, nowhere and no place are single-word compounds of no. All of these are determinatives. Standing alone as noun phrases, they are in fused determiner-head function: one word is both determiner and head. Their negative meaning is carried up to the whole clause, so the clause counts as negative without a separate not. The same message can be expressed with verbal negation plus any, either or ever, as in didn''t do anything.'
+  terms: Traditional grammars may call nobody and nothing negative pronouns. This grammar treats them as determinatives, with none as a form of the determinative no and the others as compounds of no.
+  examples:
+    - text: '[Nobody] knew where Kim was.'
+      from: entry
+    - text: Kim had done [nothing] about it.
+      from: entry
+    - text: We liked [none] of them.
+      from: entry
+  contrasts:
+    - text: Kim had done nothing about it.
+      from: entry
+      note: The negative word is the object.
+    - text: Kim hadn't done anything about it.
+      from: constructed
+      note: Verbal negation plus any gives a parallel way to be negative.
+  watch_for:
+    - A learner might look for a separate not in Nobody knew where Kim was, when nobody itself makes the clause negative.
+    - A learner might treat none as unrelated to no, when it is the independent form of the same determinative.
+  activity: Give pairs a set of sentences with nobody, nothing and none. Each pair rewrites each one with a negated verb and any, then says whether the message stays the same.
+child:
+  hook: How can a sentence say no without the word not?
+  explain: Words like nobody, nothing and none make a sentence mean no all by themselves. You don't need not. You can also say the idea another way, with didn't and anything.
+  examples:
+    - text: '[Nobody] ate the last cookie.'
+      from: constructed
+    - text: I found [nothing] under the bed.
+      from: constructed
+    - text: I didn't find anything under the bed.
+      from: constructed
+  play: Say a sentence with nobody or nothing. Then say it again with didn't and anybody or anything. Take turns.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: teacher explanation and terms now say that no and none are the dependent and independent forms of the determinative no, while nobody, no one, nothing, nowhere and no place are single-word compounds of no (as the entry has it); terms no longer gives a rationale the entry lacks; curious 'try' question reworded to ask whether the two versions give the same message."

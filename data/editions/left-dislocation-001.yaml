@@ -1,0 +1,43 @@
+id: left-dislocation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Naming something first, then using a pronoun for it
+  summary: A speaker names a person or thing at the start, then makes a statement about it using a pronoun.
+  body: |-
+    In Her parents, I don't like them at all, the speaker first puts Her parents out there and then says something about them with the pronoun them. The opening phrase and the pronoun point to the same people.
+
+    The pronoun can be the subject or the object of what follows, or a word like her or their that goes before a noun. The opening phrase can also bring someone new into the conversation: in Some guys, they just show up without even calling first, the speaker introduces a group of people, then talks about them.
+  examples:
+    - text: '[Her parents, I don’t like them at all.]'
+      from: entry
+    - text: '[Some guys, they just show up without even calling first.]'
+      from: entry
+  try: Pick someone you know and start with their name, then say something about them using a pronoun. What did the opening name do for the listener?
+teacher:
+  summary: Helps explain a sentence where a noun phrase comes first and a pronoun repeats it inside the clause.
+  explain: In left dislocation, an NP comes before a clause, and an overt personal pronoun inside the clause takes the referent of that NP. The pronoun can be a subject, an object, or a genitive determiner. The initial NP can introduce a new referent into the discourse. Compare complement preposing, where the position inside the clause has a gap and no pronoun is present. This dictionary also records a right-dislocation counterpart, where the linked NP follows the clause instead.
+  terms: Left dislocation is the name this dictionary uses. The related pattern where a gap replaces the pronoun is complement preposing in this dictionary.
+  examples:
+    - text: '[Her parents, I don’t like them at all.]'
+      from: entry
+    - text: '[Some guys, they just show up without even calling first.]'
+      from: entry
+  contrasts:
+    - text: Her parents, I don't like them at all.
+      from: entry
+      note: The pronoun them is overt.
+    - text: Her parents I don't like.
+      from: constructed
+      note: 'Complement preposing: a gap, no pronoun.'
+  watch_for:
+    - A learner might treat the pronoun as an error because it repeats the opening phrase, when the pattern requires an overt pronoun.
+    - A learner might assume the initial phrase must already be known to the listener, when it can introduce a new referent.
+  activity: Give students plain sentences such as I don't like her parents. They rewrite each with the noun phrase first and a pronoun in its old place, then rewrite it again with a gap and compare the two.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher summary no longer calls the pattern spoken-style (the entry assigns it no register); teacher terms no longer claims ''the usual name''.'

@@ -1,0 +1,37 @@
+id: imperative-or-warning-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A command followed by a warning
+  summary: A command joined by or to a result tells you what may happen if you ignore it.
+  body: |-
+    In Hold still or you'll fall, the second part says what may happen if the command is ignored. The fall goes with failing to hold still.
+
+    The sentence doesn't offer two equal choices, to hold still or to fall. The fall is a warning, and the speaker doesn't intend it as something the listener might do instead.
+  examples:
+    - text: '[Hold still or you''ll fall].'
+      from: entry
+  try: Say a warning that starts with a command and has or after it, such as Wait here or ...
+teacher:
+  summary: Helps learners read a command plus or plus a result as a warning, not a choice.
+  explain: 'An imperative is followed by or and a declarative consequence: Hold still or you''ll fall. The second state of affairs is presented as what may happen if the directive is ignored. The fall is associated with failure to hold still, rather than offered as an equally intended alternative action. This dictionary relates the pattern to imperative-plus-and and to either-or coordination, and marks the analysis as provisional.'
+  examples:
+    - text: '[Hold still or you''ll fall].'
+      from: entry
+  watch_for:
+    - A learner might read the two parts as equal options, to hold still or to fall.
+    - A learner might treat the second part as an instruction to follow.
+  activity: Give students warning signs with or. They paraphrase each as If you don't ... and say what the writer wants the reader to do.
+child:
+  hook: Does Hold still or you'll fall give you two choices?
+  explain: No. The first part tells you what to do. The second part tells you what may happen if you don't.
+  examples:
+    - text: '[Hold still or you''ll fall].'
+      from: entry
+  play: Take turns giving a command and then a warning with or. Say what the speaker really wants.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

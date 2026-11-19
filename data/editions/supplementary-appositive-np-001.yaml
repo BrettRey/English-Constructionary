@@ -1,0 +1,42 @@
+id: supplementary-appositive-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A second description added to a name
+  summary: A second noun phrase beside the first adds another way of identifying the same person or thing.
+  body: |-
+    In Lee, our treasurer, signed the form, our treasurer refers to the same person as Lee. It adds a second description to a person already named.
+
+    The added phrase can be set off in speech by its own rhythm, and it contributes its own identification or characterization. If you take it out, Lee signed the form still works with the same role in the sentence.
+
+    This dictionary marks the analysis as provisional and rests on one constructed illustration.
+  examples:
+    - text: Lee, [our treasurer], signed the form.
+      from: entry
+    - text: Lee signed the form.
+      from: constructed
+  try: Take a sentence naming someone, add a phrase between commas that tells who they are, then remove it. Does the rest still work?
+teacher:
+  summary: Useful for explaining added noun phrases set off by commas, such as Lee, our treasurer.
+  explain: The pattern is an anchor NP followed by a supplementary NP with a co-referential interpretation. It adds a second description or identification of a discourse referent. The second NP can be set off prosodically and contributes its own identification or characterization. Removing it leaves the anchor available for the same matrix role. This dictionary marks the analysis as provisional and has one constructed illustration. Related separate entries cover a restrictive appositive name and the supplementary relative clause.
+  terms: 'Traditional grammar sometimes calls this non-restrictive apposition. CGEL: supplementary apposition.'
+  examples:
+    - text: Lee, [our treasurer], signed the form.
+      from: entry
+  contrasts:
+    - text: Lee, our treasurer, signed the form.
+      from: entry
+      note: Supplementary NP adds a second identification.
+    - text: Lee signed the form.
+      from: constructed
+      note: With the added NP removed, the anchor still fills the same role.
+  watch_for:
+    - A learner might treat Lee and our treasurer as two different people.
+    - A learner might think the added phrase is needed to complete the sentence.
+  activity: Students write sentences naming a person or place and adding a second description in a comma-set phrase. They test whether removing the phrase leaves a complete sentence and say what the phrase adds.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,43 @@
+id: endowed-ful-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Adjectives ending in -ful
+  summary: Adding -ful to a noun gives an adjective saying something has or displays what the noun names.
+  body: |-
+    A thoughtful reply is one that shows thought. The -ful adjective describes something as having or displaying the substance or property associated with the base word.
+
+    The base is typically a noun. Colour gives colourful, a word for something that has colour or displays it. A related ending, -less, works in the opposite direction.
+  examples:
+    - text: The chair gave a [thoughtful] reply.
+      from: entry
+    - text: The [colourful] kite flew high.
+      from: constructed
+  try: Add -ful to a noun such as joy or help. What does the new word say about something?
+teacher:
+  summary: Helps explain -ful adjectives as formed from a base meaning having or displaying that property.
+  explain: An adjective in -ful characterizes something as having or displaying the substance or property associated with the base, typically a noun. In The chair gave a thoughtful reply, thoughtful describes a reply that displays thought. This dictionary treats it as a specialization of the adjective construction and relates it to the privative -less pattern, which marks lack.
+  examples:
+    - text: The chair gave a [thoughtful] reply.
+      from: entry
+    - text: The [colourful] kite flew high.
+      from: constructed
+  watch_for:
+    - A learner might read thoughtful as describing the chair, when it describes the reply.
+    - A learner might confuse -ful with its related privative pattern -less, which marks the opposite idea.
+  activity: Students list nouns (care, joy, help), add -ful, and write a sentence with each new adjective. A partner restates it as has or shows the noun.
+child:
+  hook: What word describes a reply that shows thought?
+  explain: Add -ful to a word like thought and you get a word saying someone has it or shows it. A thoughtful reply shows thought. A colourful kite has colour.
+  examples:
+    - text: She gave a [thoughtful] answer.
+      from: constructed
+    - text: The [colourful] kite flew high.
+      from: constructed
+  play: Try adding -ful to joy, help and care. Use each new word in a short sentence.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

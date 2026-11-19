@@ -1,0 +1,70 @@
+id: directive-ostensive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Shouting a noun phrase to point something out
+  summary: A speaker can call attention to something present or about to happen by saying just a noun phrase, such as The bus!
+  body: |-
+    Sometimes one noun phrase is the whole message. Someone shouts A snake! or The bus!, and the listener looks, because the thing is right there or about to happen. The speaker is showing something rather than describing it.
+
+    It is typically spoken as an exclamation, with a falling or rising-then-falling tune, though a murmured reminder can lack that tone. The thing named isn't the listener, which separates this from calling someone's name. The noun phrase follows the ordinary rules: a singular count noun like snake comes with a word such as a, while a plural (Robbers!) or a non-count noun (Fire!) can stand bare.
+  examples:
+    - text: '[The robbers]!'
+      from: entry
+    - text: '[Robbers]!'
+      from: entry
+    - text: '[A snake]!'
+      from: entry
+    - text: '[That man]!'
+      from: entry
+    - text: '[Your keys]!'
+      from: entry
+    - text: '[Fire]!'
+      from: entry
+    - text: '[The bus]!'
+      from: entry
+  try: Imagine something about to happen that you want a friend to notice. What would you say in just a few words, and is the thing you name the friend?
+teacher:
+  summary: Helps explain single noun phrases used as attention-getting exclamations, and how they differ from vocatives.
+  explain: 'The directive-ostensive is a non-argumental NP that alerts the addressee to a referent in the shared environment. The referent must be present or imminent, and it is not the addressee, which separates the pattern from a vocative. It is typically exclamatory, with a fall or rise-fall, though murmured reminders show that the exclamatory profile can come apart from the function. The NP follows ordinary determination: singular count nouns require a determiner (A snake!), while plural and non-count nouns can be bare (Robbers!, Fire!). It isn''t an argument of any clause.'
+  terms: This dictionary relates the pattern to exclamations and contrasts it with the vocative.
+  examples:
+    - text: '[The robbers]!'
+      from: entry
+    - text: '[A snake]!'
+      from: entry
+    - text: '[That man]!'
+      from: entry
+    - text: '[Your keys]!'
+      from: entry
+    - text: '[Fire]!'
+      from: entry
+  contrasts:
+    - text: '[The bus]!'
+      from: entry
+      note: Alerts the addressee to something imminent; the bus is not the person addressed.
+    - text: Ed!
+      from: constructed
+      note: A vocative, which names the person addressed.
+  watch_for:
+    - A learner might take The bus! to address a listener called the bus, when it points the listener at the bus.
+    - A learner might assume a determiner is required, though plural Robbers! and non-count Fire! are bare.
+  activity: Students act out scenes (a bus leaving, a snake, lost keys). A partner says one noun phrase to alert another, who says what the speaker pointed out. Then they change one to a vocative, such as a name.
+child:
+  hook: What do you shout when you see the bus leaving?
+  explain: Sometimes a few words are all you need to make someone look. You say the name of the thing that is there or about to happen. You aren't talking about the person you shout to.
+  examples:
+    - text: '[The bus]!'
+      from: entry
+    - text: '[A snake]!'
+      from: entry
+    - text: '[Your keys]!'
+      from: entry
+  play: Pick a scene, such as a bus, a snake or lost keys. Say just a few words to make a friend look. Can they guess what you mean?
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: curious.body now says the exclamatory delivery is typical rather than invariant, as the entry does (it notes murmured reminders can lack it)."

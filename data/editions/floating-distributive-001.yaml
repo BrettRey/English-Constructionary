@@ -1,0 +1,45 @@
+id: floating-distributive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Each, placed away from its group
+  summary: The word each can sit after a group of people or things and say the action applies to every member separately.
+  body: |-
+    In The three hikers each carried a radio, each isn't stuck to a noun. It sits later and says the carrying applies to the hikers one by one: every hiker carried a radio.
+
+    The word can follow the subject even across a helper verb, as in The hikers had each carried a radio. The group it's linked to can have its own the, and the group isn't contained inside each.
+  examples:
+    - text: The three hikers [each carried a radio].
+      from: entry
+    - text: The hikers had [each carried a radio].
+      from: entry
+    - text: The two sisters [each wrote a letter].
+      from: constructed
+  try: Say The three hikers each carried a radio. Then say Each of the hikers carried a radio. Is the meaning the same?
+teacher:
+  summary: Helps explain floating each, which distributes an action over the members of a nearby plural noun phrase.
+  explain: 'Floating each is separately positioned from the plural participant NP it is associated with, and it distributes the predication over the individual members: The three hikers each carried a radio. Each can follow the subject across a finite auxiliary, as in The hikers had each carried a radio. The linked NP can have its own determiner and isn''t contained in each. This dictionary relates the pattern to the each-of partitive and to each in subject determiner function, and marks it provisional, with medium confidence.'
+  terms: Floating quantifier is a common textbook name for each in this position. Distributive each is used for its meaning.
+  examples:
+    - text: The three hikers [each carried a radio].
+      from: entry
+    - text: The hikers had [each carried a radio].
+      from: entry
+  contrasts:
+    - text: The three hikers each carried a radio.
+      from: entry
+      note: Each sits away from the group it distributes over.
+    - text: Each of the hikers carried a radio.
+      from: constructed
+      note: Each heads a partitive and is next to the group.
+  watch_for:
+    - A learner might read each as modifying radio rather than distributing over the hikers.
+    - A learner might think each has to sit right next to its subject.
+  activity: Students write sentences about a group (the three hikers, two sisters) and place each in different spots, before and after a helper verb. They check that it still distributes over the group.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
+  note: 'Audit: fixed teacher.summary, plural subject changed to nearby plural noun phrase (the entry says a plural participant NP, a nearby argument); also The entry changed to This dictionary in teacher.explain.'

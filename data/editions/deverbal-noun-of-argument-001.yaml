@@ -1,0 +1,52 @@
+id: deverbal-noun-of-argument-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Event nouns followed by of
+  summary: A noun made from a verb can be followed by of and a phrase naming someone or something involved in the event.
+  body: |-
+    In the arrival of the guests, arrival names an event, and of the guests says who arrived. In the destruction of the city, the city is the thing destroyed. The of-phrase names a participant in the event, and the noun decides which role that participant has.
+
+    When the event has someone who does it, that person can come first with 's, as in the enemy's destruction of the city: the enemy did the destroying, and the city was destroyed. The of-phrase can also help pin down which event is meant, as in the failure of Washington Mutual.
+  examples:
+    - text: '[the failure of Washington Mutual]'
+      from: entry
+    - text: '[the arrival of the guests]'
+      from: entry
+    - text: '[the destruction of the city]'
+      from: entry
+    - text: '[the death of the king]'
+      from: entry
+    - text: '[the enemy''s destruction of the city]'
+      from: entry
+  try: Turn a verb you know into a noun (arrive, fail, destroy). Which words can follow it with of?
+teacher:
+  summary: Helps explain how an of-phrase after a deverbal noun carries a participant of the underlying verb.
+  explain: In an NP with a deverbal noun head, the of-PP is a complement that expresses a semantic argument of the underlying verb, such as the entity that arrived or the entity destroyed. The noun and the construction select the role. With a transitive source, a genitive can express the agent and the of-phrase the affected participant (the enemy's destruction of the city). The of-complement can help identify the event, and an indefinite determiner remains possible (a repainting of the hall). This dictionary notes that the genitive form alternates with the of-form (the failure of WM and WM's failure), with the genitive preferred for agents and the of-PP for non-agentive arguments.
+  terms: Traditional grammars may call such nouns nominalizations or verbal nouns.
+  examples:
+    - text: '[the arrival of the guests]'
+      from: entry
+    - text: '[the destruction of the city]'
+      from: entry
+    - text: '[the enemy''s destruction of the city]'
+      from: entry
+    - text: '[a repainting of the hall]'
+      from: entry
+  contrasts:
+    - text: the failure of Washington Mutual
+      from: entry
+      note: The of-phrase names the entity that failed.
+    - text: Washington Mutual's failure
+      from: constructed
+      note: The genitive alternative for the same participant.
+  watch_for:
+    - A learner might read the of-phrase in the destruction of the city as the one doing the destroying, when it is the thing destroyed.
+    - A learner might think a noun with an of-argument must be definite, though a repainting of the hall has an indefinite determiner.
+  activity: Give students event nouns (arrival, destruction, death, failure). They add an of-phrase to each and say who or what it names and what role that participant has in the event.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

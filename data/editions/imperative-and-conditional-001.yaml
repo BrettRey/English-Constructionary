@@ -1,0 +1,38 @@
+id: imperative-and-conditional-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A command that works like an if
+  summary: A command followed by and can work like an if-sentence, saying what will happen if you do the thing.
+  body: |-
+    Touch that wire and the alarm will ring has the shape of a command, but it isn't telling anyone to touch the wire. It can warn against touching. The second part says what will happen if you do.
+
+    The result depends on the act in the first part being performed. So the sentence reads much like If you touch that wire, the alarm will ring.
+  examples:
+    - text: '[Touch that wire and the alarm will ring].'
+      from: entry
+  try: Say a sentence that starts like a command but warns of a result, such as Open that door and ...
+teacher:
+  summary: Helps learners read an imperative joined by and to a consequence as an if-condition.
+  explain: 'An imperative-shaped first coordinate is interpreted as a sufficient condition in context, followed by and and a declarative consequence: Touch that wire and the alarm will ring. The first coordinate can warn against touching, with no instruction to do it. The consequent interpretation depends on performing the mentioned act. This dictionary relates the pattern to imperative clauses and to if-conditionals, and marks the analysis as provisional.'
+  examples:
+    - text: '[Touch that wire and the alarm will ring].'
+      from: entry
+  watch_for:
+    - A learner might read the first part as an order to touch the wire.
+    - A learner might expect the alarm to ring whether or not the wire is touched.
+  activity: Give students warning signs written as imperative plus and. They paraphrase each as an if-sentence and say whether the writer wants the act performed.
+child:
+  hook: Does Touch that wire and the alarm will ring tell you to touch it?
+  explain: It sounds like a command, but it works as a warning. It tells you what will happen if you touch the wire.
+  examples:
+    - text: '[Touch that wire and the alarm will ring].'
+      from: entry
+  play: Make up warnings that start with a command and say what will happen next. Then say each one again with if.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious body no longer says the result ''only'' follows if the act is performed (the entry treats the first part as a sufficient condition and says the consequent interpretation depends on performing the act); ''can warn'' as in the entry. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary'' in teacher text.'

@@ -1,0 +1,52 @@
+id: np-def-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Phrases that point to a particular thing
+  summary: Phrases like the dog, she or London can pick out something particular that the listener can work out.
+  body: |-
+    In The dog barked, the phrase the dog points to one particular dog that the listener can identify from the situation. The same kind of phrase can stand for a whole group the context makes clear, as in The students passed, or for the one person holding a role, as in The CEO resigned.
+
+    It can also talk about a whole kind, as in The dodo is extinct. Not every use points to a single physical thing: in Jo listened to the radio, the phrase can have a conventional activity reading without picking out one particular radio.
+  examples:
+    - text: '[The dog] barked.'
+      from: entry
+    - text: '[The students] passed.'
+      from: entry
+    - text: '[The CEO] resigned.'
+      from: entry
+    - text: '[The dodo] is extinct.'
+      from: entry
+  try: Say The dog barked to someone who doesn't know about any dog. What do they ask you?
+teacher:
+  summary: Lays out the meanings of definite NPs, from an identifiable referent to a role or a kind, and shows where they can be weaker.
+  explain: 'A definite NP consists of a definite determiner (the, this, that, a dependent genitive pronoun, or a genitive NP) with a nominal, or a referential personal pronoun, or a bare proper-name NP. The dictionary lists readings: an identifiable instance (The dog barked), a maximal set delimited by context (The students passed), a unique role (The CEO resigned), a kind (The dodo is extinct) and a generally characteristic property (The lion is dangerous). The keys normally identifies an accessible set and can supply a domain in two of the keys, but in Jo listened to the radio a conventional activity reading doesn''t identify one radio. The dictionary marks this account as provisional.'
+  terms: The is a determinative, often called the definite article. Weak definite is a name used for cases like the radio in Jo listened to the radio, which can have a conventional activity reading without identifying one physical radio.
+  examples:
+    - text: '[The dog] barked.'
+      from: entry
+    - text: She is [the winner].
+      from: entry
+    - text: '[The students] passed.'
+      from: entry
+    - text: '[The CEO] resigned.'
+      from: entry
+    - text: '[The dodo] is extinct.'
+      from: entry
+    - text: '[The lion] is dangerous.'
+      from: entry
+  contrasts:
+    - text: '[A dog] barked.'
+      from: constructed
+      note: The indefinite alternative; the dog's identity is left unstated.
+  watch_for:
+    - A learner might think the has to point to one specific physical thing.
+    - A learner might treat the dodo and the lion as naming one animal when they name a kind.
+  activity: Give students short story openings. They underline each definite NP and say what the listener is expected to identify (a thing, a group, a role or a kind).
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body no longer says the listening is a habit (the entry gives a conventional activity reading); teacher.terms now ties ''weak definite'' to the entry''s radio example instead of every case where the does not identify one thing.'

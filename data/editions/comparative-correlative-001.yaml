@@ -1,0 +1,57 @@
+id: comparative-correlative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Two comparisons that change together
+  summary: Two matching the-parts show that one thing varies in step with another.
+  body: |-
+    In The more we pay them, the harder they work, both parts start with the and contain a comparison. Together they tell us that effort varies with pay.
+
+    Order matters. Swapping the parts can make pay vary with effort instead, which supports different conclusions. The parts can be cut down, as in The sooner, the better. The dependent part can also come last, as in He becomes more cynical the older he gets.
+  examples:
+    - text: '[The more we pay them, the harder they work.]'
+      from: entry
+    - text: '[He becomes more cynical the older he gets.]'
+      from: entry
+    - text: '[The sooner, the better.]'
+      from: entry
+  try: Say The more we pay them, the harder they work. Now swap the two parts. Does the meaning stay the same?
+teacher:
+  summary: Useful for explaining the two the-comparatives pattern and why the two parts aren't two separate comparisons.
+  explain: 'The comparative correlative links variation on one scale to variation on another. In the fronted pairs, each unit has the followed by a fronted comparative: the more we pay them, the harder they work. The first unit sets the scale, and the second varies with it. Reversing the order can make pay vary with effort, which licenses different inferences. The second comparative can stay in its ordinary position when the dependent unit comes last (more cynical the older he gets), and fronted pairs can be reduced, as in the sooner, the better. The marker the also occurs before comparative AdjPs and AdvPs in this pattern.'
+  terms: 'Comparative correlative: the name used here for the pattern. This dictionary calls the word the in this pattern a comparative marker.'
+  examples:
+    - text: '[The more we pay them, the harder they work.]'
+      from: entry
+    - text: '[He becomes more cynical the older he gets.]'
+      from: entry
+    - text: '[The sooner, the better.]'
+      from: entry
+  contrasts:
+    - text: The more we pay them, the harder they work.
+      from: entry
+      note: Pay supplies the scale; effort varies with it.
+    - text: The harder they work, the more we pay them.
+      from: constructed
+      note: Effort now supplies the scale, and pay varies with it.
+  watch_for:
+    - A learner might read the in the sooner, the better as the definite article.
+    - A learner might read the two parts as unconnected comparisons, when they express linked variation.
+    - A learner might assume that reversing the parts keeps the same meaning, when it can change which thing varies with which.
+  activity: Give students pairs such as the sooner, the better and the more we pay them, the harder they work. They decide which part sets the scale, then swap the parts and discuss what changes.
+child:
+  hook: How does The sooner, the better work?
+  explain: Sometimes two the-parts go together. What the second part says changes along with the first. The more you practise, the better you get.
+  examples:
+    - text: '[The sooner, the better.]'
+      from: entry
+    - text: '[The more you practise, the better you get.]'
+      from: constructed
+  play: 'Here is one. The bigger the dog, the louder the bark. Now make your own by swapping in different things for the dog and the bark.'
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: child explanation no longer says the first thing 'grows' (the entry's examples include The sooner, the better) and now says the two parts change together; child game rewritten with a concrete instruction; curious body drops the causal 'change the pay' wording and keeps the entry's 'effort varies with pay'; teacher explanation limits the 'the + fronted comparative' description to the fronted pairs. Also fixed (unflagged): 'the entry' replaced by 'this dictionary'."

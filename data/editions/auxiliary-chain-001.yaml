@@ -1,0 +1,35 @@
+id: auxiliary-chain-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Helper verbs in a fixed order
+  summary: When several helper verbs come before a main verb, each shapes the next, and they keep a set order.
+  body: |-
+    In It might have been being repaired, four helper-style words come before the main verb: might, have, been and being. Each one decides the form of the word right after it. After have comes been, and after the progressive be comes being.
+
+    The helpers keep a fixed order: first a modal like might, then perfect have, then progressive be, then passive be. Some can be left out, but the ones that remain keep that order.
+  examples:
+    - text: It [might have been being repaired].
+      from: entry
+    - text: '[may have been waiting]'
+      from: entry
+  try: Build a sentence with just two helpers, such as may have waited. Then try adding a third helper in the same order.
+teacher:
+  summary: For advanced classes, the chain of auxiliaries and the verb form each one selects.
+  explain: 'The auxiliary chain is a VP in which up to four components appear in a fixed order: a modal, perfect have with a past participle, progressive be with a gerund-participle, and passive be with a past participle. Each auxiliary determines the form immediately following it. In may have been waiting, perfect have follows the modal and selects been. In has been waiting, progressive be follows perfect have and takes a gerund-participle. In is being repaired, passive be follows progressive be, and the progressive selects the form being. The order is kept when intermediate components are omitted.'
+  terms: This dictionary’s four components are modal, perfect have, progressive be and passive be. Gerund-participle is the -ing form.
+  examples:
+    - text: It [might have been being repaired].
+      from: entry
+    - text: '[may have been waiting]'
+      from: entry
+  watch_for:
+    - A learner might expect each auxiliary to take the same verb form, when each selects the form that follows it.
+    - A learner might think being and been are the same, when the perfect selects the past participle and the progressive selects the gerund-participle.
+  activity: Give students word cards (might, have, been, being, repaired). They arrange them into the longest acceptable chain, then drop one auxiliary and check that the order still holds.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

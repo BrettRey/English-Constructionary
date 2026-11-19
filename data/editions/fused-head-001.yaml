@@ -1,0 +1,45 @@
+id: fused-head-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Noun phrases with no noun
+  summary: Some phrases work as a full noun phrase even though the main word isn't a noun.
+  body: |-
+    A noun phrase is a phrase that can name people or things. In Everybody left early and The rich were taxed more heavily, the phrases work that way, yet neither has a noun in it. Rich is a describing word, and the phrase has no separate noun after it.
+
+    In each phrase, the job of the noun is done by another word. We still know what is meant, because the meaning is supplied by the word itself, by the context, or by what follows. This dictionary calls the pattern a fused head.
+  examples:
+    - text: '[Everybody] left early.'
+      from: entry
+    - text: The [rich] were taxed more heavily.
+      from: entry
+  try: In The rich were taxed more heavily, what noun could you add after rich? Does the sentence need it?
+teacher:
+  summary: 'For advanced classes: NPs whose head is a determinative or modifier with no overt noun.'
+  explain: 'In a fused-head NP, a non-nominal constituent functions as the head without an overt nominal head, and the head interpretation is supplied without a noun. The family covers fused determiner-head uses (Everybody left early) and fused modifier-head uses (The rich were taxed more heavily). The overt constituent may be a determinative phrase (DP), an adjective phrase, a participial phrase or a related expression, depending on the subtype. The difference between some left and the poor left isn''t just the same omitted noun: the rich can denote humans without a recoverable nominal, while an anaphoric adjective NP can take its interpretation and number from the nominal named earlier.'
+  terms: Fused head is CGEL's analysis. Everybody is traditionally an indefinite pronoun, and the rich is sometimes described as an adjective used as a noun.
+  examples:
+    - text: '[Everybody] left early.'
+      from: entry
+    - text: The [rich] were taxed more heavily.
+      from: entry
+    - text: She chose the red scarf and I chose [the blue].
+      from: constructed
+  contrasts:
+    - text: The rich were taxed more heavily.
+      from: entry
+      note: Human-class reading with no recoverable noun.
+    - text: She chose the red scarf and I chose the blue.
+      from: constructed
+      note: The noun is recovered from the earlier scarf.
+  watch_for:
+    - A learner might think every fused head is just a noun that was deleted, when the rich needs no recoverable noun.
+    - A learner might treat a determinative and an adjective as the same kind of fused head, when this dictionary separates fused determiner-head and fused modifier-head subtypes.
+  activity: 'Students sort sentences with no overt noun (Everybody left; the rich; I chose the blue) by where the meaning comes from: the word itself, context, or an earlier noun.'
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: removed the claim that Everybody belongs with words like every and some (the entry only gives Everybody as a fused determiner-head example); in teacher text, the list of possible overt constituents now gives DP as determinative phrase, as in the entry.'

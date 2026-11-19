@@ -1,0 +1,60 @@
+id: numerative-compound-basic-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Numbers like twenty-one and ninety-nine
+  summary: Numbers such as twenty-one, forty-two and ninety-nine join a tens word and a ones word.
+  body: |-
+    Twenty-one is twenty plus one. Forty-two is forty plus two, and ninety-nine is ninety plus nine. Each is typically written with a hyphen and counts as one word.
+
+    A number like forty-three also supplies the base for forty-third. A version with and inside, like forty and three, would be a different structure, not the ordinary word.
+  examples:
+    - text: '[twenty-one]'
+      from: entry
+    - text: '[forty-two]'
+      from: entry
+    - text: '[ninety-nine]'
+      from: entry
+  try: Turn forty-three into forty-third. Which part of the word changes?
+teacher:
+  summary: Explains two-part numbers from 21 to 99 as single lexical units formed from a decade and a single digit.
+  explain: 'A compound basic numerative is a decade word followed by a single-digit word, typically hyphenated: twenty-one is 20 + 1. It''s a lexical compound below the magnitude boundary, with the same distribution as simple basic numeratives (determiner, factor, addition). Forty-three expresses one lexicalized sum and supplies a base for forty-third. It requires a decade base with a single-digit addition. A coordinator inside, as in forty and three, produces a separate structure and isn''t the ordinary lexical compound. This dictionary marks this account as provisional.'
+  terms: Numerative is this dictionary's term for number words, where a textbook may say numeral.
+  examples:
+    - text: '[twenty-one]'
+      from: entry
+    - text: '[forty-two]'
+      from: entry
+    - text: '[ninety-nine]'
+      from: entry
+  contrasts:
+    - text: twenty and one
+      from: entry
+      acceptable: false
+      note: Internal coordination isn't part of the ordinary compound.
+    - text: twenty-ten
+      from: entry
+      acceptable: false
+      note: The pattern requires a single-digit addition to a decade.
+  watch_for:
+    - A learner might put and inside a number from 21 to 99, as in twenty and one.
+    - A learner might try to build a number such as twenty-ten, when the pattern requires a single-digit addition to a decade.
+  activity: Give students decade cards and single-digit cards. They build every number they can from 21 to 99, hyphenate each one, and say its ordinal.
+child:
+  hook: How do we say numbers like twenty-one?
+  explain: Some numbers are made of two parts. Twenty-one is twenty and one put together. We typically write a hyphen between the parts.
+  examples:
+    - text: It's [twenty-one] steps to the door.
+      from: constructed
+    - text: She has [forty-two] cards.
+      from: constructed
+    - text: Grandpa is [ninety-nine] years old.
+      from: constructed
+  play: Pick a tens word, like forty. Add each ones word to it, from one to nine. Say each number and write it with a hyphen.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.summary no longer claims every number from twenty-one to ninety-nine is tens plus ones (exact tens like thirty fall outside the pattern); hyphenation stated as typical, as in the entry; removed the ''common name'' claim for compound numeral from teacher.terms; sharpened the twenty-ten watch_for to the entry''s constraint. Second round: fixed curious.body, which said forty-three takes an ordinal ending because it is a single word; it now says, as this dictionary does, that forty-three supplies the base for forty-third. Also fixed (unflagged): the child example The page is ninety-nine used the number as a label, not a cardinality, and now counts years.'

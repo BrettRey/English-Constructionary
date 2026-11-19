@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T17:44:02.050Z",
+  "generatedAt": "2026-11-19T20:04:36.355Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -36885,6 +36885,15 @@
           "title": "construction.json",
           "subtitle": "",
           "path": "/data/schemas/construction.json",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "edition.json",
+          "subtitle": "",
+          "path": "/data/schemas/edition.json",
           "kind": "text",
           "relations": [],
           "incomingRelations": []

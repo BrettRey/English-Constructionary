@@ -1,0 +1,53 @@
+id: numerative-fractional-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Fraction words as nouns
+  summary: In a fraction like one fifth, the word fifth names the size of the pieces and behaves like a noun.
+  body: |-
+    In one fifth, the word fifth names the size of the pieces, and the number in front counts them. Because it's a noun, it takes a plural ending when there's more than one: one third, but two thirds.
+
+    Some fraction words are made by adding -th to a number word, as in fifth. Others, such as half and quarter, are separate words that aren't built that way. This dictionary treats fifth in a fraction as different from fifth in fifth place, where it describes a position and takes no plural, even though the two look the same.
+  examples:
+    - text: '[fifth]'
+      from: entry
+    - text: '[quarter]'
+      from: entry
+    - text: '[one third] and [two thirds]'
+      from: constructed
+  try: Say one fifth, then two fifths. What happens to the end of the word? Does fifth place change the same way?
+teacher:
+  summary: Separates fraction nouns (three fifths) from ordinal adjectives (fifth place), which share morphological material.
+  explain: 'A fractional noun denotes a denominator and heads the nominal in a fraction NP, with the numerator in determiner function (one fifth). It''s a count noun and inflects for number: one third, two thirds. Half and quarter are suppletive, not formed with -th. The same form can be an ordinal adjective in another use: fifth in fifth place is adjectival and takes no plural, while fifths in three fifths takes plural marking and a cardinal determiner. This dictionary, which is provisional, treats these as separate categories despite the shared form.'
+  terms: Fraction word, with numerator and denominator, are the traditional terms. Ordinal number is the traditional name for what this dictionary calls an ordinal adjective.
+  examples:
+    - text: '[fifth]'
+      from: entry
+    - text: '[quarter]'
+      from: entry
+  contrasts:
+    - text: three [fifths]
+      from: constructed
+      note: Fractional noun, plural, with a cardinal determiner.
+    - text: '[fifth] place'
+      from: constructed
+      note: Ordinal adjective, no plural marking.
+  watch_for:
+    - A learner might add plural marking to fifth in fifth place, as if it were the fraction noun.
+    - A learner might expect half and quarter to be formed with -th like fifth.
+  activity: Give students a pie drawn in fifths. They shade one, two and three pieces and write the fraction in words each time, then write a sentence using fifth to give a position in a race and compare the two uses.
+child:
+  hook: What happens to the word third when you have two pieces?
+  explain: A fraction word names the size of the pieces. One third has one piece. With two pieces you say two thirds, adding an s. Half and quarter are special words.
+  examples:
+    - text: I coloured [two thirds] of the picture.
+      from: constructed
+    - text: She ate [one quarter] of the pizza.
+      from: constructed
+  play: Say one third, then two thirds. Now try one fifth and two fifths. Which part of the word changes when there's more than one piece?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

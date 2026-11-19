@@ -1,0 +1,33 @@
+id: than-reduced-clause-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Comparisons that leave a word out
+  summary: In a than-clause, part of the clause can be missing but still understood.
+  body: |-
+    In It took longer than we had expected it to take, the clause after than gives the standard for the comparison. It is missing something. We understand how long we expected it to take, though that duration isn't spelled out.
+
+    That missing element corresponds to the word longer. The gap can even sit inside a to-phrase within the than-clause, as in expected it to take.
+
+    This dictionary marks the analysis as provisional and rests on one constructed illustration.
+  examples:
+    - text: It took longer [than we had expected it to take].
+      from: entry
+  try: Finish this sentence in your own words. The trip took longer than ...
+teacher:
+  summary: Optional enrichment on than-clauses with an understood missing element.
+  explain: The pattern is a comparative governor, than and a finite clause with a constructionally unexpressed element. The clause supplies a comparison standard and its reduction is predictable. In It took longer than we had expected it to take, the duration slot corresponding to longer is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause, here the to-phrase. This dictionary marks the analysis as provisional and has one constructed illustration, so use it as a starting point rather than a full account of comparative clauses.
+  terms: Comparative clause is the standard textbook term. This dictionary’s own label for the missing element is a constructionally unexpressed element.
+  examples:
+    - text: It took longer [than we had expected it to take].
+      from: entry
+  watch_for:
+    - A learner might look for an overt expression of how long after take and think something is missing by mistake.
+    - A learner might not link the gap in the than-clause back to the comparative word longer.
+  activity: Students write a sentence with a comparative word and than plus a clause, such as longer than we had expected. They then say what the missing amount is and which word in the first part it matches.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,51 @@
+id: coordination-gapping-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Leaving out the repeated middle
+  summary: When two linked sentences share a verb, the second can leave it out and keep only the parts that differ.
+  body: |-
+    In Kim lives in Perth, Pat in Melbourne, the second part has no verb. We understand it with lives anyway: Pat lives in Melbourne. What's left is the contrast, Pat against Kim and Melbourne against Perth.
+
+    The gap can hold more than just the verb. The shortcut works when the two parts are linked and parallel, as in Sam ordered tea and Lee coffee. This dictionary treats the analysis as provisional.
+  examples:
+    - text: '[Kim lives in Perth, Pat in Melbourne.]'
+      from: entry
+    - text: '[Sam ordered tea and Lee coffee].'
+      from: entry
+  try: Make up a sentence about two people who each do the same thing to different objects. Can you leave the second verb out?
+teacher:
+  summary: Helps explain how the second of two parallel clauses can omit a repeated verb, as in Kim lives in Perth, Pat in Melbourne.
+  explain: 'In gapping, a coordinated clause leaves repeated medial material unspoken between two contrasting remnants. In Kim lives in Perth, Pat in Melbourne, the second clause is understood with lives; Pat and in Melbourne each contrast with material in the first clause. The gap can contain more than the verb. The ordinary construction depends on a coordinate or closely parallel discourse relation. It differs from final VP ellipsis after a stranded auxiliary. Compare right argument cluster coordination, where two argument clusters share one subject and verb: Jo gave Kim tea and Kai coffee can be read that way instead.'
+  terms: Gapping is the usual textbook name. This dictionary treats it as a specialization of coordination.
+  examples:
+    - text: '[Kim lives in Perth, Pat in Melbourne.]'
+      from: entry
+    - text: '[Sam ordered tea and Lee coffee].'
+      from: entry
+  contrasts:
+    - text: Kim lives in Perth, Pat in Melbourne.
+      from: entry
+      note: Second clause understood with lives; remnants contrast with the first.
+    - text: Jo gave Kim tea and Kai coffee.
+      from: constructed
+      note: Can instead coordinate two argument clusters under one subject and verb.
+  watch_for:
+    - A learner might read Pat in Melbourne as an incomplete sentence rather than one understood with lives.
+    - A learner might think only the verb can be left out, when the gap can contain more.
+  activity: Give students pairs of full parallel clauses (Sam ordered tea. Lee ordered coffee.). They join each pair into one sentence, leaving out the repeated verb, and say which words must stay to keep the contrast clear.
+child:
+  hook: Can you say two things in one sentence without saying the verb twice?
+  explain: Sometimes the second half of a sentence leaves out a word we already heard. Sam ordered tea and Lee coffee. We still know Lee ordered coffee.
+  examples:
+    - text: '[Sam ordered tea and Lee coffee].'
+      from: entry
+    - text: Kim lives in Perth, Pat in Melbourne.
+      from: entry
+  play: Pick two friends and two foods they like. Say a sentence about the first. Then add the second friend and their food, but don't say the verb again.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,46 @@
+id: vp-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The verb and what goes with it
+  summary: A verb phrase is a verb together with the words that complete or modify it, not including the subject.
+  body: |-
+    In Kim left early, the verb is left and early adds to it. Together, left early is the verb phrase. Kim, who did the leaving, stands outside it.
+
+    A verb phrase can be bigger. In I sent Sue a copy, the verb sent comes with two objects, Sue and a copy. In They slept the afternoon away, the verb comes with an object and another word that finishes it.
+
+    The verb's meaning and the pattern it appears in together decide which other words are required or allowed, and the subject is never inside the verb phrase. The dictionary marks this account as provisional.
+  examples:
+    - text: Kim [left early].
+      from: entry
+    - text: I [sent Sue a copy].
+      from: entry
+    - text: They [slept the afternoon away].
+      from: entry
+  try: Take Kim left early and cover up the subject, Kim. What's left, left early, is the verb phrase.
+teacher:
+  summary: 'Core grammar category: the verb phrase, with its head verb and dependents, excluding the Subject.'
+  explain: A verb phrase (VP) is a phrase headed by a verb, containing any complements and modifiers but excluding the Subject. The verb is the head of the VP and the ultimate head of any clause headed by that VP. Its lexical sense and constructional frame jointly determine which complements are required or permitted. The Subject is a dependent of the clause, not of the VP. A VP can therefore head a clause with an overt Subject, or be the whole overt content of a subjectless clause. This dictionary marks its analysis provisional.
+  terms: Verb phrase is the standard term. In this grammar the VP excludes the Subject, and Predicate names the VP's function in the clause.
+  examples:
+    - text: Kim [left early].
+      from: entry
+    - text: I [sent Sue a copy].
+      from: entry
+    - text: They [slept the afternoon away].
+      from: entry
+  contrasts:
+    - text: Kim left early.
+      from: entry
+      note: Kim is the Subject of the clause, not part of the VP.
+  watch_for:
+    - A learner might include the Subject in the verb phrase, when the Subject belongs to the clause.
+    - A learner might assume a verb takes any complements, though its sense and frame decide which are required or permitted.
+  activity: Students take simple sentences with a clear subject and bracket the verb phrase, leaving out the subject. They then compare brackets in pairs.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body now says the verb''s sense and the constructional frame jointly decide which complements are required or permitted, as in the entry (not the verb alone); curious.try no longer tells readers to cross out the subject of any sentence they say (other material, such as a vocative, can lie outside the VP) and uses Kim left early; teacher activity limited to simple sentences with a clear subject; replaced ''the entry'' with ''this dictionary''.'

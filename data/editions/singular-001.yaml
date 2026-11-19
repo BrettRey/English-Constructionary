@@ -1,0 +1,60 @@
+id: singular-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: What singular means
+  summary: Singular is a form that nouns, pronouns and similar words can have, and it makes other words in the sentence agree with it.
+  body: |-
+    Singular is a form that nouns, pronouns and similar words can have. With a count noun like cat it points to one thing, and so do it and this. The singular form is often just the plain word with nothing added, as in cat.
+
+    The pattern also reaches words for substances, like rice. There it signals wholeness, not a count of one: the rice is treated as one undivided mass. The water is cold has a singular verb, even though no distinct unit of water has to be picked out. This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[it]'
+      from: entry
+    - text: '[this]'
+      from: entry
+    - text: '[rice]'
+      from: entry
+    - text: The [water is] cold.
+      from: constructed
+  try: Compare The cats are asleep with The rice is ready. Which verb form goes with the plural, and which goes with the singular?
+teacher:
+  summary: Helps explain singular form and agreement across count and non-count nouns, pronouns and determinatives.
+  explain: 'The singular construction applies to common and proper nouns, pronouns and determinatives. Its form is singular morphology (often zero) plus singular agreement marking, and it signals singular construal. For count uses it specifies exactly one countable entity; this dictionary''s examples are the noun cat, the pronoun it and the determinative this. For non-count nouns it marks unity or wholeness, as with rice, an undivided substance. The pattern travels across count and non-count uses: The water is cold has singular agreement although no distinct unit of water need have been selected. CGEL separates number agreement from countability. This dictionary marks the analysis as provisional.'
+  terms: Non-count nouns are traditionally called mass or uncountable nouns. This dictionary follows CGEL in saying non-count.
+  examples:
+    - text: '[it]'
+      from: entry
+    - text: '[this]'
+      from: entry
+    - text: '[rice]'
+      from: entry
+    - text: The [water is] cold.
+      from: constructed
+  contrasts:
+    - text: The cat is asleep.
+      from: constructed
+      note: A count noun, one entity, singular agreement.
+    - text: The rice is ready.
+      from: constructed
+      note: A non-count noun, singular agreement, no count of one.
+  watch_for:
+    - A learner might think singular agreement with a non-count noun like rice means a single item.
+    - A learner might match the verb to the meaning of a word (a lot of water) instead of its form.
+  activity: Give students a list of nouns (cat, rice, water, idea). They write a sentence with each and mark the verb. Then discuss which nouns count a single item and which mark wholeness.
+child:
+  hook: What word do we use for just one thing, like it or this?
+  explain: A singular word can stand for one thing, like it or this. Words like rice and water are singular too, even though you don't count them one by one.
+  examples:
+    - text: The [rice is] ready.
+      from: constructed
+    - text: The [water is] cold.
+      from: constructed
+  play: Look at things around you. Say the cat is or the rice is, and see which words go with is.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: title, summary and curious.body no longer define singular as single-thing reference (non-count singulars are a separate use); teacher.explain no longer groups it and this under count nouns; child.explain no longer says ''Singular means one''; child.hook reworded to match.'

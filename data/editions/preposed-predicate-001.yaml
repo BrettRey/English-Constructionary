@@ -1,0 +1,31 @@
+id: preposed-predicate-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Putting the action first
+  summary: The verb part of a clause can move to the front to repeat or confirm something already mentioned, with did left behind in its usual place.
+  body: |-
+    In They said Jo would run, and run she did, the speaker confirms the prediction by putting the verb first: run. Then comes the subject, she, and then did.
+
+    The pattern repeats or validates a salient predicate. The front part is the plain form after did. The subject and did don't swap places; the verb part is simply moved in front.
+  examples:
+    - text: They said Jo would run, and [run she did].
+      from: entry
+  try: 'Someone says Sam will win. Can you finish this: And win ...?'
+teacher:
+  summary: Covers sentences where the verb part comes first and the auxiliary is left behind, as in run she did.
+  explain: The pattern is a clause consisting of a preposed VP, the subject and a stranded licensing auxiliary, as in run she did. It repeats or validates a salient predicate by putting the verbal material first. The auxiliary remains in the nucleus, and the preposed VP is plain after do. Preposing the lexical predicate does not require inverting the subject and auxiliary. This dictionary relates it to complement preposing, auxiliary VP ellipsis and finite do-support. It is provisional, with medium confidence.
+  terms: Textbooks sometimes describe this as VP fronting. This dictionary calls it a preposed verbal predicate.
+  examples:
+    - text: They said Jo would run, and [run she did].
+      from: entry
+  watch_for:
+    - A learner might expect the subject and auxiliary to swap places, when this dictionary says preposing the lexical predicate does not require inversion.
+    - A learner might use an inflected verb in the fronted part, when it is plain after do.
+  activity: Give students a prediction (They said Jo would run). They continue each with a confirming clause that fronts the verb, then compare the order with a plain version.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

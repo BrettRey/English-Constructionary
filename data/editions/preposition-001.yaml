@@ -1,0 +1,43 @@
+id: preposition-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words like in, outside and because
+  summary: In this dictionary, a preposition is a word that heads a preposition phrase, and the group is wider than you may expect.
+  body: |-
+    Words like in, on and of are prepositions. So are some words that traditional grammar puts elsewhere: outside, home and ago, which need no noun after them, and because, which takes a whole clause.
+
+    Prepositions relate one thing or event to another in space, time or other ways. They don't change form. In the garden, she waited outside and ten years ago all contain a preposition, and so does because it rained. In place uses, you can add right or straight: right outside, straight home.
+  examples:
+    - text: '[in] the garden'
+      from: entry
+    - text: She waited [outside].
+      from: entry
+    - text: ten years [ago]
+      from: entry
+    - text: '[because] it rained'
+      from: entry
+  try: Find a sign or a book page and look for small words like in, on or because. Which ones are followed by a noun, and which by a clause or nothing?
+teacher:
+  summary: Defines the wider category of preposition, including words that traditional grammar calls adverbs or subordinating conjunctions.
+  explain: A preposition is a lexical category heading PPs, with optional complements for much of the class. The CGEL category is much larger than the traditional one. It includes traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with an obligatory pre-head measure modifier), the rare complement-head member notwithstanding, and clause-taking members traditionally called subordinating conjunctions (because, although, while). Prepositions are closed-class and don't inflect. In locative uses they accept right and straight. The Constructionary departs from CGEL on the analysis of ago.
+  terms: Traditional grammar calls home, outside and upstairs adverbs, and because, although and while subordinating conjunctions. This grammar calls them prepositions.
+  examples:
+    - text: '[in] the garden'
+      from: entry
+    - text: She waited [outside].
+      from: entry
+    - text: ten years [ago]
+      from: entry
+    - text: '[because] it rained'
+      from: entry
+  watch_for:
+    - A learner might think a preposition must be followed by a noun phrase, when this dictionary gives intransitive members such as outside.
+    - A learner might treat because as a different kind of word from in, when this dictionary places both in one category.
+  activity: Give students a list (in, outside, home, ago, because, although). They try each in a sentence, then say whether anything follows it, and what.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

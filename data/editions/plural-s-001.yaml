@@ -1,0 +1,58 @@
+id: plural-s-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Adding -s to make a plural
+  summary: Adding -s or -es to a common noun makes it plural, and the same ending can also count types, repeated events or members of a family.
+  body: |-
+    The ending -s turns cat into cats, marking more than one. The ending is pronounced differently depending on the last sound of the word: an s sound in cats, a z sound in dogs, and an extra syllable, like iz, in horses.
+
+    The same ending does other jobs. Wines counts types of wine. I get headaches describes headaches that come back. And the Kennedys names the members of a family or dynasty, built from a name. Which job the ending does depends on how the noun is being used.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[wines]'
+      from: entry
+    - text: I get [headaches].
+      from: entry
+    - text: '[the Kennedys]'
+      from: entry
+  try: Say cats, dogs and horses aloud. Can you hear the three different endings?
+teacher:
+  summary: Covers regular plural -s/-es, its pronunciation, and its extensions to types, recurring instances and family names.
+  explain: 'Plural -s or -es attaches to a common-noun stem and realizes plural number. In regular formation the final sound of the stem predicts the pronunciation of the suffix: /s/ in cats, /z/ in dogs, /ɪz/ in horses. The same suffix realizes plural number in several uses: non-singular (cats), types or varieties of a substance (wines), recurring instances (I get headaches), and groups formed from proper names (the Kennedys, meaning Kennedy family or dynasty members). A variety reading depends on the noun being used as a count noun. This dictionary marks this as provisional, with medium confidence.'
+  terms: The sibilant ending is sometimes called an allomorph of the plural suffix.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[wines]'
+      from: entry
+    - text: I get [headaches].
+      from: entry
+    - text: '[the Kennedys]'
+      from: entry
+  contrasts:
+    - text: cats, dogs, horses
+      from: constructed
+      note: Three pronunciations of one suffix, set by the last sound of the stem.
+  watch_for:
+    - A learner might pronounce the ending the same way in cats, dogs and horses.
+    - A learner might read wines only as more than one bottle, when it can count types of wine.
+  activity: Students sort a list of plural nouns by the ending sound (s, z, iz) and say what the last sound of the singular is each time.
+child:
+  hook: Does the s on cats sound the same as the s on dogs?
+  explain: Adding s to a word can mean more than one. Cats ends with an s sound. Dogs ends with a z sound. Horses ends with an extra bit, like iz.
+  examples:
+    - text: cats
+      from: entry
+    - text: dogs
+      from: constructed
+    - text: horses
+      from: constructed
+  play: 'Say a list of plural words aloud. Sort them by the ending you hear: s, z or iz.'
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

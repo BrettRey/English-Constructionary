@@ -145,3 +145,6 @@ Thumbs.db
 CLAUDE.md
 AGENTS.md
 /literature
+
+# Agent run records (briefs, checker logs); kept on disk, not published
+/runs

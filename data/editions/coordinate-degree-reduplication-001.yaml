@@ -1,0 +1,51 @@
+id: coordinate-degree-reduplication-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Fainter and fainter
+  summary: Repeating a comparative word with and says that something keeps changing by degrees.
+  body: |-
+    In The sound grew fainter and fainter, the same word is said twice, joined by and. The sentence doesn't mention two different qualities. It says the faintness kept increasing.
+
+    What's repeated has to be a comparative, the kind of form that compares degrees. Repeating the plain form has other uses, and this dictionary treats the pattern as a separate case. The analysis here is provisional.
+  examples:
+    - text: The sound grew [fainter and fainter].
+      from: entry
+    - text: The days grew [warmer and warmer].
+      from: constructed
+  try: Finish the sentence "The music got ___ and ___" with one comparative word twice. What changes over time?
+teacher:
+  summary: Helps explain fainter and fainter and similar repetitions that mean progressive increase or decrease.
+  explain: 'The pattern is a coordination of two identical comparatives (AdjP or AdvP): fainter and fainter. Repeating the same comparative yields continued change over a relevant interval, not two independent properties, as separate adjectives would (cold and wet). This dictionary treats it as a specialization of coordination. The corresponding plain-grade repetition has other uses, so this reading belongs to the comparative form. The analysis is provisional.'
+  terms: Traditional grammars may call the -er or more form the comparative degree. Here comparative is a grade of the adjective or adverb.
+  examples:
+    - text: The sound grew [fainter and fainter].
+      from: entry
+    - text: The days grew [warmer and warmer].
+      from: constructed
+  contrasts:
+    - text: The sound grew fainter and fainter.
+      from: entry
+      note: One property, increasing over the interval.
+    - text: The room was cold and wet.
+      from: constructed
+      note: Two different properties, ordinary coordination.
+  watch_for:
+    - A learner might read fainter and fainter as two separate qualities rather than one that keeps increasing.
+  activity: Students describe a changing situation (a balloon inflating, a storm approaching, a sunset) using the pattern, then replace it with a sentence about two different properties and say how the meaning shifts.
+child:
+  hook: How would you say a sound is getting quieter and quieter?
+  explain: When we say a word like fainter or warmer twice with and, it can mean something keeps changing. The sound grew fainter and fainter. It means it kept getting fainter.
+  examples:
+    - text: The sound grew [fainter and fainter].
+      from: entry
+    - text: The days grew [warmer and warmer].
+      from: constructed
+  play: Pick a changing thing, like a balloon or the sun. Describe it with one word twice, like bigger and bigger. Can a friend guess what is happening?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: child.explain now limits the pattern to a repeated comparative word like fainter or warmer, as the entry does; curious.body no longer ties the comparative to an ending; ''steady'' changed to ''progressive'' (teacher.summary); ''as time went on'' and ''over time'' changed to match the entry''s ''relevant interval''. Second round: fixed curious.body, which said the repeated unit had to be a single comparative word (the entry repeats a comparative adjective or adverb phrase).'

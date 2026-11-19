@@ -1,0 +1,43 @@
+id: object-raising-infinitival-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Expecting something about someone
+  summary: In They expected there to be trouble, what is expected is a whole situation, not the word after expected.
+  body: |-
+    In They expected there to be trouble, the thing expected is that there would be trouble. The little word there isn't a person or a place, so it can't be someone the verb is about. It simply fills the position after the verb.
+
+    This dictionary calls the pattern object raising. An ordinary noun phrase after the verb can correspond to the subject of a passive, as Jo does in Jo was expected to win. It need not take part in the expecting or believing itself. The pattern presents an assessment of a situation, here Jo winning.
+  examples:
+    - text: They [expected there to be trouble].
+      from: entry
+    - text: Jo [was expected to win].
+      from: entry
+  try: Say They expected there to be trouble. Is there a person or thing that does the expecting besides they?
+teacher:
+  summary: Explains verbs like expect, where the noun phrase after the verb belongs to the situation being assessed.
+  explain: In object raising, the NP after the verb is the subject of the to-infinitival situation but appears in the higher complement sequence. The pattern presents an assessment of that subordinate situation. The slot admits dummy there (expected there to be trouble), and an ordinary raised NP can correspond to the subject of a passive with verbs such as believe. It need not independently participate in the believing. A passive counterpart preserves the embedded predication (Jo was expected to win). It contrasts with object control, as in persuaded Kai to stay, where Kai is the person persuaded. This dictionary marks the analysis as provisional.
+  terms: Raising to object is another name for the same pattern. This dictionary treats object control separately.
+  examples:
+    - text: They [expected there to be trouble].
+      from: entry
+    - text: Jo [was expected to win].
+      from: entry
+  contrasts:
+    - text: They expected there to be trouble.
+      from: entry
+      note: Dummy there is possible after the verb.
+    - text: Jo persuaded Kai to stay.
+      from: constructed
+      note: Control. Kai is the person persuaded.
+  watch_for:
+    - A learner might think the NP after the verb must take part in the main verb's action, when with expect it need not.
+    - A learner might treat there in expected there to be trouble as a place, when it is a dummy.
+  activity: Students compare sentences with expected and persuaded, and ask of each whether the noun phrase after the verb is a person the verb acts on or only the subject of what is expected.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious body no longer calls Jo in the passive ''a noun phrase in that position'' (it is the passive subject corresponding to the NP after the verb); teacher control contrast no longer claims dummy there is excluded or that the object ''must'' be a participant (the entry does not say so). Second round: dismissed the three flags on the object-control contrast (this dictionary''s object-control entry links back to this one with the same contrast, persuaded Kai to stay against expected there to be trouble, and says Kai is the person persuaded); teacher.terms now says this dictionary treats object control separately. Also fixed: This dictionary is provisional changed to marks the analysis as provisional.'

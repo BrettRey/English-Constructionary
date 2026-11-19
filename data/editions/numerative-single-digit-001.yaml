@@ -1,0 +1,43 @@
+id: numerative-single-digit-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The words for zero to nine
+  summary: The single-word numbers from zero to nine can do any job a number word does, though they don't all behave alike.
+  body: |-
+    The numbers from zero to nine are single words: one, two, three and so on up to nine, plus zero. They can stand in front of a noun, multiply a bigger number, or be added to one, as in forty-two.
+
+    They don't all act the same. One goes with a singular noun, while zero can go with a plural, as in zero defects. This dictionary says that being a single-digit number doesn't tell you how a word will agree or what kind of noun follows it.
+  examples:
+    - text: '[one]'
+      from: entry
+    - text: '[five]'
+      from: entry
+    - text: '[zero] defects'
+      from: constructed
+    - text: I read [one] chapter.
+      from: constructed
+  try: Say one apple, then zero apples. Which has a plural ending on the noun?
+teacher:
+  summary: Covers the digit words zero to nine, and why they don't all select the same kind of noun.
+  explain: Single-digit numeratives are the monomorphemic lexemes zero to nine. They specify cardinality and can function as a factor, as an addend or as a determiner, and they combine freely in compounds. They don't predict uniform agreement or determiner selection. Zero participates as the lexeme zero and can determine a plural (zero defects). One selects a singular count nominal. This dictionary separates the numerical representation, the digit, from grammatical number. It is provisional.
+  terms: Numeral, or cardinal numeral, is the traditional name. Digit refers to the written symbol 0 to 9, which this dictionary distinguishes from the lexeme.
+  examples:
+    - text: '[one]'
+      from: entry
+    - text: '[five]'
+      from: entry
+    - text: '[zero] defects'
+      from: constructed
+    - text: '[one] chapter'
+      from: constructed
+  watch_for:
+    - A learner might expect one to go with a plural noun in the way five does.
+    - A learner might think zero must go with a singular noun, because it stands for none.
+  activity: Students write a noun phrase for each word from zero to nine (for example zero defects, one chapter, five dogs) and sort them by whether the noun is singular or plural.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

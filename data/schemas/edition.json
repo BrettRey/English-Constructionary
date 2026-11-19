@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Constructionary reader editions",
+  "description": "Plain-language editions of one construction entry: curious reader, teacher and (optionally) child. The linguist edition is the construction entry itself.",
+  "type": "object",
+  "required": ["id", "status", "drafted", "curious", "teacher"],
+  "additionalProperties": false,
+  "definitions": {
+    "example": {
+      "type": "object",
+      "required": ["text", "from"],
+      "additionalProperties": false,
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "from": { "enum": ["entry", "constructed"] },
+        "acceptable": { "type": "boolean" },
+        "note": { "type": "string" }
+      }
+    },
+    "examples": { "type": "array", "items": { "$ref": "#/definitions/example" } }
+  },
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z-]+[0-9]{3}$" },
+    "status": { "enum": ["draft", "reviewed"] },
+    "drafted": {
+      "type": "object",
+      "required": ["date", "model"],
+      "additionalProperties": false,
+      "properties": { "date": { "type": "string" }, "model": { "type": "string" } }
+    },
+    "checked": {
+      "type": "object",
+      "required": ["date", "model", "result"],
+      "additionalProperties": false,
+      "properties": {
+        "date": { "type": "string" },
+        "model": { "type": "string" },
+        "result": { "enum": ["pass", "fixed", "flagged"] },
+        "note": { "type": "string" }
+      }
+    },
+    "drafter_note": { "type": "string" },
+    "curious": {
+      "type": "object",
+      "required": ["title", "summary", "body", "examples"],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string", "minLength": 3 },
+        "summary": { "type": "string", "minLength": 10 },
+        "body": { "type": "string", "minLength": 40 },
+        "examples": { "$ref": "#/definitions/examples" },
+        "try": { "type": "string" }
+      }
+    },
+    "teacher": {
+      "type": "object",
+      "required": ["summary", "explain", "examples"],
+      "additionalProperties": false,
+      "properties": {
+        "summary": { "type": "string", "minLength": 10 },
+        "explain": { "type": "string", "minLength": 40 },
+        "terms": { "type": "string" },
+        "examples": { "$ref": "#/definitions/examples" },
+        "contrasts": { "$ref": "#/definitions/examples" },
+        "watch_for": { "type": "array", "items": { "type": "string" } },
+        "activity": { "type": "string" }
+      }
+    },
+    "child": {
+      "type": "object",
+      "required": ["hook", "explain", "examples", "play"],
+      "additionalProperties": false,
+      "properties": {
+        "hook": { "type": "string", "minLength": 5 },
+        "explain": { "type": "string", "minLength": 20 },
+        "examples": { "$ref": "#/definitions/examples" },
+        "play": { "type": "string", "minLength": 10 }
+      }
+    }
+  }
+}

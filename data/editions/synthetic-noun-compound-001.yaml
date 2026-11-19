@@ -1,0 +1,54 @@
+id: synthetic-noun-compound-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Nouns like window-cleaner
+  summary: In its agentive reading, a compound like window-cleaner names a person by the thing they work on and what they do.
+  body: |-
+    In They hired a window-cleaner, the first part, window, names what is acted on, and cleaner names the one who does the action. A window-cleaner is someone who cleans windows.
+
+    Other compounds are looser. A compound made of two ordinary nouns can connect them through a much wider range of relations, which the listener works out from context. In the pattern here, the first part matches a participant in the action of the verb.
+
+    This dictionary marks the analysis as provisional and gives one constructed illustration.
+  examples:
+    - text: They hired a [window-cleaner].
+      from: entry
+    - text: We met a [dog-walker].
+      from: constructed
+  try: Think of someone whose job is named by a thing plus a person who does something to it. Can you say it with a verb, like cleans windows?
+teacher:
+  summary: Explains compounds like window-cleaner, where the first noun is a participant of the verb in the second word.
+  explain: The pattern is a compound noun whose first element supplies a participant associated with the verbal base of the second element, a deverbal noun. In the agentive reading, a window-cleaner is someone who cleans windows. Ordinary nondeverbal compounds can connect their two nouns through a much wider range of contextually inferred relations. This dictionary marks the analysis as provisional and gives one constructed illustration. A related entry covers deverbal nouns in -er.
+  terms: Sometimes called synthetic compounds.
+  examples:
+    - text: They hired a [window-cleaner].
+      from: entry
+    - text: We met a [dog-walker].
+      from: constructed
+  contrasts:
+    - text: They hired a window-cleaner.
+      from: entry
+      note: The first noun is what the verb acts on; the second names the doer.
+    - text: I bought a coffee cup.
+      from: constructed
+      note: An ordinary compound; the link between the nouns is inferred from context.
+  watch_for:
+    - A learner might read window-cleaner as a cleaner that belongs to windows, rather than someone who cleans windows.
+    - A learner might expect every two-noun compound to link its parts the way window-cleaner does.
+  activity: Students list compounds like window-cleaner, where a participant noun is followed by a noun derived from a verb. They say what each person does with a verb, as in cleans windows, then compare them with compounds like coffee cup, whose link is looser.
+child:
+  hook: What does a window-cleaner do?
+  explain: Some words put what you work on first, then the person who does the job. A window-cleaner cleans windows. A dog-walker walks dogs.
+  examples:
+    - text: They hired a [window-cleaner].
+      from: entry
+    - text: We met a [dog-walker].
+      from: constructed
+  play: Make a job word like this from a thing and a doer. What does the person do? Say it with a verb.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: the teacher activity no longer treats an -er ending as enough for an object paraphrase (the entry requires a derived deverbal noun with a participant first element); curious summary marks the agentive reading. Dismissed: none. Second round: fixed teacher.terms, which attributed synthetic compounds to traditional grammar (the entry uses the term in its name without that attribution); curious.body now says this dictionary gives one constructed illustration rather than that the analysis rests on it.'

@@ -1,0 +1,45 @@
+id: object-ascriptive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Describing the person or thing after the verb
+  summary: In some sentences the phrase after the object describes it, and isn't a second object.
+  body: |-
+    In She considered him a fool, the phrase a fool doesn't name another person. It describes him. The sentence ascribes a property or status to the person referred to by him.
+
+    Nothing has to change for this to work: considering someone a fool doesn't present them as becoming one. The description stays attached to him even when the sentence is turned around, as in He was considered unreliable. This dictionary separates this pattern from sentences with two objects, such as handing someone a gift.
+  examples:
+    - text: She [considered him a fool].
+      from: entry
+    - text: He was [considered unreliable].
+      from: entry
+  try: Say She considered him a fool. Who does a fool describe?
+teacher:
+  summary: Separates an object plus a describing phrase from two objects, and from a result.
+  explain: 'The pattern is a verb, a direct object and a predicative complement (an NP or AdjP) that describes the object: in considered him a fool, a fool describes him. The predicative adds no participant and doesn''t require a change of state. In the passive, the original object becomes the subject and the predicative still describes the same referent (He was considered unreliable). It contrasts with the double-object pattern, where two NPs are separate objects, and with the resultative, which presents the property as the result of the event. This dictionary marks the analysis as provisional.'
+  terms: The predicative here is sometimes called an object complement. This dictionary's term is predicative complement, with the object as its predicand.
+  examples:
+    - text: She [considered him a fool].
+      from: entry
+    - text: He was [considered unreliable].
+      from: entry
+  contrasts:
+    - text: She considered him a fool.
+      from: entry
+      note: A fool describes him, so there's one object plus a predicative.
+    - text: She gave him a book.
+      from: constructed
+      note: Two separate objects, indirect then direct.
+    - text: He painted the fence blue.
+      from: constructed
+      note: The property is the result of the event, which makes it a resultative.
+  watch_for:
+    - A learner might read the two NPs in considered him a fool as two objects, when a fool describes him.
+    - A learner might expect considered unreliable to mean the person changed, when the pattern doesn't require a change of state.
+  activity: Give students sentences with two phrases after the verb. They decide whether the second phrase describes the first phrase or is a second object, and explain how they know.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

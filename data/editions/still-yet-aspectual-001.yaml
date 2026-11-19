@@ -1,0 +1,46 @@
+id: still-yet-aspectual-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Still and not yet
+  summary: 'Not yet and still place something against an expected course of events: one reports what hasn''t happened, the other what carries on.'
+  body: |-
+    In The alarm hasn't stopped yet, hasn't and yet together set the stopping against a point in time, here the present, and say it hasn't happened by then. Together they can also suggest that the stopping is still expected to come.
+
+    Still works from the other side. It can present a state that already exists as carrying on. So not yet reports something that hasn't happened, and the word still reports something that continues.
+
+    This dictionary marks the analysis as provisional and illustrates it with a single constructed example, so take it as a first sketch.
+  examples:
+    - text: The alarm [hasn't stopped yet].
+      from: entry
+    - text: The alarm is [still ringing].
+      from: constructed
+  try: Think of something you're waiting for. Say that it hasn't happened yet. Does your sentence suggest you expect it to happen?
+teacher:
+  summary: Useful for explaining how not yet can suggest an expected change and how still can present a continuing state.
+  explain: This dictionary covers clauses with still or a negative yet and a temporal reference point, such as now. Not yet says the event has failed to occur up to that point, and it can suggest the event remains expected. Still can instead present an existing state as persisting. Both words are heard against an expected course of events. This dictionary treats the pattern as provisional and illustrates it with one constructed example, so treat these as starting observations for a lesson, not a full account of either word.
+  examples:
+    - text: The alarm [hasn't stopped yet].
+      from: entry
+    - text: The alarm is [still ringing].
+      from: constructed
+  watch_for:
+    - A learner might read not yet as a plain negative and miss that the event can still be expected.
+    - A learner might treat still as only a time word and miss that it presents an existing state as continuing.
+  activity: Give pairs a situation, such as a kettle on the stove. Each partner writes one sentence with not yet and one with still describing it at different moments. They swap and say what each sentence suggests about what the speaker expects next.
+child:
+  hook: What do you mean when you say the kettle hasn't boiled yet?
+  explain: Not yet says something hasn't happened up to the time we're talking about. It can hint that it is still expected. Still says something is carrying on.
+  examples:
+    - text: The kettle [hasn't boiled yet].
+      from: constructed
+    - text: The dog is [still barking].
+      from: constructed
+  play: Look at a clock. Say one thing that hasn't happened yet today and one thing that is still going on. Take turns with a friend.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.body and teacher.explain now call the only example a constructed illustration; curious.summary no longer restricts both words to negative sentences or to now; child.explain says not yet can hint the event is still expected, with no claim about how soon, and refers to the time being talked about; replaced ''This entry'' with this dictionary. Second round: fixed curious.body, which gave the non-occurrence meaning to yet alone (the entry gives it to not yet), and the child hook likewise; teacher.summary now says not yet can suggest an expected change and still can present a continuing state, as the entry does.'

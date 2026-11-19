@@ -1,0 +1,55 @@
+id: existential-there-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sentences that start with there
+  summary: There plus be can introduce something, or say that it's present, available or going on.
+  body: |-
+    In There are two spare seats, the word there doesn't point to a place. It opens the sentence so that the thing being introduced, two spare seats, comes after the verb. Sentences like this introduce something new into the conversation, or assert that it's present, available or happening.
+
+    The word there moves around like a subject. It switches places with the verb in a question (Is there a seat?) and can turn up in a tag at the end. The thing introduced favours information that's new to the listener, though some definite things are allowed in the right context.
+  examples:
+    - text: '[There are two spare seats].'
+      from: entry
+    - text: '[Is there a seat]?'
+      from: entry
+    - text: '[There is a cat] on the roof.'
+      from: constructed
+  try: Say There are two spare seats, then turn it into a question. What happens to the word there?
+teacher:
+  summary: Helps explain existential there, the there that doesn't mean a place, and what comes after be.
+  explain: 'In an existential clause, dummy there is followed by finite be and a pivot NP: There are two spare seats. The clause introduces a candidate referent or asserts its presence, availability or occurrence. There inverts in Is there a seat? and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts. This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Dummy there is also called expletive there. The pivot is the NP after be.
+  examples:
+    - text: '[There are two spare seats].'
+      from: entry
+    - text: '[Is there a seat]?'
+      from: entry
+  contrasts:
+    - text: There are two spare seats.
+      from: entry
+      note: Dummy there, no place meaning.
+    - text: There are two spare seats, aren't there?
+      from: constructed
+      note: There can occur in a tag.
+  watch_for:
+    - A learner might read there in There are two spare seats as the adverb of place.
+    - A learner might expect a definite pivot to be ruled out, though some definites are licensed in appropriate contexts.
+  activity: Students write three sentences about their classroom starting with There is or There are. They turn each into a question, then swap with a partner and underline the pivot.
+child:
+  hook: Does the word there in There are two spare seats point to a place?
+  explain: 'Some sentences start with there just to introduce something. There are two spare seats. The seats are the news. You can ask about them too: Is there a seat?'
+  examples:
+    - text: '[There are two spare seats].'
+      from: entry
+    - text: '[Is there a seat]?'
+      from: entry
+    - text: '[There is a cat] on the roof.'
+      from: constructed
+  play: Look around the room. Say what you can find with There is or There are. Then turn each one into a question starting with Is there or Are there.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

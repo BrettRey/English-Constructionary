@@ -1,0 +1,36 @@
+id: negative-concord-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Two negative words, one negation
+  summary: In some varieties of English, more than one negative word in a clause can express a single negation.
+  body: |-
+    In I didn't tell nobody about it, both didn't and nobody are negative words. In varieties with negative concord, the sentence expresses one negation and can mean that nobody was told.
+
+    Other systems can read two negative words differently, as two negations. A specially contrastive context can also bring out that two-negation reading. The reading depends on the variety, not on the words alone.
+  examples:
+    - text: I [didn't tell nobody] about it.
+      from: entry
+  try: Listen for a sentence with two negative words, such as didn't and nobody. Does the speaker seem to mean one negation or two?
+teacher:
+  summary: Explains how multiple negative expressions can express a single negation, with the reading depending on the variety.
+  explain: Negative concord is a pattern in which a clause with verbal negation and/or multiple negative expressions is interpreted as expressing a single negation. In I didn't tell nobody about it, the interpretation in a concord variety is that nobody was told. A two-negation interpretation is also possible in other systems or with a specially contrastive context. Related patterns include primary-auxiliary negation and the determinative no.
+  terms: Negative concord is the term this dictionary uses for the single-negation interpretation.
+  examples:
+    - text: I [didn't tell nobody] about it.
+      from: entry
+  contrasts:
+    - text: I didn't tell nobody about it.
+      from: entry
+      note: In a concord variety, one negation, meaning nobody was told.
+  watch_for:
+    - A learner might read two negative words as cancelling each other to give a positive meaning, when in a concord variety they express one negation.
+    - A learner might assume that every variety interprets two negative words the same way.
+  activity: Discuss with students how the sentence I didn't tell nobody about it would be understood in a variety with negative concord and in a system with two negations. Ask them to explain the difference in meaning each reading gives.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: cut the ''double negative / double negation'' term from teacher terms (the entry does not support it as a label for the form); curious body trimmed a sentence claiming the dictionary describes each reading, which the entry does not do.'

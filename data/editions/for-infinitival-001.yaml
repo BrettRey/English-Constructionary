@@ -1,0 +1,35 @@
+id: for-infinitival-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: For, then who, then to
+  summary: A phrase made of for, a person or thing, and to plus a verb can say who would do the action.
+  body: |-
+    In For them to leave now would be awkward, the words for them to leave now say what would be awkward, and them is the one who would leave. Here for isn't linking them to something as a preposition would. The person doing the leaving is them.
+
+    When the whole phrase is the subject of a sentence, it normally needs for before the person or thing. A pronoun for a person takes its them-type form here.
+  examples:
+    - text: '[For them to leave now] would be awkward.'
+      from: entry
+    - text: '[For Ana to win] would be wonderful.'
+      from: constructed
+  try: In For them to leave now would be awkward, who is leaving?
+teacher:
+  summary: 'For advanced classes: the for NP to-VP pattern, where the NP is the subject of the infinitive.'
+  explain: 'The for-infinitival introduces an infinitival with a syntactically expressed subject: for, Subject NP, then a to-infinitival VP. A personal pronoun takes accusative form (for them to leave). In For them to leave now would be awkward, them is the subject of leave, not the object of a purpose preposition in this use. In subject position this infinitival normally requires for before its overt subject. This dictionary cites CGEL on infinitival clauses and is marked provisional, with medium confidence.'
+  terms: Accusative is also called objective case. This pattern is sometimes called a for-to infinitive.
+  examples:
+    - text: '[For them to leave now] would be awkward.'
+      from: entry
+    - text: '[For Ana to win] would be wonderful.'
+      from: constructed
+  watch_for:
+    - A learner might analyze for them as a prepositional phrase with them as its object.
+    - A learner might expect for to be optional in subject position, where it normally isn't.
+  activity: Students write sentences beginning For ___ to ___ with different people and verbs. They underline the subject of the infinitive and say who does the action.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

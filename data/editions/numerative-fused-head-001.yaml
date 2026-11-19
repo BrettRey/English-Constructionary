@@ -1,0 +1,46 @@
+id: numerative-fused-head-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Number words that stand in for a whole phrase
+  summary: A number word can stand alone when the thing counted is clear from the situation.
+  body: |-
+    In She bought twenty books, but I bought twenty-two, the second number does the work of a whole phrase. It means twenty-two books, and we recover books from the first half of the sentence.
+
+    Not every bare number works this way. In Forty is even, the number names the number itself. And an answer like Two to the question How many thousand? fills in only the multiplier part of a number such as two thousand. This dictionary treats these as different readings of a similar-looking form.
+  examples:
+    - text: She bought twenty books, but I bought [twenty-two].
+      from: entry
+    - text: How many thousand? [Two].
+      from: entry
+    - text: '[Forty] is even.'
+      from: constructed
+  try: Say a sentence with a number and a counted thing, then repeat it with the thing left out of the second half. What does the listener fill in?
+teacher:
+  summary: Shows number words standing alone for a whole noun phrase, and separates that use from bare numbers that name numbers.
+  explain: 'A numerative can fill a whole NP by itself, with the noun recovered from context. This dictionary calls this a fused determiner-head: one word has both the determiner function and the head function. A partitive of-complement may follow. Stand-alone shape doesn''t settle the analysis: in Lee bought thirty books and I bought forty, forty fills the object NP and recovers books, but in Forty is even the bare form can name the number. The fragment Two, answering How many thousand?, substitutes for the factor in two thousand and isn''t a fused head. This dictionary marks the analysis as provisional.'
+  terms: Fused determiner-head is the term used here. Traditional grammar might describe these as numerals used without a noun.
+  examples:
+    - text: She bought twenty books, but I bought [twenty-two].
+      from: entry
+    - text: How many thousand? [Two].
+      from: entry
+    - text: I bought [twenty-two] of the books.
+      from: constructed
+  contrasts:
+    - text: Lee bought thirty books and I bought [forty].
+      from: constructed
+      note: Fused head, noun recovered from context.
+    - text: '[Forty] is even.'
+      from: constructed
+      note: The bare form can name the number instead.
+  watch_for:
+    - A learner might treat the fragment answer Two, given to a question about thousands, as a fused head, when it replaces only the factor.
+    - A learner might read Forty in Forty is even as standing for forty things, when it can name the number.
+  activity: Write short pairs of sentences where the second leaves out the counted noun. Students underline the number word and say what noun the reader recovers.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

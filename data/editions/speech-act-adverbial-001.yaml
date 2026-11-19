@@ -1,0 +1,35 @@
+id: speech-act-adverbial-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words about how you're speaking
+  summary: An adverb like frankly can describe how or why the speaker is making the statement, not what the statement is about.
+  body: |-
+    In Frankly, the repair won't last, the word frankly isn't about the repair. It describes the speaker's way of speaking: the speaker is being frank in saying this.
+
+    You can check by paraphrase. Something like I'm speaking frankly captures it, and the content asserted stays the same: the repair won't last. This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[Frankly], the repair won''t last.'
+      from: entry
+    - text: '[Honestly], the soup needs salt.'
+      from: constructed
+  try: Add a word like honestly or briefly to the start of a statement. Is it about the thing you're describing, or about how you're saying it?
+teacher:
+  summary: Helps explain an adverbial that characterizes the speaker's manner or purpose in making the utterance.
+  explain: 'A speech-act adverbial is a supplementary adverbial oriented to the utterance act: it characterizes the speaker''s manner or purpose in making the utterance. In Frankly, the repair won''t last, frankly characterizes the speaker''s statement, not the repair''s manner of failing. A paraphrase can mention speaking frankly without changing the content asserted. This dictionary relates it to evaluative sentence adverbs and to participial clause supplements. The analysis is marked provisional.'
+  terms: 'In this dictionary: speech-act adverbial.'
+  examples:
+    - text: '[Frankly], the repair won''t last.'
+      from: entry
+    - text: '[Honestly], the soup needs salt.'
+      from: constructed
+  watch_for:
+    - A learner might read frankly as describing how the repair fails, when it describes the speaker's statement.
+    - A learner might think the adverb changes the content asserted, when a paraphrase like I'm speaking frankly leaves it unchanged.
+  activity: Write statements with a speech-act adverb on cards. Students paraphrase each as I'm saying this ..., and check that the asserted content doesn't change.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

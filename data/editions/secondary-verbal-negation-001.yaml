@@ -1,0 +1,53 @@
+id: secondary-verbal-negation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Negating a verb without do
+  summary: In certain verb forms, not negates the verb without the helper do.
+  body: |-
+    Plain sentences like Lee did not leave need the helper do. But some verb forms get their negation another way. In It is vital that he not be told, not stands directly in front of be. In Not locking the doors is unwise, it stands before locking. In a plan not to leave, it comes before to.
+
+    This works with forms that aren't tensed sentences: a plain-form verb after that, an -ing form, a form like approved in a plan not approved by the board, and a to form. In each, no do is used. With to, not can come before or after it, as in for them not to smile and for them to not smile. This dictionary marks the analysis as provisional.
+  examples:
+    - text: It is vital that he [not] be told.
+      from: entry
+    - text: '[Not] locking the doors is unwise.'
+      from: entry
+    - text: a plan [not] approved by the board
+      from: entry
+    - text: It looks bad for them [not] to smile.
+      from: entry
+  try: Compare Lee did not leave with a plan not to leave. What helper verb appears in the first and not in the second?
+teacher:
+  summary: Helps explain not before non-finite and subjunctive verb phrases, where do-support is unavailable.
+  explain: In secondary verbal negation, not premodifies a VP in a non-finite or subjunctive clause, and do-support is unavailable. The four cases are the subjunctive (that he not be told), the gerund-participial (not locking the doors), the past-participial (a plan not approved by the board) and the infinitival (for them not to smile). In to-infinitivals, not may appear before or after to (for them to not smile). The negative to-infinitival in a plan not to leave and the mandative that Lee not leave both keep the following verb in the plain form without do. By contrast, the finite declarative Lee did not leave uses do. CGEL treats these as secondary verbal negation, distinguished by form from primary negation.
+  terms: Subjunctive, gerund-participial, past-participial and infinitival are the clause types named in this dictionary. CGEL distinguishes secondary verbal negation by form from primary negation; the finite declarative Lee did not leave, which uses do, is the comparison case.
+  examples:
+    - text: It is vital that he [not] be told.
+      from: entry
+    - text: '[Not] locking the doors is unwise.'
+      from: entry
+    - text: a plan [not] approved by the board
+      from: entry
+    - text: It looks bad for them [not] to smile.
+      from: entry
+  contrasts:
+    - text: Lee did not leave.
+      from: constructed
+      note: Finite declarative; negation uses do.
+    - text: a plan not to leave
+      from: constructed
+      note: Negative to-infinitival; no do.
+    - text: for them to not smile
+      from: entry
+      note: Not may also follow to.
+  watch_for:
+    - A learner might add do to the verb after not in a to-infinitive or subjunctive clause.
+    - A learner might look for not only after to, when it may come before or after.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious summary and body no longer say not comes directly before the verb in every case (this dictionary allows not before or after to); the clause forms are described more carefully; teacher terms no longer defines primary negation as finite with do-support and instead names the comparison case this dictionary uses. Also fixed (unflagged): ''the entry'' wording; curious title.'

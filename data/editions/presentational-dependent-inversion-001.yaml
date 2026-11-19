@@ -1,0 +1,35 @@
+id: presentational-dependent-inversion-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Putting a place or time first, and the subject last
+  summary: A phrase giving a place or time can open a sentence, with the verb next and the subject coming after it.
+  body: |-
+    In Three days later came another eight offers, the sentence opens with a time phrase, then comes the verb, and only then the thing being introduced: another eight offers. In On the wall hung a portrait, a place phrase opens the sentence and the portrait arrives last.
+
+    The pattern introduces a person, thing or event after first saying where or when it belongs. The opening phrase normally links back to what was said before. The verb doesn't have to be a form of be. This dictionary treats the account as provisional.
+  examples:
+    - text: '[Three days later came another eight offers.]'
+      from: entry
+    - text: '[On the wall hung a portrait].'
+      from: entry
+  try: Read a sentence that begins with a place, such as On the wall. Can you build a sentence that ends with the thing that was there?
+teacher:
+  summary: For advanced classes, sentences that front a locative or temporal phrase and put the subject after the verb.
+  explain: In this frame a locative or temporal dependent comes first, then a verb, then a postposed subject NP. In Three days later came another eight offers, the temporal phrase is an adjunct and another eight offers is the subject. With be, the fronted phrase is often a locative complement. The fronted material normally links more closely to the preceding discourse than the subject does. The verb need not be auxiliary be, and relative discourse familiarity matters even for syntactically possible sequences. This dictionary marks the analysis provisional. It differs from ordinary complement preposing, which doesn't send the subject after the verb.
+  terms: Often grouped under 'locative inversion' (place phrase) and 'temporal inversion'; this dictionary uses subject-dependent inversion.
+  examples:
+    - text: '[Three days later came another eight offers.]'
+      from: entry
+    - text: '[On the wall hung a portrait].'
+      from: entry
+  watch_for:
+    - A learner might take the fronted phrase to be the subject, since it comes first.
+    - A learner might read the final NP as an object because it follows the verb.
+  activity: Give students the pairs "A portrait hung on the wall" and "On the wall hung a portrait". They mark the subject in each and discuss what the opening phrase connects back to in a short paragraph.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

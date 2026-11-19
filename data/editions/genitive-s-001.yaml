@@ -1,0 +1,65 @@
+id: genitive-s-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The 's ending
+  summary: Adding 's to a noun phrase marks it as a genitive, and the relation it expresses can be of several different kinds.
+  body: |-
+    The 's ending marks a word or phrase as a genitive. In Mary's book, it means the book is Mary's. In the tree's branches, the branches are part of the tree. In Shakespeare's plays, Shakespeare wrote them. And in tomorrow's meeting, it ties the meeting to a time. The 's form can also stand alone, as in That car is John's.
+
+    The ending doesn't have to sit right next to the person it describes. In the person next door's bicycle, the 's is attached to door, but the owner is the whole phrase, the person next door.
+  examples:
+    - text: '[Mary''s] book'
+      from: entry
+    - text: '[the tree''s] branches'
+      from: entry
+    - text: '[Shakespeare''s] plays'
+      from: entry
+    - text: '[tomorrow''s] meeting'
+      from: entry
+    - text: '[the person next door''s] bicycle'
+      from: entry
+    - text: That car is [John's].
+      from: entry
+  try: Pick a noun phrase of several words, such as the person next door, and add 's. Where does your 's land, and who does the phrase point to?
+teacher:
+  summary: Covers the 's genitive, its range of meanings, and where the marker goes on a longer phrase.
+  explain: 'The genitive ''s attaches to a noun phrase and marks it as a genitive. This dictionary lists a range of relations: ownership (Mary''s book), part-whole (the tree''s branches), creation or authorship (Shakespeare''s plays), time (a day''s work, tomorrow''s meeting), property (the metal''s strength), a doer (the sun''s rise) and social or institutional role (Mary''s brother). The relation varies across these uses. Position matters: in the person next door''s bicycle, ''s is adjacent to door but the possessor is the whole person next door. The ''s form can also stand alone, as in That car is John''s (an independent genitive). This dictionary treats the analysis as provisional.'
+  terms: Traditional grammars sometimes call this the possessive, but the relation can be something other than ownership. Independent genitive is the name this dictionary uses for That car is John's.
+  examples:
+    - text: '[Mary''s] book'
+      from: entry
+    - text: '[the tree''s] branches'
+      from: entry
+    - text: '[a day''s] work'
+      from: entry
+    - text: '[the university''s] president'
+      from: entry
+    - text: That car is [John's].
+      from: entry
+  contrasts:
+    - text: the person next door's bicycle
+      from: entry
+      note: The 's is attached to door, but the possessor is the whole phrase.
+  watch_for:
+    - A learner might read every 's phrase as ownership, when this dictionary lists part-whole, authorship, time and role uses as well.
+    - A learner might expect 's on the head noun of a longer phrase, though in the person next door's bicycle it is attached to door.
+  activity: Give students a set of 's phrases from this dictionary on slips. They sort them by relation (owner, part, author, time, role) and then compose one of each type with their own nouns.
+child:
+  hook: What does the little 's tell you in Mary's book?
+  explain: The 's ending can show who something belongs to. It can also show where something comes from or what it is part of. Mary's book is the book that is Mary's. The tree's branches are the branches on the tree.
+  examples:
+    - text: '[Mary''s] book'
+      from: entry
+    - text: '[the tree''s] branches'
+      from: entry
+    - text: '[Shakespeare''s] plays'
+      from: entry
+  play: Look around the room and name five things with 's, like Mia's pencil or the door's handle. Then find one that is about a time, like tomorrow's lesson.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious summary and body no longer say ''s links a noun phrase to a following noun (the entry includes the independent genitive That car is John''s, now mentioned in the body); teacher explanation no longer says the meaning comes from context rather than from ''s and now says only that the relation varies across uses. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary'' in teacher text. Second round: fixed teacher.explain, which called the person next door the genitive NP; it now says the possessor is the whole person next door, as this dictionary does. Also fixed (unflagged): teacher.watch_for[1] no longer implies a judgment on placing ''s after the head noun (nothing is starred); it now describes where the marker sits in this dictionary''s example.'

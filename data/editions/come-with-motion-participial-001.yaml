@@ -1,0 +1,53 @@
+id: come-with-motion-participial-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Came running, came roaring
+  summary: Come followed by an -ing word can show how someone approached or what sound came with the movement.
+  body: |-
+    In Sally came running excitedly into the room, running tells us how she arrived. In came roaring past, from a description of tanks, roaring is a sound heard during the movement, and past shows the path.
+
+    The one who comes takes part in both the motion and the activity or sound. Compare came looking for us. There the -ing word can instead describe a purpose: they came in order to look for us.
+  examples:
+    - text: Sally [came running excitedly into the room].
+      from: entry
+    - text: '[came roaring past]'
+      from: entry
+  try: Say came running and then came looking for us. In which one does the -ing word tell how someone moved, and in which can it tell why they came?
+teacher:
+  summary: Helps students see come plus an -ing word as manner or sound of movement, and tell it apart from a purpose reading.
+  explain: In this pattern the head verb come is followed by a V-ing expression and optionally a path expression. In came running, running supplies the manner. In came roaring past, roaring supplies sound during the movement and past supplies the path; the path describes the movement, not the direction of the sound. The subject participates in the motion and in the activity or sound. A goal expression can also specify the destination. In came looking for us the participial can instead describe a purpose, a reading outside this pattern.
+  terms: 'V-ing form: the gerund-participial in CGEL, called the present participle in traditional grammar. Path and goal expressions are related to the goal complement entry.'
+  examples:
+    - text: Sally [came running excitedly into the room].
+      from: entry
+    - text: '[came roaring past]'
+      from: entry
+  contrasts:
+    - text: Sally came running into the room.
+      from: constructed
+      note: Running is the manner of arrival.
+    - text: They came looking for us.
+      from: constructed
+      note: The participial can describe a purpose instead.
+  watch_for:
+    - A learner might read came running as two separate events, coming and then running, when running describes how the coming happens.
+    - A learner might read the -ing word as a purpose, as in came looking for us, when it supplies manner or sound.
+    - A learner might take past in came roaring past as the direction of the sound, when it describes the movement.
+  activity: Students act out came running, came skipping and came looking for us. The class decides whether the -ing word tells how someone moved or why they came.
+child:
+  hook: What do you notice about the word after came in Sally came running into the room?
+  explain: You can add a word ending in -ing after came. It can tell how someone moved. Sally came running into the room.
+  examples:
+    - text: Sally [came running excitedly into the room].
+      from: entry
+    - text: The dog [came running into the kitchen].
+      from: constructed
+  play: Act out came running, came hopping and came skipping. Which word tells you how the person moved?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: child.hook no longer asks for 'hurry' with only came (the entry says nothing of hurry) and now asks about the word after came; curious text now says the -ing word can describe a purpose in came looking for us, as the entry puts it; replaced 'this entry' in teacher text."

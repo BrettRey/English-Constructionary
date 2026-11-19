@@ -1,0 +1,41 @@
+id: dispositional-middle-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Things that wash well
+  summary: A sentence with an ordinary verb can describe how an action can be carried out on something.
+  body: |-
+    This fabric washes well describes the fabric, and the verb washes looks like any active verb. But the sentence is about a quality of the fabric: how an action can be carried out on it. The sentence suggests someone doing the washing.
+
+    Compare The fabric was washed at noon. That reports a particular event on a particular occasion, so it isn't a statement about the fabric's qualities.
+  examples:
+    - text: '[This fabric washes well].'
+      from: entry
+    - text: The fabric [was washed at noon].
+      from: entry
+  try: Think of an object around you and a verb for something done to it. Can you say how well it does under that action, as in This fabric washes well?
+teacher:
+  summary: Helps explain active-form clauses that describe a property of the subject, not an event, and contrast them with passives.
+  explain: The dispositional middle is a clause whose subject is the theme, with an active transitive-capable verb and an optional ease or manner modifier. It presents a referent as having a disposition affecting how an action can be carried out on it. This fabric washes well attributes a disposition with active verb forms; This fabric was washed at noon reports a particular event in the passive. This dictionary notes that This fabric washes well invites an interpretation involving a washer, unlike The door opened, which can simply report a change of state without an implicit opener.
+  terms: Sometimes called the middle construction, or simply the middle.
+  examples:
+    - text: '[This fabric washes well].'
+      from: entry
+  contrasts:
+    - text: The fabric [was washed at noon].
+      from: entry
+      note: An eventive passive with a specific occasion.
+    - text: The door opened.
+      from: constructed
+      note: Can simply report a change of state without an implicit opener.
+  watch_for:
+    - A learner might read This fabric washes well as describing something the fabric does by itself.
+    - A learner might treat This fabric washes well and This fabric was washed at noon as the same, though the first attributes a disposition and the second reports a particular event.
+  activity: Give students sentences about objects (the bread cuts easily, the tickets were sold yesterday) and ask them to sort them into disposition statements and event reports.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: removed the comparison with the adjective washable (this dictionary makes no such comparison). Also fixed (unflagged): replaced ''the entry'' with ''this dictionary''. Second round: fixed teacher.terms by dropping ''traditionally'' and ''middle voice'' (a broader label this dictionary doesn''t use); fixed teacher.watch_for[1] to contrast this dictionary''s two example sentences rather than middles and passives in general; curious.summary no longer singles out ease (this dictionary includes manner); the door contrast now says it can simply report a change of state. Also fixed (unflagged): teacher.explain ties the implied washer to This fabric washes well, as this dictionary does, not to middles in general.'

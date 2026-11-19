@@ -1,0 +1,50 @@
+id: direct-quotation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Quoting someone's exact words
+  summary: A direct quotation presents words as the speaker voiced them, set against a frame saying who spoke.
+  body: |-
+    In "I'll call tomorrow," Jo said, the quoted words come first and the frame Jo said follows. The frame can also come first. Either way, the quotation presents the words in the original speaker's terms.
+
+    Reporting the same message differently changes the wording. Jo said, "I'm ready" quotes her words, and Jo said that she was ready reports what she meant from the point of view of the person doing the reporting.
+  examples:
+    - text: '[“I’ll call tomorrow,” Jo said].'
+      from: entry
+    - text: '[Jo said, “I’m ready”].'
+      from: constructed
+    - text: Jo said that she was ready.
+      from: constructed
+  try: Tell a friend what you said earlier in the day, first in your exact words and then in a report that starts with that.
+teacher:
+  summary: Helps contrast a direct quotation with an indirect report of the same message.
+  explain: A direct quotation presents words as directly voiced or displayed against a reporting frame, either quotation plus reporting predicate or the reverse. The quotation keeps the original speaker's terms. An indirect report, by contrast, reports content from the reporting context, which is why the pronoun and verb form in Jo said that she was ready differ from those in Jo said, "I'm ready". This dictionary relates direct quotation to indirect reports and to closed interrogative clauses.
+  terms: Traditionally, direct speech versus indirect (reported) speech.
+  examples:
+    - text: '[“I’ll call tomorrow,” Jo said].'
+      from: entry
+  contrasts:
+    - text: '[Jo said, “I’m ready”].'
+      from: constructed
+      note: Direct quotation, in the original speaker's terms.
+    - text: Jo said that she was ready.
+      from: constructed
+      note: Indirect report, with content from the reporting context.
+  watch_for:
+    - A learner might treat Jo said, "I'm ready" and Jo said that she was ready as identical in how they present the words.
+  activity: Students write down a short remark from a partner as a direct quotation, then rewrite it as an indirect report, and mark which words changed.
+child:
+  hook: How do you tell someone exactly what a friend said?
+  explain: You can say a person's exact words and then say who spoke. Or you can say who spoke first. Jo said, "I'm ready" repeats her words. Jo said that she was ready tells what she meant.
+  examples:
+    - text: '[“I’ll call tomorrow,” Jo said].'
+      from: entry
+    - text: '[Max said, “I’m hungry”].'
+      from: constructed
+  play: Ask a friend to say one sentence. Write it down in quotation marks and add who said it. Then tell it again without the exact words.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

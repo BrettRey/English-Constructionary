@@ -1,0 +1,50 @@
+id: subject-raising-infinitival-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sentences where the subject belongs to the next verb
+  summary: With verbs like seem, the subject of the sentence really belongs to the to-phrase that follows.
+  body: |-
+    In There seems to be a leak, the word there can't be doing anything of its own. It is the subject because the to-phrase, to be a leak, selects it. The verb seems gives an assessment of what follows.
+
+    That's why Jo seems to have checked the lock and The lock seems to have been checked by Jo describe the same thing that seems to hold. The subordinate event is what's being assessed.
+
+    This dictionary marks the analysis as provisional and bases it on constructed illustrations.
+  examples:
+    - text: '[There seems to be a leak].'
+      from: entry
+    - text: '[Jo seems to have checked the lock].'
+      from: entry
+    - text: The lock seems to have been checked by Jo.
+      from: entry
+  try: Say Jo seems to have checked the lock. Then say The lock seems to have been checked by Jo. Does what seems to be the case change?
+teacher:
+  summary: Useful for contrasting seem-type verbs with promise-type verbs and for showing why dummy there works with them.
+  explain: The pattern combines a verbal assessment or aspectual predicate with a subject selected through its complement. Two tests show it. Dummy there is acceptable (There seems to be a leak), and active and passive descriptions of the subordinate event preserve what seems to hold (Jo seems to have checked the lock; The lock seems to have been checked by Jo). Subject control, as in Jo promised to return, differs on both counts. This dictionary treats the analysis as provisional and bases it on constructed illustrations.
+  terms: Subject raising is this dictionary's name for it. Sometimes called subject-to-subject raising. The contrast is with subject control.
+  examples:
+    - text: '[There seems to be a leak].'
+      from: entry
+    - text: '[Jo seems to have checked the lock].'
+      from: entry
+  contrasts:
+    - text: Jo seems to have checked the lock.
+      from: entry
+      note: Active; the subordinate event is what seems to hold.
+    - text: The lock seems to have been checked by Jo.
+      from: entry
+      note: The passive preserves what seems to hold.
+    - text: Jo promised to return.
+      from: constructed
+      note: Control; Jo has a role in the promising.
+  watch_for:
+    - A learner might think the subject of seems is doing the seeming.
+    - A learner might treat seems to and promised to as the same pattern, when only one allows dummy there.
+  activity: Students try the dummy there and the passive tests on sets of verbs followed by to-phrases. They sort the verbs into those that pass both tests and those that do not.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body no longer says seems adds a stage in time (the entry''s examples use seems to assess a situation); ''the entry'' replaced by ''this dictionary''.'

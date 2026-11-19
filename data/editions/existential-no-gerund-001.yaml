@@ -1,0 +1,48 @@
+id: existential-no-gerund-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: There was no stopping her
+  summary: There plus be plus no plus an -ing verb presents an action as unavailable in the circumstances.
+  body: |-
+    There was no stopping her says that stopping her couldn't be done. The pattern is there, a form of be, the word no, and a verb ending in -ing. It presents an action as unavailable in the circumstances.
+
+    There was no moving it normally suggests that moving it was impossible or impracticable. If someone could easily have moved a crate and just chose not to, Nobody moved it fits directly, and There was no moving it would call for more explanation. A rule can be the obstacle too. Where this sense of "can't" comes from is left open in this dictionary.
+  examples:
+    - text: '[There was no stopping her.]'
+      from: entry
+    - text: '[There was no telling what he might do next.]'
+      from: entry
+    - text: '[There''ll be no stopping her.]'
+      from: entry
+    - text: '[There was no moving it.]'
+      from: entry
+  try: Picture two crates, one bolted to the floor and one that people simply left where it was. For which does There was no moving it fit better?
+teacher:
+  summary: Helps explain the idiomatic There was no -ing pattern, which presents an action as unavailable.
+  explain: 'The pattern is existential there, BE, no, and a gerund-participial VP. It presents an action as unavailable in the circumstances: There was no moving it normally suggests that moving it was impossible or impracticable, and a rule can also be the obstacle (a prohibitive use). A test: where a crate was easy to move and nobody did, Nobody moved it fits directly and There was no moving it calls for further explanation. CGEL treats no plus a gerund-participial as hybrid and observes a strong restriction to existential there. The source of the modal force is open, and this dictionary’s confidence is low.'
+  terms: Gerund-participial is CGEL's name for the -ing form, covering what traditional grammars split into gerund and present participle.
+  examples:
+    - text: '[There was no stopping her.]'
+      from: entry
+    - text: '[There was no telling what he might do next.]'
+      from: entry
+    - text: '[There''ll be no stopping her.]'
+      from: entry
+  contrasts:
+    - text: There was no moving it.
+      from: entry
+      note: Fits a crate bolted to the floor.
+    - text: Nobody moved it.
+      from: constructed
+      note: Fits a crate that was easy to move and was simply left.
+  watch_for:
+    - A learner might read There was no moving it as a plain report that nobody moved it.
+    - A learner might try the no plus -ing pattern with other kinds of subject, though this dictionary notes a strong restriction to existential there.
+  activity: Give students two scenarios for a stuck door, one where it's jammed and one where people just didn't bother. They decide which fits There was no opening it and which fits Nobody opened it, and explain why.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,64 @@
+id: open-interrogative-clause-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Questions built around a question word
+  summary: Questions starting with a word like who, what or why ask for a missing piece of information, and word order depends on what the question word does.
+  body: |-
+    A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.
+
+    When the question word is the subject, as in Who broke the window?, the order stays as in a statement. When it's something else, as in Which report did Kim finish?, it is normally moved to the front, and in a main question like this one a helping verb comes before the subject. A question tucked inside a sentence, as in I know which report Kim finished, normally keeps the statement order. Not every such question is a real request: Why are you making such a fuss? can be a complaint.
+  examples:
+    - text: '[Who broke the window?]'
+      from: entry
+    - text: '[Which report did Kim finish?]'
+      from: entry
+    - text: I know [which report Kim finished].
+      from: entry
+    - text: '[Why are you making such a fuss?]'
+      from: entry
+  try: Turn Kim finished the report into a question with which. Where does the helping verb go? Then put the question inside I know ... and see what changes.
+teacher:
+  summary: Covers wh-questions, and how the role of the question word affects word order in main clauses, with subordinate clauses normally keeping subject-predicator order.
+  explain: 'An open interrogative is a headed clause marked by an interrogative phrase, characteristically asking for the value of a variable. If the interrogative phrase is the Subject, it keeps basic position and there''s no inversion (Who broke the window?). A non-subject interrogative phrase is normally fronted and triggers subject-auxiliary inversion in a main clause (Which report did Kim finish?). Subordinate open interrogatives normally keep Subject-Predicator order (I know which report Kim finished). A request for information is characteristic but not necessary: these clauses can also be rhetorical or convey indirect directives and evaluations. Reduced phrases such as Which one? aren''t instances of this clause type.'
+  terms: Wh-question is the traditional name; this dictionary's term is open interrogative. Subject-auxiliary inversion is the traditional name for the change in order.
+  examples:
+    - text: '[Who broke the window?]'
+      from: entry
+    - text: '[Which report did Kim finish?]'
+      from: entry
+    - text: I know [which report Kim finished].
+      from: entry
+    - text: '[Why are you making such a fuss?]'
+      from: entry
+  contrasts:
+    - text: Who broke the window?
+      from: entry
+      note: Interrogative Subject. Basic order, no inversion.
+    - text: Which report did Kim finish?
+      from: entry
+      note: Fronted non-subject, so inversion in the main clause.
+    - text: I know which report Kim finished.
+      from: entry
+      note: Subordinate clause, basic order retained.
+  watch_for:
+    - A learner might carry the main-clause inverted order into a subordinate question, when subordinate clauses normally retain Subject-Predicator order.
+    - A learner might invert the subject and a helping verb in a question whose question word is the subject, when an interrogative subject keeps its basic position.
+    - A learner might take every such question as a request for information, when it can be rhetorical.
+  activity: Students turn statements such as Kim finished the report into questions with who, which and why. They sort the results by whether the question word is the subject, then embed each one after I know and compare the order.
+child:
+  hook: Which words start a question, like who, what, where and why?
+  explain: Some questions start with a word like who, what, where or why. They ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.
+  examples:
+    - text: '[Who broke the window?]'
+      from: entry
+    - text: '[Where did you put my shoes?]'
+      from: constructed
+  play: Ask a friend a question with each of who, what, where, when and why. They answer with just the missing piece, like under the bed.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious body now limits the helping-verb-before-subject order to main-clause questions with a fronted non-subject and says subordinate questions normally keep statement order; teacher summary says the role of the question word affects order in main clauses and that subordinate clauses normally keep subject-predicator order; teacher watch_for now concerns inversion with an interrogative subject rather than the presence of a helping verb. Second round: fixed teacher.terms, cutting the mapping of yes/no question onto closed interrogative (the entry does not equate them) and the label information question (the entry defines the clause type by form and includes rhetorical uses).'

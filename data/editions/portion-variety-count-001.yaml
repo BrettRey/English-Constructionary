@@ -1,0 +1,42 @@
+id: portion-variety-count-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Counting servings or kinds
+  summary: A noun for a substance, like coffee, can be counted either as servings or as varieties.
+  body: |-
+    In Could we have two coffees? in a café, the units are servings. Their size and the containers used come from the situation, and two of the same blend satisfy the request.
+
+    In The roaster sells two coffees from that region, the units are varieties. Here two coffees means two different kinds, and one small sample of each would do. A third serving of the first kind wouldn't add to the number of kinds.
+  examples:
+    - text: Could we have [two coffees]?
+      from: entry
+    - text: The roaster sells [two coffees] from that region.
+      from: entry
+  try: What could two teas mean if you said it to a waiter? What could it mean at a shop that sells different kinds of tea?
+teacher:
+  summary: Shows that a count noun phrase with a substance noun can count portions or varieties.
+  explain: 'A normally non-count substance noun can appear in an ordinary count NP, with plural marking where appropriate. The portion reading counts servings or contextually standardized portions: in two coffees in a café, size and container are supplied by the situation, and two servings of the same blend still count as two. The variety reading counts varieties: in two coffees at a tasting, one sample of each would suffice, and a later serving of the first variety does not add to the count. With the same noun and the same cardinal, the two readings have different counting units. This dictionary marks this as provisional, with high confidence.'
+  terms: Textbooks sometimes describe both as count uses of a non-count noun.
+  examples:
+    - text: Could we have [two coffees]?
+      from: entry
+    - text: The roaster sells [two coffees] from that region.
+      from: entry
+  contrasts:
+    - text: Could we have two coffees?
+      from: entry
+      note: Portions; two servings of the same blend can count as two.
+    - text: The roaster sells two coffees from that region.
+      from: entry
+      note: Varieties; two distinct kinds.
+  watch_for:
+    - A learner might think two coffees can only mean two cups.
+    - A learner might think a count noun phrase with a substance noun is ungrammatical, when this dictionary shows ordinary count NP syntax.
+  activity: Give pairs a menu and a shop list. They write one sentence counting servings and one counting varieties, and underline the context words that signal each reading.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

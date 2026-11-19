@@ -1,0 +1,44 @@
+id: fused-determiner-head-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words like twenty-two or everybody standing alone
+  summary: Some words that normally come before a noun can fill a whole noun phrase by themselves.
+  body: |-
+    In She bought twenty books, but I bought twenty-two, the word twenty-two stands alone: no noun follows it. Words like none, everybody and those do the same in We liked none of them, Everybody left early and Those are mine. What each one stands for comes from earlier in the sentence, from an of phrase after it, or from the word's own meaning.
+
+    These words belong to the class this dictionary calls determinatives, the class that includes the, some and those. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.
+  examples:
+    - text: She bought twenty books, but I bought [twenty-two].
+      from: entry
+    - text: We liked [none] of them.
+      from: entry
+    - text: '[Everybody] left early.'
+      from: entry
+    - text: '[Those] are mine.'
+      from: entry
+  try: In She bought twenty books, but I bought twenty-two, what are the twenty-two? Where in the sentence does that come from?
+teacher:
+  summary: 'For advanced classes: determinatives like twenty-two, none, everybody and those standing alone as a whole NP.'
+  explain: 'In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: bought twenty-two, liked none of them, Everybody left early, Those are mine. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative''s own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where and standalone demonstratives. It''s contested: another analysis treats simple independent uses (Some left) as ordinary Head, which would narrow fusion to a residue.'
+  terms: Traditional grammar calls everybody an indefinite pronoun and those a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.
+  examples:
+    - text: She bought twenty books, but I bought [twenty-two].
+      from: entry
+    - text: We liked [none] of them.
+      from: entry
+    - text: '[Everybody] left early.'
+      from: entry
+    - text: '[Those] are mine.'
+      from: entry
+  watch_for:
+    - A learner might label everybody or those a pronoun, when this dictionary keeps them as determinatives.
+    - A learner might look for a missing noun after Everybody, though the meaning comes from the word itself.
+    - A learner might assume a determinative standing alone must recover its meaning from earlier text, when this dictionary says it need not be uniformly anaphoric.
+  activity: 'Students collect standalone determinatives from a short text (some, none, everybody, those, twenty-two). For each, they say where its meaning comes from: earlier text, an of phrase, or the word itself.'
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

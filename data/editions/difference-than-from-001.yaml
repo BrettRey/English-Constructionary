@@ -1,0 +1,33 @@
+id: difference-than-from-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: What something is different from
+  summary: The word different can be followed by a phrase that names what something differs from.
+  body: |-
+    In The result was different from what we expected, the phrase after different says what the result is compared with. This dictionary's pattern lists three small words that can introduce that phrase: from, to and than.
+
+    The phrase can name a thing or a whole situation. Here it is what we expected, a situation the result is measured against.
+  examples:
+    - text: The result was [different from what we expected].
+      from: entry
+    - text: This road is [different from the old one].
+      from: constructed
+  try: Finish the sentence My day today was different from ... in your own words. What did you compare it with?
+teacher:
+  summary: Gives the pattern for the standard of comparison after different.
+  explain: Different heads an AdjP whose complement specifies the referent or situation from which something differs. The pattern in this dictionary lists from, to and than as introducers of that standard. The standard can be a plain NP or a clause-like expression, as in different from what we expected. This dictionary gives only one illustration and relates the pattern to same-as comparison and to than-reduced clauses.
+  examples:
+    - text: The result was [different from what we expected].
+      from: entry
+    - text: This road is [different from the old one].
+      from: constructed
+  watch_for:
+    - A learner might not realize that the standard of comparison is what the phrase after different supplies.
+  activity: Show two pictures. Students write one sentence about each difference using different from, naming the picture the first thing is compared with.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

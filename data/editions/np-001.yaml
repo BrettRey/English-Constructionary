@@ -1,0 +1,40 @@
+id: np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Phrases that name things
+  summary: A noun phrase is a word or group of words built around a noun or pronoun. It can point to a person, thing or idea.
+  body: |-
+    John, the book and he can all do the same job in a sentence: each one names or points to something. John is a name, the book is a noun with a small word in front, and he is a pronoun.
+
+    Such a phrase can be the subject of a sentence or its object. It can also describe something, and it can point to things, ideas or qualities. This is the most general kind of noun phrase, and the dictionary uses it as a parent for more specific kinds.
+  examples:
+    - text: '[John] left.'
+      from: constructed
+    - text: I read [the book].
+      from: constructed
+    - text: '[He] is tired.'
+      from: constructed
+  try: Pick a sentence and swap its subject for another phrase that names something. Does the sentence still work?
+teacher:
+  summary: Gives the general picture of a noun phrase and its realizations before more specific types are taught.
+  explain: The NP construction is headed by a noun or pronoun, with an optional determiner and modifiers. It can refer to entities and concepts, or be used predicatively. It occurs as subject, object, complement of a preposition and predicative complement. This is the most general NP construction and the parent of the more specific ones. A fused head supplies a complete NP without an ordinary overt noun. A complete nominal expression such as the small box can be subject or object, and replacing it with the small alone ordinarily needs a recoverable noun or another licensed fused-head use. The dictionary marks this account as provisional.
+  terms: Noun phrase is the traditional name. Determiner is a function; the and a are determinatives (often called articles).
+  examples:
+    - text: '[John]'
+      from: entry
+    - text: '[the book]'
+      from: entry
+    - text: '[he]'
+      from: entry
+  watch_for:
+    - A learner might think a noun phrase must contain a determiner, when a name such as John is a full noun phrase.
+    - A learner might expect the small to stand in for the small box anywhere, when that ordinarily needs a recoverable noun or another licensed fused-head use.
+  activity: Write a short sentence on the board. Students underline each noun phrase, then say whether its head is a noun or a pronoun.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: "Fixed: curious summary now allows a single word as a noun phrase (this dictionary's examples John and he); teacher explain now uses this dictionary's wording 'complete nominal expression' and 'ordinarily'; watch_for on the small restated with 'ordinarily' and the licensed fused-head alternative. Dismissed in part: the, a as determinatives kept (standard CGEL classification, consistent with the determiner function this dictionary assumes); this and the demonstratives gloss cut. Second round: fixed curious.summary, which now says a noun phrase can point to a person, thing or idea rather than defining it by that use (the entry also allows predicative and purely grammatical uses). Dismissed the and a as determinatives again (CGEL's standard classification), and the flags on taking the head to be a noun or pronoun in curious.summary and teacher.activity (the entry's form is headed by N or pronoun, with fused heads licensed separately)."

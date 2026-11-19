@@ -1,0 +1,58 @@
+id: of-genitive-own-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A car of my own
+  summary: A phrase like a car of my own presents something as set aside for your ownership or use.
+  body: |-
+    A car of my own presents the car as set aside for someone's ownership or independent use. The pattern is a noun, then of, then a genitive pronoun such as my, then own. The same idea without own uses a different pronoun form: a car of mine.
+
+    It needn't mean legal ownership. Someone imagining renting a room to sleep and paint in can still call it a room of my own. The word all can add emphasis, as in a room all of my own.
+  examples:
+    - text: I've got [a car of my own].
+      from: entry
+    - text: '[a room all of my own]'
+      from: entry
+    - text: rent [a room of my own]
+      from: entry
+  try: 'Finish the sentence: I''d like a ___ of my own. Does your phrase mean you own it, or only that you can use it?'
+teacher:
+  summary: Explains the pattern a room of my own and how it contrasts with a room of mine.
+  explain: 'The pattern is a noun followed by of plus a dependent genitive pronoun and own (a car of my own). It presents an entity as set aside for someone''s ownership or independent use, and it can describe independent use without legal ownership. CGEL contrasts a car of my own with a car of mine: my own uses the dependent genitive form, where the simple pattern uses the independent form mine. All can emphasize the relation (a room all of my own). This dictionary proposes comparing a room of her own, her own room and a room of hers in a new rental context, but that remains a proposed test. It is provisional.'
+  terms: Traditional grammar calls my a possessive adjective or determiner and mine a possessive pronoun. This dictionary says dependent genitive and independent genitive.
+  examples:
+    - text: I've got [a car of my own].
+      from: entry
+    - text: '[a room all of my own]'
+      from: entry
+    - text: rent [a room of my own]
+      from: entry
+  contrasts:
+    - text: a car of my own
+      from: entry
+      note: Dependent genitive plus own, after of.
+    - text: a car of mine
+      from: entry
+      note: Independent genitive, without own.
+    - text: her own room
+      from: constructed
+      note: The comparison phrase this dictionary proposes; no claim made here about the difference.
+  watch_for:
+    - A learner might assume a car of my own requires legal ownership, when it can describe independent use.
+    - A learner might blend the two patterns, when this dictionary pairs my own with of and mine with the pattern without own.
+  activity: Students complete sentences such as I'd like a ___ of my own with a noun of their choice. They then rewrite each with of mine and discuss whether they still mean set aside for me.
+child:
+  hook: What does a room of your own mean?
+  explain: A room of my own is a room that's just for me. After of, we say my own. Without own, we say mine, as in a room of mine.
+  examples:
+    - text: I've got [a car of my own].
+      from: entry
+    - text: She wants [a room of her own].
+      from: constructed
+  play: Finish the sentence for yourself. I'd like a ___ of my own. Then ask a friend what they'd pick.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

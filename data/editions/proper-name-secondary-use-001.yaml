@@ -1,0 +1,48 @@
+id: proper-name-secondary-use-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names used like ordinary nouns
+  summary: A name can be counted, compared with, or used to mean something connected to the named person or place.
+  body: |-
+    In There are two Kims on the committee, Kim is used to count people who share a name. In They were hoping to recruit another Einstein, the person wanted needn't be called Einstein; what's meant is someone with the relevant qualities of Einstein.
+
+    A name can also pick out a version of something, a product or a copy: They bought a Rembrandt can mean they bought a painting, and some Beethoven can mean music. This dictionary keeps these readings visible without saying how many separate constructions they are, and marks the account as provisional.
+  examples:
+    - text: There are [two Kims] on the committee.
+      from: entry
+    - text: They were hoping to recruit [another Einstein].
+      from: entry
+    - text: They bought [a Rembrandt].
+      from: entry
+  try: Can you think of a name that stands for a type of person, such as someone known for a quality? How would you say you wanted another one?
+teacher:
+  summary: Explains how names can behave like count nouns with number, determiners and modifiers.
+  explain: 'The pattern is a NP with a determiner and a nominal based on a proper name, optionally plural or modified. This dictionary distinguishes readings: counting or distinguishing bearers of the same name (two Kims, where a modifier can select one Kim), resemblance (another Einstein, where the person needn''t have that name), and a manifestation, product or copy associated with the named entity (a Rembrandt, some Beethoven, the Paris of her youth). Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance. Product uses admit count and non-count construals. This dictionary leaves open how many constructions there are. It''s marked provisional.'
+  terms: This dictionary describes these as proper names in descriptive NPs.
+  examples:
+    - text: There are [two Kims] on the committee.
+      from: entry
+    - text: They were hoping to recruit [another Einstein].
+      from: entry
+    - text: They bought [a Rembrandt].
+      from: entry
+  watch_for:
+    - A learner might expect another Einstein to mean a person called Einstein, when the person need not have that name.
+    - A learner might think a Rembrandt refers to the painter.
+    - A learner might think a name cannot take a determiner or a plural ending.
+  activity: Students sort sentences using names in descriptive NPs into three groups (same name, resembles, product or copy) and justify their choices.
+child:
+  hook: What do you call it when two kids are both named Kim?
+  explain: A name can be counted. If two people are named Kim, we can say two Kims.
+  examples:
+    - text: There are [two Kims] on the committee.
+      from: entry
+  play: Think of a name shared by two people you know. Count them aloud, then say a sentence about each one.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.watch_for no longer presents two Kims needing two bearers as a learner mistake (it requires two bearers of the name); removed the ''proper-to-common conversion'' term (conversion implies a category change the entry does not claim); removed a Rembrandt from the child edition. Also fixed (unflagged): curious.body says a Rembrandt can mean a painting; ''the entry'' replaced by ''this dictionary''.'

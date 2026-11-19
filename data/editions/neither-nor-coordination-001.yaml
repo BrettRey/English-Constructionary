@@ -1,0 +1,53 @@
+id: neither-nor-coordination-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Neither this nor that
+  summary: Neither ... nor links two things and says that neither of them applies.
+  body: |-
+    In Neither Kim nor Pat replied, the pair neither ... nor joins Kim and Pat, and the sentence denies the reply for both. It also joins actions: He neither knew nor cared where his children were says that he did not know and did not care.
+
+    Both items fall under the negation. The pair can link two phrases, as in neither Jo nor Kai, or two verb phrases, as in neither called nor wrote. It is different from the neither in neither did Jo, which depends on a negative statement that came before it.
+  examples:
+    - text: He [neither] knew [nor] cared where his children were.
+      from: entry
+    - text: '[Neither] Kim [nor] Pat replied.'
+      from: entry
+    - text: '[Neither] Jo [nor] Kai came.'
+      from: constructed
+  try: Pick two friends. Say a sentence with neither and nor that denies something for both.
+teacher:
+  summary: Helps teach correlative neither ... nor, which negates both of two coordinated items.
+  explain: 'Neither ... nor is a correlative coordination: the markers neither and nor introduce paired coordinates, and both coordinated alternatives fall under negation. It can coordinate noun phrases (Neither Kim nor Pat replied) or verb phrases (He neither knew nor cared where his children were). It differs from additive neither, as in neither did Jo, which depends on a preceding negative assertion. This dictionary treats neither ... nor as a specialization of coordination and lists absolute negator determinatives and so-neither inversion as related.'
+  terms: Correlative conjunction is a traditional name; this dictionary prefers correlative coordination, with nor as the coordinator.
+  examples:
+    - text: He [neither] knew [nor] cared where his children were.
+      from: entry
+    - text: '[Neither] Kim [nor] Pat replied.'
+      from: entry
+  contrasts:
+    - text: Neither Kim nor Pat replied.
+      from: entry
+      note: Neither and nor pair two noun phrases.
+    - text: Kim didn't call, and neither did Jo.
+      from: constructed
+      note: Additive neither, which follows a negative statement.
+  watch_for:
+    - A learner might read Neither Kim nor Pat replied as saying only one of them did not reply.
+    - A learner might treat the neither in neither did Jo as the paired neither ... nor.
+  activity: Students write pairs of true statements about two classmates (Kim doesn't sing, Pat doesn't sing). They combine each pair into a neither ... nor sentence, once with noun phrases and once with verb phrases.
+child:
+  hook: How can you say that two people both didn't do something?
+  explain: Neither and nor go together. Neither Kim nor Pat replied means Kim didn't reply and Pat didn't either.
+  examples:
+    - text: '[Neither] Kim [nor] Pat replied.'
+      from: entry
+    - text: '[Neither] Jo [nor] Kai came.'
+      from: constructed
+  play: Say something two friends both didn't do. Then say it again starting with neither and putting nor between their names.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

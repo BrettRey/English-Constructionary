@@ -1,0 +1,57 @@
+id: time-measure-ago-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Four days ago
+  summary: A length of time followed by ago tells you how far back something happened.
+  body: |-
+    In The review arrived four days ago, the phrase four days ago measures backwards from the time of speaking. You can paraphrase it as four days before now.
+
+    The measure comes before ago, as in four days ago. This is different from before, which is followed by the point it refers back to, as in before Monday. A related pattern, since Monday, gives the start of a stretch of time instead.
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: The review arrived [four days ago].
+      from: entry
+    - text: My bike broke [two days ago].
+      from: constructed
+  try: Pick something that happened this week. Say how long ago it was using a number and ago.
+teacher:
+  summary: Useful for explaining how ago works with a measure phrase to count backwards from now.
+  explain: The pattern is a PP made of a measure NP and ago. It locates an event or point by measuring backwards from the relevant deictic time, so four days ago paraphrases four days before now. Ago normally takes its measure before it. By contrast, temporal before takes a reference complement after it. Since Monday gives the start of an interval, whereas four days ago locates an event relative to the deictic time. This dictionary treats the analysis as provisional.
+  terms: This dictionary treats the whole of four days ago as a PP.
+  examples:
+    - text: The review arrived [four days ago].
+      from: entry
+    - text: My bike broke [two days ago].
+      from: constructed
+  contrasts:
+    - text: four days ago
+      from: constructed
+      note: Measures backwards from the deictic time.
+    - text: since Monday
+      from: constructed
+      note: Gives the start of an interval.
+    - text: before Monday
+      from: constructed
+      note: Temporal before takes a reference complement after it.
+  watch_for:
+    - A learner might read ago as a word that comes first and takes a point of reference, like before.
+    - A learner might think since Monday and four days ago do the same thing.
+  activity: Students put events on a timeline from today. For each, they write one sentence with a number and ago, and another with since or before and a named day.
+child:
+  hook: How long ago did you last eat?
+  explain: Ago counts backwards from now. Four days ago means four days before now. The time measure goes before ago.
+  examples:
+    - text: The review arrived [four days ago].
+      from: entry
+    - text: My bike broke [two days ago].
+      from: constructed
+  play: Say something that happened today, yesterday and last week using ago. Count backwards from now with a friend.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher terms no longer mentions the adverb classification (the entry gives only the prepositional analysis); child explanation now says the whole time measure, not the number, goes before ago, and uses the entry''s ''before now''. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary''.'

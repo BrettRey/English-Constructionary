@@ -1,0 +1,51 @@
+id: corrective-but-coordination-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Not this but that
+  summary: The not-but pattern turns down one description and puts another in its place.
+  body: |-
+    In I ordered not tea but coffee, not marks tea as the wrong candidate, and but brings in the correction. The speaker is saying what was ordered by ruling out one choice and naming the right one.
+
+    This differs from the but in a sentence like It was cheap but good. There, both parts can be asserted. In the not-but pattern the first part is rejected and the second is offered in its place. This dictionary treats the analysis as provisional.
+  examples:
+    - text: I ordered [not tea but coffee].
+      from: entry
+    - text: She wanted [not a quick answer but a good one].
+      from: constructed
+  try: Think of a time you corrected someone's guess. How would you say it with not and but?
+teacher:
+  summary: Helps explain not X but Y as a correction that rejects one description and substitutes another.
+  explain: 'The pattern is a coordination of the form not XP + but XP. Not applies to the rejected candidate, and but introduces the correction: I ordered not tea but coffee. This differs from concessive but, where both coordinated propositions can be asserted (It was cheap but good). This dictionary treats the pattern as a specialization of coordination and marks the analysis as provisional.'
+  terms: This dictionary calls the pattern corrective not X but Y and sets it apart from concessive but.
+  examples:
+    - text: I ordered [not tea but coffee].
+      from: entry
+    - text: She wanted [not a quick answer but a good one].
+      from: constructed
+  contrasts:
+    - text: I ordered not tea but coffee.
+      from: entry
+      note: Corrective; tea is rejected, coffee substituted.
+    - text: It was cheap but good.
+      from: constructed
+      note: Concessive but; both parts are asserted.
+  watch_for:
+    - A learner might read not tea but coffee as concessive but, as if both were ordered.
+    - A learner might attach not only to the verb rather than to the rejected candidate.
+  activity: Give students mistaken statements ("You ordered tea."). They correct each one aloud with a not X but Y sentence, then rewrite one as a concessive but sentence and compare the meanings.
+child:
+  hook: How do you tell someone they guessed wrong and give the right answer?
+  explain: You can say what something isn't and then what it is. I ordered not tea but coffee. The first thing is turned down. The second is the right one.
+  examples:
+    - text: I ordered [not tea but coffee].
+      from: entry
+    - text: We went to [not the park but the beach].
+      from: constructed
+  play: Make up two guesses about what's in a box. Correct each with not and but. Who can come up with the silliest right answer?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

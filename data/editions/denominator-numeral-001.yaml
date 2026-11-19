@@ -1,0 +1,56 @@
+id: denominator-numeral-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A ten, three tens
+  summary: A number word can work like an ordinary noun, naming an instance of a number such as a score.
+  body: |-
+    In I rolled a ten, the word ten isn't counting anything. It names a score of ten. It behaves like an ordinary noun: it has a determiner, a, and it can be plural, as in She drew three tens.
+
+    Three tens means three instances of the value ten, not ten objects. The same works for ratings, as in That's a perfect ten. This dictionary treats the analysis as provisional.
+  examples:
+    - text: I rolled [a ten].
+      from: entry
+    - text: She drew [three tens].
+      from: entry
+    - text: That's [a perfect ten].
+      from: entry
+  try: Think of a game or contest with scores. How would you name a score of seven as an item, with a before it?
+teacher:
+  summary: Helps explain number words used as count nouns, such as a ten and three tens.
+  explain: 'In this use, a cardinal functions as a noun denoting a token or instance of a numeral (a score, a label, a written symbol), not an abstract number. It behaves as a count noun: it takes determiners and plural morphology. I rolled three tens describes three tokens of the value ten, not a count of ten objects. The noun takes its own plural marking and appears under a separate cardinal determinative, as in three tens. The analysis is provisional.'
+  terms: Cardinal here is a noun, not the determinative use of a number as in three dogs.
+  examples:
+    - text: I rolled [a ten].
+      from: entry
+    - text: She drew [three tens].
+      from: entry
+    - text: That's [a perfect ten].
+      from: entry
+  contrasts:
+    - text: I rolled three tens.
+      from: entry
+      note: Three tokens of the value ten.
+    - text: I rolled ten dice.
+      from: constructed
+      note: Ten is a determinative counting objects.
+  watch_for:
+    - A learner might read three tens as ten objects counted three times, when it means three tokens of the value ten.
+    - A learner might think a cardinal cannot take a plural ending when it is used as a noun.
+  activity: Students play a dice or card game and describe their results with a number noun (I rolled a six, I drew two fives). They then say whether the number counts objects or names a score.
+child:
+  hook: Can a number word have a plural, like tens?
+  explain: A number can name a score or a card. I rolled a ten. You can even add an s, as in three tens. That means three of them, each one a ten.
+  examples:
+    - text: I rolled [a ten].
+      from: entry
+    - text: She drew [three tens].
+      from: entry
+  play: Roll two dice or draw cards a few times. Describe each result with a number word, like a six. If you get the same number twice, give it an s.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.explain no longer says the three tens are rolls (the entry''s example is a card draw); curious.body now says ''a score of ten''; cut the unsupported traditional-names sentence in teacher.terms.'

@@ -1,0 +1,42 @@
+id: cognate-event-object-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A verb and an object that name the same event
+  summary: Some verbs can be followed by a noun naming the same event, which then lets you describe how it happened.
+  body: |-
+    In He died a long and agonising death, the verb already says what happened. The phrase after it doesn't add a second dying. It adds details about the one event: how long it lasted and what it was like.
+
+    She fought a heroic fight works the same way. The noun fight repeats the idea in the verb, and the describing words give the extra information. Die is otherwise a verb with no object after it, yet it can take one here.
+  examples:
+    - text: He [died a long and agonising death].
+      from: entry
+    - text: She [fought a heroic fight].
+      from: entry
+  try: Take a verb like fought and a noun for the same event. What describing words could you add to say more about it?
+teacher:
+  summary: Useful for explaining objects that repeat the verb's event noun and add manner or duration.
+  explain: 'In a cognate event object, an object noun phrase whose head is an event nominal related to the verb elaborates the event the verb already describes. It can occur with otherwise intransitive verbs such as die. In died a long and agonising death, the object adds duration and manner without introducing a second dying event, and in fought a heroic fight the nominal elaborates the fight. The object is internal to the verb phrase. A reaction object differs: it identifies what is expressed rather than describing the verbal event.'
+  terms: Cognate object is the traditional name. Od is the direct object.
+  examples:
+    - text: He [died a long and agonising death].
+      from: entry
+    - text: She [fought a heroic fight].
+      from: entry
+  contrasts:
+    - text: She fought.
+      from: constructed
+      note: Verb alone.
+    - text: She fought a heroic fight.
+      from: entry
+      note: The event noun adds a description of the same fighting.
+  watch_for:
+    - A learner might read died a long and agonising death as two events, dying and a death.
+    - A learner might treat the object as a separate participant, when it describes the verb's own event.
+  activity: Give students bare verbs such as fought and died. They add an event noun related to the verb plus describing words, then say what the added words tell about the event.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

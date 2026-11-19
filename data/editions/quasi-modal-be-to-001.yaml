@@ -1,0 +1,31 @@
+id: quasi-modal-be-to-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Are to, for rules and arrangements
+  summary: A form of be followed by to and a verb can express a requirement, an official arrangement or a planned event.
+  body: |-
+    In Staff are to report at eight, the words are to tell staff what's required or arranged. There's no ordinary adjective or noun after are; the to plus verb carries the meaning.
+
+    The same pattern can use was or were for an arrangement made in the past, and that doesn't assert the arrangement was carried out. This dictionary marks the account as provisional.
+  examples:
+    - text: Staff [are to report] at eight.
+      from: entry
+  try: Think of an instruction that might be posted at a workplace or school. Can you put it in the form people are to do something?
+teacher:
+  summary: Explains be plus to-infinitive for requirements, arrangements and projected events.
+  explain: 'A finite form of be followed by a to-infinitival can present a requirement, an official arrangement or a projected event: Staff are to report at eight. The required or arranged reading occurs without a predicative NP or adjective. It can use preterite was or were for a past arrangement without asserting fulfilment. This dictionary marks the analysis provisional and calls this a quasi-modal, a VP of finite be plus a to-infinitival.'
+  terms: Sometimes called a semi-modal or periphrastic modal; this dictionary calls it quasi-modal be to.
+  examples:
+    - text: Staff [are to report] at eight.
+      from: entry
+  watch_for:
+    - A learner might read are to as plain be plus a preposition to.
+    - A learner might think a past form such as was to means the event happened.
+  activity: Students rewrite a short list of rules as are to sentences, such as visitors are to sign in, and discuss who is giving the instruction.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

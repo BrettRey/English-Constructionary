@@ -1,0 +1,70 @@
+id: imperative-clause-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Commands, requests and wishes
+  summary: An imperative is a sentence built around a plain-form verb, like Be generous, and it can express more than an order.
+  body: |-
+    Be generous, Everybody stand up and Don't be late all use the plain form of a verb (be, stand). When the subject is left out, as in Be generous, the person being spoken to is normally understood as the one who acts. You be careful shows that an overt you is possible too, and Everybody stand up has a different overt subject.
+
+    Giving an order is the characteristic use, but not the only one. Sleep well is a wish, not an order. This dictionary defines the pattern by how the sentence is built, not by what it's used for.
+  examples:
+    - text: '[Be generous.]'
+      from: entry
+    - text: '[You be careful.]'
+      from: entry
+    - text: '[Everybody stand up.]'
+      from: entry
+    - text: '[Sleep well.]'
+      from: entry
+    - text: '[Don''t be late.]'
+      from: entry
+  try: Think of a sentence that begins with a plain verb but isn't an order, like Sleep well. What is it doing instead?
+teacher:
+  summary: Defines the imperative by its grammar, with optional subject and special do-support, and separates it from directive force.
+  explain: 'An imperative clause has a plain-form VP head and an optional second-person subject; the subject is normally understood as second person, but overt you and quantified subjects are licensed (You be careful; Everybody stand up). Supportive do is required for verbal negation and emphatic polarity, even with be (Don''t be late). An overt subject precedes a positive VP but normally follows don''t in a negative imperative. Imperatives are normally main clauses, and English lacks a general subordinate imperative construction. Directive force is characteristic, not necessary: Sleep well is a wish, while interrogative, declarative, non-finite and non-headed expressions can convey directives without becoming imperatives. This dictionary marks its analysis as provisional.'
+  terms: Imperative is the clause type; directive is the use. Plain form is the CGEL name for what traditional grammars call the base form.
+  examples:
+    - text: '[Be generous.]'
+      from: entry
+    - text: '[You be careful.]'
+      from: entry
+    - text: '[Everybody stand up.]'
+      from: entry
+    - text: '[Sleep well.]'
+      from: entry
+    - text: '[Don''t be late.]'
+      from: entry
+  contrasts:
+    - text: Be generous.
+      from: entry
+      note: Subjectless; the subject is understood as second person.
+    - text: You be careful.
+      from: entry
+      note: Overt second-person subject.
+    - text: Sleep well.
+      from: entry
+      note: An imperative clause used as a wish.
+  watch_for:
+    - A learner might think every imperative gives an order, when Sleep well is a wish.
+    - A learner might use isn't or aren't to negate be in an imperative, when this dictionary requires do-support in Don't be late.
+    - A learner might treat any directive as an imperative clause, though other forms can convey directives.
+  activity: Give students a mixed set of directives, wishes and requests. They mark which are imperatives (a plain-form verb, with the subject either left out or overt) and which are other forms that convey a directive.
+child:
+  hook: Does every sentence like Be generous give an order?
+  explain: Be generous tells someone what to do. The word you can be left out. Sleep well is a wish, not a command.
+  examples:
+    - text: '[Be generous.]'
+      from: entry
+    - text: '[Everybody stand up.]'
+      from: entry
+    - text: '[Sleep well.]'
+      from: entry
+  play: Say five sentences like Be generous or Sleep well. Which ones are orders and which are wishes?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.summary and body define the imperative by its plain-form verb rather than by a sentence-initial plain verb; Everybody stand up is described as having an overt subject; subject omission is stated as normal, as in the entry; teacher.activity now includes imperatives with an overt subject; replaced ''the entry'' with this dictionary. Second round: fixed child.hook and child.play, which relied on the unexplained term plain verb; both now point to the examples Be generous and Sleep well.'

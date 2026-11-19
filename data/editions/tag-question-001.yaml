@@ -1,0 +1,72 @@
+id: tag-question-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Questions tacked onto the end of a statement
+  summary: A short question such as isn't he? can follow a statement to ask the listener to confirm it or react to it.
+  body: |-
+    In He is ill, isn't he?, a short question follows the statement. It's built from an auxiliary verb and a pronoun that refers back to the person in the statement: isn't he. In the frequent version the question has the opposite polarity from the statement, positive then negative. A rising voice asks for confirmation, and a falling one invites agreement or acknowledgement.
+
+    A tag can also repeat the statement's polarity: He is ill, is he? This version can express surprise, disapproval or sarcasm, not doubt. The pronoun decides the verb's form, as in Everybody has read it, haven't they?
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[He is ill], [isn''t he]?'
+      from: entry
+    - text: '[Everybody has read it], [haven''t they]?'
+      from: entry
+    - text: '[What a mess I''ve made of things], [haven''t I]?'
+      from: entry
+    - text: '[He is ill], [is he]?'
+      from: entry
+    - text: '[So you have forgotten your homework again], [have you]?'
+      from: entry
+  try: Say He is ill, isn't he? once with your voice rising at the end and once with it falling. Which version asks and which one invites agreement?
+teacher:
+  summary: 'Core material for tag questions: how the tag is formed and how polarity and intonation change its force.'
+  explain: A tag question pairs an anchor clause (a declarative or exclamative) with a short closed-interrogative tag clause. The tag has a personal-pronoun subject and an auxiliary-headed VP, with subject-auxiliary inversion. If the anchor's predicator is headed by an auxiliary, the tag normally selects the same auxiliary; otherwise it uses do. The tag normally keeps the anchor's tense, and the verb agrees with the tag's pronoun. In the frequent reversed-polarity variant, a rising tag asks for verification and a falling tag seeks acknowledgement. A constant-polarity tag characteristically has a slight rise and can convey surprise, disapproval, reproach or sarcasm. Prosody is part of the construction. This dictionary treats the analysis as provisional, though confidence in the pattern is marked high.
+  terms: 'Question tag is a textbook name. CGEL: tag clause attached to an anchor clause. The polarity relation is reversed or constant.'
+  examples:
+    - text: '[He is ill], [isn''t he]?'
+      from: entry
+    - text: '[Everybody has read it], [haven''t they]?'
+      from: entry
+    - text: '[What a mess I''ve made of things], [haven''t I]?'
+      from: entry
+    - text: '[So you have forgotten your homework again], [have you]?'
+      from: entry
+    - text: '[She likes tea], [doesn''t she]?'
+      from: constructed
+  contrasts:
+    - text: He is ill, isn't he?
+      from: entry
+      note: Reversed polarity; positive anchor, negative tag.
+    - text: He is ill, is he?
+      from: entry
+      note: Constant polarity; slight rise, attributing the content to the addressee.
+    - text: Few of them liked it, did they?
+      from: constructed
+      note: A semantically negative anchor takes a positive reversed tag.
+  watch_for:
+    - A learner might choose the tag verb to agree with a singular anchor subject such as everybody, when the tag's pronoun, they, controls agreement.
+    - A learner might repeat the full verb from the anchor instead of using do when the anchor has no auxiliary.
+    - A learner might ignore the intonation and miss whether the speaker wants confirmation or only agreement.
+  activity: Pairs say the same anchor, such as It's cold today, with different tags and intonation. The listener decides whether each version asks for confirmation, invites agreement or sounds surprised. Then they swap roles with new anchors.
+child:
+  hook: How do you ask a friend to agree with something you just said?
+  explain: A tag question is a tiny question stuck on the end of a sentence. It uses a short helper word like is, has or does, and a pronoun like he or she. Your voice rising or falling changes what you mean.
+  examples:
+    - text: '[He is ill], [isn''t he]?'
+      from: entry
+    - text: '[Everybody has read it], [haven''t they]?'
+      from: entry
+    - text: '[She likes tea], [doesn''t she]?'
+      from: constructed
+  play: Say a sentence about a friend, then add a tiny question to check it. Say it twice, with your voice going up and then down. Does it sound different?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.explain no longer says the tag repeats the helper word (the dictionary has the tag use do when the anchor''s predicator has no auxiliary, as in She likes tea, doesn''t she?); teacher.explain now ties auxiliary repetition to the anchor''s predicator and says the constant-polarity rise is characteristic and its effects possible; replaced ''the entry'' with ''this dictionary'' and ''the usual textbook name'' with ''a textbook name''.'

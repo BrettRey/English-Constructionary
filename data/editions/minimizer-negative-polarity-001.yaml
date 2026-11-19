@@ -1,0 +1,40 @@
+id: minimizer-negative-polarity-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Naming the smallest amount to deny everything
+  summary: In a negative sentence, naming a tiny unit such as an inch can stress that there was none of the thing at all.
+  body: |-
+    When someone says They didn't budge an inch, the tiny unit isn't there to measure anything. Under negation, naming even the smallest amount denies every amount, so the sentence stresses that there was no movement at all.
+
+    An inch can also mean a real distance, as in a window that opened an inch. The emphatic, nothing-at-all reading comes from the setting: a negative sentence, or another setting that allows it. This dictionary treats that analysis as provisional.
+  examples:
+    - text: They didn't [budge an inch].
+      from: entry
+    - text: The window opened [an inch].
+      from: constructed
+  try: Say They didn't budge an inch. Does it sound as if they moved a little, or not at all?
+teacher:
+  summary: Explains why a minimal unit under negation reads as "not even a little".
+  explain: A minimizer is a minimal quantity expression that, in a negative or otherwise licensed context, emphasizes the absence of any relevant amount. In They didn't budge an inch, the negation denies even the smallest unit, so the whole sentence is emphatic. Outside such a context, an inch can simply denote a literal distance. Teach it as a pattern tied to a context, not as a property of the noun alone. This dictionary marks the analysis as provisional and the evidence as medium confidence; its one example is a constructed illustration.
+  terms: Minimizer is the term used here. Negative polarity item is a textbook name for expressions that need a licensing context; this dictionary links the pattern to polarity-sensitive ever.
+  examples:
+    - text: They didn't [budge an inch].
+      from: entry
+  contrasts:
+    - text: They didn't budge an inch.
+      from: entry
+      note: Emphatic denial of any movement.
+    - text: The window opened an inch.
+      from: constructed
+      note: A literal distance, with no emphatic reading.
+  watch_for:
+    - A learner might read budge an inch as a measurement of how far something moved.
+    - A learner might expect the emphatic reading of an inch in a plain positive sentence, when this dictionary ties it to negative or otherwise licensed contexts.
+  activity: Write They didn't budge an inch on the board. Ask what the speaker is claiming about movement. Then show The window opened an inch and have students explain how the same words mean something different in each sentence.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

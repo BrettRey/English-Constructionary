@@ -1,0 +1,40 @@
+id: measure-genitive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Time measured with an apostrophe
+  summary: A measure of time or money with an 's ending can come before a noun to say how long or how much.
+  body: |-
+    In We had another two hours' wait, the phrase two hours' says how long the wait was. It sits inside the noun phrase, before the noun wait, and the word another before it applies to the whole thing.
+
+    The apostrophe here isn't about who owns something. Compare Jo's wait, where Jo is a person involved in the wait. The measure form gives a duration, or a money amount, not a participant.
+  examples:
+    - text: We had [another two hours’ wait].
+      from: entry
+    - text: We had a [week’s holiday].
+      from: constructed
+  try: Say how long you waited for something, using a time measure with an apostrophe before the noun. Does the phrase say who waited?
+teacher:
+  summary: Helps explain two hours' wait, where an apostrophe measure gives a duration rather than a person.
+  explain: 'A measure genitive is a genitive NP naming a duration or monetary measure inside a nominal: two hours’ wait. It gives the duration of the wait and can be embedded within the scope of a preceding determiner (another two hours’ wait). A personal genitive such as Jo’s wait has an independently referential or participant interpretation. The measure genitive isn''t a possessor. Some textbooks call the ''s form possessive; this dictionary says genitive. This dictionary marks the analysis as provisional and short.'
+  terms: Some textbooks call the 's form possessive; this dictionary says genitive. A measure genitive is a specialization of the genitive 's pattern.
+  examples:
+    - text: We had [another two hours’ wait].
+      from: entry
+  contrasts:
+    - text: We had another two hours’ wait.
+      from: entry
+      note: The genitive gives the duration of the wait.
+    - text: Jo’s wait was long.
+      from: constructed
+      note: A personal genitive, with a participant interpretation.
+  watch_for:
+    - A learner might read two hours' as naming someone who owns or has the wait, when it gives the duration.
+    - A learner might leave out the apostrophe in the measure, when the genitive marks the measure phrase.
+  activity: Students write measure phrases before nouns, such as a time before wait or holiday. Partners say whether each genitive gives a duration or names a person.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

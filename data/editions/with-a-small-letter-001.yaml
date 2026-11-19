@@ -1,0 +1,50 @@
+id: with-a-small-letter-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: With a small letter
+  summary: Adding with a small c (or another letter) says a word is written in lowercase, which can point to an everyday meaning.
+  body: |-
+    Catholic with a small c points to the common descriptive sense, not the institution. Romantic with a small r points to the ordinary sense of the word.
+
+    The phrase tells us how the word is written. The dictionary notes that in its literal reading, with a small c doesn't commit the speaker to an account of the word's category. The context supplies the interpretation, whether a naming convention or a descriptive contrast.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: Catholic [with a small c]
+      from: entry
+    - text: romantic [with a small r]
+      from: entry
+  try: Say a word and add with a small and its first letter. What written form are you pointing to?
+teacher:
+  summary: Helps explain with a small letter as a spelling clarification that can point to an ordinary sense.
+  explain: The pattern is a prepositional phrase headed by with, followed by a, small and a letter name. It is postposed after a label or used parenthetically. It specifies lowercase orthography and favours an ordinary or common sense, disambiguating descriptive use from institutional or proper use. In the literal reading, with a small c specifies lowercase c without committing the speaker to an account of word category. This dictionary notes that a name can be written in lowercase intentionally, so lowercase cannot by itself diagnose common-noun status. This dictionary marks its analysis provisional.
+  terms: Small letter is an everyday term for lowercase. This dictionary treats with a lowercase letter as a variant.
+  examples:
+    - text: Catholic [with a small c]
+      from: entry
+    - text: romantic [with a small r]
+      from: entry
+  contrasts:
+    - text: Catholic with a small c
+      from: entry
+      note: Common descriptive sense, not the institution.
+  watch_for:
+    - A learner might assume a lowercase letter must mean a common noun, when this dictionary says lowercase cannot diagnose that by itself.
+    - A learner might treat small as describing the size of the letter, when it specifies lowercase.
+  activity: Write words with different meanings on the board, such as Catholic and romantic. Students say each with with a small and the initial, and discuss which sense it points to.
+child:
+  hook: How can you tell someone a letter is not a capital?
+  explain: We can say a letter is small, like with a small c. It tells people how to write the word. The word can then mean an ordinary thing.
+  examples:
+    - text: Catholic [with a small c]
+      from: entry
+    - text: romantic [with a small r]
+      from: entry
+  play: Say a word to a friend and add with a small and the first letter. Your friend writes it down.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

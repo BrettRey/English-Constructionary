@@ -1,0 +1,35 @@
+id: progressive-futurate-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Being plus -ing for plans
+  summary: A be plus -ing verb with a future time can describe something already planned.
+  body: |-
+    In We're meeting Jo on Tuesday, the verb form is the same one used for things happening right now, but the words on Tuesday point to the future. The sentence presents the meeting as already arranged, planned or settled.
+
+    An explicit future time selects that reading. For an ordinary natural event like sunset, this dictionary says the plain present is often preferred. This dictionary marks the account as provisional.
+  examples:
+    - text: '[We’re meeting Jo on Tuesday].'
+      from: entry
+  try: Think of something you've already planned for next week. Can you say it with am, is or are plus an -ing verb and a day?
+teacher:
+  summary: Explains the be plus -ing form with a future time word for arranged events.
+  explain: 'A progressive clause with an explicit future anchor can present a future event as already arranged, planned or settled in the relevant circumstances: We''re meeting Jo on Tuesday. The future anchor selects the arrangement interpretation. With an ordinary predicted natural event, such as the time of sunset, this dictionary says the plain present is often preferred. The analysis is provisional, with one constructed example.'
+  terms: Sometimes called 'present progressive for future'; this dictionary calls it the progressive futurate.
+  examples:
+    - text: '[We’re meeting Jo on Tuesday].'
+      from: entry
+  contrasts:
+    - text: The Sun sets at five tomorrow.
+      from: constructed
+      note: A natural event, where this dictionary says the plain present is often preferred.
+  watch_for:
+    - A learner might read We're meeting Jo as describing a meeting in progress.
+    - A learner might use the progressive for a future event that has no arrangement behind it.
+  activity: Students write a plan for the week in be plus -ing sentences with a day each, then trade with a partner who says what has already been arranged.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,48 @@
+id: the-adjective-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The wealthy, the impossible
+  summary: The plus an adjective can stand for a class of people or an abstract domain, with no noun after it.
+  body: |-
+    In The very wealthy are exempt, the adjective with the in front refers to a class of people. There's no noun after it, yet the phrase works as the subject, and the verb is plural.
+
+    The same frame can be abstract. In The seemingly impossible is now routine, the phrase means a domain of things, and the verb is singular. In both, the adjective keeps its ability to take adverbs such as very and seemingly.
+
+    This dictionary marks the analysis as provisional, though it's confident in the main pattern.
+  examples:
+    - text: '[The very wealthy] are exempt.'
+      from: entry
+    - text: '[The seemingly impossible] is now routine.'
+      from: entry
+  try: Say The very wealthy are exempt and The seemingly impossible is now routine. How does the verb differ, and what does each phrase refer to?
+teacher:
+  summary: Explains the plus adjective as a noun phrase for a class of people or an abstract domain, with agreement that follows the reading.
+  explain: 'The pattern is an NP with the as determiner and a fused modifier-head adjective phrase, with no overt noun. The default special interpretation is plural and human: the very wealthy. The abstract interpretation takes singular agreement: the utterly impossible. The adjective keeps its ability to take adverbial modifiers. Anaphoric examples such as the long in the short route and the long recover their nominal description from context and have independent agreement. This dictionary marks the analysis as provisional and marks high confidence.'
+  terms: 'CGEL: fused head, where the head is fused with its modifier. Traditional grammar sometimes describes the adjective as used as a noun. This dictionary distinguishes the special reading from noun conversion.'
+  examples:
+    - text: '[The very wealthy] are exempt.'
+      from: entry
+    - text: '[The seemingly impossible] is now routine.'
+      from: entry
+  contrasts:
+    - text: The very wealthy are exempt.
+      from: entry
+      note: Human class reading; plural agreement.
+    - text: The seemingly impossible is now routine.
+      from: entry
+      note: Abstract reading; singular agreement.
+    - text: the short route and the long
+      from: entry
+      note: Anaphoric use; the noun route is recovered from context.
+  watch_for:
+    - A learner might use singular agreement with a human class reading, such as the very wealthy.
+    - A learner might think the adjective has become a noun and can no longer take an adverb.
+    - A learner might read the long in the short route and the long as a class of people instead of a recovered noun.
+  activity: Students list phrases with the and an adjective, such as the very wealthy and the impossible. They mark each as a class of people, an abstract domain or a recovered noun, and choose the matching verb form.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

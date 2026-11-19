@@ -1,0 +1,54 @@
+id: numerative-teen-irregular-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Eleven and twelve
+  summary: Eleven and twelve sit right after ten, but they aren't built with -teen.
+  body: |-
+    Eleven and twelve come right after ten in the counting order, but they don't use the -teen ending that thirteen and the rest use. They're their own forms, not made by adding anything to a single-digit word.
+
+    This dictionary treats them as separate words with the same jobs as the -teen numbers: in front of a noun, as a multiplier, or added to another number. Their position-words, eleventh and twelfth, can be compared with thirteenth without treating eleven and twelve as -teen words.
+  examples:
+    - text: '[eleven]'
+      from: entry
+    - text: '[twelve]'
+      from: entry
+    - text: We need [twelve] chairs.
+      from: constructed
+  try: Count from eleven up to nineteen. Which words don't end in teen?
+teacher:
+  summary: Explains eleven and twelve as irregular forms that aren't treated as -teen words.
+  explain: 'Eleven and twelve are suppletive teen numeratives for 11 and 12. They aren''t derived by -teen suffixation, though they come in the first two positions after ten. They''re lexically atomic and have the same distribution as the regular teens: determiner, factor and addition. Their ordinals eleventh and twelfth can be compared with thirteenth without analyzing eleven and twelve as -teen stems. This dictionary takes current morphological structure as its criterion. It is provisional.'
+  terms: This dictionary calls these forms irregular (in its name for the pattern) and suppletive, not derived by -teen suffixation.
+  examples:
+    - text: '[eleven]'
+      from: entry
+    - text: '[twelve]'
+      from: entry
+  contrasts:
+    - text: '[twelve] chairs'
+      from: constructed
+      note: Suppletive form, not made with -teen.
+    - text: '[thirteen] chairs'
+      from: constructed
+      note: Regular -teen form.
+  watch_for:
+    - A learner might expect eleven and twelve to be built like thirteen, with -teen on a single-digit base.
+    - A learner might think eleven and twelve behave differently from the -teen numbers in a noun phrase, when they have the same distribution.
+  activity: Students write the numbers from eleven to nineteen, circle the two that don't end in -teen, and write a short sentence using each of them before a noun.
+child:
+  hook: Do eleven and twelve end in teen like thirteen does?
+  explain: Thirteen ends in teen. Eleven and twelve don't. They're special words that don't follow the teen pattern. You use them just like the other numbers.
+  examples:
+    - text: I have [eleven] stickers.
+      from: constructed
+    - text: There are [twelve] eggs.
+      from: constructed
+  play: Count from eleven up to nineteen out loud. Clap on the two words that don't end in teen.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: the teacher activity and child play said to go from ten to nineteen and pick out the two numbers without -teen, but ten also lacks it; the ranges now start at eleven. Also fixed (unflagged): the same range in the curious try question. Second round: fixed curious.body, which described the factor use as multiplying a larger number (this dictionary sets no size condition); fixed teacher.terms, which called irregular the traditional word and defined suppletive as not derived by -teen, and now gives this dictionary''s own wording. Also fixed (unflagged): teacher.summary no longer promises to explain why the forms are irregular.'

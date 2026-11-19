@@ -1,0 +1,32 @@
+id: not-only-but-also-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Not only this, but that too
+  summary: A pair of words, not only and but also, joins two things and presents the second as an extra.
+  body: |-
+    In She not only signed it but also delivered it, both things happened. The words not only might make you expect a denial, but the first part is still included: she did sign it.
+
+    The second part is presented as something added, or something worth noticing. When the first part is a whole clause and not only comes first, the sentence can change its word order.
+  examples:
+    - text: She [not only signed it but also delivered it].
+      from: entry
+  try: Take two things someone did and join them with not only and but also. Do both things still count as true?
+teacher:
+  summary: Explains not only ... but also as a way of joining two items that both hold, with the second as an addition.
+  explain: Not only X but (also) Y is a coordination construction that asserts both contributions, with the second presented as additional or noteworthy. Despite the overt not, the first contribution is included. The dictionary treats it as a specialization of ordinary coordination. When not only plus a constituent is preposed and the first coordinate is a clause, inversion can follow. The dictionary marks this account as provisional.
+  terms: Sometimes called a correlative conjunction, or a correlative pair. Here it's treated as a kind of coordination.
+  examples:
+    - text: She [not only signed it but also delivered it].
+      from: entry
+  watch_for:
+    - A learner might read not only as negating the first part, when the first contribution is still included.
+    - A learner might drop but when building the second part.
+  activity: Give students pairs of simple facts about one person. They join each pair with not only and but also, then say whether both facts are true.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.watch_for no longer treats leaving out also as an error (the entry writes also in parentheses, so it is optional); it now mentions only but.'

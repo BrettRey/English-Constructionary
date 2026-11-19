@@ -1,0 +1,42 @@
+id: negative-raising-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Negatives that apply to the clause after them
+  summary: With verbs like think, a negative in the main clause can invite a negative meaning in the clause after it.
+  body: |-
+    I don't think the shop is open often invites a negative meaning in the clause after think: roughly, I think the shop isn't open. The negation sits in the first clause, but the meaning is about the second.
+
+    The two sentences can differ if the speaker has no opinion either way. I don't believe the gate is open, but I have no view on whether it is closed cancels the reading that the speaker believes it closed. This dictionary adds that how available the reading is depends on the main verb and the context.
+  examples:
+    - text: I [don't think the shop is open].
+      from: entry
+    - text: I [don't believe the gate is open], but I have no view on whether it is closed.
+      from: entry
+  try: Say I don't think it will rain. Does it sound like I think it won't rain, or like I'm not sure?
+teacher:
+  summary: For advanced classes, a main-clause negative that is interpreted as negating the content clause.
+  explain: With a matrix negation, an opinion or expectation predicate and a content clause, the interpretation often shifts to a negative in the subordinate content. I don't think the shop is open is naturally read as approximating I think the shop isn't open. The two differ if the speaker lacks an opinion either way, as the comparison with I don't believe the gate is open shows. The availability of the reading depends on the matrix predicate and context. This dictionary treats the effect as an interpretive inference, not a change in the grammar of the clause.
+  terms: Negative raising or neg-raising is the traditional name for this effect.
+  examples:
+    - text: I [don't think the shop is open].
+      from: entry
+    - text: I [don't believe the gate is open], but I have no view on whether it is closed.
+      from: entry
+  contrasts:
+    - text: I don't think the shop is open.
+      from: entry
+      note: Naturally read as I think the shop isn't open.
+    - text: I don't believe the gate is open, but I have no view on whether it is closed.
+      from: entry
+      note: The continuation cancels the ordinary interpretation.
+  watch_for:
+    - A learner might read I don't think as meaning I think not, though this dictionary notes the two differ when the speaker has no opinion.
+    - A learner might assume any verb allows the negative reading, when this dictionary says it depends on the predicate and context.
+  activity: Students read pairs such as I don't think ... and I think ... isn't ... aloud and judge whether the meanings are the same. Then they add a continuation that says the speaker has no view, and discuss the difference.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

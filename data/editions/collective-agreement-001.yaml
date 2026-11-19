@@ -1,0 +1,38 @@
+id: collective-agreement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Singular group nouns with plural verbs
+  summary: A singular noun for a group, such as committee, can sometimes take a plural verb when the members are in mind.
+  body: |-
+    In The committee have all signed the report, committee is a singular noun, but the verb is plural. The plural verb follows the members of the committee, who each signed, rather than the group as one unit.
+
+    The noun itself stays singular. Whether a plural verb is available depends on the variety of English and on the particular predicate. Agreement is the matching of the verb to the subject, and here it can follow the meaning.
+  examples:
+    - text: The committee [have all signed] the report.
+      from: entry
+  try: Compare The committee has signed the report with The committee have all signed the report. Which one has the members in mind?
+teacher:
+  summary: Useful for explaining notional agreement with collective nouns, and why plural agreement isn't available in every case.
+  explain: With a subject headed by a singular collective noun, agreement can be singular or plural. Singular committee can control plural agreement where the members are foregrounded, as in The committee have all signed the report. The noun stays singular; the verb tracks the members. Whether plural agreement is available depends on the variety and on the particular predicate. This is notional agreement, with the verb following the meaning rather than only the form of the subject.
+  terms: 'Notional agreement: agreement that follows the meaning of the subject. Collective noun: a noun for a group, such as committee. See the separate entry on verb number agreement.'
+  examples:
+    - text: The committee [have all signed] the report.
+      from: entry
+  contrasts:
+    - text: The committee have all signed the report.
+      from: entry
+      note: Plural agreement. The members are foregrounded.
+    - text: The committee has signed the report.
+      from: constructed
+      note: Singular agreement. The committee is treated as a unit.
+  watch_for:
+    - A learner might think committee becomes a plural noun when the verb is plural, when the noun stays singular.
+    - A learner might expect plural agreement to be available with any predicate and in any variety, when availability depends on both.
+  activity: Students read The committee has signed the report and The committee have all signed the report aloud, say whether the unit or the members are in mind, and discuss which they would use in the varieties they know.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

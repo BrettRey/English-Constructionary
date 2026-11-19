@@ -1,0 +1,59 @@
+id: finite-do-support-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The helper word do
+  summary: When a sentence needs a helper verb and has none, English supplies did, does or do.
+  body: |-
+    In Did you check the hinge?, the question starts with did, and check stays in its plain form. The did is the helper, and it carries the past tense. English supplies it when a question or a negative needs a helper and the sentence has only an ordinary verb.
+
+    If a helper such as can is already there, no do is needed: Can you check the hinge? The same goes for Has Jo left?, where the helper has is already present. For a negative, Jo didn't leave uses do to carry the not, while Jo hasn't left uses the helper that's already there.
+  examples:
+    - text: '[Did you check] the hinge?'
+      from: entry
+    - text: '[Can you check] the hinge?'
+      from: entry
+    - text: Jo [didn't leave].
+      from: constructed
+  try: Turn Jo left into a question. Which little word do you add, and what happens to left?
+teacher:
+  summary: Helps explain when English adds finite do, in questions and negatives, and when an existing auxiliary does the job.
+  explain: 'Finite do support supplies a finite auxiliary when the construction (inversion or clause negation) requires one and the positive clause has a lexical verb. The tense is expressed on do and the verb is plain: Did you check the hinge? If a finite modal is available, it occupies the auxiliary position directly: Can you check the hinge? Likewise Has Jo left? inverts the auxiliary already present, and Jo hasn''t left uses the existing auxiliary, whereas Did Jo leave? and Jo didn''t leave insert do. Imperative do also occurs before be. This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Also called do-support. The finite auxiliary that inverts or hosts negation is sometimes called the operator.
+  examples:
+    - text: '[Did you check] the hinge?'
+      from: entry
+    - text: '[Can you check] the hinge?'
+      from: entry
+  contrasts:
+    - text: Did you check the hinge?
+      from: entry
+      note: No other auxiliary, so do is supplied and check is plain.
+    - text: Can you check the hinge?
+      from: entry
+      note: The modal already occupies the finite auxiliary position.
+    - text: Has Jo left?
+      from: constructed
+      note: The existing auxiliary inverts, so no do.
+  watch_for:
+    - A learner might put the tense on both did and check.
+    - A learner might add did when a modal or another auxiliary is already present.
+  activity: Students get statements with plain verbs (Jo left, You checked) and with auxiliaries (Jo has left, You can check). They turn each into a question and a negative, and sort the results by whether do was added.
+child:
+  hook: Which little word helps you ask Did you check the hinge?
+  explain: In Did you check the hinge?, the question begins with did, and check stays plain. English adds did when the question needs a helper word and there isn't one. With can, you don't need did.
+  examples:
+    - text: '[Did you check] the hinge?'
+      from: entry
+    - text: '[Can you check] the hinge?'
+      from: entry
+    - text: '[Did Jo leave]?'
+      from: constructed
+  play: Take a statement like Jo left and ask it as a question starting with did. What happens to left? Then ask Jo can swim as a question. Do you need did?
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: child explanation no longer says do-support applies to every question about an ordinary verb, no longer says did shows 'it happened before' (the entry puts the tense on do, in constructions that require an auxiliary), and the play task now states the plain-form change (Did Jo leave?). Dismissed: none."

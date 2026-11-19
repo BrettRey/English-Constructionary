@@ -1,0 +1,37 @@
+id: numerative-factor-modifier-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Number words built by multiplying
+  summary: In phrases like two hundred and forty-two million, a smaller number multiplies a big round one.
+  body: |-
+    In two hundred, the word two says how many hundreds there are: two times a hundred. In forty-two million, forty-two says how many millions. The smaller number is called the factor, and the big round word (hundred, thousand, million) is the one it multiplies.
+
+    This dictionary takes the factor to be one of the basic number words, from zero to ninety-nine. It describes the factor as scaling the round word, not as a separate word that introduces the whole phrase, though that analysis is marked provisional.
+  examples:
+    - text: '[two hundred]'
+      from: entry
+    - text: '[forty-two million]'
+      from: entry
+    - text: They sold [three hundred] tickets.
+      from: constructed
+  try: Pick a number like five hundred. Can you find the smaller number that multiplies the big round one?
+teacher:
+  summary: Explains why, in two hundred, the first number word is a multiplier of the second rather than a determiner of the noun phrase.
+  explain: 'A multiplicative numerative combines a factor with a magnitude head: two hundred is 2 × 100, and forty-two million is 42 × 1,000,000. The factor comes from the basic numeratives (0 to 99) and is a modifier of the magnitude head. It isn''t a determiner of the NP. This dictionary''s reasoning is that a separate determiner can still appear in a count-noun use (it cites two two hundreds), so treating the factor as the determiner would hide why both numerals are there and why each contributes differently. The analysis is provisional.'
+  terms: Numeral is the traditional word for number words in general. This dictionary says numerative, and calls the multiplier a factor and the big round word a magnitude head.
+  examples:
+    - text: '[two hundred]'
+      from: entry
+    - text: '[forty-two million]'
+      from: entry
+  watch_for:
+    - A learner might take two in two hundred as a determiner of the whole noun phrase, when this dictionary treats it as scaling hundred.
+    - A learner might read forty-two million as forty-two plus a million, when it is forty-two times a million.
+  activity: Make cards with factors (two, seven, forty-two) and magnitude words (hundred, thousand, million). Pairs draw one of each, say the number aloud, and state the multiplication it stands for.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,63 @@
+id: definite-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Pointing out which one you mean
+  summary: A definite expression picks out something the listener can identify, such as one particular dog or the whole relevant group.
+  body: |-
+    When someone says the dog, the listener is expected to know which dog is meant, because it was mentioned before or because it is the obvious one in the situation. A name like John works similarly, as a standing label that a community can use to identify the person.
+
+    This dictionary describes several ways this can work. The tallest student picks out the one thing that fits the description. The books can mean the whole relevant group. The lion and The dodo is extinct talk about a kind, and the Pope is familiar from shared culture. This dictionary treats the analysis as provisional.
+  examples:
+    - text: '[the dog]'
+      from: entry
+    - text: '[the tallest student]'
+      from: entry
+    - text: '[The dodo] is extinct.'
+      from: entry
+    - text: '[the Pope]'
+      from: entry
+  try: Say the dog, then a dog. In which case do you expect your listener to already know which dog you mean?
+teacher:
+  summary: Helps explain definiteness as a matter of meaning (identifiable, unique, kind, familiar), separate from the form of the, this and similar words.
+  explain: 'This dictionary describes definiteness as a semantic profile with four strands. Identifiable referent: the dog, or a name such as John, picks out something the hearer can identify through shared knowledge or previous mention. Unique or maximal entity: the tallest student, the books. Kind or type: the lion, The dodo is extinct. Familiar entity: the Pope, that same dog. It keeps the semantic profile apart from the structural profile (deitality). The strands are subject to independent checks: the plumber can identify an unmentioned person via a known appointment, and on the usual weak reading of take the bus the same article need not identify a particular vehicle. The analysis is provisional.'
+  terms: The and a are determinatives (often called articles). Definite is a meaning label; the syntactic side is treated in deitality.
+  examples:
+    - text: '[the dog]'
+      from: entry
+    - text: '[John]'
+      from: entry
+    - text: '[the tallest student]'
+      from: entry
+    - text: '[the books]'
+      from: entry
+    - text: '[The dodo is extinct].'
+      from: entry
+    - text: '[that same dog]'
+      from: entry
+  contrasts:
+    - text: the plumber
+      from: constructed
+      note: Can identify an unmentioned person via an appointment the hearer knows about.
+    - text: take the bus
+      from: constructed
+      note: On the usual weak reading the same article need not identify a particular vehicle.
+  watch_for:
+    - A learner might assume every use of the identifies one particular thing, when kind uses and weak uses like take the bus don't.
+    - A learner might assume that definiteness requires previous mention, when shared knowledge can supply the identification.
+  activity: Give students short passages with several the-phrases. They label each as previously mentioned, uniquely described, kind-level or culturally familiar, and note any that fit more than one label.
+child:
+  hook: When do we say the dog instead of a dog?
+  explain: We say the dog when our listener knows which dog we mean. Maybe we talked about it before. Maybe it's the only dog around.
+  examples:
+    - text: '[The dog] barked at the mail carrier.'
+      from: constructed
+    - text: '[The tallest student] reached the shelf.'
+      from: constructed
+  play: Look around a room and describe one thing with the, like the red book. Can a friend find it? What helped them know which one you meant?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,62 @@
+id: ostensive-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A single noun phrase that calls for attention
+  summary: A lone noun phrase, said with marked stress, can direct someone's attention to a person or thing.
+  body: |-
+    Sometimes a single noun phrase is a complete message. Calling Mom! gets the listener's attention. Pointing out A snake! gets everyone's attention for something in the surroundings. Both are said with marked stress and aren't part of a longer sentence.
+
+    This dictionary separates two uses: calling to the person addressed, and drawing attention to something in the environment. They shade into each other. Taxi! could hail the driver or alert a friend. The phrase resists being questioned, tagged or tucked inside another sentence.
+  examples:
+    - text: '[Mom]! (calling)'
+      from: entry
+    - text: '[A snake]!'
+      from: entry
+    - text: '[Taxi]!'
+      from: entry
+  try: Think of something you might shout in a crowd, like a name or a thing. Is it calling a person or pointing something out?
+teacher:
+  summary: Shows how a single noun phrase can serve as an attention-directing utterance, with two packagings that differ in determination.
+  explain: 'An ostensive NP is an extra-clausal NP that directs attention to its referent. It isn''t an argument of any predicator, and it resists embedding, tags and question formation. It has two packagings: vocative (addressee-directed, securing the channel) and directive-ostensive (environment-directed, securing joint attention). Directive-ostensives keep ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, officer, buddy). Taxi! is ambiguous between the two, and reminders such as Your keys! sit between alerting and addressing. This dictionary marks the analysis as provisional.'
+  terms: Vocative is the traditional name for the addressee-directed use. Directive-ostensive is this dictionary's term for the environment-directed use.
+  examples:
+    - text: '[Mom]! (calling)'
+      from: entry
+    - text: '[A snake]!'
+      from: entry
+    - text: '[Taxi]!'
+      from: entry
+  contrasts:
+    - text: '[The bus]!'
+      from: constructed
+      note: Directive-ostensive, with ordinary determination.
+    - text: '[Mum]!'
+      from: constructed
+      note: Vocative, a bare common noun allowed in calling.
+    - text: There's a fire!
+      from: constructed
+      note: A clausal alert, which has the function but not this form.
+  watch_for:
+    - A learner might think a vocative such as Mum needs a determiner like a or the.
+    - A learner might take Taxi! as having one fixed use, when it is ambiguous between the two.
+    - A learner might treat a lone noun phrase as an interjection, when it keeps its referential behaviour.
+  activity: Students list short shouts from a playground or street scene. They decide for each whether it calls a person (vocative) or points something out (directive-ostensive), and mark the ambiguous ones.
+child:
+  hook: What do you shout when you see a snake?
+  explain: Sometimes just a name or a thing is the whole message. A snake! tells everyone to look. Mom! calls someone over. You don't need a verb.
+  examples:
+    - text: '[A snake]!'
+      from: entry
+    - text: '[Mom]! (calling)'
+      from: entry
+    - text: '[The bus]!'
+      from: constructed
+  play: Take turns shouting just a thing or a name. Can your friend tell whether you're calling someone or pointing something out?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
+  note: 'Audit: fixed curious.body, can''t be changed to resists being (the entry says the construction resists embedding, tags and questioning, and allows supplement position); also This dictionary is provisional changed to marks the analysis as provisional.'

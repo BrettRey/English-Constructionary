@@ -1,0 +1,52 @@
+id: activity-weak-definite-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The bus that isn't a particular bus
+  summary: With some verbs and nouns, a phrase starting with the can name an everyday activity rather than one particular thing.
+  body: |-
+    When we say We took the bus, we're describing a way of travelling. The phrase the bus doesn't point to one particular vehicle that the listener must work out.
+
+    Change the verb and the same words can pick out a particular bus: in Lee parked the bus, we're talking about a specific vehicle. Both the verb and the noun matter, and a sentence like We took the bus can also be read as naming one particular bus if the situation makes that clear.
+  examples:
+    - text: We [took the bus].
+      from: entry
+    - text: Lee [parked the bus].
+      from: entry
+  try: Say We took the bus and then Lee parked the bus. Which one needs you to know which bus is meant?
+teacher:
+  summary: Explains weak definites, where the plus a noun names a conventional activity without identifying a unique object.
+  explain: In We took the bus, the definite NP sits inside a conventional activity frame (transport use). The hearer can recover the activity without identifying which vehicle is involved. With a different predicate and the same noun and article, as in Lee parked the bus, the NP identifies a particular vehicle. So the host expression and the noun both matter, and the activity frame may still allow an ordinary identifying reading in context. This dictionary marks the analysis as provisional; it relies on experimental work on which verb and noun combinations license the weak reading.
+  terms: Sometimes called a weak definite. This dictionary calls the host plus NP an activity frame.
+  examples:
+    - text: We [took the bus].
+      from: entry
+    - text: Lee [parked the bus].
+      from: entry
+  contrasts:
+    - text: We took the bus.
+      from: entry
+      note: Conventional transport use.
+    - text: Lee parked the bus.
+      from: entry
+      note: The same noun and article, a different verb, and a particular vehicle.
+  watch_for:
+    - A learner might assume the bus has to name a single vehicle both speaker and listener know, when the activity can be understood without that.
+    - A learner might assume any verb with the bus gives the activity reading, when the verb matters.
+  activity: Give pairs a list of verb plus the bus phrases. They sort them into everyday activity readings and particular-vehicle readings, then compare sorting with another pair.
+child:
+  hook: When you say "We took the bus", do you mean one special bus?
+  explain: We took the bus can be about travelling, without one special bus in mind. Lee parked the bus is about one particular bus. The verb matters, and so does the noun.
+  examples:
+    - text: We [took the bus].
+      from: entry
+    - text: Lee [parked the bus].
+      from: entry
+  play: Say each sentence and ask a partner, "Which bus?" Do you need to know which bus in each one? Try it with other sentences of your own.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: child.explain now says We took the bus can be about travelling (the entry allows an identifying reading in context); child.play no longer implies only one sentence invites 'Which bus?'. Also fixed (unflagged): curious summary typo; 'the entry' replaced by 'this dictionary'; teacher terms hedged to 'sometimes called'."

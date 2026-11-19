@@ -1,0 +1,61 @@
+id: object-resultative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Doing something until the object ends up a certain way
+  summary: In He painted the fence blue, the last word says what state the fence ends up in.
+  body: |-
+    In He painted the fence blue, the fence comes to be blue as a result of the painting. The word blue describes the fence, and it describes the outcome. He washed it clean works the same way: it ends up clean.
+
+    There's a related pattern with a reflexive word. In He talked himself hoarse, the talking leaves him hoarse. This dictionary says it works only with a reflexive, not with any affected person. It's different from describing how something is while the action goes on, as in He ate the steak almost raw.
+  examples:
+    - text: He [washed it clean].
+      from: entry
+    - text: He [painted the fence blue].
+      from: entry
+    - text: He [talked himself hoarse].
+      from: entry
+  try: After someone paints a fence blue, what colour is the fence? Does the word blue describe the fence before or after the painting?
+teacher:
+  summary: Explains a result state attached to the direct object, and how it differs from depictives and from state-goal PPs.
+  explain: The object-oriented resultative is a verb with a direct object (Od) followed by a predicative complement (an AdjP or NP) that is predicated of that object. The Od is in the state the predicative names at the end of the verbal process. Unlike a depictive, a resultative entails a change culminating in that state. An optional resultative still counts as a complement, while an optional depictive such as almost raw in ate the steak almost raw is an adjunct. Marked state goals such as to sleep are locative complements. This dictionary marks the analysis as provisional.
+  terms: Resultative is the traditional name. The predicative is also sometimes called an object complement. Depictive is the name for a description that holds during the event.
+  examples:
+    - text: He [washed it clean].
+      from: entry
+    - text: He [painted the fence blue].
+      from: entry
+    - text: He [talked himself hoarse].
+      from: entry
+  contrasts:
+    - text: He painted the fence blue.
+      from: entry
+      note: Resultative. The fence comes to be blue as a result of the painting.
+    - text: He ate the steak almost raw.
+      from: constructed
+      note: Depictive. Almost raw describes the steak while he ate it, and it's an adjunct.
+    - text: She cried herself to sleep.
+      from: constructed
+      note: To sleep is a marked state goal, a locative complement, so it isn't a resultative predicative.
+  watch_for:
+    - A learner might read painted the fence blue as having two objects, when blue describes the fence.
+    - A learner might treat cried herself to sleep as the same pattern as talked himself hoarse, when to sleep is a locative complement.
+    - A learner might take almost raw in ate the steak almost raw as a result, when it describes the steak during the eating.
+  activity: Give students sentences with a verb, an object and a descriptive word. They ask whether the object ends up in that state because of the action (resultative) or is simply that way while the action happens (depictive), and sort them.
+child:
+  hook: After someone paints a fence blue, what colour is it?
+  explain: In He painted the fence blue, the last word tells how the fence ended up. The painting made it blue. The word comes after the thing and says what it became.
+  examples:
+    - text: He [painted the fence blue].
+      from: entry
+    - text: He [washed it clean].
+      from: entry
+    - text: She [wiped the table dry].
+      from: constructed
+  play: Pick a job, like wiping or painting. Say the thing, then a word for how it ends up. For example, wiped the table dry. Trade turns with a friend.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

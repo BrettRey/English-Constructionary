@@ -1,0 +1,45 @@
+id: modified-personal-pronoun-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Adjectives in front of me, you and us
+  summary: A pronoun such as you or me can take an adjective in front of it to pick out a stage of a person's life or the state they were in.
+  body: |-
+    In The five-year-old you was so cute!, the word you still means the person being addressed. The adjective adds an age, so the phrase picks out one stage of that person. In An exhausted me has felt, the word me still means the speaker, and exhausted adds the state the speaker was in.
+
+    These phrases show a split. The verb in the first example is was, not the were that ordinary you goes with, yet a phrase containing me can still go with myself, as in Questions A Younger Me Would Ask Myself. This dictionary says that what kind of word the head is, and why the split happens, remain open.
+  examples:
+    - text: '[The five-year-old you] was so cute!'
+      from: entry
+    - text: Questions [A Younger Me] Would Ask Myself
+      from: entry
+    - text: '[An exhausted me] has felt …'
+      from: entry
+teacher:
+  summary: For advanced classes, personal pronouns modified by an adjective, as in the five-year-old you or an exhausted me.
+  explain: 'An attributive adjective can combine with a form otherwise used as a personal pronoun. The pronoun anchors the reference (the addressee, the speaker); the adjective picks out a stage or aspect of that person (the five-year-old you), or characterizes the person''s state (an exhausted me). In subject position the whole phrase can take third-person verb agreement, as in the five-year-old you was. A coreferential reflexive can keep the pronoun''s person (A Younger Me ... Myself). This dictionary marks the analysis as provisional: the category of the head and the explanation for the split agreement remain open.'
+  examples:
+    - text: '[The five-year-old you] was so cute!'
+      from: entry
+    - text: Questions [A Younger Me] Would Ask Myself
+      from: entry
+    - text: '[An exhausted me] has felt …'
+      from: entry
+  contrasts:
+    - text: The five-year-old you was so cute!
+      from: entry
+      note: The verb is was, which contrasts with ordinary second-person you were.
+    - text: Questions A Younger Me Would Ask Myself
+      from: entry
+      note: The reflexive keeps first person.
+  watch_for:
+    - A learner might assume the verb must agree with you as an ordinary second-person pronoun, as in you were.
+    - A learner might take Poor old me, which this dictionary lists as a separate bare evaluative pattern, to be the same construction as the younger me.
+    - A learner might read an exhausted me as picking out a different person, when me still identifies the speaker.
+  activity: Students write a sentence about themselves at an earlier age, starting with The ... me or The ... you, and one about a state (tired, nervous). Compare how the verb and any reflexive look in each, without deciding which analysis is right.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,43 @@
+id: each-of-partitive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Each of the group
+  summary: Each followed by of and a known group says something about every member of that group.
+  body: |-
+    In Each of the six drawers has a lock, the six drawers are a group already in view. The sentence says that every one of them has a lock, one by one. The word each singles out the members, and the phrase after of names the group they belong to.
+
+    The group is expressed with a plural and a definite word such as the.
+  examples:
+    - text: '[Each of the six drawers] has a lock.'
+      from: entry
+    - text: '[Each of the boys] has a bike.'
+      from: constructed
+  try: Pick a group you both know, such as the books on a table. Say something true of each one, starting with each of.
+teacher:
+  summary: Helps explain each of plus a plural definite NP as a way to apply a statement to every member of a known group.
+  explain: 'In each + PP[of + plural definite NP], each distributes the predication over every member of an established group, as in Each of the six drawers has a lock. This dictionary treats it as a specialization of the true partitive: the of-phrase gives a partitive domain, and the predication is distributed over every drawer in it. This dictionary also relates the pattern to grammatical number, since the group is plural and the distribution works member by member.'
+  examples:
+    - text: '[Each of the six drawers] has a lock.'
+      from: entry
+    - text: '[Each of the boys] has a bike.'
+      from: constructed
+  watch_for:
+    - A learner might use each of with a group that hasn't been established, though the pattern distributes over a known group.
+    - A learner might treat each of the six drawers as describing the drawers together, when it describes them one by one.
+  activity: Students look at a picture of a group (six drawers, a team) and write a sentence saying something true of each member, beginning each of the.
+child:
+  hook: Can one word talk about every drawer in turn?
+  explain: Each of the six drawers has a lock means every drawer has one. You count them one at a time. The group is one you already know about.
+  examples:
+    - text: '[Each of the six drawers] has a lock.'
+      from: entry
+    - text: '[Each of the girls] has a bike.'
+      from: constructed
+  play: Look at a group of things in the room. Say one true thing about each one, starting with each of the.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

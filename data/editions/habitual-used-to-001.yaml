@@ -1,0 +1,45 @@
+id: habitual-used-to-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Used to
+  summary: Used to followed by a plain verb describes a habit or a state that belonged to a past period.
+  body: |-
+    The shop used to close at noon tells us that closing at noon was the regular pattern at some earlier time. Used to can also describe a past state, as in Jo used to own it.
+
+    The present-tense counterpart, use to, doesn't parallel this by describing a current habit in an ordinary affirmative sentence.
+  examples:
+    - text: The shop [used to close] at noon.
+      from: entry
+    - text: Jo [used to own] it.
+      from: entry
+  try: Say something about a place near you that has changed, starting with It used to ...
+teacher:
+  summary: Helps students use used to for past habits and states and see how it differs from the present.
+  explain: 'The pattern is used to plus a plain-form verb: The shop used to close at noon. It presents a habitual situation or state as characteristic of a past period, so it covers habits and states: Jo used to own it. This dictionary says the present counterpart use to does not express a parallel current habit in ordinary affirmative clauses. It treats it as a specialization of VP structure, related to the past tense, and marks the analysis as provisional.'
+  terms: Often taught as the past habitual or used to + infinitive.
+  examples:
+    - text: The shop [used to close] at noon.
+      from: entry
+    - text: Jo [used to own] it.
+      from: entry
+  watch_for:
+    - A learner might use use to for a present habit in an affirmative sentence, when it doesn't parallel used to.
+    - A learner might think used to covers only repeated actions, when it also covers states like owning.
+  activity: Students write two sentences with used to about how their town has changed, one a habit and one a state, then swap and decide which is which.
+child:
+  hook: How do you talk about how things were?
+  explain: Used to talks about how things were in the past. The shop used to close at noon.
+  examples:
+    - text: The shop [used to close] at noon.
+      from: entry
+    - text: Jo [used to own] it.
+      from: entry
+  play: Tell a partner two things that used to be true for you. Start each with I used to.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: cut the unsupported ''the form for talking about how things were'' (curious.body); child.explain no longer introduces ''state'' undefined; child.play no longer asks children to sort habits from states; ''the entry'' replaced by ''this dictionary''.'

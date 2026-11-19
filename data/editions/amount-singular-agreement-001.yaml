@@ -1,0 +1,51 @@
+id: amount-singular-agreement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Three hours is enough
+  summary: An amount that looks plural can take a singular verb when it's treated as one total.
+  body: |-
+    In Three hours is enough, the subject looks plural, but the verb is singular. The sentence treats three hours as a single amount of time. The same goes for Three litres is enough, where a measurement counts as one amount.
+
+    On this dictionary's analysis, the singular fits when the sentence judges the duration as a whole. If the hours are being thought of one at a time, the plural can be used instead. A group word like the committee is a separate case: it can take a plural verb when we think of its members.
+  examples:
+    - text: Three hours [is enough].
+      from: entry
+    - text: Three litres [is enough].
+      from: entry
+    - text: Three litres of milk [is enough].
+      from: entry
+  try: Say Three hours is enough. Are you thinking of the hours as one total, or one by one?
+teacher:
+  summary: Explains why an amount expression such as three hours can take a singular verb.
+  explain: A plural-shaped measure NP can be the subject of a clause with singular agreement, as in Three hours is enough. The expression is treated as a single amount. On this dictionary's provisional analysis, the singular is natural when the predicate evaluates a duration as a whole. If a series of hours is predicated of individually, plural agreement can be used instead. A measure pseudopartitive can also be the subject of singular amount agreement (Three litres of milk is enough). This dictionary keeps this apart from collective agreement, where a collective NP such as the committee can take plural agreement on a member-oriented reading.
+  terms: Sometimes treated under notional concord (or notional agreement), a broader label for a verb agreeing with the meaning of its subject rather than its form, which also takes in collective nouns like the committee. This dictionary keeps the two apart and calls this pattern singular agreement with an amount expression.
+  examples:
+    - text: Three hours [is enough].
+      from: entry
+    - text: Three litres of milk [is enough].
+      from: entry
+  contrasts:
+    - text: Three litres is enough.
+      from: entry
+      note: A measurement treated as one amount.
+  watch_for:
+    - A learner might expect the plural form of the verb because hours ends in a plural -s, when the whole duration is treated as one amount.
+    - A learner might apply the same reasoning to the committee, when a collective NP can take a plural verb on a member-oriented reading.
+  activity: Students write sentences with measure expressions (litres, hours, kilometres) as the subject and say whether each treats the amount as a whole total or one at a time.
+child:
+  hook: Three hours is more than one hour. So why can we say "three hours is enough"?
+  explain: Three hours is a plural-looking phrase, but we can treat it as one amount of time. Then we can say is. Three litres is enough works the same way.
+  examples:
+    - text: Three hours [is enough].
+      from: entry
+    - text: Three litres [is enough].
+      from: entry
+  play: Think of amounts like two hours, five kilometres or four litres. Say each one with is enough. Do they sound like one amount?
+checked:
+  date: "2026-11-19"
+  model: claude-opus-5-5 (resolving glm-5.3 flags)
+  result: fixed
+  note: "Fixed: teacher.terms kept the textbook term but rephrased it as 'sometimes treated under notional concord (or notional agreement)', marked as a broader label that also covers collective nouns, which this dictionary keeps apart (Quirk et al. 1985, section 10.35 Note [a], puts singular agreement with plural measure phrases under notional concord; Leech's grammar glossary defines the term); curious.body and teacher.explain now hedge the whole-duration condition as this dictionary's (provisional) analysis (kind provisional, confidence medium). Also fixed (unflagged): child.hook said we say is 'and not are', and child.explain said 'So we say is', implying the plural is wrong, though the entry stars nothing and allows plural agreement for an individually predicated series; teacher 'The entry'/'This entry' changed to 'This dictionary'. Dismissed: none."

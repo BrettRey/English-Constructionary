@@ -1,0 +1,41 @@
+id: with-a-lowercase-letter-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: With a lowercase letter
+  summary: Adding with a lowercase r (or another letter) says how a word is written, and can point to an ordinary meaning.
+  body: |-
+    Republican with a lowercase r points to the ordinary descriptive sense of the word, not an institutional one. Romantic with a lowercase r works the same way.
+
+    The phrase is a spelling instruction. It can say which written form is meant, as small does in with a small r. The letter named generally matches the initial of the label.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: republican [with a lowercase r]
+      from: entry
+    - text: romantic [with a lowercase r]
+      from: entry
+  try: Say a word and add with a lowercase and its first letter. What written form are you pointing to?
+teacher:
+  summary: Helps explain with a lowercase letter as a spelling clarification pointing to an ordinary sense.
+  explain: The pattern is a prepositional phrase headed by with, followed by a, lowercase and a letter name. It is postposed after a label or used parenthetically. It specifies lowercase orthography and signals an ordinary or common sense, disambiguating descriptive use from institutional or proper use. With a lowercase r and with a small r can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label. This dictionary marks its analysis provisional. A sibling entry covers with a small letter.
+  terms: Lowercase letter is the everyday term. This dictionary lists with a small letter as a variant.
+  examples:
+    - text: republican [with a lowercase r]
+      from: entry
+    - text: romantic [with a lowercase r]
+      from: entry
+  contrasts:
+    - text: romantic with a lowercase r
+      from: entry
+      note: Non-institutional sense.
+  watch_for:
+    - A learner might name a letter that doesn't match the initial being discussed, though this dictionary says the letter generally matches it.
+    - A learner might treat with a lowercase r and with a small r as different instructions, when they can point to the same written form.
+  activity: Students pair words such as republican and romantic with the phrase with a lowercase and the initial. They then restate each using with a small and the initial, and confirm the written form is the same.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

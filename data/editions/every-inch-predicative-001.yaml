@@ -1,0 +1,44 @@
+id: every-inch-predicative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Being a philosopher in every way
+  summary: Every inch a philosopher says that someone fully fits a role or type, in the respects that matter for it.
+  body: |-
+    In She is every inch a philosopher, the words every inch add emphasis. They suggest nothing is missing from the description: she is a philosopher completely.
+
+    The respects that count come from the description itself. Here the word philosopher tells us what to look at, so the phrase is about her qualities as a philosopher, not about her height. The phrase is an idiom, and in this example it describes the person after a form of be.
+  examples:
+    - text: She is [every inch a philosopher].
+      from: entry
+    - text: He is [every inch a gentleman].
+      from: constructed
+    - text: She is [every inch a leader].
+      from: constructed
+  try: Swap philosopher for another role, such as leader. Which qualities does every inch now cover?
+teacher:
+  summary: Helps with the idiom every inch a ..., which emphasizes that someone fully fits a role or type.
+  explain: 'Every inch plus a or an plus a nominal works as a predicative complement and marks completeness in the characterization: the subject exemplifies the role or type in the relevant respects. The respects come from the noun (philosopher), not from any measurement. CGEL identifies this use as idiomatic and contrasts the predicative use with an unacceptable use as a by-agent. This dictionary’s relation to every bit as good remains open, and this dictionary marks the analysis as provisional.'
+  terms: Predicative complement is this grammar's term. Textbooks sometimes call it a subject complement or predicate nominative.
+  examples:
+    - text: She is [every inch a philosopher].
+      from: entry
+    - text: He is [every inch a gentleman].
+      from: constructed
+  contrasts:
+    - text: She is every inch a philosopher.
+      from: entry
+      note: Adds completeness to the characterization.
+    - text: She is a philosopher.
+      from: constructed
+      note: Same description without the emphasis on completeness.
+  watch_for:
+    - A learner might read inch literally, as a measure of height or size.
+    - A learner might not see that the noun after a decides which respects every inch covers.
+  activity: Give students role nouns (teacher, host, rebel, athlete). They write a sentence about someone they know using every inch a plus the noun, then say which qualities they meant.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

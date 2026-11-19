@@ -1,0 +1,52 @@
+id: irrealis-were-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: I wish I were taller
+  summary: In some wishing and imagining sentences, a form of be, were, appears with I or with he, she or it.
+  body: |-
+    In I wish I were taller, were is the form of be used with I. The sentence is about something that isn't the case. This distinct form is called irrealis, and it shows up in the first and third person singular.
+
+    With remote if, was may also be used by many speakers. But in Were I taller, where were comes before the subject, was fails in standard usage.
+  examples:
+    - text: I wish [I were taller].
+      from: entry
+    - text: '[Were I taller], I''d reach the shelf.'
+      from: constructed
+  try: Say I wish I were taller. Then think of another wish beginning I wish she... Which form of be fits?
+teacher:
+  summary: Explains the irrealis were that remains in first and third person singular clauses.
+  explain: This dictionary treats were as a distinct irrealis form of be, realized in the first or third person singular in selected remote environments, as in I wish I were taller. Remote if may also have was, for many speakers. The matrix-like were in Were I taller is licensed under inversion, where replacing it by was fails in standard usage. It relates this to if-conditionals and to the inverted conditional, and marks the analysis as provisional.
+  terms: Sometimes called the subjunctive were. This dictionary calls it a distinct irrealis form of be.
+  examples:
+    - text: I wish [I were taller].
+      from: entry
+    - text: '[Were I taller], I''d reach the shelf.'
+      from: constructed
+  contrasts:
+    - text: I wish I were taller.
+      from: entry
+      note: Irrealis were with I.
+    - text: If I were taller, I'd reach the shelf.
+      from: constructed
+      note: Remote if; was may also occur.
+  watch_for:
+    - A learner might think were is plural-only and cannot be used with I.
+    - A learner might be unsure which of were and was to use after remote if.
+  activity: Students complete I wish... and If I... sentences about things that aren't so. They underline the form of be and compare it with the plain past in real past-time sentences.
+child:
+  hook: How could you finish the wish "I wish I were ..."?
+  explain: Sometimes we say were with I. I wish I were taller. It's a wish about something that isn't true right now.
+  examples:
+    - text: I wish [I were taller].
+      from: entry
+    - text: I wish [I were a bird].
+      from: constructed
+  play: Make wishes that start with I wish I were. Then say what you'd do if the wish came true.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.terms no longer claims a dictionary-wide naming policy about mood; child.hook no longer implies was after I wish is avoided (the entry''s only negative judgment about was concerns inversion); ''the entry'' replaced by ''this dictionary''.'

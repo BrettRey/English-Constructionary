@@ -1,0 +1,44 @@
+id: monotransitive-vp-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Verbs with one object
+  summary: Some verbs are followed by a single phrase naming the thing the action is done to.
+  body: |-
+    In The carpenter replaced the hinge, the verb replaced is followed by one phrase, the hinge. That phrase is the direct object. It names the thing that was replaced, and the verb has no other object after it.
+
+    Two tests help you spot a direct object. A pronoun in that position takes its object form, as in She thanked him. And with a suitable verb, it can become the subject of a passive sentence: The hinge was replaced. A phrase that begins with a preposition, as in waited for the hinge, has different internal structure.
+  examples:
+    - text: The carpenter [replaced the hinge].
+      from: entry
+    - text: She [thanked him].
+      from: constructed
+    - text: The hinge was [replaced] by the carpenter.
+      from: constructed
+  try: Take a sentence with a verb and one object, such as She thanked him. Can you turn it round so the object becomes the subject, as in He was thanked?
+teacher:
+  summary: Basic transitive verbs with a single direct object, and how to tell an object from a prepositional phrase.
+  explain: 'A monotransitive verb phrase has a head verb and one direct object (Od) realized by a noun phrase, as in replaced the hinge. Two tests support object status: an object can bear accusative pronoun case (thanked him), and with a suitable verb it corresponds to the subject of a passive (The hinge was replaced). A prepositional phrase complement, as in waited for the hinge, has different internal syntax and isn''t a direct object. The pattern specializes the general verb phrase, and this dictionary lists the passive as related. The analysis is marked provisional with medium confidence.'
+  terms: Transitive verb is the traditional term; monotransitive is used here to contrast with ditransitive, which takes two objects.
+  examples:
+    - text: The carpenter [replaced the hinge].
+      from: entry
+    - text: She [thanked him].
+      from: constructed
+  contrasts:
+    - text: The carpenter replaced the hinge.
+      from: entry
+      note: A noun phrase direct object.
+    - text: The carpenter waited for the hinge.
+      from: constructed
+      note: A prepositional phrase complement, with different internal syntax.
+  watch_for:
+    - A learner might treat the preposition phrase in waited for the hinge as a direct object.
+    - A learner might assume every verb with a noun phrase after it allows a passive, though this dictionary says only a suitable verb does.
+  activity: Give students verb cards (replace, thank, wait). They write a sentence with each, mark the direct object where there is one, and try the passive for each.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

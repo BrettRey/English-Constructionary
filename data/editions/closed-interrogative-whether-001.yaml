@@ -1,0 +1,36 @@
+id: closed-interrogative-whether-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Questions inside sentences with whether
+  summary: Whether can introduce a question or a choice between alternatives inside a larger sentence.
+  body: |-
+    In Whether to reschedule still needs discussion, whether introduces a choice between alternatives, and the whole phrase acts as the subject of the sentence. Whether can be followed by a full clause or by to and a verb.
+
+    It also works in places where the question word if isn't available, such as before to and a verb. Some other positions, including some where the phrase is the subject, favour whether or require it.
+  examples:
+    - text: '[Whether to reschedule] still needs discussion.'
+      from: entry
+    - text: I wonder [whether Kim finished the report].
+      from: constructed
+  try: Compare I wonder whether to go and I wonder whether we should go. Is the choice between alternatives the same in both?
+teacher:
+  summary: Useful for explaining when whether, and not if, introduces an embedded closed question.
+  explain: Whether introduces an embedded closed question or choice between alternatives, followed either by a clause in declarative order or by a to-infinitival. It can introduce an infinitival where interrogative if is unavailable. Certain finite prepositional and subject environments likewise favour or require whether. When teaching embedded questions, show whether alongside if, so students see where whether is the form to use.
+  terms: 'Subordinate closed interrogative: an embedded closed question or choice between alternatives. Compare if, whose use is more restricted here; see the separate entry for if.'
+  examples:
+    - text: '[Whether to reschedule] still needs discussion.'
+      from: entry
+    - text: I wonder [whether Kim finished the report].
+      from: constructed
+  watch_for:
+    - A learner might choose if where whether is favoured or required, as with whether to reschedule.
+    - A learner might miss that a whether-phrase can itself be the subject of a sentence.
+  activity: Give students sentences with a gap where whether or if could go. They decide where whether is needed or preferred, then say what each embedded clause asks.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
+  note: 'Audit: fixed teacher.terms, which glossed the pattern as an embedded yes/no question only (the entry also covers a choice between alternatives).'

@@ -1,0 +1,58 @@
+id: degree-adjective-indefinite-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: How big a mess, too big a problem
+  summary: With words like how, too, so, that and as, the adjective can move in front of a or an.
+  body: |-
+    In a big mess, the adjective sits between a and the noun. But after words such as how, so, too, that and as, the adjective moves forward and a follows it. So we say how big a mess, too big a problem, so good a student, not that good a teacher.
+
+    The word a or an has to stay: this pattern doesn't work with the. In some varieties you can also add of, as in that big of a deal, though whether of is acceptable depends on the degree word and the variety. The ordinary word very doesn't do this, and takes the usual order: a very serious problem.
+  examples:
+    - text: '[How big a mess] was it?'
+      from: entry
+    - text: It was [too big a problem] to ignore.
+      from: entry
+    - text: She's [so good a student] that she skipped a year.
+      from: entry
+    - text: It's not [as big a deal] as you think.
+      from: entry
+  try: Start from a big mess and ask how big a mess. Then try the same with the, and see whether it still works.
+teacher:
+  summary: Explains inverted order after degree words (how big a mess) and the a(n)-only restriction.
+  explain: 'A degree word plus an adjective can precede the indefinite article, reversing the usual order: a big mess becomes how big a mess. Eligible phrases include those with how, so, too, that and as, and certain comparatives (more interesting a job). The article must be indefinite a(n); the doesn''t fit, as in how big the mess. The how version can be an interrogative phrase, fronted to the start of the clause. Ordinary very uses a different word order (a very serious problem). An intervening of (that big of a deal) is especially familiar in North American varieties and is more available with some degree words than others. Register differs among the variants.'
+  terms: 'Degree word: a word such as how, so, too or as that modifies the adjective. Indefinite article: a or an, the words CGEL classes as determinatives.'
+  examples:
+    - text: '[How big a mess] was it?'
+      from: entry
+    - text: He's not [that good a teacher].
+      from: entry
+    - text: It was [too big a problem] to ignore.
+      from: entry
+    - text: It's not [that big of a deal].
+      from: entry
+    - text: '[more interesting a job] than I thought'
+      from: entry
+  contrasts:
+    - text: a big mess
+      from: constructed
+      note: Ordinary order, with the adjective after a.
+    - text: how big the mess
+      from: entry
+      acceptable: false
+      note: This dictionary stars this version with the.
+    - text: a very serious problem
+      from: constructed
+      note: Very keeps the usual order.
+  watch_for:
+    - A learner might put the definite article into the pattern, as in how big the mess.
+    - A learner might expect very to behave like how and so, and move the adjective in front of a.
+    - A learner might assume that of is available with every degree word, though this dictionary notes this varies with the degree word and variety.
+  activity: Give students a big mess, a good teacher and a serious problem. They build how, too, so and as versions, then check each with a different noun and say which degree words they can use.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: "Dismissed: teacher.terms a/an as determinatives (GLM: unsupported) is CGEL's standard classification and consistent with the entry; reworded to say CGEL classes them so rather than that this grammar does. Also fixed (unflagged): removed 'Usually' (a frequency word) from curious.body; 'the entry' replaced by 'this dictionary'. Second round: dismissed teacher.terms a/an as determinatives, flagged again (CGEL's standard classification, consistent with the entry's indefinite article)."

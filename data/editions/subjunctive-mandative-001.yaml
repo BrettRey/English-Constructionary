@@ -1,0 +1,44 @@
+id: subjunctive-mandative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Clauses that state a requirement
+  summary: After words like requested, a that-clause can use the plain form of the verb to say what is required or recommended.
+  body: |-
+    In They requested that the gate remain closed, the clause after that gives the content of a request. The verb remain is in its plain form: it doesn't take an -s even though the gate is singular.
+
+    The plain form also shows up with not. In that the gate not be opened, not comes before plain be, and no do is needed. The grammar books call this the subjunctive.
+
+    This dictionary marks the analysis as provisional and gives only constructed examples.
+  examples:
+    - text: They requested [that the gate remain closed].
+      from: entry
+    - text: They requested [that the gate not be opened].
+      from: entry
+  try: Say They requested that the gate remain closed. What would the verb be in an ordinary statement, The gate remains closed? How does remain differ?
+teacher:
+  summary: Explains why a that-clause after request-type words takes the plain verb form and does not mark person or tense.
+  explain: The mandative subjunctive is a content clause with (that), a subject and a plain-form verb, presenting the content of a requirement, recommendation or request. Remain does not carry third-person singular marking. With negative not, the plain form can occur without finite do, as in that it not remain closed. In They requested that the gate not be opened, plain be follows not without support from do. This dictionary marks the analysis as provisional and a separate entry covers the related mandative should construction.
+  terms: Mandative subjunctive is a textbook name. In CGEL terms the verb is a plain form in a declarative content clause.
+  examples:
+    - text: They requested [that the gate remain closed].
+      from: entry
+    - text: They requested [that the gate not be opened].
+      from: entry
+  contrasts:
+    - text: They requested that the gate remain closed.
+      from: entry
+      note: Plain form; no third-person singular marking.
+    - text: They requested that the gate not be opened.
+      from: entry
+      note: Plain be after not, without support from do.
+  watch_for:
+    - A learner might expect -s on remain because the gate is third-person singular.
+    - A learner might expect do to support not in the clause, when plain be follows not directly.
+  activity: Students complete sentences beginning with demand, insist, recommend and request followed by a that-clause. They circle the verb form and say whether it carries person or tense marking.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,57 @@
+id: indefinite-rate-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Fifty miles an hour
+  summary: Putting a or an before a unit, as in $20 a yard, turns an amount into a rate.
+  body: |-
+    In He was going at 50 miles an hour, the words an hour don't mean one particular hour. They say what the 50 miles is measured against, so the whole phrase gives a speed. The same pattern gives a price, as in $20 a yard, and a frequency, as in twice a day.
+
+    The speed holds even if the trip lasts only a minute. Fifty miles every hour is different: it can claim fifty miles in each successive hour. A phrase with per can often say the same thing, and it copes better with longer or stacked units.
+  examples:
+    - text: He was going at [50 miles an hour].
+      from: entry
+    - text: It costs [$20 a yard].
+      from: entry
+    - text: The nurse checked it [twice a day].
+      from: entry
+  try: How would you say what a bicycle costs for each hour you rent it, using a and an hour or a day?
+teacher:
+  summary: Covers rates like fifty miles an hour, where a or an plus a unit expresses a ratio.
+  explain: 'The pattern pairs a quantity or frequency expression with a noun phrase made of a or an and a singular unit noun. It expresses a ratio: a numerator over a unit denominator. Fifty miles an hour gives a speed even if the motion lasts only a minute, whereas fifty miles every hour can assert successive hourly totals. The same form supports price, salary and frequency. The second noun phrase is interpreted as a unit denominator, and the construction describes a rate without asserting one complete occurrence of that unit. A per-phrase can often express the same ratio and is more flexible with stacked or complex denominators.'
+  terms: Sometimes called a distributive use of a/an. The a/an here is the indefinite article in traditional terms, a determinative in CGEL terms.
+  examples:
+    - text: He was going at [50 miles an hour].
+      from: entry
+    - text: It costs [$20 a yard].
+      from: entry
+    - text: The nurse checked it [twice a day].
+      from: entry
+  contrasts:
+    - text: He was going at 50 miles an hour.
+      from: entry
+      note: A rate, whatever the length of the trip.
+    - text: He drove 50 miles every hour.
+      from: constructed
+      note: Can assert successive hourly totals.
+  watch_for:
+    - A learner might read an hour in fifty miles an hour as one particular hour.
+    - A learner might assume the trip must last a whole hour for fifty miles an hour to be true.
+  activity: Students collect rates from signs, menus and timetables (price a kilo, trains an hour). They say each aloud with a or an, then restate it with per.
+child:
+  hook: How fast does a car go in "fifty miles an hour"?
+  explain: Sometimes a means "for each." Fifty miles an hour means fifty miles for each hour. A yard of ribbon at $20 a yard costs $20 for each yard.
+  examples:
+    - text: The car went [50 miles an hour].
+      from: constructed
+    - text: It costs [$20 a yard].
+      from: entry
+    - text: The nurse checked it [twice a day].
+      from: entry
+  play: Find prices and speeds on signs or packages. Say each one with a or an, such as three dollars a bag. Then say what it means with for each.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

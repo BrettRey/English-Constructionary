@@ -1,0 +1,44 @@
+id: constituent-not-negation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying not about one part of a sentence
+  summary: Not can deny one part of a sentence, such as a description or a time, instead of the whole action.
+  body: |-
+    In That is not a solution, not denies what is said about that: it isn't a solution. In She is not in the box, it denies a place. The description or relation is what gets negated.
+
+    Not can also target one part while the rest stays asserted. In Lee came not on Tuesday but on Wednesday, the coming still happened. Only the time is corrected. Jo ordered tea, not coffee targets just the drink, unlike Jo didn't order coffee.
+  examples:
+    - text: That is [not] a solution.
+      from: entry
+    - text: She is [not] in the box.
+      from: entry
+    - text: Lee came [not on Tuesday] but on Wednesday.
+      from: constructed
+  try: Say Jo ordered tea, not coffee. What does not apply to? Compare Jo didn't order coffee.
+teacher:
+  summary: Helps students see not as negating a particular part of a clause, and tell it apart from negation attached to the auxiliary.
+  explain: 'In constituent negation, not negates a non-verbal predicate or constituent within a clause. This dictionary’s examples have a predicative NP, AdjP or PP in a copular or similar frame (That is not a solution, She is not in the box), where not negates the property or relation the phrase expresses. Not can also have local scope inside coordinates: in Lee came not on Tuesday but on Wednesday, the correction replaces a time expression and the coming remains asserted. This differs from primary finite negation, as in Jo didn''t order coffee, where the negation goes with the finite auxiliary.'
+  terms: 'Constituent negation: negation of one part of a clause. Primary (finite) negation: negation attached to the finite auxiliary, as in didn''t.'
+  examples:
+    - text: That is [not] a solution.
+      from: entry
+    - text: She is [not] in the box.
+      from: entry
+  contrasts:
+    - text: Jo ordered tea, not coffee.
+      from: constructed
+      note: Not targets one constituent.
+    - text: Jo didn't order coffee.
+      from: constructed
+      note: Negation goes with the finite auxiliary.
+  watch_for:
+    - A learner might read Lee came not on Tuesday but on Wednesday as saying Lee didn't come, when the coming remains asserted.
+    - A learner might treat not before a predicative phrase and not with the auxiliary as the same thing.
+  activity: Give students pairs like Jo ordered tea, not coffee and Jo didn't order coffee. They say what is denied in each and what is still asserted.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

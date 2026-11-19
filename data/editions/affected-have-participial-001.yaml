@@ -1,0 +1,41 @@
+id: affected-have-participial-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Having something done
+  summary: Have plus a noun phrase and a past-participle word presents an outcome as arranged by, or happening to, the subject.
+  body: |-
+    In We had the roof replaced in June, the roof is understood as the thing that got replaced, and we are the ones who arranged it. The same pattern can describe something unwanted that happened to the subject: Maya had her bag stolen on the train.
+
+    So the subject can be an arranger, but it can also be the person affected. The noun phrase after have (the roof, her bag) is understood as the thing the action affected.
+  examples:
+    - text: We [had the roof replaced] in June.
+      from: entry
+    - text: Maya [had her bag stolen] on the train.
+      from: constructed
+  try: Say We had the roof replaced. Then say Maya had her bag stolen. In which one did the subject arrange it?
+teacher:
+  summary: Shows have plus an NP plus a past participle, which can mean arranged or experienced.
+  explain: The pattern is have plus an NP plus a past-participial predicate (had the roof replaced). It presents an outcome as arranged by or affecting the subject. The subject can be an arranger, as in the roof example, but had her bag stolen can describe an unwanted event she experienced. The NP after have is understood as the affected participant of the participial. This dictionary treats the pattern as a specialization of the verb phrase and relates it to the be-passive. It is marked provisional.
+  examples:
+    - text: We [had the roof replaced] in June.
+      from: entry
+    - text: Maya [had her bag stolen] on the train.
+      from: constructed
+  contrasts:
+    - text: We had the roof replaced in June.
+      from: entry
+      note: The subject arranged the outcome.
+    - text: Maya had her bag stolen on the train.
+      from: constructed
+      note: The subject experienced an unwanted event.
+  watch_for:
+    - A learner might read had her bag stolen as meaning she arranged the theft, when it can describe an unwanted event.
+    - A learner might take the roof in had the roof replaced as the thing that does the replacing, when it is the affected participant.
+  activity: Give students short sentences with have plus an NP plus a participle. They mark each as arranged or experienced and underline the affected noun phrase.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

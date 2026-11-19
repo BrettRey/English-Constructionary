@@ -1,0 +1,42 @@
+id: content-container-alternation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Describing the place instead of the crowd
+  summary: A busy scene can be described through the things doing the activity or through the place where it happens.
+  body: |-
+    You can report the same scene in two ways. One starts with what is doing the activity: Bees swarmed in the courtyard. The other starts with the place: The courtyard swarmed with bees. In the second, the courtyard is the subject of the sentence, and the bees come in a phrase beginning with.
+
+    The second way presents the scene as a state of the place, rather than as something the bees are doing. This dictionary treats that analysis as provisional. It also notes that only suitable verbs allow the place-first form, so it can't be assumed to work wherever the other does.
+  examples:
+    - text: '[The courtyard swarmed with bees].'
+      from: entry
+    - text: Bees swarmed in the courtyard.
+      from: constructed
+  try: Take a sentence that says what something is doing in a place. Can you turn it round so the place comes first and the sentence says what the place is full of?
+teacher:
+  summary: Helps explain why a place can be the subject of a verb of activity, as in The courtyard swarmed with bees.
+  explain: 'The pattern pairs two ways of presenting one scene. In one, the content (the things performing the activity) is subject and the place is in a locative PP: Bees swarmed in the courtyard. In the other, the place is subject and the content is in a with-PP: The courtyard swarmed with bees. In the second, the courtyard is the subject and bees is the with-complement, even though the bees perform the activity. The place-subject form is restricted to suitable verbs and does not follow from general PP inversion. This dictionary marks the analysis as provisional.'
+  terms: This dictionary's name for the pattern is content and container subject alternation.
+  examples:
+    - text: '[The courtyard swarmed with bees].'
+      from: entry
+    - text: Bees swarmed in the courtyard.
+      from: constructed
+  contrasts:
+    - text: The courtyard swarmed with bees.
+      from: entry
+      note: Place as subject, content in a with-phrase.
+    - text: Bees swarmed in the courtyard.
+      from: constructed
+      note: Content as subject, place in an in-phrase.
+  watch_for:
+    - A learner might take bees to be the subject of The courtyard swarmed with bees because the bees do the swarming.
+    - A learner might assume the place-subject form is available with any verb that allows the content-subject form.
+  activity: Give students pictures of busy scenes (a market, a pond, a playground). They write one sentence with the crowd as subject and one with the place as subject, then compare which verbs let them do both.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

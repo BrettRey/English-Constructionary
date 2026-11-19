@@ -1,0 +1,44 @@
+id: all-of-magnitude-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: All of before a number
+  summary: Putting all of before a stated amount draws attention to that amount, as if it were noteworthy.
+  body: |-
+    In They had recruited all of fifty volunteers, the number is the point. The phrase asks us to notice the amount, compared with what we expected. The direction of that comparison is left open in this dictionary.
+
+    A word like about can still make the number inexact, as in all of about five minutes. This isn't the same as all of the fifty volunteers, which talks about a group that has already been identified, and covers all of them.
+  examples:
+    - text: They had recruited [all of fifty] volunteers.
+      from: entry
+    - text: '[all of about five minutes]'
+      from: entry
+    - text: '[all of about ten minutes]'
+      from: entry
+  try: Compare all of fifty volunteers with all of the fifty volunteers. Which one talks about a group we already know?
+teacher:
+  summary: For advanced classes, all of before a numeral, which highlights a magnitude, versus all of the plus a known group.
+  explain: 'The pattern is all of plus an optional approximator plus a numeral expression, with no definite article after of. The numeral gives the measured or counted magnitude, and a distinct approximator such as about can still make it inexact. The effect is to call attention to the stated magnitude relative to an expectation. This dictionary says the direction of the evaluation remains open and could be tested by varying the expectation while holding the magnitude fixed. All of the fifty volunteers is different: it quantifies over a separately identified group. This dictionary rates its own confidence low.'
+  terms: This dictionary treats the numeral as supplying the magnitude independently of the all of expression.
+  examples:
+    - text: They had recruited [all of fifty] volunteers.
+      from: entry
+    - text: '[all of about five minutes]'
+      from: entry
+  contrasts:
+    - text: They had recruited all of fifty volunteers.
+      from: entry
+      note: A magnitude, with no article after of.
+    - text: They had recruited all of the fifty volunteers.
+      from: constructed
+      note: A separately identified group.
+  watch_for:
+    - A learner might read all of fifty volunteers as all of an already identified group, when the numeral gives the magnitude.
+    - A learner might think about is incompatible with all of before a number, when all of about five minutes appears in this dictionary’s examples.
+  activity: Students write two sentences, one with all of plus a number and one with all of the plus a number and a group. They then say what each one is about, the amount or the group.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

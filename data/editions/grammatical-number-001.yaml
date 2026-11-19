@@ -1,0 +1,55 @@
+id: grammatical-number-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: One or more than one
+  summary: Nouns like cat change form to show one thing or more than one, and words nearby change to match.
+  body: |-
+    Cat and cats show one against more than one, and this and these do the same for the word pointing at it. The verb can follow along too.
+
+    The pattern is about more than counting. Rice and rices show that a word can be treated as something you can count or as an amount you can't, and the choice shows up in the grammar. Some words sit in between: many cattle is fine, while three cattle isn't. In three hours is enough, a plural measure takes a singular verb, so the grammar doesn't just tally the units.
+  examples:
+    - text: '[cat]/[cats]'
+      from: entry
+    - text: '[this]/[these]'
+      from: entry
+    - text: '[rice]/[rices]'
+      from: entry
+  try: Say There's a cat in the garden and then change cat to cats. What else in the sentence has to change?
+teacher:
+  summary: Covers singular and plural marking, agreement, and the count/non-count boundary, including odd cases like cattle and three hours is enough.
+  explain: 'Grammatical number covers singular and plural morphology on nouns and agreement on demonstrative determinatives, verbs and pronouns. It also reflects whether a referent is construed as countable: rice against rices shows non-count against count construal. This dictionary ranks count diagnostics: the tight ones (a/an, low cardinals, distributives) need more individuation precision than the loose ones (many, high round numerals, plural agreement). Quasi-count nouns show the ranking, as in many cattle against three cattle. Amount agreement is a further override: three hours is enough has a plural measure with singular agreement, so agreement doesn''t follow directly from the number of units. This dictionary marks this analysis as provisional.'
+  terms: Demonstrative determinatives are this/these and that/those. Non-count is the CGEL term (traditionally mass). Cattle, police and furniture are listed as boundary items.
+  examples:
+    - text: '[cat]/[cats]'
+      from: entry
+    - text: '[this]/[these]'
+      from: entry
+    - text: '[rice]/[rices]'
+      from: entry
+    - text: '[Three hours] is enough.'
+      from: constructed
+  contrasts:
+    - text: three cattle
+      from: entry
+      acceptable: false
+      note: Quasi-count pattern; compare many cattle.
+  watch_for:
+    - A learner might take plural form to guarantee plural agreement, as in three hours is enough.
+    - A learner might assume a noun that works with the loose diagnostics also works with low cardinals, as with cattle.
+  activity: Give students cards with nouns (cat, rice, cattle, furniture, hours). They test each with a/an, three, many and a verb, record what works, and sort the nouns into groups.
+child:
+  hook: How can you tell one cat from more than one cat?
+  explain: Nouns like cat change when there's more than one. One cat becomes two cats. Words nearby can change too, like this cat and these cats.
+  examples:
+    - text: '[cat]/[cats]'
+      from: entry
+    - text: '[this] cat, [these] cats'
+      from: constructed
+  play: Pick five things in the room and say each as one and as more than one. Then say this or these in front of each.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

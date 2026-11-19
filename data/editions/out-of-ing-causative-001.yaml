@@ -1,0 +1,44 @@
+id: out-of-ing-causative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Talked out of doing something
+  summary: In They talked Lee out of leaving, the person after the verb is steered away from an action.
+  body: |-
+    In They talked Lee out of leaving, Lee is the person who would have left, and the talking is aimed at stopping that. The person after the verb is understood as the doer of the action in the -ing phrase.
+
+    This dictionary describes the meaning as causing someone to abandon an action or preventing them from carrying it out. Other uses involve stopping an ongoing course of action, or losing an opportunity through deception, as in I cheated you all out of being in my life. A report of trying to talk someone out of something doesn't say that it worked.
+  examples:
+    - text: They [talked Lee out of leaving].
+      from: entry
+    - text: I [cheated you all out of being in my life].
+      from: entry
+    - text: They tried to [talk Lee out of leaving].
+      from: constructed
+  try: Say They talked Lee out of leaving. Did Lee leave? Now say They tried to talk Lee out of leaving. What do you know now?
+teacher:
+  summary: Explains verb + object + out of + -ing phrase, where the object is the understood doer of the -ing action.
+  explain: The pattern is a verb, a direct object, and a PP complement headed by out of whose complement is a gerund-participial clause. The object supplies the understood subject of that clause. The meaning is that the object referent is caused to abandon an action, or is prevented from carrying it out. Uses include a prospective action (talked Lee out of leaving), stopping an ongoing course of action, and losing an opportunity through deception (cheated you all out of being in my life). A report of trying, intending or planning to bring this about doesn't assert that the prevention occurred. This dictionary marks the analysis as provisional.
+  terms: Gerund-participial is this dictionary's term for the -ing clause. Traditional grammar might call it a gerund phrase.
+  examples:
+    - text: They [talked Lee out of leaving].
+      from: entry
+    - text: I [cheated you all out of being in my life].
+      from: entry
+  contrasts:
+    - text: They talked Lee out of leaving.
+      from: entry
+      note: Lee is the understood subject of leaving.
+    - text: They tried to talk Lee out of leaving.
+      from: constructed
+      note: A report of trying doesn't assert the prevention occurred.
+  watch_for:
+    - A learner might conclude from tried to talk Lee out of leaving that Lee stayed, when the sentence doesn't assert it.
+    - A learner might read out of as spatial, as in a literal movement out of a place, when here it introduces an action that's abandoned or prevented.
+  activity: Students write sentences with talked someone out of plus an -ing phrase. They then rewrite each with tried to, and discuss what each version tells the reader about whether the action took place.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

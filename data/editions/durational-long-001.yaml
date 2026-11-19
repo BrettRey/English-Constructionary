@@ -1,0 +1,47 @@
+id: durational-long-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Asking or denying "long" after a verb
+  summary: Plain long after a verb works in a question, a negative or an if-clause to describe a potentially long time.
+  body: |-
+    They didn't stay long and Did you wait long? both use long to talk about how much time passed. The word fits in a question such as Will they stay long?, and in a negative. This dictionary says a conditional can license it too.
+
+    This dictionary says the plain affirmative They stayed long is markedly less natural for many speakers. Adding a modifier changes things, as in They stayed too long. Linguists analyse the word differently, so this dictionary leaves its category open.
+  examples:
+    - text: Did you [wait long]?
+      from: entry
+    - text: They didn't [stay long].
+      from: entry
+    - text: Will they [stay long]?
+      from: constructed
+    - text: They stayed [too long].
+      from: constructed
+  try: Say a sentence with long after a verb in a question and one in a negative. Then try an if-clause.
+teacher:
+  summary: Helps explain how postverbal durational long fits question, negative and conditional frames.
+  explain: 'Postverbal long describes a potentially long duration, typically in a non-affirmative frame: a negative (They didn''t stay long), a polar question (Did you wait long?) or a conditional antecedent. This dictionary says the ordinary affirmative They stayed long is markedly less natural for many speakers. Modified forms can behave differently, as in They stayed too long. A separate use before the main verb is possible in affirmative They have long known. The category analysis varies across sources: CGEL gives reasons for an adverb, and the Constructicon draft proposes an NP analysis for the postverbal use.'
+  terms: Duration adverbial; non-affirmative (or polarity-sensitive) contexts.
+  examples:
+    - text: Did you [wait long]?
+      from: entry
+    - text: They didn't [stay long].
+      from: entry
+    - text: Will they [stay long]?
+      from: constructed
+  contrasts:
+    - text: They stayed [too long].
+      from: constructed
+      note: A modified form, which can behave differently from plain long.
+    - text: They have long known.
+      from: constructed
+      note: A separate use before the main verb.
+  watch_for:
+    - A learner might assume that the question and negative frames carry over to every affirmative sentence with long, though this dictionary describes the plain affirmative as markedly less natural.
+  activity: Students sort sentences with long into question, negative, conditional and affirmative frames, and discuss which affirmative versions are natural.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

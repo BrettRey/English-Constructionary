@@ -1,0 +1,44 @@
+id: subject-determiner-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A genitive that acts like a subject
+  summary: Sometimes the word with 's before a noun tells you who did the action the noun names, not who owns something.
+  body: |-
+    In the committee's approval of the plan, the committee is the one who approved. The noun approval names an action, and the committee plays the part a subject would play in the matching sentence, the committee approved the plan.
+
+    Compare the committee's photograph. There the link can be ownership or some other relation. So the 's form alone doesn't tell you the committee is the doer; it depends on the noun.
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[Brett''s use] of the microphone'
+      from: entry
+    - text: '[the committee''s approval] of the plan'
+      from: entry
+  try: Turn the committee's approval of the plan into a sentence with a verb. Who is the subject? Now do the same with the committee's photograph. What changes?
+teacher:
+  summary: Explains genitives that match a verb's subject, as in the committee's approval, against ordinary genitives that show ownership.
+  explain: The pattern is a genitive NP in determiner function whose relation to the head noun resembles that of a subject. In Brett's use of the microphone and the committee's approval of the plan, the genitive corresponds to the notional subject of the event noun's verb, an agent or experiencer. This is not mere possession. In the committee's photograph, an ownership or other relation remains possible, so genitive position alone does not license an agent interpretation. The distinction is argument-realizing versus the wider range of ordinary genitive relations. This dictionary marks the analysis as provisional.
+  terms: 'Sometimes called a subjective genitive. CGEL: genitive NP in determiner function. Avoid possessive as a label, since ownership is only one possible relation.'
+  examples:
+    - text: '[Brett''s use] of the microphone'
+      from: entry
+    - text: '[the committee''s approval] of the plan'
+      from: entry
+  contrasts:
+    - text: the committee's approval of the plan
+      from: entry
+      note: The committee maps to the subject of approved the plan.
+    - text: the committee's photograph
+      from: constructed
+      note: Ownership or another relation remains possible.
+  watch_for:
+    - A learner might read every genitive as showing ownership.
+    - A learner might take the genitive in the committee's approval as the thing approved instead of the one who approved.
+  activity: Give students noun phrases with a genitive and a noun such as approval, arrival or photograph. They try to turn each into a sentence with a verb and decide whether the genitive becomes the subject.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

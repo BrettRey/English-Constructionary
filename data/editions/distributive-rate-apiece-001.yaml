@@ -1,0 +1,52 @@
+id: distributive-rate-apiece-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Prices and amounts per item
+  summary: Words like apiece and each after an amount say the amount applies to every item or person in a group.
+  body: |-
+    In The tickets cost six dollars apiece, six dollars is the price of one ticket, not the price of all of them together. Apiece gives the amount to each ticket in the group.
+
+    The group isn't named in the amount phrase itself. The context supplies it, here the tickets. Each can do the same job.
+  examples:
+  - text: The tickets cost [six dollars apiece].
+    from: entry
+  - text: The pens cost [two dollars each].
+    from: constructed
+  try: Say the price of three things you know, using each or apiece after the amount.
+teacher:
+  summary: Helps explain apiece and each after an amount as a rate assigned to each member of a group.
+  explain: A measure or counted NP followed by each or apiece assigns the stated amount to each unit or participant, with the group supplied by context. In The tickets cost six dollars apiece, six dollars is the rate per ticket. The pattern is related to indefinite rates and to floating distributives.
+  terms: This dictionary labels the pattern a distributive rate.
+  examples:
+  - text: The tickets cost [six dollars apiece].
+    from: entry
+  - text: The pens cost [two dollars each].
+    from: constructed
+  contrasts:
+  - text: The tickets cost [six dollars apiece].
+    from: entry
+    note: The amount applies to each ticket.
+  - text: The tickets cost six dollars altogether.
+    from: constructed
+    note: A total for the group, for contrast.
+  watch_for:
+  - A learner might read six dollars apiece as the total for all the tickets.
+  - A learner might look for the group in the amount phrase, when context supplies it.
+  activity: Students write price tags for a class shop using each or apiece, then a partner states the total for three items.
+child:
+  hook: If pens are two dollars each, how much is one pen?
+  explain: Each and apiece tell the price of one thing. The tickets cost six dollars apiece means one ticket costs six dollars. The talk around it tells you which things.
+  examples:
+  - text: The tickets cost [six dollars apiece].
+    from: entry
+  - text: The pens cost [two dollars each].
+    from: constructed
+  play: Set up a pretend shop. Give each thing a price using each or apiece. Then tell a friend what three of them would cost.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.explain no longer implies the group comes from an earlier sentence (the group can be named in the same sentence); cut the description of floating distributives, which the entry does not give.'

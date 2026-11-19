@@ -1,0 +1,43 @@
+id: absolute-supplement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A circumstance with its own subject
+  summary: A phrase added to a sentence can have a subject of its own and describe the circumstances of the main action.
+  body: |-
+    In Her hands shaking, Mia set the glass down, the added phrase has its own subject, her hands, and its own predicate, shaking. It tells us the circumstances in which Mia set the glass down.
+
+    The added phrase doesn't need a verb. Her keys in her coat pocket, Mia left the house works the same way. How the circumstance relates to the main action depends on context: it can happen at the same time, explain why, or be part of a sequence of events. On this dictionary's analysis, taking the subject away changes the ordinary reading: we would no longer understand it to be her hands that are shaking.
+  examples:
+    - text: '[Her hands shaking], Mia set the glass down.'
+      from: entry
+    - text: '[Her keys in her coat pocket], Mia left the house.'
+      from: entry
+  try: Add a short phrase of your own to the start of a sentence, giving it its own subject. Does it happen at the same time as the main action, explain it, or form a sequence with it?
+teacher:
+  summary: For advanced classes, a supplement with its own subject, as in Her hands shaking, Mia set the glass down.
+  explain: An absolute supplement is added to a clause and has a subject of its own, followed by a non-finite VP or a verbless predicate. In Her hands shaking, her hands is the subject of shaking. In Her keys in her coat pocket the predicate is verbless. Context decides whether the circumstance is simultaneous, explanatory or sequential. Removing the overt subject changes who is understood to be shaking in the ordinary reading, so an absolute supplement should be kept apart from a supplement with no subject of its own. This dictionary marks the analysis as provisional.
+  terms: CGEL distinguishes absolute clauses from subjectless supplements, and describes verbless counterparts. This dictionary treats the pattern as a construction with a subject and a predicate of its own.
+  examples:
+    - text: '[Her hands shaking], Mia set the glass down.'
+      from: entry
+    - text: '[Her keys in her coat pocket], Mia left the house.'
+      from: entry
+  contrasts:
+    - text: Her hands shaking, Mia set the glass down.
+      from: entry
+      note: The supplement has its own subject.
+    - text: Shaking, Mia set the glass down.
+      from: constructed
+      note: No overt subject, so the understood subject of shaking changes.
+  watch_for:
+    - A learner might take her hands in Her hands shaking as a part of the main clause, when it is the subject of shaking.
+    - A learner might assume the supplement has to name a reason, when context can also make it simultaneous or sequential.
+  activity: Give students pairs such as a main clause and a circumstance. They add an overt subject to the circumstance, put it first, and say whether it reads as simultaneous, explanatory or sequential.
+checked:
+  date: '2026-11-19'
+  model: claude-opus-5-5 (resolving glm-5.3 flags)
+  result: fixed
+  note: 'Fixed: curious.body hedged the subject-removal claim as this dictionary''s analysis (the entry''s kind is provisional); curious.body ''come first'' replaced by ''be part of a sequence of events'' (the entry says only ''sequential''); curious.try dropped ''how'' (manner is not among the entry''s relations) and now names the entry''s three relations. Also fixed (unflagged): teacher ''The entry''/''This entry'' changed to ''This dictionary''. Dismissed: none.'

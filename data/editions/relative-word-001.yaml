@@ -1,0 +1,46 @@
+id: relative-word-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Question words that link a description to a noun
+  summary: Words like who, which and where can tie a description to the noun it describes.
+  body: |-
+    In the woman who called, the word who links the description called to the woman. The same family of words, which also asks questions, does this job: who, whom, whose, which, where, when and why. Not all of them fit every slot. Why, for instance, is limited: the reason why she left works.
+
+    Related words, such as whatever, work in a different way. In I'll take whatever you're offering, the whole phrase whatever you're offering names the thing taken, with no separate noun before it. The details of this analysis are marked provisional in this dictionary.
+  examples:
+    - text: the woman [who] called
+      from: entry
+    - text: the reason [why] she left
+      from: entry
+    - text: I'll take [whatever] you're offering.
+      from: entry
+  try: Finish the phrase the person who ... in three different ways. Then try the place where ... and the time when ...
+teacher:
+  summary: Helps explain how question words work as relative words, and which ones are excluded from ordinary relatives.
+  explain: 'A restricted subset of the question-word series (who, whom, whose, which, where, when, why) works as relative words, with the open variable bound by the head noun (integrated relatives). Fused relatives, which supply their own head, use what, how and the -ever series (what she saw, whatever you choose). Membership differs from the question use: what and how are excluded from integrated relatives, and why is limited (as in the reason why). Following CGEL, relative that isn''t treated as part of this series. A relative can also front a larger phrase, as in the writer whose essay won. This dictionary marks the analysis as provisional.'
+  terms: In these relative uses, who, whom, whose and which are sometimes called relative pronouns, and where, when and why relative adverbs. In this dictionary they are the relative use of the indeterminate series. Fused relatives are sometimes called nominal or free relatives.
+  examples:
+    - text: the woman [who] called
+      from: entry
+    - text: the reason [why] she left
+      from: entry
+    - text: I'll take [whatever] you're offering.
+      from: entry
+    - text: the writer [whose essay] won
+      from: constructed
+  contrasts:
+    - text: the thing what he said
+      from: entry
+      acceptable: false
+      note: Excluded in standard English, according to this dictionary.
+  watch_for:
+    - A learner might carry the question uses of what and how over into integrated relatives.
+    - A learner might treat that in the woman that called as the same kind of word as who.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.body no longer says the relative word builds a noun phrase by itself or stands in for the thing offered (in the fused relative the whole expression supplies the head); teacher.explain no longer says why is limited to the reason why, only that it is limited, with that as the example. Second round: fixed teacher.explain, which assigned fused relatives to the seven listed words; it now ties those words to integrated relatives and what, how and the -ever series to fused relatives, as this dictionary does. Teacher.terms now applies the traditional labels to the relative uses only. Also fixed (unflagged): curious.body said whatever was one of the listed words, and said only some of them fit every slot; it now calls whatever a related word and says not all of them fit every slot.'

@@ -1,0 +1,52 @@
+id: np-indef-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Phrases that bring in something new
+  summary: Phrases like a dog or some students bring something into the conversation without assuming the listener already knows which one.
+  body: |-
+    In A dog barked, the phrase a dog brings in a dog without saying which one. The speaker may know exactly which dog it was, but the sentence leaves it unstated. Some students passed works the same way for a part of a group.
+
+    The same small word can also sort things into a type instead of pointing to something. In She is a teacher, a teacher tells us what she is. And There was a spare key in the box introduces a key that nobody has mentioned yet.
+  examples:
+    - text: '[A dog] barked.'
+      from: entry
+    - text: '[Some students] passed.'
+      from: entry
+    - text: She is [a teacher].
+      from: entry
+    - text: There's [a dog] in the yard.
+      from: entry
+  try: Say A dog barked and then The dog barked. When would you pick each one?
+teacher:
+  summary: Shows indefinite NPs introducing new referents, classifying, or describing a role, and how they contrast with definite NPs.
+  explain: 'An indefinite NP consists of an indefinite determiner (a, an, some) with a nominal, or an existential quantifier with a nominal, or a bare plural or non-count nominal. The dictionary lists readings: a non-identifiable instance (A dog barked), a partial set (Some students passed), a role instance or classification (She became a manager), a subkind (That is a type of fish), a characteristic property, existence (There''s a dog in the yard) and a taxonomic type. Even in A dog barked the speaker can have a specific dog in mind. In She is a teacher, the same article heads a classification with no separate referent. Definiteness effects in existentials depend on information status as well as nominal marking. The dictionary marks this account as provisional.'
+  terms: A and an are determinatives, often called the indefinite article. Existential there is the there in There's a dog in the yard.
+  examples:
+    - text: '[A dog] barked.'
+      from: entry
+    - text: '[Some students] passed.'
+      from: entry
+    - text: She became [a manager].
+      from: entry
+    - text: There's [a dog] in the yard.
+      from: entry
+    - text: That counts as [a sport].
+      from: entry
+  contrasts:
+    - text: '[A dog] barked.'
+      from: entry
+      note: Non-identifiable; introduces a dog.
+    - text: '[The dog] barked.'
+      from: constructed
+      note: Definite; the dog is identifiable.
+  watch_for:
+    - A learner might think a means the speaker has no particular dog in mind.
+    - A learner might read a teacher in She is a teacher as naming a separate person.
+  activity: Give students a short story opening. They underline each indefinite NP and mark whether it introduces something new or classifies someone.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,51 @@
+id: how-come-explanation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: How come
+  summary: How come asks for an explanation of something that seems to be the case.
+  body: |-
+    How come the gate is open? asks why the gate is open. It treats the open gate as a fact that needs explaining.
+
+    The pattern differs from an ordinary why question. Why is the gate open? puts the verb before the subject. How come keeps the subject first: how come the gate is open.
+  examples:
+    - text: '[How come the gate is open?]'
+      from: entry
+    - text: Why is the gate open?
+      from: entry
+  try: Ask the same question with Why and with How come. Which word order does each one use?
+teacher:
+  summary: Shows learners how come as a way to ask for an explanation, with different word order from why.
+  explain: 'How come plus a subject and finite predicate asks for an explanation of an actual or apparently actual state of affairs: How come the gate is open? An ordinary why question allows Why is the gate open?, with the verb before the subject. How come normally keeps subject-before-auxiliary order in the corresponding main-clause question. This dictionary relates it to open interrogative clauses and marks the analysis as provisional.'
+  terms: Open interrogative is this dictionary’s term for questions with a question word, traditionally wh-questions.
+  examples:
+    - text: '[How come the gate is open?]'
+      from: entry
+    - text: Why is the gate open?
+      from: entry
+  contrasts:
+    - text: Why is the gate open?
+      from: entry
+      note: Verb before subject.
+    - text: How come the gate is open?
+      from: entry
+      note: Subject first.
+  watch_for:
+    - A learner might read How come as asking in what way something happened.
+    - A learner might put the verb first after how come, as after why.
+  activity: Give students a set of observed situations (a light on, a late bus). They ask each with Why and with How come, and mark where the subject sits.
+child:
+  hook: What is another way to ask why?
+  explain: How come can ask why. How come the gate is open? means the same as asking why it is open. How come starts the question, then the gate comes next.
+  examples:
+    - text: '[How come the gate is open?]'
+      from: entry
+    - text: Why is the gate open?
+      from: entry
+  play: Ask a friend about something odd you see with How come. Then ask with Why and notice which words move.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

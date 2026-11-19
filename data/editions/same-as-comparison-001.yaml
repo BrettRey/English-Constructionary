@@ -1,0 +1,44 @@
+id: same-as-comparison-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Being the same as something else
+  summary: The same followed by as compares two things and says they match.
+  body: |-
+    In We chose the same model as Lee, the phrase after as is the standard we compare with. The two choices are the same model, but we needn't have bought one and the same physical object. It means the kind matches.
+
+    So the same can point to a shared kind of thing or to a single shared thing. The word as introduces what we compare against. This dictionary marks the analysis as provisional.
+  examples:
+    - text: We chose [the same model as Lee].
+      from: entry
+    - text: She ordered [the same soup as Ravi].
+      from: constructed
+  try: Say what you have in common with a friend using the same ... as.
+teacher:
+  summary: Helps explain the same + noun + as for identity of referent or of type.
+  explain: The same plus a noun, followed by an as-phrase, compares items for identity of referent or identity of relevant type. In We chose the same model as Lee, the same model can identify a shared model without asserting that we bought one and the same physical object. As supplies the standard of comparison. This dictionary relates the pattern to the equative as ... as construction, and marks the analysis as provisional.
+  terms: Related in this dictionary to the equative as ... as comparison.
+  examples:
+    - text: We chose [the same model as Lee].
+      from: entry
+    - text: She ordered [the same soup as Ravi].
+      from: constructed
+  watch_for:
+    - A learner might read the same model as meaning one single physical object, when it can mean the same type.
+    - A learner might leave out as before the standard of comparison.
+  activity: Students write sentences about what they share with a partner (the same colour, the same bus) using the same ... as. Then they decide whether each shows one shared object or a shared type.
+child:
+  hook: How can two people have the same lunch?
+  explain: The same ... as tells you two things match. We chose the same model as Lee. We each chose that kind, so they match.
+  examples:
+    - text: We chose [the same model as Lee].
+      from: entry
+    - text: She ordered [the same soup as Ravi].
+      from: constructed
+  play: Look at a friend's bag, shoes or lunch. Say what's the same using the same ... as.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

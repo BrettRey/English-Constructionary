@@ -1,0 +1,55 @@
+id: magnitude-quantifier-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Hundreds of, thousands of, millions of
+  summary: A plural word for a large size, followed by of, gives a rough, large amount without saying exactly how many.
+  body: |-
+    In hundreds of people, the word hundreds doesn't give an exact count. It gives a rough, large amount, and the speaker is emphasizing scale. The same pattern appears in millions of stars, and it can be stacked, as in tens of thousands of dollars.
+
+    These are plural words followed by of and a noun phrase. Hundreds of people doesn't say how many groups of a hundred there were. That makes it different from an exact phrase such as two of the cats, which picks a smaller group out of a group already known. A related use with dozens is treated separately in this dictionary.
+  examples:
+    - text: '[hundreds of people]'
+      from: entry
+    - text: '[tens of thousands of dollars]'
+      from: entry
+    - text: '[millions of stars]'
+      from: entry
+  try: Say hundreds of people and then two of the people. Which one tells you how many, and which picks some out of a known group?
+teacher:
+  summary: Helps explain hundreds of, thousands of and millions of as rough quantifiers, and why they differ from exact numbers.
+  explain: A plural magnitude noun (hundreds, thousands, millions) plus of and an NP quantifies an approximate large number. In hundreds of people, hundreds isn't a count of hundreds. It gives a rough scale without fixing how many groups of a hundred there were, and it can be nested (tens of thousands of dollars). The of-complement can be indefinite, unlike a true partitive such as two of the cats, which selects a subset from an established group. A word like dozens has a related quantified use but sits outside the core magnitude class. Mention that exact two of the enquiries is a different pattern.
+  terms: Sometimes called an indefinite numeral, or a large-number noun. In this dictionary, a magnitude noun heads a quantifier construction, and a partitive is a separate pattern.
+  examples:
+    - text: '[hundreds of people]'
+      from: entry
+    - text: '[tens of thousands of dollars]'
+      from: entry
+    - text: '[millions of stars]'
+      from: entry
+  contrasts:
+    - text: hundreds of enquiries
+      from: constructed
+      note: Approximate scale; the complement can be a bare plural.
+    - text: two of the enquiries
+      from: constructed
+      note: Exact, and selects a subset from an established group.
+  watch_for:
+    - A learner might read hundreds of people as exactly one hundred people, when it gives only an approximate scale.
+    - A learner might treat hundreds of as a true partitive like two of the cats, when the of-complement can be indefinite.
+  activity: Give students a list of quantity phrases, some with hundreds, thousands or millions of and some with exact numbers. They sort them into rough and exact, then explain what each tells the reader.
+child:
+  hook: How do you say a really big number when you don't know the exact one?
+  explain: Words like hundreds, thousands and millions can tell you roughly how many. We say hundreds of people when we mean a big crowd. It doesn't tell us the exact number.
+  examples:
+    - text: '[millions of stars]'
+      from: entry
+    - text: We saw [hundreds of people] at the fair.
+      from: constructed
+  play: Look at the night sky or a big crowd. Make up sentences that start with hundreds of, thousands of or millions of, and add a noun. Which one would you pick for a huge number?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,53 @@
+id: numerative-teen-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Thirteen to nineteen
+  summary: The numbers from thirteen to nineteen are built from a single-digit word plus -teen.
+  body: |-
+    Thirteen through nineteen are formed by adding -teen to a single-digit word. The -teen word has a value ten greater than the base it comes from, so thirteen is ten more than three.
+
+    The ending -ty works differently: the same base gives a different value, as thirteen and thirty show. The two endings also don't have the same distribution as words. Once built, a -teen word acts as one unit and can do the same jobs as a single-digit number.
+  examples:
+    - text: '[thirteen]'
+      from: entry
+    - text: '[nineteen]'
+      from: entry
+    - text: The class has [nineteen] students.
+      from: constructed
+  try: Say thirteen and thirty. What differs in the sound, and what differs in the amount?
+teacher:
+  summary: Explains the -teen numbers from thirteen to nineteen and how they differ from the -ty numbers.
+  explain: 'The regular teen numeratives are formed from a single-digit base plus -teen and specify cardinalities from thirteen to nineteen. They''re lexically atomic and have the same distribution as single-digit numeratives: determiner, factor and addition. The -teen form is ten greater than its base, while -ty gives a different value from the same base, as thirteen versus thirty shows. CGEL separates the teen and decade formations, and the two endings differ in lexical and prosodic distribution. Eleven and twelve are treated in a separate entry. This dictionary marks the analysis as provisional.'
+  terms: Teens is the traditional name for these numbers. This dictionary calls them teen numeratives and treats each as a single word.
+  examples:
+    - text: '[thirteen]'
+      from: entry
+    - text: '[nineteen]'
+      from: entry
+  contrasts:
+    - text: '[thirteen] books'
+      from: constructed
+      note: '-teen, ten greater than the base three.'
+    - text: '[thirty] books'
+      from: constructed
+      note: '-ty, a different value from the same base.'
+  watch_for:
+    - A learner might confuse thirteen and thirty, which have different values.
+    - A learner might treat thirteen as two separate words, when it works as one unit.
+  activity: Students pair -teen and -ty words (thirteen and thirty, for example) and say each in a short sentence about a quantity, noting how the endings differ in sound.
+child:
+  hook: What is the difference between thirteen and thirty?
+  explain: Thirteen ends in teen and is ten more than three. Thirty ends in ty and is a different amount. Both start from the same word.
+  examples:
+    - text: She has [thirteen] marbles.
+      from: constructed
+    - text: He has [thirty] marbles.
+      from: constructed
+  play: Say two number words that end in teen and two that end in ty. Can your friend hear the difference? Make a sentence with each.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

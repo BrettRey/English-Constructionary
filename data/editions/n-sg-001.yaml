@@ -1,0 +1,47 @@
+id: n-sg-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Singular nouns
+  summary: Singular is a form of a noun that selects singular agreement, and it's a matter of form, not of counting one.
+  body: |-
+    Cat and book are singular nouns. They go with a, as in a cat, and with singular verbs, as in The cat sleeps. They typically stand for a single unit.
+
+    Singular is a matter of form, not of meaning. Rice, in its substance sense, can go with a singular verb but doesn't take a. So a singular verb on its own doesn't show that a noun is a singular count noun. This dictionary treats morphological number, countability and verb agreement as separate things.
+  examples:
+    - text: '[cat]'
+      from: entry
+    - text: '[book]'
+      from: entry
+    - text: a [cat]
+      from: constructed
+    - text: The [cat] sleeps.
+      from: constructed
+  try: Pick a word for a thing and a word for stuff. Which one goes with a?
+teacher:
+  summary: Explains singular as a form category, with rice as a case where singular agreement does not mean singular count syntax.
+  explain: 'A singular noun has the singular number form: it selects singular agreement and singular-selecting determinatives, and typically construes its referent as a single unit. The category is morphosyntactic, not semantic. Cat combines with a and singular agreement, while rice can take singular agreement without permitting a in its substance use. Singular agreement by itself therefore doesn''t identify singular count syntax. This dictionary separates morphological number, countability and formal agreement, and lists the non-count noun and verb-number agreement as related patterns.'
+  terms: Singular is the traditional term. Singular count noun names the pattern with a.
+  examples:
+    - text: '[cat]'
+      from: entry
+    - text: '[book]'
+      from: entry
+  contrasts:
+    - text: a cat
+      from: constructed
+      note: A singular count noun with a.
+    - text: The rice is ready.
+      from: constructed
+      note: Singular agreement, but this is a non-count use that doesn't take a.
+  watch_for:
+    - A learner might assume that a singular verb shows that a noun is a singular count noun.
+    - A learner might assume singular nouns have to name exactly one unit, when the category is a form category.
+  activity: Students list singular count nouns (cat, book) and write a sentence with each, using a and a singular verb. They then try rice in its substance use and compare.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.activity no longer lists rice as a singular noun alongside cat and book (the entry gives rice as singular agreement without a); curious.summary no longer reads as a general test for singular form.'

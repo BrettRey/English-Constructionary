@@ -1,0 +1,59 @@
+id: caused-motion-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Making something move with a verb
+  summary: A verb can be followed by a thing and a place phrase, showing that someone caused the thing to move.
+  body: |-
+    In She sneezed the foam off the cappuccino, the sneeze makes the foam move. Sneeze doesn't have a sense with a moving thing and a path of its own, but the pattern supplies both.
+
+    Pat shoveled the hay into the wagon works the same way. The verb says how the causing happens, here shoveling, and the pattern adds the movement: someone makes something travel from a place, along a path, toward a direction or to a goal. The subject only has to be the source of the force. It doesn't have to act on purpose, as sneezing shows.
+  examples:
+    - text: He sneezed [his tooth] [right across town].
+      from: entry
+    - text: She sneezed [the foam] [off the cappuccino].
+      from: entry
+    - text: Pat shoveled [the hay] [into the wagon].
+      from: entry
+  try: Think of an action, like kicking or pushing. Can you say what it moved and where it went?
+teacher:
+  summary: Helps students see that some verbs get an object and a place phrase from the pattern itself, not from the verb alone.
+  explain: 'The pattern is a verb, a direct object noun phrase that is the moving theme, and a locative PP complement giving source, path, goal or direction. The subject causes the movement. The construction, not necessarily the verb, licenses the object and the PP: sneeze supplies the causing event, the frame supplies the caused motion. The PP is an object-oriented locative complement, not an adjunct, a predicative complement or a second object. The verb must be construable as the means or manner, and productivity is limited by semantic similarity.'
+  terms: 'Caused-motion construction is the constructional name for the pattern. CGEL: the PP is an object-oriented locative complement. Od is the direct object.'
+  examples:
+    - text: He sneezed [his tooth] [right across town].
+      from: entry
+    - text: She sneezed [the foam] [off the cappuccino].
+      from: entry
+    - text: Pat shoveled [the hay] [into the wagon].
+      from: entry
+  contrasts:
+    - text: Pat shoveled the hay into the wagon.
+      from: entry
+      note: Direct object plus locative complement. The hay moves into the wagon.
+    - text: Pat shoveled the hay.
+      from: constructed
+      note: Direct object only. There is no path phrase, so no caused-motion pattern.
+  watch_for:
+    - A learner might read into the wagon as a second object of the verb.
+    - A learner might read the place phrase as a setting adjunct, when it describes where the object moves.
+    - A learner might assume any verb can be used this way, when productivity depends on semantic similarity and on the verb's role as means or manner.
+  activity: Give students verbs such as sneeze, shovel and kick, plus a thing and a place. They build caused-motion sentences, then decide which show something moving from a source, along a path or to a goal.
+child:
+  hook: Can a sneeze send a tooth across town?
+  explain: Some sentences tell who made something move. Pat shoveled the hay into the wagon. Pat made the hay move, and the words into the wagon tell where the hay went.
+  examples:
+    - text: He sneezed [his tooth] [right across town].
+      from: entry
+    - text: Pat shoveled [the hay] [into the wagon].
+      from: entry
+    - text: I kicked [the ball] [over the fence].
+      from: constructed
+  play: Pick an action like kick, push or blow. Say what it moved and where it went. Can your friends guess the action?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child explain now names the hay and the words into the wagon instead of an unclear it. Also fixed (unflagged): child example bracketing now marks the object and the place phrase separately, as the entry''s examples do.'

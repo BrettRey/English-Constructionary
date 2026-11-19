@@ -1,0 +1,42 @@
+id: specificational-copular-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sentences that fill in an answer
+  summary: Some sentences with is set up a description and then name what fits it.
+  body: |-
+    The main obstacle is the permit. The phrase the main obstacle sets up a description, and the permit fills it in. It names which thing fits. This is different from a sentence that just says what something is like.
+
+    You can reverse the order: The permit is the main obstacle. It still identifies the same obstacle, though the information is packaged differently. This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[The main obstacle is the permit].'
+      from: entry
+    - text: '[The permit is the main obstacle].'
+      from: entry
+  try: Complete The biggest problem is ... and then reverse it. What does each order put first?
+teacher:
+  summary: Helps explain be-clauses that identify a value for a description.
+  explain: 'A specificational copular clause pairs a variable NP with a value expression and be: it identifies a value for a description made salient by the other copular expression. In The main obstacle is the permit, the permit supplies a value rather than a general property. The reverse order, The permit is the main obstacle, can preserve the identification while changing the informational packaging. This dictionary treats the pattern as a specialization of the clause and relates it to pseudo-clefts and to subject-ascriptive clauses. The analysis is marked provisional.'
+  terms: Compare ascriptive clauses, which ascribe a property. In this dictionary the related pattern is subject-ascriptive.
+  examples:
+    - text: '[The main obstacle is the permit].'
+      from: entry
+    - text: '[The permit is the main obstacle].'
+      from: entry
+  contrasts:
+    - text: The main obstacle is the permit.
+      from: entry
+      note: The variable comes first and the value second.
+    - text: The permit is the main obstacle.
+      from: entry
+      note: The reversed order identifies the same obstacle.
+  watch_for:
+    - A learner might read the permit as describing a property of the obstacle, when it supplies a value.
+    - A learner might treat the reversed order as changing which obstacle is identified.
+  activity: Students write a description-then-value sentence (The winner is ...), reverse it, and say what each order puts first.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

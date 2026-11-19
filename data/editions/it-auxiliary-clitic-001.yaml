@@ -1,0 +1,52 @@
+id: it-auxiliary-clitic-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The 's in it's can stand for is or has
+  summary: The short form it's can mean it is or it has, and a participle after it, such as been or being, can show which.
+  body: |-
+    The 's in It's been repaired stands for has, so it means It has been repaired. The 's in It's being repaired stands for is, so it means It is being repaired. The participle after the 's, been or being, helps you work out which one it is.
+
+    Don't confuse either of these with its, the word that goes before a noun to show belonging. It has no apostrophe and doesn't stand for is or has.
+  examples:
+    - text: '[It’s] been repaired.'
+      from: entry
+    - text: '[It’s] being repaired.'
+      from: constructed
+  try: Say It's been repaired and It's being repaired, then say each one in full. Which short word did you put back in each?
+teacher:
+  summary: Helps learners decide whether 's after it is is or has, and keep it's apart from its.
+  explain: 'After the pronoun it, ''s can be a reduced auxiliary, either is or has. The host (it) and the participial form that follows together distinguish them. A following participle such as been signals has (It’s been repaired), while being signals is (It’s being repaired). The genitive its is different: it combines with a nominal in its ordinary dependent use and isn''t a reduced auxiliary. The analysis is marked provisional and rests on two cited CGEL sections and a constructed illustration, so keep the explanation to these two contrasts.'
+  terms: 'Contraction of is or has. In this dictionary, a clitic: a reduced auxiliary attached to it. The genitive its is a separate word.'
+  examples:
+    - text: '[It’s] been repaired.'
+      from: entry
+    - text: '[It’s] being repaired.'
+      from: constructed
+  contrasts:
+    - text: It’s been repaired.
+      from: entry
+      note: The 's is has, because been follows.
+    - text: It’s being repaired.
+      from: constructed
+      note: The 's is is, because being follows.
+  watch_for:
+    - A learner might read the 's in It's been repaired as is, when the following participle signals has.
+    - A learner might write it's where the genitive its belongs, though only its combines with a following noun as a dependent.
+  activity: Give students sentences with it's followed by different forms. They expand each 's to is or has, circle the participle (been or being) that told them where there is one, and then add one sentence using the genitive its.
+child:
+  hook: What two words can hide inside it's?
+  explain: It's can be short for it is or for it has. Words like been and being can show which. It's been repaired means it has been repaired. It's being repaired means it is being repaired.
+  examples:
+    - text: '[It’s] been repaired.'
+      from: entry
+    - text: '[It’s] being repaired.'
+      from: constructed
+  play: Say each example, then say it again with the short word spelled out in full. Look at been or being after it's. Does it help you choose between is and has?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: removed the claim that the following word always settles is versus has (the entry gives the been/being contrast only); activity and child text limited to participles such as been and being; ''short discussion in CGEL'' replaced by what the entry cites. Dismissed: none.'

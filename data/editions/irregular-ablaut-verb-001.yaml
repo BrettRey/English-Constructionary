@@ -1,0 +1,48 @@
+id: irregular-ablaut-verb-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sing, sang, sung
+  summary: Some verbs show different forms by changing the vowel inside the word, and the changes belong to each verb.
+  body: |-
+    In Jo sang yesterday and has sung twice today, the vowel in the middle of the word changes: sing, sang, sung. Each form fills a different slot. Sang is the past form, and sung is the form that goes after has.
+
+    Other verbs can use one form for more than one slot, so the exact pattern belongs to each verb individually.
+  examples:
+    - text: Jo [sang] yesterday and has [sung] twice today.
+      from: entry
+  try: Say Jo sings today, Jo sang yesterday, Jo has sung. Which vowel changes at each step?
+teacher:
+  summary: Covers verbs whose past and participle forms are marked by a stem vowel change, as in sing, sang, sung.
+  explain: This dictionary describes selected verb stems with present, preterite and participial vowel alternants. The changes are lexicalized and distinguish verbal inflectional forms. For sing, sang and sung correspond to different slots. The perfect selects the past participle, here sung. Other verbs can share one form across those slots, so the exact mapping is lexical, and each verb has to be learned. This dictionary relates the pattern to regular -ed past tense and to the perfect with have. It is provisional.
+  terms: Traditional grammars sometimes call these strong verbs, a label that may be broader than this pattern, and ablaut is a textbook word for stem-vowel change of this kind. This dictionary calls the pattern vowel alternation in irregular verb inflection.
+  examples:
+    - text: Jo [sang] yesterday and has [sung] twice today.
+      from: entry
+  contrasts:
+    - text: Jo sang yesterday.
+      from: constructed
+      note: The preterite form.
+    - text: Jo has sung twice today.
+      from: constructed
+      note: The past participle after has.
+  watch_for:
+    - A learner might mix up which of sang and sung fills which slot.
+    - A learner might expect every verb to add -ed for its past.
+  activity: Students list verbs with a vowel change and write each in a pair of sentences, one with the past form and one with has and the participle. They note any verb that uses one form for both.
+child:
+  hook: What changes in the word sing when you say yesterday?
+  explain: Some words change their middle sound. Today I sing. Yesterday I sang. Today I have sung. Each word has its own pattern.
+  examples:
+    - text: Jo [sang] yesterday and has [sung] twice today.
+      from: entry
+    - text: Today I sing, yesterday I [sang].
+      from: constructed
+  play: Say sing, sang and sung with a partner. Find other words whose middle sound changes, and test each one.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: teacher terms no longer claim the dictionary''s title contains ''ablaut'' (the title is ''Vowel Alternation in Irregular Verb Inflection''); strong verbs hedged as possibly broader; ''the entry'' replaced by ''this dictionary''; curious summary no longer says the vowel shows ''tense'' alone (the entry says inflectional forms). Second round: fixed curious.body by cutting ''you can''t predict the pattern from a rule'' (this dictionary says only that the exact mapping is lexical).'

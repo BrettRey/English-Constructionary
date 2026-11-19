@@ -1,0 +1,45 @@
+id: clause-analogue-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sentence-like phrases with no verb
+  summary: Some short phrases carry the meaning of a whole statement even though they contain no verb.
+  body: |-
+    A notice reading No entry means something like "you may not enter." What a disaster! means something like "that's a disaster." Neither has a verb, yet we understand a full message. Dinner over, they resumed their game works the same way: it tells us the dinner was over.
+
+    This dictionary groups such phrases together. They get their clause-like meaning from the pattern they belong to and from the situation, not from a hidden verb. A clause here means a stretch of language built around a verb phrase, and these phrases aren't built that way. They also work only in particular frames, so an arbitrary scrap of words doesn't count.
+  examples:
+    - text: '[No entry].'
+      from: entry
+    - text: '[What a disaster]!'
+      from: entry
+    - text: '[Dinner over], they resumed their game.'
+      from: entry
+    - text: They stood with [their hands above their heads].
+      from: entry
+  try: Think of a sign or a short exclamation with no verb. What full sentence does it stand for?
+teacher:
+  summary: For advanced classes, verbless but clause-like utterances such as No entry and Dinner over.
+  explain: 'This dictionary groups together non-headed constructions with a clause-like interpretation but no VP in head function. CGEL calls these verbless clauses; this dictionary rejects that label, reserving Clause for structures with a VP head. Some have a subject-like expression plus a predicative expression (their hands above their heads; Dinner over). Others are a single NP, AdjP or PP whose subject or copular relation is recovered from the frame or the discourse (What a disaster!; No entry). This dictionary doesn''t posit a silent verb: the implicit predication or speech act is recovered in interpretation, not supplied by an unpronounced VP. Membership is construction-specific, so an arbitrary non-verbal fragment isn''t automatically included.'
+  terms: 'CGEL: verbless clause. This dictionary: clause-analogue, kept separate from Clause because it has no VP head.'
+  examples:
+    - text: They stood with [their hands above their heads].
+      from: entry
+    - text: '[Dinner over], they resumed their game.'
+      from: entry
+    - text: '[What a disaster]!'
+      from: entry
+    - text: '[No entry].'
+      from: entry
+    - text: '[Ed quite competent]?'
+      from: entry
+  watch_for:
+    - A learner might assume No entry has a hidden verb in the sentence's structure, when this dictionary says the meaning is recovered without positing one.
+    - A learner might think any short fragment, such as a bare noun phrase naming something, carries clause-like meaning.
+  activity: Collect short verbless signs and exclamations from around the school. Students write the full-sentence meaning of each and say whether it's a command, a statement, an exclamation or a question.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

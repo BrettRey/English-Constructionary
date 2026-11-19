@@ -1,0 +1,42 @@
+id: infinitival-open-interrogative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Which route to take
+  summary: A question word followed by to and a verb, as in which route to take, presents an open choice about something that could be done.
+  body: |-
+    In They discussed which route to take, the part after discussed is a question with to and a verb instead of a full clause. Which route fills in what's missing after take.
+
+    The question is about an action that's being considered, not one that has been carried out. A full finite question can ask instead what was actually done, so the two forms can ask different things.
+  examples:
+    - text: They discussed [which route to take].
+      from: entry
+    - text: She asked [where to park].
+      from: constructed
+  try: Finish the sentence We can't decide... with a question word and to plus a verb.
+teacher:
+  summary: Covers embedded questions such as which route to take, which have a question phrase and a to-infinitival.
+  explain: The pattern is an interrogative phrase followed by a to-infinitival with a linked gap. It presents an unresolved choice about an envisaged action. In They discussed which route to take, which route supplies the missing object of take, and the action is prospective or modal. The corresponding finite question can ask instead what was actually done. This dictionary treats the pattern as a specialization of the open interrogative clause and relates it to for-infinitivals. It is provisional.
+  terms: Sometimes called an infinitival wh-question or an embedded infinitival interrogative.
+  examples:
+    - text: They discussed [which route to take].
+      from: entry
+    - text: She asked [where to park].
+      from: constructed
+  contrasts:
+    - text: They discussed which route to take.
+      from: entry
+      note: An envisaged action, still undecided.
+    - text: They discussed which route they took.
+      from: constructed
+      note: A finite question can ask what was actually done.
+  watch_for:
+    - A learner might read which route to take as asking about a past action.
+    - A learner might treat which route as separate from the verb take, when it supplies the missing object of take.
+  activity: Students complete sentences that start with I don't know, using a question word plus to and a verb. They then rewrite each with a finite clause and compare the meanings.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

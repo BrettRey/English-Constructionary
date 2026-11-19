@@ -1,0 +1,37 @@
+id: weak-proper-name-article-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names that come with the
+  summary: Some names include the word the as part of the name, as in the Thames.
+  body: |-
+    In They crossed the Thames, the word the isn't an extra. It belongs to the way this name is used in an ordinary sentence. The name and the article go together.
+
+    That differs from names that need nothing in front of them. The dictionary describes the article here as part of the ordinary naming pattern. A label or compound can leave it out in a suitable form, but arbitrarily swapping in a does not keep the main name use.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: They crossed [the Thames].
+      from: entry
+  try: Think of another name you can't say without the. What happens if you drop it?
+teacher:
+  summary: Helps explain proper names that conventionally take an article.
+  explain: A weak proper name is a noun phrase in which a lexically conventional article combines with a name expression, as in the Thames. It realizes a conventional proper name in ordinary argument position. The article forms part of the ordinary naming pattern, while a label or compound can omit it in a suitable form. Arbitrary replacement with a does not preserve the primary name use. This dictionary contrasts this with strong proper names, which have no such article, and marks its analysis provisional.
+  terms: The and a are determinatives, often called articles. This dictionary’s weak proper name contrasts with strong proper name.
+  examples:
+    - text: They crossed [the Thames].
+      from: entry
+  contrasts:
+    - text: They crossed the Thames.
+      from: entry
+      note: Name with its conventional article, in argument position.
+  watch_for:
+    - A learner might leave out the before a name that conventionally has it.
+    - A learner might replace the with a, though this dictionary says arbitrary replacement does not keep the name use.
+  activity: Students list names of places or things they know, and sort them into names with the and names without it. They check each list against a reference.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

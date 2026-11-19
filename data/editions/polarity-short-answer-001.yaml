@@ -1,0 +1,44 @@
+id: polarity-short-answer-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Answering yes or no with a short reply
+  summary: A short reply to a yes/no question can say yes or no, then a pronoun, then a helper verb, and leave the rest out.
+  body: |-
+    Asked Did Jo lock up?, you can answer Yes, she did. The answer uses the pronoun she for Jo, repeats the helper word did from the question, and drops the rest of the verb phrase. The helper verb in the reply tells you the answer is positive, and it helps you work out what is left out: lock up.
+
+    Replies to negative questions can vary from speaker to speaker and context to context in how the answer word, yes or no, is used.
+  examples:
+    - text: “Did Jo lock up?” “[Yes, she did].”
+      from: entry
+    - text: “Can Sam swim?” “[Yes, he can].”
+      from: constructed
+  try: Ask a friend a yes/no question about their day. Does their short answer repeat a helper word from your question?
+teacher:
+  summary: Shows how a reply to a yes/no question can be built from yes or no, a subject pronoun and a finite auxiliary.
+  explain: A polar short answer resolves an antecedent polar question with an overt indication of polarity. The pattern is an answer particle, a subject pronoun and a finite auxiliary, optionally negated. Did presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts. This dictionary marks this as provisional, with medium confidence, and relates it to auxiliary VP ellipsis.
+  terms: Textbooks sometimes call these short answers or elliptical answers. This dictionary's answer particle is the word yes or no.
+  examples:
+    - text: “Did Jo lock up?” “[Yes, she did].”
+      from: entry
+    - text: “Can Sam swim?” “[Yes, he can].”
+      from: constructed
+  watch_for:
+    - A learner might treat the reply to a negative question as having a single fixed form, when this dictionary notes variation in the answer particle.
+  activity: Pairs ask each other five yes/no questions with different auxiliaries (did, can, is, has, will) and reply with a full short answer, then say what part of the verb phrase was left out.
+child:
+  hook: When someone asks Did you lock up? what short answer can you give?
+  explain: You can answer a yes/no question with a short reply. Did Jo lock up? Yes, she did. The reply uses did from the question and leaves out the rest.
+  examples:
+    - text: Did Jo lock up? Yes, she did.
+      from: entry
+    - text: Can Sam swim? Yes, he can.
+      from: constructed
+  play: Ask each other yes/no questions. Give short answers like Yes, she did.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious body now says the reply uses the pronoun she for Jo (not ''repeats a pronoun'') and that the left-out predicate is lock up, as in the question; ''the entry'' replaced by ''this dictionary''. Cut an unflagged teacher watch_for item implying a different auxiliary in the answer is wrong (not supported by the entry). Second round: fixed child.play, which made copying the question''s helper word a rule (this dictionary says the reply can retain it); the game now models Yes, she did. Curious.try now asks whether the reply repeats a helper word instead of assuming it does.'

@@ -1,0 +1,59 @@
+id: np-pron-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words that stand in for a noun phrase
+  summary: A pronoun like he, they or it can take the place of a whole noun phrase and still work as the subject or object.
+  body: |-
+    In John arrived. He looked tired, the word he points back to John. In Before he entered the room, John switched off his phone, he can point forward to John. Said about someone who isn't there, He's late again points to a person the speakers both know about.
+
+    Some uses point to a different person for each case: in Every student thinks they are smart, they follows each student. And in It is raining, the word it doesn't point to anything. It just fills the spot a subject normally fills.
+  examples:
+    - text: John arrived. [He] looked tired.
+      from: entry
+    - text: Before [he] entered the room, John switched off his phone.
+      from: entry
+    - text: '[He]''s late again.'
+      from: entry
+    - text: '[It] is raining.'
+      from: entry
+  try: Find a sentence with it and ask whether the word it points to anything. What does it stand for in It is raining?
+teacher:
+  summary: Covers the different ways a pronoun NP finds its meaning, from earlier and later mentions to the situation and dummy uses.
+  explain: 'A pronominal NP consists of a pronoun as head. The dictionary distinguishes anaphoric uses (He looked tired, pointing back to John), cataphoric uses (Before he entered the room, John switched off his phone), exophoric uses (He''s late again, with the referent supplied by the situation), bound variable uses (Every student thinks they are smart) and dummy uses (It is raining; There is a problem), where the pronoun doesn''t identify an entity. Having an antecedent is neither necessary for pronominal NP status nor sufficient to pick its case: they and them can pick up a prior referent but change form with subject versus object function. In this grammar, everybody, something and nobody are compound determinatives, not pronouns. The dictionary marks this account as provisional.'
+  terms: Anaphora, cataphora and exophora are the usual names for pointing back, forward and out to the situation. Dummy it is sometimes called expletive it. Indefinite pronouns is the traditional name for everybody, something and nobody, which this grammar treats differently.
+  examples:
+    - text: John arrived. [He] looked tired.
+      from: entry
+    - text: Before [he] entered the room, John switched off his phone.
+      from: entry
+    - text: '[He]''s late again.'
+      from: entry
+    - text: Every student thinks [they] are smart.
+      from: entry
+    - text: '[It] is raining.'
+      from: entry
+    - text: '[There] is a problem.'
+      from: entry
+  watch_for:
+    - A learner might assume every it points to a thing, including the it in It is raining.
+    - A learner might think a pronoun has to follow the noun phrase it points to, when it can point forward.
+  activity: Give students short texts with highlighted pronouns. They draw an arrow to what each one points to, or write "nothing" for dummy uses.
+child:
+  hook: In "It is raining", what does "it" stand for?
+  explain: Words like he can take the place of a name. In John arrived. He looked tired, he means John. In It is raining, it doesn't mean anything. It just fills the spot.
+  examples:
+    - text: John arrived. [He] looked tired.
+      from: entry
+    - text: '[It] is raining.'
+      from: entry
+    - text: '[She] is my sister.'
+      from: constructed
+  play: Read a short story aloud. Every time you hear he or she, point to the person it means. Does every it point to something?
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: child explanation no longer defines every pronoun as standing in for a name or noun phrase (dummy it does not); play task limited to he and she, since the entry gives they a bound-variable use. Dismissed: none."

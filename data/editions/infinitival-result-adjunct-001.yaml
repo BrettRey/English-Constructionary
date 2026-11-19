@@ -1,0 +1,39 @@
+id: infinitival-result-adjunct-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Opening the parcel only to find it empty
+  summary: A to plus a verb added after a clause can report what happened next, as an outcome or an unexpected sequel.
+  body: |-
+    In Jo opened the parcel only to find it empty, the part with to doesn't say why Jo opened the parcel. It reports a later event, the finding, as an outcome or an unexpected sequel.
+
+    The finding is presented as having happened in the story. That separates it from a purpose phrase. If you expand it with in order to, the sentence is read as a purpose instead.
+  examples:
+    - text: Jo opened the parcel [only to find it empty].
+      from: entry
+  try: Say Jo opened the parcel only to find it empty. Then replace only to with in order to. Does the sentence now say why Jo opened it?
+teacher:
+  summary: Distinguishes a to-infinitival that reports a later outcome from one that gives a purpose.
+  explain: The pattern is a clause plus a supplementary to-infinitival. It presents a later situation as an outcome or unexpected sequel. In Jo opened the parcel only to find it empty, the finding is presented as having occurred in the narrative. Expanding to in order to changes the reading to purpose, so the expansion test separates the two uses. This construction sits beside the infinitival purpose adjunct, which presents a desired outcome whose realization isn't required. This dictionary marks the analysis as provisional.
+  terms: Sometimes called an infinitive of result.
+  examples:
+    - text: Jo opened the parcel [only to find it empty].
+      from: entry
+  contrasts:
+    - text: Jo opened the parcel only to find it empty.
+      from: entry
+      note: A later event reported as an outcome.
+    - text: Jo borrowed the van to move the chairs.
+      from: constructed
+      note: A purpose; the moving need not happen.
+  watch_for:
+    - A learner might read only to find it empty as the reason Jo opened the parcel.
+    - A learner might think the finding is a plan that may not have come true.
+  activity: Students write two-part stories with only to and a verb, then swap with a partner who says what happened next and whether it was expected.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
+  note: 'Audit: fixed curious.try, which compared the sentence with and without only (the entry''s test is expansion to in order to). Also replaced This entry and The entry in teacher.explain, and cut resultative to-infinitive from teacher.terms (it could be confused with the resultative construction).'

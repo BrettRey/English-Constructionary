@@ -1,0 +1,49 @@
+id: another-additive-measure-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Another three days
+  summary: Another before a number or measure adds an amount of that size to what has gone before.
+  body: |-
+    In We stayed another three days, another adds three days to the stay. It doesn't replace the first period. It continues it.
+
+    Ordinary another goes with a singular count noun, as in another day. Here, though, another comes before a plural, three days.
+  examples:
+  - text: We stayed [another three days].
+    from: entry
+  - text: We stayed [another day].
+    from: constructed
+  try: Say We stayed another day, then We stayed another three days. What does another add each time?
+teacher:
+  summary: Shows how another before a cardinal or measure adds an amount of the stated size, even before a plural.
+  explain: In the pattern another plus a cardinal or measure expression plus a nominal, another adds another amount of the stated size to the relevant course or quantity. In We stayed another three days, the added quantity is plural, even though ordinary another with no intervening quantifier selects a singular count nominal. The example adds days to the earlier period and doesn't replace it. This dictionary treats the pattern as a specialization of the indefinite NP and relates it to the measure pseudopartitive. It is marked provisional.
+  examples:
+  - text: We stayed [another three days].
+    from: entry
+  contrasts:
+  - text: We stayed another three days.
+    from: entry
+    note: Another plus a cardinal and a plural noun, adding to the earlier period.
+  - text: We stayed another day.
+    from: constructed
+    note: Ordinary another with a singular count noun.
+  watch_for:
+  - A learner might think another must be followed by a singular noun, when the cardinal allows a plural.
+  - A learner might read another three days as a replacement for the earlier period, when the example adds days.
+  activity: Students complete sentences such as We waited another ... with a number and a unit of time. They say what another added.
+child:
+  hook: We say "another day". Can we also say "another three days"?
+  explain: Another means one more. With a number it means that much more. We stayed another three days means three more days on top of the ones before.
+  examples:
+  - text: We stayed [another three days].
+    from: entry
+  - text: We stayed [another day].
+    from: constructed
+  play: Pick a number and a time, like two hours or five minutes. Say a sentence with another, like We waited another two hours. Then tell a partner how much more time another added.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.play no longer asks for a total (the added time is the only amount given); teacher.activity now asks only what another added; cut the unsupported ''because'' explanation in curious.body; ''the entry'' replaced by ''this dictionary'' in teacher.explain.'

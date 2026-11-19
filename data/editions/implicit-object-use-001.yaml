@@ -1,0 +1,52 @@
+id: implicit-object-use-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Leaving out what was eaten
+  summary: Some verbs that can take an object can also be used without one, with the object left unspecified.
+  body: |-
+    Have you eaten yet? doesn't say what was eaten. The food is left open. Compare Jo ate lunch with Jo ate, where the second leaves the food unspecified.
+
+    The food need not have been mentioned earlier. Leaving out the object is natural for eat, though a near-synonym such as consume strongly favours a stated object. Whether it works depends on the verb and how it's used.
+  examples:
+    - text: Have you [eaten] yet?
+      from: entry
+    - text: Jo [ate] lunch.
+      from: constructed
+    - text: Jo [ate].
+      from: constructed
+  try: Try the same with other verbs, like read or write. Which ones sound complete without an object?
+teacher:
+  summary: Helps explain why some verbs are fine without an object, while a near-synonym may need one.
+  explain: 'A verb that can take an object is used without one, leaving a usual participant nonspecific while presenting the activity or event itself: in Have you eaten yet? the food is left open. The implied food need not have been mentioned. This dictionary says leaving the relevant object unexpressed is natural for eat, even when plausible near-synonyms such as consume strongly favour a stated object. Availability depends on the verb and its use. This dictionary relates the pattern to simple intransitive and monotransitive VPs and marks the analysis as provisional.'
+  terms: Sometimes called object omission or the intransitive use of a transitive verb.
+  examples:
+    - text: Have you [eaten] yet?
+      from: entry
+  contrasts:
+    - text: Jo ate lunch.
+      from: constructed
+      note: Object stated.
+    - text: Jo ate.
+      from: constructed
+      note: Object left unspecified.
+  watch_for:
+    - A learner might assume any near-synonym of eat can drop its object, when consume strongly favours a stated one.
+    - A learner might look for a specific food in Have you eaten yet?, when the food is left unspecified.
+  activity: Give students pairs of verbs with similar meanings (eat and consume). They test each with and without an object, record which works, and discuss what is left unspecified.
+child:
+  hook: Can you say Have you eaten yet? without saying what?
+  explain: Some verbs can leave out what the action was done to. Have you eaten yet? doesn't say what. It only asks whether you ate.
+  examples:
+    - text: Have you [eaten] yet?
+      from: entry
+    - text: Jo [ate].
+      from: constructed
+  play: Say Jo ate lunch. Then say it again without the word lunch, like Jo ate. What did the second one leave out? Try it with your own sentences about eating.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body and teacher.explain no longer say the activity is asserted in Have you eaten yet? (that example is a question); child.play no longer asks children to spot an object in several verbs and instead shows what to drop (lunch). Also fixed (unflagged): ''the entry'' replaced by ''this dictionary''.'

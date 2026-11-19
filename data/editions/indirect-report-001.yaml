@@ -1,0 +1,42 @@
+id: indirect-report-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Reporting what someone said
+  summary: An indirect report gives the content of what someone said from the reporter's point of view, without repeating their exact words.
+  body: |-
+    In Jo said that she would call the next day, the reporter tells us what Jo said. The reporter doesn't quote Jo. The person, the tense and the way the day is named can be adjusted to fit the reporter's situation.
+
+    So the reported part need not repeat the words Jo used. It reports the content, and it can report a statement or a question.
+  examples:
+    - text: Jo said [that she would call the next day].
+      from: entry
+  try: Think of something a friend said to you. Can you report it to someone else without using the friend's exact words?
+teacher:
+  summary: Introduces reported speech as a reporting predicate plus a content clause.
+  explain: The pattern is a reporting predicate followed by a content clause. It reports propositional or interrogative content from the reporter's perspective, as in Jo said that she would call the next day. Person, tense and calendar anchoring can adapt to the reporting context, and the reported clause need not reproduce the words of the earlier utterance. The that-clause supplies the content of the report. This dictionary relates this pattern to the declarative content clause and to present backshift, and marks it provisional.
+  terms: Traditionally called indirect speech or reported speech. The matching quotation of the speaker's exact words is traditionally called direct speech; this dictionary doesn't cover it.
+  examples:
+    - text: Jo said [that she would call the next day].
+      from: entry
+    - text: Sam told us [that he was ready].
+      from: constructed
+  watch_for:
+    - A learner might assume the reported clause must repeat the speaker's exact words.
+    - A learner might keep the speaker's original person and calendar words, such as tomorrow, when the reporting context calls for adjusting them.
+  activity: Students write down one short statement each. Partners report it to the class without repeating the exact words, then check which parts changed.
+child:
+  hook: Can you tell someone what a friend said without copying the exact words?
+  explain: You can tell what someone said without using their exact words. Jo said that she would call the next day. The words can change to fit who is telling it.
+  examples:
+    - text: Jo said [that she would call the next day].
+      from: entry
+    - text: Sam said [that he was ready].
+      from: constructed
+  play: Say one sentence to a partner. They tell the class what you said, starting with "said that." Did the words change?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

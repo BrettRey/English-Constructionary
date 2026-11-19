@@ -1,0 +1,46 @@
+id: demonstrative-oblique-genitive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: That husband of Mary's
+  summary: A demonstrative plus a phrase like of Mary's can pick out a person or thing through a relation, even when only one fits.
+  body: |-
+    In that husband of Mary's, the word that points to the husband, and the phrase of Mary's says whose husband he is. The same pattern appears in those green eyes of Mary's and that nose of his.
+
+    The pattern works even when there is only one husband, or one nose, in the picture. This dictionary links this use to focus on the head noun and to speaker feeling, but how far feeling is needed across all the examples remains open. This dictionary treats the analysis as provisional.
+  examples:
+    - text: '[that husband of Mary’s]'
+      from: entry
+    - text: '[those green eyes of Mary’s]'
+      from: entry
+    - text: '[that nose of his]'
+      from: entry
+  try: Compare that nose of his with his nose. Does the first one feel different?
+teacher:
+  summary: Helps explain that husband of Mary's and similar phrases with a demonstrative and an of-phrase containing a genitive.
+  explain: 'The pattern is NP[demonstrative determiner + nominal with an of-phrase containing a genitive NP]. The demonstrative marks the NP as definite, and the genitive relation picks out a referent, including a uniquely possessed one: that husband of Mary''s can be tested in a setting with a single husband. A published analysis (Barker, 1998) distinguishes this demonstrative pattern from oblique genitives subject to anti-uniqueness, and links the use to focus on the head and speaker affect. How far affect is required across CGEL''s examples remains open. The analysis is provisional.'
+  terms: The of-phrase contains an independent genitive (Mary's, his), This grammar says genitive rather than possessive.
+  examples:
+    - text: '[that husband of Mary’s]'
+      from: entry
+    - text: '[those green eyes of Mary’s]'
+      from: entry
+    - text: '[that nose of his]'
+      from: entry
+  contrasts:
+    - text: that husband of Mary’s
+      from: entry
+      note: Demonstrative with an oblique genitive; usable where Mary has one husband.
+    - text: Mary’s husband
+      from: constructed
+      note: Plain genitive in determiner function; no demonstrative.
+  watch_for:
+    - A learner might think that husband of Mary's must mean Mary has several husbands, when the pattern can be used with a single one.
+    - A learner might treat the demonstrative as only a pointing word, when the use is linked to focus and speaker affect.
+  activity: Give students pairs such as that husband of Mary's and Mary's husband. They say in which setting each would be natural and discuss whether the demonstrative version carries extra feeling.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,66 @@
+id: past-tense-ed-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The -ed ending on verbs
+  summary: Adding -ed to a verb can place something in the past, but it can also mark something imagined or add politeness.
+  body: |-
+    The -ed ending (or -d or -t, with more than one pronunciation) places something in time, as in She walked home and They finished yesterday. But it does more. In If I owned a car, it marks something that isn't actual. In I wanted to ask you, it adds social distance, which can make a request or offer more polite. This dictionary also gives Did you want coffee? as a polite offer, with the past form did.
+
+    This dictionary lists these as separate meanings and notes that whether one idea, displacement from a reference point, unites them remains debatable. Past time doesn't fit every use: Jones passed to Smith! in a sports commentary describes an immediate past.
+  examples:
+    - text: She [walked] home.
+      from: entry
+    - text: If I [owned] a car
+      from: entry
+    - text: I [wanted] to ask you.
+      from: entry
+  try: Compare They finished yesterday with Did you want coffee? Is the second one about the past, or about being polite?
+teacher:
+  summary: Explains the -ed ending as more than past time, covering hypothetical and politeness uses, and how its preterite use differs from its participle use.
+  explain: 'Regular -ed (with the allomorphs -d, -t, /d/, /t/ and /ɪd/) marks the preterite. This dictionary lists four meanings: displacement from a reference point (temporal, modal or interpersonal), temporal anteriority (They finished yesterday), non-actual or hypothetical marking (If she studied more; I wish I lived there), and social distancing (Did you want coffee?; I hoped we could talk). The first, unifying meaning remains debatable. Temporal anteriority has exceptions such as sports commentary (Jones passed to Smith!). Remote and backshifted preterites need not locate the event before speech time. Regular -ed also marks the past participle, as in Jo has checked the key. This dictionary marks the analysis as provisional.'
+  terms: Past tense is the traditional name; CGEL says preterite. The -ed form after have is the past participle.
+  examples:
+    - text: She [walked] home.
+      from: entry
+    - text: They [finished] yesterday.
+      from: entry
+    - text: If she [studied] more
+      from: entry
+    - text: I [hoped] we could talk.
+      from: entry
+  contrasts:
+    - text: Jo checked the key.
+      from: constructed
+      note: Finite preterite.
+    - text: Jo has checked the key.
+      from: constructed
+      note: Participle selected by have.
+    - text: I wish I lived there.
+      from: entry
+      note: Contrary-to-fact desire, not past time.
+  watch_for:
+    - A learner might assume every -ed form locates the event in the past, when this dictionary lists hypothetical and politeness uses.
+    - A learner might read Did you want coffee? only as asking about a past wanting, when it can be a polite offer.
+    - A learner might treat the -ed in has checked as a preterite, when it is the participle selected by have.
+  activity: Students sort -ed sentences into past time, imagined situations and polite requests or offers, using examples such as They finished yesterday, If she studied more and I wanted to ask you. They then explain what each use has in common with the others, if anything.
+child:
+  hook: What happens to a verb when you add ed?
+  explain: Adding ed can make a verb tell about the past, as in She walked home. It can also talk about something that isn't real, as in If I owned a car. It can also make something sound more polite, as in I wanted to ask you.
+  examples:
+    - text: She [walked] home.
+      from: entry
+    - text: They [finished] yesterday.
+      from: entry
+    - text: If I [owned] a car
+      from: entry
+    - text: I [wanted] to ask you.
+      from: entry
+  play: Say three sentences with ed words, one about yesterday, one about something you wish for, and one polite one, like I wanted to ask you. Which job does the ed do in each?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: child explain and the teacher activity used Did you want coffee? as an -ed example, but it has the irregular preterite did and plain want; they now use I wanted to ask you (this dictionary''s social-distance example with -ed), and the child play matches. The curious body now ties the -ed ending to I wanted to ask you and presents Did you want coffee? as a separate polite offer. Second round: removed the bracketed example Did you want coffee? from the curious and teacher example lists (its did is irregular and want is plain, so neither shows -ed) and gave the teacher list I hoped we could talk instead; teacher.watch_for[1] now says the question can be a polite offer, without ruling out a question about past wanting. Curious.body says the polite offer uses the past form did instead of saying it works ''in the same way''; teacher.summary now contrasts the preterite and participle uses of the ending.'

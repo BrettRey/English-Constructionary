@@ -1,0 +1,54 @@
+id: going-to-future-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Going to as a way of looking ahead
+  summary: Be going to followed by a verb can present something as coming up, because of a plan or because of what is happening now.
+  body: |-
+    In It's going to freeze tonight, nothing is travelling anywhere. The words going to simply look ahead, presenting the freeze as coming because of present signs. In I'm going to leave, the same words present an event as coming in light of an intention.
+
+    Compare I'm going to the station, where going is a real journey and to the station is the place. In I'm going to leave, a verb follows to.
+  examples:
+    - text: '[It''s going to freeze tonight].'
+      from: entry
+    - text: I'm [going to leave].
+      from: entry
+    - text: I'm going to the station.
+      from: entry
+  try: Say It's going to rain, then think of a sentence where going is a real journey. How do you tell the two apart?
+teacher:
+  summary: Helps separate prospective be going to from the motion verb go in sentences like I'm going to the station.
+  explain: 'Prospective be going to presents an event as upcoming in light of an intention or present indications: It''s going to freeze tonight. The form is be, going and a to-infinitival. It takes an infinitival, and it allows subjects with no motion interpretation, such as the weather subject in the example, which has no mover and no physical destination. In I''m going to the station, by contrast, going is a motion verb and to is a preposition. This dictionary marks this analysis as provisional.'
+  terms: Sometimes called the going-to future. This dictionary calls it the prospective construction.
+  examples:
+    - text: '[It''s going to freeze tonight].'
+      from: entry
+    - text: I'm [going to leave].
+      from: entry
+  contrasts:
+    - text: I'm going to leave.
+      from: entry
+      note: Prospective, takes an infinitival.
+    - text: I'm going to the station.
+      from: entry
+      note: Motion verb with a destination.
+  watch_for:
+    - A learner might read going to in It's going to freeze as movement toward a place.
+    - A learner might treat going to leave and going to the station as the same structure.
+  activity: Give students pairs of sentences with going to. They sort each one as a journey or a look ahead and discuss what in the sentence helped them decide.
+child:
+  hook: Is It's going to rain about a trip?
+  explain: Going to can talk about what is coming next. It's going to freeze tonight tells us what to expect. Nobody is travelling. I'm going to the station is different, because there you go to a place.
+  examples:
+    - text: '[It''s going to freeze tonight].'
+      from: entry
+    - text: I'm going to the station.
+      from: entry
+  play: Sort sentences with going to into two piles, trips and what's coming next. Talk about how you decided.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: teacher.activity and child.play no longer give ''a place or a verb after to'' as a sorting test (a journey can also take a purpose infinitive); removed the teacher.explain sentence turning the weather example into a general no-destination test; curious.body no longer says nobody has to be moving. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary''; ''Often taught'' changed to ''Sometimes called''. Second round: dismissed teacher.explain to as a preposition in going to the station (CGEL''s standard classification of to before a noun phrase, consistent with the entry''s contrast with motion to a destination).'

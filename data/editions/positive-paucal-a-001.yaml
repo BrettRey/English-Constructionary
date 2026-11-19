@@ -1,0 +1,49 @@
+id: positive-paucal-a-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A few and a little
+  summary: A few and a little present a small quantity as a positive amount.
+  body: |-
+    In We still have a little time, the speaker presents the time as available. A little goes with a non-count word like time, and a few goes with a plural count word, as in a few minutes.
+
+    This dictionary contrasts a little with plain little. Bare little favours a reading where the amount is inadequate, and it behaves differently in some settings that are sensitive to negative orientation.
+  examples:
+    - text: We still have [a little time].
+      from: entry
+    - text: We still have [a few minutes].
+      from: constructed
+  try: Compare We have a little time with We have little time. Which one presents the time as available?
+teacher:
+  summary: Contrasts a few and a little, which present a small amount as positive, with bare little.
+  explain: The pattern is a determiner a few with a plural count nominal, or a little with a non-count nominal, presenting a small quantity as a positive amount. A little asserts some available time. Bare little favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation. This dictionary files the pattern as a specialization of the noun phrase with a determiner and relates it to an absolute negator determinative. It is provisional, with medium confidence.
+  terms: This dictionary calls this positive paucal, paucal meaning a small number, in contrast with bare little.
+  examples:
+    - text: We still have [a little time].
+      from: entry
+    - text: We still have [a few minutes].
+      from: constructed
+  contrasts:
+    - text: We still have a little time.
+      from: entry
+      note: Presents the time as available.
+  watch_for:
+    - A learner might use a little with a plural count noun, when the pattern pairs a little with a non-count nominal.
+    - A learner might read bare little as the same as a little, when bare little favours an inadequate-amount reading.
+  activity: Students write sentences about their week using a few with plural nouns and a little with non-count nouns, then swap and check that each pairing fits.
+child:
+  hook: If you have a few minutes, is there time to play?
+  explain: A few and a little name a small amount. We still have a little time. We still have a few minutes. A few goes with things you can count.
+  examples:
+    - text: We still have a little time.
+      from: entry
+    - text: We still have a few minutes.
+      from: constructed
+  play: Look in your pencil case. Say what you have a few of and what you have a little of.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child explanation no longer says the expressions mean ''you have some'' (availability comes from the sentence; the entry gives a quantity meaning); curious summary no longer says ''not as too little''; try question asks which presents the time as available, matching the entry. Dismissed: none.'

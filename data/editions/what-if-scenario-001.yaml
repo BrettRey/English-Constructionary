@@ -1,0 +1,54 @@
+id: what-if-scenario-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: What if something happened?
+  summary: What if plus a clause raises a possible situation and invites talk about what would follow.
+  body: |-
+    What if the last bus has already gone? doesn't ask for a fact. It raises a possibility and invites the listener to think about it.
+
+    A reply can discuss a plan for that situation, such as walking or calling a taxi. The string can stand alone without a stated result, unlike a fully expressed if sentence such as If the last bus has gone, we'll walk.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: '[What if the last bus has already gone?]'
+      from: entry
+    - text: What if it snows tomorrow?
+      from: constructed
+  try: Ask a friend What if with something that could happen on the way home. What do they say you should do?
+teacher:
+  summary: Helps explain what if as a way to raise a hypothetical and invite discussion of consequences.
+  explain: The pattern is what if followed by a finite clause. It raises a hypothetical circumstance and invites consideration of its consequences. A response can discuss a plan for that circumstance. The string can stand alone without a stated matrix consequence, unlike a fully expressed ordinary conditional. This dictionary relates it to if-conditionals and to questions, classes it as pragmatic, and marks its analysis provisional. Teach it as a way of raising a scenario that can stand without a stated consequence.
+  terms: Sometimes called a what-if question. This dictionary treats it as a deliberative use.
+  examples:
+    - text: '[What if the last bus has already gone?]'
+      from: entry
+    - text: What if it snows tomorrow?
+      from: constructed
+  contrasts:
+    - text: What if the last bus has already gone?
+      from: entry
+      note: Stands alone; no consequence stated.
+    - text: If the last bus has gone, we'll walk.
+      from: constructed
+      note: Ordinary conditional with both parts.
+  watch_for:
+    - A learner might wait for a main clause after what if, when the string can stand alone.
+    - A learner might answer with yes or no as to a plain question, when it invites discussion of the scenario.
+  activity: Students pose What if questions about a story's plot. Partners respond with a plan or consequence.
+child:
+  hook: What would you do if you missed the last bus?
+  explain: What if raises something that might happen. What if the last bus has already gone? Then we talk about what we could do.
+  examples:
+    - text: '[What if the last bus has already gone?]'
+      from: entry
+    - text: What if it snows tomorrow?
+      from: constructed
+  play: Take turns asking a What if question. The other player says what they would do.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: teacher.explain no longer says the pattern is not a conditional with something left out (the entry says only that it can stand alone without a stated consequence); child.explain no longer calls it a pretend problem. Also fixed (unflagged): 'the entry' replaced by 'this dictionary'."

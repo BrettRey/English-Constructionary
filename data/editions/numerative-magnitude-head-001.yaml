@@ -1,0 +1,44 @@
+id: numerative-magnitude-head-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Hundred, thousand and million as base amounts
+  summary: Hundred, thousand and million are base amounts that other numbers can scale.
+  body: |-
+    Words like hundred, thousand and million stand for a base amount. In two hundred, the two scales that base: it says how many hundreds. This dictionary says such a word needs a number in front of it in most contexts.
+
+    The same base can also be a plural noun. Hundred stays singular in two hundred books, but hundreds of books has a plural ending and an of phrase. The dictionary treats these as different uses of the same word. A base can also sit inside a longer number, as in twelve thousand and forty-one.
+  examples:
+    - text: two [hundred]
+      from: entry
+    - text: twelve [thousand] and forty-one
+      from: entry
+    - text: two hundred books and [hundreds] of books
+      from: constructed
+  try: Compare two hundred books with hundreds of books. Which one has a plural ending, and which one has an of?
+teacher:
+  summary: Shows how hundred, thousand and million work as the head of a number phrase, and how that differs from their plural noun uses.
+  explain: A magnitude head is a determinative such as hundred, thousand or million, denoting a base value that can scale a quantity. It's the head of the magnitude phrase and licenses a factor modifier (two hundred). This dictionary says it requires a factor in most contexts. Hundred stays singular in exact two hundred books and supplies its scale. In hundreds of books, the same base is a plural count noun with an of dependent, which is a separate lexical use. The head can also appear inside an additive coordination (twelve thousand and forty-one). This dictionary marks the analysis as provisional.
+  terms: Numeral is the traditional word for number words in general. This dictionary calls hundred, thousand and million magnitude determinatives when they head a number phrase.
+  examples:
+    - text: two [hundred]
+      from: entry
+    - text: twelve [thousand] and forty-one
+      from: entry
+  contrasts:
+    - text: two [hundred] books
+      from: constructed
+      note: Exact quantity, singular magnitude head with a factor.
+    - text: '[hundreds] of books'
+      from: constructed
+      note: Plural count noun with an of dependent.
+  watch_for:
+    - A learner might add a plural ending to hundred in two hundred books, as in hundreds of books, when the two uses differ.
+    - A learner might treat hundreds of books as the same construction as two hundred books.
+  activity: Students sort phrases such as two hundred books, hundreds of books and twelve thousand into exact quantities and plural noun uses, then say which has a factor in front.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

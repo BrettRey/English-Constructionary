@@ -1,0 +1,42 @@
+id: demonstrative-determinative-fused-head-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: This and that standing on their own
+  summary: Words like this and that can stand alone as a whole phrase, pointing to something in the situation.
+  body: |-
+    In That is incredible!, that isn't attached to a noun. It stands on its own and points to something in the situation, such as what has just happened or been said. A prior statement can supply the target even when no physical object is pointed at.
+
+    This dictionary counts this, that, these and those as a kind of word called determinatives, and it keeps them in that category even when they stand on their own. In That plan is strange, by contrast, that goes with a noun. This dictionary treats the analysis as provisional.
+  examples:
+    - text: '[That] is incredible!'
+      from: entry
+    - text: '[That] plan is strange.'
+      from: constructed
+  try: Hear someone say That is incredible! What could that be pointing to? Now say That plan is incredible. What changes?
+teacher:
+  summary: Helps explain this, that, these and those used alone, and why this grammar keeps them as determinatives.
+  explain: 'The pattern is an NP where a demonstrative determinative realizes fused determiner-head function: one word does the jobs of determiner and head. In That is incredible!, that is an entire NP referring to the current situation. In That plan is strange, it instead determines a nominal. The fused head must be this, that, these or those. A prior proposition can supply the deictic target even with no physical object indicated. This grammar treats these words as determinatives, and independent NP use doesn''t reclassify them as pronouns. The analysis is provisional.'
+  terms: Traditional grammars call this use a demonstrative pronoun. This grammar keeps this, that, these and those as determinatives (a word category) in fused determiner-head function.
+  examples:
+    - text: '[That] is incredible!'
+      from: entry
+    - text: That is strange.
+      from: constructed
+  contrasts:
+    - text: That is incredible!
+      from: entry
+      note: That alone is the whole NP, referring to the situation.
+    - text: That plan is strange.
+      from: entry
+      note: That determines a nominal, plan.
+  watch_for:
+    - A learner might reclassify that as a pronoun when it stands alone, when this grammar keeps it a determinative.
+    - A learner might look for a physical object that that points to, when a prior proposition can supply the target.
+  activity: Students collect sentences with this, that, these and those, sort them into stand-alone and followed-by-a-noun, and say what each one points to in the situation or in the previous sentence.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

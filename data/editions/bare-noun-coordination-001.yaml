@@ -1,0 +1,46 @@
+id: bare-noun-coordination-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Two bare nouns joined by and
+  summary: Two singular nouns with no article can be joined by and to name a pair, as in husband and wife.
+  body: |-
+    In between husband and wife, neither noun has a the or a before it, yet together they name a pair. The same happens in He had pad and pencil, where the two items are introduced as new.
+
+    Context can make the pair work as the subject or object of a sentence. In Bride and dog can be customized!, the bride and the dog were already described earlier, so the pair is easy to identify. The pair can be a familiar one or a new one, as long as the link between the two is recoverable.
+  examples:
+    - text: '[between husband and wife]'
+      from: entry
+    - text: '[Bride and dog] can be customized!'
+      from: entry
+    - text: He had [pad and pencil].
+      from: entry
+  try: Think of a pair like pen and paper. Where can you use it with no article?
+teacher:
+  summary: For advanced classes, bare singular count nouns coordinated into a pair that can serve as an argument.
+  explain: The pattern coordinates two bare singular count forms with and, presenting two linked individuals or roles through one phrase. Context may make the pair identifiable or introduce its members as new. In the invitation example, the preceding text introduces the bride and her dog, so the coordination can refer to their depictions. The pairing can support an argument use whose individual bare nouns would require separate licensing. This dictionary treats the pattern as a coordinate structure and marks it provisional. It relates it to a separate construction that licenses bare referential names.
+  terms: Bare here means without an article or other determiner. This dictionary calls the pattern bare singular noun coordination.
+  examples:
+    - text: '[between husband and wife]'
+      from: entry
+    - text: '[Bride and dog] can be customized!'
+      from: entry
+    - text: He had [pad and pencil].
+      from: entry
+  contrasts:
+    - text: He had pad and pencil.
+      from: entry
+      note: Attested object introducing the two items.
+    - text: Bride and dog can be customized!
+      from: entry
+      note: Attested subject; the items are already salient.
+  watch_for:
+    - A learner might assume each noun in pad and pencil needs its own article, when the pair as a whole can work as an argument in context.
+    - A learner might think the pair has to be already familiar, when this dictionary notes it can also introduce its members as new.
+  activity: Students collect attested pairs of bare nouns from texts. For each, they say whether the context made the pair familiar or introduced it as new.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

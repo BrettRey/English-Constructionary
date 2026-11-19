@@ -1,0 +1,46 @@
+id: perception-gerund-participial-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Seeing something while it happens
+  summary: A verb of perceiving, a person, and an -ing verb together present the person as in the middle of an activity.
+  body: |-
+    In I saw Kai crossing the square, Kai is caught in the course of crossing. The -ing form describes the stretch of the event that was seen.
+
+    That's why the sentence is compatible with leaving before Kai reached the other side. Seeing Kai crossing the square doesn't require seeing the crossing finished.
+  examples:
+    - text: I [saw Kai crossing the square].
+      from: entry
+  try: Could you say I saw Kai crossing the square if you left before Kai got to the other side?
+teacher:
+  summary: Shows that see plus an NP and an -ing form can present only the phase of an event that was perceived.
+  explain: 'In this pattern a perception verb takes an NP followed by a gerund-participial predicate: saw Kai crossing the square. The -ing complement can describe the phase perceived. Seeing Kai crossing the square is compatible with leaving before Kai reached the other side. This dictionary presents this as provisional, with medium confidence, and cites CGEL on perception complements.'
+  terms: Gerund-participial is the form in -ing. Textbooks sometimes call it the present participle or -ing participle in this use.
+  examples:
+    - text: I [saw Kai crossing the square].
+      from: entry
+  contrasts:
+    - text: I saw Kai crossing the square.
+      from: entry
+      note: Kai is seen in the course of the activity.
+    - text: We heard Kai close the latch.
+      from: constructed
+      note: The plain form can present the closing as a whole (see the bare-infinitival entry).
+  watch_for:
+    - A learner might assume that saw Kai crossing the square means the whole crossing was seen, when the -ing form can describe only the phase perceived.
+  activity: Show a short video clip and stop it midway. Students write what they saw, using saw plus a name and an -ing verb, and discuss whether the sentence needs the action to be finished.
+child:
+  hook: If you see someone crossing a street, did you see them get to the other side?
+  explain: The -ing word shows the person in the middle of doing something. You can say I saw Kai crossing the square even if you left before Kai got across.
+  examples:
+    - text: I saw Kai crossing the square.
+      from: entry
+    - text: We saw Mia painting a fence.
+      from: constructed
+  play: Look out of a window for one minute. Write what you saw people doing, using saw, a name and an -ing word.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,42 @@
+id: title-personal-name-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Titles that go with names
+  summary: A title such as Sir or Dr can sit in front of a person's name, and the title helps decide which form of the name follows.
+  body: |-
+    In Sir James opened the ceremony, the title Sir goes with a given name. In Dr Patel wrote the report, the title Dr goes with a surname. The title tells us something about the person, such as an office or a qualification, and it also shapes the name that comes after it.
+
+    The dictionary describes this as a convention, and marks its account as provisional. In the conventional British uses covered here, Sir precedes a given name, and a surname may follow it. Dr ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
+  examples:
+    - text: '[Sir James] opened the ceremony.'
+      from: entry
+    - text: '[Dr Patel] wrote the report.'
+      from: entry
+  try: Think of a title you know, such as Dr or Sir. Which kind of name do you put after it, a first name or a surname?
+teacher:
+  summary: Useful for explaining which part of a person's name follows a title such as Sir or Dr.
+  explain: A title is a pre-head element in a noun phrase whose head is a personal name, and the title is tied to a conventional name form. In the conventional British uses this dictionary illustrates, Sir precedes a given name, with a surname optionally following. Dr ordinarily precedes the surname or a full name in the standard formal style, though some professional conventions and familiar styles pair a title with a given name. This dictionary says that replacing the given name with a surname alone in the standard Sir pattern loses the conventional name form, while a professional title such as Dr can use the surname alone. This dictionary marks the analysis provisional, so present these as conventions, not rules for every variety.
+  terms: Title is the traditional name for Sir and Dr in this use. This dictionary treats the whole sequence as a noun phrase with a personal name.
+  examples:
+    - text: '[Sir James] opened the ceremony.'
+      from: entry
+    - text: '[Dr Patel] wrote the report.'
+      from: entry
+  contrasts:
+    - text: Sir James opened the ceremony.
+      from: entry
+      note: Title with a given name.
+    - text: Dr Patel wrote the report.
+      from: entry
+      note: Title with a surname.
+  watch_for:
+    - A learner might assume the same part of the name follows every title.
+    - A learner might use a surname alone after Sir, though this dictionary says this loses the conventional name form.
+  activity: Give students a list of titles and a list of people's names. In pairs they match each title with the name forms the conventions allow, then compare with the teacher's list.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

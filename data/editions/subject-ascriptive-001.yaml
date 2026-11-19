@@ -1,0 +1,37 @@
+id: subject-ascriptive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Verbs that describe the subject
+  summary: Some verbs link the subject to a word or phrase that tells you what the subject is like.
+  body: |-
+    In Jo seems unusually calm, the part after seems doesn't name something Jo acts on. It describes Jo. The verb simply links the person to a quality, a class or a condition.
+
+    One sign of this is that the same description can be given with be: Jo is unusually calm. Another is that an ordinary object can't take the place of the describing word in that role.
+
+    This dictionary marks the pattern as provisional and bases it on a single illustration.
+  examples:
+    - text: Jo [seems unusually calm].
+      from: entry
+    - text: Jo [is unusually calm].
+      from: constructed
+  try: Take a sentence like Jo seems calm and replace seems with is. Does the description of Jo stay the same?
+teacher:
+  summary: Helps students see that the word after a linking verb describes the subject rather than acting as an object.
+  explain: The pattern is a clause with a subject, a linking verb, and a predicative complement that attributes a property, class or condition to the subject referent. In Jo seems unusually calm, the complement describes Jo, and the corresponding stative property can often be predicated with be. An ordinary object cannot replace the adjective in the same role, which is one way to tell this complement from an object. This dictionary marks the analysis provisional and offers one constructed illustration, so use it as a starting point for classroom examples.
+  terms: Predicative complement is the CGEL term; textbooks sometimes call it a subject complement. This dictionary sets it beside an object-oriented counterpart.
+  examples:
+    - text: Jo [seems unusually calm].
+      from: entry
+    - text: Jo [is unusually calm].
+      from: constructed
+  watch_for:
+    - A learner might treat the word after seems as an object, when it describes the subject.
+    - A learner might read seems as describing an action by Jo, when it links Jo to a description.
+  activity: Give students sentences with seems, looks and is plus a description. They underline the person or thing being described and swap seems for is, checking that the description still applies to the same subject.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,51 @@
+id: np-pron-reciprocal-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Each other and one another
+  summary: Each other and one another say that the members of a group do the same thing to one another.
+  body: |-
+    In Kim and Pat defended each other, Kim defended Pat and Pat defended Kim. The phrase each other points back to the group, and it works as the object of the verb.
+
+    It also has an owner form, each other's, as in They blamed each other's parents. For bigger groups the meaning can be looser: the relation might hold only between neighbours in a line. The other form is one another.
+  examples:
+    - text: Kim and Pat defended [each other].
+      from: entry
+    - text: They blamed [each other's] parents.
+      from: entry
+  try: Say Kim and Pat defended each other. Who defended whom? Does it change if you use one another?
+teacher:
+  summary: Explains each other and one another as reciprocal anaphors and contrasts them with reflexives.
+  explain: A reciprocal anaphor relates members of an antecedent group to other members of that group. In Kim and Pat defended each other, the ordinary reading is that Kim defended Pat and Pat defended Kim. Each other and one another can occur as genitive determiners, as in each other's parents, whereas reflexives lack corresponding genitives. For larger groups, weaker readings occur, such as relations only between neighbours in a line, so full pairwise reciprocity is too strong in some cases. A reflexive links a pronoun to its own referent, while a reciprocal relates group members. The dictionary marks this account as provisional.
+  terms: Reciprocal pronoun is the usual name for each other and one another. This grammar groups them as a reciprocal anaphor.
+  examples:
+    - text: Kim and Pat defended [each other].
+      from: entry
+    - text: They blamed [each other's] parents.
+      from: entry
+  contrasts:
+    - text: Kim and Pat defended [each other].
+      from: entry
+      note: Reciprocal; each defends the other.
+    - text: Sue defended [herself].
+      from: constructed
+      note: Reflexive; the object is the same person as the subject.
+  watch_for:
+    - A learner might use each other when the object is the same person as the subject.
+    - A learner might think a reciprocal means every member relates to every other member, when larger groups can have weaker readings.
+  activity: Students stand in pairs and say what they did to each other (high-fived, thanked). Then groups of five say what happened and decide whether each person really did it to every other person.
+child:
+  hook: What do two friends do to each other?
+  explain: Each other says that two people do the same thing to one another. If Kim and Pat defended each other, Kim defended Pat and Pat defended Kim.
+  examples:
+    - text: Kim and Pat defended [each other].
+      from: entry
+    - text: The two friends hugged [each other].
+      from: constructed
+  play: Pick two friends. Say what they did, using each other. Then say the same thing with one another.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

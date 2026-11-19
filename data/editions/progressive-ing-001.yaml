@@ -1,0 +1,63 @@
+id: progressive-ing-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Being plus -ing for things in progress
+  summary: A form of be plus a verb ending in -ing presents something as ongoing or unfolding at a particular time.
+  body: |-
+    In She is reading, the action is in progress. In They were walking home, it was going on at some time in the past. In She was building a house, the house building is ongoing, and the sentence doesn't say it was ever finished. Compare She built a house, which does tell us it was completed.
+
+    The same form can also frame something as current or temporary, as in He is living in Chicago or The server is running slow today. This dictionary marks the account as provisional.
+  examples:
+    - text: She [is reading].
+      from: entry
+    - text: They [were walking] home.
+      from: entry
+    - text: She [was building] a house.
+      from: entry
+    - text: He [is living] in Chicago.
+      from: entry
+    - text: The server [is running] slow today.
+      from: entry
+  try: Say She was building a house, then She built a house. In which one do you know the house got finished?
+teacher:
+  summary: Core explanation of the be plus -ing progressive, with its two readings and a contrast with the simple past.
+  explain: 'The progressive is be plus a gerund-participle. Its first reading marks an ongoing or unfolding situation at a reference time (imperfective viewpoint), where endpoints aren''t asserted: She was building a house doesn''t entail completion, while She built a house does. Its second reading marks a current-phase or contingent construal, often contrasted with a default habitual or simple-present reading (He is living in Chicago). The progressive auxiliary and its gerund-participial complement form a VP headed by be. This dictionary marks the account provisional. A future adjunct can give the progressive an arrangement reading.'
+  terms: Often called the continuous or progressive aspect; the -ing form is a gerund-participle.
+  examples:
+    - text: She [is reading].
+      from: entry
+    - text: They [were walking] home.
+      from: entry
+    - text: She [was building] a house.
+      from: entry
+    - text: I'm [living] in Mississauga.
+      from: entry
+  contrasts:
+    - text: She was building a house.
+      from: entry
+      note: Ongoing process; does not entail completion.
+    - text: She built a house.
+      from: entry
+      note: Perfective contrast with completion entailment.
+  watch_for:
+    - A learner might think any -ing form after a verb is a progressive, such as the -ing form in Jo avoided staying, which isn't progressive.
+    - A learner might think She was building a house means the house was finished.
+  activity: Students match sentence pairs, such as She was building a house and She built a house, to the question "Is the house finished?" and explain their answer.
+child:
+  hook: Is the house finished if she was building it?
+  explain: Words like is, was and were plus an -ing word can show something going on. She was building a house means she was in the middle of it. She built a house means it got done.
+  examples:
+    - text: She [is reading].
+      from: entry
+    - text: They [were walking] home.
+      from: entry
+    - text: She [was building] a house.
+      from: entry
+  play: Say what you are doing right now with is or am and an -ing word. Then say what you did yesterday without -ing. Does it sound finished or still going?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,43 @@
+id: positive-degree-partitive-more-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: More of a particular set
+  summary: More of followed by a group or a substance compares amounts taken from that group or substance.
+  body: |-
+    In We should keep more of these samples, the phrase after of says which set we're drawing from: these samples. Keeping more of them means a bigger share of that set.
+
+    The word more can count things in a plural group, as in more of these samples, or measure an amount of a substance, as in more of this soup. Which one it is depends on what follows of.
+  examples:
+    - text: We should keep [more of these samples].
+      from: entry
+    - text: Could I have [more of this soup]?
+      from: constructed
+  try: Say more of these cookies and more of this milk. Which one counts items, and which one measures an amount?
+teacher:
+  summary: Covers more of plus a domain expression, which compares amounts drawn from a specified set or whole.
+  explain: In NP[more + PP[of + domain expression]], the of-phrase fixes the group counted over. More can quantify a plural count domain (more of these samples) or an amount of a non-count substance, depending on the complement. This dictionary describes the pattern as comparing amounts drawn from a specified set or whole, and relates it to the true partitive. It is marked provisional, with medium confidence.
+  terms: This dictionary treats this as a specialization of the true partitive.
+  examples:
+    - text: We should keep [more of these samples].
+      from: entry
+    - text: Could I have [more of this soup]?
+      from: constructed
+  watch_for:
+    - A learner might treat more of these samples and more samples as the same, though the of-phrase fixes a specified set to draw from.
+  activity: Show a bowl of items and a jug of juice. Students write one sentence with more of plus a plural count noun phrase and one with more of plus a non-count substance.
+child:
+  hook: What is the difference between more cookies and more of these cookies?
+  explain: More of these cookies means more from a set you can point to. The words after of tell which set you mean.
+  examples:
+    - text: We should keep more of these samples.
+      from: entry
+    - text: Could I have more of this soup?
+      from: constructed
+  play: Point at a pile of things and say what you want more of, starting with more of these or more of this.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

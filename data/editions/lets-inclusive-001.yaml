@@ -1,0 +1,53 @@
+id: lets-inclusive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Suggesting something to do together
+  summary: Let's followed by a plain verb proposes that the speaker and the listener, or a group, do something together.
+  body: |-
+    Let's take a break proposes an action for the speaker and the listener to do together. The group involved can also be a wider one that includes them. The 's after let identifies this joint pattern.
+
+    The preferred negative counterpart can be Let's not take a break. The 's form also can't be used for a literal command to release someone, which is a different use of let.
+  examples:
+    - text: '[Let’s take a break].'
+      from: entry
+    - text: Let’s not take a break.
+      from: constructed
+  try: Think of something you'd like to do with a friend. Start with let's and suggest it. Who is included?
+teacher:
+  summary: Helps explain let's as a joint proposal, and keeps it apart from let meaning allow.
+  explain: 'Let''s plus a plain-form VP proposes a course of action involving the speaker and addressee, or the relevant joint group. Teach it as a special kind of imperative: the proposal includes the speaker, so it isn''t an order aimed only at the listener. The negative counterpart can be Let''s not take a break. The ''s form identifies the inclusive pattern and isn''t available in a literal command to release someone. For the permission sense, see the related permissive let entry.'
+  terms: An imperative in this dictionary, with the inclusive 's marking joint action. Related to let permissive, which means allow.
+  examples:
+    - text: '[Let’s take a break].'
+      from: entry
+  contrasts:
+    - text: Let’s take a break.
+      from: entry
+      note: 'Joint proposal: speaker and addressee.'
+    - text: They let Jo use the key.
+      from: constructed
+      note: 'Permission: let allows someone else to act.'
+    - text: Let’s not take a break.
+      from: constructed
+      note: A negative counterpart of the joint proposal.
+  watch_for:
+    - A learner might read Let's take a break as a command aimed only at the listener, when the speaker is included.
+    - A learner might confuse the 's in let's with the 's of a genitive or of is.
+  activity: Students suggest group activities with let's, then each suggestion is answered with Let's not and another idea. Discuss who is included in each proposal.
+child:
+  hook: When you say let's, who is going to do it?
+  explain: Let's means you and others, together. You suggest something to do as a group. Let's take a break means we rest together.
+  examples:
+    - text: '[Let’s take a break].'
+      from: entry
+    - text: '[Let’s play a game].'
+      from: constructed
+  play: Think of three things to suggest to a friend, each starting with let's. Then say one more with let's not. Does it still include you both?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.body no longer says the release sense is covered in a separate entry, and no longer calls the negative ''the negative version'' built with not (it now says only that the preferred negative counterpart can be Let''s not take a break); teacher.explain points to the related permissive let entry that the entry links. Second round: fixed child.explain, which required everyone being addressed to take part (this dictionary allows the speaker and addressee or the relevant joint group); curious.body now says the ''s identifies the inclusive pattern, as this dictionary does, rather than that it makes the proposal.'

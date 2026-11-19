@@ -1,0 +1,56 @@
+id: no-determiner-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: No before a noun
+  summary: Put before a noun, no says that there were zero instances of whatever the noun names.
+  body: |-
+    In no books and no evidence, the word no tells you that there were zero instances. No books means no books at all, and no evidence means an absence of evidence.
+
+    No can go before a singular count noun, a plural count noun or a non-count noun. A clause with We saw no damage also normally takes a positive confirmation tag, such as did we? That ties the word before the noun to the sentence as a whole: it makes the whole sentence negative.
+  examples:
+    - text: '[no books]'
+      from: entry
+    - text: '[no evidence]'
+      from: entry
+    - text: We saw [no damage].
+      from: constructed
+  try: Say We saw no damage, then add did we? Does the sentence still feel negative?
+teacher:
+  summary: Teaches no as a determinative that quantifies a noun phrase down to zero, with clause polarity as a test.
+  explain: 'No is a determinative in determiner function: a determinative phrase headed by no is the determiner in the noun phrase. It construes the noun phrase as having zero members or instances. It can determine a singular count, plural count or non-count nominal. We saw no damage normally licenses a positive confirmation tag, which links the local determiner to wider clausal polarity. This dictionary separates those polarity diagnostics from the claim that the relevant quantity is zero. This dictionary treats no as interfacing with primary-auxiliary negation.'
+  terms: This dictionary calls no a determinative (the word category) and uses determiner for the function it has in the noun phrase.
+  examples:
+    - text: '[no books]'
+      from: entry
+    - text: '[no evidence]'
+      from: entry
+  contrasts:
+    - text: We saw no damage, did we?
+      from: constructed
+      note: The positive tag shows the clause is negative.
+    - text: No dog barked.
+      from: constructed
+      note: No before a singular count noun.
+  watch_for:
+    - A learner might think no needs a plural noun after it.
+    - A learner might expect no to need a negative verb as well, when We saw no damage already makes the clause negative.
+  activity: Students write sentences with no before a plural noun, a singular noun and a non-count noun. They add a confirmation tag to one and compare it with the plain clause.
+child:
+  hook: What does no mean in no books?
+  explain: When no comes before a word for a thing, it means zero, none at all. No books means there are no books. No evidence means there isn't any evidence.
+  examples:
+    - text: '[no books]'
+      from: entry
+    - text: '[no evidence]'
+      from: entry
+    - text: We saw [no damage].
+      from: constructed
+  play: Look around your room. Make a sentence that starts with There is no or There are no, naming something that is missing.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.explain no longer says no means zero before any word; it now ties the zero meaning to no before a noun, as in no books (the dictionary assigns it to no as a determiner in a noun phrase).'

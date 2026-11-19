@@ -1,0 +1,33 @@
+id: right-argument-cluster-coordination-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Joining pairs of things after one verb
+  summary: One verb can serve two pairs of things joined by and, even though each pair isn't an ordinary phrase.
+  body: |-
+    In I took Jo to the station and Lee home, the verb took appears once but works for two jobs. Jo goes with the station, and Lee goes with home. Each person pairs with a separate destination.
+
+    What's joined by and isn't an ordinary phrase: Jo to the station and Lee home are bundles of two things that follow the verb. Lee home, for example, is a person plus a destination. This dictionary marks the analysis as provisional.
+  examples:
+    - text: I took [Jo to the station and Lee home].
+      from: entry
+    - text: She gave [Ann a book and Bo a pen].
+      from: constructed
+  try: Say a sentence with two people each going to a different place or getting a different thing, with only one verb.
+teacher:
+  summary: Helps explain coordination of postverbal bundles under a single verb.
+  explain: In this coordination, corresponding sequences of postverbal arguments are coordinated, and the sequences need not be ordinary independent phrases. In I took Jo to the station and Lee home, each person pairs with a separate goal under one overt verb. Lee home is the object and goal sequence, and it isn't an ordinary nominal constituent. This dictionary treats the pattern as a specialization of coordination and marks the analysis as provisional. Present it as the same verb serving two parallel bundles.
+  examples:
+    - text: I took [Jo to the station and Lee home].
+      from: entry
+    - text: She gave [Ann a book and Bo a pen].
+      from: constructed
+  watch_for:
+    - A learner might read Lee home as an ordinary phrase, when it is a person plus a goal.
+    - A learner might look for a second verb in the coordinated part, though one overt verb serves both bundles.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

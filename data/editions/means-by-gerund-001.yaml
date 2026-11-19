@@ -1,0 +1,49 @@
+id: means-by-gerund-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying how with by and an action word
+  summary: By followed by an action that ends in ing says how something was done.
+  body: |-
+    In Jo reopened the file by restoring a backup, the restoring is the method. It's how Jo got the file back. The sentence presents the activity as the means by which the outcome was reached.
+
+    Compare Jo reopened the file after restoring a backup. After gives the order of events but leaves the connection to context. By says more: the restoring is part of the method, not merely something that happened around the same time.
+  examples:
+    - text: Jo reopened the file [by restoring a backup].
+      from: entry
+    - text: Jo reopened the file after restoring a backup.
+      from: entry
+  try: Say how you got to school today, starting with by and an ing word. What would change if you used after instead?
+teacher:
+  summary: Helps explain by plus an ing phrase as the means by which something was done, and how it differs from after.
+  explain: 'A PP with by and a gerund-participial clause presents an activity as the means of obtaining another outcome: Jo reopened the file by restoring a backup. The restoring is interpreted as part of the method, not merely a coincidental event in the same time period. Compare after restoring a backup, which supplies temporal order and leaves the means relation to context. This dictionary treats the by-phrase as a specialization of the prepositional phrase and relates it to infinitival purpose adjuncts.'
+  terms: The ing form after a preposition is traditionally called a gerund. In this dictionary it is a gerund-participial clause inside a PP.
+  examples:
+    - text: Jo reopened the file [by restoring a backup].
+      from: entry
+  contrasts:
+    - text: Jo reopened the file by restoring a backup.
+      from: entry
+      note: The restoring is the means.
+    - text: Jo reopened the file after restoring a backup.
+      from: entry
+      note: After gives temporal order; the means relation is left to context.
+  watch_for:
+    - A learner might read by restoring a backup as showing only when something happened, when it gives the method.
+    - A learner might treat after restoring a backup as saying the restoring was the method, when it supplies temporal order and leaves the means to context.
+  activity: Students write what they did and how, using by and an ing phrase, then change by to after. Partners say whether the meaning changed and how.
+child:
+  hook: How did you get your shoes on this morning?
+  explain: You can say how you did something with by and an ing word. I opened the box by cutting the tape. The cutting is how the box got opened.
+  examples:
+    - text: I opened the box [by cutting the tape].
+      from: constructed
+    - text: Jo reopened the file [by restoring a backup].
+      from: entry
+  play: Say how you do something with by. I got warm by ... I made a friend by ... Finish each one with an ing word, then try after instead of by with a partner.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

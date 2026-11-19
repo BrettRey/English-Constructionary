@@ -1,0 +1,66 @@
+id: plural-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words that mean more than one
+  summary: Plural forms mark more than one thing, or a group of things taken together, and they trigger matching forms elsewhere in a sentence.
+  body: |-
+    Plural forms appear in nouns, pronouns and some other small words, not just nouns: cats, they and these all point to more than one. Some plurals name a group, as in Kennedys, or types rather than a mass, as in wines. Others mark recurring instances, as in headaches.
+
+    The plural form controls ordinary plural agreement, as in The scissors are blunt. Yet the description can be about one instrument. So the plural form tells us how the grammar treats the word, not strictly how many objects there are.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[they]'
+      from: entry
+    - text: '[these]'
+      from: entry
+    - text: '[Kennedys]'
+      from: entry
+    - text: '[wines]'
+      from: entry
+    - text: The [scissors] are blunt.
+      from: constructed
+  try: Name something you use that is described with a plural word but is a single object. What verb goes with it?
+teacher:
+  summary: Overview of plural forms across nouns, pronouns and determinatives, and what they signal.
+  explain: 'Plural morphology (-s, -es, irregular, zero) applies to common and proper nouns, pronouns and determinatives. It signals non-singular construal and triggers agreement. This dictionary lists four uses: non-singular entities (cats, they, these), countable aggregates (Kennedys, many), countable taxonomic categories, that is, types rather than non-count (wines), and recurring instances (headaches). Form and number of referents can come apart: the scissors are blunt has plural agreement but can describe one instrument, because grammatical number is separate from the number of objects described. This dictionary marks this as provisional, with medium confidence.'
+  terms: Words like scissors are sometimes called plural-only nouns. This dictionary contrasts plural with singular.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[they]'
+      from: entry
+    - text: '[these]'
+      from: entry
+    - text: '[Kennedys]'
+      from: entry
+    - text: '[many]'
+      from: entry
+    - text: '[wines]'
+      from: entry
+    - text: '[headaches]'
+      from: entry
+  contrasts:
+    - text: The scissors are blunt.
+      from: constructed
+      note: Plural agreement, though the description can be about one instrument.
+  watch_for:
+    - A learner might assume a plural form must mean more than one object.
+    - A learner might read wines as several bottles only, when it can mean types of wine.
+  activity: Students sort words (cats, they, these, Kennedys, wines, headaches) by which use of the plural they show, then add one example of their own for each use.
+child:
+  hook: Why do we say the scissors are, when you hold only one pair?
+  explain: Plural words like cats and they mean more than one. Some words, like scissors, look plural even when you mean one tool. We say The scissors are blunt.
+  examples:
+    - text: The cats are asleep.
+      from: constructed
+    - text: The scissors are blunt.
+      from: constructed
+  play: Make a list of plural words. Which ones go with are? Find something you use that is one thing but has a plural word.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

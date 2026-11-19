@@ -1,0 +1,50 @@
+id: response-obligation-ditransitive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Owing someone something
+  summary: With owe, the person you owe comes first and the thing owed comes second, and the thing may not yet have been given.
+  body: |-
+    In I owe Lee an apology, Lee is the person who is entitled to the apology, and the apology is still outstanding. The verb owe is followed by two noun phrases in a row: first the person, then the thing.
+
+    This is a version of the two-object pattern found with verbs like send and give. But owing isn't giving. The sentence can be true even if the apology hasn't been offered, because it describes an obligation, not a gift on its way. This dictionary marks the analysis as provisional.
+  examples:
+    - text: I [owe Lee an apology].
+      from: entry
+    - text: We [owe the neighbours a favour].
+      from: constructed
+  try: Think of something you owe a friend. Say it with the friend's name first, then the thing owed.
+teacher:
+  summary: Helps explain owe with two objects and how an obligation differs from a transfer.
+  explain: 'Owe takes an indirect object (the creditor, or entitled participant) followed by a direct object (the outstanding thing): I owe Lee an apology. This dictionary treats it as a specialization of the ditransitive VP. The meaning is an obligation, not an intended gift: Lee is the person to whom the apology is owed, and the sentence can be true when the apology has not been offered. Contrast this with verbs of giving, where the pattern suggests a transfer.'
+  terms: Indirect object and direct object are the usual terms. In this dictionary, the pattern is a double-object construction.
+  examples:
+    - text: I [owe Lee an apology].
+      from: entry
+    - text: We [owe the neighbours a favour].
+      from: constructed
+  contrasts:
+    - text: I owe Lee an apology.
+      from: entry
+      note: Obligation; the apology is outstanding.
+    - text: I gave Lee an apology.
+      from: constructed
+      note: A transfer, which the sentence presents as completed.
+  watch_for:
+    - A learner might read owe Lee an apology as saying the apology has already been delivered.
+  activity: Students write three things they owe someone (a call, a thank-you, a book) using the double-object pattern. Partners say whether each thing has been handed over yet and how they can tell.
+child:
+  hook: If you owe a friend a game, has the friend got it yet?
+  explain: Owe is followed by the person and then the thing. I owe Lee an apology means Lee should get an apology. It doesn't mean Lee has it yet.
+  examples:
+    - text: I [owe Lee an apology].
+      from: entry
+    - text: We [owe Grandma a phone call].
+      from: constructed
+  play: Say what you owe someone, with the name first. Then ask a friend, "Has it happened yet?"
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

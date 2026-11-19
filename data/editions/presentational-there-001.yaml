@@ -1,0 +1,31 @@
+id: presentational-there-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: There introducing something that appears
+  summary: A sentence can begin with there, then a verb of appearing, then the thing that appears.
+  body: |-
+    In There appeared a crack in the plaster, the word there doesn't point to a place. It opens the sentence, the verb appeared follows, and then comes the thing being introduced, a crack.
+
+    The pattern introduces something through an event of appearance, presence or emergence. Only certain verbs fit this frame, and the opening there need not say where the crack is. This dictionary marks the account as provisional.
+  examples:
+    - text: '[There appeared a crack in the plaster].'
+      from: entry
+  try: Can you think of other verbs about appearing or emerging that could follow there at the start of a sentence?
+teacher:
+  summary: For advanced classes, there plus a lexical verb of appearance introducing a new entity.
+  explain: Here dummy there is followed by a lexical verb and a postverbal NP, as in There appeared a crack in the plaster. The pattern introduces an entity through an event of appearance, presence or emergence. Only certain lexical predicates license dummy there in this frame, and the opening there needn't locate the crack. This dictionary says ordinary event-transitive verbs are excluded. The analysis is provisional, and this dictionary gives only one illustration, so check examples with a reference before teaching others as equivalents.
+  terms: Sometimes called existential or presentational there; this dictionary calls this one presentational there with a lexical verb.
+  examples:
+    - text: '[There appeared a crack in the plaster].'
+      from: entry
+  watch_for:
+    - A learner might read there as a place adverb meaning in that location.
+    - A learner might assume any verb can follow dummy there.
+  activity: Show the sentence and ask students to say where the crack is. Discuss that the information about location comes from the phrase in the plaster, not from there.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

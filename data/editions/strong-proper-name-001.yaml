@@ -1,0 +1,71 @@
+id: strong-proper-name-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names that stand alone
+  summary: Names like Kim and New York need no the, a or my in front of them, and some family words can work the same way.
+  body: |-
+    A name like Kim or New York stands on its own in a sentence: Kim called. She lives in New York. A family word can do the same job when it works as a name. Mom called uses Mom as her name, while my mom called uses the same word to say what she is to me, and then it needs a determiner such as my in front.
+
+    A few feeling words, such as poor, can also sit in front of a name with nothing else: Poor Henry needs a rest. Names that take the, such as the Thames, belong to a different kind. Calling out someone's name, as in Sally!, is also a separate matter.
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[Kim] called.'
+      from: entry
+    - text: She lives in [New York].
+      from: entry
+    - text: '[Mom] called.'
+      from: entry
+    - text: '[Poor Henry] needs a rest.'
+      from: entry
+  try: Say Mom called and then my mom called. In which one is Mom what you call her?
+teacher:
+  summary: Helps explain why names appear without a determiner, including a family word like Mom when it is used as a name.
+  explain: 'The construction is a singular NP with no determiner, naming semantics, and referential use in an argument function (subject, object in a VP, object in a PP). Its head may be a proper noun (Kim, Ukraine) or a common noun in naming use (Mom, Grandma). Naming semantics means a conventional name, not mere identifiability: the doctor can identify someone without being a name. Names with the article (the Thames) are weak proper names and outside the construction. So are bare vocatives, whose bareness comes from the vocative function (Waiter!). A small set of emotive adjectives can embellish a strong name without a determiner. This dictionary marks the analysis as provisional and departs from CGEL''s usage: it treats proper name as a semantic classification and the NP as the unit with a head.'
+  terms: 'CGEL: strong proper names (no determiner) and weak ones (with the, as in the Thames). Proper name is a semantic category; proper nouns are the word class specialized for heading such NPs. Kin terms used as names remain common nouns on CGEL''s analysis.'
+  examples:
+    - text: '[Kim] called.'
+      from: entry
+    - text: She lives in [New York].
+      from: entry
+    - text: You wanna roll the ball to [Mommy]?
+      from: entry
+    - text: '[Poor Mom] needs a rest.'
+      from: entry
+  contrasts:
+    - text: Mom called.
+      from: entry
+      note: Naming use; no determiner.
+    - text: My mom called.
+      from: entry
+      note: Relational use; the same noun takes a determiner.
+    - text: The poor dog needs a rest.
+      from: entry
+      note: An ordinary singular count noun takes the same adjective with a determiner.
+    - text: They walked along the Thames.
+      from: constructed
+      note: A weak proper name, with the article; outside this construction.
+  watch_for:
+    - A learner might assume Mom must take a determiner like any other singular count noun.
+    - A learner might treat a bare vocative such as Waiter! as an instance, when its bareness comes from the vocative function.
+    - A learner might treat the Thames as the same kind of name as Kim.
+  activity: Students list names from their lives (people, places, family words). They test each in a subject slot and in a relational version with my, then sort into names that stand alone and nouns that need a determiner.
+child:
+  hook: Why do we say Mom called but my mom called?
+  explain: Names like Kim and New York stand on their own. Mom can be a name too, when it's what you call her. When you say my mom, you're saying who she is to you.
+  examples:
+    - text: '[Kim] called.'
+      from: entry
+    - text: '[Mom] called.'
+      from: entry
+    - text: My mom called.
+      from: entry
+  play: Say Kim called. Then put Grandma in place of Kim. Then try my grandma called. Which ones can stand alone?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body now says the relational use needs a determiner such as my, not only my; teacher.summary no longer suggests Mom changes noun category (it is a common noun in naming use); child.play gives the sentence frame and drops the city option. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary''; teacher.terms drops ''usual''.'

@@ -1,0 +1,56 @@
+id: verb-number-agreement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The verb matches the subject
+  summary: In a clause, a verb that has number forms changes to match whether the subject is singular or plural.
+  body: |-
+    In This dog runs, the subject is one dog and the verb takes the form runs. In These dogs run, the subject is more than one dog and the verb is run. The verb matches the subject in number.
+
+    In The key to the cabinets is missing, the verb goes with key, the subject's main word, not with the nearer plural word cabinets. Sometimes a speaker's sense of the group can override strict number in some varieties.
+
+    This dictionary marks this account as provisional.
+  examples:
+  - text: '[This dog runs].'
+    from: entry
+  - text: '[These dogs run].'
+    from: entry
+  try: Say The key to the cabinets is missing. Which word does the verb match, key or cabinets?
+teacher:
+  summary: Core to teaching subject-verb agreement, and to explaining why a nearby plural does not decide the verb.
+  explain: A finite verb inflects to match the grammatical number of the subject noun phrase. Agreement is realized on finite verbs and auxiliaries that bear number morphology, such as the present -s and is/are. In the key to the cabinets is missing, agreement tracks the subject head rather than the nearest plural noun. This dictionary says collective and notional agreement can override strict grammatical number in some varieties, and that the number-transparent pattern a number of keys are missing needs a separate account. The analysis is marked provisional.
+  terms: Known in teaching as subject-verb agreement. This dictionary places number on the finite verb or auxiliary in the head of the verb phrase.
+  examples:
+  - text: '[This dog runs].'
+    from: entry
+  - text: '[These dogs run].'
+    from: entry
+  - text: The key to the cabinets is missing.
+    from: entry
+  contrasts:
+  - text: This dog runs.
+    from: entry
+    note: Singular subject, singular verb.
+  - text: These dogs run.
+    from: entry
+    note: Plural subject, plural verb.
+  watch_for:
+  - A learner might make the verb agree with cabinets in the key to the cabinets is missing, when the subject head is key.
+  - A learner might treat a number of keys are missing like an ordinary agreement case, though this dictionary says it needs a separate account.
+  activity: Give students sentence frames with a singular head and a plural noun inside a phrase after it. They underline the subject head and choose the verb form that matches it.
+child:
+  hook: Why do we say the dog runs but the dogs run?
+  explain: Some words, like runs, change to match the subject. In This dog runs, the subject is this dog. When this dog changes to these dogs, runs changes to run.
+  examples:
+  - text: '[This dog runs].'
+    from: entry
+  - text: '[These dogs run].'
+    from: entry
+  play: Change cat to cats in "The cat sleeps." What happens to sleeps? Try it with five more sentences.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: curious.summary now limits agreement to verbs with number forms and grammatical number; child.explain no longer says the verb matches ''who is doing it'' (agreement follows the grammatical subject); curious.body tied the subject-head point to the key example; ''the entry'' replaced by ''this dictionary''. Second round: fixed child.explain, which tied agreement to whether the subject is one or more than one and implied that every verb changes (this dictionary bases agreement on grammatical number and limits it to finite forms that mark number); it now works through This dog runs and These dogs run, and the game starts from The cat sleeps. Teacher.terms no longer calls subject-verb agreement the usual name.'

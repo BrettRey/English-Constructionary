@@ -1,0 +1,48 @@
+id: cardinal-determinative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Number words before nouns
+  summary: A number word such as three or twenty-six can come before a noun and say how many there are.
+  body: |-
+    In I saw three cats, the word three tells us how many cats. Longer numbers work the same way: twenty-six students, or one thousand twenty-four rooms. The number comes at the front of the noun phrase and supplies a value.
+
+    A number word can also stand in for the whole noun phrase when the noun is understood, as in I bought three. And whether a number means exactly that many or at least that many depends on the context.
+  examples:
+    - text: I saw [three] cats.
+      from: entry
+    - text: She has [twenty-six] students.
+      from: entry
+    - text: The building has [one thousand twenty-four] rooms.
+      from: entry
+  try: Say I bought three and then I bought three cats. Is the number doing the same job in both?
+teacher:
+  summary: Useful for explaining that a cardinal word can serve as a determiner in a noun phrase, and that the same word can also stand alone for the whole noun phrase.
+  explain: Cardinal words such as three, twenty-six and one thousand twenty-four are determinatives (a word category) that serve as determiners (a function) in a noun phrase. They supply a numerical value and have no number inflection. A cardinal can also be a fused determiner-head, standing for the whole noun phrase, as in I bought three. In two hundred, the first word is a factor in the magnitude phrase rather than a determiner of the noun. Whether a cardinal gives an exact total or a lower boundary depends on context.
+  terms: 'Cardinal number or numeral: the traditional names. This dictionary says cardinal determinative for the word and determiner for the function. Numerative is the dictionary''s own word for number words and phrases.'
+  examples:
+    - text: I saw [three] cats.
+      from: entry
+    - text: She has [twenty-six] students.
+      from: entry
+    - text: The building has [one thousand twenty-four] rooms.
+      from: entry
+  contrasts:
+    - text: I saw three cats.
+      from: constructed
+      note: Three is a determiner in the noun phrase three cats.
+    - text: I bought three.
+      from: constructed
+      note: Three stands alone as fused determiner-head.
+  watch_for:
+    - A learner might take three to mean exactly three cats in every context, when context decides between an exact total and a lower boundary.
+    - A learner might treat three in I bought three as a different kind of word from three in three cats.
+    - A learner might expect a number word that determines a noun to take a plural ending, though cardinal determinatives have no number inflection.
+  activity: Give students short texts with number words. They underline each number and mark whether a noun follows it (three cats) or whether it stands alone (I bought three).
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.summary no longer says a number word before a noun is always a determiner (the entry distinguishes factors such as two in two hundred).'

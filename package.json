@@ -3,13 +3,15 @@
   "version": "0.1.0",
   "description": "A collaborative dictionary of English constructions in CxG",
   "scripts": {
-    "validate": "node scripts/validate.js && node scripts/lint.js",
+    "validate": "node scripts/validate.js && node scripts/lint.js && node scripts/validate-editions.js",
     "lint": "node scripts/lint.js",
     "build:web": "node scripts/build-web-manifest.js",
     "web": "node scripts/serve-web.js",
     "grounding": "node scripts/grounding-report.js",
     "graph": "node scripts/export-graph.js",
-    "relations": "node scripts/find-relations.js"
+    "relations": "node scripts/find-relations.js",
+    "build:site": "node scripts/build-site.js --out ../../personal/personal-website/constructionary",
+    "check:editions": "node scripts/check-editions.js --provider explabs --write --out runs/checks"
   },
   "dependencies": {
     "ajv": "^8.12.0",

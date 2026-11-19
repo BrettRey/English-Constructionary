@@ -1,0 +1,38 @@
+id: so-nominal-predication-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: So plus a noun to mean a quality
+  summary: With stress on so, a noun or name can work like a describing word that you can have a lot of.
+  body: |-
+    In It's so college, the word college isn't naming a place. It stands for a quality we associate with college, and so tells us there's a lot of it. In You're so glass half full today, the expression makes an optimistic attitude available to be graded.
+
+    A familiar name can work this way too, as in This is so Obama!, when speakers link the person with a style or quality. The name still names its bearer in other settings. This dictionary marks the analysis as provisional.
+  examples:
+    - text: You're [so glass half full] today.
+      from: entry
+    - text: It's [so college].
+      from: entry
+    - text: This is [so Obama]!
+      from: entry
+  try: Think of a name or a place that stands for a style. Say That's so ... with stress on so. What quality do you mean?
+teacher:
+  summary: Helps explain stressed so before a noun or name to grade an associated quality.
+  explain: In the frame Subject + be + stressed so + nominal expression, so invites a degree interpretation from a contextually retrieved property. The final expression makes a description, such as optimism, available to be graded. A familiar name can work similarly when speakers associate its bearer with a style or quality, while keeping its ordinary use to identify the bearer elsewhere. The pattern doesn't settle the lexical category of every filler. This dictionary marks the analysis as provisional and relates it to degree, to proper names and to stressed some exclamatives.
+  terms: Intensifier so is traditional. Here it is stressed, and it grades a property associated with the nominal.
+  examples:
+    - text: You're [so glass half full] today.
+      from: entry
+    - text: It's [so college].
+      from: entry
+    - text: This is [so Obama]!
+      from: entry
+  watch_for:
+    - A learner might read so college as saying that something is a college, when it characterizes the situation by a feature associated with college.
+    - A learner might read so Obama as referring to the person, when it grades an associated quality.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,55 @@
+id: np-proper-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Phrases built on names
+  summary: A phrase built on a proper noun, such as London or the Thames, can identify one particular place, person or thing.
+  body: |-
+    London names a particular city, and it doesn't need a small word like the in front. The Thames is a name too, but it comes with the. Both kinds of phrase point to one particular thing.
+
+    A name's form doesn't settle how the phrase works. In two Kims, the name Kim takes a number and a plural ending.
+  examples:
+    - text: '[London]'
+      from: entry
+    - text: '[the Thames]'
+      from: entry
+    - text: I know [two Kims].
+      from: constructed
+  try: Think of a name. Can you say two of them, like two Kims?
+teacher:
+  summary: Covers noun phrases headed by proper nouns, and shows that name form doesn't fix referential status.
+  explain: A proper noun phrase has a proper noun as its nominal head, and is prototypically used as a proper name identifying a unique entity. London can occur without an article when it identifies the city, while the Thames takes the. A construction such as two Kims uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP's referential status. The dictionary also records secondary uses of proper names and complex names, and marks this account as provisional.
+  terms: Proper noun is the traditional term for the word class, and proper name for the use of identifying a unique entity. The dictionary keeps the two apart.
+  examples:
+    - text: '[London]'
+      from: entry
+    - text: '[the Thames]'
+      from: entry
+    - text: '[two Kims]'
+      from: constructed
+  contrasts:
+    - text: '[London] was the next stop.'
+      from: constructed
+      note: A name that identifies a city, with no article.
+    - text: I know [two Kims].
+      from: constructed
+      note: A name with a numeral and plural marking.
+  watch_for:
+    - A learner might think a proper noun can't take a determiner or a plural.
+    - A learner might treat the Thames as a common noun phrase because it has the.
+  activity: Give students a list of names (London, the Thames, Kim). They sort them by whether the name has an article, then try adding a number to each name where it makes sense.
+child:
+  hook: Can a name be plural?
+  explain: A name points to one particular person, place or thing. London is a name, and so is the Thames. Sometimes you can count names too. If two people are called Kim, you know two Kims.
+  examples:
+    - text: I visited [London].
+      from: constructed
+    - text: I know [two Kims].
+      from: constructed
+  play: Think of a name that two people share. Say how many people have that name using a number and the name.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

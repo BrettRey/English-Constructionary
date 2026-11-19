@@ -1,0 +1,43 @@
+id: god-knows-indeterminate-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: God knows what
+  summary: A phrase like God knows what, placed inside a larger phrase, marks something as unknown or left unspecified, often with feeling.
+  body: |-
+    In They packed God knows what in these boxes, the speaker doesn't say what the items were. In He filed goodness knows how many pages, the number of pages is the unknown value. Both put the phrase right inside the object and mark an open value with emphasis.
+
+    This dictionary lists variants with Heaven, the Lord and goodness in place of God. A separate sentence such as God knows how many pages he filed can also make a literal claim about who knows, so what the phrase does depends on where it sits.
+  examples:
+    - text: They packed [God knows what] in these boxes.
+      from: entry
+    - text: He filed [goodness knows how many pages].
+      from: entry
+    - text: She put [God knows what] in the soup.
+      from: entry
+  try: 'Finish this sentence with your own version: She bought heaven knows ... Does the phrase stand in for a missing item or amount?'
+teacher:
+  summary: Mostly for advanced classes, an idiomatic stance formula that fills a slot for an unknown item or amount.
+  explain: 'The pattern is a fixed authority expression plus knows plus an indeterminate expression such as what or how many, placed inside an argument or modifier: God knows what in They packed God knows what in these boxes. It marks a value as unknown or left unspecified, often with an emphatic stance. Variants use Heaven, the Lord and goodness. In an independent sentence such as God knows how many pages he filed, it can also be a literal claim about knowledge. This dictionary says that a literal knowledge clause does not generally have the embedded distribution, and that the internal constituency of the formula is open.'
+  terms: Indeterminate is this dictionary’s term for words like what and how many that identify an open value.
+  examples:
+    - text: They packed [God knows what] in these boxes.
+      from: entry
+    - text: He filed [goodness knows how many pages].
+      from: entry
+    - text: She put [God knows what] in the soup.
+      from: entry
+  contrasts:
+    - text: God knows how many pages he filed.
+      from: entry
+      note: As an independent sentence, can make a literal claim about knowledge.
+  watch_for:
+    - A learner might read God knows what in an object slot as a literal claim about divine knowledge.
+    - A learner might expect the variant with goodness or Heaven to work only as an independent sentence.
+  activity: Give students three sentences with a blank in the object slot (He filed ..., She cooked ..., They bought ...). Students fill them with an authority word plus knows and an indeterminate, then say what is left unspecified.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,49 @@
+id: paired-np-introduction-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Introducing someone with two names
+  summary: Saying someone's name, pausing, then naming or describing someone else can introduce that second person or thing to the first.
+  body: |-
+    A volunteer at an animal shelter says Alex, Teacup. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.
+
+    There's no verb, and none is needed. The second phrase can be a name, as in Elise, Casey, or a description, as in Alex, the new vet. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.
+  examples:
+    - text: '[Alex, Teacup.]'
+      from: entry
+    - text: '[Elise, Casey.]'
+      from: entry
+    - text: '[Alex, the new vet.]'
+      from: entry
+  try: Introduce a friend to someone using only two phrases and a pause. Does the listener work out who is who?
+teacher:
+  summary: Shows how two noun phrases with a pause can serve as a complete introduction.
+  explain: 'The pattern is a vocative NP, a pause, then an NP that is a name or a definite description. The first NP picks out the addressee, and the second identifies the referent being introduced to that addressee. A pause separates the two, and gaze or gesture often helps identify the person or animal introduced. The introduced referent can be presented by name or by description, without a preceding clause to complete. This dictionary treats the pair as a clause analogue: the two phrases conventionally perform an introduction without a VP at the construction''s level. This dictionary marks the analysis as provisional.'
+  terms: Vocative is the traditional name for the first NP. This dictionary calls the whole pattern a paired-NP introduction.
+  examples:
+    - text: '[Alex, Teacup.]'
+      from: entry
+    - text: '[Elise, Casey.]'
+      from: entry
+    - text: '[Alex, the new vet.]'
+      from: entry
+  watch_for:
+    - A learner might read the two phrases as a list of two people being addressed, when the first is the addressee and the second the person introduced.
+    - A learner might expect an introducing verb, when none is required.
+  activity: Students role-play introductions with a pause between a vocative and a name, then with a description in place of a name. Observers say who is addressed and who is being introduced.
+child:
+  hook: How can you introduce a friend with just two names?
+  explain: Say the name of the person you're talking to. Pause. Then say the name of the person you're introducing. Pointing or looking helps.
+  examples:
+    - text: '[Alex, Teacup.]'
+      from: entry
+    - text: '[Elise, Casey.]'
+      from: entry
+  play: Pair up. Introduce a toy or a classmate to your partner using only two names and a pause.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.summary no longer says the two are introduced to each other; it gives the entry''s direction (the second referent is introduced to the person addressed by the first). Also fixed (unflagged): provisional sentence in teacher.explain.'

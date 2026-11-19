@@ -1,0 +1,46 @@
+id: descriptor-identifier-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A kind of thing plus its label
+  summary: A word naming a kind of thing, followed by a number or letter code, can pick out one particular thing.
+  body: |-
+    Many names are built from two parts: a word that says what kind of thing it is, and a label that says which one. In Room 302A, Room gives the kind and 302A is the label. In Gen Z, Gen tells you it's a generation and Z is its label.
+
+    The label can be a number, a letter or a mix of both. What the label means depends on the system it belongs to. A university, for instance, can give the same space two designations, Room 302A and Multipurpose Room A. Changing the label might change which thing you mean, unless the two labels are just different names for the same thing.
+  examples:
+    - text: '[Room 302A], [Multipurpose Room A]'
+      from: entry
+    - text: in [Gen Z]
+      from: entry
+    - text: She's in [Ward 17].
+      from: constructed
+  try: Think of a place you know that has a kind word plus a code, like a room, a gate or a ward. Does the code tell you anything beyond "this one"?
+teacher:
+  summary: Helps explain why Room 302A and Gen Z are naming patterns, not descriptions with a number or letter attached.
+  explain: These names pair a descriptor (the word giving the kind of bearer, such as Room or Gen) with an identifier (a number, letter name or mixed code) that picks out a bearer within a naming system. The same pattern covers Ward 17, Room 302A and Gen Z. In CGEL, an embellishment is a semantically nonrestrictive dependent accompanying a proper name. This dictionary leaves open which element is the syntactic head and what word category the identifier has. Any quantity or rank the code suggests depends on how the codes were allocated locally. Contrast 101 rooms, where 101 counts rooms, with Room 101, where it identifies one.
+  terms: 'Descriptor: CGEL''s term for the element that indicates the kind of entity named, as in Ward 17. Embellishment: CGEL''s term for a nonrestrictive dependent accompanying a proper name.'
+  examples:
+    - text: '[Room 302A], [Multipurpose Room A]'
+      from: entry
+    - text: in [Gen Z]
+      from: entry
+    - text: '[Ward 17]'
+      from: constructed
+  contrasts:
+    - text: '[Room 101]'
+      from: constructed
+      note: The number identifies one room.
+    - text: 101 rooms
+      from: constructed
+      note: The number says how many rooms.
+  watch_for:
+    - A learner might read Room 302A as a count or ranking of rooms rather than a label for one room.
+    - A learner might treat Gen Z as a description of a person's character rather than as the label for a generation.
+  activity: Students collect descriptor-plus-code names from their school or neighbourhood (rooms, buses, forms, teams), then sort the codes into numbers, letters and mixed codes and say what kind each code names.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

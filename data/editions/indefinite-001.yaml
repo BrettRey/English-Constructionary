@@ -1,0 +1,56 @@
+id: indefinite-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Noun phrases that don't present a thing as already identifiable
+  summary: Phrases such as a dog or some students refer without treating the thing as one the listener can already pick out.
+  body: |-
+    When you say a dog, you refer to something without presenting it as already uniquely identifiable to the listener. You may know exactly which dog you mean. The phrase just doesn't ask the listener to work that out.
+
+    This kind of phrase can introduce something new, as in there is a solution. It can leave the choice open, as in take a card, where any card will do. And it can say what kind of thing someone is, as in is a teacher. The word a alone doesn't settle which of these you've got, and A student phoned can even be about one particular student the speaker knows.
+  examples:
+    - text: '[a dog]'
+      from: entry
+    - text: '[some students]'
+      from: entry
+    - text: there is [a solution]
+      from: entry
+    - text: take [a card]
+      from: entry
+    - text: is [a teacher]
+      from: entry
+  try: Say A student phoned and A student can enter. In which one might the speaker have one particular student in mind?
+teacher:
+  summary: Explains that indefinite noun phrases don't mark the referent as identifiable, and that the same form covers several uses.
+  explain: 'This dictionary describes indefinite reference as referring without presenting the referent as already uniquely identifiable. The speaker may know the identity, and the construction doesn''t require the hearer to resolve it from prior information. It lists four uses: reference without presenting the referent as already identifiable (a dog, some students), a new discourse entity (there is a solution, first mention), an arbitrary instance where the choice is left open (take a card), and type membership (is a teacher, is some kind of expert). Choice and permitted quantity are separate. The article alone doesn''t rule out specific reference or supply an any-member permission. A student phoned can refer to a particular student known to the speaker, while A student can enter allows a general reading. This analysis is provisional.'
+  terms: Traditionally, a and an are called indefinite articles. In CGEL terms they're determinatives, and the noun phrase can include bare plural or non-count forms. The specific and non-specific readings are the textbook names for the contrast between a particular referent and a general one.
+  examples:
+    - text: '[a dog]'
+      from: entry
+    - text: there is [a solution]
+      from: entry
+    - text: take [a card]
+      from: entry
+    - text: is [a teacher]
+      from: entry
+    - text: '[some students]'
+      from: entry
+  contrasts:
+    - text: A student phoned.
+      from: constructed
+      note: Can refer to a particular student known to the speaker.
+    - text: A student can enter.
+      from: constructed
+      note: Allows a general reading.
+  watch_for:
+    - A learner might assume that a means the speaker doesn't know which one is meant.
+    - A learner might read take a card as allowing any number of cards.
+    - A learner might read is a teacher as introducing a new person rather than naming a category the person belongs to.
+  activity: Give students short sentences with a, some and bare plurals. They label each as introducing something new, leaving a choice open, or naming a category, and note any sentence that could fit more than one.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious title no longer implies the thing is unknown (the entry allows a particular individual known to the speaker); teacher explanation no longer turns the first meaning into a novelty requirement, and says ''this dictionary'' for ''the entry''.'

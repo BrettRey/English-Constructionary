@@ -1,0 +1,47 @@
+id: deitality-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words that behave like this and that
+  summary: This dictionary uses deitality for a pattern of grammatical behaviour shared by the, this, that and similar words, separate from what they mean.
+  body: |-
+    Words like this, that, these, those and the behave alike in ways that have nothing to do with pointing. They resist the neutral there was pattern: There was the dog in the yard doesn't work in the ordinary, neutral way. They can name the group a partitive is drawn from, as in two of the dogs. And they readily host extra identifying material, as in that idiot Larry.
+
+    This dictionary calls that bundle of behaviour deitality. It is related to definiteness, which is about meaning, but the two don't line up perfectly. Membership in the pattern is a matter of degree, and the analysis is provisional.
+  examples:
+    - text: two of [the] dogs
+      from: entry
+    - text: '[that] idiot Larry'
+      from: entry
+  try: Compare two of the dogs with two of some dogs. Which one works? What does that tell you about the?
+teacher:
+  summary: 'For advanced classes: a grammatical profile (there-resistance, partitive domain, identificational hosting) that goes with, but isn''t the same as, definiteness.'
+  explain: 'Deitality is a structural (morphosyntactic) profile of English determination, distinct from semantic definiteness. The prototype is the demonstratives (this, that, these, those). Core members include the, personal genitives and genitive NPs in determiner function. Three diagnostics are ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this and proper names each mark a point where they separate. Membership is graded, with status labels deital, non-deital, mixed and provisional. The analysis is provisional.'
+  terms: The, this, that, these and those are determinatives; Determiner is their function. The there-resistance is labelled the definiteness effect in this dictionary. Here it counts as one diagnostic of a structural profile, not as definiteness itself.
+  examples:
+    - text: two of [the] dogs
+      from: entry
+    - text: '[that] idiot Larry'
+      from: entry
+  contrasts:
+    - text: There was [the] dog in the yard.
+      from: entry
+      acceptable: false
+      note: There-resistance under neutral prosody.
+    - text: two of [the] dogs
+      from: entry
+      note: Domain-establishing complement in a true partitive.
+    - text: two of [some] dogs
+      from: entry
+      acceptable: false
+      note: Not acceptable as a true partitive.
+  watch_for:
+    - A learner might treat deitality and definiteness as the same thing, when weak definites, generic definites, narrative this and proper names show where they separate.
+    - A learner might expect a form to be either deital or not, when membership is graded.
+  activity: Students test the, this, that, a and some in the frames there was ___ dog in the yard, two of ___ dogs and ___ idiot Larry, tallying which words fit each frame and discussing why the results line up with, but don't exactly match, meaning.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

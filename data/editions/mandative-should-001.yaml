@@ -1,0 +1,37 @@
+id: mandative-should-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Should after a strong requirement
+  summary: After a word that states a strong requirement, a that-clause can use should to say what is required.
+  body: |-
+    In It is essential that the gate should remain closed, the should is part of the requirement. The clause after that tells us what has to happen to the gate.
+
+    A word like essential strongly requires something, and should can follow it in this way. The should doesn't weaken the requirement. It doesn't turn the sentence into a mild piece of advice.
+
+    This dictionary also has a related entry for a version without should, which can replace it in the same kind of sentence.
+  examples:
+    - text: It is essential [that the gate should remain closed].
+      from: entry
+  try: Say It is essential that the gate should remain closed. Is the requirement strong or weak?
+teacher:
+  summary: Helps explain should in that-clauses after strongly requiring words like essential, and why it doesn't soften the requirement.
+  explain: 'In a mandative content clause, should can follow the subject and take a plain-form VP: that the gate should remain closed. The pattern realizes a requirement or recommendation. Should is possible with strongly requiring predicates such as essential, and the modal need not weaken the strength of the matrix requirement. This dictionary has a separate entry for the alternating form without should. This dictionary marks the analysis as provisional and short.'
+  terms: Mandative construction is the usual name. The related form without should is called the subjunctive mandative in this dictionary.
+  examples:
+    - text: It is essential [that the gate should remain closed].
+      from: entry
+  contrasts:
+    - text: It is essential that the gate should remain closed.
+      from: entry
+      note: Strongly requiring predicate with should; the requirement isn't weakened.
+  watch_for:
+    - A learner might hear should as mild advice, when here it need not weaken the strength of the requirement.
+    - A learner might read should as a prediction about the gate, when it states what is required.
+  activity: Students complete sentences beginning It is essential that ... with a subject and should plus a plain verb, then discuss how strong each requirement feels.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

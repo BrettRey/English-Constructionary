@@ -1,0 +1,55 @@
+id: modal-interrogative-request-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Questions that are really requests
+  summary: A yes-or-no question with can, could, will or would and you can be a way to ask someone to do something.
+  body: |-
+    Could you lower the shade? has the form of a question, but the speaker wants the shade lowered. The listener can satisfy it by doing that, rather than by answering yes or no.
+
+    The pattern is a yes-or-no question with can, could, will or would and you as the subject. The same words can also be a real question. If the setting is a test of what someone is able to do, Could you lower the shade? can invite an answer about ability instead.
+  examples:
+    - text: '[Could you lower the shade?]'
+      from: entry
+    - text: '[Will you close the door?]'
+      from: constructed
+    - text: '[Would you pass the salt?]'
+      from: constructed
+  try: Next time you ask someone for help with Can you ... or Could you ..., notice whether they answer in words or just do it.
+teacher:
+  summary: 'Useful for teaching requests: the interrogative form with a modal and you asks for action.'
+  explain: 'The pattern is a polar interrogative with can, could, will or would and a second-person subject, used to request the addressee''s action. The same form can also be a literal question; the use differs. Could you lower the shade? can be satisfied by lowering the shade. In a capacity-testing context the same form can invite an answer about ability. Teachers can contrast it with the imperative, which this dictionary lists as a related construction. This dictionary classes the pattern as pragmatic: it concerns how the form is used.'
+  terms: Indirect speech act or indirect request are textbook names for this kind of use.
+  examples:
+    - text: '[Could you lower the shade?]'
+      from: entry
+    - text: '[Can you open the window?]'
+      from: constructed
+    - text: '[Would you close the door?]'
+      from: constructed
+  contrasts:
+    - text: Could you lower the shade?
+      from: entry
+      note: A request; lowering the shade satisfies it.
+    - text: Lower the shade.
+      from: constructed
+      note: The related imperative.
+  watch_for:
+    - A learner might answer Could you lower the shade? with only yes, taking it as a question about ability.
+  activity: Students write three requests with can, could or would and you for a classroom situation (a closed window, a lost pen). In pairs, one reads the request and the other responds with an action, not words. Discuss when a spoken answer would be expected instead.
+child:
+  hook: When someone asks "Can you pass the salt?", do they want just a yes?
+  explain: Some questions are really ways of asking for something. Could you lower the shade? asks you to lower it. You can answer by doing it.
+  examples:
+    - text: '[Could you lower the shade?]'
+      from: entry
+    - text: '[Will you close the door?]'
+      from: constructed
+  play: Ask a friend to do something with Could you or Will you. They answer by doing it, not by speaking. Then swap.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.explain no longer mentions willingness questions (the entry supports only the capacity-testing ability reading). Also fixed (unflagged): removed ''polite'' from curious.summary and teacher.summary and cut the watch_for about a future reading, since the entry supports neither.'

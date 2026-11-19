@@ -1,0 +1,54 @@
+id: numerative-ordinal-adjective-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words for position in a line
+  summary: Words like first and twenty-second say where something comes in an ordered sequence.
+  body: |-
+    Words like first, second and twenty-second give rank or position. They're built from a number word by adding -th, or they're special forms, as with first, second and third.
+
+    They work like describing words. In the third chapter, third sits before the noun alongside the word the. This dictionary separates that use from three thirds, where the same-looking word is a noun naming a fraction, with a plural ending and a number in front.
+  examples:
+    - text: '[first]'
+      from: entry
+    - text: '[twenty-second]'
+      from: entry
+    - text: the [third] chapter
+      from: constructed
+  try: Line up five objects and name their positions. Which position words have special forms?
+teacher:
+  summary: Helps explain ordinal words as adjectives, and how they differ from fraction nouns that look the same.
+  explain: 'Ordinal adjectives specify rank or position. They''re formed from a cardinal base plus -th or are suppletive (first, second, third). They head AdjPs and function as attributive modifiers or predicative complements, and they can co-occur with determiners: the third chapter. Twenty-second is a further example, at rank 22. The same form can be a fractional noun: in three thirds, third is a count noun with plural marking and a preceding numeral. This dictionary, which marks the analysis as provisional, uses distribution in the NP to tell the two apart.'
+  terms: Ordinal number or ordinal numeral is the traditional name for these words. This dictionary treats ordinals as adjectives, and fractions such as thirds as nouns.
+  examples:
+    - text: '[first]'
+      from: entry
+    - text: '[twenty-second]'
+      from: entry
+  contrasts:
+    - text: the [third] chapter
+      from: constructed
+      note: Ordinal adjective, modifying chapter beside the determiner the.
+    - text: three [thirds]
+      from: constructed
+      note: Fractional noun with plural marking and a numeral in front.
+  watch_for:
+    - A learner might treat third in three thirds as the same word class as third in the third chapter.
+    - A learner might expect every ordinal to have a special form, when only first, second and third are listed as suppletive here.
+  activity: Students stand in a line and each says their position (first, second, third). Then they write one sentence using an ordinal before a noun, such as the third chapter, and one using a fraction such as three thirds, and say which is which.
+child:
+  hook: What words tell you who is first, second and third in a race?
+  explain: Some words tell you the place in a line. First, second and third are special words. Some others are made by adding th to the number. They can go before a noun, like the third chapter.
+  examples:
+    - text: Mia finished [first].
+      from: constructed
+    - text: Read [the third chapter].
+      from: constructed
+  play: Line up toys and say each one's place, like the first one and the second one. Then make up a sentence that puts a place word before a noun.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: teacher.explain no longer offers twenty-second as an example of a factor (the entry licenses factors in complex ordinals but does not say twenty-second has one); it is now just an example of rank 22. Also fixed (unflagged): ''the entry'' replaced by ''this dictionary''; irregular changed to suppletive as in the entry. Second round: fixed child.explain, Others changed to Some others (the entry''s twenty-second is not formed by adding th); teacher.terms now gives the traditional names for these words rather than for a word class.'

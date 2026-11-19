@@ -1,0 +1,40 @@
+id: let-alone-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Setting aside a bigger claim with let alone
+  summary: Let alone pairs a smaller claim with a bigger one on a scale. On the usual negative pattern, if even the smaller one fails, the bigger one can be set aside.
+  body: |-
+    In Few people have seen the document, let alone know what's in it, the speaker names something easier first (seeing the document) and then something harder (knowing what's in it). If even the easier thing is rare, the harder one can be set aside.
+
+    The two parts line up on a scale, such as how hard something is. On the usual negative pattern, the first is the easier, smaller or otherwise more attainable one, and the second is the harder one. Sentences with a negative, as in We couldn't fit a bicycle, let alone a whole sofa, through that doorway, are the favoured setting. What comes after the sofa, through that doorway, belongs to both parts.
+  examples:
+    - text: '[Few people have seen the document, let alone know what’s in it.]'
+      from: entry
+    - text: '[We couldn’t fit a bicycle, let alone a whole sofa, through that doorway.]'
+      from: entry
+  try: Think of something hard you haven't done, and something even harder. Can you join them with let alone?
+teacher:
+  summary: 'For advanced classes: how let alone joins an easier and a harder alternative and, on the usual negative pattern, dismisses the harder one.'
+  explain: Let alone pairs two contrasting foci, A and B, with shared material that can follow both. On the usual negative pattern, B is dismissed because A, which is easier, smaller or otherwise more attainable on a contextual scale, already fails. Negation and other downward-oriented environments favour the pattern. The material after let alone can be a short phrase whose interpretation draws on the shared material, so a whole sofa is read together with through that doorway. CGEL treats let alone as a candidate marginal coordinator. The original study also discusses positive uses and speaker variation, so don't present the negative pattern as the only one.
+  terms: CGEL treats let alone as a candidate marginal coordinator, so it is related to coordination in this dictionary.
+  examples:
+    - text: '[Few people have seen the document, let alone know what’s in it.]'
+      from: entry
+    - text: '[We couldn’t fit a bicycle, let alone a whole sofa, through that doorway.]'
+      from: entry
+  contrasts:
+    - text: We couldn't fit a bicycle, let alone a whole sofa, through that doorway.
+      from: entry
+      note: A and B are both NPs; through that doorway applies to both.
+  watch_for:
+    - A learner might put the harder alternative before let alone, when on the negative pattern the first alternative is the easier one.
+    - A learner might use let alone to join two alternatives with no contextual scale ordering them, when the two are ordered on a contextual scale.
+  activity: Give students a scale such as walking a block, a kilometre, a marathon. They write sentences with a negative and let alone, choosing the easier alternative first, and swap to check whether each pair is ordered correctly.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.summary, curious.body, teacher.summary, teacher.explain and teacher.watch_for now tie the failure-of-the-easier-alternative account to the usual negative pattern and allow other contextual scales, as the entry does.'

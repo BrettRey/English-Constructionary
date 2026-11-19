@@ -1,0 +1,59 @@
+id: be-passive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Putting the receiver first
+  summary: In a passive sentence, the object of the matching active sentence becomes the subject, and the active sentence's subject can come later after by or be left out.
+  body: |-
+    In My surfboard was stolen by Pat, the surfboard comes first, though it's what Pat stole. The person who acted appears after by. In My surfboard was stolen, the doer is simply left out.
+
+    The first thing can come from other places too. In Her paper is referred to by everyone, the paper is what everyone refers to, and the active version has it after the word to. This dictionary covers the passives made with the helper verb be, followed by a word like stolen.
+  examples:
+    - text: '[My surfboard was stolen by Pat.]'
+      from: entry
+    - text: '[My surfboard was stolen.]'
+      from: entry
+    - text: '[Her paper is referred to by everyone.]'
+      from: entry
+  try: Take an active sentence like Pat stole my surfboard and turn it around. What happens to Pat?
+teacher:
+  summary: Explains the be-passive as a way of realigning a verb's arguments so an active complement becomes the subject.
+  explain: In the verbal be-passive, an internal complement of the active verb appears as the subject, and the participial VP lacks that complement. A by-phrase can realize the participant that would be the active subject, and the short passive usually leaves that participant unexpressed. The externalized complement can be a direct object, an indirect object, or the object of a preposition, as in the paper was referred to. The by-phrase can supply an experiencer when the active subject is an experiencer. The participial VP may have complements and verbal modifications. Only the construction with auxiliary be is covered here.
+  terms: Long passive has a by-phrase, and short passive has none. Such clauses are sometimes said to be in the passive voice; this dictionary calls the version with be the verbal be-passive.
+  examples:
+    - text: '[My surfboard was stolen by Pat.]'
+      from: entry
+    - text: '[My surfboard was stolen.]'
+      from: entry
+    - text: '[Her paper is referred to by everyone.]'
+      from: entry
+  contrasts:
+    - text: Pat stole my surfboard.
+      from: constructed
+      note: The active version.
+    - text: My surfboard was stolen by Pat.
+      from: entry
+      note: Long passive; the active subject is the complement of by.
+    - text: My surfboard was stolen.
+      from: entry
+      note: Short passive.
+  watch_for:
+    - A learner might think the by-phrase is required, when a short passive can leave that participant out.
+    - A learner might expect only a direct object to become the subject, when a prepositional object can too (Her paper is referred to).
+  activity: Students turn active sentences into long passives and then short passives. They say which participant becomes the subject and where the original subject went.
+child:
+  hook: In "My surfboard was stolen", who is missing from the sentence?
+  explain: You can start a sentence with the thing something happened to. My surfboard was stolen by Pat. If we don't need to say who did it, we can leave out by Pat.
+  examples:
+    - text: '[My surfboard was stolen by Pat.]'
+      from: entry
+    - text: '[My surfboard was stolen.]'
+      from: entry
+  play: Make up a sentence like Pat stole my surfboard. Turn it around so the thing comes first. Then try it without the doer.
+checked:
+  date: "2026-11-19"
+  model: claude-opus-5-5 (resolving glm-5.3 flags)
+  result: fixed
+  note: "Fixed: teacher.terms dropped the frequency claim 'the usual textbook term' and now says such clauses are sometimes said to be in the passive voice, with the be version being this dictionary's verbal be-passive (passive voice is a widely used term and CGEL's own heading for this topic, Ch. 16 section 10, the entry's cited source; it is broader than the be-passive, so it is not offered as a synonym). Also fixed (unflagged): teacher 'The entry covers' changed to 'Only the construction with auxiliary be is covered here'. Dismissed: none. After a Codex recheck: the curious summary now says the active object becomes the subject and the active subject can follow by (it had said the thing something happens to comes first, and called that participant the doer); teacher texts now hedge the short passive as the entry does."

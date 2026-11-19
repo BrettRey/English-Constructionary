@@ -1,0 +1,42 @@
+id: unselected-object-resultative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Verbs that get an object they wouldn't normally take
+  summary: A result word can let a verb take an object that the verb alone wouldn't take, so the object is changed by the action.
+  body: |-
+    In The neighbours shouted the baby awake, the verb shouted is used with an object, the baby. The baby need not be the one being shouted at. What matters is the result: the baby ends up awake.
+
+    Compare The neighbours shouted at the baby. Here the baby can be the one addressed, and nothing says the baby changes. Drop awake from the first sentence and the affected-baby reading goes with it. The result word is what gives the baby its role.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: The neighbours [shouted the baby awake].
+      from: entry
+    - text: The neighbours [shouted at the baby].
+      from: entry
+  try: Compare shouted the baby awake with shouted at the baby. In which one is the baby changed by the shouting?
+teacher:
+  summary: For advanced classes, resultatives where the object is not the verb's ordinary object.
+  explain: The pattern is a VP with a verb, a noun phrase that is not the ordinary object of that verb, and a result predicate. It licenses an affected participant through the result predicate, including when the base verb normally takes no such object. In shouted the baby awake, the baby need not be an addressee, and the result requires an affected participant. Dropping awake removes that reading. This dictionary says this family goes beyond the reflexive-only subtype in the CGEL comparison, and records CGEL's narrower agentive intransitive pattern in a linked entry. The analysis is marked provisional.
+  terms: Resultative is the traditional name. The noun phrase is sometimes called a nonselected or unselected object.
+  examples:
+    - text: The neighbours [shouted the baby awake].
+      from: entry
+  contrasts:
+    - text: The neighbours shouted the baby awake.
+      from: entry
+      note: The baby is an affected participant; awake gives the result.
+    - text: The neighbours shouted at the baby.
+      from: entry
+      note: An addressee reading is possible, with no change of state attributed to the baby.
+  watch_for:
+    - A learner might read shouted the baby awake as meaning the baby was spoken to, when the result word supplies the affected-participant reading.
+    - A learner might think awake can be dropped without changing the meaning.
+  activity: Give students intransitive verbs such as laugh, sing and whisper. In groups they try to add an object and a result phrase, then discuss what each object has become.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

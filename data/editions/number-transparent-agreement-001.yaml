@@ -1,0 +1,43 @@
+id: number-transparent-agreement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: When the verb follows the noun after of
+  summary: In a number of applicants, the verb agrees with applicants, not with the singular word number.
+  body: |-
+    In A number of applicants were waiting, the word number is singular, yet the verb is plural. The verb follows the plural applicants after of.
+
+    Compare The number of applicants. There, number normally names a quantity, and the verb goes with it: singular. Three litres of milk was enough works the same way, with a singular verb for an amount.
+  examples:
+    - text: A number of applicants [were waiting].
+      from: entry
+    - text: The number of applicants was small.
+      from: constructed
+    - text: Three litres of milk was enough.
+      from: entry
+  try: Say A number of applicants were waiting. Then say The number of applicants was small. Why does the verb change?
+teacher:
+  summary: Explains why a plural verb can follow a singular noun like number when an of-phrase supplies the plural.
+  explain: In a licensed frame, a number-transparent nominal lets the number of the embedded complement determine agreement. In A number of applicants were waiting, the plural is licensed despite the singular number, so the verb follows applicants. With the number of applicants, the nominal normally denotes a numerical quantity and takes singular agreement. Compare an amount reading with singular agreement, as in Three litres of milk was enough. This is a specialization of verb-number agreement. The dictionary marks this account as provisional.
+  examples:
+    - text: A number of applicants [were waiting].
+      from: entry
+    - text: Three litres of milk [was] enough.
+      from: entry
+  contrasts:
+    - text: A number of applicants [were waiting].
+      from: entry
+      note: Plural agreement follows the of-complement.
+    - text: The number of applicants [was] small.
+      from: constructed
+      note: Number names a quantity, so agreement is singular.
+  watch_for:
+    - A learner might make the verb agree with the singular noun number in A number of applicants.
+    - A learner might use a plural verb after the number of applicants.
+  activity: Give students sentence frames with a number of and the number of. They choose the verb form, then explain which word the verb agrees with.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,52 @@
+id: so-neither-inversion-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying me too with so and neither
+  summary: So has Jo and neither has Jo add another person to what's just been said, with the helper verb coming before the new subject.
+  body: |-
+    After Lee has finished, you can add and so has Jo. This says Jo has finished too. For a negative statement, you use neither: Lee hasn't finished, and neither has Jo.
+
+    In both, the helper verb (has) comes before the person (Jo), and the rest of the earlier statement is understood without being repeated. A positive statement before it calls for so, a negative one for neither or nor. This dictionary marks the analysis as provisional.
+  examples:
+    - text: Lee has finished, and [so has Jo].
+      from: entry
+    - text: Lee hasn't finished, and [neither has Jo].
+      from: entry
+  try: Say something you've done, then add and so ... with a friend's name. Then try a negative one with neither.
+teacher:
+  summary: Helps explain so, neither and nor with subject-auxiliary inversion for additive agreement.
+  explain: 'In this additive pattern, so, neither or nor is followed by a finite auxiliary and then the subject. It affirms a parallel predication under matching polarity: a positive antecedent licenses so, and a negative one licenses neither or nor. The new subject follows the auxiliary, and the prior predicate is recoverable. This dictionary relates it to auxiliary VP ellipsis. CGEL discusses it under inversion after additive so and neither. The analysis is marked provisional.'
+  terms: Subject-auxiliary inversion is the order of auxiliary before subject.
+  examples:
+    - text: Lee has finished, and [so has Jo].
+      from: entry
+    - text: Lee hasn't finished, and [neither has Jo].
+      from: entry
+  contrasts:
+    - text: Lee has finished, and so has Jo.
+      from: entry
+      note: Positive antecedent, so.
+    - text: Lee hasn't finished, and neither has Jo.
+      from: entry
+      note: Negative antecedent, neither.
+  watch_for:
+    - A learner might use so after a negative statement, when matching polarity calls for neither or nor.
+    - A learner might put the subject before the auxiliary after so or neither.
+  activity: Students write a statement about themselves on a slip. Partners respond with and so ... or and neither ..., matching the polarity, and read the pair aloud.
+child:
+  hook: How do you say "me too" in a longer way?
+  explain: You can add another person with so or neither. Lee has finished, and so has Jo. Say neither when the first part is negative.
+  examples:
+    - text: Lee has finished, and [so has Jo].
+      from: entry
+    - text: Lee hasn't finished, and [neither has Jo].
+      from: entry
+  play: Say a sentence about one person, like Lee has finished. A friend adds a new person, starting with and so has. For Lee hasn't finished, the friend starts with and neither has.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.play no longer has the friend reuse the first speaker''s name; the friend now adds a new person after so or neither plus the helper word, as in the examples.'

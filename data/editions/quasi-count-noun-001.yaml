@@ -1,0 +1,44 @@
+id: quasi-count-noun-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Plural words with no single form
+  summary: Some nouns, such as cattle, are plural in form with no singular, and only partly behave like ordinary count nouns.
+  body: |-
+    Cattle works with many and takes plural verbs: many cattle. But it has no singular, and a cattle isn't something you say. These nouns refer to groups of separate individuals, yet they don't let us pick out one at a time in the usual way.
+
+    To count individuals, English uses a counting expression such as three head of cattle, or a different word altogether, like cow. This dictionary marks the account as provisional, though it treats the pattern as stable.
+  examples:
+    - text: '[many cattle]'
+      from: entry
+    - text: '[three head of cattle]'
+      from: entry
+  try: Try saying a cattle and then a cow. Which one lets you talk about a single animal? What would you say for several?
+teacher:
+  summary: Explains plural-only nouns like cattle that take many but resist a, one and low numbers.
+  explain: Quasi-count plural nouns are plural-only, with plural agreement, and resist singular forms and a/an. They allow loose count diagnostics (many, few, high round numerals) but tight ones (a/an, low cardinals, distributives) are degraded. Individuals are counted with specialized frames such as three head of cattle, or by a different word (cow, officer). Tight cardinality uses surface mainly in specialized registers. This dictionary marks the account provisional and says no claim about novel forms follows automatically. Folks is a boundary item showing instability.
+  terms: Related to plural-only or collective nouns in traditional grammars; this dictionary calls these quasi-count nouns, with a mixed countability profile.
+  examples:
+    - text: '[many cattle]'
+      from: entry
+    - text: '[three head of cattle]'
+      from: entry
+  contrasts:
+    - text: many cattle
+      from: entry
+      note: Loose count property is fine.
+    - text: a cattle
+      from: entry
+      acceptable: false
+      note: Tight count property rejected.
+  watch_for:
+    - A learner might think three cattle is the standard way to count three animals, when this dictionary gives three head of cattle.
+    - A learner might use a with cattle to refer to a single animal.
+    - A learner might treat all plural-only nouns as having the same profile.
+  activity: Students list plural-only nouns they know and test each with many, a and three, recording which tests fit.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

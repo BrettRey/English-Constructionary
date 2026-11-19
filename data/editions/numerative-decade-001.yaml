@@ -1,0 +1,48 @@
+id: numerative-decade-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Number words for whole tens
+  summary: The words twenty to ninety each name a number of tens.
+  body: |-
+    Twenty means 20, and seventy means 70. These words name whole tens, from twenty up to ninety, and each is built from a single-digit base with the ending -ty.
+
+    Sixty stands by itself as a word, and it also supplies the first part of sixty-four. Its link to six is easy to see. But you can't make a new tens word by adding -ty to just any number expression.
+  examples:
+    - text: '[twenty]'
+      from: entry
+    - text: '[seventy]'
+      from: entry
+    - text: '[sixty]-four'
+      from: constructed
+  try: Say all the tens words from twenty to ninety. Which one reminds you of its single-digit number?
+teacher:
+  summary: Covers the tens words twenty to ninety, built with -ty, as the base for numbers like sixty-four.
+  explain: A decade numerative specifies a cardinality in tens (20, 30, ..., 90), formed from a single-digit base and the suffix -ty. It's a basic numerative, so it can serve as determiner or factor, and it combines with single digits to form compounds such as twenty-one. Sixty can stand alone and can supply the first component of sixty-four. The relation to six is transparent, but a new decade form can't automatically be generated from any numerical expression by adding -ty. The dictionary treats the decade endings as lexical word formation, and marks this account as provisional.
+  terms: Numerative is this grammar's term for number words, where a textbook may say numeral. Decade numerals or tens words are common informal names.
+  examples:
+    - text: '[twenty]'
+      from: entry
+    - text: '[seventy]'
+      from: entry
+    - text: '[sixty]-four'
+      from: constructed
+  watch_for:
+    - A learner might think any number word can take -ty to make a tens word.
+    - A learner might miss that sixty relates to six, though the link is transparent.
+  activity: Students write the tens words from twenty to ninety, circle each ending, and match each with its single-digit base. Then they build three compound numbers from them.
+child:
+  hook: What do twenty, thirty and forty all end with?
+  explain: Words like twenty, seventy and ninety name whole tens. They end in -ty. Seventy means 70. You can count by tens with them.
+  examples:
+    - text: I counted [twenty] stones.
+      from: constructed
+    - text: He is [seventy] years old.
+      from: constructed
+  play: Count by tens out loud, from twenty up to ninety. Stop at each -ty word, and clap on each one.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

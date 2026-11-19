@@ -1,0 +1,51 @@
+id: why-not-proposal-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Why not do it?
+  summary: Why not plus an action suggests doing it, by asking whether there is any reason against.
+  body: |-
+    Why not call again tomorrow? looks like a question about a reason, but it works as a suggestion. It invites the listener to consider calling again, by asking what stands in the way.
+
+    A reply can simply accept the idea, such as "Good idea", instead of giving a cause. The verb after not is in its plain form, call, with no extra helper like do.
+
+    The dictionary marks this account as provisional.
+  examples:
+    - text: '[Why not call again tomorrow?]'
+      from: entry
+    - text: Why not ask your teacher?
+      from: constructed
+  try: Suggest something to a friend with Why not. Do they answer with a reason or with a yes?
+teacher:
+  summary: Helps explain why not as a way of suggesting an action.
+  explain: The pattern is why not followed by a plain verbal predicate. It invites consideration of an action by asking for a reason against it. The usual response can accept the suggestion instead of reporting a cause. The plain form can follow not without finite auxiliary do. This dictionary classes it as pragmatic, relates it to what-if and to directive entries, and marks its analysis provisional. Teach it as a suggestion that has the form of a question.
+  terms: Sometimes called a suggestion or proposal. The plain form is the bare infinitive of traditional grammar.
+  examples:
+    - text: '[Why not call again tomorrow?]'
+      from: entry
+    - text: Why not ask your teacher?
+      from: constructed
+  contrasts:
+    - text: Why not call again tomorrow?
+      from: entry
+      note: A suggestion made by asking for a reason against the action; a reply can simply accept it.
+  watch_for:
+    - A learner might read it only as a request for a cause, when a reply can simply accept the suggestion.
+    - A learner might look for do before not, when the plain form follows not directly.
+  activity: Pairs take turns making Why not suggestions about a weekend plan. The partner accepts, declines or counters, and the pair notes which replies give reasons and which don't.
+child:
+  hook: How do you suggest an idea without saying "You should"?
+  explain: Why not can be a way to suggest something. Why not call again tomorrow? It asks for a reason not to, and a friend can just say Good idea.
+  examples:
+    - text: '[Why not call again tomorrow?]'
+      from: entry
+    - text: Why not ask your teacher?
+      from: constructed
+  play: Take turns making a Why not suggestion. The next player says yes or gives a different idea.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: teacher contrast and watch_for no longer say no reason is asked for or that giving one is a learner error (the entry defines the proposal as asking for a reason against the action, while a reply may accept without a cause); child explanation now says it asks for a reason not to; 'the entry' replaced by 'this dictionary'."

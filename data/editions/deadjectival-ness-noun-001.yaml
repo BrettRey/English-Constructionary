@@ -1,0 +1,52 @@
+id: deadjectival-ness-noun-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Nouns ending in -ness
+  summary: Adding -ness to an adjective makes a noun naming the property or state the adjective describes.
+  body: |-
+    Clear is an adjective, and clearness names the property of being clear. In the clearness of the recording, the noun phrase talks about how clear the recording is. The same works with awkward and awkwardness.
+
+    A regular -ness noun keeps the stress of the base word. New formations can generally be understood if the adjective is familiar, though some -ness words have specialized meanings of their own. The -ity ending competes with it: both can make property nouns, as in kindness and opacity, and -ity can change the base.
+  examples:
+    - text: '[the clearness of the recording]'
+      from: entry
+    - text: '[unexpected awkwardness]'
+      from: entry
+  try: Choose an adjective for how you feel today and add -ness. Does the new word make sense?
+teacher:
+  summary: Helps explain -ness nouns such as clearness and awkwardness, and how they differ from -ity nouns.
+  explain: 'The pattern forms a common noun from an adjective plus -ness, naming a property or state characterized by the adjective. The regular formation preserves the stress of the base. Novel formations are generally interpretable given a recognizable adjective, although some derivatives lexicalize specialized readings. Competing -ity may shift stress or alter the base: both suffixes can create property nouns, as in kindness and opacity, and the adjective base constrains the choice of suffix.'
+  terms: These are sometimes treated under abstract nouns, a broader label. This dictionary treats the output as a common noun.
+  examples:
+    - text: '[the clearness of the recording]'
+      from: entry
+    - text: '[unexpected awkwardness]'
+      from: entry
+  contrasts:
+    - text: kindness
+      from: constructed
+      note: '-ness noun, built on kind.'
+    - text: opacity
+      from: constructed
+      note: '-ity forms a property noun and can alter the base.'
+  watch_for:
+    - A learner might think -ness and -ity can be swapped on any adjective.
+    - A learner might assume every -ness noun means only the adjective's quality, when some have specialized readings.
+  activity: Students list familiar adjectives and add -ness to each, using the new nouns in sentences such as "The ___ of the ___ surprised us." They mark which words, if any, also have an -ity partner.
+child:
+  hook: What do you call being kind? What about being clear?
+  explain: You can add -ness to a describing word to name the quality. Kind becomes kindness. Kind is still right there inside kindness.
+  examples:
+    - text: I liked [the clearness of the recording].
+      from: constructed
+    - text: Everyone noticed her [kindness].
+      from: constructed
+  play: Pick five describing words, like soft, bright and sad. Add -ness to each and use it in a sentence. Which new word is your favourite?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: kindness (-ness) and opacity (-ity) no longer presented as examples of what -ity does; stress preservation stated of regular -ness formations; child line no longer claims the whole pronunciation is kept; child example with added words relabelled constructed; ''abstract nouns'' flagged as a broader label. Dismissed: none.'

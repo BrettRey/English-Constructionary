@@ -1,0 +1,53 @@
+id: non-count-material-construal-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Treating a countable thing as stuff
+  summary: A word for a single thing, like apple or rabbit, can be used for the material it's made of instead of for individual things.
+  body: |-
+    We think of apples as things we can count. But in The toddler got apple all over the high chair, apple means apple matter, the mushy stuff, not whole apples. Nobody is counting anything.
+
+    The same shift happens in The stew contains some rabbit. Here rabbit means the meat, not an animal. The sentence is about how much, not how many.
+
+    Which material a word brings to mind depends on the word and on the situation.
+  examples:
+    - text: The toddler got [apple] all over the high chair.
+      from: entry
+    - text: The stew contains [some rabbit].
+      from: entry
+  try: Think of a word for a single thing, such as an animal or a fruit. Can you use it to mean the stuff it's made of?
+teacher:
+  summary: Helps explain how a count noun can be used with non-count grammar to mean material, including meat.
+  explain: A noun ordinarily used in count syntax can appear in an NP with non-count syntax, and then it describes material from identifiable objects or organisms without counting the individuals. Apple in there's apple all over the floor means apple matter. In the culinary reading the material is specifically meat, as in some rabbit. The resulting use has non-count grammar, and amount expressions are permitted. A determiner like the can leave both readings open, so the rabbit can be an animal or its meat. Which material a noun makes available depends on lexical convention and context. The dictionary marks this account as provisional.
+  terms: Sometimes called the grinding use of a count noun. Non-count is the term used here in place of mass.
+  examples:
+    - text: The toddler got [apple] all over the high chair.
+      from: entry
+    - text: The stew contains [some rabbit].
+      from: entry
+  contrasts:
+    - text: The rabbit is in the garden.
+      from: constructed
+      note: A count reading, an animal.
+    - text: The stew contains some rabbit.
+      from: entry
+      note: A non-count reading, meat.
+  watch_for:
+    - A learner might read apple in apple all over the floor as one whole apple.
+    - A learner might take the rabbit to mean only the animal, when the same form can be ambiguous between an animal and its meat.
+  activity: Show pairs of pictures (a whole fruit; a smear of the same fruit). Students write one sentence for each, using a non-count phrase for the second, then share and compare.
+child:
+  hook: Does "apple" have to mean one whole apple?
+  explain: Sometimes a word for a thing can mean the stuff it's made of. If a toddler gets apple all over the chair, it's a mess, not a whole apple.
+  examples:
+    - text: The toddler got [apple] all over the high chair.
+      from: entry
+    - text: There's [apple] on the floor.
+      from: constructed
+  play: Pick a fruit and make two sentences. In one, use a whole fruit. In the other, use the fruit as stuff on a table or a floor.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

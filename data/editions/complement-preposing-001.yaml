@@ -1,0 +1,43 @@
+id: complement-preposing-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Moving a part to the front
+  summary: Part of a sentence can be moved to the front to tie the sentence to something already in the conversation.
+  body: |-
+    Suppose a server has just said the bagels are sold out. A bran muffin I can give you moves the thing being given to the front, and the muffin is an available alternative to the bagels. In plain order it would come after the verb give.
+
+    The moved part needs a link to the conversation. It might have been mentioned, belong to a set that was, or be a contrast with something else. A phrase that just sets the scene can open a sentence without such a link. And the moved part leaves no repeated copy behind.
+  examples:
+    - text: '[A bran muffin I can give you.]'
+      from: entry
+    - text: About the forms, [two of them I have already signed].
+      from: entry
+  try: Think of a conversation in which someone could say A bran muffin I can give you. What might they have just said?
+teacher:
+  summary: Useful for explaining why a preposed object needs a discourse link, and how it differs from a fronted setting and from left dislocation.
+  explain: 'In complement preposing, a complement is fronted and the clause nucleus has a gap where it would normally appear: A bran muffin I can give you, where the fronted noun phrase is interpreted as the object of give. In its ordinary declarative use, the preposed complement needs a discourse link, even when the exact referent hasn''t been mentioned. The link can be repeated mention, a subset, or a contrasting alternative. A fronted adjunct can introduce a new setting with no prior link. Left dislocation differs: it leaves an overt expression in the nucleus.'
+  terms: 'Topicalization: another name for fronting a complement. Gap: the place in the clause where the fronted phrase is interpreted.'
+  examples:
+    - text: '[A bran muffin I can give you.]'
+      from: entry
+    - text: About the forms, [two of them I have already signed].
+      from: entry
+  contrasts:
+    - text: A bran muffin I can give you.
+      from: entry
+      note: Preposed complement. The muffin is the object of give; no copy remains in the clause.
+    - text: I can give you a bran muffin.
+      from: constructed
+      note: The same content in ordinary order.
+  watch_for:
+    - A learner might front any object, when the fronted complement needs a discourse link.
+    - A learner might confuse preposing with left dislocation, where an overt expression stays in the clause.
+    - A learner might think a fronted setting needs a prior link, when an initial setting adjunct has no such requirement.
+  activity: Students role-play a cafe. One says what is sold out, and the other offers an alternative with a preposed complement (A bran muffin I can give you). They then say what linked the muffin to the conversation.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

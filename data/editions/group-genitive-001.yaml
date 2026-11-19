@@ -1,0 +1,31 @@
+id: group-genitive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The 's at the end of a longer phrase
+  summary: When the owner is described by a long phrase, the 's goes at the very end of that phrase, not on the main word.
+  body: |-
+    In It was the person next door's ladder, the owner is the person next door. The 's doesn't go on person, the main word, but at the end of the whole phrase, on door.
+
+    So the word right next to the 's isn't the one the ladder belongs to. The ladder belongs to the person, and the reading comes from the whole phrase the 's closes off.
+  examples:
+    - text: It was [the person next door's ladder].
+      from: entry
+  try: Describe a friend with a phrase of three or four words, such as the girl at the bus stop. Say whose bag it is, and notice where the 's goes.
+teacher:
+  summary: For advanced classes, where the genitive 's goes when the possessor is a long phrase.
+  explain: 'The genitive marker attaches at the right edge of an extended possessor: the person next door''s ladder. Door is the rightmost host of the ''s, though the ladder is associated with the person. The possessor reading is determined by the whole genitive NP, not by the word that hosts the marker. This dictionary treats this as a specialization of the genitive ''s pattern, with a genitive NP in determiner function, and marks the analysis as provisional.'
+  terms: Phrasal genitive is this dictionary’s name. It is sometimes called a group genitive.
+  examples:
+    - text: It was [the person next door's ladder].
+      from: entry
+  watch_for:
+    - A learner might put the 's on person, the head noun, instead of at the end of the whole phrase.
+    - A learner might take door as the owner because it hosts the 's.
+  activity: Give students noun phrases with a modifier after the head (the woman at the desk, the boy next door). They add 's and a noun and then say who owns the object.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,57 @@
+id: measure-adjective-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Six feet long and six-foot-long
+  summary: A measurement followed by an adjective like long tells where something falls on a scale such as length.
+  body: |-
+    The board is six feet long uses a measurement (six feet) and an adjective (long) to say where the board falls on a scale. Before a noun, the same length is written six-foot-long, as in a six-foot-long board.
+
+    Notice the unit. In The board is six feet long, it has its ordinary plural, feet. Before the noun it stays singular, foot, and the written form has hyphens. Examples collected from real writing show variation in both directions, so this is a description, not a rigid rule.
+
+    Only certain adjectives fit the frame. A phrase like fifteen-pound turkey works without any adjective at all.
+  examples:
+    - text: The board is [six feet long].
+      from: entry
+    - text: We ordered a [six-foot-long] board.
+      from: entry
+  try: Describe something near you with a number, a unit and an adjective, like six feet long. Now put the same measure before a noun. Does the unit change?
+teacher:
+  summary: Helps explain six feet long versus six-foot-long, and why the unit is singular before the noun.
+  explain: A measure NP plus a scale adjective gives the position of a referent on a scale such as height, length or age. In a predicate the unit usually has its ordinary number inflection (six feet long). In a pre-head modifier it remains singular and is hyphenated in writing (a six-foot-long board). Corpus examples show variation in both directions, so present this as the default pattern. Only selected scale adjectives take the frame, even among adjectives that denote measurable properties. A modifier like fifteen-pound turkey works without an adjective. This dictionary relates the pre-head variant to modification of a following noun.
+  terms: The pre-head form is sometimes taught as a compound adjective or compound modifier. In this dictionary the predicative and attributive forms are two placements of one pattern.
+  examples:
+    - text: The board is [six feet long].
+      from: entry
+    - text: We ordered a [six-foot-long] board.
+      from: entry
+  contrasts:
+    - text: The board is six feet long.
+      from: entry
+      note: Predicative placement, plural unit.
+    - text: We ordered a six-foot-long board.
+      from: entry
+      note: Pre-head placement, singular unit, written with hyphens.
+    - text: We ordered a fifteen-pound turkey.
+      from: constructed
+      note: Works without an adjective after the unit.
+  watch_for:
+    - A learner might expect the unit to take the same form in both positions, when this dictionary describes the pre-head form as singular by default (six-foot-long).
+    - A learner might think any adjective can follow a measure, when only selected scale adjectives take the frame.
+  activity: Give students measure cards (six feet, two years, ten metres) and scale adjectives. They write one sentence after the verb and one before a noun for each, then check the unit and the hyphens.
+child:
+  hook: How long is the board?
+  explain: You can say the board is six feet long. Before a noun, you can say a six-foot-long board. There, feet has changed to foot.
+  examples:
+    - text: The board is [six feet long].
+      from: entry
+    - text: We ordered a [six-foot-long] board.
+      from: entry
+  play: Pick something in your room and measure it. Say how long it is in feet. Then put the measure before the thing, like a six-foot-long board.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: teacher watch_for no longer presents a plural unit before the noun as a learner error (the entry reports variation in both directions and calls the singular the default); child explanation no longer states an exceptionless rule; teacher explanation says ''usually'' as the entry does. Second round: fixed child.explain, whose ''with just one foot'' could be read as a measurement of one foot; it now says only that feet has changed to foot. Also fixed (unflagged): curious.body said the plural unit comes ''after the noun'' (it now names The board is six feet long); teacher.terms now applies the compound-adjective label to the pre-head form only; child.play no longer asks for a hyphen in speech.'

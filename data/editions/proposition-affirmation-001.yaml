@@ -1,0 +1,42 @@
+id: proposition-affirmation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: So I did
+  summary: Starting a short reply with so, then the subject and a helping verb, confirms what someone just said.
+  body: |-
+    If someone says You did promise, a reply of So I did agrees with them: yes, that's true. The reply confirms the point just made.
+
+    Changing the order changes the meaning. So did Jo doesn't confirm that you promised; it adds Jo as another person who promised. The same subject normally resumes the earlier statement when it comes before the helping verb. This dictionary marks the account as provisional.
+  examples:
+    - text: “You did promise.” “[So I did].”
+      from: entry
+    - text: “You did promise.” “[So did Jo].”
+      from: entry
+  try: Say You did promise, then reply So I did. Now reply So did Jo. How do the two replies differ?
+teacher:
+  summary: Shows how word order after so distinguishes confirming a statement from adding another person.
+  explain: 'Fronted so with a subject before the finite auxiliary (So I did) confirms or acknowledges the proposition just put into play. With subject-auxiliary inversion (So did Jo) the meaning changes: Jo is added as another subject who did the same thing. The same subject normally resumes the prior assertion, with subject before auxiliary, and inverted so did I typically adds a parallel case instead. This dictionary marks the analysis provisional. Make the order contrast the focus.'
+  terms: The inverted order (so did Jo) is the pattern in 'so do I'; this dictionary treats the two orders as distinct constructions.
+  examples:
+    - text: “You did promise.” “[So I did].”
+      from: entry
+    - text: “You did promise.” “[So did Jo].”
+      from: entry
+  contrasts:
+    - text: “You did promise.” “[So I did].”
+      from: entry
+      note: Same subject; confirms the proposition.
+    - text: “You did promise.” “[So did Jo].”
+      from: entry
+      note: Inversion adds Jo as another promiser.
+  watch_for:
+    - A learner might use So did I to confirm their own earlier action.
+    - A learner might read So did Jo as agreeing that you promised.
+  activity: Pairs read a statement with did, such as You did promise, and take turns answering with So I did or So did another name. The partner says whether the reply confirms or adds someone.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

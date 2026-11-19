@@ -1,0 +1,61 @@
+id: vocative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Calling someone by name
+  summary: A name or title said directly to the person you're speaking to, set apart from the rest of the sentence.
+  body: |-
+    In Mom, can you help me?, the word Mom isn't part of what is being asked. It addresses the hearer directly and picks them out as the person meant. This is a vocative.
+
+    It sits in its own stretch of speech, with its own tone, such as a fall-rise, a level tone, or a high held calling tone when summoning someone. It can come at the start, the middle or the end: I think, Brett, you're wrong. The noun phrase is either bare, as in Mom or Ladies and gentlemen, or begins with my, our, your or you, as in My friend, let me explain. A drawn-out, high Moooom! is the calling version.
+
+    This dictionary marks this account as provisional.
+  examples:
+    - text: '[Mom], can you help me?'
+      from: entry
+    - text: I think, [Brett], you're wrong.
+      from: entry
+    - text: '[My friend], let me explain.'
+      from: entry
+    - text: '[You idiot], watch out!'
+      from: entry
+  try: Think of how you get a friend's attention across a room. Do you say their name on its own, in a calling tone?
+teacher:
+  summary: Helps explain direct address, its separate intonation and the determiners it allows.
+  explain: A vocative addresses the hearer directly. It forms its own intonation phrase, with a fall-rise or level contour, or a high sustained calling contour for a summons. It is not selected by the verb and is not syntactically integrated as a clause argument. The noun phrase is either bare or determined only by first- and second-person forms (the genitives my, our, your, or the determinative you). It can occur clause-initially, clause-medially or clause-finally, and it needs an addressee, real or imagined. In an imperative, an overt subject and a vocative can co-occur, as in Lee, you take the first shift. This dictionary marks its analysis provisional.
+  terms: Genitive is used here for my, our and your, rather than possessive.
+  examples:
+    - text: '[Mom], can you help me?'
+      from: entry
+    - text: I think, [Brett], you're wrong.
+      from: entry
+    - text: '[Ladies and gentlemen], welcome.'
+      from: entry
+    - text: '[Your majesty], we request an audience.'
+      from: entry
+    - text: '[Lee], you take the first shift.'
+      from: entry
+  contrasts:
+    - text: Lee, you take the first shift.
+      from: entry
+      note: Vocative Lee, with you as the subject.
+  watch_for:
+    - A learner might treat the vocative as the subject of the clause, when in an imperative the vocative and an overt subject can co-occur.
+    - A learner might read the vocative as part of the clause, when it forms its own intonation phrase.
+  activity: Students read a short dialogue aloud, first with vocatives placed at the start, then in the middle and at the end. They notice how the vocative is set apart from the rest of the sentence.
+child:
+  hook: When you call someone's name, what happens to your voice?
+  explain: When we speak straight to someone, we can say their name. Mom, can you help me? The name stands apart from the rest of the sentence.
+  examples:
+    - text: '[Mom], can you help me?'
+      from: entry
+    - text: I think, [Brett], you're wrong.
+      from: entry
+  play: Say the same sentence three times, with a friend's name at the start, middle and end. Does the name sound set apart each time?
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: "Fixed: curious list of forms no longer excludes bare noun phrases such as Ladies and gentlemen; replaced the 'pause on either side' and 'shouted' wording with the entry's contours (fall-rise, level, high sustained calling); removed the 'rising tone' option; child and teacher activities no longer rest on pauses; removed the unsupported 'noun of address' term and the punctuation-based watch_for. Dismissed: none. Second round: fixed teacher.terms by cutting 'Vocative is the traditional name' (this dictionary uses the label but makes no claim about its history)."

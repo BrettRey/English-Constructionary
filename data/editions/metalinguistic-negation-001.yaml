@@ -1,0 +1,35 @@
+id: metalinguistic-negation-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying not that word, but a stronger one
+  summary: A speaker rejects a description as too weak, then corrects it with a stronger one.
+  body: |-
+    In It isn't warm. It's scorching, the speaker doesn't mean that the weather is cold. They mean that warm is too weak a word. The correction, scorching, is the stronger description.
+
+    This works because scorching on its own would imply warmth. The correction rejects the weaker label while keeping the stronger characterization. So the negation targets the wording, its implication or its strength, not the plain facts about the temperature.
+  examples:
+    - text: It isn’t [warm]. It’s scorching.
+      from: entry
+  try: Think of two words for the same thing, one weaker and one stronger. Can you say it isn't the weaker, then give the stronger?
+teacher:
+  summary: Helps explain a negation that rejects the strength or wording of a description and corrects it.
+  explain: 'In metalinguistic negation, a negated expression is followed or contextualized by a correction of wording or scale. It rejects the wording, implication or strength of a description as inadequate: It isn''t warm. It''s scorching. An ordinary scalar reading of scorching would imply warmth. The emphatic correction licenses negation of the weaker label while preserving the stronger characterization. This dictionary relates it to constituent negation with not and to metalinguistic more ... than.'
+  terms: Metalinguistic negation is the standard name. In this dictionary it is related to constituent-not negation.
+  examples:
+    - text: It isn’t [warm]. It’s scorching.
+      from: entry
+  contrasts:
+    - text: It isn't warm. It's scorching.
+      from: entry
+      note: Rejects the weaker label and gives a stronger one.
+  watch_for:
+    - A learner might read It isn't warm as saying the weather is cool, when the speaker is rejecting the label as too weak.
+    - A learner might drop the correction, when the stronger description is what makes the negation clear.
+  activity: Give students pairs of words on a scale, such as warm and scorching. They write a pair of sentences that reject the weaker word and give the stronger, and say what the speaker is correcting.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

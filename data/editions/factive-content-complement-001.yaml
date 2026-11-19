@@ -1,0 +1,31 @@
+id: factive-content-complement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Taking something as already true
+  summary: Some verbs treat what follows them as a fact, and the sentence keeps treating it that way even when it's negative.
+  body: |-
+    In Jo didn't regret that the shop closed, the shop closing is taken for granted. The speaker doesn't say Jo failed to regret something that didn't happen. The closure stands as a fact, and the negative is only about Jo's feelings.
+
+    That is the normal behaviour for this pattern, but context and the choice of word can change it. So whether a particular sentence treats its content as already true has to be checked each time.
+  examples:
+    - text: Jo didn't [regret that the shop closed].
+      from: entry
+  try: Say Jo didn't regret that the shop closed. Did the shop close?
+teacher:
+  summary: 'For advanced classes: predicates that take a that-clause as already true, even under negation.'
+  explain: A factive predication pairs a matrix factive predicate with a subordinate declarative content clause, and in ordinary uses treats the content as already true or taken for granted. In Jo didn't regret that the shop closed, the closure normally remains taken for granted under matrix negation. Context and predicate choice can alter this projection, so factivity must be checked per use. This dictionary marks the analysis as provisional, with medium confidence, and relates the pattern to the declarative content clause.
+  terms: Factive predicate is the usual name. The taken-for-granted content is also described as presupposed.
+  examples:
+    - text: Jo didn't [regret that the shop closed].
+      from: entry
+  watch_for:
+    - A learner might think negating the main verb cancels the content clause, so that Jo didn't regret that the shop closed leaves open whether it closed.
+    - A learner might assume any verb followed by a that-clause treats its content as true, when factivity must be checked for each use.
+  activity: Give students the example sentence and ask three questions about it (Did Jo regret something? Did the shop close? Who thinks the shop closed?). Discuss which answers survive the negation.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,44 @@
+id: np-common-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Phrases built on everyday nouns
+  summary: A common noun phrase is built around an ordinary noun like river or book, not a name.
+  body: |-
+    Ordinary nouns such as dog, river and book head phrases like the books or a river. A phrase like this can point to something definite or something indefinite, and to one particular thing or to something less specific.
+
+    So a particular, identifiable thing doesn't have to be named with a name. The river can point to one particular river, and the books to a set of books.
+  examples:
+    - text: '[dog]'
+      from: entry
+    - text: '[the books]'
+      from: entry
+    - text: We walked along [the river].
+      from: constructed
+  try: Think of something you can point to in the room. Can you refer to it without using a name?
+teacher:
+  summary: Separates the kind of noun heading a phrase from whether the phrase is definite or identifies one referent.
+  explain: 'A common noun phrase has a common noun as its nominal head. It''s compatible with definite or indefinite reference and with unique or non-unique reference. The noun class and the referential status are different matters: a noun such as river heads either the river or a river, so a particular identifiable referent need not be named with a proper noun. Dogs and the dogs share the same head category; the first has no overt determiner and the second has one.'
+  examples:
+    - text: '[dog]'
+      from: entry
+    - text: '[the books]'
+      from: entry
+    - text: '[a river]'
+      from: constructed
+  contrasts:
+    - text: I like [dogs].
+      from: constructed
+      note: No overt determiner.
+    - text: I like [the dogs].
+      from: constructed
+      note: Overt determiner, same head.
+  watch_for:
+    - A learner might think a definite NP has to contain a proper noun.
+    - A learner might think a common noun phrase must contain a determiner.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

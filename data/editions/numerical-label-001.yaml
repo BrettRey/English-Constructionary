@@ -1,0 +1,62 @@
+id: numerical-label-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names made of numbers
+  summary: A word like Room or Highway followed by a number can work as the name of one particular thing.
+  body: |-
+    Some places and things are named with a number. Room 101 is one specific room, Highway 401 is one specific highway, and Flight 447 is one specific flight. In these names the number doesn't count anything. It says which room, which highway or which flight you mean.
+
+    That's why the number behaves like part of a name rather than like a quantity. Compare Room 101 with 101 rooms: in the second, the number tells you how many rooms there are. In the first, it picks out a single room in a system of labels.
+  examples:
+  - text: '[Room 101] contains our archives.'
+    from: constructed
+  - text: '[Highway 401]'
+    from: entry
+  - text: '[Flight 447]'
+    from: entry
+  - text: '[20 Pheasant Street]'
+    from: entry
+  try: Try swapping the number in a name you know, such as a room or a flight. Do you now mean a different thing, or a different amount of the same thing?
+teacher:
+  summary: Useful for explaining why a number after a noun like Room can be a name rather than a quantity.
+  explain: 'In Room 101, the number is a cardinal noun that names the thing, and the whole phrase is a bare NP (it has no determiner of its own) used as a proper name. On this dictionary''s analysis, the first word, Room, is an embellishment of the name rather than an attributive modifier, and it gives the kind of thing named. The number doesn''t say how many: it points to one unique entity through a labelling system. Compare 101 rooms, where 101 is a quantity that counts rooms. In 20 Pheasant Street the number comes first, before the street name, unlike Room 101 and Flight 447.'
+  terms: 'Cardinal noun: a number word used as a noun. Embellishment: this dictionary''s label for the non-numeral word (Room, Highway). CGEL analyzes the comparable Ward in Ward 17 differently, as a descriptor inside the name.'
+  examples:
+  - text: '[Room 101]'
+    from: entry
+  - text: '[Highway 401]'
+    from: entry
+  - text: '[Flight 447]'
+    from: entry
+  - text: '[20 Pheasant Street]'
+    from: entry
+  contrasts:
+  - text: '[Room 101]'
+    from: entry
+    note: The number identifies one room.
+  - text: 101 rooms
+    from: constructed
+    note: The number counts rooms.
+  watch_for:
+  - A learner might read Room 101 as one hundred and one rooms.
+  - A learner might think 20 Pheasant Street is a count of something rather than an address.
+  activity: Give pairs of cards, one showing a label (Highway 401, Flight 447) and one showing a quantity (401 highways, 447 flights). Students sort them into "names one thing" and "counts things", then say how they decided.
+child:
+  hook: If you're in Room 101, are you in a hundred and one rooms?
+  explain: Sometimes a number is a name. Room 101 is just one room, and the number tells you which one. In 101 rooms, the number tells you how many.
+  examples:
+  - text: Our class is in [Room 101].
+    from: constructed
+  - text: '[Flight 447]'
+    from: entry
+  - text: We live at [20 Pheasant Street].
+    from: constructed
+  play: Find numbers on doors, buses or signs. For each one, decide if it names one thing or counts several.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher.terms no longer glosses embellishment as CGEL''s term for Room (CGEL treats the comparable Ward as a descriptor inside the name); teacher.explain marks the embellishment analysis as this dictionary''s.'

@@ -1,0 +1,44 @@
+id: prenominal-all-the-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: All before this, that or the
+  summary: All can stand before a determiner such as those or the, applying to the whole group named.
+  body: |-
+    In They catalogued all those shells, all comes before those and takes in every shell in the group that those picks out. The two words sit one after the other in the same phrase.
+
+    All can also come before the, as in all the shells. This dictionary notes that each and every don't generally take that same place before a determiner that is already there.
+  examples:
+    - text: They catalogued [all those shells].
+      from: entry
+    - text: They catalogued [all the shells].
+      from: constructed
+  try: Try putting all before the, these and my. Which ones work?
+teacher:
+  summary: Explains all before another determiner, as in all those shells and all the shells.
+  explain: In the pattern NP[all + Det + Nom], all applies universal quantification outside a following determiner phrase or constituent. All can precede those and the in the same NP. Each and every do not generally occupy that same position before an existing central determiner. This dictionary files this as a specialization of the noun phrase with a determiner, and relates it to each-of partitives. It is provisional, with medium confidence.
+  terms: Textbooks sometimes call all in this position a predeterminer. In CGEL terms, determiner is a function and determinative a category.
+  examples:
+    - text: They catalogued [all those shells].
+      from: entry
+    - text: They catalogued [all the shells].
+      from: constructed
+  watch_for:
+    - A learner might think all has to replace the determiner, when it can come before it.
+    - A learner might expect each and every to take the same position before the or those.
+  activity: Students write six noun phrases with all plus a determiner (the, those, these, my) and a plural noun, then compare with a partner and discuss which ones they find natural.
+child:
+  hook: Can the word all go in front of the, like in all the kids?
+  explain: The word all can come before words like the and those. They catalogued all those shells. All means every one of them.
+  examples:
+    - text: They catalogued all those shells.
+      from: entry
+    - text: All the kids sang.
+      from: constructed
+  play: Say a sentence about your class starting with all the. Then change the to those or my.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

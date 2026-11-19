@@ -1,0 +1,65 @@
+id: nom-n-mod-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A noun in front of another noun
+  summary: A noun can come before another noun to say what kind, what for or where from.
+  body: |-
+    In dog breeder, the first noun tells you what kind of breeder: one who breeds dogs. In coffee cup, it gives a purpose: a cup for holding coffee. In city council, it points to where the council belongs, and in baby food, it means food for babies.
+
+    Word order alone doesn't say which relation is meant. In dog breeders, the plural normally goes on the second noun. In book review, the first noun can supply the topic or object of a reviewing event.
+  examples:
+    - text: '[dog] breeder'
+      from: entry
+    - text: '[coffee] cup'
+      from: entry
+    - text: '[city] council'
+      from: entry
+    - text: '[baby] food'
+      from: entry
+  try: Choose a noun, such as school. What different nouns can you put after it, and what relation does each one show?
+teacher:
+  summary: Covers noun-noun modification in the nominal, with several relations that word order alone doesn't signal.
+  explain: 'A nominal can modify the head noun of a larger nominal. The relation between the two isn''t signalled by word order, and this dictionary lists several: type (dog breeder), purpose (coffee cup), origin or location (city council, country music), a defining characteristic, and a relation like a genitive (student representative, government land, baby food). Plural normally goes on the head noun: dog breeders. In book review the first nominal can supply the topic or object of a reviewing event. This dictionary distinguishes this pre-head modifier from the noun-noun compound, which it lists as a related construction.'
+  terms: This dictionary treats the first nominal as a pre-head modifier and lists the noun-noun compound as a separate, related construction.
+  examples:
+    - text: '[dog] breeder'
+      from: entry
+    - text: '[coffee] cup'
+      from: entry
+    - text: '[country] music'
+      from: entry
+    - text: '[student] representative'
+      from: entry
+  contrasts:
+    - text: dog breeder
+      from: entry
+      note: The first noun gives the type.
+    - text: coffee cup
+      from: entry
+      note: The first noun gives the purpose.
+    - text: city council
+      from: entry
+      note: The first noun gives a location or origin.
+  watch_for:
+    - A learner might expect one fixed relation for every noun-noun pair, when word order alone doesn't select it.
+    - A learner might put the plural on the first noun in dog breeders, when the head noun normally takes it.
+  activity: Students make cards with nouns (dog, coffee, city, baby) and heads (breeder, cup, council, food). They combine each pair and explain the relation, and then compare with a partner who chose a different relation.
+child:
+  hook: What is a coffee cup? What is a dog breeder?
+  explain: A noun can come before another noun. A coffee cup is a cup for coffee. A dog breeder is someone who breeds dogs. The first word tells us more about the second.
+  examples:
+    - text: '[coffee] cup'
+      from: entry
+    - text: '[dog] breeder'
+      from: entry
+    - text: '[baby] food'
+      from: entry
+  play: Pick the word cup and put a different noun before it. Then do the same with food. What does each new pair mean?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: teacher terms no longer equates the construction with noun-noun compound or noun adjunct (the entry distinguishes noun-headed phrases from compounds and lists the compound as related); plural-on-the-head statements now say ''normally'' and the book review reading ''can'' supply the topic or object, as in the entry.'

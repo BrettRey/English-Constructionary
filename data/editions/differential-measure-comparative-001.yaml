@@ -1,0 +1,41 @@
+id: differential-measure-comparative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying how much bigger, in numbers
+  summary: A measurement placed before a comparison word, such as wider, says by how much the two things differ.
+  body: |-
+    In The replacement is two centimetres wider than the old bracket, two centimetres is the gap between the two brackets. The two centimetres measures that difference, not the total width of the new bracket.
+
+    Compare It was two centimetres wide. Here there's no comparison word, and the measure gives the total width. The same measurement phrase does two different jobs, depending on whether the adjective is in its comparative form.
+  examples:
+    - text: The replacement is [two centimetres wider] than the old bracket.
+      from: entry
+    - text: It was [two centimetres wide].
+      from: entry
+  try: Say how much taller you are than a friend or a chair, using a number and taller.
+teacher:
+  summary: Helps contrast a measure phrase giving a difference (two centimetres wider) with one giving a total (two centimetres wide).
+  explain: A measure NP before a comparative AdjP or AdvP gives the numerical difference between a degree and its standard. In two centimetres wider than the old bracket, the measure is the difference between the two widths. In the plain-grade frame, as in two centimetres wide, the same kind of measure gives the total width. The contrast helps learners see that the comparative form changes what the measure means.
+  examples:
+    - text: The replacement is [two centimetres wider] than the old bracket.
+      from: entry
+    - text: It was [two centimetres wide].
+      from: entry
+  contrasts:
+    - text: The replacement is [two centimetres wider] than the old bracket.
+      from: entry
+      note: The measure is the difference.
+    - text: It was [two centimetres wide].
+      from: entry
+      note: The measure is the total width.
+  watch_for:
+    - A learner might read two centimetres wider as the total width of the new bracket.
+  activity: Students measure two objects in the room and write two sentences about them, one with a measure plus a comparative (three centimetres longer than ...) and one with a measure plus the plain adjective (twenty centimetres long).
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.body no longer says the new bracket isn''t two centimetres wide in total; it says only that the measure is the difference, not the total width, as the entry does.'

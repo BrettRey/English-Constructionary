@@ -1,0 +1,52 @@
+id: auxiliary-vp-ellipsis-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Leaving out the rest after a helper verb
+  summary: After a helper verb, the rest of the predicate can be left unsaid because we can recover it from earlier.
+  body: |-
+    In Nora could repair it, and Kai could too, the second part says only Kai could too. We understand it to mean Kai could repair it, because the earlier part tells us what the missing part is.
+
+    The helper verb that remains doesn't have to match what came before. In Nora repaired it, but Kai didn't, the first part is positive and in the past, while the second supplies a negative did. A main verb doesn't freely get left alone like this.
+  examples:
+    - text: Nora could repair it, and [Kai could too].
+      from: entry
+    - text: Nora repaired it, but [Kai didn’t].
+      from: entry
+  try: Say Nora could repair it. Then add and Kai could too. What is left unsaid after could in the second part?
+teacher:
+  summary: Teaches how a pronounced auxiliary can be followed by an unexpressed predicate recovered from the preceding discourse.
+  explain: 'In this pattern a clause has a subject and a finite auxiliary, with the complement left unexpressed and recovered from the preceding discourse. The auxiliary is pronounced. It can differ in tense or polarity from the antecedent: Nora repaired it, but Kai didn''t has a positive antecedent with a lexical preterite, and the ellipsis host supplies negative do. A lexical verb does not freely strand in the same pattern. This dictionary relates it to gapping, to stranding of infinitival to (Jo tried to) and to sluicing.'
+  terms: This pattern is called VP ellipsis. This dictionary names it auxiliary-stranding VP ellipsis.
+  examples:
+    - text: Nora could repair it, and [Kai could too].
+      from: entry
+    - text: Nora repaired it, but [Kai didn’t].
+      from: entry
+  contrasts:
+    - text: Nora could repair it, and Kai could too.
+      from: entry
+      note: The stranded auxiliary matches its antecedent.
+    - text: Nora repaired it, but Kai didn't.
+      from: entry
+      note: Positive antecedent with a lexical preterite; the host supplies negative do.
+  watch_for:
+    - A learner might expect the second clause to repeat the form of the verb in the first, when the stranded auxiliary can differ in tense or polarity.
+    - A learner might try to leave a main verb stranded in the same way, when a lexical verb does not freely strand.
+  activity: Give pairs short sentences with a verb phrase. They write a second clause with a different subject and only the auxiliary, then say what has been left out.
+child:
+  hook: In "Kai could too", what is Kai able to do?
+  explain: You don't have to say the whole thing again. Nora could repair it, and Kai could too. We know Kai could repair it, because Nora's part told us.
+  examples:
+    - text: Nora could repair it, and [Kai could too].
+      from: entry
+    - text: Mia can swim, and [Ben can too].
+      from: constructed
+  play: Say something you can do, like skip. Your partner says and I can too. Then say what the second part left out.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: curious body no longer says the second part stops after could (the entry's example has too); try question and teacher summary now say the auxiliary is pronounced and the predicate after it is unexpressed and recovered, not 'stood for'; 'the entry' replaced by 'this dictionary'."

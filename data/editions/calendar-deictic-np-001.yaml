@@ -1,0 +1,52 @@
+id: calendar-deictic-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Next Tuesday, with no on
+  summary: Words like this, last and next before a day or calendar period say when something happens, measured from now.
+  body: |-
+    In I'll call next Tuesday, the phrase next Tuesday tells us when, and it needs no on in front. The word next picks out a Tuesday by counting from the present moment. This, last and next work this way.
+
+    Which Tuesday counts as next can vary between speakers, since it depends on how next is resolved. The context of the present is what fixes the period.
+  examples:
+    - text: I’ll call [next Tuesday].
+      from: entry
+    - text: We met [last Friday].
+      from: constructed
+  try: Say I'll call next Tuesday. Which Tuesday do you mean? Ask a friend which one they would pick.
+teacher:
+  summary: Shows how this, last and next with a weekday or calendar noun give a time adjunct without on.
+  explain: The pattern is an NP made of this, last or next and a calendar noun or weekday, used as a temporal adjunct. It uses the contextual present to select an adjacent or current calendar period. The NP can be a time adjunct without on. The relevant Tuesday is selected by the deictic expression, and this dictionary notes some variation in how speakers resolve next. This dictionary relates it to month-and-day dates and to year names, and treats the analysis as provisional.
+  terms: "This dictionary calls the pattern a bare deictic calendar NP, where the time is picked out by the context of the present."
+  examples:
+    - text: I’ll call [next Tuesday].
+      from: entry
+    - text: We met [last Friday].
+      from: constructed
+  contrasts:
+    - text: I'll call next Tuesday.
+      from: entry
+      note: A deictic NP used as a time adjunct, without on.
+    - text: I'll call on Tuesday.
+      from: constructed
+      note: A plain weekday with on.
+  watch_for:
+    - A learner might add on before next Tuesday, when the NP can be a time adjunct without on.
+    - A learner might assume next Tuesday picks out the same day for every speaker, when speakers resolve next with some variation.
+  activity: Fix a date on the board. Students say which day they take next Friday and last Monday to be from that date, and compare their choices.
+child:
+  hook: Does "next Tuesday" mean the same day for everyone?
+  explain: Words like this, last and next can go right before a day. I'll call next Tuesday. We don't need on. Which Tuesday next means can change from person to person.
+  examples:
+    - text: I’ll call [next Tuesday].
+      from: entry
+    - text: We met [last Friday].
+      from: constructed
+  play: Look at a calendar and find today. Say which day you think next Friday is. Ask a partner if they agree.
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: "Fixed: teacher 'terms' no longer defines deixis as anchoring to the moment of speaking (the entry gives no such definition) and now restates the entry's wording; child game now says to look at a calendar and find today. Also fixed (unflagged): 'the entry' replaced by 'this dictionary' in teacher text."

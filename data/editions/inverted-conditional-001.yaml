@@ -1,0 +1,47 @@
+id: inverted-conditional-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Conditions without if
+  summary: Putting had, were or should before the subject can set up a condition without using if.
+  body: |-
+    Had you called, we could have picked you up corresponds to If you had called, we could have picked you up. The auxiliary comes before the subject, and if drops out.
+
+    Were and should work the same way, as in Were I in charge, I would change it and Should you need help, call this number. Other auxiliaries don't freely enter this frame. In the central standard pattern the negative comes after the subject, as in Had you not called.
+  examples:
+    - text: '[Had you called], we could have picked you up.'
+      from: entry
+    - text: '[Should you need help], call this number.'
+      from: entry
+    - text: '[Were I in charge], I would change it.'
+      from: entry
+  try: Rewrite If you had known, I'd have told you without if. Which word moves, and where does it go?
+teacher:
+  summary: Covers had/were/should plus subject conditionals such as Had you called, an alternative to if.
+  explain: The pattern introduces a condition through auxiliary-subject order without if. Had you known corresponds to If you had known, and were and should license the same order in their own conditional uses. Other auxiliaries don't freely enter this frame, and substituting an ordinary modal such as would fails to preserve the construction. In the central standard pattern the negative is separate, as in Had you not called. The same order can express a question, with a wider range of auxiliaries. This dictionary marks the analysis as provisional.
+  terms: Sometimes called conditional inversion. This dictionary treats the order as the same auxiliary-subject order seen in closed interrogatives.
+  examples:
+    - text: '[Had you called], we could have picked you up.'
+      from: entry
+    - text: '[Should you need help], call this number.'
+      from: entry
+    - text: '[Were I in charge], I would change it.'
+      from: entry
+  contrasts:
+    - text: If you had called, we could have picked you up.
+      from: constructed
+      note: Ordinary order with if.
+    - text: Had you called, we could have picked you up.
+      from: entry
+      note: Auxiliary before subject, no if.
+  watch_for:
+    - A learner might think any auxiliary or modal can start such a clause.
+    - A learner might confuse Had you called with a question, since the word order is the same.
+  activity: Students rewrite if-conditionals with had, were and should, then try rewriting one with another auxiliary and discuss what the dictionary says about that.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: removed ''formal'' from the teacher summary (this dictionary assigns no register to the pattern). Also fixed (unflagged): cut the term ''if-less conditional'', which this dictionary does not use; ''the entry'' wording; curious body now says the sentence corresponds to the if-version, as this dictionary does.'

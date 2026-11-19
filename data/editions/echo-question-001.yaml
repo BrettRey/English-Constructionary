@@ -1,0 +1,61 @@
+id: echo-question-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Repeating what someone said as a question
+  summary: A speaker can repeat all or part of what was just said, in the form of a question, to check it or to ask for clarification.
+  body: |-
+    If someone says She is leaving on Saturday, you can reply She is leaving on Saturday? with a questioning tune. You're asking whether that is what they said. You aren't asking whether she is leaving.
+
+    You can also swap a part you didn't hear or understand for a question word. After Give it to Angela, the reply Give it to who? keeps the original order and asks about the missing piece. The echo depends on what the other person just said.
+  examples:
+    - text: 'A: She is leaving on Saturday. B: [She is leaving on Saturday]?'
+      from: entry
+    - text: 'A: Is he going to resign? B: [Is he going to resign]?'
+      from: entry
+    - text: 'A: Give it to Angela. B: [Give it to who]?'
+      from: entry
+    - text: 'A: Did you use a macro? B: [Did I use a what]?'
+      from: entry
+  try: Next time you didn't catch a word, say back what you heard and swap the missing part for who or what.
+teacher:
+  summary: Helps explain echo questions as a layer over a prior utterance that keeps the clause type of what is echoed.
+  explain: 'An echo question repeats all or part of a prior utterance to ask whether that is what the previous speaker said. This dictionary says it isn''t a sixth clause type: it''s a semantic layer on a stimulus, and the clausal host keeps its grammatical type (declarative, closed interrogative, imperative). A non-headed host stays non-headed, as in Ed quite competent? Echoing Is he resigning? asks approximately whether the previous speaker asked that, not whether he''s resigning. A variable echo replaces a poorly heard or understood part with an in-situ variable phrase and keeps the stimulus''s word order and clause type, sometimes with reduction and deictic shift (Did I use a what?).'
+  terms: This dictionary treats the echo question as a stimulus-dependent layer over a host, not as a clause type.
+  examples:
+    - text: 'A: She is leaving on Saturday. B: [She is leaving on Saturday]?'
+      from: entry
+    - text: 'A: Is he going to resign? B: [Is he going to resign]?'
+      from: entry
+    - text: 'A: Ed is quite competent. B: [Ed quite competent]?'
+      from: entry
+    - text: 'A: Give it to Angela. B: [Give it to who]?'
+      from: entry
+    - text: 'A: Did you use a macro? B: [Did I use a what]?'
+      from: entry
+  contrasts:
+    - text: 'A: Is he going to resign? B: [Is he going to resign]?'
+      from: entry
+      note: The echo stays a closed interrogative.
+    - text: 'A: Did you use a macro? B: [Did I use a what]?'
+      from: entry
+      note: Variable echo with deictic shift (you becomes I).
+  watch_for:
+    - A learner might read the reply Is he going to resign? as asking about his resigning, when it checks what the previous speaker asked.
+    - A learner might expect a variable echo to take ordinary question-word order, though it keeps the stimulus's order.
+  activity: Pairs take turns saying a sentence with one word hard to hear. The listener echoes it back, swapping the missed word for who or what, and the speaker repeats the word.
+child:
+  hook: What do you say when you didn't hear a word?
+  explain: You can say back what you heard as a question. You can swap the missing word for who or what. Someone says Give it to Angela. You say Give it to who?
+  examples:
+    - text: 'A: Give it to Angela. B: [Give it to who]?'
+      from: entry
+    - text: 'A: I found a snake. B: [You found a what]?'
+      from: constructed
+  play: Whisper a sentence to a friend and mumble one word. They say it back and swap the mumbled word for who or what.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,51 @@
+id: interrogative-sluicing-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: I don't know who
+  summary: A question can be reduced to its question word when the rest can be recovered from what came before.
+  body: |-
+    In Someone moved the keys, but I don't know who, the word who stands for the whole question who moved the keys. The first part of the sentence supplies what's missing.
+
+    A longer question phrase can stay too, as in which person. Only the part being asked about is spoken, and the listener fills in the rest.
+  examples:
+    - text: Someone moved the keys, but I don’t know [who].
+      from: entry
+    - text: Mia left early, but I don't know [why].
+      from: constructed
+  try: 'Complete this: Someone called me, but I don''t know... What does the listener understand you left out?'
+teacher:
+  summary: Explains reduced questions that keep only the question phrase, as in I don't know who.
+  explain: The pattern is an interrogative phrase with the rest of the clause unexpressed. It recovers a question with only the questioned part overt. In Someone moved the keys, but I don't know who, the mover role is recovered from the preceding clause. A more explicit interrogative phrase such as which person can likewise remain overt. This dictionary relates the pattern to open interrogative clauses and cites CGEL and Goldberg and Perek (2019). It is provisional.
+  terms: Sluicing is the standard name in the linguistics literature. Some textbooks call this a reduced or elliptical wh-question.
+  examples:
+    - text: Someone moved the keys, but I don’t know [who].
+      from: entry
+    - text: Mia left early, but I don't know [why].
+      from: constructed
+  contrasts:
+    - text: Someone moved the keys, but I don't know who.
+      from: entry
+      note: Only the question word is overt.
+    - text: Someone moved the keys, but I don't know who moved the keys.
+      from: constructed
+      note: The full question, spelled out.
+  watch_for:
+    - A learner might think I don't know who is incomplete.
+    - A learner might not see that the earlier clause supplies the missing part of the question.
+  activity: Students write sentences that begin with someone or something, then add but I don't know followed by a question word. They write out the full question each one stands for.
+child:
+  hook: What does "I don't know who" leave out?
+  explain: 'Sometimes you say only the question word. Someone moved the keys, but I don''t know who. You and your listener both know the rest: who moved the keys.'
+  examples:
+    - text: Someone moved the keys, but I don’t know [who].
+      from: entry
+    - text: Mia left early, but I don't know [why].
+      from: constructed
+  play: Say "Someone took my pencil, but I don't know" and stop at the question word. Can a partner say the whole question?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

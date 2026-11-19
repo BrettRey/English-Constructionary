@@ -1,0 +1,48 @@
+id: causative-inchoative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A change with a cause, and without one
+  summary: Some verbs can say who or what caused a change, or can simply say that the thing changed.
+  body: |-
+    The heat cracked the window, and the window cracked. In the first part, the heat is the cause and the window comes right after the verb as the thing that changed. In the second part, the window starts the sentence, and no cause is mentioned.
+
+    The same thing, the window, turns up in a different place in each. The second version doesn't need a separate cause to be named.
+  examples:
+    - text: The heat cracked the window, and [the window cracked].
+      from: entry
+  try: Think of something that can melt or crack. Can you say who or what did it, and also say it with only the thing that changed?
+teacher:
+  summary: Useful for verbs that can be used with a causer, or with just the changing participant as subject.
+  explain: The alternation pairs a causative clause (subject + verb + affected noun phrase) with an inchoative clause (the affected noun phrase as subject). In The heat cracked the window, window is the direct object. In the window cracked, the same participant is subject, and the clause doesn't require a separate external causer. So the causative is monotransitive and the inchoative is simple intransitive.
+  terms: 'Causative: the member with a causer as subject and the changing participant as object. Inchoative: the member with the changing participant as subject.'
+  examples:
+    - text: The heat cracked the window, and [the window cracked].
+      from: entry
+  contrasts:
+    - text: The heat cracked the window.
+      from: constructed
+      note: Causer as subject; window is the direct object.
+    - text: The window cracked.
+      from: constructed
+      note: The changing participant is the subject.
+  watch_for:
+    - A learner might read the window in The heat cracked the window as the subject because it names what changed.
+    - A learner might look for a hidden causer in the window cracked, when the clause doesn't require one.
+  activity: Give students pairs of sentences about changes, one naming a cause and one naming only the thing that changed. They underline the subject and the direct object in each pair and say which participant is object in one and subject in the other.
+child:
+  hook: Can a window crack without anyone saying who cracked it?
+  explain: Sometimes a sentence tells who made a change. The heat cracked the window. Sometimes it just tells what changed. The window cracked.
+  examples:
+    - text: The heat cracked the window, and [the window cracked].
+      from: entry
+    - text: Mia melted the ice, and [the ice melted].
+      from: constructed
+  play: Think of a change, like melting or cracking. Say one sentence with a cause and one with only the thing that changed.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
+  note: 'Audit: fixed teacher.activity, which asked which noun phrase moved (the entry says the same participant is object in one clause and subject in the other, with no movement analysis).'

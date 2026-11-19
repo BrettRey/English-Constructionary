@@ -1,0 +1,58 @@
+id: np-gen-indep-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Owner words that stand on their own
+  summary: Words like mine and yours, and names with 's like Jo's, can stand in for a whole phrase about who owns something.
+  body: |-
+    Mine and yours name a person, such as an owner, and also stand in for the thing itself, so no noun follows. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.
+
+    A different use looks similar. In This one is Jo's, the 's form says who owns this one. It isn't standing in for a missing noun.
+  examples:
+    - text: '[mine]'
+      from: entry
+    - text: '[yours]'
+      from: entry
+    - text: '[Jo''s] is blue.'
+      from: constructed
+    - text: This one is [Jo's].
+      from: constructed
+  try: Point at something of yours and say what colour it is without naming the thing, as in Mine is blue.
+teacher:
+  summary: Shows owner forms that function as a full noun phrase with no following noun, and separates them from a predicative use.
+  explain: An independent genitive NP is in independent genitive form with no overt head noun, as with mine and yours. Jo's can occur without an overt following noun in Jo's is blue when the relevant kind is established, so the missing nominal is recovered from context. In This one is Jo's, the genitive can instead express a possessive relation predicatively, which is a separate construction. This dictionary marks this account as provisional.
+  terms: Mine and yours are sometimes called possessive pronouns; this dictionary calls them independent genitive pronouns.
+  examples:
+    - text: '[mine]'
+      from: entry
+    - text: '[yours]'
+      from: entry
+    - text: '[Jo''s] is blue.'
+      from: constructed
+  contrasts:
+    - text: '[Jo''s] is blue.'
+      from: constructed
+      note: Independent genitive; a noun such as the kind of thing is recovered from context.
+    - text: This one is [Jo's].
+      from: constructed
+      note: A predicative genitive, a separate construction.
+  watch_for:
+    - A learner might look for a noun after mine or yours, though the independent genitive has no overt head noun.
+    - A learner might treat the Jo's of This one is Jo's as standing in for a missing noun.
+  activity: Students put an object of theirs on the desk. In pairs they describe the objects without naming them, starting with mine, yours or a name with 's, as in Mine is blue or Jo's is red.
+child:
+  hook: How can you talk about your things without naming them?
+  explain: Words like mine and yours can stand on their own. Mine is blue doesn't name the thing, but we know what is meant. A name with 's can do it too, as in Jo's is blue.
+  examples:
+    - text: '[Mine] is blue.'
+      from: constructed
+    - text: '[Yours] is red.'
+      from: constructed
+  play: Put two toys on a table. Point at your own and say Mine is, then its colour. Your friend points at a toy of theirs and does the same.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: child examples were predicative (The red one is mine), which this dictionary separates from the independent genitive, so they now use Mine is blue and Yours is red, with explanation and game rewritten to match; curious body no longer glosses Jo''s as ''Jo''s one''; cut the term ''absolute possessive'' (unsure it maps exactly). Second round: fixed child.explain, which said nothing comes after mine in Mine is blue; it now says Mine is blue doesn''t name the thing. Curious.body no longer limits mine and yours to owners; teacher.terms now maps possessive pronouns to this dictionary''s independent genitive pronouns instead of stating a general rule. Also fixed (unflagged): curious.try, teacher.activity and child.hook invited answers like It''s Jo''s, the predicative use this dictionary separates, and now model Mine is blue; teacher.watch_for[0] no longer presents a noun after mine as an error (nothing is starred).'

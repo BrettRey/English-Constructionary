@@ -1,0 +1,42 @@
+id: subject-control-infinitival-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Who does the infinitive's action?
+  summary: In some sentences, the person named at the start is also the one who does the action in the to-phrase.
+  body: |-
+    In Jo promised to return, Jo is the one who promises and also the one who returns. The to-phrase has no subject of its own, so we understand it as Jo.
+
+    What matters is that Jo has a role in the promising: Jo takes on the undertaking, intention or experience described. A stand-in subject like the there of There seems to be a leak can't take over that role in the promising.
+
+    This dictionary marks the analysis as provisional and bases it on one constructed illustration.
+  examples:
+    - text: Jo [promised to return].
+      from: entry
+    - text: There seems to be a leak.
+      from: entry
+  try: In Jo promised to return, who returns? Who promises? Is it the same person?
+teacher:
+  summary: Useful for explaining who performs the action in a to-infinitive after verbs like promise.
+  explain: 'The pattern is a clause whose subject is understood as the subject of the to-infinitival complement. The matrix subject undertakes, intends or experiences the subordinate situation: in Jo promised to return, Jo is both promiser and returner, so Jo is assigned a role in the promising. A dummy there cannot replace Jo as the promiser. That separates subject control from subject raising: in There seems to be a leak, dummy there is allowed because the subject is selected through the infinitival. This dictionary marks the analysis as provisional and rests on one constructed illustration.'
+  terms: This dictionary’s term is subject control; the related pattern is subject raising. Textbooks sometimes describe the infinitival's missing subject as an understood subject.
+  examples:
+    - text: Jo [promised to return].
+      from: entry
+  contrasts:
+    - text: Jo promised to return.
+      from: entry
+      note: Jo has a role in the promising; control.
+    - text: There seems to be a leak.
+      from: entry
+      note: Dummy there is possible because the subject is selected through the infinitival; raising.
+  watch_for:
+    - A learner might think the to-phrase has no subject at all, when it is understood as the subject of the main verb.
+    - A learner might treat promise and seem as the same pattern because both are followed by to.
+  activity: Students write sentences with verbs like promise, try and hope followed by a to-phrase. For each they say who does the second action and mark the link from the subject to the infinitive.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

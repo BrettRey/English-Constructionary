@@ -1,0 +1,51 @@
+id: np-pron-reflexive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Words like herself and themselves
+  summary: A word like herself, as the object of a verb, points back to the person doing the action.
+  body: |-
+    In Sue defended herself, the word herself means Sue. The one doing the defending and the one being defended are the same person. Change it to Sue defended her, and the ordinary reading is that Sue defended someone else.
+
+    The reflexive form matches the person it points back to in person and number, which is why we get The players congratulated themselves. This dictionary covers only the simple pattern with a verb and its object. Reflexives used for emphasis, or inside a phrase like a picture of herself, follow other rules.
+  examples:
+    - text: Sue defended [herself].
+      from: entry
+    - text: The players congratulated [themselves].
+      from: entry
+  try: Say Sue defended herself and Sue defended her. Who is defended in each one?
+teacher:
+  summary: Explains the basic direct-object reflexive and its contrast with an ordinary object pronoun.
+  explain: 'In the simple pattern, a reflexive pronoun serves as direct object with a local subject antecedent: Sue defended herself. The personal pronoun in reflexive form has the same referent as the subject of the verb. In the ordinary transitive reading, Sue defended her is about Sue defending someone else. The reflexive form tracks the antecedent''s person and number, so changing it to the plain accusative usually removes the local co-reference reading. The pattern here doesn''t cover emphatic reflexives or those in picture noun phrases, which can have different licensing. The dictionary marks this account as provisional.'
+  terms: Reflexive pronoun is the traditional name. Her in Sue defended her is an ordinary personal pronoun in accusative form.
+  examples:
+    - text: Sue defended [herself].
+      from: entry
+    - text: The players congratulated [themselves].
+      from: entry
+  contrasts:
+    - text: Sue defended [herself].
+      from: entry
+      note: The object is Sue, the subject.
+    - text: Sue defended [her].
+      from: constructed
+      note: The ordinary reading is about someone else.
+  watch_for:
+    - A learner might use her for the subject's own referent, as in Sue defended her, meaning Sue.
+    - A learner might choose a reflexive that doesn't match its antecedent in person and number.
+  activity: Give students a set of sentences with a blank after a transitive verb. They fill in either a reflexive or a plain pronoun and say who each one refers to.
+child:
+  hook: When does "herself" mean the very same person?
+  explain: Words like herself and themselves point back to the person doing the action. When Sue defended herself, Sue was defended. When Sue defended her, it's someone else.
+  examples:
+    - text: Sue defended [herself].
+      from: entry
+    - text: The players congratulated [themselves].
+      from: entry
+  play: Think of two sentences with the same verb, one ending in herself or himself and one ending in her or him. Who is the object in each?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

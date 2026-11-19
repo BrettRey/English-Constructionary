@@ -1,0 +1,42 @@
+id: fused-adjective-anaphoric-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Leaving out the noun when it's obvious
+  summary: A describing word with the can stand for a noun mentioned earlier, as in the damp for the damp cloth.
+  body: |-
+    In I took the dry cloth and left the damp, the damp means the damp cloth. The noun isn't repeated because the earlier word cloth makes it clear, and the describing word damp takes over the job of naming.
+
+    The kind of thing comes from cloth, and any agreement follows the recovered noun. This is different from the wealthy, which refers to a group of people without needing an earlier noun to fill in.
+  examples:
+    - text: I took the dry cloth and left [the damp].
+      from: entry
+    - text: She chose the red scarf and I chose [the blue].
+      from: constructed
+  try: Say I took the dry cloth and left the damp. What exactly was left?
+teacher:
+  summary: Helps explain an adjective standing in for a noun recovered from context, and how it differs from the wealthy.
+  explain: 'In an anaphoric fused-head NP, a determiner plus an adjective phrase distinguishes a referent while the descriptive noun is recoverable from context: I took the dry cloth and left the damp. The inferred kind comes from cloth, and agreement follows the recovered nominal. The human-class reading of the wealthy instead needs no such antecedent. This dictionary treats it as a specialization of the fused-head construction, related to the adjective NP and to pro-nominal one, and marks it provisional, with medium confidence.'
+  terms: This is sometimes described as an adjective used as a noun. Fused head is this grammar's term for an NP whose head function is carried by another constituent, here the adjective.
+  examples:
+    - text: I took the dry cloth and left [the damp].
+      from: entry
+    - text: She chose the red scarf and I chose [the blue].
+      from: constructed
+  contrasts:
+    - text: I took the dry cloth and left the damp.
+      from: entry
+      note: The noun is recovered from cloth.
+    - text: I took the dry cloth and left the damp one.
+      from: constructed
+      note: Here one overtly stands in for cloth.
+  watch_for:
+    - A learner might treat the damp as a noun with no link to the earlier cloth.
+    - A learner might expect the wealthy to need an earlier noun, when its human-class reading doesn't.
+  activity: Students get sentences with two contrasting things (the dry cloth and the damp cloth). They rewrite them without repeating the noun and underline what supplies the missing noun.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

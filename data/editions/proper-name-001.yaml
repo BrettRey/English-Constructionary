@@ -1,0 +1,59 @@
+id: proper-name-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names and what they do
+  summary: A proper name picks out one particular person, place, organization or thing, and it can do more than label.
+  body: |-
+    A name like Brett Reynolds or The Boring Company points to one individual, so people can keep track of that individual and add what they learn. A name's form can hint at what kind of thing it names: company names, book titles and personal names each follow recognizable patterns.
+
+    Names can also carry social meaning. Professor Smith signals a formal relationship, His Holiness the 14th Dalai Lama establishes an institutional role, and Inc. in Apple Inc. has legal force. A capital letter alone doesn't settle things, since two Jos can count people who share a name. This dictionary marks the account as provisional.
+  examples:
+    - text: '[Brett Reynolds]'
+      from: entry
+    - text: '[The Boring Company]'
+      from: entry
+    - text: '[Professor Smith]'
+      from: entry
+    - text: '[Apple Inc.]'
+      from: entry
+    - text: '[His Holiness the 14th Dalai Lama]'
+      from: entry
+  try: Think of how you'd address a teacher, a friend and a stranger. How does the form of their name change?
+teacher:
+  summary: Useful for explaining names as a meaning category, including titles, company designations and the difference between a name and a proper noun.
+  explain: 'A proper name is a semantic category: any form that functions to identify a unique individual or entity. It is typically a proper noun but can be another form, such as a common-noun phrase (The Boring Company) or a title. Names refer to unique entities, can create social or institutional facts (the Dalai Lama''s institutional role), signal membership in name categories, index social relations (Professor Smith), and can mark legal status (Inc., Ltd.). Proper name is a semantic category and proper noun a syntactic one, with a two-way link between them. This dictionary marks its analysis provisional. A standing name such as Jo can identify its bearer, but two Jos can count people sharing the name.'
+  terms: 'Proper noun: the syntactic category; proper name: the semantic category. Titles and honorifics (Professor, His Holiness) and corporate designations (Inc., Ltd.) are separate semantic refs in this dictionary.'
+  examples:
+    - text: '[The Boring Company]'
+      from: entry
+    - text: '[Brett Reynolds]'
+      from: entry
+    - text: '[His Holiness the 14th Dalai Lama]'
+      from: entry
+    - text: '[If on a winter''s night a traveler]'
+      from: entry
+    - text: '[Professor Smith]'
+      from: entry
+    - text: '[Apple Inc.]'
+      from: entry
+  watch_for:
+    - A learner might think any capitalized word is a proper name.
+    - A learner might treat proper name and proper noun as the same thing.
+    - A learner might use a first name where a title and surname are expected.
+  activity: Students list names for the same person (full name, first name, nickname, title plus surname) and say what social relationship each suggests.
+child:
+  hook: What's the difference between a girl and Jo?
+  explain: A name points to one particular person or thing. Jo is one person. Sometimes two people share a name, and then we can say two Jos.
+  examples:
+    - text: '[Jo] waved at us.'
+      from: constructed
+    - text: There are [two Jos] in our class.
+      from: constructed
+  play: Think of a name that two people you know share. Say a sentence about each one using the same name.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

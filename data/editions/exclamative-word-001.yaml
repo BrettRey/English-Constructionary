@@ -1,0 +1,49 @@
+id: exclamative-word-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: What and how as words of amazement
+  summary: Of the question words, only what and how are used in exclamations to present something as remarkable.
+  body: |-
+    In What a day it's been! and How fast she ran!, the words what and how aren't asking anything. They present the day or the speed as standing out against what we'd expect. Only these two words from the family of question words are used this way.
+
+    How goes with a describing word or an action, as in how fast. What comes before a noun, as in what children or what a day. In a question, the same words do a different job in a different kind of sentence.
+  examples:
+    - text: '[what] children'
+      from: entry
+    - text: '[how] fast'
+      from: entry
+    - text: '[What a] day it''s been!'
+      from: entry
+    - text: '[What awful weather] we''ve had!'
+      from: constructed
+  try: Compare How fast she ran! with How fast did she run? What is the speaker doing in each?
+teacher:
+  summary: 'For advanced classes: exclamative what and how, and how their word class differs from the question words.'
+  explain: 'Exclamative use is the tightest packaging of the indeterminate series: only what and how, and the open variable is evaluated against a contextual norm. Exclamative what is an adjective functioning as an external or internal modifier in NP structure (what children, what a day). Exclamative how is adverbial and modifies an adjective, degree determinative, adverb or verb. Interrogative what is different: a determinative in determiner use and a pronoun when it heads an NP. In a singular count case, an independent What a mess! uses a, while What awful weather! does not. Such (a) and so many/much pattern with exclamative what in exclamatory NPs without belonging to the series.'
+  terms: Indeterminate series is this grammar's name for the what/who/how family, sometimes called wh-words.
+  examples:
+    - text: '[what] children'
+      from: entry
+    - text: '[how] fast'
+      from: entry
+    - text: '[What a] day it''s been!'
+      from: entry
+  contrasts:
+    - text: What a lovely day it is!
+      from: constructed
+      note: Exclamative what, an adjective in modifier function within the noun phrase.
+    - text: What do you want?
+      from: constructed
+      note: Interrogative what, here a pronoun heading an NP.
+  watch_for:
+    - A learner might give what the same word class in What a day it's been! and What do you want?
+    - A learner might treat how in How fast she ran! as a question word asking for a speed.
+  activity: Students list five things that surprise them and write each as a what or how exclamation. They then underline what or how and say what it modifies.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: summary now limits the what/how restriction to the question-word (indeterminate) series, as this dictionary does; the what a lovely day contrast note no longer says what modifies day and instead says exclamative what is an adjective in modifier function within the NP. Terms: wh-words now ''sometimes called''. Second round: fixed teacher.explain, which now gives exclamative what as an external or internal modifier in NP structure, as the entry does; teacher.activity no longer limits what is modified to a noun or a describing word (the entry lets how modify a degree determinative or a verb as well). Dismissed the low flag on the contrast note (within the noun phrase covers both external and internal modifiers).'

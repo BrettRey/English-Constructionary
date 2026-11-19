@@ -1,0 +1,47 @@
+id: letter-case-modifier-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Small-c and big-D labels
+  summary: A word like small-c or big-D placed before a label tells the reader which kind of meaning the label has.
+  body: |-
+    Putting small-c before a word tells you to read it in its ordinary, descriptive sense, not as the name of an institution. Putting big-D before a word does the opposite. In She is a big-D Democrat, the label points to the party, while small-c catholic in He's a small-c catholic points to the ordinary sense.
+
+    The little modifier names a letter and whether it's capital or small. It works as a quick instruction about how to read the word that follows. The longer version puts a phrase with a capital D after the label.
+  examples:
+    - text: He's a [small-c] catholic.
+      from: entry
+    - text: She is a [Big-D] Democrat.
+      from: entry
+    - text: That was [little-p] politics.
+      from: entry
+  try: Pick a word you could write with a capital or a small first letter. How could you tell a reader which meaning you intend?
+teacher:
+  summary: Explains compact modifiers like small-c and big-D that tell a reader how to interpret a label.
+  explain: 'This is the compact form of letter-case specification. A premodifying adjective phrase, often hyphenated, names a letter and its case (small, big, little) and signals how to read the label that follows: ordinary or descriptive, versus institutional or party-affiliated. It sits before the head in the nominal, like other pre-head adjectival modifiers. The same contrast can be expressed with a full PP after the label, such as with a capital D. This dictionary marks the analysis as provisional; it rests on dictionary definitions of capital and small, so treat these as constructed illustrations.'
+  terms: 'This dictionary treats it as a metalinguistic modifier: a modifier about how a word is written, used to guide how it is read.'
+  examples:
+    - text: He's a [small-c] catholic.
+      from: entry
+    - text: She is a [Big-D] Democrat.
+      from: entry
+    - text: That was [little-p] politics.
+      from: entry
+  contrasts:
+    - text: She is a Democrat with a capital D.
+      from: constructed
+      note: The full PP after the label expresses an equivalent contrast.
+    - text: She is a [Big-D] Democrat.
+      from: entry
+      note: The compact modifier before the label.
+  watch_for:
+    - A learner might read small-c as describing size, when it names the case of the letter.
+    - A learner might expect the modifier to come after the label, when the compact form sits before it.
+  activity: Write pairs of sentences that need a capital letter to show an institutional meaning and a small letter to show an ordinary one. Partners explain each sentence in their own words and then add the compact modifier before the label.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: removed the claim about textbook categories from teacher terms (this dictionary says nothing about it). Also fixed (unflagged): ''the entry'' wording; the longer-version sentence in the curious body now matches this dictionary''s projection note.'

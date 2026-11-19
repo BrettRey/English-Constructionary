@@ -1,0 +1,42 @@
+id: continuative-perfect-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Having done something up to now
+  summary: Some have-sentences say that a situation has been going on through a stretch of time that ends at the moment being talked about.
+  body: |-
+    In Jo has lived here since April, Jo still lives here: the living-here stretches from April up to now. The sentence presents a situation as holding through an interval that ends at the relevant time.
+
+    That time needn't be now. In Jo had lived there since April when we met, the stretch ends at the meeting. This reading goes with a suitable state, like living somewhere, and a phrase giving the starting point. A sentence like I've visited three times since 2019 is different: it counts separate occasions rather than describing something ongoing.
+  examples:
+    - text: Jo [has lived here since April].
+      from: entry
+    - text: Jo [had lived there since April] when we met.
+      from: entry
+  try: Say I've lived here since 2019, then I've visited three times since 2019. Which one describes something still going on?
+teacher:
+  summary: Helps explain the ongoing-state reading of the perfect, as in has lived here since April.
+  explain: 'The continuative perfect combines perfect have, a past-participial VP and a duration reaching the reference time. With a suitable stative predicate and a since-anchor, the ordinary reading extends the situation to the present, or to another reference time supplied by context (when we met). Contrast the experiential perfect, which only locates an occurrence before the reference time: I''ve visited three times since 2019 counts completed episodes within the same interval. Since does not force continuity, because it also combines with experiential uses. The analysis is provisional.'
+  terms: Perfect have appears in what textbooks call the present perfect (has lived) and past perfect (had lived). Continuative and experiential name two readings of it.
+  examples:
+    - text: Jo [has lived here since April].
+      from: entry
+    - text: Jo [had lived there since April] when we met.
+      from: entry
+  contrasts:
+    - text: I've lived here since 2019.
+      from: entry
+      note: Ongoing-state reading is available.
+    - text: I've visited three times since 2019.
+      from: entry
+      note: Counts completed episodes in the interval.
+  watch_for:
+    - A learner might read has lived here since April as a completed past event.
+    - A learner might assume that since signals an ongoing state.
+  activity: Give students pairs of since-sentences, some with states (live, know, work at) and some with countable events (visit, call). They sort them into "still going on" and "counted occasions" and discuss the cues.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

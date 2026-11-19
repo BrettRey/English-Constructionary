@@ -1,0 +1,49 @@
+id: content-because-adjunct-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Because giving the reason for an event
+  summary: A because-part can give the reason that something happened or was the case.
+  body: |-
+    In Jo left because the room was too cold, the because-part says why Jo left. The cold explains the leaving. This is the content reading: the circumstance is presented as the reason for the event or state asserted.
+
+    Because has another use, in reasoning. There the because-part can give evidence for making the statement, not an explanation for an event.
+  examples:
+    - text: Jo left [because the room was too cold].
+      from: entry
+    - text: We stayed inside [because it was raining].
+      from: constructed
+  try: Say Jo left because the room was too cold. What happened, and what is the reason it happened?
+teacher:
+  summary: Useful for separating because as a reason for an event from because as evidence for a claim.
+  explain: In the content use, a PP headed by because with a finite clause as its complement modifies the predication and presents a circumstance as the reason for the event or state asserted. In Jo left because the room was too cold, the cold explains the leaving. In the reasoning use, the because-clause can instead supply evidence for making the assertion. This dictionary covers the content reading; the evidential use has its own entry.
+  terms: 'Adverbial clause of reason: the traditional name. In this grammar because heads a PP whose complement is a finite clause.'
+  examples:
+    - text: Jo left [because the room was too cold].
+      from: entry
+  contrasts:
+    - text: Jo left because the room was too cold.
+      from: entry
+      note: The cold explains the leaving.
+    - text: We stayed inside because it was raining.
+      from: constructed
+      note: The rain is the reason for staying inside.
+  watch_for:
+    - A learner might read every because-clause as explaining the event, when a reasoning use gives evidence for an assertion.
+    - A learner might take the because-clause as a separate sentence, when it modifies the predication.
+  activity: Students complete sentence starters like Jo left because and We stayed inside because. They underline the reason and say which event or state it explains.
+child:
+  hook: Why did Jo leave?
+  explain: Because tells the reason something happened. Jo left because the room was too cold. The cold is why Jo left.
+  examples:
+    - text: Jo left [because the room was too cold].
+      from: entry
+    - text: We stayed inside [because it was raining].
+      from: constructed
+  play: Start a sentence with I wore a coat because. Ask a friend to finish it with a reason. Then swap.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

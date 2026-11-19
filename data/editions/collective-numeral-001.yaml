@@ -1,0 +1,55 @@
+id: collective-numeral-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Counting and arranging in groups
+  summary: A plural number word after in or by can tell how people or things are grouped.
+  body: |-
+    In twos and threes describes people arriving or being arranged in small groups. The number tells the size of each group, not the total. People entered in threes could be an enormous crowd, since three counts the members of each group.
+
+    Count by fives uses a number for grouping too. By the hundreds works a little differently. It suggests large numbers, not batches of exactly one hundred.
+  examples:
+    - text: '[in twos and threes]'
+      from: entry
+    - text: '[by the hundreds]'
+      from: entry
+    - text: '[count by fives]'
+      from: entry
+  try: Say People entered in threes. Does three tell you how many people there were in all, or how many in each group?
+teacher:
+  summary: Useful for explaining plural number words that give group sizes after in or by.
+  explain: 'In this construction a plural cardinal noun in a PP with in or by gives the size of groups, and the PP is an adverbial modifying the manner of the action (arriving in twos and threes). The cardinal noun is a common noun and takes plural morphology. Three counts the members of each group even though threes is grammatically plural. By the hundreds works differently: it can indicate large numbers without fixed groups, rather than batches of exactly one hundred.'
+  terms: 'Cardinal noun: a number word used as a noun. Compare a cardinal determinative, as in three people.'
+  examples:
+    - text: '[in twos and threes]'
+      from: entry
+    - text: '[by the hundreds]'
+      from: entry
+    - text: '[count by fives]'
+      from: entry
+  contrasts:
+    - text: People entered in threes.
+      from: constructed
+      note: Three counts the members of each group; the crowd can be of any size.
+    - text: Three people entered.
+      from: constructed
+      note: Three counts the total.
+  watch_for:
+    - A learner might read in threes as a total of three people.
+    - A learner might read by the hundreds as batches of exactly one hundred.
+  activity: Students line up in twos, then in threes, and describe what happened using in twos and in threes. They then count aloud by fives and say what the number tells them.
+child:
+  hook: Can you count by fives?
+  explain: A number can tell how big each group is. In twos means two at a time. Count by fives means you jump five each time.
+  examples:
+    - text: The children lined up [in twos].
+      from: constructed
+    - text: We [count by fives].
+      from: entry
+  play: Line up your friends in twos, then in threes. Say what you did with in twos and in threes.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

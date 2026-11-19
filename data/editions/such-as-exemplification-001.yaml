@@ -1,0 +1,46 @@
+id: such-as-exemplification-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Giving examples with such as
+  summary: Such as introduces some examples of the kind of thing you've just named.
+  body: |-
+    In Bring safety gear such as gloves and goggles, such as introduces examples of safety gear. The phrase is an offer of illustration, not a full list.
+
+    That means other safety gear can still meet the instruction. Someone who brings a helmet hasn't ignored the request just because a helmet wasn't in the list.
+
+    This dictionary marks the analysis as provisional and rests on one constructed illustration.
+  examples:
+    - text: Bring safety gear [such as gloves and goggles].
+      from: entry
+    - text: We need fruit [such as apples and pears].
+      from: constructed
+  try: Write a sentence naming a kind of thing, then add such as and two examples. Could something not on your list still count?
+teacher:
+  summary: Useful for explaining how such as introduces examples without listing everything.
+  explain: 'The pattern is a noun or NP followed by such as and one or more illustrative members of the class just described, given as a phrase or coordination. The examples do not exhaust the class: other suitable safety gear can meet the instruction without being on the example list. This dictionary marks the analysis as provisional and rests on one constructed illustration. It lists same-as comparison and integrated relative modifiers as related patterns in separate entries.'
+  terms: Exemplification is the term the cited grammar uses for this role.
+  examples:
+    - text: Bring safety gear [such as gloves and goggles].
+      from: entry
+    - text: We need fruit [such as apples and pears].
+      from: constructed
+  watch_for:
+    - A learner might read the examples after such as as a complete list.
+    - A learner might think a helmet wouldn't count in the safety gear example because it isn't listed.
+  activity: Students write instructions that name a class and give examples with such as, for example "Pack warm clothes such as ...". A partner suggests another item that fits the class but isn't on the list.
+child:
+  hook: When you say such as, do you name everything?
+  explain: Such as lets you name a few examples. It doesn't have to name everything. Other things of the same kind can fit too.
+  examples:
+    - text: Bring snacks [such as apples and crackers].
+      from: constructed
+    - text: Bring safety gear [such as gloves and goggles].
+      from: entry
+  play: Name a group, like pets or fruit. Say it with such as and two examples. Then a friend adds one more thing that fits.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

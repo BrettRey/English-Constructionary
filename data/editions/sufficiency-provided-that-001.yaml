@@ -1,0 +1,45 @@
+id: sufficiency-provided-that-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Giving permission on one condition
+  summary: Provided that adds a condition under which a promise or permission holds.
+  body: |-
+    In You can use the room provided that you lock up, the last part sets a condition. Locking up is the condition on permission to use the room.
+
+    The phrase doesn't say that locking up has already happened. It sets a condition on the permission. The word that can be left out: provided you lock up works the same way in the pattern.
+
+    This dictionary marks the analysis as provisional; it rests on one constructed illustration.
+  examples:
+    - text: You can use the room [provided that you lock up].
+      from: entry
+    - text: You can play outside [provided that you wear a coat].
+      from: constructed
+  try: Give someone permission to do something, then add provided that and a condition. Does the condition sound like it has already happened?
+teacher:
+  summary: Useful for explaining provided that as a way to attach a condition to a permission or promise.
+  explain: 'The pattern is a conditional PP formed from provided (that) and a finite clause. It states a proviso under which a proposal or promise holds. In a permission context the phrase gives a condition on permission: it does not report the locking as already true. This dictionary treats the whole phrase as a PP with a finite clause, one of the clause-taking prepositions. This analysis is provisional and rests on one constructed illustration, and a separate entry covers the related unless pattern.'
+  terms: 'Sometimes called a subordinating conjunction in traditional grammar. CGEL: a preposition taking a finite clause.'
+  examples:
+    - text: You can use the room [provided that you lock up].
+      from: entry
+  watch_for:
+    - A learner might read provided that you lock up as saying you have already locked up.
+    - A learner might think provided is only a verb, when here it introduces a condition.
+  activity: Students write permissions with provided that, for example about homework or the school library. A partner restates each as what you may do and what the condition is.
+child:
+  hook: In You can play outside provided that you wear a coat, what is the condition?
+  explain: Provided that gives a rule for something you're allowed to do. You can do it if the rule is met.
+  examples:
+    - text: You can use the room [provided that you lock up].
+      from: entry
+    - text: You can play outside [provided that you wear a coat].
+      from: constructed
+  play: Make up a rule using provided that. Say what you may do, then the condition. Your friend says which part is the condition.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: 'Fixed: child hook now asks for the condition in a given sentence instead of asking what a rule ''needs''; child game no longer says the condition ''has to happen first'' (the entry treats it as a condition on permission); ''the entry'' replaced by ''this analysis''. Second round: fixed child.explain by cutting ''but only'', which made the proviso a necessary condition (this dictionary says it states a condition under which permission holds); curious.body now calls locking up the condition on permission rather than something permission depends on or requires.'

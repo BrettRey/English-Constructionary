@@ -1,0 +1,38 @@
+id: complement-it-extraposition-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Putting it first and the clause last
+  summary: A verb can take it right after the verb and put the real content in a clause at the end.
+  body: |-
+    In We found it surprising that the lights were on, the word it comes right after found, then comes surprising, and the clause that the lights were on comes last. The clause says what was surprising.
+
+    Here it holds the place after the verb and doesn't point back to anything mentioned before. The content comes at the end instead. Putting the clause straight after found and moving the describing word to the end is heavily degraded.
+  examples:
+    - text: We [found it surprising that the lights were on].
+      from: entry
+  try: Say We found it surprising that the lights were on. What does it stand for in that sentence?
+teacher:
+  summary: Useful for explaining object it with an extraposed that-clause after a predicative complement.
+  explain: 'In this verb phrase, a verb is followed by it in object position, then a predicative or other complement, and finally a content clause: found it surprising that the lights were on. It fills the object slot and need not refer to a previous noun phrase. The content clause, placed last, gives the propositional content. The corresponding order with the clause directly after the verb (found that the lights were on surprising) is heavily degraded.'
+  terms: 'Extraposition: moving a content clause to the end, with it in its place. Content clause: a clause that gives propositional content, such as that the lights were on.'
+  examples:
+    - text: We [found it surprising that the lights were on].
+      from: entry
+  contrasts:
+    - text: We found it surprising that the lights were on.
+      from: entry
+      note: It is in object position, the content clause is last.
+    - text: We found the news surprising.
+      from: constructed
+      note: An ordinary noun phrase object with a predicative complement and no content clause.
+  watch_for:
+    - A learner might look for an earlier noun phrase that it refers to, when it need not refer to one.
+    - A learner might put the content clause right after the verb, which is heavily degraded in this pattern.
+  activity: Give students sentences like We found it surprising that the lights were on. They underline it, the complement and the content clause, and say what the content clause tells you.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

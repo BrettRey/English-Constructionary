@@ -1,0 +1,62 @@
+id: verb-particle-object-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Little words before or after an object
+  summary: A short word like down or off can come before or after the object of a verb, as in brought down the bed and brought the bed down.
+  body: |-
+    In She brought down the bed, the small word down goes with the verb brought, and the bed is what she brought. The same thing can be said the other way: She brought the bed down.
+
+    In the dictionary's account, down isn't the start of a phrase down the bed. It stands on its own beside the verb, and the bed is a separate object.
+
+    The dictionary marks this account as provisional, and says no single test works in every case.
+  examples:
+    - text: She [brought down the bed].
+      from: entry
+    - text: She [brought the bed down].
+      from: entry
+    - text: She [took the label off].
+      from: entry
+  try: Say took the label off, then try replacing the label with it. Where does it go?
+teacher:
+  summary: Helps explain verb-particle combinations with an object, including word-order flexibility and the pronoun restriction.
+  explain: 'In this construction a verb takes a separate noun phrase as direct object and a one-word prepositional phrase complement in particle use. The particle is a syntactic use, not a word category. In She took off the label, off is a complement of take and the label is a separate direct object. This differs from She jumped off the wall, where off heads a prepositional phrase containing its own object. An ordinary object generally allows both orders, but an unstressed personal-pronoun object must immediately follow the verb: take it off. This dictionary marks its analysis provisional, and notes that heavy objects and fixed idioms can obscure the alternation.'
+  terms: Verb-particle combination is a textbook name, and phrasal verb is a common one, though that label also covers cases without an object. In this grammar the particle is a one-word prepositional phrase complement of the verb.
+  examples:
+    - text: She [brought down the bed].
+      from: entry
+    - text: She [brought the bed down].
+      from: entry
+    - text: She [took the label off].
+      from: entry
+  contrasts:
+    - text: She brought down the bed.
+      from: entry
+      note: Verb, particle, object.
+    - text: She brought the bed down.
+      from: entry
+      note: Verb, object, particle.
+    - text: took off it
+      from: entry
+      acceptable: false
+      note: An unstressed pronoun object cannot follow the particle; this dictionary gives take it off.
+  watch_for:
+    - A learner might read down the bed in brought down the bed as a single phrase, when this dictionary treats down and the bed as separate.
+    - A learner might treat take off it like take off the label, though an unstressed pronoun must come before the particle.
+  activity: Give students phrasal verbs on cards (take off, bring down, put on). They build sentences with a noun object in both orders, then replace the object with it and say where the particle must go.
+child:
+  hook: Can you say "took the label off" and "took off the label"?
+  explain: Some small words like off and down can go before or after the object. She took the label off. She took off the label. With it, the little word goes after it.
+  examples:
+    - text: She [took the label off].
+      from: entry
+    - text: She [brought the bed down].
+      from: entry
+  play: Take a sticker off a page and say what you did two ways. Then say what you did with it, like "I took it off."
+checked:
+  date: "2026-11-19"
+  model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)
+  result: fixed
+  note: "Fixed: child explanation no longer says the particle goes on either side of 'what the verb moves' (many combinations involve no movement); now says before or after the object; curious title reworded likewise; 'the entry' replaced by 'this dictionary'; phrasal verb hedged as a broader label. Second round: fixed child.explain, comes last changed to goes after it (the entry requires the particle to follow an unstressed pronoun object, not to end the sentence); cut the curious claim that separateness is why both orders are possible; teacher.explain now says an ordinary object generally allows both orders, as the entry does."

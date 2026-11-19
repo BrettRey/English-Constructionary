@@ -1,0 +1,45 @@
+id: epistemic-perfect-modal-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Judging the past with must have
+  summary: A modal verb of judging, followed by have and a past participle, assesses an earlier situation from a later point of view.
+  body: |-
+    In It must have rained last night, the speaker is judging what happened earlier. The modal must brings the speaker's assessment, and have followed by the past participle (rained) places the event before the point of view the speaker is judging from.
+
+    The pattern assesses an earlier situation from a later point of view. It is built from a modal verb followed by perfect have.
+  examples:
+    - text: It [must have rained] last night.
+      from: entry
+    - text: She [may have left] already.
+      from: constructed
+  try: Look at a clue in the room, such as wet shoes. What could you say about what happened earlier, starting with must have?
+teacher:
+  summary: Helps explain an epistemic modal followed by perfect have as an assessment of an earlier situation.
+  explain: 'The pattern is VP[epistemic modal + have + past participle]. It assesses an earlier situation from a later point of view: in It must have rained last night, the modal supplies the assessment and perfect have locates the assessed event before the reference time. This dictionary treats it as a specialization of the modal-plus-plain-complement pattern and as containing perfect have.'
+  terms: Epistemic modal; perfect (have + past participle).
+  examples:
+    - text: It [must have rained] last night.
+      from: entry
+    - text: She [may have left] already.
+      from: constructed
+  watch_for:
+    - A learner might read have in must have rained as showing possession.
+    - A learner might read must as an obligation, when here it belongs to an assessment of an earlier situation.
+  activity: Present clues (wet pavement, an empty plate). Students write a sentence for each, assessing what happened earlier with must have or may have.
+child:
+  hook: You see wet grass. What can you say about the night?
+  explain: You can use must have to say what you work out from a clue about something earlier. It must have rained last night.
+  examples:
+    - text: It [must have rained] last night.
+      from: entry
+    - text: The cake [must have burned].
+      from: constructed
+  play: Look at a picture clue, like muddy boots. Say what must have happened. Can a friend think of another idea?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: curious.summary now says the modal is a judging (epistemic) one and that the assessed situation is earlier than a later point of view, as the entry defines it, without tying it to the speaker''s present; child.explain rewritten in simpler words that connect must have to working something out from a clue; replaced ''the entry'' with ''this dictionary''.'

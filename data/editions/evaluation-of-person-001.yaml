@@ -1,0 +1,53 @@
+id: evaluation-of-person-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Judging a person's action with "kind of you"
+  summary: A sentence like It was kind of you to call judges a person by what they did or considered doing.
+  body: |-
+    In It is good of you to help, the speaker judges you for helping. You are both the person being judged and the one who helps. The sentence evaluates a person's conduct in doing the action named after to.
+
+    Compare It was difficult for you to call. There, the assessment is about how hard the call was, not about you as a person. When the context makes the action clear, the shorter That was kind of you also works.
+  examples:
+    - text: '[It is good of you to help.]'
+      from: entry
+    - text: '[It was careless of Pat to leave the gate open].'
+      from: entry
+    - text: It was kind of you to call.
+      from: constructed
+  try: Think of something kind a friend did. Say it to them starting with It was kind of you to ...
+teacher:
+  summary: Helps contrast evaluating a person (kind of you) with assessing difficulty (difficult for you).
+  explain: 'The pattern is dummy it + be + adjective + of + NP + to-infinitival, where the NP after of is also the understood subject of the infinitival. It evaluates a person''s conduct in doing or contemplating the action: in It was kind of you to call, you is the person whose action is evaluated. Compare It was difficult for you to call, where the assessment concerns the difficulty of the calling. With relevant evaluative adjectives a context can supply the action, as in That was kind of you. This dictionary relates the pattern to subject extraposition and to exclamative packaging (How kind of you to call).'
+  terms: This dictionary separates the kind-of-you pattern from the difficult-for-you pattern.
+  examples:
+    - text: '[It is good of you to help.]'
+      from: entry
+    - text: '[It was careless of Pat to leave the gate open].'
+      from: entry
+  contrasts:
+    - text: It was kind of you to call.
+      from: constructed
+      note: Evaluates the person who called.
+    - text: It was difficult for you to call.
+      from: constructed
+      note: Assesses how hard calling was.
+  watch_for:
+    - A learner might treat of you and for you as interchangeable, though the assessments differ.
+    - A learner might read It was careless of Pat to leave the gate open as a comment on the gate, when it evaluates Pat's conduct.
+  activity: Students sort adjectives (kind, difficult, careless, easy) by whether they judge the person or the task, then write one sentence of each kind.
+child:
+  hook: How do you thank a friend for something kind?
+  explain: Some sentences tell what you think of a person for something they did. It was kind of you to share. The words after of tell who did it. The words after to tell what they did.
+  examples:
+    - text: It was [kind of you to share].
+      from: constructed
+    - text: '[It is good of you to help.]'
+      from: entry
+  play: Think of something kind or careless someone did. Say what you think of them with of you or of and a name.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

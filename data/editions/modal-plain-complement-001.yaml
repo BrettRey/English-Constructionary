@@ -1,0 +1,47 @@
+id: modal-plain-complement-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Little helper verbs and the plain verb after them
+  summary: Words like might come before a verb in its basic form, and they have no -s ending of their own.
+  body: |-
+    In Jo might have missed the train, the word might comes first and the plain form have follows it. Might doesn't change for different subjects: there's no third-person -s on the modal itself. The verb after it stays in its basic form.
+
+    This dictionary calls words like might central modals. This dictionary also notes that an ordinary central modal can't fill the slot after perfect have. The modal comes first and have comes after it.
+  examples:
+    - text: Jo [might have missed] the train.
+      from: entry
+    - text: Kim [must have left] early.
+      from: constructed
+    - text: They [will call] tomorrow.
+      from: constructed
+  try: Put might, must or will in front of a verb, then change the subject from I to she. Does the modal change at all?
+teacher:
+  summary: Helps explain why verbs after modals stay in the plain form and why modals have no -s form.
+  explain: 'A central modal combines with a plain-form verb phrase. Might selects plain have in Jo might have missed the train, and the modal has no third-person singular suffix. This dictionary adds that ordinary central modals cannot occupy the complement slot of perfect have: the modal comes first, and have follows it. The pattern is a specialization of the general verb phrase. Teachers may want to pair it with the perfect, which this dictionary lists as related.'
+  terms: Plain form is sometimes called the base form or bare infinitive. Central modal is the CGEL name; modal auxiliary is sometimes used in textbooks.
+  examples:
+    - text: Jo [might have missed] the train.
+      from: entry
+    - text: Kim [must have left] early.
+      from: constructed
+    - text: They [will call] tomorrow.
+      from: constructed
+  contrasts:
+    - text: Jo might have missed the train.
+      from: entry
+      note: Modal first, then plain have.
+    - text: Jo has missed the train.
+      from: constructed
+      note: Perfect have with a third-person singular form, and no modal.
+  watch_for:
+    - A learner might add -s to a modal after he or she, since other verbs take it.
+    - A learner might use have or has before the modal rather than after it.
+    - A learner might use a verb form with -ing or -ed after might instead of the plain form.
+  activity: Give students subjects (I, she, they) and modals (might, must, will). They build sentences with a plain verb, then with have and a past participle, and compare the endings on each verb.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

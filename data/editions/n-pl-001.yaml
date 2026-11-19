@@ -1,0 +1,53 @@
+id: n-pl-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Plural nouns without -s
+  summary: A plural noun is defined by how it behaves in a sentence, not by an -s ending or by meaning more than one.
+  body: |-
+    Cats and books are plural nouns. They go with plural verbs and with numbers above one. But a plural noun doesn't need to end in -s. Sheep can go with a plural verb with no ending at all.
+
+    Plural doesn't have to mean more than one thing. Scissors is plural, yet counting individual tools needs a phrase such as pairs of scissors. This dictionary calls plural a form category, not a meaning category: it typically suggests more than one unit, but that isn't what defines it.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[books]'
+      from: entry
+    - text: The [sheep] are in the field.
+      from: constructed
+  try: Find a plural word that doesn't end in -s. Put it in a sentence and see which verb fits.
+teacher:
+  summary: Explains that plural is a grammatical form, with irregular and plural-only nouns as test cases.
+  explain: 'A plural noun has the plural number form: it selects plural agreement and combines with cardinals above one. It typically construes the referents as more than one unit, but the category is morphosyntactic, not semantic (cf. plural-only nouns). A plural doesn''t require the spelling -s or direct counting: sheep can show plural agreement with no suffix, and scissors typically needs a unit expression to count individual instruments. This dictionary''s irregular and plural-only forms offer independent contrasts for number marking and countability. Zero plurals and plural common nouns are related patterns.'
+  terms: Plural-only nouns are sometimes called pluralia tantum, the term this dictionary uses.
+  examples:
+    - text: '[cats]'
+      from: entry
+    - text: '[books]'
+      from: entry
+  contrasts:
+    - text: The sheep are in the field.
+      from: constructed
+      note: Plural agreement with no -s on the noun.
+    - text: She bought two pairs of scissors.
+      from: constructed
+      note: Counting tools needs a unit expression.
+  watch_for:
+    - A learner might assume every plural noun ends in -s.
+    - A learner might assume that plural has to mean more than one thing, though this dictionary says the category is a form category, not a semantic one.
+  activity: Students sort nouns into those with -s plurals, those with other plurals, and those that behave as plural only. They write each in a sentence with a plural verb.
+child:
+  hook: Is it one sheep or two sheep? Does the word change?
+  explain: Plural nouns tell us about more than one thing. Some end in -s, like cats and books. But sheep can be plural without changing. We say the sheep are in the field.
+  examples:
+    - text: The [sheep] are in the field.
+      from: constructed
+    - text: I have two [books].
+      from: constructed
+  play: Say a sentence about two cats. Then say one about two sheep. Notice which word changes and which does not.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

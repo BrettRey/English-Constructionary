@@ -1,0 +1,49 @@
+id: extent-measure-np-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Saying how far
+  summary: After a verb of movement, a measured distance can answer the question "how far".
+  body: |-
+    In We walked three kilometres before lunch, the phrase three kilometres says how far the walking went. It measures the distance covered, or the spatial extent of something.
+
+    That differs from a measure of time. Walked three kilometres measures distance, while walked for an hour measures how long the walking lasted and uses a for phrase. A separate phrase can also say where the walking led.
+  examples:
+    - text: We walked [three kilometres] before lunch.
+      from: entry
+    - text: They ran [two kilometres] along the river.
+      from: constructed
+  try: Say how far you walk to school, or to a shop. Which words in your sentence give the distance?
+teacher:
+  summary: Helps explain measure phrases like three kilometres after a motion verb, and how they differ from objects and duration phrases.
+  explain: 'A measure NP after a motion or spatial verb measures traversed distance or the spatial extent of a configuration: We walked three kilometres before lunch. The NP answers how far and usually lacks an ordinary active-object/passive-subject alternation, so it doesn''t behave like a typical object. A goal phrase can independently say where the walking led. Distance (three kilometres) is kept apart from duration (for an hour, a for-PP). This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Measure phrase is the usual name. Traditional grammar sometimes treats such phrases as adverbials of distance.
+  examples:
+    - text: We walked [three kilometres] before lunch.
+      from: entry
+  contrasts:
+    - text: We walked three kilometres.
+      from: constructed
+      note: Measures distance, answering how far.
+    - text: We walked for an hour.
+      from: constructed
+      note: Measures duration with a for phrase.
+  watch_for:
+    - A learner might treat three kilometres as an ordinary object that could become the subject of a passive.
+    - A learner might mix up a distance phrase (three kilometres) with a duration phrase (for an hour).
+  activity: Students write how far they went on a recent trip, then rewrite it to say how long it took. They label each phrase as distance or duration.
+child:
+  hook: How could you answer How far did we walk?
+  explain: You can say a distance right after the verb. We walked three kilometres. The words three kilometres tell how far.
+  examples:
+    - text: We walked [three kilometres] before lunch.
+      from: entry
+    - text: They ran [two kilometres] along the river.
+      from: constructed
+  play: Pick a way to move, like walking, running or swimming. Say a sentence that tells how far you went. Then say how long it took, using for.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

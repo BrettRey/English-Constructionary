@@ -1,0 +1,42 @@
+id: adjectival-raising-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Likely to, said of a whole situation
+  summary: With a word like likely, the sentence judges a whole situation rather than describing the person it starts with.
+  body: |-
+    In Liz was likely to convince them, the word likely doesn't describe Liz. It assesses a situation: Liz convincing them. That's why They were likely to be convinced by Liz describes the same situation.
+
+    It also explains There is likely to be enough food left, where the opening there isn't a person or thing that could be likely. Compare determined to leave, where the adjective says something about its subject: someone is determined. There the opening word can't be an empty there.
+  examples:
+    - text: '[There is likely to be enough food left.]'
+      from: entry
+    - text: '[Liz was likely to convince them.]'
+      from: entry
+  try: Say Liz was likely to convince them, and then They were likely to be convinced by Liz. Does the situation stay the same?
+teacher:
+  summary: For advanced classes, shows how likely assesses a situation expressed by the infinitival, unlike determined.
+  explain: 'In the raising pattern, the subject belongs to the infinitival predication, and the adjective assesses the whole situation. Evidence in this dictionary: likely permits dummy there as subject (There is likely to be enough food left), and an active and a passive version describe the same situation (Liz was likely to convince them; They were likely to be convinced by Liz). In determined to leave, the adjective ascribes determination to its subject and does not permit dummy there. This dictionary sets raising apart from the tough construction, in which the matrix subject is linked to a non-subject gap.'
+  terms: Raising adjective is the label used for likely in this pattern. Dummy there is the empty subject there.
+  examples:
+    - text: '[There is likely to be enough food left.]'
+      from: entry
+    - text: '[Liz was likely to convince them.]'
+      from: entry
+  contrasts:
+    - text: Liz was likely to convince them.
+      from: entry
+      note: Likely assesses the situation of Liz convincing them.
+    - text: Kim was determined to leave.
+      from: constructed
+      note: Determined ascribes determination to Kim, so dummy there doesn't fit here.
+  watch_for:
+    - A learner might read Liz was likely to convince them as saying something about Liz herself, when likely assesses the situation.
+    - A learner might treat likely and determined as the same pattern because both are followed by to, when this dictionary shows they differ.
+  activity: Give students pairs of adjectives followed by to-infinitivals (likely and determined). They test each with an active and passive version of the same situation and decide which adjective stays about the same situation.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

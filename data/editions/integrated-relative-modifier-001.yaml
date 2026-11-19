@@ -1,0 +1,42 @@
+id: integrated-relative-modifier-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The books that Kim bought
+  summary: A clause can be attached to a noun to help say which things you mean, as in the books that Kim bought.
+  body: |-
+    In The books that Kim bought are on the desk, the part that Kim bought is joined directly to books. It helps pick out which books: the ones Kim bought. The word that can be left out here, giving the books Kim bought.
+
+    Other cases need the marker. In The books that arrived today are on the desk, the books themselves are what arrived, and omitting that doesn't give the same kind of phrase. A relative clause can also add a fact about something already identified, so it needn't narrow things down.
+  examples:
+    - text: The books [that Kim bought] are on the desk.
+      from: entry
+    - text: The books [that arrived today] are on the desk.
+      from: entry
+  try: Say The books Kim bought are on the desk. Now try leaving that out of The books that arrived today. What changes?
+teacher:
+  summary: Explains relative clauses that are part of a noun phrase and help identify its referent.
+  explain: The pattern is a nominal containing an antecedent plus a relative clause with a linked gap. It can describe a subset, as in the books Kim bought, or add a property of a referent already uniquely identified. Wh-marking, that and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself. So an integrated relative can be bare with a close object gap but normally needs a marker when the gap is its immediate subject. Restriction of reference is a frequent interpretation. This contrasts with the supplementary relative, as in The books, which arrived yesterday, are upstairs. This dictionary marks the analysis as provisional.
+  terms: Traditionally called a restrictive relative clause. This dictionary says integrated, since integration is distinct from semantic restriction, and calls the other kind supplementary (traditionally non-restrictive).
+  examples:
+    - text: The books [that Kim bought] are on the desk.
+      from: entry
+    - text: The books [that arrived today] are on the desk.
+      from: entry
+  contrasts:
+    - text: The books that arrived today are on the desk.
+      from: entry
+      note: Integrated, the relative helps identify the books.
+    - text: The books, which arrived yesterday, are upstairs.
+      from: entry
+      note: Supplementary, a separate comment on books already supplied.
+  watch_for:
+    - A learner might think that must appear in every relative clause, though the books Kim bought is given as a variant.
+    - A learner might think every relative clause narrows down the referent, though this dictionary says one can also add a property of a referent already uniquely identified.
+  activity: Students rewrite pairs of sentences into one noun phrase with a relative clause, and test which can drop that. They then compare with a comma version using which.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

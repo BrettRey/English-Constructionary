@@ -1,0 +1,31 @@
+id: preterite-politeness-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Past tense for a polite request now
+  summary: A past-tense verb can soften a request being made right now.
+  body: |-
+    In I wanted to ask if a seat was available, the person is asking now. The past tense wanted presents the request as a thought or intention they've already had, which softens it.
+
+    The same form can also have a literal past meaning, if the situation supplies a past intention. This dictionary marks the account as provisional.
+  examples:
+    - text: '[I wanted to ask] if a seat was available.'
+      from: entry
+  try: How would you ask for something politely using a past-tense verb? Does it feel gentler than a present-tense version?
+teacher:
+  summary: Explains why a past-tense verb can make a present request more polite.
+  explain: The preterite of a request-related predicate plus a complement can soften a present request by presenting it as an already entertained thought or intention. In I wanted to ask if a seat was available, the request is made at the time of speaking. The same morphology can also be literally past, in a context that supplies a past intention. This dictionary marks the analysis provisional, so present it as a description of this example, and point out that tense can express more than time.
+  terms: Sometimes called the 'past tense of politeness' or 'tentative past'; this dictionary uses preterite for the past tense form.
+  examples:
+    - text: '[I wanted to ask] if a seat was available.'
+      from: entry
+  watch_for:
+    - A learner might take wanted as describing something that happened only in the past.
+    - A learner might not realize the speaker is asking now.
+  activity: Students role-play asking for a seat or a favour, first with a plain request and then with a past-tense softened one, and say how each might sound to the listener.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

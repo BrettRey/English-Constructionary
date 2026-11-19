@@ -1,0 +1,49 @@
+id: let-permissive-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Letting someone do something
+  summary: Let can be followed by a person and then a plain verb to say that an action is allowed to go ahead.
+  body: |-
+    In They let Jo use the key, the speakers allow Jo to do something. The pattern is let, then the person, then the verb in its plain form, as in use.
+
+    The meaning is permission. The action is presented as allowed to proceed. Some other ways of giving permission work a little differently. For example, you can say Jo was allowed to use the key, but the ordinary passive with let and to isn't available in this use.
+  examples:
+    - text: They [let Jo use the key].
+      from: entry
+    - text: Jo was allowed to use the key.
+      from: entry
+  try: Say They let Jo use the key. Who is giving permission, and who gets to act?
+teacher:
+  summary: Helps explain let plus a person plus a plain verb as permission, and why it lacks the passive that allow has.
+  explain: 'In this use, let takes an NP and a bare infinitival: let Jo use the key. The sentence presents an action as permitted or allowed to proceed. The verb after the NP is in the plain form, and let licenses it directly. The passive behaves differently from other permission verbs. An ordinary verbal passive with let and to is unavailable in this use, unlike Jo was allowed to use the key. Teaching let beside allow makes the difference easy to see.'
+  terms: The bare infinitival is sometimes called a bare infinitive. This dictionary also calls the form after Jo the plain form of the verb.
+  examples:
+    - text: They [let Jo use the key].
+      from: entry
+  contrasts:
+    - text: They let Jo use the key.
+      from: entry
+      note: Let with a plain form after Jo.
+    - text: Jo was allowed to use the key.
+      from: entry
+      note: Allow has an ordinary passive with to.
+  watch_for:
+    - A learner might put to before the verb after Jo because allow takes to in Jo was allowed to use the key.
+    - A learner might try to form the passive of let in this use the way the passive of allow is formed.
+  activity: Students write four sentences about permission at school with let followed by a person and a plain verb. A partner rewrites each one with allow and compares the two verbs.
+child:
+  hook: What do you call it when a grown-up says you can do something?
+  explain: When someone lets you do something, they allow it. Say let, then who gets to do it, then the action. Dad lets Mia use his bike. The action word stays plain.
+  examples:
+    - text: Dad [lets Mia use his bike].
+      from: constructed
+    - text: They [let Jo use the key].
+      from: entry
+  play: Finish this sentence three ways, with a different person and a different action each time. My teacher lets ... Then read your three sentences aloud to a friend.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

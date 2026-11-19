@@ -1,0 +1,49 @@
+id: scalar-recalibration-declarative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Topping someone's claim with your own
+  summary: You think you're tired? can set up a comparison in which the speaker's own case goes further on the same scale.
+  body: |-
+    You think you're tired? I've been up for 36 hours. The first part looks like a remark about what you believe, but it can shift the scale. The speaker can be saying they're beyond tired, in a way that makes the listener's tiredness look smaller.
+
+    Whether the sentence really works this way depends on what follows. A follow-up that gives the speaker's evidence, such as the 36 hours, supplies the comparison. In a literal conversation about what someone believes, the same sentence need not do this. This dictionary marks the analysis as provisional.
+  examples:
+    - text: '[You think you''re tired]? I''ve been up for 36 hours.'
+      from: entry
+    - text: '[You think that''s expensive]. Wait till you see the repair bill.'
+      from: entry
+    - text: '[You think you know stress]. Try raising triplets.'
+      from: entry
+  try: Think of a time someone said they were really tired, cold or busy. How would you top that with You think ...?
+teacher:
+  summary: Helps explain a belief-sounding frame that can top the listener's point on a scale.
+  explain: 'The frame You think you''re/NP is [GRADABLE-PRED] has a matrix clause with a second person subject and think as the main verb, and the embedded predicate must be gradable. Its meaning can be scalar recalibration: the speaker has something that exceeds the addressee''s example on the relevant dimension. The direction is flexible, since the speaker may exceed from superiority (dismissive) or from being worse off (self-deprecating, ironic). The pattern needs a follow-up giving the speaker''s evidence. The comparison depends on the following discourse. This dictionary marks the analysis as provisional.'
+  terms: In this dictionary it overlaps in function with a related scalar-challenge construction that has a different matrix verb and targets category membership rather than degree.
+  examples:
+    - text: '[You think you''re tired]? I''ve been up for 36 hours.'
+      from: entry
+    - text: '[You think that''s expensive]. Wait till you see the repair bill.'
+      from: entry
+    - text: '[You think you know stress]. Try raising triplets.'
+      from: entry
+  watch_for:
+    - A learner might hear You think you're tired? only as a remark about the listener's belief, when a follow-up can show the speaker is topping it.
+    - A learner might use the frame without a follow-up that supplies the speaker's own, bigger case.
+  activity: Students write a complaint about a mild condition (tired, cold, busy), pass it on, and the partner replies with You think ...? and an exaggerated case that tops it.
+child:
+  hook: What do you say when you've got it even worse than your friend?
+  explain: You think you're tired? can sound like a question about what you think. Sometimes it means "I'm even more tired." What the speaker says next shows which.
+  examples:
+    - text: '[You think you''re tired]? I''ve been up for 36 hours.'
+      from: entry
+    - text: '[You think that''s expensive]. Wait till you see the repair bill.'
+      from: entry
+  play: Take turns. One person says "I'm tired" or "I'm cold". The other answers You think ...? and tops it with a reason.
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child.explain no longer dismisses the literal belief reading and now says what follows shows which reading is meant; curious.summary, curious.body, teacher.summary and teacher.explain say the comparison can be introduced rather than always is, as the entry says it depends on the following discourse. Also fixed (unflagged): teacher.watch_for no longer treats the literal reading as a mistake; teacher.terms no longer quotes a constructed You call that X? form.'

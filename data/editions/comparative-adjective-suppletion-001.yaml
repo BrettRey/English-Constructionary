@@ -1,0 +1,47 @@
+id: comparative-adjective-suppletion-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Comparing with a different word
+  summary: A few adjectives make their comparison forms from a different stem, such as good, better and best.
+  body: |-
+    Good has better and best as its comparison forms, and bad has worse and worst. These are built on different stems, not by adding something to the plain word.
+
+    Better still works as a comparison form even though it has no added -er ending. This plan is better than the first compares two plans, just as a taller one would compare two heights. Better than and the best share a pattern with plain good.
+  examples:
+    - text: This plan is [better] than the first.
+      from: entry
+  try: Say the plain word, the comparison and the best for good and for bad. What do you notice about the endings?
+teacher:
+  summary: Useful for explaining why good and bad compare with different words instead of added endings.
+  explain: 'Some adjectives realize grade through different stems: good has better and best, and bad has worse and worst. This is suppletion. Better behaves like a comparative even though it has no transparently added -er ending: it can introduce a than-phrase, as in better than the first. Better than and the best share a paradigm with plain good in the relevant readings.'
+  terms: 'Suppletion: forming grade forms from a different stem. Comparative and superlative are the traditional names for the two grades; this dictionary says grade.'
+  examples:
+    - text: This plan is [better] than the first.
+      from: entry
+  contrasts:
+    - text: This plan is better than the first.
+      from: entry
+      note: Suppletive comparative of good.
+    - text: This plan is longer than the first.
+      from: constructed
+      note: Regular comparative with the -er suffix.
+  watch_for:
+    - A learner might look for the -er ending in better and not see it as a comparison form.
+    - A learner might treat better and good as unrelated words, when they belong to one paradigm.
+  activity: Students write the three forms (plain, comparison, best) for good and bad and for a regular adjective like long. They mark which forms are built by adding an ending and which come from a different stem.
+child:
+  hook: What comes after good, then better?
+  explain: Some words change into a different word when you compare. Good turns into better and best. Bad turns into worse and worst.
+  examples:
+    - text: This plan is [better] than the first.
+      from: entry
+    - text: This soup is [worse] than that one.
+      from: constructed
+  play: Finish the chain out loud. Good, better, and then what? Bad, worse, and then what? Make a sentence with each word.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

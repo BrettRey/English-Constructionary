@@ -1,0 +1,40 @@
+id: preposition-pied-piping-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Carrying a preposition to the front
+  summary: In a describing clause, the preposition can move to the front together with the word which or whom.
+  body: |-
+    In The terminal from which they departed is closed, the little word from travels to the front of the clause together with which. The two stay together as a unit.
+
+    The word that after from can't be used this way: with that, the preposition has to stay behind, as in The terminal that they departed from is closed. A fronted preposition can take which or whom.
+  examples:
+    - text: The terminal [from which they departed] is closed.
+      from: entry
+    - text: The terminal that they departed from is closed.
+      from: constructed
+  try: Turn I spoke to the woman into a clause that begins with to whom.
+teacher:
+  summary: Explains relative clauses where a fronted preposition travels with which or whom.
+  explain: In a relative clause with a fronted preposition, the preposition and the relative expression form a PP at the front of the clause, and the rest of the clause contains a linked gap. A fronted P can take which or whom. The comparable relative with that requires stranding rather than forming an initial PP from that. Compare To whom Jo spoke, which fronts the preposition with its complement, with Jo was spoken to, which leaves it behind. This dictionary relates the pattern to integrated relative modifiers, selected prepositional complements and the prepositional passive, and marks it provisional, with medium confidence.
+  terms: Textbooks sometimes call this preposition fronting or pied-piping. Stranding is the term for leaving the preposition behind.
+  examples:
+    - text: The terminal [from which they departed] is closed.
+      from: entry
+  contrasts:
+    - text: The terminal from which they departed is closed.
+      from: entry
+      note: Preposition fronted with which.
+    - text: The terminal that they departed from is closed.
+      from: constructed
+      note: With that, the preposition is stranded at the end.
+  watch_for:
+    - A learner might split the preposition from which, when the fronted PP stays together.
+    - A learner might expect to front the preposition in a relative with that, when that requires stranding.
+  activity: Give students pairs of sentences (I spoke to the woman. She called) and ask them to join them two ways, with a fronted preposition and with a stranded one, and say which relative word each needs.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

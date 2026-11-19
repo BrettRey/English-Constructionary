@@ -1,0 +1,42 @@
+id: long-distance-open-interrogative-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A question word reaching into a later clause
+  summary: A question word at the front of a sentence can ask about something that belongs to a verb in a later clause.
+  body: |-
+    In Which tool did Lee say Jo had borrowed? the question word phrase sits at the front, but the tool is what Jo borrowed, not what Lee said. The question reaches into the clause that follows say.
+
+    Compare the shorter Which tool did Jo borrow? Here the question phrase is tied directly to the main verb. In the longer version, the same link is stretched across another clause.
+
+    Not every sentence of this kind sounds equally natural. How well it works depends on the construction in between, and experiments find gradient effects, linked to how strongly the embedded content is backgrounded.
+  examples:
+    - text: '[Which tool did Lee say Jo had borrowed?]'
+      from: entry
+    - text: '[Which tool did Jo borrow?]'
+      from: entry
+  try: Say Which tool did Lee say Jo had borrowed? Which verb does Which tool belong to?
+teacher:
+  summary: 'For advanced classes: how a question phrase at the front is understood as belonging to a verb in a lower clause.'
+  explain: A long-distance open interrogative fronts an interrogative phrase and associates it with a gap inside an embedded clause. In Which tool did Lee say Jo had borrowed?, the tool is interpreted as the object of borrowed. The local counterpart, Which tool did Jo borrow?, ties the phrase directly to the main verb. Licensing varies with the intervening construction, and experiments report gradient effects associated with how strongly the embedded content is backgrounded. This dictionary marks the analysis as provisional, so don't present a simple rule for which embeddings allow it.
+  terms: Open interrogative is the term here; a wh-question is another name for the same kind of question. The link across clauses is a long-distance dependency.
+  examples:
+    - text: '[Which tool did Lee say Jo had borrowed?]'
+      from: entry
+  contrasts:
+    - text: Which tool did Lee say Jo had borrowed?
+      from: entry
+      note: Long-distance. The tool is the object of borrowed.
+    - text: Which tool did Jo borrow?
+      from: entry
+      note: Local counterpart. The phrase is tied to the main verb.
+  watch_for:
+    - A learner might link the question phrase to say, when the tool is the object of borrowed.
+    - A learner might expect every embedding to allow the pattern equally, when licensing varies with the intervening construction.
+  activity: Give students a statement like Lee said Jo had borrowed a tool. They turn it into a question about the tool, then check each question by identifying which verb the question phrase belongs to.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,63 @@
+id: n-proper-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Names and the words that make them
+  summary: A proper noun is a word specialized to serve as the main word of a name, such as Einstein, Waterloo, Harvard or Everest.
+  body: |-
+    Einstein, Waterloo, Harvard, Pacific and Everest are all proper nouns. Each is the main word of a name, and each carries associations. Einstein brings to mind a particular person. Waterloo brings to mind defeat, Harvard a university and Everest a mountain.
+
+    A name can be longer than the word that heads it: New Zealand is a name of more than one word. A word normally used as a name can also appear in a descriptive phrase, as in another Einstein. Proper nouns are normally written with a capital letter, with some exceptions.
+  examples:
+    - text: '[Einstein]'
+      from: entry
+    - text: '[Waterloo]'
+      from: entry
+    - text: '[Harvard]'
+      from: entry
+    - text: '[Everest]'
+      from: entry
+    - text: We visited [New Zealand].
+      from: constructed
+  try: Think of a name for a person, a place and a group. Which of them could have a descriptive phrase around it, such as another one?
+teacher:
+  summary: Separates the proper noun as a word category from the proper name, with secondary uses such as another Einstein.
+  explain: 'A proper noun is a noun specialized to head proper names. It is morphologically simple or compound and normally written with an initial capital, subject to lexical and stylistic exceptions. A proper noun heads a proper noun phrase and can appear without a determiner. In this dictionary, proper noun is a syntactic category and proper name a semantic one, and they need not have the same extent: New Zealand is a multiword name, and a noun normally used as a name can occur in a descriptive phrase such as another Einstein. This dictionary groups features as individual (Einstein), archetypal (Waterloo), institutional (Harvard) and geographical (Pacific, Everest).'
+  terms: Proper noun is the traditional term and the one used here. This dictionary separates it from proper name, which it treats as a semantic category.
+  examples:
+    - text: '[Einstein]'
+      from: entry
+    - text: '[Waterloo]'
+      from: entry
+    - text: '[Harvard]'
+      from: entry
+    - text: '[Everest]'
+      from: entry
+  contrasts:
+    - text: We visited New Zealand.
+      from: constructed
+      note: A multiword name; the proper noun and the name differ in extent.
+    - text: another Einstein
+      from: constructed
+      note: A name-type noun in a descriptive phrase.
+  watch_for:
+    - A learner might think the capital letter alone makes a word a proper noun.
+    - A learner might treat New Zealand as one word because it is one name.
+    - A learner might think proper noun and proper name are the same category.
+  activity: Students list names of people, places and institutions. For each name, they say whether it is a single word or several, and they write one descriptive phrase using a name, such as another one.
+child:
+  hook: Why does Kim get a capital letter but dog doesn't?
+  explain: A proper noun is a word used as a name, like Einstein or Everest. New Zealand is one name made of two words. A name normally starts with a capital letter.
+  examples:
+    - text: We visited [New Zealand].
+      from: constructed
+    - text: '[Everest] is a mountain.'
+      from: constructed
+  play: Write names of a person, a pet, a town and a mountain. Circle the capital letters. Which names have more than one word?
+checked:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5 (resolving checker flags)
+  result: fixed
+  note: 'Fixed: child explain no longer uses the unexplained technical sense of ''heads a name''; it now says a proper noun is a word used as a name, with Einstein and Everest as examples and New Zealand as a two-word name. Also fixed (unflagged): curious summary and body replaced ''heads a name'' with ''the main word of a name'' for the same reason.'

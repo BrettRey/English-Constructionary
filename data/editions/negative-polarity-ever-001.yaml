@@ -1,0 +1,42 @@
+id: negative-polarity-ever-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: The word ever in questions and negatives
+  summary: Ever meaning at any time fits in questions, negatives and some other settings, but is marked in a plain positive statement.
+  body: |-
+    In Has Lee ever sailed solo?, the word ever asks about any occasion at all. It fits in questions and under negation. It also fits in other suitable settings, such as superlatives.
+
+    A plain positive statement is different: the affirmative counterpart of the question is marked, because it has no special licensor. This dictionary links the use to the setting it appears in, not to the word on its own. Have you ever seen it? asks a question and doesn't state anything negative.
+  examples:
+    - text: Has Lee [ever sailed] solo?
+      from: entry
+    - text: '[Have you ever seen] it?'
+      from: constructed
+  try: Ask a question with ever, then change the question into a plain statement. What changes?
+teacher:
+  summary: Explains temporal ever as a polarity-sensitive adverb that needs a licensing context.
+  explain: Temporal ever ranges over occasions or times, especially under negation or questioning. The affirmative counterpart, Lee has ever sailed solo, is marked without a special licensor, while superlatives and other suitable environments also permit ever. Have you ever seen it? licenses ever in a question and supplies no negative assertion, whereas Jo never saw it has negation within the temporal adverb. This dictionary links the pattern to the experiential perfect and notes the analysis is provisional.
+  terms: Negative polarity item is the textbook name for an expression like ever that needs a licensing context.
+  examples:
+    - text: Has Lee [ever sailed] solo?
+      from: entry
+    - text: '[Have you ever seen] it?'
+      from: constructed
+  contrasts:
+    - text: Have you ever seen it?
+      from: constructed
+      note: Ever in a question; no negative assertion.
+    - text: Jo never saw it.
+      from: constructed
+      note: Negation is inside never.
+  watch_for:
+    - A learner might think ever is negative itself, when a question can license it without any negative assertion.
+    - A learner might use ever in a plain positive statement without a licensing context.
+  activity: Students write three questions with ever and three statements with never, then say which setting each one uses. Discuss that a question with ever makes no negative assertion.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,48 @@
+id: nom-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: A noun with its describing words
+  summary: The part of a noun phrase made of a noun and its modifiers, not counting the word like the in front.
+  body: |-
+    In wooden chair, the noun chair is described by wooden. In mother of three, of three adds more about the relation. In knowledge that it is true, the clause after knowledge tells you what the knowledge is about.
+
+    This dictionary calls such a unit a nominal: a head noun with optional modifiers before it and optional modifiers or complements after it. It supplies the core description in a noun phrase. A nominal such as old chair fits in a frame like the ___ without adding another determiner.
+  examples:
+    - text: '[wooden chair]'
+      from: entry
+    - text: '[helpful neighbors]'
+      from: entry
+    - text: '[mother of three]'
+      from: entry
+    - text: '[knowledge that it is true]'
+      from: entry
+  try: Start with a plain noun, such as chair. How many describing words can you add before and after it?
+teacher:
+  summary: Explains the nominal as the head noun plus its modifiers and complements, apart from the determiner.
+  explain: 'A nominal has a required head noun, optional pre-head modifiers and optional post-head modifiers or complements. Its descriptive content restricts or elaborates the head''s denotation: wooden chair restricts material features and mother of three elaborates a relation. It is immediately dominated by the noun phrase and can be bare in certain contexts. An expansion of chair to old chair can fit inside the frame the ___ without adding another determiner, but the resulting old chair normally still requires a determiner as an independent singular count argument.'
+  terms: Nom is the CGEL label used here. Some generative textbooks call a comparable unit N-bar.
+  examples:
+    - text: '[wooden chair]'
+      from: entry
+    - text: '[mother of three]'
+      from: entry
+    - text: '[knowledge that it is true]'
+      from: entry
+  contrasts:
+    - text: the old chair
+      from: constructed
+      note: The determiner the plus the nominal old chair.
+    - text: wooden chair
+      from: entry
+      note: A nominal with a pre-head modifier.
+  watch_for:
+    - A learner might treat the determiner as part of the nominal.
+    - A learner might assume the nominal can stand on its own as a full noun phrase, when old chair normally still needs a determiner as a singular count argument.
+  activity: Students take a plain noun, add a modifier before and a complement after (chair, old chair, mother of three), and say where a determiner would go.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

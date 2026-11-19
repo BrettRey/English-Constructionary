@@ -1,0 +1,47 @@
+id: emphatic-polarity-response-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Adding force to yes and no
+  summary: Informal speakers put an emphatic word in front of yeah, yes or no to give the answer extra feeling.
+  body: |-
+    You can answer a question with a plain yeah or no. You can also put an emphatic word in front, as in hell yeah, to show you feel strongly about the answer. The word added doesn't change the answer: hell yeah still means yes, and hell fucking no still means no. It adds emotion.
+
+    Some of these combinations use profane words. They're also a small, specific set, not a rule that lets any emphatic word go with any answer. Some are also used to start a longer reply, with the rest of the turn following.
+  examples:
+    - text: hell yeah.
+      from: entry
+    - text: Hell yeah, count me in!
+      from: constructed
+  try: Notice a time someone answered a question with extra force. Was the answer itself different from a plain yes or no, or only the feeling?
+teacher:
+  summary: Likely relevant only for advanced or register-focused classes; this dictionary covers informal, profane emphatic responses.
+  explain: 'This is a family of related local patterns where an emphatic expression precedes a polarity response (yeah, yes, no), adding emotional emphasis while keeping the response''s orientation. It is not a free combination: this dictionary documents particular forms, such as hell yeah, shit no, fuck yes and hell fucking no. Norrick (2009: 880) treats hell in hell yeah and shit in shit no as intensifiers, and the whole expression can work as a pragmatic marker before a longer turn. The reverse order no shit has a different idiomatic meaning and falls outside the family. Emotional emphasis doesn''t necessarily raise certainty or express approval of the event.'
+  terms: Intensifier describes the internal contribution of the emphatic word; pragmatic marker describes a use of the whole expression. This dictionary says neither label settles the word's lexical category.
+  examples:
+    - text: hell yeah.
+      from: entry
+    - text: '[fuck yeah] it placed third in the derby in his year.'
+      from: entry
+    - text: '[Fuck no], you don''t care about the money.'
+      from: entry
+    - text: Hell fucking no.
+      from: entry
+  contrasts:
+    - text: Fuck yes!
+      from: entry
+      note: One published source gives fuck yes and fuck no but excludes fucking yes and fucking no.
+    - text: Fucking yes!
+      from: entry
+      note: A corpus concordance line supplied for this dictionary attests the bare fucking yes.
+  watch_for:
+    - A learner might treat an emphatic response as a free pattern in which any emphatic word can precede any answer word.
+    - A learner might take emphatic hell yeah to express approval of the event, when this dictionary says emphasis need not mean approval.
+    - A learner might read no shit as the same pattern reversed, although it has a different idiomatic meaning.
+  activity: Students discuss, in pairs, when a plain yes or no would be heard as flat and when an emphatic response would be out of place in a class, workplace or home setting, then rewrite two emphatic replies into neutral ones.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

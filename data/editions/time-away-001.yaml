@@ -1,0 +1,62 @@
+id: time-away-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Sleeping the afternoon away
+  summary: A verb, a stretch of time and the word away together say that someone spent the whole stretch on an activity.
+  body: |-
+    In Bill slept the afternoon away, the afternoon is a stretch of time that Bill fills up with sleeping. The pattern says the interval was used up by the activity, and it can suggest that the time was spent heedlessly or pleasurably, or wasted. That hint can be cancelled.
+
+    The time phrase behaves like an object of the verb. It can become the subject of a passive, as in the evening had been nearly slept away. The pattern also works with a verb for a repeatable event, as in Saul sneezed the afternoon away, which means sneezing again and again.
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: Bill slept [the afternoon] [away].
+      from: entry
+    - text: Saul sneezed [the afternoon] [away].
+      from: entry
+    - text: Hermione programmed [three whole evenings] [away].
+      from: entry
+  try: Think of an activity you could do for a long time, like reading or chatting. Can you say it with a stretch of time and away?
+teacher:
+  summary: Teaches how a verb, a time period and away together describe an activity that uses up an interval.
+  explain: 'The pattern is a verb with an activity construal, a time-period NP and the word away: the subject uses up the interval by engaging in the activity. The time NP is a genuine direct object licensed by the construction, not an adjunct: it passivizes and cannot be stranded by VP ellipsis. The verb gets an activity construal, so a lexical activity is atelic and a repeatable bounded event such as sneeze is read as iterated. A lexical object is excluded, as in Fred drank the night away. The heedless, pleasurable or time-wasting implication is defeasible. This dictionary marks the analysis as provisional, though its confidence is marked high.'
+  terms: Away is traditionally called a particle or adverb. In CGEL terms it is an intransitive preposition heading a one-word PP. Od is the direct object.
+  examples:
+    - text: Bill slept [the afternoon] [away].
+      from: entry
+    - text: Saul sneezed [the afternoon] [away].
+      from: entry
+    - text: Hermione programmed [three whole evenings] [away].
+      from: entry
+  contrasts:
+    - text: Fred drank the night away.
+      from: entry
+      note: The time NP is the object.
+    - text: Fred drank scotch the night away.
+      from: entry
+      acceptable: false
+      note: A lexical direct object is excluded.
+    - text: The evening had been nearly slept away.
+      from: entry
+      note: Passive evidence that the time NP is an object, not an adjunct.
+  watch_for:
+    - A learner might read the time phrase as an adjunct, when it is an object that can become the subject of a passive.
+    - A learner might treat away as meaning leaving, when here it marks the interval as used up.
+    - A learner might think the sentence must mean the time was wasted, when that implication can be cancelled.
+  activity: Give students verbs such as sleep, chat, read and sneeze. They write sentences with a time phrase and away, then decide whether the activity could fill the whole interval.
+child:
+  hook: Can you read the whole afternoon away?
+  explain: You can say you spent a whole stretch of time doing one thing. You name the time and add away. Bill slept the afternoon away means he slept for all of it.
+  examples:
+    - text: Bill slept [the afternoon] [away].
+      from: entry
+    - text: We played [the morning] [away].
+      from: constructed
+  play: Think of something you could do for a long time. Say it with a time like the whole morning, then away. Who can make the funniest one?
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,45 @@
+id: numerative-addition-asyndetic-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Big numbers said without and
+  summary: Some numbers are built by putting a small number straight after a large one, with no and between them.
+  body: |-
+    In two hundred five, the five is added to two hundred, even though nothing joins them. It means the same as two hundred and five. Two thousand seven works the same way.
+
+    This dictionary says the version without and is strongly preferred in American English and in faster or less formal speech. The five here is an addition to a complete amount. That differs from five hundred, where five says how many hundreds.
+  examples:
+    - text: '[two hundred five]'
+      from: entry
+    - text: '[two thousand seven]'
+      from: entry
+  try: Say two hundred five and two hundred and five. Do they mean the same number?
+teacher:
+  summary: Shows that two hundred five is addition with no spoken and, parallel to the version with and.
+  explain: 'This construction adds a smaller number to a complete magnitude phrase by juxtaposition, with the coordinator and omitted: two hundred five means 200 + 5. The dictionary analyzes it as coordination without a spoken coordinator. The addition coordinate can itself be a basic numerative or a magnitude phrase, so the pattern is recursive. In two hundred five, five contributes the same remainder as in two hundred and five. This differs from five hundred, where a factor selects a magnitude. The dictionary notes that this form is strongly preferred in American English and in faster or less formal registers. It marks this account as provisional.'
+  terms: Numerative is this grammar's term for number words, where a textbook may say numeral. Asyndetic means joined without a coordinator.
+  examples:
+    - text: '[two hundred five]'
+      from: entry
+    - text: '[two thousand seven]'
+      from: entry
+  contrasts:
+    - text: '[two hundred five]'
+      from: entry
+      note: Addition with no and (200 + 5).
+    - text: '[two hundred and five]'
+      from: entry
+      note: Addition with and (200 + 5).
+    - text: '[five hundred]'
+      from: constructed
+      note: Multiplication, not addition (a factor selects a magnitude).
+  watch_for:
+    - A learner might think a number without and is missing something.
+    - A learner might read two hundred five as two hundred multiplied by five.
+  activity: Dictate numbers such as 205, 2007 and 3006. Students write them in digits, then say each aloud in both styles, with and and without it.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

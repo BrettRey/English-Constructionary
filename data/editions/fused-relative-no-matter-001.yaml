@@ -1,0 +1,35 @@
+id: fused-relative-no-matter-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Whoever and whatever as noun phrases
+  summary: A word like whoever starts a phrase that picks out someone eligible, without saying who.
+  body: |-
+    In Whoever is on duty can sign it, the speaker picks out a person by a condition rather than by name. The speaker doesn't need to know who that is.
+
+    The whole phrase, whoever is on duty, fills a noun's place in the sentence. In a general or future situation the identity can stay open. In a suitable one-off situation it can also point to one specific person the speaker doesn't know.
+  examples:
+    - text: '[Whoever is on duty] can sign it.'
+      from: entry
+    - text: You can have [whatever you like].
+      from: constructed
+  try: Say Whoever is on duty can sign it. Does the speaker need to know who is on duty?
+teacher:
+  summary: Helps explain -ever phrases like whoever is on duty, which pick out an unspecified eligible person or thing.
+  explain: A free-choice fused relative is an NP made of a relative wh-ever word plus a dependent clause. It picks out an eligible participant without requiring the speaker to identify which one. In a generic or future context the identity can be left open, and the whole phrase occupies an NP position. In a suitable episodic context it can also have a specific unknown referent. This dictionary treats it as a specialization of the fused relative NP, distinct from the unconditional wh-adjunct, and marks it provisional, with medium confidence.
+  terms: Fused relative is CGEL's term. Free relative is a common textbook name.
+  examples:
+    - text: '[Whoever is on duty] can sign it.'
+      from: entry
+    - text: You can have [whatever you like].
+      from: constructed
+  watch_for:
+    - A learner might think the speaker must know who is on duty.
+    - A learner might look for a separate noun that whoever modifies, when the whole phrase fills an NP position.
+  activity: Students complete sentences beginning Whoever, Whatever or Whichever, giving each a role in the sentence (subject or object). They then say whether the speaker needs to know who or what is meant.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass

@@ -1,0 +1,52 @@
+id: such-nominal-result-001
+status: draft
+drafted:
+  date: '2026-11-19'
+  model: claude-sonnet-5-5
+curious:
+  title: Such a cold morning that the locks froze
+  summary: Such plus a noun phrase can describe how extreme something was by giving what resulted from it.
+  body: |-
+    In It was such a cold morning that the locks froze, the second part tells how cold the morning was: cold enough to freeze the locks. The result clause that follows measures the extent or kind of morning it was.
+
+    With a single countable noun, such comes before a. With a plural, as in such cold mornings, there is no a, and the result clause is still possible. The word that can be left out in the pattern.
+
+    This dictionary marks the analysis as provisional.
+  examples:
+    - text: It was [such a cold morning that the locks froze].
+      from: entry
+    - text: It was [such a loud noise that the dog jumped].
+      from: constructed
+  try: Finish this sentence in your own words. It was such a hot day that ...
+teacher:
+  summary: Useful for explaining such a/an plus a result clause, and the plural version without a.
+  explain: The pattern is such followed by a nominal expression and a content clause (that is optional) which gives a result. It characterizes the extent or kind of something through that associated result. In the singular count pattern, such precedes a. A plural nominal such as such cold mornings uses no a, while the result dependency remains available. This dictionary marks the analysis as provisional and has one constructed illustration. A related so-nominal pattern has its own entry.
+  terms: Result clause and such ... that are textbook labels for the pattern. The cited grammar treats such as a word in its own right.
+  examples:
+    - text: It was [such a cold morning that the locks froze].
+      from: entry
+  contrasts:
+    - text: such a cold morning
+      from: entry
+      note: Singular count noun; such comes before a.
+    - text: such cold mornings
+      from: constructed
+      note: Plural; no a, and the result clause is still possible.
+  watch_for:
+    - A learner might put a before such in the singular pattern.
+    - A learner might add a to a plural nominal after such.
+    - A learner might read the that-clause as a relative clause instead of a result.
+  activity: Students complete such a ... that and such ... that sentences with their own results, then compare singular and plural versions of the same idea.
+child:
+  hook: How cold was the morning if the locks froze?
+  explain: You can use such to say how big or strong something was. Then you say what happened because of it. The locks froze because the morning was so cold.
+  examples:
+    - text: It was [such a cold morning that the locks froze].
+      from: entry
+    - text: It was [such a loud noise that the dog jumped].
+      from: constructed
+  play: Start with It was such a big ... and finish it with that and something that happened. See whose ending is the funniest.
+checked:
+  date: '2026-11-19'
+  model: codex (gpt-6.2-sol)
+  result: pass
