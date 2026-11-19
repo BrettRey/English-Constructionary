@@ -1,5 +1,5 @@
 # English Constructionary
-<!-- SUMMARY: Projectibility-first English construction dictionary with 391 published constructions, a lexicon layer, and linked evidence · status: active · updated: 2026-11-19 -->
+<!-- SUMMARY: Projectibility-first English construction dictionary, 394 constructions in four reader editions at brettreynolds.ca/constructionary/, with a lexicon layer and linked evidence · status: active · updated: 2026-11-19 -->
 
 **Status:** Active development
 **Last updated:** 2026-11-19
@@ -14,7 +14,9 @@
 - **Lexicon layer**: 603 browsable cards, including new cards for *need*, *tell*, and *explain*. The profile pilot records use-specific construction links for those verbs and the two existing *that* cards.
 - **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
-- **Public site live:** https://brettrey.github.io/English-Constructionary/ (GitHub Pages, auto-deploys from main)
+- **Public site:** https://brettreynolds.ca/constructionary/, in four editions (curious reader by default, teacher, linguist, child) plus a machine interface (`/constructionary/llms.txt`, `/constructionary/api/`). Built by `npm run build:site` into the website repository, which is committed and pushed there; it doesn't deploy from this repo. Reader editions live in `data/editions/` (drafted with Claude, checked by Codex, not yet reviewed by Brett); 163 thin entries are labelled early sketches.
+- **Repository file browser:** https://brettrey.github.io/English-Constructionary/ (GitHub Pages, auto-deploys from main; points readers to the new site)
+- **Validation coupling:** `npm run validate` now also checks `data/editions/`, so changing an entry example that an edition quotes as `from: entry` fails validation (and the github.io deploy) until the edition is updated.
 - **CI:** schema validation + lint on every push/PR (`.github/workflows/validate.yml`)
 - `docs/CONTRIBUTING.md` published (data format, style guide, review process)
 - Web interface with bracket highlighting, dimensions, symmetric relations, kind-block display

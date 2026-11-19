@@ -5,7 +5,7 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Questions built around a question word
-  summary: Questions starting with a word like who, what or why ask for a missing piece of information, and word order depends on what the question word does.
+  summary: Questions starting with a word like who, what or why typically ask for a missing piece of information, and word order depends on what the question word does.
   body: |-
     A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.
 
@@ -50,7 +50,7 @@ teacher:
   activity: Students turn statements such as Kim finished the report into questions with who, which and why. They sort the results by whether the question word is the subject, then embed each one after I know and compare the order.
 child:
   hook: Which words start a question, like who, what, where and why?
-  explain: Some questions start with a word like who, what, where or why. They ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.
+  explain: Some questions start with a word like who, what, where or why. They usually ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.
   examples:
     - text: '[Who broke the window?]'
       from: entry

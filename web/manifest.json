@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:04:36.355Z",
+  "generatedAt": "2026-11-19T20:14:08.829Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -12,7 +12,7 @@
     },
     "reynolds-deitality": {
       "type": "paper",
-      "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+      "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account. LingBuzz 009369",
       "url": "https://ling.auf.net/lingbuzz/009369",
       "status": "under-review"
     },
@@ -35122,7 +35122,7 @@
           "source": {
             "id": "reynolds-deitality",
             "type": "paper",
-            "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account (under review, Journal of Linguistics)",
+            "citation": "Reynolds, Brett, Definiteness and Deitality in English: A Projectibility-First Account. LingBuzz 009369",
             "url": "https://ling.auf.net/lingbuzz/009369",
             "status": "under-review",
             "grounded": [

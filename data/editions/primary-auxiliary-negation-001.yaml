@@ -36,6 +36,6 @@ child:
   play: Pick a sentence with a helper word, such as She has finished. Make it say the opposite by adding not. Say where you put it.
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed teacher.terms, cutting primary auxiliary (such as have, be, do), since the entry covers any finite auxiliary and the activity uses will. Also replaced the entry with this dictionary in curious and teacher text, and the curious body now says receive needs do when there is no other helping verb.'

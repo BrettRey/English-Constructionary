@@ -23,7 +23,7 @@ curious:
 teacher:
   summary: Helps explain verb-particle combinations with an object, including word-order flexibility and the pronoun restriction.
   explain: 'In this construction a verb takes a separate noun phrase as direct object and a one-word prepositional phrase complement in particle use. The particle is a syntactic use, not a word category. In She took off the label, off is a complement of take and the label is a separate direct object. This differs from She jumped off the wall, where off heads a prepositional phrase containing its own object. An ordinary object generally allows both orders, but an unstressed personal-pronoun object must immediately follow the verb: take it off. This dictionary marks its analysis provisional, and notes that heavy objects and fixed idioms can obscure the alternation.'
-  terms: Verb-particle combination is a textbook name, and phrasal verb is a common one, though that label also covers cases without an object. In this grammar the particle is a one-word prepositional phrase complement of the verb.
+  terms: Sometimes called a verb-particle combination or a phrasal verb; the second label also covers cases without an object. In this grammar the particle is a one-word prepositional phrase complement of the verb.
   examples:
     - text: She [brought down the bed].
       from: entry

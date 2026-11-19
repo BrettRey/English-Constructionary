@@ -31,6 +31,6 @@ teacher:
   activity: Give students sentences with a gap where whether or if could go. They decide where whether is needed or preferred, then say what each embedded clause asks.
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed teacher.terms, which glossed the pattern as an embedded yes/no question only (the entry also covers a choice between alternatives).'

@@ -11,7 +11,7 @@ curious:
 
     The phrase doesn't say that locking up has already happened. It sets a condition on the permission. The word that can be left out: provided you lock up works the same way in the pattern.
 
-    This dictionary marks the analysis as provisional; it rests on one constructed illustration.
+    This dictionary marks the analysis as provisional.
   examples:
     - text: You can use the room [provided that you lock up].
       from: entry
@@ -20,7 +20,7 @@ curious:
   try: Give someone permission to do something, then add provided that and a condition. Does the condition sound like it has already happened?
 teacher:
   summary: Useful for explaining provided that as a way to attach a condition to a permission or promise.
-  explain: 'The pattern is a conditional PP formed from provided (that) and a finite clause. It states a proviso under which a proposal or promise holds. In a permission context the phrase gives a condition on permission: it does not report the locking as already true. This dictionary treats the whole phrase as a PP with a finite clause, one of the clause-taking prepositions. This analysis is provisional and rests on one constructed illustration, and a separate entry covers the related unless pattern.'
+  explain: 'The pattern is a conditional PP formed from provided (that) and a finite clause. It states a proviso under which a proposal or promise holds. In a permission context the phrase gives a condition on permission: it does not report the locking as already true. This dictionary treats the whole phrase as a PP with a finite clause, one of the clause-taking prepositions. This analysis is provisional, and a separate entry covers the related unless pattern.'
   terms: 'Sometimes called a subordinating conjunction in traditional grammar. CGEL: a preposition taking a finite clause.'
   examples:
     - text: You can use the room [provided that you lock up].

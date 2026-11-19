@@ -36,6 +36,6 @@ child:
   play: Name a group of things, like pencils. Then say which ones you like using ones, such as the sharp ones.
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed curious.body, which gave a causal link (because it carries that description) that the entry does not make, and the child hook and explain, which called the noun shoes a name. Also replaced the entry with this dictionary in curious and teacher text, Often with Sometimes in teacher.terms, and restated the count limit with the entry''s normally.'

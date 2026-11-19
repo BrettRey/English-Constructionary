@@ -43,6 +43,6 @@ child:
   play: Think of a change, like melting or cracking. Say one sentence with a cause and one with only the thing that changed.
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed teacher.activity, which asked which noun phrase moved (the entry says the same participant is object in one clause and subject in the other, with no movement analysis).'

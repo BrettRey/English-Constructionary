@@ -19,7 +19,7 @@ sources:
     doi: "10.1017/S1360674325100518"
   reynolds-deitality:
     type: paper
-    citation: "Definiteness and Deitality in English (under review, JoL)"
+    citation: "Definiteness and Deitality in English (LingBuzz 009369)"
     url: "https://ling.auf.net/lingbuzz/009369"
     status: under-review
   wiktionary-simple:

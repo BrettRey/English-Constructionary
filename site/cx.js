@@ -98,7 +98,8 @@
     if (!terms.length) { results.innerHTML = ''; status.textContent = ''; return; }
     status.textContent = 'Searching…';
     const idx = await load();
-    const list = idx.map((r) => [score(r, terms), r]).filter(([s]) => s > 0).sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name)).map(([, r]) => r);
+    // In the child edition, show only patterns that have a child page.
+    const list = idx.filter((r) => edition !== 'child' || r.u.child).map((r) => [score(r, terms), r]).filter(([s]) => s > 0).sort((a, b) => b[0] - a[0] || a[1].name.localeCompare(b[1].name)).map(([, r]) => r);
     render(list, q);
   }
   form.addEventListener('submit', (e) => {

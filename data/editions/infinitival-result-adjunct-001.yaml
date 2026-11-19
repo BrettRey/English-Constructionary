@@ -34,6 +34,6 @@ teacher:
   activity: Students write two-part stories with only to and a verb, then swap with a partner who says what happened next and whether it was expected.
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed curious.try, which compared the sentence with and without only (the entry''s test is expansion to in order to). Also replaced This entry and The entry in teacher.explain, and cut resultative to-infinitive from teacher.terms (it could be confused with the resultative construction).'

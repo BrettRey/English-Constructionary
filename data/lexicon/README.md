@@ -42,7 +42,7 @@ The browser uses these links on profiled cards and shows the reciprocal links on
 
 ## Category inventory caveat
 
-The override schema's category enum follows CGEL 2002 (determinative as a top-level lexical category). Reynolds, *Determinatives as nouns in English* (under review at ELL; [LingBuzz 009939](https://lingbuzz.net/lingbuzz/009939)), argues determinatives are a fourth noun subclass alongside common, proper, and pronoun, with simple independent uses as ordinary Head rather than fused Det-Head. If that analysis is adopted, the layer records it as `category: noun`, `subclass: determinative` — the lemma membership of the gold lists is unaffected either way.
+The override schema's category enum follows CGEL 2002 (determinative as a top-level lexical category). Reynolds, *Determinatives as nouns in English* ([LingBuzz 009939](https://lingbuzz.net/lingbuzz/009939)), argues determinatives are a fourth noun subclass alongside common, proper, and pronoun, with simple independent uses as ordinary Head rather than fused Det-Head. If that analysis is adopted, the layer records it as `category: noun`, `subclass: determinative` — the lemma membership of the gold lists is unaffected either way.
 
 ## Licence
 

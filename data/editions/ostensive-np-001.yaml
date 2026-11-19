@@ -21,7 +21,7 @@ curious:
 teacher:
   summary: Shows how a single noun phrase can serve as an attention-directing utterance, with two packagings that differ in determination.
   explain: 'An ostensive NP is an extra-clausal NP that directs attention to its referent. It isn''t an argument of any predicator, and it resists embedding, tags and question formation. It has two packagings: vocative (addressee-directed, securing the channel) and directive-ostensive (environment-directed, securing joint attention). Directive-ostensives keep ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, officer, buddy). Taxi! is ambiguous between the two, and reminders such as Your keys! sit between alerting and addressing. This dictionary marks the analysis as provisional.'
-  terms: Vocative is the traditional name for the addressee-directed use. Directive-ostensive is this dictionary's term for the environment-directed use.
+  terms: The addressee-directed use is the vocative. Directive-ostensive is this dictionary's term for the environment-directed use.
   examples:
     - text: '[Mom]! (calling)'
       from: entry
@@ -57,6 +57,6 @@ child:
   play: Take turns shouting just a thing or a name. Can your friend tell whether you're calling someone or pointing something out?
 checked:
   date: '2026-11-19'
-  model: codex (gpt-6.2-sol)
+  model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)
   result: pass
   note: 'Audit: fixed curious.body, can''t be changed to resists being (the entry says the construction resists embedding, tags and questioning, and allows supplement position); also This dictionary is provisional changed to marks the analysis as provisional.'
