@@ -53,8 +53,15 @@ meanings:
     examples:
       - form: "They asked Lee to be [godfather to their son]."
         note: "Constructed relational example. The to-phrase supplies the other participant."
-      - form: "[Dad] called, but Sam answered."
-        note: "Constructed boundary case. Dad identifies a person as subject when the family uses it as a name."
+      - form: "There can likewise be only one person who is [father of the student I have in mind]."
+        note: "CGEL’s own prose, discussing the identifiability of the father of the student; the sentence's opening In [2ii] is omitted. A kin noun heads the bare predicative, and of the student gives the relatum."
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 5 §6.1, p. 369"
+            relation: attests
+            bears-on: attestation
+      - form: "She was [mother to three boys]."
+        note: "Constructed. A single kin noun, with the to-phrase giving the relatum. Kin nouns under this meaning are an adjudication (Brett, 2026-11-19): CGEL lists kin or similar relations separately from offices or roles (Ch. 4 §5.5.1(e))."
 constraints:
   - type: syntactic
     description: "A bare role NP can describe the subject or object. It does not ordinarily occupy the subject or object position as a referential expression for the roleholder."
@@ -100,8 +107,9 @@ relatedConstructions:
     relationship: related-to
     notes: "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
   - id: strong-proper-name-001
-    relationship: related-to
-    notes: "A role form used as a standing name independently licenses referential argument uses."
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for treasurer and a household for Mom. Function distinguishes them: a bare role NP is predicative or in a licensed frame (Lee remained treasurer), while a strong proper name is a referential argument (Mom called; compare CGEL’s ∗I’m told treasurer strongly supports this proposal, p. 409). Inserting the keeps the ascription in Henry became the treasurer (p. 409) but loses the name in The mom called (constructed). A role form used as a standing name independently licenses referential argument uses."
 grounds:
   - source: cgel-2002
     locator: "Ch. 4 §5.1 [5]; Ch. 5 §8.5 [19], p. 409; Ch. 7, pp. 637–638, predicative complements of as; Ch. 15 §5, [22ii]"
@@ -113,10 +121,18 @@ grounds:
     relation: cites
     bears-on: projection
     note: "The role ascription and the identifying interpretation differ. Chapter 5 gives the stronger replacement claim."
+  - source: brett-judgment
+    locator: "2026-11-19"
+    relation: adjudicates
+    bears-on: category-assignment
+    note: "Kin nouns in relational predicatives (father of the student) are instances of meaning 3; kin terms used as names (Dad called) are not, and belong to strong-proper-name-001."
 kind:
   provisional: true
+  boundaries:
+    known_boundary_items:
+      - "Dad called, but Sam answered (constructed). Dad identifies a person as subject when the family uses it as a name: an instance of strong-proper-name-001, not of this construction."
   projection:
-    target: "In ordinary standard English, with a reading that ascribes or names an assignment, a nominal such as treasurer can remain bare in She stayed treasurer, They appointed her treasurer, and As treasurer, she signed. Reuse as a stand-alone referential object, as in They questioned the treasurer, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
+    target: "In ordinary standard English, with a reading that ascribes an assignment or gives its content, a nominal such as treasurer can remain bare in She stayed treasurer, They appointed her treasurer, and As treasurer, she signed. Reuse as a stand-alone referential object, as in They questioned the treasurer, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
     evidence: "CGEL compares the same noun in predicative and object positions and documents the prepositional and supplementary uses. The Arizona State report documents shared tenure. Whether a counterpart with the preserves the bare reading depends on the frame and context."
     confidence: high
 semanticRefs:

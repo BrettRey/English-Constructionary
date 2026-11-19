@@ -1,0 +1,105 @@
+id: kin-title-name-001
+name: Kin Title with a Personal Name
+pattern: "NP[Nom[pre-head kin term + personal name]], with no determiner"
+type: mixed
+dimensions:
+  form: "A kin term such as aunt, uncle, grandma, grandpa or nana before a given name or surname, with no determiner. The NP's head is the proper noun, and the kin term is a pre-head modifier."
+  meaning: "Designates one relative: the kin term gives a kin class and the personal name picks out a member of it."
+  function: "Referential argument, subject-determiner in a genitive, or vocative."
+  distribution: "In the caregiver lines cited, grandparental titles occur with given names (Grandma Sharon) and with a surname (Grandma Baum). Schneider and Homans's American informants most often designated aunts and uncles this way."
+meanings:
+  '1':
+    definition: Designates a relative by combining a kin title with that person's name.
+    details: "Schneider and Homans report that an uncle may be addressed or referred to by uncle plus first name, by first name alone or by uncle alone, and similarly an aunt (1955: 1195). Among their informants the combination was the most frequently employed term for aunts and uncles (p. 1199), and they write that the American system “classes all uncles together and then subdivides members of the class” (p. 1201). CGEL calls pre-head modifiers of personal names such as Queen, Sister, Captain and Dr appellations, expressing the status of the individual, and notes that it is arguable whether they form part of the name (pp. 518–519). Its list of appellations doesn't include kin terms. Treating the kin term here as a modifier of the same kind extends that analysis and isn't itself grounded in CGEL."
+    examples:
+      - form: "Well, we are actually leaving for [Grandma Sharon] and [Grandpa Dale] in three days."
+        note: "Attested, mother to child. Coordinated NPs as object in a PP; the transcript's pause mark is omitted."
+        grounds:
+          - source: childes
+            locator: "Weist, Matt/040610.cha, line 899"
+            relation: attests
+            bears-on: attestation
+      - form: "I like the ones that [Grandmama Linda] made though."
+        note: "Attested, mother. Subject of a relative clause."
+        grounds:
+          - source: childes
+            locator: "Brent, j1/010001.cha, line 392"
+            relation: attests
+            bears-on: attestation
+      - form: "How is [Grandma Baum]?"
+        note: "Attested. The speaker is herself a grandmother (participant Kate); a surname follows the kin title."
+        grounds:
+          - source: childes
+            locator: "Snow, 030019b.cha, line 3596"
+            relation: attests
+            bears-on: attestation
+      - form: "That reminds me of [grampa Charlie]'s story, Julia."
+        note: "Attested, mother to child. The NP is subject-determiner in a genitive."
+        grounds:
+          - source: childes
+            locator: "Hall, WhitePro/jub.cha, line 15237"
+            relation: attests
+            bears-on: attestation
+      - form: "Thanks, [Aunt Sarah]."
+        note: "Constructed vocative."
+constraints:
+  - type: syntactic
+    description: "The kin term takes no determiner of its own. With a genitive determiner the structure differs: in it's your brother Ben's birthday (CHILDES Peters, 010621a.cha, line 20), brother is head, your is its determiner and Ben is an integrated appositive. CGEL draws the same contrast between architect Norman Foster, where architect is an omissible embellishment, and the architect Norman Foster, where architect is head and the name an appositive dependent (p. 520)."
+  - type: semantic
+    description: "The kin term assigns the bearer to a kin class, and the personal name selects one member of it (Schneider and Homans 1955: 1201)."
+  - type: pragmatic
+    description: "The same relative can be designated in other ways. Schneider and Homans's informants used first name alone as the principal term for an uncle or aunt where there was strong positive or negative affect (1955: 1200). One informant called his father's brother Uncle Bill when speaking with his father, Bill when speaking with the uncle directly and my uncle when telling a friend about him (p. 1196)."
+relatedConstructions:
+  - id: strong-proper-name-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: "In referential argument use the NP is a strong proper name (leaving for Grandma Sharon); in address it isn't (Thanks, Aunt Sarah). Test: hold the referent fixed and drop the personal name. Bare Grandpa has a simple head and is itself the name, while in Grandpa Dale the kin term modifies a proper noun."
+  - id: title-personal-name-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "Both place a title before a personal name with no determiner, the pattern CGEL calls appellation plus name (pp. 518–519). That entry's titles identify an office, qualification or style (Sir James, Dr Patel); a kin title identifies a kin class. Test: drop the personal name. A kin title can remain as a name for the same person: Schneider and Homans's informants addressed or referred to an uncle by uncle plus first name or by uncle alone (1955: 1195), and bare Aunty occurs as an argument (Do the duck for Aunty?, CHILDES Peters, 010410c.cha, line 605). Sir can't: dropping the name from Sir James opened the ceremony leaves ∗Sir opened the ceremony (constructed). Some occupational appellations pass the test, as in CGEL's Have you seen Nurse? (p. 518), so it separates kin titles from Sir, not from every office title."
+  - id: proper-name-001
+    relationship: implements
+    notes: "The NP is used as a relative's name; proper name stays the semantic classification."
+  - id: restrictive-appositive-name-001
+    relationship: related-to
+    notes: "Compare it's your brother Ben's birthday, where brother is head and Ben an integrated appositive, with grampa Charlie's story, where the kin term modifies the name and no determiner occurs."
+  - id: vocative-001
+    relationship: interfaces-with
+    notes: "The same NP serves in address (Thanks, Aunt Sarah, constructed)."
+  - id: genitive-s-001
+    relationship: interfaces-with
+    notes: "The NP can be subject-determiner in a genitive (grampa Charlie's story)."
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §20.2.2, [4ii] and Appellations, pp. 518–519; nominal modifiers and appositives, p. 520"
+    relation: discusses
+    bears-on: projection
+    note: "Appellations as pre-head modifiers of personal names, with royal, clerical, military, political, judicial and academic kinds; kin terms aren't among them. Contrasts architect Norman Foster with the architect Norman Foster."
+  - source: schneider-homans-1955
+    locator: "pp. 1195, 1196, 1199–1201"
+    relation: discusses
+    bears-on: projection
+    note: "Aunt- or uncle-plus-first-name as the most frequent designation among the informants, its alternation with first name alone, uncle alone and my uncle, and the classing and subdividing of uncles."
+  - source: childes
+    locator: "Weist, Matt/040610.cha line 899; Brent, j1/010001.cha line 392; Snow, 030019b.cha line 3596; Hall, WhitePro/jub.cha line 15237; Peters, 010621a.cha line 20 and 010410c.cha line 605; Brown, Sarah/040118.cha line 296"
+    relation: attests
+    bears-on: attestation
+    note: "Title-plus-name arguments and genitives in caregiver speech, a determined kin noun with an appositive name, a bare kin title used alone, and a clerical appellation."
+kind:
+  provisional: true
+  projection:
+    target: "Knowing that a kin title plus a personal name is a family's designation for a relative predicts that it occurs with no determiner in argument functions, as a genitive subject-determiner and in address, and that the same person can also be designated by the first name alone, the kin term alone or a relational NP such as my uncle, depending on audience and relationship."
+    evidence: "Schneider and Homans (1955: 1195–1201) document the combination and its alternatives for aunts and uncles among their American informants. The CHILDES lines attest argument and genitive uses in caregiver speech. The analysis of the kin term as a pre-head modifier extends CGEL's account of appellations, which doesn't list kin terms."
+    confidence: medium
+  boundaries:
+    overlaps_with: ["title-personal-name-001", "strong-proper-name-001"]
+    known_boundary_items:
+      - "Sister Margareta, said of a school principal (CHILDES Brown, Sarah/040118.cha, line 296). Sister here is a clerical appellation in CGEL's list (p. 519), not a kin title."
+      - "my Aunt Sarah or my aunt Sarah (constructed). With a genitive determiner the kin noun can be head and the name an appositive, as in the architect Norman Foster; the spelling varies."
+      - "Courtesy aunts and uncles (Schneider and Homans 1955: 1203). The kin term is applied to someone who isn't a relative, though there is “never any doubt about their status as courtesy kin”."
+  grain:
+    level: micro
+    parent_families: ["personal-naming"]
+semanticRefs:
+  - reference

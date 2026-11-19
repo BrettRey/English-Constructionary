@@ -124,6 +124,7 @@ families:
       - strong-proper-name-001
       - paired-np-introduction-001
       - title-personal-name-001
+      - kin-title-name-001
       - proper-name-secondary-use-001
   auxiliary-patterns:
     members:

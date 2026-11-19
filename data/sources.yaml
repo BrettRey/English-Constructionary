@@ -251,3 +251,7 @@ sources:
     type: dictionary
     citation: "Cambridge Dictionary, with a capital A, B, etc."
     url: https://dictionary.cambridge.org/dictionary/english/with-a-capital-etc
+  schneider-homans-1955:
+    type: paper
+    citation: "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208"
+    url: https://www.jstor.org/stable/665964

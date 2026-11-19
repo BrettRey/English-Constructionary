@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:45:34.019Z",
+  "generatedAt": "2026-11-19T13:07:02.088Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -309,6 +309,11 @@
       "type": "dictionary",
       "citation": "Cambridge Dictionary, with a capital A, B, etc.",
       "url": "https://dictionary.cambridge.org/dictionary/english/with-a-capital-etc"
+    },
+    "schneider-homans-1955": {
+      "type": "paper",
+      "citation": "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208",
+      "url": "https://www.jstor.org/stable/665964"
     }
   },
   "sections": [
@@ -340,86 +345,6 @@
       "id": "constructions",
       "label": "Constructions",
       "items": [
-        {
-          "id": "bare-role-001",
-          "title": "bare-role-001",
-          "subtitle": "Bare Role Construction",
-          "path": "/data/constructions/NP-bare-role.yaml",
-          "kind": "yaml",
-          "relations": [
-            {
-              "id": "np-bare-001",
-              "relationship": "specialization-of",
-              "parthood": "formal",
-              "notes": "This is one use of a determinerless NP headed by a nominal."
-            },
-            {
-              "id": "subject-ascriptive-001",
-              "relationship": "interfaces-with",
-              "notes": "A bare role NP can ascribe a post to the subject."
-            },
-            {
-              "id": "object-ascriptive-001",
-              "relationship": "interfaces-with",
-              "notes": "In the appointment frame the predicand is realized as object."
-            },
-            {
-              "id": "pp-001",
-              "relationship": "interfaces-with",
-              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
-            },
-            {
-              "id": "np-indef-001",
-              "relationship": "alternates-with",
-              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
-            },
-            {
-              "id": "np-def-001",
-              "relationship": "alternates-with",
-              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
-            },
-            {
-              "id": "specificational-copular-001",
-              "relationship": "related-to",
-              "notes": "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
-            },
-            {
-              "id": "supplementary-appositive-np-001",
-              "relationship": "related-to",
-              "notes": "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
-            },
-            {
-              "id": "bare-institutional-use-001",
-              "relationship": "overlaps-with",
-              "overlap-dimension": "formal",
-              "notes": "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
-            },
-            {
-              "id": "matched-bare-endpoints-001",
-              "relationship": "overlaps-with",
-              "overlap-dimension": "formal",
-              "notes": "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
-            },
-            {
-              "id": "vocative-001",
-              "relationship": "related-to",
-              "notes": "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
-            },
-            {
-              "id": "strong-proper-name-001",
-              "relationship": "related-to",
-              "notes": "A role form used as a standing name independently licenses referential argument uses."
-            }
-          ],
-          "incomingRelations": [
-            {
-              "id": "every-inch-predicative-001",
-              "title": "every-inch-predicative-001",
-              "relationship": "related-to",
-              "notes": "Both concern nominal predication. The every inch pattern shown here contains an article."
-            }
-          ]
-        },
         {
           "id": "absolute-negator-determinative-001",
           "title": "absolute-negator-determinative-001",
@@ -1101,6 +1026,87 @@
               "title": "matched-bare-endpoints-001",
               "relationship": "related-to",
               "notes": "A different configuration makes two bare nouns available as a pair."
+            }
+          ]
+        },
+        {
+          "id": "bare-role-001",
+          "title": "bare-role-001",
+          "subtitle": "Bare Role Construction",
+          "path": "/data/constructions/bare-role-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-bare-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "This is one use of a determinerless NP headed by a nominal."
+            },
+            {
+              "id": "subject-ascriptive-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can ascribe a post to the subject."
+            },
+            {
+              "id": "object-ascriptive-001",
+              "relationship": "interfaces-with",
+              "notes": "In the appointment frame the predicand is realized as object."
+            },
+            {
+              "id": "pp-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "alternates-with",
+              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "alternates-with",
+              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
+            },
+            {
+              "id": "specificational-copular-001",
+              "relationship": "related-to",
+              "notes": "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
+            },
+            {
+              "id": "supplementary-appositive-np-001",
+              "relationship": "related-to",
+              "notes": "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
+            },
+            {
+              "id": "bare-institutional-use-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
+            },
+            {
+              "id": "matched-bare-endpoints-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
+            },
+            {
+              "id": "vocative-001",
+              "relationship": "related-to",
+              "notes": "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
+            },
+            {
+              "id": "strong-proper-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for treasurer and a household for Mom. Function distinguishes them: a bare role NP is predicative or in a licensed frame (Lee remained treasurer), while a strong proper name is a referential argument (Mom called; compare CGEL’s ∗I’m told treasurer strongly supports this proposal, p. 409). Inserting the keeps the ascription in Henry became the treasurer (p. 409) but loses the name in The mom called (constructed). A role form used as a standing name independently licenses referential argument uses."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "every-inch-predicative-001",
+              "title": "every-inch-predicative-001",
+              "relationship": "related-to",
+              "notes": "Both concern nominal predication. The every inch pattern shown here contains an article."
             }
           ]
         },
@@ -5134,6 +5140,12 @@
               "parthood": "formal"
             },
             {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "interfaces-with",
+              "notes": "The NP can be subject-determiner in a genitive (grampa Charlie's story)."
+            },
+            {
               "id": "measure-genitive-001",
               "title": "measure-genitive-001",
               "relationship": "specialization-of",
@@ -6677,6 +6689,48 @@
               "notes": "Both foreground a value. Their backgrounded relatives occupy different positions."
             }
           ]
+        },
+        {
+          "id": "kin-title-name-001",
+          "title": "kin-title-name-001",
+          "subtitle": "Kin Title with a Personal Name",
+          "path": "/data/constructions/kin-title-name-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "strong-proper-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "In referential argument use the NP is a strong proper name (leaving for Grandma Sharon); in address it isn't (Thanks, Aunt Sarah). Test: hold the referent fixed and drop the personal name. Bare Grandpa has a simple head and is itself the name, while in Grandpa Dale the kin term modifies a proper noun."
+            },
+            {
+              "id": "title-personal-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both place a title before a personal name with no determiner, the pattern CGEL calls appellation plus name (pp. 518–519). That entry's titles identify an office, qualification or style (Sir James, Dr Patel); a kin title identifies a kin class. Test: drop the personal name. A kin title can remain as a name for the same person: Schneider and Homans's informants addressed or referred to an uncle by uncle plus first name or by uncle alone (1955: 1195), and bare Aunty occurs as an argument (Do the duck for Aunty?, CHILDES Peters, 010410c.cha, line 605). Sir can't: dropping the name from Sir James opened the ceremony leaves ∗Sir opened the ceremony (constructed). Some occupational appellations pass the test, as in CGEL's Have you seen Nurse? (p. 518), so it separates kin titles from Sir, not from every office title."
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "implements",
+              "notes": "The NP is used as a relative's name; proper name stays the semantic classification."
+            },
+            {
+              "id": "restrictive-appositive-name-001",
+              "relationship": "related-to",
+              "notes": "Compare it's your brother Ben's birthday, where brother is head and Ben an integrated appositive, with grampa Charlie's story, where the kin term modifies the name and no determiner occurs."
+            },
+            {
+              "id": "vocative-001",
+              "relationship": "interfaces-with",
+              "notes": "The same NP serves in address (Thanks, Aunt Sarah, constructed)."
+            },
+            {
+              "id": "genitive-s-001",
+              "relationship": "interfaces-with",
+              "notes": "The NP can be subject-determiner in a genitive (grampa Charlie's story)."
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "left-dislocation-001",
@@ -8378,17 +8432,17 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-institutional-use-001",
+              "title": "bare-institutional-use-001",
+              "relationship": "specialization-of",
+              "parthood": "formal"
+            },
+            {
               "id": "bare-role-001",
               "title": "bare-role-001",
               "relationship": "specialization-of",
               "parthood": "formal",
               "notes": "This is one use of a determinerless NP headed by a nominal."
-            },
-            {
-              "id": "bare-institutional-use-001",
-              "title": "bare-institutional-use-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
             },
             {
               "id": "np-common-001",
@@ -8480,16 +8534,16 @@
           ],
           "incomingRelations": [
             {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "alternates-with",
-              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
-            },
-            {
               "id": "activity-weak-definite-001",
               "title": "activity-weak-definite-001",
               "relationship": "contains",
               "notes": "The activity frame contains an NP with the definite article."
+            },
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "alternates-with",
+              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
             },
             {
               "id": "definite-cardinal-of-pronoun-001",
@@ -8686,16 +8740,16 @@
           ],
           "incomingRelations": [
             {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "alternates-with",
-              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
-            },
-            {
               "id": "another-additive-measure-001",
               "title": "another-additive-measure-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "alternates-with",
+              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
             },
             {
               "id": "degree-adjective-indefinite-001",
@@ -10672,12 +10726,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "interfaces-with",
-              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
-            },
-            {
               "id": "absolute-with-predication-001",
               "title": "absolute-with-predication-001",
               "relationship": "specialization-of",
@@ -10688,6 +10736,12 @@
               "title": "although-concessive-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
             },
             {
               "id": "caused-motion-001",
@@ -11363,6 +11417,12 @@
               "relationship": "related-to"
             },
             {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "implements",
+              "notes": "The NP is used as a relative's name; proper name stays the semantic classification."
+            },
+            {
               "id": "letter-case-specification-001",
               "title": "letter-case-specification-001",
               "relationship": "related-to",
@@ -11974,6 +12034,12 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "related-to",
+              "notes": "Compare it's your brother Ben's birthday, where brother is head and Ben an integrated appositive, with grampa Charlie's story, where the kin term modifies the name and no determiner occurs."
+            },
             {
               "id": "supplementary-appositive-np-001",
               "title": "supplementary-appositive-np-001",
@@ -12632,16 +12698,24 @@
           ],
           "incomingRelations": [
             {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "related-to",
-              "notes": "A role form used as a standing name independently licenses referential argument uses."
-            },
-            {
               "id": "bare-noun-coordination-001",
               "title": "bare-noun-coordination-001",
               "relationship": "related-to",
               "notes": "A separate construction licenses bare referential names, including some common-noun forms."
+            },
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for treasurer and a household for Mom. Function distinguishes them: a bare role NP is predicative or in a licensed frame (Lee remained treasurer), while a strong proper name is a referential argument (Mom called; compare CGEL’s ∗I’m told treasurer strongly supports this proposal, p. 409). Inserting the keeps the ascription in Henry became the treasurer (p. 409) but loses the name in The mom called (constructed). A role form used as a standing name independently licenses referential argument uses."
+            },
+            {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "In referential argument use the NP is a strong proper name (leaving for Grandma Sharon); in address it isn't (Thanks, Aunt Sarah). Test: hold the referent fixed and drop the personal name. Bare Grandpa has a simple head and is itself the name, while in Grandpa Dale the kin term modifies a proper noun."
             },
             {
               "id": "np-common-001",
@@ -12697,16 +12771,16 @@
           ],
           "incomingRelations": [
             {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "interfaces-with",
-              "notes": "A bare role NP can ascribe a post to the subject."
-            },
-            {
               "id": "adjectival-passive-001",
               "title": "adjectival-passive-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can ascribe a post to the subject."
             },
             {
               "id": "nom-adjp-mod-001",
@@ -13371,6 +13445,13 @@
           ],
           "incomingRelations": [
             {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both place a title before a personal name with no determiner, the pattern CGEL calls appellation plus name (pp. 518–519). That entry's titles identify an office, qualification or style (Sir James, Dr Patel); a kin title identifies a kin class. Test: drop the personal name. A kin title can remain as a name for the same person: Schneider and Homans's informants addressed or referred to an uncle by uncle plus first name or by uncle alone (1955: 1195), and bare Aunty occurs as an argument (Do the duck for Aunty?, CHILDES Peters, 010410c.cha, line 605). Sir can't: dropping the name from Sir James opened the ceremony leaves ∗Sir opened the ceremony (constructed). Some occupational appellations pass the test, as in CGEL's Have you seen Nurse? (p. 518), so it separates kin titles from Sir, not from every office title."
+            },
+            {
               "id": "restrictive-appositive-name-001",
               "title": "restrictive-appositive-name-001",
               "relationship": "related-to"
@@ -13795,6 +13876,12 @@
               "title": "exclamation-001",
               "relationship": "can-manifest-as",
               "notes": "Only via the summons/call use"
+            },
+            {
+              "id": "kin-title-name-001",
+              "title": "kin-title-name-001",
+              "relationship": "interfaces-with",
+              "notes": "The same NP serves in address (Thanks, Aunt Sarah, constructed)."
             },
             {
               "id": "paired-np-introduction-001",
@@ -33224,10 +33311,6 @@
             "citation": "Huddleston, Rodney & Geoffrey K. Pullum (2002), The Cambridge Grammar of the English Language. Cambridge: CUP",
             "grounded": [
               {
-                "id": "bare-role-001",
-                "name": "Bare Role Construction"
-              },
-              {
                 "id": "absolute-negator-determinative-001",
                 "name": "Absolute Negator Determinatives"
               },
@@ -33314,6 +33397,10 @@
               {
                 "id": "bare-noun-coordination-001",
                 "name": "Bare Singular Noun Coordination"
+              },
+              {
+                "id": "bare-role-001",
+                "name": "Bare Role Construction"
               },
               {
                 "id": "be-passive-001",
@@ -33882,6 +33969,10 @@
               {
                 "id": "it-cleft-001",
                 "name": "It-Cleft"
+              },
+              {
+                "id": "kin-title-name-001",
+                "name": "Kin Title with a Personal Name"
               },
               {
                 "id": "left-dislocation-001",
@@ -35067,6 +35158,10 @@
             "citation": "MacWhinney, Brian, The CHILDES Project",
             "grounded": [
               {
+                "id": "kin-title-name-001",
+                "name": "Kin Title with a Personal Name"
+              },
+              {
                 "id": "strong-proper-name-001",
                 "name": "Strong Proper Name Construction"
               }
@@ -35086,6 +35181,10 @@
             "type": "author-judgment",
             "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records",
             "grounded": [
+              {
+                "id": "bare-role-001",
+                "name": "Bare Role Construction"
+              },
               {
                 "id": "clause-001",
                 "name": "Clause"
@@ -36339,6 +36438,27 @@
           },
           "relations": [],
           "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "schneider-homans-1955",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "schneider-homans-1955",
+            "type": "paper",
+            "citation": "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208",
+            "url": "https://www.jstor.org/stable/665964",
+            "grounded": [
+              {
+                "id": "kin-title-name-001",
+                "name": "Kin Title with a Personal Name"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     },
@@ -36461,6 +36581,11 @@
           "incomingRelations": []
         }
       ]
+    },
+    {
+      "id": "literature",
+      "label": "Literature",
+      "items": []
     }
   ]
 }

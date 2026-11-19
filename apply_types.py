@@ -28,7 +28,7 @@ assignments = {
     "n-sg-001.yaml": "syntactic",
     "np-001.yaml": "syntactic",
     "np-bare-001.yaml": "syntactic",
-    "NP-bare-role.yaml": "syntactic",
+    "bare-role-001.yaml": "syntactic",
     "np-common-001.yaml": "syntactic",
     "np-def-001.yaml": "syntactic",
     "np-det-001.yaml": "syntactic",
