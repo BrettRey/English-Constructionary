@@ -1,5 +1,5 @@
 id: so-neither-inversion-001
-name: Inverted Additive So and Neither
+name: "Inverted Additive <i>so</i> and <i>neither</i>"
 pattern: Clause[so/neither/nor + finite Aux + Subject]
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A positive antecedent licenses additive so, a negative one neither or nor. The new subject follows the auxiliary and the prior predicate is recoverable.
+    target: A positive antecedent licenses additive <i>so</i>, a negative one <i>neither</i> or <i>nor</i>. The new subject follows the auxiliary and the prior predicate is recoverable.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

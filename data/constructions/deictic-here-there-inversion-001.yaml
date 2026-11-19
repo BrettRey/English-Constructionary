@@ -1,5 +1,5 @@
 id: deictic-here-there-inversion-001
-name: Deictic Here or There with Inversion
+name: "Deictic <i>here</i> or <i>there</i> with Inversion"
 pattern: Clause[stressed locative here/there + V + full NP], or here/there + pronoun + V
 type: mixed
 meanings:
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A full NP typically follows come. A personal pronoun occurs before it in Here it comes. The locative can receive pointing stress, unlike the dummy subject of an existential.
+    target: A full NP typically follows <i>come</i>. A personal pronoun occurs before it in <i>Here it comes</i>. The locative can receive pointing stress, unlike the dummy subject of an existential.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

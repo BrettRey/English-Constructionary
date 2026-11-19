@@ -1,11 +1,11 @@
 id: let-alone-001
-name: Let Alone
+name: "<i>X, let alone Y</i>"
 pattern: utterance with contrasting focus A + let alone + corresponding focus B; shared material can follow both foci
 type: mixed
 meanings:
   '1':
     definition: Uses a contrast on a contextually supplied scale to justify dismissing a further alternative.
-    details: On the usual negative pattern, the first alternative is easier, smaller, or otherwise more attainable. If even it fails, the harder one can be dismissed. The material after let alone can consist of a phrase whose interpretation uses the shared material of the first part. Negation and other downward-oriented environments are favoured. The original study also discusses positive uses and speaker variation.
+    details: On the usual negative pattern, the first alternative is easier, smaller, or otherwise more attainable. If even it fails, the harder one can be dismissed. The material after <i>let alone</i> can consist of a phrase whose interpretation uses the shared material of the first part. Negation and other downward-oriented environments are favoured. The original study also discusses positive uses and speaker variation.
     examples:
       - form: '[Few people have seen the document, let alone know what’s in it.]'
         note: The scale links seeing the document and knowing its contents.
@@ -15,7 +15,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: '[We couldn’t fit a bicycle, let alone a whole sofa, through that doorway.]'
-        note: Constructed NP contrast. Through that doorway applies to both alternatives.
+        note: Constructed NP contrast. <i>Through that doorway</i> applies to both alternatives.
 relatedConstructions:
   - id: coordination-001
     relationship: related-to
@@ -30,10 +30,10 @@ grounds:
     locator: §4, n. 34 in author draft
     relation: discusses
     bears-on: projection
-    note: Reports let alone among well-studied constructions omitted from the chapter’s worked survey.
+    note: Reports <i>let alone</i> among well-studied constructions omitted from the chapter’s worked survey.
 kind:
   provisional: true
   projection:
-    target: A short paired focus after let alone receives a fuller interpretation from the shared material, with the ordering of the alternatives constrained by the discourse scale and polarity context.
+    target: A short paired focus after <i>let alone</i> receives a fuller interpretation from the shared material, with the ordering of the alternatives constrained by the discourse scale and polarity context.
     evidence: Fillmore, Kay and O’Connor give paired-focus, shared-material, polarity and scale diagnostics. CGEL records the link between finite VPs.
     confidence: high

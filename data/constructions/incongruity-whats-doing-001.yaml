@@ -1,5 +1,5 @@
 id: incongruity-whats-doing-001
-name: Incongruity What Is X Doing Y?
+name: "Incongruity <i>what is X doing Y?</i>"
 pattern: interrogative[what + be + Subject + doing + location or V-ing expression]
 type: mixed
 meanings:
@@ -28,6 +28,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A ladder in a hall need not be performing an action. The same string shape with a human subject and an activity can also support an ordinary literal what-question.
+    target: A ladder in a hall need not be performing an action. The same string shape with a human subject and an activity can also support an ordinary literal <i>what</i>-question.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -1,5 +1,5 @@
 id: never-adv-negation-001
-name: Adverbial Negation with never
+name: "Adverbial Negation with <i>never</i>"
 pattern: "never + VP"
 type: syntactic
 meanings:
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "They never replied can take the positive tag did they? No auxiliary do is needed to host never in the declarative. Its temporal quantification and clausal polarity are independently testable."
-    evidence: "CGEL supplies the confirmation tag and compares never with negation plus ever."
+    target: "<i>They never replied</i> can take the positive tag <i>did they?</i> No auxiliary do is needed to host <i>never</i> in the declarative. Its temporal quantification and clausal polarity are independently testable."
+    evidence: "CGEL supplies the confirmation tag and compares <i>never</i> with negation plus <i>ever</i>."
     confidence: medium

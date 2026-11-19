@@ -4,40 +4,41 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Adjectives ending in -ful
-  summary: Adding -ful to a noun gives an adjective saying something has or displays what the noun names.
+  title: Adjectives ending in <i>-ful</i>
+  summary: Adding <i>-ful</i> to a noun gives an adjective saying something has or displays what the noun names.
   body: |-
-    A thoughtful reply is one that shows thought. The -ful adjective describes something as having or displaying the substance or property associated with the base word.
+    <i>A thoughtful reply</i> is one that shows thought. The <i>-ful</i> adjective describes something as having or displaying the substance or property associated with the base word.
 
-    The base is typically a noun. Colour gives colourful, a word for something that has colour or displays it. A related ending, -less, works in the opposite direction.
+    The base is typically a noun. <i>Colour</i> gives <i>colourful</i>, a word for something that has colour or displays it. A related ending, <i>-less</i>, works in the opposite direction.
   examples:
     - text: The chair gave a [thoughtful] reply.
       from: entry
     - text: The [colourful] kite flew high.
       from: constructed
-  try: Add -ful to a noun such as joy or help. What does the new word say about something?
+  try: Add <i>-ful</i> to a noun such as <i>joy</i> or <i>help</i>. What does the new word say about something?
 teacher:
-  summary: Helps explain -ful adjectives as formed from a base meaning having or displaying that property.
-  explain: An adjective in -ful characterizes something as having or displaying the substance or property associated with the base, typically a noun. In The chair gave a thoughtful reply, thoughtful describes a reply that displays thought. This dictionary treats it as a specialization of the adjective construction and relates it to the privative -less pattern, which marks lack.
+  summary: Helps explain <i>-ful</i> adjectives as formed from a base meaning having or displaying that property.
+  explain: An adjective in <i>-ful</i> characterizes something as having or displaying the substance or property associated with the base, typically a noun. In <i>The chair gave a thoughtful reply</i>, <i>thoughtful</i> describes a reply that displays thought. This dictionary treats it as a specialization of the adjective construction and relates it to the privative <i>-less</i> pattern, which marks lack.
   examples:
     - text: The chair gave a [thoughtful] reply.
       from: entry
-    - text: The [colourful] kite flew high.
+    - text: She is a [careful] driver.
       from: constructed
   watch_for:
-    - A learner might read thoughtful as describing the chair, when it describes the reply.
-    - A learner might confuse -ful with its related privative pattern -less, which marks the opposite idea.
-  activity: Students list nouns (care, joy, help), add -ful, and write a sentence with each new adjective. A partner restates it as has or shows the noun.
+    - A learner might read <i>thoughtful</i> as describing the chair, when it describes the reply.
+    - A learner might confuse <i>-ful</i> with its related privative pattern <i>-less</i>, which marks the opposite idea.
+  activity: Students list nouns (<i>care</i>, <i>help</i>, <i>use</i>), add <i>-ful</i>, and write a sentence with each new adjective. A partner restates it as <i>has</i> or <i>shows</i> the noun.
 child:
   hook: What word describes a reply that shows thought?
-  explain: Add -ful to a word like thought and you get a word saying someone has it or shows it. A thoughtful reply shows thought. A colourful kite has colour.
+  explain: Add <i>-ful</i> to a word like <i>thought</i> and you get a word saying someone has it or shows it. <i>A thoughtful reply</i> shows thought. <i>A colourful kite</i> has colour.
   examples:
     - text: She gave a [thoughtful] answer.
       from: constructed
     - text: The [colourful] kite flew high.
       from: constructed
-  play: Try adding -ful to joy, help and care. Use each new word in a short sentence.
+  play: Try adding <i>-ful</i> to <i>joy</i>, <i>help</i> and <i>care</i>. Use each new word in a short sentence.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: constructed teacher example The colourful kite flew high (colourful about 4,600th in SUBTLEX-UK) replaced by She is a careful driver; teacher.activity noun joy (joyful is rare) replaced by use; child block unchanged."

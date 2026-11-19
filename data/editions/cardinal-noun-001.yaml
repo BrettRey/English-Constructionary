@@ -7,9 +7,9 @@ curious:
   title: Number words that act as nouns
   summary: A number word can name a number, label one thing or stand for a quantity, behaving like an ordinary noun.
   body: |-
-    A number word can come before a noun, as in ten cards. But it can also be a noun in its own right. In Ten is even, ten names a number and doesn't count anything. In Room 101, the number labels one particular room.
+    A number word can come before a noun, as in <i>ten cards</i>. But it can also be a noun in its own right. In <i>Ten is even</i>, <i>ten</i> names a number and doesn't count anything. In <i>Room 101</i>, the number labels one particular room.
 
-    Other uses count or measure. You can say a ten, and in hundreds of people the number gives a large quantity. In these uses the number word can take a plural ending and another word before it, as in two tens. The naming use and the use before a noun, as in ten cards, don't work that way.
+    Other uses count or measure. You can say <i>a ten</i>, and in <i>hundreds of people</i> the number gives a large quantity. In these uses the number word can take a plural ending and another word before it, as in <i>two tens</i>. The naming use and the use before a noun, as in <i>ten cards</i>, don't work that way.
   examples:
     - text: '[Ten] is even.'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[hundreds of people]'
       from: entry
-  try: Compare I have ten cards with I have two tens. In which one can you put a word like two in front of the number?
+  try: Compare <i>I have ten cards</i> with <i>I have two tens</i>. In which one can you put a word like <i>two</i> in front of the number?
 teacher:
   summary: Helps explain why a number word sometimes behaves like a noun, with its own plural and determiner, and sometimes doesn't.
-  explain: 'A cardinal noun is a number word used as a noun. Proper-noun uses head bare noun phrases: Ten is even (the number itself) and Room 101 (a numerical label). Common-noun uses take determiners and plural forms: a ten, two tens, hundreds of people. They denote number entities, quantities, labels or numerical tokens, and they are not determiners. Contrast ten cards, where ten is a determinative and the noun is cards.'
-  terms: 'Cardinal number or numeral: the traditional names. This dictionary separates the cardinal determinative (ten cards) from the cardinal noun (Ten is even, two tens).'
+  explain: 'A cardinal noun is a number word used as a noun. Proper-noun uses head bare noun phrases: <i>Ten is even</i> (the number itself) and <i>Room 101</i> (a numerical label). Common-noun uses take determiners and plural forms: <i>a ten</i>, <i>two tens</i>, <i>hundreds of people</i>. They denote number entities, quantities, labels or numerical tokens, and they are not determiners. Contrast <i>ten cards</i>, where <i>ten</i> is a determinative and the noun is <i>cards</i>.'
+  terms: 'Cardinal number or numeral: the traditional names. This dictionary separates the cardinal determinative (<i>ten cards</i>) from the cardinal noun (<i>Ten is even</i>, <i>two tens</i>).'
   examples:
     - text: '[Ten] is even.'
       from: entry
@@ -36,15 +36,15 @@ teacher:
   contrasts:
     - text: I have ten cards.
       from: constructed
-      note: Determinative use. Ten determines the noun cards.
+      note: Determinative use. <i>Ten</i> determines the noun <i>cards</i>.
     - text: I have two tens.
       from: constructed
-      note: Common-noun use. Tens is a plural noun with its own determiner.
+      note: Common-noun use. <i>Tens</i> is a plural noun with its own determiner.
   watch_for:
-    - A learner might read Room 101 as one hundred and one rooms.
-    - A learner might think ten in Ten is even is counting something, when it names the number.
-    - A learner might expect ten cards to take a determiner before ten and a plural ending, as two tens does.
-  activity: Give students cards with ten cards, two tens, Ten is even and Room 101. They sort them into "number before a noun" and "number used as a noun", then say how they decided.
+    - A learner might read <i>Room 101</i> as one hundred and one rooms.
+    - A learner might think <i>ten</i> in <i>Ten is even</i> is counting something, when it names the number.
+    - A learner might expect <i>ten cards</i> to take a determiner before <i>ten</i> and a plural ending, as <i>two tens</i> does.
+  activity: Give students cards with <i>ten cards</i>, <i>two tens</i>, <i>Ten is even</i> and <i>Room 101</i>. They sort them into "number before a noun" and "number used as a noun", then say how they decided.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

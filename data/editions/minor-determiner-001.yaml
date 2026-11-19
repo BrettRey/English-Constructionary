@@ -5,9 +5,9 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Whole phrases that sit before a noun
-  summary: In a few frames, a phrase such as what size or over thirty can come before a noun the way a small word like the or some does.
+  summary: In a few frames, a phrase such as <i>what size</i> or <i>over thirty</i> can come before a noun the way a small word like <i>the</i> or <i>some</i> does.
   body: |-
-    In what size hat, the words what size ask about the hat. In this size shoes, this size tells us which size of shoes. In over thirty ties, over thirty sets a lower limit on how many ties. Each of these opening groups is a whole phrase, not a single small word, yet it works in the slot before the noun where words like the and some work.
+    In <i>what size hat</i>, the words <i>what size</i> ask about the hat. In <i>this size shoes</i>, <i>this size</i> tells us which size of shoes. In <i>over thirty ties</i>, <i>over thirty</i> sets a lower limit on how many ties. Each of these opening groups is a whole phrase, not a single small word, yet it works in the slot before the noun where words like <i>the</i> and <i>some</i> work.
 
     This dictionary treats the pattern as restricted. It shows up in questions about size and in frames that measure or count, so it doesn't turn any phrase at all into an opener for a noun.
   examples:
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[over thirty] ties'
       from: entry
-  try: Ask a shop assistant's question about size, beginning with what size. Which noun follows it?
+  try: Ask a shop assistant's question about size, beginning with <i>what size</i>. Which noun follows it?
 teacher:
-  summary: For advanced classes, phrases rather than single words that fill the determiner slot in a few frames such as what size hat.
-  explain: 'Determiner is a function; determinatives like the and some are the words that fill it elsewhere. Here the function is filled by a phrase instead: a plain noun phrase (what size, this size) or a prepositional phrase (over thirty) before the noun. This dictionary''s pattern is a noun phrase or prepositional phrase plus a noun, and it is restricted to certain noun-phrase types: interrogatives and measure or quantity frames. What size hat asks for the hat''s size. Over thirty ties sets a lower boundary on the number of ties. Present it as a limited set of frames, not as a general rule.'
-  terms: Minor determiner is this dictionary's label for a phrase, not a determinative word, in determiner function. Property-value noun phrase is the CGEL term for the what size hat type.
+  summary: For advanced classes, phrases rather than single words that fill the determiner slot in a few frames such as <i>what size hat</i>.
+  explain: 'Determiner is a function; determinatives like <i>the</i> and <i>some</i> are the words that fill it elsewhere. Here the function is filled by a phrase instead: a plain noun phrase (<i>what size</i>, <i>this size</i>) or a prepositional phrase (<i>over thirty</i>) before the noun. This dictionary''s pattern is a noun phrase or prepositional phrase plus a noun, and it is restricted to certain noun-phrase types: interrogatives and measure or quantity frames. <i>What size hat</i> asks for the hat''s size. <i>Over thirty ties</i> sets a lower boundary on the number of ties. Present it as a limited set of frames, not as a general rule.'
+  terms: Minor determiner is this dictionary's label for a phrase, not a determinative word, in determiner function. Property-value noun phrase is the CGEL term for the <i>what size hat</i> type.
   examples:
     - text: '[what size] hat'
       from: entry
@@ -32,14 +32,14 @@ teacher:
   contrasts:
     - text: '[over thirty] hats'
       from: constructed
-      note: The prepositional phrase over thirty sets a lower boundary on the number of hats.
+      note: The prepositional phrase <i>over thirty</i> sets a lower boundary on the number of hats.
     - text: '[what size] hat'
       from: entry
-      note: The noun phrase what size asks for the size of the hat.
+      note: The noun phrase <i>what size</i> asks for the size of the hat.
   watch_for:
-    - A learner might take what size or over thirty to be a single determinative word like the.
+    - A learner might take <i>what size</i> or <i>over thirty</i> to be a single determinative word like <i>the</i>.
     - A learner might assume any phrase can fill the determiner slot, when this dictionary restricts it to interrogative and measure or quantity frames.
-  activity: Give students shop-sign prompts (a hat shop, a shoe shop, a tie sale). They write one question with what size and one statement with over thirty, then circle the phrase that comes before each noun.
+  activity: Give students shop-sign prompts (a hat shop, a shoe shop, a tie sale). They write one question with <i>what size</i> and one statement with <i>over thirty</i>, then circle the phrase that comes before each noun.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

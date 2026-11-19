@@ -4,10 +4,10 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Nouns like window-cleaner
-  summary: In its agentive reading, a compound like window-cleaner names a person by the thing they work on and what they do.
+  title: Nouns like <i>window-cleaner</i>
+  summary: In its agentive reading, a compound like <i>window-cleaner</i> names a person by the thing they work on and what they do.
   body: |-
-    In They hired a window-cleaner, the first part, window, names what is acted on, and cleaner names the one who does the action. A window-cleaner is someone who cleans windows.
+    In <i>They hired a window-cleaner</i>, the first part, <i>window</i>, names what is acted on, and <i>cleaner</i> names the one who does the action. A <i>window-cleaner</i> is someone who cleans windows.
 
     Other compounds are looser. A compound made of two ordinary nouns can connect them through a much wider range of relations, which the listener works out from context. In the pattern here, the first part matches a participant in the action of the verb.
 
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: We met a [dog-walker].
       from: constructed
-  try: Think of someone whose job is named by a thing plus a person who does something to it. Can you say it with a verb, like cleans windows?
+  try: Think of someone whose job is named by a thing plus a person who does something to it. Can you say it with a verb, like <i>cleans windows</i>?
 teacher:
-  summary: Explains compounds like window-cleaner, where the first noun is a participant of the verb in the second word.
-  explain: The pattern is a compound noun whose first element supplies a participant associated with the verbal base of the second element, a deverbal noun. In the agentive reading, a window-cleaner is someone who cleans windows. Ordinary nondeverbal compounds can connect their two nouns through a much wider range of contextually inferred relations. This dictionary marks the analysis as provisional and gives one constructed illustration. A related entry covers deverbal nouns in -er.
+  summary: Explains compounds like <i>window-cleaner</i>, where the first noun is a participant of the verb in the second word.
+  explain: The pattern is a compound noun whose first element supplies a participant associated with the verbal base of the second element, a deverbal noun. In the agentive reading, a <i>window-cleaner</i> is someone who cleans windows. Ordinary nondeverbal compounds can connect their two nouns through a much wider range of contextually inferred relations. This dictionary marks the analysis as provisional and gives one constructed illustration. A related entry covers deverbal nouns in <i>-er</i>.
   terms: Sometimes called synthetic compounds.
   examples:
     - text: They hired a [window-cleaner].
@@ -35,12 +35,12 @@ teacher:
       from: constructed
       note: An ordinary compound; the link between the nouns is inferred from context.
   watch_for:
-    - A learner might read window-cleaner as a cleaner that belongs to windows, rather than someone who cleans windows.
-    - A learner might expect every two-noun compound to link its parts the way window-cleaner does.
-  activity: Students list compounds like window-cleaner, where a participant noun is followed by a noun derived from a verb. They say what each person does with a verb, as in cleans windows, then compare them with compounds like coffee cup, whose link is looser.
+    - A learner might read <i>window-cleaner</i> as a cleaner that belongs to windows, rather than someone who cleans windows.
+    - A learner might expect every two-noun compound to link its parts the way <i>window-cleaner</i> does.
+  activity: Students list compounds like <i>window-cleaner</i>, where a participant noun is followed by a noun derived from a verb. They say what each person does with a verb, as in <i>cleans windows</i>, then compare them with compounds like <i>coffee cup</i>, whose link is looser.
 child:
-  hook: What does a window-cleaner do?
-  explain: Some words put what you work on first, then the person who does the job. A window-cleaner cleans windows. A dog-walker walks dogs.
+  hook: What does a <i>window-cleaner</i> do?
+  explain: Some words put what you work on first, then the person who does the job. A <i>window-cleaner</i> cleans windows. A <i>dog-walker</i> walks dogs.
   examples:
     - text: They hired a [window-cleaner].
       from: entry

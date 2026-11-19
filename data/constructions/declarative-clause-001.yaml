@@ -11,7 +11,7 @@ dimensions:
 meanings:
   '1':
     definition: The default headed clause type, characteristically used to make a statement
-    details: "Declarative is a category of syntactic form, not a statement-force category. Basic declaratives normally have Subject–Predicator order, but their actual force depends on construction and context: Passengers are requested to remain seated is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur both as main clauses and as subordinate content clauses (CGEL pp. 853–55, 951–55)."
+    details: "Declarative is a category of syntactic form, not a statement-force category. Basic declaratives normally have Subject–Predicator order, but their actual force depends on construction and context: <i>Passengers are requested to remain seated</i> is a directive, and a declarative question adds question intonation to declarative syntax. Declaratives occur both as main clauses and as subordinate content clauses (CGEL pp. 853–55, 951–55)."
     examples:
       - form: "[Kim finished the report.]"
         note: Main declarative in its characteristic statement use

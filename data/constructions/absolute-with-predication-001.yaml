@@ -1,5 +1,5 @@
 id: absolute-with-predication-001
-name: With Plus an Absolute Predication
+name: "<i>with</i> Plus an Absolute Predication"
 pattern: PP[with + NP + participial or verbless predicate]
 type: mixed
 meanings:
@@ -28,6 +28,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The shutters are understood as closed. The relation to the main situation can be merely concomitant or explanatory, whereas what with conventionally gives a reason.
+    target: <i>The shutters</i> are understood as <i>closed</i>. The relation to the main situation can be merely concomitant or explanatory, whereas <i>what with</i> conventionally gives a reason.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -1,5 +1,5 @@
 id: neither-nor-coordination-001
-name: Correlative Coordination with neither...nor
+name: "Correlative Coordination with <i>neither … nor</i>"
 pattern: "neither X nor Y"
 type: syntactic
 meanings:
@@ -12,7 +12,7 @@ meanings:
         note: NP coordination
 constraints:
   - type: syntactic
-    description: Correlative markers neither and nor introduce paired coordinates.
+    description: Correlative markers <i>neither</i> and <i>nor</i> introduce paired coordinates.
   - type: semantic
     description: Both coordinated alternatives fall under negation.
 formRefs:
@@ -35,6 +35,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The coordinator can link two phrases as in neither Jo nor Kai or two verb phrases as in neither called nor wrote. The construction differs from additive neither did Jo, which depends on a preceding negative assertion."
+    target: "The coordinator can link two phrases as in <i>neither Jo nor Kai</i> or two verb phrases as in <i>neither called nor wrote</i>. The construction differs from additive <i>neither did Jo</i>, which depends on a preceding negative assertion."
     evidence: "CGEL describes the correlative frame and the wider use of nor and neither following negative clauses."
     confidence: medium

@@ -7,18 +7,18 @@ curious:
   title: Being sent something
   summary: A passive sentence can make the person who receives something the subject while the thing received stays after the verb.
   body: |-
-    In Lee was sent a replacement key, Lee is the recipient and the subject of the sentence. The replacement key still sits after the verb, as an ordinary part of it.
+    In <i>Lee was sent a replacement key</i>, Lee is the recipient and the subject of the sentence. The replacement key still sits after the verb, as an ordinary part of it.
 
-    Compare A replacement key was sent to Lee, where the key is the subject and Lee comes in a phrase with to. The two sentences describe the same sending but arrange the people and things differently. This dictionary marks the account as provisional.
+    Compare <i>A replacement key was sent to Lee</i>, where the key is the subject and Lee comes in a phrase with <i>to</i>. The two sentences describe the same sending but arrange the people and things differently. This dictionary marks the account as provisional.
   examples:
     - text: Lee [was sent a replacement key].
       from: entry
     - text: '[A replacement key was sent to Lee].'
       from: entry
-  try: Turn Someone sent Lee a key into a sentence beginning with Lee, and then into one beginning with the key. How do the endings differ?
+  try: Turn <i>Someone sent Lee a key</i> into a sentence beginning with <i>Lee</i>, and then into one beginning with <i>the key</i>. How do the endings differ?
 teacher:
   summary: Connects the passive of double-object verbs to the two ways of choosing the subject.
-  explain: 'The recipient becomes the passive subject while the theme stays in object position: Lee was sent a replacement key. The recipient corresponds to the indirect object of the active frame. The replacement key remains an ordinary NP complement of sent. In A replacement key was sent to Lee, the theme controls agreement and the recipient is an oblique. This dictionary marks the analysis provisional, and its examples are constructed.'
+  explain: 'The recipient becomes the passive subject while the theme stays in object position: <i>Lee was sent a replacement key</i>. The recipient corresponds to the indirect object of the active frame. The replacement key remains an ordinary NP complement of <i>sent</i>. In <i>A replacement key was sent to Lee</i>, the theme controls agreement and the recipient is an oblique. This dictionary marks the analysis provisional, and its examples are constructed.'
   terms: The remaining NP is sometimes called a retained object; this dictionary uses that term. See also the double-object (ditransitive) pattern.
   examples:
     - text: Lee [was sent a replacement key].
@@ -29,11 +29,11 @@ teacher:
       note: Recipient as subject; the theme is a retained object.
     - text: A replacement key was sent to Lee.
       from: entry
-      note: Theme as subject; recipient in a to-phrase.
+      note: Theme as subject; recipient in a <i>to</i>-phrase.
   watch_for:
     - A learner might think the replacement key must be the subject because it is the thing sent.
-    - A learner might look for a missing object after sent in the first sentence.
-  activity: Students start from Someone sent Lee a replacement key and write both passives, underlining the subject in each and saying what the other participant becomes.
+    - A learner might look for a missing object after <i>sent</i> in the first sentence.
+  activity: Students start from <i>Someone sent Lee a replacement key</i> and write both passives, underlining the subject in each and saying what the other participant becomes.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

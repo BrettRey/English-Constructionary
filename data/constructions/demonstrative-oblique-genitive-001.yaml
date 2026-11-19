@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Picks out a referent through a demonstrative and a genitive relation, including a uniquely possessed referent.
-    details: Barker analyzes a demonstrative construction in which that nose of his is usable for an ordinary person with one nose, though the nose of his is degraded. He links the use to focus on the head and speaker affect. The extent to which affect is required across CGEL’s examples remains open.
+    details: Barker analyzes a demonstrative construction in which <i>that nose of his</i> is usable for an ordinary person with one nose, though <i>the nose of his</i> is degraded. He links the use to focus on the head and speaker affect. The extent to which affect is required across CGEL’s examples remains open.
     examples:
       - form: '[that husband of Mary’s]'
         note: The phrase can be tested in a setting with a single husband.
@@ -22,7 +22,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: '[that nose of his]'
-        note: Published judgment in comparison with the nose of his.
+        note: Published judgment in comparison with <i>the nose of his</i>.
         grounds:
           - source: barker-1998
             locator: §5
@@ -34,7 +34,7 @@ relatedConstructions:
     notes: The demonstrative marks the NP as definite.
   - id: np-gen-indep-001
     relationship: contains
-    notes: The of-phrase takes an independent genitive NP.
+    notes: The <i>of</i>-phrase takes an independent genitive NP.
 grounds:
   - source: barker-1998
     locator: §5

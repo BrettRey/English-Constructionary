@@ -1,5 +1,5 @@
 id: prenominal-all-the-001
-name: Predeterminer All before a Determined NP
+name: "Predeterminer <i>all</i> before a Determined NP"
 pattern: NP[all + Det + Nom]
 type: syntactic
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: All can precede those and the in the same NP. Each and every do not generally occupy that same position before an existing central determiner.
+    target: <i>All</i> can precede <i>those</i> and <i>the</i> in the same NP. <i>Each</i> and <i>every</i> do not generally occupy that same position before an existing central determiner.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

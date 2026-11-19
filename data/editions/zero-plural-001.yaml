@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Plurals with no ending
-  summary: A few nouns, such as sheep, look the same in the singular and the plural.
+  summary: A few nouns, such as <i>sheep</i>, look the same in the singular and the plural.
   body: |-
-    In Three sheep were left outside, there's more than one sheep, and the word sheep has no plural ending like -s. We can tell it's plural because of three and because the verb is were.
+    In <i>Three sheep were left outside</i>, there's more than one sheep, and the word <i>sheep</i> has no plural ending like <i>-s</i>. We can tell it's plural because of <i>three</i> and because the verb is <i>were</i>.
 
-    The same form of the word works for one: a sheep. The dictionary describes this as a restricted set of nouns, not a pattern for all words.
+    The same form of the word works for one: <i>a sheep</i>. The dictionary describes this as a restricted set of nouns, not a pattern for all words.
 
     The dictionary marks this account as provisional.
   examples:
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: A sheep was left outside.
       from: constructed
-  try: Say Three sheep were left outside and A sheep was left outside. What changes besides the number word and the verb?
+  try: Say <i>Three sheep were left outside</i> and <i>A sheep was left outside</i>. What changes besides the number word and the verb?
 teacher:
   summary: Helps explain nouns whose plural has the same form as the singular.
-  explain: A zero plural realizes count plural without a distinct suffix on a restricted set of nouns. In Three sheep were left outside, the numeral and verb agree with a plural even though sheep lacks a plural suffix. A singular determiner can combine with the same stem form, as in a sheep. This dictionary relates it to the regular plural -s and to grammatical number, and marks its analysis provisional. Teach it by showing that number is carried by the determiner, numeral and verb, not only by the noun.
+  explain: A zero plural realizes count plural without a distinct suffix on a restricted set of nouns. In <i>Three sheep were left outside</i>, the numeral and verb agree with a plural even though <i>sheep</i> lacks a plural suffix. A singular determiner can combine with the same stem form, as in <i>a sheep</i>. This dictionary relates it to the regular plural <i>-s</i> and to grammatical number, and marks its analysis provisional. Teach it by showing that number is carried by the determiner, numeral and verb, not only by the noun.
   terms: Sometimes called an unchanged plural. This dictionary treats these as count nouns whose plural has no suffix.
   examples:
     - text: '[Three sheep] were left outside.'
@@ -35,12 +35,12 @@ teacher:
       from: constructed
       note: Singular, same stem form.
   watch_for:
-    - A learner might add -s to sheep, when it is one of the restricted set with no plural suffix.
+    - A learner might add <i>-s</i> to <i>sheep</i>, when it is one of the restricted set with no plural suffix.
     - A learner might think a noun without a suffix is singular, when the numeral and verb show it is plural.
-  activity: Students read sentences containing sheep, noticing which word shows the number. Then they find other cues, such as the verb form, in each sentence.
+  activity: Students read sentences containing <i>sheep</i>, noticing which word shows the number. Then they find other cues, such as the verb form, in each sentence.
 child:
-  hook: Why is there no -s on sheep when there are three of them?
-  explain: Sheep stays the same for one or for three. A sheep. Three sheep. We know it's plural from three and were.
+  hook: Why is there no <i>-s</i> on <i>sheep</i> when there are three of them?
+  explain: "<i>Sheep</i> stays the same for one or for three. <i>A sheep</i>. <i>Three sheep</i>. We know it's plural from <i>three</i> and <i>were</i>."
   examples:
     - text: '[Three sheep] were left outside.'
       from: entry

@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Identifies a day by its ordinal position within the named month.
-    details: In June fourteenth, the final numeral identifies the day of the month. The same convention can be written June 14. The month name and day number can do this without an article or a preposition inside the date. A separately formed expression such as the fourteenth of June identifies the same date by a different order and marking.
+    details: In <i>June fourteenth</i>, the final numeral identifies the day of the month. The same convention can be written <i>June 14</i>. The month name and day number can do this without an article or a preposition inside the date. A separately formed expression such as <i>the fourteenth of June</i> identifies the same date by a different order and marking.
     examples:
       - form: '[June 14th]'
         note: Published example with month followed by an ordinal.

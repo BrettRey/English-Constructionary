@@ -1,11 +1,11 @@
 id: durational-long-001
-name: Postverbal Durational Long
+name: "Postverbal Durational <i>long</i>"
 pattern: VP[... + long in a non-affirmative duration frame]
 type: mixed
 meanings:
   '1':
     definition: Describes a potentially long duration, typically under negation, a question, or a conditional.
-    details: Plain long in the postverbal position is natural in They didn’t stay long and Will they stay long? The ordinary affirmative They stayed long is markedly less natural for many speakers. Modified forms can behave differently, as in They stayed too long. The category analysis varies across sources. A separate use before the main verb is possible in affirmative They have long known.
+    details: Plain <i>long</i> in the postverbal position is natural in <i>They didn’t stay long</i> and <i>Will they stay long?</i> The ordinary affirmative <i>They stayed long</i> is markedly less natural for many speakers. Modified forms can behave differently, as in <i>They stayed too long</i>. The category analysis varies across sources. A separate use before the main verb is possible in affirmative <i>They have long known</i>.
     examples:
       - form: Did you [wait long]?
         note: Constructed polar question.
@@ -37,6 +37,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Changing polarity or clause type while holding the duration predicate fixed can make plain postverbal long natural. Degree modification can change the distribution.
+    target: Changing polarity or clause type while holding the duration predicate fixed can make plain postverbal <i>long</i> natural. Degree modification can change the distribution.
     evidence: FrameNet supplies documented questions, negation, conditional clauses and a separate preverbal use. CGEL independently marks the usual affirmative restriction for plain long.
     confidence: high

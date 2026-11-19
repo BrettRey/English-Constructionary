@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: indirect-report-001
     relationship: related-to
-    notes: Jo said, “I’m ready” presents a quotation in the original speaker’s terms. Jo said that she was ready reports content from the reporting context.
+    notes: <i>Jo said, “I’m ready”</i> presents a quotation in the original speaker’s terms. <i>Jo said that she was ready</i> reports content from the reporting context.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §9.2
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: I and tomorrow are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.
+    target: <i>I</i> and <i>tomorrow</i> are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

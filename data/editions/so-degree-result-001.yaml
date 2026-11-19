@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: So much that something happens
-  summary: So plus a describing word, followed by a clause about a resulting or linked situation, shows how high a degree is.
+  title: <i>So much that</i> something happens
+  summary: <i>So</i> plus a describing word, followed by a clause about a resulting or linked situation, shows how high a degree is.
   body: |-
-    The street was so narrow that the van couldn't turn. The word so marks a high degree of narrowness, and the part after that tells what resulted. That result shows how narrow the street was.
+    <i>The street was so narrow that the van couldn't turn</i>. The word <i>so</i> marks a high degree of narrowness, and the part after that tells what resulted. That result shows how narrow the street was.
 
-    The result clause sets the level that counts. It ordinarily presents something that really happened. Compare too narrow to turn, which describes an obstacle without reporting that anyone tried. This dictionary marks the analysis as provisional.
+    The result clause sets the level that counts. It ordinarily presents something that really happened. Compare <i>too narrow to turn</i>, which describes an obstacle without reporting that anyone tried. This dictionary marks the analysis as provisional.
   examples:
     - text: The street was [so narrow that the van couldn't turn].
       from: entry
     - text: The soup was [so hot that she couldn't eat it].
       from: constructed
-  try: 'Finish this: The room was so cold that ... What result shows how cold it was?'
+  try: 'Finish this: <i>The room was so cold that ...</i> What result shows how cold it was?'
 teacher:
-  summary: Helps explain so plus an adjective plus a that-clause that gives a result.
-  explain: The pattern is so plus a gradable expression plus a content clause, in which that is optional. It identifies a high degree through a resulting or evidentially linked situation. The result clause identifies the relevant scale threshold and ordinarily presents a realized situation. Compare too narrow to turn, which describes an obstacle without reporting an attempt. This dictionary also notes the overlap with such a cold morning that the locks froze, where the degree is specified through a nominal expression instead of an adjective. The analysis is marked provisional.
-  terms: The that-clause is a declarative content clause; the that may be omitted.
+  summary: Helps explain <i>so</i> plus an adjective plus a <i>that</i>-clause that gives a result.
+  explain: The pattern is <i>so</i> plus a gradable expression plus a content clause, in which <i>that</i> is optional. It identifies a high degree through a resulting or evidentially linked situation. The result clause identifies the relevant scale threshold and ordinarily presents a realized situation. Compare <i>too narrow to turn</i>, which describes an obstacle without reporting an attempt. This dictionary also notes the overlap with <i>such a cold morning that the locks froze</i>, where the degree is specified through a nominal expression instead of an adjective. The analysis is marked provisional.
+  terms: The <i>that</i>-clause is a declarative content clause; the <i>that</i> may be omitted.
   examples:
     - text: The street was [so narrow that the van couldn't turn].
       from: entry
@@ -34,20 +34,20 @@ teacher:
       note: An obstacle is described, and no attempt is reported.
     - text: It was such a cold morning that the locks froze.
       from: constructed
-      note: The nominal counterpart with such.
+      note: The nominal counterpart with <i>such</i>.
   watch_for:
-    - A learner might read the that-clause as a separate sentence, when it states the situation linked to the degree.
-    - A learner might use too narrow to turn when a reported result is wanted.
-  activity: Give students adjectives (cold, noisy, heavy). They write a so ... that sentence with a realized result, then rewrite it with too ... to and say how the meaning shifts.
+    - A learner might read the <i>that</i>-clause as a separate sentence, when it states the situation linked to the degree.
+    - A learner might use <i>too narrow to turn</i> when a reported result is wanted.
+  activity: Give students adjectives (<i>cold</i>, <i>noisy</i>, <i>heavy</i>). They write a <i>so ... that</i> sentence with a realized result, then rewrite it with <i>too ... to</i> and say how the meaning shifts.
 child:
   hook: How would you show that something was REALLY hot?
-  explain: You can say how much by saying what happened. The street was so narrow that the van couldn't turn. The result shows how narrow it was.
+  explain: You can say how much by saying what happened. <i>The street was so narrow that the van couldn't turn</i>. The result shows how narrow it was.
   examples:
     - text: The street was [so narrow that the van couldn't turn].
       from: entry
     - text: The soup was [so hot that she couldn't eat it].
       from: constructed
-  play: Finish the sentence The box was so heavy that ... in three different ways.
+  play: Finish the sentence <i>The box was so heavy that ...</i> in three different ways.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

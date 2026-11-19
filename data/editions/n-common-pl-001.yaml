@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Plural words for kinds of things
-  summary: A plural common noun such as dogs or cities typically names more than one of something and goes with plural verbs.
+  summary: A plural common noun such as <i>dogs</i> or <i>cities</i> typically names more than one of something and goes with plural verbs.
   body: |-
-    Dogs and cities are plural common nouns. They go with plural verbs, and with numbers greater than one: Two cats are asleep. They typically stand for more than one of something.
+    <i>Dogs</i> and <i>cities</i> are plural common nouns. They go with plural verbs, and with numbers greater than one: <i>Two cats are asleep</i>. They typically stand for more than one of something.
 
-    Some plural words work differently. Scissors takes a plural verb too, but it names a single tool made of two blades. To count the tools one by one, people ordinarily say pairs of scissors. This dictionary notes that special and irregular plurals can depart from the typical meaning.
+    Some plural words work differently. <i>Scissors</i> takes a plural verb too, but it names a single tool made of two blades. To count the tools one by one, people ordinarily say <i>pairs of scissors</i>. This dictionary notes that special and irregular plurals can depart from the typical meaning.
   examples:
     - text: '[dogs]'
       from: entry
@@ -21,8 +21,8 @@ curious:
       from: constructed
   try: Think of something you own more than one of. Say a short sentence about them. Does the verb change from the one-thing version?
 teacher:
-  summary: Covers plural common nouns, the verb and number words they go with, and plural-only nouns such as scissors.
-  explain: A plural common noun is plural-marked, selects plural agreement and plural-selecting determinatives, and typically denotes more than one instance. Cats licenses plural verbal agreement and cardinals greater than one. Lexicalized and non-canonical plurals diverge from that typical meaning. A plural-only form such as scissors also takes plural agreement, but counting individual instruments ordinarily uses pairs of scissors. The pattern interfaces with verb-number agreement, and this dictionary lists the quasi-count noun as a related construction.
+  summary: Covers plural common nouns, the verb and number words they go with, and plural-only nouns such as <i>scissors</i>.
+  explain: A plural common noun is plural-marked, selects plural agreement and plural-selecting determinatives, and typically denotes more than one instance. <i>Cats</i> licenses plural verbal agreement and cardinals greater than one. Lexicalized and non-canonical plurals diverge from that typical meaning. A plural-only form such as <i>scissors</i> also takes plural agreement, but counting individual instruments ordinarily uses <i>pairs of scissors</i>. The pattern interfaces with verb-number agreement, and this dictionary lists the quasi-count noun as a related construction.
   terms: Plural-only nouns are sometimes called pluralia tantum.
   examples:
     - text: '[dogs]'
@@ -35,20 +35,20 @@ teacher:
       note: Cardinal above one with a plural verb.
     - text: She bought two pairs of scissors.
       from: constructed
-      note: Individual tools are counted with pairs of.
+      note: Individual tools are counted with <i>pairs of</i>.
   watch_for:
-    - A learner might think every plural form names more than one thing, when scissors names one tool.
+    - A learner might think every plural form names more than one thing, when <i>scissors</i> names one tool.
     - A learner might use a singular verb after a plural noun.
-  activity: Students sort a list of plural nouns (dogs, cities, scissors) into those that name more than one thing and those that don't, then write one sentence for each with the right verb form.
+  activity: Students sort a list of plural nouns (<i>dogs</i>, <i>cities</i>, <i>scissors</i>) into those that name more than one thing and those that don't, then write one sentence for each with the right verb form.
 child:
-  hook: How do you count scissors?
-  explain: Plural nouns tell us about more than one thing, like dogs or cities. But scissors is a plural word for one tool. To count them, we say pairs of scissors.
+  hook: How do you count <i>scissors</i>?
+  explain: Plural nouns tell us about more than one thing, like <i>dogs</i> or <i>cities</i>. But <i>scissors</i> is a plural word for one tool. To count them, we say <i>pairs of scissors</i>.
   examples:
     - text: Two [cats] are asleep.
       from: constructed
     - text: She bought two pairs of [scissors].
       from: constructed
-  play: Find a plural word for things you use. Say a sentence about two of them. Try scissors with pairs of.
+  play: Find a plural word for things you use. Say a sentence about two of them. Try <i>scissors</i> with <i>pairs of</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

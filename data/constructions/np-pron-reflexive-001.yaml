@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Interprets a direct-object personal pronoun as having the same referent as the subject of the verb.
-    details: Sue defended herself has a local antecedent for herself. In the ordinary transitive reading, Sue defended her is about Sue defending someone else. This entry covers the simple direct-object pattern. A reflexive used for emphasis or in a picture NP can have different licensing.
+    details: "<i>Sue defended herself</i> has a local antecedent for <i>herself</i>. In the ordinary transitive reading, <i>Sue defended her</i> is about Sue defending someone else. This entry covers the simple direct-object pattern. A reflexive used for emphasis or in a picture NP can have different licensing."
     examples:
       - form: Sue defended [herself].
         note: The reflexive is co-referential with the subject Sue.

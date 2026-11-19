@@ -1,10 +1,10 @@
 id: primary-auxiliary-negation-001
-name: Finite Auxiliary with Not
+name: "Finite Auxiliary with <i>not</i>"
 pattern: Clause[finite Aux + not + remaining predicate]
 type: syntactic
 meanings:
   '1':
-    definition: Expresses clausal negation with not associated with the finite auxiliary.
+    definition: Expresses clausal negation with <i>not</i> associated with the finite auxiliary.
     examples:
       - form: She [has not received] it.
         note: Constructed illustration.
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Not follows the finite auxiliary in an ordinary declarative, and lexical verbs generally require do in this frame. Nonfinite negation places not differently.
+    target: <i>Not</i> follows the finite auxiliary in an ordinary declarative, and lexical verbs generally require <i>do</i> in this frame. Nonfinite negation places <i>not</i> differently.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

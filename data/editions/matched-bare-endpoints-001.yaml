@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: From one role to another, with no the or a
-  summary: Two nouns with no the or a, joined by from and to, mark the two ends of a path, a handing-over or a change.
+  title: From one role to another, with no <i>the</i> or <i>a</i>
+  summary: Two nouns with no <i>the</i> or <i>a</i>, joined by <i>from</i> and <i>to</i>, mark the two ends of a path, a handing-over or a change.
   body: |-
-    In from father to son and from teacher to pupil, each noun stands alone, with no the or a. The pair marks the two ends: where something starts and where it ends up.
+    In <i>from father to son</i> and <i>from teacher to pupil</i>, each noun stands alone, with no <i>the</i> or <i>a</i>. The pair marks the two ends: where something starts and where it ends up.
 
-    What moves between the ends depends on the rest of the sentence. With from student to teacher, an object can pass from one person to another. It can also be a person who moves between two roles. Compare The manuscript went from student to teacher with Lee went from student to teacher. A context can also supply particular people to fill the two ends.
+    What moves between the ends depends on the rest of the sentence. With <i>from student to teacher</i>, an object can pass from one person to another. It can also be a person who moves between two roles. Compare <i>The manuscript went from student to teacher</i> with <i>Lee went from student to teacher</i>. A context can also supply particular people to fill the two ends.
   examples:
     - text: '[from father to son]'
       from: entry
@@ -21,9 +21,9 @@ curious:
       from: entry
   try: Think of two roles, such as teacher and pupil. What kinds of things could pass from one to the other?
 teacher:
-  summary: Helps explain from N to N phrases that mark the two ends of a transfer or change of role, with no articles.
-  explain: In from NP to NP with bare nouns, the two nouns set the endpoints of a path, a transfer or a transition. The same pair can specify transfer between people (from teacher to pupil), a role transition (Lee went from student to teacher) or another route, depending on the host. The predicate and context decide what traverses the path and what the bare nouns describe. This dictionary follows an analysis that treats the pair as a construction in its own right, and lists the source and goal uses as related entries.
-  terms: A bare noun is one with no determiner. This dictionary treats the whole from N to N pair as one pattern, related to separate source and goal complements.
+  summary: Helps explain <i>from N to N</i> phrases that mark the two ends of a transfer or change of role, with no articles.
+  explain: In <i>from NP to NP</i> with bare nouns, the two nouns set the endpoints of a path, a transfer or a transition. The same pair can specify transfer between people (<i>from teacher to pupil</i>), a role transition (<i>Lee went from student to teacher</i>) or another route, depending on the host. The predicate and context decide what traverses the path and what the bare nouns describe. This dictionary follows an analysis that treats the pair as a construction in its own right, and lists the source and goal uses as related entries.
+  terms: A bare noun is one with no determiner. This dictionary treats the whole <i>from N to N</i> pair as one pattern, related to separate source and goal complements.
   examples:
     - text: '[from father to son]'
       from: entry
@@ -39,8 +39,8 @@ teacher:
       from: constructed
       note: Transfer between people.
   watch_for:
-    - A learner might add the or a before each noun, when the pattern sets the endpoints with bare nouns.
-    - A learner might read from student to teacher as a transfer of something, when with a person it can be a change of role.
+    - A learner might add <i>the</i> or <i>a</i> before each noun, when the pattern sets the endpoints with bare nouns.
+    - A learner might read <i>from student to teacher</i> as a transfer of something, when with a person it can be a change of role.
   activity: Give students pairs of roles such as parent and child, coach and player. They write one sentence about something passing between the two and one about a person changing from one role to the other, then compare.
 checked:
   date: '2026-11-19'

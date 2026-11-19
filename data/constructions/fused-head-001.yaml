@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The contrast between some left and the poor left is not merely the same omitted noun. The rich can denote humans without a recoverable nominal, while an anaphoric adjective NP can take its interpretation and number from the previously named nominal."
+    target: "The contrast between <i>some left</i> and <i>the poor left</i> is not merely the same omitted noun. <i>The rich</i> can denote humans without a recoverable nominal, while an anaphoric adjective NP can take its interpretation and number from the previously named nominal."
     evidence: "CGEL distinguishes fusion of determiner and modifier with head and separates simple, partitive, and special interpretations."
     confidence: medium

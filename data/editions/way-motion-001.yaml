@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Making your way somewhere
-  summary: Phrases like "elbowed her way to the exit" say how someone moved forward and where they were heading.
+  summary: Phrases like "<i>elbowed her way to the exit</i>" say how someone moved forward and where they were heading.
   body: |-
-    We made our way to the station. Jill had to elbow her way to the exit. They pushed their way to the front. In each, the person makes progress toward a place. In the last two, the verb (elbow, push) says how they managed it.
+    <i>We made our way to the station</i>. <i>Jill had to elbow her way to the exit</i>. <i>They pushed their way to the front</i>. In each, the person makes progress toward a place. In the last two, the verb (<i>elbow</i>, <i>push</i>) says how they managed it.
 
-    The pattern needs a word like our, her or their, plus way, followed by a phrase saying where. It isn't about a way that someone builds or owns. It describes getting forward along a route, in a direction or toward a goal. On the account this dictionary follows, the movement goes in a series of stops and starts, not in one smooth motion.
+    The pattern needs a word like <i>our</i>, <i>her</i> or <i>their</i>, plus <i>way</i>, followed by a phrase saying where. It isn't about a way that someone builds or owns. It describes getting forward along a route, in a direction or toward a goal. On the account this dictionary follows, the movement goes in a series of stops and starts, not in one smooth motion.
   examples:
     - text: We [made our way to the station].
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: They [pushed their way to the front].
       from: entry
-  try: Replace elbowed with another action, such as squeezed or fought, in She elbowed her way to the exit. Does the sentence still say she was making progress toward the exit?
+  try: Replace <i>elbowed</i> with another action, such as <i>squeezed</i> or <i>fought</i>, in <i>She elbowed her way to the exit</i>. Does the sentence still say she was making progress toward the exit?
 teacher:
-  summary: Explains how verbs like elbow and push can describe progress toward a place when followed by x's way and a locative phrase.
-  explain: In We made our way to the station, make one's way is an idiom meaning roughly "progress". It licenses a change-of-location complement even though make alone doesn't. A productive extension replaces make with a verb of manner or means (elbow, push), which then says how the progress is achieved. In CGEL's analysis, x's way is the direct object, not part of the preposition phrase. The genitive determiner (her, their, Kim's) identifies the person making progress, and way is the head. The following PP is a separate locative complement giving the path, goal or direction. In CGEL's account, the movement is a series of stops and starts.
-  terms: 'Direct object (Od): x''s way. Complement (Comp): the PP of path, goal or direction. Genitive: the form identifying whose way, such as her or Kim''s.'
+  summary: Explains how verbs like <i>push</i> can describe progress toward a place when followed by <i>x's way</i> and a locative phrase.
+  explain: In <i>We made our way to the station</i>, <i>make one's way</i> is an idiom meaning roughly "progress". It licenses a change-of-location complement even though <i>make</i> alone doesn't. A productive extension replaces <i>make</i> with a verb of manner or means (<i>elbow</i>, <i>push</i>), which then says how the progress is achieved. In CGEL's analysis, <i>x's way</i> is the direct object, not part of the preposition phrase. The genitive determiner (<i>her</i>, <i>their</i>, <i>Kim's</i>) identifies the person making progress, and <i>way</i> is the head. The following PP is a separate locative complement giving the path, goal or direction. In CGEL's account, the movement is a series of stops and starts.
+  terms: 'Direct object (Od): <i>x''s way</i>. Complement (Comp): the PP of path, goal or direction. Genitive: the form identifying whose way, such as <i>her</i> or <i>Kim''s</i>.'
   examples:
     - text: We [made our way to the station].
       from: entry
@@ -32,18 +32,18 @@ teacher:
   contrasts:
     - text: They pushed their way to the front.
       from: entry
-      note: The way phrase is the object, and the PP says where.
+      note: The <i>way</i> phrase is the object, and the PP says where.
     - text: They made a way through the wall.
       from: constructed
-      note: Ordinary creation of a path, without the fixed genitive way-object.
+      note: Ordinary creation of a path, without the fixed genitive <i>way</i>-object.
   watch_for:
-    - A learner might read their way as an ordinary object naming a route someone owns.
-    - A learner might take the PP as part of the way phrase rather than as a separate complement.
-    - A learner might read pushed their way to the front as pushing the way itself, rather than pushing in order to move forward.
-  activity: Give students a destination (the exit, the front, the station) and cards with verbs (elbow, push, make). They build sentences with a person's own way and a phrase of place, then discuss how each verb changes the picture of getting there.
+    - A learner might read <i>their way</i> as an ordinary object naming a route someone owns.
+    - A learner might take the PP as part of the <i>way</i> phrase rather than as a separate complement.
+    - A learner might read <i>pushed their way to the front</i> as pushing the way itself, rather than pushing in order to move forward.
+  activity: Give students a destination (<i>the exit</i>, <i>the front</i>, <i>the station</i>) and cards with verbs (<i>push</i>, <i>fight</i>, <i>make</i>). They build sentences with a person's own way and a phrase of place, then discuss how each verb changes the picture of getting there.
 child:
-  hook: When you squeeze through a crowd, how would you say it with the word "way"?
-  explain: Some sentences use someone's own way to show them making progress toward a place. He pushed his way to the front. Here pushed tells how he moved, and the last part tells where he was going.
+  hook: When you squeeze through a crowd, how would you say it with the word "<i>way</i>"?
+  explain: Some sentences use someone's own way to show them making progress toward a place. He <i>pushed his way to the front</i>. Here <i>pushed</i> tells how he moved, and the last part tells where he was going.
   examples:
     - text: We [made our way to the station].
       from: entry
@@ -51,9 +51,9 @@ child:
       from: constructed
     - text: They [pushed their way to the front].
       from: entry
-  play: Pick a place, like the door or the front. Then say how you'd get there with your way, using words like pushed, squeezed or made.
+  play: Pick a place, like <i>the door</i> or <i>the front</i>. Then say how you'd get there with your way, using words like <i>pushed</i>, <i>squeezed</i> or <i>made</i>.
 checked:
   date: "2026-11-19"
   model: claude-sonnet-5-5 (resolving checker flags)
   result: fixed
-  note: "Fixed: curious body no longer says the verb always tells how the person managed it (in made our way, make is the idiom and the manner or means verbs are the productive extension); stops-and-starts claim attributed to the account this dictionary follows rather than stated as a plain feature; child explanation describes progress toward a place rather than 'how they got somewhere'. Also fixed (unflagged): 'the entry' replaced by 'this dictionary'."
+  note: "Fixed: curious body no longer says the verb always tells how the person managed it (in made our way, make is the idiom and the manner or means verbs are the productive extension); stops-and-starts claim attributed to the account this dictionary follows rather than stated as a plain feature; child explanation describes progress toward a place rather than 'how they got somewhere'. Also fixed (unflagged): 'the entry' replaced by 'this dictionary'. Frequency pass: teacher.summary now names push only, and the activity verb elbow (about 5,600th in SUBTLEX-UK, counting its other forms) is replaced by fight, as in the curious try; the entry example with elbow is unchanged."

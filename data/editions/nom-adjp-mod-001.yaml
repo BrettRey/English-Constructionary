@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Describing words in front of a noun
-  summary: An adjective phrase placed before a noun says something about it, as in old men.
+  summary: An adjective phrase placed before a noun says something about it, as in <i>old men</i>.
   body: |-
-    In old men, the word old says something about the men: they are old. The describing word comes before the noun it describes.
+    In <i>old men</i>, the word <i>old</i> says something about the men: they are old. The describing word comes before the noun it describes.
 
-    Not every case is that direct. In other men, the property depends on the context. And in a former president, former doesn't describe the person in the way old describes men. It modifies the relation that president expresses. This dictionary notes that an adjective placed before a noun doesn't have to work in the same way after the verb be.
+    Not every case is that direct. In <i>other men</i>, the property depends on the context. And in <i>a former president</i>, <i>former</i> doesn't describe the person in the way <i>old</i> describes men. It modifies the relation that <i>president</i> expresses. This dictionary notes that an adjective placed before a noun doesn't have to work in the same way after the verb <i>be</i>.
   examples:
     - text: '[old] men'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: a [former] president
       from: constructed
-  try: Say an adjective before a noun, such as old men. Then try the adjective after is or are. Does it still say the same thing?
+  try: Say an adjective before a noun, such as <i>old men</i>. Then try the adjective after <i>is</i> or <i>are</i>. Does it still say the same thing?
 teacher:
   summary: Teaches pre-head adjective phrases in the nominal, and why attributive adjectives need not have predicative uses.
-  explain: 'A pre-head adjective phrase attributes a property to the head noun: in old men, old attributes age to the men. Other men is a special case where the property is relative to context, with a complement-set relation. The modifier must be an adjective phrase headed by an adjective, in pre-head position in the nominal. A pre-head adjective needn''t have a matching predicative use: in a former president, former modifies the relation expressed by president, and the president is former doesn''t give the same reading. This dictionary treats this as a specific type of pre-head modification.'
-  terms: Attributive adjective is the traditional term for an adjective before the noun; predicative adjective is the traditional term for one after a verb such as be.
+  explain: 'A pre-head adjective phrase attributes a property to the head noun: in <i>old men</i>, <i>old</i> attributes age to the men. <i>Other men</i> is a special case where the property is relative to context, with a complement-set relation. The modifier must be an adjective phrase headed by an adjective, in pre-head position in the nominal. A pre-head adjective needn''t have a matching predicative use: in <i>a former president</i>, <i>former</i> modifies the relation expressed by <i>president</i>, and <i>the president is former</i> doesn''t give the same reading. This dictionary treats this as a specific type of pre-head modification.'
+  terms: Attributive adjective is the traditional term for an adjective before the noun; predicative adjective is the traditional term for one after a verb such as <i>be</i>.
   examples:
     - text: '[old] men'
       from: entry
@@ -37,18 +37,18 @@ teacher:
       from: entry
       note: Property relative to context; complement-set relation.
   watch_for:
-    - A learner might think every adjective before a noun can also follow be with the same meaning.
-    - A learner might read other in other men as describing a property of the men themselves, as old does.
+    - A learner might think every adjective before a noun can also follow <i>be</i> with the same meaning.
+    - A learner might read <i>other</i> in <i>other men</i> as describing a property of the men themselves, as <i>old</i> does.
   activity: Students write short noun phrases with an adjective before the noun. For each, they decide whether the adjective states a plain property or depends on context, and compare answers.
 child:
-  hook: Which word tells you more about the men in old men?
-  explain: A describing word can come before a noun. In old men, the word old tells us about the men. The describing word comes first.
+  hook: Which word tells you more about the men in <i>old men</i>?
+  explain: A describing word can come before a noun. In <i>old men</i>, the word <i>old</i> tells us about the men. The describing word comes first.
   examples:
     - text: The [old] men sat down.
       from: constructed
     - text: '[old] men'
       from: entry
-  play: Pick a noun, like dog or house. Add a describing word before it. Then try a different one, and see how the picture changes.
+  play: Pick a noun, like <i>dog</i> or <i>house</i>. Add a describing word before it. Then try a different one, and see how the picture changes.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

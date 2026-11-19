@@ -26,6 +26,8 @@ body.cx { max-width: 48rem; padding-top: 1.25rem; }
 .cx h1 { max-width: 32rem; font-size: var(--t-display); line-height: 1.18; font-weight: 400; margin-bottom: .6rem; }
 .cx h2 { margin: 2.4rem 0 .9rem; }
 .cx h3 { font-size: var(--t-body); font-weight: 500; margin: 1.4rem 0 .4rem; }
+/* Mentioned forms keep their own letter case: no small caps on <i> inside small-caps headings. */
+.cx :is(h1, h2, h3, dt, .eyebrow, .tag, .editions, summary) i { font-variant: normal; letter-spacing: normal; }
 .cx .eyebrow { font-variant: small-caps; letter-spacing: .09em; color: var(--meta); margin-bottom: .6rem; }
 .cx .deck { font-size: var(--t-name); line-height: 1.4; margin-bottom: 1.2rem; }
 .cx .meta { font-size: var(--t-meta); color: var(--meta); }

@@ -1,5 +1,5 @@
 id: floating-distributive-001
-name: Floating Each
+name: "Floating <i>each</i>"
 pattern: Clause[plural participant NP + separately positioned each]
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Each can follow the subject across a finite auxiliary in The hikers had each carried a radio. The linked NP can have its own determiner and is not contained in each.
+    target: "<i>Each</i> can follow the subject across a finite auxiliary in <i>The hikers had each carried a radio</i>. The linked NP can have its own determiner and is not contained in <i>each</i>."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

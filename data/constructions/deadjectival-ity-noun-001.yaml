@@ -1,14 +1,14 @@
 id: deadjectival-ity-noun-001
-name: Deadjectival Noun in -ity
+name: "Deadjectival Noun in <i>-ity</i>"
 pattern: N[adjectival base + -ity], sometimes with a stem alternation
 type: mixed
 meanings:
   '1':
     definition: Names a quality or state associated with the adjective.
-    details: -ity typically stresses the syllable immediately before the ending. It may also alter the end of the base, as in curious and curiosity. Formations cluster with particular adjective types. The corresponding -ness formation typically preserves the base’s shape and stress.
+    details: "<i>-ity</i> typically stresses the syllable immediately before the ending. It may also alter the end of the base, as in <i>curious</i> and <i>curiosity</i>. Formations cluster with particular adjective types. The corresponding <i>-ness</i> formation typically preserves the base’s shape and stress."
     examples:
       - form: '[eccentricity]'
-        note: Existing derivative illustrating stress shift from eccentric and a change in the final consonant.
+        note: Existing derivative illustrating stress shift from <i>eccentric</i> and a change in the final consonant.
       - form: '[curiosity]'
         note: Existing derivative illustrating shift of stress and the form of the base.
 relatedConstructions:
@@ -20,7 +20,7 @@ grounds:
     locator: record 153
     relation: discusses
     bears-on: projection
-    note: Distinguishes the -ity nominal from -ness.
+    note: Distinguishes the <i>-ity</i> nominal from <i>-ness</i>.
   - source: cgel-2002
     locator: Ch. 19 §5.7.2(i) [55]
     relation: discusses
@@ -29,6 +29,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Recognizable -ity derivatives generally have stress just before the suffix. The pattern allows changes to the base that the productive -ness pattern does not.
-    evidence: CGEL gives matched stress and stem contrasts. CASA records -ity separately from -ness.
+    target: Recognizable <i>-ity</i> derivatives generally have stress just before the suffix. The pattern allows changes to the base that the productive <i>-ness</i> pattern does not.
+    evidence: CGEL gives matched stress and stem contrasts. CASA records <i>-ity</i> separately from <i>-ness</i>.
     confidence: high

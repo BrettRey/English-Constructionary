@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Still and not yet
-  summary: 'Not yet and still place something against an expected course of events: one reports what hasn''t happened, the other what carries on.'
+  title: "<i>Still</i> and <i>not yet</i>"
+  summary: '<i>Not yet</i> and <i>still</i> place something against an expected course of events: one reports what hasn''t happened, the other what carries on.'
   body: |-
-    In The alarm hasn't stopped yet, hasn't and yet together set the stopping against a point in time, here the present, and say it hasn't happened by then. Together they can also suggest that the stopping is still expected to come.
+    In <i>The alarm hasn't stopped yet</i>, <i>hasn't</i> and <i>yet</i> together set the stopping against a point in time, here the present, and say it hasn't happened by then. Together they can also suggest that the stopping is still expected to come.
 
-    Still works from the other side. It can present a state that already exists as carrying on. So not yet reports something that hasn't happened, and the word still reports something that continues.
+    <i>Still</i> works from the other side. It can present a state that already exists as carrying on. So <i>not yet</i> reports something that hasn't happened, and the word <i>still</i> reports something that continues.
 
     This dictionary marks the analysis as provisional and illustrates it with a single constructed example, so take it as a first sketch.
   examples:
@@ -19,20 +19,20 @@ curious:
       from: constructed
   try: Think of something you're waiting for. Say that it hasn't happened yet. Does your sentence suggest you expect it to happen?
 teacher:
-  summary: Useful for explaining how not yet can suggest an expected change and how still can present a continuing state.
-  explain: This dictionary covers clauses with still or a negative yet and a temporal reference point, such as now. Not yet says the event has failed to occur up to that point, and it can suggest the event remains expected. Still can instead present an existing state as persisting. Both words are heard against an expected course of events. This dictionary treats the pattern as provisional and illustrates it with one constructed example, so treat these as starting observations for a lesson, not a full account of either word.
+  summary: Useful for explaining how <i>not yet</i> can suggest an expected change and how <i>still</i> can present a continuing state.
+  explain: This dictionary covers clauses with <i>still</i> or a negative <i>yet</i> and a temporal reference point, such as <i>now</i>. <i>Not yet</i> says the event has failed to occur up to that point, and it can suggest the event remains expected. <i>Still</i> can instead present an existing state as persisting. Both words are heard against an expected course of events. This dictionary treats the pattern as provisional and illustrates it with one constructed example, so treat these as starting observations for a lesson, not a full account of either word.
   examples:
     - text: The alarm [hasn't stopped yet].
       from: entry
     - text: The alarm is [still ringing].
       from: constructed
   watch_for:
-    - A learner might read not yet as a plain negative and miss that the event can still be expected.
-    - A learner might treat still as only a time word and miss that it presents an existing state as continuing.
-  activity: Give pairs a situation, such as a kettle on the stove. Each partner writes one sentence with not yet and one with still describing it at different moments. They swap and say what each sentence suggests about what the speaker expects next.
+    - A learner might read <i>not yet</i> as a plain negative and miss that the event can still be expected.
+    - A learner might treat <i>still</i> as only a time word and miss that it presents an existing state as continuing.
+  activity: Give pairs a situation, such as a kettle on the stove. Each partner writes one sentence with <i>not yet</i> and one with <i>still</i> describing it at different moments. They swap and say what each sentence suggests about what the speaker expects next.
 child:
-  hook: What do you mean when you say the kettle hasn't boiled yet?
-  explain: Not yet says something hasn't happened up to the time we're talking about. It can hint that it is still expected. Still says something is carrying on.
+  hook: What do you mean when you say <i>the kettle hasn't boiled yet</i>?
+  explain: "<i>Not yet</i> says something hasn't happened up to the time we're talking about. It can hint that it is still expected. <i>Still</i> says something is carrying on."
   examples:
     - text: The kettle [hasn't boiled yet].
       from: constructed

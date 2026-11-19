@@ -5,18 +5,18 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: At school, with no the
-  summary: Some everyday nouns, such as school, can appear with no article when they refer to an activity or status.
+  summary: Some everyday nouns, such as <i>school</i>, can appear with no article when they refer to an activity or status.
   body: |-
-    In The children are at school, the word school has no the or a before it. It can describe school as a setting for an activity, without picking out one particular building in the same way as at the school.
+    In <i>The children are at school</i>, the word <i>school</i> has no <i>the</i> or <i>a</i> before it. It can describe school as a setting for an activity, without picking out one particular building in the same way as <i>at the school</i>.
 
-    At the school can instead point to a particular building. Not every noun works this way, and whether it does depends on the noun, the context and the variety of English. Went to school keeps school bare, while took the bus keeps the.
+    <i>At the school</i> can instead point to a particular building. Not every noun works this way, and whether it does depends on the noun, the context and the variety of English. <i>Went to school</i> keeps <i>school</i> bare, while <i>took the bus</i> keeps <i>the</i>.
   examples:
     - text: The children are [at school].
       from: entry
-  try: Say The children are at school, then The children are at the school. Which one sounds like it's about a building?
+  try: Say <i>The children are at school</i>, then <i>The children are at the school</i>. Which one sounds like it's about a building?
 teacher:
-  summary: Explains institutional nouns like school that can be bare when they name an activity, not a particular place.
-  explain: 'A bare singular institutional noun can appear in a licensed frame and refer to participation in an institutional activity or status. At school can describe the relevant institutional setting without selecting a particular building in the same way as at the school. Licensing depends on the noun, the context and the variety. This dictionary relates it to the activity weak definite: went to school and took the bus both evoke an institutional activity, but school is bare in the first frame and bus keeps the in the second. This dictionary treats the pattern as a specialization of the bare NP and marks it provisional.'
+  summary: Explains institutional nouns like <i>school</i> that can be bare when they name an activity, not a particular place.
+  explain: 'A bare singular institutional noun can appear in a licensed frame and refer to participation in an institutional activity or status. <i>At school</i> can describe the relevant institutional setting without selecting a particular building in the same way as <i>at the school</i>. Licensing depends on the noun, the context and the variety. This dictionary relates it to the activity weak definite: <i>went to school</i> and <i>took the bus</i> both evoke an institutional activity, but <i>school</i> is bare in the first frame and <i>bus</i> keeps <i>the</i> in the second. This dictionary treats the pattern as a specialization of the bare NP and marks it provisional.'
   terms: Zero article is another way of describing the missing article. This dictionary calls this an institutional bare singular.
   examples:
     - text: The children are [at school].
@@ -29,18 +29,18 @@ teacher:
       from: constructed
       note: Not selecting the setting in the same way; this can pick out a building.
   watch_for:
-    - A learner might add the before school in at school, when the bare form names the institutional setting.
+    - A learner might add <i>the</i> before <i>school</i> in <i>at school</i>, when the bare form names the institutional setting.
     - A learner might assume the same bare pattern works with every noun, when licensing depends on noun, context and variety.
-  activity: Give students nouns such as school, bus, church and hospital in frames with and without the. They discuss which frames express an activity and which a particular place, then compare with a dictionary or the teacher.
+  activity: Give students nouns such as <i>school</i>, <i>bus</i>, <i>church</i> and <i>hospital</i> in frames with and without <i>the</i>. They discuss which frames express an activity and which a particular place, then compare with a dictionary or the teacher.
 child:
-  hook: What's the difference between "at school" and "at the school"?
-  explain: At school can be about taking part in school. At the school can point to the building. Some words let us leave out the, and some don't.
+  hook: What's the difference between "<i>at school</i>" and "<i>at the school</i>"?
+  explain: <i>At school</i> can be about taking part in school. <i>At the school</i> can point to the building. Some words let us leave out <i>the</i>, and some don't.
   examples:
     - text: The children are [at school].
       from: entry
     - text: The children are [at the school].
       from: constructed
-  play: Say a sentence with at school, then one with at the school. Ask a partner which one talks about the building.
+  play: Say a sentence with <i>at school</i>, then one with <i>at the school</i>. Ask a partner which one talks about the building.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

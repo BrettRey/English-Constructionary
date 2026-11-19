@@ -4,31 +4,31 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Her every move
-  summary: A genitive before every picks out all the instances tied to a person or thing, as in her every move.
+  title: "<i>Her every move</i>"
+  summary: A genitive before <i>every</i> picks out all the instances tied to a person or thing, as in <i>her every move</i>.
   body: |-
-    In They scrutinised her every move, her sets the territory and every counts the instances inside it. Her every move means every one of her movements.
+    In <i>They scrutinised her every move</i>, <i>her</i> sets the territory and <i>every</i> counts the instances inside it. <i>Her every move</i> means every one of her movements.
 
-    The same words with each in that spot work differently, and this dictionary notes the contrast. The kind of relation between the person and the noun can affect whether the pattern is available, even when the noun stays the same. Think of bone: do the bones of a person's skeleton and the bones a person owns as specimens feel the same here?
+    The same words with <i>each</i> in that spot work differently, and this dictionary notes the contrast. The kind of relation between the person and the noun can affect whether the pattern is available, even when the noun stays the same. Think of <i>bone</i>: do the <i>bones of a person's skeleton</i> and the <i>bones a person owns as specimens</i> feel the same here?
   examples:
     - text: They scrutinised [her every move].
       from: entry
     - text: She watched [his every step].
       from: constructed
-  try: Say her every move, then her every word. Which things can belong to her in that way?
+  try: Say <i>her every move</i>, then <i>her every word</i>. Which things can belong to her in that way?
 teacher:
-  summary: 'For advanced classes: the genitive-plus-every pattern, as in her every move.'
-  explain: 'In genitive every, a genitive NP in determiner function precedes every plus a singular nominal. It quantifies over instances delimited by their relation to the genitive: her every move ranges over her movements. CGEL contrasts each in the same position. A published discussion treats actions and body-part nouns together and contrasts the form with every move of John''s. To test how the genitive sets the domain, keep bone fixed and compare bones of a person''s skeleton with bones that person owns as specimens. This dictionary marks the analysis as provisional, with medium confidence.'
-  terms: Genitive is this grammar's term for the 's form and for her, his, their in determiner function; traditional teaching calls these possessives.
+  summary: 'For advanced classes: the genitive-plus-<i>every</i> pattern, as in <i>her every move</i>.'
+  explain: 'In genitive <i>every</i>, a genitive NP in determiner function precedes <i>every</i> plus a singular nominal. It quantifies over instances delimited by their relation to the genitive: <i>her every move</i> ranges over her movements. CGEL contrasts <i>each</i> in the same position. A published discussion treats actions and body-part nouns together and contrasts the form with <i>every move of John''s</i>. To test how the genitive sets the domain, keep <i>bone</i> fixed and compare <i>bones of a person''s skeleton</i> with <i>bones that person owns as specimens</i>. This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Genitive is this grammar's term for the <i>'s</i> form and for <i>her</i>, <i>his</i>, <i>their</i> in determiner function; traditional teaching calls these possessives.
   examples:
     - text: They scrutinised [her every move].
       from: entry
     - text: She watched [his every step].
       from: constructed
   watch_for:
-    - A learner might assume the genitive plus every can be swapped freely with the of-genitive form (every move of John's), though the published discussion contrasts the two.
+    - A learner might assume the genitive plus <i>every</i> can be swapped freely with the <i>of</i>-genitive form (<i>every move of John's</i>), though the published discussion contrasts the two.
     - A learner might expect the pattern to work with any noun after a genitive, though the kind of relation can affect availability.
-  activity: Students write sentences with a genitive before every, using nouns such as move, word and step. They say what the genitive restricts the instances to, then compare with each in the same position.
+  activity: Students write sentences with a genitive before <i>every</i>, using nouns such as <i>move</i>, <i>word</i> and <i>step</i>. They say what the genitive restricts the instances to, then compare with <i>each</i> in the same position.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

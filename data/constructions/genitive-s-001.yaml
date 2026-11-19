@@ -1,5 +1,5 @@
 id: genitive-s-001
-name: Genitive 's
+name: "Genitive <i>'s</i>"
 pattern: Noun phrase + 's
 meanings:
   '1':
@@ -90,6 +90,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "With the person next door’s bicycle, the genitive marker is adjacent to door but the possessor is the whole person next door. The semantic relation also varies across uses such as Monday’s meeting and our uncle’s bicycle."
+    target: "With <i>the person next door’s bicycle</i>, the genitive marker is adjacent to <i>door</i> but the possessor is the whole <i>person next door</i>. The semantic relation also varies across uses such as <i>Monday’s meeting</i> and <i>our uncle’s bicycle</i>."
     evidence: "CGEL uses phrasal placement to separate the marker’s host from the genitive’s semantic argument."
     confidence: medium

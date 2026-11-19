@@ -1,11 +1,11 @@
 id: stressed-some-exclamative-001
-name: Exclamation with Stressed Some
+name: "Exclamation with Stressed <i>some</i>"
 pattern: Exclamation with PredComp:NP[stressed SOME + Nom]
 type: pragmatic
 meanings:
   '1':
     definition: Presents an instance as remarkable for its kind, with positive or negative evaluation.
-    details: CGEL compares emotive one. Anderson’s wine comparison distinguishes this pattern from ordinary exclamation. The wine we drank can express surprise purely at quantity. That was some wine we drank resists that reading. Anderson develops an account from focus, some, and properties of exclamatives. The scope of the parallel with one remains open.
+    details: CGEL compares emotive one. Anderson’s wine comparison distinguishes this pattern from ordinary exclamation. <i>The wine we drank</i> can express surprise purely at quantity. <i>That was some wine we drank</i> resists that reading. Anderson develops an account from focus, <i>some</i>, and properties of exclamatives. The scope of the parallel with one remains open.
     examples:
       - form: '[SOME hotel that was!] An utter disgrace!'
         note: Negative evaluation, with stress as marked by CGEL.
@@ -34,10 +34,10 @@ relatedConstructions:
     notes: The pattern realizes exclamation as an utterance-level function.
   - id: some-n-or-other-001
     relationship: related-to
-    notes: An independent use of some associates the NP with a different discourse contribution.
+    notes: An independent use of <i>some</i> associates the NP with a different discourse contribution.
 kind:
   provisional: true
   projection:
     target: The stressed predication favours noteworthy character or quality over surprise solely at quantity.
-    evidence: CGEL's positive and negative examples and Anderson's contrast between stressed some and a plain nominal exclamation.
+    evidence: CGEL's positive and negative examples and Anderson's contrast between stressed <i>some</i> and a plain nominal exclamation.
     confidence: medium

@@ -1,5 +1,5 @@
 id: than-reduced-clause-001
-name: Reduced Than Comparative Clause
+name: "Reduced <i>than</i> Comparative Clause"
 pattern: comparative governor + than + finite clause with constructionally unexpressed element
 type: syntactic
 meanings:
@@ -16,6 +16,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The duration slot corresponding to longer is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause.
+    target: The duration slot corresponding to <i>longer</i> is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

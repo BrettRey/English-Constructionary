@@ -7,35 +7,35 @@ curious:
   title: Plurals made by changing a vowel
   summary: A few English nouns make their plural by changing a vowel inside the word instead of adding an ending.
   body: |-
-    The plural of tooth is teeth. Nothing is added at the end; the vowel inside the word changes. That's different from the ordinary plural, which adds an -s.
+    The plural of <i>tooth</i> is <i>teeth</i>. Nothing is added at the end; the vowel inside the word changes. That's different from the ordinary plural, which adds an <i>-s</i>.
 
-    The pattern is tied to particular words. It belongs to established pairs, such as tooth and teeth, and it doesn't turn just any similar-looking noun into a plural. To use it, you have to know the pair. This dictionary lists two related entries, one for the ordinary -s plural and one for nouns whose plural looks the same as the singular.
+    The pattern is tied to particular words. It belongs to established pairs, such as <i>tooth</i> and <i>teeth</i>, and it doesn't turn just any similar-looking noun into a plural. To use it, you have to know the pair. This dictionary lists two related entries, one for the ordinary <i>-s</i> plural and one for nouns whose plural looks the same as the singular.
   examples:
     - text: One tooth had broken and [two teeth] were loose.
       from: entry
-  try: Say the plural of tooth out loud. What changed inside the word, and what stayed the same?
+  try: Say the plural of <i>tooth</i> out loud. What changed inside the word, and what stayed the same?
 teacher:
-  summary: Useful when learners meet plurals that don't take -s, and need to see that these come as fixed pairs.
-  explain: Some nouns realize the plural by changing the stem vowel (tooth, teeth), not by adding the ordinary -s. This dictionary treats this as a pattern confined to selected, established pairs. It doesn't productively pluralize arbitrary nouns that resemble them. So the practical message is that each pair is learned as a pair. It helps to teach the vowel-change plural beside the ordinary -s plural and the zero plural (where singular and plural look alike), since this dictionary treats all three as related.
-  terms: Sometimes called an irregular plural. In this dictionary the pattern is a stem-vowel alternation in a noun plural, related to the ordinary -s plural and to the zero plural.
+  summary: Useful when learners meet plurals that don't take <i>-s</i>, and need to see that these come as fixed pairs.
+  explain: Some nouns realize the plural by changing the stem vowel (<i>tooth</i>, <i>teeth</i>), not by adding the ordinary <i>-s</i>. This dictionary treats this as a pattern confined to selected, established pairs. It doesn't productively pluralize arbitrary nouns that resemble them. So the practical message is that each pair is learned as a pair. It helps to teach the vowel-change plural beside the ordinary <i>-s</i> plural and the zero plural (where singular and plural look alike), since this dictionary treats all three as related.
+  terms: Sometimes called an irregular plural. In this dictionary the pattern is a stem-vowel alternation in a noun plural, related to the ordinary <i>-s</i> plural and to the zero plural.
   examples:
     - text: One tooth had broken and [two teeth] were loose.
       from: entry
   contrasts:
     - text: One tooth had broken and two teeth were loose.
       from: entry
-      note: Singular and plural differ by the vowel inside the word, with no -s.
+      note: Singular and plural differ by the vowel inside the word, with no <i>-s</i>.
   watch_for:
-    - A learner might add the ordinary -s ending to a noun that already forms its plural by vowel change.
+    - A learner might add the ordinary <i>-s</i> ending to a noun that already forms its plural by vowel change.
     - A learner might apply the vowel change to other nouns that look similar, when the pattern is confined to established pairs.
-  activity: Put singular-plural pairs on cards, some with -s, some with a vowel change and some where the two forms look the same. Students sort the cards into three piles and say each pair aloud in a sentence.
+  activity: Put singular-plural pairs on cards, some with <i>-s</i>, some with a vowel change and some where the two forms look the same. Students sort the cards into three piles and say each pair aloud in a sentence.
 child:
-  hook: How do you say more than one tooth?
-  explain: One tooth, two teeth. The word doesn't get an s at the end. The middle of the word changes instead. Only some words do this.
+  hook: How do you say more than one <i>tooth</i>?
+  explain: <i>One tooth, two teeth.</i> The word doesn't get an <i>s</i> at the end. The middle of the word changes instead. Only some words do this.
   examples:
     - text: One tooth was loose and [two teeth] were sore.
       from: constructed
-  play: Say one tooth, then two teeth. Listen for the part that changes. Then think of other words that change in the middle when there's more than one. Ask a grown-up whether you found any.
+  play: Say <i>one tooth</i>, then <i>two teeth</i>. Listen for the part that changes. Then think of other words that change in the middle when there's more than one. Ask a grown-up whether you found any.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

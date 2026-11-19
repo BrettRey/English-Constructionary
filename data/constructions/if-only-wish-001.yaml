@@ -1,5 +1,5 @@
 id: if-only-wish-001
-name: Optative If Only
+name: "Optative <i>if only</i>"
 pattern: standalone if only + finite clause, often modally remote
 type: mixed
 meanings:
@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: only-if-restriction-001
     relationship: related-to
-    notes: Only if imposes a condition, while if only can express a wish.
+    notes: <i>Only if</i> imposes a condition, while <i>if only</i> can express a wish.
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §14.2.1; Ch. 10 §10
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A consequence can remain unexpressed, and the utterance conveys a wish. In We can enter only if we bring a torch, only if instead sets a necessary condition.
+    target: A consequence can remain unexpressed, and the utterance conveys a wish. In <i>We can enter only if we bring a torch</i>, <i>only if</i> instead sets a necessary condition.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

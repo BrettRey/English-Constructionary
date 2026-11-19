@@ -65,13 +65,13 @@ kind:
     - type: social-indexing
       evidence: "Prestige selection shapes which determiner variants persist in a community."
   projection:
-    target: "The slot can be filled by the DP this or by a genitive NP such as Jo’s. The relation holds in this book and Jo’s book though the dependent belongs to a different category."
+    target: "The slot can be filled by the DP <i>this</i> or by a genitive NP such as <i>Jo’s</i>. The relation holds in <i>this book</i> and <i>Jo’s book</i> though the dependent belongs to a different category."
     evidence: "CGEL separates determiner function from determinative category and documents multiple realizations."
     confidence: medium
   maintenance:
     perturbations:
-      - "Weak definites (go to the hospital) weaken semantic definiteness while preserving deital marking."
-      - "Generic definites (The tiger is endangered) shift to kind reference."
+      - "Weak definites (<i>go to the hospital</i>) weaken semantic definiteness while preserving deital marking."
+      - "Generic definites (<i>The tiger is endangered</i>) shift to kind reference."
       - "Proper names are semantically definite without deital marking."
   variation:
     activation_states:
@@ -79,7 +79,7 @@ kind:
         effect: "deital marking with non-unique reference"
       - context: "generic/kind statements"
         effect: "deital marking with kind reference"
-    speaker_variation: "Dialectal bare-noun patterns (in hospital, at university) shift deitality distribution."
+    speaker_variation: "Dialectal bare-noun patterns (<i>in hospital</i>, <i>at university</i>) shift deitality distribution."
   boundaries:
     overlaps_with:
       - np-def-001

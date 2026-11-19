@@ -1,5 +1,5 @@
 id: instrumental-with-np-001
-name: Instrumental With-PP
+name: "Instrumental <i>with</i>-PP"
 pattern: PP[with + instrument NP] as an adjunct
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A screwdriver has a means role here. With the watchman can instead identify an accompanying participant under a distinct interpretation.
+    target: A screwdriver has a means role here. <i>With the watchman</i> can instead identify an accompanying participant under a distinct interpretation.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

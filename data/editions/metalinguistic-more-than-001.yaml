@@ -4,10 +4,10 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Choosing the better description with more than
-  summary: More ... than can compare two descriptions of the same thing and say which one fits better.
+  title: Choosing the better description with <i>more than</i>
+  summary: "<i>More ... than</i> can compare two descriptions of the same thing and say which one fits better."
   body: |-
-    In The proposal was more optimistic than realistic, the speaker is weighing two labels for the same proposal and saying that optimistic fits better than realistic.
+    In <i>The proposal was more optimistic than realistic</i>, the speaker is weighing two labels for the same proposal and saying that <i>optimistic</i> fits better than <i>realistic</i>.
 
     Here there is one thing, the proposal, and two competing descriptions of it. The descriptions don't have to share a numerical scale, yet they can still be compared for how well each one describes the thing.
   examples:
@@ -15,11 +15,11 @@ curious:
       from: entry
     - text: The meal was [more filling than tasty].
       from: constructed
-  try: Think of something you've seen or eaten. Can you say which of two descriptions fits it better, using more ... than?
+  try: Think of something you've seen or eaten. Can you say which of two descriptions fits it better, using <i>more ... than</i>?
 teacher:
-  summary: Helps explain more ... than used to rank two descriptions of one item.
-  explain: 'In this metalinguistic use, more XP than YP ranks alternative descriptions by their appropriateness: The proposal was more optimistic than realistic. The same referent is evaluated under two labels, and expressions lacking a common numerical scale can still be compared for adequacy of description. This dictionary relates the pattern to than-reduced clauses and to gradation.'
-  terms: 'Sometimes called a metalinguistic comparative. In this dictionary: metalinguistic more ... than.'
+  summary: Helps explain <i>more ... than</i> used to rank two descriptions of one item.
+  explain: 'In this metalinguistic use, <i>more XP than YP</i> ranks alternative descriptions by their appropriateness: <i>The proposal was more optimistic than realistic</i>. The same referent is evaluated under two labels, and expressions lacking a common numerical scale can still be compared for adequacy of description. This dictionary relates the pattern to than-reduced clauses and to gradation.'
+  terms: 'Sometimes called a metalinguistic comparative. In this dictionary: metalinguistic <i>more ... than</i>.'
   examples:
     - text: The proposal was [more optimistic than realistic].
       from: entry
@@ -33,9 +33,9 @@ teacher:
       from: constructed
       note: A comparison between two proposals.
   watch_for:
-    - A learner might read more optimistic than realistic as comparing two different things, when it weighs two descriptions of the same thing.
+    - A learner might read <i>more optimistic than realistic</i> as comparing two different things, when it weighs two descriptions of the same thing.
     - A learner might try to find a second item to compare, when the comparison is between two labels for one referent.
-  activity: Students write sentences with more X than Y about a film, a meal or a plan, choosing two adjectives that could both describe it. They explain why one fits better.
+  activity: Students write sentences with <i>more X than Y</i> about a film, a meal or a plan, choosing two adjectives that could both describe it. They explain why one fits better.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

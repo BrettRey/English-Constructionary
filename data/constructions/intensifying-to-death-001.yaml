@@ -1,11 +1,11 @@
 id: intensifying-to-death-001
-name: Intensifying To Death
+name: "Intensifying <i>to death</i>"
 pattern: VP[Head:V + (Od:NP) + to death]
 type: mixed
 meanings:
   '1':
     definition: Intensifies an action or the experience it causes.
-    details: In the dog scared me to death, to death conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase instead identifies a literal result. A literal outcome and an intensified experience can thus differ without a change in surface order.
+    details: In <i>the dog scared me to death</i>, <i>to death</i> conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase instead identifies a literal result. A literal outcome and an intensified experience can thus differ without a change in surface order.
     examples:
       - form: The alarm [scared me to death], but everyone was fine.
         note: Constructed context selects the degree interpretation.

@@ -1,5 +1,5 @@
 id: sufficiency-provided-that-001
-name: Conditional Provided That
+name: "Conditional <i>provided that</i>"
 pattern: conditional PP[provided (that) + finite clause]
 type: mixed
 meanings:

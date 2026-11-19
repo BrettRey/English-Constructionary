@@ -1,5 +1,5 @@
 id: same-as-comparison-001
-name: Identity Comparison with Same … As
+name: "Identity Comparison with <i>same … as</i>"
 pattern: NP[the same + nominal] + as-standard
 type: mixed
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The same model can identify a shared model without asserting that we bought one and the same physical object. As supplies the standard of comparison.
+    target: "<i>The same model</i> can identify a shared model without asserting that we bought one and the same physical object. <i>As</i> supplies the standard of comparison."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

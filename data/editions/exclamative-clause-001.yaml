@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: What and how sentences of surprise
-  summary: Some sentences start with what or how to present something as remarkable.
+  title: <i>What</i> and <i>how</i> sentences of surprise
+  summary: Some sentences start with <i>what</i> or <i>how</i> to present something as remarkable.
   body: |-
-    What a fine player she is! and How generous you are! both present something as remarkable, as measured against what we'd expect. Each starts with a what or how phrase, then normally the person or thing, then the verb.
+    <i>What a fine player she is!</i> and <i>How generous you are!</i> both present something as remarkable, as measured against what we'd expect. Each starts with a <i>what</i> or <i>how</i> phrase, then normally the person or thing, then the verb.
 
-    These are clauses, meaning groups of words built around a verb. They can stand alone, as above, or sit inside a bigger sentence: I realised what a bargain it was. The usual order can change, as in How happy would he be if he could see her once more!, which is a marked but allowed pattern. A phrase with no verb, such as What a disaster!, isn't counted here.
+    These are clauses, meaning groups of words built around a verb. They can stand alone, as above, or sit inside a bigger sentence: <i>I realised what a bargain it was</i>. The usual order can change, as in <i>How happy would he be if he could see her once more!</i>, which is a marked but allowed pattern. A phrase with no verb, such as <i>What a disaster!</i>, isn't counted here.
   examples:
     - text: '[What a fine player she is!]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: '[How happy would he be if he could see her once more!]'
       from: entry
-  try: Make your own sentence that starts with What a or How. Where does the verb come, before or after the person or thing?
+  try: Make your own sentence that starts with <i>What a</i> or <i>How</i>. Where does the verb come, before or after the person or thing?
 teacher:
-  summary: Helps students recognize what and how exclamatives as verb-headed clauses, and tell them from questions and from phrase-only exclamations.
-  explain: 'An exclamative clause is a clause headed by a VP (normally tensed) and marked by an exclamative phrase based on what or how. It presents a proposition as holding to a remarkable degree or in a remarkable way, and characteristically makes an exclamatory statement. The exclamative phrase is normally initial and the Subject precedes the Predicator, though subject postposing and subject-auxiliary inversion are possible. It occurs in main clauses and as a subordinate content clause. Clause type isn''t the same as force: exclamation is a wider pattern of use. Phrase-only What a disaster! isn''t a headed clause in this dictionary; see the clause-analogue entry. What and how can also mark open interrogatives, and role, order, meaning and context separate the two.'
+  summary: Helps students recognize <i>what</i> and <i>how</i> exclamatives as verb-headed clauses, and tell them from questions and from phrase-only exclamations.
+  explain: 'An exclamative clause is a clause headed by a VP (normally tensed) and marked by an exclamative phrase based on <i>what</i> or <i>how</i>. It presents a proposition as holding to a remarkable degree or in a remarkable way, and characteristically makes an exclamatory statement. The exclamative phrase is normally initial and the Subject precedes the Predicator, though subject postposing and subject-auxiliary inversion are possible. It occurs in main clauses and as a subordinate content clause. Clause type isn''t the same as force: exclamation is a wider pattern of use. Phrase-only <i>What a disaster!</i> isn''t a headed clause in this dictionary; see the clause-analogue entry. <i>What</i> and <i>how</i> can also mark open interrogatives, and role, order, meaning and context separate the two.'
   terms: Exclamative clause is CGEL's term. Sentences like these are sometimes called exclamatory sentences.
   examples:
     - text: '[What a fine player she is!]'
@@ -34,13 +34,13 @@ teacher:
     - text: '[How happy would he be if he could see her once more!]'
       from: entry
   watch_for:
-    - A learner might treat any sentence beginning with what or how as an exclamative, when the same words can start an open interrogative.
-    - A learner might take Subject-Predicator order as required, though the how-happy example shows a licensed inversion.
-    - A learner might count What a disaster! as a verb-headed clause, when this dictionary treats it as phrase-only.
-  activity: Students get strips with what/how sentences, some exclamatives and some questions (What did she play? alongside What a fine player she is!). They sort them and mark where the verb and subject fall.
+    - A learner might treat any sentence beginning with <i>what</i> or <i>how</i> as an exclamative, when the same words can start an open interrogative.
+    - A learner might take Subject-Predicator order as required, though the <i>how-happy</i> example shows a licensed inversion.
+    - A learner might count <i>What a disaster!</i> as a verb-headed clause, when this dictionary treats it as phrase-only.
+  activity: Students get strips with <i>what</i>/<i>how</i> sentences, some exclamatives and some questions (<i>What did she play?</i> alongside <i>What a fine player she is!</i>). They sort them and mark where the verb and subject fall.
 child:
-  hook: Which sentence shows surprise, What a fine player she is or What did she play?
-  explain: Some sentences start with What a or How to show something is remarkable. What a fine player she is!
+  hook: Which sentence shows surprise, <i>What a fine player she is</i> or <i>What did she play?</i>
+  explain: Some sentences start with <i>What a</i> or <i>How</i> to show something is remarkable. <i>What a fine player she is!</i>
   examples:
     - text: '[What a fine player she is!]'
       from: entry
@@ -48,7 +48,7 @@ child:
       from: entry
     - text: '[What a big dog he is!]'
       from: constructed
-  play: Look at a picture. Say something amazing about it that starts with What a or How.
+  play: Look at a picture. Say something amazing about it that starts with <i>What a</i> or <i>How</i>.
 checked:
   date: "2026-11-19"
   model: claude-sonnet-5-5 (resolving checker flags)

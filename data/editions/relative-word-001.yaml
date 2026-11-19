@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Question words that link a description to a noun
-  summary: Words like who, which and where can tie a description to the noun it describes.
+  summary: Words like <i>who</i>, <i>which</i> and <i>where</i> can tie a description to the noun it describes.
   body: |-
-    In the woman who called, the word who links the description called to the woman. The same family of words, which also asks questions, does this job: who, whom, whose, which, where, when and why. Not all of them fit every slot. Why, for instance, is limited: the reason why she left works.
+    In <i>the woman who called</i>, the word <i>who</i> links the description <i>called</i> to <i>the woman</i>. The same family of words, which also asks questions, does this job: <i>who</i>, <i>whom</i>, <i>whose</i>, <i>which</i>, <i>where</i>, <i>when</i> and <i>why</i>. Not all of them fit every slot. <i>Why</i>, for instance, is limited: <i>the reason why she left</i> works.
 
-    Related words, such as whatever, work in a different way. In I'll take whatever you're offering, the whole phrase whatever you're offering names the thing taken, with no separate noun before it. The details of this analysis are marked provisional in this dictionary.
+    Related words, such as <i>whatever</i>, work in a different way. In <i>I'll take whatever you're offering</i>, the whole phrase <i>whatever you're offering</i> names the thing taken, with no separate noun before it. The details of this analysis are marked provisional in this dictionary.
   examples:
     - text: the woman [who] called
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: I'll take [whatever] you're offering.
       from: entry
-  try: Finish the phrase the person who ... in three different ways. Then try the place where ... and the time when ...
+  try: Finish the phrase <i>the person who ...</i> in three different ways. Then try <i>the place where ...</i> and <i>the time when ...</i>
 teacher:
   summary: Helps explain how question words work as relative words, and which ones are excluded from ordinary relatives.
-  explain: 'A restricted subset of the question-word series (who, whom, whose, which, where, when, why) works as relative words, with the open variable bound by the head noun (integrated relatives). Fused relatives, which supply their own head, use what, how and the -ever series (what she saw, whatever you choose). Membership differs from the question use: what and how are excluded from integrated relatives, and why is limited (as in the reason why). Following CGEL, relative that isn''t treated as part of this series. A relative can also front a larger phrase, as in the writer whose essay won. This dictionary marks the analysis as provisional.'
-  terms: In these relative uses, who, whom, whose and which are sometimes called relative pronouns, and where, when and why relative adverbs. In this dictionary they are the relative use of the indeterminate series. Fused relatives are sometimes called nominal or free relatives.
+  explain: 'A restricted subset of the question-word series (<i>who</i>, <i>whom</i>, <i>whose</i>, <i>which</i>, <i>where</i>, <i>when</i>, <i>why</i>) works as relative words, with the open variable bound by the head noun (integrated relatives). Fused relatives, which supply their own head, use <i>what</i>, <i>how</i> and the <i>-ever</i> series (<i>what she saw</i>, <i>whatever you choose</i>). Membership differs from the question use: <i>what</i> and <i>how</i> are excluded from integrated relatives, and <i>why</i> is limited (as in <i>the reason why</i>). Following CGEL, relative <i>that</i> isn''t treated as part of this series. A relative can also front a larger phrase, as in <i>the writer whose essay won</i>. This dictionary marks the analysis as provisional.'
+  terms: In these relative uses, <i>who</i>, <i>whom</i>, <i>whose</i> and <i>which</i> are sometimes called relative pronouns, and <i>where</i>, <i>when</i> and <i>why</i> relative adverbs. In this dictionary they are the relative use of the indeterminate series. Fused relatives are sometimes called nominal or free relatives.
   examples:
     - text: the woman [who] called
       from: entry
@@ -37,8 +37,8 @@ teacher:
       acceptable: false
       note: Excluded in standard English, according to this dictionary.
   watch_for:
-    - A learner might carry the question uses of what and how over into integrated relatives.
-    - A learner might treat that in the woman that called as the same kind of word as who.
+    - A learner might carry the question uses of <i>what</i> and <i>how</i> over into integrated relatives.
+    - A learner might treat <i>that</i> in <i>the woman that called</i> as the same kind of word as <i>who</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

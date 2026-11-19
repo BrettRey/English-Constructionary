@@ -1,21 +1,21 @@
 id: adjective-hollow-infinitival-001
-name: Adjectival Tough Construction
+name: "Adjectival <i>tough</i> Construction"
 pattern: Clause[Subject:NPᵢ + be + PredComp:AdjP[Adj + to-infinitival Clause with non-subject gapᵢ]]
 type: mixed
 meanings:
   '1':
     definition: Characterizes the matrix subject by evaluating an action involving it.
-    details: In their argument was impossible to follow, the argument is understood as the object of follow. A preposition can supply the gap instead. The infinitival may have its own subject with for. Compare Kim was anxious to follow the argument, where Kim is the understood subject of follow. The construction makes an evaluation about the matrix subject, which excludes dummy there on this reading.
+    details: In <i>their argument was impossible to follow</i>, the argument is understood as the object of <i>follow</i>. A preposition can supply the gap instead. The infinitival may have its own subject with <i>for</i>. Compare <i>Kim was anxious to follow the argument</i>, where Kim is the understood subject of <i>follow</i>. The construction makes an evaluation about the matrix subject, which excludes dummy <i>there</i> on this reading.
     examples:
       - form: '[Their argument was impossible to follow.]'
-        note: The argument is the understood object of follow.
+        note: The argument is the understood object of <i>follow</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 14 §8.1, p. 1257 [2i]
             relation: attests
             bears-on: attestation
       - form: '[His performance was easy to find fault with.]'
-        note: The gap is the object of with.
+        note: The gap is the object of <i>with</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 7 §4.1, [3vii]

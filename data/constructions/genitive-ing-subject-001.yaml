@@ -15,10 +15,10 @@ relatedConstructions:
     relationship: related-to
   - id: oblique-ing-subject-001
     relationship: alternates-with
-    notes: Compare We objected to their blocking the exit and We objected to them blocking the exit. The case varies in this frame. Availability depends on the higher construction and variety.
+    notes: Compare <i>We objected to their blocking the exit</i> and <i>We objected to them blocking the exit</i>. The case varies in this frame. Availability depends on the higher construction and variety.
   - id: deverbal-ing-nominal-001
     relationship: related-to
-    notes: Their carefully sorting the files has a verbal predicate with an adverb and direct object. Their careful sorting of the files has adjective and of-complement in a nominal.
+    notes: <i>Their carefully sorting the files</i> has a verbal predicate with an adverb and direct object. <i>Their careful sorting of the files</i> has adjective and <i>of</i>-complement in a nominal.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.5–1.6

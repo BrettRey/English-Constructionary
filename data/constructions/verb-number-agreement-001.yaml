@@ -12,7 +12,7 @@ meanings:
         note: Plural subject with plural verb
 constraints:
   - type: syntactic
-    description: Agreement is realized on finite verbs/auxiliaries that bear number morphology (e.g., present -s, is/are).
+    description: Agreement is realized on finite verbs/auxiliaries that bear number morphology (e.g., present <i>-s</i>, <i>is</i>/<i>are</i>).
   - type: pragmatic
     description: Collective and notional agreement can override strict grammatical number in some varieties.
 relatedConstructions:
@@ -34,6 +34,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In the key to the cabinets is missing, agreement tracks the subject head rather than the nearest plural noun. The number-transparent pattern a number of keys are missing needs a separate account."
+    target: "In <i>the key to the cabinets is missing</i>, agreement tracks the subject head rather than the nearest plural noun. The number-transparent pattern <i>a number of keys are missing</i> needs a separate account."
     evidence: "CGEL distinguishes ordinary agreement and independently conditioned overrides."
     confidence: medium

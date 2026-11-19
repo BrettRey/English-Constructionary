@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: Phrase headed by a preposition, with or without a complement
-    details: "The head may take an NP object (in the garden), a predicative NP or AdjP (as a liability, as reasonable), an AdvP (until recently), a clause (because it rained), a PP (from under the bed), or no complement (outside). A single complementless preposition constitutes a complete PP (CGEL Ch. 2 §7, p. 58)."
+    details: "The head may take an NP object (<i>in the garden</i>), a predicative NP or AdjP (<i>as a liability</i>, <i>as reasonable</i>), an AdvP (<i>until recently</i>), a clause (<i>because it rained</i>), a PP (<i>from under the bed</i>), or no complement (<i>outside</i>). A single complementless preposition constitutes a complete PP (CGEL Ch. 2 §7, p. 58)."
     examples:
       - form: "[in the garden]"
         note: P with NP object
@@ -21,12 +21,12 @@ meanings:
       - form: "[because it rained]"
         note: P with clause complement
       - form: "[from under the bed]"
-        note: P with PP complement; under the bed expresses the source location
+        note: P with PP complement; <i>under the bed</i> expresses the source location
       - form: "[outside]"
         note: Complete PP consisting of one complementless preposition
 constraints:
   - type: syntactic
-    description: "The phrase is headed by a preposition; locative members accept such modifiers as right and straight."
+    description: "The phrase is headed by a preposition; locative members accept such modifiers as <i>right</i> and <i>straight</i>."
 relatedConstructions:
   - id: phrase-001
     relationship: specialization-of
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A preposition can head a phrase even without an NP after it, as in We waited outside. Some heads take a different category, as with because it rained, and a PP can itself be selected, as with from under the stairs."
+    target: "A preposition can head a phrase even without an NP after it, as in <i>We waited outside</i>. Some heads take a different category, as with <i>because it rained</i>, and a PP can itself be selected, as with <i>from under the stairs</i>."
     evidence: "CGEL classifies PPs by their heads and documents complement types and functions rather than identifying them through the presence of an NP alone."
     confidence: medium

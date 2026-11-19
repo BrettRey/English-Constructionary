@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Putting the receiver first
-  summary: In a passive sentence, the object of the matching active sentence becomes the subject, and the active sentence's subject can come later after by or be left out.
+  summary: In a passive sentence, the object of the matching active sentence becomes the subject, and the active sentence's subject can come later after <i>by</i> or be left out.
   body: |-
-    In My surfboard was stolen by Pat, the surfboard comes first, though it's what Pat stole. The person who acted appears after by. In My surfboard was stolen, the doer is simply left out.
+    In <i>My surfboard was stolen by Pat</i>, the surfboard comes first, though it's what Pat stole. The person who acted appears after <i>by</i>. In <i>My surfboard was stolen</i>, the doer is simply left out.
 
-    The first thing can come from other places too. In Her paper is referred to by everyone, the paper is what everyone refers to, and the active version has it after the word to. This dictionary covers the passives made with the helper verb be, followed by a word like stolen.
+    The first thing can come from other places too. In <i>Her paper is referred to by everyone</i>, the paper is what everyone refers to, and the active version has it after the word <i>to</i>. This dictionary covers the passives made with the helper verb <i>be</i>, followed by a word like <i>stolen</i>.
   examples:
     - text: '[My surfboard was stolen by Pat.]'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[Her paper is referred to by everyone.]'
       from: entry
-  try: Take an active sentence like Pat stole my surfboard and turn it around. What happens to Pat?
+  try: Take an active sentence like <i>Pat stole my surfboard</i> and turn it around. What happens to Pat?
 teacher:
   summary: Explains the be-passive as a way of realigning a verb's arguments so an active complement becomes the subject.
-  explain: In the verbal be-passive, an internal complement of the active verb appears as the subject, and the participial VP lacks that complement. A by-phrase can realize the participant that would be the active subject, and the short passive usually leaves that participant unexpressed. The externalized complement can be a direct object, an indirect object, or the object of a preposition, as in the paper was referred to. The by-phrase can supply an experiencer when the active subject is an experiencer. The participial VP may have complements and verbal modifications. Only the construction with auxiliary be is covered here.
-  terms: Long passive has a by-phrase, and short passive has none. Such clauses are sometimes said to be in the passive voice; this dictionary calls the version with be the verbal be-passive.
+  explain: In the verbal be-passive, an internal complement of the active verb appears as the subject, and the participial VP lacks that complement. A by-phrase can realize the participant that would be the active subject, and the short passive usually leaves that participant unexpressed. The externalized complement can be a direct object, an indirect object, or the object of a preposition, as in <i>the paper was referred to</i>. The by-phrase can supply an experiencer when the active subject is an experiencer. The participial VP may have complements and verbal modifications. Only the construction with auxiliary <i>be</i> is covered here.
+  terms: Long passive has a by-phrase, and short passive has none. Such clauses are sometimes said to be in the passive voice; this dictionary calls the version with <i>be</i> the verbal be-passive.
   examples:
     - text: '[My surfboard was stolen by Pat.]'
       from: entry
@@ -35,23 +35,23 @@ teacher:
       note: The active version.
     - text: My surfboard was stolen by Pat.
       from: entry
-      note: Long passive; the active subject is the complement of by.
+      note: Long passive; the active subject is the complement of <i>by</i>.
     - text: My surfboard was stolen.
       from: entry
       note: Short passive.
   watch_for:
     - A learner might think the by-phrase is required, when a short passive can leave that participant out.
-    - A learner might expect only a direct object to become the subject, when a prepositional object can too (Her paper is referred to).
+    - A learner might expect only a direct object to become the subject, when a prepositional object can too (<i>Her paper is referred to</i>).
   activity: Students turn active sentences into long passives and then short passives. They say which participant becomes the subject and where the original subject went.
 child:
-  hook: In "My surfboard was stolen", who is missing from the sentence?
-  explain: You can start a sentence with the thing something happened to. My surfboard was stolen by Pat. If we don't need to say who did it, we can leave out by Pat.
+  hook: In "<i>My surfboard was stolen</i>", who is missing from the sentence?
+  explain: You can start a sentence with the thing something happened to. <i>My surfboard was stolen by Pat</i>. If we don't need to say who did it, we can leave out <i>by Pat</i>.
   examples:
     - text: '[My surfboard was stolen by Pat.]'
       from: entry
     - text: '[My surfboard was stolen.]'
       from: entry
-  play: Make up a sentence like Pat stole my surfboard. Turn it around so the thing comes first. Then try it without the doer.
+  play: Make up a sentence like <i>Pat stole my surfboard</i>. Turn it around so the thing comes first. Then try it without the doer.
 checked:
   date: "2026-11-19"
   model: claude-opus-5-5 (resolving glm-5.3 flags)

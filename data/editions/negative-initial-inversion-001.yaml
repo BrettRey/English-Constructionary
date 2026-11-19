@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Flipping the helper verb after a restricting opening
-  summary: After an opening phrase such as only after the meeting, the helper verb comes before the subject.
+  summary: After an opening phrase such as <i>only after the meeting</i>, the helper verb comes before the subject.
   body: |-
-    In Only after the meeting did I find out, the helper verb did comes before the subject I. The opening phrase narrows the claim, and that is what triggers the flip.
+    In <i>Only after the meeting did I find out</i>, the helper verb <i>did</i> comes before the subject <i>I</i>. The opening phrase narrows the claim, and that is what triggers the flip.
 
-    Compare After the meeting I found out. Here the opening phrase doesn't narrow the claim, the subject stays first, and no helper verb is needed. This dictionary describes the flip as tied to certain negative or restrictive opening phrases, not to opening phrases in general.
+    Compare <i>After the meeting I found out</i>. Here the opening phrase doesn't narrow the claim, the subject stays first, and no helper verb is needed. This dictionary describes the flip as tied to certain negative or restrictive opening phrases, not to opening phrases in general.
   examples:
     - text: '[Only after the meeting did I find out].'
       from: entry
     - text: '[After the meeting I found out].'
       from: entry
-  try: Start a sentence with only after and finish it. Where does the helper verb go?
+  try: Start a sentence with <i>only after</i> and finish it. Where does the helper verb go?
 teacher:
   summary: For advanced classes, auxiliary-first order after a preposed negative or restrictive expression.
-  explain: 'After certain preposed negative or restrictive expressions, a clause uses auxiliary-first order: finite auxiliary, then subject, then verb phrase. Only after the meeting did I find out shows it. In After the meeting I found out, the non-restrictive fronted adjunct doesn''t trigger inversion. Only modifying the subject doesn''t trigger it either. In the example the finite auxiliary is did. This dictionary lists finite do-support and complement preposing as related patterns, and marks the analysis provisional with medium confidence.'
+  explain: 'After certain preposed negative or restrictive expressions, a clause uses auxiliary-first order: finite auxiliary, then subject, then verb phrase. <i>Only after the meeting did I find out</i> shows it. In <i>After the meeting I found out</i>, the non-restrictive fronted adjunct doesn''t trigger inversion. <i>Only</i> modifying the subject doesn''t trigger it either. In the example the finite auxiliary is <i>did</i>. This dictionary lists finite <i>do</i>-support and complement preposing as related patterns, and marks the analysis provisional with medium confidence.'
   terms: Sometimes called subject-auxiliary inversion, a broader label than this dictionary's pattern, which covers inversion after preposed negative or restrictive expressions.
   examples:
     - text: '[Only after the meeting did I find out].'
@@ -34,8 +34,8 @@ teacher:
       note: A non-restrictive fronted adjunct leaves the subject first.
   watch_for:
     - A learner might invert the subject and auxiliary after any fronted phrase.
-    - A learner might expect the subject to come right after the opening phrase, as it does in After the meeting I found out.
-  activity: Students front only after the meeting, only then or similar phrases and rewrite each sentence with auxiliary-first order. Then they front a non-restrictive phrase and compare the word order.
+    - A learner might expect the subject to come right after the opening phrase, as it does in <i>After the meeting I found out</i>.
+  activity: Students front <i>only after the meeting</i>, <i>only then</i> or similar phrases and rewrite each sentence with auxiliary-first order. Then they front a non-restrictive phrase and compare the word order.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

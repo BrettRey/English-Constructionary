@@ -16,7 +16,7 @@ kind:
   profile:
     core:
       - property: "Non-count morphosyntax"
-        diagnostics: ["rejects cardinals", "takes much/less", "singular agreement default"]
+        diagnostics: ["rejects cardinals", "takes <i>much</i>/<i>less</i>", "singular agreement default"]
         weight: high
       - property: "Non-individuated construal"
         diagnostics: ["stuff/aggregate interpretation", "homogeneous part structure"]
@@ -35,7 +35,7 @@ kind:
     - type: functional-pressure
       evidence: "need to distinguish substance from individuated reference"
   projection:
-    target: "In much coffee, coffee has non-count distribution. Two coffees permits a count reading because the context supplies portions or varieties. The individual lexical form alone does not decide the syntactic use."
+    target: "In <i>much coffee</i>, <i>coffee</i> has non-count distribution. <i>Two coffees</i> permits a count reading because the context supplies portions or varieties. The individual lexical form alone does not decide the syntactic use."
     evidence: "CGEL compares count and non-count uses of the same substance nouns, including drink names."
     confidence: medium
   maintenance:
@@ -50,12 +50,12 @@ kind:
     overlaps_with:
       - grammatical-number-001
     known_boundary_items:
-      - "beer"
-      - "chicken"
-      - "paper"
-      - "furniture"
-      - "cattle"
-      - "police"
+      - "<i>beer</i>"
+      - "<i>chicken</i>"
+      - "<i>paper</i>"
+      - "<i>furniture</i>"
+      - "<i>cattle</i>"
+      - "<i>police</i>"
   grain:
     level: meso
     parent_families:

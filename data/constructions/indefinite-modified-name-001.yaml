@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Presents a named person in a condition associated with a particular occasion.
-    details: "In a visibly shaken Giuliani, the name identifies a person already introduced in the report. The adjective supplies his state within the NP, and the clause predicates what he did. One analysis takes the modifier to characterize the bearer directly. Another takes the NP to pick out a manifestation, understood as the bearer in one of several possible states."
+    details: "In <i>a visibly shaken Giuliani</i>, the name identifies a person already introduced in the report. The adjective supplies his state within the NP, and the clause predicates what he did. One analysis takes the modifier to characterize the bearer directly. Another takes the NP to pick out a manifestation, understood as the bearer in one of several possible states."
     examples:
       - form: "[A visibly shaken Giuliani] noted the tragic circumstances during a hospital press conference."
         note: The report has already named Rudolph Giuliani and described his emotional state.
@@ -35,25 +35,25 @@ relatedConstructions:
     notes: The overt article takes determiner function in an NP with an adjective and a personal name form.
   - id: strong-proper-name-001
     relationship: related-to
-    notes: "Poor Henry and a visibly shaken Giuliani both characterize an identifiable bearer. The former illustrates the restricted class of adjectives in bare embellishments."
+    notes: "<i>Poor Henry</i> and <i>a visibly shaken Giuliani</i> both characterize an identifiable bearer. The former illustrates the restricted class of adjectives in bare embellishments."
   - id: proper-name-secondary-use-001
     relationship: overlaps-with
     overlap-dimension: semantic
-    notes: "The analyses overlap if a visibly shaken Giuliani selects one manifestation. In the Paris of my youth, a contextually delimited period is explicitly identified, whereas the CBS token provides an occasion-specific description in a report about a single event."
+    notes: "The analyses overlap if <i>a visibly shaken Giuliani</i> selects one manifestation. In <i>the Paris of my youth</i>, a contextually delimited period is explicitly identified, whereas the CBS token provides an occasion-specific description in a report about a single event."
   - id: depictive-predication-001
     relationship: related-to
-    notes: "Both patterns can characterize a participant during an event. Compare They carried an unconscious Kim with They carried Kim unconscious. In the former, the adjective is internal to the object NP. In the latter, it is a secondary predicative outside that NP."
+    notes: "Both patterns can characterize a participant during an event. Compare <i>They carried an unconscious Kim</i> with <i>They carried Kim unconscious</i>. In the former, the adjective is internal to the object NP. In the latter, it is a secondary predicative outside that NP."
 grounds:
   - source: berezowski-2021
     locator: "§5, Tables 1–2 and [8–14], and §7"
     relation: discusses
     bears-on: projection
-    note: The selected COCA comparisons favour a/an with short-lived conditions. Berezowski analyses the contrast in terms of name-bearer manifestations and ordinary indefinite reference.
+    note: The selected COCA comparisons favour <i>a</i>/<i>an</i> with short-lived conditions. Berezowski analyses the contrast in terms of name-bearer manifestations and ordinary indefinite reference.
   - source: vandelanotte-willemse-2002
     locator: "pp. 27–28 [49], pp. 31–33, Tables 1–2"
     relation: discusses
     bears-on: projection
-    note: The authors discuss an angry Blair as nonrestrictive with respect to the person and contrastive with respect to that person’s possible states.
+    note: The authors discuss <i>an angry Blair</i> as nonrestrictive with respect to the person and contrastive with respect to that person’s possible states.
   - source: cgel-2002
     locator: "Ch. 5 §20.3 [5ii], §20.4 [8]"
     relation: discusses
@@ -62,10 +62,10 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A temporary-state adjective can make a/an available with an already identified name bearer, in subject position and within a PP. The determiner choice varies with the adjective and the construal of its contribution.
-    evidence: CBS supplies the previously identified bearer. Berezowski’s selected COCA comparisons give more a/an tokens than the or bare tokens for angry, smiling, beaming, relaxed and tired. His young and old comparisons are predominantly bare.
+    target: A temporary-state adjective can make <i>a</i>/<i>an</i> available with an already identified name bearer, in subject position and within a PP. The determiner choice varies with the adjective and the construal of its contribution.
+    evidence: CBS supplies the previously identified bearer. Berezowski’s selected COCA comparisons give more <i>a</i>/<i>an</i> tokens than <i>the</i> or bare tokens for <i>angry</i>, <i>smiling</i>, <i>beaming</i>, <i>relaxed</i> and <i>tired</i>. His <i>young</i> and <i>old</i> comparisons are predominantly bare.
     confidence: medium
   boundaries:
     known_boundary_items:
-      - "Poor Henry supplies an attribution in a bare NP. CGEL also gives the distraught Empress Alexandra with the and a temporary state."
-      - "Another Roosevelt describes a person by resemblance. A visibly shaken Giuliani keeps Giuliani as the bearer whose state is described."
+      - "<i>Poor Henry</i> supplies an attribution in a bare NP. CGEL also gives <i>the distraught Empress Alexandra</i> with <i>the</i> and a temporary state."
+      - "<i>Another Roosevelt</i> describes a person by resemblance. <i>A visibly shaken Giuliani</i> keeps Giuliani as the bearer whose state is described."

@@ -1,5 +1,5 @@
 id: comparative-er-001
-name: Comparative -er
+name: "Comparative <i>-er</i>"
 pattern: XP[X + -er] where X < {tall, deep, soon, near, few, ...} >
 type: morphological
 meanings:
@@ -42,7 +42,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The same comparative relation can be expressed by a suffix with tall or by more with expensive. The suffix does not freely spread from one gradable adjective to another. Either realization can introduce a than-standard and accept a differential where the adjective allows it."
+    target: "The same comparative relation can be expressed by a suffix with <i>tall</i> or by <i>more</i> with <i>expensive</i>. The suffix does not freely spread from one gradable adjective to another. Either realization can introduce a <i>than</i>-standard and accept a differential where the adjective allows it."
     evidence: "CGEL treats comparative realization and the form of the standard as distinct choices and documents lexical variation in grade inflection."
     confidence: medium
 relatedConstructions:
@@ -50,7 +50,7 @@ relatedConstructions:
     relationship: related-to
   - id: than-reduced-clause-001
     relationship: interfaces-with
-    notes: Longer than we expected pairs a comparative adjective with a than-clause whose missing degree is interpreted through the comparison.
+    notes: "<i>Longer than we expected</i> pairs a comparative adjective with a <i>than</i>-clause whose missing degree is interpreted through the comparison."
   - id: comparative-adjective-suppletion-001
     relationship: related-to
-    notes: Longer marks comparative grade with the regular suffix. Better expresses comparative grade with a suppletive form.
+    notes: "<i>Longer</i> marks comparative grade with the regular suffix. <i>Better</i> expresses comparative grade with a suppletive form."

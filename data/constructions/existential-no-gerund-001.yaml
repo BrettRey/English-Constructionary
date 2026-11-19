@@ -1,11 +1,11 @@
 id: existential-no-gerund-001
-name: Existential No with a Gerund-Participial
+name: "Existential <i>no</i> with a Gerund-Participial"
 pattern: there + BE + no + VP[gerund-participial]
 type: mixed
 meanings:
   '1':
     definition: Presents an action as unavailable in the circumstances.
-    details: There was no moving it normally suggests that moving it was impossible or impracticable. In a constructed context where moving the crate was easy and nobody chose to do it, nobody moved it fits directly and there was no moving it calls for further explanation. A rule can also be the obstacle, as in a prohibitive use. The availability and source of this modal force are open.
+    details: "<i>There was no moving it</i> normally suggests that moving it was impossible or impracticable. In a constructed context where moving the crate was easy and nobody chose to do it, <i>nobody moved it</i> fits directly and <i>there was no moving it</i> calls for further explanation. A rule can also be the obstacle, as in a prohibitive use. The availability and source of this modal force are open."
     examples:
       - form: '[There was no stopping her.]'
         note: Chapter 5 mentions the pattern in its survey of what can head an NP.
@@ -33,13 +33,13 @@ meanings:
 relatedConstructions:
   - id: no-determiner-001
     relationship: related-to
-    notes: The fixed form no is shared with ordinary negative NPs.
+    notes: The fixed form <i>no</i> is shared with ordinary negative NPs.
 grounds:
   - source: cgel-2002
     locator: Ch. 14, p. 1189 [57ii]
     relation: cites
     bears-on: category-assignment
-    note: Treats no plus a gerund-participial as hybrid and observes a strong restriction to existential there.
+    note: Treats <i>no</i> plus a gerund-participial as hybrid and observes a strong restriction to existential <i>there</i>.
 kind:
   provisional: true
   projection:

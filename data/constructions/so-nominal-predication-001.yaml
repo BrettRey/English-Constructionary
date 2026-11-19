@@ -1,14 +1,14 @@
 id: so-nominal-predication-001
-name: Intensifying So with a Nominal
+name: "Intensifying <i>so</i> with a Nominal"
 pattern: Clause[Subject:NP + be + PredComp:[stressed so + nominal expression]]
 type: mixed
 meanings:
   '1':
     definition: Attributes a conspicuous degree of a quality associated with the nominal expression.
-    details: In you’re so glass half full today, the final expression makes a description such as optimism available to be graded. A familiar name can work similarly when speakers associate the bearer with a style or quality. A name in this use can contribute associated qualities while retaining its independent use to identify its bearer in other contexts. The construction does not settle the lexical category of every filler.
+    details: In <i>you’re so glass half full today</i>, the final expression makes a description such as optimism available to be graded. A familiar name can work similarly when speakers associate the bearer with a style or quality. A name in this use can contribute associated qualities while retaining its independent use to identify its bearer in other contexts. The construction does not settle the lexical category of every filler.
     examples:
       - form: You’re [so glass half full] today.
-        note: KABC spoken example, transcribed in the Research Constructicon. Stress is on so.
+        note: KABC spoken example, transcribed in the Research Constructicon. Stress is on <i>so</i>.
         grounds:
           - source: fau-senger-so-np
             locator: example B, 19 October 2009
@@ -47,6 +47,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Stressed so in the predicative frame makes a degree interpretation available even with an expression that elsewhere names an individual or describes a situation.
+    target: Stressed <i>so</i> in the predicative frame makes a degree interpretation available even with an expression that elsewhere names an individual or describes a situation.
     evidence: Senger records two spoken examples. Bylinina studies the individual-denoting nominal and the inferred scale of comparison.
     confidence: medium

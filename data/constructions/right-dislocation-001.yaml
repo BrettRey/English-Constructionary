@@ -8,7 +8,7 @@ meanings:
     details: The following NP can disambiguate a pronoun or restate a referent that is already clear. CGEL contrasts a topic that is already evoked or accessible through the prior context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked NP subtype.
     examples:
       - form: '[I really like him, your dad.]'
-        note: The final NP specifies the intended referent of him.
+        note: The final NP specifies the intended referent of <i>him</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 16 §8.2 [11i]

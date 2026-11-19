@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Ascribes a property or status to the object referent.
-    details: In considered him a fool, the NP a fool describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.
+    details: In <i>considered him a fool</i>, the NP <i>a fool</i> describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.
     examples:
       - form: She [considered him a fool].
-        note: The predicative NP describes the person referred to by him.
+        note: The predicative NP describes the person referred to by <i>him</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 4 §5.1 [7iia]
@@ -40,6 +40,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The predicative remains oriented to the original object under passivization. With consider, the sentence does not present the object as undergoing a change.
+    target: The predicative remains oriented to the original object under passivization. With <i>consider</i>, the sentence does not present the object as undergoing a change.
     evidence: CASA distinguishes NP and adjective realizations. CGEL treats them as predicative complements with the object as their predicand.
     confidence: high

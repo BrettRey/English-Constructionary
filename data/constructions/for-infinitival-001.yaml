@@ -1,5 +1,5 @@
 id: for-infinitival-001
-name: For-Infinitival with an Overt Subject
+name: "<i>for</i>-Infinitival with an Overt Subject"
 pattern: for + Subject:NP[accusative if personal pronoun] + to-infinitival VP
 type: syntactic
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Them is the subject of leave, not the object of a purpose preposition in this use. In subject position this infinitival normally requires for before its overt subject.
+    target: <i>Them</i> is the subject of <i>leave</i>, not the object of a purpose preposition in this use. In subject position this infinitival normally requires <i>for</i> before its overt subject.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

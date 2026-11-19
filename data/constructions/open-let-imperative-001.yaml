@@ -1,10 +1,10 @@
 id: open-let-imperative-001
-name: Open Let Imperative
+name: "Open <i>let</i> Imperative"
 pattern: imperative let + non-inclusive NP + bare infinitival
 type: mixed
 meanings:
   '1':
-    definition: Presents a wish, stipulation, or instruction involving the referent of the post-let NP.
+    definition: Presents a wish, stipulation, or instruction involving the referent of the post-<i>let</i> NP.
     examples:
       - form: '[Let everyone draw a ticket].'
         note: Constructed illustration.
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The expected action is attributed to everyone, and the sentence need not request permission from a gatekeeper. Inclusive let’s has a separate person interpretation.
+    target: The expected action is attributed to everyone, and the sentence need not request permission from a gatekeeper. Inclusive <i>let’s</i> has a separate person interpretation.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Do so standing in for an action
-  summary: Do so can replace a phrase that has already named an action, so the speaker doesn't have to repeat it.
+  title: "<i>Do so</i> standing in for an action"
+  summary: "<i>Do so</i> can replace a phrase that has already named an action, so the speaker doesn't have to repeat it."
   body: |-
-    In Kai tied the bundle, and did so again the next day, did so stands in for tied the bundle. Instead of repeating the action, the speaker points back to it.
+    In <i>Kai tied the bundle, and did so again the next day</i>, <i>did so</i> stands in for <i>tied the bundle</i>. Instead of repeating the action, the speaker points back to it.
 
-    This works as a phrase in its own right, so it can appear in different forms. In She promised to do so, it follows to. In its ordinary use, do so looks back to an action that was named earlier. This dictionary has a separate entry on a related pattern, where the helper word do is left standing with the rest unsaid, as in Jo did too, and that one allows a wider range of earlier phrases.
+    This works as a phrase in its own right, so it can appear in different forms. In <i>She promised to do so</i>, it follows <i>to</i>. In its ordinary use, <i>do so</i> looks back to an action that was named earlier. This dictionary has a separate entry on a related pattern, where the helper word <i>do</i> is left standing with the rest unsaid, as in <i>Jo did too</i>, and that one allows a wider range of earlier phrases.
   examples:
     - text: Kai tied the bundle, and [did so] again the next day.
       from: entry
     - text: She promised to [do so].
       from: constructed
-  try: Say a sentence about something you did, then add and did so again. What does did so replace?
+  try: Say a sentence about something you did, then add <i>and did so again</i>. What does <i>did so</i> replace?
 teacher:
-  summary: Helps explain do so as a stand-in for an earlier action phrase, and how it differs from stranded auxiliary do.
-  explain: Do so is an anaphoric expression that functions as a VP in its own right. It refers back to an earlier action, so in Kai tied the bundle, and did so again the next day, did so picks up tied the bundle. Because it's a VP, it can be infinitival, as in promised to do so. Its ordinary use favours an action antecedent. Stranded auxiliary do, the pattern in Jo did too, has a wider range of antecedents. This analysis is provisional.
-  terms: 'Do so can be described as a pro-form for a verb phrase. In this dictionary: anaphoric do so, with stranded auxiliary do as a separate, related entry.'
+  summary: Helps explain <i>do so</i> as a stand-in for an earlier action phrase, and how it differs from stranded auxiliary <i>do</i>.
+  explain: "<i>Do so</i> is an anaphoric expression that functions as a VP in its own right. It refers back to an earlier action, so in <i>Kai tied the bundle, and did so again the next day</i>, <i>did so</i> picks up <i>tied the bundle</i>. Because it's a VP, it can be infinitival, as in <i>promised to do so</i>. Its ordinary use favours an action antecedent. Stranded auxiliary <i>do</i>, the pattern in <i>Jo did too</i>, has a wider range of antecedents. This analysis is provisional."
+  terms: '<i>Do so</i> can be described as a pro-form for a verb phrase. In this dictionary: anaphoric <i>do so</i>, with stranded auxiliary <i>do</i> as a separate, related entry.'
   examples:
     - text: Kai tied the bundle, and [did so] again the next day.
       from: entry
@@ -28,14 +28,14 @@ teacher:
   contrasts:
     - text: Kai tied the bundle, and did so again the next day.
       from: entry
-      note: Do so is a VP in its own right and looks back to an action.
+      note: "<i>Do so</i> is a VP in its own right and looks back to an action."
     - text: Kai tied the bundle, and Jo did too.
       from: constructed
-      note: Stranded auxiliary do, a related pattern with a wider range of antecedents.
+      note: Stranded auxiliary <i>do</i>, a related pattern with a wider range of antecedents.
   watch_for:
-    - A learner might think do so is only a finite form, when this dictionary shows it can be infinitival, as in promised to do so.
-    - A learner might use do so to refer back to something that isn't an action, when its ordinary use favours an action antecedent.
-  activity: Students write sentences naming an action and then rewrite the second mention with do so. They then compare with a version that uses did too and say what each form refers back to.
+    - A learner might think <i>do so</i> is only a finite form, when this dictionary shows it can be infinitival, as in <i>promised to do so</i>.
+    - A learner might use <i>do so</i> to refer back to something that isn't an action, when its ordinary use favours an action antecedent.
+  activity: Students write sentences naming an action and then rewrite the second mention with <i>do so</i>. They then compare with a version that uses <i>did too</i> and say what each form refers back to.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

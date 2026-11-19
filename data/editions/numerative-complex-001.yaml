@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Number words above ninety-nine
-  summary: Numbers above ninety-nine are built as phrases, from a multiplied amount like two hundred plus an optional addition.
+  summary: Numbers above ninety-nine are built as phrases, from a multiplied amount like <i>two hundred</i> plus an optional addition.
   body: |-
-    Two hundred and five and one thousand twenty-four are made of parts. In each, a multiplied amount (two hundred, one thousand) comes first, and a smaller number (five, twenty-four) is added after it. Two hundred, for instance, can also stand alone as a number.
+    <i>Two hundred and five</i> and <i>one thousand twenty-four</i> are made of parts. In each, a multiplied amount (<i>two hundred</i>, <i>one thousand</i>) comes first, and a smaller number (<i>five</i>, <i>twenty-four</i>) is added after it. <i>Two hundred</i>, for instance, can also stand alone as a number.
 
-    That's what separates these from smaller number words. Up to ninety-nine, this dictionary treats each number as a single word. Above that, the number has an inside, and context can sometimes fill in missing pieces. In between two hundred and four and six, the second number can be understood as two hundred and six.
+    That's what separates these from smaller number words. Up to ninety-nine, this dictionary treats each number as a single word. Above that, the number has an inside, and context can sometimes fill in missing pieces. In <i>between two hundred and four and six</i>, the second number can be understood as <i>two hundred and six</i>.
   examples:
     - text: '[one thousand twenty-four]'
       from: entry
     - text: '[two hundred and five]'
       from: entry
-  try: Say one thousand twenty-four aloud. Which part could you say on its own as a number?
+  try: Say <i>one thousand twenty-four</i> aloud. Which part could you say on its own as a number?
 teacher:
   summary: Explains numbers above 99 as phrases with internal structure, built from a factor, a magnitude and an optional addition.
-  explain: 'A complex numerative is a phrase above the lexical range of zero to ninety-nine. It requires a magnitude head with a factor, and additions are coordinated constituents, with or without and: one thousand twenty-four, two hundred and five. Two hundred and four has an internal phrase two hundred which can also stand independently. Where the context supports the intended scale, the second coordinate of between two hundred and four and six can recover material and mean two hundred and six. A shorter coordinate can also get a literal small-number reading in other contexts. The dictionary marks this account as provisional.'
+  explain: 'A complex numerative is a phrase above the lexical range of zero to ninety-nine. It requires a magnitude head with a factor, and additions are coordinated constituents, with or without <i>and</i>: <i>one thousand twenty-four</i>, <i>two hundred and five</i>. <i>Two hundred and four</i> has an internal phrase <i>two hundred</i> which can also stand independently. Where the context supports the intended scale, the second coordinate of <i>between two hundred and four and six</i> can recover material and mean <i>two hundred and six</i>. A shorter coordinate can also get a literal small-number reading in other contexts. The dictionary marks this account as provisional.'
   terms: Numerative is this grammar's term for number words, where a textbook may say numeral.
   examples:
     - text: '[one thousand twenty-four]'
@@ -33,9 +33,9 @@ teacher:
       from: entry
       note: A phrase, with factor, magnitude and addition.
   watch_for:
-    - A learner might take the second coordinate in between two hundred and four and six as the small number six, when context can sometimes supply two hundred and give two hundred and six.
+    - A learner might take the second coordinate in <i>between two hundred and four and six</i> as the small number six, when context can sometimes supply <i>two hundred</i> and give <i>two hundred and six</i>.
     - A learner might think a large number is one long word rather than a phrase.
-  activity: Students break written numbers such as one thousand twenty-four into parts and label the factor, the magnitude and the addition.
+  activity: Students break written numbers such as <i>one thousand twenty-four</i> into parts and label the factor, the magnitude and the addition.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

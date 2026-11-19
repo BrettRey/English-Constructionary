@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Comparing with -er
-  summary: Adding -er to a word like tall says that one thing ranks higher than another on a scale.
+  title: Comparing with <i>-er</i>
+  summary: Adding <i>-er</i> to a word like <i>tall</i> says that one thing ranks higher than another on a scale.
   body: |-
-    Taller, deeper, sooner, nearer and fewer all compare two points on a scale. The -er form can also say by how much, as in much taller or two inches taller, and it can name what is being compared with, as in taller than Bill.
+    <i>Taller</i>, <i>deeper</i>, <i>sooner</i>, <i>nearer</i> and <i>fewer</i> all compare two points on a scale. The <i>-er</i> form can also say by how much, as in <i>much taller</i> or <i>two inches taller</i>, and it can name what is being compared with, as in <i>taller than Bill</i>.
 
-    Sometimes the comparison is left to context, as in the taller building. The same idea can come out as more with another adjective, as in more expensive. Which adjectives take -er varies from word to word.
+    Sometimes the comparison is left to context, as in <i>the taller building</i>. The same idea can come out as <i>more</i> with another adjective, as in <i>more expensive</i>. Which adjectives take <i>-er</i> varies from word to word.
   examples:
     - text: '[taller]'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[taller than Bill]'
       from: entry
-  try: Compare two things near you with taller, deeper or nearer. Can you say by how much, and than what?
+  try: Compare two things near you with <i>taller</i>, <i>deeper</i> or <i>nearer</i>. Can you say by how much, and <i>than</i> what?
 teacher:
-  summary: Useful for explaining -er comparatives, the than-phrase, and how a difference like two inches can be added.
-  explain: 'A comparative with -er compares two points on the scale named by its base: taller, deeper, sooner, nearer and fewer. It can also express a difference (much taller, two inches taller) and the basis of comparison, whether explicit (taller than Bill) or contextual (the taller building). The same comparative relation can be expressed by a suffix with tall or by more with expensive; the suffix does not freely spread from one gradable adjective to another. Either form can introduce a than-standard and accept a differential where the adjective allows it.'
-  terms: 'Comparative: the traditional name. Standard of comparison: what follows than. Differential: the measured difference, as in two inches taller.'
+  summary: Useful for explaining <i>-er</i> comparatives, the <i>than</i>-phrase, and how a difference like <i>two inches</i> can be added.
+  explain: 'A comparative with <i>-er</i> compares two points on the scale named by its base: <i>taller</i>, <i>deeper</i>, <i>sooner</i>, <i>nearer</i> and <i>fewer</i>. It can also express a difference (<i>much taller</i>, <i>two inches taller</i>) and the basis of comparison, whether explicit (<i>taller than Bill</i>) or contextual (<i>the taller building</i>). The same comparative relation can be expressed by a suffix with <i>tall</i> or by <i>more</i> with <i>expensive</i>; the suffix does not freely spread from one gradable adjective to another. Either form can introduce a <i>than</i>-standard and accept a differential where the adjective allows it.'
+  terms: 'Comparative: the traditional name. Standard of comparison: what follows <i>than</i>. Differential: the measured difference, as in <i>two inches taller</i>.'
   examples:
     - text: '[taller]'
       from: entry
@@ -39,20 +39,20 @@ teacher:
       note: Suffix comparative with an explicit standard.
     - text: more expensive than the book
       from: constructed
-      note: The same relation expressed with more.
+      note: The same relation expressed with <i>more</i>.
   watch_for:
-    - A learner might expect -er wherever a comparison is wanted, though more expensive expresses the same relation with expensive.
-    - A learner might read taller in the taller building as having no basis of comparison, when context supplies one.
-  activity: Students compare classroom objects. They use -er or more, add a measured difference (two inches taller), and add a than-phrase.
+    - A learner might expect <i>-er</i> wherever a comparison is wanted, though <i>more expensive</i> expresses the same relation with <i>expensive</i>.
+    - A learner might read <i>taller</i> in <i>the taller building</i> as having no basis of comparison, when context supplies one.
+  activity: Students compare classroom objects. They use <i>-er</i> or <i>more</i>, add a measured difference (<i>two inches taller</i>), and add a <i>than</i>-phrase.
 child:
   hook: Which is taller, you or your teacher?
-  explain: Add -er to words like tall and deep to compare two things. Tall becomes taller. Deep becomes deeper. Then say what you compare it with, like taller than Bill.
+  explain: Add <i>-er</i> to words like <i>tall</i> and <i>deep</i> to compare two things. <i>Tall</i> becomes <i>taller</i>. <i>Deep</i> becomes <i>deeper</i>. Then say what you compare it with, like <i>taller than Bill</i>.
   examples:
     - text: '[taller than Bill]'
       from: entry
     - text: The pool is [deeper] than the pond.
       from: constructed
-  play: Compare two things in the room with an -er word. Add than and name the other thing.
+  play: Compare two things in the room with an <i>-er</i> word. Add <i>than</i> and name the other thing.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

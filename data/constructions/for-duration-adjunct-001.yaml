@@ -1,5 +1,5 @@
 id: for-duration-adjunct-001
-name: Duration with For
+name: "Duration with <i>for</i>"
 pattern: clause with adjunct PP[for + measure NP of time]
 type: mixed
 meanings:
@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: in-duration-completion-001
     relationship: related-to
-    notes: Wrote for an hour measures time spent writing. Wrote the letter in an hour measures elapsed time to completion.
+    notes: <i>Wrote for an hour</i> measures time spent writing. <i>Wrote the letter in an hour</i> measures elapsed time to completion.
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§7.2–7.3

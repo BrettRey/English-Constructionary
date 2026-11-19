@@ -1,5 +1,5 @@
 id: re-iterative-prefix-001
-name: Iterative Re- on a Verb
+name: "Iterative <i>re-</i> on a Verb"
 pattern: V[re- + suitable verbal base]
 type: morphological
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The normal reading presupposes an earlier check. A word that merely starts with the same letters, such as reject, need not support an again analysis.
+    target: The normal reading presupposes an earlier check. A word that merely starts with the same letters, such as <i>reject</i>, need not support an again analysis.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

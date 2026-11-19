@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: The same noun twice with a word between
-  summary: Repeating a noun around a small word, as in day after day, shows a series of separate instances or a job done in stages.
+  summary: Repeating a noun around a small word, as in <i>day after day</i>, shows a series of separate instances or a job done in stages.
   body: |-
-    Say a noun, put after in the middle, say the noun again, and you get a long stretch made of one thing following another: day after day, flight after flight of stairs. The little word matters. With by the sense changes to a task done in steps, as in mouthful by mouthful.
+    Say a noun, put <i>after</i> in the middle, say the noun again, and you get a long stretch made of one thing following another: <i>day after day</i>, <i>flight after flight of stairs</i>. The little word matters. With <i>by</i> the sense changes to a task done in steps, as in <i>mouthful by mouthful</i>.
 
-    The pattern lets a phrase work in more than one role. Flight after flight of stairs acts like a noun phrase, while others work as add-ons to a sentence. Which little word fits depends on which of the two meanings you want. This dictionary marks the analysis as provisional.
+    The pattern lets a phrase work in more than one role. <i>Flight after flight of stairs</i> acts like a noun phrase, while others work as add-ons to a sentence. Which little word fits depends on which of the two meanings you want. This dictionary marks the analysis as provisional.
   examples:
     - text: '[day after day]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: We checked the total [invoice by invoice].
       from: entry
-  try: Pick a noun, say it twice with after between, and put it in a sentence. Then try by in the middle. Does the picture change?
+  try: Pick a noun, say it twice with <i>after</i> between, and put it in a sentence. Then try <i>by</i> in the middle. Does the picture change?
 teacher:
-  summary: Helps explain N after N (a succession of instances) and N by N (a process in stages).
-  explain: The pattern repeats a bare noun around a preposition. With after, it presents a succession of distinct instances of one kind (day after day); CGEL also gives upon in mile upon mile. With by, the repeated noun supplies the units by which an event proceeds (mouthful by mouthful). Which preposition can express a given reading is a property of the subtype, so teach the pairings as patterns. Some uses are noun phrases (flight after flight of stairs) and others are adjuncts. This dictionary marks the analysis as provisional.
+  summary: Helps explain <i>N after N</i> (a succession of instances) and <i>N by N</i> (a process in stages).
+  explain: The pattern repeats a bare noun around a preposition. With <i>after</i>, it presents a succession of distinct instances of one kind (<i>day after day</i>); CGEL also gives <i>upon</i> in <i>mile upon mile</i>. With <i>by</i>, the repeated noun supplies the units by which an event proceeds (<i>mouthful by mouthful</i>). Which preposition can express a given reading is a property of the subtype, so teach the pairings as patterns. Some uses are noun phrases (<i>flight after flight of stairs</i>) and others are adjuncts. This dictionary marks the analysis as provisional.
   examples:
     - text: '[day after day]'
       from: entry
@@ -40,12 +40,12 @@ teacher:
       from: entry
       note: The process advances in stages, one invoice at a time.
   watch_for:
-    - A learner might use after where the by reading (a process in stages) is wanted.
+    - A learner might use <i>after</i> where the <i>by</i> reading (a process in stages) is wanted.
     - A learner might repeat the noun in the plural, when the pattern as described here uses a bare noun form.
-  activity: Write nouns (page, step, drop, hour) on cards. Pairs make one N after N phrase and one N by N phrase with each noun in a sentence, then explain how the two sentences differ.
+  activity: Write nouns (page, step, drop, hour) on cards. Pairs make one <i>N after N</i> phrase and one <i>N by N</i> phrase with each noun in a sentence, then explain how the two sentences differ.
 child:
   hook: What do we call it when one day follows another again and again?
-  explain: Say a word twice with after in the middle. Day after day means day, then another day, and another. With by it means doing something one piece at a time.
+  explain: Say a word twice with <i>after</i> in the middle. <i>Day after day</i> means day, then another day, and another. With <i>by</i> it means doing something one piece at a time.
   examples:
     - text: '[day after day]'
       from: entry
@@ -53,7 +53,7 @@ child:
       from: constructed
     - text: We read [page after page].
       from: constructed
-  play: Pick a noun, like step or page. Make up a sentence with it twice around after. Then try it around by and see how the meaning changes.
+  play: Pick a noun, like step or page. Make up a sentence with it twice around <i>after</i>. Then try it around <i>by</i> and see how the meaning changes.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

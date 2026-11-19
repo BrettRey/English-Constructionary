@@ -1,5 +1,5 @@
 id: proposition-affirmation-001
-name: Proposition Affirmation with Fronted So
+name: "Proposition Affirmation with Fronted <i>so</i>"
 pattern: Clause[so + Subject + finite auxiliary]
 type: mixed
 meanings:
@@ -15,7 +15,7 @@ relatedConstructions:
     relationship: related-to
   - id: so-neither-inversion-001
     relationship: related-to
-    notes: So I did confirms the proposition. So did Jo extends the predicate to another subject. Subject–auxiliary order distinguishes the two.
+    notes: <i>So I did</i> confirms the proposition. <i>So did Jo</i> extends the predicate to another subject. Subject–auxiliary order distinguishes the two.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §3.2; Ch. 17, anaphoric so
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The same subject normally resumes the prior assertion, with subject before auxiliary. Inverted so did I typically adds a parallel case instead.
+    target: The same subject normally resumes the prior assertion, with subject before auxiliary. Inverted <i>so did I</i> typically adds a parallel case instead.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

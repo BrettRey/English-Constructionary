@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Describes material from identifiable objects or organisms without counting the original individuals.
-    details: Apple in there’s apple all over the floor can denote apple matter rather than whole apples. In the culinary reading the material is specifically meat, as with some rabbit. A determiner like the can leave count and non-count readings open. Which material a noun makes accessible depends on lexical convention and context.
+    details: <i>Apple</i> in <i>there’s apple all over the floor</i> can denote apple matter rather than whole apples. In the culinary reading the material is specifically meat, as with <i>some rabbit</i>. A determiner like <i>the</i> can leave count and non-count readings open. Which material a noun makes accessible depends on lexical convention and context.
     examples:
       - form: The toddler got [apple] all over the high chair.
         note: Constructed example with material distributed over a surface.
@@ -17,7 +17,7 @@ relatedConstructions:
     notes: The resulting use has non-count grammar.
   - id: portion-variety-count-001
     relationship: related-to
-    notes: Some chicken can use a count-associated noun for material. Two coffees gives a non-count-associated noun a portion reading and allows numeral and plural marking.
+    notes: <i>Some chicken</i> can use a count-associated noun for material. <i>Two coffees</i> gives a non-count-associated noun a portion reading and allows numeral and plural marking.
 grounds:
   - source: fillmore-lee-goldman-rhomieux-2012
     locator: author draft, §§4.8.1–3 (53–58)
@@ -27,6 +27,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The non-count use permits amount expressions and suspends counting the source individuals. A shared surface form such as the rabbit can still be ambiguous between an animal and its meat.
+    target: The non-count use permits amount expressions and suspends counting the source individuals. A shared surface form such as <i>the rabbit</i> can still be ambiguous between an animal and its meat.
     evidence: FrameNet contrasts general material construal with the culinary interpretation and shows that a culinary construal can in turn feed a portion reading.
     confidence: high

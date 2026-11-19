@@ -4,42 +4,42 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Nouns made by adding -er to a verb
-  summary: Adding -er to a verb gives a noun for someone or something tied to that action.
+  title: Nouns made by adding <i>-er</i> to a verb
+  summary: Adding <i>-er</i> to a verb gives a noun for someone or something tied to that action.
   body: |-
-    A singer is a person who sings. The central reading names the person who does the activity. Some -er words name a tool instead, as in mixer.
+    A <i>singer</i> is a person who <i>sings</i>. The central reading names the person who does the activity. Some <i>-er</i> words name a tool instead, as in <i>mixer</i>.
 
-    Agent nouns like these can carry a complement that matches the object of the verb. In the reviewer of the manuscript, the manuscript is what gets reviewed. The same ending also shows up in islander, but that follows a different pattern, because it starts from a noun rather than a verb.
+    Agent nouns like these can carry a complement that matches the object of the verb. In <i>the reviewer of the manuscript</i>, <i>the manuscript</i> is what gets reviewed. The same ending also shows up in <i>islander</i>, but that follows a different pattern, because it starts from a noun rather than a verb.
   examples:
     - text: '[the reviewer of the manuscript]'
       from: entry
     - text: '[a mixer]'
       from: entry
-  try: Think of a verb for a job. Add -er. Is the new word a person or a tool?
+  try: Think of a verb for a job. Add <i>-er</i>. Is the new word a person or a tool?
 teacher:
-  summary: Helps explain agent and instrument nouns in -er and the of-phrase that matches the verb's object.
-  explain: A deverbal noun in -er names a participant characteristically associated with the action of the base verb. The central reading identifies the person who does the activity (singer). Instrument readings occur with forms such as mixer. With many agent nouns, the verb's object has a corresponding of-phrase, as in the reviewer of the manuscript. The same ending in islander supports a separate noun-base pattern, so not every -er word comes from a verb.
-  terms: Traditional grammars call the person-naming ones (singer) agent nouns; instrument readings such as mixer are a further reading of the same pattern. This dictionary treats the result as an ordinary common noun.
+  summary: Helps explain agent and instrument nouns in <i>-er</i> and the <i>of</i>-phrase that matches the verb's object.
+  explain: A deverbal noun in <i>-er</i> names a participant characteristically associated with the action of the base verb. The central reading identifies the person who does the activity (<i>singer</i>). Instrument readings occur with forms such as <i>mixer</i>. With many agent nouns, the verb's object has a corresponding <i>of</i>-phrase, as in <i>the reviewer of the manuscript</i>. The same ending in <i>islander</i> supports a separate noun-base pattern, so not every <i>-er</i> word comes from a verb.
+  terms: Traditional grammars call the person-naming ones (<i>singer</i>) agent nouns; instrument readings such as <i>mixer</i> are a further reading of the same pattern. This dictionary treats the result as an ordinary common noun.
   examples:
     - text: '[the reviewer of the manuscript]'
       from: entry
     - text: '[a mixer]'
       from: entry
   watch_for:
-    - A learner might assume every -er noun names a person, when mixer names an instrument.
-    - A learner might read islander as built on a verb, when its base is a noun.
-  activity: Students match verbs (sing, review, mix) to -er nouns, then say whether each names a person or a tool, and add an of-phrase to the people words where it fits.
+    - A learner might assume every <i>-er</i> noun names a person, when <i>mixer</i> names an instrument.
+    - A learner might read <i>islander</i> as built on a verb, when its base is a noun.
+  activity: Students match verbs (<i>sing</i>, <i>teach</i>, <i>mix</i>) to <i>-er</i> nouns, then say whether each names a person or a tool, and add an <i>of</i>-phrase to the people words where it fits.
 child:
   hook: What do you call a person who sings?
-  explain: Add -er to a word for an action and you can get a word for who does it, like singer. Sometimes the -er word is a tool instead, like mixer.
+  explain: Add <i>-er</i> to a word for an action and you can get a word for who does it, like <i>singer</i>. Sometimes the <i>-er</i> word is a tool instead, like <i>mixer</i>.
   examples:
     - text: A [singer] stood on the stage.
       from: constructed
     - text: Dad used a [mixer] for the cake.
       from: constructed
-  play: Take sing, paint and teach. Add -er to each one. Say who does each job. Then find a word ending in -er that is a tool.
+  play: Take <i>sing</i>, <i>paint</i> and <i>teach</i>. Add <i>-er</i> to each one. Say who does each job. Then find a word ending in <i>-er</i> that is a tool.
 checked:
   date: "2026-11-19"
   model: claude-sonnet-5-5 (resolving checker flags)
   result: fixed
-  note: "Fixed: teacher terms no longer applies 'agent nouns' to the whole class; it now limits it to the person-naming reading and notes that instrument readings such as mixer belong to the same pattern."
+  note: "Fixed: teacher terms no longer applies 'agent nouns' to the whole class; it now limits it to the person-naming reading and notes that instrument readings such as mixer belong to the same pattern. Frequency pass: teacher.activity verb review (reviewer about 30,300th in SUBTLEX-UK) replaced by teach; entry examples unchanged."

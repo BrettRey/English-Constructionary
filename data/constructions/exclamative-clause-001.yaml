@@ -4,35 +4,35 @@ pattern: "Clause: Exclamative:XP[what/how] + (Subject:XP +) Head:VP"
 type: syntactic
 semanticType: predication
 dimensions:
-  form: "Tensed Clause headed by a VP and marked by an exclamative phrase based on what or how; normally the exclamative phrase is initial and Subject precedes the Predicator"
+  form: "Tensed Clause headed by a VP and marked by an exclamative phrase based on <i>what</i> or <i>how</i>; normally the exclamative phrase is initial and Subject precedes the Predicator"
   meaning: "Presents a proposition as holding to a remarkable degree or in a remarkable way relative to a contextual norm"
   function: "Characteristically makes an exclamatory statement, without being identical to the broader pragmatic category of exclamation"
   distribution: "Main clauses and subordinate exclamative content clauses"
 meanings:
   '1':
-    definition: A headed clause type marked by an exclamative what/how phrase and characteristically used for an exclamatory statement
-    details: "Exclamative what and how mark clause type while also performing a core role inside the exclamative phrase. Headed exclamatives are normally tensed and usually have Subject–Predicator order, although subject postposing and subject–auxiliary inversion are possible. Clause type must be kept distinct from force: exclamative is one syntactic source of exclamatory statements, while the wider exclamation profile also includes interjections, NPs, and recruited declaratives. Phrase-only What a disaster! is not a headed Clause in this project and belongs with clause-analogue semantics (CGEL pp. 853–57, 918–23)."
+    definition: A headed clause type marked by an exclamative <i>what</i>/<i>how</i> phrase and characteristically used for an exclamatory statement
+    details: "Exclamative <i>what</i> and <i>how</i> mark clause type while also performing a core role inside the exclamative phrase. Headed exclamatives are normally tensed and usually have Subject–Predicator order, although subject postposing and subject–auxiliary inversion are possible. Clause type must be kept distinct from force: exclamative is one syntactic source of exclamatory statements, while the wider exclamation profile also includes interjections, NPs, and recruited declaratives. Phrase-only <i>What a disaster!</i> is not a headed Clause in this project and belongs with clause-analogue semantics (CGEL pp. 853–57, 918–23)."
     examples:
       - form: "[What a fine player she is!]"
-        note: What-exclamative with Subject–Predicator order
+        note: <i>What</i>-exclamative with Subject–Predicator order
       - form: "[How generous you are!]"
-        note: How-exclamative expressing remarkable degree
+        note: <i>How</i>-exclamative expressing remarkable degree
       - form: "I realised [what a bargain it was]."
         note: Subordinate exclamative content clause
       - form: "[How happy would he be if he could see her once more!]"
         note: Marked but licensed subject–auxiliary inversion in a headed exclamative
 constraints:
   - type: syntactic
-    description: "The construction is a Clause headed by VP and contains an exclamative phrase based on what or how; Subject–Predicator order is usual but not invariant."
+    description: "The construction is a Clause headed by VP and contains an exclamative phrase based on <i>what</i> or <i>how</i>; Subject–Predicator order is usual but not invariant."
   - type: structural
-    description: "A phrase-only expression such as What a disaster! is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
+    description: "A phrase-only expression such as <i>What a disaster!</i> is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
   - type: pragmatic
     description: "Exclamatory statement is the characteristic use, but exclamative clause type is not coextensive with exclamation or with exclamatory prosody."
 kind:
   provisional: true
   projection:
-    target: "An exclamative what/how phrase inside a headed Clause predicts remarkable-degree interpretation, a strong preference for Subject–Predicator order, and availability in both main and subordinate exclamative environments"
-    evidence: "What/how marking covaries with evaluative degree semantics across main and subordinate headed clauses, while the order possibilities distinguish this construction from open interrogatives without defining it by punctuation or force"
+    target: "An exclamative <i>what</i>/<i>how</i> phrase inside a headed Clause predicts remarkable-degree interpretation, a strong preference for Subject–Predicator order, and availability in both main and subordinate exclamative environments"
+    evidence: "<i>What</i>/<i>how</i> marking covaries with evaluative degree semantics across main and subordinate headed clauses, while the order possibilities distinguish this construction from open interrogatives without defining it by punctuation or force"
     confidence: high
     grounds:
       - source: cgel-2002
@@ -48,8 +48,8 @@ kind:
   secured: stable
   profile:
     core:
-      - property: Exclamative what/how marking
-        diagnostics: ["what with exclamative NP", "how with gradable phrase"]
+      - property: Exclamative <i>what</i>/<i>how</i> marking
+        diagnostics: ["<i>what</i> with exclamative NP", "<i>how</i> with gradable phrase"]
         weight: high
       - property: Remarkable-degree interpretation
         diagnostics: ["evaluation against contextual norm", "exclamatory statement as characteristic use"]
@@ -67,13 +67,13 @@ relatedConstructions:
     parthood: formal
   - id: exclamative-word-001
     relationship: interfaces-with
-    notes: Exclamative what/how supplies both a core phrasal role and the feature marking the Clause as exclamative
+    notes: Exclamative <i>what</i>/<i>how</i> supplies both a core phrasal role and the feature marking the Clause as exclamative
   - id: exclamation-001
     relationship: interfaces-with
     notes: Exclamative clauses characteristically realize exclamatory force, but the pragmatic exclamation profile is broader than this clause type
   - id: open-interrogative-clause-001
     relationship: see-also
-    notes: What and how can mark either type, but role, order, meaning, and context distinguish them
+    notes: <i>What</i> and <i>how</i> can mark either type, but role, order, meaning, and context distinguish them
   - id: clause-analogue-001
     relationship: see-also
     notes: Phrase-only exclamatory expressions receive clausal interpretations without being headed Clauses

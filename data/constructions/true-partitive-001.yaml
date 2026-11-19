@@ -1,5 +1,5 @@
 id: true-partitive-001
-name: True Partitive with Of
+name: "True Partitive with <i>of</i>"
 pattern: NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]
 type: mixed
 meanings:
@@ -9,7 +9,7 @@ meanings:
       - form: They opened [three of the boxes].
         note: Constructed illustration.
       - form: They bought [three of the cartons of milk].
-        note: Constructed comparison. Of the cartons supplies an established group of containers. Of milk identifies the contents of each.
+        note: Constructed comparison. <i>Of the cartons</i> supplies an established group of containers. <i>Of milk</i> identifies the contents of each.
 relatedConstructions:
   - id: np-001
     relationship: specialization-of
@@ -18,7 +18,7 @@ relatedConstructions:
     relationship: interfaces-with
   - id: measure-pseudopartitive-001
     relationship: related-to
-    notes: Three of the cartons selects members of a set. Three litres of the milk specifies quantity. A definite NP after of is compatible with either analysis.
+    notes: <i>Three of the cartons</i> selects members of a set. <i>Three litres of the milk</i> specifies quantity. A definite NP after <i>of</i> is compatible with either analysis.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §§7.3–7.6, 9.2
@@ -27,6 +27,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The of-phrase supplies the domain counted over. The boxes can be more numerous than three. In three boxes of apples, of apples instead identifies the content or measure domain.
+    target: The <i>of</i>-phrase supplies the domain counted over. The boxes can be more numerous than three. In <i>three boxes of apples</i>, <i>of apples</i> instead identifies the content or measure domain.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

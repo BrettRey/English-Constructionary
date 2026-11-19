@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     implements: letter-case-specification-001.1
-    specialization: "Encodes letter-case as a premodifier (small-c, big-D), specifying the intended interpretive status."
+    specialization: "Encodes letter-case as a premodifier (<i>small-c</i>, <i>big-D</i>), specifying the intended interpretive status."
     examples:
       - form: "He's a [small-c] catholic."
         note: "Ordinary descriptive sense; not the institution."
@@ -37,6 +37,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The compact modifier big-D in a big-D Democrat can disambiguate the label before its head. The full PP with a capital D can follow the label and express an equivalent literal contrast."
-    evidence: "The lexical meanings of capital and small supply the comparison. The position and interpretation contrast uses constructed forms rather than claims about regional frequencies."
+    target: "The compact modifier <i>big-D</i> in <i>a big-D Democrat</i> can disambiguate the label before its head. The full PP <i>with a capital D</i> can follow the label and express an equivalent literal contrast."
+    evidence: "The lexical meanings of <i>capital</i> and <i>small</i> supply the comparison. The position and interpretation contrast uses constructed forms rather than claims about regional frequencies."
     confidence: medium

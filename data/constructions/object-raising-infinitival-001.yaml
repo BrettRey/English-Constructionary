@@ -1,5 +1,5 @@
 id: object-raising-infinitival-001
-name: Object Raising with a To-Infinitival
+name: "Object Raising with a <i>to</i>-Infinitival"
 pattern: VP[V + raised NPᵢ + to-infinitival with understood subjectᵢ]
 type: syntactic
 meanings:
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The raised slot admits dummy there, and an ordinary raised NP can correspond to the subject of a passive with verbs such as believe. It need not independently participate in the believing.
+    target: The raised slot admits dummy <i>there</i>, and an ordinary raised NP can correspond to the subject of a passive with verbs such as <i>believe</i>. It need not independently participate in the believing.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Whose can occur as a clause-level complement in Whose is this? and as an interrogative fused head in Whose did you borrow? The dependent use in Whose key is this? includes a separate nominal."
-    evidence: "CGEL distinguishes three slots for whose and gives an independent NP use with nominal interpretation recovered from context."
+    target: "<i>Whose</i> can occur as a clause-level complement in <i>Whose is this?</i> and as an interrogative fused head in <i>Whose did you borrow?</i> The dependent use in <i>Whose key is this?</i> includes a separate nominal."
+    evidence: "CGEL distinguishes three slots for <i>whose</i> and gives an independent NP use with nominal interpretation recovered from context."
     confidence: medium

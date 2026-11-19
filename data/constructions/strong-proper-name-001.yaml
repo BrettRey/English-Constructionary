@@ -3,28 +3,28 @@ name: Strong Proper Name Construction
 pattern: "NP[Head:Nom[sg]; no Det] with naming semantics, in referential use"
 type: mixed
 dimensions:
-  form: "Singular NP with no determiner. Its head may be a proper noun (Kim, Ukraine) or a common noun in naming use (Mom, Grandma)."
+  form: "Singular NP with no determiner. Its head may be a proper noun (<i>Kim</i>, <i>Ukraine</i>) or a common noun in naming use (<i>Mom</i>, <i>Grandma</i>)."
   meaning: "Naming semantics: the NP identifies its referent as the bearer of a conventional name, and is inherently definite."
   function: "Referential use in argument functions: subject, object in a VP, object in a PP."
-  distribution: "Not names with the article (weak proper names: the Thames, the Philippines), not bare vocatives (Waiter!, Sally!), whose bareness comes from the vocative function."
+  distribution: "Not names with the article (weak proper names: <i>the Thames</i>, <i>the Philippines</i>), not bare vocatives (<i>Waiter!</i>, <i>Sally!</i>), whose bareness comes from the vocative function."
 meanings:
   '1':
     definition: Identifies its referent as the bearer of a conventional name, with no determiner
-    details: "CGEL distinguishes strong proper names, with no determiner (Kim, New York), from weak ones, where the article marks definiteness redundantly (the Thames). The construction is the strong kind, stated as a form-meaning pairing: a determinerless singular NP with naming semantics in referential use. Proper name is a semantic classification; strong and weak describe the form of the NP; the head belongs to the NP, not to the name."
+    details: "CGEL distinguishes strong proper names, with no determiner (<i>Kim</i>, <i>New York</i>), from weak ones, where the article marks definiteness redundantly (<i>the Thames</i>). The construction is the strong kind, stated as a form-meaning pairing: a determinerless singular NP with naming semantics in referential use. Proper name is a semantic classification; strong and weak describe the form of the NP; the head belongs to the NP, not to the name."
     examples:
       - form: "[Kim] called."
         note: Proper-noun head
       - form: "She lives in [New York]."
         note: Proper-noun head, object in a PP
       - form: "[Mom] called."
-        note: Common-noun head in naming use; the same noun takes a determiner in its relational use (my mom called)
+        note: Common-noun head in naming use; the same noun takes a determiner in its relational use (<i>my mom called</i>)
       - form: "You wanna roll the ball to [Mommy]?"
         note: "Attested, object in a PP; mother to child (CHILDES Brent/Siskind, s1/010224.cha, line 1826)"
       - form: "Did you tell [Grampa] you went out to see him?"
         note: "Attested, object in a VP; father to child (CHILDES Demetras2, Jimmy/father/020702.cha, line 281)"
   '2':
     definition: Takes non-restrictive embellishments without a determiner
-    details: "A small set of emotive adjectives can embellish a strong name in a bare NP, without selecting among bearers. An ordinary singular count noun takes the same adjective only with a determiner (the poor dog needs a rest)."
+    details: "A small set of emotive adjectives can embellish a strong name in a bare NP, without selecting among bearers. An ordinary singular count noun takes the same adjective only with a determiner (<i>the poor dog needs a rest</i>)."
     examples:
       - form: "[Poor Henry] needs a rest."
         note: Emotive embellishment of a proper-noun-headed name
@@ -32,13 +32,13 @@ meanings:
         note: Constructed; the same pattern with a common-noun head in naming use
 constraints:
   - type: syntactic
-    description: "No determiner, and the NP is singular. Names plural in form (Naples, the surname Fields) are fine; syntactically plural names (the Alps) are always weak."
+    description: "No determiner, and the NP is singular. Names plural in form (<i>Naples</i>, the surname <i>Fields</i>) are fine; syntactically plural names (<i>the Alps</i>) are always weak."
   - type: semantic
-    description: "Requires a conventional naming relation between the form and its referent; identifiability alone is not enough (the doctor can identify one person without being a name)."
+    description: "Requires a conventional naming relation between the form and its referent; identifiability alone is not enough (<i>the doctor</i> can identify one person without being a name)."
   - type: head
     description: "Proper nouns are specialized for heading the NPs used as names, but a common noun in naming use can head the construction; on CGEL's analysis kin terms used as names remain common nouns."
   - type: pragmatic
-    description: "Referential use only. Bare vocatives are not instances: the vocative function allows bare common nouns too (Waiter!)."
+    description: "Referential use only. Bare vocatives are not instances: the vocative function allows bare common nouns too (<i>Waiter!</i>)."
 relatedConstructions:
   - id: np-bare-001
     relationship: specialization-of
@@ -49,7 +49,7 @@ relatedConstructions:
   - id: np-proper-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: "Overlap is the strong proper-noun-headed NPs (London); weak names (the United Nations) are proper-noun NPs outside the construction, and common-noun heads in naming use (Mom) are inside it but not proper-noun NPs"
+    notes: "Overlap is the strong proper-noun-headed NPs (<i>London</i>); weak names (<i>the United Nations</i>) are proper-noun NPs outside the construction, and common-noun heads in naming use (<i>Mom</i>) are inside it but not proper-noun NPs"
   - id: n-proper-001
     relationship: related-to
     notes: Proper nouns are specialized for heading NPs used as names but are not required by the construction
@@ -74,7 +74,7 @@ grounds:
     locator: "Ch. 5 §20.3, pp. 519-520"
     relation: cites
     bears-on: projection
-    note: "Emotive adjectives as embellishments in bare NPs (poor Henry)"
+    note: "Emotive adjectives as embellishments in bare NPs (<i>poor Henry</i>)"
   - source: goldberg-2006
     locator: "ch. 1"
     relation: cites
@@ -93,7 +93,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Knowing that a singular form is someone's conventional name predicts its bare use as an argument (Mom called, Ask Mom), its definite reading, and its bare emotive embellishment (poor Mom), where the same noun in relational use requires a determiner (my mom)"
+    target: "Knowing that a singular form is someone's conventional name predicts its bare use as an argument (<i>Mom called</i>, <i>Ask Mom</i>), its definite reading, and its bare emotive embellishment (<i>poor Mom</i>), where the same noun in relational use requires a determiner (<i>my mom</i>)"
     evidence: "CGEL's descriptions of strong names, kin-term names and emotive embellishment (pp. 517-520), and attested bare kin-term arguments in CHILDES caregiver speech"
     confidence: medium
   secured: stable
@@ -103,18 +103,18 @@ kind:
         diagnostics: ["no article or genitive determiner in argument functions", "indefinite determiners excluded"]
         weight: high
       - property: "Naming semantics"
-        diagnostics: ["conventional name of its referent", "not merely identifying (the doctor)"]
+        diagnostics: ["conventional name of its referent", "not merely identifying (<i>the doctor</i>)"]
         weight: high
       - property: "Singular, referential"
         diagnostics: ["argument function", "not vocative", "not predicative"]
         weight: high
     peripheral:
       - property: "Bare emotive embellishment"
-        diagnostics: ["poor Henry", "dear old Mr Smithers"]
+        diagnostics: ["<i>poor Henry</i>", "<i>dear old Mr Smithers</i>"]
         weight: medium
   boundaries:
     overlaps_with: ["np-proper-001", "np-bare-001"]
-    known_boundary_items: ["Gambia / the Gambia (optional article)", "titles such as If on a winter's night a traveler (not NPs; CGEL excludes titles from the strong/weak account)"]
+    known_boundary_items: ["<i>Gambia</i> / <i>the Gambia</i> (optional article)", "titles such as <i>If on a winter's night a traveler</i> (not NPs; CGEL excludes titles from the strong/weak account)"]
   grain:
     level: meso
     parent_families: ["reference", "determination"]

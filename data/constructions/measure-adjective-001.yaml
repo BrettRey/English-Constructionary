@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Gives the position of a referent on a scale such as height, length, or age.
-    details: The same length is expressed by six feet long in a predicate and six-foot-long before a noun. The unit usually has ordinary number inflection in the predicative form and remains singular in the pre-head modifier. Corpus examples show variation in both directions. Only selected scale adjectives take the frame. Fifteen-pound turkey works without an adjective, while fifteen-pound-heavy turkey is excluded in the ordinary pattern.
+    details: The same length is expressed by <i>six feet long</i> in a predicate and <i>six-foot-long</i> before a noun. The unit usually has ordinary number inflection in the predicative form and remains singular in the pre-head modifier. Corpus examples show variation in both directions. Only selected scale adjectives take the frame. <i>Fifteen-pound turkey</i> works without an adjective, while <i>fifteen-pound-heavy turkey</i> is excluded in the ordinary pattern.
     examples:
       - form: The board is [six feet long].
-        note: Constructed predicative example with plural feet.
+        note: Constructed predicative example with plural <i>feet</i>.
       - form: We ordered a [six-foot-long] board.
         note: Constructed counterpart with the singular unit and conventional written hyphens.
 relatedConstructions:

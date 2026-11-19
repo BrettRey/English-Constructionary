@@ -1,16 +1,16 @@
 id: imperative-negation-do-001
-name: Imperative Negation with do-support
+name: "Imperative Negation with <i>do</i>-support"
 pattern: "Do not/Don't + VP (imperative)"
 type: syntactic
 meanings:
   '1':
     definition: Issues a negative directive (prohibitive imperative)
-    details: Uses do-support for negation in imperatives, even when an auxiliary could negate in declaratives.
+    details: Uses <i>do</i>-support for negation in imperatives, even when an auxiliary could negate in declaratives.
     examples:
       - form: "[Don't] look at me."
         note: Prohibitive directive
       - form: "[Don't] be afraid."
-        note: do-support despite auxiliary be
+        note: <i>do</i>-support despite auxiliary <i>be</i>
       - form: "[Don't] you look at me!"
         note: Emphatic negative imperative with subject
       - form: "[Don't] everyone shout it out."
@@ -19,12 +19,12 @@ constraints:
   - type: syntactic
     description: Imperative clause with base-form VP.
   - type: structural
-    description: Negation is expressed with do-support (do not/don't) in imperatives.
+    description: Negation is expressed with <i>do</i>-support (<i>do not</i>/<i>don't</i>) in imperatives.
 relatedConstructions:
   - id: imperative-clause-001
     relationship: specialization-of
     parthood: formal
-    notes: Negative imperative retains imperative clause type and its special do-support requirement
+    notes: Negative imperative retains imperative clause type and its special <i>do</i>-support requirement
   - id: secondary-verbal-negation-001
     relationship: related-to
   - id: lets-inclusive-001
@@ -37,6 +37,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A prohibitive imperative can use don’t with be, as in Don’t be late, while an ordinary finite declarative uses She isn’t late. The negative inclusive Let’s not leave instantiates a different imperative subtype."
-    evidence: "CGEL documents the distinctive imperative do distribution and the order alternatives in negatives with let’s."
+    target: "A prohibitive imperative can use <i>don’t</i> with <i>be</i>, as in <i>Don’t be late</i>, while an ordinary finite declarative uses <i>She isn’t late</i>. The negative inclusive <i>Let’s not leave</i> instantiates a different imperative subtype."
+    evidence: "CGEL documents the distinctive imperative <i>do</i> distribution and the order alternatives in negatives with <i>let’s</i>."
     confidence: medium

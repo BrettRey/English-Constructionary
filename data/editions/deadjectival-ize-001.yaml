@@ -4,20 +4,20 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Verbs ending in -ize
-  summary: Adding -ize to an adjective can make a verb meaning to cause or undergo a change tied to that adjective.
+  title: Verbs ending in <i>-ize</i>
+  summary: Adding <i>-ize</i> to an adjective can make a verb meaning to cause or undergo a change tied to that adjective.
   body: |-
-    Stable is an adjective, and stabilize is a verb. In The update should stabilize the connection, the verb means to make the connection stable. The adjective names the result of the change.
+    <i>Stable</i> is an adjective, and <i>stabilize</i> is a verb. In <i>The update should stabilize the connection</i>, the verb means to make the connection stable. The adjective names the result of the change.
 
-    The -ize ending is also added to nouns, and some -ize verbs have meanings of their own that go beyond this pattern. This dictionary's pattern is the one built on an adjective, where the verb means causing or undergoing a change connected to that adjective. The analysis is provisional. The pattern is also written with the spelling -ise.
+    The <i>-ize</i> ending is also added to nouns, and some <i>-ize</i> verbs have meanings of their own that go beyond this pattern. This dictionary's pattern is the one built on an adjective, where the verb means causing or undergoing a change connected to that adjective. The analysis is provisional. The pattern is also written with the spelling <i>-ise</i>.
   examples:
     - text: The update should [stabilize] the connection.
       from: entry
-  try: Think of an adjective, such as stable, and add -ize. What would the new verb mean?
+  try: Think of an adjective, such as <i>stable</i>, and add <i>-ize</i>. What would the new verb mean?
 teacher:
-  summary: Helps explain verbs like stabilize formed from an adjective with -ize or -ise.
-  explain: The pattern forms a verb from an adjective base plus -ize (or -ise), meaning to cause or undergo a change connected to the adjective. In the transparent causative use, the adjective stable specifies the result of stabilize. The -ize family also has noun bases and lexicalized meanings beyond this construction, so the adjective's contribution may not be transparent. This dictionary links this pattern to the causative-inchoative entry and marks the analysis as provisional.
-  terms: Traditional grammars may call -ize a verb-forming suffix. This dictionary treats the pattern as a morphological construction from an adjective.
+  summary: "Helps explain verbs like <i>stabilize</i> formed from an adjective with <i>-ize</i> or <i>-ise</i>. <i>Stabilize</i> itself is relatively infrequent (its British spelling <i>stabilise</i> is about 12,300th among word forms in the SUBTLEX-UK subtitle counts)."
+  explain: The pattern forms a verb from an adjective base plus <i>-ize</i> (or <i>-ise</i>), meaning to cause or undergo a change connected to the adjective. In the transparent causative use, the adjective <i>stable</i> specifies the result of <i>stabilize</i>. The <i>-ize</i> family also has noun bases and lexicalized meanings beyond this construction, so the adjective's contribution may not be transparent. This dictionary links this pattern to the causative-inchoative entry and marks the analysis as provisional.
+  terms: Traditional grammars may call <i>-ize</i> a verb-forming suffix. This dictionary treats the pattern as a morphological construction from an adjective.
   examples:
     - text: The update should [stabilize] the connection.
       from: entry
@@ -29,11 +29,11 @@ teacher:
       from: entry
       note: The verb causes the connection to become stable.
   watch_for:
-    - A learner might assume every -ize verb comes from an adjective, when some have noun bases.
-    - A learner might assume the meaning of every -ize verb follows from its base.
-  activity: Give students adjectives (stable, final, legal). They form verbs with -ize if the verb exists, write a sentence for each, and check each in a dictionary to see whether the result matches the adjective's meaning.
+    - A learner might assume every <i>-ize</i> verb comes from an adjective, when some have noun bases.
+    - A learner might assume the meaning of every <i>-ize</i> verb follows from its base.
+  activity: Give students adjectives (<i>stable</i>, <i>final</i>, <i>legal</i>). They form verbs with <i>-ize</i> if the verb exists, write a sentence for each, and check each in a dictionary to see whether the result matches the adjective's meaning.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)
   result: fixed
-  note: 'Fixed: curious body no longer says this dictionary covers only the transparent-result case (the entry defines the pattern as a change connected to the adjective; transparent result is the causative use); ''causative-inchoative alternation'' changed to ''entry''; ''derivational'' changed to ''morphological'' as in the entry.'
+  note: 'Fixed: curious body no longer says this dictionary covers only the transparent-result case (the entry defines the pattern as a change connected to the adjective; transparent result is the causative use); ''causative-inchoative alternation'' changed to ''entry''; ''derivational'' changed to ''morphological'' as in the entry. Frequency pass: teacher.summary now opens by marking the pattern as mainly useful for academic reading and writing (the British spelling stabilise alone is about 12,300th in SUBTLEX-UK; stabilize is rarer there), not low priority; activity unchanged.'

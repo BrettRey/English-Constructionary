@@ -5,21 +5,21 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: How much something changed
-  summary: After a verb of rising or falling, by plus an amount says how big the change was, while to says where it ended up.
+  summary: After a verb of rising or falling, <i>by</i> plus an amount says how big the change was, while <i>to</i> says where it ended up.
   body: |-
-    The water level fell by twelve centimetres tells you the size of the drop: the difference between the starting and ending levels. The water level fell to twelve centimetres tells you something else: the level it reached. Same verb, different question answered.
+    <i>The water level fell by twelve centimetres</i> tells you the size of the drop: the difference between the starting and ending levels. <i>The water level fell to twelve centimetres</i> tells you something else: the level it reached. Same verb, different question answered.
 
-    The word by measures the gap between where something started and where it finished. The word to names the final value. This dictionary marks the analysis as provisional.
+    The word <i>by</i> measures the gap between where something started and where it finished. The word <i>to</i> names the final value. This dictionary marks the analysis as provisional.
   examples:
     - text: The water level fell [by twelve centimetres].
       from: entry
     - text: The water level fell [to twelve centimetres].
       from: entry
-  try: Say how much a price, a temperature or a score changed, once with by and once with to. Which tells you the change, and which tells you the new value?
+  try: Say how much a price, a temperature or a score changed, once with <i>by</i> and once with <i>to</i>. Which tells you the change, and which tells you the new value?
 teacher:
-  summary: Helps explain by plus a measure phrase for the amount of change, versus to for the endpoint.
-  explain: With a verb of scalar change (fall, rise and the like), a PP headed by by plus a measure NP quantifies the amount of change on an ordered scale. By measures the difference between starting and ending values. To with an endpoint instead names the final value, and it can co-occur with a differential. This dictionary treats the by-phrase as a specialization of the PP and relates it to differential measure phrases in comparatives. The analysis is marked provisional.
-  terms: The by-phrase here is sometimes called a differential or amount phrase.
+  summary: Helps explain <i>by</i> plus a measure phrase for the amount of change, versus <i>to</i> for the endpoint.
+  explain: With a verb of scalar change (<i>fall</i>, <i>rise</i> and the like), a PP headed by <i>by</i> plus a measure NP quantifies the amount of change on an ordered scale. <i>By</i> measures the difference between starting and ending values. <i>To</i> with an endpoint instead names the final value, and it can co-occur with a differential. This dictionary treats the <i>by</i>-phrase as a specialization of the PP and relates it to differential measure phrases in comparatives. The analysis is marked provisional.
+  terms: The <i>by</i>-phrase here is sometimes called a differential or amount phrase.
   examples:
     - text: The water level fell [by twelve centimetres].
       from: entry
@@ -33,9 +33,9 @@ teacher:
       from: entry
       note: The value reached.
   watch_for:
-    - A learner might read fell to twelve centimetres as a drop of twelve centimetres.
-    - A learner might choose by or to without checking whether the number is a difference or an endpoint.
-  activity: Show a simple graph with start and end values. Students write one by sentence and one to sentence about it, then swap and check which number each sentence reports.
+    - A learner might read <i>fell to twelve centimetres</i> as a drop of twelve centimetres.
+    - A learner might choose <i>by</i> or <i>to</i> without checking whether the number is a difference or an endpoint.
+  activity: Show a simple graph with start and end values. Students write one <i>by</i> sentence and one <i>to</i> sentence about it, then swap and check which number each sentence reports.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

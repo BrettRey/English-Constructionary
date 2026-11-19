@@ -1,11 +1,11 @@
 id: out-of-ing-causative-001
-name: Out-of Causative with an -ing Clause
+name: "<i>out of</i> Causative with an <i>-ing</i> Clause"
 pattern: VP[Head:V + Od:NPᵢ + Comp:PP[out of + gerund-participial Clause with understood subjectᵢ]]
 type: mixed
 meanings:
   '1':
     definition: Presents the object referent as caused to abandon an action or prevented from carrying it out.
-    details: Talk someone out of leaving can prevent a prospective departure. Other uses involve stopping an ongoing course of action or losing an opportunity through deception. The object supplies the understood subject of the gerund-participial. A report of trying, intending, or planning to bring this about does not assert that the prevention occurred.
+    details: <i>Talk someone out of leaving</i> can prevent a prospective departure. Other uses involve stopping an ongoing course of action or losing an opportunity through deception. The object supplies the understood subject of the gerund-participial. A report of trying, intending, or planning to bring this about does not assert that the prevention occurred.
     examples:
       - form: They [talked Lee out of leaving].
         note: Constructed prospective action. Lee is understood as the person who would leave.
@@ -37,6 +37,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The affected object is understood as the participant in the action that is prevented, abandoned, or made unavailable. The paired into-frame can express the opposite outcome.
-    evidence: Kim and Sim analyze 725 COCA examples. The noun-taking out of frame in Hunston’s inventory supplies a point of comparison.
+    target: The affected object is understood as the participant in the action that is prevented, abandoned, or made unavailable. The paired <i>into</i>-frame can express the opposite outcome.
+    evidence: Kim and Sim analyze 725 COCA examples. The noun-taking <i>out of</i> frame in Hunston’s inventory supplies a point of comparison.
     confidence: high

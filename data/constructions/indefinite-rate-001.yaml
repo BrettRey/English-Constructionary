@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Expresses a ratio by pairing a numerator with a unit denominator.
-    details: Fifty miles an hour supplies a speed, even if the measured motion lasts only a minute. Fifty miles every hour can instead assert successive hourly totals. The same form supports price, salary, and frequency. A per-phrase can often express the same ratio and is more flexible with stacked or complex denominators.
+    details: <i>Fifty miles an hour</i> supplies a speed, even if the measured motion lasts only a minute. <i>Fifty miles every hour</i> can instead assert successive hourly totals. The same form supports price, salary, and frequency. A <i>per</i>-phrase can often express the same ratio and is more flexible with stacked or complex denominators.
     examples:
       - form: He was going at [50 miles an hour].
         note: Distance per elapsed time.
@@ -35,10 +35,10 @@ grounds:
     locator: §4.14 in author draft
     relation: discusses
     bears-on: projection
-    note: Compares the indefinite denominator with an every-time adjunct and a per-phrase.
+    note: Compares the indefinite denominator with an <i>every</i>-time adjunct and a <i>per</i>-phrase.
 kind:
   provisional: true
   projection:
     target: The second NP is interpreted as a unit denominator. The construction can describe a rate without asserting one complete occurrence of that unit.
-    evidence: CGEL distinguishes the a- and per-forms. The FrameNet account controls the duration of motion in the comparison with every hour.
+    evidence: CGEL distinguishes the <i>a</i>- and <i>per</i>-forms. The FrameNet account controls the duration of motion in the comparison with <i>every hour</i>.
     confidence: high

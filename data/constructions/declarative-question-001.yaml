@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: A declarative Clause used as a strongly same-polarity-biased question through question prosody
-    details: "Positive declarative questions are biased toward a positive answer and negative declarative questions toward a negative answer. The expected answer therefore has the same propositional content as the question, and confirmatory responses such as That's right, Exactly, and Quite so are especially natural. Question is the semantic category applied to a syntactically declarative Clause, with question intonation marking the combination; the host does not change clause type. It is not an echo question, since it need not repeat or query the wording of a prior stimulus (CGEL pp. 879–83)."
+    details: "Positive declarative questions are biased toward a positive answer and negative declarative questions toward a negative answer. The expected answer therefore has the same propositional content as the question, and confirmatory responses such as <i>That's right</i>, <i>Exactly</i>, and <i>Quite so</i> are especially natural. Question is the semantic category applied to a syntactically declarative Clause, with question intonation marking the combination; the host does not change clause type. It is not an echo question, since it need not repeat or query the wording of a prior stimulus (CGEL pp. 879–83)."
     examples:
       - form: "[They've finished?]"
         note: Positive declarative question biased toward confirmation that they have finished
@@ -34,7 +34,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "Declarative order plus question prosody predicts strong same-polarity bias, confirmation-seeking function, and compatibility with responses such as That's right or Exactly, in contrast to a neutral closed interrogative"
+    target: "Declarative order plus question prosody predicts strong same-polarity bias, confirmation-seeking function, and compatibility with responses such as <i>That's right</i> or <i>Exactly</i>, in contrast to a neutral closed interrogative"
     evidence: "Positive and negative declarative questions consistently reverse neither polarity nor expected answer; their response profile and confidence-marker compatibility diagnose bias independently of declarative word order"
     confidence: high
     grounds:
@@ -62,7 +62,7 @@ kind:
         weight: high
   boundaries:
     known_boundary_items:
-      - "She is a genius?: ordinary declarative question if it asks whether she is a genius; echo question if it asks whether the speaker said that she is"
+      - "<i>She is a genius?</i>: ordinary declarative question if it asks whether she is a genius; echo question if it asks whether the speaker said that she is"
   grain:
     level: meso
     parent_families:

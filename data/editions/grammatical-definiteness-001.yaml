@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Pointing out which one you mean
-  summary: Words like the, this and that, or a name such as John, can show that the listener is able to work out which one is meant, in contrast with a or some.
+  summary: Words like <i>the</i>, <i>this</i> and <i>that</i>, or a name such as <i>John</i>, can show that the listener is able to work out which one is meant, in contrast with <i>a</i> or <i>some</i>.
   body: |-
-    Saying the cat signals that the listener can work out which cat. A cat or some person does not. The same pairs show other contrasts: the students against some students is an established group against a subset, and the winner against a winner is unique against arbitrary.
+    Saying <i>the cat</i> signals that the listener can work out which cat. <i>A cat</i> or <i>some person</i> does not. The same pairs show other contrasts: <i>the students</i> against <i>some students</i> is an established group against a subset, and <i>the winner</i> against <i>a winner</i> is unique against arbitrary.
 
-    These contrasts aren't a simple switch tied to one word. Shared knowledge can make the only exit identifiable the first time it's mentioned. And in take the train, the word the can mark the activity itself without pointing to a specific train.
+    These contrasts aren't a simple switch tied to one word. Shared knowledge can make the only exit identifiable the first time it's mentioned. And in <i>take the train</i>, the word <i>the</i> can mark the activity itself without pointing to a specific train.
   examples:
     - text: '[the]/[a] cat'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[the] students/[some] students'
       from: entry
-  try: Compare the book and a book in your own talk. When do you say each?
+  try: Compare <i>the book</i> and <i>a book</i> in your own talk. When do you say each?
 teacher:
   summary: Frames definiteness as identifiability, reference scope and discourse status, with known mismatches.
-  explain: 'Grammatical definiteness is a semantic feature implemented through nominal determination. This dictionary distinguishes identifiability (the cat against a cat), reference scope (the students against some students; the winner against a winner) and discourse status (given against new). Form is typically realized by the, this, that, dependent genitive pronouns, genitive NPs or bare proper nouns. Familiarity, unique reference and structural diagnostics need separate predictions: shared knowledge can make the only exit identifiable at first mention, and the in take the train can mark a lexicalized activity without distinguishing a specific train. This dictionary marks this analysis as provisional.'
-  terms: This dictionary describes the forms as typically deital determiners (a function, filled by the, this, that, dependent genitive pronouns or genitive noun phrases) or bare proper nouns. The and a are determinatives (often called articles), and their function in the NP is determiner.
+  explain: 'Grammatical definiteness is a semantic feature implemented through nominal determination. This dictionary distinguishes identifiability (<i>the cat</i> against <i>a cat</i>), reference scope (<i>the students</i> against <i>some students</i>; <i>the winner</i> against <i>a winner</i>) and discourse status (given against new). Form is typically realized by <i>the</i>, <i>this</i>, <i>that</i>, dependent genitive pronouns, genitive NPs or bare proper nouns. Familiarity, unique reference and structural diagnostics need separate predictions: shared knowledge can make the only exit identifiable at first mention, and <i>the</i> in <i>take the train</i> can mark a lexicalized activity without distinguishing a specific train. This dictionary marks this analysis as provisional.'
+  terms: This dictionary describes the forms as typically deital determiners (a function, filled by <i>the</i>, <i>this</i>, <i>that</i>, dependent genitive pronouns or genitive noun phrases) or bare proper nouns. <i>The</i> and <i>a</i> are determinatives (often called articles), and their function in the NP is determiner.
   examples:
     - text: '[the]/[a] cat'
       from: entry
@@ -35,11 +35,11 @@ teacher:
       note: Given versus new.
     - text: John/some person
       from: entry
-      note: A name is inherently identifiable; some person is not.
+      note: A name is inherently identifiable; <i>some person</i> is not.
   watch_for:
-    - A learner might think the requires that the listener has seen the thing before, when shared knowledge or a lexicalized activity can also license it.
-    - A learner might take the train in take the train as pointing to one specific train.
-  activity: Give students short texts with the and a. They underline each, say whether the referent is new, given or identifiable from shared knowledge, and discuss any that don't fit.
+    - A learner might think <i>the</i> requires that the listener has seen the thing before, when shared knowledge or a lexicalized activity can also license it.
+    - A learner might take <i>the train</i> in <i>take the train</i> as pointing to one specific train.
+  activity: Give students short texts with <i>the</i> and <i>a</i>. They underline each, say whether the referent is new, given or identifiable from shared knowledge, and discuss any that don't fit.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

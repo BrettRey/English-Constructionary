@@ -1,14 +1,14 @@
 id: continuative-away-at-001
-name: Continuative Away At
+name: "Continuative <i>away at</i>"
 pattern: VP[Head:V + away + PP[at + NP[target]]]
 type: mixed
 meanings:
   '1':
     definition: Describes sustained or repeated activity directed at a target.
-    details: The activity can consist of many small effects on the target without presenting a finished result. The combination sometimes allows a verb that is markedly less acceptable with at alone. Away here has an aspectual contribution. A directional away from construction has a separate interpretation.
+    details: The activity can consist of many small effects on the target without presenting a finished result. The combination sometimes allows a verb that is markedly less acceptable with <i>at</i> alone. <i>Away</i> here has an aspectual contribution. A directional <i>away from</i> construction has a separate interpretation.
     examples:
       - form: Simmy was [carving away at the roast].
-        note: Published comparison. The version without away was judged degraded.
+        note: Published comparison. The version without <i>away</i> was judged degraded.
         grounds:
           - source: jackendoff-1997
             locator: p. 540
@@ -19,10 +19,10 @@ meanings:
 relatedConstructions:
   - id: conative-at-001
     relationship: related-to
-    notes: The two patterns share a target at-phrase and differ in aspect and available verbs.
+    notes: The two patterns share a target <i>at</i>-phrase and differ in aspect and available verbs.
   - id: time-away-001
     relationship: related-to
-    notes: Both have nonlocative away, but the time-away pattern licenses a time object.
+    notes: Both have nonlocative <i>away</i>, but the time-away pattern licenses a time object.
 grounds:
   - source: birmingham-english-constructicon
     locator: V away at n, records 45–48
@@ -33,10 +33,10 @@ grounds:
     locator: p. 540
     relation: discusses
     bears-on: projection
-    note: Gives the carve contrast alongside other uses of aspectual away.
+    note: Gives the <i>carve</i> contrast alongside other uses of aspectual <i>away</i>.
 kind:
   provisional: true
   projection:
-    target: Away favours an extended or repeated reading. In the published carve pair it also improves the target-at frame without adding a spatial direction.
+    target: <i>Away</i> favours an extended or repeated reading. In the published <i>carve</i> pair it also improves the target-<i>at</i> frame without adding a spatial direction.
     evidence: The Birmingham inventory separates duration, effort, bit-by-bit damage and ingestion. Jackendoff gives a comparison holding the verb and target fixed.
     confidence: medium

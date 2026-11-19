@@ -1,5 +1,5 @@
 id: too-degree-infinitival-001
-name: Excess Degree Too with an Infinitival
+name: "Excess Degree <i>too</i> with an Infinitival"
 pattern: AdjP/AdvP[too + gradable head + to-infinitival]
 type: mixed
 meanings:

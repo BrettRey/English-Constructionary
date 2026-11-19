@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: A few and a little
-  summary: A few and a little present a small quantity as a positive amount.
+  title: <i>A few</i> and <i>a little</i>
+  summary: <i>A few</i> and <i>a little</i> present a small quantity as a positive amount.
   body: |-
-    In We still have a little time, the speaker presents the time as available. A little goes with a non-count word like time, and a few goes with a plural count word, as in a few minutes.
+    In <i>We still have a little time</i>, the speaker presents the time as available. <i>A little</i> goes with a non-count word like <i>time</i>, and <i>a few</i> goes with a plural count word, as in <i>a few minutes</i>.
 
-    This dictionary contrasts a little with plain little. Bare little favours a reading where the amount is inadequate, and it behaves differently in some settings that are sensitive to negative orientation.
+    This dictionary contrasts <i>a little</i> with plain <i>little</i>. Bare <i>little</i> favours a reading where the amount is inadequate, and it behaves differently in some settings that are sensitive to negative orientation.
   examples:
     - text: We still have [a little time].
       from: entry
     - text: We still have [a few minutes].
       from: constructed
-  try: Compare We have a little time with We have little time. Which one presents the time as available?
+  try: Compare <i>We have a little time</i> with <i>We have little time</i>. Which one presents the time as available?
 teacher:
-  summary: Contrasts a few and a little, which present a small amount as positive, with bare little.
-  explain: The pattern is a determiner a few with a plural count nominal, or a little with a non-count nominal, presenting a small quantity as a positive amount. A little asserts some available time. Bare little favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation. This dictionary files the pattern as a specialization of the noun phrase with a determiner and relates it to an absolute negator determinative. It is provisional, with medium confidence.
-  terms: This dictionary calls this positive paucal, paucal meaning a small number, in contrast with bare little.
+  summary: Contrasts <i>a few</i> and <i>a little</i>, which present a small amount as positive, with bare <i>little</i>.
+  explain: The pattern is a determiner <i>a few</i> with a plural count nominal, or <i>a little</i> with a non-count nominal, presenting a small quantity as a positive amount. <i>A little</i> asserts some available time. Bare <i>little</i> favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation. This dictionary files the pattern as a specialization of the noun phrase with a determiner and relates it to an absolute negator determinative. It is provisional, with medium confidence.
+  terms: This dictionary calls this positive paucal, paucal meaning a small number, in contrast with bare <i>little</i>.
   examples:
     - text: We still have [a little time].
       from: entry
@@ -30,18 +30,18 @@ teacher:
       from: entry
       note: Presents the time as available.
   watch_for:
-    - A learner might use a little with a plural count noun, when the pattern pairs a little with a non-count nominal.
-    - A learner might read bare little as the same as a little, when bare little favours an inadequate-amount reading.
-  activity: Students write sentences about their week using a few with plural nouns and a little with non-count nouns, then swap and check that each pairing fits.
+    - A learner might use <i>a little</i> with a plural count noun, when the pattern pairs <i>a little</i> with a non-count nominal.
+    - A learner might read bare <i>little</i> as the same as <i>a little</i>, when bare <i>little</i> favours an inadequate-amount reading.
+  activity: Students write sentences about their week using <i>a few</i> with plural nouns and <i>a little</i> with non-count nouns, then swap and check that each pairing fits.
 child:
-  hook: If you have a few minutes, is there time to play?
-  explain: A few and a little name a small amount. We still have a little time. We still have a few minutes. A few goes with things you can count.
+  hook: If you have <i>a few minutes</i>, is there time to play?
+  explain: <i>A few</i> and <i>a little</i> name a small amount. <i>We still have a little time</i>. <i>We still have a few minutes</i>. <i>A few</i> goes with things you can count.
   examples:
     - text: We still have a little time.
       from: entry
     - text: We still have a few minutes.
       from: constructed
-  play: Look in your pencil case. Say what you have a few of and what you have a little of.
+  play: Look in your pencil case. Say what you have <i>a few</i> of and what you have <i>a little</i> of.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

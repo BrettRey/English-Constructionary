@@ -30,6 +30,7 @@ for (const f of fs.readdirSync(constructionsDir).filter((x) => x.endsWith('.yaml
 
 const STAR = /[∗*]/;
 const norm = (s) => String(s)
+  .replace(/<\/?i>/g, '')
   .replace(/[\[\]“”"‘’'`]/g, '')
   .replace(/^[\s∗*?#%]+/, '')
   .replace(/\s+/g, ' ')
@@ -153,6 +154,14 @@ function checkFile(file) {
     if (m) errors.push(`teacher.watch_for[${i}] makes a frequency or first-language claim ("${m[0]}")`);
   });
   for (const s of walkStrings(ed)) {
+    // Only <i>...</i> markup for mentioned forms: balanced, not nested.
+    let depth = 0;
+    for (const tag of s.match(/<[^>]*>/g) || []) {
+      if (tag === '<i>') { depth += 1; if (depth > 1) errors.push(`nested <i>: "${s.slice(0, 60)}"`); }
+      else if (tag === '</i>') { depth -= 1; if (depth < 0) errors.push(`unmatched </i>: "${s.slice(0, 60)}"`); }
+      else errors.push(`markup other than <i>: ${tag}`);
+    }
+    if (depth > 0) errors.push(`unclosed <i>: "${s.slice(0, 60)}"`);
     if (/—|--/.test(s)) errors.push(`em-dash or double hyphen: "${s.slice(0, 60)}"`);
     const t = s.match(TICS);
     if (t) warnings.push(`style tic "${t[0]}"`);

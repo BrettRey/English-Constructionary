@@ -21,7 +21,7 @@
     {
       "id": "absolute-with-predication-001",
       "kind": "construction",
-      "label": "With Plus an Absolute Predication",
+      "label": "<i>with</i> Plus an Absolute Predication",
       "type": "mixed"
     },
     {
@@ -57,31 +57,31 @@
     {
       "id": "adjective-hollow-infinitival-001",
       "kind": "construction",
-      "label": "Adjectival Tough Construction",
+      "label": "Adjectival <i>tough</i> Construction",
       "type": "mixed"
     },
     {
       "id": "affected-have-participial-001",
       "kind": "construction",
-      "label": "Have with a Past-Participial Predication",
+      "label": "<i>have</i> with a Past-Participial Predication",
       "type": "mixed"
     },
     {
       "id": "all-class-role-modifier-001",
       "kind": "construction",
-      "label": "All Modifier Restricting a Role",
+      "label": "<i>all</i> Modifier Restricting a Role",
       "type": "mixed"
     },
     {
       "id": "all-of-magnitude-001",
       "kind": "construction",
-      "label": "All of with a Stated Magnitude",
+      "label": "<i>all of</i> with a Stated Magnitude",
       "type": "mixed"
     },
     {
       "id": "although-concessive-001",
       "kind": "construction",
-      "label": "Concessive Although Adjunct",
+      "label": "Concessive <i>although</i> Adjunct",
       "type": "mixed"
     },
     {
@@ -93,13 +93,13 @@
     {
       "id": "anaphoric-propositional-not-001",
       "kind": "construction",
-      "label": "Anaphoric Not with an Attitude Predicate",
+      "label": "Anaphoric <i>not</i> with an Attitude Predicate",
       "type": "mixed"
     },
     {
       "id": "anaphoric-propositional-so-001",
       "kind": "construction",
-      "label": "Anaphoric So with an Attitude Predicate",
+      "label": "Anaphoric <i>so</i> with an Attitude Predicate",
       "type": "mixed"
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "another-additive-measure-001",
       "kind": "construction",
-      "label": "Additive Another before a Measure or Cardinal",
+      "label": "Additive <i>another</i> before a Measure or Cardinal",
       "type": "mixed"
     },
     {
@@ -181,7 +181,7 @@
     {
       "id": "be-passive-001",
       "kind": "construction",
-      "label": "Verbal Be-Passive",
+      "label": "Verbal <i>be</i>-Passive",
       "type": "syntactic"
     },
     {
@@ -199,7 +199,7 @@
     {
       "id": "both-and-coordination-001",
       "kind": "construction",
-      "label": "Correlative Both and And",
+      "label": "Correlative <i>both … and</i>",
       "type": "mixed"
     },
     {
@@ -271,7 +271,7 @@
     {
       "id": "causative-have-001",
       "kind": "construction",
-      "label": "Causative Have with a Bare Infinitival",
+      "label": "Causative <i>have</i> with a Bare Infinitival",
       "type": "mixed"
     },
     {
@@ -340,13 +340,13 @@
     {
       "id": "closed-interrogative-if-001",
       "kind": "construction",
-      "label": "Subordinate Closed Interrogative with If",
+      "label": "Subordinate Closed Interrogative with <i>if</i>",
       "type": "syntactic"
     },
     {
       "id": "closed-interrogative-whether-001",
       "kind": "construction",
-      "label": "Subordinate Closed Interrogative with Whether",
+      "label": "Subordinate Closed Interrogative with <i>whether</i>",
       "type": "syntactic"
     },
     {
@@ -376,7 +376,7 @@
     {
       "id": "come-with-motion-participial-001",
       "kind": "construction",
-      "label": "Come with a Motion or Sound Participial",
+      "label": "<i>come</i> with a Motion or Sound Participial",
       "type": "mixed"
     },
     {
@@ -394,7 +394,7 @@
     {
       "id": "comparative-er-001",
       "kind": "construction",
-      "label": "Comparative -er",
+      "label": "Comparative <i>-er</i>",
       "type": "morphological"
     },
     {
@@ -406,7 +406,7 @@
     {
       "id": "complement-it-extraposition-001",
       "kind": "construction",
-      "label": "Object It with an Extraposed Content Clause",
+      "label": "Object <i>it</i> with an Extraposed Content Clause",
       "type": "syntactic"
     },
     {
@@ -418,25 +418,25 @@
     {
       "id": "conative-at-001",
       "kind": "construction",
-      "label": "Conative At",
+      "label": "Conative <i>at</i>",
       "type": "mixed"
     },
     {
       "id": "concealed-passive-ing-001",
       "kind": "construction",
-      "label": "Concealed Passive in an -ing Complement",
+      "label": "Concealed Passive in an <i>-ing</i> Complement",
       "type": "mixed"
     },
     {
       "id": "constituent-not-negation-001",
       "kind": "construction",
-      "label": "Constituent Negation with not",
+      "label": "Constituent Negation with <i>not</i>",
       "type": "syntactic"
     },
     {
       "id": "content-because-adjunct-001",
       "kind": "construction",
-      "label": "Content-Level Because Adjunct",
+      "label": "Content-Level <i>because</i> Adjunct",
       "type": "mixed"
     },
     {
@@ -454,7 +454,7 @@
     {
       "id": "continuative-away-at-001",
       "kind": "construction",
-      "label": "Continuative Away At",
+      "label": "Continuative <i>away at</i>",
       "type": "mixed"
     },
     {
@@ -466,7 +466,7 @@
     {
       "id": "coordinate-degree-reduplication-001",
       "kind": "construction",
-      "label": "Comparative Reduplication with And",
+      "label": "Comparative Reduplication with <i>and</i>",
       "type": "mixed"
     },
     {
@@ -496,7 +496,7 @@
     {
       "id": "corrective-but-coordination-001",
       "kind": "construction",
-      "label": "Corrective Not X But Y",
+      "label": "Corrective <i>not X but Y</i>",
       "type": "mixed"
     },
     {
@@ -528,19 +528,19 @@
     {
       "id": "deadjectival-ity-noun-001",
       "kind": "construction",
-      "label": "Deadjectival Noun in -ity",
+      "label": "Deadjectival Noun in <i>-ity</i>",
       "type": "mixed"
     },
     {
       "id": "deadjectival-ize-001",
       "kind": "construction",
-      "label": "Change Verb in -Ize",
+      "label": "Change Verb in <i>-ize</i>",
       "type": "morphological"
     },
     {
       "id": "deadjectival-ness-noun-001",
       "kind": "construction",
-      "label": "Deadjectival Noun in -ness",
+      "label": "Deadjectival Noun in <i>-ness</i>",
       "type": "mixed"
     },
     {
@@ -572,7 +572,7 @@
     {
       "id": "definite-cardinal-of-pronoun-001",
       "kind": "construction",
-      "label": "The Two of Us",
+      "label": "<i>the two of us</i>",
       "type": "mixed"
     },
     {
@@ -590,7 +590,7 @@
     {
       "id": "deictic-here-there-inversion-001",
       "kind": "construction",
-      "label": "Deictic Here or There with Inversion",
+      "label": "Deictic <i>here</i> or <i>there</i> with Inversion",
       "type": "mixed"
     },
     {
@@ -667,31 +667,31 @@
     {
       "id": "deverbal-able-adjective-001",
       "kind": "construction",
-      "label": "Deverbal Adjective in -able",
+      "label": "Deverbal Adjective in <i>-able</i>",
       "type": "mixed"
     },
     {
       "id": "deverbal-er-noun-001",
       "kind": "construction",
-      "label": "Deverbal Noun in -er",
+      "label": "Deverbal Noun in <i>-er</i>",
       "type": "mixed"
     },
     {
       "id": "deverbal-ing-nominal-001",
       "kind": "construction",
-      "label": "Deverbal Noun in -Ing",
+      "label": "Deverbal Noun in <i>-ing</i>",
       "type": "morphological"
     },
     {
       "id": "deverbal-noun-of-argument-001",
       "kind": "construction",
-      "label": "Deverbal Noun Of-Argument",
+      "label": "Deverbal Noun <i>of</i>-Argument",
       "type": "mixed"
     },
     {
       "id": "difference-than-from-001",
       "kind": "construction",
-      "label": "Difference Complement after Different",
+      "label": "Difference Complement after <i>different</i>",
       "type": "mixed"
     },
     {
@@ -715,7 +715,7 @@
     {
       "id": "directive-had-better-001",
       "kind": "construction",
-      "label": "Directive Had Better",
+      "label": "Directive <i>had better</i>",
       "type": "mixed"
     },
     {
@@ -734,7 +734,7 @@
     {
       "id": "distributive-rate-apiece-001",
       "kind": "construction",
-      "label": "Distributive Rate with Each or Apiece",
+      "label": "Distributive Rate with <i>each</i> or <i>apiece</i>",
       "type": "mixed"
     },
     {
@@ -747,19 +747,19 @@
     {
       "id": "domain-wise-adjunct-001",
       "kind": "construction",
-      "label": "Domain Adjunct with -Wise",
+      "label": "Domain Adjunct with <i>-wise</i>",
       "type": "mixed"
     },
     {
       "id": "durational-long-001",
       "kind": "construction",
-      "label": "Postverbal Durational Long",
+      "label": "Postverbal Durational <i>long</i>",
       "type": "mixed"
     },
     {
       "id": "each-of-partitive-001",
       "kind": "construction",
-      "label": "Each in a Partitive NP",
+      "label": "<i>each</i> in a Partitive NP",
       "type": "mixed"
     },
     {
@@ -772,7 +772,7 @@
     {
       "id": "either-or-coordination-001",
       "kind": "construction",
-      "label": "Correlative Either and Or",
+      "label": "Correlative <i>either … or</i>",
       "type": "mixed"
     },
     {
@@ -784,13 +784,13 @@
     {
       "id": "endowed-ful-001",
       "kind": "construction",
-      "label": "Adjective in -Ful",
+      "label": "Adjective in <i>-ful</i>",
       "type": "morphological"
     },
     {
       "id": "enough-degree-infinitival-001",
       "kind": "construction",
-      "label": "Sufficient Degree Enough with an Infinitival",
+      "label": "Sufficient Degree <i>enough</i> with an Infinitival",
       "type": "mixed"
     },
     {
@@ -802,13 +802,13 @@
     {
       "id": "equative-as-as-001",
       "kind": "construction",
-      "label": "Scalar Equative As … As",
+      "label": "Scalar Equative <i>as … as</i>",
       "type": "mixed"
     },
     {
       "id": "evaluation-of-person-001",
       "kind": "construction",
-      "label": "Evaluative Adjective with Of and an Infinitival",
+      "label": "Evaluative Adjective with <i>of</i> and an Infinitival",
       "type": "mixed"
     },
     {
@@ -826,19 +826,19 @@
     {
       "id": "even-if-concessive-conditional-001",
       "kind": "construction",
-      "label": "Concessive Conditional Even If",
+      "label": "Concessive Conditional <i>even if</i>",
       "type": "mixed"
     },
     {
       "id": "every-inch-predicative-001",
       "kind": "construction",
-      "label": "Every Inch with a Nominal Predicative",
+      "label": "<i>every inch</i> with a Nominal Predicative",
       "type": "mixed"
     },
     {
       "id": "evidential-because-001",
       "kind": "construction",
-      "label": "Speech-Act or Evidential Because",
+      "label": "Speech-Act or Evidential <i>because</i>",
       "type": "mixed"
     },
     {
@@ -870,13 +870,13 @@
     {
       "id": "existential-no-gerund-001",
       "kind": "construction",
-      "label": "Existential No with a Gerund-Participial",
+      "label": "Existential <i>no</i> with a Gerund-Participial",
       "type": "mixed"
     },
     {
       "id": "existential-there-001",
       "kind": "construction",
-      "label": "Existential There with Be",
+      "label": "Existential <i>there</i> with <i>be</i>",
       "type": "mixed"
     },
     {
@@ -959,25 +959,25 @@
     {
       "id": "finite-do-support-001",
       "kind": "construction",
-      "label": "Finite Do Support",
+      "label": "Finite <i>do</i> Support",
       "type": "syntactic"
     },
     {
       "id": "floating-distributive-001",
       "kind": "construction",
-      "label": "Floating Each",
+      "label": "Floating <i>each</i>",
       "type": "mixed"
     },
     {
       "id": "for-duration-adjunct-001",
       "kind": "construction",
-      "label": "Duration with For",
+      "label": "Duration with <i>for</i>",
       "type": "mixed"
     },
     {
       "id": "for-infinitival-001",
       "kind": "construction",
-      "label": "For-Infinitival with an Overt Subject",
+      "label": "<i>for</i>-Infinitival with an Overt Subject",
       "type": "syntactic"
     },
     {
@@ -1001,7 +1001,7 @@
     {
       "id": "fused-relative-no-matter-001",
       "kind": "construction",
-      "label": "Free-Choice Fused Relative in -ever",
+      "label": "Free-Choice Fused Relative in <i>-ever</i>",
       "type": "mixed"
     },
     {
@@ -1013,7 +1013,7 @@
     {
       "id": "genitive-every-001",
       "kind": "construction",
-      "label": "Genitive with Every",
+      "label": "Genitive with <i>every</i>",
       "type": "mixed"
     },
     {
@@ -1025,12 +1025,12 @@
     {
       "id": "genitive-s-001",
       "kind": "construction",
-      "label": "Genitive 's"
+      "label": "Genitive <i>'s</i>"
     },
     {
       "id": "get-event-passive-001",
       "kind": "construction",
-      "label": "Get Passive",
+      "label": "<i>get</i> Passive",
       "type": "mixed"
     },
     {
@@ -1043,13 +1043,13 @@
     {
       "id": "god-knows-indeterminate-001",
       "kind": "construction",
-      "label": "God Knows with an Indeterminate Expression",
+      "label": "<i>God knows</i> with an Indeterminate Expression",
       "type": "mixed"
     },
     {
       "id": "going-to-future-001",
       "kind": "construction",
-      "label": "Prospective Be Going To",
+      "label": "Prospective <i>be going to</i>",
       "type": "mixed"
     },
     {
@@ -1130,13 +1130,13 @@
     {
       "id": "habitual-used-to-001",
       "kind": "construction",
-      "label": "Habitual Used To",
+      "label": "Habitual <i>used to</i>",
       "type": "mixed"
     },
     {
       "id": "had-it-up-to-here-001",
       "kind": "construction",
-      "label": "Have Had It Up to Here",
+      "label": "<i>have had it up to here (with X)</i>",
       "type": "mixed"
     },
     {
@@ -1166,19 +1166,19 @@
     {
       "id": "how-about-proposal-001",
       "kind": "construction",
-      "label": "Proposal with How About",
+      "label": "Proposal with <i>how about</i>",
       "type": "pragmatic"
     },
     {
       "id": "how-adjective-exclamative-001",
       "kind": "construction",
-      "label": "Phrasal Exclamation with How",
+      "label": "Phrasal Exclamation with <i>how</i>",
       "type": "mixed"
     },
     {
       "id": "how-come-explanation-001",
       "kind": "construction",
-      "label": "Explanatory How Come",
+      "label": "Explanatory <i>how come</i>",
       "type": "mixed"
     },
     {
@@ -1201,25 +1201,25 @@
     {
       "id": "if-conditional-001",
       "kind": "construction",
-      "label": "Open and Remote If-Conditionals",
+      "label": "Open and Remote <i>if</i>-Conditionals",
       "type": "mixed"
     },
     {
       "id": "if-only-wish-001",
       "kind": "construction",
-      "label": "Optative If Only",
+      "label": "Optative <i>if only</i>",
       "type": "mixed"
     },
     {
       "id": "immediate-following-no-sooner-001",
       "kind": "construction",
-      "label": "No Sooner … Than",
+      "label": "<i>no sooner X than Y</i>",
       "type": "mixed"
     },
     {
       "id": "imperative-and-conditional-001",
       "kind": "construction",
-      "label": "Imperative Plus And with Conditional Force",
+      "label": "Imperative Plus <i>and</i> with Conditional Force",
       "type": "mixed"
     },
     {
@@ -1232,13 +1232,13 @@
     {
       "id": "imperative-negation-do-001",
       "kind": "construction",
-      "label": "Imperative Negation with do-support",
+      "label": "Imperative Negation with <i>do</i>-support",
       "type": "syntactic"
     },
     {
       "id": "imperative-or-warning-001",
       "kind": "construction",
-      "label": "Imperative Plus Or with a Warning",
+      "label": "Imperative Plus <i>or</i> with a Warning",
       "type": "mixed"
     },
     {
@@ -1250,7 +1250,7 @@
     {
       "id": "in-case-contingency-001",
       "kind": "construction",
-      "label": "Precautionary In Case",
+      "label": "Precautionary <i>in case</i>",
       "type": "mixed"
     },
     {
@@ -1262,7 +1262,7 @@
     {
       "id": "incongruity-whats-doing-001",
       "kind": "construction",
-      "label": "Incongruity What Is X Doing Y?",
+      "label": "Incongruity <i>what is X doing Y?</i>",
       "type": "mixed"
     },
     {
@@ -1327,13 +1327,13 @@
     {
       "id": "infinitival-to-stranding-001",
       "kind": "construction",
-      "label": "Infinitival To Stranding",
+      "label": "Infinitival <i>to</i> Stranding",
       "type": "syntactic"
     },
     {
       "id": "instrumental-with-np-001",
       "kind": "construction",
-      "label": "Instrumental With-PP",
+      "label": "Instrumental <i>with</i>-PP",
       "type": "mixed"
     },
     {
@@ -1345,7 +1345,7 @@
     {
       "id": "intensifying-to-death-001",
       "kind": "construction",
-      "label": "Intensifying To Death",
+      "label": "Intensifying <i>to death</i>",
       "type": "mixed"
     },
     {
@@ -1363,7 +1363,7 @@
     {
       "id": "into-causative-001",
       "kind": "construction",
-      "label": "Into-Causative",
+      "label": "<i>into</i>-Causative",
       "type": "mixed"
     },
     {
@@ -1381,7 +1381,7 @@
     {
       "id": "irrealis-were-001",
       "kind": "construction",
-      "label": "Irrealis Were",
+      "label": "Irrealis <i>were</i>",
       "type": "syntactic"
     },
     {
@@ -1399,13 +1399,13 @@
     {
       "id": "it-auxiliary-clitic-001",
       "kind": "construction",
-      "label": "Clitic It’s in Auxiliary Uses",
+      "label": "Clitic <i>it’s</i> in Auxiliary Uses",
       "type": "morphological"
     },
     {
       "id": "it-cleft-001",
       "kind": "construction",
-      "label": "It-Cleft",
+      "label": "<i>it</i>-Cleft",
       "type": "mixed"
     },
     {
@@ -1495,19 +1495,19 @@
     {
       "id": "let-alone-001",
       "kind": "construction",
-      "label": "Let Alone",
+      "label": "<i>X, let alone Y</i>",
       "type": "mixed"
     },
     {
       "id": "let-permissive-001",
       "kind": "construction",
-      "label": "Let Permissive with a Bare Infinitival",
+      "label": "<i>let</i> Permissive with a Bare Infinitival",
       "type": "mixed"
     },
     {
       "id": "lets-inclusive-001",
       "kind": "construction",
-      "label": "Inclusive Let’s Imperative",
+      "label": "Inclusive <i>let’s</i> Imperative",
       "type": "mixed"
     },
     {
@@ -4435,7 +4435,7 @@
     {
       "id": "lexical-do-so-anaphor-001",
       "kind": "construction",
-      "label": "Anaphoric Do So",
+      "label": "Anaphoric <i>do so</i>",
       "type": "mixed"
     },
     {
@@ -4483,7 +4483,7 @@
     {
       "id": "mandative-should-001",
       "kind": "construction",
-      "label": "Mandative Should",
+      "label": "Mandative <i>should</i>",
       "type": "mixed"
     },
     {
@@ -4495,7 +4495,7 @@
     {
       "id": "means-by-gerund-001",
       "kind": "construction",
-      "label": "Means By with a Gerund-Participial",
+      "label": "Means <i>by</i> with a Gerund-Participial",
       "type": "mixed"
     },
     {
@@ -4513,13 +4513,13 @@
     {
       "id": "measure-pseudopartitive-001",
       "kind": "construction",
-      "label": "Measure Pseudopartitive with Of",
+      "label": "Measure Pseudopartitive with <i>of</i>",
       "type": "mixed"
     },
     {
       "id": "metalinguistic-more-than-001",
       "kind": "construction",
-      "label": "Metalinguistic More … Than",
+      "label": "Metalinguistic <i>more … than</i>",
       "type": "mixed"
     },
     {
@@ -4633,7 +4633,7 @@
     {
       "id": "negative-polarity-ever-001",
       "kind": "construction",
-      "label": "Polarity-Sensitive Temporal Ever",
+      "label": "Polarity-Sensitive Temporal <i>ever</i>",
       "type": "mixed"
     },
     {
@@ -4650,19 +4650,19 @@
     {
       "id": "neither-nor-coordination-001",
       "kind": "construction",
-      "label": "Correlative Coordination with neither...nor",
+      "label": "Correlative Coordination with <i>neither … nor</i>",
       "type": "syntactic"
     },
     {
       "id": "never-adv-negation-001",
       "kind": "construction",
-      "label": "Adverbial Negation with never",
+      "label": "Adverbial Negation with <i>never</i>",
       "type": "syntactic"
     },
     {
       "id": "no-determiner-001",
       "kind": "construction",
-      "label": "Negative determinative \"no\" in determiner function",
+      "label": "Negative determinative <i>no</i> in determiner function",
       "type": "syntactic"
     },
     {
@@ -4715,7 +4715,7 @@
     {
       "id": "not-only-but-also-001",
       "kind": "construction",
-      "label": "Additive Not Only and But Also",
+      "label": "Additive <i>not only … but also</i>",
       "type": "mixed"
     },
     {
@@ -4810,13 +4810,13 @@
     {
       "id": "numerative-addition-asyndetic-001",
       "kind": "construction",
-      "label": "Numerative Addition Coordination (without and)",
+      "label": "Numerative Addition Coordination (without <i>and</i>)",
       "type": "syntactic"
     },
     {
       "id": "numerative-addition-coordination-001",
       "kind": "construction",
-      "label": "Numerative Addition Coordination (with and)",
+      "label": "Numerative Addition Coordination (with <i>and</i>)",
       "type": "syntactic"
     },
     {
@@ -4893,19 +4893,19 @@
     {
       "id": "numerative-teen-001",
       "kind": "construction",
-      "label": "Regular Teen Numerative (-teen)",
+      "label": "Regular Teen Numerative (<i>-teen</i>)",
       "type": "morphological"
     },
     {
       "id": "numerative-teen-irregular-001",
       "kind": "construction",
-      "label": "Irregular Teen Numerative (eleven/twelve)",
+      "label": "Irregular Teen Numerative (<i>eleven</i>/<i>twelve</i>)",
       "type": "morphological"
     },
     {
       "id": "numerative-ten-001",
       "kind": "construction",
-      "label": "Ten Numerative",
+      "label": "<i>ten</i> Numerative",
       "type": "syntactic"
     },
     {
@@ -4923,13 +4923,13 @@
     {
       "id": "object-control-infinitival-001",
       "kind": "construction",
-      "label": "Object Control in a To-Infinitival Complement",
+      "label": "Object Control in a <i>to</i>-Infinitival Complement",
       "type": "syntactic"
     },
     {
       "id": "object-raising-infinitival-001",
       "kind": "construction",
-      "label": "Object Raising with a To-Infinitival",
+      "label": "Object Raising with a <i>to</i>-Infinitival",
       "type": "syntactic"
     },
     {
@@ -4948,7 +4948,7 @@
     {
       "id": "of-genitive-own-001",
       "kind": "construction",
-      "label": "Of with a Genitive Pronoun and Own",
+      "label": "<i>X of one’s own</i>",
       "type": "mixed"
     },
     {
@@ -4959,7 +4959,7 @@
     {
       "id": "only-if-restriction-001",
       "kind": "construction",
-      "label": "Necessary Condition Only If",
+      "label": "Necessary Condition <i>only if</i>",
       "type": "mixed"
     },
     {
@@ -4972,7 +4972,7 @@
     {
       "id": "open-let-imperative-001",
       "kind": "construction",
-      "label": "Open Let Imperative",
+      "label": "Open <i>let</i> Imperative",
       "type": "mixed"
     },
     {
@@ -4990,7 +4990,7 @@
     {
       "id": "out-of-ing-causative-001",
       "kind": "construction",
-      "label": "Out-of Causative with an -ing Clause",
+      "label": "<i>out of</i> Causative with an <i>-ing</i> Clause",
       "type": "mixed"
     },
     {
@@ -5013,7 +5013,7 @@
     {
       "id": "past-tense-ed-001",
       "kind": "construction",
-      "label": "Past Tense -ed",
+      "label": "Past Tense <i>-ed</i>",
       "type": "morphological"
     },
     {
@@ -5044,13 +5044,13 @@
     {
       "id": "perfect-have-001",
       "kind": "construction",
-      "label": "Perfect HAVE + V-en",
+      "label": "Perfect <i>have</i> + V-en",
       "type": "syntactic"
     },
     {
       "id": "personal-determiner-001",
       "kind": "construction",
-      "label": "Personal Determination with We or You",
+      "label": "Personal Determination with <i>we</i> or <i>you</i>",
       "type": "mixed"
     },
     {
@@ -5063,7 +5063,7 @@
     {
       "id": "plain-make-causative-001",
       "kind": "construction",
-      "label": "Make Causative with a Bare Infinitival",
+      "label": "<i>make</i> Causative with a Bare Infinitival",
       "type": "mixed"
     },
     {
@@ -5075,7 +5075,7 @@
     {
       "id": "plural-s-001",
       "kind": "construction",
-      "label": "Plural -s"
+      "label": "Plural <i>-s</i>"
     },
     {
       "id": "polarity-short-answer-001",
@@ -5092,19 +5092,19 @@
     {
       "id": "positive-degree-partitive-more-001",
       "kind": "construction",
-      "label": "Comparative Quantification with More of",
+      "label": "Comparative Quantification with <i>more of</i>",
       "type": "mixed"
     },
     {
       "id": "positive-paucal-a-001",
       "kind": "construction",
-      "label": "Positive Paucal A Few and A Little",
+      "label": "Positive Paucal <i>a few</i> and <i>a little</i>",
       "type": "mixed"
     },
     {
       "id": "possessive-relative-whose-001",
       "kind": "construction",
-      "label": "Genitive Whose Relative",
+      "label": "Genitive <i>whose</i> Relative",
       "type": "syntactic"
     },
     {
@@ -5122,13 +5122,13 @@
     {
       "id": "preference-would-rather-001",
       "kind": "construction",
-      "label": "Preference Would Rather",
+      "label": "Preference <i>would rather</i>",
       "type": "mixed"
     },
     {
       "id": "prenominal-all-the-001",
       "kind": "construction",
-      "label": "Predeterminer All before a Determined NP",
+      "label": "Predeterminer <i>all</i> before a Determined NP",
       "type": "syntactic"
     },
     {
@@ -5189,7 +5189,7 @@
     {
       "id": "presentational-there-001",
       "kind": "construction",
-      "label": "Presentational There with a Lexical Verb",
+      "label": "Presentational <i>there</i> with a Lexical Verb",
       "type": "mixed"
     },
     {
@@ -5201,19 +5201,19 @@
     {
       "id": "primary-auxiliary-negation-001",
       "kind": "construction",
-      "label": "Finite Auxiliary with Not",
+      "label": "Finite Auxiliary with <i>not</i>",
       "type": "syntactic"
     },
     {
       "id": "privative-less-001",
       "kind": "construction",
-      "label": "Privative Adjective in -Less",
+      "label": "Privative Adjective in <i>-less</i>",
       "type": "morphological"
     },
     {
       "id": "pro-nominal-one-001",
       "kind": "construction",
-      "label": "Pro-Nominal One and Ones",
+      "label": "Pro-Nominal <i>one</i> and <i>ones</i>",
       "type": "syntactic"
     },
     {
@@ -5225,7 +5225,7 @@
     {
       "id": "progressive-ing-001",
       "kind": "construction",
-      "label": "Progressive -ing",
+      "label": "Progressive <i>-ing</i>",
       "type": "morphological"
     },
     {
@@ -5243,7 +5243,7 @@
     {
       "id": "proposition-affirmation-001",
       "kind": "construction",
-      "label": "Proposition Affirmation with Fronted So",
+      "label": "Proposition Affirmation with Fronted <i>so</i>",
       "type": "mixed"
     },
     {
@@ -5267,7 +5267,7 @@
     {
       "id": "quasi-modal-be-to-001",
       "kind": "construction",
-      "label": "Quasi-Modal Be To",
+      "label": "Quasi-Modal <i>be to</i>",
       "type": "mixed"
     },
     {
@@ -5292,7 +5292,7 @@
     {
       "id": "re-iterative-prefix-001",
       "kind": "construction",
-      "label": "Iterative Re- on a Verb",
+      "label": "Iterative <i>re-</i> on a Verb",
       "type": "morphological"
     },
     {
@@ -5310,13 +5310,13 @@
     {
       "id": "reciprocal-noun-with-001",
       "kind": "construction",
-      "label": "Reciprocal Predicative NP with a With-Phrase",
+      "label": "Reciprocal Predicative NP with a <i>with</i>-Phrase",
       "type": "mixed"
     },
     {
       "id": "recurrent-progressive-always-001",
       "kind": "construction",
-      "label": "Recurrent Progressive with Always",
+      "label": "Recurrent Progressive with <i>always</i>",
       "type": "mixed"
     },
     {
@@ -5334,7 +5334,7 @@
     {
       "id": "relative-clausal-which-001",
       "kind": "construction",
-      "label": "Supplementary Which with a Clausal Anchor",
+      "label": "Supplementary <i>which</i> with a Clausal Anchor",
       "type": "mixed"
     },
     {
@@ -5352,7 +5352,7 @@
     {
       "id": "response-obligation-ditransitive-001",
       "kind": "construction",
-      "label": "Double-Object Obligation with Owe",
+      "label": "Double-Object Obligation with <i>owe</i>",
       "type": "mixed"
     },
     {
@@ -5417,19 +5417,19 @@
     {
       "id": "same-as-comparison-001",
       "kind": "construction",
-      "label": "Identity Comparison with Same … As",
+      "label": "Identity Comparison with <i>same … as</i>",
       "type": "mixed"
     },
     {
       "id": "scalar-challenge-call-001",
       "kind": "construction",
-      "label": "You Call That X Challenge",
+      "label": "<i>you call that X</i> Challenge",
       "type": "mixed"
     },
     {
       "id": "scalar-change-by-measure-001",
       "kind": "construction",
-      "label": "Differential By in Scalar Change",
+      "label": "Differential <i>by</i> in Scalar Change",
       "type": "mixed"
     },
     {
@@ -5459,7 +5459,7 @@
     {
       "id": "since-time-anchor-001",
       "kind": "construction",
-      "label": "Temporal Since with a Reference Anchor",
+      "label": "Temporal <i>since</i> with a Reference Anchor",
       "type": "mixed"
     },
     {
@@ -5471,31 +5471,31 @@
     {
       "id": "singular-anaphoric-they-001",
       "kind": "construction",
-      "label": "Singular Anaphoric They",
+      "label": "Singular Anaphoric <i>they</i>",
       "type": "syntactic"
     },
     {
       "id": "so-degree-result-001",
       "kind": "construction",
-      "label": "Degree So with a Result Content Clause",
+      "label": "Degree <i>so</i> with a Result Content Clause",
       "type": "mixed"
     },
     {
       "id": "so-neither-inversion-001",
       "kind": "construction",
-      "label": "Inverted Additive So and Neither",
+      "label": "Inverted Additive <i>so</i> and <i>neither</i>",
       "type": "mixed"
     },
     {
       "id": "so-nominal-predication-001",
       "kind": "construction",
-      "label": "Intensifying So with a Nominal",
+      "label": "Intensifying <i>so</i> with a Nominal",
       "type": "mixed"
     },
     {
       "id": "some-n-or-other-001",
       "kind": "construction",
-      "label": "Some N or Other",
+      "label": "<i>some X or other</i>",
       "type": "mixed"
     },
     {
@@ -5520,13 +5520,13 @@
     {
       "id": "still-yet-aspectual-001",
       "kind": "construction",
-      "label": "Aspectual Still and Negative Yet",
+      "label": "Aspectual <i>still</i> and Negative <i>yet</i>",
       "type": "mixed"
     },
     {
       "id": "stressed-some-exclamative-001",
       "kind": "construction",
-      "label": "Exclamation with Stressed Some",
+      "label": "Exclamation with Stressed <i>some</i>",
       "type": "pragmatic"
     },
     {
@@ -5545,7 +5545,7 @@
     {
       "id": "subject-control-infinitival-001",
       "kind": "construction",
-      "label": "Subject Control in a To-Infinitival Complement",
+      "label": "Subject Control in a <i>to</i>-Infinitival Complement",
       "type": "syntactic"
     },
     {
@@ -5587,19 +5587,19 @@
     {
       "id": "such-as-exemplification-001",
       "kind": "construction",
-      "label": "Exemplifying Such As",
+      "label": "Exemplifying <i>such as</i>",
       "type": "mixed"
     },
     {
       "id": "such-nominal-result-001",
       "kind": "construction",
-      "label": "Degree Such with Nominal and Result Clause",
+      "label": "Degree <i>such</i> with Nominal and Result Clause",
       "type": "mixed"
     },
     {
       "id": "sufficiency-provided-that-001",
       "kind": "construction",
-      "label": "Conditional Provided That",
+      "label": "Conditional <i>provided that</i>",
       "type": "mixed"
     },
     {
@@ -5642,26 +5642,26 @@
     {
       "id": "than-reduced-clause-001",
       "kind": "construction",
-      "label": "Reduced Than Comparative Clause",
+      "label": "Reduced <i>than</i> Comparative Clause",
       "type": "syntactic"
     },
     {
       "id": "the-adjective-np-001",
       "kind": "construction",
-      "label": "Special Fused-Head NP with The and an Adjective",
+      "label": "Special Fused-Head NP with <i>the</i> and an Adjective",
       "type": "mixed"
     },
     {
       "id": "time-away-001",
       "kind": "construction",
-      "label": "Time-Away Construction",
+      "label": "Time-<i>away</i> Construction",
       "type": "syntactic",
       "secured": "stable"
     },
     {
       "id": "time-measure-ago-001",
       "kind": "construction",
-      "label": "Measure before Ago",
+      "label": "Measure before <i>ago</i>",
       "type": "mixed"
     },
     {
@@ -5673,19 +5673,19 @@
     {
       "id": "too-degree-infinitival-001",
       "kind": "construction",
-      "label": "Excess Degree Too with an Infinitival",
+      "label": "Excess Degree <i>too</i> with an Infinitival",
       "type": "mixed"
     },
     {
       "id": "transitive-to-recipient-001",
       "kind": "construction",
-      "label": "Monotransitive Transfer with To",
+      "label": "Monotransitive Transfer with <i>to</i>",
       "type": "mixed"
     },
     {
       "id": "true-partitive-001",
       "kind": "construction",
-      "label": "True Partitive with Of",
+      "label": "True Partitive with <i>of</i>",
       "type": "mixed"
     },
     {
@@ -5697,7 +5697,7 @@
     {
       "id": "unless-exceptive-conditional-001",
       "kind": "construction",
-      "label": "Exceptive Conditional Unless",
+      "label": "Exceptive Conditional <i>unless</i>",
       "type": "mixed"
     },
     {
@@ -5709,7 +5709,7 @@
     {
       "id": "until-time-boundary-001",
       "kind": "construction",
-      "label": "Temporal Until with an Endpoint",
+      "label": "Temporal <i>until</i> with an Endpoint",
       "type": "mixed"
     },
     {
@@ -5810,7 +5810,7 @@
     {
       "id": "way-motion-001",
       "kind": "construction",
-      "label": "Way-Motion Construction",
+      "label": "<i>way</i>-Motion Construction",
       "type": "syntactic",
       "secured": "stable"
     },
@@ -5823,31 +5823,31 @@
     {
       "id": "what-about-topic-001",
       "kind": "construction",
-      "label": "Topic Proposal with What About",
+      "label": "Topic Proposal with <i>what about</i>",
       "type": "pragmatic"
     },
     {
       "id": "what-if-scenario-001",
       "kind": "construction",
-      "label": "Deliberative What If",
+      "label": "Deliberative <i>what if</i>",
       "type": "pragmatic"
     },
     {
       "id": "what-np-exclamative-001",
       "kind": "construction",
-      "label": "Phrasal Exclamation with What",
+      "label": "Phrasal Exclamation with <i>what</i>",
       "type": "mixed"
     },
     {
       "id": "what-with-circumstantial-001",
       "kind": "construction",
-      "label": "What With Circumstantial Adjunct",
+      "label": "<i>what with</i> Circumstantial Adjunct",
       "type": "mixed"
     },
     {
       "id": "why-not-proposal-001",
       "kind": "construction",
-      "label": "Deliberative Why Not with a Bare Infinitival",
+      "label": "Deliberative <i>why not</i> with a Bare Infinitival",
       "type": "pragmatic"
     },
     {
@@ -5865,25 +5865,25 @@
     {
       "id": "with-a-capital-letter-001",
       "kind": "construction",
-      "label": "With a Capital Letter Construction",
+      "label": "<i>X with a capital Y</i> Construction",
       "type": "semantic"
     },
     {
       "id": "with-a-lowercase-letter-001",
       "kind": "construction",
-      "label": "With a Lowercase Letter Construction",
+      "label": "<i>X with a lowercase Y</i> Construction",
       "type": "semantic"
     },
     {
       "id": "with-a-small-letter-001",
       "kind": "construction",
-      "label": "With a Small Letter Construction",
+      "label": "<i>X with a small Y</i> Construction",
       "type": "semantic"
     },
     {
       "id": "with-an-uppercase-letter-001",
       "kind": "construction",
-      "label": "With an Uppercase Letter Construction",
+      "label": "<i>X with an uppercase Y</i> Construction",
       "type": "semantic"
     },
     {

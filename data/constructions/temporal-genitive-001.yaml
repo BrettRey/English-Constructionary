@@ -17,7 +17,7 @@ relatedConstructions:
   - id: group-genitive-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: In [the day after the election]’s agenda, the genitive gives a time and the marker attaches at the edge of the phrase, after election rather than day.
+    notes: In <i>[the day after the election]’s agenda</i>, the genitive gives a time and the marker attaches at the edge of the phrase, after <i>election</i> rather than <i>day</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §§16.3, 16.5, relations expressed by genitive determination
@@ -26,6 +26,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Tomorrow dates the event without denoting a participant in the inspecting. The inspector’s inspection can instead relate an argument to the nominal predicate.
+    target: <i>Tomorrow</i> dates the event without denoting a participant in the inspecting. <i>The inspector’s inspection</i> can instead relate an argument to the nominal predicate.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

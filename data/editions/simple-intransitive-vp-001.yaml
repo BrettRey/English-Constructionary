@@ -7,7 +7,7 @@ curious:
   title: Verbs that stand alone
   summary: Some verbs need nothing after them to make a complete statement about someone or something.
   body: |-
-    In The guests laughed, the verb laughed is enough. It says one thing about one thing, the guests, and needs no object or other required partner. Extras can still be added, such as when or where it happened, without changing what the verb itself needs.
+    In <i>The guests laughed</i>, the verb <i>laughed</i> is enough. It says one thing about one thing, the guests, and needs no object or other required partner. Extras can still be added, such as when or where it happened, without changing what the verb itself needs.
 
     This dictionary calls this the simple intransitive pattern. A noun phrase after such a verb isn't automatically part of it. Something like a cognate event object, where the object repeats the verb's meaning, is treated as a separate pattern. The analysis is marked provisional.
   examples:
@@ -15,10 +15,10 @@ curious:
       from: entry
     - text: The baby [slept] in the car.
       from: constructed
-  try: Think of verbs that make a complete sentence with just a subject, like laughed. Then add where or when without changing what the verb needs.
+  try: Think of verbs that make a complete sentence with just a subject, like <i>laughed</i>. Then add where or when without changing what the verb needs.
 teacher:
   summary: Helps explain verbs used with no object or predicative complement.
-  explain: 'In a simple intransitive VP, the head verb has no core complement slot in the use at issue: it presents a one-place predication without a core object or predicative complement. In The guests laughed, only the subject is required. An adjunct may be added without changing the verb''s core frame. An NP after the verb can instead require a separately licensed construction, as with a cognate event object. This dictionary treats the pattern as a specialization of the VP and marks the analysis as provisional.'
+  explain: 'In a simple intransitive VP, the head verb has no core complement slot in the use at issue: it presents a one-place predication without a core object or predicative complement. In <i>The guests laughed</i>, only the subject is required. An adjunct may be added without changing the verb''s core frame. An NP after the verb can instead require a separately licensed construction, as with a cognate event object. This dictionary treats the pattern as a specialization of the VP and marks the analysis as provisional.'
   terms: Intransitive verb is the traditional term. This dictionary stresses the use in a given sentence, not the verb as a whole.
   examples:
     - text: The guests [laughed].
@@ -33,12 +33,12 @@ teacher:
       from: constructed
       note: An adjunct is added and the verb's core frame stays the same.
   watch_for:
-    - A learner might treat an adjunct such as at noon as a required object.
-    - A learner might take laughed as a verb that can't be followed by anything, when this dictionary describes only the use at issue.
-  activity: Give students verb cards (laugh, sleep, arrive). They write a bare sentence with each, then add an adjunct, and underline the part the verb actually needs.
+    - A learner might treat an adjunct such as <i>at noon</i> as a required object.
+    - A learner might take <i>laughed</i> as a verb that can't be followed by anything, when this dictionary describes only the use at issue.
+  activity: Give students verb cards (<i>laugh</i>, <i>sleep</i>, <i>arrive</i>). They write a bare sentence with each, then add an adjunct, and underline the part the verb actually needs.
 child:
   hook: Which words can finish a sentence all by themselves?
-  explain: Some verbs need nothing after them. The guests laughed is a whole sentence. You can add more, like when or where, but you don't have to.
+  explain: Some verbs need nothing after them. <i>The guests laughed</i> is a whole sentence. You can add more, like when or where, but you don't have to.
   examples:
     - text: The guests [laughed].
       from: entry

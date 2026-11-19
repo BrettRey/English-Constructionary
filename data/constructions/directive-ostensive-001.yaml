@@ -50,7 +50,7 @@ relatedConstructions:
 kind:
   provisional: true
   projection:
-    target: "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language: A snake! vs headline Snake found in library), introduction of a discourse referent available to anaphora (contrast interjections: A snake! It's moving vs Ouch! *It...), orientation-type rather than verbal response (contrast interrogatives), and immediacy construal (referent present or imminent)"
+    target: "Membership predicts full NP-internal determination despite extra-clausal status (contrast block language: <i>A snake!</i> vs headline <i>Snake found in library</i>), introduction of a discourse referent available to anaphora (contrast interjections: <i>A snake! It's moving</i> vs <i>Ouch!</i> *<i>It...</i>), orientation-type rather than verbal response (contrast interrogatives), and immediacy construal (referent present or imminent)"
     evidence: "The determination and anaphora contrasts separate the construction from its nearest neighbours (block language, interjections); acquisitional continuity with joint-attention pointing is a testable CHILDES prediction"
     confidence: medium
   secured: stable
@@ -76,7 +76,7 @@ kind:
     - type: functional-pressure
       evidence: "Need to rapidly alert others to threats or opportunities"
     - type: entrenchment
-      evidence: "High-frequency alerting expressions (Fire!, Watch out!)"
+      evidence: "High-frequency alerting expressions (<i>Fire!</i>, <i>Watch out!</i>)"
 grounds:
   - source: cgel-2002
     locator: "Ch. 10 §§8.3, 9.6.3; Ch. 2, non-clausal utterances"

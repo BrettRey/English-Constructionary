@@ -15,7 +15,7 @@ relatedConstructions:
     relationship: related-to
   - id: for-duration-adjunct-001
     relationship: related-to
-    notes: Walked three kilometres measures distance. Walked for an hour measures the duration and uses a for-PP.
+    notes: <i>Walked three kilometres</i> measures distance. <i>Walked for an hour</i> measures the duration and uses a <i>for</i>-PP.
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§5.1–5.3
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The NP answers how far and usually lacks an ordinary active-object/passive-subject alternation. A goal phrase can independently say where the walking led.
+    target: The NP answers <i>how far</i> and usually lacks an ordinary active-object/passive-subject alternation. A goal phrase can independently say where the walking led.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

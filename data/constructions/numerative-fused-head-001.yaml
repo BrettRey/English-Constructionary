@@ -6,7 +6,7 @@ dimensions:
   form: "Numerative DP without overt head noun"
   meaning: "Quantity reference with recoverable noun from context"
   function: "Fused determiner-head in NP structure"
-  distribution: "Elliptical contexts; may license partitive of-complement"
+  distribution: "Elliptical contexts; may license partitive <i>of</i>-complement"
 meanings:
   '1':
     definition: Numerative used as a standalone DP/NP without an overt head noun
@@ -17,7 +17,7 @@ meanings:
         note: Factor substitution (fragment answering the factor constituent, not a fused head)
 constraints:
   - type: structural
-    description: Functions as a fused determiner-head in NP structure; may license partitive of-complements.
+    description: Functions as a fused determiner-head in NP structure; may license partitive <i>of</i>-complements.
 formRefs:
   - numerative-compound-basic
   - numerative-decade
@@ -51,6 +51,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In Lee bought thirty books and I bought forty, the second numerative fills the object NP and can recover the kind from context. In Forty is even, the bare form can instead name the number. Stand-alone shape does not fix the analysis."
+    target: "In <i>Lee bought thirty books and I bought forty</i>, the second numerative fills the object NP and can recover the kind from context. In <i>Forty is even</i>, the bare form can instead name the number. Stand-alone shape does not fix the analysis."
     evidence: "CGEL’s fused-head comparison and Reynolds’s cardinal-noun diagnostics separate the corresponding readings."
     confidence: medium

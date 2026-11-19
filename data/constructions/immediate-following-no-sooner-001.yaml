@@ -1,5 +1,5 @@
 id: immediate-following-no-sooner-001
-name: No Sooner … Than
+name: "<i>no sooner X than Y</i>"
 pattern: No sooner + inverted primary clause + than + second clause
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The comparative-shaped than-clause supplies the subsequent event. Fronted no sooner licenses inversion in the initial clause.
+    target: The comparative-shaped <i>than</i>-clause supplies the subsequent event. Fronted <i>no sooner</i> licenses inversion in the initial clause.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

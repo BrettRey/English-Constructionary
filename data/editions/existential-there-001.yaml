@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Sentences that start with there
-  summary: There plus be can introduce something, or say that it's present, available or going on.
+  title: Sentences that start with <i>there</i>
+  summary: "<i>There</i> plus <i>be</i> can introduce something, or say that it's present, available or going on."
   body: |-
-    In There are two spare seats, the word there doesn't point to a place. It opens the sentence so that the thing being introduced, two spare seats, comes after the verb. Sentences like this introduce something new into the conversation, or assert that it's present, available or happening.
+    In <i>There are two spare seats</i>, the word <i>there</i> doesn't point to a place. It opens the sentence so that the thing being introduced, <i>two spare seats</i>, comes after the verb. Sentences like this introduce something new into the conversation, or assert that it's present, available or happening.
 
-    The word there moves around like a subject. It switches places with the verb in a question (Is there a seat?) and can turn up in a tag at the end. The thing introduced favours information that's new to the listener, though some definite things are allowed in the right context.
+    The word <i>there</i> moves around like a subject. It switches places with the verb in a question (<i>Is there a seat?</i>) and can turn up in a tag at the end. The thing introduced favours information that's new to the listener, though some definite things are allowed in the right context.
   examples:
     - text: '[There are two spare seats].'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[There is a cat] on the roof.'
       from: constructed
-  try: Say There are two spare seats, then turn it into a question. What happens to the word there?
+  try: Say <i>There are two spare seats</i>, then turn it into a question. What happens to the word <i>there</i>?
 teacher:
-  summary: Helps explain existential there, the there that doesn't mean a place, and what comes after be.
-  explain: 'In an existential clause, dummy there is followed by finite be and a pivot NP: There are two spare seats. The clause introduces a candidate referent or asserts its presence, availability or occurrence. There inverts in Is there a seat? and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts. This dictionary marks the analysis as provisional, with medium confidence.'
-  terms: Dummy there is also called expletive there. The pivot is the NP after be.
+  summary: Helps explain existential <i>there</i>, the <i>there</i> that doesn't mean a place, and what comes after be.
+  explain: 'In an existential clause, dummy <i>there</i> is followed by finite <i>be</i> and a pivot NP: <i>There are two spare seats</i>. The clause introduces a candidate referent or asserts its presence, availability or occurrence. <i>There</i> inverts in <i>Is there a seat?</i> and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts. This dictionary marks the analysis as provisional, with medium confidence.'
+  terms: Dummy <i>there</i> is also called expletive <i>there</i>. The pivot is the NP after <i>be</i>.
   examples:
     - text: '[There are two spare seats].'
       from: entry
@@ -30,17 +30,17 @@ teacher:
   contrasts:
     - text: There are two spare seats.
       from: entry
-      note: Dummy there, no place meaning.
+      note: Dummy <i>there</i>, no place meaning.
     - text: There are two spare seats, aren't there?
       from: constructed
-      note: There can occur in a tag.
+      note: <i>There</i> can occur in a tag.
   watch_for:
-    - A learner might read there in There are two spare seats as the adverb of place.
+    - A learner might read <i>there</i> in <i>There are two spare seats</i> as the adverb of place.
     - A learner might expect a definite pivot to be ruled out, though some definites are licensed in appropriate contexts.
-  activity: Students write three sentences about their classroom starting with There is or There are. They turn each into a question, then swap with a partner and underline the pivot.
+  activity: Students write three sentences about their classroom starting with <i>There is</i> or <i>There are</i>. They turn each into a question, then swap with a partner and underline the pivot.
 child:
-  hook: Does the word there in There are two spare seats point to a place?
-  explain: 'Some sentences start with there just to introduce something. There are two spare seats. The seats are the news. You can ask about them too: Is there a seat?'
+  hook: Does the word <i>there</i> in <i>There are two spare seats</i> point to a place?
+  explain: 'Some sentences start with <i>there</i> just to introduce something. <i>There are two spare seats.</i> The seats are the news. You can ask about them too: <i>Is there a seat?</i>'
   examples:
     - text: '[There are two spare seats].'
       from: entry
@@ -48,7 +48,7 @@ child:
       from: entry
     - text: '[There is a cat] on the roof.'
       from: constructed
-  play: Look around the room. Say what you can find with There is or There are. Then turn each one into a question starting with Is there or Are there.
+  play: Look around the room. Say what you can find with <i>There is</i> or <i>There are</i>. Then turn each one into a question starting with <i>Is there</i> or <i>Are there</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

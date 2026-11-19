@@ -1,5 +1,5 @@
 id: response-obligation-ditransitive-001
-name: Double-Object Obligation with Owe
+name: "Double-Object Obligation with <i>owe</i>"
 pattern: VP[owe + Oi:creditor/entitled participant + Od:outstanding thing]
 type: mixed
 meanings:

@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: interfaces-with
   - id: emphatic-polarity-response-001
     relationship: related-to
-    notes: Compare Yes, she did with Hell yeah. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word.
+    notes: Compare <i>Yes, she did</i> with <i>Hell yeah</i>. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word.
 grounds:
   - source: cgel-2002
     locator: Ch. 9 §7.1; Ch. 10, polar questions
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Did presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts.
+    target: "<i>Did</i> presents a positive answer and helps identify the elided predicate. Responses to negative questions can vary in the use of the answer particle across speakers and contexts."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

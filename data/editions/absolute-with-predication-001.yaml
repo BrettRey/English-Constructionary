@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: With plus a thing and how it is
-  summary: A phrase beginning with with can set a background condition by naming something and saying how it is.
+  title: <i>With</i> plus a thing and how it is
+  summary: A phrase beginning with <i>with</i> can set a background condition by naming something and saying how it is.
   body: |-
-    In With the shutters closed, the room stayed cool, the phrase tells us a condition that holds in the background: the shutters are closed. It has a subject of its own, the shutters, and a description of it, closed.
+    In <i>With the shutters closed, the room stayed cool</i>, the phrase tells us a condition that holds in the background: the shutters are closed. It has a subject of its own, <i>the shutters</i>, and a description of it, <i>closed</i>.
 
-    The link to the main statement can be loose. The condition can simply go along with the main situation, or it can help explain it. The expression what with is different: it conventionally gives a reason.
+    The link to the main statement can be loose. The condition can simply go along with the main situation, or it can help explain it. The expression <i>what with</i> is different: it conventionally gives a reason.
   examples:
     - text: '[With the shutters closed], the room stayed cool.'
       from: entry
     - text: '[With the lights off], we watched the film.'
       from: constructed
-  try: Start a sentence with with, then a thing, then a word saying how it is. What does the phrase add?
+  try: Start a sentence with <i>with</i>, then a thing, then a word saying how it is. What does the phrase add?
 teacher:
-  summary: Shows a with phrase that contains its own subject and predicate, such as With the shutters closed.
-  explain: 'The pattern is a PP: with plus an NP plus a participial or verbless predicate. The NP and the predicate form a subject-predicate unit, so the shutters are understood as closed. The phrase presents a background condition for the main clause. Its relation to the main situation can be merely concomitant or explanatory. Compare what with, which conventionally gives a reason. This dictionary marks the analysis as provisional, and it treats the pattern as related to the absolute supplement.'
-  terms: Traditional grammars may call such a phrase an absolute construction. This dictionary treats it as a prepositional phrase headed by with.
+  summary: Shows a <i>with</i> phrase that contains its own subject and predicate, such as <i>With the shutters closed</i>.
+  explain: 'The pattern is a PP: <i>with</i> plus an NP plus a participial or verbless predicate. The NP and the predicate form a subject-predicate unit, so <i>the shutters</i> are understood as <i>closed</i>. The phrase presents a background condition for the main clause. Its relation to the main situation can be merely concomitant or explanatory. Compare <i>what with</i>, which conventionally gives a reason. This dictionary marks the analysis as provisional, and it treats the pattern as related to the absolute supplement.'
+  terms: Traditional grammars may call such a phrase an absolute construction. This dictionary treats it as a prepositional phrase headed by <i>with</i>.
   examples:
     - text: '[With the shutters closed], the room stayed cool.'
       from: entry
@@ -30,18 +30,18 @@ teacher:
       from: entry
       note: A background condition that may simply accompany or explain.
   watch_for:
-    - A learner might read the shutters closed as a noun phrase on its own, when the shutters is understood as the subject of closed.
-    - A learner might treat with here and what with as the same, when what with conventionally gives a reason.
-  activity: Students match a with phrase to a main clause, then say whether the condition just accompanies the main situation or helps explain it.
+    - A learner might read <i>the shutters closed</i> as a noun phrase on its own, when <i>the shutters</i> is understood as the subject of <i>closed</i>.
+    - A learner might treat <i>with</i> here and <i>what with</i> as the same, when <i>what with</i> conventionally gives a reason.
+  activity: Students match a <i>with</i> phrase to a main clause, then say whether the condition just accompanies the main situation or helps explain it.
 child:
-  hook: In "With the shutters closed", what is closed?
-  explain: Some sentences start with with, then a thing, then how that thing is. With the shutters closed tells us the shutters are shut. It sets the scene for the rest of the sentence.
+  hook: In "<i>With the shutters closed</i>", what is closed?
+  explain: Some sentences start with <i>with</i>, then a thing, then how that thing is. <i>With the shutters closed</i> tells us the shutters are shut. It sets the scene for the rest of the sentence.
   examples:
     - text: '[With the shutters closed], the room stayed cool.'
       from: entry
     - text: '[With the lights off], we watched the film.'
       from: constructed
-  play: Start a sentence with with and a thing. Add how it is, like open or off. Then finish the sentence. Read it aloud to a partner.
+  play: Start a sentence with <i>with</i> and a thing. Add how it is, like <i>open</i> or <i>off</i>. Then finish the sentence. Read it aloud to a partner.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

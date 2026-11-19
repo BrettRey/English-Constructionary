@@ -5,19 +5,19 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Saying how many times as much
-  summary: A multiplier such as twice, followed by as and a measure word, compares two amounts as a ratio.
+  summary: A multiplier such as <i>twice</i>, followed by <i>as</i> and a measure word, compares two amounts as a ratio.
   body: |-
-    This cabinet is twice as deep as that one says that one depth is two times the other. Twice here gives a ratio between two depths. It doesn't mean the cabinet is repeated.
+    <i>This cabinet is twice as deep as that one</i> says that one depth is two times the other. <i>Twice</i> here gives a ratio between two depths. It doesn't mean the cabinet is repeated.
 
-    This is a different kind of comparison from two centimetres deeper. That version gives a difference between the depths, while twice as deep fixes how many times one is the other.
+    This is a different kind of comparison from <i>two centimetres deeper</i>. That version gives a difference between the depths, while <i>twice as deep</i> fixes how many times one is the other.
   examples:
     - text: This cabinet is [twice as deep as that one].
       from: entry
-  try: Compare This cabinet is twice as deep as that one with This cabinet is two centimetres deeper than that one. Which one tells you a ratio?
+  try: Compare <i>This cabinet is twice as deep as that one</i> with <i>This cabinet is two centimetres deeper than that one</i>. Which one tells you a ratio?
 teacher:
-  summary: Useful for explaining multiplier plus as...as comparisons and how they differ from comparisons that give a difference.
-  explain: 'The pattern is a multiplier + as + a gradable expression + an as-phrase, a specialization of the equative as...as. It expresses a ratio between quantities on a scale. In twice as deep as that one, twice measures the ratio of depths, not repetition of the cabinet state. That fixes the ratio in a way that a differential such as two centimetres deeper does not: the differential gives the size of the gap, not how many times one measure is the other.'
-  terms: 'Equative: a comparison of equal degree, as in as deep as. Multiplier: a word like twice that scales the comparison. Differential: a measured difference, as in two centimetres deeper.'
+  summary: Useful for explaining multiplier plus <i>as...as</i> comparisons and how they differ from comparisons that give a difference.
+  explain: 'The pattern is a multiplier + as + a gradable expression + an <i>as</i>-phrase, a specialization of the equative <i>as...as</i>. It expresses a ratio between quantities on a scale. In <i>twice as deep as that one</i>, <i>twice</i> measures the ratio of depths, not repetition of the cabinet state. That fixes the ratio in a way that a differential such as <i>two centimetres deeper</i> does not: the differential gives the size of the gap, not how many times one measure is the other.'
+  terms: 'Equative: a comparison of equal degree, as in <i>as deep as</i>. Multiplier: a word like <i>twice</i> that scales the comparison. Differential: a measured difference, as in <i>two centimetres deeper</i>.'
   examples:
     - text: This cabinet is [twice as deep as that one].
       from: entry
@@ -29,12 +29,12 @@ teacher:
       from: constructed
       note: A difference between depths.
   watch_for:
-    - A learner might read twice as saying the cabinet itself occurs twice, when it states a ratio of depths.
-    - A learner might treat twice as deep as that one as a measured difference, when it states a ratio.
-  activity: Give students two objects and a ruler. They measure both and say a ratio sentence (one is twice as long as the other) and a difference sentence (one is two centimetres longer).
+    - A learner might read <i>twice</i> as saying the cabinet itself occurs twice, when it states a ratio of depths.
+    - A learner might treat <i>twice as deep as that one</i> as a measured difference, when it states a ratio.
+  activity: Give students two objects and a ruler. They measure both and say a ratio sentence (one is <i>twice as long as the other</i>) and a difference sentence (one is <i>two centimetres longer</i>).
 child:
   hook: If one rope is twice as long as another, how long is it?
-  explain: Twice as long as means two times the length. It compares two things and tells how many times as long one is.
+  explain: <i>Twice as long as</i> means two times the length. It compares two things and tells how many times as long one is.
   examples:
     - text: This cabinet is [twice as deep as that one].
       from: entry

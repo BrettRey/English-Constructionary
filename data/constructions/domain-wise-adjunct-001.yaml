@@ -1,5 +1,5 @@
 id: domain-wise-adjunct-001
-name: Domain Adjunct with -Wise
+name: "Domain Adjunct with <i>-wise</i>"
 pattern: initial domain expression in -wise + clause
 type: mixed
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how better is realized.
+    target: The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how <i>better</i> is realized.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

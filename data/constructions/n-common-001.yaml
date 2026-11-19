@@ -29,6 +29,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A use like the tallest building can identify a unique referent while keeping a common lexical head. Identification alone therefore does not predict the distribution of a proper noun."
+    target: "A use like <i>the tallest building</i> can identify a unique referent while keeping a common lexical head. Identification alone therefore does not predict the distribution of a proper noun."
     evidence: "CGEL separates proper-noun specialization from syntactic determination and reference."
     confidence: medium

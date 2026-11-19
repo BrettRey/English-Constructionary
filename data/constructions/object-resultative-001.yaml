@@ -14,7 +14,7 @@ meanings:
     details: "PredComp is a syntactic complement oriented toward Od, and resultative is its semantic interpretation. Unlike a depictive, a resultative entails a change culminating in the PredComp state. CGEL recognizes obligatory and optional object-oriented resultatives; optional resultatives remain complements, whereas optional depictives are analyzed as adjuncts. In a related passive, the active Od becomes subject and the PredComp is correspondingly subject-oriented (CGEL Ch. 4 §§1.1, 5, 5.3, pp. 217, 251–62)."
     examples:
       - form: "He [washed it clean]."
-        note: Optional resultative PredComp clean is predicated of Od it
+        note: Optional resultative PredComp <i>clean</i> is predicated of Od <i>it</i>
         grounds:
           - source: cgel-2002
             locator: "Ch. 4, §5.3, p. 261"
@@ -29,7 +29,7 @@ meanings:
             bears-on: attestation
   '2':
     definition: An agentive activity verb licenses a reflexive Od as predicand for an obligatory resultative PredComp
-    details: "In He talked himself hoarse, talk does not require internal complementation on its own, but himself and hoarse are licensed together: dropping both yields He talked, while dropping only PredComp does not preserve the analysis because himself is then not Od. CGEL restricts this subtype to a reflexive predicand; an arbitrary affected NP is excluded (Ch. 4 §5.3, pp. 261–62)."
+    details: "In <i>He talked himself hoarse</i>, <i>talk</i> does not require internal complementation on its own, but <i>himself</i> and <i>hoarse</i> are licensed together: dropping both yields <i>He talked</i>, while dropping only PredComp does not preserve the analysis because <i>himself</i> is then not Od. CGEL restricts this subtype to a reflexive predicand; an arbitrary affected NP is excluded (Ch. 4 §5.3, pp. 261–62)."
     examples:
       - form: "He [talked himself hoarse]."
         note: Constructionally licensed reflexive Od plus obligatory resultative PredComp
@@ -44,11 +44,11 @@ constraints:
   - type: semantic
     description: "PredComp denotes a resultant state of its predicand, not a state merely holding during the verbal situation."
   - type: syntactic
-    description: "An optional resultative is still a complement; an optional depictive such as almost raw in ate the steak almost raw is an adjunct in CGEL's analysis."
+    description: "An optional resultative is still a complement; an optional depictive such as <i>almost raw</i> in <i>ate the steak almost raw</i> is an adjunct in CGEL's analysis."
   - type: syntactic
-    description: "Marked state-goal PPs such as to sleep and into a stupor are locative complements rather than PredComp and therefore fall outside this pattern."
+    description: "Marked state-goal PPs such as <i>to sleep</i> and <i>into a stupor</i> are locative complements rather than PredComp and therefore fall outside this pattern."
   - type: structural
-    description: "With an agentive intransitive base such as talk, the resultative subtype requires a reflexive Od; the reflexive and PredComp are jointly licensed."
+    description: "With an agentive intransitive base such as <i>talk</i>, the resultative subtype requires a reflexive Od; the reflexive and PredComp are jointly licensed."
 kind:
   provisional: true
   projection:
@@ -78,13 +78,13 @@ kind:
         weight: high
     peripheral:
       - property: Constructionally licensed reflexive object
-        diagnostics: ["talk oneself hoarse", "joint omission of reflexive and PredComp"]
+        diagnostics: ["<i>talk oneself hoarse</i>", "joint omission of reflexive and PredComp"]
         weight: medium
   boundaries:
     known_boundary_items:
-      - "ate the steak almost raw: optional depictive adjunct, not a resultative PredComp"
-      - "cried himself to sleep or drank himself into a stupor: to/into PPs express marked state goals and are locative complements"
-      - "considered Ed a fool: object-oriented PredComp but depictive rather than resultative"
+      - "<i>ate the steak almost raw</i>: optional depictive adjunct, not a resultative PredComp"
+      - "<i>cried himself to sleep</i> or <i>drank himself into a stupor</i>: <i>to</i>/<i>into</i> PPs express marked state goals and are locative complements"
+      - "<i>considered Ed a fool</i>: object-oriented PredComp but depictive rather than resultative"
       - "caused motion uses an object-oriented locative Comp:PP, not PredComp"
   grain:
     level: meso
@@ -108,7 +108,7 @@ relatedConstructions:
     notes: Head–Od–PredComp is complex-transitive, not the Head–Oi–Od double-object pattern
   - id: goal-complement-001
     relationship: related-to
-    notes: Marked state goals such as to sleep are locative complements rather than PredComp
+    notes: Marked state goals such as <i>to sleep</i> are locative complements rather than PredComp
   - id: time-away-001
     relationship: see-also
     notes: Time-away contains Od plus a particle PP complement and does not predicate a result property of Od

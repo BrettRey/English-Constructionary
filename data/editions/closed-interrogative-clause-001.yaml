@@ -7,11 +7,11 @@ curious:
   title: Questions with a fixed set of answers
   summary: Some clauses are built to ask a question with a closed set of answers, such as yes or no.
   body: |-
-    Are you generous? and Did Kim finish the report? are built to ask a closed question, one with a fixed set of possible answers, such as yes or no. In these, the helping word (are, did) comes before the person.
+    <i>Are you generous?</i> and <i>Did Kim finish the report?</i> are built to ask a closed question, one with a fixed set of possible answers, such as yes or no. In these, the helping word (<i>are</i>, <i>did</i>) comes before the person.
 
-    Inside a longer sentence the pattern changes. In I wonder whether Kim finished the report, the question is tucked into the sentence, introduced by whether, and the words keep their ordinary order.
+    Inside a longer sentence the pattern changes. In <i>I wonder whether Kim finished the report</i>, the question is tucked into the sentence, introduced by <i>whether</i>, and the words keep their ordinary order.
 
-    The form doesn't force the use. Would you mind opening the door? has the same build but works as a polite request.
+    The form doesn't force the use. <i>Would you mind opening the door?</i> has the same build but works as a polite request.
   examples:
     - text: '[Are you generous?]'
       from: entry
@@ -21,10 +21,10 @@ curious:
       from: entry
     - text: '[Would you mind opening the door?]'
       from: entry
-  try: Take a statement, such as You are hungry. How do you turn it into a question with a yes or no answer?
+  try: Take a statement, such as <i>You are hungry</i>. How do you turn it into a question with a yes or no answer?
 teacher:
-  summary: Covers yes/no questions in main and subordinate clauses, including do-support and indirect uses such as requests.
-  explain: 'A closed interrogative is a Clause that characteristically asks a closed question: the answers are a closed set, prototypically positive or negative. In a main clause the clause type triggers subject-auxiliary inversion, and do-support supplies an auxiliary when none is present (Did Kim finish the report?). A subordinate closed interrogative normally uses whether or if with ordinary subject-verb order. Closed-question force is characteristic, not necessary: Would you mind opening the door? is a closed interrogative that conventionally works as a directive.'
+  summary: Covers yes/no questions in main and subordinate clauses, including <i>do</i>-support and indirect uses such as requests.
+  explain: 'A closed interrogative is a Clause that characteristically asks a closed question: the answers are a closed set, prototypically positive or negative. In a main clause the clause type triggers subject-auxiliary inversion, and <i>do</i>-support supplies an auxiliary when none is present (<i>Did Kim finish the report?</i>). A subordinate closed interrogative normally uses <i>whether</i> or <i>if</i> with ordinary subject-verb order. Closed-question force is characteristic, not necessary: <i>Would you mind opening the door?</i> is a closed interrogative that conventionally works as a directive.'
   terms: Yes/no question or polar question are sometimes-used labels for the positive-or-negative cases, and are narrower than closed interrogative, which also covers alternative questions. Open interrogatives (wh-questions) are a separate clause type.
   examples:
     - text: '[Are you generous?]'
@@ -43,13 +43,13 @@ teacher:
       from: entry
       note: Closed interrogative. Do-support supplies the auxiliary that comes before the subject.
   watch_for:
-    - A learner might read Would you mind opening the door? as only asking about willingness, when it is conventionally a request.
-    - A learner might look for an auxiliary in Did Kim finish the report? and miss that do supplies one.
-    - A learner might carry main-clause inversion into the subordinate clause after wonder.
-  activity: Students turn statements into closed questions (You are hungry, Kim finished the report) and then tuck each into I wonder whether. They say what changed in word order between the two versions.
+    - A learner might read <i>Would you mind opening the door?</i> as only asking about willingness, when it is conventionally a request.
+    - A learner might look for an auxiliary in <i>Did Kim finish the report?</i> and miss that <i>do</i> supplies one.
+    - A learner might carry main-clause inversion into the subordinate clause after <i>wonder</i>.
+  activity: Students turn statements into closed questions (<i>You are hungry</i>, <i>Kim finished the report</i>) and then tuck each into <i>I wonder whether</i>. They say what changed in word order between the two versions.
 child:
   hook: Which questions can you answer with yes or no?
-  explain: Some questions have a short set of answers, like yes or no. In Are you generous? the helping word are comes before the person. In Did Kim finish the report? the helping word did is added to make the question.
+  explain: Some questions have a short set of answers, like yes or no. In <i>Are you generous?</i> the helping word <i>are</i> comes before the person. In <i>Did Kim finish the report?</i> the helping word <i>did</i> is added to make the question.
   examples:
     - text: '[Are you generous?]'
       from: entry
@@ -57,7 +57,7 @@ child:
       from: entry
     - text: '[Are you hungry?]'
       from: constructed
-  play: Turn You are hungry into a question. Which word moves in front of the person? Then turn Kim finished the report into a question. Which helping word gets added?
+  play: Turn <i>You are hungry</i> into a question. Which word moves in front of the person? Then turn <i>Kim finished the report</i> into a question. Which helping word gets added?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

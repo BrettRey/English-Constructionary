@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Questions inside sentences with if
-  summary: After a verb like wonder or ask, if can introduce a question that the sentence reports.
+  title: Questions inside sentences with <i>if</i>
+  summary: After a verb like <i>wonder</i> or <i>ask</i>, <i>if</i> can introduce a question that the sentence reports.
   body: |-
-    In I wondered if Lee had arrived, the question is whether Lee had arrived, but it's tucked inside the sentence. The sentence reports a question rather than asking one. The words inside keep an ordinary order, with the subject before the verb.
+    In <i>I wondered if Lee had arrived</i>, the question is whether Lee had arrived, but it's tucked inside the sentence. The sentence reports a question rather than asking one. The words inside keep an ordinary order, with the subject before the verb.
 
-    This if is different from the if of a condition. Asked if Jo was ready reports a question. In If Jo was ready, we could leave, readiness is a condition on the main clause.
+    This <i>if</i> is different from the <i>if</i> of a condition. <i>Asked if Jo was ready</i> reports a question. In <i>If Jo was ready, we could leave</i>, readiness is a condition on the main clause.
   examples:
     - text: I wondered [if Lee had arrived].
       from: entry
     - text: They asked [if Jo was ready].
       from: constructed
-  try: Say I wondered if Lee had arrived. Now say If Lee had arrived, we could start. In which sentence does the if introduce a question?
+  try: Say <i>I wondered if Lee had arrived</i>. Now say <i>If Lee had arrived, we could start</i>. In which sentence does the <i>if</i> introduce a question?
 teacher:
-  summary: Useful for separating if that introduces an embedded question from conditional if, and for contrasting if with whether.
-  explain: 'Interrogative if introduces a finite subordinate closed interrogative clause in licensed complement positions. The embedded clause has embedded-question interpretation and ordinary subject-verb order. Conditional if is different: in If Jo was ready, we could leave, the if-clause makes readiness a condition on the main clause. Interrogative if cannot introduce a whether-to infinitival.'
-  terms: 'Subordinate closed interrogative: an embedded yes/no question. Compare whether, which is related; see this dictionary''s entry on whether.'
+  summary: Useful for separating <i>if</i> that introduces an embedded question from conditional <i>if</i>, and for contrasting <i>if</i> with <i>whether</i>.
+  explain: 'Interrogative <i>if</i> introduces a finite subordinate closed interrogative clause in licensed complement positions. The embedded clause has embedded-question interpretation and ordinary subject-verb order. Conditional <i>if</i> is different: in <i>If Jo was ready, we could leave</i>, the <i>if</i>-clause makes readiness a condition on the main clause. Interrogative <i>if</i> cannot introduce a whether-to infinitival.'
+  terms: 'Subordinate closed interrogative: an embedded yes/no question. Compare <i>whether</i>, which is related; see this dictionary''s entry on <i>whether</i>.'
   examples:
     - text: I wondered [if Lee had arrived].
       from: entry
@@ -31,9 +31,9 @@ teacher:
       from: constructed
       note: Condition on the main clause.
   watch_for:
-    - A learner might read the if in asked if Jo was ready as a condition.
-    - A learner might expect if to introduce a to-infinitival the way whether can.
-  activity: Give students sentences with if. They sort them into embedded question (asked if Jo was ready) and condition (If Jo was ready, we could leave) and say how they decided.
+    - A learner might read the <i>if</i> in <i>asked if Jo was ready</i> as a condition.
+    - A learner might expect <i>if</i> to introduce a <i>to</i>-infinitival the way <i>whether</i> can.
+  activity: Give students sentences with <i>if</i>. They sort them into embedded question (<i>asked if Jo was ready</i>) and condition (<i>If Jo was ready, we could leave</i>) and say how they decided.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

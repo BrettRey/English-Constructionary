@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: With an uppercase letter
-  summary: Adding with an uppercase I (or another letter) says a word is written with a capital, which can point to an official or named meaning.
+  title: <i>With an uppercase letter</i>
+  summary: Adding <i>with an uppercase I</i> (or another letter) says a word is written with a capital, which can point to an official or named meaning.
   body: |-
-    Internet with an uppercase I points to the institutional or official sense. Reformation with an uppercase R points to the proper, historical-event sense.
+    <i>Internet with an uppercase I</i> points to the institutional or official sense. <i>Reformation with an uppercase R</i> points to the proper, historical-event sense.
 
-    When the contrast is literal, uppercase I names the same letter shape as capital I. In a spelling instruction, it doesn't tell the listener whether the word is a name. It only gives the case.
+    When the contrast is literal, <i>uppercase I</i> names the same letter shape as <i>capital I</i>. In a spelling instruction, it doesn't tell the listener whether the word is a name. It only gives the case.
 
     The dictionary marks this account as provisional.
   examples:
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: reformation [with an uppercase R]
       from: entry
-  try: Say a word and add with an uppercase and its first letter. Does the same instruction work with capital?
+  try: Say a word and add <i>with an uppercase</i> and its first letter. Does the same instruction work with <i>capital</i>?
 teacher:
-  summary: Helps explain with an uppercase letter as a spelling clarification that can point to a proper sense.
-  explain: The pattern is a prepositional phrase headed by with, followed by an, uppercase and a letter name. It is postposed after a label or used parenthetically. It specifies uppercase orthography and favours a proper or institutional sense, disambiguating official or proper-name use from ordinary descriptive use. When the contrast is literal, uppercase I specifies the same letter shape as capital I. In a spelling instruction, this does not tell the listener whether the word is a name. This dictionary treats with a capital letter as the variant. This dictionary marks its analysis provisional.
-  terms: Uppercase letter is another name for capital letter. This dictionary lists with a capital letter as a variant.
+  summary: Helps explain <i>with an uppercase letter</i> as a spelling clarification that can point to a proper sense.
+  explain: The pattern is a prepositional phrase headed by <i>with</i>, followed by <i>an</i>, <i>uppercase</i> and a letter name. It is postposed after a label or used parenthetically. It specifies uppercase orthography and favours a proper or institutional sense, disambiguating official or proper-name use from ordinary descriptive use. When the contrast is literal, <i>uppercase I</i> specifies the same letter shape as <i>capital I</i>. In a spelling instruction, this does not tell the listener whether the word is a name. This dictionary treats <i>with a capital letter</i> as the variant. This dictionary marks its analysis provisional.
+  terms: <i>Uppercase letter</i> is another name for <i>capital letter</i>. This dictionary lists <i>with a capital letter</i> as a variant.
   examples:
     - text: internet [with an uppercase I]
       from: entry
@@ -37,7 +37,7 @@ teacher:
   watch_for:
     - A learner might think an uppercase letter must show a name, when in a spelling instruction the phrase only gives the case.
     - A learner might read the phrase as saying the word is a name, though it can be only a literal case instruction.
-  activity: Students write a list of words with the phrase with an uppercase and the initial. They swap capital in for uppercase and check the written form is the same.
+  activity: Students write a list of words with the phrase <i>with an uppercase</i> and the initial. They swap <i>capital</i> in for <i>uppercase</i> and check the written form is the same.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

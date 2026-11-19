@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Keeping at something with away
-  summary: Adding away and at to a verb presents an activity as sustained or repeated, aimed at a target.
+  title: Keeping at something with <i>away</i>
+  summary: Adding <i>away</i> and <i>at</i> to a verb presents an activity as sustained or repeated, aimed at a target.
   body: |-
-    In They worked away at the problem all afternoon, away doesn't mean that anyone went anywhere. It adds the idea that the work went on, without saying the problem was solved. The target of the effort comes after at.
+    In <i>They worked away at the problem all afternoon</i>, <i>away</i> doesn't mean that anyone went anywhere. It adds the idea that the work went on, without saying the problem was solved. The target of the effort comes after <i>at</i>.
 
-    The same idea fits Simmy was carving away at the roast: the carving is presented as sustained, with no finished result announced. This dictionary also says that away can help a verb fit the at frame when it would be judged worse with at alone. A different pattern, with away from, is about direction and is a separate matter.
+    The same idea fits <i>Simmy was carving away at the roast</i>: the carving is presented as sustained, with no finished result announced. This dictionary also says that <i>away</i> can help a verb fit the <i>at</i> frame when it would be judged worse with <i>at</i> alone. A different pattern, with <i>away from</i>, is about direction and is a separate matter.
   examples:
     - text: Simmy was [carving away at the roast].
       from: entry
     - text: They [worked away at the problem] all afternoon.
       from: entry
-  try: Compare They worked at the problem with They worked away at the problem. Which one sounds more like long, patient effort?
+  try: Compare <i>They worked at the problem</i> with <i>They worked away at the problem</i>. Which one sounds more like long, patient effort?
 teacher:
-  summary: Helps explain how away plus an at-phrase marks ongoing or repeated effort aimed at a target.
-  explain: 'The pattern is a verb followed by away and an at-phrase: V away at NP. Away contributes aspect, not direction. It presents the activity as sustained or repeated, possibly made of many small effects on the target, without a finished result. A published comparison (carve with and without away) suggests that away can also license a verb that is judged markedly less acceptable with at alone. The analysis is provisional. Don''t confuse it with directional away from, which has a separate interpretation, or with the conative at pattern, which shares the target at-phrase but differs in aspect and available verbs.'
-  terms: This dictionary describes away here as making an aspectual contribution, not a directional one.
+  summary: Helps explain how <i>away</i> plus an <i>at</i>-phrase marks ongoing or repeated effort aimed at a target.
+  explain: 'The pattern is a verb followed by <i>away</i> and an <i>at</i>-phrase: V <i>away at</i> NP. <i>Away</i> contributes aspect, not direction. It presents the activity as sustained or repeated, possibly made of many small effects on the target, without a finished result. A published comparison (<i>carve</i> with and without <i>away</i>) suggests that <i>away</i> can also license a verb that is judged markedly less acceptable with <i>at</i> alone. The analysis is provisional. Don''t confuse it with directional <i>away from</i>, which has a separate interpretation, or with the conative <i>at</i> pattern, which shares the target <i>at</i>-phrase but differs in aspect and available verbs.'
+  terms: This dictionary describes <i>away</i> here as making an aspectual contribution, not a directional one.
   examples:
     - text: Simmy was [carving away at the roast].
       from: entry
@@ -28,25 +28,25 @@ teacher:
   contrasts:
     - text: They worked away at the problem all afternoon.
       from: entry
-      note: Away marks sustained effort; the problem needn't be solved.
+      note: <i>Away</i> marks sustained effort; the problem needn't be solved.
     - text: They walked away from the problem.
       from: constructed
-      note: Away from is directional, a separate interpretation.
+      note: <i>Away from</i> is directional, a separate interpretation.
   watch_for:
-    - A learner might read away in worked away at as movement away from something.
-    - A learner might take worked away at the problem to mean the problem was solved.
-  activity: Students act out or describe tasks that take many small efforts (chipping, scrubbing, sanding). They complete "She was ___ away at the ___" and say what the sentence leaves open about whether the job finished.
+    - A learner might read <i>away</i> in <i>worked away at</i> as movement away from something.
+    - A learner might take <i>worked away at the problem</i> to mean the problem was solved.
+  activity: Students act out or describe tasks that take many small efforts (chipping ice, cleaning a pan, fixing a bike). They complete "<i>She was ___ away at the ___</i>" with <i>working</i> or <i>chipping</i> and say what the sentence leaves open about whether the job finished.
 child:
-  hook: What does away mean in "She worked away at her homework"?
-  explain: Sometimes away doesn't mean going anywhere. It means you keep doing something for a while. Working away at homework means working on it for a good while.
+  hook: What does away mean in "<i>She worked away at her homework</i>"?
+  explain: Sometimes <i>away</i> doesn't mean going anywhere. It means you keep doing something for a while. <i>Working away at homework</i> means working on it for a good while.
   examples:
     - text: They [worked away at the problem] all afternoon.
       from: entry
     - text: Dad was [chipping away at the ice].
       from: constructed
-  play: Pick a job, like scrubbing or colouring. Say it with away at, then act it out for ten seconds. Does it feel like one quick action or like something that keeps going?
+  play: Pick a job, like scrubbing or colouring. Say it with <i>away at</i>, then act it out for ten seconds. Does it feel like one quick action or like something that keeps going?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)
   result: fixed
-  note: 'Fixed: removed the claim that the work in the problem example consisted of many small efforts (the entry says only that it conveys duration and leaves the result open) and the matching many-small-cuts reading of the carving example; child explain and play now speak of keeping going rather than bit by bit.'
+  note: 'Fixed: removed the claim that the work in the problem example consisted of many small efforts (the entry says only that it conveys duration and leaves the result open) and the matching many-small-cuts reading of the carving example; child explain and play now speak of keeping going rather than bit by bit. Frequency pass: teacher.activity tasks scrubbing and sanding (scrub about 8,900th in SUBTLEX-UK; sanding rarer) replaced by everyday tasks, and the frame is now filled with working or chipping; entry examples unchanged.'

@@ -1,5 +1,5 @@
 id: closed-interrogative-whether-001
-name: Subordinate Closed Interrogative with Whether
+name: "Subordinate Closed Interrogative with <i>whether</i>"
 pattern: whether + subordinate declarative-order nucleus, or whether + to-infinitival
 type: syntactic
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Whether can introduce an infinitival, where interrogative if is unavailable. Certain finite prepositional and subject environments likewise favour or require whether.
+    target: "<i>Whether</i> can introduce an infinitival, where interrogative <i>if</i> is unavailable. Certain finite prepositional and subject environments likewise favour or require <i>whether</i>."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Plural nouns without -s
-  summary: A plural noun is defined by how it behaves in a sentence, not by an -s ending or by meaning more than one.
+  title: Plural nouns without <i>-s</i>
+  summary: A plural noun is defined by how it behaves in a sentence, not by an <i>-s</i> ending or by meaning more than one.
   body: |-
-    Cats and books are plural nouns. They go with plural verbs and with numbers above one. But a plural noun doesn't need to end in -s. Sheep can go with a plural verb with no ending at all.
+    <i>Cats</i> and <i>books</i> are plural nouns. They go with plural verbs and with numbers above one. But a plural noun doesn't need to end in <i>-s</i>. <i>Sheep</i> can go with a plural verb with no ending at all.
 
-    Plural doesn't have to mean more than one thing. Scissors is plural, yet counting individual tools needs a phrase such as pairs of scissors. This dictionary calls plural a form category, not a meaning category: it typically suggests more than one unit, but that isn't what defines it.
+    Plural doesn't have to mean more than one thing. <i>Scissors</i> is plural, yet counting individual tools needs a phrase such as <i>pairs of scissors</i>. This dictionary calls plural a form category, not a meaning category: it typically suggests more than one unit, but that isn't what defines it.
   examples:
     - text: '[cats]'
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: The [sheep] are in the field.
       from: constructed
-  try: Find a plural word that doesn't end in -s. Put it in a sentence and see which verb fits.
+  try: Find a plural word that doesn't end in <i>-s</i>. Put it in a sentence and see which verb fits.
 teacher:
   summary: Explains that plural is a grammatical form, with irregular and plural-only nouns as test cases.
-  explain: 'A plural noun has the plural number form: it selects plural agreement and combines with cardinals above one. It typically construes the referents as more than one unit, but the category is morphosyntactic, not semantic (cf. plural-only nouns). A plural doesn''t require the spelling -s or direct counting: sheep can show plural agreement with no suffix, and scissors typically needs a unit expression to count individual instruments. This dictionary''s irregular and plural-only forms offer independent contrasts for number marking and countability. Zero plurals and plural common nouns are related patterns.'
+  explain: 'A plural noun has the plural number form: it selects plural agreement and combines with cardinals above one. It typically construes the referents as more than one unit, but the category is morphosyntactic, not semantic (cf. plural-only nouns). A plural doesn''t require the spelling <i>-s</i> or direct counting: <i>sheep</i> can show plural agreement with no suffix, and <i>scissors</i> typically needs a unit expression to count individual instruments. This dictionary''s irregular and plural-only forms offer independent contrasts for number marking and countability. Zero plurals and plural common nouns are related patterns.'
   terms: Plural-only nouns are sometimes called pluralia tantum, the term this dictionary uses.
   examples:
     - text: '[cats]'
@@ -30,17 +30,17 @@ teacher:
   contrasts:
     - text: The sheep are in the field.
       from: constructed
-      note: Plural agreement with no -s on the noun.
+      note: Plural agreement with no <i>-s</i> on the noun.
     - text: She bought two pairs of scissors.
       from: constructed
       note: Counting tools needs a unit expression.
   watch_for:
-    - A learner might assume every plural noun ends in -s.
+    - A learner might assume every plural noun ends in <i>-s</i>.
     - A learner might assume that plural has to mean more than one thing, though this dictionary says the category is a form category, not a semantic one.
-  activity: Students sort nouns into those with -s plurals, those with other plurals, and those that behave as plural only. They write each in a sentence with a plural verb.
+  activity: Students sort nouns into those with <i>-s</i> plurals, those with other plurals, and those that behave as plural only. They write each in a sentence with a plural verb.
 child:
-  hook: Is it one sheep or two sheep? Does the word change?
-  explain: Plural nouns tell us about more than one thing. Some end in -s, like cats and books. But sheep can be plural without changing. We say the sheep are in the field.
+  hook: Is it <i>one sheep</i> or <i>two sheep</i>? Does the word change?
+  explain: Plural nouns tell us about more than one thing. Some end in <i>-s</i>, like <i>cats</i> and <i>books</i>. But <i>sheep</i> can be plural without changing. We say <i>the sheep are in the field</i>.
   examples:
     - text: The [sheep] are in the field.
       from: constructed

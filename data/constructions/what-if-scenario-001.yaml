@@ -1,5 +1,5 @@
 id: what-if-scenario-001
-name: Deliberative What If
+name: "Deliberative <i>what if</i>"
 pattern: what if + finite clause
 type: pragmatic
 meanings:

@@ -4,11 +4,11 @@ pattern: Clause[Subject:dummy it + VP[... + extraposed content clause or infinit
 type: mixed
 meanings:
   '1':
-    definition: Puts the situation under discussion after the predicate, leaving dummy it in subject position.
-    details: A that-clause, an interrogative clause, or an infinitival may occur in the later position. The basic initial-clause version is often less natural when the information is presented as new. A referential NP does not ordinarily alternate in this way. In a right dislocation like It’s fascinating, this book, it refers to the book.
+    definition: Puts the situation under discussion after the predicate, leaving dummy <i>it</i> in subject position.
+    details: A <i>that</i>-clause, an interrogative clause, or an infinitival may occur in the later position. The basic initial-clause version is often less natural when the information is presented as new. A referential NP does not ordinarily alternate in this way. In a right dislocation like <i>It’s fascinating, this book</i>, <i>it</i> refers to the book.
     examples:
       - form: '[It worries me that he hasn’t phoned.]'
-        note: Compare the basic That he hasn’t phoned worries me.
+        note: Compare the basic <i>That he hasn’t phoned worries me</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 16 §7.1 [1i]
@@ -37,16 +37,16 @@ relatedConstructions:
     notes: The pronoun is referential in the dislocated NP construction.
   - id: complement-it-extraposition-001
     relationship: related-to
-    notes: In It surprised me that Jo left, dummy it is subject. In I find it surprising that Jo left, it is object and the content clause follows the predicative.
+    notes: In <i>It surprised me that Jo left</i>, dummy <i>it</i> is subject. In <i>I find it surprising that Jo left</i>, <i>it</i> is object and the content clause follows the predicative.
 grounds:
   - source: casa-constructicon
     locator: records 51–52
     relation: discusses
     bears-on: projection
-    note: Lists finite and infinitival patterns with dummy it.
+    note: Lists finite and infinitival patterns with dummy <i>it</i>.
 kind:
   provisional: true
   projection:
-    target: A clause can appear after the predicate with dummy it. The same predicate need not allow an ordinary NP in that position. Extraposition is especially useful with newly introduced information.
+    target: A clause can appear after the predicate with dummy <i>it</i>. The same predicate need not allow an ordinary NP in that position. Extraposition is especially useful with newly introduced information.
     evidence: CGEL gives matched clauses, an excluded ordinary NP, and an attested text opening. CASA lists finite and infinitival forms separately.
     confidence: high

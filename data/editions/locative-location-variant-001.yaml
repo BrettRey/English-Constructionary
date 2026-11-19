@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Putting the surface right after the verb
-  summary: With some verbs, the place that gets treated comes right after the verb and the material comes after with.
+  summary: With some verbs, the place that gets treated comes right after the verb and the material comes after <i>with</i>.
   body: |-
-    They sprayed the panel with paint puts the panel, the place that gets sprayed, straight after the verb. The paint, the material, follows with. The sentence presents the panel as the main thing affected.
+    <i>They sprayed the panel with paint</i> puts the panel, the place that gets sprayed, straight after the verb. The paint, the material, follows <i>with</i>. The sentence presents the panel as the main thing affected.
 
-    This way of saying it favours reading the panel as the affected area, though not every part needs to be covered. In a with-phrase like this, with gives the material. In painted the panel with a brush, it gives the tool instead.
+    This way of saying it favours reading the panel as the affected area, though not every part needs to be covered. In a <i>with</i>-phrase like this, <i>with</i> gives the material. In <i>painted the panel with a brush</i>, it gives the tool instead.
   examples:
     - text: They [sprayed the panel with paint].
       from: entry
     - text: They [painted the panel with a brush].
       from: constructed
-  try: Say They sprayed the panel with paint and then They painted the panel with a brush. What does with give in each one?
+  try: Say <i>They sprayed the panel with paint</i> and then <i>They painted the panel with a brush</i>. What does <i>with</i> give in each one?
 teacher:
-  summary: Helps explain the frame in which the location is the direct object and the material comes in a with-phrase, as in sprayed the panel with paint.
-  explain: 'In this frame the location is the direct object and the material is a with-dependent: sprayed the panel with paint. The location can also be the passive subject (The panel was sprayed with paint). The frame favours an affected-region reading, which need not literally cover every part of the site. Don''t confuse the material with-phrase with the instrument with-phrase in painted the panel with a brush.'
+  summary: Helps explain the frame in which the location is the direct object and the material comes in a <i>with</i>-phrase, as in <i>sprayed the panel with paint</i>.
+  explain: 'In this frame the location is the direct object and the material is a <i>with</i>-dependent: <i>sprayed the panel with paint</i>. The location can also be the passive subject (<i>The panel was sprayed with paint</i>). The frame favours an affected-region reading, which need not literally cover every part of the site. Don''t confuse the material <i>with</i>-phrase with the instrument <i>with</i>-phrase in <i>painted the panel with a brush</i>.'
   terms: This dictionary calls this the location-object frame.
   examples:
     - text: They [sprayed the panel with paint].
@@ -28,14 +28,14 @@ teacher:
   contrasts:
     - text: They sprayed the panel with paint.
       from: entry
-      note: The location is the object; with gives the material.
+      note: The location is the object; <i>with</i> gives the material.
     - text: They painted the panel with a brush.
       from: constructed
-      note: The with-phrase gives the instrument, not the material.
+      note: The <i>with</i>-phrase gives the instrument, not the material.
   watch_for:
     - A learner might think the panel must be covered completely, when the frame favours an affected-region reading that need not cover every part.
-    - A learner might read the with-phrase in painted the panel with a brush as a material, when it is an instrument.
-  activity: Give students verb cards such as spray and paint. They build sentences with the place right after the verb, swap them with a partner, and mark whether the with-phrase names a material or an instrument.
+    - A learner might read the <i>with</i>-phrase in <i>painted the panel with a brush</i> as a material, when it is an instrument.
+  activity: Give students verb cards such as <i>spray</i> and <i>paint</i>. They build sentences with the place right after the verb, swap them with a partner, and mark whether the <i>with</i>-phrase names a material or an instrument.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

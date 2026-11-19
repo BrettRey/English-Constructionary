@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Saying where something started
-  summary: A small phrase with from, away, off or out can tell where a movement or change began.
+  summary: A small phrase with <i>from</i>, <i>away</i>, <i>off</i> or <i>out</i> can tell where a movement or change began.
   body: |-
-    In She came from Toronto, the phrase from Toronto says where the coming started. Phrases beginning with away, off or out do a similar job: Kim jumped off the pier, He came out of the room, She walked away.
+    In <i>She came from Toronto</i>, the phrase <i>from Toronto</i> says where the coming started. Phrases beginning with <i>away</i>, <i>off</i> or <i>out</i> do a similar job: <i>Kim jumped off the pier</i>, <i>He came out of the room</i>, <i>She walked away</i>.
 
-    This dictionary treats these phrases as built into the verb phrase, not added on as extras. A starting point can also go together with a separate end point, as in They flew from Toronto to Ottawa. This dictionary marks the analysis as provisional.
+    This dictionary treats these phrases as built into the verb phrase, not added on as extras. A starting point can also go together with a separate end point, as in <i>They flew from Toronto to Ottawa</i>. This dictionary marks the analysis as provisional.
   examples:
     - text: She came [from Toronto].
       from: entry
@@ -23,10 +23,10 @@ curious:
       from: entry
     - text: They flew [from Toronto] [to Ottawa].
       from: entry
-  try: Describe a trip with where it started and where it ended, such as I walked from ... to ...
+  try: Describe a trip with where it started and where it ended, such as <i>I walked from ... to ...</i>
 teacher:
-  summary: Helps explain phrases with from, away, off or out that name the starting point of motion or change.
-  explain: 'Source is a semantic role: the initial location of motion, derivation or change. In CGEL terms, it''s borne by a locative complement of the verb, a PP headed by from, away, off or out, integrated into the VP and not added as an adjunct. From takes an NP or locative PP (from under the bed). Away occurs alone or with a from-PP. Off occurs alone or with an NP object. Out occurs alone or with an of-PP or from-PP. A separate goal-role locative complement can follow (from Toronto to Ottawa). This dictionary marks the analysis as provisional.'
+  summary: Helps explain phrases with <i>from</i>, <i>away</i>, <i>off</i> or <i>out</i> that name the starting point of motion or change.
+  explain: 'Source is a semantic role: the initial location of motion, derivation or change. In CGEL terms, it''s borne by a locative complement of the verb, a PP headed by <i>from</i>, <i>away</i>, <i>off</i> or <i>out</i>, integrated into the VP and not added as an adjunct. <i>From</i> takes an NP or locative PP (<i>from under the bed</i>). <i>Away</i> occurs alone or with a <i>from</i>-PP. <i>Off</i> occurs alone or with an NP object. <i>Out</i> occurs alone or with an <i>of</i>-PP or <i>from</i>-PP. A separate goal-role locative complement can follow (<i>from Toronto to Ottawa</i>). This dictionary marks the analysis as provisional.'
   terms: In this dictionary, such a phrase is called a source-role locative complement.
   examples:
     - text: She came [from Toronto].
@@ -44,12 +44,12 @@ teacher:
       from: entry
       note: Source and goal complements together.
   watch_for:
-    - A learner might treat the inner PP in from under the bed as a second source complement, when the whole from-PP is the complement.
-    - A learner might pair away or off with the wrong complement, since each head has its own complement pattern.
-  activity: Students trace a route on a map and write sentences using from, away, off and out for starting points. They then add a goal phrase to at least one.
+    - A learner might treat the inner PP in <i>from under the bed</i> as a second source complement, when the whole <i>from</i>-PP is the complement.
+    - A learner might pair <i>away</i> or <i>off</i> with the wrong complement, since each head has its own complement pattern.
+  activity: Students trace a route on a map and write sentences using <i>from</i>, <i>away</i>, <i>off</i> and <i>out</i> for starting points. They then add a goal phrase to at least one.
 child:
   hook: How do you say where a trip started?
-  explain: Words like from, off and out can tell where something started. She came from Toronto. Kim jumped off the pier. They flew from Toronto to Ottawa.
+  explain: Words like <i>from</i>, <i>off</i> and <i>out</i> can tell where something started. <i>She came from Toronto</i>. <i>Kim jumped off the pier</i>. <i>They flew from Toronto to Ottawa</i>.
   examples:
     - text: She came [from Toronto].
       from: entry
@@ -57,7 +57,7 @@ child:
       from: entry
     - text: They flew [from Toronto] [to Ottawa].
       from: entry
-  play: Act out a short trip. Say where you started with from, off or out, and where you ended with to.
+  play: Act out a short trip. Say where you started with <i>from</i>, <i>off</i> or <i>out</i>, and where you ended with <i>to</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

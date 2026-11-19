@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Saying how long with for
-  summary: A for phrase with a length of time says how long something lasted.
+  title: Saying how long with <i>for</i>
+  summary: A <i>for</i> phrase with a length of time says how long something lasted.
   body: |-
-    In Jo stayed outside for fifteen minutes, for fifteen minutes measures how long Jo's staying outside lasted. It can measure how long a state or an activity held, or a result was maintained.
+    In <i>Jo stayed outside for fifteen minutes</i>, <i>for fifteen minutes</i> measures how long Jo's staying outside lasted. It can measure how long a state or an activity held, or a result was maintained.
 
-    Compare time measured by in. Wrote for an hour measures the time spent writing, while wrote the letter in an hour measures the time it took to finish. With a very quick action, the for phrase can suggest repetition or a result that lasts, where the context supports that.
+    Compare time measured by <i>in</i>. <i>Wrote for an hour</i> measures the time spent writing, while <i>wrote the letter in an hour</i> measures the time it took to finish. With a very quick action, the <i>for</i> phrase can suggest repetition or a result that lasts, where the context supports that.
   examples:
     - text: Jo stayed outside [for fifteen minutes].
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: constructed
     - text: Jo wrote the letter [in an hour].
       from: constructed
-  try: Say how long you spent on something today, using for. Then say how long a finished job took, using in.
+  try: Say how long you spent on something today, using <i>for</i>. Then say how long a finished job took, using <i>in</i>.
 teacher:
-  summary: Helps explain for-phrases that measure how long, and how they differ from in-phrases that measure time to completion.
-  explain: 'A for-PP with a measure NP of time is an adjunct that measures how long a state, process or maintained result holds: Jo stayed outside for fifteen minutes. Wrote for an hour measures time spent writing, while wrote the letter in an hour measures elapsed time to completion. With a normally punctual predicate, the adjunct can favour a repeated-event or resulting-state construal where context supports it. This dictionary treats it as a specialization of the PP and marks it provisional, with medium confidence.'
+  summary: Helps explain <i>for</i>-phrases that measure how long, and how they differ from in-phrases that measure time to completion.
+  explain: 'A <i>for</i>-PP with a measure NP of time is an adjunct that measures how long a state, process or maintained result holds: <i>Jo stayed outside for fifteen minutes</i>. <i>Wrote for an hour</i> measures time spent writing, while <i>wrote the letter in an hour</i> measures elapsed time to completion. With a normally punctual predicate, the adjunct can favour a repeated-event or resulting-state construal where context supports it. This dictionary treats it as a specialization of the PP and marks it provisional, with medium confidence.'
   terms: For-phrases like this are sometimes called duration adverbials.
   examples:
     - text: Jo stayed outside [for fifteen minutes].
@@ -33,18 +33,18 @@ teacher:
       from: constructed
       note: Measures time elapsed to completion.
   watch_for:
-    - A learner might mix up for an hour (time spent) and in an hour (time to finish).
-    - A learner might read for fifteen minutes with a quick action as one long event, when context can favour a repeated-event reading.
-  activity: Give students a list of activities, some open-ended (reading, waiting) and some with an endpoint (writing a letter, cleaning a room). They add for or in plus a time and explain what each phrase measures.
+    - A learner might mix up <i>for an hour</i> (time spent) and <i>in an hour</i> (time to finish).
+    - A learner might read <i>for fifteen minutes</i> with a quick action as one long event, when context can favour a repeated-event reading.
+  activity: Give students a list of activities, some open-ended (reading, waiting) and some with an endpoint (writing a letter, cleaning a room). They add <i>for</i> or <i>in</i> plus a time and explain what each phrase measures.
 child:
   hook: How do you say how long Jo stayed outside?
-  explain: For and a length of time tell how long something lasted. Jo stayed outside for fifteen minutes. The time is how long she stayed.
+  explain: <i>For</i> and a length of time tell how long something lasted. <i>Jo stayed outside for fifteen minutes</i>. The time is how long she stayed.
   examples:
     - text: Jo stayed outside [for fifteen minutes].
       from: entry
     - text: Mia waited [for an hour].
       from: constructed
-  play: Tell a partner something you did today. Say how long it lasted using for. Your partner guesses what you did.
+  play: Tell a partner something you did today. Say how long it lasted using <i>for</i>. Your partner guesses what you did.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

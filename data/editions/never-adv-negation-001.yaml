@@ -7,9 +7,9 @@ curious:
   title: A word that means at no time
   summary: The adverb never says that something did not happen at any time.
   body: |-
-    In She never called, the word never denies calling across the whole relevant stretch of time. It means that no calling events occurred. In I have never been there, it means that there are no prior occasions in the speaker's experience.
+    In <i>She never called</i>, the word <i>never</i> denies calling across the whole relevant stretch of time. It means that no calling events occurred. In <i>I have never been there</i>, it means that there are no prior occasions in the speaker's experience.
 
-    Never doesn't need a helper verb: She never called has no did before it. It also changes the sentence's polarity. After They never replied, a confirmation tag such as did they? fits. This dictionary treats the time meaning and the negative sentence as two things that can be tested separately.
+    <i>Never</i> doesn't need a helper verb: <i>She never called</i> has no <i>did</i> before it. It also changes the sentence's polarity. After <i>They never replied</i>, a confirmation tag such as <i>did they?</i> fits. This dictionary treats the time meaning and the negative sentence as two things that can be tested separately.
   examples:
     - text: She [never] called.
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: They [never] replied, did they?
       from: constructed
-  try: Say something you've never done. Does the sentence need a helper such as did?
+  try: Say something you've never done. Does the sentence need a helper such as <i>did</i>?
 teacher:
-  summary: Covers never as an adverb of negation, with a confirmation tag as a polarity test.
-  explain: Never is an adverbial negator modifying the verb phrase. It negates occurrence across the relevant time span, meaning no instances at any time. No auxiliary do is needed to host it in the declarative. A clause such as They never replied can take the positive confirmation tag did they?, which shows the clause is negative. Its temporal quantification and its clausal polarity are independently testable. This dictionary compares never with negation plus ever.
+  summary: Covers <i>never</i> as an adverb of negation, with a confirmation tag as a polarity test.
+  explain: "<i>Never</i> is an adverbial negator modifying the verb phrase. It negates occurrence across the relevant time span, meaning no instances at any time. No auxiliary do is needed to host it in the declarative. A clause such as <i>They never replied</i> can take the positive confirmation tag <i>did they?</i>, which shows the clause is negative. Its temporal quantification and its clausal polarity are independently testable. This dictionary compares <i>never</i> with negation plus <i>ever</i>."
   terms: This dictionary calls it an adverbial negator, a negative adverb that modifies the verb phrase.
   examples:
     - text: She [never] called.
@@ -33,20 +33,20 @@ teacher:
       note: The positive tag confirms that the clause is negative.
     - text: She didn't ever call.
       from: constructed
-      note: Negation plus ever, which this dictionary compares with the adverb.
+      note: Negation plus <i>ever</i>, which this dictionary compares with the adverb.
   watch_for:
     - A learner might assume a helper do is needed to carry the adverb, though this dictionary says no auxiliary do is needed in the declarative.
     - A learner might think a negative adverb means the clause is not negative.
   activity: Students write three sentences with the adverb, one in the simple past and two in the perfect. They add a positive confirmation tag to each and say whether it fits.
 child:
-  hook: What does never tell you about when something happens?
-  explain: Never means at no time. She never called means she didn't call even once. I have never been there means I have not been there before.
+  hook: What does <i>never</i> tell you about when something happens?
+  explain: "<i>Never</i> means at no time. <i>She never called</i> means she didn't call even once. <i>I have never been there</i> means I have not been there before."
   examples:
     - text: She [never] called.
       from: entry
     - text: I have [never] been there.
       from: entry
-  play: Say three things you have never done. Start each one with I have never.
+  play: Say three things you have never done. Start each one with <i>I have never</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

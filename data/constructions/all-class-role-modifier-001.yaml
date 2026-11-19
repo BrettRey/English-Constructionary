@@ -1,11 +1,11 @@
 id: all-class-role-modifier-001
-name: All Modifier Restricting a Role
+name: "<i>all</i> Modifier Restricting a Role"
 pattern: Nom[all + class-denoting nominal or adjective + N]
 type: mixed
 meanings:
   '1':
     definition: Restricts the occupants of a salient role associated with the head noun to one class.
-    details: With an all girls’ school the relevant role is eligibility to attend. The school can educate only some of the town’s girls and have men on staff. With an all-women team the team supplies the members. Genitive and plain-case nominal forms and adjectives support the interpretation. CGEL treats all girls’ as a genitive NP with peripheral all. The related patterns leave that token’s internal bracketing open.
+    details: With <i>an all girls’ school</i> the relevant role is eligibility to attend. The school can educate only some of the town’s girls and have men on staff. With <i>an all-women team</i> the team supplies the members. Genitive and plain-case nominal forms and adjectives support the interpretation. CGEL treats <i>all girls’</i> as a genitive NP with peripheral <i>all</i>. The related patterns leave that token’s internal bracketing open.
     examples:
       - form: an [all girls’ school]
         note: The restriction concerns who can attend the school.
@@ -34,10 +34,10 @@ relatedConstructions:
     notes: The role-restricting expression combines with a nominal head.
   - id: genitive-s-001
     relationship: related-to
-    notes: CGEL analyzes the spelling girls’ in its example as genitive.
+    notes: CGEL analyzes the spelling <i>girls’</i> in its example as genitive.
 kind:
   provisional: true
   projection:
-    target: The head helps select the set to which all applies. The restriction applies to students in the school case and members in the team case.
+    target: The head helps select the set to which <i>all</i> applies. The restriction applies to students in the school case and members in the team case.
     evidence: CGEL's exclusivity gloss and the two expressions for the same Indian police contingent support the cross-form comparison.
     confidence: medium

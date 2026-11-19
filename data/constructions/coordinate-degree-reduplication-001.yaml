@@ -1,5 +1,5 @@
 id: coordinate-degree-reduplication-001
-name: Comparative Reduplication with And
+name: "Comparative Reduplication with <i>and</i>"
 pattern: AdjP/AdvP[comparative XP + and + identical comparative XP]
 type: mixed
 meanings:

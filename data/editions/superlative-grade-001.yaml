@@ -5,9 +5,9 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: The most extreme of a group
-  summary: A word like narrowest picks one item as the extreme within a set the speaker has in mind.
+  summary: A word like <i>narrowest</i> picks one item as the extreme within a set the speaker has in mind.
   body: |-
-    In Jo chose the narrowest of the three aisles, narrowest picks out one aisle at the extreme end of a comparison. The comparison set is the three aisles, and of the three marks it.
+    In <i>Jo chose the narrowest of the three aisles</i>, <i>narrowest</i> picks out one aisle at the extreme end of a comparison. The comparison set is the three aisles, and <i>of the three</i> marks it.
 
     The set limits what the word is compared with. So the chosen aisle needn't be narrow by any other standard. It's the narrowest only among those three.
 
@@ -20,7 +20,7 @@ curious:
   try: Choose three objects near you. Say which is the tallest or the lightest of the three. Would your answer change with a different set?
 teacher:
   summary: Useful for explaining superlatives and the set they are measured against.
-  explain: The pattern is a superlative adjective or adverb phrase, optionally with an of or in expression naming the domain. It places the chosen instance at an extreme relative to a contextually delimited set. Of the three restricts the comparison set, so the aisle need not count as narrow by an independent contextual standard. This dictionary marks the analysis as provisional and has one constructed illustration. A related entry covers the subject-linked genitive superlative, as in worked their hardest.
+  explain: The pattern is a superlative adjective or adverb phrase, optionally with an <i>of</i> or <i>in</i> expression naming the domain. It places the chosen instance at an extreme relative to a contextually delimited set. <i>Of the three</i> restricts the comparison set, so the aisle need not count as narrow by an independent contextual standard. This dictionary marks the analysis as provisional and has one constructed illustration. A related entry covers the subject-linked genitive superlative, as in <i>worked their hardest</i>.
   terms: Superlative grade of an adjective or adverb. Gradation is a separate entry.
   examples:
     - text: Jo chose the [narrowest of the three aisles].
@@ -29,11 +29,11 @@ teacher:
       from: constructed
   watch_for:
     - A learner might think the narrowest aisle must be narrow by an outside standard, when it is only the narrowest among the three.
-    - A learner might leave out the comparison set or ignore of the three and in her class.
-  activity: Show students a set of three or four items. They write superlative sentences with of and in phrases naming the set, then change the set and see how the sentence changes.
+    - A learner might leave out the comparison set or ignore <i>of the three</i> and <i>in her class</i>.
+  activity: Show students a set of three or four items. They write superlative sentences with <i>of</i> and <i>in</i> phrases naming the set, then change the set and see how the sentence changes.
 child:
   hook: Which pet is the smallest of your three?
-  explain: Words like smallest and narrowest pick one thing from a group. The group is the set you're comparing. Change the group and the answer can change.
+  explain: Words like <i>smallest</i> and <i>narrowest</i> pick one thing from a group. The group is the set you're comparing. Change the group and the answer can change.
   examples:
     - text: Jo chose the [narrowest of the three aisles].
       from: entry

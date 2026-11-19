@@ -16,7 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: declarative-content-clause-001
     relationship: interfaces-with
-    notes: The that-clause in Jo said that she was ready supplies the content of the speech report.
+    notes: The <i>that</i>-clause in <i>Jo said that she was ready</i> supplies the content of the speech report.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §9.1

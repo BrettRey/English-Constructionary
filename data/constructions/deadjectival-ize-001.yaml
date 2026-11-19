@@ -1,5 +1,5 @@
 id: deadjectival-ize-001
-name: Change Verb in -Ize
+name: "Change Verb in <i>-ize</i>"
 pattern: V[adjective base + -ize/-ise]
 type: morphological
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: In the transparent causative use stable specifies a result. The -ize family also has noun bases and lexicalized meanings beyond this construction.
+    target: In the transparent causative use <i>stable</i> specifies a result. The <i>-ize</i> family also has noun bases and lexicalized meanings beyond this construction.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

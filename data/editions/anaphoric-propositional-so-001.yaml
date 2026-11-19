@@ -4,43 +4,43 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: I think so
-  summary: After a word like think, so can stand in for a whole statement mentioned in the conversation.
+  title: "<i>I think so</i>"
+  summary: After a word like <i>think</i>, <i>so</i> can stand in for a whole statement mentioned in the conversation.
   body: |-
-    Asked Are the keys inside?, someone can answer I think so. Here so stands for the content the keys are inside. The full sentence would be I think the keys are inside.
+    Asked <i>Are the keys inside?</i>, someone can answer <i>I think so</i>. Here <i>so</i> stands for the content <i>the keys are inside</i>. The full sentence would be <i>I think the keys are inside</i>.
 
-    The same short form works with hope, as in I hope so. There the pair is I hope so and I hope not: so picks up the proposition in play, and not picks up its negative counterpart. It is different from do so, which stands in for an action rather than for something that is thought or said.
+    The same short form works with <i>hope</i>, as in <i>I hope so</i>. There the pair is <i>I hope so</i> and <i>I hope not</i>: <i>so</i> picks up the proposition in play, and <i>not</i> picks up its negative counterpart. It is different from <i>do so</i>, which stands in for an action rather than for something that is thought or said.
   examples:
     - text: “Are the keys inside?” “I [think so].”
       from: entry
-  try: Answer a yes-or-no question with I think so. Say the full sentence that so stands for.
+  try: Answer a yes-or-no question with <i>I think so</i>. Say the full sentence that <i>so</i> stands for.
 teacher:
-  summary: Shows how so can pick up a proposition after an attitude predicate, as in I think so.
-  explain: 'In this pattern so follows a licensed predicate and picks up a prior proposition as the content of an attitude or utterance. In the exchange Are the keys inside? I think so, so is interpreted as the proposition that the keys are inside. Do so gives an action anaphor, so it does not express that content in this frame. This dictionary places the pattern next to anaphoric not: I hope so and I hope not share an attitude predicate, with so picking up the proposition in play and not its negative counterpart.'
-  terms: 'So is anaphoric here: it refers back to a proposition. This dictionary names the pattern anaphoric propositional so.'
+  summary: Shows how <i>so</i> can pick up a proposition after an attitude predicate, as in <i>I think so</i>.
+  explain: 'In this pattern <i>so</i> follows a licensed predicate and picks up a prior proposition as the content of an attitude or utterance. In the exchange <i>Are the keys inside? I think so</i>, <i>so</i> is interpreted as the proposition that the keys are inside. <i>Do so</i> gives an action anaphor, so it does not express that content in this frame. This dictionary places the pattern next to anaphoric <i>not</i>: <i>I hope so</i> and <i>I hope not</i> share an attitude predicate, with <i>so</i> picking up the proposition in play and <i>not</i> its negative counterpart.'
+  terms: '<i>So</i> is anaphoric here: it refers back to a proposition. This dictionary names the pattern anaphoric propositional so.'
   examples:
     - text: “Are the keys inside?” “I [think so].”
       from: entry
   contrasts:
     - text: I hope so.
       from: constructed
-      note: So picks up the proposition in play.
+      note: <i>So</i> picks up the proposition in play.
     - text: I hope not.
       from: constructed
-      note: Not picks up its negative counterpart.
+      note: <i>Not</i> picks up its negative counterpart.
   watch_for:
-    - A learner might take so as meaning also or very, when it picks up a whole proposition as content.
-    - A learner might swap in do so for so, when do so gives an action anaphor.
-  activity: Students ask each other yes-or-no questions and answer with I think so and I hope so. They then write out the whole sentence that so stands for.
+    - A learner might take <i>so</i> as meaning <i>also</i> or <i>very</i>, when it picks up a whole proposition as content.
+    - A learner might swap in <i>do so</i> for <i>so</i>, when <i>do so</i> gives an action anaphor.
+  activity: Students ask each other yes-or-no questions and answer with <i>I think so</i> and <i>I hope so</i>. They then write out the whole sentence that <i>so</i> stands for.
 child:
-  hook: When someone says "I think so", what does "so" stand for?
-  explain: Someone asks, "Are the keys inside?" You answer, "I think so." The word so stands for the whole idea that the keys are inside. It saves you saying it all again.
+  hook: When someone says "<i>I think so</i>", what does "<i>so</i>" stand for?
+  explain: Someone asks, "<i>Are the keys inside?</i>" You answer, "<i>I think so.</i>" The word <i>so</i> stands for the whole idea that the keys are inside. It saves you saying it all again.
   examples:
     - text: “Are the keys inside?” “I [think so].”
       from: entry
     - text: “Is it Friday?” “I [think so].”
       from: constructed
-  play: Ask a partner a yes-or-no question. They answer with I think so. Then they say the whole sentence that those words stand for.
+  play: Ask a partner a yes-or-no question. They answer with <i>I think so</i>. Then they say the whole sentence that those words stand for.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

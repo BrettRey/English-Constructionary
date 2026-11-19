@@ -1,5 +1,5 @@
 id: either-or-coordination-001
-name: Correlative Either and Or
+name: "Correlative <i>either … or</i>"
 pattern: coordination[either + XP + or + XP]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Either signals a forthcoming alternative. Exclusion of both can be imposed by context without being a universal truth-condition of or.
+    target: "<i>Either</i> signals a forthcoming alternative. Exclusion of both can be imposed by context without being a universal truth-condition of <i>or</i>."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -13,9 +13,9 @@ meanings:
     details: Core semantic features characterizing a particular individual
     examples:
       - form: Einstein-
-        note: Features of Einstein-ness
+        note: Features of <i>Einstein-ness</i>
       - form: Shakespeare-
-        note: Features of Shakespeare-ness
+        note: Features of <i>Shakespeare-ness</i>
     relations:
       - 1
       - 5
@@ -76,6 +76,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Proper noun and proper name need not have the same extent. New Zealand is a multiword name, and a noun normally used as a name can appear in an explicitly descriptive NP such as another Einstein."
+    target: "Proper noun and proper name need not have the same extent. <i>New Zealand</i> is a multiword name, and a noun normally used as a name can appear in an explicitly descriptive NP such as <i>another Einstein</i>."
     evidence: "CGEL separates the word category from the whole designation and documents secondary uses."
     confidence: medium

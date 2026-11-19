@@ -7,9 +7,9 @@ curious:
   title: The verb and what goes with it
   summary: A verb phrase is a verb together with the words that complete or modify it, not including the subject.
   body: |-
-    In Kim left early, the verb is left and early adds to it. Together, left early is the verb phrase. Kim, who did the leaving, stands outside it.
+    In <i>Kim left early</i>, the verb is <i>left</i> and <i>early</i> adds to it. Together, <i>left early</i> is the verb phrase. Kim, who did the leaving, stands outside it.
 
-    A verb phrase can be bigger. In I sent Sue a copy, the verb sent comes with two objects, Sue and a copy. In They slept the afternoon away, the verb comes with an object and another word that finishes it.
+    A verb phrase can be bigger. In <i>I sent Sue a copy</i>, the verb <i>sent</i> comes with two objects, <i>Sue</i> and <i>a copy</i>. In <i>They slept the afternoon away</i>, the verb comes with an object and another word that finishes it.
 
     The verb's meaning and the pattern it appears in together decide which other words are required or allowed, and the subject is never inside the verb phrase. The dictionary marks this account as provisional.
   examples:
@@ -19,7 +19,7 @@ curious:
       from: entry
     - text: They [slept the afternoon away].
       from: entry
-  try: Take Kim left early and cover up the subject, Kim. What's left, left early, is the verb phrase.
+  try: Take <i>Kim left early</i> and cover up the subject, <i>Kim</i>. What's left, <i>left early</i>, is the verb phrase.
 teacher:
   summary: 'Core grammar category: the verb phrase, with its head verb and dependents, excluding the Subject.'
   explain: A verb phrase (VP) is a phrase headed by a verb, containing any complements and modifiers but excluding the Subject. The verb is the head of the VP and the ultimate head of any clause headed by that VP. Its lexical sense and constructional frame jointly determine which complements are required or permitted. The Subject is a dependent of the clause, not of the VP. A VP can therefore head a clause with an overt Subject, or be the whole overt content of a subjectless clause. This dictionary marks its analysis provisional.

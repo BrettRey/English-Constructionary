@@ -1,5 +1,5 @@
 id: evidential-because-001
-name: Speech-Act or Evidential Because
+name: "Speech-Act or Evidential <i>because</i>"
 pattern: clause + supplementary because-PP
 type: mixed
 meanings:

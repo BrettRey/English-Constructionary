@@ -1,5 +1,5 @@
 id: recurrent-progressive-always-001
-name: Recurrent Progressive with Always
+name: "Recurrent Progressive with <i>always</i>"
 pattern: Clause[be + always + V-ing]
 type: mixed
 meanings:

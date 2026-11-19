@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Asking whose it is
-  summary: The word whose can stand alone as a question about the owner of something.
+  summary: The word <i>whose</i> can stand alone as a question about the owner of something.
   body: |-
-    In Whose is this?, the word whose asks who the owner is, and it stands alone with no noun after it. We can leave the noun out because the situation shows what we're talking about.
+    In <i>Whose is this?</i>, the word <i>whose</i> asks who the owner is, and it stands alone with no noun after it. We can leave the noun out because the situation shows what we're talking about.
 
-    Whose can also show up in other places. In Whose did you borrow?, it again stands for the thing and its owner together. In Whose key is this?, a noun follows it, so that's a different pattern.
+    <i>Whose</i> can also show up in other places. In <i>Whose did you borrow?</i>, it again stands for the thing and its owner together. In <i>Whose key is this?</i>, a noun follows it, so that's a different pattern.
   examples:
     - text: '[Whose] is this?'
       from: entry
@@ -19,9 +19,9 @@ curious:
       from: constructed
   try: Hold up something that belongs to someone else and ask whose it is. Do you need to say what it is?
 teacher:
-  summary: Covers whose used as a freestanding NP in a question, and how it differs from whose before a noun.
-  explain: 'The independent interrogative genitive pronoun is a form of whose that functions as an NP with no following noun. It asks for the possessor, as in Whose is this? The dictionary distinguishes three slots for whose: a clause-level complement (Whose is this?), an interrogative fused head (Whose did you borrow?), and a dependent use with a separate nominal (Whose key is this?). In the independent use, the nominal interpretation is recovered from context. The dictionary marks this account as provisional.'
-  terms: Whose is sometimes called an interrogative possessive. This grammar says genitive instead of possessive.
+  summary: Covers <i>whose</i> used as a freestanding NP in a question, and how it differs from <i>whose</i> before a noun.
+  explain: 'The independent interrogative genitive pronoun is a form of <i>whose</i> that functions as an NP with no following noun. It asks for the possessor, as in <i>Whose is this?</i> The dictionary distinguishes three slots for <i>whose</i>: a clause-level complement (<i>Whose is this?</i>), an interrogative fused head (<i>Whose did you borrow?</i>), and a dependent use with a separate nominal (<i>Whose key is this?</i>). In the independent use, the nominal interpretation is recovered from context. The dictionary marks this account as provisional.'
+  terms: <i>Whose</i> is sometimes called an interrogative possessive. This grammar says genitive instead of possessive.
   examples:
     - text: '[Whose] is this?'
       from: entry
@@ -37,12 +37,12 @@ teacher:
       from: constructed
       note: Dependent; a separate nominal follows.
   watch_for:
-    - A learner might think whose must be followed by a noun.
-    - A learner might read the whose of Whose did you borrow? as asking about a person, when it asks about the owner of the thing borrowed.
+    - A learner might think <i>whose</i> must be followed by a noun.
+    - A learner might read the <i>whose</i> of <i>Whose did you borrow?</i> as asking about a person, when it asks about the owner of the thing borrowed.
   activity: Collect a few items from the class. Students ask each other whose each one is, once with a noun and once without, and note where the noun can be left out.
 child:
   hook: Which tiny word asks who owns something?
-  explain: The word whose asks who owns something. You can use it alone. You might hold up a jacket and ask, "Whose is this?"
+  explain: The word <i>whose</i> asks who owns something. You can use it alone. You might hold up a jacket and ask, "Whose is this?"
   examples:
     - text: '[Whose] is this?'
       from: entry

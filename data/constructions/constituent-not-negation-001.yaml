@@ -1,5 +1,5 @@
 id: constituent-not-negation-001
-name: Constituent Negation with not
+name: "Constituent Negation with <i>not</i>"
 pattern: "not + XP (predicative)"
 type: syntactic
 meanings:
@@ -25,12 +25,12 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In Lee came not on Tuesday but on Wednesday, the correction replaces a temporal expression while the coming remains asserted. The clause can take an ordinary negative tag expecting confirmation of that coming."
-    evidence: "CGEL documents local scope of not inside coordinates and distinguishes it from primary finite negation."
+    target: "In <i>Lee came not on Tuesday but on Wednesday</i>, the correction replaces a temporal expression while the coming remains asserted. The clause can take an ordinary negative tag expecting confirmation of that coming."
+    evidence: "CGEL documents local scope of <i>not</i> inside coordinates and distinguishes it from primary finite negation."
     confidence: medium
 relatedConstructions:
   - id: corrective-but-coordination-001
     relationship: related-to
   - id: primary-auxiliary-negation-001
     relationship: related-to
-    notes: Jo ordered tea, not coffee targets a constituent. Jo didn’t order coffee puts the negation with the finite auxiliary.
+    notes: <i>Jo ordered tea, not coffee</i> targets a constituent. <i>Jo didn’t order coffee</i> puts the negation with the finite auxiliary.

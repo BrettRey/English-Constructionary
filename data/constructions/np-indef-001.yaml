@@ -3,10 +3,10 @@ name: Indefinite NP Construction
 pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare plural/non-count Nominal
 type: syntactic
 dimensions:
-  form: "Indefinite determiner (a/an, some) + Nom, or bare plural or non-count Nom"
+  form: "Indefinite determiner (<i>a</i>/<i>an</i>, <i>some</i>) + Nom, or bare plural or non-count Nom"
   meaning: "Non-identifiable, novel, or arbitrary referent; introduces new discourse entity"
   function: "Introduces new referents; hosts existential predication"
-  distribution: "Argument positions; existential there-pivot; predicative complement"
+  distribution: "Argument positions; existential <i>there</i>-pivot; predicative complement"
 meanings:
   '1':
     definition: Refers to/predicates non-identifiable instance
@@ -116,6 +116,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In a neutral opening, There was a spare key in the box introduces a possible referent without assuming it is already identifiable. In She is a teacher, the same article can head a classification with no independent referent for the predicate."
+    target: "In a neutral opening, <i>There was a spare key in the box</i> introduces a possible referent without assuming it is already identifiable. In <i>She is a teacher</i>, the same article can head a classification with no independent referent for the predicate."
     evidence: "CGEL distinguishes predicative and referential uses and documents definiteness effects in existentials. Those effects depend on information status as well as nominal marking."
     confidence: medium

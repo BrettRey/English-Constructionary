@@ -1,11 +1,11 @@
 id: scalar-challenge-call-001
-name: You Call That X Challenge
+name: "<i>you call that X</i> Challenge"
 pattern: "You call that (a) [N/PRED]?"
 type: mixed
 meanings:
   '1':
     definition: Challenges the appropriateness of a category label in a dismissive or corrective context
-    details: Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies "that doesn't deserve the label X" or "let me show you what X really is." A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.
+    details: Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies "that doesn't deserve the label <i>X</i>" or "let me show you what <i>X</i> really is." A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.
     examples:
       - form: "[You call that a sandwich]? It's just bread with lettuce."
         note: Challenges category membership; implying it fails to meet criteria
@@ -17,7 +17,7 @@ meanings:
         note: Challenges whether token meets criteria for type
 constraints:
   - type: syntactic
-    description: Declarative clause with 2nd person subject and "call" as main verb; typically layered with the declarative-question construction
+    description: Declarative clause with 2nd person subject and "<i>call</i>" as main verb; typically layered with the declarative-question construction
   - type: semantic
     description: Complement is a category label (N or predicative expression)
   - type: pragmatic
@@ -44,6 +44,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Keeping the wording You call that a repair? fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses."
+    target: "Keeping the wording <i>You call that a repair?</i> fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses."
     evidence: "The source describes the surrounding question architecture. The proposed challenge reading is illustrated by a constructed contextual contrast and its conventionality remains open."
     confidence: medium

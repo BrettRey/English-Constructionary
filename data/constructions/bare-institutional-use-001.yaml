@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: activity-weak-definite-001
     relationship: related-to
-    notes: Went to school and took the bus both evoke an institutional activity. School is bare in the first frame, and bus keeps the in the second.
+    notes: <i>Went to school</i> and <i>took the bus</i> both evoke an institutional activity. <i>School</i> is bare in the first frame, and <i>bus</i> keeps <i>the</i> in the second.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §8.5; Ch. 7, bare NPs after prepositions
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: At school can describe the relevant institutional setting without selecting a particular building in the same way as at the school. Licensing depends on noun, context and variety.
+    target: <i>At school</i> can describe the relevant institutional setting without selecting a particular building in the same way as <i>at the school</i>. Licensing depends on noun, context and variety.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

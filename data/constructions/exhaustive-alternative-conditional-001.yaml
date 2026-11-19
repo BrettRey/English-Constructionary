@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: closed-interrogative-whether-001
     relationship: related-to
-    notes: I asked whether Jo stayed or left seeks the answer. Whether Jo stayed or left, the lights stayed on puts both alternatives in the adjunct and asserts the same consequence across them.
+    notes: <i>I asked whether Jo stayed or left</i> seeks the answer. <i>Whether Jo stayed or left, the lights stayed on</i> puts both alternatives in the adjunct and asserts the same consequence across them.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §5.3.6; Ch. 8 §14.6

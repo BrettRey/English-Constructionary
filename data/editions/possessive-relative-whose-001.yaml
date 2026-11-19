@@ -4,36 +4,36 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Whose in a describing clause
-  summary: Whose can join a describing clause to a person or thing, and the noun it belongs to stays attached to it.
+  title: "<i>Whose</i> in a describing clause"
+  summary: "<i>Whose</i> can join a describing clause to a person or thing, and the noun it belongs to stays attached to it."
   body: |-
-    In I called the engineer whose report had leaked, whose points back to the engineer. The noun that comes with it, report, travels along: the whole phrase whose report is what the clause is about, and it's the one that had leaked.
+    In <i>I called the engineer whose report had leaked</i>, <i>whose</i> points back to the engineer. The noun that comes with it, <i>report</i>, travels along: the whole phrase <i>whose report</i> is what the clause is about, and it's the one that had leaked.
 
-    So whose links the clause to the engineer, but whose report, as a unit, is the part doing the leaking. The person or thing it points back to can also be nonhuman.
+    So <i>whose</i> links the clause to the engineer, but <i>whose report</i>, as a unit, is the part doing the leaking. The person or thing it points back to can also be nonhuman.
   examples:
     - text: I called the engineer [whose report had leaked].
       from: entry
-  try: Finish this sentence with a clause starting with whose. I met the woman ...
+  try: Finish this sentence with a clause starting with <i>whose</i>. <i>I met the woman ...</i>
 teacher:
-  summary: Explains relative clauses that begin with whose plus a noun, as in the engineer whose report had leaked.
-  explain: This relative clause relativizes the genitive dependent inside a larger NP. Whose tracks the antecedent (engineer), but the whole NP whose report is the subject of had leaked. The antecedent can also be nonhuman. The relative word is contained in the construction, which interfaces with the integrated relative modifier. This dictionary marks it as provisional, with medium confidence.
-  terms: 'Whose is sometimes called a possessive relative pronoun. This grammar says genitive: whose is the genitive form of the relative word.'
+  summary: Explains relative clauses that begin with <i>whose</i> plus a noun, as in <i>the engineer whose report had leaked</i>.
+  explain: This relative clause relativizes the genitive dependent inside a larger NP. <i>Whose</i> tracks the antecedent (<i>engineer</i>), but the whole NP <i>whose report</i> is the subject of <i>had leaked</i>. The antecedent can also be nonhuman. The relative word is contained in the construction, which interfaces with the integrated relative modifier. This dictionary marks it as provisional, with medium confidence.
+  terms: '<i>Whose</i> is sometimes called a possessive relative pronoun. This grammar says genitive: <i>whose</i> is the genitive form of the relative word.'
   examples:
     - text: I called the engineer [whose report had leaked].
       from: entry
   watch_for:
-    - A learner might think whose alone is the subject of had leaked, when the whole NP whose report is the subject.
-    - A learner might assume whose must refer to a person, though the antecedent can be nonhuman.
-  activity: Students combine two sentences (I called the engineer. Her report had leaked.) into one with whose, then identify the subject of the relative clause.
+    - A learner might think <i>whose</i> alone is the subject of <i>had leaked</i>, when the whole NP <i>whose report</i> is the subject.
+    - A learner might assume <i>whose</i> must refer to a person, though the antecedent can be nonhuman.
+  activity: Students combine two sentences (<i>I called the engineer. Her report had leaked.</i>) into one with <i>whose</i>, then identify the subject of the relative clause.
 child:
-  hook: How can you join two sentences about the same person using whose?
-  explain: Whose can join two ideas about the same person. In I called the engineer whose report had leaked, whose points back to the engineer. The words whose report stay together.
+  hook: How can you join two sentences about the same person using <i>whose</i>?
+  explain: "<i>Whose</i> can join two ideas about the same person. In <i>I called the engineer whose report had leaked</i>, <i>whose</i> points back to the engineer. The words <i>whose report</i> stay together."
   examples:
     - text: I called the engineer whose report had leaked.
       from: entry
     - text: We met a girl whose dog can swim.
       from: constructed
-  play: 'Think of a person and something of theirs, like a girl and her dog. Finish this sentence: I know a girl whose ...'
+  play: 'Think of a person and something of theirs, like a girl and her dog. Finish this sentence: <i>I know a girl whose ...</i>'
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

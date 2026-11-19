@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Saying what you would prefer
-  summary: Would rather expresses a preference between real or imagined alternatives, and can be followed by a plain verb or a whole clause.
+  summary: <i>Would rather</i> expresses a preference between real or imagined alternatives, and can be followed by a plain verb or a whole clause.
   body: |-
-    I would rather you stayed says what the speaker prefers: that you stay. After would rather there can be a clause with its own subject, here you, and the verb in that clause takes a past-looking form, stayed, which has a remote, imagined feel rather than a past one.
+    <i>I would rather you stayed</i> says what the speaker prefers: that you stay. After <i>would rather</i> there can be a clause with its own subject, here <i>you</i>, and the verb in that clause takes a past-looking form, <i>stayed</i>, which has a remote, imagined feel rather than a past one.
 
-    With a plain verb, as in I would rather stay, the person doing the staying is understood to be the speaker.
+    With a plain verb, as in <i>I would rather stay</i>, the person doing the staying is understood to be the speaker.
   examples:
     - text: I [would rather you stayed].
       from: entry
@@ -17,9 +17,9 @@ curious:
       from: constructed
   try: Say what you would rather do tonight, then say what you would rather a friend did. How does the verb change?
 teacher:
-  summary: Explains would rather with a plain infinitival or a finite clause.
-  explain: Would rather expresses preference between actual or imagined alternatives. It can be followed by a plain infinitival or a finite subordinate clause. A finite clause can have its own subject and a modally remote preterite, as in I would rather you stayed. In I would rather stay, the subject of stay is understood as the matrix subject. This dictionary treats the pattern as a specialization of the VP and relates it to the irrealis were. It is provisional, with medium confidence.
-  terms: This dictionary describes would rather as a pattern followed by a plain infinitival or a finite subordinate clause.
+  summary: Explains <i>would rather</i> with a plain infinitival or a finite clause.
+  explain: <i>Would rather</i> expresses preference between actual or imagined alternatives. It can be followed by a plain infinitival or a finite subordinate clause. A finite clause can have its own subject and a modally remote preterite, as in <i>I would rather you stayed</i>. In <i>I would rather stay</i>, the subject of <i>stay</i> is understood as the matrix subject. This dictionary treats the pattern as a specialization of the VP and relates it to the irrealis <i>were</i>. It is provisional, with medium confidence.
+  terms: This dictionary describes <i>would rather</i> as a pattern followed by a plain infinitival or a finite subordinate clause.
   examples:
     - text: I [would rather you stayed].
       from: entry
@@ -33,12 +33,12 @@ teacher:
       from: entry
       note: A finite clause with its own subject and a remote preterite.
   watch_for:
-    - A learner might read stayed in I would rather you stayed as past time, though this dictionary describes it as modally remote.
-    - A learner might take the subject of stay in I would rather stay to be someone other than the speaker.
+    - A learner might read <i>stayed</i> in <i>I would rather you stayed</i> as past time, though this dictionary describes it as modally remote.
+    - A learner might take the subject of <i>stay</i> in <i>I would rather stay</i> to be someone other than the speaker.
   activity: Pairs write five would-rather sentences about weekend plans, two with a plain verb and three with a clause having its own subject, then underline each verb form.
 child:
   hook: How do you say what you want to do instead of something else?
-  explain: Would rather tells what you prefer. I would rather stay. You can also say what you want someone else to do. I would rather you stayed.
+  explain: <i>Would rather</i> tells what you prefer. <i>I would rather stay.</i> You can also say what you want someone else to do. <i>I would rather you stayed.</i>
   examples:
     - text: I would rather you stayed.
       from: entry

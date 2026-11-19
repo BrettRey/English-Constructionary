@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Aiming an action at something
-  summary: An at-phrase can show that an action was aimed at something, without saying it connected.
+  summary: An <i>at</i>-phrase can show that an action was aimed at something, without saying it connected.
   body: |-
-    The horse kicked at me and The horse kicked me differ in a useful way. The second says the kick landed. The first says the kick was aimed at me, and it may have connected or missed.
+    <i>The horse kicked at me</i> and <i>The horse kicked me</i> differ in a useful way. The second says the kick landed. The first says the kick was aimed at me, and it may have connected or missed.
 
-    The at-phrase names the target. It doesn't rule out success: The striker kicked at the ball and caught it with the outside of her foot. With a verb like kick, a direct object normally means contact happened, and at removes that commitment. Related uses with eat or nibble can involve small amounts or repetition.
+    The <i>at</i>-phrase names the target. It doesn't rule out success: <i>The striker kicked at the ball and caught it with the outside of her foot</i>. With a verb like <i>kick</i>, a direct object normally means contact happened, and <i>at</i> removes that commitment. Related uses with <i>eat</i> or <i>nibble</i> can involve small amounts or repetition.
   examples:
     - text: The horse [kicked at me].
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: The striker [kicked at the ball] and caught it with the outside of her foot.
       from: constructed
-  try: Compare The horse kicked at me with The horse kicked me. In which one do you know for sure that the kick connected?
+  try: Compare <i>The horse kicked at me</i> with <i>The horse kicked me</i>. In which one do you know for sure that the kick connected?
 teacher:
-  summary: Useful for explaining at-phrases that present an action as directed at a target without the usual result of the transitive use.
-  explain: In the conative, a verb of action is followed by a PP headed by at, whose complement is the target. Kicked at me presents the action as directed towards the speaker without committing to the usual result. With kick, the direct object in The horse kicked me normally entails contact, while the at-phrase permits either contact or a miss. The target supplies a direction for the action, with no entailment of arrival or contact. Ordinary uses such as look at are left to their own accounts.
-  terms: 'Conative: the traditional name for this pattern. Comp is a complement; the target is the object of at.'
+  summary: Useful for explaining <i>at</i>-phrases that present an action as directed at a target without the usual result of the transitive use.
+  explain: In the conative, a verb of action is followed by a PP headed by <i>at</i>, whose complement is the target. <i>Kicked at me</i> presents the action as directed towards the speaker without committing to the usual result. With <i>kick</i>, the direct object in <i>The horse kicked me</i> normally entails contact, while the <i>at</i>-phrase permits either contact or a miss. The target supplies a direction for the action, with no entailment of arrival or contact. Ordinary uses such as <i>look at</i> are left to their own accounts.
+  terms: 'Conative: the traditional name for this pattern. Comp is a complement; the target is the object of <i>at</i>.'
   examples:
     - text: The horse [kicked at me].
       from: entry
@@ -35,12 +35,12 @@ teacher:
       from: entry
       note: Transitive control. Contact occurred.
   watch_for:
-    - A learner might read kicked at as meaning the kick missed, when it permits either contact or a miss.
-    - A learner might treat the at-phrase as a place adjunct, when it names what the action was directed towards.
-  activity: Students act out two versions of kicking a ball, once with contact and once with a miss. They describe each with kicked the ball and kicked at the ball, then discuss which description fits.
+    - A learner might read <i>kicked at</i> as meaning the kick missed, when it permits either contact or a miss.
+    - A learner might treat the <i>at</i>-phrase as a place adjunct, when it names what the action was directed towards.
+  activity: Students act out two versions of kicking a ball, once with contact and once with a miss. They describe each with <i>kicked the ball</i> and <i>kicked at the ball</i>, then discuss which description fits.
 child:
-  hook: Is kicking at a ball the same as kicking a ball?
-  explain: Kicked the ball means your foot hit it. Kicked at the ball means you aimed a kick at it. You might have missed.
+  hook: Is <i>kicking at a ball</i> the same as <i>kicking a ball</i>?
+  explain: "<i>Kicked the ball</i> means your foot hit it. <i>Kicked at the ball</i> means you aimed a kick at it. You might have missed."
   examples:
     - text: The horse [kicked at me].
       from: entry
@@ -48,7 +48,7 @@ child:
       from: constructed
     - text: Mia [kicked the ball] to Sam.
       from: constructed
-  play: Kick a soft ball or pretend to. Say what happened with kicked the ball or kicked at the ball.
+  play: Kick a soft ball or pretend to. Say what happened with <i>kicked the ball</i> or <i>kicked at the ball</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

@@ -7,9 +7,9 @@ curious:
   title: A circumstance with its own subject
   summary: A phrase added to a sentence can have a subject of its own and describe the circumstances of the main action.
   body: |-
-    In Her hands shaking, Mia set the glass down, the added phrase has its own subject, her hands, and its own predicate, shaking. It tells us the circumstances in which Mia set the glass down.
+    In <i>Her hands shaking, Mia set the glass down</i>, the added phrase has its own subject, <i>her hands</i>, and its own predicate, <i>shaking</i>. It tells us the circumstances in which Mia set the glass down.
 
-    The added phrase doesn't need a verb. Her keys in her coat pocket, Mia left the house works the same way. How the circumstance relates to the main action depends on context: it can happen at the same time, explain why, or be part of a sequence of events. On this dictionary's analysis, taking the subject away changes the ordinary reading: we would no longer understand it to be her hands that are shaking.
+    The added phrase doesn't need a verb. <i>Her keys in her coat pocket, Mia left the house</i> works the same way. How the circumstance relates to the main action depends on context: it can happen at the same time, explain why, or be part of a sequence of events. On this dictionary's analysis, taking the subject away changes the ordinary reading: we would no longer understand it to be her hands that are shaking.
   examples:
     - text: '[Her hands shaking], Mia set the glass down.'
       from: entry
@@ -17,8 +17,8 @@ curious:
       from: entry
   try: Add a short phrase of your own to the start of a sentence, giving it its own subject. Does it happen at the same time as the main action, explain it, or form a sequence with it?
 teacher:
-  summary: For advanced classes, a supplement with its own subject, as in Her hands shaking, Mia set the glass down.
-  explain: An absolute supplement is added to a clause and has a subject of its own, followed by a non-finite VP or a verbless predicate. In Her hands shaking, her hands is the subject of shaking. In Her keys in her coat pocket the predicate is verbless. Context decides whether the circumstance is simultaneous, explanatory or sequential. Removing the overt subject changes who is understood to be shaking in the ordinary reading, so an absolute supplement should be kept apart from a supplement with no subject of its own. This dictionary marks the analysis as provisional.
+  summary: For advanced classes, a supplement with its own subject, as in <i>Her hands shaking, Mia set the glass down</i>.
+  explain: An absolute supplement is added to a clause and has a subject of its own, followed by a non-finite VP or a verbless predicate. In <i>Her hands shaking</i>, <i>her hands</i> is the subject of <i>shaking</i>. In <i>Her keys in her coat pocket</i> the predicate is verbless. Context decides whether the circumstance is simultaneous, explanatory or sequential. Removing the overt subject changes who is understood to be shaking in the ordinary reading, so an absolute supplement should be kept apart from a supplement with no subject of its own. This dictionary marks the analysis as provisional.
   terms: CGEL distinguishes absolute clauses from subjectless supplements, and describes verbless counterparts. This dictionary treats the pattern as a construction with a subject and a predicate of its own.
   examples:
     - text: '[Her hands shaking], Mia set the glass down.'
@@ -31,9 +31,9 @@ teacher:
       note: The supplement has its own subject.
     - text: Shaking, Mia set the glass down.
       from: constructed
-      note: No overt subject, so the understood subject of shaking changes.
+      note: No overt subject, so the understood subject of <i>shaking</i> changes.
   watch_for:
-    - A learner might take her hands in Her hands shaking as a part of the main clause, when it is the subject of shaking.
+    - A learner might take <i>her hands</i> in <i>Her hands shaking</i> as a part of the main clause, when it is the subject of <i>shaking</i>.
     - A learner might assume the supplement has to name a reason, when context can also make it simultaneous or sequential.
   activity: Give students pairs such as a main clause and a circumstance. They add an overt subject to the circumstance, put it first, and say whether it reads as simultaneous, explanatory or sequential.
 checked:

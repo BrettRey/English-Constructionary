@@ -1,5 +1,5 @@
 id: finite-do-support-001
-name: Finite Do Support
+name: "Finite <i>do</i> Support"
 pattern: Clause[finite do + plain-form VP] in inversion or clause negation
 type: syntactic
 meanings:
@@ -16,13 +16,13 @@ relatedConstructions:
     parthood: formal
   - id: imperative-negation-do-001
     relationship: related-to
-    notes: Imperative do also occurs before be.
+    notes: Imperative <i>do</i> also occurs before <i>be</i>.
   - id: closed-interrogative-clause-001
     relationship: interfaces-with
-    notes: Did Jo leave? inserts finite do when the clause needs inversion and has no other auxiliary. Has Jo left? inverts the auxiliary already present.
+    notes: <i>Did Jo leave?</i> inserts finite <i>do</i> when the clause needs inversion and has no other auxiliary. <i>Has Jo left?</i> inverts the auxiliary already present.
   - id: primary-auxiliary-negation-001
     relationship: interfaces-with
-    notes: Jo didn’t leave uses do to host negation. Jo hasn’t left uses the existing auxiliary.
+    notes: <i>Jo didn’t leave</i> uses <i>do</i> to host negation. <i>Jo hasn’t left</i> uses the existing auxiliary.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §§2.1.1–2.1.2
@@ -31,6 +31,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The tense feature is expressed on do, and check is plain. An available modal in Can you check? occupies the finite auxiliary position directly.
+    target: The tense feature is expressed on <i>do</i>, and <i>check</i> is plain. An available modal in <i>Can you check?</i> occupies the finite auxiliary position directly.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

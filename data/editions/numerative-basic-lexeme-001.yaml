@@ -7,9 +7,9 @@ curious:
   title: Number words from zero to ninety-nine
   summary: The number words from zero to ninety-nine each work as a single unit, with no internal parts that can be joined or described.
   body: |-
-    Five, ten, twelve, nineteen, forty and twenty-six all count as one word each. Even twenty-six is a single unit, not a phrase.
+    <i>Five</i>, <i>ten</i>, <i>twelve</i>, <i>nineteen</i>, <i>forty</i> and <i>twenty-six</i> all count as one word each. Even <i>twenty-six</i> is a single unit, not a phrase.
 
-    The evidence points to the same thing. Twenty-four gives twenty-fourth, which changes the whole unit. A number like three hundred twenty-four is different: it has extra structure, and in the right context a shorter version can recover the missing parts.
+    The evidence points to the same thing. <i>Twenty-four</i> gives <i>twenty-fourth</i>, which changes the whole unit. A number like <i>three hundred twenty-four</i> is different: it has extra structure, and in the right context a shorter version can recover the missing parts.
   examples:
     - text: '[five]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: '[twenty-six]'
       from: entry
-  try: Make twenty-four into its ordinal form. Where does the change land?
+  try: Make <i>twenty-four</i> into its ordinal form. Where does the change land?
 teacher:
   summary: Explains why 0 to 99 are treated as lexical units, and where phrasal structure begins.
-  explain: The basic numerative lexemes are the number words from zero to ninety-nine. They include simple words (five, ten), irregular and regular teens (twelve, nineteen), decade words (forty) and compounds (twenty-six). They behave as lexical units for syntax, with no internal coordination or modification, and can serve as determiner, factor or addition in larger numbers. Twenty-four supplies the single lexical unit that ordinal morphology targets in twenty-fourth. Three hundred twenty-four has additional phrasal structure. The dictionary marks this account as provisional.
+  explain: The basic numerative lexemes are the number words from zero to ninety-nine. They include simple words (<i>five</i>, <i>ten</i>), irregular and regular teens (<i>twelve</i>, <i>nineteen</i>), decade words (<i>forty</i>) and compounds (<i>twenty-six</i>). They behave as lexical units for syntax, with no internal coordination or modification, and can serve as determiner, factor or addition in larger numbers. <i>Twenty-four</i> supplies the single lexical unit that ordinal morphology targets in <i>twenty-fourth</i>. <i>Three hundred twenty-four</i> has additional phrasal structure. The dictionary marks this account as provisional.
   terms: Numerative is this grammar's term for number words, where a textbook may say numeral. Cardinal numeral is the traditional name for these counting words.
   examples:
     - text: '[five]'
@@ -38,14 +38,14 @@ teacher:
   contrasts:
     - text: '[twenty-four]'
       from: constructed
-      note: One lexical unit; ordinal twenty-fourth.
+      note: One lexical unit; ordinal <i>twenty-fourth</i>.
     - text: '[three hundred twenty-four]'
       from: constructed
       note: Phrasal, with internal structure.
   watch_for:
-    - A learner might think twenty-six is a phrase with two separate words.
-    - A learner might treat three hundred twenty-four as one word.
-  activity: Students list number words they can build ordinals from (five, twelve, twenty-four) and say each ordinal aloud. Then they try one for a larger number and see which part changes.
+    - A learner might think <i>twenty-six</i> is a phrase with two separate words.
+    - A learner might treat <i>three hundred twenty-four</i> as one word.
+  activity: Students list number words they can build ordinals from (<i>five</i>, <i>twelve</i>, <i>twenty-four</i>) and say each ordinal aloud. Then they try one for a larger number and see which part changes.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

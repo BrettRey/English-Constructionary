@@ -7,9 +7,9 @@ curious:
   title: Words placed before a noun to describe it
   summary: A noun can have a describing word in front of it, and that word can be an adjective or another noun.
   body: |-
-    In old book, the word old sits in front of book and says what kind of book it is. In dog breeder, the word dog sits in front of breeder, and it's a noun doing a describing job. So the word in front can be a different kind of word each time.
+    In <i>old book</i>, the word <i>old</i> sits in front of <i>book</i> and says what kind of book it is. In <i>dog breeder</i>, the word <i>dog</i> sits in front of <i>breeder</i>, and it's a noun doing a describing job. So the word in front can be a different kind of word each time.
 
-    The word at the end keeps its ordinary number possibilities. It's the one that is made plural in dog breeders and old books.
+    The word at the end keeps its ordinary number possibilities. It's the one that is made plural in <i>dog breeders</i> and <i>old books</i>.
   examples:
     - text: an [old book]
       from: constructed
@@ -20,8 +20,8 @@ curious:
   try: Put a describing word in front of a noun, then make the phrase plural. Which word changes?
 teacher:
   summary: Useful for showing that a word before a noun can be an adjective or a noun, while the final noun keeps its own plural.
-  explain: 'This dictionary treats a nominal with a pre-head modifier as a pattern defined by the modifier''s position, not its category. In old book the modifier is an adjectival one; in dog breeder it''s a nominal one. The head noun keeps its ordinary number possibilities: dog breeders and old books both pluralize at the head. The category of the premodifier can therefore be tested separately from the function. The dictionary marks this account as provisional.'
-  terms: Premodifier is another name for a pre-head modifier. Attributive adjective is sometimes used for old in old book, and noun modifier for dog in dog breeder.
+  explain: 'This dictionary treats a nominal with a pre-head modifier as a pattern defined by the modifier''s position, not its category. In <i>old book</i> the modifier is an adjectival one; in <i>dog breeder</i> it''s a nominal one. The head noun keeps its ordinary number possibilities: <i>dog breeders</i> and <i>old books</i> both pluralize at the head. The category of the premodifier can therefore be tested separately from the function. The dictionary marks this account as provisional.'
+  terms: Premodifier is another name for a pre-head modifier. Attributive adjective is sometimes used for <i>old</i> in <i>old book</i>, and noun modifier for <i>dog</i> in <i>dog breeder</i>.
   examples:
     - text: '[old book]'
       from: entry
@@ -32,20 +32,20 @@ teacher:
     - text: '[old books]'
       from: constructed
   watch_for:
-    - A learner might look to the first word to mark the plural, when dog breeders and old books pluralize the head noun.
+    - A learner might look to the first word to mark the plural, when <i>dog breeders</i> and <i>old books</i> pluralize the head noun.
     - A learner might think the word before a noun must be an adjective.
-  activity: Give pairs of students a list of head nouns (breeder, book, lamp). They add one adjective and one noun in front, then write the plural of each phrase and underline the word that changed.
+  activity: Give pairs of students a list of head nouns (<i>owner</i>, <i>book</i>, <i>car</i>). They add one adjective and one noun in front, then write the plural of each phrase and underline the word that changed.
 child:
-  hook: In dog breeder, which word tells you about the other one?
-  explain: A word can go in front of a noun to say more about it. In old book, old is describing the book. In dog breeder, dog is a noun, but it describes the breeder.
+  hook: In <i>dog breeder</i>, which word tells you about the other one?
+  explain: A word can go in front of a noun to say more about it. In <i>old book</i>, <i>old</i> is describing the book. In <i>dog breeder</i>, <i>dog</i> is a noun, but it describes the breeder.
   examples:
     - text: I found an [old book].
       from: constructed
     - text: Her aunt is a [dog breeder].
       from: constructed
-  play: Pick a noun like book. Add three different words in front of it. Then make it plural. Which word changes?
+  play: Pick a noun like <i>book</i>. Add three different words in front of it. Then make it plural. Which word changes?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)
   result: fixed
-  note: "Fixed: teacher.watch_for no longer presents dogs breeder as a learner error (the entry does not assess it) and now says the head noun pluralizes in dog breeders and old books; curious.body limited to the head noun's ordinary number possibilities."
+  note: "Fixed: teacher.watch_for no longer presents dogs breeder as a learner error (the entry does not assess it) and now says the head noun pluralizes in dog breeders and old books; curious.body limited to the head noun's ordinary number possibilities. Frequency pass: teacher.activity head nouns breeder and lamp (about 13,800th and 4,000th in SUBTLEX-UK, counting plurals) replaced by owner and car; entry examples unchanged."

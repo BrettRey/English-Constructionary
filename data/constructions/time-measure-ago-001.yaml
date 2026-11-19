@@ -1,5 +1,5 @@
 id: time-measure-ago-001
-name: Measure before Ago
+name: "Measure before <i>ago</i>"
 pattern: PP[measure NP + ago]
 type: mixed
 meanings:
@@ -16,7 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: since-time-anchor-001
     relationship: related-to
-    notes: Four days ago locates an event relative to the deictic time. Since Monday gives the start of an interval.
+    notes: <i>Four days ago</i> locates an event relative to the deictic time. <i>Since Monday</i> gives the start of an interval.
 grounds:
   - source: cgel-2002
     locator: Ch. 7, p. 632; Ch. 8 §6.3
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The time can usually be paraphrased as four days before now. Ago normally takes its measure before it, in contrast to temporal before with a following reference complement.
+    target: The time can usually be paraphrased as <i>four days before now</i>. <i>Ago</i> normally takes its measure before it, in contrast to temporal <i>before</i> with a following reference complement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

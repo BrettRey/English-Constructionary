@@ -4,39 +4,42 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Nouns ending in -ity
-  summary: Adding -ity to an adjective can name the quality it describes, sometimes changing how the word sounds.
+  title: Nouns ending in <i>-ity</i>
+  summary: Adding <i>-ity</i> to an adjective can name the quality it describes, sometimes changing how the word sounds.
   body: |-
-    Curious is an adjective, and curiosity names the quality of being curious. Eccentric becomes eccentricity in the same way. The ending -ity typically puts the stress on the syllable just before it.
+    <i>Curious</i> is an adjective, and <i>curiosity</i> names the quality of being curious. <i>Eccentric</i> becomes <i>eccentricity</i> in the same way. The ending <i>-ity</i> typically puts the stress on the syllable just before it.
 
-    The base word can change too, as in curious and curiosity, where the end of the word is altered. The -ness ending does something similar, but it typically leaves the base word's shape and stress as they were. Which adjectives take -ity depends on the adjective type.
+    The base word can change too, as in <i>curious</i> and <i>curiosity</i>, where the end of the word is altered. The <i>-ness</i> ending does something similar, but it typically leaves the base word's shape and stress as they were. Which adjectives take <i>-ity</i> depends on the adjective type.
   examples:
     - text: '[eccentricity]'
       from: entry
     - text: '[curiosity]'
       from: entry
-  try: Say eccentric and then eccentricity out loud. Where does the strongest beat fall in each?
+  try: Say <i>eccentric</i> and then <i>eccentricity</i> out loud. Where does the strongest beat fall in each?
 teacher:
-  summary: Helps explain -ity nouns such as curiosity and eccentricity, including stress shift and changes to the base.
-  explain: The pattern forms a common noun from an adjective plus -ity, sometimes with a stem alternation. The noun names a quality or state associated with the adjective. -ity typically stresses the syllable immediately before the ending. It may also alter the end of the base, as in curious and curiosity, and as in eccentric and eccentricity, where the final consonant changes. Formations cluster with particular adjective types. The corresponding -ness formation typically preserves the base's shape and stress, so the two suffixes behave differently. The analysis is provisional.
+  summary: Helps explain <i>-ity</i> nouns such as <i>ability</i> and <i>curiosity</i>, including stress shift and changes to the base.
+  explain: The pattern forms a common noun from an adjective plus <i>-ity</i>, sometimes with a stem alternation. The noun names a quality or state associated with the adjective. <i>-ity</i> typically stresses the syllable immediately before the ending. It may also alter the end of the base, as in <i>curious</i> and <i>curiosity</i>, and as in <i>eccentric</i> and <i>eccentricity</i>, where the final consonant changes. Formations cluster with particular adjective types. The corresponding <i>-ness</i> formation typically preserves the base's shape and stress, so the two suffixes behave differently. The analysis is provisional.
   terms: Traditional grammars call these abstract nouns formed by suffixation. This dictionary treats the output as a common noun.
   examples:
     - text: '[eccentricity]'
       from: entry
     - text: '[curiosity]'
       from: entry
+    - text: '[ability]'
+      from: constructed
   contrasts:
     - text: eccentric, eccentricity
       from: entry
       note: Stress shifts and the final consonant changes.
     - text: kind, kindness
       from: constructed
-      note: '-ness keeps the base''s shape.'
+      note: '<i>-ness</i> keeps the base''s shape.'
   watch_for:
-    - A learner might expect curiosity to keep the exact shape and stress of curious.
-    - A learner might assume -ity and -ness are interchangeable on any adjective.
-  activity: Give students adjective and noun pairs (curious, curiosity; kind, kindness). They mark the stressed syllable in each word and compare what -ity and -ness do to the base.
+    - A learner might expect <i>curiosity</i> to keep the exact shape and stress of <i>curious</i>.
+    - A learner might assume <i>-ity</i> and <i>-ness</i> are interchangeable on any adjective.
+  activity: Give students adjective and noun pairs (<i>able</i>, <i>ability</i>; <i>kind</i>, <i>kindness</i>). They mark the stressed syllable in each word and compare what <i>-ity</i> and <i>-ness</i> do to the base.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: teacher.summary now names ability and curiosity instead of curiosity and eccentricity (eccentricity about 32,700th in SUBTLEX-UK); added the constructed teacher example ability; activity pair curious, curiosity replaced by able, ability; entry examples unchanged."

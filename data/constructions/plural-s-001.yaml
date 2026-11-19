@@ -1,5 +1,5 @@
 id: plural-s-001
-name: Plural -s
+name: "Plural <i>-s</i>"
 pattern: Common noun + -s/-es
 meanings:
   '1':
@@ -7,7 +7,7 @@ meanings:
     specialization: Realizes plural number on an eligible nominal stem
     examples:
       - form: cats
-        note: Marks 'cat' as non-singular
+        note: Marks '<i>cat</i>' as non-singular
     relations:
       - 1
   '2':
@@ -55,7 +55,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "With transparent regular plural formation, the final sound of the stem predicts the suffix pronunciation. Compare the /s/ in cats, /z/ in dogs, and /ɪz/ in horses. A variety interpretation additionally depends on count use of the noun."
+    target: "With transparent regular plural formation, the final sound of the stem predicts the suffix pronunciation. Compare the /s/ in <i>cats</i>, /z/ in <i>dogs</i>, and /ɪz/ in <i>horses</i>. A variety interpretation additionally depends on count use of the noun."
     evidence: "CGEL describes the sibilant allomorphy and separately documents contextual count readings."
     confidence: medium
 relatedConstructions:

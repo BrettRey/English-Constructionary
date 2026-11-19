@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Negating a verb without do
-  summary: In certain verb forms, not negates the verb without the helper do.
+  title: Negating a verb without <i>do</i>
+  summary: In certain verb forms, <i>not</i> negates the verb without the helper <i>do</i>.
   body: |-
-    Plain sentences like Lee did not leave need the helper do. But some verb forms get their negation another way. In It is vital that he not be told, not stands directly in front of be. In Not locking the doors is unwise, it stands before locking. In a plan not to leave, it comes before to.
+    Plain sentences like <i>Lee did not leave</i> need the helper <i>do</i>. But some verb forms get their negation another way. In <i>It is vital that he not be told</i>, <i>not</i> stands directly in front of <i>be</i>. In <i>Not locking the doors is unwise</i>, it stands before <i>locking</i>. In <i>a plan not to leave</i>, it comes before <i>to</i>.
 
-    This works with forms that aren't tensed sentences: a plain-form verb after that, an -ing form, a form like approved in a plan not approved by the board, and a to form. In each, no do is used. With to, not can come before or after it, as in for them not to smile and for them to not smile. This dictionary marks the analysis as provisional.
+    This works with forms that aren't tensed sentences: a plain-form verb after <i>that</i>, an <i>-ing</i> form, a form like <i>approved</i> in <i>a plan not approved by the board</i>, and a <i>to</i> form. In each, no <i>do</i> is used. With <i>to</i>, <i>not</i> can come before or after it, as in <i>for them not to smile</i> and <i>for them to not smile</i>. This dictionary marks the analysis as provisional.
   examples:
     - text: It is vital that he [not] be told.
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: It looks bad for them [not] to smile.
       from: entry
-  try: Compare Lee did not leave with a plan not to leave. What helper verb appears in the first and not in the second?
+  try: Compare <i>Lee did not leave</i> with <i>a plan not to leave</i>. What helper verb appears in the first and not in the second?
 teacher:
-  summary: Helps explain not before non-finite and subjunctive verb phrases, where do-support is unavailable.
-  explain: In secondary verbal negation, not premodifies a VP in a non-finite or subjunctive clause, and do-support is unavailable. The four cases are the subjunctive (that he not be told), the gerund-participial (not locking the doors), the past-participial (a plan not approved by the board) and the infinitival (for them not to smile). In to-infinitivals, not may appear before or after to (for them to not smile). The negative to-infinitival in a plan not to leave and the mandative that Lee not leave both keep the following verb in the plain form without do. By contrast, the finite declarative Lee did not leave uses do. CGEL treats these as secondary verbal negation, distinguished by form from primary negation.
-  terms: Subjunctive, gerund-participial, past-participial and infinitival are the clause types named in this dictionary. CGEL distinguishes secondary verbal negation by form from primary negation; the finite declarative Lee did not leave, which uses do, is the comparison case.
+  summary: Helps explain <i>not</i> before non-finite and subjunctive verb phrases, where <i>do</i>-support is unavailable.
+  explain: In secondary verbal negation, <i>not</i> premodifies a VP in a non-finite or subjunctive clause, and <i>do</i>-support is unavailable. The four cases are the subjunctive (<i>that he not be told</i>), the gerund-participial (<i>not locking the doors</i>), the past-participial (<i>a plan not approved by the board</i>) and the infinitival (<i>for them not to smile</i>). In <i>to</i>-infinitivals, <i>not</i> may appear before or after <i>to</i> (<i>for them to not smile</i>). The negative <i>to</i>-infinitival in <i>a plan not to leave</i> and the mandative <i>that Lee not leave</i> both keep the following verb in the plain form without <i>do</i>. By contrast, the finite declarative <i>Lee did not leave</i> uses <i>do</i>. CGEL treats these as secondary verbal negation, distinguished by form from primary negation.
+  terms: Subjunctive, gerund-participial, past-participial and infinitival are the clause types named in this dictionary. CGEL distinguishes secondary verbal negation by form from primary negation; the finite declarative <i>Lee did not leave</i>, which uses <i>do</i>, is the comparison case.
   examples:
     - text: It is vital that he [not] be told.
       from: entry
@@ -36,16 +36,16 @@ teacher:
   contrasts:
     - text: Lee did not leave.
       from: constructed
-      note: Finite declarative; negation uses do.
+      note: Finite declarative; negation uses <i>do</i>.
     - text: a plan not to leave
       from: constructed
-      note: Negative to-infinitival; no do.
+      note: Negative <i>to</i>-infinitival; no <i>do</i>.
     - text: for them to not smile
       from: entry
-      note: Not may also follow to.
+      note: <i>Not</i> may also follow <i>to</i>.
   watch_for:
-    - A learner might add do to the verb after not in a to-infinitive or subjunctive clause.
-    - A learner might look for not only after to, when it may come before or after.
+    - A learner might add <i>do</i> to the verb after <i>not</i> in a <i>to</i>-infinitive or subjunctive clause.
+    - A learner might look for <i>not</i> only after <i>to</i>, when it may come before or after.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

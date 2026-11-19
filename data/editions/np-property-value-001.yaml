@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Asking for and giving a size
-  summary: A noun phrase like that size can sit before or after another noun to say which value of some property we mean.
+  summary: A noun phrase like <i>that size</i> can sit before or after another noun to say which value of some property we mean.
   body: |-
-    In what size hat, the words what size ask for the size of the hat. In They don't stock shoes that size, the words that size say which size of shoes. Each one names a property (size) and, in the answer, a value for it.
+    In <i>what size hat</i>, the words <i>what size</i> ask for the size of the hat. In <i>They don't stock shoes that size</i>, the words <i>that size</i> say which size of shoes. Each one names a property (size) and, in the answer, a value for it.
 
-    The phrase can go before the noun, as in that size shoes, or after it, as in shoes that size. The second is the preferred wording for this example. Two values can be given together: a house that size and that price.
+    The phrase can go before the noun, as in <i>that size shoes</i>, or after it, as in <i>shoes that size</i>. The second is the preferred wording for this example. Two values can be given together: <i>a house that size and that price</i>.
   examples:
     - text: '[what size hat]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: '[a house that size and that price]'
       from: entry
-  try: Ask for something by size, like what size hat. How else could you say it?
+  try: Ask for something by size, like <i>what size hat</i>. How else could you say it?
 teacher:
   summary: Shows a noun phrase supplying or asking for the value of a property of a head noun's referent, before or after the noun.
-  explain: A property-value NP supplies both a property and a value, as in shoes that size. In what size hat, the value is the requested information. CGEL analyzes the pre-head NP as determiner and the post-head NP as modifier, and this dictionary records the shared interpretation. Two values can be coordinated, as in a house that size and that price. The lexical range of each position, and the relation to predicative my age, remain open. The dictionary marks this account as provisional.
+  explain: A property-value NP supplies both a property and a value, as in <i>shoes that size</i>. In <i>what size hat</i>, the value is the requested information. CGEL analyzes the pre-head NP as determiner and the post-head NP as modifier, and this dictionary records the shared interpretation. Two values can be coordinated, as in <i>a house that size and that price</i>. The lexical range of each position, and the relation to predicative <i>my age</i>, remain open. The dictionary marks this account as provisional.
   terms: Pre-head NP in determiner function is a CGEL analysis; the post-head NP is a modifier.
   examples:
     - text: '[what size hat]'
@@ -41,9 +41,9 @@ teacher:
       from: entry
       note: Post-head variant, CGEL's preferred form for this example, with the property NP as a modifier.
   watch_for:
-    - A learner might read that size as an ordinary determiner such as the.
+    - A learner might read <i>that size</i> as an ordinary determiner such as <i>the</i>.
     - A learner might think the pre-head and post-head versions mean different things.
-  activity: Give students a clothing-store role-play. They ask and answer using what size hat and shoes that size, and compare where the property phrase goes.
+  activity: Give students a clothing-store role-play. They ask and answer using <i>what size hat</i> and <i>shoes that size</i>, and compare where the property phrase goes.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

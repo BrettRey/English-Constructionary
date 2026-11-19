@@ -43,14 +43,14 @@ kind:
   profile:
     core:
       - property: "Scale comparison morphology/periphrasis"
-        diagnostics: ["-er/-est", "more/most", "as X as"]
+        diagnostics: ["<i>-er</i>/<i>-est</i>", "<i>more</i>/<i>most</i>", "<i>as X as</i>"]
         weight: high
       - property: "Degree modification of gradable predicates"
         diagnostics: ["compatible with gradable adjectives/adverbs"]
         weight: high
     peripheral:
       - property: "Measure phrase integration"
-        diagnostics: ["two inches taller", "three times as X"]
+        diagnostics: ["<i>two inches taller</i>", "<i>three times as X</i>"]
         weight: medium
   stabilisers:
     - type: acquisition
@@ -62,7 +62,7 @@ kind:
     - type: processing-economy
       evidence: "short comparative morphology favored in production"
   projection:
-    target: "The same dimension can have an explicit differential in two centimetres wider and a simple comparative in wider. An equality comparison can instead supply a standard with as wide as. The constructions test comparison structure separately from the particular scale chosen."
+    target: "The same dimension can have an explicit differential in <i>two centimetres wider</i> and a simple comparative in <i>wider</i>. An equality comparison can instead supply a standard with <i>as wide as</i>. The constructions test comparison structure separately from the particular scale chosen."
     evidence: "CGEL discusses equality and inequality and separates differential modification from the standard phrase."
     confidence: medium
   maintenance:
@@ -77,8 +77,8 @@ kind:
     overlaps_with:
       - adjective-001
     known_boundary_items:
-      - "unique"
-      - "dead"
+      - "<i>unique</i>"
+      - "<i>dead</i>"
   grain:
     level: meso
     parent_families:

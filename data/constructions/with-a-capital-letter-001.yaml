@@ -1,9 +1,9 @@
 id: with-a-capital-letter-001
-name: "With a Capital Letter Construction"
+name: "<i>X with a capital Y</i> Construction"
 pattern: "with + a + capital + Letter-name"
 type: semantic
 dimensions:
-  form: "PP headed by with, followed by capital + letter name."
+  form: "PP headed by <i>with</i>, followed by <i>capital</i> + letter name."
   meaning: "Signals uppercase orthography and a proper/institutional sense for the label."
   function: "Disambiguates official or proper-name use from ordinary descriptive use."
   distribution: "Postposed adjunct or parenthetical after a label."
@@ -47,6 +47,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Democrat with a capital D specifies the writing of the label and can imply party affiliation. In chaos with a capital C, there need be neither an organization nor a name. The capital instruction can support emphatic construal."
+    target: "<i>Democrat with a capital D</i> specifies the writing of the label and can imply party affiliation. In <i>chaos with a capital C</i>, there need be neither an organization nor a name. The capital instruction can support emphatic construal."
     evidence: "The dictionary directly documents both the literal terminology and the emphatic idiom. The constructed comparison holds the frame constant."
     confidence: medium

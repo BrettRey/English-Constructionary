@@ -1,5 +1,5 @@
 id: going-to-future-001
-name: Prospective Be Going To
+name: "Prospective <i>be going to</i>"
 pattern: VP[be + going + to-infinitival]
 type: mixed
 meanings:
@@ -16,7 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: progressive-ing-001
     relationship: related-to
-    notes: Compare I’m going to leave and I’m going to the station. The prospective construction takes an infinitival and allows subjects with no motion interpretation.
+    notes: Compare <i>I’m going to leave</i> and <i>I’m going to the station</i>. The prospective construction takes an infinitival and allows subjects with no motion interpretation.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §10.2
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The weather subject requires no mover and no physical destination. The prospective use can therefore be distinguished from motion in going to the station.
+    target: The weather subject requires no mover and no physical destination. The prospective use can therefore be distinguished from motion in <i>going to the station</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

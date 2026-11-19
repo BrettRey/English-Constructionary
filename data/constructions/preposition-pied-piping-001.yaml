@@ -15,7 +15,7 @@ relatedConstructions:
     relationship: related-to
   - id: prepositional-passive-001
     relationship: related-to
-    notes: To whom Jo spoke fronts the preposition with its complement. Jo was spoken to leaves the preposition behind when its complement is realized as passive subject.
+    notes: <i>To whom Jo spoke</i> fronts the preposition with its complement. <i>Jo was spoken to</i> leaves the preposition behind when its complement is realized as passive subject.
 grounds:
   - source: cgel-2002
     locator: Ch. 12 §3.2, relative phrase formation; Ch. 7 §4.1
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A fronted P can take which or whom. The comparable relative with that requires stranding rather than forming an initial PP from that.
+    target: A fronted P can take <i>which</i> or <i>whom</i>. The comparable relative with <i>that</i> requires stranding rather than forming an initial PP from <i>that</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

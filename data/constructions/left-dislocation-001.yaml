@@ -8,7 +8,7 @@ meanings:
     details: A pronoun in the clause takes the referent of the initial NP. The pronoun may be a subject, an object, or a genitive determiner. In complement preposing the relevant position has a gap. The left-dislocated NP can introduce a new referent.
     examples:
       - form: '[Her parents, I don’t like them at all.]'
-        note: The object them is overt.
+        note: The object <i>them</i> is overt.
         grounds:
           - source: cgel-2002
             locator: Ch. 16 §8.1 [4i]

@@ -1,11 +1,11 @@
 id: deverbal-noun-of-argument-001
-name: Deverbal Noun Of-Argument
+name: "Deverbal Noun <i>of</i>-Argument"
 pattern: "NP[(Det) + deverbal Nom + PP[of + argument NP]]"
 type: mixed
 meanings:
   '1':
-    definition: An of-phrase expresses an argument of a deverbal noun
-    details: "The of-PP expresses a participant in the event denoted by the deverbal noun. Its role is selected by the noun and construction. With a transitive source, a preceding genitive can express the agent while of expresses the affected participant. The of-complement can help identify an event, and an indefinite determiner remains possible."
+    definition: An <i>of</i>-phrase expresses an argument of a deverbal noun
+    details: "The <i>of</i>-PP expresses a participant in the event denoted by the deverbal noun. Its role is selected by the noun and construction. With a transitive source, a preceding genitive can express the agent while <i>of</i> expresses the affected participant. The <i>of</i>-complement can help identify an event, and an indefinite determiner remains possible."
     examples:
       - form: "[the failure of Washington Mutual]"
         note: Argument is the entity that failed; the argument helps identify which failure is meant
@@ -16,30 +16,30 @@ meanings:
       - form: "[the death of the king]"
         note: Argument is the entity that died
       - form: "[the enemy's destruction of the city]"
-        note: The genitive supplies the destroyer and the of-phrase the affected entity
+        note: The genitive supplies the destroyer and the <i>of</i>-phrase the affected entity
       - form: "[a repainting of the hall]"
-        note: Constructed comparison with an indefinite determiner and an of-argument
+        note: Constructed comparison with an indefinite determiner and an <i>of</i>-argument
 constraints:
   - type: syntactic
     description: Head noun is deverbal (nominalized verb)
   - type: syntactic
-    description: Of-PP is complement to the deverbal noun
+    description: <i>Of</i>-PP is complement to the deverbal noun
   - type: semantic
-    description: Of-NP expresses a semantic argument of the underlying verb, typically non-agentive
+    description: <i>Of</i>-NP expresses a semantic argument of the underlying verb, typically non-agentive
   - type: semantic
-    description: "The of-complement can help identify the nominal referent. It also occurs with indefinite determination."
+    description: "The <i>of</i>-complement can help identify the nominal referent. It also occurs with indefinite determination."
 dimensions:
-  form: NP with deverbal head and of-PP complement
-  meaning: Deverbal expression with a participant specified by an of-phrase
+  form: NP with deverbal head and <i>of</i>-PP complement
+  meaning: Deverbal expression with a participant specified by an <i>of</i>-phrase
   function: Refers to events while maintaining argument structure of underlying verb
   distribution: Common in formal and narrative registers; alternates with genitive construction
 relatedConstructions:
   - id: genitive-s-001
     relationship: alternates-with
-    notes: "\"The failure of WM\" ~ \"WM's failure\"; genitive preferred for agents, of-PP for non-agentive arguments"
+    notes: "\"<i>The failure of WM</i>\" ~ \"<i>WM's failure</i>\"; genitive preferred for agents, <i>of</i>-PP for non-agentive arguments"
   - id: grammatical-definiteness-001
     relationship: interfaces-with
-    notes: An of-argument can contribute to identification. The determiner alternation tests the two properties separately.
+    notes: An <i>of</i>-argument can contribute to identification. The determiner alternation tests the two properties separately.
   - id: deverbal-ing-nominal-001
     relationship: related-to
   - id: content-clause-in-np-001
@@ -52,6 +52,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In the repainting of the hall, of the hall can supply the participant repainted. A repainting of the hall also occurs under an indefinite determiner. Argument realization does not by itself select the definite article."
-    evidence: "CGEL documents complements with nominalized heads, and the constructed determiner alternation holds the head and of-dependent constant."
+    target: "In <i>the repainting of the hall</i>, <i>of the hall</i> can supply the participant repainted. <i>A repainting of the hall</i> also occurs under an indefinite determiner. Argument realization does not by itself select the definite article."
+    evidence: "CGEL documents complements with nominalized heads, and the constructed determiner alternation holds the head and <i>of</i>-dependent constant."
     confidence: medium

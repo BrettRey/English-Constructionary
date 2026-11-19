@@ -18,7 +18,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Plural noun form does not require the spelling -s or direct counting. Sheep can show plural agreement with no suffix, and scissors typically needs a unit expression to count individual instruments."
+    target: "Plural noun form does not require the spelling <i>-s</i> or direct counting. <i>Sheep</i> can show plural agreement with no suffix, and <i>scissors</i> typically needs a unit expression to count individual instruments."
     evidence: "CGEL’s irregular and plural-only forms supply independent contrasts for number marking and countability."
     confidence: medium
 relatedConstructions:

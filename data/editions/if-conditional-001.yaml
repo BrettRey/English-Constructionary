@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: If this, then that
-  summary: An if-phrase sets out a condition, and the rest of the sentence says what follows from it.
+  summary: An <i>if</i>-phrase sets out a condition, and the rest of the sentence says what follows from it.
   body: |-
-    In If he takes the later plane tonight he won't have to rush, the if-part sets a condition and the rest says what follows. The condition is treated as an open possibility.
+    In <i>If he takes the later plane tonight he won't have to rush</i>, the <i>if</i>-part sets a condition and the rest says what follows. The condition is treated as an open possibility.
 
-    A second version changes the wording: If he took the later plane tonight he wouldn't have to rush. Both are about tonight, so the changed wording doesn't point to the past. The second marks the possibility as more remote, but that doesn't mean the condition is false.
+    A second version changes the wording: <i>If he took the later plane tonight he wouldn't have to rush</i>. Both are about tonight, so the changed wording doesn't point to the past. The second marks the possibility as more remote, but that doesn't mean the condition is false.
   examples:
     - text: '[If he takes the later plane tonight he won''t have to rush.]'
       from: entry
     - text: '[If he took the later plane tonight he wouldn''t have to rush.]'
       from: entry
-  try: Say a sentence about tomorrow with If and takes. Now say it with took and would. What changes in the feel of it?
+  try: Say a sentence about tomorrow with <i>If</i> and <i>takes</i>. Now say it with <i>took</i> and <i>would</i>. What changes in the feel of it?
 teacher:
-  summary: Helps students tell open from remote conditionals, and see that a past form in an if-clause can refer to future time.
-  explain: The if-part is an adjunct PP containing a finite declarative clause, and the sentence presents a consequence in relation to it. The open variant treats the condition as an open possibility. The remote variant characteristically combines a preterite or irrealis form in the condition with a remote modal in the consequence. The preterite can be compatible with explicitly future time, as with tonight. Present or past remotes often suggest that the condition fails, while a future remote can describe an unsettled possibility. Remoteness can be marked without asserting that the condition is false. A separate use of if introduces an embedded yes/no question.
+  summary: Helps students tell open from remote conditionals, and see that a past form in an <i>if</i>-clause can refer to future time.
+  explain: The <i>if</i>-part is an adjunct PP containing a finite declarative clause, and the sentence presents a consequence in relation to it. The open variant treats the condition as an open possibility. The remote variant characteristically combines a preterite or irrealis form in the condition with a remote modal in the consequence. The preterite can be compatible with explicitly future time, as with <i>tonight</i>. Present or past remotes often suggest that the condition fails, while a future remote can describe an unsettled possibility. Remoteness can be marked without asserting that the condition is false. A separate use of <i>if</i> introduces an embedded yes/no question.
   terms: Preterite is the CGEL term for the past tense form. Open and remote are this dictionary's two variants.
   examples:
     - text: '[If he takes the later plane tonight he won''t have to rush.]'
@@ -31,20 +31,20 @@ teacher:
       note: Open variant with a future time.
     - text: If he took the later plane tonight he wouldn't have to rush.
       from: entry
-      note: Remote counterpart. Tonight keeps the condition in the future.
+      note: Remote counterpart. <i>Tonight</i> keeps the condition in the future.
   watch_for:
-    - A learner might read took in the if-clause as past time, when with tonight it is future.
-    - A learner might assume a remote if-clause says the condition is false.
+    - A learner might read <i>took</i> in the <i>if</i>-clause as past time, when with tonight it is future.
+    - A learner might assume a remote <i>if</i>-clause says the condition is false.
   activity: Give students pairs of open and remote conditionals about plans. They mark the time of each, say what the verb form signals, and rewrite from open to remote.
 child:
-  hook: What does if add to a sentence?
-  explain: An if-part names a possibility. The rest says what follows from it. If he takes the later plane tonight, he won't have to rush.
+  hook: What does <i>if</i> add to a sentence?
+  explain: An <i>if</i>-part names a possibility. The rest says what follows from it. <i>If he takes the later plane tonight, he won't have to rush.</i>
   examples:
     - text: '[If he takes the later plane tonight he won''t have to rush.]'
       from: entry
     - text: '[If he took the later plane tonight he wouldn''t have to rush.]'
       from: entry
-  play: Say the two example sentences aloud. Which words change? Then make up your own if sentence about tonight, saying the possibility first and then what follows.
+  play: Say the two example sentences aloud. Which words change? Then make up your own <i>if</i> sentence about tonight, saying the possibility first and then what follows.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

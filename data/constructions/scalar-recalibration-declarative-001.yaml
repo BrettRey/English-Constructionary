@@ -17,7 +17,7 @@ meanings:
         note: Dismissive; speaker's experience exceeds addressee's
 constraints:
   - type: syntactic
-    description: Matrix clause with 2nd person subject and "think" as main verb
+    description: Matrix clause with 2nd person subject and "<i>think</i>" as main verb
   - type: semantic
     description: Embedded predicate must be gradable (scalar)
   - type: pragmatic
@@ -44,6 +44,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "You think that is loud can introduce an instance that shifts the operative degree standard. In a literal conversation about the hearer’s beliefs, the same sentence need not introduce a higher degree. The comparison depends on the following discourse."
+    target: "<i>You think that is loud</i> can introduce an instance that shifts the operative degree standard. In a literal conversation about the hearer’s beliefs, the same sentence need not introduce a higher degree. The comparison depends on the following discourse."
     evidence: "The source provides related scale and proposition-assessment analyses. The paired contexts illustrate the proposal and do not determine whether the reading has conventionalized."
     confidence: medium

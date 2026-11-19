@@ -18,7 +18,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Cat combines with a and singular agreement, while rice can take singular agreement without permitting a in its substance use. Singular agreement by itself does not identify singular count syntax."
+    target: "<i>Cat</i> combines with <i>a</i> and singular agreement, while <i>rice</i> can take singular agreement without permitting <i>a</i> in its substance use. Singular agreement by itself does not identify singular count syntax."
     evidence: "CGEL separates morphological number, countability, and formal agreement."
     confidence: medium
 relatedConstructions:

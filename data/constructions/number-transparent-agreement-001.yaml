@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: measure-pseudopartitive-001
     relationship: related-to
-    notes: The plural in A number of applicants were waiting follows the of-complement. Compare an amount reading with singular agreement in Three litres of milk was enough.
+    notes: The plural in <i>A number of applicants were waiting</i> follows the <i>of</i>-complement. Compare an amount reading with singular agreement in <i>Three litres of milk was enough</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §18.2
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The plural is licensed despite singular number. With the number of applicants, the nominal normally denotes the numerical quantity and takes singular agreement.
+    target: The plural is licensed despite singular number. With <i>the number of applicants</i>, the nominal normally denotes the numerical quantity and takes singular agreement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

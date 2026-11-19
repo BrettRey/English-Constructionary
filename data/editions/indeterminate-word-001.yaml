@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: The who, what, where family of words
-  summary: Words like who, what, where, when, why and how share one job, which is to stand for something left open, and different sentence types put them to different uses.
+  title: The <i>who</i>, <i>what</i>, <i>where</i> family of words
+  summary: Words like <i>who</i>, <i>what</i>, <i>where</i>, <i>when</i>, <i>why</i> and <i>how</i> share one job, which is to stand for something left open, and different sentence types put them to different uses.
   body: |-
-    Who, what, which, where, when, why and how all leave something open. Who leaves open a person, where a place, when a time. This dictionary calls them indeterminates, and the same word can serve a question, a relative phrase or an exclamation.
+    <i>Who</i>, <i>what</i>, <i>which</i>, <i>where</i>, <i>when</i>, <i>why</i> and <i>how</i> all leave something open. <i>Who</i> leaves open a person, <i>where</i> a place, <i>when</i> a time. This dictionary calls them indeterminates, and the same word can serve a question, a relative phrase or an exclamation.
 
-    Compare what she saw with who came. In what she saw, the word stands for a thing. In who came, it stands for a person, and the sentence asks which one. Words ending in ever, such as whoever and whenever, come from the same set. Degree belongs here too: how tall asks about a point on a scale.
+    Compare <i>what she saw</i> with <i>who came</i>. In <i>what she saw</i>, the word stands for a thing. In <i>who came</i>, it stands for a person, and the sentence asks which one. Words ending in <i>ever</i>, such as <i>whoever</i> and <i>whenever</i>, come from the same set. Degree belongs here too: <i>how tall</i> asks about a point on a scale.
   examples:
     - text: '[what] she saw'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[what] speed'
       from: entry
-  try: Take who, where and when. What kind of thing does each one leave open?
+  try: Take <i>who</i>, <i>where</i> and <i>when</i>. What kind of thing does each one leave open?
 teacher:
-  summary: Gives the overarching idea behind wh-words across questions, relatives and exclamatives, and warns they don't form one word category.
-  explain: 'This dictionary treats who, whom, whose, what, which, where, when, why and how, plus the -ever series, as one set whose members contribute an open variable restricted to a sort: person, thing, selection, possessor, place, time, reason, manner or degree. The set isn''t a CGEL lexical category, because it cross-cuts categories. Interrogative what is a determinative in what size but a pronoun when it heads an NP, as in What did you see?; exclamative what is an adjective; how is adverbial. The same form can occur in what Jo wrote after admire or wonder: after admire it can denote an entity or text, and after wonder it presents an open question. The lexical shape doesn''t determine the clause type. This analysis is provisional.'
-  terms: Textbooks sometimes call the interrogative uses wh-words or question words. This dictionary's term for the wider set, which also covers relative and exclamative uses and the -ever series, is indeterminate.
+  summary: Gives the overarching idea behind <i>wh</i>-words across questions, relatives and exclamatives, and warns they don't form one word category.
+  explain: 'This dictionary treats <i>who</i>, <i>whom</i>, <i>whose</i>, <i>what</i>, <i>which</i>, <i>where</i>, <i>when</i>, <i>why</i> and <i>how</i>, plus the <i>-ever</i> series, as one set whose members contribute an open variable restricted to a sort: person, thing, selection, possessor, place, time, reason, manner or degree. The set isn''t a CGEL lexical category, because it cross-cuts categories. Interrogative <i>what</i> is a determinative in <i>what size</i> but a pronoun when it heads an NP, as in <i>What did you see?</i>; exclamative <i>what</i> is an adjective; <i>how</i> is adverbial. The same form can occur in <i>what Jo wrote</i> after <i>admire</i> or <i>wonder</i>: after <i>admire</i> it can denote an entity or text, and after <i>wonder</i> it presents an open question. The lexical shape doesn''t determine the clause type. This analysis is provisional.'
+  terms: Textbooks sometimes call the interrogative uses <i>wh</i>-words or <i>question words</i>. This dictionary's term for the wider set, which also covers relative and exclamative uses and the <i>-ever</i> series, is indeterminate.
   examples:
     - text: '[what] she saw'
       from: entry
@@ -41,9 +41,9 @@ teacher:
       from: constructed
       note: Presents an open question.
   watch_for:
-    - A learner might assume that who, what and how all belong to one word class in CGEL, though this dictionary says the set cross-cuts classes.
-    - A learner might assume a form such as what has one category in every use, though interrogative what is a determinative in what size and a pronoun in What did you see?
-  activity: Give sentences with what, who, where and how in questions, relatives and exclamations. Students sort the uses by clause type and name the kind of thing each word leaves open.
+    - A learner might assume that <i>who</i>, <i>what</i> and <i>how</i> all belong to one word class in CGEL, though this dictionary says the set cross-cuts classes.
+    - A learner might assume a form such as <i>what</i> has one category in every use, though interrogative <i>what</i> is a determinative in <i>what size</i> and a pronoun in <i>What did you see?</i>
+  activity: Give sentences with <i>what</i>, <i>who</i>, <i>where</i> and <i>how</i> in questions, relatives and exclamations. Students sort the uses by clause type and name the kind of thing each word leaves open.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

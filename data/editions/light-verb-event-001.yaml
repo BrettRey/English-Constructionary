@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Taking a look instead of looking
-  summary: A plain verb such as took can carry the tense while a noun, such as look, names the event.
+  summary: A plain verb such as <i>took</i> can carry the tense while a noun, such as <i>look</i>, names the event.
   body: |-
-    In We took a quick look at the charts, the event is the look. The verb took does little more than carry the tense and the rest of the sentence's structure. The noun look names what happened.
+    In <i>We took a quick look at the charts</i>, the event is the look. The verb <i>took</i> does little more than carry the tense and the rest of the sentence's structure. The noun <i>look</i> names what happened.
 
-    Because look is a noun here, it can be treated like other nouns. It can have a describing word before it, as in quick look, and it can be counted, as in two quick looks. The pairing of verb and noun depends on the particular words involved, so you can't freely swap in a different verb.
+    Because <i>look</i> is a noun here, it can be treated like other nouns. It can have a describing word before it, as in <i>quick look</i>, and it can be counted, as in <i>two quick looks</i>. The pairing of verb and noun depends on the particular words involved, so you can't freely swap in a different verb.
   examples:
     - text: We [took a quick look] at the charts.
       from: entry
     - text: We took [two quick looks] at the charts.
       from: constructed
-  try: Think of an action you could describe with a verb and a noun, like took a look. Can you count it, or describe it with an adjective?
+  try: Think of an action you could describe with a verb and a noun, like <i>took a look</i>. Can you count it, or describe it with an adjective?
 teacher:
-  summary: Helps explain verb plus event noun patterns like took a look, and why the verb can't be swapped freely.
-  explain: A light verb with an event nominal packages the event in an NP while the verb carries tense and complementation. In We took a quick look at the charts, the event is expressed by the noun look, and the direct object is the noun phrase a quick look. The nominal can take attributive modification (quick) and can be counted (two quick looks). Which light verb goes with which noun is a matter of lexical collocation, which constrains substitution. This dictionary treats the analysis as provisional, so teach it through a few set collocations.
+  summary: Helps explain verb plus event noun patterns like <i>took a look</i>, and why the verb can't be swapped freely.
+  explain: A light verb with an event nominal packages the event in an NP while the verb carries tense and complementation. In <i>We took a quick look at the charts</i>, the event is expressed by the noun <i>look</i>, and the direct object is the noun phrase <i>a quick look</i>. The nominal can take attributive modification (<i>quick</i>) and can be counted (<i>two quick looks</i>). Which light verb goes with which noun is a matter of lexical collocation, which constrains substitution. This dictionary treats the analysis as provisional, so teach it through a few set collocations.
   terms: Sometimes called a light verb construction, a delexical verb or a support verb construction. In this dictionary, the verb is a light verb and the object is an event nominal.
   examples:
     - text: We [took a quick look] at the charts.
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: We took a quick look at the charts.
       from: entry
-      note: The event is in the noun, which is modified by quick.
+      note: The event is in the noun, which is modified by <i>quick</i>.
     - text: We took two quick looks at the charts.
       from: constructed
       note: The nominal is counted.
   watch_for:
     - A learner might choose a different light verb than the one that fits the noun, when the collocation constrains substitution.
-    - A learner might look for the main meaning in the verb took, when the event is carried by the noun look.
-  activity: Give students event nouns such as look, walk or swim, each on a card. They find which light verb pairs with each one, then add an adjective and a number to each noun phrase.
+    - A learner might look for the main meaning in the verb <i>took</i>, when the event is carried by the noun <i>look</i>.
+  activity: Give students event nouns such as <i>look</i>, <i>walk</i> or <i>swim</i>, each on a card. They find which light verb pairs with each one, then add an adjective and a number to each noun phrase.
 child:
-  hook: Do you take a look or just look?
-  explain: 'You can say we took a quick look. Here the word look names what happened, and took just goes with it. Because look is a noun here, you can count it: two quick looks.'
+  hook: Do you <i>take a look</i> or just <i>look</i>?
+  explain: 'You can say <i>we took a quick look</i>. Here the word <i>look</i> names what happened, and <i>took</i> just goes with it. Because <i>look</i> is a noun here, you can count it: <i>two quick looks</i>.'
   examples:
     - text: We [took a quick look] at the charts.
       from: entry
     - text: We took [two quick looks] at the charts.
       from: constructed
-  play: Say we took a look. Now put a describing word in front of look, and then try two looks. What do the changes tell you about the word look?
+  play: Say <i>we took a look</i>. Now put a describing word in front of <i>look</i>, and then try <i>two looks</i>. What do the changes tell you about the word <i>look</i>?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

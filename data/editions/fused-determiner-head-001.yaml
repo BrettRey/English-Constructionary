@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Words like twenty-two or everybody standing alone
+  title: Words like <i>twenty-two</i> or <i>everybody</i> standing alone
   summary: Some words that normally come before a noun can fill a whole noun phrase by themselves.
   body: |-
-    In She bought twenty books, but I bought twenty-two, the word twenty-two stands alone: no noun follows it. Words like none, everybody and those do the same in We liked none of them, Everybody left early and Those are mine. What each one stands for comes from earlier in the sentence, from an of phrase after it, or from the word's own meaning.
+    In <i>She bought twenty books, but I bought twenty-two</i>, the word <i>twenty-two</i> stands alone: no noun follows it. Words like <i>none</i>, <i>everybody</i> and <i>those</i> do the same in <i>We liked none of them</i>, <i>Everybody left early</i> and <i>Those are mine</i>. What each one stands for comes from earlier in the sentence, from an <i>of</i> phrase after it, or from the word's own meaning.
 
-    These words belong to the class this dictionary calls determinatives, the class that includes the, some and those. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.
+    These words belong to the class this dictionary calls determinatives, the class that includes <i>the</i>, <i>some</i> and <i>those</i>. They aren't treated as pronouns here. One competing analysis, noted in this dictionary, would treat some of these uses as ordinary nouns; if that were adopted, this pattern would shrink.
   examples:
     - text: She bought twenty books, but I bought [twenty-two].
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[Those] are mine.'
       from: entry
-  try: In She bought twenty books, but I bought twenty-two, what are the twenty-two? Where in the sentence does that come from?
+  try: In <i>She bought twenty books, but I bought twenty-two</i>, what are the twenty-two? Where in the sentence does that come from?
 teacher:
-  summary: 'For advanced classes: determinatives like twenty-two, none, everybody and those standing alone as a whole NP.'
-  explain: 'In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: bought twenty-two, liked none of them, Everybody left early, Those are mine. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative''s own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in -body/-one/-thing/-where and standalone demonstratives. It''s contested: another analysis treats simple independent uses (Some left) as ordinary Head, which would narrow fusion to a residue.'
-  terms: Traditional grammar calls everybody an indefinite pronoun and those a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.
+  summary: 'For advanced classes: determinatives like <i>twenty-two</i>, <i>none</i>, <i>everybody</i> and <i>those</i> standing alone as a whole NP.'
+  explain: 'In a fused determiner-head NP, a determinative phrase serves as determiner and head at once, with no separate nominal head: <i>bought twenty-two</i>, <i>liked none of them</i>, <i>Everybody left early</i>, <i>Those are mine</i>. The head interpretation is recovered anaphorically, from a partitive complement, or from the determinative''s own content. The word stays a determinative; these are not pronouns, and NPs headed by pronouns are a different construction. This dictionary covers anaphoric uses, partitives, the compound determinatives in <i>-body</i>/<i>-one</i>/<i>-thing</i>/<i>-where</i> and standalone demonstratives. It''s contested: another analysis treats simple independent uses (<i>Some left</i>) as ordinary Head, which would narrow fusion to a residue.'
+  terms: Traditional grammar calls <i>everybody</i> an indefinite pronoun and <i>those</i> a demonstrative pronoun. This grammar calls both determinatives. Fused head is the CGEL analysis.
   examples:
     - text: She bought twenty books, but I bought [twenty-two].
       from: entry
@@ -34,10 +34,10 @@ teacher:
     - text: '[Those] are mine.'
       from: entry
   watch_for:
-    - A learner might label everybody or those a pronoun, when this dictionary keeps them as determinatives.
-    - A learner might look for a missing noun after Everybody, though the meaning comes from the word itself.
+    - A learner might label <i>everybody</i> or <i>those</i> a pronoun, when this dictionary keeps them as determinatives.
+    - A learner might look for a missing noun after <i>Everybody</i>, though the meaning comes from the word itself.
     - A learner might assume a determinative standing alone must recover its meaning from earlier text, when this dictionary says it need not be uniformly anaphoric.
-  activity: 'Students collect standalone determinatives from a short text (some, none, everybody, those, twenty-two). For each, they say where its meaning comes from: earlier text, an of phrase, or the word itself.'
+  activity: 'Students collect standalone determinatives from a short text (<i>some</i>, <i>none</i>, <i>everybody</i>, <i>those</i>, <i>twenty-two</i>). For each, they say where its meaning comes from: earlier text, an <i>of</i> phrase, or the word itself.'
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

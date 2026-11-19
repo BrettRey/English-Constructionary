@@ -3,10 +3,10 @@ name: Fractional Noun
 pattern: Cardinal base → fractional noun (-th or suppletive)
 type: morphological
 dimensions:
-  form: "Cardinal base + -th or suppletive (half, quarter); count noun"
+  form: "Cardinal base + <i>-th</i> or suppletive (<i>half</i>, <i>quarter</i>); count noun"
   meaning: "Denotes denominator in fraction; partitive semantics"
   function: "Heads nominal in fraction NPs; numerator is determiner"
-  distribution: "Inflects for number (one fifth, two fifths); licenses factors"
+  distribution: "Inflects for number (<i>one fifth</i>, <i>two fifths</i>); licenses factors"
 meanings:
   '1':
     definition: Fractional noun denoting a denominator; used in fraction NPs with a numeral determiner
@@ -17,9 +17,9 @@ meanings:
         note: Suppletive fractional noun
 constraints:
   - type: structural
-    description: Fractional noun heads a nominal; numerator functions as determiner in fraction NPs (e.g., one fifth).
+    description: Fractional noun heads a nominal; numerator functions as determiner in fraction NPs (e.g., <i>one fifth</i>).
   - type: morphological
-    description: Fractional noun inflects for number (one third vs two thirds); half/quarter are suppletive.
+    description: Fractional noun inflects for number (<i>one third</i> vs <i>two thirds</i>); <i>half</i>/<i>quarter</i> are suppletive.
 formRefs:
   - numerative-fractional-noun
   - numerative-ordinal-rightmost
@@ -52,6 +52,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Fifths in three fifths accepts plural marking and a cardinal determiner. Fifth in fifth place is adjectival and does not take plural marking there. The two distributions persist where the forms are partly identical."
+    target: "<i>Fifths</i> in <i>three fifths</i> accepts plural marking and a cardinal determiner. <i>Fifth</i> in <i>fifth place</i> is adjectival and does not take plural marking there. The two distributions persist where the forms are partly identical."
     evidence: "CGEL and Reynolds distinguish fractional nouns from ordinal adjectives despite the shared morphological material."
     confidence: medium

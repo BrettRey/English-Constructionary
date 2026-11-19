@@ -4,20 +4,20 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: You're always doing that
-  summary: Be plus always plus an -ing verb describes a habit as a series of repeated occurrences, often with the speaker's opinion in it.
+  title: "<i>You're always doing that</i>"
+  summary: "<i>Be</i> plus <i>always</i> plus an <i>-ing</i> verb describes a habit as a series of repeated occurrences, often with the speaker's opinion in it."
   body: |-
-    In You're always leaving the gate open, the speaker is talking about a repeating pattern, a series of times the gate was left open. The gate doesn't have to be open right now.
+    In <i>You're always leaving the gate open</i>, the speaker is talking about a repeating pattern, a series of times the gate was left open. The gate doesn't have to be open right now.
 
     The speaker's feelings often come through, and irritation suits this example. But the same frame can carry praise when the action is a good one. This dictionary marks the account as provisional.
   examples:
     - text: You’re [always leaving] the gate open.
       from: entry
-  try: Say something you notice someone doing again and again, using are or is plus always and an -ing verb. Does it sound like a complaint or praise?
+  try: Say something you notice someone doing again and again, using <i>are</i> or <i>is</i> plus <i>always</i> and an <i>-ing</i> verb. Does it sound like a complaint or praise?
 teacher:
-  summary: Explains be plus always plus -ing for habits seen as recurring events, often with an evaluation.
-  explain: 'The frame is be plus always plus a V-ing form. It presents a habit as a recurring series of occurrences, often with a speaker evaluation: You''re always leaving the gate open. The frame can describe repeated gate-leaving even if the gate is closed now. Irritation suits this example, but an evaluatively positive action can support praise in the same frame. This pattern is a specialization of the progressive. This dictionary marks the analysis provisional and the example is constructed.'
-  terms: Sometimes called the 'emphatic' or 'habitual' use of the progressive; this dictionary calls it the recurrent progressive with always.
+  summary: Explains <i>be</i> plus <i>always</i> plus <i>-ing</i> for habits seen as recurring events, often with an evaluation.
+  explain: 'The frame is <i>be</i> plus <i>always</i> plus a <i>V-ing</i> form. It presents a habit as a recurring series of occurrences, often with a speaker evaluation: <i>You''re always leaving the gate open</i>. The frame can describe repeated gate-leaving even if the gate is closed now. Irritation suits this example, but an evaluatively positive action can support praise in the same frame. This pattern is a specialization of the progressive. This dictionary marks the analysis provisional and the example is constructed.'
+  terms: Sometimes called the 'emphatic' or 'habitual' use of the progressive; this dictionary calls it the recurrent progressive with <i>always</i>.
   examples:
     - text: You’re [always leaving] the gate open.
       from: entry
@@ -28,16 +28,16 @@ teacher:
   watch_for:
     - A learner might read the sentence as describing something happening right now.
     - A learner might assume the frame can only express a complaint.
-  activity: Students make pairs of sentences with be plus always plus -ing, one that could be said with irritation and one with praise, and read them aloud with matching tone.
+  activity: Students make pairs of sentences with <i>be</i> plus <i>always</i> plus <i>-ing</i>, one that could be said with irritation and one with praise, and read them aloud with matching tone.
 child:
-  hook: When do people say you're always doing something?
-  explain: You're always leaving the gate open means it keeps happening, again and again. It might be something annoying. It might be something good.
+  hook: When do people say <i>you're always doing something</i>?
+  explain: "<i>You're always leaving the gate open</i> means it keeps happening, again and again. It might be something annoying. It might be something good."
   examples:
     - text: You’re [always leaving] the gate open.
       from: entry
     - text: She's [always helping] her neighbours.
       from: constructed
-  play: Think of something a friend or family member does again and again. Say it with are or is plus always and an -ing word.
+  play: Think of something a friend or family member does again and again. Say it with <i>are</i> or <i>is</i> plus <i>always</i> and an <i>-ing</i> word.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

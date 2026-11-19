@@ -1,5 +1,5 @@
 id: no-determiner-001
-name: Negative determinative "no" in determiner function
+name: "Negative determinative <i>no</i> in determiner function"
 pattern: "no + N"
 type: syntactic
 meanings:
@@ -12,7 +12,7 @@ meanings:
         note: Absence of evidence
 constraints:
   - type: syntactic
-    description: A DP headed by the determinative no functions as determiner within the NP.
+    description: A DP headed by the determinative <i>no</i> functions as determiner within the NP.
   - type: semantic
     description: Construes the NP as having zero members or instances.
 syntacticRefs:
@@ -28,6 +28,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "No can determine a singular count, plural count, or non-count nominal. A clause with We saw no damage normally licenses a positive confirmation tag, linking the local determiner to wider clausal polarity."
-    evidence: "CGEL documents the distributions of no and the distinct polarity diagnostics. Those are separable from the claim that a contextually relevant quantity is zero."
+    target: "<i>No</i> can determine a singular count, plural count, or non-count nominal. A clause with <i>We saw no damage</i> normally licenses a positive confirmation tag, linking the local determiner to wider clausal polarity."
+    evidence: "CGEL documents the distributions of <i>no</i> and the distinct polarity diagnostics. Those are separable from the claim that a contextually relevant quantity is zero."
     confidence: medium

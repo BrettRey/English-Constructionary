@@ -1,5 +1,5 @@
 id: pro-nominal-one-001
-name: Pro-Nominal One and Ones
+name: "Pro-Nominal <i>one</i> and <i>ones</i>"
 pattern: Nom[one/ones as anaphoric head + optional nominal dependents]
 type: syntactic
 meanings:
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Ones can take plural morphology and an adjective. It normally recovers count nominal content, while the separate numeral one can answer a question about cardinality.
+    target: <i>Ones</i> can take plural morphology and an adjective. It normally recovers count nominal content, while the separate numeral <i>one</i> can answer a question about cardinality.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

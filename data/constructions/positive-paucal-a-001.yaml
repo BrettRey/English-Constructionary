@@ -1,5 +1,5 @@
 id: positive-paucal-a-001
-name: Positive Paucal A Few and A Little
+name: "Positive Paucal <i>a few</i> and <i>a little</i>"
 pattern: NP[Det:a few + plural count nominal, or Det:a little + non-count nominal]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A little asserts some available time. Bare little favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation.
+    target: <i>A little</i> asserts some available time. Bare <i>little</i> favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -11,7 +11,7 @@ dimensions:
 meanings:
   '1':
     definition: A headed clause type marked by an interrogative phrase and characteristically used to ask for a variable's value
-    details: "The interrogative phrase is based on who, whom, whose, which, what, when, where, why, how, or a phrase containing one of these. If it is Subject, it occupies the same basic position as a declarative Subject and does not trigger inversion. A non-subject interrogative phrase is normally fronted and triggers subject–auxiliary inversion in a main clause, but subordinate clauses normally retain Subject–Predicator order. Reduced interrogative phrases are outside this headed-clause entry and belong with clause-analogue semantics (CGEL pp. 853–57, 872–76, 902–18)."
+    details: "The interrogative phrase is based on <i>who</i>, <i>whom</i>, <i>whose</i>, <i>which</i>, <i>what</i>, <i>when</i>, <i>where</i>, <i>why</i>, <i>how</i>, or a phrase containing one of these. If it is Subject, it occupies the same basic position as a declarative Subject and does not trigger inversion. A non-subject interrogative phrase is normally fronted and triggers subject–auxiliary inversion in a main clause, but subordinate clauses normally retain Subject–Predicator order. Reduced interrogative phrases are outside this headed-clause entry and belong with clause-analogue semantics (CGEL pp. 853–57, 872–76, 902–18)."
     examples:
       - form: "[Who broke the window?]"
         note: Interrogative phrase as Subject; basic order and no subject–auxiliary inversion
@@ -27,7 +27,7 @@ constraints:
   - type: syntactic
     description: "An interrogative Subject remains in basic Subject position; subordinate open interrogatives normally lack subject–auxiliary inversion."
   - type: structural
-    description: "A phrase-only reduction such as Which one? is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
+    description: "A phrase-only reduction such as <i>Which one?</i> is not an instance of this headed construction; its clausal interpretation belongs under clause-analogue-001."
   - type: pragmatic
     description: "A request for information is characteristic but not necessary; open interrogatives can be rhetorical or convey indirect directives and evaluations."
 kind:
@@ -51,7 +51,7 @@ kind:
   profile:
     core:
       - property: Interrogative phrase marking
-        diagnostics: ["who/whom/whose/which/what/when/where/why/how base", "variable in open proposition"]
+        diagnostics: ["<i>who</i>/<i>whom</i>/<i>whose</i>/<i>which</i>/<i>what</i>/<i>when</i>/<i>where</i>/<i>why</i>/<i>how</i> base", "variable in open proposition"]
         weight: high
       - property: Role-sensitive order
         diagnostics: ["basic order for interrogative Subject", "fronting plus inversion for a non-subject in a main clause", "normally no inversion in a subordinate clause"]

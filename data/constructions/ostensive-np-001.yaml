@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: An extra-clausal NP whose utterance directs attention to its referent, with packaging-specific NP-internal syntax preserved
-    details: "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). Ordinary determination applies in the directive-ostensive packaging, while vocative function independently licenses bare common-noun NPs such as Mum, driver, officer, and buddy (CGEL pp. 522–23). The packagings shade into each other: Taxi! is ambiguous between hailing the driver and alerting companions, and reminders (Your keys!) sit between alerting and addressing. The construction cross-cuts exclamation-001: tag vocatives instantiate this profile without exclamatory force."
+    details: "The structural parent of vocative-001 (addressee-directed: securing the channel) and directive-ostensive-001 (environment-directed: securing joint attention). Ordinary determination applies in the directive-ostensive packaging, while vocative function independently licenses bare common-noun NPs such as <i>Mum</i>, <i>driver</i>, <i>officer</i>, and <i>buddy</i> (CGEL pp. 522–23). The packagings shade into each other: <i>Taxi!</i> is ambiguous between hailing the driver and alerting companions, and reminders (<i>Your keys!</i>) sit between alerting and addressing. The construction cross-cuts exclamation-001: tag vocatives instantiate this profile without exclamatory force."
     examples:
       - form: "[Mom]! (calling)"
         note: Vocative packaging (addressee-directed)
@@ -20,7 +20,7 @@ meanings:
         note: Boundary case, ambiguous between the two packagings
 constraints:
   - type: syntactic
-    description: "Determination is packaging-sensitive: directive-ostensives preserve ordinary determination (a snake, the bus), while vocative function licenses restricted bare common-noun NPs (Mum, driver, buddy)."
+    description: "Determination is packaging-sensitive: directive-ostensives preserve ordinary determination (<i>a snake</i>, <i>the bus</i>), while vocative function licenses restricted bare common-noun NPs (<i>Mum</i>, <i>driver</i>, <i>buddy</i>)."
   - type: syntactic
     description: Not selected by any predicator; resists embedding, tags, and question formation.
 kind:
@@ -53,9 +53,9 @@ kind:
     overlaps_with:
       - exclamation-001
     known_boundary_items:
-      - "Taxi! (vocative/directive-ostensive ambiguity)"
+      - "<i>Taxi!</i> (vocative/directive-ostensive ambiguity)"
       - "block language (form without prosody or determination)"
-      - "clausal alerts (There's a fire!: function without the form)"
+      - "clausal alerts (<i>There's a fire!</i>: function without the form)"
   grain:
     level: meso
     parent_families:

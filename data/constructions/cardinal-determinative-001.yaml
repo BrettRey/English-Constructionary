@@ -19,7 +19,7 @@ meanings:
         note: Complex cardinal determiner
 constraints:
   - type: syntactic
-    description: Functions as determiner in NP structure; can appear as fused head (e.g., "I bought three").
+    description: Functions as determiner in NP structure; can appear as fused head (e.g., "<i>I bought three</i>").
 semanticRefs:
   - cardinality
 relatedConstructions:
@@ -42,6 +42,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A cardinal determiner in thirty copies can alternate with some copies. In two hundred, two is internal to the numerative and can coexist with an external determiner in a two hundred, on the token reading."
+    target: "A cardinal determiner in <i>thirty copies</i> can alternate with <i>some copies</i>. In <i>two hundred</i>, <i>two</i> is internal to the numerative and can coexist with an external determiner in <i>a two hundred</i>, on the token reading."
     evidence: "Reynolds uses coexistence with an external determiner to distinguish determiner function from multiplicative modification."
     confidence: medium

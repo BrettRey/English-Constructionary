@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Passing something to someone with to
-  summary: A verb can name the thing passed along, followed by a to-phrase naming who it is meant for.
+  title: Passing something to someone with <i>to</i>
+  summary: A verb can name the thing passed along, followed by a <i>to</i>-phrase naming who it is meant for.
   body: |-
-    In Kim sent the keys to Lee, the keys are what is passed along and Lee is the person they are meant for. The thing comes right after the verb, and the receiver comes in a phrase beginning with to.
+    In <i>Kim sent the keys to Lee</i>, the keys are what is passed along and Lee is the person they are meant for. The thing comes right after the verb, and the receiver comes in a phrase beginning with <i>to</i>.
 
-    Some verbs, such as send, also allow a version with the receiver first and no to: Kim sent Lee the keys. Other verbs allow only the to version. According to this dictionary, explain is one of these in mainstream standard English. The dictionary marks this account as provisional.
+    Some verbs, such as <i>send</i>, also allow a version with the receiver first and no <i>to</i>: <i>Kim sent Lee the keys</i>. Other verbs allow only the to version. According to this dictionary, <i>explain</i> is one of these in mainstream standard English. The dictionary marks this account as provisional.
   examples:
     - text: Kim [sent the keys to Lee].
       from: entry
     - text: She [explained the rules to the class].
       from: constructed
-  try: Say Kim sent the keys to Lee, then say Kim sent Lee the keys. Now try the same two moves with explained the rules to the class.
+  try: Say <i>Kim sent the keys to Lee</i>, then say <i>Kim sent Lee the keys</i>. Now try the same two moves with <i>explained the rules to the class</i>.
 teacher:
-  summary: Helps explain verbs of transfer that take a direct object plus a to-phrase for the recipient.
-  explain: 'The pattern is a monotransitive VP: the head verb, a Theme noun phrase as direct object, and a prepositional phrase with to whose noun phrase is the recipient. It is a specialization of the monotransitive VP. Send licenses this frame and the double-object frame, so the two alternate. Other verbs, including explain in mainstream standard English, select only the to frame in this sense. The Theme can be the ordinary passive subject. This dictionary marks its analysis provisional, so present verb-by-verb licensing as something to check, not predict.'
-  terms: Dative alternation is sometimes used as a textbook name for the choice between the to-phrase form and the double-object form.
+  summary: Helps explain verbs of transfer that take a direct object plus a <i>to</i>-phrase for the recipient.
+  explain: 'The pattern is a monotransitive VP: the head verb, a Theme noun phrase as direct object, and a prepositional phrase with <i>to</i> whose noun phrase is the recipient. It is a specialization of the monotransitive VP. <i>Send</i> licenses this frame and the double-object frame, so the two alternate. Other verbs, including <i>explain</i> in mainstream standard English, select only the to frame in this sense. The Theme can be the ordinary passive subject. This dictionary marks its analysis provisional, so present verb-by-verb licensing as something to check, not predict.'
+  terms: Dative alternation is sometimes used as a textbook name for the choice between the <i>to</i>-phrase form and the double-object form.
   examples:
     - text: Kim [sent the keys to Lee].
       from: entry
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: Kim sent the keys to Lee.
       from: entry
-      note: Direct object plus a to-phrase.
+      note: Direct object plus a <i>to</i>-phrase.
     - text: Kim sent Lee the keys.
       from: constructed
-      note: Double-object frame, also licensed by send.
+      note: Double-object frame, also licensed by <i>send</i>.
   watch_for:
-    - A learner might assume every verb that takes a to-phrase can also take two objects, though this dictionary says explain selects only the to frame.
-    - A learner might treat the to-phrase as an object, when the Theme is the direct object.
-  activity: Give students verb cards (send, explain, give). They write one sentence per verb with a to-phrase, then test whether a double-object version also works, and sort the verbs.
+    - A learner might assume every verb that takes a <i>to</i>-phrase can also take two objects, though this dictionary says <i>explain</i> selects only the to frame.
+    - A learner might treat the <i>to</i>-phrase as an object, when the Theme is the direct object.
+  activity: Give students verb cards (<i>send</i>, <i>explain</i>, <i>give</i>). They write one sentence per verb with a <i>to</i>-phrase, then test whether a double-object version also works, and sort the verbs.
 child:
   hook: What do you say when you hand the keys to someone?
-  explain: Some sentences name what is passed first. Then they say who it is for, starting with to. Kim sent the keys to Lee.
+  explain: Some sentences name what is passed first. Then they say who it is for, starting with <i>to</i>. <i>Kim sent the keys to Lee</i>.
   examples:
     - text: Kim [sent the keys to Lee].
       from: entry
     - text: I [gave the book to Mia].
       from: constructed
-  play: Pass a small object around a circle. Each player says what they did, like "I passed the ball to Sam."
+  play: Pass a small object around a circle. Each player says what they did, like "<i>I passed the ball to Sam</i>."
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

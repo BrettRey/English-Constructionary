@@ -1,5 +1,5 @@
 id: relative-clausal-which-001
-name: Supplementary Which with a Clausal Anchor
+name: "Supplementary <i>which</i> with a Clausal Anchor"
 pattern: Clause or larger discourse unit + supplement with relative which
 type: mixed
 meanings:
@@ -20,6 +20,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Which can refer to the departure situation as a whole. Number from an incidental NP inside the anchor does not determine the reference of which.
+    target: <i>Which</i> can refer to the departure situation as a whole. Number from an incidental NP inside the anchor does not determine the reference of <i>which</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

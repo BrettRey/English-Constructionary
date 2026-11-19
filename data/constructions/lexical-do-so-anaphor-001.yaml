@@ -1,5 +1,5 @@
 id: lexical-do-so-anaphor-001
-name: Anaphoric Do So
+name: "Anaphoric <i>do so</i>"
 pattern: VP[do + so]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Do so can be infinitival in promised to do so, and in its ordinary use favours an action antecedent. Stranded auxiliary do has a wider range of antecedents.
+    target: "<i>Do so</i> can be infinitival in <i>promised to do so</i>, and in its ordinary use favours an action antecedent. Stranded auxiliary <i>do</i> has a wider range of antecedents."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

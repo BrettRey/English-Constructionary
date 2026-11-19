@@ -4,7 +4,7 @@ pattern: VP[verb + location Od + with-PP[material]]
 type: mixed
 meanings:
   '1':
-    definition: Presents a location as the principal affected object and the material as a with-dependent.
+    definition: Presents a location as the principal affected object and the material as a <i>with</i>-dependent.
     examples:
       - form: They [sprayed the panel with paint].
         note: Constructed illustration.
@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: instrumental-with-np-001
     relationship: related-to
-    notes: In sprayed the panel with paint, the with-phrase gives the material applied. In painted the panel with a brush, it gives the instrument.
+    notes: In <i>sprayed the panel with paint</i>, the <i>with</i>-phrase gives the material applied. In <i>painted the panel with a brush</i>, it gives the instrument.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §§8.3.1, 8.3.3

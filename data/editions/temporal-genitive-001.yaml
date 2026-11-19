@@ -4,14 +4,14 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Tomorrow's inspection
-  summary: A time word with 's before a noun says when the thing happens.
+  title: <i>Tomorrow's inspection</i>
+  summary: A time word with <i>'s</i> before a noun says when the thing happens.
   body: |-
-    In They cancelled tomorrow's inspection, tomorrow's tells you when the inspection is due. It dates the event. It doesn't name anyone who takes part in the inspecting.
+    In <i>They cancelled tomorrow's inspection</i>, <i>tomorrow's</i> tells you when the inspection is due. It dates the event. It doesn't name anyone who takes part in the inspecting.
 
-    Compare the inspector's inspection, where the inspector is a participant in the event. So the 's form can do different jobs, depending on the word before it.
+    Compare <i>the inspector's inspection</i>, where the inspector is a participant in the event. So the <i>'s</i> form can do different jobs, depending on the word before it.
 
-    A time phrase can also take the 's at its end, as in the day after the election's agenda, where the 's attaches after election rather than day.
+    A time phrase can also take the <i>'s</i> at its end, as in <i>the day after the election's agenda</i>, where the <i>'s</i> attaches after <i>election</i> rather than <i>day</i>.
 
     This dictionary marks the analysis as provisional.
   examples:
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: '[the day after the election''s agenda]'
       from: entry
-  try: Think of a time word that can take 's before a noun, like last week's news. What does the time word say about the noun?
+  try: Think of a time word that can take <i>'s</i> before a noun, like <i>last week's news</i>. What does the time word say about the noun?
 teacher:
-  summary: Useful for explaining genitives that give a time, as in tomorrow's inspection, as opposed to genitives that name a participant.
-  explain: The pattern is an NP whose determiner is a time-denoting genitive NP, followed by a nominal. It locates the nominal referent or event at a contextually identified time. Tomorrow dates the event without denoting a participant in the inspecting, whereas the inspector's inspection relates an argument to the nominal predicate. The genitive can also be a longer phrase with the marker at its edge, as in the day after the election's agenda, where the marker attaches after election rather than day. This dictionary marks the analysis as provisional and has one constructed illustration.
+  summary: Useful for explaining genitives that give a time, as in <i>tomorrow's inspection</i>, as opposed to genitives that name a participant.
+  explain: The pattern is an NP whose determiner is a time-denoting genitive NP, followed by a nominal. It locates the nominal referent or event at a contextually identified time. <i>Tomorrow</i> dates the event without denoting a participant in the inspecting, whereas <i>the inspector's inspection</i> relates an argument to the nominal predicate. The genitive can also be a longer phrase with the marker at its edge, as in <i>the day after the election's agenda</i>, where the marker attaches after <i>election</i> rather than <i>day</i>. This dictionary marks the analysis as provisional and has one constructed illustration.
   terms: 'CGEL: genitive NP in determiner function. Avoid possessive as a label here, since the genitive gives a time, not ownership.'
   examples:
     - text: They cancelled [tomorrow's inspection].
@@ -37,18 +37,18 @@ teacher:
       from: constructed
       note: The genitive relates a participant to the nominal predicate.
   watch_for:
-    - A learner might read tomorrow's as naming who or what is inspected or who inspects.
-    - A learner might put the 's after day instead of at the end of the phrase the day after the election.
-  activity: Students list time words that take 's before a noun, such as today's, last week's and next year's. They write sentences with each and underline the time word, then say what it tells us about the noun.
+    - A learner might read <i>tomorrow's</i> as naming who or what is inspected or who inspects.
+    - A learner might put the <i>'s</i> after <i>day</i> instead of at the end of the phrase <i>the day after the election</i>.
+  activity: Students list time words that take <i>'s</i> before a noun, such as <i>today's</i>, <i>last week's</i> and <i>next year's</i>. They write sentences with each and underline the time word, then say what it tells us about the noun.
 child:
-  hook: Why do we say tomorrow's trip?
-  explain: You can put 's on a time word to say when something is. Tomorrow's trip is the trip that's tomorrow. The word tomorrow tells you when.
+  hook: Why do we say <i>tomorrow's trip</i>?
+  explain: You can put <i>'s</i> on a time word to say when something is. <i>Tomorrow's trip</i> is the trip that's tomorrow. The word <i>tomorrow</i> tells you when.
   examples:
     - text: They cancelled [tomorrow's inspection].
       from: entry
     - text: We're packing for [tomorrow's trip].
       from: constructed
-  play: Pick a time word like today or yesterday. Add 's and a noun, like yesterday's game. Make up three of your own.
+  play: Pick a time word like <i>today</i> or <i>yesterday</i>. Add <i>'s</i> and a noun, like <i>yesterday's game</i>. Make up three of your own.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

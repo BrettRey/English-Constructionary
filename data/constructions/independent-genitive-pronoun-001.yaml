@@ -41,7 +41,7 @@ meanings:
     details: Marks defining features or qualities
     examples:
       - form: That strength is its
-        note: Property of it (independent its is rare but attested)
+        note: Property of it (independent <i>its</i> is rare but attested)
       - form: Those weaknesses are theirs
         note: Their characteristics
   '6':
@@ -82,8 +82,8 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Mine contrasts with my in This is mine versus my copy. With whose and his, identical surface forms can appear in independent or dependent slots. Independent its is rare rather than ruled out."
-    evidence: "CGEL separates dependent and independent genitive realizations. Its warning about the exceptional distribution of its limits any paradigm-wide prediction."
+    target: "<i>Mine</i> contrasts with <i>my</i> in <i>This is mine</i> versus <i>my copy</i>. With <i>whose</i> and <i>his</i>, identical surface forms can appear in independent or dependent slots. Independent its is rare rather than ruled out."
+    evidence: "CGEL separates dependent and independent genitive realizations. Its warning about the exceptional distribution of <i>its</i> limits any paradigm-wide prediction."
     confidence: medium
 relatedConstructions:
   - id: np-gen-indep-001

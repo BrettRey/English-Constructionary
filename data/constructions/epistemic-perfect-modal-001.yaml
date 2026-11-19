@@ -15,7 +15,7 @@ relatedConstructions:
   - id: perfect-have-001
     relationship: contains
     parthood: formal
-    notes: Perfect have locates the assessed event before the reference time.
+    notes: Perfect <i>have</i> locates the assessed event before the reference time.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §§9.3.1, 9.9
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: On the inferential reading, must expresses the current conclusion and have places the rain earlier. A past requirement ordinarily calls for had to rather than this construction.
+    target: On the inferential reading, <i>must</i> expresses the current conclusion and <i>have</i> places the rain earlier. A past requirement ordinarily calls for <i>had to</i> rather than this construction.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

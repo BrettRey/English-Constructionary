@@ -7,9 +7,9 @@ curious:
   title: Nodding satisfaction
   summary: An action verb can take a noun naming the reaction it expresses.
   body: |-
-    In She nodded satisfaction, the nod is how the satisfaction is shown. In He grunted assent, the grunt expresses agreement. The noun can name an attitude, a communicative response or an emotion.
+    In <i>She nodded satisfaction</i>, the nod is how the satisfaction is shown. In <i>He grunted assent</i>, the grunt expresses agreement. The noun can name an attitude, a communicative response or an emotion.
 
-    The verb needn't ordinarily take an object of this kind. In smiled her thanks, the smile is the means of expressing thanks. This dictionary marks the account as provisional.
+    The verb needn't ordinarily take an object of this kind. In <i>smiled her thanks</i>, the smile is the means of expressing thanks. This dictionary marks the account as provisional.
   examples:
     - text: She [nodded satisfaction].
       from: entry
@@ -18,18 +18,21 @@ curious:
   try: Think of a gesture or sound, such as a shrug or a sigh. What reaction could you say it expressed?
 teacher:
   summary: For advanced classes, action verbs followed by a noun naming the reaction they express.
-  explain: 'The pattern is a VP with an expression or action verb and an NP naming the reaction expressed: She nodded satisfaction. The NP can denote an attitude, communicative response or emotion, and the verb need not ordinarily take an object of this type. In smiled her thanks, the smile is the means of expressing thanks. This dictionary distinguishes this from a cognate object, which names the event itself, and reports restrictions on passive versions. It is marked provisional.'
+  explain: 'The pattern is a VP with an expression or action verb and an NP naming the reaction expressed: <i>She nodded satisfaction</i>. The NP can denote an attitude, communicative response or emotion, and the verb need not ordinarily take an object of this type. In <i>smiled her thanks</i>, the smile is the means of expressing thanks. This dictionary distinguishes this from a cognate object, which names the event itself, and reports restrictions on passive versions. It is marked provisional.'
   terms: A cognate object names the event itself; this dictionary keeps the reaction object separate from it.
   examples:
     - text: She [nodded satisfaction].
       from: entry
     - text: He [grunted assent].
       from: entry
+    - text: She [smiled her thanks].
+      from: constructed
   watch_for:
     - A learner might think the noun names the action itself rather than the reaction expressed.
     - A learner might assume the verb can't take an object because it doesn't ordinarily take one.
-  activity: Give students verbs of gesture and sound (nod, grunt, smile, sigh) and nouns of reaction. They combine them and discuss which pairings show a reaction.
+  activity: Write <i>She smiled her thanks</i> on the board. Students rephrase it as <i>She smiled to express her thanks</i>, then do the same for <i>She nodded satisfaction</i>, and say what each gesture expressed.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: added the constructed teacher example She smiled her thanks (from the entry's details; smile and thanks are both within the top 2,500 word forms of SUBTLEX-UK); teacher.activity no longer has students combine nod, grunt and sigh with reaction nouns (grunt about 21,500th, assent about 29,800th) and now rephrases smiled her thanks and the entry's nodded satisfaction; entry examples unchanged."

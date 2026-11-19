@@ -7,7 +7,7 @@ curious:
   title: Saying who you mean at the end
   summary: A speaker can use a pronoun and then add a noun phrase after the clause to say exactly who or what it was.
   body: |-
-    In I really like him, your dad, the word him already refers to someone. Then your dad is added at the end to make clear who. It can also simply restate a person or thing that's already clear, as in It's fascinating, this book.
+    In <i>I really like him, your dad</i>, the word <i>him</i> already refers to someone. Then <i>your dad</i> is added at the end to make clear who. It can also simply restate a person or thing that's already clear, as in <i>It's fascinating, this book</i>.
 
     The added phrase works best for something already in the conversation. A new person who hasn't been mentioned doesn't fit well in this slot: this dictionary notes that an attorney introduced for the first time is a poor fit here.
   examples:
@@ -15,10 +15,10 @@ curious:
       from: entry
     - text: '[It''s fascinating, this book.]'
       from: entry
-  try: Say something about a person or thing using only him, her or it, then add the name or noun at the end.
+  try: Say something about a person or thing using only <i>him</i>, <i>her</i> or <i>it</i>, then add the name or noun at the end.
 teacher:
   summary: Helps explain a tag-like noun phrase after a clause that repeats a pronoun's referent.
-  explain: 'In right dislocation, a clause with an overt personal pronoun is followed by an NP referring to the same thing: I really like him, your dad. The final NP can disambiguate the pronoun or restate a referent that is already clear. CGEL contrasts a topic that has been evoked or is accessible from the context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked subtype. The pronoun can be embedded in the clause, and the pattern favours an accessible referent.'
+  explain: 'In right dislocation, a clause with an overt personal pronoun is followed by an NP referring to the same thing: <i>I really like him, your dad</i>. The final NP can disambiguate the pronoun or restate a referent that is already clear. CGEL contrasts a topic that has been evoked or is accessible from the context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked subtype. The pronoun can be embedded in the clause, and the pattern favours an accessible referent.'
   terms: Sometimes called an antitopic or a tag NP. This dictionary also contrasts it with left dislocation, which can introduce a new referent.
   examples:
     - text: '[I really like him, your dad.]'
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: I really like him.
       from: constructed
-      note: The pronoun alone; the listener must work out who him is.
+      note: The pronoun alone; the listener must work out who <i>him</i> is.
     - text: I really like him, your dad.
       from: entry
       note: The final NP specifies the intended referent.
   watch_for:
     - A learner might use the final NP to introduce someone new to the conversation, when the pattern fits an accessible referent.
     - A learner might drop the pronoun and keep only the final noun phrase.
-  activity: Give students two people in a picture. They say a sentence using him or her, and a partner adds a final noun phrase that says exactly who is meant.
+  activity: Give students two people in a picture. They say a sentence using <i>him</i> or <i>her</i>, and a partner adds a final noun phrase that says exactly who is meant.
 child:
-  hook: When you say "him", how does a friend know who you mean?
-  explain: You can say it first, then say the name at the end. I really like him, your dad. The end part tells who "him" is.
+  hook: When you say "<i>him</i>", how does a friend know who you mean?
+  explain: You can say it first, then say the name at the end. <i>I really like him, your dad</i>. The end part tells who "<i>him</i>" is.
   examples:
     - text: '[I really like him, your dad.]'
       from: entry
     - text: '[It''s fascinating, this book.]'
       from: entry
-  play: Say a sentence with him, her or it. Then add the person or thing at the end, after a little pause.
+  play: Say a sentence with <i>him</i>, <i>her</i> or <i>it</i>. Then add the person or thing at the end, after a little pause.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

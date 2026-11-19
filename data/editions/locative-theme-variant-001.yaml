@@ -7,9 +7,9 @@ curious:
   title: Putting the material right after the verb
   summary: With some verbs, the material or moved thing comes right after the verb and the place comes later.
   body: |-
-    In They sprayed paint onto the panel, the paint comes straight after the verb and the panel follows. The paint is the thing that was moved, and the panel is where it ended up.
+    In <i>They sprayed paint onto the panel</i>, the paint comes straight after the verb and the panel follows. The paint is the thing that was moved, and the panel is where it ended up.
 
-    You can ask about the paint with What was sprayed? There's a second way of saying it, in which the panel comes first: They sprayed the panel with paint. Which verbs allow both depends on the verb and its sense. When the panel is placed later, it needn't be understood as affected throughout, whereas the panel-first version customarily suggests more of the surface was affected.
+    You can ask about the paint with <i>What was sprayed?</i> There's a second way of saying it, in which the panel comes first: <i>They sprayed the panel with paint</i>. Which verbs allow both depends on the verb and its sense. When the panel is placed later, it needn't be understood as affected throughout, whereas the panel-first version customarily suggests more of the surface was affected.
   examples:
     - text: They [sprayed paint onto the panel].
       from: entry
@@ -18,7 +18,7 @@ curious:
   try: Ask a question about the thing that was sprayed. Which word in the sentence answers it?
 teacher:
   summary: Helps explain the frame where the material is the object and the location is a goal PP.
-  explain: 'In this frame the material or moved entity is the direct object and the location is a goal PP: sprayed paint onto the panel. A question can target the material (What was sprayed?). The goal needn''t be understood as comprehensively affected, unlike the customary implication of the corresponding location-object variant. It alternates with sprayed the panel with paint, but whether a verb takes both depends on the verb and sense. This dictionary treats it as a specialization of caused motion.'
+  explain: 'In this frame the material or moved entity is the direct object and the location is a goal PP: <i>sprayed paint onto the panel</i>. A question can target the material (<i>What was sprayed?</i>). The goal needn''t be understood as comprehensively affected, unlike the customary implication of the corresponding location-object variant. It alternates with <i>sprayed the panel with paint</i>, but whether a verb takes both depends on the verb and sense. This dictionary treats it as a specialization of caused motion.'
   terms: Part of what is sometimes called the locative alternation. In this dictionary it is the theme-object frame, paired with the location-object frame.
   examples:
     - text: They [sprayed paint onto the panel].
@@ -29,11 +29,11 @@ teacher:
       note: The material is the object; the panel is a goal.
     - text: They sprayed the panel with paint.
       from: constructed
-      note: The location is the object; with gives the material.
+      note: The location is the object; <i>with</i> gives the material.
   watch_for:
-    - A learner might think the panel in sprayed paint onto the panel must be covered completely, when the goal needn't be understood that way.
+    - A learner might think the panel in <i>sprayed paint onto the panel</i> must be covered completely, when the goal needn't be understood that way.
     - A learner might assume every verb allows both frames, when the alternation depends on the verb and sense.
-  activity: Students ask What was sprayed? of a sentence in this frame and then rewrite it with the location as object, discussing whether the second version suggests more of the surface was affected.
+  activity: Students ask <i>What was sprayed?</i> of a sentence in this frame and then rewrite it with the location as object, discussing whether the second version suggests more of the surface was affected.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

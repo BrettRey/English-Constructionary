@@ -11,10 +11,10 @@ dimensions:
 meanings:
   '1':
     definition: A one-word PP complement in particle use combines with a verb and a distinct NP direct object
-    details: "Particle is a syntactic use, not a lexical category. In the central case, the particle is a one-word PP headed by an intransitive preposition. In She took off the label, off is a complement of take and the label is a separate Od; this differs from She jumped off the wall, where off is a transitive preposition and off the wall is a single PP complement. The particle construction is diagnosed by order alternation, obligatory pre-particle placement of an unstressed pronoun, and the failure of particle + Od to behave as a constituent (CGEL Ch. 4 §6.2, pp. 280–83)."
+    details: "Particle is a syntactic use, not a lexical category. In the central case, the particle is a one-word PP headed by an intransitive preposition. In <i>She took off the label</i>, <i>off</i> is a complement of <i>take</i> and the label is a separate Od; this differs from <i>She jumped off the wall</i>, where <i>off</i> is a transitive preposition and <i>off the wall</i> is a single PP complement. The particle construction is diagnosed by order alternation, obligatory pre-particle placement of an unstressed pronoun, and the failure of particle + Od to behave as a constituent (CGEL Ch. 4 §6.2, pp. 280–83)."
     examples:
       - form: "She [brought down the bed]."
-        note: Head–particle–Od order with down as a one-word PP complement
+        note: Head–particle–Od order with <i>down</i> as a one-word PP complement
         grounds:
           - source: cgel-2002
             locator: "Ch. 4, §6.2, p. 280"
@@ -28,7 +28,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: "She [took the label off]."
-        note: Post-object particle; compare the impossible unstressed-pronoun order *took off it
+        note: Post-object particle; compare the impossible unstressed-pronoun order *<i>took off it</i>
         grounds:
           - source: cgel-2002
             locator: "Ch. 4, §6.2, pp. 281–82"
@@ -40,9 +40,9 @@ constraints:
   - type: structural
     description: "In the central prepositional subtype recorded here, the particle is a one-word PP headed by an intransitive P; the term particle identifies its syntactic use rather than a lexical category."
   - type: position
-    description: "An ordinary non-pronominal Od generally permits Head–particle–Od and Head–Od–particle orders, but an unstressed personal-pronoun Od must immediately follow the verb: take it off, not *take off it."
+    description: "An ordinary non-pronominal Od generally permits Head–particle–Od and Head–Od–particle orders, but an unstressed personal-pronoun Od must immediately follow the verb: <i>take it off</i>, not *<i>take off it</i>."
   - type: syntactic
-    description: "Particle + Od cannot normally be fronted, foregrounded in an it-cleft, or repeated as a coordinated phrase; these failures distinguish the sequence from a transitive PP."
+    description: "Particle + Od cannot normally be fronted, foregrounded in an <i>it</i>-cleft, or repeated as a coordinated phrase; these failures distinguish the sequence from a transitive PP."
   - type: position
     description: "Heavy-NP postposing and lexical fossilisation can obscure the ordinary alternation, so no single placement test is necessary in every token."
 kind:
@@ -73,7 +73,7 @@ kind:
         diagnostics: ["unstressed personal pronoun immediately follows V", "*Head–particle–pronoun"]
         weight: high
       - property: Particle plus Od is not a constituent
-        diagnostics: ["fronting failure", "it-cleft failure", "coordination failure"]
+        diagnostics: ["fronting failure", "<i>it</i>-cleft failure", "coordination failure"]
         weight: high
     peripheral:
       - property: Semantic transparency
@@ -87,8 +87,8 @@ kind:
         effect: One of the two particle positions may be strongly preferred or excluded
   boundaries:
     known_boundary_items:
-      - "jump off the wall: off heads a transitive PP containing its own Obj, rather than a particle PP followed by Od"
-      - "read through the prospectus versus read the prospectus through: CGEL treats this as alternation between a transitive PP and NP plus non-particle intransitive PP"
+      - "<i>jump off the wall</i>: <i>off</i> heads a transitive PP containing its own Obj, rather than a particle PP followed by Od"
+      - "<i>read through the prospectus</i> versus <i>read the prospectus through</i>: CGEL treats this as alternation between a transitive PP and NP plus non-particle intransitive PP"
       - "Adjectival and verbal particles occur in a small set of idioms, but the present entry records the central PP subtype"
   grain:
     level: meso

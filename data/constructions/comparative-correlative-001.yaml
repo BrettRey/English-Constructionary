@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Makes variation on one scale contingent on the value on another.
-    details: The more we pay them, the harder they work makes effort vary with pay. Reversing the order can make pay vary with effort, which licenses different inferences. The second comparative can stay in its ordinary position when the dependent unit comes last. Fronted pairs also allow reductions such as the sooner, the better. The comparative marker the also occurs before comparative AdjPs and AdvPs in this pattern.
+    details: "<i>The more we pay them, the harder they work</i> makes effort vary with pay. Reversing the order can make pay vary with effort, which licenses different inferences. The second comparative can stay in its ordinary position when the dependent unit comes last. Fronted pairs also allow reductions such as <i>the sooner, the better</i>. The comparative marker <i>the</i> also occurs before comparative AdjPs and AdvPs in this pattern."
     examples:
       - form: '[The more we pay them, the harder they work.]'
         note: Pay supplies the scale from which variation in effort is projected.

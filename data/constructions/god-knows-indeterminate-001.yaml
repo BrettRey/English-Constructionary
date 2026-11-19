@@ -1,11 +1,11 @@
 id: god-knows-indeterminate-001
-name: God Knows with an Indeterminate Expression
+name: "<i>God knows</i> with an Indeterminate Expression"
 pattern: fixed authority expression + knows + indeterminate XP, including inside an argument or modifier
 type: mixed
 meanings:
   '1':
     definition: Marks a value as unknown or left unspecified, often with an emphatic stance.
-    details: In He filed God knows how many pages, the expression supplies an indefinite quantity inside the object NP. In She put God knows what in the soup, it supplies the unknown item. The source lists variants with Heaven, the Lord and goodness. An independent sentence such as God knows how many pages he filed can also make a literal claim about knowledge.
+    details: In <i>He filed God knows how many pages</i>, the expression supplies an indefinite quantity inside the object NP. In <i>She put God knows what in the soup</i>, it supplies the unknown item. The source lists variants with <i>Heaven</i>, <i>the Lord</i> and <i>goodness</i>. An independent sentence such as <i>God knows how many pages he filed</i> can also make a literal claim about knowledge.
     examples:
       - form: They packed [God knows what] in these boxes.
         note: Constructed NP object use with an unknown item.

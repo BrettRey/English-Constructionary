@@ -26,6 +26,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "London can occur without an article when it identifies the city. A construction such as two Kims uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP’s referential status."
+    target: "<i>London</i> can occur without an article when it identifies the city. A construction such as <i>two Kims</i> uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP’s referential status."
     evidence: "CGEL distinguishes proper nouns from whole names and documents secondary uses and complex names."
     confidence: medium

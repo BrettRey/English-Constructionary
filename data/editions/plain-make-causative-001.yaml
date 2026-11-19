@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Making someone do something
-  summary: Make, a person or thing, and a plain verb together present one participant as causing another to do or go through something.
+  summary: <i>Make</i>, a person or thing, and a plain verb together present one participant as causing another to do or go through something.
   body: |-
-    In The joke made Lee laugh, the joke causes Lee to laugh, and Lee is still the one who laughs. The verb after Lee is in its plain form, with no to.
+    In <i>The joke made Lee laugh</i>, the joke causes Lee to laugh, and Lee is still the one who laughs. The verb after Lee is in its plain form, with no <i>to</i>.
 
-    The passive version does use to: Lee was made to laugh. The to is required there. Compare They made Kai wait and Kai was made to wait.
+    The passive version does use <i>to</i>: <i>Lee was made to laugh</i>. The <i>to</i> is required there. Compare <i>They made Kai wait</i> and <i>Kai was made to wait</i>.
   examples:
     - text: The joke [made Lee laugh].
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: constructed
     - text: Lee was made to laugh.
       from: constructed
-  try: Say The joke made Lee laugh. Now turn it around starting with Lee. Where does to appear?
+  try: Say <i>The joke made Lee laugh</i>. Now turn it around starting with Lee. Where does <i>to</i> appear?
 teacher:
-  summary: Explains make plus an NP and a plain verb, and the to that appears in the passive.
-  explain: 'In the active, make takes an NP followed by a bare infinitival: The joke made Lee laugh. The sentence presents one participant as causing the other to undertake or undergo a situation, and Lee remains the laugher. In the passive counterpart the infinitival marker is required: Lee was made to laugh. Make shares the NP plus bare infinitival shape with let (let Kai wait); make presents a cause and let presents permission or non-prevention. This dictionary marks the pattern as provisional, with medium confidence.'
-  terms: Textbooks sometimes call this the causative use of make, or make plus bare infinitive.
+  summary: Explains <i>make</i> plus an NP and a plain verb, and the <i>to</i> that appears in the passive.
+  explain: 'In the active, <i>make</i> takes an NP followed by a bare infinitival: <i>The joke made Lee laugh</i>. The sentence presents one participant as causing the other to undertake or undergo a situation, and Lee remains the laugher. In the passive counterpart the infinitival marker is required: <i>Lee was made to laugh</i>. <i>Make</i> shares the NP plus bare infinitival shape with <i>let</i> (<i>let Kai wait</i>); <i>make</i> presents a cause and <i>let</i> presents permission or non-prevention. This dictionary marks the pattern as provisional, with medium confidence.'
+  terms: Textbooks sometimes call this the causative use of <i>make</i>, or <i>make</i> plus bare infinitive.
   examples:
     - text: The joke [made Lee laugh].
       from: entry
@@ -33,17 +33,17 @@ teacher:
       note: Active, plain verb after the NP.
     - text: Kai was made to wait.
       from: constructed
-      note: Passive, with to.
+      note: Passive, with <i>to</i>.
     - text: They let Kai wait.
       from: constructed
-      note: Same shape with let, which presents permission or non-prevention rather than a cause.
+      note: Same shape with <i>let</i>, which presents permission or non-prevention rather than a cause.
   watch_for:
-    - A learner might add to after the NP in the active, when the active selects the plain form.
-    - A learner might leave out to in the passive, though the infinitival marker is required there.
-  activity: Give students five active make-sentences. They rewrite each as a passive and mark where to appears, then add one sentence with let and say how its meaning differs.
+    - A learner might add <i>to</i> after the NP in the active, when the active selects the plain form.
+    - A learner might leave out <i>to</i> in the passive, though the infinitival marker is required there.
+  activity: Give students five active <i>make</i>-sentences. They rewrite each as a passive and mark where <i>to</i> appears, then add one sentence with <i>let</i> and say how its meaning differs.
 child:
   hook: When something makes you laugh, who is the one laughing?
-  explain: 'Make can be followed by a name and then a plain verb. The joke made Lee laugh. Lee is the one who laughs. If you start with Lee, you add to: Lee was made to laugh.'
+  explain: '<i>Make</i> can be followed by a name and then a plain verb. <i>The joke made Lee laugh</i>. Lee is the one who laughs. If you start with Lee, you add <i>to</i>: <i>Lee was made to laugh</i>.'
   examples:
     - text: The joke made Lee laugh.
       from: entry
@@ -51,7 +51,7 @@ child:
       from: constructed
     - text: Lee was made to laugh.
       from: constructed
-  play: Make up sentences with made, a name and a plain verb. Then turn each one around so it starts with the name, and add to.
+  play: Make up sentences with <i>made</i>, a name and a plain verb. Then turn each one around so it starts with the name, and add <i>to</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

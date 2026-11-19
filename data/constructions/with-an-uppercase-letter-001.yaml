@@ -1,5 +1,5 @@
 id: with-an-uppercase-letter-001
-name: "With an Uppercase Letter Construction"
+name: "<i>X with an uppercase Y</i> Construction"
 pattern: "with + an + uppercase + Letter-name"
 type: semantic
 dimensions:
@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     implements: letter-case-specification-001.1
-    specialization: "Specifies uppercase orthography for the relevant label using uppercase."
+    specialization: "Specifies uppercase orthography for the relevant label using <i>uppercase</i>."
     examples:
       - form: "internet [with an uppercase I]."
         note: "Institutional or official sense."
@@ -26,7 +26,7 @@ relatedConstructions:
     relationship: specialization-of
   - id: with-a-capital-letter-001
     relationship: alternates-with
-    notes: "Lexical variant using capital."
+    notes: "Lexical variant using <i>capital</i>."
   - id: n-proper-001
     relationship: related-to
     notes: "Uppercase specification aligns with proper-noun readings."
@@ -41,6 +41,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "When the contrast is literal, uppercase I specifies the same letter shape as capital I. In a spelling instruction this does not tell the listener whether the word is a name. The comparison concerns the literal case instruction."
-    evidence: "The dictionary verifies the written-case contrast. The uppercase substitution is a constructed use."
+    target: "When the contrast is literal, <i>uppercase I</i> specifies the same letter shape as <i>capital I</i>. In a spelling instruction this does not tell the listener whether the word is a name. The comparison concerns the literal case instruction."
+    evidence: "The dictionary verifies the written-case contrast. The <i>uppercase</i> substitution is a constructed use."
     confidence: medium

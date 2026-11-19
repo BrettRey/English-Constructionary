@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Expresses shared right-edge material once while contrasting what precedes it.
-    details: In She knew of but never mentioned the proposal, the proposal completes both knew of and mentioned. Its functions differ across the two coordinates. Delay can foreground the contrast between the predicates.
+    details: In <i>She knew of but never mentioned the proposal</i>, <i>the proposal</i> completes both <i>knew of</i> and <i>mentioned</i>. Its functions differ across the two coordinates. Delay can foreground the contrast between the predicates.
     examples:
       - form: She [knew of but never mentioned the proposal].
         note: Constructed after the CGEL model with a PP complement in one coordinate and a direct object in the other.

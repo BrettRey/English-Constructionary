@@ -1,5 +1,5 @@
 id: means-by-gerund-001
-name: Means By with a Gerund-Participial
+name: "Means <i>by</i> with a Gerund-Participial"
 pattern: PP[by + gerund-participial Clause]
 type: mixed
 meanings:
@@ -9,7 +9,7 @@ meanings:
       - form: Jo reopened the file [by restoring a backup].
         note: Constructed illustration.
       - form: Jo reopened the file [after restoring a backup].
-        note: Constructed comparison. After supplies temporal order and leaves the means relation to context.
+        note: Constructed comparison. <i>After</i> supplies temporal order and leaves the means relation to context.
 relatedConstructions:
   - id: pp-001
     relationship: specialization-of

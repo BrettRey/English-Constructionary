@@ -1,5 +1,5 @@
 id: unless-exceptive-conditional-001
-name: Exceptive Conditional Unless
+name: "Exceptive Conditional <i>unless</i>"
 pattern: PP[unless + finite clause]
 type: mixed
 meanings:

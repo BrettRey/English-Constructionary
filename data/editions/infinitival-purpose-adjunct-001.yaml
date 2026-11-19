@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Doing something to reach a goal
-  summary: A to plus a verb after a clause can say what the action was for, as in borrowing a van to move the chairs.
+  summary: A <i>to</i> plus a verb after a clause can say what the action was for, as in <i>borrowing a van to move the chairs</i>.
   body: |-
-    In Jo borrowed the van to move the chairs, the part with to says why Jo borrowed the van. It presents a wanted outcome as the purpose of what happened.
+    In <i>Jo borrowed the van to move the chairs</i>, the part with <i>to</i> says why Jo borrowed the van. It presents a wanted outcome as the purpose of what happened.
 
-    A purpose doesn't have to come true. Jo borrowed the van to move the chairs, but the plan fell through is fine: the chairs may never have moved. You can also spell the purpose out with in order, as in in order to move the chairs.
+    A purpose doesn't have to come true. <i>Jo borrowed the van to move the chairs, but the plan fell through</i> is fine: the chairs may never have moved. You can also spell the purpose out with <i>in order</i>, as in <i>in order to move the chairs</i>.
   examples:
     - text: Jo borrowed the van [to move the chairs].
       from: entry
     - text: Jo borrowed the van [to move the chairs], but the plan fell through.
       from: entry
-  try: Say Jo borrowed the van to move the chairs. Does it tell you the chairs got moved?
+  try: Say <i>Jo borrowed the van to move the chairs</i>. Does it tell you the chairs got moved?
 teacher:
-  summary: Explains to plus a verb as a purpose adjunct, and why the purpose need not be realized.
-  explain: 'The pattern is a clause followed by a to-infinitival adjunct. It presents a desired outcome as the purpose of the main situation. The purpose can remain unrealized: in Jo borrowed the van to move the chairs, but the plan fell through, the chair-moving need never occur. The clause can be expanded with in order, which is a useful test. This dictionary contrasts this with a result infinitival, which reports a realized later event. It relates the pattern to for-infinitivals. It is provisional.'
+  summary: Explains <i>to</i> plus a verb as a purpose adjunct, and why the purpose need not be realized.
+  explain: 'The pattern is a clause followed by a <i>to</i>-infinitival adjunct. It presents a desired outcome as the purpose of the main situation. The purpose can remain unrealized: in <i>Jo borrowed the van to move the chairs, but the plan fell through</i>, the chair-moving need never occur. The clause can be expanded with <i>in order</i>, which is a useful test. This dictionary contrasts this with a result infinitival, which reports a realized later event. It relates the pattern to <i>for</i>-infinitivals. It is provisional.'
   terms: Traditionally called an infinitive of purpose or purposive infinitive. The related result use is covered under infinitival of subsequent outcome.
   examples:
     - text: Jo borrowed the van [to move the chairs].
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: Jo borrowed the van to move the chairs.
       from: entry
-      note: Purpose; can be expanded with in order.
+      note: Purpose; can be expanded with <i>in order</i>.
     - text: Jo borrowed the van in order to move the chairs.
       from: constructed
       note: The same purpose, spelled out.
   watch_for:
     - A learner might assume the purpose clause describes something that did happen.
-    - A learner might read the to-phrase as describing the van rather than the purpose of borrowing it.
-  activity: Students write why-questions and answer with to plus a verb. They add but the plan fell through to some answers and discuss whether the purpose was achieved.
+    - A learner might read the <i>to</i>-phrase as describing the van rather than the purpose of borrowing it.
+  activity: Students write why-questions and answer with <i>to</i> plus a verb. They add <i>but the plan fell through</i> to some answers and discuss whether the purpose was achieved.
 child:
   hook: Why did Jo borrow the van?
-  explain: To plus a verb can tell why someone did something. Jo borrowed the van to move the chairs. That was the plan. It doesn't say the chairs got moved.
+  explain: <i>To</i> plus a verb can tell why someone did something. <i>Jo borrowed the van to move the chairs.</i> That was the plan. It doesn't say the chairs got moved.
   examples:
     - text: Jo borrowed the van [to move the chairs].
       from: entry
     - text: I grabbed a pencil [to draw a map].
       from: constructed
-  play: Ask a partner why they did something today. Answer with "to" and a verb. Add "but it didn't work" to one answer.
+  play: Ask a partner why they did something today. Answer with "<i>to</i>" and a verb. Add "<i>but it didn't work</i>" to one answer.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

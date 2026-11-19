@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: A structural (morphosyntactic) profile of English determination, distinct from semantic definiteness, for which English grammar previously had no agreed name
-    details: "Reynolds, Definiteness and Deitality in English (LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of the). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory."
+    details: "Reynolds, Definiteness and Deitality in English (LingBuzz 009369). Prototype: the demonstratives (deictic, and the historical source of <i>the</i>). Core diagnostics, ranked: resistance to neutral existential there pivots; domain establishment in true partitives; ready hosting of identificational material. A narrow bare-one substitution pattern supplies corroborating residue, not a core diagnostic. Definiteness and deitality usually coincide, which is why they get run together; weak definites, generic definites, narrative this, and proper names each mark a point where they separate. See data/indices/deitality-status.yaml for the provisional membership inventory."
     examples:
       - form: "*There was [the] dog in the yard."
         note: "There-resistance under neutral prosody (definiteness effect)"
@@ -50,7 +50,7 @@ kind:
         weight: low
   stabilisers:
     - type: transmission
-      evidence: "Demonstrative > article grammaticalization; demonstratives are the profile's prototype and the historical source of the"
+      evidence: "Demonstrative > article grammaticalization; demonstratives are the profile's prototype and the historical source of <i>the</i>"
     - type: acquisition
       evidence: "Learners acquire deital distribution before full definiteness semantics"
   maintenance:

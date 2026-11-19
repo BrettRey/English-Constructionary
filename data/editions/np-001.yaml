@@ -7,7 +7,7 @@ curious:
   title: Phrases that name things
   summary: A noun phrase is a word or group of words built around a head, which is ordinarily a noun or pronoun. It can point to a person, thing or idea.
   body: |-
-    John, the book and he can all do the same job in a sentence: each one names or points to something. John is a name, the book is a noun with a small word in front, and he is a pronoun.
+    <i>John</i>, <i>the book</i> and <i>he</i> can all do the same job in a sentence: each one names or points to something. <i>John</i> is a name, <i>the book</i> is a noun with a small word in front, and <i>he</i> is a pronoun.
 
     Such a phrase can be the subject of a sentence or its object. It can also describe something, and it can point to things, ideas or qualities. This is the most general kind of noun phrase, and the dictionary uses it as a parent for more specific kinds.
   examples:
@@ -20,8 +20,8 @@ curious:
   try: Pick a sentence and swap its subject for another phrase that names something. Does the sentence still work?
 teacher:
   summary: Gives the general picture of a noun phrase and its realizations before more specific types are taught.
-  explain: The NP construction is headed by a noun or pronoun, with an optional determiner and modifiers. It can refer to entities and concepts, or be used predicatively. It occurs as subject, object, complement of a preposition and predicative complement. This is the most general NP construction and the parent of the more specific ones. A fused head supplies a complete NP without an ordinary overt noun. A complete nominal expression such as the small box can be subject or object, and replacing it with the small alone ordinarily needs a recoverable noun or another licensed fused-head use. The dictionary marks this account as provisional.
-  terms: Noun phrase is the traditional name. Determiner is a function; the and a are determinatives (often called articles).
+  explain: The NP construction is headed by a noun or pronoun, with an optional determiner and modifiers. It can refer to entities and concepts, or be used predicatively. It occurs as subject, object, complement of a preposition and predicative complement. This is the most general NP construction and the parent of the more specific ones. A fused head supplies a complete NP without an ordinary overt noun. A complete nominal expression such as <i>the small box</i> can be subject or object, and replacing it with <i>the small</i> alone ordinarily needs a recoverable noun or another licensed fused-head use. The dictionary marks this account as provisional.
+  terms: Noun phrase is the traditional name. Determiner is a function; <i>the</i> and <i>a</i> are determinatives (often called articles).
   examples:
     - text: '[John]'
       from: entry
@@ -30,9 +30,9 @@ teacher:
     - text: '[he]'
       from: entry
   watch_for:
-    - A learner might think a noun phrase must contain a determiner, when a name such as John is a full noun phrase.
-    - A learner might expect the small to stand in for the small box anywhere, when that ordinarily needs a recoverable noun or another licensed fused-head use.
-  activity: Write a short sentence on the board. Students underline each noun phrase, then say whether its head is a noun, a pronoun or something else (as in the small, said of cups).
+    - A learner might think a noun phrase must contain a determiner, when a name such as <i>John</i> is a full noun phrase.
+    - A learner might expect <i>the small</i> to stand in for <i>the small box</i> anywhere, when that ordinarily needs a recoverable noun or another licensed fused-head use.
+  activity: Write a short sentence on the board. Students underline each noun phrase, then say whether its head is a noun, a pronoun or something else (as in <i>the small</i>, said of cups).
 checked:
   date: "2026-11-19"
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

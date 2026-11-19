@@ -4,37 +4,40 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Re- meaning do it again
-  summary: Putting re- on the front of some verbs makes a new verb meaning to do the action again.
+  title: "<i>Re-</i> meaning do it again"
+  summary: Putting <i>re-</i> on the front of some verbs makes a new verb meaning to do the action again.
   body: |-
-    In Please recheck the numbers, recheck means to check them another time. The normal reading takes it for granted that there was an earlier check.
+    In <i>Please recheck the numbers</i>, <i>recheck</i> means to check them another time. The normal reading takes it for granted that there was an earlier check.
 
-    A word that only starts with the same letters, such as reject, doesn't necessarily mean again in the same way. This dictionary marks the account as provisional.
+    A word that only starts with the same letters, such as <i>reject</i>, doesn't necessarily mean again in the same way. This dictionary marks the account as provisional.
   examples:
     - text: Please [recheck] the numbers.
       from: entry
-  try: Put re- on a verb like read or write. What does the new word mean, and what has to have happened first?
+  try: Put <i>re-</i> on a verb like <i>read</i> or <i>write</i>. What does the new word mean, and what has to have happened first?
 teacher:
-  summary: Shows how re- builds verbs meaning to perform an action again.
-  explain: 'The prefix re- plus a suitable verbal base forms a verb describing another performance of the relevant action: Please recheck the numbers. The normal reading presupposes an earlier check. A word that merely starts with the same letters, such as reject, need not support an again analysis, so students shouldn''t segment every re- word. This dictionary marks the account provisional and is built on one constructed example.'
-  terms: Re- is traditionally a prefix; this dictionary calls the pattern iterative re- on a verb.
+  summary: Shows how <i>re-</i> builds verbs meaning to perform an action again.
+  explain: 'The prefix <i>re-</i> plus a suitable verbal base forms a verb describing another performance of the relevant action: <i>Please recheck the numbers</i>. The normal reading presupposes an earlier check. A word that merely starts with the same letters, such as <i>reject</i>, need not support an again analysis, so students shouldn''t segment every <i>re-</i> word. This dictionary marks the account provisional and is built on one constructed example.'
+  terms: "<i>Re-</i> is traditionally a prefix; this dictionary calls the pattern iterative <i>re-</i> on a verb."
   examples:
     - text: Please [recheck] the numbers.
       from: entry
+    - text: After the flood, they had to [rebuild] the bridge.
+      from: constructed
   watch_for:
-    - A learner might split reject into re- plus ject and look for an again meaning.
-    - A learner might use recheck when there was no earlier check.
-  activity: Students list re- verbs they know and sort them into again meanings and words where re- only appears at the start, then check each against a dictionary.
+    - A learner might split <i>reject</i> into <i>re-</i> plus <i>ject</i> and look for an again meaning.
+    - A learner might use <i>recheck</i> when there was no earlier check.
+  activity: Students list <i>re-</i> verbs they know and sort them into again meanings and words where <i>re-</i> only appears at the start, then check each against a dictionary.
 child:
-  hook: What does the re- at the start of recheck do?
-  explain: Re- can mean again. To recheck is to check again. Something has to be checked first.
+  hook: What does the <i>re-</i> at the start of <i>recheck</i> do?
+  explain: "<i>Re-</i> can mean again. To <i>recheck</i> is to check again. Something has to be checked first."
   examples:
     - text: Please [recheck] the numbers.
       from: entry
     - text: Please [reread] the story.
       from: constructed
-  play: Add re- to verbs like read, write or play. Say what each new word means. Then use it in a sentence.
+  play: Add <i>re-</i> to verbs like <i>read</i>, <i>write</i> or <i>play</i>. Say what each new word means. Then use it in a sentence.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: added the constructed teacher example After the flood, they had to rebuild the bridge (rebuild about 6,000th in SUBTLEX-UK, about 3,500th counting its other forms) beside the entry's recheck (about 63,100th); activity already has students list re- verbs they know, so left as is."

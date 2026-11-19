@@ -1,5 +1,5 @@
 id: it-auxiliary-clitic-001
-name: Clitic It’s in Auxiliary Uses
+name: "Clitic <i>it’s</i> in Auxiliary Uses"
 pattern: it + contracted is or has
 type: morphological
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The host and following participial environment distinguish has in It’s been repaired from is in It’s being repaired. Genitive its instead combines with a nominal in its ordinary dependent use.
+    target: The host and following participial environment distinguish <i>has</i> in <i>It’s been repaired</i> from <i>is</i> in <i>It’s being repaired</i>. Genitive <i>its</i> instead combines with a nominal in its ordinary dependent use.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

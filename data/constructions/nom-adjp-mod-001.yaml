@@ -30,6 +30,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In a former president, former modifies the relation expressed by president. The president is former does not give the same reading. A pre-head adjective need not have a matching predicative use."
+    target: "In <i>a former president</i>, <i>former</i> modifies the relation expressed by <i>president</i>. <i>The president is former</i> does not give the same reading. A pre-head adjective need not have a matching predicative use."
     evidence: "CGEL distinguishes attributive uses and discusses adjectives restricted to particular functions."
     confidence: medium

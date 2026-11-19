@@ -19,9 +19,9 @@ meanings:
         note: Arithmetic identity statement
 constraints:
   - type: syntactic
-    description: Cardinal noun heads a bare NP; resists determiners (*the seven is prime).
+    description: Cardinal noun heads a bare NP; resists determiners (*<i>the seven is prime</i>).
   - type: syntactic
-    description: Resists attributive modifiers (*prime seven is odd).
+    description: Resists attributive modifiers (*<i>prime seven is odd</i>).
   - type: semantic
     description: Rigidly designates a particular abstract quantity via nominal number assignment.
 semanticRefs:
@@ -49,6 +49,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In Seven is prime, seven is an independent subject naming a number. In seven pages, seven supplies cardinal determination. Plural sevens can instead count instances of a written symbol or value."
+    target: "In <i>Seven is prime</i>, <i>seven</i> is an independent subject naming a number. In <i>seven pages</i>, <i>seven</i> supplies cardinal determination. Plural <i>sevens</i> can instead count instances of a written symbol or value."
     evidence: "Reynolds distinguishes abstract-name, token, and quantificational uses by their distributions."
     confidence: medium

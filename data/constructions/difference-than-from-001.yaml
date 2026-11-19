@@ -1,5 +1,5 @@
 id: difference-than-from-001
-name: Difference Complement after Different
+name: "Difference Complement after <i>different</i>"
 pattern: AdjP[different + from/to/than-standard]
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The choice of marker depends on variety and complement form. Than can introduce a finite comparison in uses where from requires a nominal or other licensed complement.
+    target: The choice of marker depends on variety and complement form. <i>Than</i> can introduce a finite comparison in uses where <i>from</i> requires a nominal or other licensed complement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

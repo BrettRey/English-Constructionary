@@ -7,9 +7,9 @@ curious:
   title: Describing a noun from a distance
   summary: The words that describe a noun can sit later in the sentence instead of right beside it.
   body: |-
-    In Several visitors arrived who hadn't registered, the words who hadn't registered describe the visitors, even though arrived sits between them. The speaker keeps the noun phrase short and puts the describing part later.
+    In <i>Several visitors arrived who hadn't registered</i>, the words <i>who hadn't registered</i> describe the visitors, even though <i>arrived</i> sits between them. The speaker keeps the noun phrase short and puts the describing part later.
 
-    A describing part like this is called a relative clause. In A problem arose that we hadn't anticipated, only that part moves away. The same description could sit right next to its noun without changing who or what it's about.
+    A describing part like this is called a relative clause. In <i>A problem arose that we hadn't anticipated</i>, only that part moves away. The same description could sit right next to its noun without changing who or what it's about.
   examples:
     - text: Several visitors arrived [who hadn't registered].
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: A package came [that I wasn't expecting].
       from: constructed
-  try: Take Several visitors arrived who hadn't registered and put who hadn't registered right after visitors. Who is it still about?
+  try: Take <i>Several visitors arrived who hadn't registered</i> and put <i>who hadn't registered</i> right after <i>visitors</i>. Who is it still about?
 teacher:
-  summary: 'For advanced classes: relatives separated from their noun, as in Several visitors arrived who hadn''t registered.'
-  explain: 'A postposed relative is a relative modifier separated from its antecedent: the NP stays short and the relative comes later in the clause. In Several visitors arrived who hadn''t registered, who is still linked to visitors despite the intervening arrived. A matching relative can occur adjacent to the antecedent without changing that dependency. Only the relative is postposed; in heavy NP shift the whole object NP is placed after another dependent. This dictionary cites CGEL on postposed dependents in NP structure, and is marked provisional.'
+  summary: 'For advanced classes: relatives separated from their noun, as in <i>Several visitors arrived who hadn''t registered</i>.'
+  explain: 'A postposed relative is a relative modifier separated from its antecedent: the NP stays short and the relative comes later in the clause. In <i>Several visitors arrived who hadn''t registered</i>, <i>who</i> is still linked to <i>visitors</i> despite the intervening <i>arrived</i>. A matching relative can occur adjacent to the antecedent without changing that dependency. Only the relative is postposed; in heavy NP shift the whole object NP is placed after another dependent. This dictionary cites CGEL on postposed dependents in NP structure, and is marked provisional.'
   terms: Extraposition from NP is sometimes used as a textbook name for this pattern. Relative modifier is used here for what traditional grammar calls a relative clause.
   examples:
     - text: Several visitors arrived [who hadn't registered].
@@ -35,7 +35,7 @@ teacher:
       from: constructed
       note: The relative sits next to its antecedent; the dependency is the same.
   watch_for:
-    - A learner might attach who hadn't registered to the nearest word, arrived, instead of visitors.
+    - A learner might attach <i>who hadn't registered</i> to the nearest word, <i>arrived</i>, instead of <i>visitors</i>.
     - A learner might confuse this with heavy NP shift, where the whole NP moves rather than only the relative.
   activity: Give students sentences with a postposed relative. They draw an arrow from the relative to the noun it describes, then rewrite each with the relative next to the noun.
 checked:

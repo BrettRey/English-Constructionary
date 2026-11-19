@@ -1,5 +1,5 @@
 id: until-time-boundary-001
-name: Temporal Until with an Endpoint
+name: "Temporal <i>until</i> with an Endpoint"
 pattern: PP[until + date/NP/finite clause]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The opening ends the wait on the ordinary reading. Under negation as in didn’t leave until noon, the earlier interval is associated with absence of the event.
+    target: The opening ends the wait on the ordinary reading. Under negation as in <i>didn’t leave until noon</i>, the earlier interval is associated with absence of the event.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

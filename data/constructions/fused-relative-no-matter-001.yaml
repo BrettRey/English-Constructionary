@@ -1,5 +1,5 @@
 id: fused-relative-no-matter-001
-name: Free-Choice Fused Relative in -ever
+name: "Free-Choice Fused Relative in <i>-ever</i>"
 pattern: NP[relative wh-ever + dependent clause]
 type: mixed
 meanings:

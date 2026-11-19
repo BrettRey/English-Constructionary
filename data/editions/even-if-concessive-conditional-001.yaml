@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Plans that survive bad news
-  summary: Even if names a condition that might seem to threaten a plan and says the plan holds anyway.
+  summary: <i>Even if</i> names a condition that might seem to threaten a plan and says the plan holds anyway.
   body: |-
-    In Even if it rains, we'll go, the speaker says the plan stays fixed under a condition that looks unfavourable. Rain is the awkward case, and the plan is presented as holding even then.
+    In <i>Even if it rains, we'll go</i>, the speaker says the plan stays fixed under a condition that looks unfavourable. Rain is the awkward case, and the plan is presented as holding even then.
 
-    The speaker can say this while not knowing whether it will rain. The sentence doesn't settle the weather. It settles what happens either way. This differs from the ordinary expectation a plain if sentence suggests, and the even is what changes it.
+    The speaker can say this while not knowing whether it will rain. The sentence doesn't settle the weather. It settles what happens either way. This differs from the ordinary expectation a plain <i>if</i> sentence suggests, and the <i>even</i> is what changes it.
   examples:
     - text: '[Even if it rains], we''ll go.'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: constructed
     - text: '[Even if the road is closed], they''ll find a way.'
       from: constructed
-  try: Say Even if it rains, we'll go. Does the speaker need to know whether it will rain?
+  try: Say <i>Even if it rains, we'll go.</i> Does the speaker need to know whether it will rain?
 teacher:
-  summary: Helps explain how even if differs from a plain if in conditional sentences.
-  explain: 'An even-if adjunct (even if plus a finite clause) holds the main clause''s consequence fixed under a condition presented as unfavourable or extreme. It is a specialization of the if-conditional. The sentence can be used while the condition is still uncertain: Even if it rains, we''ll go doesn''t need the rain to be settled. The plan is presented as holding in that case, unlike the ordinary expectation a bare conditional suggests. This dictionary marks the analysis as provisional, with medium confidence, and rests on CGEL''s discussion of concessive conditionals.'
-  terms: Concessive conditional is the name used here for even if clauses.
+  summary: Helps explain how <i>even if</i> differs from a plain <i>if</i> in conditional sentences.
+  explain: 'An even-if adjunct (<i>even if</i> plus a finite clause) holds the main clause''s consequence fixed under a condition presented as unfavourable or extreme. It is a specialization of the <i>if</i>-conditional. The sentence can be used while the condition is still uncertain: <i>Even if it rains, we''ll go</i> doesn''t need the rain to be settled. The plan is presented as holding in that case, unlike the ordinary expectation a bare conditional suggests. This dictionary marks the analysis as provisional, with medium confidence, and rests on CGEL''s discussion of concessive conditionals.'
+  terms: Concessive conditional is the name used here for <i>even if</i> clauses.
   examples:
     - text: '[Even if it rains], we''ll go.'
       from: entry
@@ -35,18 +35,18 @@ teacher:
       from: constructed
       note: A bare conditional, with the ordinary expectation this dictionary mentions.
   watch_for:
-    - A learner might read even if as a plain if with extra emphasis, and miss that the consequence is presented as holding regardless.
-    - A learner might think the speaker of Even if it rains, we'll go knows that it will rain.
-  activity: Give pairs a plan ("We'll start at noon") and a possible obstacle (heavy traffic, a late guest). Each pair writes one sentence with even if and one with a plain if, then explains aloud what changes.
+    - A learner might read <i>even if</i> as a plain <i>if</i> with extra emphasis, and miss that the consequence is presented as holding regardless.
+    - A learner might think the speaker of <i>Even if it rains, we'll go</i> knows that it will rain.
+  activity: Give pairs a plan ("<i>We'll start at noon</i>") and a possible obstacle (heavy traffic, a late guest). Each pair writes one sentence with <i>even if</i> and one with a plain <i>if</i>, then explains aloud what changes.
 child:
-  hook: What does the speaker mean by Even if it rains, we'll go?
-  explain: Even if tells you the plan won't change. Rain might come, and that's the bad news. The people will go anyway.
+  hook: What does the speaker mean by <i>Even if it rains, we'll go</i>?
+  explain: <i>Even if</i> tells you the plan won't change. Rain might come, and that's the bad news. The people will go anyway.
   examples:
     - text: '[Even if it rains], we''ll go.'
       from: entry
     - text: '[Even if you''re late], we''ll wait for you.'
       from: constructed
-  play: Make a plan, like going to the park. Then think of something that could get in the way. Say your plan with Even if at the start.
+  play: Make a plan, like going to the park. Then think of something that could get in the way. Say your plan with <i>Even if</i> at the start.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Each other and one another
-  summary: Each other and one another say that the members of a group do the same thing to one another.
+  title: <i>Each other</i> and <i>one another</i>
+  summary: <i>Each other</i> and <i>one another</i> say that the members of a group do the same thing to one another.
   body: |-
-    In Kim and Pat defended each other, Kim defended Pat and Pat defended Kim. The phrase each other points back to the group, and it works as the object of the verb.
+    In <i>Kim and Pat defended each other</i>, Kim defended Pat and Pat defended Kim. The phrase <i>each other</i> points back to the group, and it works as the object of the verb.
 
-    It also has an owner form, each other's, as in They blamed each other's parents. For bigger groups the meaning can be looser: the relation might hold only between neighbours in a line. The other form is one another.
+    It also has an owner form, <i>each other's</i>, as in <i>They blamed each other's parents</i>. For bigger groups the meaning can be looser: the relation might hold only between neighbours in a line. The other form is <i>one another</i>.
   examples:
     - text: Kim and Pat defended [each other].
       from: entry
     - text: They blamed [each other's] parents.
       from: entry
-  try: Say Kim and Pat defended each other. Who defended whom? Does it change if you use one another?
+  try: Say <i>Kim and Pat defended each other</i>. Who defended whom? Does it change if you use <i>one another</i>?
 teacher:
-  summary: Explains each other and one another as reciprocal anaphors and contrasts them with reflexives.
-  explain: A reciprocal anaphor relates members of an antecedent group to other members of that group. In Kim and Pat defended each other, the ordinary reading is that Kim defended Pat and Pat defended Kim. Each other and one another can occur as genitive determiners, as in each other's parents, whereas reflexives lack corresponding genitives. For larger groups, weaker readings occur, such as relations only between neighbours in a line, so full pairwise reciprocity is too strong in some cases. A reflexive links a pronoun to its own referent, while a reciprocal relates group members. The dictionary marks this account as provisional.
-  terms: Reciprocal pronoun is the usual name for each other and one another. This grammar groups them as a reciprocal anaphor.
+  summary: Explains <i>each other</i> and <i>one another</i> as reciprocal anaphors and contrasts them with reflexives.
+  explain: A reciprocal anaphor relates members of an antecedent group to other members of that group. In <i>Kim and Pat defended each other</i>, the ordinary reading is that Kim defended Pat and Pat defended Kim. <i>Each other</i> and <i>one another</i> can occur as genitive determiners, as in <i>each other's parents</i>, whereas reflexives lack corresponding genitives. For larger groups, weaker readings occur, such as relations only between neighbours in a line, so full pairwise reciprocity is too strong in some cases. A reflexive links a pronoun to its own referent, while a reciprocal relates group members. The dictionary marks this account as provisional.
+  terms: Reciprocal pronoun is the usual name for <i>each other</i> and <i>one another</i>. This grammar groups them as a reciprocal anaphor.
   examples:
     - text: Kim and Pat defended [each other].
       from: entry
@@ -33,18 +33,18 @@ teacher:
       from: constructed
       note: Reflexive; the object is the same person as the subject.
   watch_for:
-    - A learner might use each other when the object is the same person as the subject.
+    - A learner might use <i>each other</i> when the object is the same person as the subject.
     - A learner might think a reciprocal means every member relates to every other member, when larger groups can have weaker readings.
-  activity: Students stand in pairs and say what they did to each other (high-fived, thanked). Then groups of five say what happened and decide whether each person really did it to every other person.
+  activity: Students stand in pairs and say what they did to <i>each other</i> (high-fived, thanked). Then groups of five say what happened and decide whether each person really did it to every other person.
 child:
-  hook: What do two friends do to each other?
-  explain: Each other says that two people do the same thing to one another. If Kim and Pat defended each other, Kim defended Pat and Pat defended Kim.
+  hook: What do two friends do to <i>each other</i>?
+  explain: <i>Each other</i> says that two people do the same thing to one another. If <i>Kim and Pat defended each other</i>, Kim defended Pat and Pat defended Kim.
   examples:
     - text: Kim and Pat defended [each other].
       from: entry
     - text: The two friends hugged [each other].
       from: constructed
-  play: Pick two friends. Say what they did, using each other. Then say the same thing with one another.
+  play: Pick two friends. Say what they did, using <i>each other</i>. Then say the same thing with <i>one another</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

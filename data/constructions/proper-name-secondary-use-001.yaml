@@ -5,19 +5,19 @@ type: mixed
 meanings:
   '1':
     definition: Counts or distinguishes bearers of the same name.
-    details: In two Kims, two individuals satisfy the description ‘has the name Kim’. A modifier can select one Kim from that group. This use can be created even if Kim has never previously been used as an ordinary count noun in that community.
+    details: In <i>two Kims</i>, two individuals satisfy the description ‘has the name Kim’. A modifier can select one Kim from that group. This use can be created even if <i>Kim</i> has never previously been used as an ordinary count noun in that community.
     examples:
       - form: There are [two Kims] on the committee.
         note: Constructed name-bearer example.
   '2':
     definition: Describes a person by resemblance to a salient bearer of the name.
-    details: In another Einstein, the person evaluated need not have the name Einstein. A name can contribute properties of the bearer, selected by the context. With no Einstein the interpretation concerns the absence of those properties.
+    details: In <i>another Einstein</i>, the person evaluated need not have the name <i>Einstein</i>. A name can contribute properties of the bearer, selected by the context. With <i>no Einstein</i> the interpretation concerns the absence of those properties.
     examples:
       - form: They were hoping to recruit [another Einstein].
         note: Constructed resemblance example.
   '3':
     definition: Selects a manifestation, product, or copy associated with the named entity.
-    details: The Paris of her youth identifies a period or version of Paris. A Rembrandt can refer to a painting. Some Beethoven can refer to music. A copy of a publication can be described by the title with a possessive determiner.
+    details: <i>The Paris of her youth</i> identifies a period or version of Paris. <i>A Rembrandt</i> can refer to a painting. <i>Some Beethoven</i> can refer to music. A copy of a publication can be described by the title with a possessive determiner.
     examples:
       - form: They bought [a Rembrandt].
         note: Constructed example with count syntax and an artwork interpretation.

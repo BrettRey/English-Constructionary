@@ -1,11 +1,11 @@
 id: conative-at-001
-name: Conative At
+name: "Conative <i>at</i>"
 pattern: VP[Head:V[action] + Comp:PP[at + NP[target]]]
 type: mixed
 meanings:
   '1':
     definition: Presents an action directed towards a target without committing to the usual result of the transitive use.
-    details: With kick, the direct object normally entails contact. The at-phrase identifies what the action was directed towards and permits either contact or a miss. With eat or nibble, related uses can instead involve small amounts or repetition. The entry concerns the directed-action reading with verbs that support the contrast, leaving ordinary uses such as look at to their own accounts.
+    details: With <i>kick</i>, the direct object normally entails contact. The <i>at</i>-phrase identifies what the action was directed towards and permits either contact or a miss. With <i>eat</i> or <i>nibble</i>, related uses can instead involve small amounts or repetition. The entry concerns the directed-action reading with verbs that support the contrast, leaving ordinary uses such as <i>look at</i> to their own accounts.
     examples:
       - form: The horse [kicked at me].
         note: The action is directed at the speaker, who may have been missed.
@@ -22,11 +22,11 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: The striker [kicked at the ball] and caught it with the outside of her foot.
-        note: Constructed. Success remains compatible with the at-form.
+        note: Constructed. Success remains compatible with the <i>at</i>-form.
 relatedConstructions:
   - id: vp-001
     relationship: specialization-of
-    notes: The target is internal to the VP, as the object of at.
+    notes: The target is internal to the VP, as the object of <i>at</i>.
   - id: goal-complement-001
     relationship: related-to
     notes: The target supplies a direction for the action, without an arrival or contact entailment.
@@ -49,6 +49,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: For contact verbs such as kick, at plus the target permits a continuation with a miss. A transitive object with the same verb normally rules that continuation out.
+    target: For contact verbs such as <i>kick</i>, <i>at</i> plus the target permits a continuation with a miss. A transitive object with the same verb normally rules that continuation out.
     evidence: CGEL’s alternation, Birmingham’s attempted-contact record and Perek’s evidence for different conative verb classes.
     confidence: high

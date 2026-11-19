@@ -24,7 +24,7 @@ meanings:
         note: Non-count vs count construal
   '3':
     definition: Encodes the tight/loose hierarchy of count diagnostics
-    details: Tight diagnostics (a/an, low cardinals, distributives) require higher individuation precision than loose diagnostics (many, high round numerals, plural agreement).
+    details: Tight diagnostics (<i>a</i>/<i>an</i>, low cardinals, distributives) require higher individuation precision than loose diagnostics (<i>many</i>, high round numerals, plural agreement).
     examples:
       - form: many cattle vs *three cattle
         note: Quasi-count pattern
@@ -60,7 +60,7 @@ kind:
     - type: functional-pressure
       evidence: "need to track individuation and plurality in discourse"
   projection:
-    target: "The standard count singular three-hour span contrasts with three hours is enough, where a morphologically plural measure can take singular agreement. This rules out deriving all agreement directly from the number of units in the situation."
+    target: "The standard count singular three-hour span contrasts with <i>three hours is enough</i>, where a morphologically plural measure can take singular agreement. This rules out deriving all agreement directly from the number of units in the situation."
     evidence: "CGEL treats amount agreement as an override alongside the ordinary singular and plural agreement construction."
     confidence: medium
   maintenance:
@@ -75,9 +75,9 @@ kind:
     overlaps_with:
       - n-non-count-001
     known_boundary_items:
-      - "cattle"
-      - "police"
-      - "furniture"
+      - "<i>cattle</i>"
+      - "<i>police</i>"
+      - "<i>furniture</i>"
   grain:
     level: meso
     parent_families:

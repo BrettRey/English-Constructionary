@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Dates written month first
-  summary: A month name followed by a number picks out a day, as in June 14 or November 18.
+  summary: A month name followed by a number picks out a day, as in <i>June 14</i> or <i>November 18</i>.
   body: |-
-    In June 14th, the number after the month tells you which day of that month is meant. It can be written as a digit, June 14, or as an ordinal, June fourteenth. The date needs no the or of inside it.
+    In <i>June 14th</i>, the number after the month tells you which day of that month is meant. It can be written as a digit, <i>June 14</i>, or as an ordinal, <i>June fourteenth</i>. The date needs no <i>the</i> or <i>of</i> inside it.
 
-    The same date can also be said in another order, with extra words: the fourteenth of June. That pattern uses different order and marking. This dictionary describes only the month-first pattern here and leaves other date formats to separate accounts.
+    The same date can also be said in another order, with extra words: <i>the fourteenth of June</i>. That pattern uses different order and marking. This dictionary describes only the month-first pattern here and leaves other date formats to separate accounts.
   examples:
     - text: '[June 14th]'
       from: entry
@@ -20,8 +20,8 @@ curious:
   try: Write today's date in the month-first way. Then say it again the other way, starting with the number.
 teacher:
   summary: Helps with month-first dates and how the day number relates to the month name.
-  explain: A month name followed by a day number identifies a day by its ordinal position within that month. The number can be written as a digit or an ordinal (June 14, June 14th, June fourteenth). No article or preposition appears inside the date. The fourteenth of June identifies the same date with a different order and marking, so teach it as a separate pattern. This dictionary's high-confidence account covers the month-first pattern only. The number works as an index in a conventional system, like the numeral in a numerical label.
-  terms: Ordinal number is the traditional term for fourteenth. Month-first is this dictionary's label for the order.
+  explain: A month name followed by a day number identifies a day by its ordinal position within that month. The number can be written as a digit or an ordinal (<i>June 14</i>, <i>June 14th</i>, <i>June fourteenth</i>). No article or preposition appears inside the date. <i>The fourteenth of June</i> identifies the same date with a different order and marking, so teach it as a separate pattern. This dictionary's high-confidence account covers the month-first pattern only. The number works as an index in a conventional system, like the numeral in a numerical label.
+  terms: Ordinal number is the traditional term for <i>fourteenth</i>. Month-first is this dictionary's label for the order.
   examples:
     - text: '[June 14th]'
       from: entry
@@ -35,19 +35,19 @@ teacher:
       from: constructed
       note: The same date with a different order and marking.
   watch_for:
-    - A learner might read the 14 in June 14 as counting something rather than naming a day.
-    - A learner might add the or of inside a month-first date.
-    - A learner might think June 14 and the fourteenth of June name different days.
+    - A learner might read the <i>14</i> in <i>June 14</i> as counting something rather than naming a day.
+    - A learner might add <i>the</i> or <i>of</i> inside a month-first date.
+    - A learner might think <i>June 14</i> and <i>the fourteenth of June</i> name different days.
   activity: Students write their birthdays in the month-first way, then say them aloud with ordinal numbers. Next they say each birthday in the other order and compare what words changed.
 child:
   hook: Can you say your birthday starting with the month?
-  explain: A month name followed by a number can name a day. June 14th is the fourteenth day of June. You can also say the fourteenth of June.
+  explain: A month name followed by a number can name a day. <i>June 14th</i> is the fourteenth day of June. You can also say <i>the fourteenth of June</i>.
   examples:
     - text: My birthday is [March 3].
       from: constructed
     - text: '[June 14th]'
       from: entry
-  play: Write your birthday starting with the month. Then say it out loud using the number word, like fourteenth. Try a friend's birthday too.
+  play: Write your birthday starting with the month. Then say it out loud using the number word, like <i>fourteenth</i>. Try a friend's birthday too.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

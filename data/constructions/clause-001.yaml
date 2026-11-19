@@ -13,11 +13,11 @@ meanings:
     details: "Clause is defined here without exception as a headed Phrase. Its immediate Head is VP and its ultimate Head is V. An overt Subject, when present, is a Clause-level dependent rather than part of the VP. Subjectless imperative and non-finite Clauses therefore satisfy the same pattern as subject-bearing Clauses. Markers, prenuclear elements, and other Clause-level dependents do not alter the Head relation. A constituent without a VP in Head function is not a Clause in this Constructionary; non-headed structures with clause-like interpretations are assigned to clause-analogue-001."
     examples:
       - form: "[Kim left early]."
-        note: "Subject Kim plus Head VP left early"
+        note: "Subject <i>Kim</i> plus Head VP <i>left early</i>"
       - form: "[Leave early!]"
         note: "Subjectless imperative Clause consisting overtly of its Head VP"
       - form: "[Leaving early annoyed Pat]."
-        note: "The matrix Clause has Subject Clause leaving early and Head VP annoyed Pat"
+        note: "The matrix Clause has Subject Clause <i>leaving early</i> and Head VP <i>annoyed Pat</i>"
 constraints:
   - type: head
     description: "A Clause must have a VP in Head function; a constituent without a VP Head is not a Clause."

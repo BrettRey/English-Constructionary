@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Being a philosopher in every way
-  summary: Every inch a philosopher says that someone fully fits a role or type, in the respects that matter for it.
+  summary: <i>Every inch a philosopher</i> says that someone fully fits a role or type, in the respects that matter for it.
   body: |-
-    In She is every inch a philosopher, the words every inch add emphasis. They suggest nothing is missing from the description: she is a philosopher completely.
+    In <i>She is every inch a philosopher</i>, the words <i>every inch</i> add emphasis. They suggest nothing is missing from the description: she is a philosopher completely.
 
-    The respects that count come from the description itself. Here the word philosopher tells us what to look at, so the phrase is about her qualities as a philosopher, not about her height. The phrase is an idiom, and in this example it describes the person after a form of be.
+    The respects that count come from the description itself. Here the word <i>philosopher</i> tells us what to look at, so the phrase is about her qualities as a philosopher, not about her height. The phrase is an idiom, and in this example it describes the person after a form of be.
   examples:
     - text: She is [every inch a philosopher].
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: constructed
     - text: She is [every inch a leader].
       from: constructed
-  try: Swap philosopher for another role, such as leader. Which qualities does every inch now cover?
+  try: Swap <i>philosopher</i> for another role, such as <i>leader</i>. Which qualities does <i>every inch</i> now cover?
 teacher:
-  summary: Helps with the idiom every inch a ..., which emphasizes that someone fully fits a role or type.
-  explain: 'Every inch plus a or an plus a nominal works as a predicative complement and marks completeness in the characterization: the subject exemplifies the role or type in the relevant respects. The respects come from the noun (philosopher), not from any measurement. CGEL identifies this use as idiomatic and contrasts the predicative use with an unacceptable use as a by-agent. This dictionary’s relation to every bit as good remains open, and this dictionary marks the analysis as provisional.'
+  summary: "Low priority for most classes: <i>inch</i> is relatively infrequent (about 4,200th among word forms in the SUBTLEX-UK subtitle counts), so treat this idiom if it comes up rather than teaching it. Helps with the idiom <i>every inch a ...</i>, which emphasizes that someone fully fits a role or type."
+  explain: '<i>Every inch</i> plus <i>a</i> or <i>an</i> plus a nominal works as a predicative complement and marks completeness in the characterization: the subject exemplifies the role or type in the relevant respects. The respects come from the noun (<i>philosopher</i>), not from any measurement. CGEL identifies this use as idiomatic and contrasts the predicative use with an unacceptable use as a by-agent. This dictionary’s relation to <i>every bit as good</i> remains open, and this dictionary marks the analysis as provisional.'
   terms: Predicative complement is this grammar's term. Textbooks sometimes call it a subject complement or predicate nominative.
   examples:
     - text: She is [every inch a philosopher].
@@ -35,10 +35,11 @@ teacher:
       from: constructed
       note: Same description without the emphasis on completeness.
   watch_for:
-    - A learner might read inch literally, as a measure of height or size.
-    - A learner might not see that the noun after a decides which respects every inch covers.
-  activity: Give students role nouns (teacher, host, rebel, athlete). They write a sentence about someone they know using every inch a plus the noun, then say which qualities they meant.
+    - A learner might read <i>inch</i> literally, as a measure of height or size.
+    - A learner might not see that the noun after <i>a</i> decides which respects <i>every inch</i> covers.
+  activity: If the idiom comes up in a reading, write <i>She is every inch a philosopher</i> and <i>She is a philosopher</i> on the board. Students say what the first sentence adds and which qualities of a philosopher it covers.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: teacher.summary now opens by marking the idiom low priority (inch about 4,200th in SUBTLEX-UK); activity no longer has students write every inch a sentences and is now a recognition task on the entry example and its constructed contrast."

@@ -1,5 +1,5 @@
 id: still-yet-aspectual-001
-name: Aspectual Still and Negative Yet
+name: "Aspectual <i>still</i> and Negative <i>yet</i>"
 pattern: clause with still or polarity-sensitive yet and a temporal reference point
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Not yet says that stopping has failed to occur up to the reference point and can suggest it remains expected. Still can instead present the existing state as persisting.
+    target: "<i>Not yet</i> says that stopping has failed to occur up to the reference point and can suggest it remains expected. <i>Still</i> can instead present the existing state as persisting."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

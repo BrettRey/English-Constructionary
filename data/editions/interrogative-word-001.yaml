@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Question words
-  summary: Who, what, where, when, why, how and their relatives mark a question by asking for the missing piece of information.
+  summary: "<i>Who</i>, <i>what</i>, <i>where</i>, <i>when</i>, <i>why</i>, <i>how</i> and their relatives mark a question by asking for the missing piece of information."
   body: |-
-    A question word asks for the value of something left open. Whose book asks about the owner, and Who came asks about a person. Each word limits what kind of answer fits: a person, a place, a time.
+    A question word asks for the value of something left open. <i>Whose book</i> asks about the owner, and <i>Who came</i> asks about a person. Each word limits what kind of answer fits: a person, a place, a time.
 
-    Question words normally come first in the question, as in Whose coat did Jo borrow? When the question word is the subject, as in Who left?, it stays in its usual place and the verb needn't move. A question inside a longer sentence, such as I wonder where she went, keeps ordinary word order.
+    Question words normally come first in the question, as in <i>Whose coat did Jo borrow?</i> When the question word is the subject, as in <i>Who left?</i>, it stays in its usual place and the verb needn't move. A question inside a longer sentence, such as <i>I wonder where she went</i>, keeps ordinary word order.
   examples:
     - text: '[whose] book'
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: I wonder [where] she went.
       from: entry
-  try: Turn Jo borrowed the red coat into a question about the colour, then into a question about whose coat it was. Where did your question word end up?
+  try: Turn <i>Jo borrowed the red coat</i> into a question about the colour, then into a question about whose coat it was. Where did your question word end up?
 teacher:
   summary: Covers wh-words used to ask questions, including where they go and whether the verb moves.
-  explain: In this packaging, a member of the indeterminate series asks for the value of its open variable, constraining its sort. The interrogative property passes from the word to its phrase and clause. Non-subject phrases are normally fronted and trigger subject-auxiliary inversion in main clauses. Subjects are not fronted, so Who left? has no inversion, and subordinate interrogatives normally keep subject-verb order, as in I wonder where she went. In Whose coat did Jo borrow?, the whole phrase whose coat fronts while whose supplies the open variable for the possessor. Echo questions may leave the phrase in its original position. This dictionary marks the analysis as provisional.
+  explain: In this packaging, a member of the indeterminate series asks for the value of its open variable, constraining its sort. The interrogative property passes from the word to its phrase and clause. Non-subject phrases are normally fronted and trigger subject-auxiliary inversion in main clauses. Subjects are not fronted, so <i>Who left?</i> has no inversion, and subordinate interrogatives normally keep subject-verb order, as in <i>I wonder where she went</i>. In <i>Whose coat did Jo borrow?</i>, the whole phrase <i>whose coat</i> fronts while <i>whose</i> supplies the open variable for the possessor. Echo questions may leave the phrase in its original position. This dictionary marks the analysis as provisional.
   terms: Traditionally called wh-words or interrogative pronouns, adverbs and determiners. This dictionary groups them as interrogative uses of the indeterminate series.
   examples:
     - text: '[whose] book'
@@ -39,12 +39,12 @@ teacher:
       from: constructed
       note: Interrogative subject; no inversion.
   watch_for:
-    - A learner might invert the subject and verb in Who left?
-    - A learner might invert in the subordinate question I wonder where she went.
+    - A learner might invert the subject and verb in <i>Who left?</i>
+    - A learner might invert in the subordinate question <i>I wonder where she went</i>.
   activity: Students turn statements into questions about each part, then sort them by whether the question word is the subject, and note when the verb order changes.
 child:
   hook: What do question words ask for?
-  explain: Question words ask for the missing piece. Who asks about a person. Where asks about a place. The question word normally comes first.
+  explain: Question words ask for the missing piece. <i>Who</i> asks about a person. <i>Where</i> asks about a place. The question word normally comes first.
   examples:
     - text: '[Who] came?'
       from: entry
@@ -52,7 +52,7 @@ child:
       from: entry
     - text: '[Whose] coat did Jo borrow?'
       from: entry
-  play: Pick a sentence like "Jo borrowed a coat." Ask a question about each part of it, using who, what or whose. What would each answer be?
+  play: Pick a sentence like "<i>Jo borrowed a coat.</i>" Ask a question about each part of it, using <i>who</i>, <i>what</i> or <i>whose</i>. What would each answer be?
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

@@ -1,5 +1,5 @@
 id: although-concessive-001
-name: Concessive Although Adjunct
+name: "Concessive <i>although</i> Adjunct"
 pattern: PP[although + finite or licensed reduced predication]
 type: mixed
 meanings:

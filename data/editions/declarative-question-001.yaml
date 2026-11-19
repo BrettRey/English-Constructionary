@@ -7,9 +7,9 @@ curious:
   title: Asking by tone of voice
   summary: A statement-shaped sentence said with a questioning tone can ask for confirmation of something the speaker already expects.
   body: |-
-    They've finished? has the word order of a statement. In speech, the questioning tone turns it into a question. The speaker expects the answer yes, and a reply like That's right fits naturally.
+    <i>They've finished?</i> has the word order of a statement. In speech, the questioning tone turns it into a question. The speaker expects the answer yes, and a reply like <i>That's right</i> fits naturally.
 
-    The expectation matches the sentence. A positive one, They've finished?, expects a positive answer, and a negative one, They haven't finished?, expects a negative answer. This isn't the neutral question of Have they finished?, which leaves the answer more open. In writing, the question mark does the work of the tone.
+    The expectation matches the sentence. A positive one, <i>They've finished?</i>, expects a positive answer, and a negative one, <i>They haven't finished?</i>, expects a negative answer. This isn't the neutral question of <i>Have they finished?</i>, which leaves the answer more open. In writing, the question mark does the work of the tone.
   examples:
     - text: '[They''ve finished?]'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[There isn''t any chance of her changing her mind, I take it?]'
       from: entry
-  try: Say You're coming tonight? as a question. What answer do you expect? Now say Are you coming tonight? Does the expectation change?
+  try: Say <i>You're coming tonight?</i> as a question. What answer do you expect? Now say <i>Are you coming tonight?</i> Does the expectation change?
 teacher:
-  summary: Helps explain statement-order questions that expect confirmation, as in They've finished?
-  explain: 'A declarative question keeps declarative syntax, with no subject-auxiliary inversion, and gets its question interpretation from question intonation, or question punctuation in writing. It''s a closed question strongly biased toward the answer with the same propositional content and polarity as the declarative: positive toward positive, negative toward negative. Confirmatory responses such as That''s right, Exactly and Quite so are especially natural. The host clause stays declarative, and question is a semantic category applied to the whole form. It is not an echo question, since it needn''t repeat or query the wording of a prior utterance. The analysis is provisional.'
-  terms: Traditional grammars may call these statement questions or rising-intonation questions. Closed interrogative is the inverted form (Have they finished?), which can be neutral.
+  summary: Helps explain statement-order questions that expect confirmation, as in <i>They've finished?</i>
+  explain: 'A declarative question keeps declarative syntax, with no subject-auxiliary inversion, and gets its question interpretation from question intonation, or question punctuation in writing. It''s a closed question strongly biased toward the answer with the same propositional content and polarity as the declarative: positive toward positive, negative toward negative. Confirmatory responses such as <i>That''s right</i>, <i>Exactly</i> and <i>Quite so</i> are especially natural. The host clause stays declarative, and question is a semantic category applied to the whole form. It is not an echo question, since it needn''t repeat or query the wording of a prior utterance. The analysis is provisional.'
+  terms: Traditional grammars may call these statement questions or rising-intonation questions. Closed interrogative is the inverted form (<i>Have they finished?</i>), which can be neutral.
   examples:
     - text: '[They''ve finished?]'
       from: entry
@@ -41,19 +41,19 @@ teacher:
       from: constructed
       note: Closed interrogative with inversion; can be neutral.
   watch_for:
-    - A learner might treat They've finished? as a neutral question, when it is biased toward a positive answer.
-    - A learner might take They haven't finished? to expect yes, when it expects the negative answer, that they haven't.
+    - A learner might treat <i>They've finished?</i> as a neutral question, when it is biased toward a positive answer.
+    - A learner might take <i>They haven't finished?</i> to expect yes, when it expects the negative answer, that they haven't.
     - A learner might think a declarative question must echo something just said, when no prior utterance is required.
   activity: Students role-play checking a fact they half-know (a friend's plans, a test date). They ask once with an inverted question and once with a declarative question, then say how much each one assumes the answer.
 child:
   hook: How can you ask a question without changing any words?
-  explain: You can say a sentence in a questioning voice. They've finished? You think they have, and you want to check. The other person can answer, "That's right."
+  explain: You can say a sentence in a questioning voice. <i>They've finished?</i> You think they have, and you want to check. The other person can answer, "<i>That's right.</i>"
   examples:
     - text: '[They''ve finished?]'
       from: entry
     - text: '[They haven''t finished?]'
       from: entry
-  play: Say "You're hungry" two ways, as a plain statement and then as a question. Ask a friend to listen. Can they hear which one you want an answer to?
+  play: Say "<i>You're hungry</i>" two ways, as a plain statement and then as a question. Ask a friend to listen. Can they hear which one you want an answer to?
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

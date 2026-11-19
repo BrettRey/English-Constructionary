@@ -5,37 +5,37 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Having someone do something
-  summary: In a sentence like I'll have Jo check the figures, the speaker arranges for someone else to do the checking.
+  summary: In a sentence like <i>I'll have Jo check the figures</i>, the speaker arranges for someone else to do the checking.
   body: |-
-    In I'll have Jo check the figures, the subject arranges, instructs or brings about an event. Jo is the one who does the checking, and the verb after Jo is in its plain form, check, with no to.
+    In <i>I'll have Jo check the figures</i>, the subject arranges, instructs or brings about an event. Jo is the one who does the checking, and the verb after Jo is in its plain form, <i>check</i>, with no <i>to</i>.
 
-    In Had Kai replace the roof, Kai is likewise the understood replacer. A nearby pattern looks similar but works differently. In Had the roof replaced, the roof is what is affected, and the sentence can describe an arrangement. Had his phone stolen can describe an unwanted experience instead.
+    In <i>Had Kai replace the roof</i>, Kai is likewise the understood replacer. A nearby pattern looks similar but works differently. In <i>Had the roof replaced</i>, the roof is what is affected, and the sentence can describe an arrangement. <i>Had his phone stolen</i> can describe an unwanted experience instead.
   examples:
     - text: I'll [have Jo check the figures].
       from: entry
-  try: Say I'll have Jo check the figures. Who does the checking, you or Jo?
+  try: Say <i>I'll have Jo check the figures</i>. Who does the checking, you or Jo?
 teacher:
-  summary: Helps separate causative have from perfect have and from the affected-object pattern (had the roof replaced).
-  explain: 'In causative have, the subject presents an event as arranged, instructed or brought about, and the noun phrase after have (Jo) is the one who carries it out, followed by a bare infinitival (the infinitive without to). I''ll have Jo check the figures: Jo undertakes the checking. Compare perfect have (Jo has checked the figures), where have is an auxiliary, and affected have (have the figures checked), where the object is what is affected and no one is named as the doer.'
-  terms: 'Bare infinitival: an infinitival with no to; in this pattern it is check the figures. Perfect have is the auxiliary in has checked. Affected have is the pattern in had the roof replaced.'
+  summary: Helps separate causative <i>have</i> from perfect <i>have</i> and from the affected-object pattern (<i>had the roof replaced</i>).
+  explain: 'In causative <i>have</i>, the subject presents an event as arranged, instructed or brought about, and the noun phrase after <i>have</i> (<i>Jo</i>) is the one who carries it out, followed by a bare infinitival (the infinitive without <i>to</i>). <i>I''ll have Jo check the figures</i>: Jo undertakes the checking. Compare perfect <i>have</i> (<i>Jo has checked the figures</i>), where <i>have</i> is an auxiliary, and affected <i>have</i> (<i>have the figures checked</i>), where the object is what is affected and no one is named as the doer.'
+  terms: 'Bare infinitival: an infinitival with no <i>to</i>; in this pattern it is <i>check the figures</i>. Perfect <i>have</i> is the auxiliary in <i>has checked</i>. Affected <i>have</i> is the pattern in <i>had the roof replaced</i>.'
   examples:
     - text: I'll [have Jo check the figures].
       from: entry
   contrasts:
     - text: I'll have Jo check the figures.
       from: entry
-      note: Causative have. Jo is the one who checks.
+      note: Causative <i>have</i>. Jo is the one who checks.
     - text: Jo has checked the figures.
       from: constructed
-      note: Perfect have. Has is an auxiliary.
+      note: Perfect <i>have</i>. <i>Has</i> is an auxiliary.
     - text: I'll have the figures checked.
       from: constructed
-      note: Affected have. The figures are what is affected.
+      note: Affected <i>have</i>. The figures are what is affected.
   watch_for:
-    - A learner might read have in have Jo check as perfect have.
+    - A learner might read <i>have</i> in <i>have Jo check</i> as perfect <i>have</i>.
     - A learner might take Jo to be the thing affected, when Jo is the understood checker.
-    - A learner might expect to before check, though the pattern has a bare infinitival.
-  activity: Write sentences on strips using have Jo check, have the figures checked and has checked. Students sort them by whether someone is arranged to act, something is affected, or it is the perfect have in has checked.
+    - A learner might expect <i>to</i> before <i>check</i>, though the pattern has a bare infinitival.
+  activity: Write sentences on strips using <i>have Jo check</i>, <i>have the figures checked</i> and <i>has checked</i>. Students sort them by whether someone is arranged to act, something is affected, or it is the perfect <i>have</i> in <i>has checked</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

@@ -7,9 +7,9 @@ curious:
   title: A relative clause that reaches into a later clause
   summary: A phrase that describes a noun can link back to the noun from inside a later clause.
   body: |-
-    In We need the tool which Lee said Jo had borrowed, the part starting with which tells us which tool is wanted. The tool is what Jo borrowed, not what Lee said, so the link reaches past say into the clause that follows.
+    In <i>We need the tool which Lee said Jo had borrowed</i>, the part starting with <i>which</i> tells us which tool is wanted. The tool is what Jo borrowed, not what Lee said, so the link reaches past <i>say</i> into the clause that follows.
 
-    Compare the shorter We need the tool which Jo borrowed. The same link is there, with no extra clause in between.
+    Compare the shorter <i>We need the tool which Jo borrowed</i>. The same link is there, with no extra clause in between.
 
     A related question pattern and this relative pattern differ in their discourse functions, and how well each works depends on the construction in between.
   examples:
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: We need the tool [which Jo borrowed].
       from: entry
-  try: Say We need the tool which Lee said Jo had borrowed. Which verb does the tool belong to?
+  try: Say <i>We need the tool which Lee said Jo had borrowed</i>. Which verb does the tool belong to?
 teacher:
   summary: 'For advanced classes: how a relative clause links a noun to a position inside a lower clause.'
-  explain: In a long-distance integrated relative, the relative contains an antecedent-linked gap inside an embedded clause. In We need the tool which Lee said Jo had borrowed, the tool fills the object role of borrowed. The local counterpart, We need the tool which Jo borrowed, has no intervening clause. The relative and a corresponding question differ in their discourse functions, and acceptability of both depends on the intervening construction. This dictionary marks the analysis as provisional, so avoid stating a simple rule for which embeddings are allowed. See also the related entry on long-distance open interrogatives.
+  explain: In a long-distance integrated relative, the relative contains an antecedent-linked gap inside an embedded clause. In <i>We need the tool which Lee said Jo had borrowed</i>, the tool fills the object role of <i>borrowed</i>. The local counterpart, <i>We need the tool which Jo borrowed</i>, has no intervening clause. The relative and a corresponding question differ in their discourse functions, and acceptability of both depends on the intervening construction. This dictionary marks the analysis as provisional, so avoid stating a simple rule for which embeddings are allowed. See also the related entry on long-distance open interrogatives.
   terms: Integrated relative is CGEL's term. A restrictive relative clause is another name for it. The link across clauses is a long-distance dependency.
   examples:
     - text: We need the tool [which Lee said Jo had borrowed].
@@ -28,14 +28,14 @@ teacher:
   contrasts:
     - text: We need the tool which Lee said Jo had borrowed.
       from: entry
-      note: Long-distance. The tool is the object of borrowed.
+      note: Long-distance. The tool is the object of <i>borrowed</i>.
     - text: We need the tool which Jo borrowed.
       from: entry
       note: Local counterpart with no intervening clause.
   watch_for:
-    - A learner might link which to said, when the tool is the object of borrowed.
+    - A learner might link <i>which</i> to <i>said</i>, when the tool is the object of <i>borrowed</i>.
     - A learner might expect every embedding to allow the pattern, when acceptability depends on the intervening construction.
-  activity: Students combine pairs such as We need a tool and Jo borrowed it, first locally, then with Lee said inserted. They name which verb the tool belongs to each time.
+  activity: Students combine pairs such as <i>We need a tool</i> and <i>Jo borrowed it</i>, first locally, then with <i>Lee said</i> inserted. They name which verb the tool belongs to each time.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

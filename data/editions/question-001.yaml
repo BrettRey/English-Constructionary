@@ -7,7 +7,7 @@ curious:
   title: What makes something a question
   summary: A question is defined by the set of possible answers it opens, not by its word order or question mark.
   body: |-
-    Have you seen it? leaves two possible answers, yes or no. Who broke it? leaves open who did it. Which one? is a short phrase that does the same job, and You're leaving? shows that a statement can also act as a question.
+    <i>Have you seen it?</i> leaves two possible answers, <i>yes</i> or <i>no</i>. <i>Who broke it?</i> leaves open who did it. <i>Which one?</i> is a short phrase that does the same job, and <i>You're leaving?</i> shows that a statement can also act as a question.
 
     So what makes something a question is the set of answers it defines, not one particular grammar. This dictionary says a question isn't the same as an act of inquiry either: questions can also acknowledge, wonder, examine or explain. This dictionary marks the account as provisional.
   examples:
@@ -22,7 +22,7 @@ curious:
   try: Find a sentence that doesn't look like a question but would still get an answer if you said it to someone. What answer would it get?
 teacher:
   summary: Frames question as a meaning category (a set of possible answers) that different sentence types can carry.
-  explain: 'Question is a semantic category: an expression defines a set of logically possible answers. It is not a clause type and is not the same as the act of inquiry. A closed question presents a delimited answer set (Have you seen it?), an open question contains a variable (Who broke it?), a declarative clause can carry question meaning (You''re leaving?) and a reduced expression can too (Which one?, which isn''t thereby a Clause). An answer supplies the missing information; a conversational response needn''t. This dictionary says punctuation and word order don''t fix membership, and it marks the account provisional.'
+  explain: 'Question is a semantic category: an expression defines a set of logically possible answers. It is not a clause type and is not the same as the act of inquiry. A closed question presents a delimited answer set (<i>Have you seen it?</i>), an open question contains a variable (<i>Who broke it?</i>), a declarative clause can carry question meaning (<i>You''re leaving?</i>) and a reduced expression can too (<i>Which one?</i>, which isn''t thereby a Clause). An answer supplies the missing information; a conversational response needn''t. This dictionary says punctuation and word order don''t fix membership, and it marks the account provisional.'
   terms: This dictionary separates the clause types (closed and open interrogative) from the semantic category Question.
   examples:
     - text: '[Have you seen it?]'
@@ -40,7 +40,7 @@ teacher:
   activity: Give students four cards, each carrying a different question form. They list the possible answers each defines and sort replies into answers and merely appropriate responses.
 child:
   hook: How do you know something is a question?
-  explain: A question comes with a set of possible answers. Have you seen it? can be answered with yes or no. Who broke it? can be answered by saying who.
+  explain: A question comes with a set of possible answers. <i>Have you seen it?</i> can be answered with <i>yes</i> or <i>no</i>. <i>Who broke it?</i> can be answered by saying who.
   examples:
     - text: '[Have you seen it?]'
       from: entry
@@ -48,7 +48,7 @@ child:
       from: entry
     - text: '[Which one?]'
       from: entry
-  play: Ask a friend a question that needs a yes or no. Then ask one that starts with who. Which kind was easier to answer?
+  play: Ask a friend a question that needs a yes or no. Then ask one that starts with <i>who</i>. Which kind was easier to answer?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: heavy-np-shift-001
     relationship: related-to
-    notes: In A problem arose that we hadn’t anticipated, only the relative is postposed. Heavy NP shift places the whole object NP after another dependent.
+    notes: In <i>A problem arose that we hadn’t anticipated</i>, only the relative is postposed. Heavy NP shift places the whole object NP after another dependent.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §4, postposed dependents in NP structure; Ch. 12 §3
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Who is linked to visitors despite intervening arrived. A matching relative can occur adjacent to the antecedent without changing that dependency.
+    target: "<i>Who</i> is linked to <i>visitors</i> despite intervening <i>arrived</i>. A matching relative can occur adjacent to the antecedent without changing that dependency."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

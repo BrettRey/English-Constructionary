@@ -4,9 +4,9 @@ pattern: "Det[decade] + Det[single-digit] (typically hyphenated)"
 type: morphological
 dimensions:
   form: "Decade + single-digit compound; hyphenated; lexically atomic"
-  meaning: "Specifies cardinality from twenty-one to ninety-nine"
+  meaning: "Specifies cardinality from <i>twenty-one</i> to <i>ninety-nine</i>"
   function: "Same distribution as simple basic numeratives"
-  distribution: "Determiner, factor, addition; resists internal coordination (*twenty and one)"
+  distribution: "Determiner, factor, addition; resists internal coordination (*<i>twenty and one</i>)"
 meanings:
   '1':
     definition: Specifies a cardinality formed by additive composition of tens and ones
@@ -19,7 +19,7 @@ meanings:
         note: 90 + 9
 constraints:
   - type: structural
-    description: Requires a decade base with a single-digit addition; excludes *twenty-ten.
+    description: Requires a decade base with a single-digit addition; excludes *<i>twenty-ten</i>.
 formRefs:
   - numerative-compound-basic
   - numerative-decade
@@ -49,6 +49,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Forty-three expresses one lexicalized sum and supplies a base for forty-third. A coordinator inside forty and three produces a separate structure and is not the ordinary lexical compound."
+    target: "<i>Forty-three</i> expresses one lexicalized sum and supplies a base for <i>forty-third</i>. A coordinator inside <i>forty and three</i> produces a separate structure and is not the ordinary lexical compound."
     evidence: "Reynolds argues from word formation and prosody for lexical compounding below the magnitude boundary."
     confidence: medium

@@ -9,7 +9,7 @@ meanings:
       - form: Nora could repair it, and [Kai could too].
         note: Constructed illustration.
       - form: Nora repaired it, but [Kai didn’t].
-        note: Constructed comparison. The antecedent is positive and has a lexical preterite. The ellipsis host supplies negative do.
+        note: Constructed comparison. The antecedent is positive and has a lexical preterite. The ellipsis host supplies negative <i>do</i>.
 relatedConstructions:
   - id: clause-001
     relationship: specialization-of
@@ -20,10 +20,10 @@ relatedConstructions:
   - id: infinitival-to-stranding-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: In Jo has, too, an auxiliary remains before an unexpressed VP. In Jo tried to, the infinitival marker remains before an unexpressed predicate.
+    notes: In <i>Jo has, too</i>, an auxiliary remains before an unexpressed VP. In <i>Jo tried to</i>, the infinitival marker remains before an unexpressed predicate.
   - id: interrogative-sluicing-001
     relationship: related-to
-    notes: I don’t know who retains a wh-remnant and leaves the rest of the question unexpressed. Jo can retains the auxiliary before an unexpressed VP.
+    notes: <i>I don’t know who</i> retains a wh-remnant and leaves the rest of the question unexpressed. <i>Jo can</i> retains the auxiliary before an unexpressed VP.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §2.1.4; Ch. 17 §7.1
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The stranded auxiliary can differ in tense or polarity from the antecedent, as in Nora repaired it, but Kai didn't. A lexical verb does not freely strand in the same pattern.
+    target: The stranded auxiliary can differ in tense or polarity from the antecedent, as in <i>Nora repaired it, but Kai didn't</i>. A lexical verb does not freely strand in the same pattern.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

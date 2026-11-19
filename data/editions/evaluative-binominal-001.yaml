@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: A noun of a noun, used to judge
-  summary: In a phrase like a nitwit of a husband, the first noun is a judgment about the person or thing named by the second.
+  summary: In a phrase like <i>a nitwit of a husband</i>, the first noun is a judgment about the person or thing named by the second.
   body: |-
-    In her stupid nitwit of a husband, the husband is the target of the evaluation. The first noun, nitwit, is said of the husband. This is different from a statue of bronze or a cup of water, where of expresses a material or a measure.
+    In <i>her stupid nitwit of a husband</i>, the husband is the target of the evaluation. The first noun, <i>nitwit</i>, is said of the husband. This is different from <i>a statue of bronze</i> or <i>a cup of water</i>, where <i>of</i> expresses a material or a measure.
 
-    The first part can be bigger than one word. In that destroyer of education of a minister, the education is what the minister destroys, and destroyer of education is the judgment passed on the minister.
+    The first part can be bigger than one word. In <i>that destroyer of education of a minister</i>, the education is what the minister destroys, and <i>destroyer of education</i> is the judgment passed on the minister.
   examples:
     - text: '[her stupid nitwit of a husband]'
       from: entry
@@ -19,8 +19,8 @@ curious:
       from: entry
   try: Think of a judgment you could pass on a person with a noun, then fit it into a phrase of that shape.
 teacher:
-  summary: Helps explain evaluative noun of noun phrases, and how they differ from material and measure of-phrases.
-  explain: 'In an evaluative binominal, the first nominal is predicated of the referent of the second: a nitwit of a husband evaluates the husband as a nitwit. Material and measure expressions such as a statue of bronze and a cup of water supply different relations. This dictionary notes that the usual singular oblique takes a(n) and that Kim and Sells document bare plural obliques (wobbly jellies of men). The evaluation can apply to a complex first nominal, as in destroyer of education of a minister, where education is what the minister destroys; that grouping leaves the attachment of the outer PP open.'
+  summary: Helps explain evaluative noun of noun phrases, and how they differ from material and measure <i>of</i>-phrases.
+  explain: 'In an evaluative binominal, the first nominal is predicated of the referent of the second: <i>a nitwit of a husband</i> evaluates the husband as a nitwit. Material and measure expressions such as <i>a statue of bronze</i> and <i>a cup of water</i> supply different relations. This dictionary notes that the usual singular oblique takes <i>a(n)</i> and that Kim and Sells document bare plural obliques (<i>wobbly jellies of men</i>). The evaluation can apply to a complex first nominal, as in <i>destroyer of education of a minister</i>, where education is what the minister destroys; that grouping leaves the attachment of the outer PP open.'
   terms: This dictionary calls the judging use an evaluative binominal.
   examples:
     - text: '[her stupid nitwit of a husband]'
@@ -30,20 +30,21 @@ teacher:
     - text: '[that destroyer of education of a minister]'
       from: entry
   contrasts:
-    - text: a nitwit of a husband
+    - text: a giant of a man
       from: constructed
-      note: The first noun evaluates the husband.
+      note: The first noun evaluates the man.
     - text: a statue of bronze
       from: constructed
-      note: Of expresses the material.
+      note: <i>Of</i> expresses the material.
     - text: a cup of water
       from: constructed
-      note: Of expresses a measure.
+      note: <i>Of</i> expresses a measure.
   watch_for:
-    - A learner might read a nitwit of a husband as two people, a nitwit and a husband.
-    - A learner might read of in a statue of bronze as evaluating, when it gives a material.
-  activity: Students sort phrases with of (a nitwit of a husband, a cup of water, a statue of bronze) by whether of expresses a judgment, a material or a measure.
+    - A learner might read <i>a nitwit of a husband</i> as two people, a nitwit and a husband.
+    - A learner might read <i>of</i> in <i>a statue of bronze</i> as evaluating, when it gives a material.
+  activity: Students sort phrases with <i>of</i> (<i>a giant of a man</i>, <i>a cup of water</i>, <i>a statue of bronze</i>) by whether <i>of</i> expresses a judgment, a material or a measure.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: constructed contrast and activity phrase a nitwit of a husband (nitwit about 68,600th in SUBTLEX-UK) replaced by a giant of a man; explain and watch_for still quote the entry's nitwit of a husband; the material and measure contrasts are unchanged."

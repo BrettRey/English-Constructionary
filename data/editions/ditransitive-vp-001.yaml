@@ -7,9 +7,9 @@ curious:
   title: Verbs that take two objects
   summary: Some verbs can be followed by two noun phrases in a row, such as someone who receives and the thing received.
   body: |-
-    In I sent Sue a copy, the verb sent is followed by two things: Sue, who gets the copy, and a copy, what is sent. The first is called the indirect object and the second the direct object. Each is a full noun phrase, and the verb allows both.
+    In <i>I sent Sue a copy</i>, the verb <i>sent</i> is followed by two things: <i>Sue</i>, who gets the copy, and <i>a copy</i>, what is sent. The first is called the indirect object and the second the direct object. Each is a full noun phrase, and the verb allows both.
 
-    The pattern isn't only about handing things over. It also fits She baked Kim a cake, where the cake is meant for Kim, and It cost Mel his job, where Mel loses something. Which verbs allow it depends on the verb: some also allow a version with to or for, as in I sent a copy to Sue, and some don't.
+    The pattern isn't only about handing things over. It also fits <i>She baked Kim a cake</i>, where the cake is meant for Kim, and <i>It cost Mel his job</i>, where Mel loses something. Which verbs allow it depends on the verb: some also allow a version with <i>to</i> or <i>for</i>, as in <i>I sent a copy to Sue</i>, and some don't.
   examples:
     - text: I [sent Sue a copy].
       from: entry
@@ -21,10 +21,10 @@ curious:
       from: entry
     - text: It [cost Mel his job].
       from: entry
-  try: Say I sent Sue a copy, then say I sent a copy to Sue. Does the meaning change? Now try the same with other verbs, such as baked or told.
+  try: Say <i>I sent Sue a copy</i>, then say <i>I sent a copy to Sue</i>. Does the meaning change? Now try the same with other verbs, such as <i>baked</i> or <i>told</i>.
 teacher:
-  summary: Helps explain double-object verbs, what counts as an indirect object, and how they differ from verbs with a to- or for-phrase.
-  explain: 'A ditransitive VP has a verb followed by two internal objects, the indirect object (Oi) and then the direct object (Od), as in sent Sue a copy. This dictionary treats this as a syntactic pattern, not a meaning class: the Oi tends to be a recipient or beneficiary of goods, but can also be a prevented recipient, a source or a loser (refused Kim permission, charged Ed ten dollars, cost Mel his job). Which verb senses allow it is lexically specific: give allows Oi or a to-phrase, explain takes only to, buy allows Oi or for, and borrow takes only for. A to- or for-phrase is not an indirect object: in sent a copy to Sue, a copy is the direct object and the verb is monotransitive.'
+  summary: Helps explain double-object verbs, what counts as an indirect object, and how they differ from verbs with a <i>to</i>- or <i>for</i>-phrase.
+  explain: 'A ditransitive VP has a verb followed by two internal objects, the indirect object (Oi) and then the direct object (Od), as in <i>sent Sue a copy</i>. This dictionary treats this as a syntactic pattern, not a meaning class: the Oi tends to be a recipient or beneficiary of goods, but can also be a prevented recipient, a source or a loser (<i>refused Kim permission</i>, <i>charged Ed ten dollars</i>, <i>cost Mel his job</i>). Which verb senses allow it is lexically specific: <i>give</i> allows Oi or a <i>to</i>-phrase, <i>explain</i> takes only <i>to</i>, <i>buy</i> allows Oi or <i>for</i>, and <i>borrow</i> takes only <i>for</i>. A <i>to</i>- or <i>for</i>-phrase is not an indirect object: in <i>sent a copy to Sue</i>, <i>a copy</i> is the direct object and the verb is monotransitive.'
   terms: Indirect object and direct object are the usual terms. Double-object construction is another name for the same pattern.
   examples:
     - text: I [sent Sue a copy].
@@ -41,18 +41,18 @@ teacher:
       note: Two objects, indirect then direct.
     - text: I sent a copy to Sue.
       from: constructed
-      note: One object plus a to-phrase; monotransitive.
+      note: One object plus a <i>to</i>-phrase; monotransitive.
     - text: We considered Ed a fool.
       from: constructed
       note: One object plus a predicative NP, not two objects.
   watch_for:
-    - A learner might treat the to-phrase in sent a copy to Sue as an indirect object.
-    - A learner might assume any verb that can take a to-phrase can also take two objects, though licensing depends on the verb sense.
-    - A learner might read the two NPs in considered Ed a fool as two objects, when a fool describes Ed.
-  activity: Give students verb cards (give, send, bake, explain, buy). They try each in a double-object sentence and in a to- or for-phrase sentence, sort the results, and compare with a dictionary or the teacher.
+    - A learner might treat the <i>to</i>-phrase in <i>sent a copy to Sue</i> as an indirect object.
+    - A learner might assume any verb that can take a <i>to</i>-phrase can also take two objects, though licensing depends on the verb sense.
+    - A learner might read the two NPs in <i>considered Ed a fool</i> as two objects, when <i>a fool</i> describes Ed.
+  activity: Give students verb cards (<i>give</i>, <i>send</i>, <i>bake</i>, <i>explain</i>, <i>buy</i>). They try each in a double-object sentence and in a <i>to</i>- or <i>for</i>-phrase sentence, sort the results, and compare with a dictionary or the teacher.
 child:
-  hook: Can you give a friend a pencil without saying "to"?
-  explain: Some verbs can be followed by who something is for and then the thing itself. Dad baked Kim a cake. The cake is meant for Kim. The words come in that order.
+  hook: Can you give a friend a pencil without saying "<i>to</i>"?
+  explain: Some verbs can be followed by who something is for and then the thing itself. <i>Dad baked Kim a cake</i>. The cake is meant for Kim. The words come in that order.
   examples:
     - text: Dad [baked Kim a cake].
       from: constructed
@@ -60,7 +60,7 @@ child:
       from: entry
     - text: She [told him the truth].
       from: entry
-  play: Make up sentences with who gets something, then what they get. Try sent, told and baked. Then say each one again with to or for and a name at the end.
+  play: Make up sentences with who gets something, then what they get. Try <i>sent</i>, <i>told</i> and <i>baked</i>. Then say each one again with <i>to</i> or <i>for</i> and a name at the end.
 checked:
   date: "2026-11-19"
   model: claude-sonnet-5-5 (resolving checker flags)

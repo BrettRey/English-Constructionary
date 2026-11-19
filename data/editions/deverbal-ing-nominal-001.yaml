@@ -4,19 +4,19 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Activity nouns ending in -ing
-  summary: Some words in -ing name an activity or its result and behave like nouns, taking words like careful and of.
+  title: Activity nouns ending in <i>-ing</i>
+  summary: Some words in <i>-ing</i> name an activity or its result and behave like nouns, taking words like <i>careful</i> and <i>of</i>.
   body: |-
-    In The careful sorting of the files took hours, sorting names an activity, but it acts like a noun. It takes the adjective careful in front of it, and the files comes after of.
+    In <i>The careful sorting of the files took hours</i>, <i>sorting</i> names an activity, but it acts like a noun. It takes the adjective <i>careful</i> in front of it, and <i>the files</i> comes after <i>of</i>.
 
-    The same idea can be said another way. Carefully sorting the files uses the adverb carefully, and the files follows the verb directly. Here the -ing word acts like a verb. This dictionary treats the two patterns as different, and the first as a noun pattern.
+    The same idea can be said another way. <i>Carefully sorting the files</i> uses the adverb <i>carefully</i>, and <i>the files</i> follows the verb directly. Here the <i>-ing</i> word acts like a verb. This dictionary treats the two patterns as different, and the first as a noun pattern.
   examples:
     - text: '[The careful sorting of the files] took hours.'
       from: entry
-  try: Compare careful sorting of the files with carefully sorting the files. Which one has of? Which one has an adverb?
+  try: Compare <i>careful sorting of the files</i> with <i>carefully sorting the files</i>. Which one has <i>of</i>? Which one has an adverb?
 teacher:
-  summary: Helps contrast an -ing noun with its nominal dependents against the verb-like -ing form.
-  explain: A deverbal noun in -ing names an activity, result or product using nominal syntax. In The careful sorting of the files took hours, careful modifies the noun and of introduces what was formerly the object. A gerund-participial can say the same thing with carefully and take the files as a direct object. This dictionary’s confidence in this analysis is marked medium.
+  summary: Helps contrast an <i>-ing</i> noun with its nominal dependents against the verb-like -ing form.
+  explain: A deverbal noun in <i>-ing</i> names an activity, result or product using nominal syntax. In <i>The careful sorting of the files took hours</i>, <i>careful</i> modifies the noun and <i>of</i> introduces what was formerly the object. A gerund-participial can say the same thing with <i>carefully</i> and take <i>the files</i> as a direct object. This dictionary’s confidence in this analysis is marked medium.
   terms: Traditional grammars may call the noun a verbal noun and the verb-like form a gerund.
   examples:
     - text: '[The careful sorting of the files] took hours.'
@@ -26,8 +26,8 @@ teacher:
       from: constructed
       note: The verb-like version, with an adverb and a direct object.
   watch_for:
-    - A learner might use careful with the verb-like form, or carefully with the noun-like form, when each pattern takes its own kind of modifier.
-  activity: Students rewrite each noun-pattern sentence in the verb-like pattern and back, marking where of appears and where the adverb appears.
+    - A learner might use <i>careful</i> with the verb-like form, or <i>carefully</i> with the noun-like form, when each pattern takes its own kind of modifier.
+  activity: Students rewrite each noun-pattern sentence in the verb-like pattern and back, marking where <i>of</i> appears and where the adverb appears.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

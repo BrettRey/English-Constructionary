@@ -1,10 +1,10 @@
 id: numerative-teen-irregular-001
-name: Irregular Teen Numerative (eleven/twelve)
+name: "Irregular Teen Numerative (<i>eleven</i>/<i>twelve</i>)"
 pattern: Irregular teen forms (11, 12)
 type: morphological
 dimensions:
   form: "Suppletive forms not derived by -teen suffixation"
-  meaning: "Specifies cardinality of eleven or twelve"
+  meaning: "Specifies cardinality of <i>eleven</i> or <i>twelve</i>"
   function: "Same distribution as regular teens"
   distribution: "Determiner, factor, addition; lexically atomic"
 meanings:
@@ -17,7 +17,7 @@ meanings:
         note: Cardinality 12
 constraints:
   - type: morphological
-    description: Not derived by -teen suffixation.
+    description: Not derived by <i>-teen</i> suffixation.
 formRefs:
   - numerative-teen-irregular
   - suppletion
@@ -42,6 +42,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Eleven and twelve occupy the first two positions after ten but do not use productive -teen suffixation. Their related ordinals eleventh and twelfth can be compared with thirteenth without analyzing eleven and twelve as -teen stems."
+    target: "<i>Eleven</i> and <i>twelve</i> occupy the first two positions after <i>ten</i> but do not use productive <i>-teen</i> suffixation. Their related ordinals <i>eleventh</i> and <i>twelfth</i> can be compared with <i>thirteenth</i> without analyzing <i>eleven</i> and <i>twelve</i> as <i>-teen</i> stems."
     evidence: "CGEL documents the distinct forms inside the numeral inventory. Current morphological structure is the criterion here."
     confidence: medium

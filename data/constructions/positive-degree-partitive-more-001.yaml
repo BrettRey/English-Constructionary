@@ -1,5 +1,5 @@
 id: positive-degree-partitive-more-001
-name: Comparative Quantification with More of
+name: "Comparative Quantification with <i>more of</i>"
 pattern: NP[more + PP[of + domain expression]]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The of-phrase fixes the group counted over. More can quantify a plural count domain or an amount of a non-count substance, depending on the complement.
+    target: The <i>of</i>-phrase fixes the group counted over. <i>More</i> can quantify a plural count domain or an amount of a non-count substance, depending on the complement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

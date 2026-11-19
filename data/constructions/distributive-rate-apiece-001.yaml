@@ -1,5 +1,5 @@
 id: distributive-rate-apiece-001
-name: Distributive Rate with Each or Apiece
+name: "Distributive Rate with <i>each</i> or <i>apiece</i>"
 pattern: measure or counted NP + each/apiece, with a group supplied by context
 type: mixed
 meanings:
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The six dollars is the price of an individual ticket. With six dollars altogether, the same amount instead applies to the whole set.
+    target: The six dollars is the price of an individual ticket. With <i>six dollars altogether</i>, the same amount instead applies to the whole set.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

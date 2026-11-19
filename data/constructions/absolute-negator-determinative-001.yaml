@@ -5,7 +5,7 @@ type: syntactic
 meanings:
   '1':
     definition: Encodes clausal negation via an NP headed by an absolute negator determinative in fused determiner-head function
-    details: "CGEL (Ch. 9, §3.2) treats no and none as dependent and independent forms of the determinative no, and nobody, no one, nothing, nowhere, no place as single-word compounds of no. These are determinatives, not pronouns; standing alone as NPs they occupy fused determiner-head function."
+    details: "CGEL (Ch. 9, §3.2) treats <i>no</i> and <i>none</i> as dependent and independent forms of the determinative no, and <i>nobody</i>, <i>no one</i>, <i>nothing</i>, <i>nowhere</i>, <i>no place</i> as single-word compounds of <i>no</i>. These are determinatives, not pronouns; standing alone as NPs they occupy fused determiner-head function."
     examples:
       - form: "[Nobody] knew where Kim was."
         note: Compound determinative as negative subject
@@ -17,7 +17,7 @@ constraints:
   - type: syntactic
     description: Negative property percolates from the negator NP to the clause.
   - type: semantic
-    description: Alternates with verbal negation plus any/either/ever (e.g., "didn't do anything").
+    description: Alternates with verbal negation plus <i>any</i>/<i>either</i>/<i>ever</i> (e.g., "<i>didn't do anything</i>").
 formRefs:
   - absolute-negator-compound
 syntacticRefs:
@@ -37,7 +37,7 @@ grounds:
     locator: "Ch. 9, SS3.2"
     relation: cites
     bears-on: category-assignment
-    note: "no/none dependent and independent forms of the determinative no; compounds are single words"
+    note: "<i>no</i>/<i>none</i> dependent and independent forms of the determinative <i>no</i>; compounds are single words"
   - source: cgel-2002
     locator: "Ch. 9 §3.2.1; Ch. 5 §9.6"
     relation: discusses
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Nobody and nothing can trigger a positive confirmation tag even when the finite VP has affirmative form. The same polarity cannot be inferred merely from the use of few or little in every context."
+    target: "<i>Nobody</i> and <i>nothing</i> can trigger a positive confirmation tag even when the finite VP has affirmative form. The same polarity cannot be inferred merely from the use of <i>few</i> or <i>little</i> in every context."
     evidence: "CGEL discusses positive tags and the relation between absolute negative expressions and approximate negation."
     confidence: medium

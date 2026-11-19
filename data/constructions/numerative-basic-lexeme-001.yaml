@@ -18,7 +18,7 @@ meanings:
       - form: twelve
         note: Irregular teen
       - form: nineteen
-        note: Regular -teen
+        note: Regular <i>-teen</i>
       - form: forty
         note: Decade
       - form: twenty-six
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Twenty-four can supply the single lexical unit that ordinal morphology targets in twenty-fourth. A construction such as three hundred twenty-four has additional phrasal structure, which is recoverable in reduced alternatives in an appropriate context."
+    target: "<i>Twenty-four</i> can supply the single lexical unit that ordinal morphology targets in <i>twenty-fourth</i>. A construction such as <i>three hundred twenty-four</i> has additional phrasal structure, which is recoverable in reduced alternatives in an appropriate context."
     evidence: "Reynolds combines prosody, ordinal morphology and ellipsis evidence for the lexical versus syntactic analysis."
     confidence: medium

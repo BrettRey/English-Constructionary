@@ -14,11 +14,11 @@ meanings:
     details: "The verb is the Head of the VP and the ultimate Head of any Clause headed by that VP. Its lexical sense and constructional frame jointly determine which complements are required or permitted. The Subject, when present, is a dependent of Clause rather than VP; a VP can therefore serve as the Head of a Clause with an overt Subject or as the whole overt content of a subjectless Clause."
     examples:
       - form: "Kim [left early]."
-        note: "Head V left with modifier early; Kim is Subject of Clause, not part of the VP"
+        note: "Head V <i>left</i> with modifier <i>early</i>; Kim is Subject of Clause, not part of the VP"
       - form: "I [sent Sue a copy]."
-        note: "Head V sent with indirect and direct object complements"
+        note: "Head V <i>sent</i> with indirect and direct object complements"
       - form: "They [slept the afternoon away]."
-        note: "Head V slept with a construction-licensed object and PP complement"
+        note: "Head V <i>slept</i> with a construction-licensed object and PP complement"
 constraints:
   - type: head
     description: "The Head is a verb; its inflectional form and lexical sense constrain the VP's internal syntax."

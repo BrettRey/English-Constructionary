@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Shouting a noun phrase to point something out
-  summary: A speaker can call attention to something present or about to happen by saying just a noun phrase, such as The bus!
+  summary: A speaker can call attention to something present or about to happen by saying just a noun phrase, such as <i>The bus!</i>
   body: |-
-    Sometimes one noun phrase is the whole message. Someone shouts A snake! or The bus!, and the listener looks, because the thing is right there or about to happen. The speaker is showing something rather than describing it.
+    Sometimes one noun phrase is the whole message. Someone shouts <i>A snake!</i> or <i>The bus!</i>, and the listener looks, because the thing is right there or about to happen. The speaker is showing something rather than describing it.
 
-    It is typically spoken as an exclamation, with a falling or rising-then-falling tune, though a murmured reminder can lack that tone. The thing named isn't the listener, which separates this from calling someone's name. The noun phrase follows the ordinary rules: a singular count noun like snake comes with a word such as a, while a plural (Robbers!) or a non-count noun (Fire!) can stand bare.
+    It is typically spoken as an exclamation, with a falling or rising-then-falling tune, though a murmured reminder can lack that tone. The thing named isn't the listener, which separates this from calling someone's name. The noun phrase follows the ordinary rules: a singular count noun like <i>snake</i> comes with a word such as <i>a</i>, while a plural (<i>Robbers!</i>) or a non-count noun (<i>Fire!</i>) can stand bare.
   examples:
     - text: '[The robbers]!'
       from: entry
@@ -28,7 +28,7 @@ curious:
   try: Imagine something about to happen that you want a friend to notice. What would you say in just a few words, and is the thing you name the friend?
 teacher:
   summary: Helps explain single noun phrases used as attention-getting exclamations, and how they differ from vocatives.
-  explain: 'The directive-ostensive is a non-argumental NP that alerts the addressee to a referent in the shared environment. The referent must be present or imminent, and it is not the addressee, which separates the pattern from a vocative. It is typically exclamatory, with a fall or rise-fall, though murmured reminders show that the exclamatory profile can come apart from the function. The NP follows ordinary determination: singular count nouns require a determiner (A snake!), while plural and non-count nouns can be bare (Robbers!, Fire!). It isn''t an argument of any clause.'
+  explain: 'The directive-ostensive is a non-argumental NP that alerts the addressee to a referent in the shared environment. The referent must be present or imminent, and it is not the addressee, which separates the pattern from a vocative. It is typically exclamatory, with a fall or rise-fall, though murmured reminders show that the exclamatory profile can come apart from the function. The NP follows ordinary determination: singular count nouns require a determiner (<i>A snake!</i>), while plural and non-count nouns can be bare (<i>Robbers!</i>, <i>Fire!</i>). It isn''t an argument of any clause.'
   terms: This dictionary relates the pattern to exclamations and contrasts it with the vocative.
   examples:
     - text: '[The robbers]!'
@@ -49,8 +49,8 @@ teacher:
       from: constructed
       note: A vocative, which names the person addressed.
   watch_for:
-    - A learner might take The bus! to address a listener called the bus, when it points the listener at the bus.
-    - A learner might assume a determiner is required, though plural Robbers! and non-count Fire! are bare.
+    - A learner might take <i>The bus!</i> to address a listener called <i>the bus</i>, when it points the listener at the bus.
+    - A learner might assume a determiner is required, though plural <i>Robbers!</i> and non-count <i>Fire!</i> are bare.
   activity: Students act out scenes (a bus leaving, a snake, lost keys). A partner says one noun phrase to alert another, who says what the speaker pointed out. Then they change one to a vocative, such as a name.
 child:
   hook: What do you shout when you see the bus leaving?

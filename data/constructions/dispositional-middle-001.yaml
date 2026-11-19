@@ -16,10 +16,10 @@ relatedConstructions:
     parthood: formal
   - id: be-passive-001
     relationship: related-to
-    notes: This fabric washes well attributes a disposition with active verb forms. This fabric was washed at noon reports a particular event in the passive.
+    notes: <i>This fabric washes well</i> attributes a disposition with active verb forms. <i>This fabric was washed at noon</i> reports a particular event in the passive.
   - id: causative-inchoative-001
     relationship: related-to
-    notes: This fabric washes well invites an interpretation involving a washer. The door opened can simply report a change of state without invoking an implicit opener.
+    notes: <i>This fabric washes well</i> invites an interpretation involving a washer. <i>The door opened</i> can simply report a change of state without invoking an implicit opener.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §8.1.4(d)
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The subject corresponds to the ordinary object, yet the verb is active. The default generic assessment contrasts with an event report such as This fabric was washed at noon.
+    target: The subject corresponds to the ordinary object, yet the verb is active. The default generic assessment contrasts with an event report such as <i>This fabric was washed at noon</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

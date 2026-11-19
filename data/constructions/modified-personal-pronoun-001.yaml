@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Picks out a stage or aspect of the person or group identified by a pronoun.
-    details: "In the five-year-old you, the pronoun anchors the reference to the addressee and the adjective specifies an age. In subject position the whole NP can take third-person verbal agreement. A coreferential reflexive can still carry the person of the pronoun. Some age-modified uses are bare. The category of the head and the explanation for the agreement split remain open."
+    details: "In <i>the five-year-old you</i>, the pronoun anchors the reference to the addressee and the adjective specifies an age. In subject position the whole NP can take third-person verbal agreement. A coreferential reflexive can still carry the person of the pronoun. Some age-modified uses are bare. The category of the head and the explanation for the agreement split remain open."
     examples:
       - form: "[The five-year-old you] was so cute!"
-        note: Was contrasts with ordinary second-person you were.
+        note: <i>Was</i> contrasts with ordinary second-person <i>you were</i>.
         grounds:
           - source: halm-2022
             locator: "§8 [24a]"
@@ -23,7 +23,7 @@ meanings:
             bears-on: attestation
   '2':
     definition: Characterizes the person identified by the pronoun as being in a particular state.
-    details: "In an exhausted me, the speaker is still identified by me. The adjective adds the state in which the speaker experienced the situation. Halm compares this use with a visibly irritated Mr Andrews and distinguishes it from a reading that explicitly selects a stage or aspect."
+    details: "In <i>an exhausted me</i>, the speaker is still identified by <i>me</i>. The adjective adds the state in which the speaker experienced the situation. Halm compares this use with <i>a visibly irritated Mr Andrews</i> and distinguishes it from a reading that explicitly selects a stage or aspect."
     examples:
       - form: "[An exhausted me] has felt …"
         note: Excerpt from Halm’s example of the state-characterizing interpretation.
@@ -40,16 +40,16 @@ relatedConstructions:
   - id: np-det-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: "The younger me has overt determination. Halm also reports bare age-modified forms, including 12 year old me as the subject of a relative clause."
+    notes: "<i>The younger me</i> has overt determination. Halm also reports bare age-modified forms, including <i>12 year old me</i> as the subject of a relative clause."
   - id: indefinite-modified-name-001
     relationship: related-to
-    notes: "An exhausted me and a visibly shaken Giuliani combine a/an with an adjective that characterizes a participant identified independently by the pronoun or name."
+    notes: "<i>An exhausted me</i> and <i>a visibly shaken Giuliani</i> combine <i>a</i>/<i>an</i> with an adjective that characterizes a participant identified independently by the pronoun or name."
   - id: proper-name-secondary-use-001
     relationship: related-to
-    notes: "The young Isaac Newton and the five-year-old you can each pick out a life stage, anchored by a name in the first case and by the addressee pronoun in the second."
+    notes: "<i>The young Isaac Newton</i> and <i>the five-year-old you</i> can each pick out a life stage, anchored by a name in the first case and by the addressee pronoun in the second."
   - id: personal-determiner-001
     relationship: related-to
-    notes: "In we linguists, we occupies the determiner slot and precedes a lexical head. In the younger us, the article occupies that slot and us follows the modifier."
+    notes: "In <i>we linguists</i>, <i>we</i> occupies the determiner slot and precedes a lexical head. In <i>the younger us</i>, the article occupies that slot and <i>us</i> follows the modifier."
 grounds:
   - source: halm-2022
     locator: "§§4, 8–10 [6], [23–31]"
@@ -64,10 +64,10 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The modified NP can take a singular verb form unavailable to ordinary you, while an antecedent containing me can support myself. A stage contrast can also support third-person anaphora.
+    target: The modified NP can take a singular verb form unavailable to ordinary <i>you</i>, while an antecedent containing <i>me</i> can support <i>myself</i>. A stage contrast can also support third-person anaphora.
     evidence: Halm’s contrasts separate finite agreement from the selection of coreferential forms. The article alone leaves the head’s lexical category open.
     confidence: medium
   boundaries:
     known_boundary_items:
-      - "Poor old me is CGEL’s bare evaluative pattern. The younger me can pick out a life stage and occurs in a pattern that also permits a younger me."
-      - "A he or a she can denote a person of a category and lacks the ordinary speaker or addressee anchoring tested here."
+      - "<i>Poor old me</i> is CGEL’s bare evaluative pattern. <i>The younger me</i> can pick out a life stage and occurs in a pattern that also permits <i>a younger me</i>."
+      - "<i>A he</i> or <i>a she</i> can denote a person of a category and lacks the ordinary speaker or addressee anchoring tested here."

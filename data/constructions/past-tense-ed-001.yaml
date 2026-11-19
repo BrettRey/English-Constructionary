@@ -1,5 +1,5 @@
 id: past-tense-ed-001
-name: Past Tense -ed
+name: "Past Tense <i>-ed</i>"
 pattern: Verb stem + -ed/-d/-t (including allomorphs /d/, /t/, /ɪd/)
 type: morphological
 meanings:
@@ -50,7 +50,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Regular -ed can mark a preterite or past participle. In Jo checked the key it marks finite preterite, while in Jo has checked the key it realizes the participle selected by have. Remote and backshifted preterites need not locate the event before speech time."
+    target: "Regular <i>-ed</i> can mark a preterite or past participle. In <i>Jo checked the key</i> it marks finite preterite, while in <i>Jo has checked the key</i> it realizes the participle selected by <i>have</i>. Remote and backshifted preterites need not locate the event before speech time."
     evidence: "CGEL documents the syncretism and the independent distribution of the temporal and remote interpretations."
     confidence: medium
 relatedConstructions:

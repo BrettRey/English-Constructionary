@@ -3,7 +3,7 @@ name: Ordinal Adjective
 pattern: Cardinal base → ordinal form (-th or suppletive)
 type: morphological
 dimensions:
-  form: "Cardinal base + -th suffix or suppletive (first, second, third)"
+  form: "Cardinal base + <i>-th</i> suffix or suppletive (<i>first</i>, <i>second</i>, <i>third</i>)"
   meaning: "Specifies rank or position in an ordered sequence"
   function: "Heads AdjPs; attributive modifier or predicative complement"
   distribution: "Pre-nominal modifier; licenses factors in complex ordinals"
@@ -42,6 +42,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Third can premodify chapter alongside a separate determiner, as in the third chapter. In three thirds the homophonous ordinal base supplies a count noun with plural marking and a preceding numeral."
+    target: "<i>Third</i> can premodify <i>chapter</i> alongside a separate determiner, as in <i>the third chapter</i>. In <i>three thirds</i> the homophonous ordinal base supplies a count noun with plural marking and a preceding numeral."
     evidence: "CGEL and Reynolds distinguish the ordinal adjective from the fractional noun by its NP distribution."
     confidence: medium

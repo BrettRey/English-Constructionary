@@ -7,9 +7,9 @@ curious:
   title: Groups of words built around a key word
   summary: A phrase is a group of words organized around one main word, which decides what else can come with it and where it can go.
   body: |-
-    In the old house, the word house is the main word, called the head. The words around it elaborate it. In in the garden, the head is in, and in very old, it's old.
+    In <i>the old house</i>, the word <i>house</i> is the main word, called the head. The words around it elaborate it. In <i>in the garden</i>, the head is <i>in</i>, and in <i>very old</i>, it's <i>old</i>.
 
-    The head decides which other words can join it and where the whole phrase can go in a sentence. A phrase can also be just its head: outside can be a complete phrase, and so can Kim. A short sentence such as Kim left early counts as a phrase too, built around the verb phrase left early.
+    The head decides which other words can join it and where the whole phrase can go in a sentence. A phrase can also be just its head: <i>outside</i> can be a complete phrase, and so can <i>Kim</i>. A short sentence such as <i>Kim left early</i> counts as a phrase too, built around the verb phrase <i>left early</i>.
   examples:
     - text: '[in the garden]'
       from: entry
@@ -22,7 +22,7 @@ curious:
   try: Pick any phrase from a sign or book. Which word in it could you not remove without losing the phrase's point?
 teacher:
   summary: Defines headed constituents (phrases and clauses) and what counts as a head.
-  explain: A phrase is a constituent organized around a head, which licenses its dependents and principally determines its distribution. An NP distributes as its nominal head allows, a PP as its preposition head allows, and a clause as its VP head allows. A phrase may consist of its head alone (outside as a PP, Kim as an NP). Clause, VP, NP, Nom, AdjP, AdvP, PP and DP are phrasal categories here. A Clause is headed immediately by a VP and may also contain a Subject. This dictionary does not treat CGEL's verbless clauses as Clauses; they fall under a separate clause-analogue construction. Coordinations are also non-headed.
+  explain: A phrase is a constituent organized around a head, which licenses its dependents and principally determines its distribution. An NP distributes as its nominal head allows, a PP as its preposition head allows, and a clause as its VP head allows. A phrase may consist of its head alone (<i>outside</i> as a PP, <i>Kim</i> as an NP). Clause, VP, NP, Nom, AdjP, AdvP, PP and DP are phrasal categories here. A Clause is headed immediately by a VP and may also contain a Subject. This dictionary does not treat CGEL's verbless clauses as Clauses; they fall under a separate clause-analogue construction. Coordinations are also non-headed.
   terms: Traditional grammars sometimes speak of the main word of a phrase. Here the head is the word or phrase that licenses the dependents, and the ultimate head is a word of a lexical category. This dictionary calls constituents without a head non-headed rather than phrases.
   examples:
     - text: '[in the garden]'
@@ -38,14 +38,14 @@ teacher:
   contrasts:
     - text: Kim left early.
       from: entry
-      note: A Clause with a Subject (Kim) and a VP head (left early).
+      note: A Clause with a Subject (<i>Kim</i>) and a VP head (<i>left early</i>).
     - text: Leave early!
       from: entry
-      note: A subjectless imperative Clause, still headed by the VP leave early.
+      note: A subjectless imperative Clause, still headed by the VP <i>leave early</i>.
   watch_for:
-    - A learner might treat the first word in a phrase as its head, though in the old house the head is house.
-    - A learner might think a phrase must have two or more words, when a single word such as Kim or outside can be a complete phrase.
-  activity: Give students a list of phrases (in the garden, the old house, very old). They circle the head of each and say what category the head belongs to.
+    - A learner might treat the first word in a phrase as its head, though in <i>the old house</i> the head is <i>house</i>.
+    - A learner might think a phrase must have two or more words, when a single word such as <i>Kim</i> or <i>outside</i> can be a complete phrase.
+  activity: Give students a list of phrases (<i>in the garden</i>, <i>the old house</i>, <i>very old</i>). They circle the head of each and say what category the head belongs to.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

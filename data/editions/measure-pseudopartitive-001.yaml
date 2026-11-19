@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Amounts and containers followed by of
-  summary: A unit or container word followed by of says how much of a substance or how many things were involved.
+  title: Amounts and containers followed by <i>of</i>
+  summary: A unit or container word followed by <i>of</i> says how much of a substance or how many things were involved.
   body: |-
-    In They bought three litres of milk, three litres says how much milk. The milk isn't a particular stock of milk the shopper chose from. It's just the substance being measured.
+    In <i>They bought three litres of milk</i>, <i>three litres</i> says how much milk. The milk isn't a particular stock of milk the shopper chose from. It's just the substance being measured.
 
-    Compare They bought three litres of the milk from yesterday. Here the speaker picks a quantity out of an established stock: the milk from yesterday. Adding the changes the meaning from measuring a substance to selecting from one already known.
+    Compare <i>They bought three litres of the milk from yesterday</i>. Here the speaker picks a quantity out of an established stock: the milk from yesterday. Adding <i>the</i> changes the meaning from measuring a substance to selecting from one already known.
   examples:
     - text: They bought [three litres of milk].
       from: entry
     - text: They bought [three litres of the milk from yesterday].
       from: entry
-  try: Say three litres of milk, then three litres of the milk. Which one points to milk you've already been talking about?
+  try: Say <i>three litres of milk</i>, then <i>three litres of the milk</i>. Which one points to milk you've already been talking about?
 teacher:
-  summary: Helps explain three litres of milk, where a unit or container word measures a substance, and how it differs from picking out part of a known stock.
-  explain: 'A measure pseudopartitive uses a unit or container expression plus of to specify quantity: three litres of milk. The milk supplies the substance measured and doesn''t refer to a definite stock of which the purchase was a subset. Compare three litres of the milk from yesterday, which can select from such a stock. The pattern takes a substance or a plural nominal after of. This dictionary treats it as a kind of noun phrase and relates it to the measurement adjective pattern (six feet long).'
-  terms: Pseudopartitive is the textbook name. A true partitive, as in two of the cats, selects from an established stock, and the measure pseudopartitive does not.
+  summary: Helps explain <i>three litres of milk</i>, where a unit or container word measures a substance, and how it differs from picking out part of a known stock.
+  explain: 'A measure pseudopartitive uses a unit or container expression plus <i>of</i> to specify quantity: <i>three litres of milk</i>. The milk supplies the substance measured and doesn''t refer to a definite stock of which the purchase was a subset. Compare <i>three litres of the milk from yesterday</i>, which can select from such a stock. The pattern takes a substance or a plural nominal after <i>of</i>. This dictionary treats it as a kind of noun phrase and relates it to the measurement adjective pattern (<i>six feet long</i>).'
+  terms: Pseudopartitive is the textbook name. A true partitive, as in <i>two of the cats</i>, selects from an established stock, and the measure pseudopartitive does not.
   examples:
     - text: They bought [three litres of milk].
       from: entry
@@ -31,18 +31,18 @@ teacher:
       from: entry
       note: Can instead pick a quantity out of an established stock.
   watch_for:
-    - A learner might read three litres of milk as a portion of milk already mentioned, when it measures the substance.
-    - A learner might think adding the changes only the wording, when it can shift the sense from measuring to selecting.
-  activity: Give students unit and container words, such as litres, bags and cups, with substances and plural nouns. They build sentences with of, then add the plus a definite phrase to one of them and explain what changed.
+    - A learner might read <i>three litres of milk</i> as a portion of milk already mentioned, when it measures the substance.
+    - A learner might think adding <i>the</i> changes only the wording, when it can shift the sense from measuring to selecting.
+  activity: Give students unit and container words, such as <i>litres</i>, <i>bags</i> and <i>cups</i>, with substances and plural nouns. They build sentences with <i>of</i>, then add <i>the</i> plus a definite phrase to one of them and explain what changed.
 child:
   hook: How do you say how much milk you want?
-  explain: You can name an amount or a container, then say of, then say what it holds. Three litres of milk. The word of links the amount to the stuff.
+  explain: You can name an amount or a container, then say <i>of</i>, then say what it holds. <i>Three litres of milk</i>. The word <i>of</i> links the amount to the stuff.
   examples:
     - text: They bought [three litres of milk].
       from: entry
     - text: She poured [two cups of water].
       from: constructed
-  play: Look in the kitchen. Name a container or a measure, then say of and what is inside. Make three sentences, like a bag of apples or a cup of tea.
+  play: Look in the kitchen. Name a container or a measure, then say <i>of</i> and what is inside. Make three sentences, like <i>a bag of apples</i> or <i>a cup of tea</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

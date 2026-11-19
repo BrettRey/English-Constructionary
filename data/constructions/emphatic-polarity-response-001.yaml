@@ -3,17 +3,17 @@ name: Emphatic Polarity Response Family
 pattern: "hell + yeah | shit + no | fuck + {yeah, yes, no} | fucking + {yes, no} | hell fucking no"
 type: pragmatic
 dimensions:
-  form: "Documented linear combinations of an emphatic expression with a polarity response; the expanded hell fucking no is included without a commitment about its internal bracketing"
-  meaning: "Emotional emphasis on the response expressed through yeah, yes or no"
+  form: "Documented linear combinations of an emphatic expression with a polarity response; the expanded <i>hell fucking no</i> is included without a commitment about its internal bracketing"
+  meaning: "Emotional emphasis on the response expressed through <i>yeah</i>, <i>yes</i> or <i>no</i>"
   function: "An emphatic response, sometimes followed by a longer turn; the conversational action depends on context"
   distribution: "Independent response uses and documented turn-preface uses; excludes nominal answer expressions and questions presenting answer alternatives"
 meanings:
   '1':
-    definition: "Adds emotional emphasis to an affirmative or negative response while preserving the response orientation of yeah, yes or no"
-    details: "This is a family of related local patterns, not a claim that every emphatic form combines freely with every response word. Norrick (2009: 880) analyzes hell in hell yeah and shit in shit no as intensifiers; the whole hell yeah or fuck yeah expression can function as a pragmatic marker before a longer turn. Intensifier describes an internal contribution, while pragmatic marker describes a use of the whole. Neither label settles lexical category. Following CGEL (2002: 848), response polarity must be distinguished from agreement, refusal and other conversational actions. Emotional emphasis need not raise epistemic certainty or express approval of the event."
+    definition: "Adds emotional emphasis to an affirmative or negative response while preserving the response orientation of <i>yeah</i>, <i>yes</i> or <i>no</i>"
+    details: "This is a family of related local patterns, not a claim that every emphatic form combines freely with every response word. Norrick (2009: 880) analyzes <i>hell</i> in <i>hell yeah</i> and <i>shit</i> in <i>shit no</i> as intensifiers; the whole <i>hell yeah</i> or <i>fuck yeah</i> expression can function as a pragmatic marker before a longer turn. Intensifier describes an internal contribution, while pragmatic marker describes a use of the whole. Neither label settles lexical category. Following CGEL (2002: 848), response polarity must be distinguished from agreement, refusal and other conversational actions. Emotional emphasis need not raise epistemic certainty or express approval of the event."
     examples:
       - form: "hell yeah."
-        note: "Published response token: Norrick (2009: 880), SCoSE Football; response to did you burn anything?"
+        note: "Published response token: Norrick (2009: 880), SCoSE Football; response to <i>did you burn anything?</i>"
         grounds:
           - source: norrick-2009
             locator: "p. 880, SCoSE Football"
@@ -43,7 +43,7 @@ meanings:
             locator: "Green Street Hooligans; COCA year 2005, MOV; supplied 2026-11-14"
             relation: attests
       - form: "Fucking no."
-        note: "COCA supplied concordance, V/H/S Viral, year label 2014, MOV: response to Was he bleeding?; source/date metadata not independently checked"
+        note: "COCA supplied concordance, V/H/S Viral, year label 2014, MOV: response to <i>Was he bleeding?</i>; source/date metadata not independently checked"
         grounds:
           - source: coca
             locator: "V/H/S Viral; COCA year 2014, MOV; supplied 2026-11-14"
@@ -58,17 +58,17 @@ constraints:
   - type: pragmatic
     description: "This is a provisional descriptive family. Its predictive advantage over listing the documented local patterns has not been established; no independent projection target or securing tier is claimed."
   - type: structural
-    description: "The reversed sequence no shit has a different idiomatic interpretation (Norrick 2009: 881) and is outside this family."
+    description: "The reversed sequence <i>no shit</i> has a different idiomatic interpretation (Norrick 2009: 881) and is outside this family."
   - type: structural
     description: "The pattern enumerates documented combinations, not a Cartesian product or an unrestricted slot-filling rule. The labels emphatic expression and polarity response specify contributions, not lexical categories."
   - type: pragmatic
-    description: "Use is form-, context- and potentially variety-sensitive. Mackenzie (2019: 69, example 43) stars fucking yes/no; supplied COCA contexts attest both bare forms. Retain this source contrast without extending one judgment to all English speakers or claiming to know its cause."
+    description: "Use is form-, context- and potentially variety-sensitive. Mackenzie (2019: 69, example 43) stars <i>fucking yes</i>/<i>no</i>; supplied COCA contexts attest both bare forms. Retain this source contrast without extending one judgment to all English speakers or claiming to know its cause."
   - type: structural
-    description: "Norrick explicitly reports one intonation unit and primary stress on hell for the SCoSE hell yeah example. This does not establish a uniform stress rule for the other combinations. Commas do not determine intonation, Discourse Act boundaries or internal bracketing."
+    description: "Norrick explicitly reports one intonation unit and primary stress on <i>hell</i> for the SCoSE <i>hell yeah</i> example. This does not establish a uniform stress rule for the other combinations. Commas do not determine intonation, Discourse Act boundaries or internal bracketing."
   - type: syntactic
-    description: "Nominal answer expressions such as a big fucking yes/no are a separate environment. Their nominal packaging does not establish that bare response yes/no is nominal. Alternative questions such as yes or fucking no, no idea, no before a noun, and verbal fucking are also outside this entry."
+    description: "Nominal answer expressions such as <i>a big fucking yes</i>/<i>no</i> are a separate environment. Their nominal packaging does not establish that bare response <i>yes</i>/<i>no</i> is nominal. Alternative questions such as <i>yes or fucking no</i>, <i>no idea</i>, <i>no</i> before a noun, and verbal <i>fucking</i> are also outside this entry."
   - type: structural
-    description: "The internal analysis of hell fucking no remains open: the string alone does not decide nested modification, multiple emphatic dependents or a stored larger formula."
+    description: "The internal analysis of <i>hell fucking no</i> remains open: the string alone does not decide nested modification, multiple emphatic dependents or a stored larger formula."
 relatedConstructions:
   - id: exclamation-001
     relationship: overlaps-with
@@ -86,8 +86,8 @@ grounds:
   - source: mackenzie-2019-expletive
     locator: "p. 69, example (43)"
     relation: discusses
-    note: "Permits fuck yes/no and stars fucking yes/no; the latter restriction does not cover the full supplied COCA range"
+    note: "Permits <i>fuck yes</i>/<i>no</i> and stars <i>fucking yes</i>/<i>no</i>; the latter restriction does not cover the full supplied COCA range"
   - source: moreau-2024-subtitling
     locator: "p. 8, Table 3"
     relation: attests
-    note: "Supplies fuck no with a following clause; the interjection label is the source's analysis, not an adopted lexical classification here"
+    note: "Supplies <i>fuck no</i> with a following clause; the interjection label is the source's analysis, not an adopted lexical classification here"

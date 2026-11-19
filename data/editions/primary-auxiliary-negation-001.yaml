@@ -4,36 +4,36 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Where not goes in a sentence
-  summary: In an ordinary statement, not comes right after the first helping verb.
+  title: Where <i>not</i> goes in a sentence
+  summary: In an ordinary statement, <i>not</i> comes right after the first helping verb.
   body: |-
-    In She has not received it, the word not follows has. The helping verb has is the finite one, and not attaches to it to make the whole clause negative.
+    In <i>She has not received it</i>, the word <i>not</i> follows <i>has</i>. The helping verb <i>has</i> is the finite one, and <i>not</i> attaches to it to make the whole clause negative.
 
-    This dictionary also says that verbs like receive generally need do in this kind of sentence when there's no other helping verb, and that when the verb has no tense, not goes elsewhere. This dictionary marks the account as provisional.
+    This dictionary also says that verbs like <i>receive</i> generally need <i>do</i> in this kind of sentence when there's no other helping verb, and that when the verb has no tense, <i>not</i> goes elsewhere. This dictionary marks the account as provisional.
   examples:
     - text: She [has not received] it.
       from: entry
-  try: Take a statement with a helping verb, such as She has finished. Where does not go to make it negative?
+  try: Take a statement with a helping verb, such as <i>She has finished</i>. Where does <i>not</i> go to make it negative?
 teacher:
-  summary: Shows where not sits relative to the finite auxiliary in a negative statement.
-  explain: 'In an ordinary declarative, not follows the finite auxiliary: She has not received it. Lexical verbs generally require do in this frame, and nonfinite negation places not differently. This dictionary treats not as associated with the finite auxiliary, expressing clausal negation. It marks the analysis as provisional and the example is constructed, so use it as a starting pattern rather than a full account of negation.'
-  terms: This dictionary's term for the verb that not follows is finite auxiliary.
+  summary: Shows where <i>not</i> sits relative to the finite auxiliary in a negative statement.
+  explain: 'In an ordinary declarative, <i>not</i> follows the finite auxiliary: <i>She has not received it</i>. Lexical verbs generally require <i>do</i> in this frame, and nonfinite negation places <i>not</i> differently. This dictionary treats <i>not</i> as associated with the finite auxiliary, expressing clausal negation. It marks the analysis as provisional and the example is constructed, so use it as a starting pattern rather than a full account of negation.'
+  terms: This dictionary's term for the verb that <i>not</i> follows is finite auxiliary.
   examples:
     - text: She [has not received] it.
       from: entry
   watch_for:
-    - A learner might place not before the auxiliary instead of after it.
-    - A learner might negate a lexical verb directly with not, without do.
-  activity: Give students affirmative sentences with has, is and will. They rewrite each as negative and underline the finite auxiliary and the not that follows it.
+    - A learner might place <i>not</i> before the auxiliary instead of after it.
+    - A learner might negate a lexical verb directly with <i>not</i>, without <i>do</i>.
+  activity: Give students affirmative sentences with <i>has</i>, <i>is</i> and <i>will</i>. They rewrite each as negative and underline the finite auxiliary and the <i>not</i> that follows it.
 child:
-  hook: Where does the word not go when you say you haven't done something?
-  explain: Look at She has not received it. The little word not comes right after has. A helper word like has comes first, and not follows it.
+  hook: Where does the word <i>not</i> go when you say you haven't done something?
+  explain: Look at <i>She has not received it</i>. The little word <i>not</i> comes right after <i>has</i>. A helper word like <i>has</i> comes first, and <i>not</i> follows it.
   examples:
     - text: She [has not received] it.
       from: entry
     - text: He [has not finished] his lunch.
       from: constructed
-  play: Pick a sentence with a helper word, such as She has finished. Make it say the opposite by adding not. Say where you put it.
+  play: Pick a sentence with a helper word, such as <i>She has finished</i>. Make it say the opposite by adding <i>not</i>. Say where you put it.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol); claude-opus-5-5 (audit edits)

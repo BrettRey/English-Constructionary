@@ -1,5 +1,5 @@
 id: in-case-contingency-001
-name: Precautionary In Case
+name: "Precautionary <i>in case</i>"
 pattern: PP[in case + finite clause]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The taking is appropriate before it is known whether the door will lock. An if-adjunct can instead make taking conditional on the door locking.
+    target: The taking is appropriate before it is known whether the door will lock. An <i>if</i>-adjunct can instead make taking conditional on the door locking.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

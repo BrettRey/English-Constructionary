@@ -7,18 +7,18 @@ curious:
   title: Saying how someone or something was at the time
   summary: A word added after the verb phrase can tell you what state someone or something was in during the action.
   body: |-
-    In They carried the patient unconscious, the word unconscious describes the patient while the carrying happens. The patient could already have been unconscious before anyone picked them up. The extra word describes a condition, not an outcome of the action.
+    In <i>They carried the patient unconscious</i>, the word <i>unconscious</i> describes the patient while the carrying happens. The patient could already have been unconscious before anyone picked them up. The extra word describes a condition, not an outcome of the action.
 
-    That is the difference from a sentence where the action causes the state. Ate the fish raw gives the state of the fish at the time of eating. Cooked the fish dry presents dryness as a result of the cooking. This dictionary treats the analysis as provisional.
+    That is the difference from a sentence where the action causes the state. <i>Ate the fish raw</i> gives the state of the fish at the time of eating. <i>Cooked the fish dry</i> presents dryness as a result of the cooking. This dictionary treats the analysis as provisional.
   examples:
     - text: They carried the patient [unconscious].
       from: entry
     - text: She ate the fish [raw].
       from: constructed
-  try: Compare She ate the fish raw with She cooked the fish dry. In which one was the fish already in that state?
+  try: Compare <i>She ate the fish raw</i> with <i>She cooked the fish dry</i>. In which one was the fish already in that state?
 teacher:
-  summary: Helps explain depictives such as unconscious in carried the patient unconscious, and how they differ from resultatives.
-  explain: 'A depictive is a secondary predicate (an AdjP or NP) added to a primary VP and predicated of a participant, ascribing a condition to that participant during the primary event: They carried the patient unconscious. The patient can already have been unconscious before being carried, and that temporal compatibility distinguishes the depictive reading from a caused-result reading. Compare Ate the fish raw, which gives the state of the fish at the time of eating, with Cooked the fish dry, which presents dryness as a result. The analysis is provisional.'
+  summary: Helps explain depictives such as <i>unconscious</i> in <i>carried the patient unconscious</i>, and how they differ from resultatives.
+  explain: 'A depictive is a secondary predicate (an AdjP or NP) added to a primary VP and predicated of a participant, ascribing a condition to that participant during the primary event: <i>They carried the patient unconscious</i>. The patient can already have been unconscious before being carried, and that temporal compatibility distinguishes the depictive reading from a caused-result reading. Compare <i>Ate the fish raw</i>, which gives the state of the fish at the time of eating, with <i>Cooked the fish dry</i>, which presents dryness as a result. The analysis is provisional.'
   terms: Secondary predicate is a textbook name for the added predicate. Resultative is the name for the caused-result pattern.
   examples:
     - text: They carried the patient [unconscious].
@@ -33,18 +33,18 @@ teacher:
       from: constructed
       note: Resultative; dryness results from the cooking.
   watch_for:
-    - A learner might read unconscious in carried the patient unconscious as the result of the carrying.
+    - A learner might read <i>unconscious</i> in <i>carried the patient unconscious</i> as the result of the carrying.
     - A learner might think the added word describes the verb's subject, when here it describes the patient.
-  activity: Give students pairs such as ate the fish raw and cooked the fish dry. For each, they ask whether the added word describes the participant during the action or presents a result of it, and sort the pairs into depictive and resultative.
+  activity: Give students pairs such as <i>ate the fish raw</i> and <i>cooked the fish dry</i>. For each, they ask whether the added word describes the participant during the action or presents a result of it, and sort the pairs into depictive and resultative.
 child:
   hook: Was the fish raw before you ate it, or did eating make it raw?
-  explain: Sometimes a word after the verb tells what something was like while it happened. She ate the fish raw. The fish was already raw when she ate it.
+  explain: Sometimes a word after the verb tells what something was like while it happened. <i>She ate the fish raw.</i> The fish was already raw when she ate it.
   examples:
     - text: She ate the fish [raw].
       from: constructed
     - text: They carried the patient [unconscious].
       from: entry
-  play: Say what a person or thing was like while something happened, such as ate the apple whole. Ask a friend what the apple was like while it was eaten.
+  play: Say what a person or thing was like while something happened, such as <i>ate the apple whole</i>. Ask a friend what the apple was like while it was eaten.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

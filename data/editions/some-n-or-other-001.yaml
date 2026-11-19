@@ -4,31 +4,31 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Some something or other
-  summary: Some student or other introduces someone while leaving open who exactly it was.
+  title: <i>Some something or other</i>
+  summary: <i>Some student or other</i> introduces someone while leaving open who exactly it was.
   body: |-
-    In Some student or other was waiting outside the door, there was a student, and the sentence doesn't say which. The words or other signal that the identity is left open.
+    In <i>Some student or other was waiting outside the door</i>, there was a student, and the sentence doesn't say which. The words <i>or other</i> signal that the identity is left open.
 
-    The pattern is an ordinary kind of indefinite phrase with a particular effect. One published comparison found that following it straight away with an identifying remark is degraded, compared with a plain some book. Whether it fits a speaker who knows the identity but leaves it out is something this dictionary says still needs testing. The analysis is marked provisional.
+    The pattern is an ordinary kind of indefinite phrase with a particular effect. One published comparison found that following it straight away with an identifying remark is degraded, compared with a plain <i>some book</i>. Whether it fits a speaker who knows the identity but leaves it out is something this dictionary says still needs testing. The analysis is marked provisional.
   examples:
     - text: '[Some student or other] was waiting outside the door.'
       from: entry
     - text: '[some book or other]'
       from: entry
-  try: Say Some ... or other about a thing you can't pin down, such as a person, a book or a song.
+  try: Say <i>Some ... or other</i> about a thing you can't pin down, such as a person, a book or a song.
 teacher:
-  summary: Helps explain some + singular count noun + or other for an unidentified individual.
-  explain: The pattern is some plus a singular count Nom plus or other. It introduces an individual while leaving a more specific identification open, and the whole pattern licenses bare other. This dictionary treats it as an indefinite NP with a specific discourse effect. An immediate identifying continuation with namely is degraded in one published comparison with an ordinary indefinite. For the tail, CGEL suggests a modifier analysis, and a coordinate analysis is also compatible with the pairing. The use by speakers who know the identity but choose to omit it needs a separate test. The analysis is marked provisional.
-  terms: Compare the indefinite NP some student. In this dictionary the tail or other is analyzed either as a modifier or as coordination.
+  summary: Helps explain <i>some</i> + singular count noun + <i>or other</i> for an unidentified individual.
+  explain: The pattern is <i>some</i> plus a singular count Nom plus <i>or other</i>. It introduces an individual while leaving a more specific identification open, and the whole pattern licenses bare <i>other</i>. This dictionary treats it as an indefinite NP with a specific discourse effect. An immediate identifying continuation with <i>namely</i> is degraded in one published comparison with an ordinary indefinite. For the tail, CGEL suggests a modifier analysis, and a coordinate analysis is also compatible with the pairing. The use by speakers who know the identity but choose to omit it needs a separate test. The analysis is marked provisional.
+  terms: Compare the indefinite NP <i>some student</i>. In this dictionary the tail <i>or other</i> is analyzed either as a modifier or as coordination.
   examples:
     - text: '[Some student or other] was waiting outside the door.'
       from: entry
     - text: '[some book or other]'
       from: entry
   watch_for:
-    - A learner might follow some student or other directly with an identification such as namely, though this dictionary notes that it is degraded in one comparison.
-    - A learner might use a plural noun after some in this pattern, when it is described here with a singular count noun.
-  activity: Students write sentences about unnamed people and things (some teacher or other, some song or other). Partners guess what the sentence leaves open and discuss whether it sounds natural to name it straight away.
+    - A learner might follow <i>some student or other</i> directly with an identification such as <i>namely</i>, though this dictionary notes that it is degraded in one comparison.
+    - A learner might use a plural noun after <i>some</i> in this pattern, when it is described here with a singular count noun.
+  activity: Students write sentences about unnamed people and things (<i>some teacher or other</i>, <i>some song or other</i>). Partners guess what the sentence leaves open and discuss whether it sounds natural to name it straight away.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

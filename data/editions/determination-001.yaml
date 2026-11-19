@@ -7,9 +7,9 @@ curious:
   title: Words that open a noun phrase
   summary: A noun phrase can start with a small word or phrase that marks it as a complete phrase and signals whether we mean a particular thing or not.
   body: |-
-    In the new car and one new car, the first word does a job: it marks the phrase as a full noun phrase and tells us whether the car is a definite one or an indefinite one. That job is called determiner.
+    In <i>the new car</i> and <i>one new car</i>, the first word does a job: it marks the phrase as a full noun phrase and tells us whether the car is a definite one or an indefinite one. That job is called determiner.
 
-    Several kinds of expression can do it. There are small words like the and one, a name with 's added, as in Ally's new car, and in a few frames a whole phrase, as in what size hat or over 20 times. The job is the same each time even though the expression filling it differs.
+    Several kinds of expression can do it. There are small words like <i>the</i> and <i>one</i>, a name with <i>'s</i> added, as in <i>Ally's new car</i>, and in a few frames a whole phrase, as in <i>what size hat</i> or <i>over 20 times</i>. The job is the same each time even though the expression filling it differs.
 
     Plural and non-count nouns can go without one, but a singular count noun generally needs one.
   examples:
@@ -23,11 +23,11 @@ curious:
       from: entry
     - text: '[over 20] times'
       from: entry
-  try: Look at a noun phrase in a sentence near you and see whether you can find a word or phrase that does this job, like the or Ally's. If you do, is it a small word, a name with 's, or something longer?
+  try: Look at a noun phrase in a sentence near you and see whether you can find a word or phrase that does this job, like <i>the</i> or <i>Ally's</i>. If you do, is it a small word, a name with <i>'s</i>, or something longer?
 teacher:
   summary: Helps explain that determiner is a function in the noun phrase, filled by several kinds of expression, not only by the and a.
-  explain: In this grammar determiner is a function, a function in the NP that licenses a nominal as an NP and marks it for definiteness or indefiniteness. Determinative is the word category. The slot is filled by determinatives (the, one), by genitive NPs (Ally's), and, in a limited set of cases, by plain-case NPs or PPs (what size, over 20). This dictionary says singular count nominals generally need determination, while bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames is licensed. The analysis is marked provisional, and this dictionary notes that weak definites (go to the hospital) and proper names complicate the link between determiner marking and semantic definiteness.
-  terms: Traditionally, the and a are called articles; here they are determinatives in determiner function.
+  explain: In this grammar determiner is a function, a function in the NP that licenses a nominal as an NP and marks it for definiteness or indefiniteness. Determinative is the word category. The slot is filled by determinatives (<i>the</i>, <i>one</i>), by genitive NPs (<i>Ally's</i>), and, in a limited set of cases, by plain-case NPs or PPs (<i>what size</i>, <i>over 20</i>). This dictionary says singular count nominals generally need determination, while bare plural and non-count nominals can be determinerless, and a small set of bare singular count frames is licensed. The analysis is marked provisional, and this dictionary notes that weak definites (<i>go to the hospital</i>) and proper names complicate the link between determiner marking and semantic definiteness.
+  terms: Traditionally, <i>the</i> and <i>a</i> are called articles; here they are determinatives in determiner function.
   examples:
     - text: '[the] new car'
       from: entry
@@ -38,9 +38,9 @@ teacher:
     - text: '[over 20] times'
       from: entry
   watch_for:
-    - A learner might take determiner to mean only the words the and a, when Ally's and what size fill the same slot.
+    - A learner might take determiner to mean only the words <i>the</i> and <i>a</i>, when <i>Ally's</i> and <i>what size</i> fill the same slot.
     - A learner might treat determiner and determinative as one term, though one names a function and the other a word category.
-  activity: Give pairs a set of noun phrases (the new car, one new car, Ally's new car, what size hat, over 20 times). They underline the determiner in each, then sort the phrases by what kind of expression fills the slot.
+  activity: Give pairs a set of noun phrases (<i>the new car</i>, <i>one new car</i>, <i>Ally's new car</i>, <i>what size hat</i>, <i>over 20 times</i>). They underline the determiner in each, then sort the phrases by what kind of expression fills the slot.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

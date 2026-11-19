@@ -1,5 +1,5 @@
 id: affected-have-participial-001
-name: Have with a Past-Participial Predication
+name: "<i>have</i> with a Past-Participial Predication"
 pattern: VP[have + NP + past-participial predicate]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The subject can be an arranger, but had her bag stolen can describe an unwanted event she experienced. The post-have NP is understood as the affected participant of the participial.
+    target: The subject can be an arranger, but <i>had her bag stolen</i> can describe an unwanted event she experienced. The post-<i>have</i> NP is understood as the affected participant of the participial.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -1,5 +1,5 @@
 id: how-come-explanation-001
-name: Explanatory How Come
+name: "Explanatory <i>how come</i>"
 pattern: how come + Subject + finite predicate
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Ordinary why questions allow Why is the gate open? How come normally retains subject-before-auxiliary order in the corresponding main-clause question.
+    target: Ordinary <i>why</i> questions allow <i>Why is the gate open?</i> <i>How come</i> normally retains subject-before-auxiliary order in the corresponding main-clause question.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

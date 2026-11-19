@@ -3,14 +3,14 @@ name: Exclamative Use of Indeterminates
 pattern: "what:Adj / how:Adv (exclamative packaging)"
 type: semantic
 dimensions:
-  form: "Only what and how from the indeterminate series; exclamative what is an adjective, while exclamative how is adverbial"
+  form: "Only <i>what</i> and <i>how</i> from the indeterminate series; exclamative <i>what</i> is an adjective, while exclamative <i>how</i> is adverbial"
   meaning: "The open variable is packaged as evaluation against a contextual norm"
   function: "Marks exclamative clause type and, in its core role, remarkable degree or quality"
-  distribution: "Exclamative clauses (What children they are!, How fast she ran!) and exclamative NPs"
+  distribution: "Exclamative clauses (<i>What children they are!</i>, <i>How fast she ran!</i>) and exclamative NPs"
 meanings:
   '1':
     definition: Expresses evaluation of the variable's value against a contextual standard or expectation
-    details: "Membership is the tightest of the three packagings: what and how only. Exclamative how is adverbial, modifying an adjective, degree determinative, adverb, or verb. Exclamative what is an adjective functioning as external or internal modifier in NP structure; this contrasts with interrogative what, which is a determinative in determiner use but a pronoun when it heads an NP (CGEL pp. 397–98, 918–20). Exclamative uses pattern non-deitally on the deitality inventory; such (a) and so many/much pattern with them in exclamatory NPs without being indeterminates."
+    details: "Membership is the tightest of the three packagings: <i>what</i> and <i>how</i> only. Exclamative <i>how</i> is adverbial, modifying an adjective, degree determinative, adverb, or verb. Exclamative <i>what</i> is an adjective functioning as external or internal modifier in NP structure; this contrasts with interrogative <i>what</i>, which is a determinative in determiner use but a pronoun when it heads an NP (CGEL pp. 397–98, 918–20). Exclamative uses pattern non-deitally on the deitality inventory; <i>such (a)</i> and <i>so many/much</i> pattern with them in exclamatory NPs without being indeterminates."
     examples:
       - form: "[what] children"
         note: Adjective in modifier function; notable children evaluated against a norm
@@ -34,10 +34,10 @@ relatedConstructions:
     notes: Exclamative uses pattern non-deitally (Reynolds, deitality inventory)
   - id: exclamative-clause-001
     relationship: interfaces-with
-    notes: Exclamative what/how marks headed exclamative Clauses
+    notes: Exclamative <i>what</i>/<i>how</i> marks headed exclamative Clauses
   - id: clause-analogue-001
     relationship: interfaces-with
-    notes: Exclamative what/how also occurs in non-headed constructions with exclamative clausal semantics
+    notes: Exclamative <i>what</i>/<i>how</i> also occurs in non-headed constructions with exclamative clausal semantics
   - id: what-np-exclamative-001
     relationship: related-to
   - id: how-adjective-exclamative-001
@@ -47,7 +47,7 @@ grounds:
     locator: "pp. 918-20"
     relation: cites
     bears-on: category-assignment
-    note: "Exclamative what is an adjective; interrogative what a determinative"
+    note: "Exclamative <i>what</i> is an adjective; interrogative <i>what</i> a determinative"
   - source: cgel-2002
     locator: "Ch. 10 §§8.1.1–8.1.4; Ch. 11 §6"
     relation: discusses
@@ -55,6 +55,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "An independent What a mess! uses a in the singular count case, while What awful weather! does not. How odd! can supply its own exclamatory force without an overt subject. An ordinary open interrogative uses related forms in a different clause construction."
+    target: "An independent <i>What a mess!</i> uses <i>a</i> in the singular count case, while <i>What awful weather!</i> does not. <i>How odd!</i> can supply its own exclamatory force without an overt subject. An ordinary open interrogative uses related forms in a different clause construction."
     evidence: "CGEL compares exclamatives with open interrogatives and gives the phrasal uses and internal NP restrictions."
     confidence: medium

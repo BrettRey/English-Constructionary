@@ -6,7 +6,7 @@ dimensions:
   form: "Cardinal noun (typically four-digit); bare NP or in PP complement"
   meaning: "Rigid designation of a specific calendar year"
   function: "Temporal reference via proper naming rather than counting"
-  distribution: "In PPs (in 1066), as appositive (the year 1066), subject position"
+  distribution: "In PPs (<i>in 1066</i>), as appositive (<i>the year 1066</i>), subject position"
 meanings:
   '1':
     definition: Cardinal noun names a specific year through direct reference
@@ -21,7 +21,7 @@ constraints:
   - type: syntactic
     description: Heads a bare NP; resists determiners and attributive modifiers.
   - type: morphological
-    description: Typically uses basic numeratives and 'oh' (ten sixty-six, not one thousand sixty-six).
+    description: Typically uses basic numeratives and '<i>oh</i>' (<i>ten sixty-six</i>, not <i>one thousand sixty-six</i>).
   - type: semantic
     description: Rigidly designates a unique temporal point.
 semanticRefs:
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In They met in 2002, the numerative identifies a calendar year without specifying an amount of elapsed time. In They waited two years, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction."
+    target: "In <i>They met in 2002</i>, the numerative identifies a calendar year without specifying an amount of elapsed time. In <i>They waited two years</i>, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction."
     evidence: "CGEL distinguishes temporal location from duration and Reynolds analyzes the label use of cardinal nouns."
     confidence: medium

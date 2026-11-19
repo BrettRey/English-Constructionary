@@ -1,5 +1,5 @@
 id: such-nominal-result-001
-name: Degree Such with Nominal and Result Clause
+name: "Degree <i>such</i> with Nominal and Result Clause"
 pattern: such + nominal expression + (that) content clause
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: In the singular count pattern such precedes a. A plural nominal such as such cold mornings uses no a, while the result dependency remains available.
+    target: In the singular count pattern <i>such</i> precedes <i>a</i>. A plural nominal such as <i>such cold mornings</i> uses no <i>a</i>, while the result dependency remains available.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

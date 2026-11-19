@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Have plus a past participle
-  summary: Have followed by a verb's past-participle form relates a situation to a point in time, such as now. The situation can be earlier than that point, or continue up to it.
+  title: <i>Have</i> plus a past participle
+  summary: <i>Have</i> followed by a verb's past-participle form relates a situation to a point in time, such as now. The situation can be earlier than that point, or continue up to it.
   body: |-
-    In She has finished the report, the finishing came before now, and it matters now. In They had already left, the leaving came before some time in the past.
+    In <i>She has finished the report</i>, the finishing came before now, and it matters now. In <i>They had already left</i>, the leaving came before some time in the past.
 
-    The same build also covers I have visited Japan and We have met before, which report something that happened earlier, and I have lived there for three years, where the living continues up to now. This dictionary notes that the present version often suggests current relevance, and that in many varieties it resists an explicitly finished past-time setting.
+    The same build also covers <i>I have visited Japan</i> and <i>We have met before</i>, which report something that happened earlier, and <i>I have lived there for three years</i>, where the living continues up to now. This dictionary notes that the present version often suggests current relevance, and that in many varieties it resists an explicitly finished past-time setting.
   examples:
     - text: She [has finished the report].
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: I [have lived there for three years].
       from: entry
-  try: Compare I have lived there for three years with I lived there for three years. What does each tell you about whether I still live there?
+  try: Compare <i>I have lived there for three years</i> with <i>I lived there for three years</i>. What does each tell you about whether I still live there?
 teacher:
   summary: Core pattern for the perfect, with its present, past, experiential and continuing uses.
-  explain: 'Perfect have selects a past participle and relates a situation to a temporal anchor. With a present anchor (has finished) the situation is prior to now or, in the continuing use, runs up to now; with a past anchor (had left) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (has finished the report, had already left), experiential or repeatable prior occurrence (have visited Japan), and a continuing situation spanning up to the reference time (have lived there for three years, has worked here since 2020). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.'
+  explain: 'Perfect <i>have</i> selects a past participle and relates a situation to a temporal anchor. With a present anchor (<i>has finished</i>) the situation is prior to now or, in the continuing use, runs up to now; with a past anchor (<i>had left</i>) it precedes that past time. A present anchor is only one possibility, even when no time expression is overt. This dictionary distinguishes three uses: a prior situation relative to the anchor (<i>has finished the report</i>, <i>had already left</i>), experiential or repeatable prior occurrence (<i>have visited Japan</i>), and a continuing situation spanning up to the reference time (<i>have lived there for three years</i>, <i>has worked here since 2020</i>). It also separates perfect anteriority from primary tense and from the contextual interpretation of current relevance. This dictionary marks the analysis as provisional, with medium confidence.'
   terms: Textbooks sometimes call these the present perfect and the past perfect. This dictionary's preterite perfect is the version with a past anchor. The continuing use is also called the universal or continuative perfect.
   examples:
     - text: She [has finished the report].
@@ -45,12 +45,12 @@ teacher:
       from: entry
       note: Past anchor; leaving precedes a past reference time.
   watch_for:
-    - A learner might read has finished as a plain past event, missing the link to the present anchor.
-    - A learner might read I have lived there for three years as ending in the past, when the residence continues up to now.
-  activity: Give students three cards (finished the report, visited Japan, lived there for three years). They write a have-sentence for each and a one-line note saying whether it is a completed event, an experience, or a situation continuing up to now.
+    - A learner might read <i>has finished</i> as a plain past event, missing the link to the present anchor.
+    - A learner might read <i>I have lived there for three years</i> as ending in the past, when the residence continues up to now.
+  activity: Give students three cards (<i>finished the report</i>, <i>visited Japan</i>, <i>lived there for three years</i>). They write a <i>have</i>-sentence for each and a one-line note saying whether it is a completed event, an experience, or a situation continuing up to now.
 child:
-  hook: When someone says I have finished, what happened before now?
-  explain: Have or has plus a word like finished can tell us something already happened. She has finished the report. They had already left means the leaving came before some time in the past.
+  hook: When someone says <i>I have finished</i>, what happened before now?
+  explain: <i>Have</i> or <i>has</i> plus a word like <i>finished</i> can tell us something already happened. <i>She has finished the report</i>. <i>They had already left</i> means the leaving came before some time in the past.
   examples:
     - text: She has finished the report.
       from: entry
@@ -58,7 +58,7 @@ child:
       from: entry
     - text: We have met before.
       from: entry
-  play: Say what you have done today, starting with I have. Then a partner says what they had already done before lunch, starting with I had.
+  play: Say what you have done today, starting with <i>I have</i>. Then a partner says what they had already done before lunch, starting with <i>I had</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

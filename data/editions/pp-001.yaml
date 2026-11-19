@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Phrases built around words like in and until
-  summary: A preposition phrase is a group of words whose main word is a preposition, such as in, as, until or because.
+  title: Phrases built around words like <i>in</i> and <i>until</i>
+  summary: A preposition phrase is a group of words whose main word is a preposition, such as <i>in</i>, <i>as</i>, <i>until</i> or <i>because</i>.
   body: |-
-    In in the garden, the preposition in is the main word, and the garden follows it. The same kind of phrase can be built with other kinds of follower: as a liability, until recently, because it rained, and from under the bed.
+    In <i>in the garden</i>, the preposition <i>in</i> is the main word, and <i>the garden</i> follows it. The same kind of phrase can be built with other kinds of follower: <i>as a liability</i>, <i>until recently</i>, <i>because it rained</i>, and <i>from under the bed</i>.
 
-    A preposition can also stand alone as a complete phrase. Outside is a whole phrase on its own, as in We waited outside. What makes each of these a preposition phrase is its main word, not the kind of word that comes after it.
+    A preposition can also stand alone as a complete phrase. <i>Outside</i> is a whole phrase on its own, as in <i>We waited outside</i>. What makes each of these a preposition phrase is its main word, not the kind of word that comes after it.
   examples:
     - text: '[in the garden]'
       from: entry
@@ -23,11 +23,11 @@ curious:
       from: entry
     - text: '[outside]'
       from: entry
-  try: Pick a short preposition like in, until or because. What can you put after it to make a phrase?
+  try: Pick a short preposition like <i>in</i>, <i>until</i> or <i>because</i>. What can you put after it to make a phrase?
 teacher:
   summary: Defines the PP and the range of complements a preposition can take, including none.
-  explain: A PP is a phrase headed by a preposition, with or without a complement. The head may take an NP object (in the garden), a predicative NP or AdjP (as a liability, as reasonable), an AdvP (until recently), a clause (because it rained), a PP (from under the bed), or no complement (outside). A single complementless preposition constitutes a complete PP. PPs are classified by their heads, not by an NP being present. Locative members accept modifiers such as right and straight. A PP can function as a complement, modifier, adjunct or predicative complement in a larger construction.
-  terms: Traditional grammars sometimes treat words like outside, until and because as adverbs or conjunctions when no NP follows. Here each is a preposition heading a PP.
+  explain: A PP is a phrase headed by a preposition, with or without a complement. The head may take an NP object (<i>in the garden</i>), a predicative NP or AdjP (<i>as a liability</i>, <i>as reasonable</i>), an AdvP (<i>until recently</i>), a clause (<i>because it rained</i>), a PP (<i>from under the bed</i>), or no complement (<i>outside</i>). A single complementless preposition constitutes a complete PP. PPs are classified by their heads, not by an NP being present. Locative members accept modifiers such as <i>right</i> and <i>straight</i>. A PP can function as a complement, modifier, adjunct or predicative complement in a larger construction.
+  terms: Traditional grammars sometimes treat words like <i>outside</i>, <i>until</i> and <i>because</i> as adverbs or conjunctions when no NP follows. Here each is a preposition heading a PP.
   examples:
     - text: '[in the garden]'
       from: entry
@@ -49,9 +49,9 @@ teacher:
       from: constructed
       note: A complete PP with no complement.
   watch_for:
-    - A learner might think a preposition needs an NP after it, when outside can be a complete phrase.
-    - A learner might analyze because it rained as a clause only, when this dictionary takes because as the head of a PP with a clause complement.
-  activity: Give students a list of PPs (in the garden, until recently, outside). They underline the preposition, then say what, if anything, follows it.
+    - A learner might think a preposition needs an NP after it, when <i>outside</i> can be a complete phrase.
+    - A learner might analyze <i>because it rained</i> as a clause only, when this dictionary takes <i>because</i> as the head of a PP with a clause complement.
+  activity: Give students a list of PPs (<i>in the garden</i>, <i>until recently</i>, <i>outside</i>). They underline the preposition, then say what, if anything, follows it.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

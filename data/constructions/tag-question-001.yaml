@@ -20,7 +20,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: "[Everybody has read it], [haven't they]?"
-        note: "Tag auxiliary agrees with plural tag Subject they, not directly with singular anchor Subject everybody"
+        note: "Tag auxiliary agrees with plural tag Subject <i>they</i>, not directly with singular anchor Subject <i>everybody</i>"
         grounds:
           - source: cgel-2002
             locator: "Ch. 10 §5.1, p. 893, [7iv] discussion"
@@ -57,19 +57,19 @@ constraints:
   - type: syntactic
     description: "The Anchor is a declarative or exclamative Clause. The Tag is a short closed-interrogative Clause with a personal-pronoun Subject and a VP headed by an auxiliary; subject–auxiliary inversion determines surface order."
   - type: syntactic
-    description: "If the relevant anchor Predicator is auxiliary-headed, the tag normally selects the same auxiliary lexeme; otherwise it selects do. The tag auxiliary normally has the anchor's tense."
+    description: "If the relevant anchor Predicator is auxiliary-headed, the tag normally selects the same auxiliary lexeme; otherwise it selects <i>do</i>. The tag auxiliary normally has the anchor's tense."
   - type: syntactic
-    description: "The personal-pronoun tag Subject repeats a pronominal anchor Subject or is anaphorically selected for a non-pronominal one. Person–number agreement is controlled by the tag Subject, as Everybody has read it, haven't they? demonstrates."
+    description: "The personal-pronoun tag Subject repeats a pronominal anchor Subject or is anaphorically selected for a non-pronominal one. Person–number agreement is controlled by the tag Subject, as <i>Everybody has read it, haven't they?</i> demonstrates."
   - type: morphological
-    description: "A negative tag permits synthetic auxiliary negation in ordinary style or analytic final not in more formal style."
+    description: "A negative tag permits synthetic auxiliary negation in ordinary style or analytic final <i>not</i> in more formal style."
   - type: semantic
-    description: "The tag has polarity opposite to the anchor in the frequent reversed-polarity variant and the same polarity in the constant-polarity variant; semantically negative anchors such as Few of them liked it select a positive reversed tag."
+    description: "The tag has polarity opposite to the anchor in the frequent reversed-polarity variant and the same polarity in the constant-polarity variant; semantically negative anchors such as <i>Few of them liked it</i> select a positive reversed tag."
   - type: pragmatic
     description: "Prosody is constructionally significant: a reversed rising tag normally requests verification, a reversed falling tag seeks acknowledgement, and a constant tag characteristically has a slight rise with attributional or emotive effects."
 kind:
   provisional: true
   projection:
-    target: "Recognizing Tag Question membership predicts an anaphoric personal-pronoun Subject, same-auxiliary selection or do-support, preservation of relevant tense, agreement with the tag Subject, a systematic reversed-or-constant polarity relation, and prosody-sensitive verification, acknowledgement, or emotive force"
+    target: "Recognizing Tag Question membership predicts an anaphoric personal-pronoun Subject, same-auxiliary selection or <i>do</i>-support, preservation of relevant tense, agreement with the tag Subject, a systematic reversed-or-constant polarity relation, and prosody-sensitive verification, acknowledgement, or emotive force"
     evidence: "The predictions jointly distinguish direct tags from arbitrary interrogative supplements: anchor Subject and Predicator determine pronoun, auxiliary, tense, and agreement, while polarity relation and contour predict the characteristic interpretations"
     confidence: high
     grounds:
@@ -90,10 +90,10 @@ kind:
         diagnostics: ["declarative or exclamative Anchor Clause", "supplementary closed-interrogative Tag Clause"]
         weight: high
       - property: "Auxiliary–pronoun tag form"
-        diagnostics: ["personal-pronoun Subject", "auxiliary-headed VP", "surface subject–auxiliary inversion", "do-support where required"]
+        diagnostics: ["personal-pronoun Subject", "auxiliary-headed VP", "surface subject–auxiliary inversion", "<i>do</i>-support where required"]
         weight: high
       - property: "Anchor-dependent feature selection"
-        diagnostics: ["anaphoric pronoun", "same auxiliary lexeme or do", "same tense", "agreement with tag Subject"]
+        diagnostics: ["anaphoric pronoun", "same auxiliary lexeme or <i>do</i>", "same tense", "agreement with tag Subject"]
         weight: high
       - property: "Polarity–prosody interpretation"
         diagnostics: ["reversed versus constant polarity", "rising verification", "falling acknowledgement"]
@@ -105,8 +105,8 @@ kind:
   boundaries:
     known_boundary_items:
       - "CGEL also attests tags with closed-interrogative and imperative anchors; those lie outside this declarative-or-exclamative-anchor constructional node."
-      - "Lovely day, isn't it? has a non-clausal anchor under the strict VP-headed Clause ontology and therefore is not an instance of this Clause-anchored node."
-      - "Interrogative parentheticals such as don't you think? are larger interrogative supplements, not auxiliary-plus-pronoun tags."
+      - "<i>Lovely day, isn't it?</i> has a non-clausal anchor under the strict VP-headed Clause ontology and therefore is not an instance of this Clause-anchored node."
+      - "Interrogative parentheticals such as <i>don't you think?</i> are larger interrogative supplements, not auxiliary-plus-pronoun tags."
   grain:
     level: meso
     parent_families:
@@ -130,7 +130,7 @@ relatedConstructions:
     notes: "The short Tag is a closed-interrogative Clause with surface subject–auxiliary inversion"
   - id: verb-number-agreement-001
     relationship: interfaces-with
-    notes: "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-they cases"
+    notes: "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-<i>they</i> cases"
   - id: vp-001
     relationship: interfaces-with
     notes: "The Tag Clause retains an auxiliary-headed VP despite surface inversion"
@@ -139,7 +139,7 @@ relatedConstructions:
     notes: "A declarative question applies Question meaning to one declarative Clause; a Tag Question adds a distinct Tag Clause to its Anchor"
   - id: clause-analogue-001
     relationship: see-also
-    notes: "Non-clausal anchors in forms such as Lovely day, isn't it? require a separate host analysis"
+    notes: "Non-clausal anchors in forms such as <i>Lovely day, isn't it?</i> require a separate host analysis"
 semanticRefs:
   - question
 grounds:

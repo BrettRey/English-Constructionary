@@ -1,5 +1,5 @@
 id: how-adjective-exclamative-001
-name: Phrasal Exclamation with How
+name: "Phrasal Exclamation with <i>how</i>"
 pattern: independent AdjP[exclamative how + gradable Adj]
 type: mixed
 meanings:

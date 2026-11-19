@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Telling someone not to
-  summary: To tell someone not to do something, English uses don't or do not, even with be.
+  summary: To tell someone not to do something, English uses <i>don't</i> or <i>do not</i>, even with <i>be</i>.
   body: |-
-    Don't look at me and Don't be afraid are negative commands. Don't comes first, and the rest follows.
+    <i>Don't look at me</i> and <i>Don't be afraid</i> are negative commands. <i>Don't</i> comes first, and the rest follows.
 
-    The pattern uses don't even where a plain statement wouldn't. A statement uses She isn't late, but a negative command uses Don't be late. A speaker can add you for emphasis, as in Don't you look at me!, or use a word like everyone, as in Don't everyone shout it out.
+    The pattern uses <i>don't</i> even where a plain statement wouldn't. A statement uses <i>She isn't late</i>, but a negative command uses <i>Don't be late</i>. A speaker can add <i>you</i> for emphasis, as in <i>Don't you look at me!</i>, or use a word like <i>everyone</i>, as in <i>Don't everyone shout it out</i>.
   examples:
     - text: '[Don''t] look at me.'
       from: entry
@@ -21,11 +21,11 @@ curious:
       from: entry
     - text: She isn't late.
       from: constructed
-  try: Tell a friend not to be late, then not to be noisy. Do you say don't each time?
+  try: Tell a friend not to be late, then not to be noisy. Do you say <i>don't</i> each time?
 teacher:
-  summary: Teaches negative commands with don't, including the contrast with be in declaratives.
-  explain: 'A prohibitive imperative uses do-support for negation: Don''t look at me. This dictionary notes this holds even with be, where an auxiliary could negate in a declarative: Don''t be afraid, against She isn''t late. An overt subject can follow don''t, as in the emphatic Don''t you look at me! and in a quantified subject such as Don''t everyone shout it out. The negative inclusive Let''s not leave is a different imperative subtype. This dictionary marks its analysis as provisional.'
-  terms: Do-support is the usual name. Prohibitive imperative is this dictionary’s term for a negative command.
+  summary: Teaches negative commands with <i>don't</i>, including the contrast with <i>be</i> in declaratives.
+  explain: 'A prohibitive imperative uses <i>do</i>-support for negation: <i>Don''t look at me</i>. This dictionary notes this holds even with <i>be</i>, where an auxiliary could negate in a declarative: <i>Don''t be afraid</i>, against <i>She isn''t late</i>. An overt subject can follow <i>don''t</i>, as in the emphatic <i>Don''t you look at me!</i> and in a quantified subject such as <i>Don''t everyone shout it out</i>. The negative inclusive <i>Let''s not leave</i> is a different imperative subtype. This dictionary marks its analysis as provisional.'
+  terms: <i>Do</i>-support is the usual name. Prohibitive imperative is this dictionary’s term for a negative command.
   examples:
     - text: '[Don''t] look at me.'
       from: entry
@@ -38,24 +38,24 @@ teacher:
   contrasts:
     - text: Don't be late.
       from: constructed
-      note: Imperative with do-support despite be.
+      note: Imperative with <i>do</i>-support despite <i>be</i>.
     - text: She isn't late.
       from: constructed
-      note: Declarative negation without do.
+      note: Declarative negation without <i>do</i>.
   watch_for:
-    - A learner might negate be in an imperative as in a declarative, when this dictionary requires do-support.
-    - A learner might treat Let's not leave as the same subtype as Don't be late.
-    - A learner might place an overt subject before don't instead of after it.
-  activity: Give students positive commands including some with be. They turn each into a negative command, then contrast with a statement such as She isn't late.
+    - A learner might negate <i>be</i> in an imperative as in a declarative, when this dictionary requires <i>do</i>-support.
+    - A learner might treat <i>Let's not leave</i> as the same subtype as <i>Don't be late</i>.
+    - A learner might place an overt subject before <i>don't</i> instead of after it.
+  activity: Give students positive commands including some with <i>be</i>. They turn each into a negative command, then contrast with a statement such as <i>She isn't late</i>.
 child:
   hook: How do you tell someone not to do something?
-  explain: You can start with Don't. Don't look at me is a negative command. Don't be afraid uses Don't too, even with be.
+  explain: You can start with <i>Don't</i>. <i>Don't look at me</i> is a negative command. <i>Don't be afraid</i> uses <i>Don't</i> too, even with <i>be</i>.
   examples:
     - text: '[Don''t] look at me.'
       from: entry
     - text: '[Don''t] be afraid.'
       from: entry
-  play: Tell your partner five things not to do, starting with Don't. Include one with be, like Don't be late.
+  play: Tell your partner five things not to do, starting with <i>Don't</i>. Include one with <i>be</i>, like <i>Don't be late</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

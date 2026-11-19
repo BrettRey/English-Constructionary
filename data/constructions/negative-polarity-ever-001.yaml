@@ -1,5 +1,5 @@
 id: negative-polarity-ever-001
-name: Polarity-Sensitive Temporal Ever
+name: "Polarity-Sensitive Temporal <i>ever</i>"
 pattern: temporal ever in a licensing environment
 type: mixed
 meanings:
@@ -15,7 +15,7 @@ relatedConstructions:
     relationship: related-to
   - id: never-adv-negation-001
     relationship: related-to
-    notes: Have you ever seen it? licenses ever in a question and supplies no negative assertion. Jo never saw it has negation within the temporal adverb.
+    notes: <i>Have you ever seen it?</i> licenses <i>ever</i> in a question and supplies no negative assertion. <i>Jo never saw it</i> has negation within the temporal adverb.
 grounds:
   - source: cgel-2002
     locator: Ch. 9 §§4.1–4.4
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The affirmative counterpart Lee has ever sailed solo is marked without a special licensor. Superlatives and other suitable environments also permit ever.
+    target: The affirmative counterpart <i>Lee has ever sailed solo</i> is marked without a special licensor. Superlatives and other suitable environments also permit <i>ever</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

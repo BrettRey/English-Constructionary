@@ -3,14 +3,14 @@ name: Indeterminate Word
 pattern: who/whom/whose/what/which/where/when/why/how (+ the -ever series)
 type: semantic
 dimensions:
-  form: "Closed series sharing historical wh- orthography (how included); internal paradigm structure (whose, whom as case forms of who); productive -ever derivation"
+  form: "Closed series sharing historical <i>wh-</i> orthography (<i>how</i> included); internal paradigm structure (<i>whose</i>, <i>whom</i> as case forms of <i>who</i>); productive <i>-ever</i> derivation"
   meaning: "Contributes an open variable restricted to a sort (person, thing, selection, possessor, place, time, reason, manner/degree)"
   function: "Feeds interrogative, relative, and exclamative packagings; the marked property percolates upward, with non-subject fronting where the packaging requires it"
   distribution: "Availability and lexical category vary by member and packaging; non-subject phrases are fronted in the relevant constructions"
 meanings:
   '1':
     definition: Contributes an open variable restricted to a sort, available to different clause-type packagings
-    details: "Term: indeterminate (cf. Kuroda 1965 for the Japanese analogue). Not a CGEL lexical category: the set cross-cuts lexical categories, and category may differ by packaging and function—interrogative what is a determinative in determiner use (what size) but a pronoun when it heads an NP (What did you see?), whereas exclamative what is an adjective; how is adverbial. Three projections support the overarching set: (i) sortal-variable semantics across packagings; (ii) upward percolation of the interrogative, relative, or exclamative property, plus non-subject fronting where required; (iii) the -ever series (whoever, whatever, whichever, wherever, whenever, however) derives from this base set. Packaging-specific category facts live in the specialization entries and lexicon layer."
+    details: "Term: indeterminate (cf. Kuroda 1965 for the Japanese analogue). Not a CGEL lexical category: the set cross-cuts lexical categories, and category may differ by packaging and function—interrogative <i>what</i> is a determinative in determiner use (<i>what size</i>) but a pronoun when it heads an NP (<i>What did you see?</i>), whereas exclamative <i>what</i> is an adjective; <i>how</i> is adverbial. Three projections support the overarching set: (i) sortal-variable semantics across packagings; (ii) upward percolation of the interrogative, relative, or exclamative property, plus non-subject fronting where required; (iii) the <i>-ever</i> series (<i>whoever</i>, <i>whatever</i>, <i>whichever</i>, <i>wherever</i>, <i>whenever</i>, <i>however</i>) derives from this base set. Packaging-specific category facts live in the specialization entries and lexicon layer."
     examples:
       - form: "[what] she saw"
         note: Open variable over things (fused relative packaging)
@@ -60,6 +60,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The same sortal form can occur in what Jo wrote after admire or wonder. With admire, the expression can denote an entity or text. With wonder, it presents an open question. The lexical shape does not determine the packaging."
+    target: "The same sortal form can occur in <i>what Jo wrote</i> after <i>admire</i> or <i>wonder</i>. With <i>admire</i>, the expression can denote an entity or text. With <i>wonder</i>, it presents an open question. The lexical shape does not determine the packaging."
     evidence: "CGEL compares matching clause-like strings across fused relatives and embedded interrogatives and gives independent agreement and distributional tests."
     confidence: medium

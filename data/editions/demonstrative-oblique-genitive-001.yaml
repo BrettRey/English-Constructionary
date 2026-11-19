@@ -4,10 +4,10 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: That husband of Mary's
-  summary: A demonstrative plus a phrase like of Mary's can pick out a person or thing through a relation, even when only one fits.
+  title: "<i>That husband of Mary's</i>"
+  summary: A demonstrative plus a phrase like <i>of Mary's</i> can pick out a person or thing through a relation, even when only one fits.
   body: |-
-    In that husband of Mary's, the word that points to the husband, and the phrase of Mary's says whose husband he is. The same pattern appears in those green eyes of Mary's and that nose of his.
+    In <i>that husband of Mary's</i>, the word <i>that</i> points to the husband, and the phrase <i>of Mary's</i> says whose husband he is. The same pattern appears in <i>those green eyes of Mary's</i> and <i>that nose of his</i>.
 
     The pattern works even when there is only one husband, or one nose, in the picture. This dictionary links this use to focus on the head noun and to speaker feeling, but how far feeling is needed across all the examples remains open. This dictionary treats the analysis as provisional.
   examples:
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[that nose of his]'
       from: entry
-  try: Compare that nose of his with his nose. Does the first one feel different?
+  try: Compare <i>that nose of his</i> with <i>his nose</i>. Does the first one feel different?
 teacher:
-  summary: Helps explain that husband of Mary's and similar phrases with a demonstrative and an of-phrase containing a genitive.
-  explain: 'The pattern is NP[demonstrative determiner + nominal with an of-phrase containing a genitive NP]. The demonstrative marks the NP as definite, and the genitive relation picks out a referent, including a uniquely possessed one: that husband of Mary''s can be tested in a setting with a single husband. A published analysis (Barker, 1998) distinguishes this demonstrative pattern from oblique genitives subject to anti-uniqueness, and links the use to focus on the head and speaker affect. How far affect is required across CGEL''s examples remains open. The analysis is provisional.'
-  terms: The of-phrase contains an independent genitive (Mary's, his), This grammar says genitive rather than possessive.
+  summary: Helps explain <i>that husband of Mary's</i> and similar phrases with a demonstrative and an <i>of</i>-phrase containing a genitive.
+  explain: 'The pattern is NP[demonstrative determiner + nominal with an <i>of</i>-phrase containing a genitive NP]. The demonstrative marks the NP as definite, and the genitive relation picks out a referent, including a uniquely possessed one: <i>that husband of Mary''s</i> can be tested in a setting with a single husband. A published analysis (Barker, 1998) distinguishes this demonstrative pattern from oblique genitives subject to anti-uniqueness, and links the use to focus on the head and speaker affect. How far affect is required across CGEL''s examples remains open. The analysis is provisional.'
+  terms: The <i>of</i>-phrase contains an independent genitive (<i>Mary's</i>, <i>his</i>), This grammar says genitive rather than possessive.
   examples:
     - text: '[that husband of Mary’s]'
       from: entry
@@ -37,9 +37,9 @@ teacher:
       from: constructed
       note: Plain genitive in determiner function; no demonstrative.
   watch_for:
-    - A learner might think that husband of Mary's must mean Mary has several husbands, when the pattern can be used with a single one.
+    - A learner might think <i>that husband of Mary's</i> must mean Mary has several husbands, when the pattern can be used with a single one.
     - A learner might treat the demonstrative as only a pointing word, when the use is linked to focus and speaker affect.
-  activity: Give students pairs such as that husband of Mary's and Mary's husband. They say in which setting each would be natural and discuss whether the demonstrative version carries extra feeling.
+  activity: Give students pairs such as <i>that husband of Mary's</i> and <i>Mary's husband</i>. They say in which setting each would be natural and discuss whether the demonstrative version carries extra feeling.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

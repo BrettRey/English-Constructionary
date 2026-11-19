@@ -17,13 +17,13 @@ relatedConstructions:
     parthood: formal
   - id: perfect-have-001
     relationship: interfaces-with
-    notes: In may have been waiting, perfect have follows the modal and selects the past-participial form been.
+    notes: In <i>may have been waiting</i>, perfect have follows the modal and selects the past-participial form <i>been</i>.
   - id: progressive-ing-001
     relationship: interfaces-with
-    notes: In has been waiting, progressive be follows perfect have and takes a gerund-participle.
+    notes: In <i>has been waiting</i>, progressive be follows perfect have and takes a gerund-participle.
   - id: be-passive-001
     relationship: interfaces-with
-    notes: In is being repaired, passive be follows progressive be and selects a past participle. The form being is selected by the progressive.
+    notes: In <i>is being repaired</i>, passive be follows progressive be and selects a past participle. The form <i>being</i> is selected by the progressive.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §2.3

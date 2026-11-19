@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Names and the words that make them
-  summary: A proper noun is a word specialized to serve as the main word of a name, such as Einstein, Waterloo, Harvard or Everest.
+  summary: A proper noun is a word specialized to serve as the main word of a name, such as <i>Einstein</i>, <i>Waterloo</i>, <i>Harvard</i> or <i>Everest</i>.
   body: |-
-    Einstein, Waterloo, Harvard, Pacific and Everest are all proper nouns. Each is the main word of a name, and each carries associations. Einstein brings to mind a particular person. Waterloo brings to mind defeat, Harvard a university and Everest a mountain.
+    <i>Einstein</i>, <i>Waterloo</i>, <i>Harvard</i>, <i>Pacific</i> and <i>Everest</i> are all proper nouns. Each is the main word of a name, and each carries associations. <i>Einstein</i> brings to mind a particular person. <i>Waterloo</i> brings to mind defeat, <i>Harvard</i> a university and <i>Everest</i> a mountain.
 
-    A name can be longer than the word that heads it: New Zealand is a name of more than one word. A word normally used as a name can also appear in a descriptive phrase, as in another Einstein. Proper nouns are normally written with a capital letter, with some exceptions.
+    A name can be longer than the word that heads it: <i>New Zealand</i> is a name of more than one word. A word normally used as a name can also appear in a descriptive phrase, as in <i>another Einstein</i>. Proper nouns are normally written with a capital letter, with some exceptions.
   examples:
     - text: '[Einstein]'
       from: entry
@@ -21,10 +21,10 @@ curious:
       from: entry
     - text: We visited [New Zealand].
       from: constructed
-  try: Think of a name for a person, a place and a group. Which of them could have a descriptive phrase around it, such as another one?
+  try: Think of a name for a person, a place and a group. Which of them could have a descriptive phrase around it, such as <i>another one</i>?
 teacher:
-  summary: Separates the proper noun as a word category from the proper name, with secondary uses such as another Einstein.
-  explain: 'A proper noun is a noun specialized to head proper names. It is morphologically simple or compound and normally written with an initial capital, subject to lexical and stylistic exceptions. A proper noun heads a proper noun phrase and can appear without a determiner. In this dictionary, proper noun is a syntactic category and proper name a semantic one, and they need not have the same extent: New Zealand is a multiword name, and a noun normally used as a name can occur in a descriptive phrase such as another Einstein. This dictionary groups features as individual (Einstein), archetypal (Waterloo), institutional (Harvard) and geographical (Pacific, Everest).'
+  summary: Separates the proper noun as a word category from the proper name, with secondary uses such as <i>another Einstein</i>.
+  explain: 'A proper noun is a noun specialized to head proper names. It is morphologically simple or compound and normally written with an initial capital, subject to lexical and stylistic exceptions. A proper noun heads a proper noun phrase and can appear without a determiner. In this dictionary, proper noun is a syntactic category and proper name a semantic one, and they need not have the same extent: <i>New Zealand</i> is a multiword name, and a noun normally used as a name can occur in a descriptive phrase such as <i>another Einstein</i>. This dictionary groups features as individual (<i>Einstein</i>), archetypal (<i>Waterloo</i>), institutional (<i>Harvard</i>) and geographical (<i>Pacific</i>, <i>Everest</i>).'
   terms: Proper noun is the traditional term and the one used here. This dictionary separates it from proper name, which it treats as a semantic category.
   examples:
     - text: '[Einstein]'
@@ -44,12 +44,12 @@ teacher:
       note: A name-type noun in a descriptive phrase.
   watch_for:
     - A learner might think the capital letter alone makes a word a proper noun.
-    - A learner might treat New Zealand as one word because it is one name.
+    - A learner might treat <i>New Zealand</i> as one word because it is one name.
     - A learner might think proper noun and proper name are the same category.
-  activity: Students list names of people, places and institutions. For each name, they say whether it is a single word or several, and they write one descriptive phrase using a name, such as another one.
+  activity: Students list names of people, places and institutions. For each name, they say whether it is a single word or several, and they write one descriptive phrase using a name, such as <i>another one</i>.
 child:
-  hook: Why does Kim get a capital letter but dog doesn't?
-  explain: A proper noun is a word used as a name, like Einstein or Everest. New Zealand is one name made of two words. A name normally starts with a capital letter.
+  hook: Why does <i>Kim</i> get a capital letter but <i>dog</i> doesn't?
+  explain: A proper noun is a word used as a name, like <i>Einstein</i> or <i>Everest</i>. <i>New Zealand</i> is one name made of two words. A name normally starts with a capital letter.
   examples:
     - text: We visited [New Zealand].
       from: constructed

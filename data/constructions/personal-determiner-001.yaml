@@ -1,5 +1,5 @@
 id: personal-determiner-001
-name: Personal Determination with We or You
+name: "Personal Determination with <i>we</i> or <i>you</i>"
 pattern: NP[we/us or you + plural nominal]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The nominal survives after the personal expression. In many varieties a non-subject parallel can use us volunteers, showing that case and reference matter independently.
+    target: The nominal survives after the personal expression. In many varieties a non-subject parallel can use <i>us volunteers</i>, showing that case and reference matter independently.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

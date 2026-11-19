@@ -4,21 +4,21 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Big numbers said with and
-  summary: Some numbers are built by joining a large amount and a small addition with the word and.
+  title: Big numbers said with <i>and</i>
+  summary: Some numbers are built by joining a large amount and a small addition with the word <i>and</i>.
   body: |-
-    In two hundred and five, the word and joins two hundred and five. Together they make the sum. Two thousand and seven is built the same way: 2000 plus 7.
+    In <i>two hundred and five</i>, the word <i>and</i> joins <i>two hundred</i> and <i>five</i>. Together they make the sum. <i>Two thousand and seven</i> is built the same way: 2000 plus 7.
 
-    Each part can stand as a number on its own, and the whole means their sum. The seven in three hundred and seven isn't a second multiplier of hundred. This dictionary notes that this version is preferred in British English and in more formal speech.
+    Each part can stand as a number on its own, and the whole means their sum. The <i>seven</i> in <i>three hundred and seven</i> isn't a second multiplier of <i>hundred</i>. This dictionary notes that this version is preferred in British English and in more formal speech.
   examples:
     - text: '[two hundred and five]'
       from: entry
     - text: '[two thousand and seven]'
       from: entry
-  try: Say three hundred and seven aloud. Which parts could you say on their own as numbers?
+  try: Say <i>three hundred and seven</i> aloud. Which parts could you say on their own as numbers?
 teacher:
-  summary: Shows that numbers like two hundred and five are additions, coordinating a magnitude and a smaller number.
-  explain: 'This construction forms an additive numerative by coordinating magnitude units and additions with and: two hundred and five means 200 + 5. The addition is a coordinate, and it can itself be a basic numerative or a magnitude phrase, so the pattern is recursive. In three hundred and seven, each of three hundred and seven can denote a number independently. The whole normally denotes their sum and doesn''t treat seven as another multiplier of hundred. The dictionary notes that this form is preferred in British English and in more formal registers. It marks this account as provisional.'
+  summary: Shows that numbers like <i>two hundred and five</i> are additions, coordinating a magnitude and a smaller number.
+  explain: 'This construction forms an additive numerative by coordinating magnitude units and additions with <i>and</i>: <i>two hundred and five</i> means 200 + 5. The addition is a coordinate, and it can itself be a basic numerative or a magnitude phrase, so the pattern is recursive. In <i>three hundred and seven</i>, each of <i>three hundred</i> and <i>seven</i> can denote a number independently. The whole normally denotes their sum and doesn''t treat <i>seven</i> as another multiplier of <i>hundred</i>. The dictionary notes that this form is preferred in British English and in more formal registers. It marks this account as provisional.'
   terms: Numerative is this grammar's term for number words, where a textbook may say numeral. Syndetic means joined with a coordinator.
   examples:
     - text: '[two hundred and five]'
@@ -28,13 +28,13 @@ teacher:
   contrasts:
     - text: '[two hundred and five]'
       from: entry
-      note: Addition with and (200 + 5).
+      note: Addition with <i>and</i> (200 + 5).
     - text: '[two hundred five]'
       from: constructed
-      note: The same sum with no spoken and.
+      note: The same sum with no spoken <i>and</i>.
   watch_for:
-    - A learner might read and in two hundred and five as joining two separate items rather than adding.
-    - A learner might treat the seven in three hundred and seven as multiplying hundred.
+    - A learner might read <i>and</i> in <i>two hundred and five</i> as joining two separate items rather than adding.
+    - A learner might treat the <i>seven</i> in <i>three hundred and seven</i> as multiplying <i>hundred</i>.
   activity: Students write number words for 105, 207 and 3004. They mark the large part and the addition, then compare with a partner.
 checked:
   date: '2026-11-19'

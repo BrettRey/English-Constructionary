@@ -5,21 +5,21 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Doing something just in case
-  summary: A phrase beginning with in case names a possibility that you're guarding against, so the main action is a precaution.
+  summary: A phrase beginning with <i>in case</i> names a possibility that you're guarding against, so the main action is a precaution.
   body: |-
-    In Take a key in case the door locks, the part after in case names a possibility. The taking happens as a precaution against it. You don't need to know yet whether the door will lock.
+    In <i>Take a key in case the door locks</i>, the part after <i>in case</i> names a possibility. The taking happens as a precaution against it. You don't need to know yet whether the door will lock.
 
-    That makes it different from a version with if. Take a key if the door locks makes the taking depend on the door locking. With in case, the taking is appropriate before anyone knows how things will turn out.
+    That makes it different from a version with <i>if</i>. <i>Take a key if the door locks</i> makes the taking depend on the door locking. With <i>in case</i>, the taking is appropriate before anyone knows how things will turn out.
   examples:
     - text: Take a key [in case the door locks].
       from: entry
     - text: Pack a coat [in case it rains].
       from: constructed
-  try: Compare Take a key in case the door locks with Take a key if the door locks. When would you pick up the key in each one?
+  try: Compare <i>Take a key in case the door locks</i> with <i>Take a key if the door locks</i>. When would you pick up the key in each one?
 teacher:
-  summary: Useful for learners who treat in case as interchangeable with if.
-  explain: The pattern is a prepositional phrase made of in case plus a finite clause. It supplies the possibility against which the main action is a precaution. The main action is appropriate before it is known whether the possibility will come about. An if-adjunct can instead make the main action conditional on that possibility. So the two forms invite different readings of the same main clause, as in Take a key in case the door locks versus Take a key if the door locks. The dictionary marks this dictionary as provisional and relates it to the general prepositional phrase and to if-conditionals.
-  terms: Sometimes described as a precautionary or contingency use of in case. The if version is a conditional adjunct.
+  summary: Useful for learners who treat <i>in case</i> as interchangeable with <i>if</i>.
+  explain: The pattern is a prepositional phrase made of <i>in case</i> plus a finite clause. It supplies the possibility against which the main action is a precaution. The main action is appropriate before it is known whether the possibility will come about. An <i>if</i>-adjunct can instead make the main action conditional on that possibility. So the two forms invite different readings of the same main clause, as in <i>Take a key in case the door locks</i> versus <i>Take a key if the door locks</i>. The dictionary marks this dictionary as provisional and relates it to the general prepositional phrase and to <i>if</i>-conditionals.
+  terms: Sometimes described as a precautionary or contingency use of <i>in case</i>. The <i>if</i> version is a conditional adjunct.
   examples:
     - text: Take a key [in case the door locks].
       from: entry
@@ -33,9 +33,9 @@ teacher:
       from: constructed
       note: Taking depends on the door locking.
   watch_for:
-    - A learner might treat in case and if as having the same meaning in Take a key in case the door locks.
-    - A learner might think the in case clause describes something that has already happened.
-  activity: Give pairs of sentences that differ only in in case and if. Students say what you would do, and when, in each version, then write their own pair.
+    - A learner might treat <i>in case</i> and <i>if</i> as having the same meaning in <i>Take a key in case the door locks</i>.
+    - A learner might think the <i>in case</i> clause describes something that has already happened.
+  activity: Give pairs of sentences that differ only in <i>in case</i> and <i>if</i>. Students say what you would do, and when, in each version, then write their own pair.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

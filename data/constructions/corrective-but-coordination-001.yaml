@@ -1,5 +1,5 @@
 id: corrective-but-coordination-001
-name: Corrective Not X But Y
+name: "Corrective <i>not X but Y</i>"
 pattern: coordination[not XP + but XP]
 type: mixed
 meanings:
@@ -20,6 +20,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Not applies to the rejected candidate, and but introduces the correction. This differs from concessive but, where both coordinated propositions can be asserted.
+    target: "<i>Not</i> applies to the rejected candidate, and <i>but</i> introduces the correction. This differs from concessive <i>but</i>, where both coordinated propositions can be asserted."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

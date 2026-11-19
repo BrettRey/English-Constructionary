@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Words that describe things
-  summary: Adjectives are words like tall, wooden or happy that say what something is like, and they don't all behave alike.
+  summary: Adjectives are words like <i>tall</i>, <i>wooden</i> or <i>happy</i> that say what something is like, and they don't all behave alike.
   body: |-
-    Adjectives are words such as tall, fast, wooden, French, broken, happy, good and same. This dictionary groups what they tell us into five kinds: scale (tall), type (wooden), state (broken), evaluation (good) and reference (same).
+    Adjectives are words such as <i>tall</i>, <i>fast</i>, <i>wooden</i>, <i>French</i>, <i>broken</i>, <i>happy</i>, <i>good</i> and <i>same</i>. This dictionary groups what they tell us into five kinds: scale (<i>tall</i>), type (<i>wooden</i>), state (<i>broken</i>), evaluation (<i>good</i>) and reference (<i>same</i>).
 
-    A common central adjective can come before a noun, as in an angry neighbour, and after be, as in the neighbour is angry. Not every adjective does both. The word former can come before a noun (a former president), but it doesn't have the matching use after be. So no single position or meaning picks out every adjective.
+    A common central adjective can come before a noun, as in <i>an angry neighbour</i>, and after <i>be</i>, as in <i>the neighbour is angry</i>. Not every adjective does both. The word <i>former</i> can come before a noun (<i>a former president</i>), but it doesn't have the matching use after <i>be</i>. So no single position or meaning picks out every adjective.
   examples:
     - text: an [angry] neighbour
       from: constructed
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: a [former] president
       from: constructed
-  try: Put a few describing words before a noun and after is. Do they all fit both places?
+  try: Put a few describing words before a noun and after <i>is</i>. Do they all fit both places?
 teacher:
   summary: Gives teachers a working description of adjectives as a cluster of properties, with attention to words that don't pattern alike.
-  explain: 'Adjective is a word category. Central members are modifiers of nouns (attributive, an angry neighbour) and predicative complements (the neighbour is angry), and gradable ones accept degree morphology (-er/-est) or degree modifiers like very. This dictionary lists five semantic groupings: scalar (tall, fast), classificatory (wooden, French), state (broken, happy), evaluative (good, correct) and reference (same, other). Classificatory adjectives resist degree modification. Some adjectives are restricted: former in former president lacks the corresponding reading after be. Fast, near and fun are listed as boundary items. This dictionary marks the analysis as provisional.'
+  explain: 'Adjective is a word category. Central members are modifiers of nouns (attributive, <i>an angry neighbour</i>) and predicative complements (<i>the neighbour is angry</i>), and gradable ones accept degree morphology (<i>-er</i>/<i>-est</i>) or degree modifiers like <i>very</i>. This dictionary lists five semantic groupings: scalar (<i>tall</i>, <i>fast</i>), classificatory (<i>wooden</i>, <i>French</i>), state (<i>broken</i>, <i>happy</i>), evaluative (<i>good</i>, <i>correct</i>) and reference (<i>same</i>, <i>other</i>). Classificatory adjectives resist degree modification. Some adjectives are restricted: <i>former</i> in <i>former president</i> lacks the corresponding reading after <i>be</i>. <i>Fast</i>, <i>near</i> and <i>fun</i> are listed as boundary items. This dictionary marks the analysis as provisional.'
   terms: Traditional grammars may call adjectives describing words. In CGEL usage an adjective is a word category, and modifier and predicative complement are functions.
   examples:
     - text: The neighbour is [angry].
@@ -35,14 +35,14 @@ teacher:
       note: Before the noun.
     - text: The neighbour is angry.
       from: entry
-      note: After be, a predicative use.
+      note: After <i>be</i>, a predicative use.
   watch_for:
-    - A learner might assume every adjective can appear both before a noun and after be, when former in former president lacks the corresponding use after be.
+    - A learner might assume every adjective can appear both before a noun and after <i>be</i>, when <i>former</i> in <i>former president</i> lacks the corresponding use after <i>be</i>.
     - A learner might sort words by meaning alone, when neither meaning nor a single position picks out every adjective.
-  activity: Give students a list of words (tall, wooden, happy, broken, same, former). They test each before a noun and after be, and record which fit where.
+  activity: Give students a list of words (<i>tall</i>, <i>wooden</i>, <i>happy</i>, <i>broken</i>, <i>same</i>, <i>former</i>). They test each before a noun and after <i>be</i>, and record which fit where.
 child:
-  hook: Can you say "an angry neighbour" and also "the neighbour is angry"?
-  explain: Adjectives are words that tell us what something is like. Tall, wooden and happy are adjectives. They can go before a noun, and they can go after is.
+  hook: Can you say "<i>an angry neighbour</i>" and also "<i>the neighbour is angry</i>"?
+  explain: Adjectives are words that tell us what something is like. <i>Tall</i>, <i>wooden</i> and <i>happy</i> are adjectives. They can go before a noun, and they can go after <i>is</i>.
   examples:
     - text: a [tall] tree
       from: constructed
@@ -50,7 +50,7 @@ child:
       from: constructed
     - text: a [wooden] spoon
       from: constructed
-  play: Pick a describing word like tall, happy or wooden. Say it before a noun, then after is. Find three that work both ways.
+  play: Pick a describing word like <i>tall</i>, <i>happy</i> or <i>wooden</i>. Say it before a noun, then after <i>is</i>. Find three that work both ways.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

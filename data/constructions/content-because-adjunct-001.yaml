@@ -1,5 +1,5 @@
 id: content-because-adjunct-001
-name: Content-Level Because Adjunct
+name: "Content-Level <i>because</i> Adjunct"
 pattern: PP[because + finite clause] modifying predication
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The cold explains the leaving on the content reading. In the reasoning use of because, its clause can instead supply evidence for making the assertion.
+    target: The cold explains the leaving on the content reading. In the reasoning use of <i>because</i>, its clause can instead supply evidence for making the assertion.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

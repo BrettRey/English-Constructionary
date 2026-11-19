@@ -3,7 +3,7 @@ name: Magnitude Quantifier Construction
 pattern: "N[magnitude, plural] + of + NP"
 type: syntactic
 dimensions:
-  form: "Plural magnitude noun (hundreds, thousands) with of-PP complement"
+  form: "Plural magnitude noun (<i>hundreds</i>, <i>thousands</i>) with <i>of</i>-PP complement"
   meaning: "Approximate large quantity; vague quantification"
   function: "Quantifies without precise count; emphasizes scale"
   distribution: "Heads quantificational NPs in subject, object, and other NP positions"
@@ -19,11 +19,11 @@ meanings:
         note: Very large approximate quantity
 constraints:
   - type: structural
-    description: The core pattern uses plural magnitude nouns such as hundreds and thousands. Non-magnitude quantity nouns such as dozens have a related quantified use.
+    description: The core pattern uses plural magnitude nouns such as <i>hundreds</i> and <i>thousands</i>. Non-magnitude quantity nouns such as <i>dozens</i> have a related quantified use.
   - type: structural
-    description: Distinct from partitive (two of the cats) where numerative is DP in fused-head function.
+    description: Distinct from partitive (<i>two of the cats</i>) where numerative is DP in fused-head function.
   - type: syntactic
-    description: The of-complement NP may be indefinite (unlike true partitives).
+    description: The <i>of</i>-complement NP may be indefinite (unlike true partitives).
 semanticRefs:
   - cardinality
   - quantifier
@@ -52,6 +52,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Hundreds of enquiries permits a bare plural complement. Exact two of the enquiries instead selects a subset from an established group. Plural hundreds of can give an approximate scale without fixing how many groups of a hundred there were."
-    evidence: "Reynolds distinguishes the plural magnitudes’ quantifier use from exact cardinal expressions and identifies dozen as outside the paper’s technical magnitude class."
+    target: "<i>Hundreds of enquiries</i> permits a bare plural complement. Exact <i>two of the enquiries</i> instead selects a subset from an established group. Plural <i>hundreds of</i> can give an approximate scale without fixing how many groups of a hundred there were."
+    evidence: "Reynolds distinguishes the plural magnitudes’ quantifier use from exact cardinal expressions and identifies <i>dozen</i> as outside the paper’s technical magnitude class."
     confidence: medium

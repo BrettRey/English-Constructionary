@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Presents the performance at an extreme on a scale associated with the subject.
-    details: In worked our hardest, our refers to the people doing the work and hardest characterizes their effort. The postverbal expression has no overt noun and supplies a degree or standard. A linked at-pattern is available with some verbs. Its range differs, as in be at one’s best. The label objoid in the cited work notes the position and the unusual object profile. The present entry leaves the grammatical function of the bare phrase open.
+    details: In <i>worked our hardest</i>, <i>our</i> refers to the people doing the work and <i>hardest</i> characterizes their effort. The postverbal expression has no overt noun and supplies a degree or standard. A linked at-pattern is available with some verbs. Its range differs, as in <i>be at one’s best</i>. The label objoid in the cited work notes the position and the unusual object profile. The present entry leaves the grammatical function of the bare phrase open.
     examples:
       - form: Kate and I have [worked our hardest] to raise them that way.
-        note: COCA example in CASA. Our is linked to the subject.
+        note: COCA example in CASA. <i>Our</i> is linked to the subject.
         grounds:
           - source: casa-constructicon
             locator: record 55, example (6)
@@ -54,6 +54,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The genitive normally tracks the subject while the bare superlative supplies a high degree for the performance. A related phrase with at can broaden the interpretation to a condition.
+    target: The genitive normally tracks the subject while the bare superlative supplies a high degree for the performance. A related phrase with <i>at</i> can broaden the interpretation to a condition.
     evidence: Bouso’s corpus analysis and CASA’s contrasted records. The published priming study reports an asymmetry between the two forms.
     confidence: medium

@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: The word ten
-  summary: Ten is a single word that other number words, such as -teen and -ty ones, are built from.
+  title: The word <i>ten</i>
+  summary: <i>Ten</i> is a single word that other number words, such as <i>-teen</i> and <i>-ty</i> ones, are built from.
   body: |-
-    Ten is a single word that specifies the amount ten. It can stand in front of a plural noun, as in ten chapters, and it's the base that the -teen and -ty numbers are formed from.
+    <i>Ten</i> is a single word that specifies the amount ten. It can stand in front of a plural noun, as in <i>ten chapters</i>, and it's the base that the <i>-teen</i> and <i>-ty</i> numbers are formed from.
 
-    Ten can also be counted. In two tens, the number two counts two portions of the value ten, and tens takes a plural ending. This dictionary says that ten used on its own doesn't force either analysis in every context.
+    <i>Ten</i> can also be counted. In <i>two tens</i>, the number two counts two portions of the value ten, and <i>tens</i> takes a plural ending. This dictionary says that <i>ten</i> used on its own doesn't force either analysis in every context.
   examples:
     - text: '[ten]'
       from: entry
@@ -17,25 +17,25 @@ curious:
       from: constructed
     - text: '[two tens]'
       from: constructed
-  try: Compare ten chapters with two tens. Which one has an s on ten, and what is two doing in it?
+  try: Compare <i>ten chapters</i> with <i>two tens</i>. Which one has an <i>s</i> on <i>ten</i>, and what is <i>two</i> doing in it?
 teacher:
-  summary: Explains ten as a basic numerative and how it differs from the noun use in two tens.
-  explain: Ten is a monomorphemic lexeme specifying a cardinality of ten. It occurs in all basic numerative positions, including determiner and factor, and is the morphological base for -teen and -ty. Ten chapters uses ten directly with a plural nominal. In two tens, the separate cardinal two quantifies two realizations of the value and tens inflects, as a noun would. This dictionary doesn't force either analysis for an independent use of ten across contexts. It is provisional.
-  terms: Cardinal number is the traditional name. This dictionary also uses cardinal noun for the countable use in two tens.
+  summary: Explains <i>ten</i> as a basic numerative and how it differs from the noun use in <i>two tens</i>.
+  explain: <i>Ten</i> is a monomorphemic lexeme specifying a cardinality of ten. It occurs in all basic numerative positions, including determiner and factor, and is the morphological base for <i>-teen</i> and <i>-ty</i>. <i>Ten chapters</i> uses <i>ten</i> directly with a plural nominal. In <i>two tens</i>, the separate cardinal <i>two</i> quantifies two realizations of the value and <i>tens</i> inflects, as a noun would. This dictionary doesn't force either analysis for an independent use of <i>ten</i> across contexts. It is provisional.
+  terms: Cardinal number is the traditional name. This dictionary also uses cardinal noun for the countable use in <i>two tens</i>.
   examples:
     - text: '[ten]'
       from: entry
   contrasts:
     - text: '[ten] chapters'
       from: constructed
-      note: Ten used directly with a plural noun.
+      note: <i>Ten</i> used directly with a plural noun.
     - text: '[two tens]'
       from: constructed
-      note: Tens inflects for number and is counted by two.
+      note: <i>Tens</i> inflects for number and is counted by <i>two</i>.
   watch_for:
-    - A learner might read tens in two tens as a plural of the determiner in ten chapters, when it takes plural marking as a noun.
-    - A learner might assume a bare ten has one fixed analysis, when this dictionary leaves that open across contexts.
-  activity: Students write one phrase with ten before a noun and one with two tens, and explain in their own words what two counts in the second.
+    - A learner might read <i>tens</i> in <i>two tens</i> as a plural of the determiner in <i>ten chapters</i>, when it takes plural marking as a noun.
+    - A learner might assume a bare <i>ten</i> has one fixed analysis, when this dictionary leaves that open across contexts.
+  activity: Students write one phrase with <i>ten</i> before a noun and one with <i>two tens</i>, and explain in their own words what <i>two</i> counts in the second.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: How about a short break?
-  summary: How about followed by a thing or an activity puts it forward as an option for the listener to consider.
+  title: <i>How about a short break?</i>
+  summary: <i>How about</i> followed by a thing or an activity puts it forward as an option for the listener to consider.
   body: |-
-    How about a short break? doesn't have to be a question about how a break would happen. It's a proposal: here's an option, what do you think? The listener can accept or reject it.
+    <i>How about a short break?</i> doesn't have to be a question about how a break would happen. It's a proposal: here's an option, what do you think? The listener can accept or reject it.
 
-    How about can be followed by a noun phrase, or by an activity ending in -ing, as in How about taking a break? What about a short break? can propose the same thing, though What about the budget? can also bring up a topic that's still outstanding. Why not take a break? also proposes a break, using a plain verb.
+    <i>How about</i> can be followed by a noun phrase, or by an activity ending in <i>-ing</i>, as in <i>How about taking a break?</i> <i>What about a short break?</i> can propose the same thing, though <i>What about the budget?</i> can also bring up a topic that's still outstanding. <i>Why not take a break?</i> also proposes a break, using a plain verb.
   examples:
     - text: '[How about a short break?]'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: Why not take a break?
       from: entry
-  try: Next time you want to suggest an activity, try How about ... and notice how people answer.
+  try: Next time you want to suggest an activity, try <i>How about ...</i> and notice how people answer.
 teacher:
-  summary: Gives learners a way to make a suggestion, with variants using a noun phrase or an -ing form.
-  explain: 'How about plus an NP, a gerund-participial or a licensed clause offers an item or course of action for consideration: How about a short break? The response can accept or reject the proposal. The phrase need not ask how a break would be carried out, so the phrase works as a proposal. What about a short break? can propose the same thing, but What about the budget? can also take up an outstanding topic. Why not take a break? proposes with a plain verbal predicate, while How about taking a break? uses a gerund-participial. This dictionary marks this analysis as provisional.'
-  terms: Gerund-participial is the CGEL-style label for the -ing clause after how about.
+  summary: Gives learners a way to make a suggestion, with variants using a noun phrase or an <i>-ing</i> form.
+  explain: '<i>How about</i> plus an NP, a gerund-participial or a licensed clause offers an item or course of action for consideration: <i>How about a short break?</i> The response can accept or reject the proposal. The phrase need not ask how a break would be carried out, so the phrase works as a proposal. <i>What about a short break?</i> can propose the same thing, but <i>What about the budget?</i> can also take up an outstanding topic. <i>Why not take a break?</i> proposes with a plain verbal predicate, while <i>How about taking a break?</i> uses a gerund-participial. This dictionary marks this analysis as provisional.'
+  terms: Gerund-participial is the CGEL-style label for the <i>-ing</i> clause after <i>how about</i>.
   examples:
     - text: '[How about a short break?]'
       from: entry
@@ -38,18 +38,18 @@ teacher:
       from: entry
       note: Can take up an outstanding topic.
   watch_for:
-    - A learner might read How about a short break? as asking in what way a break would be carried out.
-    - A learner might treat How about taking a break? and Why not take a break? as the same form, when one uses -ing and the other a plain verb.
-  activity: Give pairs planning scenarios (a weekend, a lunch). One proposes with How about, and the partner accepts or rejects. They swap to Why not and notice the change in wording.
+    - A learner might read <i>How about a short break?</i> as asking in what way a break would be carried out.
+    - A learner might treat <i>How about taking a break?</i> and <i>Why not take a break?</i> as the same form, when one uses <i>-ing</i> and the other a plain verb.
+  activity: Give pairs planning scenarios (a weekend, a lunch). One proposes with <i>How about</i>, and the partner accepts or rejects. They swap to <i>Why not</i> and notice the change in wording.
 child:
   hook: How do you suggest something to a friend?
-  explain: How about can offer an idea. How about a short break? means maybe we could take one. Your friend can say yes or no.
+  explain: <i>How about</i> can offer an idea. <i>How about a short break?</i> means maybe we could take one. Your friend can say yes or no.
   examples:
     - text: '[How about a short break?]'
       from: entry
     - text: '[How about taking a break?]'
       from: entry
-  play: Take turns suggesting things with How about. Your partner says yes or no. Try one with a thing and one with an -ing word.
+  play: Take turns suggesting things with <i>How about</i>. Your partner says yes or no. Try one with a thing and one with an <i>-ing</i> word.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

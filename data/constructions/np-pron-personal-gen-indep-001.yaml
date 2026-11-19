@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A form such as mine can occupy an NP slot without an overt noun, as in mine fell. The dependent counterpart my requires a nominal. His is formally shared across the two slots."
+    target: "A form such as <i>mine</i> can occupy an NP slot without an overt noun, as in <i>mine fell</i>. The dependent counterpart <i>my</i> requires a nominal. <i>His</i> is formally shared across the two slots."
     evidence: "CGEL lists independent and dependent forms and describes their different distributions."
     confidence: medium

@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Ending a sentence with to
-  summary: After words like wanted, the word to can stand without a verb after it when the listener can work out what verb is meant.
+  title: Ending a sentence with <i>to</i>
+  summary: After words like <i>wanted</i>, the word <i>to</i> can stand without a verb after it when the listener can work out what verb is meant.
   body: |-
-    In I didn't go, but I wanted to, the sentence stops at to. You know the missing verb is go, because it was just mentioned. The to stays where a full phrase such as to go would have been.
+    In <i>I didn't go, but I wanted to</i>, the sentence stops at <i>to</i>. You know the missing verb is <i>go</i>, because it was just mentioned. The <i>to</i> stays where a full phrase such as <i>to go</i> would have been.
 
-    This lets a speaker avoid repeating a verb. It's a different way of recovering the meaning from using do so in its place.
+    This lets a speaker avoid repeating a verb. It's a different way of recovering the meaning from using <i>do so</i> in its place.
   examples:
     - text: I didn’t go, but I [wanted to].
       from: entry
     - text: She asked me to help, and I'm happy [to].
       from: constructed
-  try: Say I wanted to go, then say it again, dropping go. What does the listener supply?
+  try: Say <i>I wanted to go</i>, then say it again, dropping <i>go</i>. What does the listener supply?
 teacher:
-  summary: Explains to with an unexpressed verb phrase, as in I wanted to.
-  explain: The pattern is an infinitival complement realized with overt to and a contextually recoverable predicate. In I didn't go, but I wanted to, to stays in the position where the full infinitival would occur, and the listener recovers go from context. The same speaker can recover go without substituting lexical do so. This dictionary relates the pattern to the do so anaphor and marks it provisional.
-  terms: Sometimes called VP ellipsis after to or a stranded to. This dictionary describes it as a to-infinitival with an unexpressed verb phrase.
+  summary: Explains <i>to</i> with an unexpressed verb phrase, as in <i>I wanted to</i>.
+  explain: The pattern is an infinitival complement realized with overt <i>to</i> and a contextually recoverable predicate. In <i>I didn't go, but I wanted to</i>, <i>to</i> stays in the position where the full infinitival would occur, and the listener recovers <i>go</i> from context. The same speaker can recover <i>go</i> without substituting lexical <i>do so</i>. This dictionary relates the pattern to the <i>do so</i> anaphor and marks it provisional.
+  terms: Sometimes called VP ellipsis after <i>to</i> or a stranded <i>to</i>. This dictionary describes it as a <i>to</i>-infinitival with an unexpressed verb phrase.
   examples:
     - text: I didn’t go, but I [wanted to].
       from: entry
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: I didn't go, but I wanted to.
       from: entry
-      note: To stranded; go recovered from context.
+      note: <i>To</i> stranded; <i>go</i> recovered from context.
     - text: I didn't go, but I wanted to go.
       from: constructed
       note: The full infinitival, verb expressed.
   watch_for:
-    - A learner might think a sentence ending in to is unfinished.
-    - A learner might look for a verb after to in the same clause rather than recovering it from context.
-  activity: Students read short exchanges with a stranded to and write what verb the listener recovers. They then repeat the exchange with the full infinitival.
+    - A learner might think a sentence ending in <i>to</i> is unfinished.
+    - A learner might look for a verb after <i>to</i> in the same clause rather than recovering it from context.
+  activity: Students read short exchanges with a stranded <i>to</i> and write what verb the listener recovers. They then repeat the exchange with the full infinitival.
 child:
-  hook: Can a sentence end with the word "to"?
-  explain: Sometimes a sentence ends with to, and you still know the verb. I didn't go, but I wanted to. You know the missing word is go.
+  hook: Can a sentence end with the word "<i>to</i>"?
+  explain: Sometimes a sentence ends with <i>to</i>, and you still know the verb. <i>I didn't go, but I wanted to</i>. You know the missing word is <i>go</i>.
   examples:
     - text: I didn’t go, but I [wanted to].
       from: entry
     - text: Mia asked me to play, and I [wanted to].
       from: constructed
-  play: Tell a partner something you didn't do but wanted to, like I didn't swim, but I wanted to. Stop after to. Can your partner say the missing verb?
+  play: Tell a partner something you didn't do but wanted to, like <i>I didn't swim, but I wanted to</i>. Stop after <i>to</i>. Can your partner say the missing verb?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

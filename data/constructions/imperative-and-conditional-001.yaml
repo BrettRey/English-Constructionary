@@ -1,5 +1,5 @@
 id: imperative-and-conditional-001
-name: Imperative Plus And with Conditional Force
+name: "Imperative Plus <i>and</i> with Conditional Force"
 pattern: Clause[imperative] + and + declarative consequence
 type: mixed
 meanings:

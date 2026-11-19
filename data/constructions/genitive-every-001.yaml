@@ -1,11 +1,11 @@
 id: genitive-every-001
-name: Genitive with Every
+name: "Genitive with <i>every</i>"
 pattern: NP[Det:NP[gen] + every + Nom[sg]]
 type: mixed
 meanings:
   '1':
     definition: Quantifies over instances delimited by their relation to the genitive.
-    details: Her every move ranges over her movements. CGEL contrasts each in the same position. Postma and Rooryck discuss body-part nouns alongside actions and contrast the form with every move of John’s. To test how the genitive sets the domain, keep bone fixed and compare bones of a person’s skeleton with bones that person owns as specimens.
+    details: "<i>Her every move</i> ranges over her movements. CGEL contrasts <i>each</i> in the same position. Postma and Rooryck discuss body-part nouns alongside actions and contrast the form with <i>every move of John’s</i>. To test how the genitive sets the domain, keep <i>bone</i> fixed and compare <i>bones of a person’s skeleton</i> with <i>bones that person owns as specimens</i>."
     examples:
       - form: They scrutinised [her every move].
         note: The genitive delimits the movements under consideration.
@@ -17,7 +17,7 @@ meanings:
 relatedConstructions:
   - id: subject-determiner-001
     relationship: interfaces-with
-    notes: A genitive appears in determiner function before every.
+    notes: A genitive appears in determiner function before <i>every</i>.
 grounds:
   - source: postma-rooryck-1996
     locator: §§2–4
@@ -28,5 +28,5 @@ kind:
   provisional: true
   projection:
     target: The kind of relation to the genitive can affect whether the pattern is available, even when the head noun is held fixed.
-    evidence: CGEL's every versus each contrast and the published discussion of actions and body parts. The owned-specimen comparison is a proposed test.
+    evidence: CGEL's <i>every</i> versus <i>each</i> contrast and the published discussion of actions and body parts. The owned-specimen comparison is a proposed test.
     confidence: medium

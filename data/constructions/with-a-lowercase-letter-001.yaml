@@ -1,5 +1,5 @@
 id: with-a-lowercase-letter-001
-name: "With a Lowercase Letter Construction"
+name: "<i>X with a lowercase Y</i> Construction"
 pattern: "with + a + lowercase + Letter-name"
 type: semantic
 dimensions:
@@ -26,7 +26,7 @@ relatedConstructions:
     relationship: specialization-of
   - id: with-a-small-letter-001
     relationship: alternates-with
-    notes: "Lexical variant using small."
+    notes: "Lexical variant using <i>small</i>."
   - id: n-common-001
     relationship: related-to
     notes: "Lowercase specification aligns with common-noun readings."
@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "With a lowercase r and with a small r can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label."
-    evidence: "The case contrast is documented for small and capital. The lowercase substitution illustrates the independently meaningful case terminology in the same slot."
+    target: "<i>With a lowercase r</i> and <i>with a small r</i> can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label."
+    evidence: "The case contrast is documented for <i>small</i> and <i>capital</i>. The lowercase substitution illustrates the independently meaningful case terminology in the same slot."
     confidence: medium

@@ -14,7 +14,7 @@ meanings:
         note: Specialized singulative counting frame
 constraints:
   - type: syntactic
-    description: Plural-only morphology with plural agreement; resists singular and a/an.
+    description: Plural-only morphology with plural agreement; resists singular and <i>a</i>/<i>an</i>.
   - type: semantic
     description: Individuation is weakened; tight count properties (low cardinals, distributives) are degraded.
   - type: pragmatic
@@ -31,31 +31,31 @@ syntacticRefs:
 relatedConstructions:
   - id: non-count-material-construal-001
     relationship: related-to
-    notes: Many cattle has a lexically restricted plural count profile. Some rabbit uses a noun productively in non-count syntax to refer to material.
+    notes: "<i>Many cattle</i> has a lexically restricted plural count profile. <i>Some rabbit</i> uses a noun productively in non-count syntax to refer to material."
 kind:
   provisional: true
   secured: stable
   profile:
     core:
       - property: "Plural-only morphology with loose count diagnostics"
-        diagnostics: ["many/few N", "plural agreement", "high round numerals"]
+        diagnostics: ["<i>many</i>/<i>few</i> N", "plural agreement", "high round numerals"]
         weight: high
       - property: "Rejection of tight count diagnostics"
-        diagnostics: ["a/an", "low cardinals", "distributives"]
+        diagnostics: ["<i>a</i>/<i>an</i>", "low cardinals", "distributives"]
         weight: high
     peripheral:
       - property: "Functional singulative anchoring"
-        diagnostics: ["cow/officer for cattle/police", "head of N"]
+        diagnostics: ["<i>cow</i>/<i>officer</i> for <i>cattle</i>/<i>police</i>", "<i>head of</i> N"]
         weight: medium
   stabilisers:
     - type: entrenchment
       evidence: "High-frequency quasi-count lexemes stabilize the profile."
     - type: functional-pressure
-      evidence: "Singulative reference is offloaded to functional alternatives (cow, officer)."
+      evidence: "Singulative reference is offloaded to functional alternatives (<i>cow</i>, <i>officer</i>)."
     - type: transmission
       evidence: "Iterated transmission preserves the ordered dissociation pattern."
   projection:
-    target: "Cattle admits many and plural agreement, while an individual count normally uses a classifier or counting expression such as three head of cattle. No claim about novel forms follows automatically from those facts."
+    target: "<i>Cattle</i> admits <i>many</i> and plural agreement, while an individual count normally uses a classifier or counting expression such as <i>three head of cattle</i>. No claim about novel forms follows automatically from those facts."
     evidence: "CGEL documents the restricted cardinal patterns and plural agreement of plural-only nouns."
     confidence: medium
   maintenance:
@@ -65,14 +65,14 @@ kind:
     activation_states:
       - context: "specialized counting registers"
         effect: "Occasional low-cardinal tokens are tolerated."
-    speaker_variation: "Boundary items (e.g., folks) show instability."
+    speaker_variation: "Boundary items (e.g., <i>folks</i>) show instability."
   boundaries:
     overlaps_with:
       - grammatical-number-001
       - n-non-count-001
     known_boundary_items:
-      - "folks"
-      - "people"
+      - "<i>folks</i>"
+      - "<i>people</i>"
   grain:
     level: meso
     parent_families:

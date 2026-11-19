@@ -3,16 +3,16 @@ name: Magnitude Head Numerative
 pattern: "Det[magnitude] (+ of + NP)"
 type: syntactic
 dimensions:
-  form: "Magnitude determinative (hundred, thousand, million, etc.)"
+  form: "Magnitude determinative (<i>hundred</i>, <i>thousand</i>, <i>million</i>, etc.)"
   meaning: "Denotes base magnitude value (powers of ten > 10)"
   function: "Head of magnitude phrase; licenses factor modifier"
   distribution: "Requires factor in most contexts; heads DP"
 meanings:
   '1':
-    definition: Denotes a base magnitude (hundred, thousand, million, etc.) that can scale a quantity
+    definition: Denotes a base magnitude (<i>hundred</i>, <i>thousand</i>, <i>million</i>, etc.) that can scale a quantity
     examples:
       - form: "two [hundred]"
-        note: Magnitude determinative head; factor two is its modifier
+        note: Magnitude determinative head; factor <i>two</i> is its modifier
       - form: "twelve [thousand] and forty-one"
         note: Magnitude head inside an additive coordination
 formRefs:
@@ -35,6 +35,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Hundred remains singular in exact two hundred books and supplies its scale. In hundreds of books, the same base has count plural morphology and an oblique dependent. These diagnostics separate the head’s lexical uses."
+    target: "<i>Hundred</i> remains singular in exact <i>two hundred books</i> and supplies its scale. In <i>hundreds of books</i>, the same base has count plural morphology and an oblique dependent. These diagnostics separate the head’s lexical uses."
     evidence: "Reynolds identifies a determinative magnitude head in the exact phrases and distinguishes plural magnitude nouns in the categorial analysis."
     confidence: medium

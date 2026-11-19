@@ -1,5 +1,5 @@
 id: numerative-addition-asyndetic-001
-name: Numerative Addition Coordination (without and)
+name: "Numerative Addition Coordination (without <i>and</i>)"
 pattern: "[DP magnitude] + [DP/NP addition]"
 type: syntactic
 dimensions:
@@ -9,7 +9,7 @@ dimensions:
   distribution: "Preferred in AmE; faster/less formal registers"
 meanings:
   '1':
-    definition: Additive numerative formed by juxtaposing magnitude and addition without and
+    definition: Additive numerative formed by juxtaposing magnitude and addition without <i>and</i>
     examples:
       - form: two hundred five
         note: 200 + 5 (asyndetic addition)
@@ -17,7 +17,7 @@ meanings:
         note: 2000 + 7 (asyndetic addition)
 constraints:
   - type: structural
-    description: Coordination targets numerative constituents; the coordinator and is omitted.
+    description: Coordination targets numerative constituents; the coordinator <i>and</i> is omitted.
   - type: structural
     description: "Recursive: the addition coordinate can itself be a basic numerative or a magnitude phrase; its category may be DP or NP (category difference is tolerated under likeness of function)."
   - type: pragmatic
@@ -52,6 +52,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In two hundred five, five is added to a complete magnitude phrase. It contributes the same remainder as five in two hundred and five even though there is no spoken coordinator. This differs from a factor selecting a magnitude, as in five hundred."
+    target: "In <i>two hundred five</i>, <i>five</i> is added to a complete magnitude phrase. It contributes the same remainder as <i>five</i> in <i>two hundred and five</i> even though there is no spoken coordinator. This differs from a factor selecting a magnitude, as in <i>five hundred</i>."
     evidence: "The paper compares asyndetic addition, marked addition, and multiplicative modification by word order and prosody."
     confidence: medium

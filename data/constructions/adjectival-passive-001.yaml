@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: be-passive-001
     relationship: related-to
-    notes: The door remained locked supports an adjective analysis. The door was locked by security at noon permits the verbal passive analysis with an event time and a by-phrase.
+    notes: <i>The door remained locked</i> supports an adjective analysis. <i>The door was locked by security at noon</i> permits the verbal passive analysis with an event time and a <i>by</i>-phrase.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §10.1.3
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Remain can select the stative predicate. A verbal passive with an agent and an explicitly dated event gives an event reading rather than the state interpretation illustrated here.
+    target: <i>Remain</i> can select the stative predicate. A verbal passive with an agent and an explicitly dated event gives an event reading rather than the state interpretation illustrated here.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

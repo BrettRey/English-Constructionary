@@ -1,5 +1,5 @@
 id: habitual-used-to-001
-name: Habitual Used To
+name: "Habitual <i>used to</i>"
 pattern: VP[used to + plain form]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Used to can describe a past state, as in Jo used to own it. The present counterpart use to does not express a parallel current habit in ordinary affirmative clauses.
+    target: "<i>Used to</i> can describe a past state, as in <i>Jo used to own it</i>. The present counterpart <i>use to</i> does not express a parallel current habit in ordinary affirmative clauses."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

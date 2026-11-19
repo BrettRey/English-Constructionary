@@ -1,5 +1,5 @@
 id: let-permissive-001
-name: Let Permissive with a Bare Infinitival
+name: "<i>let</i> Permissive with a Bare Infinitival"
 pattern: VP[let + NP + bare infinitival]
 type: mixed
 meanings:
@@ -20,6 +20,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Let licenses a plain form after Jo. An ordinary verbal passive with let and to is unavailable in this use, unlike Jo was allowed to use the key.
+    target: <i>Let</i> licenses a plain form after <i>Jo</i>. An ordinary verbal passive with <i>let</i> and <i>to</i> is unavailable in this use, unlike <i>Jo was allowed to use the key</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

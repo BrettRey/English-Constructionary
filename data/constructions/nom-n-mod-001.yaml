@@ -37,7 +37,7 @@ meanings:
         note: The first nominal describes a defining characteristic of the second nominal
   '5':
     definition: The first nominal has a relationship with the second nominal that is similar to that expressed by a genitive construction, indicating a relationship such as possession, association, or inalienable part.
-    details: 'Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using ''of'' or ''''s''). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
+    details: 'Constraints: semantic: The relationship between the two nominals can often be paraphrased using a genitive construction (e.g., using ''<i>of</i>'' or ''<i>''s</i>''). Related constructions: np-gen-dep-001 (semantically-related-to); np-gen-indep-001 (semantically-related-to); n-common-001 (can-fill-left); n-common-001 (can-fill-right)'
     examples:
       - form: '[[student] representative]'
         note: Equivalent to 'representative of the students'.
@@ -70,6 +70,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Dog breeders normally pluralizes the head breeders. In book review the first nominal can supply the topic or object of a reviewing event. In coffee cup it supplies a conventional purpose. The word order alone does not select the semantic relation."
+    target: "<i>Dog breeders</i> normally pluralizes the head <i>breeders</i>. In <i>book review</i> the first nominal can supply the topic or object of a reviewing event. In <i>coffee cup</i> it supplies a conventional purpose. The word order alone does not select the semantic relation."
     evidence: "CGEL distinguishes noun-headed phrases and compounds and analyzes dependents independently of the inferred relation."
     confidence: medium

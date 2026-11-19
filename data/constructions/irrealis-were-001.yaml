@@ -1,10 +1,10 @@
 id: irrealis-were-001
-name: Irrealis Were
+name: "Irrealis <i>were</i>"
 pattern: Clause[1sg/3sg Subject + were] in selected remote environments
 type: syntactic
 meanings:
   '1':
-    definition: Realizes a distinct irrealis form of be in the first or third person singular.
+    definition: Realizes a distinct irrealis form of <i>be</i> in the first or third person singular.
     examples:
       - form: I wish [I were taller].
         note: Constructed illustration.
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Remote if may also have was for many speakers. The matrix-like were in Were I taller is licensed under inversion, where replacing it by was fails in standard usage.
+    target: Remote <i>if</i> may also have <i>was</i> for many speakers. The matrix-like <i>were</i> in <i>Were I taller</i> is licensed under inversion, where replacing it by <i>was</i> fails in standard usage.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

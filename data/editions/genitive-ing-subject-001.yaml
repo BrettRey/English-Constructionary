@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Their arriving so late
-  summary: A word like their can sit in front of a verb ending in -ing to say who is doing the action.
+  title: "<i>Their arriving so late</i>"
+  summary: A word like <i>their</i> can sit in front of a verb ending in <i>-ing</i> to say who is doing the action.
   body: |-
-    In I disliked their arriving so late, the word their says who arrived. What follows is still verb-like: arriving keeps its own add-on, so late. The word their marks the one who does the action, rather than turning arriving into an ordinary noun.
+    In <i>I disliked their arriving so late</i>, the word <i>their</i> says who arrived. What follows is still verb-like: <i>arriving</i> keeps its own add-on, <i>so late</i>. The word <i>their</i> marks the one who does the action, rather than turning <i>arriving</i> into an ordinary noun.
 
-    The same job can be done by a different form. We objected to their blocking the exit and We objected to them blocking the exit both fit. This dictionary notes that which form is available depends on the larger pattern and on the variety of English.
+    The same job can be done by a different form. <i>We objected to their blocking the exit</i> and <i>We objected to them blocking the exit</i> both fit. This dictionary notes that which form is available depends on the larger pattern and on the variety of English.
   examples:
     - text: I disliked [their arriving so late].
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: We objected to [them blocking the exit].
       from: entry
-  try: Say We objected to their blocking the exit, then We objected to them blocking the exit. Which one would you say, and does the other sound natural to you?
+  try: Say <i>We objected to their blocking the exit</i>, then <i>We objected to them blocking the exit</i>. Which one would you say, and does the other sound natural to you?
 teacher:
-  summary: Useful when students ask why a genitive appears before a verb in -ing, or how it differs from a noun with of.
-  explain: 'This is a gerund-participial clause whose subject is an overt genitive NP: their arriving so late, with their as subject and arriving so late as the verb phrase. This dictionary’s key point is that the verb stays verbal. It can keep adverbial modification and take a direct object, so the genitive marks the subject and does not turn the -ing word into a noun. An oblique subject is an alternative in some frames (them blocking the exit); this dictionary says the case varies and that availability depends on the higher construction and variety. This analysis is marked provisional in this dictionary.'
-  terms: Gerund-participial is the CGEL-style label for the clause. Traditional grammars may call the -ing word a gerund.
+  summary: Useful when students ask why a genitive appears before a verb in <i>-ing</i>, or how it differs from a noun with <i>of</i>.
+  explain: 'This is a gerund-participial clause whose subject is an overt genitive NP: <i>their arriving so late</i>, with <i>their</i> as subject and <i>arriving so late</i> as the verb phrase. This dictionary’s key point is that the verb stays verbal. It can keep adverbial modification and take a direct object, so the genitive marks the subject and does not turn the <i>-ing</i> word into a noun. An oblique subject is an alternative in some frames (<i>them blocking the exit</i>); this dictionary says the case varies and that availability depends on the higher construction and variety. This analysis is marked provisional in this dictionary.'
+  terms: Gerund-participial is the CGEL-style label for the clause. Traditional grammars may call the <i>-ing</i> word a gerund.
   examples:
     - text: I disliked [their arriving so late].
       from: entry
@@ -35,11 +35,11 @@ teacher:
       note: 'Verbal: adverb and direct object.'
     - text: Their careful sorting of the files
       from: entry
-      note: 'Nominal: adjective and of-complement.'
+      note: 'Nominal: adjective and <i>of</i>-complement.'
   watch_for:
-    - A learner might treat their arriving as a noun phrase with an ordinary noun, when the -ing word keeps verb features such as adverbs and a direct object.
-    - A learner might treat their blocking the exit and their blocking of the exit as the same structure.
-  activity: Give pairs a short list of -ing phrases with a genitive in front. Students add an adverb or a direct object to each (their arriving ...), then try a version with careful and of, and say which one keeps the verb's own add-ons.
+    - A learner might treat <i>their arriving</i> as a noun phrase with an ordinary noun, when the <i>-ing</i> word keeps verb features such as adverbs and a direct object.
+    - A learner might treat <i>their blocking the exit</i> and <i>their blocking of the exit</i> as the same structure.
+  activity: Give pairs a short list of <i>-ing</i> phrases with a genitive in front. Students add an adverb or a direct object to each (<i>their arriving ...</i>), then try a version with <i>careful</i> and <i>of</i>, and say which one keeps the verb's own add-ons.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

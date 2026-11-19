@@ -75,7 +75,7 @@ kind:
         weight: medium
     peripheral:
       - property: "Gradability/degree modification"
-        diagnostics: ["accepts very/too/so", "comparative/superlative morphology"]
+        diagnostics: ["accepts <i>very</i>/<i>too</i>/<i>so</i>", "comparative/superlative morphology"]
         weight: medium
       - property: "Classificatory subtype"
         diagnostics: ["resists degree modification", "often denominal"]
@@ -88,7 +88,7 @@ kind:
     - type: functional-pressure
       evidence: "need to encode properties for reference and predication"
   projection:
-    target: "A common central adjective can be both pre-head and predicative, as with an angry neighbour and the neighbour is angry. Former in former president lacks the corresponding reading after be. Neither semantic property description nor a single position suffices to identify every adjective."
+    target: "A common central adjective can be both pre-head and predicative, as with <i>an angry neighbour</i> and <i>the neighbour is angry</i>. <i>Former</i> in <i>former president</i> lacks the corresponding reading after <i>be</i>. Neither semantic property description nor a single position suffices to identify every adjective."
     evidence: "CGEL treats the central distribution as a cluster and describes restricted attributive and predicative members."
     confidence: medium
   maintenance:
@@ -103,9 +103,9 @@ kind:
     overlaps_with:
       - degree-001
     known_boundary_items:
-      - "fast"
-      - "near"
-      - "fun"
+      - "<i>fast</i>"
+      - "<i>near</i>"
+      - "<i>fun</i>"
   grain:
     level: macro
     parent_families:

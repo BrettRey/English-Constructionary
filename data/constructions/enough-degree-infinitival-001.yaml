@@ -1,5 +1,5 @@
 id: enough-degree-infinitival-001
-name: Sufficient Degree Enough with an Infinitival
+name: "Sufficient Degree <i>enough</i> with an Infinitival"
 pattern: AdjP/AdvP[gradable head + enough + to-infinitival]
 type: mixed
 meanings:
@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: interfaces-with
   - id: too-degree-infinitival-001
     relationship: related-to
-    notes: Ripe enough to eat places the degree at or above a lower threshold. Too ripe to eat places it above an upper threshold.
+    notes: <i>Ripe enough to eat</i> places the degree at or above a lower threshold. <i>Too ripe to eat</i> places it above an upper threshold.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §8.4; Ch. 6, degree modification
@@ -26,6 +26,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Meeting the threshold does not assert that the bins are currently behind the wall. In the ordinary adjectival pattern enough follows the gradable adjective.
+    target: Meeting the threshold does not assert that the bins are currently behind the wall. In the ordinary adjectival pattern <i>enough</i> follows the gradable adjective.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

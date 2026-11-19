@@ -1,5 +1,5 @@
 id: presentational-there-001
-name: Presentational There with a Lexical Verb
+name: "Presentational <i>there</i> with a Lexical Verb"
 pattern: Clause[dummy there + lexical V + postverbal NP]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Only certain lexical predicates license dummy there in this frame. The opening there need not locate the crack, and ordinary event-transitive verbs are excluded.
+    target: Only certain lexical predicates license dummy <i>there</i> in this frame. The opening <i>there</i> need not locate the crack, and ordinary event-transitive verbs are excluded.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

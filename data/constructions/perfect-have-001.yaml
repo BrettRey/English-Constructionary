@@ -1,5 +1,5 @@
 id: perfect-have-001
-name: Perfect HAVE + V-en
+name: "Perfect <i>have</i> + V-en"
 pattern: Aux HAVE + V-en
 type: syntactic
 meanings:
@@ -29,7 +29,7 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-    notes: The perfect auxiliary and participial complement form a VP headed by have
+    notes: The perfect auxiliary and participial complement form a VP headed by <i>have</i>
 grounds:
   - source: cgel-2002
     locator: "Ch. 3 §§5.1–5.4"
@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Perfect have selects a past participle. With a past anchor, had left precedes that past time. A present anchor is only one possibility, even when no time expression is overt."
+    target: "Perfect <i>have</i> selects a past participle. With a past anchor, <i>had left</i> precedes that past time. A present anchor is only one possibility, even when no time expression is overt."
     evidence: "CGEL separates perfect anteriority from primary tense and from the contextual interpretation of current relevance."
     confidence: medium

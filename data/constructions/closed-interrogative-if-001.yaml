@@ -1,5 +1,5 @@
 id: closed-interrogative-if-001
-name: Subordinate Closed Interrogative with If
+name: "Subordinate Closed Interrogative with <i>if</i>"
 pattern: interrogative if + finite subordinate clause
 type: syntactic
 meanings:
@@ -16,7 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: if-conditional-001
     relationship: related-to
-    notes: Asked if Jo was ready embeds a question. If Jo was ready, we could leave makes readiness a condition on the main clause.
+    notes: <i>Asked if Jo was ready</i> embeds a question. <i>If Jo was ready, we could leave</i> makes readiness a condition on the main clause.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §§5.1–5.2
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The clause has embedded question interpretation and ordinary subject–verb order. In this use if cannot introduce a whether-to infinitival.
+    target: The clause has embedded question interpretation and ordinary subject–verb order. In this use <i>if</i> cannot introduce a whether-to infinitival.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

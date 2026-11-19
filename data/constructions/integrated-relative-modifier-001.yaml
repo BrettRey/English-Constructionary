@@ -5,12 +5,12 @@ type: mixed
 meanings:
   '1':
     definition: Adds a clause to the nominal description of a referent or set of referents.
-    details: A nominal containing a relative can describe a subset, as with the books Kim bought. It can also add a property of a referent already uniquely identified. Wh-marking, that, and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself.
+    details: A nominal containing a relative can describe a subset, as with <i>the books Kim bought</i>. It can also add a property of a referent already uniquely identified. Wh-marking, <i>that</i>, and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself.
     examples:
       - form: The books [that Kim bought] are on the desk.
-        note: Constructed object relative. The books Kim bought has a bare variant.
+        note: Constructed object relative. <i>The books Kim bought</i> has a bare variant.
       - form: The books [that arrived today] are on the desk.
-        note: Constructed subject relative. Omitting that here does not give the same integrated NP.
+        note: Constructed subject relative. Omitting <i>that</i> here does not give the same integrated NP.
 relatedConstructions:
   - id: nom-001
     relationship: related-to
@@ -23,7 +23,7 @@ relatedConstructions:
     notes: A fused relative can form an NP without a separately expressed antecedent.
   - id: supplementary-relative-001
     relationship: related-to
-    notes: In the books that arrived, the integrated clause helps identify the books. In The books, which arrived yesterday, are upstairs, the supplementary clause adds a separate comment on a referent already supplied.
+    notes: In <i>the books that arrived</i>, the integrated clause helps identify the books. In <i>The books, which arrived yesterday, are upstairs</i>, the supplementary clause adds a separate comment on a referent already supplied.
 grounds:
   - source: casa-constructicon
     locator: record 108

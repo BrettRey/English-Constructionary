@@ -1,5 +1,5 @@
 id: both-and-coordination-001
-name: Correlative Both and And
+name: "Correlative <i>both … and</i>"
 pattern: coordination[both + XP + and + XP]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Both signals the first coordinate and and marks the second. Both alone can be an NP quantifier, a use with a different structural relation to the following material.
+    target: <i>Both</i> signals the first coordinate and <i>and</i> marks the second. <i>Both</i> alone can be an NP quantifier, a use with a different structural relation to the following material.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

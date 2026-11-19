@@ -7,18 +7,18 @@ curious:
   title: One ending shared by two halves
   summary: In a linked pair of phrases, the shared last part can be said once, at the very end.
   body: |-
-    In She knew of but never mentioned the proposal, the phrase the proposal finishes both parts of the sentence. She knew of the proposal, and she never mentioned the proposal. Saying it only once, at the end, lets the speaker set the two verbs against each other.
+    In <i>She knew of but never mentioned the proposal</i>, the phrase <i>the proposal</i> finishes both parts of the sentence. <i>She knew of the proposal, and she never mentioned the proposal</i>. Saying it only once, at the end, lets the speaker set the two verbs against each other.
 
-    The shared ending does a different job in each half. After knew of it is the object of a preposition, and after mentioned it is a direct object. This dictionary treats the analysis as provisional.
+    The shared ending does a different job in each half. After <i>knew of</i> it is the object of a preposition, and after <i>mentioned</i> it is a direct object. This dictionary treats the analysis as provisional.
   examples:
     - text: She [knew of but never mentioned the proposal].
       from: entry
     - text: I am [interested in but worried about the new plan].
       from: entry
-  try: Combine two short sentences about the same thing, such as I like it and I fear it, into one with a single it at the end. Which parts come before it?
+  try: Combine two short sentences about the same thing, such as <i>I like it and I fear it</i>, into one with a single <i>it</i> at the end. Which parts come before it?
 teacher:
-  summary: Helps explain right-edge sharing, where a final phrase completes two coordinated parts, as in knew of but never mentioned the proposal.
-  explain: 'In this construction, the first parts occur in a coordinate structure and a single constituent at the right edge is expressed once. In She knew of but never mentioned the proposal, the proposal completes both knew of and mentioned, though its functions differ across the two coordinates: it is the complement of a preposition in one and a direct object in the other. In I am interested in but worried about the new plan, different prepositions precede the delayed NP. Delay can foreground the contrast between the predicates. The pronounced NP satisfies two distinct local frames. The analysis is provisional.'
+  summary: Helps explain right-edge sharing, where a final phrase completes two coordinated parts, as in <i>knew of but never mentioned the proposal</i>.
+  explain: 'In this construction, the first parts occur in a coordinate structure and a single constituent at the right edge is expressed once. In <i>She knew of but never mentioned the proposal</i>, <i>the proposal</i> completes both <i>knew of</i> and <i>mentioned</i>, though its functions differ across the two coordinates: it is the complement of a preposition in one and a direct object in the other. In <i>I am interested in but worried about the new plan</i>, different prepositions precede the delayed NP. Delay can foreground the contrast between the predicates. The pronounced NP satisfies two distinct local frames. The analysis is provisional.'
   terms: Right-edge sharing is sometimes called right-node raising.
   examples:
     - text: She [knew of but never mentioned the proposal].
@@ -33,9 +33,9 @@ teacher:
       from: entry
       note: Different prepositions precede the delayed noun phrase.
   watch_for:
-    - A learner might think the proposal is the direct object of both verbs, when it follows the preposition of in the first part.
+    - A learner might think <i>the proposal</i> is the direct object of both verbs, when it follows the preposition <i>of</i> in the first part.
     - A learner might expect each half to have its own ending, when the shared ending is said once.
-  activity: Give students pairs of sentences about one object (I like it. I fear it.) and prepositional pairs (interested in, worried about). They combine each pair into one sentence with one shared ending and mark what comes before it in each part.
+  activity: Give students pairs of sentences about one object (<i>I like it. I fear it.</i>) and prepositional pairs (<i>interested in</i>, <i>worried about</i>). They combine each pair into one sentence with one shared ending and mark what comes before it in each part.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

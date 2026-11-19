@@ -10,23 +10,23 @@ dimensions:
 meanings:
   '1':
     definition: Lexical category heading preposition phrases, with optional complements for much of the class
-    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (in, on, of), objectless members traditionally called adverbs (home, abroad, ashore, upstairs; ago, with its obligatory pre-head measure modifier), the rare complement-head members (notwithstanding), and clause-taking members traditionally called subordinating conjunctions (because, although, while). See data/lexicon/gold/prepositions.yaml for the curated inventory."
+    details: "The CGEL category is much larger than the traditional one: it includes the traditional prepositions (<i>in</i>, <i>on</i>, <i>of</i>), objectless members traditionally called adverbs (<i>home</i>, <i>abroad</i>, <i>ashore</i>, <i>upstairs</i>; <i>ago</i>, with its obligatory pre-head measure modifier), the rare complement-head members (<i>notwithstanding</i>), and clause-taking members traditionally called subordinating conjunctions (<i>because</i>, <i>although</i>, <i>while</i>). See data/lexicon/gold/prepositions.yaml for the curated inventory."
     examples:
       - form: "[in] the garden"
-        note: "Transitive: the garden bears the object function within the PP"
+        note: "Transitive: <i>the garden</i> bears the object function within the PP"
       - form: "She waited [outside]."
         note: Intransitive use (no object)
       - form: "ten years [ago]"
-        note: "Intransitive, with an obligatory pre-head measure modifier (cf. ten years before Christ); the Constructionary rejects CGEL's complement analysis on p. 632"
+        note: "Intransitive, with an obligatory pre-head measure modifier (cf. <i>ten years before Christ</i>); the Constructionary rejects CGEL's complement analysis on p. 632"
       - form: "[because] it rained"
         note: Clause complement (traditional subordinating conjunction)
 constraints:
   - type: syntactic
-    description: Heads a PP; accepts right/straight modification in locative uses (right outside, straight home).
+    description: Heads a PP; accepts <i>right</i>/<i>straight</i> modification in locative uses (<i>right outside</i>, <i>straight home</i>).
 kind:
   provisional: true
   projection:
-    target: "Category membership predicts PP distribution (goal and locative complement positions, from-embedding for locative members, modifier positions), right/straight modifiability for locatives, and non-inflection"
+    target: "Category membership predicts PP distribution (goal and locative complement positions, from-embedding for locative members, modifier positions), <i>right</i>/<i>straight</i> modifiability for locatives, and non-inflection"
     evidence: "Distributional convergence across the traditional prepositions, the intransitive members, and the clause-taking members (CGEL Ch. 7)"
     confidence: medium
     grounds:

@@ -4,29 +4,29 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: A which clause that adds extra information
-  summary: A which clause after a name can add a separate piece of information about it.
+  title: A <i>which</i> clause that adds extra information
+  summary: A <i>which</i> clause after a name can add a separate piece of information about it.
   body: |-
-    In Jo visited Bath, which she had never seen before, the which clause adds a second statement. It tells us something more about Bath, a place already identified. It doesn't help us work out which place is meant.
+    In <i>Jo visited Bath, which she had never seen before</i>, the <i>which</i> clause adds a second statement. It tells us something more about Bath, a place already identified. It doesn't help us work out which place is meant.
 
-    A which clause can also add information about a larger anchor than a single noun. This dictionary notes that swapping in a bare that-relative generally fails to give the same added-information reading.
+    A <i>which</i> clause can also add information about a larger anchor than a single noun. This dictionary notes that swapping in a bare <i>that</i>-relative generally fails to give the same added-information reading.
 
     This dictionary marks the analysis as provisional and rests on one constructed illustration.
   examples:
     - text: Jo visited Bath, [which she had never seen before].
       from: entry
-  try: Add a which clause after the name of a place you know, and say what extra information it gives.
+  try: Add a <i>which</i> clause after the name of a place you know, and say what extra information it gives.
 teacher:
   summary: Helps explain which clauses that add information about an already identified referent, set off by commas.
-  explain: 'The pattern is an anchor followed by a supplementary wh-relative clause. It adds a separate predication about a referent or a larger anchor: in Jo visited Bath, which she had never seen before, the clause adds information about Bath, an already identified referent. Substituting bare that-relative syntax generally fails in the same supplementary reading. This dictionary marks the analysis as provisional and has one constructed illustration. It lists the relative word as a part of this pattern.'
+  explain: 'The pattern is an anchor followed by a supplementary wh-relative clause. It adds a separate predication about a referent or a larger anchor: in <i>Jo visited Bath, which she had never seen before</i>, the clause adds information about Bath, an already identified referent. Substituting bare <i>that</i>-relative syntax generally fails in the same supplementary reading. This dictionary marks the analysis as provisional and has one constructed illustration. It lists the relative word as a part of this pattern.'
   terms: 'Traditional grammar sometimes calls this a non-restrictive relative clause. CGEL: supplementary relative clause.'
   examples:
     - text: Jo visited Bath, [which she had never seen before].
       from: entry
   watch_for:
-    - A learner might read the which clause as helping to pick out which place is meant, when it adds information about a place already identified.
-    - A learner might swap in that for which and expect the same added-information reading.
-  activity: Students write a sentence naming a place, then add a which clause with extra information about it. A partner explains what the clause adds and whether it helps identify the place.
+    - A learner might read the <i>which</i> clause as helping to pick out which place is meant, when it adds information about a place already identified.
+    - A learner might swap in <i>that</i> for <i>which</i> and expect the same added-information reading.
+  activity: Students write a sentence naming a place, then add a <i>which</i> clause with extra information about it. A partner explains what the clause adds and whether it helps identify the place.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

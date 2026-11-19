@@ -1,11 +1,11 @@
 id: numerative-ten-001
-name: Ten Numerative
+name: "<i>ten</i> Numerative"
 pattern: "Det[ten]"
 type: syntactic
 dimensions:
   form: "Monomorphemic lexeme; base for teen and decade derivation"
   meaning: "Specifies cardinality of ten"
-  function: "Determiner, factor; morphological base for -teen and -ty"
+  function: "Determiner, factor; morphological base for <i>-teen</i> and <i>-ty</i>"
   distribution: "All basic numerative positions"
 meanings:
   '1':
@@ -36,6 +36,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Ten chapters uses ten directly with a plural nominal. In two tens, the separate cardinal two quantifies two realizations of the value and tens inflects. An independent use of ten does not force either analysis across contexts."
-    evidence: "Reynolds lists ten among the basic determinative forms and uses token nouns to establish separate noun distribution."
+    target: "<i>Ten chapters</i> uses <i>ten</i> directly with a plural nominal. In <i>two tens</i>, the separate cardinal <i>two</i> quantifies two realizations of the value and <i>tens</i> inflects. An independent use of <i>ten</i> does not force either analysis across contexts."
+    evidence: "Reynolds lists <i>ten</i> among the basic determinative forms and uses token nouns to establish separate noun distribution."
     confidence: medium

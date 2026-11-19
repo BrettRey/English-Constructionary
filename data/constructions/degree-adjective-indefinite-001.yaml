@@ -5,20 +5,20 @@ type: syntactic
 meanings:
   '1':
     definition: Degree word and adjective precede the indefinite article, expressing degree or extent of the adjectival property
-    details: "A degree-marked adjective phrase, including certain comparatives, precedes the indefinite article, inverting the normal order (cf. \"a big mess\" → \"how big a mess\"). Only compatible with indefinite \"a(n)\", not definite \"the\" (*\"how big the mess\"). The \"how\" variant can function as an interrogative phrase, fronting to clause-initial position. Variants differ in register. An intervening of is especially familiar in North American varieties and is more available with some degree phrases than others."
+    details: "A degree-marked adjective phrase, including certain comparatives, precedes the indefinite article, inverting the normal order (cf. \"<i>a big mess</i>\" → \"<i>how big a mess</i>\"). Only compatible with indefinite \"<i>a(n)</i>\", not definite \"<i>the</i>\" (*\"<i>how big the mess</i>\"). The \"<i>how</i>\" variant can function as an interrogative phrase, fronting to clause-initial position. Variants differ in register. An intervening <i>of</i> is especially familiar in North American varieties and is more available with some degree phrases than others."
     examples:
       - form: "[How big a mess] was it?"
         note: Interrogative; degree phrase fronted
       - form: "He's not [that good a teacher]."
-        note: Degree word \"that\"; negative context common
+        note: Degree word \"<i>that</i>\"; negative context common
       - form: "It was [too big a problem] to ignore."
-        note: Degree word \"too\" with infinitival complement
+        note: Degree word \"<i>too</i>\" with infinitival complement
       - form: "She's [so good a student] that she skipped a year."
-        note: Degree word \"so\" with result clause
+        note: Degree word \"<i>so</i>\" with result clause
       - form: "It's not [as big a deal] as you think."
-        note: Comparative \"as...as\" construction
+        note: Comparative \"<i>as...as</i>\" construction
       - form: "I've never seen [so big a crowd]."
-        note: "\"So\" variant; more literary than other degree words"
+        note: "\"<i>So</i>\" variant; more literary than other degree words"
       - form: "It's not [that big of a deal]."
         note: Of-insertion variant; common in North American English
       - form: "[more interesting a job] than I thought"
@@ -30,18 +30,18 @@ meanings:
             bears-on: attestation
 constraints:
   - type: syntactic
-    description: "Eligible phrases include those with how, so, too, that and as and certain comparatives. Ordinary very uses a different word order."
+    description: "Eligible phrases include those with <i>how</i>, <i>so</i>, <i>too</i>, <i>that</i> and <i>as</i> and certain comparatives. Ordinary <i>very</i> uses a different word order."
   - type: syntactic
-    description: "Article must be indefinite a(n); definite the is ungrammatical"
+    description: "Article must be indefinite <i>a(n)</i>; definite <i>the</i> is ungrammatical"
   - type: syntactic
-    description: "\"How\" variant can be interrogative, fronting to clause-initial position"
+    description: "\"<i>How</i>\" variant can be interrogative, fronting to clause-initial position"
   - type: pragmatic
-    description: "Acceptability and register depend on the degree phrase and the availability of the intervening of variant."
+    description: "Acceptability and register depend on the degree phrase and the availability of the intervening <i>of</i> variant."
 dimensions:
   form: Degree word + adjective + indefinite article + noun
   meaning: "Expresses degree/extent of adjectival property; scalar semantics"
   function: Degree modification with displaced adjective
-  distribution: "Common in speech and writing; competes with such a big N and a N that big"
+  distribution: "Common in speech and writing; competes with <i>such a big N</i> and <i>a N that big</i>"
 relatedConstructions:
   - id: indefinite-001
     relationship: interfaces-with
@@ -61,6 +61,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "An eligible degree phrase can precede a in too serious a problem. Ordinary very yields a very serious problem. Comparatives are also documented, and acceptability of of varies with the particular degree expression and variety."
-    evidence: "The FrameNet chapter gives the comparatives alongside so, as, how, that and too. It explicitly leaves the distribution of intervening of open."
+    target: "An eligible degree phrase can precede <i>a</i> in <i>too serious a problem</i>. Ordinary <i>very</i> yields <i>a very serious problem</i>. Comparatives are also documented, and acceptability of <i>of</i> varies with the particular degree expression and variety."
+    evidence: "The FrameNet chapter gives the comparatives alongside <i>so</i>, <i>as</i>, <i>how</i>, <i>that</i> and <i>too</i>. It explicitly leaves the distribution of intervening <i>of</i> open."
     confidence: medium

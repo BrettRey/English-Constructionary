@@ -5,19 +5,19 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Seeing something while it happens
-  summary: A verb of perceiving, a person, and an -ing verb together present the person as in the middle of an activity.
+  summary: A verb of perceiving, a person, and an <i>-ing</i> verb together present the person as in the middle of an activity.
   body: |-
-    In I saw Kai crossing the square, Kai is caught in the course of crossing. The -ing form describes the stretch of the event that was seen.
+    In <i>I saw Kai crossing the square</i>, Kai is caught in the course of crossing. The <i>-ing</i> form describes the stretch of the event that was seen.
 
-    That's why the sentence is compatible with leaving before Kai reached the other side. Seeing Kai crossing the square doesn't require seeing the crossing finished.
+    That's why the sentence is compatible with leaving before Kai reached the other side. <i>Seeing Kai crossing the square</i> doesn't require seeing the crossing finished.
   examples:
     - text: I [saw Kai crossing the square].
       from: entry
-  try: Could you say I saw Kai crossing the square if you left before Kai got to the other side?
+  try: Could you say <i>I saw Kai crossing the square</i> if you left before Kai got to the other side?
 teacher:
-  summary: Shows that see plus an NP and an -ing form can present only the phase of an event that was perceived.
-  explain: 'In this pattern a perception verb takes an NP followed by a gerund-participial predicate: saw Kai crossing the square. The -ing complement can describe the phase perceived. Seeing Kai crossing the square is compatible with leaving before Kai reached the other side. This dictionary presents this as provisional, with medium confidence, and cites CGEL on perception complements.'
-  terms: Gerund-participial is the form in -ing. Textbooks sometimes call it the present participle or -ing participle in this use.
+  summary: Shows that <i>see</i> plus an NP and an <i>-ing</i> form can present only the phase of an event that was perceived.
+  explain: 'In this pattern a perception verb takes an NP followed by a gerund-participial predicate: <i>saw Kai crossing the square</i>. The <i>-ing</i> complement can describe the phase perceived. <i>Seeing Kai crossing the square</i> is compatible with leaving before Kai reached the other side. This dictionary presents this as provisional, with medium confidence, and cites CGEL on perception complements.'
+  terms: Gerund-participial is the form in <i>-ing</i>. Textbooks sometimes call it the present participle or <i>-ing</i> participle in this use.
   examples:
     - text: I [saw Kai crossing the square].
       from: entry
@@ -29,17 +29,17 @@ teacher:
       from: constructed
       note: The plain form can present the closing as a whole (see the bare-infinitival entry).
   watch_for:
-    - A learner might assume that saw Kai crossing the square means the whole crossing was seen, when the -ing form can describe only the phase perceived.
-  activity: Show a short video clip and stop it midway. Students write what they saw, using saw plus a name and an -ing verb, and discuss whether the sentence needs the action to be finished.
+    - A learner might assume that <i>saw Kai crossing the square</i> means the whole crossing was seen, when the <i>-ing</i> form can describe only the phase perceived.
+  activity: Show a short video clip and stop it midway. Students write what they saw, using <i>saw</i> plus a name and an <i>-ing</i> verb, and discuss whether the sentence needs the action to be finished.
 child:
   hook: If you see someone crossing a street, did you see them get to the other side?
-  explain: The -ing word shows the person in the middle of doing something. You can say I saw Kai crossing the square even if you left before Kai got across.
+  explain: The <i>-ing</i> word shows the person in the middle of doing something. You can say <i>I saw Kai crossing the square</i> even if you left before Kai got across.
   examples:
     - text: I saw Kai crossing the square.
       from: entry
     - text: We saw Mia painting a fence.
       from: constructed
-  play: Look out of a window for one minute. Write what you saw people doing, using saw, a name and an -ing word.
+  play: Look out of a window for one minute. Write what you saw people doing, using <i>saw</i>, a name and an <i>-ing</i> word.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

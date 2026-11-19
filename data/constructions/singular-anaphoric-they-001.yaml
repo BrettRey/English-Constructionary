@@ -1,10 +1,10 @@
 id: singular-anaphoric-they-001
-name: Singular Anaphoric They
+name: "Singular Anaphoric <i>they</i>"
 pattern: anaphoric NP[they/them/their] with a singular referent or antecedent
 type: syntactic
 meanings:
   '1':
-    definition: Uses the they paradigm for a single antecedent, including a bound variable or a known person.
+    definition: Uses the <i>they</i> paradigm for a single antecedent, including a bound variable or a known person.
     examples:
       - form: Every applicant said [they were] ready.
         note: Constructed illustration.
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The antecedent can be singular while they takes ordinary they-agreement, such as were. The construction is compatible with bound readings and with specific references in suitable contexts.
+    target: The antecedent can be singular while <i>they</i> takes ordinary <i>they</i>-agreement, such as <i>were</i>. The construction is compatible with bound readings and with specific references in suitable contexts.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

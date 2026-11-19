@@ -1,5 +1,5 @@
 id: equative-as-as-001
-name: Scalar Equative As … As
+name: "Scalar Equative <i>as … as</i>"
 pattern: as + gradable expression + as-phrase/clause
 type: mixed
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The first as sets up a degree standard and the second introduces it. At least as wide explicitly allows a greater width and not as wide ordinarily implies a lower degree.
+    target: The first <i>as</i> sets up a degree standard and the second introduces it. <i>At least as wide</i> explicitly allows a greater width and <i>not as wide</i> ordinarily implies a lower degree.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

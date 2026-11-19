@@ -1,5 +1,5 @@
 id: concealed-passive-ing-001
-name: Concealed Passive in an -ing Complement
+name: "Concealed Passive in an <i>-ing</i> Complement"
 pattern: VP[need/want/require or other licensing V + gerund-participial]
 type: mixed
 meanings:
@@ -18,7 +18,7 @@ relatedConstructions:
     relationship: related-to
   - id: be-passive-001
     relationship: related-to
-    notes: The hinge needs oiling has a passive interpretation with an active gerund-participial. The hinge needs to be oiled expresses the passive overtly.
+    notes: <i>The hinge needs oiling</i> has a passive interpretation with an active gerund-participial. <i>The hinge needs to be oiled</i> expresses the passive overtly.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §2.3
@@ -27,6 +27,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The hinge is understood as what someone oils. A to-infinitival with analogous meaning normally requires passive morphology, as in needs to be oiled.
+    target: The hinge is understood as what someone oils. A <i>to</i>-infinitival with analogous meaning normally requires passive morphology, as in <i>needs to be oiled</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

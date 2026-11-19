@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: A semantic category in which an expression defines a set of logically possible answers
-    details: "Question is not a clause type and is not identified with the pragmatic act of making an inquiry. A question determines answerhood conditions: a closed question presents a delimited answer set, while an open question contains a variable whose possible values differentiate the answers. An answer supplies the relevant missing information; a conversational response need not do so. Questions can serve acknowledgement, wondering, examination, exposition, and indirect speech acts as well as information-seeking inquiry, and the same semantic category can be realized by syntactically different hosts (CGEL Ch. 10 §§4.1–4.3, pp. 865–72)."
+    details: "Question is not a clause type and is not identified with the pragmatic act of making an inquiry. A question determines answerhood conditions: a closed question presents a delimited answer set, while an open question contains a variable <i>who</i>se possible values differentiate the answers. An answer supplies the relevant missing information; a conversational response need not do so. Questions can serve acknowledgement, wondering, examination, exposition, and indirect speech acts as well as information-seeking inquiry, and the same semantic category can be realized by syntactically different hosts (CGEL Ch. 10 §§4.1–4.3, pp. 865–72)."
     examples:
       - form: "[Have you seen it?]"
         note: "Closed-interrogative Clause defining positive and negative answers"
@@ -20,7 +20,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: "[Who broke it?]"
-        note: "Open-interrogative Clause defining answers by values of the variable who"
+        note: "Open-interrogative Clause defining answers by values of the variable <i>who</i>"
         grounds:
           - source: cgel-2002
             locator: "Ch. 10 §4.1, p. 865"

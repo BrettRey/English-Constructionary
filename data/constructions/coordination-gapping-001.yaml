@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Contrasts corresponding elements of linked predications while leaving repeated medial material unspoken.
-    details: In Kim lives in Perth, Pat in Melbourne, the second clause is understood with lives. Both Pat and in Melbourne contrast with material in the first clause. The gap can contain more than the verb. The ordinary construction depends on a coordinate or closely parallel discourse relation.
+    details: In <i>Kim lives in Perth, Pat in Melbourne</i>, the second clause is understood with <i>lives</i>. Both <i>Pat</i> and <i>in Melbourne</i> contrast with material in the first clause. The gap can contain more than the verb. The ordinary construction depends on a coordinate or closely parallel discourse relation.
     examples:
       - form: '[Kim lives in Perth, Pat in Melbourne.]'
-        note: The second pair of contrasting expressions flanks the gap for lives.
+        note: The second pair of contrasting expressions flanks the gap for <i>lives</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 17 §7.8.4 [81i]
@@ -22,7 +22,7 @@ relatedConstructions:
     notes: The pattern can link coordinated clauses.
   - id: right-argument-cluster-coordination-001
     relationship: related-to
-    notes: Jo ordered tea and Kai coffee allows recovery of ordered in the second clause. Jo gave Kim tea and Kai coffee can instead coordinate two argument clusters under one subject and verb.
+    notes: <i>Jo ordered tea and Kai coffee</i> allows recovery of <i>ordered</i> in the second clause. <i>Jo gave Kim tea and Kai coffee</i> can instead coordinate two argument clusters under one subject and verb.
   - id: delayed-right-constituent-001
     relationship: related-to
     notes: Gapping leaves repeated predicative material unexpressed in a later coordinate. Right-edge sharing expresses a constituent once at the far right, with an interpretation in more than one coordinate.

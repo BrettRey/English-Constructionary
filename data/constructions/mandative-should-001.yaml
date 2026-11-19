@@ -1,5 +1,5 @@
 id: mandative-should-001
-name: Mandative Should
+name: "Mandative <i>should</i>"
 pattern: content clause[(that) + Subject + should + plain-form VP]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Should is possible with strongly requiring predicates such as essential. This modal need not weaken the strength of the matrix requirement.
+    target: <i>Should</i> is possible with strongly requiring predicates such as <i>essential</i>. This modal need not weaken the strength of the matrix requirement.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

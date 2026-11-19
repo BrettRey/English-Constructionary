@@ -4,10 +4,10 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Extra -ing and -ed phrases beside a sentence
-  summary: A phrase starting with an -ing or -ed verb can add a circumstance to a sentence, with its doer understood from the main clause.
+  title: Extra <i>-ing</i> and <i>-ed</i> phrases beside a sentence
+  summary: A phrase starting with an <i>-ing</i> or <i>-ed</i> verb can add a circumstance to a sentence, with its doer understood from the main clause.
   body: |-
-    In Hearing footsteps, Jo switched off the light, the phrase hearing footsteps adds a circumstance but doesn't say who heard. We understand that it was Jo. In Lee shut the door, startled by the noise, the -ed phrase is understood to be about Lee.
+    In <i>Hearing footsteps, Jo switched off the light</i>, the phrase <i>hearing footsteps</i> adds a circumstance but doesn't say who heard. We understand that it was Jo. In <i>Lee shut the door, startled by the noise</i>, the <i>-ed</i> phrase is understood to be about Lee.
 
     The doer is normally taken from the main part of the sentence. If the added phrase has its own subject, it's a different pattern, which this dictionary calls an absolute supplement. Some fixed phrases get their understood subject from the situation instead.
   examples:
@@ -15,9 +15,9 @@ curious:
       from: entry
     - text: Lee shut the door, [startled by the noise].
       from: entry
-  try: Say Hearing footsteps, Jo switched off the light. Who heard the footsteps? Where does the sentence tell you?
+  try: Say <i>Hearing footsteps, Jo switched off the light</i>. Who heard the footsteps? Where does the sentence tell you?
 teacher:
-  summary: Explains -ing and -ed phrases added to a main clause, and how their understood subject is recovered.
+  summary: Explains <i>-ing</i> and <i>-ed</i> phrases added to a main clause, and how their understood subject is recovered.
   explain: 'A subjectless participial supplement is a nonfinite phrase (V-ing or V-en plus dependents) anchored to a main clause. It adds a circumstance, and its understood subject is normally recovered from the anchor: Jo is the hearer in the first example, and Lee is the startled one in the second. A separate overt subject would support an absolute supplement instead. Some fixed discourse adjuncts use contextual subjects. This dictionary marks the analysis as provisional.'
   terms: Participial phrase is the traditional name. This dictionary calls the pattern a supplement because it's added to the clause and not required by it.
   examples:
@@ -34,7 +34,7 @@ teacher:
       note: A separate overt subject supports an absolute supplement instead.
   watch_for:
     - A learner might look for the understood subject inside the phrase, when it is recovered from the main clause.
-    - A learner might expect the subject of startled by the noise to be the door, when this dictionary takes it to be Lee.
+    - A learner might expect the subject of <i>startled by the noise</i> to be the door, when this dictionary takes it to be Lee.
   activity: Students underline the participial phrase in each of several sentences and circle who or what it is understood to be about. They then say how they know.
 checked:
   date: '2026-11-19'

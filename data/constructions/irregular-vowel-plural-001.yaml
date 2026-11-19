@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Plural agreement is expressed without ordinary -s. The pattern is confined to established pairs and does not productively pluralize arbitrarily similar nouns.
+    target: Plural agreement is expressed without ordinary <i>-s</i>. The pattern is confined to established pairs and does not productively pluralize arbitrarily similar nouns.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

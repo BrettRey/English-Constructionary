@@ -1,11 +1,11 @@
 id: all-of-magnitude-001
-name: All of with a Stated Magnitude
+name: "<i>all of</i> with a Stated Magnitude"
 pattern: all of + (approximator) + numeral expression, with no definite article after of
 type: mixed
 meanings:
   '1':
     definition: Calls attention to a stated magnitude relative to an expectation.
-    details: The numeral gives the measured or counted magnitude. A distinct approximator can still make it inexact. All of the fifty volunteers instead quantifies over a separately identified group. The direction of the evaluation in the magnitude use remains open and can be tested by varying the expectation while holding the magnitude fixed.
+    details: The numeral gives the measured or counted magnitude. A distinct approximator can still make it inexact. <i>All of the fifty volunteers</i> instead quantifies over a separately identified group. The direction of the evaluation in the magnitude use remains open and can be tested by varying the expectation while holding the magnitude fixed.
     examples:
       - form: They had recruited [all of fifty] volunteers.
         note: The magnitude supplies a count of the recruits.
@@ -31,13 +31,13 @@ meanings:
 relatedConstructions:
   - id: numerative-complex-001
     relationship: related-to
-    notes: The numeral supplies the magnitude independently of the all of expression.
+    notes: The numeral supplies the magnitude independently of the <i>all of</i> expression.
   - id: true-partitive-001
     relationship: related-to
-    notes: All of fifty volunteers emphasizes a magnitude. All of the fifty volunteers ranges over the established group.
+    notes: <i>All of fifty volunteers</i> emphasizes a magnitude. <i>All of the fifty volunteers</i> ranges over the established group.
 kind:
   provisional: true
   projection:
-    target: The pattern can retain about and its approximation while inviting an assessment of whether the magnitude is noteworthy in context.
+    target: The pattern can retain <i>about</i> and its approximation while inviting an assessment of whether the magnitude is noteworthy in context.
     evidence: CGEL's example and the two oral histories establish the form. The role of expectations is a proposal to test.
     confidence: low

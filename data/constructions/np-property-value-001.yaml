@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Uses an NP to supply or ask for the value of a property of the head noun’s referent.
-    details: The dependent NP supplies both a property and a value, as in shoes that size. In what size hat, the value is the requested information. CGEL analyzes the pre-head NP as determiner and the post-head NP as modifier. This entry records the shared interpretation. The lexical range of each position and the relation to predicative my age remain open.
+    details: The dependent NP supplies both a property and a value, as in <i>shoes that size</i>. In <i>what size hat</i>, the value is the requested information. CGEL analyzes the pre-head NP as determiner and the post-head NP as modifier. This entry records the shared interpretation. The lexical range of each position and the relation to predicative <i>my age</i> remain open.
     examples:
       - form: '[what size hat]'
         note: The interrogative NP asks for a value.

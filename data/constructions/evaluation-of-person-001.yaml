@@ -1,14 +1,14 @@
 id: evaluation-of-person-001
-name: Evaluative Adjective with Of and an Infinitival
+name: "Evaluative Adjective with <i>of</i> and an Infinitival"
 pattern: Clause[dummy it + be + Adj + PP[of + NPᵢ] + to-infinitival with understood subjectᵢ]
 type: mixed
 meanings:
   '1':
     definition: Evaluates a person’s conduct in doing or contemplating the action named by the infinitival.
-    details: In It was kind of you to call, of you supplies the participant whose action is evaluated. Compare It was difficult for you to call, where the assessment concerns the difficulty of your calling. With the relevant evaluative adjectives a context can supply the action instead, as in That was kind of you.
+    details: In <i>It was kind of you to call</i>, <i>of you</i> supplies the participant whose action is evaluated. Compare <i>It was difficult for you to call</i>, where the assessment concerns the difficulty of your calling. With the relevant evaluative adjectives a context can supply the action instead, as in <i>That was kind of you</i>.
     examples:
       - form: '[It is good of you to help.]'
-        note: You is the understood helper as well as the person being evaluated.
+        note: <i>You</i> is the understood helper as well as the person being evaluated.
         grounds:
           - source: cgel-2002
             locator: Ch. 7 §6.2 [18]
@@ -19,10 +19,10 @@ meanings:
 relatedConstructions:
   - id: subject-extraposition-001
     relationship: related-to
-    notes: Both occur with it and a following infinitival.
+    notes: Both occur with <i>it</i> and a following infinitival.
   - id: exclamative-clause-001
     relationship: related-to
-    notes: How kind of you to call uses the evaluative frame with exclamative packaging.
+    notes: <i>How kind of you to call</i> uses the evaluative frame with exclamative packaging.
 grounds:
   - source: casa-constructicon
     locator: records 52–53
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The of-phrase can remain with a referential that when the action is supplied by the context. In the corresponding difficult for pattern, who undertakes the difficult act is part of the clause with for.
-    evidence: CASA lists this adjective-of frame separately from the it-for-event frame. The contrast can be tested using the same action and participant.
+    target: The <i>of</i>-phrase can remain with a referential <i>that</i> when the action is supplied by the context. In the corresponding <i>difficult for</i> pattern, who undertakes the difficult act is part of the clause with <i>for</i>.
+    evidence: CASA lists this adjective-<i>of</i> frame separately from the it-for-event frame. The contrast can be tested using the same action and participant.
     confidence: high

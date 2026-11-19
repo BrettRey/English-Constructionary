@@ -16,7 +16,8 @@ const readYamlMeta = (filePath) => {
     if (data && typeof data === 'object') {
       return {
         id: data.id || null,
-        name: data.name || null,
+        // Names may mark mentions with <i>...</i>; this plain-text browser drops the tags.
+        name: data.name ? String(data.name).replace(/<\/?i>/g, '') : null,
         pattern: data.pattern || null,
         relatedConstructions: Array.isArray(data.relatedConstructions)
           ? data.relatedConstructions
@@ -260,7 +261,7 @@ const buildSourcesSection = () => {
     const sourceIds = new Set();
     collectGroundSources(doc, sourceIds);
     if (sourceIds.size === 0) return;
-    const ref = { id: doc.id || file, name: doc.name || null };
+    const ref = { id: doc.id || file, name: doc.name ? String(doc.name).replace(/<\/?i>/g, '') : null };
     sourceIds.forEach((sid) => record(sid, ref));
   });
 

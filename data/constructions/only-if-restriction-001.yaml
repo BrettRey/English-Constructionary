@@ -1,5 +1,5 @@
 id: only-if-restriction-001
-name: Necessary Condition Only If
+name: "Necessary Condition <i>only if</i>"
 pattern: (main clause) + only if + finite clause
 type: mixed
 meanings:

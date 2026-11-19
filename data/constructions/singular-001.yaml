@@ -53,6 +53,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The singular grammatical pattern travels across count and non-count uses. The water is cold has singular agreement although no distinct unit of water need have been selected."
+    target: "The singular grammatical pattern travels across count and non-count uses. <i>The water is cold</i> has singular agreement although no distinct unit of water need have been selected."
     evidence: "CGEL separates number agreement and countability, including singular morphology for non-count nouns."
     confidence: medium

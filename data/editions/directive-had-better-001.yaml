@@ -4,10 +4,10 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Advice with had better
-  summary: Had better recommends a course of action and often hints at a bad result if it isn't followed.
+  title: Advice with <i>had better</i>
+  summary: <i>Had better</i> recommends a course of action and often hints at a bad result if it isn't followed.
   body: |-
-    In You had better bring the receipt, the speaker recommends bringing it. The words had better work together as a fixed unit, and the verb after them, bring, is in its plain form.
+    In <i>You had better bring the receipt</i>, the speaker recommends bringing it. The words <i>had better</i> work together as a fixed unit, and the verb after them, <i>bring</i>, is in its plain form.
 
     The recommendation often carries a hint of what could go wrong otherwise, so it can feel stronger than a simple suggestion.
   examples:
@@ -15,27 +15,27 @@ curious:
       from: entry
     - text: You [had better take] a coat.
       from: constructed
-  try: Think of a time you gave someone strong advice. Could you have said it with had better?
+  try: Think of a time you gave someone strong advice. Could you have said it with <i>had better</i>?
 teacher:
-  summary: Helps explain had better as a fixed unit recommending an action, followed by the plain form of a verb.
-  explain: The directive had better is a VP with fixed had and better followed by a plain infinitival, as in You had better bring the receipt. It recommends a course of action, often implying an adverse consequence otherwise. This dictionary relates it to modal verbs with plain complements, because the verb after it is the plain form, as it is after a modal.
+  summary: Helps explain <i>had better</i> as a fixed unit recommending an action, followed by the plain form of a verb.
+  explain: The directive <i>had better</i> is a VP with fixed <i>had</i> and <i>better</i> followed by a plain infinitival, as in <i>You had better bring the receipt</i>. It recommends a course of action, often implying an adverse consequence otherwise. This dictionary relates it to modal verbs with plain complements, because the verb after it is the plain form, as it is after a modal.
   terms: This dictionary treats it as a fixed VP pattern related to modal verbs.
   examples:
     - text: You [had better bring] the receipt.
       from: entry
   watch_for:
-    - A learner might add to before the verb, though the pattern takes the plain form (bring).
-    - A learner might hear had as signalling past time, when the pattern recommends an action.
-  activity: Give students short scenarios (a rainy day, a test, a train leaving). They write one had better sentence advising a character, then add what might go wrong otherwise.
+    - A learner might add <i>to</i> before the verb, though the pattern takes the plain form (<i>bring</i>).
+    - A learner might hear <i>had</i> as signalling past time, when the pattern recommends an action.
+  activity: Give students short scenarios (a rainy day, a test, a train leaving). They write one <i>had better</i> sentence advising a character, then add what might go wrong otherwise.
 child:
   hook: What do you say when you really need a friend to hurry?
-  explain: Had better is how you tell someone what is a good idea to do. It can hint that something bad might happen if they don't.
+  explain: <i>Had better</i> is how you tell someone what is a good idea to do. It can hint that something bad might happen if they don't.
   examples:
     - text: You [had better bring] your coat.
       from: constructed
     - text: We [had better leave] now.
       from: constructed
-  play: Make a had better sentence for each picture in a story. Then say what might go wrong.
+  play: Make a <i>had better</i> sentence for each picture in a story. Then say what might go wrong.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

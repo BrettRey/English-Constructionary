@@ -1,21 +1,21 @@
 id: of-genitive-own-001
-name: Of with a Genitive Pronoun and Own
+name: "<i>X of one’s own</i>"
 pattern: NP[... N + PP[of + NP[dependent genitive pronoun + own]]]
 type: mixed
 meanings:
   '1':
     definition: Presents an entity as set aside for someone’s ownership or independent use.
-    details: My own uses the dependent genitive form. CGEL contrasts a car of my own and a car of mine. Harjo’s motel-room example specifies independent use through rental. Comparing a room of her own with her own room and a room of hers in the same new rental context would help show which contribution belongs to the of pattern.
+    details: <i>My own</i> uses the dependent genitive form. CGEL contrasts <i>a car of my own</i> and <i>a car of mine</i>. Harjo’s motel-room example specifies independent use through rental. Comparing <i>a room of her own</i> with <i>her own room</i> and <i>a room of hers</i> in the same new rental context would help show which contribution belongs to the of pattern.
     examples:
       - form: I’ve got [a car of my own].
-        note: CGEL's special use of own.
+        note: CGEL's special use of <i>own</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 5 §16.7(b), p. 483 [74ii b]
             relation: attests
             bears-on: attestation
       - form: '[a room all of my own]'
-        note: All can emphasize the relation.
+        note: <i>All</i> can emphasize the relation.
         grounds:
           - source: cgel-2002
             locator: Ch. 5 §16.7(b), p. 483, Modification
@@ -31,13 +31,13 @@ meanings:
 relatedConstructions:
   - id: independent-genitive-pronoun-001
     relationship: related-to
-    notes: Of mine is the corresponding pronoun pattern without own.
+    notes: <i>Of mine</i> is the corresponding pronoun pattern without <i>own</i>.
   - id: demonstrative-oblique-genitive-001
     relationship: related-to
-    notes: Both involve of and genitive forms. The own phrase uses the dependent form of the pronoun.
+    notes: Both involve <i>of</i> and genitive forms. The <i>own</i> phrase uses the dependent form of the pronoun.
 kind:
   provisional: true
   projection:
-    target: The construction can describe independent use without legal ownership, and uses my own where the simple genitive would have mine.
-    evidence: CGEL's form contrast and Harjo's rental example. The pre-head own comparison remains a proposed test.
+    target: The construction can describe independent use without legal ownership, and uses <i>my own</i> where the simple genitive would have <i>mine</i>.
+    evidence: CGEL's form contrast and Harjo's rental example. The pre-head <i>own</i> comparison remains a proposed test.
     confidence: medium

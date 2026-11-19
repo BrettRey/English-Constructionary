@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Expresses a reaction through the action named by the verb.
-    details: In smiled her thanks, the smile is the means of expressing thanks. The NP can denote an attitude, communicative response, or emotion. The verb need not ordinarily take an object of this type. The sources distinguish the pattern from a cognate object naming the event itself and report restrictions on passive versions.
+    details: In <i>smiled her thanks</i>, the smile is the means of expressing thanks. The NP can denote an attitude, communicative response, or emotion. The verb need not ordinarily take an object of this type. The sources distinguish the pattern from a cognate object naming the event itself and report restrictions on passive versions.
     examples:
       - form: She [nodded satisfaction].
         note: Published example. The NP denotes the attitude expressed by the nod.
@@ -30,7 +30,7 @@ relatedConstructions:
     notes: A cognate NP characterizes the action itself.
   - id: subject-genitive-superlative-001
     relationship: related-to
-    notes: Smiled her sweetest grades the smile rather than identifying a reaction expressed by it.
+    notes: <i>Smiled her sweetest</i> grades the smile rather than identifying a reaction expressed by it.
 grounds:
   - source: bouso-2022-reaction-object
     locator: article

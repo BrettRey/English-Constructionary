@@ -1,5 +1,5 @@
 id: imperative-or-warning-001
-name: Imperative Plus Or with a Warning
+name: "Imperative Plus <i>or</i> with a Warning"
 pattern: Clause[imperative] + or + declarative consequence
 type: mixed
 meanings:

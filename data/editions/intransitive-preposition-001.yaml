@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Prepositions with no object
-  summary: Some prepositions can do their job without a noun phrase after them, as outside does in She waited outside.
+  summary: Some prepositions can do their job without a noun phrase after them, as <i>outside</i> does in <i>She waited outside</i>.
   body: |-
-    Take in the garden: the preposition in has an object, the garden. But in She waited outside, outside stands alone. It has no object, yet it's still the same kind of word, a preposition.
+    Take <i>in the garden</i>: the preposition <i>in</i> has an object, <i>the garden</i>. But in <i>She waited outside</i>, <i>outside</i> stands alone. It has no object, yet it's still the same kind of word, a preposition.
 
-    No object doesn't mean nothing follows. A preposition can take a phrase, as in owing to the rain, a description, as in as satisfactory, or a whole clause, as in because it rained. What it lacks is a noun phrase object.
+    No object doesn't mean nothing follows. A preposition can take a phrase, as in <i>owing to the rain</i>, a description, as in <i>as satisfactory</i>, or a whole clause, as in <i>because it rained</i>. What it lacks is a noun phrase object.
   examples:
     - text: She waited [outside].
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: That counts [as satisfactory].
       from: entry
-  try: Say We waited outside and We waited outside the gate. What does the gate add?
+  try: Say <i>We waited outside</i> and <i>We waited outside the gate</i>. What does <i>the gate</i> add?
 teacher:
   summary: Explains that prepositions can be intransitive, lacking an object, without lacking a complement.
-  explain: 'Intransitive here means no object, not no complement. A preposition without an NP object can be complementless, as in outside, or can take a PP complement (owing to the rain), a predicative complement (as satisfactory), or a clause complement (because it rained). The category remains preposition throughout. The PP can function as complement, modifier, adjunct or predicative. For complementless locative members such as outside, right or straight modification and from-embedding help distinguish PPs from adverb phrases: right outside, straight home, from abroad. This dictionary gives ago as intransitive-only, with an obligatory pre-head measure modifier, as in ten years ago. This dictionary marks the analysis as provisional.'
-  terms: A word like outside in this use is sometimes called an adverb. CGEL, and this dictionary, treat them as prepositions heading PPs without an object.
+  explain: 'Intransitive here means no object, not no complement. A preposition without an NP object can be complementless, as in <i>outside</i>, or can take a PP complement (<i>owing to the rain</i>), a predicative complement (<i>as satisfactory</i>), or a clause complement (<i>because it rained</i>). The category remains preposition throughout. The PP can function as complement, modifier, adjunct or predicative. For complementless locative members such as <i>outside</i>, <i>right</i> or <i>straight</i> modification and <i>from</i>-embedding help distinguish PPs from adverb phrases: <i>right outside</i>, <i>straight home</i>, <i>from abroad</i>. This dictionary gives <i>ago</i> as intransitive-only, with an obligatory pre-head measure modifier, as in <i>ten years ago</i>. This dictionary marks the analysis as provisional.'
+  terms: A word like <i>outside</i> in this use is sometimes called an adverb. CGEL, and this dictionary, treat them as prepositions heading PPs without an object.
   examples:
     - text: She waited [outside].
       from: entry
@@ -46,7 +46,7 @@ teacher:
       note: The same word with a noun phrase object.
   watch_for:
     - A learner might think a preposition must be followed by a noun phrase.
-    - A learner might read no object as meaning no complement, when to the rain (after owing) and it rained (after because) are complements.
+    - A learner might read no object as meaning no complement, when <i>to the rain</i> (after <i>owing</i>) and <i>it rained</i> (after <i>because</i>) are complements.
   activity: Students list prepositions from a text and sort each use by whether a noun phrase object follows. They then find uses with a PP, predicative or clause complement.
 checked:
   date: '2026-11-19'

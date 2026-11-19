@@ -7,19 +7,19 @@ curious:
   title: Hearing or seeing something happen
   summary: A verb of perceiving, a person or thing, and a plain verb form together present what was perceived as an event.
   body: |-
-    In We heard Kai close the latch, the closing is something we perceived directly, and the plain verb form close names it. Here the closing can be presented as a whole event.
+    In <i>We heard Kai close the latch</i>, the closing is something we perceived directly, and the plain verb form <i>close</i> names it. Here the closing can be presented as a whole event.
 
-    Compare We heard Kai closing the latch. The -ing form presents the closing as it was going on, a stretch of the event rather than the whole of it. Both sentences report hearing, and the choice between the plain form and the -ing form changes how the event is framed.
+    Compare <i>We heard Kai closing the latch</i>. The <i>-ing</i> form presents the closing as it was going on, a stretch of the event rather than the whole of it. Both sentences report hearing, and the choice between the plain form and the <i>-ing</i> form changes how the event is framed.
   examples:
     - text: We [heard Kai close the latch].
       from: entry
     - text: We [heard Kai closing the latch].
       from: entry
-  try: Say We heard Kai close the latch and We heard Kai closing the latch. Which one sounds like you caught only part of it?
+  try: Say <i>We heard Kai close the latch</i> and <i>We heard Kai closing the latch</i>. Which one sounds like you caught only part of it?
 teacher:
-  summary: Useful for showing how a plain verb form after see or hear frames an event as a whole, compared with an -ing form.
-  explain: 'In this pattern a perception verb is followed by an NP and a bare infinitival: heard Kai close the latch. The NP is the perceived participant and the plain form follows it. The construction can present the event as a whole, while the gerund-participial alternative (heard Kai closing the latch) can target an ongoing phase. This dictionary marks this contrast as provisional, with medium confidence, and cites CGEL on perception complements.'
-  terms: A bare infinitival is the plain form of the verb with no to. Textbooks sometimes call the two patterns the bare infinitive and the -ing participle after verbs of perception.
+  summary: Useful for showing how a plain verb form after <i>see</i> or <i>hear</i> frames an event as a whole, compared with an <i>-ing</i> form.
+  explain: 'In this pattern a perception verb is followed by an NP and a bare infinitival: <i>heard Kai close the latch</i>. The NP is the perceived participant and the plain form follows it. The construction can present the event as a whole, while the gerund-participial alternative (<i>heard Kai closing the latch</i>) can target an ongoing phase. This dictionary marks this contrast as provisional, with medium confidence, and cites CGEL on perception complements.'
+  terms: A bare infinitival is the plain form of the verb with no <i>to</i>. Textbooks sometimes call the two patterns the bare infinitive and the <i>-ing</i> participle after verbs of perception.
   examples:
     - text: We [heard Kai close the latch].
       from: entry
@@ -34,17 +34,17 @@ teacher:
       note: The occurrence presented in progress.
   watch_for:
     - A learner might treat the two forms as interchangeable, when this dictionary says they present the event differently.
-    - A learner might add to before the plain verb after heard Kai.
-  activity: Describe a short action (a door shutting, a ball being kicked). Students write one sentence with the plain verb form and one with the -ing form after saw or heard, then say which presents the whole event.
+    - A learner might add <i>to</i> before the plain verb after <i>heard Kai</i>.
+  activity: Describe a short action (a door shutting, a ball being kicked). Students write one sentence with the plain verb form and one with the <i>-ing</i> form after <i>saw</i> or <i>heard</i>, then say which presents the whole event.
 child:
   hook: What is the difference between hearing someone close a door and hearing someone closing it?
-  explain: Both sentences tell what you heard. We heard Kai close the latch can mean the whole closing. We heard Kai closing the latch can mean it was happening as we listened.
+  explain: Both sentences tell what you heard. <i>We heard Kai close the latch</i> can mean the whole closing. <i>We heard Kai closing the latch</i> can mean it was happening as we listened.
   examples:
     - text: We heard Kai close the latch.
       from: entry
     - text: We heard Kai closing the latch.
       from: entry
-  play: Take turns doing a short action, like shutting a book. The others say what they saw, once with the plain verb and once with the -ing word.
+  play: Take turns doing a short action, like shutting a book. The others say what they saw, once with the plain verb and once with the <i>-ing</i> word.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

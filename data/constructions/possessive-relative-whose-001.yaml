@@ -1,5 +1,5 @@
 id: possessive-relative-whose-001
-name: Genitive Whose Relative
+name: "Genitive <i>whose</i> Relative"
 pattern: relative[NP[whose + Nom]ᵢ + clause with linked positionᵢ]
 type: syntactic
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Whose tracks the antecedent engineer, but the whole NP whose report is the subject of had leaked. The antecedent can also be nonhuman.
+    target: "<i>Whose</i> tracks the antecedent <i>engineer</i>, but the whole NP <i>whose report</i> is the subject of <i>had leaked</i>. The antecedent can also be nonhuman."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

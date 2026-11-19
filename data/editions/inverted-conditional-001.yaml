@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Conditions without if
-  summary: Putting had, were or should before the subject can set up a condition without using if.
+  title: Conditions without <i>if</i>
+  summary: Putting <i>had</i>, <i>were</i> or <i>should</i> before the subject can set up a condition without using <i>if</i>.
   body: |-
-    Had you called, we could have picked you up corresponds to If you had called, we could have picked you up. The auxiliary comes before the subject, and if drops out.
+    <i>Had you called, we could have picked you up</i> corresponds to <i>If you had called, we could have picked you up</i>. The auxiliary comes before the subject, and <i>if</i> drops out.
 
-    Were and should work the same way, as in Were I in charge, I would change it and Should you need help, call this number. Other auxiliaries don't freely enter this frame. In the central standard pattern the negative comes after the subject, as in Had you not called.
+    <i>Were</i> and <i>should</i> work the same way, as in <i>Were I in charge, I would change it</i> and <i>Should you need help, call this number</i>. Other auxiliaries don't freely enter this frame. In the central standard pattern the negative comes after the subject, as in <i>Had you not called</i>.
   examples:
     - text: '[Had you called], we could have picked you up.'
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: '[Were I in charge], I would change it.'
       from: entry
-  try: Rewrite If you had known, I'd have told you without if. Which word moves, and where does it go?
+  try: Rewrite <i>If you had known, I'd have told you</i> without <i>if</i>. Which word moves, and where does it go?
 teacher:
-  summary: Covers had/were/should plus subject conditionals such as Had you called, an alternative to if.
-  explain: The pattern introduces a condition through auxiliary-subject order without if. Had you known corresponds to If you had known, and were and should license the same order in their own conditional uses. Other auxiliaries don't freely enter this frame, and substituting an ordinary modal such as would fails to preserve the construction. In the central standard pattern the negative is separate, as in Had you not called. The same order can express a question, with a wider range of auxiliaries. This dictionary marks the analysis as provisional.
+  summary: Covers <i>had</i>/<i>were</i>/<i>should</i> plus subject conditionals such as <i>Had you called</i>, an alternative to <i>if</i>.
+  explain: The pattern introduces a condition through auxiliary-subject order without <i>if</i>. <i>Had you known</i> corresponds to <i>If you had known</i>, and <i>were</i> and <i>should</i> license the same order in their own conditional uses. Other auxiliaries don't freely enter this frame, and substituting an ordinary modal such as <i>would</i> fails to preserve the construction. In the central standard pattern the negative is separate, as in <i>Had you not called</i>. The same order can express a question, with a wider range of auxiliaries. This dictionary marks the analysis as provisional.
   terms: Sometimes called conditional inversion. This dictionary treats the order as the same auxiliary-subject order seen in closed interrogatives.
   examples:
     - text: '[Had you called], we could have picked you up.'
@@ -32,14 +32,14 @@ teacher:
   contrasts:
     - text: If you had called, we could have picked you up.
       from: constructed
-      note: Ordinary order with if.
+      note: Ordinary order with <i>if</i>.
     - text: Had you called, we could have picked you up.
       from: entry
-      note: Auxiliary before subject, no if.
+      note: Auxiliary before subject, no <i>if</i>.
   watch_for:
     - A learner might think any auxiliary or modal can start such a clause.
-    - A learner might confuse Had you called with a question, since the word order is the same.
-  activity: Students rewrite if-conditionals with had, were and should, then try rewriting one with another auxiliary and discuss what the dictionary says about that.
+    - A learner might confuse <i>Had you called</i> with a question, since the word order is the same.
+  activity: Students rewrite <i>if</i>-conditionals with <i>had</i>, <i>were</i> and <i>should</i>, then try rewriting one with another auxiliary and discuss what the dictionary says about that.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

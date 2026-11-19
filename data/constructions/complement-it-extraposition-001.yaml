@@ -1,10 +1,10 @@
 id: complement-it-extraposition-001
-name: Object It with an Extraposed Content Clause
+name: "Object <i>it</i> with an Extraposed Content Clause"
 pattern: VP[V + it + predicative or other complement + content clause]
 type: syntactic
 meanings:
   '1':
-    definition: Places propositional content after the other complements with it in an earlier object position.
+    definition: Places propositional content after the other complements with <i>it</i> in an earlier object position.
     examples:
       - form: We [found it surprising that the lights were on].
         note: Constructed illustration.
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: It fills the object slot and need not refer to a prior NP. The corresponding sequence found that the lights were on surprising is heavily degraded.
+    target: <i>It</i> fills the object slot and need not refer to a prior NP. The corresponding sequence <i>found that the lights were on surprising</i> is heavily degraded.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

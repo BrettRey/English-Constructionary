@@ -19,7 +19,7 @@ semanticType: reference
 relatedConstructions:
   - id: np-def-001
     relationship: related-to
-    notes: "The old men shows the same modification inside an article-marked NP."
+    notes: "<i>The old men</i> shows the same modification inside an article-marked NP."
   - id: nom-adjp-mod-001
     relationship: related-to
   - id: nom-prehead-mod-001
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In a clause such as Old men were waiting, the modified bare plural can be an ordinary subject without an article. In the same episodic use an old man needs the article. The difference in bare licensing follows the head’s count and number profile and survives expansion to very old."
+    target: "In a clause such as <i>Old men were waiting</i>, the modified bare plural can be an ordinary subject without an article. In the same episodic use <i>an old man</i> needs the article. The difference in bare licensing follows the head’s count and number profile and survives expansion to <i>very old</i>."
     evidence: "CGEL gives the range of attributive AdjPs and the ordinary order within the nominal."
     confidence: medium

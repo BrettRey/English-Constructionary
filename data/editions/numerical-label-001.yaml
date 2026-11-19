@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Names made of numbers
-  summary: A word like Room or Highway followed by a number can work as the name of one particular thing.
+  summary: A word like <i>Room</i> or <i>Highway</i> followed by a number can work as the name of one particular thing.
   body: |-
-    Some places and things are named with a number. Room 101 is one specific room, Highway 401 is one specific highway, and Flight 447 is one specific flight. In these names the number doesn't count anything. It says which room, which highway or which flight you mean.
+    Some places and things are named with a number. <i>Room 101</i> is one specific room, <i>Highway 401</i> is one specific highway, and <i>Flight 447</i> is one specific flight. In these names the number doesn't count anything. It says which room, which highway or which flight you mean.
 
-    That's why the number behaves like part of a name rather than like a quantity. Compare Room 101 with 101 rooms: in the second, the number tells you how many rooms there are. In the first, it picks out a single room in a system of labels.
+    That's why the number behaves like part of a name rather than like a quantity. Compare <i>Room 101</i> with <i>101 rooms</i>: in the second, the number tells you how many rooms there are. In the first, it picks out a single room in a system of labels.
   examples:
   - text: '[Room 101] contains our archives.'
     from: constructed
@@ -21,9 +21,9 @@ curious:
     from: entry
   try: Try swapping the number in a name you know, such as a room or a flight. Do you now mean a different thing, or a different amount of the same thing?
 teacher:
-  summary: Useful for explaining why a number after a noun like Room can be a name rather than a quantity.
-  explain: 'In Room 101, the number is a cardinal noun that names the thing, and the whole phrase is a bare NP (it has no determiner of its own) used as a proper name. On this dictionary''s analysis, the first word, Room, is an embellishment of the name rather than an attributive modifier, and it gives the kind of thing named. The number doesn''t say how many: it points to one unique entity through a labelling system. Compare 101 rooms, where 101 is a quantity that counts rooms. In 20 Pheasant Street the number comes first, before the street name, unlike Room 101 and Flight 447.'
-  terms: 'Cardinal noun: a number word used as a noun. Embellishment: this dictionary''s label for the non-numeral word (Room, Highway). CGEL analyzes the comparable Ward in Ward 17 differently, as a descriptor inside the name.'
+  summary: Useful for explaining why a number after a noun like <i>Room</i> can be a name rather than a quantity.
+  explain: 'In <i>Room 101</i>, the number is a cardinal noun that names the thing, and the whole phrase is a bare NP (it has no determiner of its own) used as a proper name. On this dictionary''s analysis, the first word, <i>Room</i>, is an embellishment of the name rather than an attributive modifier, and it gives the kind of thing named. The number doesn''t say how many: it points to one unique entity through a labelling system. Compare <i>101 rooms</i>, where <i>101</i> is a quantity that counts rooms. In <i>20 Pheasant Street</i> the number comes first, before the street name, unlike <i>Room 101</i> and <i>Flight 447</i>.'
+  terms: 'Cardinal noun: a number word used as a noun. Embellishment: this dictionary''s label for the non-numeral word (<i>Room</i>, <i>Highway</i>). CGEL analyzes the comparable <i>Ward</i> in <i>Ward 17</i> differently, as a descriptor inside the name.'
   examples:
   - text: '[Room 101]'
     from: entry
@@ -41,12 +41,12 @@ teacher:
     from: constructed
     note: The number counts rooms.
   watch_for:
-  - A learner might read Room 101 as one hundred and one rooms.
-  - A learner might think 20 Pheasant Street is a count of something rather than an address.
-  activity: Give pairs of cards, one showing a label (Highway 401, Flight 447) and one showing a quantity (401 highways, 447 flights). Students sort them into "names one thing" and "counts things", then say how they decided.
+  - A learner might read <i>Room 101</i> as one hundred and one rooms.
+  - A learner might think <i>20 Pheasant Street</i> is a count of something rather than an address.
+  activity: Give pairs of cards, one showing a label (<i>Highway 401</i>, <i>Flight 447</i>) and one showing a quantity (<i>401 highways</i>, <i>447 flights</i>). Students sort them into "names one thing" and "counts things", then say how they decided.
 child:
-  hook: If you're in Room 101, are you in a hundred and one rooms?
-  explain: Sometimes a number is a name. Room 101 is just one room, and the number tells you which one. In 101 rooms, the number tells you how many.
+  hook: If you're in <i>Room 101</i>, are you in a hundred and one rooms?
+  explain: Sometimes a number is a name. <i>Room 101</i> is just one room, and the number tells you which one. In <i>101 rooms</i>, the number tells you how many.
   examples:
   - text: Our class is in [Room 101].
     from: constructed

@@ -4,21 +4,21 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Nouns that come with a that-clause
-  summary: A noun such as claim or fact can be followed by a clause that spells out its content.
+  title: Nouns that come with a <i>that</i>-clause
+  summary: A noun such as <i>claim</i> or <i>fact</i> can be followed by a clause that spells out its content.
   body: |-
-    In The claim that Jo knew the code surprised us, the that-clause says what the claim was: Jo knew the code. Nothing in that clause is missing or points back to claim.
+    In <i>The claim that Jo knew the code surprised us</i>, the <i>that</i>-clause says what the claim was: <i>Jo knew the code</i>. Nothing in that clause is missing or points back to <i>claim</i>.
 
-    Compare The claim that Jo rejected surprised us. Here Jo rejected the claim, so the clause is missing something, the thing rejected, and that something is the claim. The rumour that Jo had left gives the content of the rumour. The rumour that Jo spread works like the second claim sentence: it has a missing object that is the rumour.
+    Compare <i>The claim that Jo rejected surprised us</i>. Here Jo rejected the claim, so the clause is missing something, the thing rejected, and that something is the claim. <i>The rumour that Jo had left</i> gives the content of the rumour. <i>The rumour that Jo spread</i> works like the second claim sentence: it has a missing object that is the rumour.
   examples:
     - text: The [claim that Jo knew the code] surprised us.
       from: entry
     - text: The claim [that Jo rejected] surprised us.
       from: entry
-  try: Compare the rumour that Jo had left and the rumour that Jo spread. In which one is something missing from the clause?
+  try: Compare <i>the rumour that Jo had left</i> and <i>the rumour that Jo spread</i>. In which one is something missing from the clause?
 teacher:
   summary: Helps students separate a noun's content clause from a relative clause that looks the same.
-  explain: 'A noun such as claim or fact can take a finite content clause that supplies the propositional content associated with it: the claim that Jo knew the code. The embedded clause (Jo knew the code) is complete and has no gap linked to claim. In the claim that Jo rejected, the string that Jo rejected, which opens like the content clause above, is an integrated relative clause with an object gap corresponding to claim. So a clause after a noun can be a content clause or a relative clause, and the difference is whether the clause has a gap linked to the noun.'
+  explain: 'A noun such as <i>claim</i> or <i>fact</i> can take a finite content clause that supplies the propositional content associated with it: <i>the claim that Jo knew the code</i>. The embedded clause (<i>Jo knew the code</i>) is complete and has no gap linked to <i>claim</i>. In <i>the claim that Jo rejected</i>, the string <i>that Jo rejected</i>, which opens like the content clause above, is an integrated relative clause with an object gap corresponding to <i>claim</i>. So a clause after a noun can be a content clause or a relative clause, and the difference is whether the clause has a gap linked to the noun.'
   terms: 'Content clause: a clause giving propositional content. Integrated relative: a relative clause closely tied to its noun.'
   examples:
     - text: The [claim that Jo knew the code] surprised us.
@@ -31,11 +31,11 @@ teacher:
       note: Content clause. It gives the content of the rumour; nothing is missing.
     - text: The rumour that Jo spread surprised us.
       from: constructed
-      note: Integrated relative. The clause has an object gap linked to rumour.
+      note: Integrated relative. The clause has an object gap linked to <i>rumour</i>.
   watch_for:
-    - A learner might treat the claim that Jo rejected as a content clause, when Jo rejected the claim and the clause has a gap.
-    - A learner might assume that-clauses after a noun all work alike, when the gap test separates two types.
-  activity: Give students noun phrases like the rumour that Jo had left and the rumour that Jo spread. They test each by asking whether the clause has a gap linked to the noun (what was spread?), then label content clause or relative clause.
+    - A learner might treat <i>the claim that Jo rejected</i> as a content clause, when Jo rejected the claim and the clause has a gap.
+    - A learner might assume <i>that</i>-clauses after a noun all work alike, when the gap test separates two types.
+  activity: Give students noun phrases like <i>the rumour that Jo had left</i> and <i>the rumour that Jo spread</i>. They test each by asking whether the clause has a gap linked to the noun (<i>what was spread?</i>), then label content clause or relative clause.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

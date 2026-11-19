@@ -14,10 +14,10 @@ relatedConstructions:
     parthood: formal
   - id: collective-agreement-001
     relationship: related-to
-    notes: Three litres is enough treats a measurement as one amount. A collective NP such as the committee can allow plural agreement on a member-oriented reading.
+    notes: <i>Three litres is enough</i> treats a measurement as one amount. A collective NP such as <i>the committee</i> can allow plural agreement on a member-oriented reading.
   - id: measure-pseudopartitive-001
     relationship: interfaces-with
-    notes: A measure pseudopartitive can be the subject of singular amount agreement, as in Three litres of milk is enough.
+    notes: A measure pseudopartitive can be the subject of singular amount agreement, as in <i>Three litres of milk is enough</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §18.3, measure phrases

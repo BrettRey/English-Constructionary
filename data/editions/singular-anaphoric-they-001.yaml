@@ -4,40 +4,40 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: They for one person
-  summary: They, them and their can point back to a single person, and the verb still agrees as it does with they.
+  title: <i>They</i> for one person
+  summary: <i>They</i>, <i>them</i> and <i>their</i> can point back to a single person, and the verb still agrees as it does with <i>they</i>.
   body: |-
-    In Every applicant said they were ready, the word they refers back to every applicant, taken one at a time. The verb is were, the same form used when they means several people.
+    In <i>Every applicant said they were ready</i>, the word <i>they</i> refers back to every applicant, taken one at a time. The verb is <i>were</i>, the same form used when <i>they</i> means several people.
 
-    The pattern is also compatible with they for a specific person in a suitable context. The word that they refers back to is singular, while the pronoun still takes its usual they forms. This dictionary marks the analysis as provisional.
+    The pattern is also compatible with they for a specific person in a suitable context. The word that <i>they</i> refers back to is singular, while the pronoun still takes its usual <i>they</i> forms. This dictionary marks the analysis as provisional.
   examples:
     - text: Every applicant said [they were] ready.
       from: entry
     - text: Each guest said [they were] hungry.
       from: constructed
-  try: Say a sentence beginning Everyone said ... and finish it with they. Which verb form follows?
+  try: Say a sentence beginning <i>Everyone said ...</i> and finish it with <i>they</i>. Which verb form follows?
 teacher:
-  summary: Helps explain they, them and their with a singular antecedent.
-  explain: The they paradigm (they, them, their) can have a singular antecedent, including a bound-variable reading (as with every applicant) or a known person. In Every applicant said they were ready, the antecedent is singular, yet they takes ordinary they-agreement, such as were. The pattern is compatible with bound readings and with specific references in suitable contexts. This dictionary treats it as a specialization of the personal pronoun NP and relates it to verb number agreement. The analysis is marked provisional.
-  terms: 'Sometimes called singular they. In this dictionary: singular anaphoric they.'
+  summary: Helps explain <i>they</i>, <i>them</i> and <i>their</i> with a singular antecedent.
+  explain: The <i>they</i> paradigm (<i>they</i>, <i>them</i>, <i>their</i>) can have a singular antecedent, including a bound-variable reading (as with every applicant) or a known person. In <i>Every applicant said they were ready</i>, the antecedent is singular, yet <i>they</i> takes ordinary <i>they</i>-agreement, such as <i>were</i>. The pattern is compatible with bound readings and with specific references in suitable contexts. This dictionary treats it as a specialization of the personal pronoun NP and relates it to verb number agreement. The analysis is marked provisional.
+  terms: 'Sometimes called singular <i>they</i>. In this dictionary: singular anaphoric <i>they</i>.'
   examples:
     - text: Every applicant said [they were] ready.
       from: entry
     - text: Each guest said [they were] hungry.
       from: constructed
   watch_for:
-    - A learner might expect the verb to agree with the singular antecedent (every applicant), when they takes ordinary they-agreement, such as were.
-    - A learner might assume they can only refer to more than one person.
-  activity: Students complete sentences starting Each student said ... and Every player thought ... using they, then circle the verb and discuss its form.
+    - A learner might expect the verb to agree with the singular antecedent (<i>every applicant</i>), when <i>they</i> takes ordinary <i>they</i>-agreement, such as <i>were</i>.
+    - A learner might assume <i>they</i> can only refer to more than one person.
+  activity: Students complete sentences starting <i>Each student said ...</i> and <i>Every player thought ...</i> using <i>they</i>, then circle the verb and discuss its form.
 child:
-  hook: Can they ever mean just one person?
-  explain: Sometimes they points back to one person at a time. Every applicant said they were ready. The verb is were, just like when they means a group.
+  hook: Can <i>they</i> ever mean just one person?
+  explain: Sometimes <i>they</i> points back to one person at a time. <i>Every applicant said they were ready.</i> The verb is <i>were</i>, just like when <i>they</i> means a group.
   examples:
     - text: Every applicant said [they were] ready.
       from: entry
     - text: Each guest said [they were] hungry.
       from: constructed
-  play: Start a sentence with Every kid said or Each player said. Finish it using they and a verb.
+  play: Start a sentence with <i>Every kid said</i> or <i>Each player said</i>. Finish it using <i>they</i> and a verb.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

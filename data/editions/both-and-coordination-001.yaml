@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Both a and b
-  summary: Both before the first item and and before the second say outright that two things are included.
+  title: <i>Both a and b</i>
+  summary: <i>Both</i> before the first item and <i>and</i> before the second say outright that two things are included.
   body: |-
-    In We need both a permit and an inspection, both comes before the first item and and comes before the second. Together they show clearly that we need the permit and the inspection.
+    In <i>We need both a permit and an inspection</i>, <i>both</i> comes before the first item and <i>and</i> comes before the second. Together they show clearly that we need the permit and the inspection.
 
-    Both marks the first item, and and marks the second. Both can also appear alone before a noun phrase, but that's a different use, with a different relation to the words that follow.
+    <i>Both</i> marks the first item, and <i>and</i> marks the second. <i>Both</i> can also appear alone before a noun phrase, but that's a different use, with a different relation to the words that follow.
   examples:
     - text: We need [both a permit and an inspection].
       from: entry
     - text: I like [both cats and dogs].
       from: constructed
-  try: Say We need a permit and an inspection. Then add both. What does both add?
+  try: Say <i>We need a permit and an inspection</i>. Then add <i>both</i>. What does <i>both</i> add?
 teacher:
-  summary: Shows both and and as paired markers on two coordinates.
-  explain: The pattern is coordination of two items with both before the first and and before the second. It explicitly presents the first two coordinates as jointly included. Both signals the first coordinate and and marks the second. Both on its own can be an NP quantifier, which has a different structural relation to the following material. This dictionary treats the pattern as a specialization of coordination and relates it to either ... or. It is marked provisional.
-  terms: Both and and form a correlative pair, as this dictionary’s name says.
+  summary: Shows <i>both</i> and <i>and</i> as paired markers on two coordinates.
+  explain: The pattern is coordination of two items with <i>both</i> before the first and <i>and</i> before the second. It explicitly presents the first two coordinates as jointly included. <i>Both</i> signals the first coordinate and <i>and</i> marks the second. <i>Both</i> on its own can be an NP quantifier, which has a different structural relation to the following material. This dictionary treats the pattern as a specialization of coordination and relates it to <i>either ... or</i>. It is marked provisional.
+  terms: <i>Both</i> and <i>and</i> form a correlative pair, as this dictionary’s name says.
   examples:
     - text: We need [both a permit and an inspection].
       from: entry
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: We need both a permit and an inspection.
       from: entry
-      note: Both marks the first coordinate and and marks the second.
+      note: <i>Both</i> marks the first coordinate and <i>and</i> marks the second.
     - text: We need a permit and an inspection.
       from: constructed
-      note: Without both, the joint inclusion is not marked explicitly.
+      note: Without <i>both</i>, the joint inclusion is not marked explicitly.
   watch_for:
-    - A learner might read both as the same word in both of them and both a permit and an inspection, when the two uses have different structural relations.
-    - A learner might leave out the second marker and, when both signals the first coordinate and and marks the second.
-  activity: Students complete sentences starting We need both ... and ... with two items of their own. They then compare with the same sentence without both.
+    - A learner might read <i>both</i> as the same word in <i>both of them</i> and <i>both a permit and an inspection</i>, when the two uses have different structural relations.
+    - A learner might leave out the second marker <i>and</i>, when <i>both</i> signals the first coordinate and <i>and</i> marks the second.
+  activity: Students complete sentences starting <i>We need both ... and ...</i> with two items of their own. They then compare with the same sentence without <i>both</i>.
 child:
-  hook: What does "both" tell us in "both a permit and an inspection"?
-  explain: Both and and work together. Both comes first and and comes before the second thing. They tell us that we need the two things.
+  hook: What does "<i>both</i>" tell us in "<i>both a permit and an inspection</i>"?
+  explain: <i>Both</i> and <i>and</i> work together. <i>Both</i> comes first and <i>and</i> comes before the second thing. They tell us that we need the two things.
   examples:
     - text: We need [both a permit and an inspection].
       from: entry
     - text: I like [both cats and dogs].
       from: constructed
-  play: Say what you like using both and and, like both apples and pears. Take turns with a partner and name two things each time.
+  play: Say what you like using <i>both</i> and <i>and</i>, like <i>both apples and pears</i>. Take turns with a partner and name two things each time.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

@@ -1,5 +1,5 @@
 id: lets-inclusive-001
-name: Inclusive Let’s Imperative
+name: "Inclusive <i>let’s</i> Imperative"
 pattern: let’s + plain-form VP
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The preferred negative counterpart can be Let’s not take a break. The ’s form identifies the inclusive pattern and is unavailable in a literal command to release someone.
+    target: The preferred negative counterpart can be <i>Let’s not take a break</i>. The <i>’s</i> form identifies the inclusive pattern and is unavailable in a literal command to release someone.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

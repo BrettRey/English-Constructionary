@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Putting one phrase in the spotlight with it was
-  summary: A sentence can start with it was and a phrase, then a clause that sets out the background.
+  title: Putting one phrase in the spotlight with <i>it was</i>
+  summary: A sentence can start with <i>it was</i> and a phrase, then a clause that sets out the background.
   body: |-
-    In It was Kim who was sacked, the sentence picks out Kim as the person who was sacked. The part after Kim, who was sacked, sets out the background: somebody was sacked. This way of packaging a sentence can present new information as if it were background.
+    In <i>It was Kim who was sacked</i>, the sentence picks out Kim as the person who was sacked. The part after <i>Kim</i>, <i>who was sacked</i>, sets out the background: somebody was sacked. This way of packaging a sentence can present new information as if it were background.
 
-    The phrase in the spotlight comes right after was. It isn't limited to a person. It can be a noun phrase like peace and quiet, or a phrase such as to Boston. If you deny the sentence, as in It wasn't Kim who took the keys, you normally reject only the claim about Kim. In a context like this, the background, that somebody took the keys, can stay in place.
+    The phrase in the spotlight comes right after was. It isn't limited to a person. It can be a noun phrase like <i>peace and quiet</i>, or a phrase such as <i>to Boston</i>. If you deny the sentence, as in <i>It wasn't Kim who took the keys</i>, you normally reject only the claim about Kim. In a context like this, the background, that somebody took the keys, can stay in place.
   examples:
     - text: '[It was peace and quiet that he wanted most.]'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[It wasn’t Kim who took the keys.]'
       from: entry
-  try: Take a plain sentence such as Kim was sacked. Which word would you spotlight to start a sentence with it was?
+  try: Take a plain sentence such as <i>Kim was sacked</i>. Which word would you spotlight to start a sentence with <i>it was</i>?
 teacher:
-  summary: Useful for advanced learners who need to see how it was lets a speaker foreground one phrase and treat the rest as background.
-  explain: An it-cleft has it as subject, a form of be, a foregrounded phrase, and a cleft relative. The foregrounded phrase supplies a value; the relative supplies the descriptive content of a variable, so in It was Kim who was sacked, Kim is the value and somebody was sacked is the background. The phrase after be can be an NP or a PP, and the relative may be marked by who or another relative word, or by that or nothing. Negating the identification (It wasn’t Kim who took the keys) normally leaves the background in place. Compare subject extraposition, which doesn't foreground a value.
-  terms: 'Sometimes taught as a cleft sentence. In this dictionary: the it-cleft, with the phrase after be as the foregrounded element and the following clause as the cleft relative.'
+  summary: Useful for advanced learners who need to see how <i>it was</i> lets a speaker foreground one phrase and treat the rest as background.
+  explain: An it-cleft has <i>it</i> as subject, a form of be, a foregrounded phrase, and a cleft relative. The foregrounded phrase supplies a value; the relative supplies the descriptive content of a variable, so in <i>It was Kim who was sacked</i>, <i>Kim</i> is the value and <i>somebody was sacked</i> is the background. The phrase after be can be an NP or a PP, and the relative may be marked by <i>who</i> or another relative word, or by <i>that</i> or nothing. Negating the identification (<i>It wasn’t Kim who took the keys</i>) normally leaves the background in place. Compare subject extraposition, which doesn't foreground a value.
+  terms: 'Sometimes taught as a cleft sentence. In this dictionary: the <i>it</i>-cleft, with the phrase after be as the foregrounded element and the following clause as the cleft relative.'
   examples:
     - text: '[It was peace and quiet that he wanted most.]'
       from: entry
@@ -32,15 +32,15 @@ teacher:
   contrasts:
     - text: It was Jo who opened the window.
       from: constructed
-      note: Identifies the value, Jo, and treats the opening of the window as background.
+      note: Identifies the value, <i>Jo</i>, and treats the opening of the window as background.
     - text: It was surprising that Jo opened the window.
       from: constructed
       note: Subject extraposition, not a cleft. The content of the evaluation comes after the predicate.
   watch_for:
     - A learner might read the clause after the foregrounded phrase as a separate sentence, when it is the background part of the same sentence.
-    - A learner might take a negated cleft to deny the whole event, when the denial normally targets the identification, as in It wasn't Kim who took the keys.
-    - A learner might think only noun phrases can follow was, though a prepositional phrase such as to Boston can too.
-  activity: Give students a plain sentence such as Jo opened the window. They write two it-clefts, spotlighting a different phrase each time, then say which phrase each one picks out.
+    - A learner might take a negated cleft to deny the whole event, when the denial normally targets the identification, as in <i>It wasn't Kim who took the keys</i>.
+    - A learner might think only noun phrases can follow <i>was</i>, though a prepositional phrase such as <i>to Boston</i> can too.
+  activity: Give students a plain sentence such as <i>Jo opened the window</i>. They write two <i>it</i>-clefts, spotlighting a different phrase each time, then say which phrase each one picks out.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

@@ -4,7 +4,7 @@ pattern: gerund-participial[Subject:NP in accusative if a personal pronoun + V-i
 type: syntactic
 meanings:
   '1':
-    definition: Expresses the subject of an -ing clause without genitive marking where the environment allows it.
+    definition: Expresses the subject of an <i>-ing</i> clause without genitive marking where the environment allows it.
     examples:
       - form: We objected to [them blocking the exit].
         note: Constructed illustration.
@@ -16,6 +16,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The prepositional context can license them as the embedded subject, and blocking still takes a direct object. Alternatives with a genitive vary with syntactic environment and style.
+    target: The prepositional context can license <i>them</i> as the embedded subject, and <i>blocking</i> still takes a direct object. Alternatives with a genitive vary with syntactic environment and style.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -1,11 +1,11 @@
 id: reciprocal-noun-with-001
-name: Reciprocal Predicative NP with a With-Phrase
+name: "Reciprocal Predicative NP with a <i>with</i>-Phrase"
 pattern: PredComp:NP[N[pl] + PP[with + NP]], with the other participant supplied by the predicand
 type: mixed
 meanings:
   '1':
     definition: Ascribes a reciprocal relation whose participants are expressed separately.
-    details: With friends, the predicand supplies one side of the relationship and the with-phrase supplies the other. CGEL observes that the predicative noun can be plural even with a singular subject. Lee-Goldman and Petruck report that good friends with the president can describe the quality of the relationship, whereas powerful friends with the president fares poorly on the reading where powerful describes the people. Extension of that modifier contrast to other relation nouns remains open.
+    details: With <i>friends</i>, the predicand supplies one side of the relationship and the <i>with</i>-phrase supplies the other. CGEL observes that the predicative noun can be plural even with a singular subject. Lee-Goldman and Petruck report that <i>good friends with the president</i> can describe the quality of the relationship, whereas <i>powerful friends with the president</i> fares poorly on the reading where <i>powerful</i> describes the people. Extension of that modifier contrast to other relation nouns remains open.
     examples:
       - form: I’m no longer [friends with him].
         note: The subject is singular and the predicative noun is plural.
@@ -15,7 +15,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: They are [good friends with the president].
-        note: Published judgment. Good can describe the friendship.
+        note: Published judgment. <i>Good</i> can describe the friendship.
         grounds:
           - source: lee-goldman-petruck-2018
             locator: pp. 29–32, ex. (11b–c)
@@ -30,10 +30,10 @@ grounds:
     locator: pp. 29–32
     relation: discusses
     bears-on: projection
-    note: Analyzes the reciprocal relation and compares modifiers of friends with and friends of.
+    note: Analyzes the reciprocal relation and compares modifiers of <i>friends with</i> and <i>friends of</i>.
 kind:
   provisional: true
   projection:
-    target: For friends with, the split predication permits a singular subject and licenses modifiers that assess the relationship.
+    target: For <i>friends with</i>, the split predication permits a singular subject and licenses modifiers that assess the relationship.
     evidence: CGEL gives the singular-subject case. FrameNet's published modifier comparison holds the plural subject fixed.
     confidence: medium

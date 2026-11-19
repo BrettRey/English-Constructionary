@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Owner words that stand on their own
-  summary: Words like mine and yours, and names with 's like Jo's, can stand in for a whole phrase about who owns something.
+  summary: Words like <i>mine</i> and <i>yours</i>, and names with <i>'s</i> like <i>Jo's</i>, can stand in for a whole phrase about who owns something.
   body: |-
-    Mine and yours stand on their own here, with no noun after them. In Jo's is blue, Jo's does the same job: the noun is left out, once it's clear what kind of thing we're talking about.
+    <i>Mine</i> and <i>yours</i> stand on their own here, with no noun after them. In <i>Jo's is blue</i>, <i>Jo's</i> does the same job: the noun is left out, once it's clear what kind of thing we're talking about.
 
-    A different use looks similar. In This one is Jo's, the 's form says who owns this one. It isn't standing in for a missing noun.
+    A different use looks similar. In <i>This one is Jo's</i>, the <i>'s</i> form says who owns this one. It isn't standing in for a missing noun.
   examples:
     - text: '[mine]'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: constructed
     - text: This one is [Jo's].
       from: constructed
-  try: Point at something of yours and say what colour it is without naming the thing, as in Mine is blue.
+  try: Point at something of yours and say what colour it is without naming the thing, as in <i>Mine is blue</i>.
 teacher:
   summary: Shows owner forms that function as a full noun phrase with no following noun, and separates them from a predicative use.
-  explain: An independent genitive NP is in independent genitive form with no overt head noun, as with mine and yours. Jo's can occur without an overt following noun in Jo's is blue when the relevant kind is established, so the missing nominal is recovered from context. In This one is Jo's, the genitive can instead express a possessive relation predicatively, which is a separate construction. This dictionary marks this account as provisional.
-  terms: Mine and yours are sometimes called possessive pronouns; this dictionary calls them independent genitive pronouns.
+  explain: An independent genitive NP is in independent genitive form with no overt head noun, as with <i>mine</i> and <i>yours</i>. <i>Jo's</i> can occur without an overt following noun in <i>Jo's is blue</i> when the relevant kind is established, so the missing nominal is recovered from context. In <i>This one is Jo's</i>, the genitive can instead express a possessive relation predicatively, which is a separate construction. This dictionary marks this account as provisional.
+  terms: <i>Mine</i> and <i>yours</i> are sometimes called possessive pronouns; this dictionary calls them independent genitive pronouns.
   examples:
     - text: '[mine]'
       from: entry
@@ -39,18 +39,18 @@ teacher:
       from: constructed
       note: A predicative genitive, a separate construction.
   watch_for:
-    - A learner might look for a noun after mine or yours, though the independent genitive has no overt head noun.
-    - A learner might treat the Jo's of This one is Jo's as standing in for a missing noun.
-  activity: Students put an object of theirs on the desk. In pairs they describe the objects without naming them, starting with mine, yours or a name with 's, as in Mine is blue or Jo's is red.
+    - A learner might look for a noun after <i>mine</i> or <i>yours</i>, though the independent genitive has no overt head noun.
+    - A learner might treat the <i>Jo's</i> of <i>This one is Jo's</i> as standing in for a missing noun.
+  activity: Students put an object of theirs on the desk. In pairs they describe the objects without naming them, starting with <i>mine</i>, <i>yours</i> or a name with <i>'s</i>, as in <i>Mine is blue</i> or <i>Jo's is red</i>.
 child:
   hook: How can you talk about your things without naming them?
-  explain: Words like mine and yours can stand on their own. Mine is blue doesn't name the thing, but we know what is meant. A name with 's can do it too, as in Jo's is blue.
+  explain: Words like <i>mine</i> and <i>yours</i> can stand on their own. <i>Mine is blue</i> doesn't name the thing, but we know what is meant. A name with <i>'s</i> can do it too, as in <i>Jo's is blue</i>.
   examples:
     - text: '[Mine] is blue.'
       from: constructed
     - text: '[Yours] is red.'
       from: constructed
-  play: Put two toys on a table. Point at your own and say Mine is, then its colour. Your friend points at a toy of theirs and does the same.
+  play: Put two toys on a table. Point at your own and say <i>Mine is</i>, then its colour. Your friend points at a toy of theirs and does the same.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

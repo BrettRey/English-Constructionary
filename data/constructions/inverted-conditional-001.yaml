@@ -4,8 +4,8 @@ pattern: conditional Clause[had, were, or should + Subject + residual predicate]
 type: mixed
 meanings:
   '1':
-    definition: Introduces a condition through auxiliary–subject order without if.
-    details: Had you known corresponds to If you had known. Were and should license the same order in their own conditional uses. Other auxiliaries do not freely enter this frame. In the central standard pattern the negative is separate, as in Had you not called.
+    definition: Introduces a condition through auxiliary–subject order without <i>if</i>.
+    details: <i>Had you known</i> corresponds to <i>If you had known</i>. <i>Were</i> and <i>should</i> license the same order in their own conditional uses. Other auxiliaries do not freely enter this frame. In the central standard pattern the negative is separate, as in <i>Had you not called</i>.
     examples:
       - form: '[Had you called], we could have picked you up.'
         note: Constructed perfect conditional.
@@ -16,14 +16,14 @@ meanings:
 relatedConstructions:
   - id: if-conditional-001
     relationship: related-to
-    notes: An if-clause can supply an equivalent condition in ordinary order.
+    notes: An <i>if</i>-clause can supply an equivalent condition in ordinary order.
   - id: closed-interrogative-clause-001
     relationship: related-to
     notes: The same auxiliary–subject order can express a question, with a wider range of auxiliaries.
   - id: negative-initial-inversion-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: Had Jo known introduces a condition without if. Never had Jo seen it uses the same auxiliary–subject order in a clause with a preposed negative expression.
+    notes: <i>Had Jo known</i> introduces a condition without <i>if</i>. <i>Never had Jo seen it</i> uses the same auxiliary–subject order in a clause with a preposed negative expression.
 grounds:
   - source: fillmore-lee-goldman-rhomieux-2012
     locator: author draft, §4.3.2 (27–31)
@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The inverted conditional is restricted to a small set of auxiliaries. Substituting an ordinary modal such as would fails to preserve the construction.
+    target: The inverted conditional is restricted to a small set of auxiliaries. Substituting an ordinary modal such as <i>would</i> fails to preserve the construction.
     evidence: FrameNet identifies the auxiliary restriction and compares conditional inversion with interrogative uses of the same order. CGEL records the core restriction and rare literary extensions.
     confidence: high

@@ -1,5 +1,5 @@
 id: preference-would-rather-001
-name: Preference Would Rather
+name: "Preference <i>would rather</i>"
 pattern: VP[would rather + plain infinitival or finite subordinate clause]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A finite clause can have its own subject and a modally remote preterite. In I would rather stay, the subject of stay is understood as the matrix subject.
+    target: A finite clause can have its own subject and a modally remote preterite. In <i>I would rather stay</i>, the subject of <i>stay</i> is understood as the matrix subject.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

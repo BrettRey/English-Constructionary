@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: verb-particle-object-001
     relationship: related-to
-    notes: Compare relied on Jo with picked the book up. Jo is the object of selected on. The book is an object of the verb and can precede the particle up.
+    notes: Compare <i>relied on Jo</i> with <i>picked the book up</i>. Jo is the object of selected <i>on</i>. The book is an object of the verb and can precede the particle <i>up</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §§6.1–6.2
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The preposition in this sense can be stranded in Who did you rely on? It remains adjacent to its NP in the ordinary order and does not undergo particle shift.
+    target: The preposition in this sense can be stranded in <i>Who did you rely on?</i> It remains adjacent to its NP in the ordinary order and does not undergo particle shift.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

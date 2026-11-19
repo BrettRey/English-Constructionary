@@ -1,5 +1,5 @@
 id: why-not-proposal-001
-name: Deliberative Why Not with a Bare Infinitival
+name: "Deliberative <i>why not</i> with a Bare Infinitival"
 pattern: why not + plain verbal predicate
 type: pragmatic
 meanings:
@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The usual response can accept the suggestion instead of reporting a cause. The plain form can follow not without finite auxiliary do.
+    target: The usual response can accept the suggestion instead of reporting a cause. The plain form can follow <i>not</i> without finite auxiliary <i>do</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

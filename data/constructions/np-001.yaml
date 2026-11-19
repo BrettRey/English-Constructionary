@@ -41,6 +41,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A complete nominal expression such as the small box can appear as subject and object. In those positions replacing it with the small alone ordinarily requires a recoverable noun or another independently licensed fused-head use."
+    target: "A complete nominal expression such as <i>the small box</i> can appear as subject and object. In those positions replacing it with <i>the small</i> alone ordinarily requires a recoverable noun or another independently licensed fused-head use."
     evidence: "CGEL compares the distribution of NPs and nominals in larger constructions and describes the fused-head exceptions separately."
     confidence: medium

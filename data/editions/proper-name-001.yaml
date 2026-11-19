@@ -7,9 +7,9 @@ curious:
   title: Names and what they do
   summary: A proper name picks out one particular person, place, organization or thing, and it can do more than label.
   body: |-
-    A name like Brett Reynolds or The Boring Company points to one individual, so people can keep track of that individual and add what they learn. A name's form can hint at what kind of thing it names: company names, book titles and personal names each follow recognizable patterns.
+    A name like <i>Brett Reynolds</i> or <i>The Boring Company</i> points to one individual, so people can keep track of that individual and add what they learn. A name's form can hint at what kind of thing it names: company names, book titles and personal names each follow recognizable patterns.
 
-    Names can also carry social meaning. Professor Smith signals a formal relationship, His Holiness the 14th Dalai Lama establishes an institutional role, and Inc. in Apple Inc. has legal force. A capital letter alone doesn't settle things, since two Jos can count people who share a name. This dictionary marks the account as provisional.
+    Names can also carry social meaning. <i>Professor Smith</i> signals a formal relationship, <i>His Holiness the 14th Dalai Lama</i> establishes an institutional role, and <i>Inc.</i> in <i>Apple Inc.</i> has legal force. A capital letter alone doesn't settle things, since <i>two Jos</i> can count people who share a name. This dictionary marks the account as provisional.
   examples:
     - text: '[Brett Reynolds]'
       from: entry
@@ -24,8 +24,8 @@ curious:
   try: Think of how you'd address a teacher, a friend and a stranger. How does the form of their name change?
 teacher:
   summary: Useful for explaining names as a meaning category, including titles, company designations and the difference between a name and a proper noun.
-  explain: 'A proper name is a semantic category: any form that functions to identify a unique individual or entity. It is typically a proper noun but can be another form, such as a common-noun phrase (The Boring Company) or a title. Names refer to unique entities, can create social or institutional facts (the Dalai Lama''s institutional role), signal membership in name categories, index social relations (Professor Smith), and can mark legal status (Inc., Ltd.). Proper name is a semantic category and proper noun a syntactic one, with a two-way link between them. This dictionary marks its analysis provisional. A standing name such as Jo can identify its bearer, but two Jos can count people sharing the name.'
-  terms: 'Proper noun: the syntactic category; proper name: the semantic category. Titles and honorifics (Professor, His Holiness) and corporate designations (Inc., Ltd.) are separate semantic refs in this dictionary.'
+  explain: 'A proper name is a semantic category: any form that functions to identify a unique individual or entity. It is typically a proper noun but can be another form, such as a common-noun phrase (<i>The Boring Company</i>) or a title. Names refer to unique entities, can create social or institutional facts (the Dalai Lama''s institutional role), signal membership in name categories, index social relations (<i>Professor Smith</i>), and can mark legal status (<i>Inc.</i>, <i>Ltd.</i>). Proper name is a semantic category and proper noun a syntactic one, with a two-way link between them. This dictionary marks its analysis provisional. A standing name such as <i>Jo</i> can identify its bearer, but <i>two Jos</i> can count people sharing the name.'
+  terms: 'Proper noun: the syntactic category; proper name: the semantic category. Titles and honorifics (<i>Professor</i>, <i>His Holiness</i>) and corporate designations (<i>Inc.</i>, <i>Ltd.</i>) are separate semantic refs in this dictionary.'
   examples:
     - text: '[The Boring Company]'
       from: entry
@@ -45,8 +45,8 @@ teacher:
     - A learner might use a first name where a title and surname are expected.
   activity: Students list names for the same person (full name, first name, nickname, title plus surname) and say what social relationship each suggests.
 child:
-  hook: What's the difference between a girl and Jo?
-  explain: A name points to one particular person or thing. Jo is one person. Sometimes two people share a name, and then we can say two Jos.
+  hook: What's the difference between <i>a girl</i> and <i>Jo</i>?
+  explain: A name points to one particular person or thing. <i>Jo</i> is one person. Sometimes two people share a name, and then we can say <i>two Jos</i>.
   examples:
     - text: '[Jo] waved at us.'
       from: constructed

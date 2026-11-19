@@ -36,7 +36,7 @@ meanings:
         note: Formal title indicating professional relationship
   '5':
     definition: Establishes legal/organizational status
-    details: Certain name elements (Inc., Ltd., Co., etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing.
+    details: Certain name elements (<i>Inc.</i>, <i>Ltd.</i>, <i>Co.</i>, etc.) have legal force, indicating corporate structure, liability status, and regulatory compliance. The presence or absence of these elements can affect legal standing.
     examples:
       - form: Apple Inc.
         note: Corporate designation indicating incorporation
@@ -76,6 +76,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A standing name such as Jo can identify its bearer in subject or object position. Two Jos can instead count people sharing the name. A capital letter or name-shaped form alone does not fix which interpretation is used."
+    target: "A standing name such as <i>Jo</i> can identify its bearer in subject or object position. <i>Two Jos</i> can instead count people sharing the name. A capital letter or name-shaped form alone does not fix which interpretation is used."
     evidence: "CGEL contrasts ordinary name uses with description and counting uses. The construction account separates standing designation from its syntactic realization."
     confidence: medium

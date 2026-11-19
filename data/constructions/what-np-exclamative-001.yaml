@@ -1,5 +1,5 @@
 id: what-np-exclamative-001
-name: Phrasal Exclamation with What
+name: "Phrasal Exclamation with <i>what</i>"
 pattern: independent NP[exclamative what + optional a/an + Nom]
 type: mixed
 meanings:
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The singular count example includes a, whereas What lovely weather! does not. The independent pattern needs no finite predication to convey the evaluation.
+    target: The singular count example includes <i>a</i>, whereas <i>What lovely weather!</i> does not. The independent pattern needs no finite predication to convey the evaluation.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

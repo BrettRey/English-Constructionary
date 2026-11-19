@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Only if as a requirement
-  summary: Only if says that something has to be the case for a consequence to hold or a permission to apply.
+  title: "<i>Only if</i> as a requirement"
+  summary: "<i>Only if</i> says that something has to be the case for a consequence to hold or a permission to apply."
   body: |-
-    In We'll go only if the ferry runs, the ferry running is required for going. Without it, we don't go.
+    In <i>We'll go only if the ferry runs</i>, the ferry running is required for going. Without it, we don't go.
 
-    That doesn't mean the ferry running is enough on its own. Other conditions can remain open, so the ferry might run and we might still stay home. This dictionary describes only if as restricting the circumstances in which a consequence holds or a permission applies, and treats it as a more specific kind of if sentence.
+    That doesn't mean the ferry running is enough on its own. Other conditions can remain open, so the ferry might run and we might still stay home. This dictionary describes <i>only if</i> as restricting the circumstances in which a consequence holds or a permission applies, and treats it as a more specific kind of <i>if</i> sentence.
   examples:
     - text: We'll go [only if the ferry runs].
       from: entry
     - text: You can borrow it [only if you ask first].
       from: constructed
-  try: Say We'll go only if the ferry runs. If the ferry runs, are we sure to go?
+  try: Say <i>We'll go only if the ferry runs</i>. If the ferry runs, are we sure to go?
 teacher:
-  summary: Explains only if as marking a necessary condition, not a guarantee.
-  explain: A main clause plus only if plus a finite clause restricts the circumstances in which a consequence holds or a permission applies. In We'll go only if the ferry runs, the ferry's running is required for going. Its running alone need not guarantee going, since further conditions can remain open. This dictionary treats the pattern as a specialization of the if-conditional and relates it to even if. This dictionary marks the analysis as provisional.
-  terms: Necessary condition is the logical term for what only if marks. Conditional clause is the traditional name for the if part.
+  summary: Explains <i>only if</i> as marking a necessary condition, not a guarantee.
+  explain: A main clause plus <i>only if</i> plus a finite clause restricts the circumstances in which a consequence holds or a permission applies. In <i>We'll go only if the ferry runs</i>, the ferry's running is required for going. Its running alone need not guarantee going, since further conditions can remain open. This dictionary treats the pattern as a specialization of the <i>if</i>-conditional and relates it to <i>even if</i>. This dictionary marks the analysis as provisional.
+  terms: Necessary condition is the logical term for what <i>only if</i> marks. Conditional clause is the traditional name for the <i>if</i> part.
   examples:
     - text: We'll go [only if the ferry runs].
       from: entry
@@ -31,19 +31,19 @@ teacher:
       note: The ferry running is required for going.
     - text: We'll go if the ferry runs.
       from: constructed
-      note: Plain if, for comparison. This dictionary treats only if as a specialization of the if-conditional.
+      note: Plain <i>if</i>, for comparison. This dictionary treats <i>only if</i> as a specialization of the <i>if</i>-conditional.
   watch_for:
-    - A learner might think that if the ferry runs, we're sure to go, when only if doesn't say that.
-  activity: Students complete sentence stems that start with a consequence and only if, such as I'll come only if ___, then say what else could still stop the outcome.
+    - A learner might think that if the ferry runs, we're sure to go, when <i>only if</i> doesn't say that.
+  activity: Students complete sentence stems that start with a consequence and <i>only if</i>, such as <i>I'll come only if ___</i>, then say what else could still stop the outcome.
 child:
-  hook: We'll go only if the ferry runs. What if the ferry runs?
-  explain: Only if names something that has to be true. If the ferry doesn't run, we don't go. But other things might still matter, so running isn't a promise.
+  hook: "<i>We'll go only if the ferry runs</i>. What if the ferry runs?"
+  explain: "<i>Only if</i> names something that has to be true. If the ferry doesn't run, we don't go. But other things might still matter, so running isn't a promise."
   examples:
     - text: We'll go [only if the ferry runs].
       from: entry
     - text: You can come [only if you ask first].
       from: constructed
-  play: Finish the sentence I'll come only if ___. Then think of something else that could still stop you.
+  play: Finish the sentence <i>I'll come only if ___</i>. Then think of something else that could still stop you.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

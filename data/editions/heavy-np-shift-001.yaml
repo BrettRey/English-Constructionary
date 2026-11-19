@@ -7,23 +7,23 @@ curious:
   title: Saving the long part for last
   summary: When one part of a sentence is long, it can be placed after a shorter part of the same verb.
   body: |-
-    In She handed to the chair a folder containing all the amended exhibits, the long phrase a folder containing all the amended exhibits comes last. The short phrase to the chair comes before it, even though both belong to the same verb.
+    In <i>She handed to the chair a folder containing all the amended exhibits</i>, the long phrase <i>a folder containing all the amended exhibits</i> comes last. The short phrase <i>to the chair</i> comes before it, even though both belong to the same verb.
 
-    This dictionary says the order depends on how long the phrase is and on how much is already known about it. A short word in that spot gives a strongly degraded result: handed to the chair it doesn't work well. So the pattern suits a bulky phrase.
+    This dictionary says the order depends on how long the phrase is and on how much is already known about it. A short word in that spot gives a strongly degraded result: <i>handed to the chair it</i> doesn't work well. So the pattern suits a bulky phrase.
   examples:
     - text: She [handed to the chair a folder containing all the amended exhibits].
       from: entry
-  try: Think of a sentence where you have to describe something long, such as a folder containing all the amended exhibits. Where do you put it?
+  try: Think of a sentence where you have to describe something long, such as <i>a folder containing all the amended exhibits</i>. Where do you put it?
 teacher:
   summary: For advanced classes, a word-order pattern where a long complement follows a short dependent of the same verb.
-  explain: In heavy complement postposing, a verb has a short dependent (to the chair) followed by a relatively heavy NP complement (a folder containing all the amended exhibits). The heavy NP is placed after the lighter dependent. Substituting a short pronoun gives strongly degraded handed to the chair it. Relative length and information status affect the postposed order. This dictionary relates the pattern to transitive verbs with a recipient to-phrase and marks the analysis as provisional.
+  explain: In heavy complement postposing, a verb has a short dependent (<i>to the chair</i>) followed by a relatively heavy NP complement (<i>a folder containing all the amended exhibits</i>). The heavy NP is placed after the lighter dependent. Substituting a short pronoun gives strongly degraded <i>handed to the chair it</i>. Relative length and information status affect the postposed order. This dictionary relates the pattern to transitive verbs with a recipient <i>to</i>-phrase and marks the analysis as provisional.
   terms: Heavy NP shift is the textbook name. This dictionary calls the pattern heavy complement postposing.
   examples:
     - text: She [handed to the chair a folder containing all the amended exhibits].
       from: entry
   watch_for:
     - A learner might treat the postposed order as free for any complement, when this dictionary says relative length and information status affect it.
-    - A learner might place a short pronoun last, as in handed to the chair it, which this dictionary calls strongly degraded.
+    - A learner might place a short pronoun last, as in <i>handed to the chair it</i>, which this dictionary calls strongly degraded.
   activity: Give students a sentence with a short object and a long object after a verb. They try both orders aloud, then replace the long phrase with a pronoun and notice which order resists.
 checked:
   date: '2026-11-19'

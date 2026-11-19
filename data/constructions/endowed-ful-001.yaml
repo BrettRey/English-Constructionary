@@ -1,5 +1,5 @@
 id: endowed-ful-001
-name: Adjective in -Ful
+name: "Adjective in <i>-ful</i>"
 pattern: Adj[typically nominal base + -ful]
 type: morphological
 meanings:
@@ -26,6 +26,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The output is adjectival and can modify reply. Noun formations like cupful have a separate measure interpretation and can take plural morphology.
+    target: The output is adjectival and can modify <i>reply</i>. Noun formations like <i>cupful</i> have a separate measure interpretation and can take plural morphology.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

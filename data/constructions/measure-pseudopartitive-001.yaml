@@ -1,5 +1,5 @@
 id: measure-pseudopartitive-001
-name: Measure Pseudopartitive with Of
+name: "Measure Pseudopartitive with <i>of</i>"
 pattern: NP[quantified measure expression + of + substance or plural nominal expression]
 type: mixed
 meanings:
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Milk supplies the substance measured without referring to a definite stock of which the purchase was a subset. Compare three litres of the milk, which can select from such a stock.
+    target: Milk supplies the substance measured without referring to a definite stock of which the purchase was a subset. Compare <i>three litres of the milk</i>, which can select from such a stock.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

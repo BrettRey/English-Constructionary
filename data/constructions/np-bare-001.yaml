@@ -49,7 +49,7 @@ meanings:
     details: Refers to or predicates generic activity type
     examples:
       - form: Competitive swimming takes practice
-        note: Activity reference (the adjectival modifier supports the noun analysis; bare "playing piano" is a gerund-participial clause, not an NP)
+        note: Activity reference (the adjectival modifier supports the noun analysis; bare "<i>playing piano</i>" is a gerund-participial clause, not an NP)
       - form: That is competitive swimming
         note: Activity identification
     relations:
@@ -106,7 +106,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A bare NP can be singular count in a restricted role or naming use, while bare plurals and non-count nouns can normally be arguments. Compare Lee became chair, Chair called on the name reading, and We bought chairs."
+    target: "A bare NP can be singular count in a restricted role or naming use, while bare plurals and non-count nouns can normally be arguments. Compare <i>Lee became chair</i>, <i>Chair</i> called on the name reading, and <i>We bought chairs</i>."
     evidence: "CGEL provides independent distributional grounds for these kinds of bare uses. Absence of a determiner alone does not fix their interpretation."
     confidence: medium
 relatedConstructions:
@@ -116,4 +116,4 @@ relatedConstructions:
     notes: The NP consists of its nominal and has no overt determiner.
   - id: np-det-001
     relationship: related-to
-    notes: Dogs barked and Those dogs barked share the same nominal. The overt demonstrative in the second selects a contextually identifiable set.
+    notes: <i>Dogs barked</i> and <i>Those dogs barked</i> share the same nominal. The overt demonstrative in the second selects a contextually identifiable set.

@@ -11,10 +11,10 @@ dimensions:
 meanings:
   '1':
     definition: A VP contains a locative complement bearing the goal role, yielding directed motion toward a final location
-    details: "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include to-PPs (go to the shop), compound goal PPs headed by into or onto (run into the garden), and unmarked goal PPs headed by complementless locative prepositions (go home, head abroad). Direction PPs headed by towards or compass terms form a distinct category. *Go to home is excluded by to's NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88)."
+    details: "Goal is a semantic role, while locative complement is the CGEL syntactic function. Realizations include <i>to</i>-PPs (<i>go to the shop</i>), compound goal PPs headed by <i>into</i> or <i>onto</i> (<i>run into the garden</i>), and unmarked goal PPs headed by complementless locative prepositions (<i>go home</i>, <i>head abroad</i>). Direction PPs headed by <i>towards</i> or compass terms form a distinct category. *<i>Go to home</i> is excluded by <i>to</i>'s NP-object complementation, not by the goal construction (CGEL pp. 257–59, 686–88)."
     examples:
       - form: "go [to the shop]"
-        note: Goal-role locative complement headed by transitive to
+        note: Goal-role locative complement headed by transitive <i>to</i>
       - form: "go [to church]"
         note: To-PP with a bare institutional NP object
       - form: "go [home]"
@@ -39,7 +39,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across to-PPs, compound into/onto PPs, and unmarked locative PPs"
+    target: "A manner or emission verb followed by an integrated locative PP predicts a coerced directed-motion reading even when the verb lacks lexical direction or goal semantics; established goal instances range across <i>to</i>-PPs, compound <i>into</i>/<i>onto</i> PPs, and unmarked locative PPs"
     evidence: "Manner and emission verbs acquire directed-motion readings in this frame (Goldberg 1995), while CGEL distinguishes goal realizations from direction on pp. 686–88"
     confidence: medium
     grounds:
@@ -62,8 +62,8 @@ kind:
         weight: high
   boundaries:
     known_boundary_items:
-      - "off, back, or down followed by a to-PP: the sequence may contain two separate PP complements because each first P also has a complementless use"
-      - "from under the bed proves only that from can take a PP complement; it does not establish PP-internal goal complementation"
+      - "<i>off</i>, <i>back</i>, or <i>down</i> followed by a <i>to</i>-PP: the sequence may contain two separate PP complements because each first P also has a complementless use"
+      - "<i>from under the bed</i> proves only that <i>from</i> can take a PP complement; it does not establish PP-internal goal complementation"
       - "the way construction: related but distinct frame"
       - "caused motion: transitive sister frame with an Od theme"
   grain:

@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Plural nouns with an adjective in front
-  summary: A plural noun with an adjective before it, such as old men, can stand as a subject without a word like the or a.
+  summary: A plural noun with an adjective before it, such as <i>old men</i>, can stand as a subject without a word like <i>the</i> or <i>a</i>.
   body: |-
-    In old men, the adjective old tells us a property of the men, here their age. In other men, the adjective needs a surrounding set of men to make sense, because other points to the rest of a set.
+    In <i>old men</i>, the adjective <i>old</i> tells us a property of the men, here their age. In <i>other men</i>, the adjective needs a surrounding set of men to make sense, because <i>other</i> points to the rest of a set.
 
-    A plural noun like this can be a sentence subject without a small word in front: Old men were waiting. A single man isn't the same: in the same kind of sentence, an old man needs the article a. Adding words such as very to the adjective, as in very old men, doesn't change that.
+    A plural noun like this can be a sentence subject without a small word in front: <i>Old men were waiting</i>. A single man isn't the same: in the same kind of sentence, <i>an old man</i> needs the article <i>a</i>. Adding words such as <i>very</i> to the adjective, as in <i>very old men</i>, doesn't change that.
   examples:
     - text: '[old men]'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[Old men] were waiting.'
       from: constructed
-  try: Say Old men were waiting. Then try it with one man. What word do you need to add?
+  try: Say <i>Old men were waiting</i>. Then try it with one man. What word do you need to add?
 teacher:
   summary: Covers plural nouns modified by a prenominal adjective, which can serve as subjects with no article.
-  explain: 'The pattern is a plural noun as lexical head of a nominal, with an AdjP modifier before it: old men. It expresses category or kind modification with property attribution. Old men is direct property modification (an age attribute); other men requires a contextual reference set and expresses a complementary-set relation. The modifier must be an AdjP and the head must be plural. In an episodic clause such as Old men were waiting, the modified bare plural can be an ordinary subject without an article, while an old man needs the article. The licensing follows the head''s count and number profile and survives expansion to very old. This dictionary marks this as provisional, with medium confidence.'
-  terms: Textbooks sometimes call the modifying adjective an attributive adjective. This dictionary also calls old men a bare plural with a prenominal modifier.
+  explain: 'The pattern is a plural noun as lexical head of a nominal, with an AdjP modifier before it: <i>old men</i>. It expresses category or kind modification with property attribution. <i>Old men</i> is direct property modification (an age attribute); <i>other men</i> requires a contextual reference set and expresses a complementary-set relation. The modifier must be an AdjP and the head must be plural. In an episodic clause such as <i>Old men were waiting</i>, the modified bare plural can be an ordinary subject without an article, while <i>an old man</i> needs the article. The licensing follows the head''s count and number profile and survives expansion to <i>very old</i>. This dictionary marks this as provisional, with medium confidence.'
+  terms: Textbooks sometimes call the modifying adjective an attributive adjective. This dictionary also calls <i>old men</i> a bare plural with a prenominal modifier.
   examples:
     - text: '[old men]'
       from: entry
@@ -32,11 +32,11 @@ teacher:
   contrasts:
     - text: The old men were waiting.
       from: constructed
-      note: The same modification inside an NP marked with the.
+      note: The same modification inside an NP marked with <i>the</i>.
   watch_for:
-    - A learner might think a subject needs the or a, when a plural noun with a modifier can stand alone as a subject.
-    - A learner might read other men as simply more men, when other needs a contextual reference set.
-  activity: Students list plural noun phrases with an adjective (old men, tall trees) and use each as a bare subject, then mark in each one whether the adjective attributes a property or points to a set.
+    - A learner might think a subject needs <i>the</i> or <i>a</i>, when a plural noun with a modifier can stand alone as a subject.
+    - A learner might read <i>other men</i> as simply more men, when <i>other</i> needs a contextual reference set.
+  activity: Students list plural noun phrases with an adjective (<i>old men</i>, <i>tall trees</i>) and use each as a bare subject, then mark in each one whether the adjective attributes a property or points to a set.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

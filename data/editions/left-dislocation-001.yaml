@@ -7,9 +7,9 @@ curious:
   title: Naming something first, then using a pronoun for it
   summary: A speaker names a person or thing at the start, then makes a statement about it using a pronoun.
   body: |-
-    In Her parents, I don't like them at all, the speaker first puts Her parents out there and then says something about them with the pronoun them. The opening phrase and the pronoun point to the same people.
+    In <i>Her parents, I don't like them at all</i>, the speaker first puts <i>Her parents</i> out there and then says something about them with the pronoun <i>them</i>. The opening phrase and the pronoun point to the same people.
 
-    The pronoun can be the subject or the object of what follows, or a word like her or their that goes before a noun. The opening phrase can also bring someone new into the conversation: in Some guys, they just show up without even calling first, the speaker introduces a group of people, then talks about them.
+    The pronoun can be the subject or the object of what follows, or a word like <i>her</i> or <i>their</i> that goes before a noun. The opening phrase can also bring someone new into the conversation: in <i>Some guys, they just show up without even calling first</i>, the speaker introduces a group of people, then talks about them.
   examples:
     - text: '[Her parents, I don’t like them at all.]'
       from: entry
@@ -28,14 +28,14 @@ teacher:
   contrasts:
     - text: Her parents, I don't like them at all.
       from: entry
-      note: The pronoun them is overt.
+      note: The pronoun <i>them</i> is overt.
     - text: Her parents I don't like.
       from: constructed
       note: 'Complement preposing: a gap, no pronoun.'
   watch_for:
     - A learner might treat the pronoun as an error because it repeats the opening phrase, when the pattern requires an overt pronoun.
     - A learner might assume the initial phrase must already be known to the listener, when it can introduce a new referent.
-  activity: Give students plain sentences such as I don't like her parents. They rewrite each with the noun phrase first and a pronoun in its old place, then rewrite it again with a gap and compare the two.
+  activity: Give students plain sentences such as <i>I don't like her parents</i>. They rewrite each with the noun phrase first and a pronoun in its old place, then rewrite it again with a gap and compare the two.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

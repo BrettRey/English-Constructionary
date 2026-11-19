@@ -5,30 +5,30 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Finding yourself a room
-  summary: A sentence can show someone securing something for themselves by using a reflexive word, like herself, right after the verb.
+  summary: A sentence can show someone securing something for themselves by using a reflexive word, like <i>herself</i>, right after the verb.
   body: |-
-    In Jo found herself a quieter room, Jo is both the finder and the person who benefits. The word herself comes right after found, and the room follows. The sentence presents Jo's action as securing a resource for Jo.
+    In <i>Jo found herself a quieter room</i>, Jo is both the finder and the person who benefits. The word <i>herself</i> comes right after <i>found</i>, and the room follows. The sentence presents Jo's action as securing a resource for Jo.
 
-    Compare Jo found herself in a quieter room, where herself is the direct object and the phrase in a quieter room says where Jo was. This dictionary marks the account as provisional.
+    Compare <i>Jo found herself in a quieter room</i>, where <i>herself</i> is the direct object and the phrase <i>in a quieter room</i> says where Jo was. This dictionary marks the account as provisional.
   examples:
     - text: Jo [found herself a quieter room].
       from: entry
-  try: Take a sentence such as Jo found a quieter room. Can you add herself to show that the room was for Jo?
+  try: Take a sentence such as <i>Jo found a quieter room</i>. Can you add <i>herself</i> to show that the room was for Jo?
 teacher:
   summary: Explains a reflexive indirect object that shows the subject benefiting from the action.
-  explain: 'In this frame a reflexive indirect object follows the verb, with a direct object after it: Jo found herself a quieter room. Jo is understood as the intended beneficiary and room is the acquired resource. The two postverbal NPs are the indirect and the direct object. In Jo found herself in a quieter room, by contrast, herself is the direct object and the PP locates Jo. This dictionary marks the analysis provisional.'
-  terms: The Birmingham English Constructicon, which this dictionary cites, has a related record titled Getting V oneself N. This dictionary describes the pattern as a reflexive beneficiary in a double-object VP.
+  explain: 'In this frame a reflexive indirect object follows the verb, with a direct object after it: <i>Jo found herself a quieter room</i>. Jo is understood as the intended beneficiary and <i>room</i> is the acquired resource. The two postverbal NPs are the indirect and the direct object. In <i>Jo found herself in a quieter room</i>, by contrast, <i>herself</i> is the direct object and the PP locates Jo. This dictionary marks the analysis provisional.'
+  terms: The Birmingham English Constructicon, which this dictionary cites, has a related record titled <i>Getting V oneself N</i>. This dictionary describes the pattern as a reflexive beneficiary in a double-object VP.
   examples:
     - text: Jo [found herself a quieter room].
       from: entry
   contrasts:
     - text: Jo found herself in a quieter room.
       from: constructed
-      note: Here herself is the direct object and the PP says where Jo is.
+      note: Here <i>herself</i> is the direct object and the PP says where Jo is.
   watch_for:
-    - A learner might treat herself as the direct object in both sentences.
-    - A learner might read a quieter room as describing Jo.
-  activity: Students compare Jo found herself a quieter room and Jo found herself in a quieter room, and mark the role of herself in each (indirect object or direct object).
+    - A learner might treat <i>herself</i> as the direct object in both sentences.
+    - A learner might read <i>a quieter room</i> as describing Jo.
+  activity: Students compare <i>Jo found herself a quieter room</i> and <i>Jo found herself in a quieter room</i>, and mark the role of <i>herself</i> in each (indirect object or direct object).
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

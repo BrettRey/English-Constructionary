@@ -1,5 +1,5 @@
 id: since-time-anchor-001
-name: Temporal Since with a Reference Anchor
+name: "Temporal <i>since</i> with a Reference Anchor"
 pattern: PP[since + date/NP/finite clause] with a later reference time
 type: mixed
 meanings:
@@ -20,6 +20,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The closure anchors the beginning of the relevant span. Substitution of because preserves a causal interpretation in some cases but removes this temporal-bounding contribution.
+    target: The closure anchors the beginning of the relevant span. Substitution of <i>because</i> preserves a causal interpretation in some cases but removes this temporal-bounding contribution.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

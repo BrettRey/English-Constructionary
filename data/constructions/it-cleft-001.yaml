@@ -1,14 +1,14 @@
 id: it-cleft-001
-name: It-Cleft
+name: "<i>it</i>-Cleft"
 pattern: Clause[Subject:it + be + PredComp:XP + cleft relative Clause]
 type: mixed
 meanings:
   '1':
     definition: Specifies the value of a variable whose descriptive content is supplied by the cleft relative.
-    details: In it was Kim who was sacked, Kim supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.
+    details: In <i>it was Kim who was sacked</i>, <i>Kim</i> supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.
     examples:
       - form: '[It was peace and quiet that he wanted most.]'
-        note: The value is peace and quiet.
+        note: The value is <i>peace and quiet</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 4 §5.5.1, p. 267 [47i]
@@ -22,17 +22,17 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: '[It wasn’t Kim who took the keys.]'
-        note: Constructed. The denial normally targets Kim’s identification, with somebody’s taking the keys treated as background.
+        note: Constructed. The denial normally targets <i>Kim</i>’s identification, with somebody’s taking the keys treated as background.
 relatedConstructions:
   - id: clause-001
     relationship: specialization-of
     notes: The construction is headed by a VP in a matrix clause.
   - id: relative-word-001
     relationship: related-to
-    notes: The cleft relative can be marked by a relative word; that and zero relatives also occur.
+    notes: The cleft relative can be marked by a relative word; <i>that</i> and zero relatives also occur.
   - id: subject-extraposition-001
     relationship: related-to
-    notes: It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate.
+    notes: <i>It was Jo who opened the window</i> identifies the focused value. <i>It was surprising that Jo opened the window</i> places the content of the evaluation after the predicate.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §§9.1–9.2, 9.4.1, pp. 1415–1425

@@ -1,5 +1,5 @@
 id: get-event-passive-001
-name: Get Passive
+name: "<i>get</i> Passive"
 pattern: Clause[affected Subject + get + verbal past participle]
 type: mixed
 meanings:
@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: be-passive-001
     relationship: alternates-with
-    notes: Jo got promoted and Jo was promoted can describe the same event. Get foregrounds the change or its relevance to Jo. Be is also available in stative uses such as is widely believed.
+    notes: <i>Jo got promoted</i> and <i>Jo was promoted</i> can describe the same event. <i>Get</i> foregrounds the change or its relevance to Jo. <i>Be</i> is also available in stative uses such as <i>is widely believed</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §10.1.3, verbal get-passive versus adjectival get
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: An apparent positive outcome can occur, so adverse consequence is unnecessary. The construction can admit an agent by-phrase and contrasts with get plus an ordinary adjective.
+    target: An apparent positive outcome can occur, so adverse consequence is unnecessary. The construction can admit an agent <i>by</i>-phrase and contrasts with <i>get</i> plus an ordinary adjective.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

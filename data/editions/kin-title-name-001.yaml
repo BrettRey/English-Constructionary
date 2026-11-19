@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Family titles before a name
-  summary: A family word such as Grandma or Aunt placed before a name works as the name of one relative.
+  summary: A family word such as <i>Grandma</i> or <i>Aunt</i> placed before a name works as the name of one relative.
   body: |-
-    A relative can be called by a family word plus a name: Grandma Sharon, Aunt Sarah, Grandpa Dale. The two parts do different jobs. The family word says what kind of relative it is, and the name picks out which one.
+    A relative can be called by a family word plus a name: <i>Grandma Sharon</i>, <i>Aunt Sarah</i>, <i>Grandpa Dale</i>. The two parts do different jobs. The family word says what kind of relative it is, and the name picks out which one.
 
-    There's no the or my in front. You can say we're leaving for Grandma Sharon, or call out Thanks, Aunt Sarah. The same person can be named in other ways too, depending on who is listening: one study found a man calling his father's brother Uncle Bill, Bill or my uncle, depending on whom he was speaking to.
+    There's no <i>the</i> or <i>my</i> in front. You can say <i>we're leaving for Grandma Sharon</i>, or call out <i>Thanks, Aunt Sarah</i>. The same person can be named in other ways too, depending on who is listening: one study found a man calling his father's brother <i>Uncle Bill</i>, <i>Bill</i> or <i>my uncle</i>, depending on whom he was speaking to.
   examples:
     - text: Well, we are actually leaving for [Grandma Sharon] and [Grandpa Dale] in three days.
       from: entry
@@ -21,9 +21,9 @@ curious:
       from: entry
   try: What do you call your relatives when you talk to them, and what do you call them when you talk about them to a friend? Is it always the same?
 teacher:
-  summary: Explains kin titles used as part of a name (Grandma Sharon) and how they differ from titles like Dr or Sir.
-  explain: 'In Grandma Sharon, the head of the NP is the proper noun Sharon, and the kin term is a pre-head modifier with no determiner of its own. The kin term gives a kin class, and the personal name picks out one member of it. The NP can be a referential argument, the subject-determiner in a genitive (grampa Charlie''s story), or a vocative (Thanks, Aunt Sarah). This dictionary treats the kin term as a modifier of the same kind as CGEL''s appellations (Queen, Sister, Captain, Dr), but notes that CGEL''s list doesn''t include kin terms, so this extends CGEL''s analysis. With a genitive determiner the structure differs: in your brother Ben''s birthday, brother is head and Ben an appositive.'
-  terms: 'Appellation: CGEL''s term for a pre-head modifier of a personal name that expresses the status of the individual, such as Dr or Queen. Kin title: a family word such as Aunt, Uncle or Grandma used before a name.'
+  summary: Explains kin titles used as part of a name (<i>Grandma Sharon</i>) and how they differ from titles like <i>Dr</i> or <i>Sir</i>.
+  explain: 'In <i>Grandma Sharon</i>, the head of the NP is the proper noun <i>Sharon</i>, and the kin term is a pre-head modifier with no determiner of its own. The kin term gives a kin class, and the personal name picks out one member of it. The NP can be a referential argument, the subject-determiner in a genitive (<i>grampa Charlie''s story</i>), or a vocative (<i>Thanks, Aunt Sarah</i>). This dictionary treats the kin term as a modifier of the same kind as CGEL''s appellations (<i>Queen</i>, <i>Sister</i>, <i>Captain</i>, <i>Dr</i>), but notes that CGEL''s list doesn''t include kin terms, so this extends CGEL''s analysis. With a genitive determiner the structure differs: in <i>your brother Ben''s birthday</i>, <i>brother</i> is head and <i>Ben</i> an appositive.'
+  terms: 'Appellation: CGEL''s term for a pre-head modifier of a personal name that expresses the status of the individual, such as <i>Dr</i> or <i>Queen</i>. Kin title: a family word such as <i>Aunt</i>, <i>Uncle</i> or <i>Grandma</i> used before a name.'
   examples:
     - text: Well, we are actually leaving for [Grandma Sharon] and [Grandpa Dale] in three days.
       from: entry
@@ -39,14 +39,14 @@ teacher:
       note: The kin term modifies the name, and there's no determiner.
     - text: It's your brother Ben's birthday.
       from: constructed
-      note: With the determiner your, brother is the head and Ben is an appositive.
+      note: With the determiner <i>your</i>, <i>brother</i> is the head and <i>Ben</i> is an appositive.
   watch_for:
-    - A learner might add a determiner and treat Aunt Sarah as if it had the same structure as my aunt Sarah.
+    - A learner might add a determiner and treat <i>Aunt Sarah</i> as if it had the same structure as <i>my aunt Sarah</i>.
     - A learner might take a courtesy aunt or uncle (a kin term used for someone who isn't a relative) to be a blood relation.
-  activity: Students list the ways they or their characters name one relative (Uncle plus name, name alone, my uncle) and decide which would suit speaking to the person, speaking about the person to a friend, and writing a card.
+  activity: Students list the ways they or their characters name one relative (<i>Uncle</i> plus name, name alone, <i>my uncle</i>) and decide which would suit speaking to the person, speaking about the person to a friend, and writing a card.
 child:
-  hook: Do you say "Grandma" and then a name for one of your relatives?
-  explain: People can call a relative by a family word plus a name, like Aunt Sarah. The family word tells who she is to you. The name tells which aunt you mean.
+  hook: Do you say "<i>Grandma</i>" and then a name for one of your relatives?
+  explain: People can call a relative by a family word plus a name, like <i>Aunt Sarah</i>. The family word tells who she is to you. The name tells which aunt you mean.
   examples:
     - text: We're visiting [Aunt Sarah] on Sunday.
       from: constructed
@@ -54,7 +54,7 @@ child:
       from: entry
     - text: '[Grandpa Dale] made pancakes.'
       from: constructed
-  play: List your relatives. For each one, write the family word and the name together. Then try calling the same person by the name alone, or by "my" plus the family word.
+  play: List your relatives. For each one, write the family word and the name together. Then try calling the same person by the name alone, or by "<i>my</i>" plus the family word.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

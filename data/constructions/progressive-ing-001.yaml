@@ -1,5 +1,5 @@
 id: progressive-ing-001
-name: Progressive -ing
+name: "Progressive <i>-ing</i>"
 pattern: Aux BE + V-ing
 type: morphological
 meanings:
@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Be plus a gerund-participle typically presents an activity in progress or a current phase. An -ing complement in Jo avoided staying does not itself have progressive aspect. A future adjunct can instead give the progressive an arrangement reading."
+    target: "<i>Be</i> plus a gerund-participle typically presents an activity in progress or a current phase. An <i>-ing</i> complement in <i>Jo avoided staying</i> does not itself have progressive aspect. A future adjunct can instead give the progressive an arrangement reading."
     evidence: "CGEL distinguishes progressive be from other gerund-participial structures and discusses futurate uses."
     confidence: medium

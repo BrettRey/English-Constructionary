@@ -6,21 +6,21 @@ dimensions:
   form: "Restricted subset of the indeterminate series; what and how join only in fused relatives"
   meaning: "The open variable is bound by the head nominal (integrated) or supplies it (fused)"
   function: "Relativization; links the variable to a discourse referent"
-  distribution: "Integrated and supplementary relatives; fused relatives for what, how, and the -ever series"
+  distribution: "Integrated and supplementary relatives; fused relatives for <i>what</i>, <i>how</i>, and the <i>-ever</i> series"
 meanings:
   '1':
     definition: The indeterminate's variable is identified with the relativized element
-    details: "Membership differs from the interrogative packaging: what and how are excluded from integrated relatives (*the thing what he said in standard English); why is limited (the reason why). Relative that is a subordinator in CGEL, not a member of this series. Fused relatives (what she saw; whatever you choose) supply their own head; on the deitality inventory, ignorance-reading fused relatives pattern deitally while free-choice readings are mixed."
+    details: "Membership differs from the interrogative packaging: <i>what</i> and <i>how</i> are excluded from integrated relatives (*<i>the thing what he said</i> in standard English); <i>why</i> is limited (<i>the reason why</i>). Relative <i>that</i> is a subordinator in CGEL, not a member of this series. Fused relatives (<i>what she saw</i>; <i>whatever you choose</i>) supply their own head; on the deitality inventory, ignorance-reading fused relatives pattern deitally while free-choice readings are mixed."
     examples:
       - form: "the woman [who] called"
         note: Integrated relative, person sort
       - form: "the reason [why] she left"
         note: Limited reason-sort relative
       - form: "I'll take [whatever] you're offering."
-        note: Fused relative, -ever series
+        note: Fused relative, <i>-ever</i> series
 constraints:
   - type: syntactic
-    description: Integrated-relative membership excludes what and how; fused relatives have their own syntax and may deserve a separate entry as coverage grows.
+    description: Integrated-relative membership excludes <i>what</i> and <i>how</i>; fused relatives have their own syntax and may deserve a separate entry as coverage grows.
 semanticRefs:
   - variable
 formRefs:
@@ -42,6 +42,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Whose in the writer whose essay won links the possessor to writer. The whole phrase whose essay occupies subject position of won. A relative may front a larger phrase, unlike treating the relativizing form alone as the entire dependent."
+    target: "<i>Whose</i> in <i>the writer whose essay won</i> links the possessor to <i>writer</i>. The whole phrase <i>whose essay</i> occupies subject position of <i>won</i>. A relative may front a larger phrase, unlike treating the relativizing form alone as the entire dependent."
     evidence: "CGEL analyzes percolation in relative phrases and compares fused, integrated, and interrogative distributions."
     confidence: medium

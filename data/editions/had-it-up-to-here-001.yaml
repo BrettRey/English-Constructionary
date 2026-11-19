@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: I've had it up to here
-  summary: Have had it up to here says someone has reached the limit of what they can put up with, and with names the cause.
+  title: "<i>I've had it up to here</i>"
+  summary: "<i>Have had it up to here</i> says someone has reached the limit of what they can put up with, and <i>with</i> names the cause."
   body: |-
-    I've had it up to here doesn't describe a liquid level. It says the speaker has reached a limit of tolerance, with here marking a figurative line. A gesture can show where that line is.
+    <i>I've had it up to here</i> doesn't describe a liquid level. It says the speaker has reached a limit of tolerance, with <i>here</i> marking a figurative line. A gesture can show where that line is.
 
-    A with-phrase can say what has become too much: We have had it up to here with typical politicians. The expression is also available in writing, and a literal description of liquid height lacks the tolerance meaning.
+    A <i>with</i>-phrase can say what has become too much: <i>We have had it up to here with typical politicians</i>. The expression is also available in writing, and a literal description of liquid height lacks the tolerance meaning.
   examples:
     - text: We have [had it up to here with typical politicians].
       from: entry
     - text: '[I''ve had it up to here].'
       from: entry
-  try: Say I've had it up to here with ... and hold a hand at a height. Does the gesture change how strong it sounds?
+  try: Say <i>I've had it up to here with ...</i> and hold a hand at a height. Does the gesture change how strong it sounds?
 teacher:
-  summary: An idiom for reaching the limit of tolerance, with an optional with-phrase naming the cause.
-  explain: 'The idiom is perfect have plus had it up to here, optionally followed by a with-phrase: We have had it up to here with typical politicians. It presents the speaker or a reported experiencer as having reached a limit of tolerance. Here locates a figurative threshold, which a gesture can give a physical locus. The with-phrase identifies the source of frustration. A distance phrase does not freely substitute for here with the same idiomatic reading, and a literal liquid-level description lacks the experiencer and tolerance interpretation. This dictionary says the core expression has a largely fixed lexical form.'
-  terms: Idiom is the usual word. This dictionary calls the with-phrase's referent the stimulus.
+  summary: An idiom for reaching the limit of tolerance, with an optional <i>with</i>-phrase naming the cause.
+  explain: 'The idiom is perfect have plus <i>had it up to here</i>, optionally followed by a <i>with</i>-phrase: <i>We have had it up to here with typical politicians</i>. It presents the speaker or a reported experiencer as having reached a limit of tolerance. <i>Here</i> locates a figurative threshold, which a gesture can give a physical locus. The <i>with</i>-phrase identifies the source of frustration. A distance phrase does not freely substitute for <i>here</i> with the same idiomatic reading, and a literal liquid-level description lacks the experiencer and tolerance interpretation. This dictionary says the core expression has a largely fixed lexical form.'
+  terms: Idiom is the usual word. This dictionary calls the <i>with</i>-phrase's referent the stimulus.
   examples:
     - text: We have [had it up to here with typical politicians].
       from: entry
@@ -27,12 +27,12 @@ teacher:
       from: entry
   watch_for:
     - A learner might read it as a literal measurement of where something reaches.
-    - A learner might replace here with a distance phrase and expect the same idiomatic reading.
+    - A learner might replace <i>here</i> with a distance phrase and expect the same idiomatic reading.
     - A learner might leave out the perfect have, though this dictionary gives that as the canonical form.
-  activity: Give students a list of annoyances (a noisy neighbour, a late bus). They write I've had it up to here with ... for each, then compare a literal sentence about water height to the idiom.
+  activity: Give students a list of annoyances (a noisy neighbour, a late bus). They write <i>I've had it up to here with ...</i> for each, then compare a literal sentence about water height to the idiom.
 child:
   hook: What does it mean to have had it up to here?
-  explain: This means you can't put up with something any more. A hand held up high can show where your limit is. I've had it up to here with the noise.
+  explain: This means you can't put up with something any more. A hand held up high can show where your limit is. <i>I've had it up to here with the noise</i>.
   examples:
     - text: '[I''ve had it up to here with the noise].'
       from: constructed

@@ -4,40 +4,40 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: All before this, that or the
-  summary: All can stand before a determiner such as those or the, applying to the whole group named.
+  title: <i>All</i> before <i>this</i>, <i>that</i> or <i>the</i>
+  summary: <i>All</i> can stand before a determiner such as <i>those</i> or <i>the</i>, applying to the whole group named.
   body: |-
-    In They catalogued all those shells, all comes before those and takes in every shell in the group that those picks out. The two words sit one after the other in the same phrase.
+    In <i>They catalogued all those shells</i>, <i>all</i> comes before <i>those</i> and takes in every shell in the group that <i>those</i> picks out. The two words sit one after the other in the same phrase.
 
-    All can also come before the, as in all the shells. This dictionary notes that each and every don't generally take that same place before a determiner that is already there.
+    <i>All</i> can also come before <i>the</i>, as in <i>all the shells</i>. This dictionary notes that <i>each</i> and <i>every</i> don't generally take that same place before a determiner that is already there.
   examples:
     - text: They catalogued [all those shells].
       from: entry
     - text: They catalogued [all the shells].
       from: constructed
-  try: Try putting all before the, these and my. Which ones work?
+  try: Try putting <i>all</i> before <i>the</i>, <i>these</i> and <i>my</i>. Which ones work?
 teacher:
-  summary: Explains all before another determiner, as in all those shells and all the shells.
-  explain: In the pattern NP[all + Det + Nom], all applies universal quantification outside a following determiner phrase or constituent. All can precede those and the in the same NP. Each and every do not generally occupy that same position before an existing central determiner. This dictionary files this as a specialization of the noun phrase with a determiner, and relates it to each-of partitives. It is provisional, with medium confidence.
-  terms: Textbooks sometimes call all in this position a predeterminer. In CGEL terms, determiner is a function and determinative a category.
+  summary: Explains <i>all</i> before another determiner, as in <i>all those shells</i> and <i>all the shells</i>.
+  explain: In the pattern NP[all + Det + Nom], all applies universal quantification outside a following determiner phrase or constituent. <i>All</i> can precede <i>those</i> and <i>the</i> in the same NP. <i>Each</i> and <i>every</i> do not generally occupy that same position before an existing central determiner. This dictionary files this as a specialization of the noun phrase with a determiner, and relates it to each-of partitives. It is provisional, with medium confidence.
+  terms: Textbooks sometimes call <i>all</i> in this position a predeterminer. In CGEL terms, determiner is a function and determinative a category.
   examples:
     - text: They catalogued [all those shells].
       from: entry
     - text: They catalogued [all the shells].
       from: constructed
   watch_for:
-    - A learner might think all has to replace the determiner, when it can come before it.
-    - A learner might expect each and every to take the same position before the or those.
-  activity: Students write six noun phrases with all plus a determiner (the, those, these, my) and a plural noun, then compare with a partner and discuss which ones they find natural.
+    - A learner might think <i>all</i> has to replace the determiner, when it can come before it.
+    - A learner might expect <i>each</i> and <i>every</i> to take the same position before <i>the</i> or <i>those</i>.
+  activity: Students write six noun phrases with <i>all</i> plus a determiner (<i>the</i>, <i>those</i>, <i>these</i>, <i>my</i>) and a plural noun, then compare with a partner and discuss which ones they find natural.
 child:
-  hook: Can the word all go in front of the, like in all the kids?
-  explain: The word all can come before words like the and those. They catalogued all those shells. All means every one of them.
+  hook: Can the word <i>all</i> go in front of <i>the</i>, like in <i>all the kids</i>?
+  explain: The word <i>all</i> can come before words like <i>the</i> and <i>those</i>. <i>They catalogued all those shells.</i> <i>All</i> means every one of them.
   examples:
     - text: They catalogued all those shells.
       from: entry
     - text: All the kids sang.
       from: constructed
-  play: Say a sentence about your class starting with all the. Then change the to those or my.
+  play: Say a sentence about your class starting with <i>all the</i>. Then change <i>the</i> to <i>those</i> or <i>my</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

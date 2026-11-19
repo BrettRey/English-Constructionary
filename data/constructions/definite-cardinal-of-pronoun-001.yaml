@@ -1,11 +1,11 @@
 id: definite-cardinal-of-pronoun-001
-name: The Two of Us
+name: "<i>the two of us</i>"
 pattern: NP[the + cardinal + PP[of + personal pronoun]]
 type: mixed
 meanings:
   '1':
     definition: Identifies a group while explicitly giving its size.
-    details: The four of us can describe the group of four that includes the speaker. If a larger group is salient, the phrase needs a recoverable set of four. Without the, four of us can simply pick an unspecified subset of a larger us-group. The scope of the definite is the group picked out by the whole NP.
+    details: <i>The four of us</i> can describe the group of four that includes the speaker. If a larger group is salient, the phrase needs a recoverable set of four. Without <i>the</i>, <i>four of us</i> can simply pick an unspecified subset of a larger <i>us</i>-group. The scope of the definite is the group picked out by the whole NP.
     examples:
       - form: There were six of us, and [four of us] had bikes.
         note: Constructed subset with the article absent.
@@ -17,7 +17,7 @@ relatedConstructions:
     notes: The article determines the whole NP.
   - id: numerative-fused-head-001
     relationship: related-to
-    notes: Cardinals with of-phrases can occur in ordinary partitive syntax.
+    notes: Cardinals with <i>of</i>-phrases can occur in ordinary partitive syntax.
 grounds:
   - source: casa-constructicon
     locator: record 62
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A cardinal with the can count members of an already identified group. Without the, the same numeral and pronoun also admit an unspecified subset of a larger salient group.
-    evidence: CASA records the cardinal and pronoun slots and the group-size reading. CGEL explicitly contrasts the two of us with both of us and dialectal the both of us.
+    target: A cardinal with <i>the</i> can count members of an already identified group. Without <i>the</i>, the same numeral and pronoun also admit an unspecified subset of a larger salient group.
+    evidence: CASA records the cardinal and pronoun slots and the group-size reading. CGEL explicitly contrasts <i>the two of us</i> with <i>both of us</i> and dialectal <i>the both of us</i>.
     confidence: high

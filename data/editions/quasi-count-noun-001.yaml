@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Plural words with no single form
-  summary: Some nouns, such as cattle, are plural in form with no singular, and only partly behave like ordinary count nouns.
+  summary: Some nouns, such as <i>cattle</i>, are plural in form with no singular, and only partly behave like ordinary count nouns.
   body: |-
-    Cattle works with many and takes plural verbs: many cattle. But it has no singular, and a cattle isn't something you say. These nouns refer to groups of separate individuals, yet they don't let us pick out one at a time in the usual way.
+    <i>Cattle</i> works with <i>many</i> and takes plural verbs: <i>many cattle</i>. But it has no singular, and <i>a cattle</i> isn't something you say. These nouns refer to groups of separate individuals, yet they don't let us pick out one at a time in the usual way.
 
-    To count individuals, English uses a counting expression such as three head of cattle, or a different word altogether, like cow. This dictionary marks the account as provisional, though it treats the pattern as stable.
+    To count individuals, English uses a counting expression such as <i>three head of cattle</i>, or a different word altogether, like <i>cow</i>. This dictionary marks the account as provisional, though it treats the pattern as stable.
   examples:
     - text: '[many cattle]'
       from: entry
     - text: '[three head of cattle]'
       from: entry
-  try: Try saying a cattle and then a cow. Which one lets you talk about a single animal? What would you say for several?
+  try: Try saying <i>a cattle</i> and then <i>a cow</i>. Which one lets you talk about a single animal? What would you say for several?
 teacher:
-  summary: Explains plural-only nouns like cattle that take many but resist a, one and low numbers.
-  explain: Quasi-count plural nouns are plural-only, with plural agreement, and resist singular forms and a/an. They allow loose count diagnostics (many, few, high round numerals) but tight ones (a/an, low cardinals, distributives) are degraded. Individuals are counted with specialized frames such as three head of cattle, or by a different word (cow, officer). Tight cardinality uses surface mainly in specialized registers. This dictionary marks the account provisional and says no claim about novel forms follows automatically. Folks is a boundary item showing instability.
+  summary: "Low priority for most classes: <i>cattle</i> is relatively infrequent (about 3,700th among word forms in the SUBTLEX-UK subtitle counts), so treat it if it comes up rather than teaching it. Explains plural-only nouns like <i>cattle</i> that take <i>many</i> but resist <i>a</i>, <i>one</i> and low numbers."
+  explain: Quasi-count plural nouns are plural-only, with plural agreement, and resist singular forms and <i>a</i>/<i>an</i>. They allow loose count diagnostics (<i>many</i>, <i>few</i>, high round numerals) but tight ones (<i>a</i>/<i>an</i>, low cardinals, distributives) are degraded. Individuals are counted with specialized frames such as <i>three head of cattle</i>, or by a different word (<i>cow</i>, <i>officer</i>). Tight cardinality uses surface mainly in specialized registers. This dictionary marks the account provisional and says no claim about novel forms follows automatically. <i>Folks</i> is a boundary item showing instability.
   terms: Related to plural-only or collective nouns in traditional grammars; this dictionary calls these quasi-count nouns, with a mixed countability profile.
   examples:
     - text: '[many cattle]'
@@ -34,11 +34,12 @@ teacher:
       acceptable: false
       note: Tight count property rejected.
   watch_for:
-    - A learner might think three cattle is the standard way to count three animals, when this dictionary gives three head of cattle.
-    - A learner might use a with cattle to refer to a single animal.
+    - A learner might think <i>three cattle</i> is the standard way to count three animals, when this dictionary gives <i>three head of cattle</i>.
+    - A learner might use <i>a</i> with <i>cattle</i> to refer to a single animal.
     - A learner might treat all plural-only nouns as having the same profile.
-  activity: Students list plural-only nouns they know and test each with many, a and three, recording which tests fit.
+  activity: If <i>cattle</i> comes up in a reading, students list plural-only nouns they know and test each with <i>many</i>, <i>a</i> and <i>three</i>, recording which tests fit.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: teacher.summary now opens by marking the entry low priority (cattle about 3,700th in SUBTLEX-UK); activity, which tests plural-only nouns students know, now starts from cattle coming up in a reading."

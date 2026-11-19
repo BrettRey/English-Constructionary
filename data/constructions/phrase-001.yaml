@@ -10,18 +10,18 @@ dimensions:
 meanings:
   '1':
     definition: A constituent organized around a head, which licenses its dependents and principally determines its distribution
-    details: "Phrases contrast with coordinations and other non-headed constituents (see coordination-001 and clause-analogue-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are phrasal categories. A Clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. Constituents that CGEL calls verbless clauses are not Clauses in this Constructionary: they instantiate a separate clause-analogue construction. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (outside as a complete PP, Kim as a complete NP)."
+    details: "Phrases contrast with coordinations and other non-headed constituents (see coordination-001 and clause-analogue-001). Clause, VP, NP, Nom, AdjP, AdvP, PP, and DP are phrasal categories. A Clause is headed immediately by a VP and may also contain a Subject; the VP is ultimately headed by V. Constituents that CGEL calls verbless clauses are not Clauses in this Constructionary: they instantiate a separate clause-analogue construction. Other phrases likewise may have a phrasal immediate head, such as Nom in NP. A phrase may consist of its head alone (<i>outside</i> as a complete PP, <i>Kim</i> as a complete NP)."
     examples:
       - form: "[in the garden]"
-        note: PP; head in
+        note: PP; head <i>in</i>
       - form: "[the old house]"
-        note: NP; head house
+        note: NP; head <i>house</i>
       - form: "[very old]"
-        note: AdjP; head old
+        note: AdjP; head <i>old</i>
       - form: "[Kim [left early]]"
-        note: "Clause; Subject Kim plus Head VP left early, whose head is V"
+        note: "Clause; Subject <i>Kim</i> plus Head VP <i>left early</i>, whose head is V"
       - form: "[Leave early!]"
-        note: "Subjectless imperative Clause; Head is the VP leave early"
+        note: "Subjectless imperative Clause; Head is the VP <i>leave early</i>"
 constraints:
   - type: syntactic
     description: "Exactly one immediate head; dependents are licensed by that head and its ultimate lexical head. In a Clause the Head is VP and Subject is optional. A constituent without a head is not a Phrase, and one without a VP head is not a Clause."

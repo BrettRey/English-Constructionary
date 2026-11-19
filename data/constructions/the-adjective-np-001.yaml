@@ -1,11 +1,11 @@
 id: the-adjective-np-001
-name: Special Fused-Head NP with The and an Adjective
+name: "Special Fused-Head NP with <i>the</i> and an Adjective"
 pattern: NP[Det:the + fused Modifier–Head:AdjP]
 type: mixed
 meanings:
   '1':
     definition: Refers to a class of people or to an abstract domain characterized by the adjective.
-    details: With the very wealthy, the default special interpretation is plural and human. With the utterly impossible, the abstract interpretation has singular agreement. The adjective retains its ability to take adverbial modifiers. Anaphoric examples like the long in the short route and the long recover their nominal description from context and have independent agreement.
+    details: With <i>the very wealthy</i>, the default special interpretation is plural and human. With <i>the utterly impossible</i>, the abstract interpretation has singular agreement. The adjective retains its ability to take adverbial modifiers. Anaphoric examples like <i>the long</i> in <i>the short route and the long</i> recover their nominal description from context and have independent agreement.
     examples:
       - form: '[The very wealthy] are exempt.'
         note: Constructed human-class reading with plural agreement.

@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Words for stuff you don't count
-  summary: Non-count nouns such as water and rice name something thought of as stuff, not as separate items.
+  summary: Non-count nouns such as <i>water</i> and <i>rice</i> name something thought of as stuff, not as separate items.
   body: |-
-    Water and rice are non-count nouns. They name something thought of as undifferentiated stuff. They reject cardinal numbers, they take much and less, and they default to singular agreement: much coffee.
+    <i>Water</i> and <i>rice</i> are non-count nouns. They name something thought of as undifferentiated stuff. They reject cardinal numbers, they take <i>much</i> and <i>less</i>, and they default to singular agreement: <i>much coffee</i>.
 
-    The same word can sometimes shift. Two coffees works because the context supplies portions or varieties, such as cups or kinds. So the word alone doesn't decide how it's used, and this dictionary lists beer, chicken, paper, furniture, cattle and police as words near the boundary. The analysis is provisional.
+    The same word can sometimes shift. <i>Two coffees</i> works because the context supplies portions or varieties, such as cups or kinds. So the word alone doesn't decide how it's used, and this dictionary lists <i>beer</i>, <i>chicken</i>, <i>paper</i>, <i>furniture</i>, <i>cattle</i> and <i>police</i> as words near the boundary. The analysis is provisional.
   examples:
     - text: '[water]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: constructed
     - text: '[Two coffees], please.'
       from: constructed
-  try: Think of something you pour or scoop. Does it go with much? Can you shift it to mean cups or kinds?
+  try: Think of something you pour or scoop. Does it go with <i>much</i>? Can you shift it to mean cups or kinds?
 teacher:
-  summary: Teaches the count and non-count distinction, with flexible cases such as two coffees as context-dependent shifts.
-  explain: 'A non-count noun has non-count morphosyntax and, by default, a substance or aggregate construal. Diagnostics: it rejects cardinals, takes much and less, and defaults to singular agreement. In much coffee, coffee has non-count distribution; Two coffees permits a count reading because the context supplies portions or varieties. The individual lexical form alone doesn''t decide the syntactic use, and speakers vary on how flexible particular words are. Near the boundary are beer, chicken, paper, furniture, cattle and police. This dictionary treats the category as a provisional profile.'
+  summary: Teaches the count and non-count distinction, with flexible cases such as <i>two coffees</i> as context-dependent shifts.
+  explain: 'A non-count noun has non-count morphosyntax and, by default, a substance or aggregate construal. Diagnostics: it rejects cardinals, takes <i>much</i> and <i>less</i>, and defaults to singular agreement. In <i>much coffee</i>, <i>coffee</i> has non-count distribution; <i>Two coffees</i> permits a count reading because the context supplies portions or varieties. The individual lexical form alone doesn''t decide the syntactic use, and speakers vary on how flexible particular words are. Near the boundary are <i>beer</i>, <i>chicken</i>, <i>paper</i>, <i>furniture</i>, <i>cattle</i> and <i>police</i>. This dictionary treats the category as a provisional profile.'
   terms: Mass noun and uncountable noun are traditional names for non-count nouns. This dictionary uses non-count.
   examples:
     - text: '[water]'
@@ -34,23 +34,23 @@ teacher:
   contrasts:
     - text: much coffee
       from: constructed
-      note: Non-count distribution with much.
+      note: Non-count distribution with <i>much</i>.
     - text: Two coffees, please.
       from: constructed
       note: A count reading; context supplies cups or kinds.
   watch_for:
     - A learner might assume a noun that names a substance can't ever appear with a number, though context can supply portions or varieties.
-    - A learner might take chicken, paper or beer to belong to one category only, when this dictionary lists them near the boundary.
-  activity: Students sort a list of food and drink words (water, rice, coffee, beer, paper). They test each with much, then with a number. Discuss which words shift when the context supplies cups, portions or kinds.
+    - A learner might take <i>chicken</i>, <i>paper</i> or <i>beer</i> to belong to one category only, when this dictionary lists them near the boundary.
+  activity: Students sort a list of food and drink words (<i>water</i>, <i>rice</i>, <i>coffee</i>, <i>beer</i>, <i>paper</i>). They test each with <i>much</i>, then with a number. Discuss which words shift when the context supplies cups, portions or kinds.
 child:
-  hook: Why do we say much rice but count apples?
-  explain: Some words name stuff, like water and rice. We don't count the stuff itself. We say much water. But two coffees can mean two cups of coffee.
+  hook: Why do we say <i>much rice</i> but count apples?
+  explain: Some words name stuff, like <i>water</i> and <i>rice</i>. We don't count the stuff itself. We say <i>much water</i>. But <i>two coffees</i> can mean two cups of coffee.
   examples:
     - text: There isn't much [rice].
       from: constructed
     - text: We bought two [coffees].
       from: constructed
-  play: Find words for stuff in the kitchen. Try each one with much. Then think of a cup or a bowl that lets you count it.
+  play: Find words for stuff in the kitchen. Try each one with <i>much</i>. Then think of a cup or a bowl that lets you count it.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

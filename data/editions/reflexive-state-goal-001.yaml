@@ -4,36 +4,36 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Crying yourself to sleep
+  title: <i>Crying yourself to sleep</i>
   summary: A verb can take a reflexive word and a phrase naming the state that results, even if the verb wouldn't normally take that word.
   body: |-
-    In The child cried herself to sleep, the crying caused a result: the child ended up asleep. The word herself follows cried, and to sleep names the state reached.
+    In <i>The child cried herself to sleep</i>, the crying caused a result: the child ended up asleep. The word <i>herself</i> follows <i>cried</i>, and <i>to sleep</i> names the state reached.
 
-    The pattern itself, not the verb cry, makes room for that word. The phrase to sleep describes a state reached, not a place travelled to. This dictionary marks the account as provisional.
+    The pattern itself, not the verb <i>cry</i>, makes room for that word. The phrase <i>to sleep</i> describes a state reached, not a place travelled to. This dictionary marks the account as provisional.
   examples:
     - text: The child [cried herself to sleep].
       from: entry
-  try: Think of an activity that could tire someone into a state. Can you say it with the person, herself or himself, and a to phrase?
+  try: Think of an activity that could tire someone into a state. Can you say it with the person, <i>herself</i> or <i>himself</i>, and a <i>to</i> phrase?
 teacher:
   summary: Explains the reflexive-plus-PP frame where an activity leads to a resulting state.
-  explain: 'The pattern is a VP with a verb, a reflexive direct object and a PP denoting a resulting state: The child cried herself to sleep. It extends a goal expression to a state caused by an activity, and the verb need not otherwise license the reflexive object. To sleep describes the state reached, not the destination of an actual motion. Omitting the PP removes the interpretation that licenses the reflexive object after cry. This dictionary notes that CGEL distinguishes these PPs from adjective and noun phrase predicatives. It''s marked provisional.'
+  explain: 'The pattern is a VP with a verb, a reflexive direct object and a PP denoting a resulting state: <i>The child cried herself to sleep</i>. It extends a goal expression to a state caused by an activity, and the verb need not otherwise license the reflexive object. <i>To sleep</i> describes the state reached, not the destination of an actual motion. Omitting the PP removes the interpretation that licenses the reflexive object after <i>cry</i>. This dictionary notes that CGEL distinguishes these PPs from adjective and noun phrase predicatives. It''s marked provisional.'
   terms: Often grouped with resultative constructions; this dictionary treats it as a specialization of caused motion, with a state construed as a goal.
   examples:
     - text: The child [cried herself to sleep].
       from: entry
   watch_for:
-    - A learner might read to sleep as movement to a place.
-    - A learner might assume cry is an ordinary verb that takes an object.
-  activity: Students list activities (cry, sing, run) and complete each as a sentence with a reflexive and a state to phrase, then discuss which describe a state reached.
+    - A learner might read <i>to sleep</i> as movement to a place.
+    - A learner might assume <i>cry</i> is an ordinary verb that takes an object.
+  activity: Students list activities (<i>cry</i>, <i>sing</i>, <i>run</i>) and complete each as a sentence with a reflexive and a state <i>to</i> phrase, then discuss which describe a state reached.
 child:
-  hook: What happened if someone cried herself to sleep?
-  explain: She cried, and then she fell asleep. The crying caused the sleep. The words to sleep tell you the state she ended up in.
+  hook: What happened if someone <i>cried herself to sleep</i>?
+  explain: She cried, and then she fell asleep. The crying caused the sleep. The words <i>to sleep</i> tell you the state she ended up in.
   examples:
     - text: The child [cried herself to sleep].
       from: entry
     - text: Mum [sang herself to sleep].
       from: constructed
-  play: Pick an activity and a result, like singing and sleep. Put them in a sentence with herself or himself. Say what state the person ends up in.
+  play: Pick an activity and a result, like singing and sleep. Put them in a sentence with <i>herself</i> or <i>himself</i>. Say what state the person ends up in.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

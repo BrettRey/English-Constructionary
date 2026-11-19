@@ -21,6 +21,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Two centimetres measures the difference, not the total width. Explicitly naming the comparison standard can therefore fix the implied total independently.
+    target: "<i>Two centimetres</i> measures the difference, not the total width. Explicitly naming the comparison standard can therefore fix the implied total independently."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

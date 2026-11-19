@@ -4,12 +4,12 @@ pattern: Nom[N + finite content clause]
 type: mixed
 meanings:
   '1':
-    definition: Supplies the propositional content associated with a noun such as claim or fact.
+    definition: Supplies the propositional content associated with a noun such as <i>claim</i> or <i>fact</i>.
     examples:
       - form: The [claim that Jo knew the code] surprised us.
         note: Constructed illustration.
       - form: The claim [that Jo rejected] surprised us.
-        note: Constructed comparison. Integrated relative with a missing object corresponding to claim.
+        note: Constructed comparison. Integrated relative with a missing object corresponding to <i>claim</i>.
 relatedConstructions:
   - id: nom-001
     relationship: specialization-of
@@ -19,7 +19,7 @@ relatedConstructions:
     parthood: formal
   - id: integrated-relative-modifier-001
     relationship: related-to
-    notes: The rumour that Jo had left gives the content of the rumour, with no noun-linked gap. The rumour that Jo spread has an object gap linked to rumour.
+    notes: <i>The rumour that Jo had left</i> gives the content of the rumour, with no noun-linked gap. <i>The rumour that Jo spread</i> has an object gap linked to <i>rumour</i>.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §4.5; Ch. 5 §14, complements
@@ -28,6 +28,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The embedded knew the code has no gap linked to claim. In the claim that Jo rejected, the matching string that Jo rejected instead has an object gap.
+    target: The embedded <i>knew the code</i> has no gap linked to <i>claim</i>. In <i>the claim that Jo rejected</i>, the matching string <i>that Jo rejected</i> instead has an object gap.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

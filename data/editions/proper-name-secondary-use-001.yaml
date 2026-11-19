@@ -7,9 +7,9 @@ curious:
   title: Names used like ordinary nouns
   summary: A name can be counted, compared with, or used to mean something connected to the named person or place.
   body: |-
-    In There are two Kims on the committee, Kim is used to count people who share a name. In They were hoping to recruit another Einstein, the person wanted needn't be called Einstein; what's meant is someone with the relevant qualities of Einstein.
+    In <i>There are two Kims on the committee</i>, <i>Kim</i> is used to count people who share a name. In <i>They were hoping to recruit another Einstein</i>, the person wanted needn't be called <i>Einstein</i>; what's meant is someone with the relevant qualities of Einstein.
 
-    A name can also pick out a version of something, a product or a copy: They bought a Rembrandt can mean they bought a painting, and some Beethoven can mean music. This dictionary keeps these readings visible without saying how many separate constructions they are, and marks the account as provisional.
+    A name can also pick out a version of something, a product or a copy: <i>They bought a Rembrandt</i> can mean they bought a painting, and <i>some Beethoven</i> can mean music. This dictionary keeps these readings visible without saying how many separate constructions they are, and marks the account as provisional.
   examples:
     - text: There are [two Kims] on the committee.
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: They bought [a Rembrandt].
       from: entry
-  try: Can you think of a name that stands for a type of person, such as someone known for a quality? How would you say you wanted another one?
+  try: Can you think of a name that stands for a type of person, such as someone known for a quality? How would you say you wanted <i>another one</i>?
 teacher:
   summary: Explains how names can behave like count nouns with number, determiners and modifiers.
-  explain: 'The pattern is a NP with a determiner and a nominal based on a proper name, optionally plural or modified. This dictionary distinguishes readings: counting or distinguishing bearers of the same name (two Kims, where a modifier can select one Kim), resemblance (another Einstein, where the person needn''t have that name), and a manifestation, product or copy associated with the named entity (a Rembrandt, some Beethoven, the Paris of her youth). Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance. Product uses admit count and non-count construals. This dictionary leaves open how many constructions there are. It''s marked provisional.'
+  explain: 'The pattern is a NP with a determiner and a nominal based on a proper name, optionally plural or modified. This dictionary distinguishes readings: counting or distinguishing bearers of the same name (<i>two Kims</i>, where a modifier can select one Kim), resemblance (<i>another Einstein</i>, where the person needn''t have that name), and a manifestation, product or copy associated with the named entity (<i>a Rembrandt</i>, <i>some Beethoven</i>, <i>the Paris of her youth</i>). Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance. Product uses admit count and non-count construals. This dictionary leaves open how many constructions there are. It''s marked provisional.'
   terms: This dictionary describes these as proper names in descriptive NPs.
   examples:
     - text: There are [two Kims] on the committee.
@@ -30,13 +30,13 @@ teacher:
     - text: They bought [a Rembrandt].
       from: entry
   watch_for:
-    - A learner might expect another Einstein to mean a person called Einstein, when the person need not have that name.
-    - A learner might think a Rembrandt refers to the painter.
+    - A learner might expect <i>another Einstein</i> to mean a person called <i>Einstein</i>, when the person need not have that name.
+    - A learner might think <i>a Rembrandt</i> refers to the painter.
     - A learner might think a name cannot take a determiner or a plural ending.
   activity: Students sort sentences using names in descriptive NPs into three groups (same name, resembles, product or copy) and justify their choices.
 child:
-  hook: What do you call it when two kids are both named Kim?
-  explain: A name can be counted. If two people are named Kim, we can say two Kims.
+  hook: What do you call it when two kids are both named <i>Kim</i>?
+  explain: A name can be counted. If two people are named <i>Kim</i>, we can say <i>two Kims</i>.
   examples:
     - text: There are [two Kims] on the committee.
       from: entry

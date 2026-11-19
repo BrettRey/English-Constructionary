@@ -1,5 +1,5 @@
 id: anaphoric-propositional-not-001
-name: Anaphoric Not with an Attitude Predicate
+name: "Anaphoric <i>not</i> with an Attitude Predicate"
 pattern: licensed predicate + not
 type: mixed
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Not supplies the content that the screen is not broken. I don’t hope so can instead negate the hoping, and compatibility of the standalone not varies by predicate.
+    target: "<i>Not</i> supplies the content that <i>the screen is not broken</i>. <i>I don’t hope so</i> can instead negate the hoping, and compatibility of the standalone <i>not</i> varies by predicate."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

@@ -7,19 +7,19 @@ curious:
   title: Verbs that go with a particular small word
   summary: Some verbs link an argument through one particular preposition that belongs with that sense of the verb.
   body: |-
-    In We relied on Jo, the preposition on isn't a free choice. The verb sense chooses it. Jo is the object of on, and the on-phrase is tied to the verb relied.
+    In <i>We relied on Jo</i>, the preposition <i>on</i> isn't a free choice. The verb sense chooses it. Jo is the object of <i>on</i>, and the <i>on</i>-phrase is tied to the verb <i>relied</i>.
 
-    Compare picked the book up. There, the book is the object of the verb, and it can go before the little word up. Relied on Jo doesn't work that way. In the ordinary order the preposition stays next to Jo, but it can be left at the end in a question like Who did you rely on?
+    Compare <i>picked the book up</i>. There, the book is the object of the verb, and it can go before the little word <i>up</i>. <i>Relied on Jo</i> doesn't work that way. In the ordinary order the preposition stays next to Jo, but it can be left at the end in a question like <i>Who did you rely on?</i>
   examples:
     - text: We [relied on Jo].
       from: entry
     - text: Who did you rely on?
       from: constructed
-  try: Which small word goes with rely in We relied on Jo? Say a new sentence with rely and that word.
+  try: Which small word goes with <i>rely</i> in <i>We relied on Jo</i>? Say a new sentence with <i>rely</i> and that word.
 teacher:
-  summary: Shows verbs that select a specific preposition for a complement, such as rely on.
-  explain: 'In this pattern a verb head takes a PP with a lexically selected preposition: relied on Jo. The lexical sense links the argument through that preposition. Jo is the object of selected on. Compare picked the book up, where the book is an object of the verb and can precede the particle up. The selected preposition can be stranded in Who did you rely on?, remains adjacent to its NP in the ordinary order, and does not undergo particle shift. This dictionary relates the pattern to verb-particle-object constructions, and marks it provisional, with medium confidence.'
-  terms: Textbooks sometimes call these prepositional verbs. This dictionary contrasts them with the verb-particle-object pattern of picked the book up.
+  summary: Shows verbs that select a specific preposition for a complement, such as <i>rely on</i>.
+  explain: 'In this pattern a verb head takes a PP with a lexically selected preposition: <i>relied on Jo</i>. The lexical sense links the argument through that preposition. Jo is the object of selected <i>on</i>. Compare <i>picked the book up</i>, where the book is an object of the verb and can precede the particle <i>up</i>. The selected preposition can be stranded in <i>Who did you rely on?</i>, remains adjacent to its NP in the ordinary order, and does not undergo particle shift. This dictionary relates the pattern to verb-particle-object constructions, and marks it provisional, with medium confidence.'
+  terms: Textbooks sometimes call these prepositional verbs. This dictionary contrasts them with the verb-particle-object pattern of <i>picked the book up</i>.
   examples:
     - text: We [relied on Jo].
       from: entry
@@ -28,23 +28,23 @@ teacher:
   contrasts:
     - text: We relied on Jo.
       from: entry
-      note: Jo is the object of the selected preposition on.
+      note: Jo is the object of the selected preposition <i>on</i>.
     - text: We picked the book up.
       from: constructed
-      note: The book is an object of the verb and can precede the particle up.
+      note: The book is an object of the verb and can precede the particle <i>up</i>.
   watch_for:
-    - A learner might think the preposition after rely can be changed freely, when it is selected by the verb sense.
-    - A learner might try to move on away from its NP the way up moves in picked the book up.
-  activity: Students make a card list of verbs with their selected prepositions (rely on). They write a statement and a question for each, with the preposition at the end of the question.
+    - A learner might think the preposition after <i>rely</i> can be changed freely, when it is selected by the verb sense.
+    - A learner might try to move <i>on</i> away from its NP the way <i>up</i> moves in <i>picked the book up</i>.
+  activity: Students make a card list of verbs with their selected prepositions (<i>rely on</i>). They write a statement and a question for each, with the preposition at the end of the question.
 child:
-  hook: Which little word goes with the verb rely?
-  explain: Some verbs go with a certain small word. We relied on Jo. The word on belongs with rely here. In this sentence it sits right next to Jo.
+  hook: Which little word goes with the verb <i>rely</i>?
+  explain: Some verbs go with a certain small word. <i>We relied on Jo</i>. The word <i>on</i> belongs with <i>rely</i> here. In this sentence it sits right next to Jo.
   examples:
     - text: We relied on Jo.
       from: entry
     - text: Who did you rely on?
       from: constructed
-  play: Make up sentences with rely on. Then turn them into questions, like Who did you rely on?
+  play: Make up sentences with <i>rely on</i>. Then turn them into questions, like <i>Who did you rely on?</i>
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

@@ -1,5 +1,5 @@
 id: even-if-concessive-conditional-001
-name: Concessive Conditional Even If
+name: "Concessive Conditional <i>even if</i>"
 pattern: adjunct[even if + finite clause]
 type: mixed
 meanings:

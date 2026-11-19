@@ -5,20 +5,20 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Words that come before the noun
-  summary: A modifier can come before the head noun, as in old book or dog breeder.
+  summary: A modifier can come before the head noun, as in <i>old book</i> or <i>dog breeder</i>.
   body: |-
-    In old book, the word old comes before the noun book and modifies it. In dog breeder, the noun dog comes before breeder and modifies it. Both are examples of a pre-head modifier: something placed before the head noun in the nominal.
+    In <i>old book</i>, the word <i>old</i> comes before the noun <i>book</i> and modifies it. In <i>dog breeder</i>, the noun <i>dog</i> comes before <i>breeder</i> and modifies it. Both are examples of a pre-head modifier: something placed before the head noun in the nominal.
 
-    This dictionary describes two kinds in these examples. In old book the modifier is an adjective. In dog breeder it is a noun. Each modifier is part of a nominal whose head is the noun after it.
+    This dictionary describes two kinds in these examples. In <i>old book</i> the modifier is an adjective. In <i>dog breeder</i> it is a noun. Each modifier is part of a nominal whose head is the noun after it.
   examples:
     - text: '[old] book'
       from: entry
     - text: '[dog] breeder'
       from: entry
-  try: Choose a noun, such as book, and add a word before it. Is the word you added an adjective or a noun?
+  try: Choose a noun, such as <i>book</i>, and add a word before it. Is the word you added an adjective or a noun?
 teacher:
   summary: The general pattern behind adjective-before-noun and noun-before-noun combinations.
-  explain: 'A nominal can contain a pre-head modifier: a constituent placed before the head noun. This dictionary''s two examples show two types: an adjectival modifier (old book) and a nominal modifier (dog breeder). This dictionary treats this as the general pattern, and the adjective and nominal versions as more specific types. This dictionary gives only a definition and two examples for this pattern, so teach it as an umbrella over the two specific patterns.'
+  explain: 'A nominal can contain a pre-head modifier: a constituent placed before the head noun. This dictionary''s two examples show two types: an adjectival modifier (<i>old book</i>) and a nominal modifier (<i>dog breeder</i>). This dictionary treats this as the general pattern, and the adjective and nominal versions as more specific types. This dictionary gives only a definition and two examples for this pattern, so teach it as an umbrella over the two specific patterns.'
   terms: This dictionary's term is pre-head modifier; attributive adjective is a textbook term for the adjective case.
   examples:
     - text: '[old] book'
@@ -33,7 +33,7 @@ teacher:
       from: entry
       note: Nominal pre-head modifier.
   watch_for:
-    - A learner might think the modifier is the head of the whole phrase, when book and breeder are the heads.
+    - A learner might think the modifier is the head of the whole phrase, when <i>book</i> and <i>breeder</i> are the heads.
     - A learner might treat the two examples as the same kind of modifier, when one is an adjective and the other a noun.
   activity: Students write five short phrases with a word before a noun. They underline the head noun and mark each modifier as an adjective or a noun.
 checked:

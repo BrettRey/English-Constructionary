@@ -4,40 +4,40 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: How odd!
-  summary: How followed by an adjective can stand alone as an exclamation, showing a strong reaction to how far something goes.
+  title: <i>How odd!</i>
+  summary: <i>How</i> followed by an adjective can stand alone as an exclamation, showing a strong reaction to how far something goes.
   body: |-
-    How odd! has no subject and no verb, yet it's a complete exclamation. It expresses a reaction to a degree the speaker finds remarkable.
+    <i>How odd!</i> has no subject and no verb, yet it's a complete exclamation. It expresses a reaction to a degree the speaker finds remarkable.
 
-    A longer version can spell out the situation being judged, such as How odd it is. The short form works by itself, without a subject or predicate.
+    A longer version can spell out the situation being judged, such as <i>How odd it is</i>. The short form works by itself, without a subject or predicate.
   examples:
     - text: '[How odd]!'
       from: entry
     - text: '[How odd] it is!'
       from: constructed
-  try: Think of something that surprised you. Say it with How and one adjective.
+  try: Think of something that surprised you. Say it with <i>How</i> and one adjective.
 teacher:
-  summary: Covers the short exclamation How plus an adjective, and how it relates to the full exclamative.
-  explain: 'The pattern is an independent AdjP made of exclamative how plus a gradable adjective: How odd! It expresses an affective reaction to a degree judged remarkable. The phrase already supports an exclamation without an overt subject or predicate. The corresponding full exclamative can supply the evaluated situation explicitly. This dictionary relates the pattern to other verbless clause-like utterances and marks its analysis as provisional.'
-  terms: Exclamative how is this dictionary’s term for how in this use. Gradable adjectives are those that can be placed on a scale.
+  summary: Covers the short exclamation <i>How</i> plus an adjective, and how it relates to the full exclamative.
+  explain: 'The pattern is an independent AdjP made of exclamative <i>how</i> plus a gradable adjective: <i>How odd!</i> It expresses an affective reaction to a degree judged remarkable. The phrase already supports an exclamation without an overt subject or predicate. The corresponding full exclamative can supply the evaluated situation explicitly. This dictionary relates the pattern to other verbless clause-like utterances and marks its analysis as provisional.'
+  terms: Exclamative <i>how</i> is this dictionary’s term for <i>how</i> in this use. Gradable adjectives are those that can be placed on a scale.
   examples:
     - text: '[How odd]!'
       from: entry
     - text: '[How odd] it is!'
       from: constructed
   watch_for:
-    - A learner might treat How odd as a question about manner, when the pattern expresses a reaction.
+    - A learner might treat <i>How odd</i> as a question about manner, when the pattern expresses a reaction.
     - A learner might add a subject and verb to the short exclamation, when this dictionary says the phrase already supports an exclamation without them.
-  activity: Show students surprising pictures. Each writes a short exclamation with How and an adjective, then expands it into a full sentence naming the situation.
+  activity: Show students surprising pictures. Each writes a short exclamation with <i>How</i> and an adjective, then expands it into a full sentence naming the situation.
 child:
   hook: What can you say when something surprises you?
-  explain: How and a describing word can show a big feeling. How odd! is a whole exclamation. You don't need any more words.
+  explain: <i>How</i> and a describing word can show a big feeling. <i>How odd!</i> is a whole exclamation. You don't need any more words.
   examples:
     - text: '[How odd]!'
       from: entry
     - text: '[How odd] it is!'
       from: constructed
-  play: Find something surprising in a picture and say how it is, with How and one word.
+  play: Find something surprising in a picture and say how it is, with <i>How</i> and one word.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

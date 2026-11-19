@@ -9,7 +9,7 @@ meanings:
       - form: They requested [that the gate remain closed].
         note: Constructed illustration.
       - form: They requested [that the gate not be opened].
-        note: Constructed comparison. The subjunctive uses plain be after not, without support from do.
+        note: Constructed comparison. The subjunctive uses plain <i>be</i> after <i>not</i>, without support from <i>do</i>.
 relatedConstructions:
   - id: declarative-content-clause-001
     relationship: specialization-of
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Remain does not carry third-person singular marking. With negative not the plain form can occur without finite do, as in that it not remain closed.
+    target: "<i>Remain</i> does not carry third-person singular marking. With negative <i>not</i> the plain form can occur without finite <i>do</i>, as in <i>that it not remain closed</i>."
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

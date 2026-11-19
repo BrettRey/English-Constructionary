@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Easy to follow, hard to find fault with
-  summary: In some sentences the adjective judges the opening noun by what we do to it, as in impossible to follow.
+  title: <i>Easy to follow</i>, <i>hard to find fault with</i>
+  summary: In some sentences the adjective judges the opening noun by what we do to it, as in <i>impossible to follow</i>.
   body: |-
-    In Their argument was impossible to follow, the argument is understood as the thing being followed, even though follow has no object after it. His performance was easy to find fault with works the same way: the performance is what we find fault with.
+    In <i>Their argument was impossible to follow</i>, the argument is understood as the thing being followed, even though <i>follow</i> has no object after it. <i>His performance was easy to find fault with</i> works the same way: the performance is what we find fault with.
 
-    The sentence evaluates the opening noun by an action involving it. The action can even have its own doer, as in The instructions were hard for us to follow. Compare Kim was anxious to follow the argument, where Kim is the one who follows.
+    The sentence evaluates the opening noun by an action involving it. The action can even have its own doer, as in <i>The instructions were hard for us to follow</i>. Compare <i>Kim was anxious to follow the argument</i>, where Kim is the one who follows.
   examples:
     - text: '[Their argument was impossible to follow.]'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[The instructions were hard for us to follow.]'
       from: entry
-  try: Say Their argument was impossible to follow. What is understood as the thing being followed?
+  try: Say <i>Their argument was impossible to follow</i>. What is understood as the thing being followed?
 teacher:
   summary: For advanced classes, the tough construction, where the subject is understood as a non-subject of the infinitival.
-  explain: In the tough construction, the matrix subject is linked to a gap in the infinitival that is not a subject. In their argument was impossible to follow, the argument is the understood object of follow. A preposition can supply the gap instead (easy to find fault with). The infinitival may have its own subject introduced by for (hard for us to follow). The construction evaluates the matrix subject by an action involving it, and it excludes dummy there on this reading. Compare Kim was anxious to follow the argument, where Kim is the understood subject of follow.
-  terms: Tough construction is the usual name. This dictionary also uses hollow infinitival for the to-clause with a gap.
+  explain: In the tough construction, the matrix subject is linked to a gap in the infinitival that is not a subject. In <i>their argument was impossible to follow</i>, the argument is the understood object of <i>follow</i>. A preposition can supply the gap instead (<i>easy to find fault with</i>). The infinitival may have its own subject introduced by <i>for</i> (<i>hard for us to follow</i>). The construction evaluates the matrix subject by an action involving it, and it excludes dummy <i>there</i> on this reading. Compare <i>Kim was anxious to follow the argument</i>, where Kim is the understood subject of <i>follow</i>.
+  terms: Tough construction is the usual name. This dictionary also uses hollow infinitival for the <i>to</i>-clause with a gap.
   examples:
     - text: '[Their argument was impossible to follow.]'
       from: entry
@@ -32,14 +32,14 @@ teacher:
   contrasts:
     - text: Their argument was impossible to follow.
       from: entry
-      note: The argument is the understood object of follow.
+      note: The argument is the understood object of <i>follow</i>.
     - text: Kim was anxious to follow the argument.
       from: constructed
-      note: Kim is the understood subject of follow.
+      note: Kim is the understood subject of <i>follow</i>.
   watch_for:
-    - A learner might look for an object after follow in impossible to follow, when the subject is understood as the object.
-    - A learner might read Kim was anxious to follow the argument like the tough pattern, when Kim is the one following.
-  activity: Give students tough-pattern sentences. They say what is understood as the object or prepositional object of the verb, then compare with anxious to follow.
+    - A learner might look for an object after <i>follow</i> in <i>impossible to follow</i>, when the subject is understood as the object.
+    - A learner might read <i>Kim was anxious to follow the argument</i> like the tough pattern, when Kim is the one following.
+  activity: Give students tough-pattern sentences. They say what is understood as the object or prepositional object of the verb, then compare with <i>anxious to follow</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

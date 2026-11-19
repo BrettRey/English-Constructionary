@@ -1,11 +1,11 @@
 id: some-n-or-other-001
-name: Some N or Other
+name: "<i>some X or other</i>"
 pattern: NP[some + singular count Nom + or other]
 type: mixed
 meanings:
   '1':
     definition: Introduces an individual while leaving a more specific identification open.
-    details: The whole pattern licenses bare other. An immediate identifying continuation with namely is degraded in Abenina-Adar’s comparison with an ordinary indefinite. CGEL suggests a modifier analysis for the tail. A coordinate analysis is also compatible with the pairing. The use by speakers who know the identity but choose to omit it needs a separate test.
+    details: The whole pattern licenses bare <i>other</i>. An immediate identifying continuation with <i>namely</i> is degraded in Abenina-Adar’s comparison with an ordinary indefinite. CGEL suggests a modifier analysis for the tail. A coordinate analysis is also compatible with the pairing. The use by speakers who know the identity but choose to omit it needs a separate test.
     examples:
       - form: '[Some student or other] was waiting outside the door.'
         note: Introduces a student with their identity left open.
@@ -27,10 +27,10 @@ relatedConstructions:
     notes: A form of indefinite NP with a specific discourse effect.
   - id: coordination-001
     relationship: related-to
-    notes: Related or another forms make coordination a live analysis of the tail.
+    notes: Related <i>or another</i> forms make coordination a live analysis of the tail.
 kind:
   provisional: true
   projection:
-    target: The form permits bare other and makes immediate identification by the same speaker awkward.
+    target: The form permits bare <i>other</i> and makes immediate identification by the same speaker awkward.
     evidence: CGEL records the form and its vague-identity reading. Abenina-Adar tests immediate identification.
     confidence: medium

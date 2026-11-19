@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Saying which letter case you mean
-  summary: A phrase like with a small c tells the reader how a label is spelled and, with it, what it means.
+  summary: A phrase like <i>with a small c</i> tells the reader how a label is spelled and, with it, what it means.
   body: |-
-    Sometimes the letter at the start of a word changes what the word means. Catholic with a small c points to a non-institutional, descriptive sense. A big-D Democrat points to the party. The phrase naming the letter is a quick instruction about how to read the label.
+    Sometimes the letter at the start of a word changes what the word means. <i>Catholic with a small c</i> points to a non-institutional, descriptive sense. A <i>big-D Democrat</i> points to the party. The phrase naming the letter is a quick instruction about how to read the label.
 
-    Another use presents something as fully deserving a label. Saying a person is generous with a capital G suggests that the person fully deserves the label. The case of the letter doesn't decide by itself what kind of word the label is.
+    Another use presents something as fully deserving a label. Saying a person is <i>generous with a capital G</i> suggests that the person fully deserves the label. The case of the letter doesn't decide by itself what kind of word the label is.
   examples:
     - text: Catholic [with a small c].
       from: entry
@@ -19,7 +19,7 @@ curious:
       from: constructed
   try: Say the same label twice, once with a small first letter and once with a capital. Does the meaning change?
 teacher:
-  summary: Helps explain phrases like with a small c that tell the reader which sense of a label is meant.
+  summary: Helps explain phrases like <i>with a small c</i> that tell the reader which sense of a label is meant.
   explain: 'A PP or adjectival modifier names a letter and its case and attaches to a label. This dictionary treats it as a metalinguistic instruction: it tells the reader how to write or interpret the label, such as institutional versus descriptive. Name conventions and ordinary spelling supply other uses. The capital-letter format can also present an example as fully deserving its label, so a quality with a capital letter is emphatic. Neither letter case nor the specification fixes noun subclass by itself. This dictionary marks the analysis as provisional and rests on dictionary entries.'
   terms: 'Related entries in this dictionary: common noun, proper name, proper noun.'
   examples:
@@ -35,9 +35,9 @@ teacher:
       note: Non-institutional, descriptive sense.
     - text: She's generous with a capital G.
       from: constructed
-      note: Emphatic, presenting her as fully deserving the label generous.
+      note: Emphatic, presenting her as fully deserving the label <i>generous</i>.
   watch_for:
-    - A learner might take with a capital G as an instruction about spelling only, when it can also mean that the quality fully applies.
+    - A learner might take <i>with a capital G</i> as an instruction about spelling only, when it can also mean that the quality fully applies.
     - A learner might assume the capital letter by itself shows whether a word is a proper noun, when neither case nor the specification settles the noun subclass.
   activity: Give students labels that have both an institutional and a descriptive sense. They write two sentences for each, using a phrase naming the letter case to show which sense they mean.
 checked:

@@ -21,7 +21,7 @@ constraints:
   - type: syntactic
     description: Cardinal noun is a common noun; takes plural morphology.
   - type: structural
-    description: Typically in PP with 'in' or 'by'.
+    description: Typically in PP with '<i>in</i>' or '<i>by</i>'.
 semanticRefs:
   - cardinality
   - category
@@ -48,6 +48,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "People entered in threes can describe an arbitrarily large crowd. Three counts the members in each group even though threes is itself grammatically plural. A phrase such as by the hundreds can instead indicate large numbers without fixed groups."
+    target: "<i>People entered in threes</i> can describe an arbitrarily large crowd. <i>Three</i> counts the members in each group even though <i>threes</i> is itself grammatically plural. A phrase such as <i>by the hundreds</i> can instead indicate large numbers without fixed groups."
     evidence: "Reynolds assigns the grouping use its own semantic role among cardinal nouns. The constructed contrast checks whether the number applies to the total or to the groups."
     confidence: medium

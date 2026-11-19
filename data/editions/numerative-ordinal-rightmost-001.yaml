@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Where the ordinal ending goes in a long number
-  summary: In a long ordinal such as twenty-fourth, only the last part of the number takes the ordinal form.
+  summary: In a long ordinal such as <i>twenty-fourth</i>, only the last part of the number takes the ordinal form.
   body: |-
-    To turn a number into a position word, you change the last part only. Twenty-four becomes twenty-fourth, and two hundred becomes two hundredth. The special forms work the same way: in twenty-second, the last word two becomes second.
+    To turn a number into a position word, you change the last part only. <i>Twenty-four</i> becomes <i>twenty-fourth</i>, and <i>two hundred</i> becomes <i>two hundredth</i>. The special forms work the same way: in <i>twenty-second</i>, the last word <i>two</i> becomes <i>second</i>.
 
-    The whole phrase gives one rank, but only the final piece shows it. In two hundred forty-second, the only marked word is the last one. This dictionary says that ending on an earlier part can't freely take its place.
+    The whole phrase gives one rank, but only the final piece shows it. In <i>two hundred forty-second</i>, the only marked word is the last one. This dictionary says that ending on an earlier part can't freely take its place.
   examples:
     - text: '[twenty-fourth]'
       from: entry
@@ -17,10 +17,10 @@ curious:
       from: entry
     - text: '[twenty-second]'
       from: entry
-  try: Say your house number as a position, such as the thirty-first house. Which part of the number changed?
+  try: Say your house number as a position, such as <i>the thirty-first house</i>. Which part of the number changed?
 teacher:
   summary: Shows where the ordinal ending goes in complex numbers, and why it only marks the final part.
-  explain: 'Ordinal and fractional morphology targets the rightmost simple base in a complex numerative: twenty-fourth (on four), two hundredth (on the magnitude base hundred), twenty-second (the suppletive ordinal for two). The irregular bases first, second and third are lexically specified. The ordinal meaning applies to the whole numerative, but the form shows it only on the last part. In two hundred forty-second, only the final element is overtly ordinal. This dictionary uses this placement as evidence about constituent structure, independently of spelling. It is provisional.'
+  explain: 'Ordinal and fractional morphology targets the rightmost simple base in a complex numerative: <i>twenty-fourth</i> (on <i>four</i>), <i>two hundredth</i> (on the magnitude base <i>hundred</i>), <i>twenty-second</i> (the suppletive ordinal for <i>two</i>). The irregular bases <i>first</i>, <i>second</i> and <i>third</i> are lexically specified. The ordinal meaning applies to the whole numerative, but the form shows it only on the last part. In <i>two hundred forty-second</i>, only the final element is overtly ordinal. This dictionary uses this placement as evidence about constituent structure, independently of spelling. It is provisional.'
   terms: Ordinal number or ordinal numeral is the traditional name for these forms.
   examples:
     - text: '[twenty-fourth]'
@@ -34,7 +34,7 @@ teacher:
   watch_for:
     - A learner might try to put the ordinal ending on an earlier part of a long number, when the ending goes on the last part.
     - A learner might think the ordinal meaning belongs only to the final word, when it applies to the whole number.
-  activity: Give students cardinal numbers (twenty-four, two hundred, twenty-two) and have them write the ordinal for each, underlining the part that changed. Then they say a longer number of their own as a position.
+  activity: Give students cardinal numbers (<i>twenty-four</i>, <i>two hundred</i>, <i>twenty-two</i>) and have them write the ordinal for each, underlining the part that changed. Then they say a longer number of their own as a position.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

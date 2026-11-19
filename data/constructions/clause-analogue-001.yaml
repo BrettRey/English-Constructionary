@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: Conveys clause-like semantic or discourse content through a non-headed construction that is not a Clause
-    details: "This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (their hands above their heads; Dinner over); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (What a disaster!; No entry). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax."
+    details: "This node houses the constructions that CGEL calls verbless clauses while rejecting their assignment to the Clause category. Some have an overt subject-like expression plus a predicative expression (<i>their hands above their heads</i>; <i>Dinner over</i>); others consist overtly of a single NP, AdjP, PP, or predicative phrase whose subject or copular relation is recovered from the licensing construction or discourse (<i>What a disaster!</i>; <i>No entry</i>). The overt daughter phrases retain their own internal Heads, but none is Head of the higher clausal-semantics construction. Recovering an implicit predication or speech act in interpretation does not posit a silent VP in syntax."
     examples:
       - form: "They stood with [their hands above their heads]."
         note: "Subject-like NP plus locative predicative, licensed as complement of with"

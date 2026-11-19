@@ -3,7 +3,7 @@ name: Plural Construction
 pattern: Applies to common and proper nouns, pronouns, and determinatives
 type: morphological
 dimensions:
-  form: "Plural morphology (-s, -es, irregular, zero); agreement marking"
+  form: "Plural morphology (<i>-s</i>, <i>-es</i>, irregular, zero); agreement marking"
   meaning: "Non-singular reference; more than one or construed as aggregate"
   function: "Signals non-singular construal; triggers agreement"
   distribution: "Nouns, pronouns, determinatives; agreement targets in clause"
@@ -87,6 +87,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The form controls ordinary plural agreement in the scissors are blunt. The lexical description can nevertheless be about one instrument."
+    target: "The form controls ordinary plural agreement in <i>the scissors are blunt</i>. The lexical description can nevertheless be about one instrument."
     evidence: "CGEL’s discussion of plural-only nouns separates grammatical number from the number of objects described."
     confidence: medium

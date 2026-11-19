@@ -11,24 +11,24 @@ dimensions:
 meanings:
   '1':
     definition: A VP contains a locative PP complement that identifies the route or intermediate location traversed by the moving theme
-    details: "Path is a semantic role, while locative complement is the CGEL syntactic function. Via uniquely marks path in its central spatial use, and along is strongly path-associated. PPs headed by across, through, up, and similar prepositions can instead express location, source, or goal; a path construal identifies an intermediate portion of a larger trajectory. Path complements are integrated into the motion VP and fall within do so scope (CGEL Ch. 8 §4.3, pp. 684–88)."
+    details: "Path is a semantic role, while locative complement is the CGEL syntactic function. <i>Via</i> uniquely marks path in its central spatial use, and <i>along</i> is strongly path-associated. PPs headed by <i>across</i>, <i>through</i>, <i>up</i>, and similar prepositions can instead express location, source, or goal; a path construal identifies an intermediate portion of a larger trajectory. Path complements are integrated into the motion VP and fall within <i>do so</i> scope (CGEL Ch. 8 §4.3, pp. 684–88)."
     examples:
       - form: "She [came via the bridge]."
-        note: Via-PP with an unambiguous spatial-path role
+        note: <i>Via</i>-PP with an unambiguous spatial-path role
         grounds:
           - source: cgel-2002
             locator: "Ch. 8, §4.3, p. 687"
             relation: attests
             bears-on: attestation
       - form: "They [strolled along the castle wall]."
-        note: Along-PP identifying a route without a terminal point
+        note: <i>Along</i>-PP identifying a route without a terminal point
         grounds:
           - source: cgel-2002
             locator: "Ch. 8, §4.3, p. 687"
             relation: attests
             bears-on: attestation
       - form: "They [walked from the station up the hill to the new Civic Centre]."
-        note: Path up the hill occurs between separate source and goal complements
+        note: Path <i>up the hill</i> occurs between separate source and goal complements
         grounds:
           - source: cgel-2002
             locator: "Ch. 8, §4.3, pp. 687–88"
@@ -49,7 +49,7 @@ kind:
   provisional: true
   projection:
     target: "Identifying an integrated PP as a path complement predicts an intermediate-location interpretation, compatibility with separate source and goal complements, and absence of event bounding unless the PP simultaneously receives a goal construal"
-    evidence: "CGEL contrasts path and goal readings by terminal-point entailments and in/for duration, identifies via and along as central path markers, and shows paths co-occurring between source and goal (Ch. 8 §4.3, pp. 684–88)."
+    evidence: "CGEL contrasts path and goal readings by terminal-point entailments and in/for duration, identifies <i>via</i> and <i>along</i> as central path markers, and shows paths co-occurring between source and goal (Ch. 8 §4.3, pp. 684–88)."
     confidence: high
     grounds:
       - source: cgel-2002
@@ -74,13 +74,13 @@ kind:
         weight: high
     peripheral:
       - property: Dedicated path marking
-        diagnostics: ["via", "along"]
+        diagnostics: ["<i>via</i>", "<i>along</i>"]
         weight: medium
   boundaries:
     known_boundary_items:
-      - "ran across the bridge: across the bridge can be goal when it supplies the final location, or path when a later goal is expressed"
-      - "walked through the forest in eight hours: the in-duration phrase selects a goal construal in which the end of the forest is reached"
-      - "A location adjunct describes where the situation occurs; a path complement describes the trajectory of the moving theme and is included in do so scope"
+      - "<i>ran across the bridge</i>: <i>across the bridge</i> can be goal when it supplies the final location, or path when a later goal is expressed"
+      - "<i>walked through the forest in eight hours</i>: the in-duration phrase selects a goal construal in which the end of the forest is reached"
+      - "A location adjunct describes where the situation occurs; a path complement describes the trajectory of the moving theme and is included in <i>do so</i> scope"
       - "No PP-internal path-complement attachment is asserted by this VP-level entry"
   grain:
     level: meso

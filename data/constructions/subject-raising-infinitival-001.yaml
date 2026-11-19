@@ -9,7 +9,7 @@ meanings:
       - form: '[There seems to be a leak].'
         note: Constructed illustration.
       - form: '[Jo seems to have checked the lock].'
-        note: Constructed comparison. The corresponding passive, The lock seems to have been checked by Jo, preserves the subordinate event being assessed.
+        note: Constructed comparison. The corresponding passive, <i>The lock seems to have been checked by Jo</i>, preserves the subordinate event being assessed.
 relatedConstructions:
   - id: clause-001
     relationship: specialization-of
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Dummy there is acceptable, and active and passive descriptions of the subordinate event preserve what seems to hold. This distinguishes raising from subject control.
+    target: Dummy <i>there</i> is acceptable, and active and passive descriptions of the subordinate event preserve what seems to hold. This distinguishes raising from subject control.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

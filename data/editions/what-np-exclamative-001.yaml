@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: What a mess!
-  summary: What plus a noun description can express a feeling about something, with no verb at all.
+  summary: <i>What</i> plus a noun description can express a feeling about something, with no verb at all.
   body: |-
-    What a mess! expresses a reaction. There's no verb and no complete statement, yet the feeling about the mess comes through clearly. The words that follow what describe the thing aptly and give the speaker's evaluation.
+    <i>What a mess!</i> expresses a reaction. There's no verb and no complete statement, yet the feeling about the mess comes through clearly. The words that follow <i>what</i> describe the thing aptly and give the speaker's evaluation.
 
-    In What a mess!, the word a comes between what and the singular noun. Not every case has it: What lovely weather! doesn't. The pattern needs no verb to carry its meaning.
+    In <i>What a mess!</i>, the word <i>a</i> comes between <i>what</i> and the singular noun. Not every case has it: <i>What lovely weather!</i> doesn't. The pattern needs no verb to carry its meaning.
 
     This dictionary marks this account as provisional.
   examples:
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: What lovely weather!
       from: constructed
-  try: React to something in the room using What a ... or What ... Does your reaction need a verb?
+  try: React to something in the room using <i>What a ...</i> or <i>What ...</i> Does your reaction need a verb?
 teacher:
-  summary: Helps explain verbless what-exclamations as a way to evaluate something.
-  explain: The pattern is an independent noun phrase with exclamative what, an optional a or an, and a nominal. It expresses an affective evaluation through an apt nominal description. The singular count example includes a, as in What a mess!, whereas What lovely weather! does not. The independent pattern needs no finite predication to convey the evaluation. This dictionary relates it to exclamative words and clauses and marks the analysis as provisional.
-  terms: This dictionary treats what here as an exclamative form in a noun phrase.
+  summary: Helps explain verbless <i>what</i>-exclamations as a way to evaluate something.
+  explain: The pattern is an independent noun phrase with exclamative <i>what</i>, an optional <i>a</i> or <i>an</i>, and a nominal. It expresses an affective evaluation through an apt nominal description. The singular count example includes <i>a</i>, as in <i>What a mess!</i>, whereas <i>What lovely weather!</i> does not. The independent pattern needs no finite predication to convey the evaluation. This dictionary relates it to exclamative words and clauses and marks the analysis as provisional.
+  terms: This dictionary treats <i>what</i> here as an exclamative form in a noun phrase.
   examples:
     - text: '[What a mess!]'
       from: entry
@@ -30,23 +30,23 @@ teacher:
   contrasts:
     - text: What a mess!
       from: entry
-      note: Singular count noun, with a.
+      note: Singular count noun, with <i>a</i>.
     - text: What lovely weather!
       from: constructed
-      note: No a.
+      note: No <i>a</i>.
   watch_for:
-    - A learner might look for a verb in What a mess!, when none is needed.
-    - A learner might add a before lovely weather, though this dictionary's example has none.
-  activity: Students look at pictures and write one What a ... or What ... exclamation for each, then sort them by whether they include a.
+    - A learner might look for a verb in <i>What a mess!</i>, when none is needed.
+    - A learner might add <i>a</i> before <i>lovely weather</i>, though this dictionary's example has none.
+  activity: Students look at pictures and write one <i>What a ...</i> or <i>What ...</i> exclamation for each, then sort them by whether they include <i>a</i>.
 child:
   hook: What do you say when you see a huge mess?
-  explain: What a mess! shows how we feel. It has no action word. The words after What describe the thing.
+  explain: <i>What a mess!</i> shows how we feel. It has no action word. The words after <i>What</i> describe the thing.
   examples:
     - text: '[What a mess!]'
       from: entry
     - text: What lovely weather!
       from: constructed
-  play: Show a friend a picture. They shout a reaction starting with What a ... for it. Then try one without a, like What lovely weather!
+  play: Show a friend a picture. They shout a reaction starting with <i>What a ...</i> for it. Then try one without <i>a</i>, like <i>What lovely weather!</i>
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

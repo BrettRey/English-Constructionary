@@ -1,5 +1,5 @@
 id: with-a-small-letter-001
-name: "With a Small Letter Construction"
+name: "<i>X with a small Y</i> Construction"
 pattern: "with + a + small + Letter-name"
 type: semantic
 dimensions:
@@ -38,6 +38,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In the literal reading, with a small c specifies lowercase c without committing the speaker to an account of word category. A nomenclatural convention or a descriptive contrast supplies the interpretation in context."
+    target: "In the literal reading, <i>with a small c</i> specifies lowercase <i>c</i> without committing the speaker to an account of word category. A nomenclatural convention or a descriptive contrast supplies the interpretation in context."
     evidence: "The dictionary includes intentional lowercase spelling of a name, showing that lowercase cannot diagnose common-noun status by itself."
     confidence: medium

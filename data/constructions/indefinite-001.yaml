@@ -52,7 +52,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "A student phoned can refer to a particular student known to the speaker. A student can enter allows a general reading. The article alone does not rule out specific reference or supply an any-member permission."
+    target: "<i>A student phoned</i> can refer to a particular student known to the speaker. <i>A student can enter</i> allows a general reading. The article alone does not rule out specific reference or supply an <i>any</i>-member permission."
     evidence: "CGEL distinguishes referential from non-referential uses and documents both specific and nonspecific interpretations. A determinerless role predication does not itself introduce a novel reference."
     confidence: medium
 relatedConstructions:

@@ -4,23 +4,23 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Six feet long and six-foot-long
-  summary: A measurement followed by an adjective like long tells where something falls on a scale such as length.
+  title: "<i>Six feet long</i> and <i>six-foot-long</i>"
+  summary: A measurement followed by an adjective like <i>long</i> tells where something falls on a scale such as length.
   body: |-
-    The board is six feet long uses a measurement (six feet) and an adjective (long) to say where the board falls on a scale. Before a noun, the same length is written six-foot-long, as in a six-foot-long board.
+    <i>The board is six feet long</i> uses a measurement (<i>six feet</i>) and an adjective (<i>long</i>) to say where the board falls on a scale. Before a noun, the same length is written <i>six-foot-long</i>, as in <i>a six-foot-long board</i>.
 
-    Notice the unit. In The board is six feet long, it has its ordinary plural, feet. Before the noun it stays singular, foot, and the written form has hyphens. Examples collected from real writing show variation in both directions, so this is a description, not a rigid rule.
+    Notice the unit. In <i>The board is six feet long</i>, it has its ordinary plural, <i>feet</i>. Before the noun it stays singular, <i>foot</i>, and the written form has hyphens. Examples collected from real writing show variation in both directions, so this is a description, not a rigid rule.
 
-    Only certain adjectives fit the frame. A phrase like fifteen-pound turkey works without any adjective at all.
+    Only certain adjectives fit the frame. A phrase like <i>fifteen-pound turkey</i> works without any adjective at all.
   examples:
     - text: The board is [six feet long].
       from: entry
     - text: We ordered a [six-foot-long] board.
       from: entry
-  try: Describe something near you with a number, a unit and an adjective, like six feet long. Now put the same measure before a noun. Does the unit change?
+  try: Describe something near you with a number, a unit and an adjective, like <i>six feet long</i>. Now put the same measure before a noun. Does the unit change?
 teacher:
-  summary: Helps explain six feet long versus six-foot-long, and why the unit is singular before the noun.
-  explain: A measure NP plus a scale adjective gives the position of a referent on a scale such as height, length or age. In a predicate the unit usually has its ordinary number inflection (six feet long). In a pre-head modifier it remains singular and is hyphenated in writing (a six-foot-long board). Corpus examples show variation in both directions, so present this as the default pattern. Only selected scale adjectives take the frame, even among adjectives that denote measurable properties. A modifier like fifteen-pound turkey works without an adjective. This dictionary relates the pre-head variant to modification of a following noun.
+  summary: Helps explain <i>six feet long</i> versus <i>six-foot-long</i>, and why the unit is singular before the noun.
+  explain: A measure NP plus a scale adjective gives the position of a referent on a scale such as height, length or age. In a predicate the unit usually has its ordinary number inflection (<i>six feet long</i>). In a pre-head modifier it remains singular and is hyphenated in writing (<i>a six-foot-long board</i>). Corpus examples show variation in both directions, so present this as the default pattern. Only selected scale adjectives take the frame, even among adjectives that denote measurable properties. A modifier like <i>fifteen-pound turkey</i> works without an adjective. This dictionary relates the pre-head variant to modification of a following noun.
   terms: The pre-head form is sometimes taught as a compound adjective or compound modifier. In this dictionary the predicative and attributive forms are two placements of one pattern.
   examples:
     - text: The board is [six feet long].
@@ -38,18 +38,18 @@ teacher:
       from: constructed
       note: Works without an adjective after the unit.
   watch_for:
-    - A learner might expect the unit to take the same form in both positions, when this dictionary describes the pre-head form as singular by default (six-foot-long).
+    - A learner might expect the unit to take the same form in both positions, when this dictionary describes the pre-head form as singular by default (<i>six-foot-long</i>).
     - A learner might think any adjective can follow a measure, when only selected scale adjectives take the frame.
-  activity: Give students measure cards (six feet, two years, ten metres) and scale adjectives. They write one sentence after the verb and one before a noun for each, then check the unit and the hyphens.
+  activity: Give students measure cards (<i>six feet</i>, <i>two years</i>, <i>ten metres</i>) and scale adjectives. They write one sentence after the verb and one before a noun for each, then check the unit and the hyphens.
 child:
   hook: How long is the board?
-  explain: You can say the board is six feet long. Before a noun, you can say a six-foot-long board. There, feet has changed to foot.
+  explain: You can say <i>the board is six feet long</i>. Before a noun, you can say <i>a six-foot-long board</i>. There, <i>feet</i> has changed to <i>foot</i>.
   examples:
     - text: The board is [six feet long].
       from: entry
     - text: We ordered a [six-foot-long] board.
       from: entry
-  play: Pick something in your room and measure it. Say how long it is in feet. Then put the measure before the thing, like a six-foot-long board.
+  play: Pick something in your room and measure it. Say how long it is in feet. Then put the measure before the thing, like <i>a six-foot-long board</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

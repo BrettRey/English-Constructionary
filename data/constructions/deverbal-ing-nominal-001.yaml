@@ -1,5 +1,5 @@
 id: deverbal-ing-nominal-001
-name: Deverbal Noun in -Ing
+name: "Deverbal Noun in <i>-ing</i>"
 pattern: N[verb base + derivational -ing] with nominal dependents
 type: morphological
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Careful modifies the noun and of introduces the former object argument. A gerund-participial can instead have carefully and take the files as a direct object.
+    target: <i>Careful</i> modifies the noun and <i>of</i> introduces the former object argument. A gerund-participial can instead have <i>carefully</i> and take <i>the files</i> as a direct object.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

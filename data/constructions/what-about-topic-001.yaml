@@ -1,5 +1,5 @@
 id: what-about-topic-001
-name: Topic Proposal with What About
+name: "Topic Proposal with <i>what about</i>"
 pattern: what about + NP or gerund-participial expression
 type: pragmatic
 meanings:
@@ -19,6 +19,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation.
+    target: An activity can be proposed without asking for the identity of an object. With a referent such as <i>the spare key</i>, the intended issue is supplied by the conversation.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

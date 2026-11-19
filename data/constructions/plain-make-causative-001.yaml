@@ -1,5 +1,5 @@
 id: plain-make-causative-001
-name: Make Causative with a Bare Infinitival
+name: "<i>make</i> Causative with a Bare Infinitival"
 pattern: VP[make + NP + bare infinitival]; passive be made + to-infinitival
 type: mixed
 meanings:
@@ -16,11 +16,11 @@ relatedConstructions:
     relationship: related-to
   - id: be-passive-001
     relationship: interfaces-with
-    notes: Compare They made Kai wait and Kai was made to wait. The infinitival marker is required in the passive counterpart.
+    notes: Compare <i>They made Kai wait</i> and <i>Kai was made to wait</i>. The infinitival marker is required in the passive counterpart.
   - id: let-permissive-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: Made Kai wait and let Kai wait share an NP followed by a bare infinitival. Make presents a cause and let presents permission or non-prevention.
+    notes: <i>Made Kai wait</i> and <i>let Kai wait</i> share an NP followed by a bare infinitival. <i>Make</i> presents a cause and <i>let</i> presents permission or non-prevention.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.4.3, 5.4, make
@@ -29,6 +29,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: In the active make selects the bare infinitival, while the corresponding passive Lee was made to laugh uses to. The interpretation retains Lee as the laugher.
+    target: In the active <i>make</i> selects the bare infinitival, while the corresponding passive <i>Lee was made to laugh</i> uses <i>to</i>. The interpretation retains Lee as the laugher.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

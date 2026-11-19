@@ -7,9 +7,9 @@ curious:
   title: What counts as a clause
   summary: In this dictionary a clause is a group of words built around a verb and what goes with it, with or without a subject.
   body: |-
-    A clause is built around a verb and whatever goes with it. Kim left early has someone doing something: Kim is who left, and left early is the verb part. Leave early! has only the verb part, and it's still a clause.
+    A clause is built around a verb and whatever goes with it. <i>Kim left early</i> has someone doing something: <i>Kim</i> is who left, and <i>left early</i> is the verb part. <i>Leave early!</i> has only the verb part, and it's still a clause.
 
-    Clauses can sit inside other clauses. In Leaving early annoyed Pat, the opening words Leaving early are a clause that acts as the subject of the whole sentence. Short phrases that carry a message but have no verb part aren't clauses here, though they can mean something clause-like.
+    Clauses can sit inside other clauses. In <i>Leaving early annoyed Pat</i>, the opening words <i>Leaving early</i> are a clause that acts as the subject of the whole sentence. Short phrases that carry a message but have no verb part aren't clauses here, though they can mean something clause-like.
   examples:
     - text: '[Kim left early].'
       from: entry
@@ -20,7 +20,7 @@ curious:
   try: Find the verb in a sentence you wrote today. What are the words that go with it?
 teacher:
   summary: Defines Clause strictly as a phrase headed by a VP, which separates it from verbless structures and from coordinations.
-  explain: 'A Clause is a phrase whose head is a VP, with an optional subject. In Kim left early, Kim is the subject and left early is the head VP. Leave early! is a subjectless imperative: the Clause is just its head VP. In Leaving early annoyed Pat, the matrix Clause has a subject that is itself a Clause. The subject is a dependent of the Clause, not part of the VP. Markers and other clause-level dependents don''t replace the VP as head. A coordination of Clauses is non-headed and is not itself a Clause.'
+  explain: 'A Clause is a phrase whose head is a VP, with an optional subject. In <i>Kim left early</i>, <i>Kim</i> is the subject and <i>left early</i> is the head VP. <i>Leave early!</i> is a subjectless imperative: the Clause is just its head VP. In <i>Leaving early annoyed Pat</i>, the matrix Clause has a subject that is itself a Clause. The subject is a dependent of the Clause, not part of the VP. Markers and other clause-level dependents don''t replace the VP as head. A coordination of Clauses is non-headed and is not itself a Clause.'
   terms: 'CGEL also counts verbless clauses as clauses. This dictionary does not: a structure with a clause-like meaning but no VP head is not a Clause here; it is assigned to a separate category, the clause analogue.'
   examples:
     - text: '[Kim left early].'
@@ -39,7 +39,7 @@ teacher:
   watch_for:
     - A learner might think a Clause must have a subject, when some Clauses, such as imperatives and non-finite Clauses, have none.
     - A learner might count a verbless phrase with clause-like meaning as a Clause, when it has no VP head.
-    - A learner might treat Kim left early and Pat stayed as one Clause, when a coordination of Clauses is not itself a Clause.
+    - A learner might treat <i>Kim left early</i> and <i>Pat stayed</i> as one Clause, when a coordination of Clauses is not itself a Clause.
   activity: Give students a mix of sentences and verbless fragments. They circle the verb in each, mark the subject when there is one, and sort the items into clause and not a clause.
 checked:
   date: '2026-11-19'

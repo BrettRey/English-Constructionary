@@ -5,13 +5,13 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Words for things that come in degrees
-  summary: Words like tall, deep and quick describe something you can measure on a scale, and what counts as tall depends on what you compare it with.
+  summary: Words like <i>tall</i>, <i>deep</i> and <i>quick</i> describe something you can measure on a scale, and what counts as tall depends on what you compare it with.
   body: |-
-    Tall is about height, and quick is about speed. Each picks out a scale, and a person or thing sits somewhere along it.
+    <i>Tall</i> is about height, and <i>quick</i> is about speed. Each picks out a scale, and a person or thing sits somewhere along it.
 
-    Scales come in different shapes. Full and empty have a closed scale, while long and short have an open one. The standard matters too: tall for a child is judged against children, and perfectly clean sets an absolute standard.
+    Scales come in different shapes. <i>Full</i> and <i>empty</i> have a closed scale, while <i>long</i> and <i>short</i> have an open one. The standard matters too: <i>tall for a child</i> is judged against children, and <i>perfectly clean</i> sets an absolute standard.
 
-    Six feet tall places someone on the height scale without deciding whether that person counts as tall for a basketball player. That is a separate question, set by the context.
+    <i>Six feet tall</i> places someone on the height scale without deciding whether that person counts as tall for a basketball player. That is a separate question, set by the context.
   examples:
     - text: '[tall]'
       from: entry
@@ -24,7 +24,7 @@ curious:
   try: Think of someone you'd call tall. Would you still call them tall if they stood on a basketball team?
 teacher:
   summary: Gives a vocabulary for talking about scales and standards when teaching gradable adjectives.
-  explain: 'Gradation is the semantic side of gradable properties. This dictionary separates three things: the scalar property itself (tall on a height scale, quick on a speed scale), the shape of the scale (full and empty, closed; long and short, open), and the standard of comparison (tall for a child, which is class-relative, and perfectly clean, which is absolute). Positive tall relies on a contextually set standard. Six feet tall places someone on the scale without settling whether they count as tall for a basketball player. This dictionary marks this analysis as provisional.'
+  explain: 'Gradation is the semantic side of gradable properties. This dictionary separates three things: the scalar property itself (<i>tall</i> on a height scale, <i>quick</i> on a speed scale), the shape of the scale (<i>full</i> and <i>empty</i>, closed; <i>long</i> and <i>short</i>, open), and the standard of comparison (<i>tall for a child</i>, which is class-relative, and <i>perfectly clean</i>, which is absolute). Positive <i>tall</i> relies on a contextually set standard. <i>Six feet tall</i> places someone on the scale without settling whether they count as tall for a basketball player. This dictionary marks this analysis as provisional.'
   terms: Gradable is the usual word for adjectives that can be placed on a scale. This dictionary uses the CGEL-style distinction between scalar comparison and positive-grade property ascription.
   examples:
     - text: '[tall]'
@@ -38,9 +38,9 @@ teacher:
     - text: That pole is [six feet tall].
       from: constructed
   watch_for:
-    - A learner might think tall names a fixed height, when the standard is set by context.
-    - A learner might take six feet tall as settling whether someone counts as tall for any group.
-  activity: Give students pairs such as tall and short, full and empty, long and short. They place each on a scale, say what standard is in play, and try adding for a child or perfectly.
+    - A learner might think <i>tall</i> names a fixed height, when the standard is set by context.
+    - A learner might take <i>six feet tall</i> as settling whether someone counts as tall for any group.
+  activity: Give students pairs such as <i>tall</i> and <i>short</i>, <i>full</i> and <i>empty</i>, <i>long</i> and <i>short</i>. They place each on a scale, say what standard is in play, and try adding <i>for a child</i> or <i>perfectly</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

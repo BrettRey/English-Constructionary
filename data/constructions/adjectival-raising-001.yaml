@@ -5,17 +5,17 @@ type: mixed
 meanings:
   '1':
     definition: Locates likelihood or a related assessment in the situation expressed by the infinitival.
-    details: Likely assesses the situation. It permits dummy there in the subject position because that position serves the infinitival predication. In determined to leave, the adjective ascribes determination to its subject and does not permit dummy there.
+    details: <i>Likely</i> assesses the situation. It permits dummy <i>there</i> in the subject position because that position serves the infinitival predication. In <i>determined to leave</i>, the adjective ascribes determination to its subject and does not permit dummy <i>there</i>.
     examples:
       - form: '[There is likely to be enough food left.]'
-        note: Dummy there is licensed within the existential situation assessed.
+        note: Dummy <i>there</i> is licensed within the existential situation assessed.
         grounds:
           - source: cgel-2002
             locator: Ch. 14 §8.1 [4ivb]
             relation: attests
             bears-on: attestation
       - form: '[Liz was likely to convince them.]'
-        note: The situation remains the same in They were likely to be convinced by Liz.
+        note: The situation remains the same in <i>They were likely to be convinced by Liz</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 14 §8.1 [3b], [4iib]
@@ -33,10 +33,10 @@ grounds:
     locator: record 50
     relation: discusses
     bears-on: projection
-    note: Records likely with an infinitival in the raising frame.
+    note: Records <i>likely</i> with an infinitival in the raising frame.
 kind:
   provisional: true
   projection:
-    target: Dummy subjects are compatible with the raising pattern. Substituting a passive description of the same situation need not shift the target of likely.
-    evidence: CGEL tests matched raising and non-raising adjectives with dummy subjects, passive alternation and selection. CASA records the likely construction.
+    target: Dummy subjects are compatible with the raising pattern. Substituting a passive description of the same situation need not shift the target of <i>likely</i>.
+    evidence: CGEL tests matched raising and non-raising adjectives with dummy subjects, passive alternation and selection. CASA records the <i>likely</i> construction.
     confidence: high

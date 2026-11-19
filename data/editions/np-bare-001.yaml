@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Noun phrases with no small word in front
-  summary: Some noun phrases stand alone with no the, a or similar word, and still work as subjects, objects and names.
+  summary: Some noun phrases stand alone with no <i>the</i>, <i>a</i> or similar word, and still work as subjects, objects and names.
   body: |-
-    Water is essential. Dogs are loyal. Monday works. Toronto was the next stop. None of these phrases has a small word like the or a in front of its noun, yet each is a complete phrase.
+    <i>Water is essential</i>. <i>Dogs are loyal</i>. <i>Monday works</i>. <i>Toronto was the next stop</i>. None of these phrases has a small word like <i>the</i> or <i>a</i> in front of its noun, yet each is a complete phrase.
 
-    Which meaning you get depends on the sentence around the phrase. Dogs are loyal talks about dogs as a kind, while Dogs barked all night is about a set of dogs the context supplies. Role words can go bare too: Lee stayed president. A word like chair needs something in front of it in other sentences, but in Jo became chair it can stand alone.
+    Which meaning you get depends on the sentence around the phrase. <i>Dogs are loyal</i> talks about dogs as a kind, while <i>Dogs barked all night</i> is about a set of dogs the context supplies. Role words can go bare too: <i>Lee stayed president</i>. A word like <i>chair</i> needs something in front of it in other sentences, but in <i>Jo became chair</i> it can stand alone.
   examples:
     - text: '[Water] is essential.'
       from: entry
@@ -21,11 +21,11 @@ curious:
       from: entry
     - text: '[Toronto] was the next stop.'
       from: entry
-  try: Say Dogs are loyal and Those dogs barked. What does the extra word those change?
+  try: Say <i>Dogs are loyal</i> and <i>Those dogs barked</i>. What does the extra word <i>those</i> change?
 teacher:
   summary: Helps explain when a noun phrase can appear without a determiner and why the reading depends on the construction.
-  explain: 'A bare NP consists of a nominal with no overt determiner. The dictionary lists uses for non-count substances (Water is essential), bare plurals (Dogs are loyal; Those are bears; Dogs barked all night), proper names, activities, times, places and abstract concepts. A singular count noun can be bare only in restricted roles or naming uses (Lee stayed president, Jo became chair), whereas bare plurals and non-count nouns can normally be arguments. Not having a determiner doesn''t fix the interpretation: kind, classification, or an episodic set all depend on the surrounding construction. The dictionary marks this account as provisional.'
-  terms: Sometimes called a determinerless NP or a bare noun phrase. Bare plural is the usual name for dogs with no determiner.
+  explain: 'A bare NP consists of a nominal with no overt determiner. The dictionary lists uses for non-count substances (<i>Water is essential</i>), bare plurals (<i>Dogs are loyal</i>; <i>Those are bears</i>; <i>Dogs barked all night</i>), proper names, activities, times, places and abstract concepts. A singular count noun can be bare only in restricted roles or naming uses (<i>Lee stayed president</i>, <i>Jo became chair</i>), whereas bare plurals and non-count nouns can normally be arguments. Not having a determiner doesn''t fix the interpretation: kind, classification, or an episodic set all depend on the surrounding construction. The dictionary marks this account as provisional.'
+  terms: Sometimes called a determinerless NP or a bare noun phrase. Bare plural is the usual name for <i>dogs</i> with no determiner.
   examples:
     - text: '[Water] is essential.'
       from: entry
@@ -47,8 +47,8 @@ teacher:
   watch_for:
     - A learner might think a missing determiner means the sentence is incomplete.
     - A learner might use the same bare noun for the incumbent of a role as an ordinary argument, though the dictionary notes that such a noun needs a determiner there.
-    - A learner might read Dogs are loyal and Dogs barked all night as having the same kind of meaning.
-  activity: Give students a set of sentences with bare noun phrases (water, dogs, Monday, president). They sort them into kind, set, time, role and substance, and discuss how they decided.
+    - A learner might read <i>Dogs are loyal</i> and <i>Dogs barked all night</i> as having the same kind of meaning.
+  activity: Give students a set of sentences with bare noun phrases (<i>water</i>, <i>dogs</i>, <i>Monday</i>, <i>president</i>). They sort them into kind, set, time, role and substance, and discuss how they decided.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

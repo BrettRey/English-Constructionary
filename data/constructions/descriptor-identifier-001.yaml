@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Identifies a bearer by an assigned label within a naming system.
-    details: "The descriptor gives the kind of bearer. The following identifier picks out a bearer within the relevant naming system. Gen in Gen Z supplies the kind in the same way as Ward in CGEL’s Ward 17. Descriptor describes a contribution within the naming construction. In CGEL an embellishment is a semantically nonrestrictive dependent accompanying a proper name. The shared pattern leaves the syntactic head and the identifier’s word category open."
+    details: "The descriptor gives the kind of bearer. The following identifier picks out a bearer within the relevant naming system. <i>Gen</i> in <i>Gen Z</i> supplies the kind in the same way as <i>Ward</i> in CGEL’s <i>Ward 17</i>. Descriptor describes a contribution within the naming construction. In CGEL an embellishment is a semantically nonrestrictive dependent accompanying a proper name. The shared pattern leaves the syntactic head and the identifier’s word category open."
     examples:
       - form: "[Room 302A], [Multipurpose Room A]"
         note: Cornell gives these two designations for the same space in Appel Commons.
@@ -15,7 +15,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: "in [Gen Z]"
-        note: Gen identifies the referent as a generation and Z supplies its conventional label. Cohort boundaries can vary across sources.
+        note: <i>Gen</i> identifies the referent as a generation and <i>Z</i> supplies its conventional label. Cohort boundaries can vary across sources.
         grounds:
           - source: dimock-2023-generational-labels
             locator: First numbered point
@@ -24,34 +24,34 @@ meanings:
 relatedConstructions:
   - id: proper-name-001
     relationship: implements
-    notes: "Room 302A realizes naming through a type-denoting descriptor and an assigned code. The identification depends on the code assignment at the relevant site."
+    notes: "<i>Room 302A</i> realizes naming through a type-denoting descriptor and an assigned code. The identification depends on the code assignment at the relevant site."
   - id: strong-proper-name-001
     relationship: related-to
-    notes: "Room 101 and Kim both occur as bare argument NPs. In Room 101 the noun supplies the type of bearer and the assigned code supplies its identity."
+    notes: "<i>Room 101</i> and <i>Kim</i> both occur as bare argument NPs. In <i>Room 101</i> the noun supplies the type of bearer and the assigned code supplies its identity."
   - id: title-personal-name-001
     relationship: related-to
-    notes: "Dr Patel also places a nominal before an identifying form. Dr is an appellation giving the bearer’s status in a personal name. Room in Room 101 gives the type of entity and the following code is interpreted within the site."
+    notes: "<i>Dr Patel</i> also places a nominal before an identifying form. <i>Dr</i> is an appellation giving the bearer’s status in a personal name. <i>Room</i> in <i>Room 101</i> gives the type of entity and the following code is interpreted within the site."
   - id: restrictive-appositive-name-001
     relationship: related-to
-    notes: "Compare Room 101 with the river Wye. Both pair a type expression with an identifier. The latter has an overt determiner and is analyzed as an integrated appositive. The comparison leaves the headedness of Room 101 open."
+    notes: "Compare <i>Room 101</i> with <i>the river Wye</i>. Both pair a type expression with an identifier. The latter has an overt determiner and is analyzed as an integrated appositive. The comparison leaves the headedness of <i>Room 101</i> open."
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §20.2.2, pp. 518–519 [4v]"
     relation: discusses
     bears-on: projection
-    note: Lists Ward 17 among names with a descriptor that indicates the kind of entity named.
+    note: Lists <i>Ward 17</i> among names with a descriptor that indicates the kind of entity named.
   - source: reynolds-2026-numerals
     locator: "§5.2, [7a–b] and n. 9"
     relation: discusses
     bears-on: projection
-    note: "Calls Room an embellishment rather than an attributive modifier (n. 9). The wider construction uses CGEL’s descriptor for the type-denoting element, and CGEL’s embellishments include nominal attributive modifiers (p. 520)."
+    note: "Calls <i>Room</i> an embellishment rather than an attributive modifier (n. 9). The wider construction uses CGEL’s descriptor for the type-denoting element, and CGEL’s embellishments include nominal attributive modifiers (p. 520)."
 kind:
   provisional: true
   projection:
     target: "A descriptor can be followed by a number, a letter or a mixed code in the same naming role. Changing a label may change the bearer, or leave it fixed if the two labels are aliases. Any quantity or rank associated with the code depends on the local allocation convention."
-    evidence: "Cornell uses Room 101 and Room 302A, and gives Multipurpose Room A for the same space as Room 302A. CGEL gives Ward 17. Pew uses Gen Z as a cohort label."
+    evidence: "Cornell uses <i>Room 101</i> and <i>Room 302A</i>, and gives <i>Multipurpose Room A</i> for the same space as <i>Room 302A</i>. CGEL gives <i>Ward 17</i>. Pew uses <i>Gen Z</i> as a cohort label."
     confidence: medium
   boundaries:
     known_boundary_items:
-      - "In 101 rooms, 101 determines how many rooms. In Room 101, it identifies a room."
-      - "In a type specification such as a type A personality, the designation supplies a class inside an ordinary count NP. Compare bare Gen Z for an identified cohort."
+      - "In <i>101 rooms</i>, <i>101</i> determines how many rooms. In <i>Room 101</i>, it identifies a room."
+      - "In a type specification such as <i>a type A personality</i>, the designation supplies a class inside an ordinary count NP. Compare bare <i>Gen Z</i> for an identified cohort."

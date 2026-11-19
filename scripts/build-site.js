@@ -102,8 +102,14 @@ const titleFor = (id, ed) => {
 
 // ---------------------------------------------------------------- html helpers
 
-const esc = (s) => String(s == null ? '' : s)
+// Text fields may mark mentioned forms with <i>...</i> (house style: mentions in
+// italics, titles included). esc() escapes everything else and keeps those tags;
+// plain() drops them for <title>, meta descriptions, JSON-LD and search.
+const plain = (s) => String(s == null ? '' : s).replace(/<\/?i>/g, '');
+const escRaw = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const esc = (s) => escRaw(s).replace(/&lt;(\/?)i&gt;/g, '<$1i>');
+const mdItalics = (s) => String(s == null ? '' : s).replace(/<\/?i>/g, '*');
 const target = (s) => esc(s).replace(/\[([^\[\]]+)\]/g, '<b>$1</b>');
 const paras = (s) => String(s || '').trim().split(/\n\s*\n/).filter(Boolean).map((p) => `<p>${esc(p.trim())}</p>`).join('\n');
 const human = (k) => String(k).replace(/[-_]+/g, ' ').replace(/^\w/, (c) => c.toUpperCase());
@@ -234,8 +240,8 @@ function page({ ed, kind, title, description, canonical, crumbs = [], body, id, 
   const crumbHtml = [`<a href="/">Brett Reynolds</a>`, `<a href="${BASE}">Constructionary</a>`, ...crumbs].join('<span aria-hidden="true"> / </span>');
   return `<!doctype html>
 <html lang="en-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(title)}</title>
-<meta name="description" content="${esc(description)}">
+<title>${escRaw(plain(title))}</title>
+<meta name="description" content="${escRaw(plain(description))}">
 <link rel="canonical" href="${ORIGIN}${canonical}">
 ${alternates}<script src="/theme.js"></script><link rel="stylesheet" href="/style-v3.css"><link rel="stylesheet" href="${BASE}cx.css">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>\n` : ''}<script src="${BASE}cx.js" defer></script>
@@ -289,10 +295,10 @@ const apiLinks = (id) => `<link rel="alternate" type="application/json" href="${
 const jsonldFor = (id, ed, description) => ({
   '@context': 'https://schema.org',
   '@type': 'DefinedTerm',
-  name: entries.get(id).name,
-  alternateName: titleFor(id, 'curious') !== entries.get(id).name ? titleFor(id, 'curious') : undefined,
+  name: plain(entries.get(id).name),
+  alternateName: plain(titleFor(id, 'curious')) !== plain(entries.get(id).name) ? plain(titleFor(id, 'curious')) : undefined,
   termCode: id,
-  description,
+  description: plain(description),
   url: `${ORIGIN}${entryUrl(id, ed)}`,
   inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'English Constructionary', url: `${ORIGIN}${BASE}` },
   license: 'https://creativecommons.org/licenses/by/4.0/',
@@ -410,7 +416,7 @@ function linguistPage(id) {
     ? `<section><h2>Constraints</h2><ul class="bullets">${e.constraints.map((c) => `<li>${c.type ? `<span class="tag">${esc(c.type)}</span> ` : ''}${esc(c.description || '')}</li>`).join('')}</ul></section>` : '';
   const dims = e.dimensions ? `<section><h2>Dimensions</h2>${renderValue(e.dimensions)}</section>` : '';
   const refKeys = [['semanticRefs', 'Semantic features'], ['formRefs', 'Form features'], ['syntacticRefs', 'Syntactic diagnostics'], ['lexiconRefs', 'Lexicon lists']];
-  const refs = refKeys.filter(([k]) => e[k] && e[k].length).map(([k, label]) => `<dt>${label}</dt><dd>${e[k].map((r) => indexDescriptions[r] ? `<abbr title="${esc(indexDescriptions[r])}">${esc(r)}</abbr>` : esc(r)).join(', ')}</dd>`).join('');
+  const refs = refKeys.filter(([k]) => e[k] && e[k].length).map(([k, label]) => `<dt>${label}</dt><dd>${e[k].map((r) => indexDescriptions[r] ? `<abbr title="${escRaw(plain(indexDescriptions[r]))}">${esc(r)}</abbr>` : esc(r)).join(', ')}</dd>`).join('');
   const refsHtml = refs ? `<section><h2>Index terms</h2><dl class="facts">${refs}</dl></section>` : '';
   const grounds = (e.grounds || []).length ? `<section><h2>Sources</h2><ul class="plain grounds">${e.grounds.map(groundItem).join('')}</ul></section>` : '';
   const other = ED_ORDER.filter((k) => k !== 'linguist' && has(id, k)).map((k) => `<a href="${entryUrl(id, k)}">${ED[k].label}</a>`).join(' · ');
@@ -463,7 +469,7 @@ const LANDING = {
 
 function landingPage(ed) {
   const ids = [...entries.keys()].filter((id) => has(id, ed));
-  const sorted = ids.sort((a, b) => titleFor(a, ed).localeCompare(titleFor(b, ed), 'en', { sensitivity: 'base' }));
+  const sorted = ids.sort((a, b) => plain(titleFor(a, ed)).localeCompare(plain(titleFor(b, ed)), 'en', { sensitivity: 'base' }));
   const L = LANDING[ed];
   const summary = (id) => {
     if (ed === 'linguist') return entries.get(id).pattern;
@@ -478,7 +484,7 @@ function landingPage(ed) {
   }).join('\n');
   const letters = new Map();
   for (const id of sorted) {
-    const ch = (titleFor(id, ed).replace(/^[^A-Za-z]+/, '')[0] || '#').toUpperCase();
+    const ch = (plain(titleFor(id, ed)).replace(/^[^A-Za-z]+/, '')[0] || '#').toUpperCase();
     if (!letters.has(ch)) letters.set(ch, []);
     letters.get(ch).push(id);
   }
@@ -597,7 +603,7 @@ function entryMarkdown(id) {
     const k = r.editions.child;
     if (k) lines.push('### Child', '', k.hook, '', k.explain, '');
   }
-  return lines.join('\n');
+  return mdItalics(lines.join('\n'));
 }
 
 function llmsTxt(counts) {
@@ -613,6 +619,7 @@ function llmsTxt(counts) {
 - \`kind.secured\` is the highest evidence level reached: stable, networked, maintained or controlled. Absent means not yet assessed.
 - \`grounds\` record what each claim rests on: the source, a locator, the relation (cites, attests, discusses, adjudicates, contradicts, derives-from) and what it bears on.
 - Examples in the reader editions marked \`from: constructed\` were written for the page; \`from: entry\` examples come from the linguist entry.
+- Text fields may contain <i>...</i> around mentioned forms (house style puts mentions in italics); the Markdown files render them as *...*.
 - Cite entries by their linguist-edition URL and the snapshot date.
 
 ## Data
@@ -665,9 +672,9 @@ const search = [...entries.keys()].map((id) => {
   const fams = Object.entries(families).filter(([, f]) => (f.members || []).includes(id)).map(([k]) => human(k));
   return stripUndefined({
     id,
-    name: e.name,
-    t: { curious: has(id, 'curious') ? ed.curious.title : undefined, child: has(id, 'child') ? ed.curious.title : undefined },
-    s: has(id, 'curious') ? ed.curious.summary : undefined,
+    name: plain(e.name),
+    t: { curious: has(id, 'curious') ? plain(ed.curious.title) : undefined, child: has(id, 'child') ? plain(ed.curious.title) : undefined },
+    s: has(id, 'curious') ? plain(ed.curious.summary) : undefined,
     p: e.pattern,
     x: ex.slice(0, 12).join(' | '),
     f: fams.join(', '),

@@ -1,5 +1,5 @@
 id: causative-have-001
-name: Causative Have with a Bare Infinitival
+name: "Causative <i>have</i> with a Bare Infinitival"
 pattern: VP[have + NP + bare infinitival]
 type: mixed
 meanings:
@@ -16,7 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: affected-have-participial-001
     relationship: related-to
-    notes: Had Kai replace the roof makes Kai the understood replacer. Had the roof replaced presents the roof as affected and can describe an arrangement. Had his phone stolen can describe an unwanted experience.
+    notes: <i>Had Kai replace the roof</i> makes Kai the understood replacer. <i>Had the roof replaced</i> presents the roof as affected and can describe an arrangement. <i>Had his phone stolen</i> can describe an unwanted experience.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §5.4, have
@@ -25,6 +25,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Jo undertakes the checking. Have Jo check contrasts with perfect have checked and with affected have the figures checked.
+    target: Jo undertakes the checking. <i>Have Jo check</i> contrasts with perfect <i>have checked</i> and with affected <i>have the figures checked</i>.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

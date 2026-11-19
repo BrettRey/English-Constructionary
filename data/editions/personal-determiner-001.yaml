@@ -4,26 +4,26 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: We or you before a group name
-  summary: The words we, us or you can come right before a plural noun to say which group is meant, in relation to the speaker or the person spoken to.
+  title: <i>We</i> or <i>you</i> before a group name
+  summary: The words <i>we</i>, <i>us</i> or <i>you</i> can come right before a plural noun to say which group is meant, in relation to the speaker or the person spoken to.
   body: |-
-    In We volunteers need a break, the word we ties the group to the speaker: the volunteers in question include the speaker. The plural noun volunteers still follows and says which group it is.
+    In <i>We volunteers need a break</i>, the word <i>we</i> ties the group to the speaker: the volunteers in question include the speaker. The plural noun <i>volunteers</i> still follows and says which group it is.
 
-    This dictionary says the noun survives after the personal word. In many varieties, a version that isn't the subject can use us volunteers, which shows that the person-and-case choice and the reference are separate matters.
+    This dictionary says the noun survives after the personal word. In many varieties, a version that isn't the subject can use <i>us volunteers</i>, which shows that the person-and-case choice and the reference are separate matters.
   examples:
     - text: '[We volunteers] need a break.'
       from: entry
-  try: Replace volunteers with another group name, such as teachers or neighbours. Does the sentence still work?
+  try: Replace <i>volunteers</i> with another group name, such as <i>teachers</i> or <i>neighbours</i>. Does the sentence still work?
 teacher:
-  summary: Explains we or you followed by a plural noun, as in We volunteers need a break.
-  explain: In this pattern a personal expression (we, us or you) is followed by a plural nominal. The personal expression locates the named group in relation to the speaker or addressee. The nominal survives after it. In many varieties a non-subject parallel can use us volunteers, which shows that case and reference matter independently. This dictionary files this under noun phrases with a determiner and marks it provisional, with medium confidence.
-  terms: Traditional grammars call we, us and you personal pronouns. Here the personal word functions as a determiner before the nominal.
+  summary: Explains <i>we</i> or <i>you</i> followed by a plural noun, as in <i>We volunteers need a break</i>.
+  explain: In this pattern a personal expression (<i>we</i>, <i>us</i> or <i>you</i>) is followed by a plural nominal. The personal expression locates the named group in relation to the speaker or addressee. The nominal survives after it. In many varieties a non-subject parallel can use <i>us volunteers</i>, which shows that case and reference matter independently. This dictionary files this under noun phrases with a determiner and marks it provisional, with medium confidence.
+  terms: Traditional grammars call <i>we</i>, <i>us</i> and <i>you</i> personal pronouns. Here the personal word functions as a determiner before the nominal.
   examples:
     - text: '[We volunteers] need a break.'
       from: entry
   watch_for:
-    - A learner might think the noun volunteers is optional decoration, when it names the group the personal word is tied to.
-  activity: Students write sentences about their own group (We students, We neighbours), then say who is included and who is addressed in a version with you.
+    - A learner might think the noun <i>volunteers</i> is optional decoration, when it names the group the personal word is tied to.
+  activity: Students write sentences about their own group (<i>We students</i>, <i>We neighbours</i>), then say who is included and who is addressed in a version with <i>you</i>.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

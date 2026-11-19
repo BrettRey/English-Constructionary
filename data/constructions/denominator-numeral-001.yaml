@@ -40,6 +40,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "I rolled three tens describes three tokens of the value ten, rather than a count of ten objects. The lexical noun takes its own plural marking and appears under a separate cardinal determiner."
+    target: "<i>I rolled three tens</i> describes three tokens of the value ten, rather than a count of ten objects. The lexical noun takes its own plural marking and appears under a separate cardinal determiner."
     evidence: "The numeral paper distinguishes the count noun for a token or score from arithmetic name and quantificational uses."
     confidence: medium

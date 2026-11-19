@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Elaborates the event already described by the verb.
-    details: An otherwise intransitive verb such as die can occur with a cognate event noun and its modifiers. The object in died a long and agonising death adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.
+    details: An otherwise intransitive verb such as <i>die</i> can occur with a cognate event noun and its modifiers. The object in <i>died a long and agonising death</i> adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.
     examples:
       - form: He [died a long and agonising death].
         note: The NP supplies information about how he died.

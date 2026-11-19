@@ -1,5 +1,5 @@
 id: directive-had-better-001
-name: Directive Had Better
+name: "Directive <i>had better</i>"
 pattern: VP[fixed had + better + plain infinitival]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Had can contract to ’d but ordinarily cannot be replaced by present have. The directive refers to prospective rather than past action.
+    target: <i>Had</i> can contract to <i>’d</i> but ordinarily cannot be replaced by present <i>have</i>. The directive refers to prospective rather than past action.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

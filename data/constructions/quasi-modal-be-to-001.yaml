@@ -1,5 +1,5 @@
 id: quasi-modal-be-to-001
-name: Quasi-Modal Be To
+name: "Quasi-Modal <i>be to</i>"
 pattern: VP[finite be + to-infinitival]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The required or arranged reading occurs without a predicative NP or adjective. It can use preterite was/were for a past arrangement without asserting fulfilment.
+    target: The required or arranged reading occurs without a predicative NP or adjective. It can use preterite <i>was</i>/<i>were</i> for a past arrangement without asserting fulfilment.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

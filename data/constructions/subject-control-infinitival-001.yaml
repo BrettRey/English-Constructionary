@@ -1,5 +1,5 @@
 id: subject-control-infinitival-001
-name: Subject Control in a To-Infinitival Complement
+name: "Subject Control in a <i>to</i>-Infinitival Complement"
 pattern: Clause[Subject NPᵢ + V + to-infinitival with understood subjectᵢ]
 type: syntactic
 meanings:
@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: subject-raising-infinitival-001
     relationship: related-to
-    notes: Jo promised to return assigns Jo a role in the promising. There seems to be a leak allows dummy there because the subject is selected through the infinitival.
+    notes: <i>Jo promised to return</i> assigns Jo a role in the promising. <i>There seems to be a leak</i> allows dummy <i>there</i> because the subject is selected through the infinitival.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.7, 2.1
@@ -23,6 +23,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Jo is the promiser and the understood returner. A dummy there cannot replace Jo as the promiser.
+    target: Jo is the promiser and the understood returner. A dummy <i>there</i> cannot replace Jo as the promiser.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

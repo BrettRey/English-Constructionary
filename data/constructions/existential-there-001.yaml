@@ -1,5 +1,5 @@
 id: existential-there-001
-name: Existential There with Be
+name: "Existential <i>there</i> with <i>be</i>"
 pattern: Clause[dummy there + finite be + pivot NP]
 type: mixed
 meanings:
@@ -24,6 +24,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: There inverts in Is there a seat? and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts.
+    target: <i>There</i> inverts in <i>Is there a seat?</i> and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

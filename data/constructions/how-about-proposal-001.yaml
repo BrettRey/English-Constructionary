@@ -1,5 +1,5 @@
 id: how-about-proposal-001
-name: Proposal with How About
+name: "Proposal with <i>how about</i>"
 pattern: how about + NP, gerund-participial or licensed clause
 type: pragmatic
 meanings:
@@ -13,10 +13,10 @@ relatedConstructions:
     relationship: related-to
   - id: what-about-topic-001
     relationship: related-to
-    notes: How about a short break? and What about a short break? can both propose a break. What about the budget? can also take up an outstanding topic.
+    notes: <i>How about a short break?</i> and <i>What about a short break?</i> can both propose a break. <i>What about the budget?</i> can also take up an outstanding topic.
   - id: why-not-proposal-001
     relationship: related-to
-    notes: How about taking a break? proposes an option with a gerund-participial. Why not take a break? puts forward a proposal using a plain verbal predicate.
+    notes: <i>How about taking a break?</i> proposes an option with a gerund-participial. <i>Why not take a break?</i> puts forward a proposal using a plain verbal predicate.
 grounds:
   - source: cgel-2002
     locator: Ch. 10 §7.7, how about

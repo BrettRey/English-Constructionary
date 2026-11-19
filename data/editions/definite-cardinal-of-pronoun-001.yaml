@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: The two of us, the four of us
-  summary: The, a number and of plus a pronoun together name a group and say how many are in it.
+  title: <i>The two of us, the four of us</i>
+  summary: <i>The</i>, a number and <i>of</i> plus a pronoun together name a group and say how many are in it.
   body: |-
-    I was there with Jo, Lee and Pat. The four of us shared a tent. The phrase the four of us can point to a group of four that includes the speaker, and it gives the group's size at the same time. When a larger group is also in the picture, the phrase needs a set of four the listener can pick out.
+    I was there with Jo, Lee and Pat. The four of us shared a tent. The phrase <i>the four of us</i> can point to a group of four that includes the speaker, and it gives the group's size at the same time. When a larger group is also in the picture, the phrase needs a set of four the listener can pick out.
 
-    Without the, it works differently. In There were six of us, and four of us had bikes, four of us picks out some of a larger group rather than naming the whole group. This dictionary treats the analysis as provisional.
+    Without <i>the</i>, it works differently. In <i>There were six of us, and four of us had bikes</i>, <i>four of us</i> picks out some of a larger group rather than naming the whole group. This dictionary treats the analysis as provisional.
   examples:
     - text: I was there with Jo, Lee and Pat. [The four of us] shared a tent.
       from: entry
     - text: There were six of us, and [four of us] had bikes.
       from: entry
-  try: Think of a group you were part of. How would you name it with the, a number and of us? What if only some of the group did something?
+  try: Think of a group you were part of. How would you name it with <i>the</i>, a number and <i>of us</i>? What if only some of the group did something?
 teacher:
-  summary: Helps explain the four of us (a recoverable group of four) versus four of us (an unspecified subset of a larger group).
-  explain: The pattern is NP[the + cardinal + of + personal pronoun], as in the four of us. It identifies a group while explicitly giving its size, and the article determines the whole NP. The numeral must match a contextually recoverable group, so the four of us can describe the group of four that includes the speaker. Without the, four of us can simply pick an unspecified subset of a larger us-group. Cardinals with of-phrases can also occur in ordinary partitive syntax. The analysis is provisional.
-  terms: The is a determinative (often called the definite article).
+  summary: Helps explain <i>the four of us</i> (a recoverable group of four) versus <i>four of us</i> (an unspecified subset of a larger group).
+  explain: The pattern is NP[the + cardinal + of + personal pronoun], as in <i>the four of us</i>. It identifies a group while explicitly giving its size, and the article determines the whole NP. The numeral must match a contextually recoverable group, so <i>the four of us</i> can describe the group of four that includes the speaker. Without <i>the</i>, <i>four of us</i> can simply pick an unspecified subset of a larger <i>us</i>-group. Cardinals with <i>of</i>-phrases can also occur in ordinary partitive syntax. The analysis is provisional.
+  terms: <i>The</i> is a determinative (often called the definite article).
   examples:
     - text: I was there with Jo, Lee and Pat. [The four of us] shared a tent.
       from: entry
@@ -31,20 +31,20 @@ teacher:
       note: Definite; the numeral matches the contextually salient group.
     - text: Four of us had bikes.
       from: constructed
-      note: No the; can pick an unspecified subset of a larger group.
+      note: No <i>the</i>; can pick an unspecified subset of a larger group.
   watch_for:
-    - A learner might read four of us, without the, as naming a whole group of four, when it can pick an unspecified subset of a larger group.
-    - A learner might use the two of us for a pair that isn't the contextually identified group.
-  activity: Describe a picture of a group of six, with three friends sitting together. Students write sentences about the whole group and about parts of it, with and without the, and say which group each sentence names.
+    - A learner might read <i>four of us</i>, without <i>the</i>, as naming a whole group of four, when it can pick an unspecified subset of a larger group.
+    - A learner might use <i>the two of us</i> for a pair that isn't the contextually identified group.
+  activity: Describe a picture of a group of six, with three friends sitting together. Students write sentences about the whole group and about parts of it, with and without <i>the</i>, and say which group each sentence names.
 child:
   hook: What can you call a group of friends and say how many without naming each one?
-  explain: You can name a group by saying the, a number and of us. The four of us shared a tent. It points to a group of four that you can pick out from the situation.
+  explain: You can name a group by saying <i>the</i>, a number and <i>of us</i>. <i>The four of us shared a tent.</i> It points to a group of four that you can pick out from the situation.
   examples:
     - text: '[The four of us] shared a tent.'
       from: entry
     - text: '[The two of us] walked home.'
       from: constructed
-  play: Pick a group you were in, like a team or a table at lunch. Say how many were in it using the number and of us. Then say what some of the group did.
+  play: Pick a group you were in, like a team or a table at lunch. Say how many were in it using the number and <i>of us</i>. Then say what some of the group did.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

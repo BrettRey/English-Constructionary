@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: A shaken Giuliani, a smiling Johnson
-  summary: Putting a or an and a describing word in front of a person's name can present that person in a particular state on a particular occasion.
+  title: <i>A shaken Giuliani</i>, <i>a smiling Johnson</i>
+  summary: Putting <i>a</i> or <i>an</i> and a describing word in front of a person's name can present that person in a particular state on a particular occasion.
   body: |-
-    In A visibly shaken Giuliani noted the tragic circumstances, the name belongs to someone the report has already introduced. The describing word tells us his state at the time, and the rest of the sentence says what he did.
+    In <i>A visibly shaken Giuliani noted the tragic circumstances</i>, the name belongs to someone the report has already introduced. The describing word tells us his state at the time, and the rest of the sentence says what he did.
 
-    Why a rather than the or nothing? One analysis says the description is directly about the person. Another says the phrase picks out one version of the person, as he was in one of several possible states. This dictionary treats the question as open. The pattern also turns up after prepositions, as in next to a smiling Hootie Johnson.
+    Why <i>a</i> rather than <i>the</i> or nothing? One analysis says the description is directly about the person. Another says the phrase picks out one version of the person, as he was in one of several possible states. This dictionary treats the question as open. The pattern also turns up after prepositions, as in <i>next to a smiling Hootie Johnson</i>.
   examples:
     - text: '[A visibly shaken Giuliani] noted the tragic circumstances during a hospital press conference.'
       from: entry
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: '[a visibly unhappy Paulo]'
       from: entry
-  try: Think of a news photo caption. Could you write a smiling and a name there, such as a smiling Maria? What does adding the describing word tell you about that moment?
+  try: Think of a news photo caption. Could you write <i>a smiling</i> and a name there, such as <i>a smiling Maria</i>? What does adding the describing word tell you about that moment?
 teacher:
-  summary: For advanced classes, a or an with an adjective and a personal name, as in a visibly shaken Giuliani.
-  explain: 'The pattern is a noun phrase made of a or an, an attributive adjective phrase and a personal name form. The article is in determiner function. In the Giuliani example the name identifies a person already introduced in the report, and the adjective supplies his state on an occasion. This dictionary reports two analyses: the modifier characterizes the bearer directly, or the phrase picks out a manifestation, understood as the bearer in one of several possible states. It cites a corpus comparison in which a/an used with angry, smiling, beaming, relaxed and tired gives more tokens than the or bare forms, while young and old comparisons are predominantly bare. The analysis is provisional, so present the analysis as open.'
-  terms: Sometimes discussed under the heading of proper names used with an indefinite article. This dictionary treats the whole phrase as a noun phrase in which a or an is the determiner.
+  summary: For advanced classes, <i>a</i> or <i>an</i> with an adjective and a personal name, as in <i>a visibly shaken Giuliani</i>.
+  explain: 'The pattern is a noun phrase made of <i>a</i> or <i>an</i>, an attributive adjective phrase and a personal name form. The article is in determiner function. In the Giuliani example the name identifies a person already introduced in the report, and the adjective supplies his state on an occasion. This dictionary reports two analyses: the modifier characterizes the bearer directly, or the phrase picks out a manifestation, understood as the bearer in one of several possible states. It cites a corpus comparison in which <i>a</i>/<i>an</i> used with <i>angry</i>, <i>smiling</i>, <i>beaming</i>, <i>relaxed</i> and <i>tired</i> gives more tokens than <i>the</i> or bare forms, while <i>young</i> and <i>old</i> comparisons are predominantly bare. The analysis is provisional, so present the analysis as open.'
+  terms: Sometimes discussed under the heading of proper names used with an indefinite article. This dictionary treats the whole phrase as a noun phrase in which <i>a</i> or <i>an</i> is the determiner.
   examples:
     - text: '[A visibly shaken Giuliani] noted the tragic circumstances during a hospital press conference.'
       from: entry
@@ -37,8 +37,8 @@ teacher:
       from: entry
       note: The adjective is outside it, as a secondary predicative.
   watch_for:
-    - A learner might read a smiling Hootie Johnson as introducing a second person with the same name.
-    - A learner might treat unconscious in They carried Kim unconscious as part of the object noun phrase.
+    - A learner might read <i>a smiling Hootie Johnson</i> as introducing a second person with the same name.
+    - A learner might treat <i>unconscious</i> in <i>They carried Kim unconscious</i> as part of the object noun phrase.
   activity: Give students short news-style captions with a name and a temporary state. They rewrite each with the adjective after the name, as in the second contrast sentence, and say whether the adjective is inside or outside the noun phrase.
 checked:
   date: '2026-11-19'

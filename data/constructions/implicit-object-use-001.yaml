@@ -13,7 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: monotransitive-vp-001
     relationship: related-to
-    notes: Compare Jo ate lunch with Jo ate. The second leaves the food unspecified. Availability depends on the verb and its use.
+    notes: Compare <i>Jo ate lunch</i> with <i>Jo ate</i>. The second leaves the food unspecified. Availability depends on the verb and its use.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §8.1.3
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The implied food need not have been mentioned. Leaving the relevant object unexpressed is natural for eat, even when plausible near-synonyms such as consume strongly favour a stated object.
+    target: The implied food need not have been mentioned. Leaving the relevant object unexpressed is natural for <i>eat</i>, even when plausible near-synonyms such as <i>consume</i> strongly favour a stated object.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

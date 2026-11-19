@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Words for kinds of things
-  summary: Common nouns like dog and city name a kind or category, not one particular individual.
+  summary: Common nouns like <i>dog</i> and <i>city</i> name a kind or category, not one particular individual.
   body: |-
-    Dog and city are common nouns. Each names a class or category of things. Common nouns take endings for number (dog, dogs) and are typically written without a capital letter.
+    <i>Dog</i> and <i>city</i> are common nouns. Each names a class or category of things. Common nouns take endings for number (<i>dog</i>, <i>dogs</i>) and are typically written without a capital letter.
 
-    A common noun can still lead to one particular thing. In the tallest building, the phrase can pick out a single building, yet building is still a common noun. Picking out one thing doesn't, by itself, make a word a name.
+    A common noun can still lead to one particular thing. In <i>the tallest building</i>, the phrase can pick out a single building, yet <i>building</i> is still a common noun. Picking out one thing doesn't, by itself, make a word a name.
   examples:
     - text: '[dog]'
       from: entry
@@ -20,7 +20,7 @@ curious:
   try: Pick a word for a kind of thing in the room. Does it also name one particular thing, or the whole kind?
 teacher:
   summary: Teaches the basic noun category, and how it differs from the proper noun.
-  explain: 'A common noun denotes a class or category of entities. It is the head of a nominal, supplies descriptive content for reference, takes number and case inflection, and supports the count and non-count distinction. Dog and city are this dictionary''s examples. The pattern provides a nominal description usable with ordinary determination when the count and number profile permits it. Identification alone doesn''t make a noun proper: the tallest building can identify a unique referent while keeping a common noun as its head. Compare with the proper noun, a parallel noun category.'
+  explain: 'A common noun denotes a class or category of entities. It is the head of a nominal, supplies descriptive content for reference, takes number and case inflection, and supports the count and non-count distinction. <i>Dog</i> and <i>city</i> are this dictionary''s examples. The pattern provides a nominal description usable with ordinary determination when the count and number profile permits it. Identification alone doesn''t make a noun proper: <i>the tallest building</i> can identify a unique referent while keeping a common noun as its head. Compare with the proper noun, a parallel noun category.'
   terms: Common noun is the traditional term and the one used here. Countable and uncountable nouns are sometimes called count and non-count nouns; this dictionary prefers non-count.
   examples:
     - text: '[dog]'
@@ -30,20 +30,20 @@ teacher:
   contrasts:
     - text: the tallest building
       from: constructed
-      note: Identifies one building, but the head word building is still a common noun.
+      note: Identifies one building, but the head word <i>building</i> is still a common noun.
   watch_for:
-    - A learner might treat a noun as proper whenever a phrase points to one individual, such as the tallest building.
+    - A learner might treat a noun as proper whenever a phrase points to one individual, such as <i>the tallest building</i>.
     - A learner might assume every common noun can follow a cardinal number, though this dictionary says the count and number profile has to permit it.
-  activity: Students list five common nouns from the classroom. For each, they say whether it can follow a, much or a cardinal number, then compare lists with a partner.
+  activity: Students list five common nouns from the classroom. For each, they say whether it can follow <i>a</i>, <i>much</i> or a cardinal number, then compare lists with a partner.
 child:
-  hook: Which words name a kind of thing, like dog?
-  explain: Words like dog and city name a kind of thing. They don't name just one special one. Even in the tallest building, the main word is still building.
+  hook: Which words name a kind of thing, like <i>dog</i>?
+  explain: Words like <i>dog</i> and <i>city</i> name a kind of thing. They don't name just one special one. Even in <i>the tallest building</i>, the main word is still <i>building</i>.
   examples:
     - text: I saw a [dog].
       from: constructed
     - text: We live in a [city].
       from: constructed
-  play: Look around. Say five words for kinds of things, like chair or tree. Then say one special name for each, like a friend's name for their pet.
+  play: Look around. Say five words for kinds of things, like <i>chair</i> or <i>tree</i>. Then say one special name for each, like a friend's name for their pet.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

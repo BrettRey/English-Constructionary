@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: The same result whichever way it goes
-  summary: A whether phrase with two alternatives says the result holds on either one.
+  summary: A <i>whether</i> phrase with two alternatives says the result holds on either one.
   body: |-
-    In Whether Lee comes or not, the meeting goes ahead, both possibilities are named: Lee comes, or Lee doesn't. The sentence says the meeting goes ahead on either one.
+    In <i>Whether Lee comes or not, the meeting goes ahead</i>, both possibilities are named: Lee comes, or Lee doesn't. The sentence says the meeting goes ahead on either one.
 
-    The speaker isn't asking a question. Compare I asked whether Jo stayed or left, where whether introduces a question the speaker wants answered. In Whether Jo stayed or left, the lights stayed on, both alternatives sit in the opening phrase, and the same result is asserted across them.
+    The speaker isn't asking a question. Compare <i>I asked whether Jo stayed or left</i>, where <i>whether</i> introduces a question the speaker wants answered. In <i>Whether Jo stayed or left, the lights stayed on</i>, both alternatives sit in the opening phrase, and the same result is asserted across them.
   examples:
   - text: '[Whether Lee comes or not], the meeting goes ahead.'
     from: entry
@@ -17,10 +17,10 @@ curious:
     from: entry
   - text: '[Whether it snows or rains], the match will be played.'
     from: constructed
-  try: 'Finish this: Whether you win or lose, ... Does your ending depend on which one happens?'
+  try: 'Finish this: <i>Whether you win or lose, ...</i> Does your ending depend on which one happens?'
 teacher:
-  summary: Helps explain whether...or adjuncts that assert one result across two alternatives, and how they differ from embedded questions.
-  explain: An alternative exhaustive conditional is an adjunct built from whether plus alternatives linked by or. It states that the outcome holds whichever of the presented alternatives obtains. The adjunct neither asks nor reports an unresolved question; it asserts that the consequence holds on both alternatives. This dictionary marks the analysis provisional, with medium confidence, and relates it both to the if-conditional and to the closed interrogative whether. The contrast with the interrogative use is the main point to teach.
+  summary: Helps explain <i>whether</i>...<i>or</i> adjuncts that assert one result across two alternatives, and how they differ from embedded questions.
+  explain: An alternative exhaustive conditional is an adjunct built from <i>whether</i> plus alternatives linked by <i>or</i>. It states that the outcome holds whichever of the presented alternatives obtains. The adjunct neither asks nor reports an unresolved question; it asserts that the consequence holds on both alternatives. This dictionary marks the analysis provisional, with medium confidence, and relates it both to the <i>if</i>-conditional and to the closed interrogative <i>whether</i>. The contrast with the interrogative use is the main point to teach.
   examples:
   - text: '[Whether Lee comes or not], the meeting goes ahead.'
     from: entry
@@ -32,20 +32,20 @@ teacher:
     note: Both alternatives in the adjunct, one consequence across them.
   - text: I asked whether Jo stayed or left.
     from: entry
-    note: Whether introduces a question that seeks the answer.
+    note: <i>Whether</i> introduces a question that seeks the answer.
   watch_for:
-  - A learner might read the whether clause as a question the speaker is asking.
-  - A learner might read the construction as an if sentence that holds for only one alternative, when both alternatives lead to the same result.
-  activity: Give students a result ("the party starts at eight") and a pair of alternatives (rain or shine, guests early or late). They write whether...or sentences, then rewrite one as an embedded question with ask and compare.
+  - A learner might read the <i>whether</i> clause as a question the speaker is asking.
+  - A learner might read the construction as an <i>if</i> sentence that holds for only one alternative, when both alternatives lead to the same result.
+  activity: Give students a result ("the party starts at eight") and a pair of alternatives (<i>rain or shine</i>, <i>guests early or late</i>). They write <i>whether</i>...<i>or</i> sentences, then rewrite one as an embedded question with <i>ask</i> and compare.
 child:
-  hook: What does Whether Lee comes or not tell you about the meeting?
-  explain: Whether Lee comes or not names two things that could happen. The meeting goes ahead either way. The sentence isn't asking a question.
+  hook: What does <i>Whether Lee comes or not</i> tell you about the meeting?
+  explain: <i>Whether Lee comes or not</i> names two things that could happen. The meeting goes ahead either way. The sentence isn't asking a question.
   examples:
   - text: '[Whether Lee comes or not], the meeting goes ahead.'
     from: entry
   - text: '[Whether it snows or rains], the match will be played.'
     from: constructed
-  play: Name two things that could happen, like sun or rain. Join them with whether and or. Then say what happens either way.
+  play: Name two things that could happen, like sun or rain. Join them with <i>whether</i> and <i>or</i>. Then say what happens either way.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

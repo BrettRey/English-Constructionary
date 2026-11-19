@@ -1,11 +1,11 @@
 id: deverbal-er-noun-001
-name: Deverbal Noun in -er
+name: "Deverbal Noun in <i>-er</i>"
 pattern: N[verb base + -er]
 type: mixed
 meanings:
   '1':
     definition: Forms a noun for a participant characteristically associated with the action of the base verb.
-    details: The central reading identifies a person who undertakes the activity, as in singer. Instrument readings occur with forms such as mixer. A verbal object can have a corresponding of-phrase with many agent nouns. The same ending in islander supports a separate noun-base pattern.
+    details: The central reading identifies a person who undertakes the activity, as in <i>singer</i>. Instrument readings occur with forms such as <i>mixer</i>. A verbal object can have a corresponding <i>of</i>-phrase with many agent nouns. The same ending in <i>islander</i> supports a separate noun-base pattern.
     examples:
       - form: '[the reviewer of the manuscript]'
         note: Constructed example of a reviewer’s complement corresponding to the object of review.
@@ -17,13 +17,13 @@ relatedConstructions:
     notes: The derivation forms an ordinary common noun.
   - id: deverbal-noun-of-argument-001
     relationship: related-to
-    notes: The base verb’s object can supply the argument of an of-phrase.
+    notes: The base verb’s object can supply the argument of an <i>of</i>-phrase.
 grounds:
   - source: casa-constructicon
     locator: records 157, 161–163
     relation: discusses
     bears-on: projection
-    note: Separates verbal and nominal bases and related -or nouns.
+    note: Separates verbal and nominal bases and related <i>-or</i> nouns.
   - source: cgel-2002
     locator: Ch. 19 §5.7.1(f)
     relation: discusses
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A transparently agentive -er noun can license an of-phrase corresponding to the base verb’s object. The -er pattern also admits conventional instruments.
+    target: A transparently agentive <i>-er</i> noun can license an <i>of</i>-phrase corresponding to the base verb’s object. The <i>-er</i> pattern also admits conventional instruments.
     evidence: CASA separately records verbal and nominal bases. CGEL documents agent, instrument and other readings and traces complements back to verbal argument structure.
     confidence: high

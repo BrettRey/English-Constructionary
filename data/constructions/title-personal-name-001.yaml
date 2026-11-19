@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Uses a personal name and a convention for identifying the bearer’s office, qualification, or style.
-    details: The title helps determine the form of the associated name. In the conventional British uses illustrated here, Sir precedes a given name, with a surname optionally following. Dr ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
+    details: The title helps determine the form of the associated name. In the conventional British uses illustrated here, <i>Sir</i> precedes a given name, with a surname optionally following. <i>Dr</i> ordinarily precedes the surname or a full name in the standard formal style. Some professional conventions and familiar styles use a title with a given name.
     examples:
       - form: '[Sir James] opened the ceremony.'
         note: Constructed example showing the given-name form.
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: Substituting a surname alone for the given name in the standard British Sir pattern loses the conventional name form. A professional title such as Dr can use the surname alone.
+    target: Substituting a surname alone for the given name in the standard British <i>Sir</i> pattern loses the conventional name form. A professional title such as <i>Dr</i> can use the surname alone.
     evidence: CASA distinguishes academic title plus surname from title plus given name. CGEL gives examples of both as possible personal names in vocative function.
     confidence: high

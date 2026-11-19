@@ -16,6 +16,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The finding is presented as having occurred in the narrative. Expanding to in order to changes the reading to purpose.
+    target: The finding is presented as having occurred in the narrative. Expanding <i>to</i> <i>in order to</i> changes the reading to purpose.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

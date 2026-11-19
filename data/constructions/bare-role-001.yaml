@@ -10,12 +10,12 @@ dimensions:
 meanings:
   '1':
     definition: Ascribes an office or institutional role, or gives the content of an office expression.
-    details: "The same nominal can follow be, become, remain, appoint, or elect when the verb licenses a predicative complement. It can also occur with as and in role of or position of, in a matrix-licensed except phrase, or as an ascriptive supplement. In an appointment construction the direct object identifies the appointee and the bare NP gives the office."
+    details: "The same nominal can follow <i>be</i>, <i>become</i>, <i>remain</i>, <i>appoint</i>, or <i>elect</i> when the verb licenses a predicative complement. It can also occur with <i>as</i> and in <i>role of</i> or <i>position of</i>, in a matrix-licensed <i>except</i> phrase, or as an ascriptive supplement. In an appointment construction the direct object identifies the appointee and the bare NP gives the office."
     examples:
       - form: "They appointed Lee [treasurer of the club]."
-        note: "Constructed object-oriented predicative. In They questioned the treasurer of the club, the article-marked NP instead identifies the person questioned."
+        note: "Constructed object-oriented predicative. In <i>They questioned the treasurer of the club</i>, the article-marked NP instead identifies the person questioned."
       - form: "Lee served [as treasurer]."
-        note: "Constructed prepositional frame. Compare Lee applied for the position [of treasurer]. Both retain a bare role nominal."
+        note: "Constructed prepositional frame. Compare <i>Lee applied for the position [of treasurer]</i>. Both retain a bare role nominal."
       - form: "Faatulu was named [co-captain] along with fellow junior Jamie Peck."
         note: "The sports report explicitly names two holders of the role."
         grounds:
@@ -24,7 +24,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: "Lee is [secretary of the club]."
-        note: "Constructed after CGEL’s comparison. Lee is the secretary of the club can also specify the incumbent in answer to Who is the secretary?"
+        note: "Constructed after CGEL’s comparison. <i>Lee is the secretary of the club</i> can also specify the incumbent in answer to <i>Who is the secretary?</i>"
       - form: "I’ve been everything except [president]."
         note: "The except phrase picks out a role from the alternatives made available by the matrix clause."
         grounds:
@@ -44,31 +44,31 @@ meanings:
     details: "A workplace can make a particular assignment available for the construction. The availability of a bare form is sensitive to lexical choice and how a job title is used in the institution."
     examples:
       - form: "They appointed Lee [lead counsel] for the appeal."
-        note: "Constructed. Lead counsel specifies the assignment."
+        note: "Constructed. <i>Lead counsel</i> specifies the assignment."
       - form: "Lee became [a lawyer]."
-        note: "Constructed comparison. In ordinary standard usage, became lawyer is degraded on the professional-class reading."
+        note: "Constructed comparison. In ordinary standard usage, <i>became lawyer</i> is degraded on the professional-class reading."
   '3':
     definition: Ascribes a relational or ceremonial role in a licensed frame.
     details: "A following relational dependent can specify whom the role is held in relation to. This use is limited to independently available role expressions. It is distinct from using a kin term as a form of address or as a standing name. Holding a kin role doesn't confer the kin term as a designation: Schneider and Homans report that when a child is reared from infancy by an aunt playing a maternal role, she “is still not called ‘mother’” (1955: 1203)."
     examples:
       - form: "They asked Lee to be [godfather to their son]."
-        note: "Constructed relational example. The to-phrase supplies the other participant."
+        note: "Constructed relational example. The <i>to</i>-phrase supplies the other participant."
       - form: "There can likewise be only one person who is [father of the student I have in mind]."
-        note: "CGEL’s own prose, discussing the identifiability of the father of the student; the sentence's opening In [2ii] is omitted. A kin noun heads the bare predicative, and of the student gives the relatum."
+        note: "CGEL’s own prose, discussing the identifiability of the father of the student; the sentence's opening <i>In [2ii]</i> is omitted. A kin noun heads the bare predicative, and <i>of the student</i> gives the relatum."
         grounds:
           - source: cgel-2002
             locator: "Ch. 5 §6.1, p. 369"
             relation: attests
             bears-on: attestation
       - form: "She was [mother to three boys]."
-        note: "Constructed. A single kin noun, with the to-phrase giving the relatum. Kin nouns under this meaning are an adjudication (Brett, 2026-11-19): CGEL lists kin or similar relations separately from offices or roles (Ch. 4 §5.5.1(e))."
+        note: "Constructed. A single kin noun, with the <i>to</i>-phrase giving the relatum. Kin nouns under this meaning are an adjudication (Brett, 2026-11-19): CGEL lists kin or similar relations separately from offices or roles (Ch. 4 §5.5.1(e))."
 constraints:
   - type: syntactic
     description: "A bare role NP can describe the subject or object. It does not ordinarily occupy the subject or object position as a referential expression for the roleholder."
   - type: semantic
     description: "The choice of noun and context must support a role reading. Predicative function alone does not license removal of the article from become a miser or become a teacher."
   - type: semantic
-    description: "The role can have multiple holders. A counterpart with an overt determiner can also ascribe a role, as in became a co-captain or remained our captain. With be, a counterpart with the can additionally identify the contextually relevant incumbent."
+    description: "The role can have multiple holders. A counterpart with an overt determiner can also ascribe a role, as in <i>became a co-captain</i> or <i>remained our captain</i>. With <i>be</i>, a counterpart with <i>the</i> can additionally identify the contextually relevant incumbent."
 relatedConstructions:
   - id: np-bare-001
     relationship: specialization-of
@@ -82,34 +82,34 @@ relatedConstructions:
     notes: "In the appointment frame the predicand is realized as object."
   - id: pp-001
     relationship: interfaces-with
-    notes: "A bare role NP can be the predicative complement of as or a complement of selected of or except."
+    notes: "A bare role NP can be the predicative complement of as or a complement of selected <i>of</i> or <i>except</i>."
   - id: np-indef-001
     relationship: alternates-with
-    notes: "Compare became co-captain and became a co-captain. Both can ascribe the same post."
+    notes: "Compare <i>became co-captain</i> and <i>became a co-captain</i>. Both can ascribe the same post."
   - id: np-def-001
     relationship: alternates-with
-    notes: "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
+    notes: "Compare <i>remained captain</i> and <i>remained our captain</i>. The determiner adds a relation to the speaker’s group. With <i>be</i>, <i>the captain</i> can also give a specifying reading."
   - id: specificational-copular-001
     relationship: related-to
-    notes: "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
+    notes: "Compare <i>Lee is secretary of the club</i> and <i>Lee is the secretary of the club</i>. The latter can answer <i>Who is the secretary?</i>"
   - id: supplementary-appositive-np-001
     relationship: related-to
-    notes: "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
+    notes: "<i>Wilson, Secretary to the Cabinet</i> shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
   - id: bare-institutional-use-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
+    notes: "Both license bare singular count NPs. Compare <i>remained treasurer</i> with <i>went to school</i>. The licensed slots and interpretations differ."
   - id: matched-bare-endpoints-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
+    notes: "Role nouns can also occur bare as paired endpoints, as in <i>from teacher to pupil</i>. The pairing licenses a source–goal interpretation."
   - id: vocative-001
     relationship: related-to
-    notes: "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
+    notes: "Compare <i>Chair, may I respond?</i> with <i>Lee remained chair</i>. The role noun serves as a form of address in the first example and a predicative in the second."
   - id: strong-proper-name-001
     relationship: overlaps-with
     overlap-dimension: formal
-    notes: "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for treasurer and a household for Mom. Function distinguishes them: a bare role NP is predicative or in a licensed frame (Lee remained treasurer), while a strong proper name is a referential argument (Mom called; compare CGEL’s ∗I’m told treasurer strongly supports this proposal, p. 409). Inserting the keeps the ascription in Henry became the treasurer (p. 409) but loses the name in The mom called (constructed). A role form used as a standing name independently licenses referential argument uses."
+    notes: "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for <i>treasurer</i> and a household for <i>Mom</i>. Function distinguishes them: a bare role NP is predicative or in a licensed frame (<i>Lee remained treasurer</i>), while a strong proper name is a referential argument (<i>Mom called</i>; compare CGEL’s ∗<i>I’m told treasurer strongly supports this proposal</i>, p. 409). Inserting <i>the</i> keeps the ascription in <i>Henry became the treasurer</i> (p. 409) but loses the name in <i>The mom called</i> (constructed). A role form used as a standing name independently licenses referential argument uses."
 grounds:
   - source: cgel-2002
     locator: "Ch. 4 §5.1 [5]; Ch. 5 §8.5 [19], p. 409; Ch. 7, pp. 637–638, predicative complements of as; Ch. 15 §5, [22ii]"
@@ -125,21 +125,21 @@ grounds:
     locator: "2026-11-19"
     relation: adjudicates
     bears-on: category-assignment
-    note: "Kin nouns in relational predicatives (father of the student) are instances of meaning 3; kin terms used as names (Dad called) are not, and belong to strong-proper-name-001."
+    note: "Kin nouns in relational predicatives (<i>father of the student</i>) are instances of meaning 3; kin terms used as names (<i>Dad called</i>) are not, and belong to strong-proper-name-001."
   - source: schneider-homans-1955
     locator: "p. 1203"
     relation: discusses
     bears-on: projection
-    note: "An aunt who raises a child in a maternal role isn't thereby called mother: the role and the designation come apart."
+    note: "An aunt who raises a child in a maternal role isn't thereby called <i>mother</i>: the role and the designation come apart."
 kind:
   provisional: true
   boundaries:
     known_boundary_items:
-      - "Dad called, but Sam answered (constructed). Dad identifies a person as subject when the family uses it as a name: an instance of strong-proper-name-001, not of this construction."
-      - "Captain called, said of Lee, a former captain the team still calls Captain, while Sam holds the post (constructed). Captain identifies Lee, the captain identifies Sam, and Lee is captain is false: the designation outlasts the tenure, so the referential use belongs to strong-proper-name-001, not to this construction."
+      - "<i>Dad called, but Sam answered</i> (constructed). <i>Dad</i> identifies a person as subject when the family uses it as a name: an instance of strong-proper-name-001, not of this construction."
+      - "<i>Captain called</i>, said of Lee, a former captain the team still calls <i>Captain</i>, while Sam holds the post (constructed). <i>Captain</i> identifies Lee, <i>the captain</i> identifies Sam, and <i>Lee is captain</i> is false: the designation outlasts the tenure, so the referential use belongs to strong-proper-name-001, not to this construction."
   projection:
-    target: "In ordinary standard English, with a reading that ascribes an assignment or gives its content, a nominal such as treasurer can remain bare in She stayed treasurer, They appointed her treasurer, and As treasurer, she signed. Reuse as a stand-alone referential object, as in They questioned the treasurer, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
-    evidence: "CGEL compares the same noun in predicative and object positions and documents the prepositional and supplementary uses. The Arizona State report documents shared tenure. Whether a counterpart with the preserves the bare reading depends on the frame and context."
+    target: "In ordinary standard English, with a reading that ascribes an assignment or gives its content, a nominal such as <i>treasurer</i> can remain bare in <i>She stayed treasurer</i>, <i>They appointed her treasurer</i>, and <i>As treasurer, she signed</i>. Reuse as a stand-alone referential object, as in <i>They questioned the treasurer</i>, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
+    evidence: "CGEL compares the same noun in predicative and object positions and documents the prepositional and supplementary uses. The Arizona State report documents shared tenure. Whether a counterpart with <i>the</i> preserves the bare reading depends on the frame and context."
     confidence: high
 semanticRefs:
   - role

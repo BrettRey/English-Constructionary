@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Uses a fronted complement to link the clause to something evoked in the discourse.
-    details: In the muffin example the fronted NP occupies the position interpreted as the object of give. A contrast or a set of alternatives can make the link available without repeating the same words. A fronted adjunct can introduce a new setting with no prior link, and left dislocation instead leaves an overt expression in the nucleus.
+    details: In the muffin example the fronted NP occupies the position interpreted as the object of <i>give</i>. A contrast or a set of alternatives can make the link available without repeating the same words. A fronted adjunct can introduce a new setting with no prior link, and left dislocation instead leaves an overt expression in the nucleus.
     examples:
       - form: '[A bran muffin I can give you.]'
         note: The server has just said that the bagels are sold out. The muffins are an available alternative.

@@ -14,7 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: locative-location-variant-001
     relationship: alternates-with
-    notes: In sprayed paint onto the panel the material is the object. In sprayed the panel with paint the location is the object. The alternation depends on the verb and sense.
+    notes: In <i>sprayed paint onto the panel</i> the material is the object. In <i>sprayed the panel with paint</i> the location is the object. The alternation depends on the verb and sense.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §8.3.1
@@ -27,6 +27,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: What was sprayed? can ask about the material. The goal need not be understood as comprehensively affected, unlike the customary implication of the corresponding location-object variant.
+    target: <i>What was sprayed?</i> can ask about the material. The goal need not be understood as comprehensively affected, unlike the customary implication of the corresponding location-object variant.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

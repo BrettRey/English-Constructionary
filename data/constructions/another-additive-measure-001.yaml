@@ -1,5 +1,5 @@
 id: another-additive-measure-001
-name: Additive Another before a Measure or Cardinal
+name: "Additive <i>another</i> before a Measure or Cardinal"
 pattern: NP[another + cardinal or measure expression + nominal]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The added quantity can be plural, even though ordinary another with no intervening quantifier selects a singular count nominal. The example adds days rather than replacing the prior period.
+    target: The added quantity can be plural, even though ordinary <i>another</i> with no intervening quantifier selects a singular count nominal. The example adds days rather than replacing the prior period.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

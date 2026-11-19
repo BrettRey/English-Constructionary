@@ -11,18 +11,18 @@ dimensions:
 meanings:
   '1':
     definition: A VP contains a locative complement bearing the source role, marking the initial location of motion or change
-    details: "Source is a semantic role, while locative complement is the CGEL syntactic function. Source complements are generally headed by from, away, off, or out. From takes an NP or locative-PP complement; the inner PP in from under the bed expresses the source location and is not another source complement. Away occurs alone or with a from-PP complement; off occurs alone or with an NP object; out occurs alone or with an of- or from-PP complement (CGEL pp. 257–59, 687)."
+    details: "Source is a semantic role, while locative complement is the CGEL syntactic function. Source complements are generally headed by <i>from</i>, <i>away</i>, <i>off</i>, or <i>out</i>. <i>From</i> takes an NP or locative-PP complement; the inner PP in <i>from under the bed</i> expresses the source location and is not another source complement. <i>Away</i> occurs alone or with a <i>from</i>-PP complement; <i>off</i> occurs alone or with an NP object; <i>out</i> occurs alone or with an <i>of</i>- or <i>from</i>-PP complement (CGEL pp. 257–59, 687)."
     examples:
       - form: "She came [from Toronto]."
-        note: From-PP in source-role locative-complement function
+        note: "<i>From</i>-PP in source-role locative-complement function"
       - form: "Ed emerged [from [under the car]]."
-        note: "The whole from-PP is the source-role locative complement; the inner PP expresses the source location"
+        note: "The whole <i>from</i>-PP is the source-role locative complement; the inner PP expresses the source location"
       - form: "She walked [away]."
-        note: Complementless away-PP bearing the source role
+        note: Complementless <i>away</i>-PP bearing the source role
       - form: "Kim jumped [off the pier]."
-        note: Off-PP bearing the source role
+        note: "<i>Off</i>-PP bearing the source role"
       - form: "He came [out of the room]."
-        note: Out-PP bearing the source role
+        note: "<i>Out</i>-PP bearing the source role"
       - form: "They flew [from Toronto] [to Ottawa]."
         note: Source- and goal-role locative complements co-occurring
 constraints:
@@ -33,7 +33,7 @@ constraints:
 kind:
   provisional: true
   projection:
-    target: "In their central motion uses, integrated locative PPs headed by from, away, off, or out predict an initial-location construal, head-specific complementation, and compatibility with a separate goal-role complement"
+    target: "In their central motion uses, integrated locative PPs headed by <i>from</i>, <i>away</i>, <i>off</i>, or <i>out</i> predict an initial-location construal, head-specific complementation, and compatibility with a separate goal-role complement"
     evidence: "CGEL gives the four-head realization inventory and its distinct complement patterns on p. 687; spatial, state, and possession examples distinguish initial-location source from final-location goal on pp. 258–60"
     confidence: medium
     grounds:
@@ -54,17 +54,17 @@ kind:
         diagnostics: ["initial-location interpretation", "integration in a motion or change frame"]
         weight: high
       - property: Overt source marking
-        diagnostics: ["from, away, off, or out as PP head", "head-specific object or PP complementation"]
+        diagnostics: ["<i>from</i>, <i>away</i>, <i>off</i>, or <i>out</i> as PP head", "head-specific object or PP complementation"]
         weight: high
     peripheral:
       - property: Source-goal co-occurrence
-        diagnostics: ["from Toronto to Ottawa", "from bad to worse"]
+        diagnostics: ["<i>from Toronto to Ottawa</i>", "<i>from bad to worse</i>"]
         weight: medium
   boundaries:
     known_boundary_items:
-      - "Away from can express retrospective direction, and off has restricted goal uses; the containing event distinguishes these from the central source uses"
-      - "path or route complements such as through the tunnel and via Chicago instantiate the distinct path-complement construction"
-      - "derivational sources such as made from grapes: extension beyond literal motion"
+      - "<i>Away from</i> can express retrospective direction, and <i>off</i> has restricted goal uses; the containing event distinguishes these from the central source uses"
+      - "path or route complements such as <i>through the tunnel</i> and <i>via Chicago</i> instantiate the distinct path-complement construction"
+      - "derivational sources such as <i>made from grapes</i>: extension beyond literal motion"
   grain:
     level: meso
     parent_families:
@@ -77,7 +77,7 @@ relatedConstructions:
   - id: pp-001
     relationship: contains
     parthood: formal
-    notes: The source-role locative complement is a PP headed centrally by from, away, off, or out
+    notes: The source-role locative complement is a PP headed centrally by <i>from</i>, <i>away</i>, <i>off</i>, or <i>out</i>
 lexiconRefs:
   - gold/prepositions
 grounds:

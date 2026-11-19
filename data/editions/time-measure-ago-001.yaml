@@ -4,12 +4,12 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Four days ago
-  summary: A length of time followed by ago tells you how far back something happened.
+  title: <i>Four days ago</i>
+  summary: A length of time followed by <i>ago</i> tells you how far back something happened.
   body: |-
-    In The review arrived four days ago, the phrase four days ago measures backwards from the time of speaking. You can paraphrase it as four days before now.
+    In <i>The review arrived four days ago</i>, the phrase <i>four days ago</i> measures backwards from the time of speaking. You can paraphrase it as <i>four days before now</i>.
 
-    The measure comes before ago, as in four days ago. This is different from before, which is followed by the point it refers back to, as in before Monday. A related pattern, since Monday, gives the start of a stretch of time instead.
+    The measure comes before <i>ago</i>, as in <i>four days ago</i>. This is different from <i>before</i>, which is followed by the point it refers back to, as in <i>before Monday</i>. A related pattern, <i>since Monday</i>, gives the start of a stretch of time instead.
 
     This dictionary marks the analysis as provisional.
   examples:
@@ -17,11 +17,11 @@ curious:
       from: entry
     - text: My bike broke [two days ago].
       from: constructed
-  try: Pick something that happened this week. Say how long ago it was using a number and ago.
+  try: Pick something that happened this week. Say how long ago it was using a number and <i>ago</i>.
 teacher:
-  summary: Useful for explaining how ago works with a measure phrase to count backwards from now.
-  explain: The pattern is a PP made of a measure NP and ago. It locates an event or point by measuring backwards from the relevant deictic time, so four days ago paraphrases four days before now. Ago normally takes its measure before it. By contrast, temporal before takes a reference complement after it. Since Monday gives the start of an interval, whereas four days ago locates an event relative to the deictic time. This dictionary treats the analysis as provisional.
-  terms: This dictionary treats the whole of four days ago as a PP.
+  summary: Useful for explaining how <i>ago</i> works with a measure phrase to count backwards from now.
+  explain: The pattern is a PP made of a measure NP and <i>ago</i>. It locates an event or point by measuring backwards from the relevant deictic time, so <i>four days ago</i> paraphrases <i>four days before now</i>. <i>Ago</i> normally takes its measure before it. By contrast, temporal <i>before</i> takes a reference complement after it. <i>Since Monday</i> gives the start of an interval, whereas <i>four days ago</i> locates an event relative to the deictic time. This dictionary treats the analysis as provisional.
+  terms: This dictionary treats the whole of <i>four days ago</i> as a PP.
   examples:
     - text: The review arrived [four days ago].
       from: entry
@@ -36,20 +36,20 @@ teacher:
       note: Gives the start of an interval.
     - text: before Monday
       from: constructed
-      note: Temporal before takes a reference complement after it.
+      note: Temporal <i>before</i> takes a reference complement after it.
   watch_for:
-    - A learner might read ago as a word that comes first and takes a point of reference, like before.
-    - A learner might think since Monday and four days ago do the same thing.
-  activity: Students put events on a timeline from today. For each, they write one sentence with a number and ago, and another with since or before and a named day.
+    - A learner might read <i>ago</i> as a word that comes first and takes a point of reference, like <i>before</i>.
+    - A learner might think <i>since Monday</i> and <i>four days ago</i> do the same thing.
+  activity: Students put events on a timeline from today. For each, they write one sentence with a number and <i>ago</i>, and another with <i>since</i> or <i>before</i> and a named day.
 child:
   hook: How long ago did you last eat?
-  explain: Ago counts backwards from now. Four days ago means four days before now. The time measure goes before ago.
+  explain: <i>Ago</i> counts backwards from now. <i>Four days ago</i> means <i>four days before now</i>. The time measure goes before <i>ago</i>.
   examples:
     - text: The review arrived [four days ago].
       from: entry
     - text: My bike broke [two days ago].
       from: constructed
-  play: Say something that happened today, yesterday and last week using ago. Count backwards from now with a friend.
+  play: Say something that happened today, yesterday and last week using <i>ago</i>. Count backwards from now with a friend.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

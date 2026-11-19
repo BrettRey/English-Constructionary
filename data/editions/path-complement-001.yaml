@@ -7,9 +7,9 @@ curious:
   title: Naming the route of a journey
   summary: Some verbs of moving are followed by a phrase that says which way the traveller went, without saying where the journey started or ended.
   body: |-
-    In She came via the bridge, the phrase via the bridge tells us the route. It names a place along the way, not the starting point or the destination. In They strolled along the castle wall, the same thing happens: we learn the route and nothing about where the stroll ended.
+    In <i>She came via the bridge</i>, the phrase <i>via the bridge</i> tells us the route. It names a place along the way, not the starting point or the destination. In <i>They strolled along the castle wall</i>, the same thing happens: we learn the route and nothing about where the stroll ended.
 
-    This dictionary calls that role the path. A route phrase can sit in the same sentence as a starting point and a destination, as in They walked from the station up the hill to the new Civic Centre, where up the hill is the middle stretch. Via and along are strongly tied to routes, but a phrase starting with across, through or up can name a place, a starting point or a destination instead, depending on the sentence.
+    This dictionary calls that role the path. A route phrase can sit in the same sentence as a starting point and a destination, as in <i>They walked from the station up the hill to the new Civic Centre</i>, where <i>up the hill</i> is the middle stretch. <i>Via</i> and <i>along</i> are strongly tied to routes, but a phrase starting with <i>across</i>, <i>through</i> or <i>up</i> can name a place, a starting point or a destination instead, depending on the sentence.
   examples:
     - text: She [came via the bridge].
       from: entry
@@ -20,7 +20,7 @@ curious:
   try: Think of a trip you made. Which words in your sentence name the route, and which name where you started or finished?
 teacher:
   summary: Helps students tell route phrases (path) from starting-point and destination phrases after verbs of motion.
-  explain: 'In a motion VP, a PP in locative-complement function can bear the semantic role path: the route or intermediate location the moving thing traverses. Path is a role; locative complement is the syntactic function. Via marks path in its central spatial use, and along is strongly path-associated. PPs with across, through or up can instead express location, source or goal. A path complement normally leaves the motion unbounded, so it permits a for-duration phrase; a reading that also bounds the event can license an in-duration phrase. Source, path and goal can all appear in one VP, with no fixed surface order. A path complement is part of the VP, unlike a location adjunct, and it falls within do so scope.'
+  explain: 'In a motion VP, a PP in locative-complement function can bear the semantic role path: the route or intermediate location the moving thing traverses. Path is a role; locative complement is the syntactic function. <i>Via</i> marks path in its central spatial use, and <i>along</i> is strongly path-associated. PPs with <i>across</i>, <i>through</i> or <i>up</i> can instead express location, source or goal. A path complement normally leaves the motion unbounded, so it permits a for-duration phrase; a reading that also bounds the event can license an in-duration phrase. Source, path and goal can all appear in one VP, with no fixed surface order. A path complement is part of the VP, unlike a location adjunct, and it falls within <i>do so</i> scope.'
   terms: Textbooks sometimes group these with adverbials of place or direction. In this grammar, path is a semantic role and locative complement is the syntactic function.
   examples:
     - text: She [came via the bridge].
@@ -37,8 +37,8 @@ teacher:
       from: constructed
       note: An in-duration phrase selects a reading where the end of the forest is reached, so the PP also supplies a goal.
   watch_for:
-    - A learner might read every PP after a motion verb as the destination, when up the hill in the station-to-Civic-Centre example names the middle of the journey.
-    - A learner might assume across or through marks a route every time, though they can also express location, source or goal.
+    - A learner might read every PP after a motion verb as the destination, when <i>up the hill</i> in the station-to-Civic-Centre example names the middle of the journey.
+    - A learner might assume <i>across</i> or <i>through</i> marks a route every time, though they can also express location, source or goal.
   activity: Give pairs a short map with a start, a destination and two landmarks. Each pair writes one sentence naming the route only, then one adding the start and the destination. They underline the phrase that names the route.
 checked:
   date: '2026-11-19'

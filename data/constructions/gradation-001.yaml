@@ -40,7 +40,7 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "Positive tall relies on a contextually set standard. Six feet tall can place someone on the scale without settling whether they count as tall for a basketball player."
+    target: "Positive <i>tall</i> relies on a contextually set standard. <i>Six feet tall</i> can place someone on the scale without settling whether they count as tall for a basketball player."
     evidence: "CGEL distinguishes scalar comparison and standards from positive-grade property ascription."
     confidence: medium
 relatedConstructions:

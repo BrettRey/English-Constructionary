@@ -7,9 +7,9 @@ curious:
   title: Introducing someone with two names
   summary: Saying someone's name, pausing, then naming or describing someone else can introduce that second person or thing to the first.
   body: |-
-    A volunteer at an animal shelter says Alex, Teacup. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.
+    A volunteer at an animal shelter says <i>Alex, Teacup</i>. Alex is the person being spoken to, and Teacup is the kitten being pointed out. A pause separates the two phrases, and pointing or looking helps show who's being introduced.
 
-    There's no verb, and none is needed. The second phrase can be a name, as in Elise, Casey, or a description, as in Alex, the new vet. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.
+    There's no verb, and none is needed. The second phrase can be a name, as in <i>Elise, Casey</i>, or a description, as in <i>Alex, the new vet</i>. This dictionary describes the first phrase as addressing someone and the second as identifying who is being introduced.
   examples:
     - text: '[Alex, Teacup.]'
       from: entry

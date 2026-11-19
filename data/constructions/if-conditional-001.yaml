@@ -1,5 +1,5 @@
 id: if-conditional-001
-name: Open and Remote If-Conditionals
+name: "Open and Remote <i>if</i>-Conditionals"
 pattern: Clause with an adjunct PP[if + finite declarative clause]
 type: mixed
 meanings:
@@ -15,7 +15,7 @@ meanings:
             relation: attests
             bears-on: attestation
       - form: '[If he took the later plane tonight he wouldn’t have to rush.]'
-        note: Remote counterpart. Tonight keeps the condition in the future.
+        note: Remote counterpart. <i>Tonight</i> keeps the condition in the future.
         grounds:
           - source: cgel-2002
             locator: Ch. 3 §1.7 [29ii]
@@ -30,7 +30,7 @@ relatedConstructions:
     notes: A regular preterite can mark remoteness as well as past time.
   - id: closed-interrogative-clause-001
     relationship: related-to
-    notes: A separate use of if introduces an embedded yes/no question.
+    notes: A separate use of <i>if</i> introduces an embedded yes/no question.
 grounds:
   - source: casa-constructicon
     locator: records 148–150
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: A preterite form in a remote if-clause can describe the same future time as the corresponding present in an open conditional. Remoteness can be marked without asserting that the condition is false.
+    target: A preterite form in a remote <i>if</i>-clause can describe the same future time as the corresponding present in an open conditional. Remoteness can be marked without asserting that the condition is false.
     evidence: CGEL provides matched forms and separates the interpretation from context-dependent implicatures. CASA groups the open and remote variants in three records.
     confidence: high

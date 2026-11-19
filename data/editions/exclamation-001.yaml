@@ -7,9 +7,9 @@ curious:
   title: Short bursts of strong feeling
   summary: An exclamation is an utterance that expresses strong feeling, and the way it's said is part of what makes it one.
   body: |-
-    Ouch! is the clearest exclamation. It's a complete utterance on its own and it just expresses feeling. But the category is wider than that. What a lovely day! and A snake! can be exclamations too, and so can an ordinary-looking statement like That's amazing!
+    <i>Ouch</i>! is the clearest exclamation. It's a complete utterance on its own and it just expresses feeling. But the category is wider than that. <i>What a lovely day</i>! and <i>A snake</i>! can be exclamations too, and so can an ordinary-looking statement like <i>That's amazing</i>!
 
-    What these share is an exclamatory tone of voice and a heightened feeling. With Ouch! that is pure feeling; with the others it is directed at something. Take away the tone and the exclamation goes with it. The feeling also can't be argued with in the usual way: replying That's false doesn't target the feeling expressed. This dictionary treats exclamation as a pattern of use, and notes that the grammar book it draws on doesn't recognize it as one tidy class.
+    What these share is an exclamatory tone of voice and a heightened feeling. With <i>Ouch</i>! that is pure feeling; with the others it is directed at something. Take away the tone and the exclamation goes with it. The feeling also can't be argued with in the usual way: replying <i>That's false</i> doesn't target the feeling expressed. This dictionary treats exclamation as a pattern of use, and notes that the grammar book it draws on doesn't recognize it as one tidy class.
   examples:
     - text: '[Ouch]!'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[That''s amazing]!'
       from: entry
-  try: Say That's amazing in a flat voice, then say it as if you've just seen something astonishing. Which one is an exclamation?
+  try: Say <i>That's amazing</i> in a flat voice, then say it as if you've just seen something astonishing. Which one is an exclamation?
 teacher:
   summary: Helps separate exclamation (a use of language with a heightened-stance tone) from exclamative (a clause type).
-  explain: 'This dictionary offers a pragmatic profile, not a claim that CGEL recognizes a unified grammatical class; CGEL treats exclamation as structurally nebulous. Exclamation is an utterance-level force: heightened speaker stance with exclamatory prosody, complete on its own. Realizations vary. Interjections are the prototype, exclamative clauses are core, directive-ostensive NPs are prototypical members, vocatives qualify only as summons or calls, and a declarative joins through prosody alone (That''s amazing!). Keep three terms apart: exclamative is a clause type, exclamatory describes uses, exclamation is the force category. The stance isn''t at-issue, so it resists direct denial.'
-  terms: Interjection is the traditional name for words like Ouch. Exclamative clause is the clause type.
+  explain: 'This dictionary offers a pragmatic profile, not a claim that CGEL recognizes a unified grammatical class; CGEL treats exclamation as structurally nebulous. Exclamation is an utterance-level force: heightened speaker stance with exclamatory prosody, complete on its own. Realizations vary. Interjections are the prototype, exclamative clauses are core, directive-ostensive NPs are prototypical members, vocatives qualify only as summons or calls, and a declarative joins through prosody alone (<i>That''s amazing</i>!). Keep three terms apart: exclamative is a clause type, exclamatory describes uses, exclamation is the force category. The stance isn''t at-issue, so it resists direct denial.'
+  terms: Interjection is the traditional name for words like <i>Ouch</i>. Exclamative clause is the clause type.
   examples:
     - text: '[Ouch]!'
       from: entry
@@ -36,11 +36,11 @@ teacher:
   watch_for:
     - A learner might treat the exclamation mark as the whole test, when the core properties in this dictionary include exclamatory prosody.
     - A learner might use exclamation and exclamative as one word, though exclamative names a clause type and exclamation a use.
-    - A learner might expect That's false to answer the stance in That's amazing!, though the force resists direct denial.
-  activity: Students say That's amazing three ways (flat, bored, astonished) and vote on which are exclamations. Then they look at Ouch, What a lovely day and A snake, note that each is a complete utterance said with feeling, and note how differently they're built.
+    - A learner might expect <i>That's false</i> to answer the stance in <i>That's amazing</i>!, though the force resists direct denial.
+  activity: Students say <i>That's amazing</i> three ways (flat, bored, astonished) and vote on which are exclamations. Then they look at <i>Ouch</i>, <i>What a lovely day</i> and <i>A snake</i>, note that each is a complete utterance said with feeling, and note how differently they're built.
 child:
-  hook: How do you say That's amazing when you are really amazed?
-  explain: An exclamation shows a big feeling. How you say it matters. Ouch! and A snake! are exclamations. So is That's amazing! if you say it with feeling.
+  hook: How do you say <i>That's amazing</i> when you are really amazed?
+  explain: An exclamation shows a big feeling. How you say it matters. <i>Ouch</i>! and <i>A snake</i>! are exclamations. So is <i>That's amazing</i>! if you say it with feeling.
   examples:
     - text: '[Ouch]!'
       from: entry
@@ -48,7 +48,7 @@ child:
       from: entry
     - text: '[A snake]!'
       from: entry
-  play: Say That's amazing like a sleepy robot. Now say it like you just saw a rocket. Only one is an exclamation. Which?
+  play: Say <i>That's amazing</i> like a sleepy robot. Now say it like you just saw a rocket. Only one is an exclamation. Which?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

@@ -7,9 +7,9 @@ curious:
   title: Noun phrases that start with a pointing or counting word
   summary: Some noun phrases begin with a small word or phrase that tells us which one or how much.
   body: |-
-    In the new car, the word the points to a car we can pick out. In one new car, the word one counts it. In Ally's new car, Ally's does the same job, and in what size hat, the words what size ask about the hat.
+    In <i>the new car</i>, the word <i>the</i> points to a car we can pick out. In <i>one new car</i>, the word <i>one</i> counts it. In <i>Ally's new car</i>, <i>Ally's</i> does the same job, and in <i>what size hat</i>, the words <i>what size</i> ask about the hat.
 
-    The words that do this are all in the same slot in front of the rest of the phrase. Singular nouns like car generally need something there. Plural nouns and non-count nouns can sometimes go without it.
+    The words that do this are all in the same slot in front of the rest of the phrase. Singular nouns like <i>car</i> generally need something there. Plural nouns and non-count nouns can sometimes go without it.
   examples:
     - text: '[the new car]'
       from: entry
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[what size hat]'
       from: entry
-  try: Take the phrase new car and add different words at the front. How does the meaning change?
+  try: Take the phrase <i>new car</i> and add different words at the front. How does the meaning change?
 teacher:
-  summary: Shows that the determiner slot can be filled by different kinds of words and phrases, not only the and a.
-  explain: In a determined NP, a determiner function is filled in front of a nominal, and the NP is marked as definite or indefinite. The determiner can be realized by a determinative (the, one), by a genitive NP (Ally's), or by a plain NP in interrogatives (what size hat). Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless in some contexts. Following CGEL, determinative is a word category and determiner is a function. The dictionary marks this account as provisional.
-  terms: The and a are determinatives, often called articles. Ally's is a genitive NP, sometimes called a possessive. Determiner function is sometimes called determination.
+  summary: Shows that the determiner slot can be filled by different kinds of words and phrases, not only <i>the</i> and <i>a</i>.
+  explain: In a determined NP, a determiner function is filled in front of a nominal, and the NP is marked as definite or indefinite. The determiner can be realized by a determinative (<i>the</i>, <i>one</i>), by a genitive NP (<i>Ally's</i>), or by a plain NP in interrogatives (<i>what size hat</i>). Singular count nominals generally require determination; bare plural and non-count nominals can be determinerless in some contexts. Following CGEL, determinative is a word category and determiner is a function. The dictionary marks this account as provisional.
+  terms: <i>The</i> and <i>a</i> are determinatives, often called articles. <i>Ally's</i> is a genitive NP, sometimes called a possessive. Determiner function is sometimes called determination.
   examples:
     - text: '[the new car]'
       from: entry
@@ -34,9 +34,9 @@ teacher:
     - text: '[what size hat]'
       from: entry
   watch_for:
-    - A learner might think the only words that can fill this slot are the and a.
+    - A learner might think the only words that can fill this slot are <i>the</i> and <i>a</i>.
     - A learner might treat the position as a word class, when it's a function that different words and phrases can fill.
-  activity: Give students a nominal such as new car. They add as many different front-slot words as they can (the, one, Ally's, my), then sort them by kind.
+  activity: Give students a nominal such as <i>new car</i>. They add as many different front-slot words as they can (<i>the</i>, <i>one</i>, <i>Ally's</i>, <i>my</i>), then sort them by kind.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)

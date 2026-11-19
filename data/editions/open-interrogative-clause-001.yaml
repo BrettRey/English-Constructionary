@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Questions built around a question word
-  summary: Questions starting with a word like who, what or why typically ask for a missing piece of information, and word order depends on what the question word does.
+  summary: Questions starting with a word like <i>who</i>, <i>what</i> or <i>why</i> typically ask for a missing piece of information, and word order depends on what the question word does.
   body: |-
-    A question such as Who broke the window? asks for a missing piece, and the answer supplies it. The question word comes from the set who, whom, whose, which, what, when, where, why and how.
+    A question such as <i>Who broke the window?</i> asks for a missing piece, and the answer supplies it. The question word comes from the set <i>who</i>, <i>whom</i>, <i>whose</i>, <i>which</i>, <i>what</i>, <i>when</i>, <i>where</i>, <i>why</i> and <i>how</i>.
 
-    When the question word is the subject, as in Who broke the window?, the order stays as in a statement. When it's something else, as in Which report did Kim finish?, it is normally moved to the front, and in a main question like this one a helping verb comes before the subject. A question tucked inside a sentence, as in I know which report Kim finished, normally keeps the statement order. Not every such question is a real request: Why are you making such a fuss? can be a complaint.
+    When the question word is the subject, as in <i>Who broke the window?</i>, the order stays as in a statement. When it's something else, as in <i>Which report did Kim finish?</i>, it is normally moved to the front, and in a main question like this one a helping verb comes before the subject. A question tucked inside a sentence, as in <i>I know which report Kim finished</i>, normally keeps the statement order. Not every such question is a real request: <i>Why are you making such a fuss?</i> can be a complaint.
   examples:
     - text: '[Who broke the window?]'
       from: entry
@@ -19,10 +19,10 @@ curious:
       from: entry
     - text: '[Why are you making such a fuss?]'
       from: entry
-  try: Turn Kim finished the report into a question with which. Where does the helping verb go? Then put the question inside I know ... and see what changes.
+  try: Turn <i>Kim finished the report</i> into a question with <i>which</i>. Where does the helping verb go? Then put the question inside <i>I know ...</i> and see what changes.
 teacher:
   summary: Covers wh-questions, and how the role of the question word affects word order in main clauses, with subordinate clauses normally keeping subject-predicator order.
-  explain: 'An open interrogative is a headed clause marked by an interrogative phrase, characteristically asking for the value of a variable. If the interrogative phrase is the Subject, it keeps basic position and there''s no inversion (Who broke the window?). A non-subject interrogative phrase is normally fronted and triggers subject-auxiliary inversion in a main clause (Which report did Kim finish?). Subordinate open interrogatives normally keep Subject-Predicator order (I know which report Kim finished). A request for information is characteristic but not necessary: these clauses can also be rhetorical or convey indirect directives and evaluations. Reduced phrases such as Which one? aren''t instances of this clause type.'
+  explain: 'An open interrogative is a headed clause marked by an interrogative phrase, characteristically asking for the value of a variable. If the interrogative phrase is the Subject, it keeps basic position and there''s no inversion (<i>Who broke the window?</i>). A non-subject interrogative phrase is normally fronted and triggers subject-auxiliary inversion in a main clause (<i>Which report did Kim finish?</i>). Subordinate open interrogatives normally keep Subject-Predicator order (<i>I know which report Kim finished</i>). A request for information is characteristic but not necessary: these clauses can also be rhetorical or convey indirect directives and evaluations. Reduced phrases such as <i>Which one?</i> aren''t instances of this clause type.'
   terms: Wh-question is the traditional name; this dictionary's term is open interrogative. Subject-auxiliary inversion is the traditional name for the change in order.
   examples:
     - text: '[Who broke the window?]'
@@ -47,16 +47,16 @@ teacher:
     - A learner might carry the main-clause inverted order into a subordinate question, when subordinate clauses normally retain Subject-Predicator order.
     - A learner might invert the subject and a helping verb in a question whose question word is the subject, when an interrogative subject keeps its basic position.
     - A learner might take every such question as a request for information, when it can be rhetorical.
-  activity: Students turn statements such as Kim finished the report into questions with who, which and why. They sort the results by whether the question word is the subject, then embed each one after I know and compare the order.
+  activity: Students turn statements such as <i>Kim finished the report</i> into questions with <i>who</i>, <i>which</i> and <i>why</i>. They sort the results by whether the question word is the subject, then embed each one after <i>I know</i> and compare the order.
 child:
-  hook: Which words start a question, like who, what, where and why?
-  explain: Some questions start with a word like who, what, where or why. They usually ask for a missing piece, and the answer fills it in. Who broke the window? asks who did it.
+  hook: Which words start a question, like <i>who</i>, <i>what</i>, <i>where</i> and <i>why</i>?
+  explain: Some questions start with a word like <i>who</i>, <i>what</i>, <i>where</i> or <i>why</i>. They usually ask for a missing piece, and the answer fills it in. <i>Who broke the window?</i> asks who did it.
   examples:
     - text: '[Who broke the window?]'
       from: entry
     - text: '[Where did you put my shoes?]'
       from: constructed
-  play: Ask a friend a question with each of who, what, where, when and why. They answer with just the missing piece, like under the bed.
+  play: Ask a friend a question with each of <i>who</i>, <i>what</i>, <i>where</i>, <i>when</i> and <i>why</i>. They answer with just the missing piece, like <i>under the bed</i>.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags); claude-opus-5-5 (second round)

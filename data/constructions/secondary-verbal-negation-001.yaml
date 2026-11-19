@@ -4,7 +4,7 @@ pattern: "not + VP[secondary]"
 type: syntactic
 meanings:
   '1':
-    definition: Negates a non-finite or subjunctive clause without do-support
+    definition: Negates a non-finite or subjunctive clause without <i>do</i>-support
     examples:
       - form: "It is vital that he [not] be told."
         note: Subjunctive clause
@@ -16,14 +16,14 @@ meanings:
         note: Infinitival clause
 constraints:
   - type: syntactic
-    description: Not premodifies the secondary VP; do-support is unavailable.
+    description: <i>Not</i> premodifies the secondary VP; <i>do</i>-support is unavailable.
   - type: position
-    description: In to-infinitivals, not may appear before or after to (e.g., "for them to not smile").
+    description: In <i>to</i>-infinitivals, <i>not</i> may appear before or after <i>to</i> (e.g., "<i>for them to not smile</i>").
 relatedConstructions:
   - id: vp-001
     relationship: contains
     parthood: formal
-    notes: Secondary not premodifies the VP that heads the non-finite or subjunctive Clause
+    notes: Secondary <i>not</i> premodifies the VP that heads the non-finite or subjunctive Clause
   - id: clause-001
     relationship: interfaces-with
     notes: Secondary verbal negation applies within headed non-finite and subjunctive Clauses
@@ -39,6 +39,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "The negative to-infinitival in a plan not to leave and the mandative that Lee not leave both keep the following verb in the plain form without do. The corresponding finite declarative Lee did not leave uses do."
+    target: "The negative <i>to</i>-infinitival in <i>a plan not to leave</i> and the mandative <i>that Lee not leave</i> both keep the following verb in the plain form without <i>do</i>. The corresponding finite declarative <i>Lee did not leave</i> uses <i>do</i>."
     evidence: "CGEL treats these as secondary verbal negation and distinguishes them by form from primary negation."
     confidence: medium

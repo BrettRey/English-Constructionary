@@ -5,13 +5,13 @@ type: mixed
 meanings:
   '1':
     definition: Counts servings or other contextually standardized portions of a substance.
-    details: In two coffees in a café, the relevant units are servings. Their size and the containers used are supplied by the situation. Two of the same blend can satisfy the request.
+    details: In <i>two coffees</i> in a café, the relevant units are servings. Their size and the containers used are supplied by the situation. Two of the same blend can satisfy the request.
     examples:
       - form: Could we have [two coffees]?
         note: Constructed café example. Two portions can both be the same variety.
   '2':
     definition: Counts varieties of a substance.
-    details: In two coffees at a tasting the units can be varieties. One small sample of each variety would suffice. A later third serving of the first variety does not add to the number of varieties.
+    details: In <i>two coffees</i> at a tasting the units can be varieties. One small sample of each variety would suffice. A later third serving of the first variety does not add to the number of varieties.
     examples:
       - form: The roaster sells [two coffees] from that region.
         note: Constructed example foregrounding distinct varieties.
@@ -32,5 +32,5 @@ kind:
   provisional: true
   projection:
     target: With the same counted noun and cardinal, portion and variety readings have different counting units. Identical servings count separately in the portion reading.
-    evidence: FrameNet gives both readings with beer and treats them as two construals of a substance noun. The contrast adds an explicit constructional dependency to the existing non-count noun entry.
+    evidence: FrameNet gives both readings with <i>beer</i> and treats them as two construals of a substance noun. The contrast adds an explicit constructional dependency to the existing non-count noun entry.
     confidence: high

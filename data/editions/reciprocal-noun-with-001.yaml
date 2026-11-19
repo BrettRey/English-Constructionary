@@ -4,21 +4,21 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Friends with someone
-  summary: A plural noun like friends plus with can describe a two-way relationship, even when the sentence is about one person.
+  title: <i>Friends with someone</i>
+  summary: A plural noun like <i>friends</i> plus <i>with</i> can describe a two-way relationship, even when the sentence is about one person.
   body: |-
-    In I'm no longer friends with him, the subject I is one person, yet the noun is plural. That's because a friendship involves two sides: I supply one and with him supplies the other.
+    In <i>I'm no longer friends with him</i>, the subject <i>I</i> is one person, yet the noun is plural. That's because a friendship involves two sides: <i>I</i> supply one and <i>with him</i> supplies the other.
 
-    A modifier such as good can then describe the relationship itself: They are good friends with the president. This dictionary notes that on the reading where an adjective like powerful describes the people, this form fares poorly. Whether other relationship nouns work this way is left open. This dictionary marks the account as provisional.
+    A modifier such as <i>good</i> can then describe the relationship itself: <i>They are good friends with the president</i>. This dictionary notes that on the reading where an adjective like <i>powerful</i> describes the people, this form fares poorly. Whether other relationship nouns work this way is left open. This dictionary marks the account as provisional.
   examples:
     - text: I’m no longer [friends with him].
       from: entry
     - text: They are [good friends with the president].
       from: entry
-  try: Think of other relationship words, like partners or neighbours. Do they fit with someone in the same way?
+  try: Think of other relationship words, like <i>partners</i> or <i>neighbours</i>. Do they fit with someone in the same way?
 teacher:
-  summary: Explains a plural predicative noun with a with-phrase for reciprocal relationships, including with a singular subject.
-  explain: 'The pattern is a predicative NP with a plural noun and a with-phrase, where the predicand supplies one side of the relationship and the with-phrase the other. The predicative noun can be plural even with a singular subject (I''m no longer friends with him). A modifier can assess the relationship: good in good friends with the president can describe the friendship, whereas powerful friends with the president fares poorly on the reading where powerful describes the people. Extension to other relation nouns remains open. This dictionary marks the analysis provisional.'
+  summary: Explains a plural predicative noun with a <i>with</i>-phrase for reciprocal relationships, including with a singular subject.
+  explain: 'The pattern is a predicative NP with a plural noun and a <i>with</i>-phrase, where the predicand supplies one side of the relationship and the <i>with</i>-phrase the other. The predicative noun can be plural even with a singular subject (<i>I''m no longer friends with him</i>). A modifier can assess the relationship: <i>good</i> in <i>good friends with the president</i> can describe the friendship, whereas <i>powerful friends with the president</i> fares poorly on the reading where <i>powerful</i> describes the people. Extension to other relation nouns remains open. This dictionary marks the analysis provisional.'
   terms: The plural noun heads a predicative NP in this dictionary's analysis.
   examples:
     - text: I’m no longer [friends with him].
@@ -26,18 +26,18 @@ teacher:
     - text: They are [good friends with the president].
       from: entry
   watch_for:
-    - A learner might make friend singular after a singular subject.
-    - A learner might read good as describing the people rather than the relationship.
-  activity: Students write pairs such as Mia is friends with Tom, underline the two sides of the relationship, and say which part supplies each side.
+    - A learner might make <i>friend</i> singular after a singular subject.
+    - A learner might read <i>good</i> as describing the people rather than the relationship.
+  activity: Students write pairs such as <i>Mia is friends with Tom</i>, underline the two sides of the relationship, and say which part supplies each side.
 child:
-  hook: Why do we say friends when it's just one of you?
-  explain: A friendship has two sides. One side is the person the sentence is about. The other side comes after with.
+  hook: Why do we say <i>friends</i> when it's just one of you?
+  explain: A friendship has two sides. One side is the person the sentence is about. The other side comes after <i>with</i>.
   examples:
     - text: I’m no longer [friends with him].
       from: entry
     - text: Mia is [friends with Tom].
       from: constructed
-  play: Say who you're friends with using friends with and a name. Then try it with someone else.
+  play: Say who you're friends with using <i>friends with</i> and a name. Then try it with someone else.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

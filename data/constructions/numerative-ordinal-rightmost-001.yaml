@@ -12,16 +12,16 @@ meanings:
     definition: Ordinal morphology targets the rightmost simple base within a numerative
     examples:
       - form: twenty-fourth
-        note: Ordinal suffix on rightmost base (four)
+        note: Ordinal suffix on rightmost base (<i>four</i>)
       - form: two hundredth
-        note: Ordinal suffix on magnitude base (hundred)
+        note: Ordinal suffix on magnitude base (<i>hundred</i>)
       - form: twenty-second
-        note: Suppletive ordinal on rightmost base (two → second)
+        note: Suppletive ordinal on rightmost base (<i>two</i> → <i>second</i>)
 constraints:
   - type: structural
     description: Ordinal/fractional morphology selects the rightmost simple base in the numerative constituent.
   - type: morphological
-    description: Irregular bases (first/second/third) are lexically specified.
+    description: Irregular bases (<i>first</i>/<i>second</i>/<i>third</i>) are lexically specified.
 formRefs:
   - numerative-compound-basic
   - numerative-magnitude
@@ -45,6 +45,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In two hundred forty-second, the only overt ordinal form is the last part of the numerative, while the ordinal interpretation applies to the whole rank. Ordinalizing an earlier component cannot freely substitute for that realization."
+    target: "In <i>two hundred forty-second</i>, the only overt ordinal form is the last part of the numerative, while the ordinal interpretation applies to the whole rank. Ordinalizing an earlier component cannot freely substitute for that realization."
     evidence: "Reynolds uses the placement of ordinal morphology among the constituency tests, independently of spelling conventions."
     confidence: medium

@@ -5,7 +5,7 @@ type: mixed
 meanings:
   '1':
     definition: Invokes a conventional activity with a definite NP that need not identify a unique participant or object.
-    details: In take the bus, the transport activity can be understood without identifying which vehicle is involved. The same NP can identify a particular vehicle with a different predicate. The host and the noun both matter, and the activity frame may also allow an ordinary identifying reading in context.
+    details: In <i>take the bus</i>, the transport activity can be understood without identifying which vehicle is involved. The same NP can identify a particular vehicle with a different predicate. The host and the noun both matter, and the activity frame may also allow an ordinary identifying reading in context.
     examples:
       - form: We [took the bus].
         note: Conventional transport use. The NP sits inside the bracketed activity frame.

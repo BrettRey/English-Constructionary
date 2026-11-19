@@ -10,7 +10,7 @@ dimensions:
 meanings:
   '1':
     definition: Repeats all or part of a prior utterance to ask whether that is what the previous speaker said
-    details: "The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of Is he resigning? asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90)."
+    details: "The echo question is not a sixth clause type. Question is a semantic category applied as a stimulus-dependent layer while a clausal host preserves its grammatical type and a non-headed host remains non-headed. Its implicit propositional content concerns the prior speech act: an echo of <i>Is he resigning?</i> asks approximately whether the previous speaker asked that question, not whether he is resigning (CGEL pp. 853–54, 886–90)."
     examples:
       - form: "A: She is leaving on Saturday. B: [She is leaving on Saturday]?"
         note: Repetition echo with declarative clause type preserved
@@ -59,11 +59,11 @@ kind:
         diagnostics: ["imperative echo", "closed-interrogative echo", "declarative echo", "non-headed echo"]
         weight: high
       - property: Echo-specific variable placement
-        diagnostics: ["in-situ who/what phrase", "reduction of recoverable material"]
+        diagnostics: ["in-situ <i>who</i>/<i>what</i> phrase", "reduction of recoverable material"]
         weight: high
   boundaries:
     known_boundary_items:
-      - "Declarative questions such as They've finished? seek confirmation of a proposition using declarative syntax but need not echo a linguistic stimulus."
+      - "Declarative questions such as <i>They've finished?</i> seek confirmation of a proposition using declarative syntax but need not echo a linguistic stimulus."
       - "Ordinary open interrogatives are typed by an interrogative phrase and normally front a non-subject phrase; variable echoes preserve stimulus order."
   grain:
     level: meso

@@ -30,7 +30,7 @@ constraints:
   - type: semantic
     description: Rigidly designates a unique entity; reference is direct, not mediated by descriptive content.
   - type: structural
-    description: The non-numeral element (Room, Highway, etc.) functions as embellishment, not attributive modifier.
+    description: The non-numeral element (<i>Room</i>, <i>Highway</i>, etc.) functions as embellishment, not attributive modifier.
 semanticRefs:
   - identity
   - reference
@@ -47,7 +47,7 @@ relatedConstructions:
     relationship: related-to
   - id: year-name-001
     relationship: related-to
-    notes: "Reynolds treats 1066 in the year 1066 as an appositive (n. 10). A bare year such as 1066 can identify a calendar year on its own."
+    notes: "Reynolds treats <i>1066</i> in <i>the year 1066</i> as an appositive (n. 10). A bare year such as <i>1066</i> can identify a calendar year on its own."
 grounds:
   - source: reynolds-2026-numerals
     locator: "§5, cardinal nouns used as labels (§5.2 [7a–b] and nn. 9–10); §2, terminology"
@@ -57,19 +57,19 @@ grounds:
     locator: "Ch. 5 §20.2.2, pp. 518–519 [4v]; §20.3, p. 520"
     relation: discusses
     bears-on: category-assignment
-    note: "CGEL lists Ward 17 among composite heads and calls Ward a descriptor inside the name. Its embellishments are semantically non-restrictive dependents outside the name, and they include nominal and adjectival attributive modifiers. So CGEL doesn't contrast embellishment with attributive modifier, as the third constraint (from Reynolds 2026, n. 9) does."
+    note: "CGEL lists <i>Ward 17</i> among composite heads and calls <i>Ward</i> a descriptor inside the name. Its embellishments are semantically non-restrictive dependents outside the name, and they include nominal and adjectival attributive modifiers. So CGEL doesn't contrast embellishment with attributive modifier, as the third constraint (from Reynolds 2026, n. 9) does."
   - source: cornell-meeting-locations
     locator: Meeting Locations, Robert Purcell Community Center
     relation: attests
     bears-on: attestation
-    note: Lists Room 101 as the code for the TV Lounge.
+    note: Lists <i>Room 101</i> as the code for the TV Lounge.
 kind:
   provisional: true
   projection:
-    target: "In room six, six identifies a designated room in the labeling system. It does not say that six rooms are involved. Adding an external quantity in two Room Six signs can count the signs while leaving the label unchanged."
+    target: "In <i>room six</i>, <i>six</i> identifies a designated room in the labeling system. It does not say that six rooms are involved. Adding an external quantity in <i>two Room Six signs</i> can count the signs while leaving the label unchanged."
     evidence: "Reynolds includes label uses among cardinal proper-noun uses and distinguishes the label from count determination."
     confidence: medium
   boundaries:
     known_boundary_items:
-      - "In 20 Pheasant Street the number precedes the street name, unlike Room 101 and Flight 447."
-      - "Room 302A has the same naming function with a mixed code, as covered by the wider descriptor-plus-identifier entry."
+      - "In <i>20 Pheasant Street</i> the number precedes the street name, unlike <i>Room 101</i> and <i>Flight 447</i>."
+      - "<i>Room 302A</i> has the same naming function with a mixed code, as covered by the wider descriptor-plus-identifier entry."

@@ -5,10 +5,10 @@ type: mixed
 meanings:
   '1':
     definition: Identifies a person, thing, or quantity through the relation expressed inside the NP.
-    details: In what she wrote, the initial expression supplies both the nominal reference and a dependent of wrote. The resulting NP can denote written material. The same word sequence can form an embedded interrogative about the identity of that material. In subject position a plural fused relative licenses plural agreement, whereas a clausal subject takes default singular agreement.
+    details: In <i>what she wrote</i>, the initial expression supplies both the nominal reference and a dependent of <i>wrote</i>. The resulting NP can denote written material. The same word sequence can form an embedded interrogative about the identity of that material. In subject position a plural fused relative licenses plural agreement, whereas a clausal subject takes default singular agreement.
     examples:
       - form: I really liked [what she wrote].
-        note: Fused relative contrasted with the interrogative after wonder.
+        note: Fused relative contrasted with the interrogative after <i>wonder</i>.
         grounds:
           - source: cgel-2002
             locator: Ch. 12 §6.2 [11i–ii]

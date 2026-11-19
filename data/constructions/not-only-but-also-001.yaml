@@ -1,5 +1,5 @@
 id: not-only-but-also-001
-name: Additive Not Only and But Also
+name: "Additive <i>not only … but also</i>"
 pattern: coordination[not only XP + but (also) XP]
 type: mixed
 meanings:
@@ -22,6 +22,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The first contribution is included despite the overt not. Preposing not only plus a constituent can trigger inversion when the first coordinate is a clause.
+    target: The first contribution is included despite the overt <i>not</i>. Preposing <i>not only</i> plus a constituent can trigger inversion when the first coordinate is a clause.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

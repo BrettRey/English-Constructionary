@@ -5,13 +5,13 @@ type: syntactic
 meanings:
   '1':
     definition: A demonstrative determinative realizes fused determiner-head function in an NP and refers deictically to a salient entity or situation
-    details: CGEL treats this, that, these, and those as determinatives; independent NP use does not reclassify them as pronouns.
+    details: CGEL treats <i>this</i>, <i>that</i>, <i>these</i>, and <i>those</i> as determinatives; independent NP use does not reclassify them as pronouns.
     examples:
       - form: "[That] is incredible!"
-        note: That is a demonstrative determinative in fused determiner-head function, referring to the current situation.
+        note: <i>That</i> is a demonstrative determinative in fused determiner-head function, referring to the current situation.
 constraints:
   - type: syntactic
-    description: The fused determiner-head must be realized by this, that, these, or those.
+    description: The fused determiner-head must be realized by <i>this</i>, <i>that</i>, <i>these</i>, or <i>those</i>.
 semanticType: reference
 relatedConstructions:
   - id: fused-determiner-head-001
@@ -32,6 +32,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "That can be an entire NP subject in That is strange. In That plan is strange, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated."
+    target: "<i>That</i> can be an entire NP subject in <i>That is strange</i>. In <i>That plan is strange</i>, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated."
     evidence: "CGEL treats the two syntactic realizations separately and documents discourse-deictic demonstratives."
     confidence: medium

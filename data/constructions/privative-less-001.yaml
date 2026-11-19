@@ -1,5 +1,5 @@
 id: privative-less-001
-name: Privative Adjective in -Less
+name: "Privative Adjective in <i>-less</i>"
 pattern: Adj[noun base + -less]
 type: morphological
 meanings:
@@ -20,6 +20,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: The default interpretation is a room with no windows. Context and lexicalization can supply an evaluative reading, as with careless, rather than literal absence alone.
+    target: The default interpretation is a room with no windows. Context and lexicalization can supply an evaluative reading, as with <i>careless</i>, rather than literal absence alone.
     evidence: See the cited discussion and the constructed illustration.
     confidence: medium

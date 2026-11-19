@@ -4,22 +4,22 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: When that can be left out
-  summary: The part of a sentence that gives what someone believes or says can be introduced by that, which is sometimes optional and sometimes required.
+  title: When <i>that</i> can be left out
+  summary: The part of a sentence that gives what someone believes or says can be introduced by <i>that</i>, which is sometimes optional and sometimes required.
   body: |-
-    In I believe they were lying, the part they were lying gives the content of the belief, inside a larger sentence. The word that can introduce it: I believe that they were lying. After a verb like believe, that can be left out.
+    In <i>I believe they were lying</i>, the part <i>they were lying</i> gives the content of the belief, inside a larger sentence. The word <i>that</i> can introduce it: <i>I believe that they were lying</i>. After a verb like <i>believe</i>, <i>that</i> can be left out.
 
-    It isn't always optional. When that part comes first as the subject of an ordinary, fully expressed sentence, as in That they were lying is now quite obvious, the sentence requires that. Whether the content is reported, taken for granted or questioned depends on the larger sentence around it. This dictionary treats the analysis as provisional.
+    It isn't always optional. When that part comes first as the subject of an ordinary, fully expressed sentence, as in <i>That they were lying is now quite obvious</i>, the sentence requires <i>that</i>. Whether the content is reported, taken for granted or questioned depends on the larger sentence around it. This dictionary treats the analysis as provisional.
   examples:
     - text: '[That they were lying] is now quite obvious.'
       from: entry
     - text: I believe [(that) they were lying].
       from: entry
-  try: Take a sentence like I believe they were lying. Add that after believe. Does it still work? Now compare That they were lying is now quite obvious, where that is required.
+  try: Take a sentence like <i>I believe they were lying</i>. Add <i>that</i> after <i>believe</i>. Does it still work? Now compare <i>That they were lying is now quite obvious</i>, where <i>that</i> is required.
 teacher:
-  summary: Helps explain when that is optional or required before a declarative content clause.
-  explain: 'A declarative content clause is a subordinate clause, optionally introduced by that, that presents propositional content as part of a larger construction. That can be optional after a verb such as say or believe, and in subject extraposition. It is required in ordinary fully expressed initial clausal subjects: That they were lying is now quite obvious. Whether the proposition is reported, presupposed or questioned depends on the matrix construction. The subordinate clause preserves declarative order. Don''t confuse it with a relative clause: in Jo said that Kai read it the content clause has its own object, while in the book that Kai read the relative links an object gap to book.'
-  terms: Traditional grammars may call these that-clauses or noun clauses. This dictionary calls them declarative content clauses.
+  summary: Helps explain when <i>that</i> is optional or required before a declarative content clause.
+  explain: 'A declarative content clause is a subordinate clause, optionally introduced by <i>that</i>, that presents propositional content as part of a larger construction. <i>That</i> can be optional after a verb such as <i>say</i> or <i>believe</i>, and in subject extraposition. It is required in ordinary fully expressed initial clausal subjects: <i>That they were lying is now quite obvious</i>. Whether the proposition is reported, presupposed or questioned depends on the matrix construction. The subordinate clause preserves declarative order. Don''t confuse it with a relative clause: in <i>Jo said that Kai read it</i> the content clause has its own object, while in <i>the book that Kai read</i> the relative links an object gap to <i>book</i>.'
+  terms: Traditional grammars may call these <i>that</i>-clauses or noun clauses. This dictionary calls them declarative content clauses.
   examples:
     - text: '[That they were lying] is now quite obvious.'
       from: entry
@@ -28,17 +28,17 @@ teacher:
   contrasts:
     - text: I believe that they were lying.
       from: constructed
-      note: That introduces the content clause after a verb.
+      note: "<i>That</i> introduces the content clause after a verb."
     - text: Jo said that Kai read it.
       from: entry
       note: Content clause with its own object.
     - text: the book that Kai read
       from: entry
-      note: Relative clause linked to book through an object gap.
+      note: Relative clause linked to <i>book</i> through an object gap.
   watch_for:
-    - A learner might assume that can be dropped in every position, when it is required in an ordinary initial clausal subject.
-    - A learner might treat that as the same in Jo said that Kai read it and the book that Kai read, when one introduces a content clause and the other a relative.
-  activity: Give students matrix verbs (say, believe, know) and a short statement. They build sentences with and without that, then try the statement as the subject at the start, noting where that must stay.
+    - A learner might assume <i>that</i> can be dropped in every position, when it is required in an ordinary initial clausal subject.
+    - A learner might treat <i>that</i> as the same in <i>Jo said that Kai read it</i> and <i>the book that Kai read</i>, when one introduces a content clause and the other a relative.
+  activity: Give students matrix verbs (<i>say</i>, <i>believe</i>, <i>know</i>) and a short statement. They build sentences with and without <i>that</i>, then try the statement as the subject at the start, noting where <i>that</i> must stay.
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

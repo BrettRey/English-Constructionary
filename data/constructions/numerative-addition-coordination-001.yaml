@@ -1,5 +1,5 @@
 id: numerative-addition-coordination-001
-name: Numerative Addition Coordination (with and)
+name: "Numerative Addition Coordination (with <i>and</i>)"
 pattern: "[DP magnitude] + and + [DP/NP addition]"
 type: syntactic
 dimensions:
@@ -52,6 +52,6 @@ grounds:
 kind:
   provisional: true
   projection:
-    target: "In three hundred and seven, each of three hundred and seven can denote a number independently. The whole normally denotes their sum and does not treat seven as another multiplier of hundred."
+    target: "In <i>three hundred and seven</i>, each of <i>three hundred</i> and <i>seven</i> can denote a number independently. The whole normally denotes their sum and does not treat <i>seven</i> as another multiplier of <i>hundred</i>."
     evidence: "Reynolds treats additions as coordinates and separates their distribution from that of factors."
     confidence: medium

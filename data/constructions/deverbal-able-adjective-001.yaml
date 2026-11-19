@@ -1,16 +1,16 @@
 id: deverbal-able-adjective-001
-name: Deverbal Adjective in -able
+name: "Deverbal Adjective in <i>-able</i>"
 pattern: Adj[verb base + -able], with related forms in -ible
 type: mixed
 meanings:
   '1':
     definition: Characterizes a potential participant of an action by the possibility or suitability of that action.
-    details: Readable normally describes what people can read. The productive transitive pattern is therefore oriented to the base verb’s object. A prepositional verb can supply an oblique participant, as in dependable. Intransitive-base and lexicalized readings, such as perishable, extend beyond the central pattern.
+    details: "<i>Readable</i> normally describes what people can read. The productive transitive pattern is therefore oriented to the base verb’s object. A prepositional verb can supply an oblique participant, as in <i>dependable</i>. Intransitive-base and lexicalized readings, such as <i>perishable</i>, extend beyond the central pattern."
     examples:
       - form: The document is [searchable].
         note: Constructed example. The document is what one can search.
       - form: A [dependable] source is hard to find.
-        note: Constructed example with depend on as the relevant verb and preposition.
+        note: Constructed example with <i>depend on</i> as the relevant verb and preposition.
 relatedConstructions:
   - id: adjective-001
     relationship: specialization-of
@@ -20,13 +20,13 @@ relatedConstructions:
     notes: The central reading is typically paraphrasable with a modal passive.
   - id: dispositional-middle-001
     relationship: related-to
-    notes: Washable and This fabric washes well can describe suitability for washing. One derives an adjective and the other forms a clause with an active verb.
+    notes: "<i>Washable</i> and <i>This fabric washes well</i> can describe suitability for washing. One derives an adjective and the other forms a clause with an active verb."
 grounds:
   - source: casa-constructicon
     locator: record 156
     relation: discusses
     bears-on: projection
-    note: Registers the -able and -ible adjective family.
+    note: Registers the <i>-able</i> and <i>-ible</i> adjective family.
   - source: cgel-2002
     locator: Ch. 19 §5.8(b)
     relation: discusses
@@ -36,5 +36,5 @@ kind:
   provisional: true
   projection:
     target: For a new transparent formation with a transitive base, the default referent is what can undergo the action. Prepositional verbs can supply a different participant.
-    evidence: CASA registers the -able and -ible family. CGEL describes the productive modal use and records prefixed, oblique and other departures from it.
+    evidence: CASA registers the <i>-able</i> and <i>-ible</i> family. CGEL describes the productive modal use and records prefixed, oblique and other departures from it.
     confidence: high

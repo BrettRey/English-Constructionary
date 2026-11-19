@@ -11,10 +11,10 @@ dimensions:
 meanings:
   '1':
     definition: The subject participant causes the direct-object theme to undergo the change of location described by the locative complement
-    details: "The construction, not necessarily the verb's lexical valency, licenses the theme object and locative complement. In He sneezed his tooth right across town, sneeze supplies the causal event while the frame supplies the caused-motion relation. In CGEL terms, across town is an object-oriented locative complement with a path/goal construal, not an adjunct, a predicative complement, or a second object of the verb (CGEL pp. 257–59, 684–88; Goldberg 2006: 6, 33–35, 94, 98–100)."
+    details: "The construction, not necessarily the verb's lexical valency, licenses the theme object and locative complement. In <i>He sneezed his tooth right across town</i>, <i>sneeze</i> supplies the causal event while the frame supplies the caused-motion relation. In CGEL terms, <i>across town</i> is an object-oriented locative complement with a path/goal construal, not an adjunct, a predicative complement, or a second object of the verb (CGEL pp. 257–59, 684–88; Goldberg 2006: 6, 33–35, 94, 98–100)."
     examples:
       - form: "He sneezed [his tooth] [right across town]."
-        note: "Attested Munsch/Goldberg example with a path/goal construal; sneeze does not independently have a three-argument sense"
+        note: "Attested Munsch/Goldberg example with a path/goal construal; <i>sneeze</i> does not independently have a three-argument sense"
         grounds:
           - source: goldberg-2006
             locator: "pp. 6, 94"
@@ -28,7 +28,7 @@ constraints:
   - type: syntactic
     description: "The NP after the verb is Od; the following PP is an object-oriented locative complement, not a second object and not a locative adjunct."
   - type: semantic
-    description: "The external subject must be construable as the source of causal force; volition is not required, as sneeze and knock show."
+    description: "The external subject must be construable as the source of causal force; volition is not required, as <i>sneeze</i> and <i>knock</i> show."
   - type: semantic
     description: "The direct-object referent is construed as the moving theme, and the PP supplies source, path, goal, or direction. Static caused-location uses require a separate extension and are not included in this core pattern."
   - type: semantic
@@ -37,7 +37,7 @@ kind:
   provisional: true
   projection:
     target: "Recognizing the Head–Od–locative-complement frame predicts a causer subject, a moving-theme object, an object-oriented change-of-location PP, and a caused-motion reading even when the verb does not lexically license those dependents"
-    evidence: "Novel sneeze examples isolate constructional licensing (Goldberg 2006: 6, 94, 98–100); child-directed-speech results support predictive association between the form and caused-motion meaning (pp. 106–10); CGEL p. 684 treats change-of-location dependents as complements in motion frames"
+    evidence: "Novel <i>sneeze</i> examples isolate constructional licensing (Goldberg 2006: 6, 94, 98–100); child-directed-speech results support predictive association between the form and caused-motion meaning (pp. 106–10); CGEL p. 684 treats change-of-location dependents as complements in motion frames"
     confidence: high
     grounds:
       - source: goldberg-2006
@@ -57,10 +57,10 @@ kind:
         diagnostics: ["object orientation of following locative", "passive correspondence"]
         weight: high
       - property: Locative PP complement
-        diagnostics: ["included in do-so scope", "source, path, goal, or direction interpretation"]
+        diagnostics: ["included in <i>do</i>-<i>so</i> scope", "source, path, goal, or direction interpretation"]
         weight: high
       - property: Constructional causation
-        diagnostics: ["licensed with intransitive sneeze", "verb contributes manner or means rather than all valency"]
+        diagnostics: ["licensed with intransitive <i>sneeze</i>", "verb contributes manner or means rather than all valency"]
         weight: high
   boundaries:
     known_boundary_items:

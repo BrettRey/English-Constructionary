@@ -4,21 +4,21 @@ drafted:
   date: '2026-11-19'
   model: claude-sonnet-5-5
 curious:
-  title: Let everyone draw a ticket
-  summary: A sentence starting with let can state a wish or instruction about whoever the noun phrase after let refers to.
+  title: <i>Let everyone draw a ticket</i>
+  summary: A sentence starting with <i>let</i> can state a wish or instruction about whoever the noun phrase after <i>let</i> refers to.
   body: |-
-    Let everyone draw a ticket tells us what everyone is to do. The action is attributed to everyone, and the sentence doesn't need to be a request for permission from someone in charge.
+    <i>Let everyone draw a ticket</i> tells us what everyone is to do. The action is attributed to everyone, and the sentence doesn't need to be a request for permission from someone in charge.
 
-    It can state a wish, a rule or an instruction involving whoever the noun phrase after let refers to. This dictionary separates it from let's, which has a different person interpretation, and from the let that means giving permission.
+    It can state a wish, a rule or an instruction involving whoever the noun phrase after <i>let</i> refers to. This dictionary separates it from <i>let's</i>, which has a different person interpretation, and from the <i>let</i> that means giving permission.
   examples:
     - text: '[Let everyone draw a ticket].'
       from: entry
     - text: '[Let the guests choose their seats].'
       from: constructed
-  try: Say Let everyone draw a ticket. Who is supposed to draw? Is anyone being asked for permission?
+  try: Say <i>Let everyone draw a ticket</i>. Who is supposed to draw? Is anyone being asked for permission?
 teacher:
-  summary: Explains imperatives with let plus a noun phrase and a bare infinitive, such as Let everyone draw a ticket.
-  explain: The pattern is imperative let plus a non-inclusive NP plus a bare infinitival. It presents a wish, stipulation or instruction involving the referent of the NP after let. The expected action is attributed to that referent (everyone draws a ticket), and the sentence needn't request permission from a gatekeeper. Inclusive let's has a separate person interpretation. This dictionary relates the pattern to the permissive let and to let's as neighbouring constructions. This dictionary marks the analysis as provisional.
+  summary: Explains imperatives with <i>let</i> plus a noun phrase and a bare infinitive, such as <i>Let everyone draw a ticket</i>.
+  explain: The pattern is imperative <i>let</i> plus a non-inclusive NP plus a bare infinitival. It presents a wish, stipulation or instruction involving the referent of the NP after <i>let</i>. The expected action is attributed to that referent (<i>everyone draws a ticket</i>), and the sentence needn't request permission from a gatekeeper. Inclusive <i>let's</i> has a separate person interpretation. This dictionary relates the pattern to the permissive <i>let</i> and to <i>let's</i> as neighbouring constructions. This dictionary marks the analysis as provisional.
   examples:
     - text: '[Let everyone draw a ticket].'
       from: entry
@@ -26,17 +26,17 @@ teacher:
       from: constructed
   watch_for:
     - A learner might read the sentence as a request for permission from a gatekeeper, when it needn't be one.
-    - A learner might read Let everyone draw a ticket as having the person interpretation of let's, when this dictionary says let's has a separate one.
-  activity: Students write three rules for a class game using let plus a group (everyone, each team) and a verb. They then say who is expected to act in each rule.
+    - A learner might read <i>Let everyone draw a ticket</i> as having the person interpretation of <i>let's</i>, when this dictionary says <i>let's</i> has a separate one.
+  activity: Students write three rules for a class game using <i>let</i> plus a group (<i>everyone</i>, <i>each team</i>) and a verb. They then say who is expected to act in each rule.
 child:
-  hook: Let everyone draw a ticket. Who is going to draw one?
-  explain: This sentence tells what everyone should do. It's an instruction or a wish about them. Let's is a different pattern.
+  hook: <i>Let everyone draw a ticket</i>. Who is going to draw one?
+  explain: This sentence tells what everyone should do. It's an instruction or a wish about them. <i>Let's</i> is a different pattern.
   examples:
     - text: '[Let everyone draw a ticket].'
       from: entry
     - text: '[Let each player pick a card].'
       from: constructed
-  play: Make up rules for a game that start with Let. Who does each rule say should act?
+  play: Make up rules for a game that start with <i>Let</i>. Who does each rule say should act?
 checked:
   date: '2026-11-19'
   model: claude-sonnet-5-5 (resolving checker flags)

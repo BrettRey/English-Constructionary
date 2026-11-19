@@ -5,11 +5,11 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Exclaiming that something was quite a specimen
-  summary: Said with heavy stress, some in an exclamation presents something as remarkable for its kind.
+  summary: Said with heavy stress, <i>some</i> in an exclamation presents something as remarkable for its kind.
   body: |-
-    When some is said with strong stress in an exclamation, it marks what you're describing as remarkable of its kind. SOME hotel that was! can carry a negative judgment, as the next sentence shows (An utter disgrace!), and the same pattern can express a positive one.
+    When <i>some</i> is said with strong stress in an exclamation, it marks what you're describing as remarkable of its kind. <i>SOME hotel that was!</i> can carry a negative judgment, as the next sentence shows (<i>An utter disgrace!</i>), and the same pattern can express a positive one.
 
-    This dictionary compares it with the ordinary wine we drank, which can express surprise purely at how much there was. That was SOME wine we drank! doesn't easily mean that. It points to the character or quality of the wine instead.
+    This dictionary compares it with <i>the ordinary wine we drank</i>, which can express surprise purely at how much there was. <i>That was SOME wine we drank!</i> doesn't easily mean that. It points to the character or quality of the wine instead.
 
     This dictionary marks the analysis as provisional.
   examples:
@@ -19,11 +19,11 @@ curious:
       from: entry
     - text: '[That was SOME wine we drank!]'
       from: entry
-  try: Say That was some meal! first with ordinary stress, then with heavy stress on some. Does the second version sound more like a judgment on the meal itself?
+  try: Say <i>That was some meal!</i> first with ordinary stress, then with heavy stress on <i>some</i>. Does the second version sound more like a judgment on the meal itself?
 teacher:
   summary: Optional enrichment on exclamations with stressed some, which judge the quality of a thing rather than its quantity.
-  explain: 'The pattern is an exclamation whose predicative complement is an NP with stressed SOME plus a nominal. It presents an instance as remarkable for its kind, with positive or negative evaluation. CGEL compares emotive one. A contrast from the cited work separates this from an ordinary exclamation: The wine we drank can express surprise purely at quantity, whereas That was some wine we drank resists that reading. This dictionary leaves open how far the parallel with one extends and marks the analysis provisional, so present it as a tentative description. In the examples, capitals show where the stress falls.'
-  terms: CGEL compares this use of some with emotive one. No other standard traditional name is given in this dictionary.
+  explain: 'The pattern is an exclamation whose predicative complement is an NP with stressed <i>SOME</i> plus a nominal. It presents an instance as remarkable for its kind, with positive or negative evaluation. CGEL compares emotive one. A contrast from the cited work separates this from an ordinary exclamation: <i>The wine we drank</i> can express surprise purely at quantity, whereas <i>That was some wine we drank</i> resists that reading. This dictionary leaves open how far the parallel with one extends and marks the analysis provisional, so present it as a tentative description. In the examples, capitals show where the stress falls.'
+  terms: CGEL compares this use of <i>some</i> with emotive one. No other standard traditional name is given in this dictionary.
   examples:
     - text: '[SOME hotel that was!] An utter disgrace!'
       from: entry
@@ -32,8 +32,8 @@ teacher:
     - text: '[That was SOME wine we drank!]'
       from: entry
   watch_for:
-    - A learner might hear SOME in That was SOME wine as a quantity word meaning a lot of wine.
-    - A learner might read the pattern as only praise, when the evaluation can be negative, as in SOME hotel that was.
+    - A learner might hear <i>SOME</i> in <i>That was SOME wine</i> as a quantity word meaning a lot of wine.
+    - A learner might read the pattern as only praise, when the evaluation can be negative, as in <i>SOME hotel that was</i>.
   activity: Students write a short exclamation about a film, a meal or a trip using stressed some. Classmates say whether the speaker is praising or complaining and point to the words that tell them.
 checked:
   date: '2026-11-19'

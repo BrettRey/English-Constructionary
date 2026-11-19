@@ -5,26 +5,28 @@ drafted:
   model: claude-sonnet-5-5
 curious:
   title: Active-looking words with a passive meaning
-  summary: After verbs like need, an -ing word can have a passive meaning even though it looks active.
+  summary: After verbs like <i>need</i>, an <i>-ing</i> word can have a passive meaning even though it looks active.
   body: |-
-    The hinge needs oiling means the hinge should be oiled. The word oiling looks active, but the hinge isn't doing the oiling. The hinge is understood as what someone oils.
+    <i>The hinge needs oiling</i> means the hinge should be oiled. The word <i>oiling</i> looks active, but the hinge isn't doing the oiling. The hinge is understood as what someone oils.
 
-    The longer way to say it shows the passive on the surface: The hinge needs to be oiled. In the -ing version, nothing marks the passive. Verbs like need, want and require can take this kind of complement. The meaning of the passive is there, but its usual wording is hidden.
+    The longer way to say it shows the passive on the surface: <i>The hinge needs to be oiled</i>. In the <i>-ing</i> version, nothing marks the passive. Verbs like <i>need</i>, <i>want</i> and <i>require</i> can take this kind of complement. The meaning of the passive is there, but its usual wording is hidden.
   examples:
     - text: The hinge [needs oiling].
       from: entry
     - text: The hinge [needs to be oiled].
       from: entry
-  try: Say The hinge needs oiling and The hinge needs to be oiled. Do they mean the same thing?
+  try: Say <i>The hinge needs oiling</i> and <i>The hinge needs to be oiled</i>. Do they mean the same thing?
 teacher:
-  summary: Helps explain why needs oiling means needs to be oiled, with no passive marking.
-  explain: 'After a licensing verb such as need, want or require, a gerund-participial complement can have a passive interpretation while keeping active form: The hinge needs oiling. The hinge is understood as what someone oils. A to-infinitival with analogous meaning normally requires passive morphology, as in needs to be oiled, which displays the passive overtly. The gerund-participial version shows no passive marking.'
-  terms: 'Gerund-participial: the -ing form of a verb. Concealed passive: this dictionary’s name for a passive meaning without passive form.'
+  summary: Helps explain why <i>needs washing</i> means <i>needs to be washed</i>, with no passive marking.
+  explain: 'After a licensing verb such as <i>need</i>, <i>want</i> or <i>require</i>, a gerund-participial complement can have a passive interpretation while keeping active form: <i>The hinge needs oiling</i>. The hinge is understood as what someone oils. A <i>to</i>-infinitival with analogous meaning normally requires passive morphology, as in <i>needs to be oiled</i>, which displays the passive overtly. The gerund-participial version shows no passive marking.'
+  terms: 'Gerund-participial: the <i>-ing</i> form of a verb. Concealed passive: this dictionary’s name for a passive meaning without passive form.'
   examples:
     - text: The hinge [needs oiling].
       from: entry
     - text: The hinge [needs to be oiled].
       from: entry
+    - text: My bike [needs washing].
+      from: constructed
   contrasts:
     - text: The hinge needs oiling.
       from: entry
@@ -34,18 +36,19 @@ teacher:
       note: The infinitival counterpart shows the passive overtly.
   watch_for:
     - A learner might think the hinge does the oiling, when it is understood as what someone oils.
-    - A learner might look for be and a past participle in needs oiling and conclude there is no passive meaning.
-  activity: Students rewrite sentences like The hinge needs oiling as needs to be oiled, then say who does the action in each and whether the sentence names them.
+    - A learner might look for <i>be</i> and a past participle in <i>needs oiling</i> and conclude there is no passive meaning.
+  activity: Students rewrite sentences like <i>My bike needs washing</i> as <i>needs to be washed</i>, then say who does the action in each and whether the sentence names them.
 child:
-  hook: Who does the oiling in The hinge needs oiling?
-  explain: Sometimes a word ending in -ing has a hidden meaning. The hinge needs oiling means someone should oil the hinge. The hinge doesn't oil itself.
+  hook: Who does the oiling in <i>The hinge needs oiling</i>?
+  explain: Sometimes a word ending in <i>-ing</i> has a hidden meaning. <i>The hinge needs oiling</i> means someone should oil the hinge. The hinge doesn't oil itself.
   examples:
     - text: The hinge [needs oiling].
       from: entry
     - text: My bike [needs washing].
       from: constructed
-  play: Say each one the longer way. The hinge needs to be oiled. My bike needs to be washed. Make one for something in your room.
+  play: Say each one the longer way. <i>The hinge needs to be oiled.</i> <i>My bike needs to be washed.</i> Make one for something in your room.
 checked:
   date: '2026-11-19'
   model: codex (gpt-6.2-sol)
   result: pass
+  note: "Frequency pass: teacher.summary and activity now use needs washing (as in the child edition) instead of needs oiling (oiling about 44,500th in SUBTLEX-UK); added the constructed teacher example My bike needs washing; entry examples unchanged."

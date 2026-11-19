@@ -10,10 +10,10 @@ dimensions:
 meanings:
   '1':
     definition: A non-headed constituent made up of coordinates; not a phrase
-    details: "Coordinations contrast with phrases, which are headed (see phrase-001). No coordinate is the head; the coordination's distribution follows from the coordinates jointly, and a difference of category is generally tolerated where there is likeness of function (e.g., the DP + NP numerative coordinations in two thousand and twenty-seven)."
+    details: "Coordinations contrast with phrases, which are headed (see phrase-001). No coordinate is the head; the coordination's distribution follows from the coordinates jointly, and a difference of category is generally tolerated where there is likeness of function (e.g., the DP + NP numerative coordinations in <i>two thousand and twenty-seven</i>)."
     examples:
       - form: "[bread and butter]"
-        note: NP coordinates with coordinator and
+        note: NP coordinates with coordinator <i>and</i>
       - form: "[slowly but surely]"
         note: AdvP coordinates with contrast marker
       - form: "[two thousand and twenty-seven]"
