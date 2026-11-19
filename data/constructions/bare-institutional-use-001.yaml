@@ -9,11 +9,12 @@ meanings:
       - form: The children are [at school].
         note: Constructed illustration.
 relatedConstructions:
-  - id: activity-weak-definite-001
-    relationship: related-to
   - id: np-bare-001
     relationship: specialization-of
     parthood: formal
+  - id: activity-weak-definite-001
+    relationship: related-to
+    notes: Went to school and took the bus both evoke an institutional activity. School is bare in the first frame, and bus keeps the in the second.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §8.5; Ch. 7, bare NPs after prepositions

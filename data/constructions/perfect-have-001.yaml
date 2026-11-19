@@ -30,10 +30,6 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
     notes: The perfect auxiliary and participial complement form a VP headed by have
-  - id: continuative-perfect-001
-    relationship: related-to
-  - id: experiential-perfect-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: "Ch. 3 §§5.1–5.4"

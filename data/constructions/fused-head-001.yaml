@@ -22,19 +22,10 @@ constraints:
   - type: structural
     description: Fused determiner-head and fused modifier-head uses are subtypes of this broader family.
 relatedConstructions:
-  - id: fused-determiner-head-001
+  - id: np-001
     relationship: specialization-of
     parthood: formal
-  - id: numerative-fused-head-001
-    relationship: specialization-of
-    parthood: formal
-  - id: demonstrative-determinative-fused-head-001
-    relationship: specialization-of
-    parthood: formal
-  - id: the-adjective-np-001
-    relationship: related-to
-  - id: fused-adjective-anaphoric-001
-    relationship: related-to
+    notes: The fused constituent realizes a complete NP without a separate nominal head.
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §9"

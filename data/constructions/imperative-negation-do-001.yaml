@@ -27,8 +27,6 @@ relatedConstructions:
     notes: Negative imperative retains imperative clause type and its special do-support requirement
   - id: secondary-verbal-negation-001
     relationship: related-to
-  - id: finite-do-support-001
-    relationship: related-to
   - id: lets-inclusive-001
     relationship: related-to
 grounds:

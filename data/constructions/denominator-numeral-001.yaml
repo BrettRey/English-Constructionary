@@ -30,8 +30,6 @@ relatedConstructions:
     relationship: specialization-of
   - id: n-common-001
     relationship: related-to
-  - id: abstract-numeral-001
-    relationship: related-to
   - id: cardinal-determinative-001
     relationship: related-to
 grounds:

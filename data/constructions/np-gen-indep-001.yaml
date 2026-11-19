@@ -11,8 +11,6 @@ meanings:
       - form: yours
         note: Independent genitive pronoun
 relatedConstructions:
-  - id: independent-genitive-pronoun-001
-    relationship: related-to
   - id: genitive-s-001
     relationship: related-to
 grounds:

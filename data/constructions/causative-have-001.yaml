@@ -16,6 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: affected-have-participial-001
     relationship: related-to
+    notes: Had Kai replace the roof makes Kai the understood replacer. Had the roof replaced presents the roof as affected and can describe an arrangement. Had his phone stolen can describe an unwanted experience.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §5.4, have

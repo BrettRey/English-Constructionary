@@ -43,9 +43,6 @@ relatedConstructions:
   - id: grammatical-number-001
     relationship: interfaces-with
     notes: Bidirectional syntax-semantics interface for number
-  - id: plural-001
-    relationship: alternates-with
-    notes: Paradigmatic contrast in the number system
   - id: verb-number-agreement-001
     relationship: interfaces-with
 grounds:

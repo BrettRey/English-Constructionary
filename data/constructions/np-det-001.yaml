@@ -22,12 +22,21 @@ constraints:
 relatedConstructions:
   - id: determination-001
     relationship: implements
-  - id: np-def-001
-    relationship: specialization-of
-  - id: np-indef-001
-    relationship: specialization-of
+    notes: The overt determiner in the new car, a new car, and Jo’s new car realizes the determiner function.
   - id: np-property-value-001
     relationship: related-to
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+    notes: An overt determiner combines with the nominal.
+  - id: np-def-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: The book satisfies both patterns. A book has a determiner and is indefinite. A referential bare name such as London can be definite.
+  - id: np-indef-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: A book satisfies both patterns. The book has a determiner and is definite. The bare NP dogs in We saw dogs can be indefinite.
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §4, determiner function and non-DP realizations"

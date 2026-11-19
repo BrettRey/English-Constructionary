@@ -23,8 +23,6 @@ relatedConstructions:
     parthood: formal
   - id: absolute-negator-determinative-001
     relationship: related-to
-  - id: either-or-coordination-001
-    relationship: related-to
   - id: so-neither-inversion-001
     relationship: related-to
 lexiconRefs:

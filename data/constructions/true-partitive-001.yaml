@@ -14,10 +14,11 @@ relatedConstructions:
   - id: np-001
     relationship: specialization-of
     parthood: formal
-  - id: measure-pseudopartitive-001
-    relationship: related-to
   - id: deitality-001
     relationship: interfaces-with
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+    notes: Three of the cartons selects members of a set. Three litres of the milk specifies quantity. A definite NP after of is compatible with either analysis.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §§7.3–7.6, 9.2

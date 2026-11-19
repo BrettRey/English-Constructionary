@@ -14,6 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: locative-location-variant-001
     relationship: alternates-with
+    notes: In sprayed paint onto the panel the material is the object. In sprayed the panel with paint the location is the object. The alternation depends on the verb and sense.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §8.3.1

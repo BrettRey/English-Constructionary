@@ -29,12 +29,9 @@ syntacticRefs:
   - countability-diagnostics
   - countability-hierarchy
 relatedConstructions:
-  - id: grammatical-number-001
+  - id: non-count-material-construal-001
     relationship: related-to
-  - id: n-non-count-001
-    relationship: related-to
-  - id: n-common-pl-001
-    relationship: related-to
+    notes: Many cattle has a lexically restricted plural count profile. Some rabbit uses a noun productively in non-count syntax to refer to material.
 kind:
   provisional: true
   secured: stable

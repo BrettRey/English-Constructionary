@@ -31,8 +31,6 @@ relatedConstructions:
   - id: n-proper-001
     relationship: related-to
     notes: "Letter-case cues interact with proper-noun orthography."
-  - id: letter-case-modifier-001
-    relationship: related-to
 grounds:
   - source: cambridge-dictionary-capital
     locator: "Entries for capital letter and its contrast with small letter"

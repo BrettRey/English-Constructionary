@@ -110,7 +110,10 @@ kind:
     evidence: "CGEL provides independent distributional grounds for these kinds of bare uses. Absence of a determiner alone does not fix their interpretation."
     confidence: medium
 relatedConstructions:
-  - id: bare-institutional-use-001
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The NP consists of its nominal and has no overt determiner.
+  - id: np-det-001
     relationship: related-to
-  - id: strong-proper-name-001
-    relationship: related-to
+    notes: Dogs barked and Those dogs barked share the same nominal. The overt demonstrative in the second selects a contextually identifiable set.

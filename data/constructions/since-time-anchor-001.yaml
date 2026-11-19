@@ -12,8 +12,6 @@ relatedConstructions:
   - id: pp-001
     relationship: specialization-of
     parthood: formal
-  - id: continuative-perfect-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§6, 7; Ch. 3 §5.2

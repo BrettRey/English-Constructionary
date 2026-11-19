@@ -31,8 +31,6 @@ semanticRefs:
 syntacticRefs:
   - ordinal-fractional-rightmost-base
 relatedConstructions:
-  - id: numerative-compound-basic-001
-    relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to
   - id: numerative-basic-lexeme-001

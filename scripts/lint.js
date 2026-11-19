@@ -7,6 +7,7 @@ const files = fs.readdirSync(constructionsDir).filter((file) => file.endsWith('.
 
 const issues = [];
 const warnings = [];
+const parentsById = new Map();
 const idPattern = /^[a-z-]+[0-9]{3}$/;
 const knownStabilisers = new Set([
   'acquisition',
@@ -96,13 +97,18 @@ for (const file of files) {
   }
 
   if (Array.isArray(doc.relatedConstructions)) {
+    const parents = [];
     doc.relatedConstructions.forEach((rel, index) => {
       if (!rel || typeof rel !== 'object') return;
       if (rel.id && !idPattern.test(rel.id)) {
         record(file, `relatedConstructions[${index}].id does not match id pattern`);
       }
       checkTrim(file, rel.notes, `relatedConstructions[${index}].notes`);
+      if (rel.id && ['specialization-of', 'inherits-from'].includes(rel.relationship)) {
+        parents.push(rel.id);
+      }
     });
+    parentsById.set(doc.id, parents);
   }
 
   if (doc.kind && typeof doc.kind === 'object') {
@@ -159,6 +165,22 @@ for (const file of files) {
     }
   }
 }
+
+const checked = new Set();
+const visiting = new Set();
+const checkAncestry = (id) => {
+  if (checked.has(id) || !parentsById.has(id)) return;
+  if (visiting.has(id)) {
+    const chain = [...visiting];
+    record(id, `inheritance cycle: ${chain.slice(chain.indexOf(id)).concat(id).join(' -> ')}`);
+    return;
+  }
+  visiting.add(id);
+  parentsById.get(id).forEach(checkAncestry);
+  visiting.delete(id);
+  checked.add(id);
+};
+parentsById.forEach((_, id) => checkAncestry(id));
 
 if (warnings.length > 0) {
   console.warn('Lint warnings:');

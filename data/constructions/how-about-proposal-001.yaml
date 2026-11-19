@@ -13,6 +13,10 @@ relatedConstructions:
     relationship: related-to
   - id: what-about-topic-001
     relationship: related-to
+    notes: How about a short break? and What about a short break? can both propose a break. What about the budget? can also take up an outstanding topic.
+  - id: why-not-proposal-001
+    relationship: related-to
+    notes: How about taking a break? proposes an option with a gerund-participial. Why not take a break? puts forward a proposal using a plain verbal predicate.
 grounds:
   - source: cgel-2002
     locator: Ch. 10 §7.7, how about

@@ -14,8 +14,9 @@ relatedConstructions:
     parthood: formal
   - id: present-backshift-001
     relationship: related-to
-  - id: direct-quotation-001
-    relationship: related-to
+  - id: declarative-content-clause-001
+    relationship: interfaces-with
+    notes: The that-clause in Jo said that she was ready supplies the content of the speech report.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §9.1

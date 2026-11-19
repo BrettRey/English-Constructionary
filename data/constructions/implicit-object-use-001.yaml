@@ -13,6 +13,7 @@ relatedConstructions:
     relationship: related-to
   - id: monotransitive-vp-001
     relationship: related-to
+    notes: Compare Jo ate lunch with Jo ate. The second leaves the food unspecified. Availability depends on the verb and its use.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §8.1.3

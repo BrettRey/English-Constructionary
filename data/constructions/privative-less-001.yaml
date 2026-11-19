@@ -12,8 +12,6 @@ relatedConstructions:
   - id: adjective-001
     relationship: specialization-of
     parthood: formal
-  - id: endowed-ful-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 19 §5.8(m)

@@ -16,6 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: if-conditional-001
     relationship: related-to
+    notes: Asked if Jo was ready embeds a question. If Jo was ready, we could leave makes readiness a condition on the main clause.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §§5.1–5.2

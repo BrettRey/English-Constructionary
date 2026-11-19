@@ -9,11 +9,12 @@ meanings:
       - form: The door [remained locked].
         note: Constructed illustration.
 relatedConstructions:
-  - id: be-passive-001
-    relationship: related-to
   - id: subject-ascriptive-001
     relationship: specialization-of
     parthood: formal
+  - id: be-passive-001
+    relationship: related-to
+    notes: The door remained locked supports an adjective analysis. The door was locked by security at noon permits the verbal passive analysis with an event time and a by-phrase.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §10.1.3

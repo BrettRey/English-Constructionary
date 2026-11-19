@@ -14,6 +14,10 @@ relatedConstructions:
     parthood: formal
   - id: calendar-deictic-np-001
     relationship: related-to
+  - id: group-genitive-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: In [the day after the election]’s agenda, the genitive gives a time and the marker attaches at the edge of the phrase, after election rather than day.
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §§16.3, 16.5, relations expressed by genitive determination

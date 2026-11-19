@@ -13,6 +13,9 @@ relatedConstructions:
     relationship: related-to
   - id: measure-adjective-001
     relationship: related-to
+  - id: for-duration-adjunct-001
+    relationship: related-to
+    notes: Walked three kilometres measures distance. Walked for an hour measures the duration and uses a for-PP.
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§5.1–5.3

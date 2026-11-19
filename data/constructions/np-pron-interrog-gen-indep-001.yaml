@@ -9,8 +9,6 @@ meanings:
       - form: Whose is this?
         note: Asks for the possessor
 relatedConstructions:
-  - id: independent-genitive-pronoun-001
-    relationship: related-to
   - id: interrogative-word-001
     relationship: related-to
 grounds:

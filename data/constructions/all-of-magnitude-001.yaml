@@ -32,6 +32,9 @@ relatedConstructions:
   - id: numerative-complex-001
     relationship: related-to
     notes: The numeral supplies the magnitude independently of the all of expression.
+  - id: true-partitive-001
+    relationship: related-to
+    notes: All of fifty volunteers emphasizes a magnitude. All of the fifty volunteers ranges over the established group.
 kind:
   provisional: true
   projection:

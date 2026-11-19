@@ -22,15 +22,9 @@ relatedConstructions:
   - id: vp-001
     relationship: interfaces-with
     notes: Number is realized on the finite verb or auxiliary in the VP head of the Clause
-  - id: grammatical-number-001
-    relationship: related-to
   - id: singular-001
     relationship: related-to
   - id: plural-001
-    relationship: related-to
-  - id: number-transparent-agreement-001
-    relationship: related-to
-  - id: collective-agreement-001
     relationship: related-to
 grounds:
   - source: cgel-2002

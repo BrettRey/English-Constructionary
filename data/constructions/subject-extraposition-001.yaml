@@ -35,6 +35,9 @@ relatedConstructions:
   - id: right-dislocation-001
     relationship: related-to
     notes: The pronoun is referential in the dislocated NP construction.
+  - id: complement-it-extraposition-001
+    relationship: related-to
+    notes: In It surprised me that Jo left, dummy it is subject. In I find it surprising that Jo left, it is object and the content clause follows the predicative.
 grounds:
   - source: casa-constructicon
     locator: records 51–52

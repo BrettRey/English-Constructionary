@@ -9,10 +9,11 @@ meanings:
       - form: They carried the patient [unconscious].
         note: Constructed illustration.
 relatedConstructions:
-  - id: object-resultative-001
-    relationship: related-to
   - id: subject-resultative-001
     relationship: related-to
+  - id: object-resultative-001
+    relationship: related-to
+    notes: Ate the fish raw gives the state of the fish at the time of eating. Cooked the fish dry presents dryness as a result.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §5.3, depictives and resultatives

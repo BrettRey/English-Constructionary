@@ -18,6 +18,9 @@ relatedConstructions:
   - id: be-passive-001
     relationship: related-to
     notes: The central reading is typically paraphrasable with a modal passive.
+  - id: dispositional-middle-001
+    relationship: related-to
+    notes: Washable and This fabric washes well can describe suitability for washing. One derives an adjective and the other forms a clause with an active verb.
 grounds:
   - source: casa-constructicon
     locator: record 156

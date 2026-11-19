@@ -11,8 +11,6 @@ meanings:
 relatedConstructions:
   - id: gradation-001
     relationship: interfaces-with
-  - id: enough-degree-infinitival-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §8.4; Ch. 6, degree modification

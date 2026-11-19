@@ -27,11 +27,7 @@ relatedConstructions:
   - id: clause-001
     relationship: interfaces-with
     notes: Secondary verbal negation applies within headed non-finite and subjunctive Clauses
-  - id: imperative-negation-do-001
-    relationship: related-to
   - id: constituent-not-negation-001
-    relationship: related-to
-  - id: primary-auxiliary-negation-001
     relationship: related-to
   - id: subjunctive-mandative-001
     relationship: interfaces-with

@@ -14,6 +14,10 @@ relatedConstructions:
     parthood: formal
   - id: too-degree-infinitival-001
     relationship: related-to
+  - id: such-nominal-result-001
+    relationship: overlaps-with
+    overlap-dimension: functional
+    notes: So cold that the locks froze has degree marking on an adjective. Such a cold morning that the locks froze uses a nominal expression. Both specify degree or kind through a stated result.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §4.6; Ch. 8 §12.4

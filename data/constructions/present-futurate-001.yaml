@@ -14,8 +14,6 @@ relatedConstructions:
   - id: declarative-clause-001
     relationship: specialization-of
     parthood: formal
-  - id: going-to-future-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §4.2.4

@@ -8,9 +8,6 @@ meanings:
     examples:
       - form: It took longer [than we had expected it to take].
         note: Constructed illustration.
-relatedConstructions:
-  - id: comparative-er-001
-    relationship: interfaces-with
 grounds:
   - source: cgel-2002
     locator: Ch. 13 §§2.1–2.3

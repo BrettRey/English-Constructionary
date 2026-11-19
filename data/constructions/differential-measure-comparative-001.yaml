@@ -13,8 +13,6 @@ meanings:
 relatedConstructions:
   - id: measure-adjective-001
     relationship: related-to
-  - id: comparative-er-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 13 §4.4; Ch. 8 §5

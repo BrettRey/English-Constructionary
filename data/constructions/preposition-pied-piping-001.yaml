@@ -13,6 +13,9 @@ relatedConstructions:
     relationship: interfaces-with
   - id: prepositional-verb-frame-001
     relationship: related-to
+  - id: prepositional-passive-001
+    relationship: related-to
+    notes: To whom Jo spoke fronts the preposition with its complement. Jo was spoken to leaves the preposition behind when its complement is realized as passive subject.
 grounds:
   - source: cgel-2002
     locator: Ch. 12 §3.2, relative phrase formation; Ch. 7 §4.1

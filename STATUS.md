@@ -69,6 +69,8 @@ See [the roadmap](docs/ROADMAP.md) for the entry, adjudication, and infrastructu
 
 ## Session Log
 
+- **2026-11-19** — Screened relations across all 389 published constructions and revised 134 entries. Corrected hierarchy cycles and added diagnostic notes to comparisons across construction families.
+
 - **2026-11-19** — Published lexical profiles with links in both directions between words and constructions. Expanded the bare role entry’s relations and added a relation search to the authoring workflow.
 
 - **2026-11-19** — Published revisions to 97 entries, including the bare role construction. Added distributional contrasts and source locators and repaired construction links. The catalogue has 389 published entries and 58 evidence sources.

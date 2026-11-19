@@ -53,10 +53,6 @@ relatedConstructions:
   - id: phrase-001
     relationship: specialization-of
     parthood: formal
-  - id: np-001
-    relationship: contains
-    parthood: formal
-    notes: NP formally contains Nom as immediate constituent
   - id: n-common-001
     relationship: contains
     parthood: formal

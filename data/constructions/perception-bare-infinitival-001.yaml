@@ -15,7 +15,8 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
   - id: perception-gerund-participial-001
-    relationship: related-to
+    relationship: alternates-with
+    notes: Heard Kai close the latch presents the occurrence as a whole. Heard Kai closing the latch presents it in progress.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.4.3, 5.4 and 5.6, perception complements

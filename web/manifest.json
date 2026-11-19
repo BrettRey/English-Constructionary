@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T11:41:12.327Z",
+  "generatedAt": "2026-11-19T11:49:24.461Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -439,16 +439,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "never-adv-negation-001",
-              "title": "never-adv-negation-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "no-determiner-001",
-              "title": "no-determiner-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "positive-paucal-a-001",
               "title": "positive-paucal-a-001",
               "relationship": "related-to"
@@ -547,11 +537,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "denominator-numeral-001",
-              "title": "denominator-numeral-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "numerative-fused-head-001",
               "title": "numerative-fused-head-001",
               "relationship": "related-to"
@@ -580,7 +565,8 @@
             {
               "id": "bare-institutional-use-001",
               "title": "bare-institutional-use-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Went to school and took the bus both evoke an institutional activity. School is bare in the first frame, and bus keeps the in the second."
             },
             {
               "id": "definite-001",
@@ -607,13 +593,14 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "be-passive-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "subject-ascriptive-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "be-passive-001",
+              "relationship": "related-to",
+              "notes": "The door remained locked supports an adjective analysis. The door was locked by security at noon permits the verbal passive analysis with an event time and a by-phrase."
             }
           ],
           "incomingRelations": []
@@ -756,10 +743,6 @@
               "parthood": "formal"
             },
             {
-              "id": "causative-have-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "be-passive-001",
               "relationship": "related-to"
             }
@@ -768,7 +751,8 @@
             {
               "id": "causative-have-001",
               "title": "causative-have-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Had Kai replace the roof makes Kai the understood replacer. Had the roof replaced presents the roof as affected and can describe an arrangement. Had his phone stolen can describe an unwanted experience."
             }
           ]
         },
@@ -803,6 +787,11 @@
               "id": "numerative-complex-001",
               "relationship": "related-to",
               "notes": "The numeral supplies the magnitude independently of the all of expression."
+            },
+            {
+              "id": "true-partitive-001",
+              "relationship": "related-to",
+              "notes": "All of fifty volunteers emphasizes a magnitude. All of the fifty volunteers ranges over the established group."
             }
           ],
           "incomingRelations": [
@@ -831,13 +820,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "even-if-concessive-conditional-001",
-              "title": "even-if-concessive-conditional-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "amount-singular-agreement-001",
@@ -853,7 +836,13 @@
             },
             {
               "id": "collective-agreement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Three litres is enough treats a measurement as one amount. A collective NP such as the committee can allow plural agreement on a member-oriented reading."
+            },
+            {
+              "id": "measure-pseudopartitive-001",
+              "relationship": "interfaces-with",
+              "notes": "A measure pseudopartitive can be the subject of singular amount agreement, as in Three litres of milk is enough."
             }
           ],
           "incomingRelations": [
@@ -872,15 +861,18 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "anaphoric-propositional-so-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "negative-raising-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "anaphoric-propositional-so-001",
+              "title": "anaphoric-propositional-so-001",
+              "relationship": "alternates-with",
+              "notes": "I hope so and I hope not share an attitude predicate. So picks up the proposition in play. Not picks up its negative counterpart."
+            }
+          ]
         },
         {
           "id": "anaphoric-propositional-so-001",
@@ -896,15 +888,14 @@
             {
               "id": "proposition-affirmation-001",
               "relationship": "related-to"
-            }
-          ],
-          "incomingRelations": [
+            },
             {
               "id": "anaphoric-propositional-not-001",
-              "title": "anaphoric-propositional-not-001",
-              "relationship": "related-to"
+              "relationship": "alternates-with",
+              "notes": "I hope so and I hope not share an attitude predicate. So picks up the proposition in play. Not picks up its negative counterpart."
             }
-          ]
+          ],
+          "incomingRelations": []
         },
         {
           "id": "another-additive-measure-001",
@@ -943,16 +934,19 @@
               "parthood": "formal"
             },
             {
-              "id": "be-passive-001",
-              "relationship": "related-to"
+              "id": "perfect-have-001",
+              "relationship": "interfaces-with",
+              "notes": "In may have been waiting, perfect have follows the modal and selects the past-participial form been."
             },
             {
               "id": "progressive-ing-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "In has been waiting, progressive be follows perfect have and takes a gerund-participle."
             },
             {
-              "id": "perfect-have-001",
-              "relationship": "related-to"
+              "id": "be-passive-001",
+              "relationship": "interfaces-with",
+              "notes": "In is being repaired, passive be follows progressive be and selects a past participle. The form being is selected by the progressive."
             }
           ],
           "incomingRelations": [
@@ -980,19 +974,20 @@
               "id": "coordination-gapping-001",
               "relationship": "related-to",
               "notes": "Gapping leaves contrastive material on both sides of the omitted sequence."
-            }
-          ],
-          "incomingRelations": [
+            },
             {
               "id": "infinitival-to-stranding-001",
-              "title": "infinitival-to-stranding-001",
-              "relationship": "related-to"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "In Jo has, too, an auxiliary remains before an unexpressed VP. In Jo tried to, the infinitival marker remains before an unexpressed predicate."
             },
             {
               "id": "interrogative-sluicing-001",
-              "title": "interrogative-sluicing-001",
-              "relationship": "related-to"
-            },
+              "relationship": "related-to",
+              "notes": "I don’t know who retains a wh-remnant and leaves the rest of the question unexpressed. Jo can retains the auxiliary before an unexpressed VP."
+            }
+          ],
+          "incomingRelations": [
             {
               "id": "lexical-do-so-anaphor-001",
               "title": "lexical-do-so-anaphor-001",
@@ -1047,13 +1042,14 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "activity-weak-definite-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "np-bare-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "activity-weak-definite-001",
+              "relationship": "related-to",
+              "notes": "Went to school and took the bus both evoke an institutional activity. School is bare in the first frame, and bus keeps the in the second."
             }
           ],
           "incomingRelations": [
@@ -1063,11 +1059,6 @@
               "relationship": "overlaps-with",
               "overlap-dimension": "formal",
               "notes": "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
-            },
-            {
-              "id": "np-bare-001",
-              "title": "np-bare-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -1120,7 +1111,8 @@
             {
               "id": "adjectival-passive-001",
               "title": "adjectival-passive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The door remained locked supports an adjective analysis. The door was locked by security at noon permits the verbal passive analysis with an event time and a by-phrase."
             },
             {
               "id": "affected-have-participial-001",
@@ -1130,12 +1122,14 @@
             {
               "id": "auxiliary-chain-001",
               "title": "auxiliary-chain-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "In is being repaired, passive be follows progressive be and selects a past participle. The form being is selected by the progressive."
             },
             {
               "id": "concealed-passive-ing-001",
               "title": "concealed-passive-ing-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The hinge needs oiling has a passive interpretation with an active gerund-participial. The hinge needs to be oiled expresses the passive overtly."
             },
             {
               "id": "deverbal-able-adjective-001",
@@ -1146,12 +1140,14 @@
             {
               "id": "dispositional-middle-001",
               "title": "dispositional-middle-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "This fabric washes well attributes a disposition with active verb forms. This fabric was washed at noon reports a particular event in the passive."
             },
             {
               "id": "get-event-passive-001",
               "title": "get-event-passive-001",
-              "relationship": "related-to"
+              "relationship": "alternates-with",
+              "notes": "Jo got promoted and Jo was promoted can describe the same event. Get foregrounds the change or its relevance to Jo. Be is also available in stative uses such as is widely believed."
             },
             {
               "id": "monotransitive-vp-001",
@@ -1161,7 +1157,8 @@
             {
               "id": "plain-make-causative-001",
               "title": "plain-make-causative-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "Compare They made Kai wait and Kai was made to wait. The infinitival marker is required in the passive counterpart."
             },
             {
               "id": "prepositional-passive-001",
@@ -1217,11 +1214,6 @@
               "id": "temporal-genitive-001",
               "title": "temporal-genitive-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "year-name-001",
-              "title": "year-name-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -1232,10 +1224,6 @@
           "path": "/data/constructions/cardinal-determinative-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "cardinal-noun-001",
-              "relationship": "related-to"
-            },
             {
               "id": "numerative-fused-head-001",
               "relationship": "related-to"
@@ -1276,11 +1264,6 @@
               "title": "numerative-complex-001",
               "relationship": "related-to",
               "notes": "Phrasal construction headed by cardinal determinatives; not a specialization of the lexical category (lexeme/phrase boundary at 99, Reynolds 2026 EL&L)"
-            },
-            {
-              "id": "numerative-factor-modifier-001",
-              "title": "numerative-factor-modifier-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -1295,10 +1278,6 @@
               "id": "cardinal-determinative-001",
               "relationship": "related-to",
               "notes": "Cardinal determinatives vs cardinal nouns"
-            },
-            {
-              "id": "denominator-numeral-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -1306,11 +1285,6 @@
               "id": "abstract-numeral-001",
               "title": "abstract-numeral-001",
               "relationship": "specialization-of"
-            },
-            {
-              "id": "cardinal-determinative-001",
-              "title": "cardinal-determinative-001",
-              "relationship": "related-to"
             },
             {
               "id": "collective-numeral-001",
@@ -1362,16 +1336,11 @@
             },
             {
               "id": "affected-have-participial-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Had Kai replace the roof makes Kai the understood replacer. Had the roof replaced presents the roof as affected and can describe an arrangement. Had his phone stolen can describe an unwanted experience."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "affected-have-participial-001",
-              "title": "affected-have-participial-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "causative-inchoative-001",
@@ -1400,7 +1369,8 @@
             {
               "id": "dispositional-middle-001",
               "title": "dispositional-middle-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "This fabric washes well invites an interpretation involving a washer. The door opened can simply report a change of state without invoking an implicit opener."
             }
           ]
         },
@@ -1932,6 +1902,12 @@
               "notes": "A polar question can license durational long."
             },
             {
+              "id": "finite-do-support-001",
+              "title": "finite-do-support-001",
+              "relationship": "interfaces-with",
+              "notes": "Did Jo leave? inserts finite do when the clause needs inversion and has no other auxiliary. Has Jo left? inverts the auxiliary already present."
+            },
+            {
               "id": "if-conditional-001",
               "title": "if-conditional-001",
               "relationship": "related-to",
@@ -1986,7 +1962,8 @@
             },
             {
               "id": "if-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Asked if Jo was ready embeds a question. If Jo was ready, we could leave makes readiness a condition on the main clause."
             }
           ],
           "incomingRelations": []
@@ -2017,7 +1994,8 @@
             {
               "id": "exhaustive-alternative-conditional-001",
               "title": "exhaustive-alternative-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "I asked whether Jo stayed or left seeks the answer. Whether Jo stayed or left, the lights stayed on puts both alternatives in the adjunct and asserts the same consequence across them."
             }
           ]
         },
@@ -2079,12 +2057,8 @@
             {
               "id": "amount-singular-agreement-001",
               "title": "amount-singular-agreement-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "verb-number-agreement-001",
-              "title": "verb-number-agreement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Three litres is enough treats a measurement as one amount. A collective NP such as the committee can allow plural agreement on a member-oriented reading."
             }
           ]
         },
@@ -2142,15 +2116,18 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "comparative-er-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "superlative-grade-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "comparative-er-001",
+              "title": "comparative-er-001",
+              "relationship": "related-to",
+              "notes": "Longer marks comparative grade with the regular suffix. Better expresses comparative grade with a suppletive form."
+            }
+          ]
         },
         {
           "id": "comparative-correlative-001",
@@ -2180,20 +2157,21 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "than-reduced-clause-001",
+              "id": "differential-measure-comparative-001",
               "relationship": "related-to"
             },
             {
-              "id": "differential-measure-comparative-001",
-              "relationship": "related-to"
+              "id": "than-reduced-clause-001",
+              "relationship": "interfaces-with",
+              "notes": "Longer than we expected pairs a comparative adjective with a than-clause whose missing degree is interpreted through the comparison."
+            },
+            {
+              "id": "comparative-adjective-suppletion-001",
+              "relationship": "related-to",
+              "notes": "Longer marks comparative grade with the regular suffix. Better expresses comparative grade with a suppletive form."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "comparative-adjective-suppletion-001",
-              "title": "comparative-adjective-suppletion-001",
-              "relationship": "related-to"
-            },
             {
               "id": "comparative-correlative-001",
               "title": "comparative-correlative-001",
@@ -2204,16 +2182,6 @@
               "id": "coordinate-degree-reduplication-001",
               "title": "coordinate-degree-reduplication-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "differential-measure-comparative-001",
-              "title": "differential-measure-comparative-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "than-reduced-clause-001",
-              "title": "than-reduced-clause-001",
-              "relationship": "interfaces-with"
             }
           ]
         },
@@ -2249,16 +2217,19 @@
               "parthood": "formal"
             },
             {
-              "id": "subject-extraposition-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "declarative-content-clause-001",
               "relationship": "contains",
               "parthood": "formal"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "subject-extraposition-001",
+              "title": "subject-extraposition-001",
+              "relationship": "related-to",
+              "notes": "In It surprised me that Jo left, dummy it is subject. In I find it surprising that Jo left, it is object and the content clause follows the predicative."
+            }
+          ]
         },
         {
           "id": "complement-preposing-001",
@@ -2343,12 +2314,13 @@
               "parthood": "formal"
             },
             {
-              "id": "be-passive-001",
+              "id": "adjective-hollow-infinitival-001",
               "relationship": "related-to"
             },
             {
-              "id": "adjective-hollow-infinitival-001",
-              "relationship": "related-to"
+              "id": "be-passive-001",
+              "relationship": "related-to",
+              "notes": "The hinge needs oiling has a passive interpretation with an active gerund-participial. The hinge needs to be oiled expresses the passive overtly."
             }
           ],
           "incomingRelations": [],
@@ -2375,15 +2347,11 @@
             },
             {
               "id": "primary-auxiliary-negation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Jo ordered tea, not coffee targets a constituent. Jo didn’t order coffee puts the negation with the finite auxiliary."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "corrective-but-coordination-001",
-              "title": "corrective-but-coordination-001",
-              "relationship": "related-to"
-            },
             {
               "id": "metalinguistic-negation-001",
               "title": "metalinguistic-negation-001",
@@ -2413,18 +2381,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "evidential-because-001",
-              "title": "evidential-because-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "pp-001",
-              "title": "pp-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "content-clause-in-np-001",
@@ -2445,7 +2402,8 @@
             },
             {
               "id": "integrated-relative-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The rumour that Jo had left gives the content of the rumour, with no noun-linked gap. The rumour that Jo spread has an object gap linked to rumour."
             }
           ],
           "incomingRelations": [
@@ -2513,25 +2471,16 @@
             },
             {
               "id": "experiential-perfect-001",
-              "relationship": "related-to"
-            }
-          ],
-          "incomingRelations": [
-            {
-              "id": "experiential-perfect-001",
-              "title": "experiential-perfect-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "perfect-have-001",
-              "title": "perfect-have-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "I’ve lived here since 2019 allows an ongoing-state reading. I’ve visited three times since 2019 counts completed episodes within the same interval."
             },
             {
               "id": "since-time-anchor-001",
-              "title": "since-time-anchor-001",
-              "relationship": "related-to"
-            },
+              "relationship": "interfaces-with",
+              "notes": "Since 2019 supplies the start time in I’ve lived here since 2019. Since also combines with experiential uses, so it does not force continuity."
+            }
+          ],
+          "incomingRelations": [
             {
               "id": "still-yet-aspectual-001",
               "title": "still-yet-aspectual-001",
@@ -2700,9 +2649,14 @@
               "notes": "The pattern can link coordinated clauses."
             },
             {
+              "id": "right-argument-cluster-coordination-001",
+              "relationship": "related-to",
+              "notes": "Jo ordered tea and Kai coffee allows recovery of ordered in the second clause. Jo gave Kim tea and Kai coffee can instead coordinate two argument clusters under one subject and verb."
+            },
+            {
               "id": "delayed-right-constituent-001",
               "relationship": "related-to",
-              "notes": "The shared material in delayed-right coordination instead has a single overt realization at the end."
+              "notes": "Gapping leaves repeated predicative material unexpressed in a later coordinate. Right-edge sharing expresses a constituent once at the far right, with an interpretation in more than one coordinate."
             }
           ],
           "incomingRelations": [
@@ -2711,17 +2665,6 @@
               "title": "auxiliary-vp-ellipsis-001",
               "relationship": "related-to",
               "notes": "Gapping leaves contrastive material on both sides of the omitted sequence."
-            },
-            {
-              "id": "delayed-right-constituent-001",
-              "title": "delayed-right-constituent-001",
-              "relationship": "related-to",
-              "notes": "Gapping shares medial material which is pronounced in the first clause."
-            },
-            {
-              "id": "right-argument-cluster-coordination-001",
-              "title": "right-argument-cluster-coordination-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -2736,10 +2679,6 @@
               "id": "coordination-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "constituent-not-negation-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -2761,14 +2700,16 @@
               "id": "n-common-001",
               "relationship": "specialization-of",
               "notes": "The output is a common noun."
-            },
-            {
-              "id": "deadjectival-ness-noun-001",
-              "relationship": "related-to",
-              "notes": "The competing derivation has a different stress and stem profile."
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "deadjectival-ness-noun-001",
+              "title": "deadjectival-ness-noun-001",
+              "relationship": "related-to",
+              "notes": "Both suffixes can create property nouns, as in kindness and opacity. The adjective base constrains the choice of suffix and can have a different stem form before -ity."
+            }
+          ]
         },
         {
           "id": "deadjectival-ize-001",
@@ -2800,16 +2741,14 @@
               "id": "adjective-001",
               "relationship": "related-to",
               "notes": "The core pattern selects an adjective as its base."
-            }
-          ],
-          "incomingRelations": [
+            },
             {
               "id": "deadjectival-ity-noun-001",
-              "title": "deadjectival-ity-noun-001",
               "relationship": "related-to",
-              "notes": "The competing derivation has a different stress and stem profile."
+              "notes": "Both suffixes can create property nouns, as in kindness and opacity. The adjective base constrains the choice of suffix and can have a different stem form before -ity."
             }
-          ]
+          ],
+          "incomingRelations": []
         },
         {
           "id": "declarative-clause-001",
@@ -2897,7 +2836,7 @@
             {
               "id": "integrated-relative-modifier-001",
               "relationship": "related-to",
-              "notes": "Both can be marked with that. The relative has a link to a nominal antecedent."
+              "notes": "That can mark either construction. In Jo said that Kai read it the content clause has its own object. In the book that Kai read the relative links an object gap to book."
             }
           ],
           "incomingRelations": [
@@ -2928,6 +2867,12 @@
               "title": "indirect-report-001",
               "relationship": "contains",
               "parthood": "formal"
+            },
+            {
+              "id": "indirect-report-001",
+              "title": "indirect-report-001",
+              "relationship": "interfaces-with",
+              "notes": "The that-clause in Jo said that she was ready supplies the content of the speech report."
             },
             {
               "id": "mandative-should-001",
@@ -3242,11 +3187,6 @@
               "notes": "Exclamative uses pattern non-deitally (Reynolds, deitality inventory)"
             },
             {
-              "id": "grammatical-definiteness-001",
-              "title": "grammatical-definiteness-001",
-              "relationship": "interfaces-with"
-            },
-            {
               "id": "indefinite-001",
               "title": "indefinite-001",
               "relationship": "interfaces-with"
@@ -3287,11 +3227,6 @@
               "id": "coordination-001",
               "relationship": "specialization-of",
               "notes": "The first parts occur in a coordinate structure."
-            },
-            {
-              "id": "coordination-gapping-001",
-              "relationship": "related-to",
-              "notes": "Gapping shares medial material which is pronounced in the first clause."
             }
           ],
           "incomingRelations": [
@@ -3299,7 +3234,7 @@
               "id": "coordination-gapping-001",
               "title": "coordination-gapping-001",
               "relationship": "related-to",
-              "notes": "The shared material in delayed-right coordination instead has a single overt realization at the end."
+              "notes": "Gapping leaves repeated predicative material unexpressed in a later coordinate. Right-edge sharing expresses a constituent once at the far right, with an interpretation in more than one coordinate."
             }
           ]
         },
@@ -3325,19 +3260,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "demonstrative-distance-001",
-              "title": "demonstrative-distance-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "fused-head-001",
-              "title": "fused-head-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            }
-          ],
+          "incomingRelations": [],
           "lexicalUses": [
             {
               "id": "lex:that:det",
@@ -3359,10 +3282,6 @@
               "id": "np-det-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "demonstrative-determinative-fused-head-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -3425,10 +3344,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "abstract-numeral-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "cardinal-determinative-001",
               "relationship": "related-to"
             }
@@ -3437,11 +3352,6 @@
             {
               "id": "abstract-numeral-001",
               "title": "abstract-numeral-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "cardinal-noun-001",
-              "title": "cardinal-noun-001",
               "relationship": "related-to"
             }
           ]
@@ -3454,12 +3364,13 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "object-resultative-001",
+              "id": "subject-resultative-001",
               "relationship": "related-to"
             },
             {
-              "id": "subject-resultative-001",
-              "relationship": "related-to"
+              "id": "object-resultative-001",
+              "relationship": "related-to",
+              "notes": "Ate the fish raw gives the state of the fish at the time of eating. Cooked the fish dry presents dryness as a result."
             }
           ],
           "incomingRelations": []
@@ -3472,23 +3383,11 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "np-det-001",
-              "relationship": "implements"
-            },
-            {
               "id": "np-def-001",
               "relationship": "related-to"
             },
             {
               "id": "np-indef-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "subject-determiner-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "minor-determiner-001",
               "relationship": "related-to"
             },
             {
@@ -3521,7 +3420,8 @@
             {
               "id": "np-det-001",
               "title": "np-det-001",
-              "relationship": "implements"
+              "relationship": "implements",
+              "notes": "The overt determiner in the new car, a new car, and Jo’s new car realizes the determiner function."
             },
             {
               "id": "numerative-basic-lexeme-001",
@@ -3596,6 +3496,11 @@
               "id": "be-passive-001",
               "relationship": "related-to",
               "notes": "The central reading is typically paraphrasable with a modal passive."
+            },
+            {
+              "id": "dispositional-middle-001",
+              "relationship": "related-to",
+              "notes": "Washable and This fabric washes well can describe suitability for washing. One derives an adjective and the other forms a clause with an active verb."
             }
           ],
           "incomingRelations": []
@@ -3636,10 +3541,6 @@
             {
               "id": "deverbal-noun-of-argument-001",
               "relationship": "interfaces-with"
-            },
-            {
-              "id": "genitive-ing-subject-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -3647,6 +3548,12 @@
               "id": "deverbal-noun-of-argument-001",
               "title": "deverbal-noun-of-argument-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "genitive-ing-subject-001",
+              "title": "genitive-ing-subject-001",
+              "relationship": "related-to",
+              "notes": "Their carefully sorting the files has a verbal predicate with an adverb and direct object. Their careful sorting of the files has adjective and of-complement in a nominal."
             }
           ]
         },
@@ -3728,10 +3635,6 @@
             {
               "id": "measure-adjective-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "comparative-er-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -3770,20 +3673,16 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "indirect-report-001",
+              "id": "closed-interrogative-clause-001",
               "relationship": "related-to"
             },
             {
-              "id": "closed-interrogative-clause-001",
-              "relationship": "related-to"
+              "id": "indirect-report-001",
+              "relationship": "related-to",
+              "notes": "Jo said, “I’m ready” presents a quotation in the original speaker’s terms. Jo said that she was ready reports content from the reporting context."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "indirect-report-001",
-              "title": "indirect-report-001",
-              "relationship": "related-to"
-            },
             {
               "id": "quotative-inversion-001",
               "title": "quotative-inversion-001",
@@ -3863,14 +3762,23 @@
             },
             {
               "id": "be-passive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "This fabric washes well attributes a disposition with active verb forms. This fabric was washed at noon reports a particular event in the passive."
             },
             {
               "id": "causative-inchoative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "This fabric washes well invites an interpretation involving a washer. The door opened can simply report a change of state without invoking an implicit opener."
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "deverbal-able-adjective-001",
+              "title": "deverbal-able-adjective-001",
+              "relationship": "related-to",
+              "notes": "Washable and This fabric washes well can describe suitability for washing. One derives an adjective and the other forms a clause with an active verb."
+            }
+          ]
         },
         {
           "id": "distributive-rate-apiece-001",
@@ -4031,7 +3939,7 @@
             {
               "id": "true-partitive-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "notes": "Each of the six drawers uses a partitive domain and distributes the predication over every drawer in it."
             },
             {
               "id": "grammatical-number-001",
@@ -4133,11 +4041,6 @@
               "id": "imperative-or-warning-001",
               "title": "imperative-or-warning-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "neither-nor-coordination-001",
-              "title": "neither-nor-coordination-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -4158,13 +4061,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "privative-less-001",
-              "title": "privative-less-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "enough-degree-infinitival-001",
@@ -4179,16 +4076,11 @@
             },
             {
               "id": "too-degree-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Ripe enough to eat places the degree at or above a lower threshold. Too ripe to eat places it above an upper threshold."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "too-degree-infinitival-001",
-              "title": "too-degree-infinitival-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "epistemic-perfect-modal-001",
@@ -4323,10 +4215,6 @@
               "id": "if-conditional-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "although-concessive-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -4369,10 +4257,6 @@
           "path": "/data/constructions/evidential-because-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "content-because-adjunct-001",
-              "relationship": "related-to"
-            },
             {
               "id": "epistemic-perfect-modal-001",
               "relationship": "related-to"
@@ -4455,12 +4339,6 @@
               "notes": "Exclamative clauses characteristically realize exclamatory force, but the pragmatic exclamation profile is broader than this clause type"
             },
             {
-              "id": "ostensive-np-001",
-              "title": "ostensive-np-001",
-              "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
-            },
-            {
               "id": "stressed-some-exclamative-001",
               "title": "stressed-some-exclamative-001",
               "relationship": "implements",
@@ -4526,12 +4404,6 @@
               "title": "exclamative-word-001",
               "relationship": "interfaces-with",
               "notes": "Exclamative what/how marks headed exclamative Clauses"
-            },
-            {
-              "id": "open-interrogative-clause-001",
-              "title": "open-interrogative-clause-001",
-              "relationship": "see-also",
-              "notes": "What and how can mark either type, but role, order, meaning, and context distinguish them"
             },
             {
               "id": "tag-question-001",
@@ -4619,12 +4491,13 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "closed-interrogative-whether-001",
+              "id": "if-conditional-001",
               "relationship": "related-to"
             },
             {
-              "id": "if-conditional-001",
-              "relationship": "related-to"
+              "id": "closed-interrogative-whether-001",
+              "relationship": "related-to",
+              "notes": "I asked whether Jo stayed or left seeks the answer. Whether Jo stayed or left, the lights stayed on puts both alternatives in the adjunct and asserts the same consequence across them."
             }
           ],
           "incomingRelations": [
@@ -4707,27 +4580,19 @@
               "id": "perfect-have-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "continuative-perfect-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
               "id": "continuative-perfect-001",
               "title": "continuative-perfect-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "I’ve lived here since 2019 allows an ongoing-state reading. I’ve visited three times since 2019 counts completed episodes within the same interval."
             },
             {
               "id": "negative-polarity-ever-001",
               "title": "negative-polarity-ever-001",
               "relationship": "interfaces-with"
-            },
-            {
-              "id": "perfect-have-001",
-              "title": "perfect-have-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -4764,6 +4629,11 @@
             {
               "id": "measure-adjective-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "for-duration-adjunct-001",
+              "relationship": "related-to",
+              "notes": "Walked three kilometres measures distance. Walked for an hour measures the duration and uses a for-PP."
             }
           ],
           "incomingRelations": [
@@ -4792,7 +4662,8 @@
             },
             {
               "id": "heavy-np-shift-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "In A problem arose that we hadn’t anticipated, only the relative is postposed. Heavy NP shift places the whole object NP after another dependent."
             }
           ],
           "incomingRelations": []
@@ -4827,14 +4698,19 @@
               "id": "imperative-negation-do-001",
               "relationship": "related-to",
               "notes": "Imperative do also occurs before be."
+            },
+            {
+              "id": "closed-interrogative-clause-001",
+              "relationship": "interfaces-with",
+              "notes": "Did Jo leave? inserts finite do when the clause needs inversion and has no other auxiliary. Has Jo left? inverts the auxiliary already present."
+            },
+            {
+              "id": "primary-auxiliary-negation-001",
+              "relationship": "interfaces-with",
+              "notes": "Jo didn’t leave uses do to host negation. Jo hasn’t left uses the existing auxiliary."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "imperative-negation-do-001",
-              "title": "imperative-negation-do-001",
-              "relationship": "related-to"
-            },
             {
               "id": "negative-initial-inversion-001",
               "title": "negative-initial-inversion-001",
@@ -4843,11 +4719,6 @@
             {
               "id": "preposed-predicate-001",
               "title": "preposed-predicate-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "primary-auxiliary-negation-001",
-              "title": "primary-auxiliary-negation-001",
               "relationship": "related-to"
             }
           ],
@@ -4899,14 +4770,16 @@
             },
             {
               "id": "in-duration-completion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Wrote for an hour measures time spent writing. Wrote the letter in an hour measures elapsed time to completion."
             }
           ],
           "incomingRelations": [
             {
-              "id": "in-duration-completion-001",
-              "title": "in-duration-completion-001",
-              "relationship": "related-to"
+              "id": "extent-measure-np-001",
+              "title": "extent-measure-np-001",
+              "relationship": "related-to",
+              "notes": "Walked three kilometres measures distance. Walked for an hour measures the duration and uses a for-PP."
             }
           ]
         },
@@ -4965,13 +4838,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "fused-head-001",
-              "title": "fused-head-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "fused-determiner-head-001",
@@ -4985,11 +4852,6 @@
               "relationship": "specialization-of",
               "parthood": "formal",
               "notes": "Determinative-head subtype of the broader fused-head family"
-            },
-            {
-              "id": "np-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
             },
             {
               "id": "absolute-negator-determinative-001",
@@ -5009,12 +4871,6 @@
             {
               "id": "demonstrative-determinative-fused-head-001",
               "title": "demonstrative-determinative-fused-head-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "fused-head-001",
-              "title": "fused-head-001",
               "relationship": "specialization-of",
               "parthood": "formal"
             },
@@ -5039,27 +4895,10 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "fused-determiner-head-001",
+              "id": "np-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "numerative-fused-head-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "demonstrative-determinative-fused-head-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "the-adjective-np-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "fused-adjective-anaphoric-001",
-              "relationship": "related-to"
+              "parthood": "formal",
+              "notes": "The fused constituent realizes a complete NP without a separate nominal head."
             }
           ],
           "incomingRelations": [
@@ -5203,19 +5042,19 @@
             {
               "id": "np-gen-indep-001",
               "relationship": "related-to"
-            }
-          ],
-          "incomingRelations": [
-            {
-              "id": "deverbal-ing-nominal-001",
-              "title": "deverbal-ing-nominal-001",
-              "relationship": "related-to"
             },
             {
               "id": "oblique-ing-subject-001",
-              "title": "oblique-ing-subject-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Compare We objected to their blocking the exit and We objected to them blocking the exit. The case varies in this frame. Availability depends on the higher construction and variety."
             },
+            {
+              "id": "deverbal-ing-nominal-001",
+              "relationship": "related-to",
+              "notes": "Their carefully sorting the files has a verbal predicate with an adverb and direct object. Their careful sorting of the files has adjective and of-complement in a nominal."
+            }
+          ],
+          "incomingRelations": [
             {
               "id": "progressive-ing-001",
               "title": "progressive-ing-001",
@@ -5229,16 +5068,7 @@
           "subtitle": "Genitive 's",
           "path": "/data/constructions/genitive-s-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "group-genitive-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "temporal-genitive-001",
-              "relationship": "related-to"
-            }
-          ],
+          "relations": [],
           "incomingRelations": [
             {
               "id": "all-class-role-modifier-001",
@@ -5296,12 +5126,13 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "be-passive-001",
+              "id": "subject-resultative-001",
               "relationship": "related-to"
             },
             {
-              "id": "subject-resultative-001",
-              "relationship": "related-to"
+              "id": "be-passive-001",
+              "relationship": "alternates-with",
+              "notes": "Jo got promoted and Jo was promoted can describe the same event. Get foregrounds the change or its relevance to Jo. Be is also available in stative uses such as is widely believed."
             }
           ],
           "incomingRelations": []
@@ -5369,12 +5200,6 @@
               "notes": "Sister locative role; a goal supplies the final location and typically bounds a motion event"
             },
             {
-              "id": "source-complement-001",
-              "title": "source-complement-001",
-              "relationship": "related-to",
-              "notes": "Sister semantic roles within the locative-complement family"
-            },
-            {
               "id": "way-motion-001",
               "title": "way-motion-001",
               "relationship": "related-to",
@@ -5417,14 +5242,14 @@
             {
               "id": "present-futurate-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "progressive-ing-001",
+              "relationship": "related-to",
+              "notes": "Compare I’m going to leave and I’m going to the station. The prospective construction takes an infinitival and allows subjects with no motion interpretation."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "present-futurate-001",
-              "title": "present-futurate-001",
-              "relationship": "related-to"
-            },
             {
               "id": "quasi-modal-be-to-001",
               "title": "quasi-modal-be-to-001",
@@ -5514,10 +5339,6 @@
               "id": "indefinite-001",
               "relationship": "alternates-with",
               "notes": "Paradigmatic contrast in the definiteness system"
-            },
-            {
-              "id": "deitality-001",
-              "relationship": "interfaces-with"
             },
             {
               "id": "activity-weak-definite-001",
@@ -5612,20 +5433,10 @@
               "notes": "Bidirectional syntax-semantics interface for number"
             },
             {
-              "id": "quasi-count-noun-001",
-              "title": "quasi-count-noun-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "singular-001",
               "title": "singular-001",
               "relationship": "interfaces-with",
               "notes": "Bidirectional syntax-semantics interface for number"
-            },
-            {
-              "id": "verb-number-agreement-001",
-              "title": "verb-number-agreement-001",
-              "relationship": "related-to"
             },
             {
               "id": "zero-plural-001",
@@ -5658,9 +5469,11 @@
               "relationship": "related-to"
             },
             {
-              "id": "genitive-s-001",
-              "title": "genitive-s-001",
-              "relationship": "related-to"
+              "id": "temporal-genitive-001",
+              "title": "temporal-genitive-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "In [the day after the election]’s agenda, the genitive gives a time and the marker attaches at the edge of the phrase, after election rather than day."
             }
           ]
         },
@@ -5724,7 +5537,8 @@
             {
               "id": "extraposed-relative-001",
               "title": "extraposed-relative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "In A problem arose that we hadn’t anticipated, only the relative is postposed. Heavy NP shift places the whole object NP after another dependent."
             }
           ]
         },
@@ -5741,16 +5555,16 @@
             },
             {
               "id": "what-about-topic-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "How about a short break? and What about a short break? can both propose a break. What about the budget? can also take up an outstanding topic."
+            },
+            {
+              "id": "why-not-proposal-001",
+              "relationship": "related-to",
+              "notes": "How about taking a break? proposes an option with a gerund-participial. Why not take a break? puts forward a proposal using a plain verbal predicate."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "what-about-topic-001",
-              "title": "what-about-topic-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "how-adjective-exclamative-001",
@@ -5792,13 +5606,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "incongruity-whats-doing-001",
-              "title": "incongruity-whats-doing-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "if-conditional-001",
@@ -5827,7 +5635,8 @@
             {
               "id": "closed-interrogative-if-001",
               "title": "closed-interrogative-if-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Asked if Jo was ready embeds a question. If Jo was ready, we could leave makes readiness a condition on the main clause."
             },
             {
               "id": "durational-long-001",
@@ -6024,10 +5833,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "finite-do-support-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "lets-inclusive-001",
               "relationship": "related-to"
             }
@@ -6038,11 +5843,6 @@
               "title": "finite-do-support-001",
               "relationship": "related-to",
               "notes": "Imperative do also occurs before be."
-            },
-            {
-              "id": "secondary-verbal-negation-001",
-              "title": "secondary-verbal-negation-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -6077,7 +5877,8 @@
             },
             {
               "id": "monotransitive-vp-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Compare Jo ate lunch with Jo ate. The second leaves the food unspecified. Availability depends on the verb and its use."
             }
           ],
           "incomingRelations": []
@@ -6112,17 +5913,14 @@
               "id": "pp-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "for-duration-adjunct-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
               "id": "for-duration-adjunct-001",
               "title": "for-duration-adjunct-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Wrote for an hour measures time spent writing. Wrote the letter in an hour measures elapsed time to completion."
             }
           ]
         },
@@ -6137,10 +5935,6 @@
               "id": "open-interrogative-clause-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "how-come-explanation-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -6231,16 +6025,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "np-gen-indep-001",
-              "title": "np-gen-indep-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "np-pron-interrog-gen-indep-001",
-              "title": "np-pron-interrog-gen-indep-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "np-pron-personal-gen-indep-001",
               "title": "np-pron-personal-gen-indep-001",
               "relationship": "related-to"
@@ -6314,15 +6098,17 @@
               "relationship": "related-to"
             },
             {
-              "id": "direct-quotation-001",
-              "relationship": "related-to"
+              "id": "declarative-content-clause-001",
+              "relationship": "interfaces-with",
+              "notes": "The that-clause in Jo said that she was ready supplies the content of the speech report."
             }
           ],
           "incomingRelations": [
             {
               "id": "direct-quotation-001",
               "title": "direct-quotation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Jo said, “I’m ready” presents a quotation in the original speaker’s terms. Jo said that she was ready reports content from the reporting context."
             }
           ]
         },
@@ -6368,11 +6154,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "infinitival-result-adjunct-001",
-              "title": "infinitival-result-adjunct-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "means-by-gerund-001",
               "title": "means-by-gerund-001",
               "relationship": "related-to"
@@ -6403,12 +6184,7 @@
           "subtitle": "Infinitival of Subsequent Outcome",
           "path": "/data/constructions/infinitival-result-adjunct-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "infinitival-purpose-adjunct-001",
-              "relationship": "related-to"
-            }
-          ],
+          "relations": [],
           "incomingRelations": [
             {
               "id": "infinitival-purpose-adjunct-001",
@@ -6425,15 +6201,19 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "auxiliary-vp-ellipsis-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "lexical-do-so-anaphor-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "auxiliary-vp-ellipsis-001",
+              "title": "auxiliary-vp-ellipsis-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "In Jo has, too, an auxiliary remains before an unexpressed VP. In Jo tried to, the infinitival marker remains before an unexpressed predicate."
+            }
+          ]
         },
         {
           "id": "instrumental-with-np-001",
@@ -6452,7 +6232,14 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "locative-location-variant-001",
+              "title": "locative-location-variant-001",
+              "relationship": "related-to",
+              "notes": "In sprayed the panel with paint, the with-phrase gives the material applied. In painted the panel with a brush, it gives the instrument."
+            }
+          ]
         },
         {
           "id": "integrated-relative-modifier-001",
@@ -6475,19 +6262,25 @@
               "id": "fused-relative-np-001",
               "relationship": "related-to",
               "notes": "A fused relative can form an NP without a separately expressed antecedent."
+            },
+            {
+              "id": "supplementary-relative-001",
+              "relationship": "related-to",
+              "notes": "In the books that arrived, the integrated clause helps identify the books. In The books, which arrived yesterday, are upstairs, the supplementary clause adds a separate comment on a referent already supplied."
             }
           ],
           "incomingRelations": [
             {
               "id": "content-clause-in-np-001",
               "title": "content-clause-in-np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The rumour that Jo had left gives the content of the rumour, with no noun-linked gap. The rumour that Jo spread has an object gap linked to rumour."
             },
             {
               "id": "declarative-content-clause-001",
               "title": "declarative-content-clause-001",
               "relationship": "related-to",
-              "notes": "Both can be marked with that. The relative has a link to a nominal antecedent."
+              "notes": "That can mark either construction. In Jo said that Kai read it the content clause has its own object. In the book that Kai read the relative links an object gap to book."
             },
             {
               "id": "extraposed-relative-001",
@@ -6518,11 +6311,6 @@
             {
               "id": "such-as-exemplification-001",
               "title": "such-as-exemplification-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "supplementary-relative-001",
-              "title": "supplementary-relative-001",
               "relationship": "related-to"
             }
           ],
@@ -6566,13 +6354,16 @@
             {
               "id": "open-interrogative-clause-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "auxiliary-vp-ellipsis-001",
-              "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "auxiliary-vp-ellipsis-001",
+              "title": "auxiliary-vp-ellipsis-001",
+              "relationship": "related-to",
+              "notes": "I don’t know who retains a wh-remnant and leaves the rest of the question unexpressed. Jo can retains the auxiliary before an unexpressed VP."
+            }
+          ]
         },
         {
           "id": "interrogative-word-001",
@@ -6714,6 +6505,12 @@
               "id": "closed-interrogative-clause-001",
               "relationship": "related-to",
               "notes": "The same auxiliary–subject order can express a question, with a wider range of auxiliaries."
+            },
+            {
+              "id": "negative-initial-inversion-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Had Jo known introduces a condition without if. Never had Jo seen it uses the same auxiliary–subject order in a clause with a preposed negative expression."
             }
           ],
           "incomingRelations": [
@@ -6783,13 +6580,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "plural-s-001",
-              "title": "plural-s-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "it-auxiliary-clitic-001",
@@ -6826,6 +6617,11 @@
               "id": "relative-word-001",
               "relationship": "related-to",
               "notes": "The cleft relative can be marked by a relative word; that and zero relatives also occur."
+            },
+            {
+              "id": "subject-extraposition-001",
+              "relationship": "related-to",
+              "notes": "It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate."
             }
           ],
           "incomingRelations": [
@@ -6901,10 +6697,6 @@
               "id": "vp-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "plain-make-causative-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -6917,6 +6709,13 @@
               "id": "open-let-imperative-001",
               "title": "open-let-imperative-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "plain-make-causative-001",
+              "title": "plain-make-causative-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Made Kai wait and let Kai wait share an NP followed by a bare infinitival. Make presents a cause and let presents permission or non-prevention."
             }
           ]
         },
@@ -6969,11 +6768,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "letter-case-specification-001",
-              "title": "letter-case-specification-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
               "relationship": "related-to"
@@ -7001,10 +6795,6 @@
               "id": "n-proper-001",
               "relationship": "related-to",
               "notes": "Letter-case cues interact with proper-noun orthography."
-            },
-            {
-              "id": "letter-case-modifier-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -7101,6 +6891,11 @@
               "id": "monotransitive-vp-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "instrumental-with-np-001",
+              "relationship": "related-to",
+              "notes": "In sprayed the panel with paint, the with-phrase gives the material applied. In painted the panel with a brush, it gives the instrument."
             }
           ],
           "incomingRelations": [
@@ -7112,7 +6907,8 @@
             {
               "id": "locative-theme-variant-001",
               "title": "locative-theme-variant-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "In sprayed paint onto the panel the material is the object. In sprayed the panel with paint the location is the object. The alternation depends on the verb and sense."
             }
           ]
         },
@@ -7130,7 +6926,8 @@
             },
             {
               "id": "locative-location-variant-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "In sprayed paint onto the panel the material is the object. In sprayed the panel with paint the location is the object. The alternation depends on the verb and sense."
             }
           ],
           "incomingRelations": []
@@ -7217,11 +7014,6 @@
             {
               "id": "collective-numeral-001",
               "title": "collective-numeral-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "numerative-magnitude-head-001",
-              "title": "numerative-magnitude-head-001",
               "relationship": "related-to"
             }
           ]
@@ -7392,15 +7184,17 @@
               "parthood": "formal"
             },
             {
-              "id": "true-partitive-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "measure-adjective-001",
               "relationship": "related-to"
             }
           ],
           "incomingRelations": [
+            {
+              "id": "amount-singular-agreement-001",
+              "title": "amount-singular-agreement-001",
+              "relationship": "interfaces-with",
+              "notes": "A measure pseudopartitive can be the subject of singular amount agreement, as in Three litres of milk is enough."
+            },
             {
               "id": "another-additive-measure-001",
               "title": "another-additive-measure-001",
@@ -7419,12 +7213,14 @@
             {
               "id": "number-transparent-agreement-001",
               "title": "number-transparent-agreement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The plural in A number of applicants were waiting follows the of-complement. Compare an amount reading with singular agreement in Three litres of milk was enough."
             },
             {
               "id": "true-partitive-001",
               "title": "true-partitive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Three of the cartons selects members of a set. Three litres of the milk specifies quantity. A definite NP after of is compatible with either analysis."
             }
           ]
         },
@@ -7515,13 +7311,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "determination-001",
-              "title": "determination-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "modal-interrogative-request-001",
@@ -7614,7 +7404,8 @@
             {
               "id": "implicit-object-use-001",
               "title": "implicit-object-use-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Compare Jo ate lunch with Jo ate. The second leaves the food unspecified. Availability depends on the verb and its use."
             },
             {
               "id": "light-verb-event-001",
@@ -7720,12 +7511,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "n-proper-001",
-              "title": "n-proper-001",
-              "relationship": "related-to",
-              "notes": "Parallel noun category"
-            },
-            {
               "id": "nom-001",
               "title": "nom-001",
               "relationship": "contains",
@@ -7772,11 +7557,6 @@
               "id": "n-pl-001",
               "title": "n-pl-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "quasi-count-noun-001",
-              "title": "quasi-count-noun-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -7789,10 +7569,6 @@
           "relations": [
             {
               "id": "quasi-count-noun-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "portion-variety-count-001",
               "relationship": "related-to"
             }
           ],
@@ -7813,11 +7589,6 @@
               "title": "portion-variety-count-001",
               "relationship": "related-to",
               "notes": "A normally non-count substance description supplies what is portioned or classified."
-            },
-            {
-              "id": "quasi-count-noun-001",
-              "title": "quasi-count-noun-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -7856,11 +7627,6 @@
               "id": "proper-name-001",
               "relationship": "interfaces-with",
               "notes": "Bidirectional syntax-semantics interface; proper nouns cue proper-name interpretation, proper-name intention licenses proper noun choice"
-            },
-            {
-              "id": "n-common-001",
-              "relationship": "related-to",
-              "notes": "Parallel noun category"
             },
             {
               "id": "np-proper-001",
@@ -7986,6 +7752,13 @@
               "relationship": "interfaces-with"
             },
             {
+              "id": "inverted-conditional-001",
+              "title": "inverted-conditional-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Had Jo known introduces a condition without if. Never had Jo seen it uses the same auxiliary–subject order in a clause with a preposed negative expression."
+            },
+            {
               "id": "not-only-but-also-001",
               "title": "not-only-but-also-001",
               "relationship": "related-to"
@@ -8006,6 +7779,11 @@
             {
               "id": "durational-long-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "never-adv-negation-001",
+              "relationship": "related-to",
+              "notes": "Have you ever seen it? licenses ever in a question and supplies no negative assertion. Jo never saw it has negation within the temporal adverb."
             }
           ],
           "incomingRelations": [
@@ -8017,11 +7795,6 @@
             {
               "id": "minimizer-negative-polarity-001",
               "title": "minimizer-negative-polarity-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "never-adv-negation-001",
-              "title": "never-adv-negation-001",
               "relationship": "related-to"
             }
           ]
@@ -8067,10 +7840,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "either-or-coordination-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "so-neither-inversion-001",
               "relationship": "related-to"
             }
@@ -8079,11 +7848,6 @@
             {
               "id": "either-or-coordination-001",
               "title": "either-or-coordination-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "so-neither-inversion-001",
-              "title": "so-neither-inversion-001",
               "relationship": "related-to"
             }
           ]
@@ -8094,21 +7858,18 @@
           "subtitle": "Adverbial Negation with never",
           "path": "/data/constructions/never-adv-negation-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "absolute-negator-determinative-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "negative-polarity-ever-001",
-              "relationship": "related-to"
-            }
-          ],
+          "relations": [],
           "incomingRelations": [
             {
               "id": "absolute-negator-determinative-001",
               "title": "absolute-negator-determinative-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "negative-polarity-ever-001",
+              "title": "negative-polarity-ever-001",
+              "relationship": "related-to",
+              "notes": "Have you ever seen it? licenses ever in a question and supplies no negative assertion. Jo never saw it has negation within the temporal adverb."
             }
           ]
         },
@@ -8119,10 +7880,6 @@
           "path": "/data/constructions/no-determiner-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "absolute-negator-determinative-001",
-              "relationship": "related-to"
-            },
             {
               "id": "primary-auxiliary-negation-001",
               "relationship": "interfaces-with"
@@ -8159,12 +7916,6 @@
               "id": "phrase-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "np-001",
-              "relationship": "contains",
-              "parthood": "formal",
-              "notes": "NP formally contains Nom as immediate constituent"
             },
             {
               "id": "n-common-001",
@@ -8304,11 +8055,6 @@
               "id": "nom-prehead-mod-001",
               "title": "nom-prehead-mod-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "synthetic-noun-compound-001",
-              "title": "synthetic-noun-compound-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -8376,10 +8122,17 @@
             {
               "id": "portion-variety-count-001",
               "relationship": "related-to",
-              "notes": "Material readings can subsequently supply a portion or a variety."
+              "notes": "Some chicken can use a count-associated noun for material. Two coffees gives a non-count-associated noun a portion reading and allows numeral and plural marking."
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "quasi-count-noun-001",
+              "title": "quasi-count-noun-001",
+              "relationship": "related-to",
+              "notes": "Many cattle has a lexically restricted plural count profile. Some rabbit uses a noun productively in non-count syntax to refer to material."
+            }
+          ]
         },
         {
           "id": "not-only-but-also-001",
@@ -8409,22 +8162,6 @@
           "relations": [
             {
               "id": "phrase-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "np-common-001",
-              "relationship": "specialization-of",
-              "parthood": "formal",
-              "notes": "Common NPs specialize the formal pattern with common noun head"
-            },
-            {
-              "id": "np-proper-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
-            {
-              "id": "np-pron-001",
               "relationship": "specialization-of",
               "parthood": "formal"
             },
@@ -8462,10 +8199,11 @@
               "notes": "The whole expression can serve as an NP."
             },
             {
-              "id": "fused-determiner-head-001",
-              "title": "fused-determiner-head-001",
+              "id": "fused-head-001",
+              "title": "fused-head-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The fused constituent realizes a complete NP without a separate nominal head."
             },
             {
               "id": "fused-relative-np-001",
@@ -8480,17 +8218,17 @@
               "parthood": "formal"
             },
             {
-              "id": "nom-001",
-              "title": "nom-001",
-              "relationship": "contains",
-              "parthood": "formal",
-              "notes": "NP formally contains Nom as immediate constituent"
-            },
-            {
               "id": "nom-n-mod-001",
               "title": "nom-n-mod-001",
               "relationship": "related-to",
               "notes": "Original relationship: can-be-part-of."
+            },
+            {
+              "id": "np-bare-001",
+              "title": "np-bare-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "The NP consists of its nominal and has no overt determiner."
             },
             {
               "id": "np-common-001",
@@ -8502,6 +8240,13 @@
               "title": "np-def-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "np-det-001",
+              "title": "np-det-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "An overt determiner combines with the nominal."
             },
             {
               "id": "np-indef-001",
@@ -8575,12 +8320,15 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "bare-institutional-use-001",
-              "relationship": "related-to"
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "The NP consists of its nominal and has no overt determiner."
             },
             {
-              "id": "strong-proper-name-001",
-              "relationship": "related-to"
+              "id": "np-det-001",
+              "relationship": "related-to",
+              "notes": "Dogs barked and Those dogs barked share the same nominal. The overt demonstrative in the second selects a contextually identifiable set."
             }
           ],
           "incomingRelations": [
@@ -8600,7 +8348,9 @@
             {
               "id": "np-common-001",
               "title": "np-common-001",
-              "relationship": "specialization-of"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Dogs can be both bare and headed by a common noun. The dogs has the same head category with an overt determiner."
             },
             {
               "id": "strong-proper-name-001",
@@ -8628,16 +8378,20 @@
               "relationship": "inherits-from"
             },
             {
+              "id": "strong-proper-name-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "np-bare-001",
-              "relationship": "specialization-of"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Dogs can be both bare and headed by a common noun. The dogs has the same head category with an overt determiner."
             },
             {
               "id": "np-det-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "strong-proper-name-001",
-              "relationship": "related-to"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "The dogs is both determined and headed by a common noun. Dogs has the same head category without an overt determiner."
             }
           ],
           "incomingRelations": [
@@ -8645,13 +8399,6 @@
               "id": "n-common-001",
               "title": "n-common-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "np-001",
-              "title": "np-001",
-              "relationship": "specialization-of",
-              "parthood": "formal",
-              "notes": "Common NPs specialize the formal pattern with common noun head"
             }
           ]
         },
@@ -8730,13 +8477,9 @@
             {
               "id": "np-det-001",
               "title": "np-det-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "np-indef-001",
-              "title": "np-indef-001",
-              "relationship": "alternates-with",
-              "notes": "Paradigmatic contrast in the definiteness system"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "The book satisfies both patterns. A book has a determiner and is indefinite. A referential bare name such as London can be definite."
             },
             {
               "id": "prenominal-modifier-001",
@@ -8755,19 +8498,30 @@
           "relations": [
             {
               "id": "determination-001",
-              "relationship": "implements"
-            },
-            {
-              "id": "np-def-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "np-indef-001",
-              "relationship": "specialization-of"
+              "relationship": "implements",
+              "notes": "The overt determiner in the new car, a new car, and Jo’s new car realizes the determiner function."
             },
             {
               "id": "np-property-value-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "An overt determiner combines with the nominal."
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "The book satisfies both patterns. A book has a determiner and is indefinite. A referential bare name such as London can be definite."
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "A book satisfies both patterns. The book has a determiner and is definite. The bare NP dogs in We saw dogs can be indefinite."
             }
           ],
           "incomingRelations": [
@@ -8776,11 +8530,6 @@
               "title": "demonstrative-distance-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "determination-001",
-              "title": "determination-001",
-              "relationship": "implements"
             },
             {
               "id": "grammatical-number-001",
@@ -8799,9 +8548,17 @@
               "notes": "Nominal structure supplies the complement of the determiner function."
             },
             {
+              "id": "np-bare-001",
+              "title": "np-bare-001",
+              "relationship": "related-to",
+              "notes": "Dogs barked and Those dogs barked share the same nominal. The overt demonstrative in the second selects a contextually identifiable set."
+            },
+            {
               "id": "np-common-001",
               "title": "np-common-001",
-              "relationship": "specialization-of"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "The dogs is both determined and headed by a common noun. Dogs has the same head category without an overt determiner."
             },
             {
               "id": "np-property-value-001",
@@ -8836,10 +8593,6 @@
           "path": "/data/constructions/np-gen-indep-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "independent-genitive-pronoun-001",
-              "relationship": "related-to"
-            },
             {
               "id": "genitive-s-001",
               "relationship": "related-to"
@@ -8880,11 +8633,6 @@
               "id": "np-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "np-def-001",
-              "relationship": "alternates-with",
-              "notes": "Paradigmatic contrast in the definiteness system"
             },
             {
               "id": "existential-there-001",
@@ -8934,7 +8682,9 @@
             {
               "id": "np-det-001",
               "title": "np-det-001",
-              "relationship": "specialization-of"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "A book satisfies both patterns. The book has a determiner and is definite. The bare NP dogs in We saw dogs can be indefinite."
             },
             {
               "id": "portion-variety-count-001",
@@ -8967,14 +8717,6 @@
               "notes": "Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns"
             },
             {
-              "id": "np-pron-reflexive-001",
-              "relationship": "specialization-of"
-            },
-            {
-              "id": "np-pron-reciprocal-001",
-              "relationship": "specialization-of"
-            },
-            {
               "id": "interrogative-word-001",
               "relationship": "related-to",
               "notes": "Some interrogative forms are pronouns."
@@ -8994,12 +8736,6 @@
             }
           ],
           "incomingRelations": [
-            {
-              "id": "np-001",
-              "title": "np-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
-            },
             {
               "id": "np-pron-reciprocal-001",
               "title": "np-pron-reciprocal-001",
@@ -9032,10 +8768,6 @@
           "path": "/data/constructions/np-pron-interrog-gen-indep-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "independent-genitive-pronoun-001",
-              "relationship": "related-to"
-            },
             {
               "id": "interrogative-word-001",
               "relationship": "related-to"
@@ -9088,11 +8820,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "np-pron-001",
-              "title": "np-pron-001",
-              "relationship": "specialization-of"
-            },
-            {
               "id": "np-pron-reflexive-001",
               "title": "np-pron-reflexive-001",
               "relationship": "related-to",
@@ -9119,11 +8846,6 @@
             }
           ],
           "incomingRelations": [
-            {
-              "id": "np-pron-001",
-              "title": "np-pron-001",
-              "relationship": "specialization-of"
-            },
             {
               "id": "np-pron-reciprocal-001",
               "title": "np-pron-reciprocal-001",
@@ -9172,12 +8894,6 @@
               "relationship": "contains",
               "parthood": "formal",
               "notes": "Proper noun formally heads proper NP (via Nom)"
-            },
-            {
-              "id": "np-001",
-              "title": "np-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
             },
             {
               "id": "proper-name-001",
@@ -9246,16 +8962,11 @@
             },
             {
               "id": "measure-pseudopartitive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The plural in A number of applicants were waiting follows the of-complement. Compare an amount reading with singular agreement in Three litres of milk was enough."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "verb-number-agreement-001",
-              "title": "verb-number-agreement-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "numerative-addition-asyndetic-001",
@@ -9288,11 +8999,6 @@
           ],
           "incomingRelations": [
             {
-              "id": "numerative-addition-coordination-001",
-              "title": "numerative-addition-coordination-001",
-              "relationship": "alternates-with"
-            },
-            {
               "id": "numerative-complex-001",
               "title": "numerative-complex-001",
               "relationship": "contains"
@@ -9318,10 +9024,6 @@
             {
               "id": "numerative-factor-modifier-001",
               "relationship": "contains"
-            },
-            {
-              "id": "numerative-addition-asyndetic-001",
-              "relationship": "alternates-with"
             },
             {
               "id": "numerative-complex-001",
@@ -9375,11 +9077,6 @@
               "id": "numerative-addition-coordination-001",
               "title": "numerative-addition-coordination-001",
               "relationship": "contains"
-            },
-            {
-              "id": "numerative-complex-001",
-              "title": "numerative-complex-001",
-              "relationship": "related-to"
             },
             {
               "id": "numerative-compound-basic-001",
@@ -9451,10 +9148,6 @@
             {
               "id": "numerative-addition-asyndetic-001",
               "relationship": "contains"
-            },
-            {
-              "id": "numerative-basic-lexeme-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -9529,11 +9222,6 @@
               "id": "numerative-fused-head-001",
               "title": "numerative-fused-head-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "numerative-ordinal-rightmost-001",
-              "title": "numerative-ordinal-rightmost-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -9592,10 +9280,6 @@
             {
               "id": "determination-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "cardinal-determinative-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -9649,13 +9333,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "numerative-ordinal-adjective-001",
-              "title": "numerative-ordinal-adjective-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "numerative-fused-head-001",
@@ -9692,12 +9370,6 @@
               "title": "definite-cardinal-of-pronoun-001",
               "relationship": "related-to",
               "notes": "Cardinals with of-phrases can occur in ordinary partitive syntax."
-            },
-            {
-              "id": "fused-head-001",
-              "title": "fused-head-001",
-              "relationship": "specialization-of",
-              "parthood": "formal"
             }
           ]
         },
@@ -9710,10 +9382,6 @@
           "relations": [
             {
               "id": "determination-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "magnitude-quantifier-001",
               "relationship": "related-to"
             }
           ],
@@ -9759,10 +9427,6 @@
             {
               "id": "numerative-ordinal-rightmost-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "numerative-fractional-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -9780,10 +9444,6 @@
           "path": "/data/constructions/numerative-ordinal-rightmost-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "numerative-compound-basic-001",
-              "relationship": "related-to"
-            },
             {
               "id": "numerative-magnitude-head-001",
               "relationship": "related-to"
@@ -9950,11 +9610,6 @@
               "title": "month-day-date-001",
               "relationship": "related-to",
               "notes": "The day numeral identifies a position in a conventional system."
-            },
-            {
-              "id": "year-name-001",
-              "title": "year-name-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -10009,16 +9664,11 @@
             },
             {
               "id": "object-raising-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Persuaded Kai to stay requires a persuadee. Expected there to be trouble permits dummy there in the corresponding position."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "object-raising-infinitival-001",
-              "title": "object-raising-infinitival-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "object-raising-infinitival-001",
@@ -10033,10 +9683,6 @@
               "parthood": "formal"
             },
             {
-              "id": "object-control-infinitival-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "subject-raising-infinitival-001",
               "relationship": "related-to"
             }
@@ -10045,7 +9691,8 @@
             {
               "id": "object-control-infinitival-001",
               "title": "object-control-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Persuaded Kai to stay requires a persuadee. Expected there to be trouble permits dummy there in the corresponding position."
             }
           ]
         },
@@ -10094,7 +9741,8 @@
             {
               "id": "depictive-predication-001",
               "title": "depictive-predication-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Ate the fish raw gives the state of the fish at the time of eating. Cooked the fish dry presents dryness as a result."
             },
             {
               "id": "intensifying-to-death-001",
@@ -10146,13 +9794,15 @@
           "subtitle": "Accusative Subject in a Gerund-Participial",
           "path": "/data/constructions/oblique-ing-subject-001.yaml",
           "kind": "yaml",
-          "relations": [
+          "relations": [],
+          "incomingRelations": [
             {
               "id": "genitive-ing-subject-001",
-              "relationship": "alternates-with"
+              "title": "genitive-ing-subject-001",
+              "relationship": "alternates-with",
+              "notes": "Compare We objected to their blocking the exit and We objected to them blocking the exit. The case varies in this frame. Availability depends on the higher construction and variety."
             }
-          ],
-          "incomingRelations": []
+          ]
         },
         {
           "id": "of-genitive-own-001",
@@ -10221,11 +9871,6 @@
               "id": "closed-interrogative-clause-001",
               "relationship": "see-also",
               "notes": "Open and closed interrogatives are distinct primary clause types with different syntactic marking"
-            },
-            {
-              "id": "exclamative-clause-001",
-              "relationship": "see-also",
-              "notes": "What and how can mark either type, but role, order, meaning, and context distinguish them"
             },
             {
               "id": "echo-question-001",
@@ -10345,11 +9990,6 @@
               "id": "np-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "exclamation-001",
-              "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
             }
           ],
           "incomingRelations": [
@@ -10482,11 +10122,6 @@
               "relationship": "related-to"
             },
             {
-              "id": "present-backshift-001",
-              "title": "present-backshift-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "preterite-politeness-001",
               "title": "preterite-politeness-001",
               "relationship": "related-to"
@@ -10556,16 +10191,11 @@
             },
             {
               "id": "perception-gerund-participial-001",
-              "relationship": "related-to"
+              "relationship": "alternates-with",
+              "notes": "Heard Kai close the latch presents the occurrence as a whole. Heard Kai closing the latch presents it in progress."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "perception-gerund-participial-001",
-              "title": "perception-gerund-participial-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "perception-gerund-participial-001",
@@ -10578,17 +10208,14 @@
               "id": "vp-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "perception-bare-infinitival-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
               "id": "perception-bare-infinitival-001",
               "title": "perception-bare-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "alternates-with",
+              "notes": "Heard Kai close the latch presents the occurrence as a whole. Heard Kai closing the latch presents it in progress."
             }
           ]
         },
@@ -10604,21 +10231,14 @@
               "relationship": "specialization-of",
               "parthood": "formal",
               "notes": "The perfect auxiliary and participial complement form a VP headed by have"
-            },
-            {
-              "id": "continuative-perfect-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "experiential-perfect-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
               "id": "auxiliary-chain-001",
               "title": "auxiliary-chain-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "In may have been waiting, perfect have follows the modal and selects the past-participial form been."
             },
             {
               "id": "backshift-past-perfect-001",
@@ -10777,21 +10397,22 @@
               "parthood": "formal"
             },
             {
-              "id": "be-passive-001",
+              "id": "into-causative-001",
               "relationship": "related-to"
             },
             {
-              "id": "into-causative-001",
-              "relationship": "related-to"
-            }
-          ],
-          "incomingRelations": [
+              "id": "be-passive-001",
+              "relationship": "interfaces-with",
+              "notes": "Compare They made Kai wait and Kai was made to wait. The infinitival marker is required in the passive counterpart."
+            },
             {
               "id": "let-permissive-001",
-              "title": "let-permissive-001",
-              "relationship": "related-to"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Made Kai wait and let Kai wait share an NP followed by a bare infinitival. Make presents a cause and let presents permission or non-prevention."
             }
-          ]
+          ],
+          "incomingRelations": []
         },
         {
           "id": "plural-001",
@@ -10833,12 +10454,6 @@
               "notes": "Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form"
             },
             {
-              "id": "singular-001",
-              "title": "singular-001",
-              "relationship": "alternates-with",
-              "notes": "Paradigmatic contrast in the number system"
-            },
-            {
               "id": "verb-number-agreement-001",
               "title": "verb-number-agreement-001",
               "relationship": "related-to"
@@ -10852,10 +10467,6 @@
           "path": "/data/constructions/plural-s-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "irregular-vowel-plural-001",
-              "relationship": "related-to"
-            },
             {
               "id": "portion-variety-count-001",
               "relationship": "related-to"
@@ -10915,15 +10526,10 @@
           ],
           "incomingRelations": [
             {
-              "id": "n-non-count-001",
-              "title": "n-non-count-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "non-count-material-construal-001",
               "title": "non-count-material-construal-001",
               "relationship": "related-to",
-              "notes": "Material readings can subsequently supply a portion or a variety."
+              "notes": "Some chicken can use a count-associated noun for material. Two coffees gives a non-count-associated noun a portion reading and allows numeral and plural marking."
             },
             {
               "id": "plural-s-001",
@@ -11012,10 +10618,6 @@
               "relationship": "contains",
               "parthood": "formal",
               "notes": "The head is a preposition"
-            },
-            {
-              "id": "content-because-adjunct-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -11291,6 +10893,11 @@
             {
               "id": "prepositional-verb-frame-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "prepositional-passive-001",
+              "relationship": "related-to",
+              "notes": "To whom Jo spoke fronts the preposition with its complement. Jo was spoken to leaves the preposition behind when its complement is realized as passive subject."
             }
           ],
           "incomingRelations": [
@@ -11319,7 +10926,14 @@
               "notes": "Selected prepositions are a major source. Some independently licensed locatives can also be stranded."
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "preposition-pied-piping-001",
+              "title": "preposition-pied-piping-001",
+              "relationship": "related-to",
+              "notes": "To whom Jo spoke fronts the preposition with its complement. Jo was spoken to leaves the preposition behind when its complement is realized as passive subject."
+            }
+          ]
         },
         {
           "id": "prepositional-verb-frame-001",
@@ -11335,7 +10949,8 @@
             },
             {
               "id": "verb-particle-object-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Compare relied on Jo with picked the book up. Jo is the object of selected on. The book is an object of the verb and can precede the particle up."
             }
           ],
           "incomingRelations": [
@@ -11361,10 +10976,6 @@
           "relations": [
             {
               "id": "declarative-content-clause-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "past-tense-ed-001",
               "relationship": "related-to"
             }
           ],
@@ -11402,10 +11013,6 @@
               "id": "declarative-clause-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "going-to-future-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -11523,10 +11130,6 @@
               "parthood": "formal"
             },
             {
-              "id": "finite-do-support-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "secondary-verbal-negation-001",
               "relationship": "related-to"
             }
@@ -11535,7 +11138,14 @@
             {
               "id": "constituent-not-negation-001",
               "title": "constituent-not-negation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Jo ordered tea, not coffee targets a constituent. Jo didn’t order coffee puts the negation with the finite auxiliary."
+            },
+            {
+              "id": "finite-do-support-001",
+              "title": "finite-do-support-001",
+              "relationship": "interfaces-with",
+              "notes": "Jo didn’t leave uses do to host negation. Jo hasn’t left uses the existing auxiliary."
             },
             {
               "id": "negative-concord-001",
@@ -11551,11 +11161,6 @@
               "id": "no-determiner-001",
               "title": "no-determiner-001",
               "relationship": "interfaces-with"
-            },
-            {
-              "id": "secondary-verbal-negation-001",
-              "title": "secondary-verbal-negation-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -11570,10 +11175,6 @@
               "id": "adjective-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "endowed-ful-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -11635,13 +11236,7 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "progressive-ing-001",
-              "title": "progressive-ing-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "progressive-ing-001",
@@ -11657,10 +11252,6 @@
               "notes": "The progressive auxiliary and gerund-participial complement form a VP headed by be"
             },
             {
-              "id": "progressive-futurate-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "genitive-ing-subject-001",
               "relationship": "related-to"
             }
@@ -11669,7 +11260,14 @@
             {
               "id": "auxiliary-chain-001",
               "title": "auxiliary-chain-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "In has been waiting, progressive be follows perfect have and takes a gerund-participle."
+            },
+            {
+              "id": "going-to-future-001",
+              "title": "going-to-future-001",
+              "relationship": "related-to",
+              "notes": "Compare I’m going to leave and I’m going to the station. The prospective construction takes an infinitival and allows subjects with no motion interpretation."
             },
             {
               "id": "progressive-futurate-001",
@@ -11706,10 +11304,6 @@
             {
               "id": "strong-proper-name-001",
               "relationship": "interfaces-with"
-            },
-            {
-              "id": "proper-name-secondary-use-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -11817,11 +11411,6 @@
               "id": "np-proper-001",
               "title": "np-proper-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "proper-name-001",
-              "title": "proper-name-001",
-              "relationship": "related-to"
             }
           ]
         },
@@ -11833,12 +11422,13 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "so-neither-inversion-001",
+              "id": "auxiliary-vp-ellipsis-001",
               "relationship": "related-to"
             },
             {
-              "id": "auxiliary-vp-ellipsis-001",
-              "relationship": "related-to"
+              "id": "so-neither-inversion-001",
+              "relationship": "related-to",
+              "notes": "So I did confirms the proposition. So did Jo extends the predicate to another subject. Subject–auxiliary order distinguishes the two."
             }
           ],
           "incomingRelations": [
@@ -11894,16 +11484,9 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "grammatical-number-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "n-non-count-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "n-common-pl-001",
-              "relationship": "related-to"
+              "id": "non-count-material-construal-001",
+              "relationship": "related-to",
+              "notes": "Many cattle has a lexically restricted plural count profile. Some rabbit uses a noun productively in non-count syntax to refer to material."
             }
           ],
           "incomingRelations": [
@@ -12378,13 +11961,16 @@
               "id": "coordination-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "coordination-gapping-001",
-              "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "coordination-gapping-001",
+              "title": "coordination-gapping-001",
+              "relationship": "related-to",
+              "notes": "Jo ordered tea and Kai coffee allows recovery of ordered in the second clause. Jo gave Kim tea and Kai coffee can instead coordinate two argument clusters under one subject and verb."
+            }
+          ]
         },
         {
           "id": "right-dislocation-001",
@@ -12565,15 +12151,7 @@
               "notes": "Secondary verbal negation applies within headed non-finite and subjunctive Clauses"
             },
             {
-              "id": "imperative-negation-do-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "constituent-not-negation-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "primary-auxiliary-negation-001",
               "relationship": "related-to"
             },
             {
@@ -12636,17 +12214,20 @@
               "id": "pp-001",
               "relationship": "specialization-of",
               "parthood": "formal"
-            },
-            {
-              "id": "continuative-perfect-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
+              "id": "continuative-perfect-001",
+              "title": "continuative-perfect-001",
+              "relationship": "interfaces-with",
+              "notes": "Since 2019 supplies the start time in I’ve lived here since 2019. Since also combines with experiential uses, so it does not force continuity."
+            },
+            {
               "id": "time-measure-ago-001",
               "title": "time-measure-ago-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Four days ago locates an event relative to the deictic time. Since Monday gives the start of an interval."
             },
             {
               "id": "until-time-boundary-001",
@@ -12666,11 +12247,6 @@
               "id": "grammatical-number-001",
               "relationship": "interfaces-with",
               "notes": "Bidirectional syntax-semantics interface for number"
-            },
-            {
-              "id": "plural-001",
-              "relationship": "alternates-with",
-              "notes": "Paradigmatic contrast in the number system"
             },
             {
               "id": "verb-number-agreement-001",
@@ -12731,15 +12307,15 @@
             {
               "id": "too-degree-infinitival-001",
               "relationship": "related-to"
-            }
-          ],
-          "incomingRelations": [
+            },
             {
               "id": "such-nominal-result-001",
-              "title": "such-nominal-result-001",
-              "relationship": "related-to"
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "So cold that the locks froze has degree marking on an adjective. Such a cold morning that the locks froze uses a nominal expression. Both specify degree or kind through a stated result."
             }
-          ]
+          ],
+          "incomingRelations": []
         },
         {
           "id": "so-neither-inversion-001",
@@ -12750,10 +12326,6 @@
           "relations": [
             {
               "id": "auxiliary-vp-ellipsis-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "neither-nor-coordination-001",
               "relationship": "related-to"
             }
           ],
@@ -12766,7 +12338,8 @@
             {
               "id": "proposition-affirmation-001",
               "title": "proposition-affirmation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "So I did confirms the proposition. So did Jo extends the predicate to another subject. Subject–auxiliary order distinguishes the two."
             }
           ]
         },
@@ -12846,11 +12419,6 @@
               "relationship": "contains",
               "parthood": "formal",
               "notes": "The source-role locative complement is a PP headed centrally by from, away, off, or out"
-            },
-            {
-              "id": "goal-complement-001",
-              "relationship": "related-to",
-              "notes": "Sister semantic roles within the locative-complement family"
             }
           ],
           "incomingRelations": [
@@ -13026,11 +12594,6 @@
               "notes": "A separate construction licenses bare referential names, including some common-noun forms."
             },
             {
-              "id": "np-bare-001",
-              "title": "np-bare-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "np-common-001",
               "title": "np-common-001",
               "relationship": "related-to"
@@ -13121,16 +12684,11 @@
             },
             {
               "id": "subject-raising-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Jo promised to return assigns Jo a role in the promising. There seems to be a leak allows dummy there because the subject is selected through the infinitival."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "subject-raising-infinitival-001",
-              "title": "subject-raising-infinitival-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "subject-determiner-001",
@@ -13153,11 +12711,6 @@
             }
           ],
           "incomingRelations": [
-            {
-              "id": "determination-001",
-              "title": "determination-001",
-              "relationship": "related-to"
-            },
             {
               "id": "floating-distributive-001",
               "title": "floating-distributive-001",
@@ -13187,14 +12740,14 @@
               "id": "right-dislocation-001",
               "relationship": "related-to",
               "notes": "The pronoun is referential in the dislocated NP construction."
+            },
+            {
+              "id": "complement-it-extraposition-001",
+              "relationship": "related-to",
+              "notes": "In It surprised me that Jo left, dummy it is subject. In I find it surprising that Jo left, it is object and the content clause follows the predicative."
             }
           ],
           "incomingRelations": [
-            {
-              "id": "complement-it-extraposition-001",
-              "title": "complement-it-extraposition-001",
-              "relationship": "related-to"
-            },
             {
               "id": "declarative-content-clause-001",
               "title": "declarative-content-clause-001",
@@ -13211,6 +12764,12 @@
               "id": "for-infinitival-001",
               "title": "for-infinitival-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "it-cleft-001",
+              "title": "it-cleft-001",
+              "relationship": "related-to",
+              "notes": "It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate."
             },
             {
               "id": "np-pron-001",
@@ -13270,10 +12829,6 @@
               "parthood": "formal"
             },
             {
-              "id": "subject-control-infinitival-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "adjectival-raising-001",
               "relationship": "related-to"
             }
@@ -13287,7 +12842,8 @@
             {
               "id": "subject-control-infinitival-001",
               "title": "subject-control-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Jo promised to return assigns Jo a role in the promising. There seems to be a leak allows dummy there because the subject is selected through the infinitival."
             }
           ],
           "lexicalUses": [
@@ -13391,15 +12947,19 @@
               "parthood": "formal"
             },
             {
-              "id": "so-degree-result-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "so-nominal-predication-001",
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "so-degree-result-001",
+              "title": "so-degree-result-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "So cold that the locks froze has degree marking on an adjective. Such a cold morning that the locks froze uses a nominal expression. Both specify degree or kind through a stated result."
+            }
+          ]
         },
         {
           "id": "sufficiency-provided-that-001",
@@ -13477,16 +13037,18 @@
           "kind": "yaml",
           "relations": [
             {
-              "id": "integrated-relative-modifier-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "relative-word-001",
               "relationship": "contains",
               "parthood": "formal"
             }
           ],
           "incomingRelations": [
+            {
+              "id": "integrated-relative-modifier-001",
+              "title": "integrated-relative-modifier-001",
+              "relationship": "related-to",
+              "notes": "In the books that arrived, the integrated clause helps identify the books. In The books, which arrived yesterday, are upstairs, the supplementary clause adds a separate comment on a referent already supplied."
+            },
             {
               "id": "relative-clausal-which-001",
               "title": "relative-clausal-which-001",
@@ -13509,10 +13071,6 @@
           "relations": [
             {
               "id": "deverbal-er-noun-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "nom-n-mod-001",
               "relationship": "related-to"
             }
           ],
@@ -13595,15 +13153,15 @@
             {
               "id": "calendar-deictic-np-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "group-genitive-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "In [the day after the election]’s agenda, the genitive gives a time and the marker attaches at the edge of the phrase, after election rather than day."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "genitive-s-001",
-              "title": "genitive-s-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "than-reduced-clause-001",
@@ -13611,17 +13169,13 @@
           "subtitle": "Reduced Than Comparative Clause",
           "path": "/data/constructions/than-reduced-clause-001.yaml",
           "kind": "yaml",
-          "relations": [
-            {
-              "id": "comparative-er-001",
-              "relationship": "interfaces-with"
-            }
-          ],
+          "relations": [],
           "incomingRelations": [
             {
               "id": "comparative-er-001",
               "title": "comparative-er-001",
-              "relationship": "related-to"
+              "relationship": "interfaces-with",
+              "notes": "Longer than we expected pairs a comparative adjective with a than-clause whose missing degree is interpreted through the comparison."
             },
             {
               "id": "difference-than-from-001",
@@ -13667,11 +13221,6 @@
             {
               "id": "fused-adjective-anaphoric-001",
               "title": "fused-adjective-anaphoric-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "fused-head-001",
-              "title": "fused-head-001",
               "relationship": "related-to"
             },
             {
@@ -13746,7 +13295,8 @@
             },
             {
               "id": "since-time-anchor-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Four days ago locates an event relative to the deictic time. Since Monday gives the start of an interval."
             }
           ],
           "incomingRelations": []
@@ -13787,10 +13337,6 @@
             {
               "id": "gradation-001",
               "relationship": "interfaces-with"
-            },
-            {
-              "id": "enough-degree-infinitival-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
@@ -13802,7 +13348,8 @@
             {
               "id": "enough-degree-infinitival-001",
               "title": "enough-degree-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Ripe enough to eat places the degree at or above a lower threshold. Too ripe to eat places it above an upper threshold."
             },
             {
               "id": "so-degree-result-001",
@@ -13871,20 +13418,27 @@
               "parthood": "formal"
             },
             {
-              "id": "measure-pseudopartitive-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "deitality-001",
               "relationship": "interfaces-with"
+            },
+            {
+              "id": "measure-pseudopartitive-001",
+              "relationship": "related-to",
+              "notes": "Three of the cartons selects members of a set. Three litres of the milk specifies quantity. A definite NP after of is compatible with either analysis."
             }
           ],
           "incomingRelations": [
             {
+              "id": "all-of-magnitude-001",
+              "title": "all-of-magnitude-001",
+              "relationship": "related-to",
+              "notes": "All of fifty volunteers emphasizes a magnitude. All of the fifty volunteers ranges over the established group."
+            },
+            {
               "id": "each-of-partitive-001",
               "title": "each-of-partitive-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "notes": "Each of the six drawers uses a partitive domain and distributes the predication over every drawer in it."
             },
             {
               "id": "fused-determiner-head-001",
@@ -13894,11 +13448,6 @@
             {
               "id": "magnitude-quantifier-001",
               "title": "magnitude-quantifier-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "measure-pseudopartitive-001",
-              "title": "measure-pseudopartitive-001",
               "relationship": "related-to"
             },
             {
@@ -14020,23 +13569,11 @@
               "notes": "Number is realized on the finite verb or auxiliary in the VP head of the Clause"
             },
             {
-              "id": "grammatical-number-001",
-              "relationship": "related-to"
-            },
-            {
               "id": "singular-001",
               "relationship": "related-to"
             },
             {
               "id": "plural-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "number-transparent-agreement-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "collective-agreement-001",
               "relationship": "related-to"
             }
           ],
@@ -14144,7 +13681,8 @@
             {
               "id": "prepositional-verb-frame-001",
               "title": "prepositional-verb-frame-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Compare relied on Jo with picked the book up. Jo is the object of selected on. The book is an object of the verb and can precede the particle up."
             },
             {
               "id": "time-away-001",
@@ -14599,17 +14137,14 @@
             {
               "id": "question-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "how-about-proposal-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
             {
               "id": "how-about-proposal-001",
               "title": "how-about-proposal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "How about a short break? and What about a short break? can both propose a break. What about the budget? can also take up an outstanding topic."
             }
           ]
         },
@@ -14713,7 +14248,14 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "how-about-proposal-001",
+              "title": "how-about-proposal-001",
+              "relationship": "related-to",
+              "notes": "How about taking a break? proposes an option with a gerund-participial. Why not take a break? puts forward a proposal using a plain verbal predicate."
+            }
+          ]
         },
         {
           "id": "with-a-capital-letter-001",
@@ -14866,14 +14408,6 @@
             },
             {
               "id": "proper-name-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "numerical-label-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "calendar-deictic-np-001",
               "relationship": "related-to"
             }
           ],

@@ -18,8 +18,6 @@ constraints:
 syntacticRefs:
   - clause-polarity-diagnostics
 relatedConstructions:
-  - id: absolute-negator-determinative-001
-    relationship: related-to
   - id: primary-auxiliary-negation-001
     relationship: interfaces-with
 grounds:

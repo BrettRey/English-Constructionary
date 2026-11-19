@@ -30,15 +30,9 @@ syntacticRefs:
   - deitality-diagnostics
   - bare-singular-exceptions
 relatedConstructions:
-  - id: np-det-001
-    relationship: implements
   - id: np-def-001
     relationship: related-to
   - id: np-indef-001
-    relationship: related-to
-  - id: subject-determiner-001
-    relationship: related-to
-  - id: minor-determiner-001
     relationship: related-to
   - id: group-genitive-001
     relationship: related-to

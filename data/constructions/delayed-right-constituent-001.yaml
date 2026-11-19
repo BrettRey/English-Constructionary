@@ -15,9 +15,6 @@ relatedConstructions:
   - id: coordination-001
     relationship: specialization-of
     notes: The first parts occur in a coordinate structure.
-  - id: coordination-gapping-001
-    relationship: related-to
-    notes: Gapping shares medial material which is pronounced in the first clause.
 grounds:
   - source: fillmore-lee-goldman-rhomieux-2012
     locator: author draft, §4.2

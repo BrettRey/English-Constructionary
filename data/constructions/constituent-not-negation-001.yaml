@@ -33,3 +33,4 @@ relatedConstructions:
     relationship: related-to
   - id: primary-auxiliary-negation-001
     relationship: related-to
+    notes: Jo ordered tea, not coffee targets a constituent. Jo didn’t order coffee puts the negation with the finite auxiliary.

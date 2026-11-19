@@ -58,9 +58,6 @@ relatedConstructions:
   - id: proper-name-001
     relationship: interfaces-with
     notes: Bidirectional syntax-semantics interface; proper nouns cue proper-name interpretation, proper-name intention licenses proper noun choice
-  - id: n-common-001
-    relationship: related-to
-    notes: Parallel noun category
   - id: np-proper-001
     relationship: contains
     parthood: formal

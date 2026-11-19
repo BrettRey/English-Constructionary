@@ -17,11 +17,6 @@ constraints:
     description: Negates the occurrence across the relevant time span.
 syntacticRefs:
   - clause-polarity-diagnostics
-relatedConstructions:
-  - id: absolute-negator-determinative-001
-    relationship: related-to
-  - id: negative-polarity-ever-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: "Ch. 9 §3.2.1 [20ii], §3.2.2; Ch. 8 §9"

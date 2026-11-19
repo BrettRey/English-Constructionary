@@ -20,9 +20,12 @@ relatedConstructions:
   - id: coordination-001
     relationship: specialization-of
     notes: The pattern can link coordinated clauses.
+  - id: right-argument-cluster-coordination-001
+    relationship: related-to
+    notes: Jo ordered tea and Kai coffee allows recovery of ordered in the second clause. Jo gave Kim tea and Kai coffee can instead coordinate two argument clusters under one subject and verb.
   - id: delayed-right-constituent-001
     relationship: related-to
-    notes: The shared material in delayed-right coordination instead has a single overt realization at the end.
+    notes: Gapping leaves repeated predicative material unexpressed in a later coordinate. Right-edge sharing expresses a constituent once at the far right, with an interpretation in more than one coordinate.
 grounds:
   - source: fillmore-lee-goldman-rhomieux-2012
     locator: author draft, §4.2 (19–20)

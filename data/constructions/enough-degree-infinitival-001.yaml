@@ -13,6 +13,7 @@ relatedConstructions:
     relationship: interfaces-with
   - id: too-degree-infinitival-001
     relationship: related-to
+    notes: Ripe enough to eat places the degree at or above a lower threshold. Too ripe to eat places it above an upper threshold.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §8.4; Ch. 6, degree modification

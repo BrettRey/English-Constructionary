@@ -14,8 +14,6 @@ relatedConstructions:
   - id: perfect-have-001
     relationship: specialization-of
     parthood: formal
-  - id: continuative-perfect-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §§5.3–5.3.2

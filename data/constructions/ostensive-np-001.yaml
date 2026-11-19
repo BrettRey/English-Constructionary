@@ -64,9 +64,6 @@ relatedConstructions:
   - id: np-001
     relationship: specialization-of
     parthood: formal
-  - id: exclamation-001
-    relationship: overlaps-with
-    overlap-dimension: functional
 grounds:
   - source: cgel-2002
     locator: "pp. 522-23"

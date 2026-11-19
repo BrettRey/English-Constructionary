@@ -16,6 +16,7 @@ relatedConstructions:
     relationship: related-to
   - id: since-time-anchor-001
     relationship: related-to
+    notes: Four days ago locates an event relative to the deictic time. Since Monday gives the start of an interval.
 grounds:
   - source: cgel-2002
     locator: Ch. 7, p. 632; Ch. 8 §6.3

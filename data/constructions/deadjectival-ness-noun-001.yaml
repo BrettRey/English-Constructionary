@@ -18,6 +18,9 @@ relatedConstructions:
   - id: adjective-001
     relationship: related-to
     notes: The core pattern selects an adjective as its base.
+  - id: deadjectival-ity-noun-001
+    relationship: related-to
+    notes: Both suffixes can create property nouns, as in kindness and opacity. The adjective base constrains the choice of suffix and can have a different stem form before -ity.
 grounds:
   - source: casa-constructicon
     locator: records 152–153

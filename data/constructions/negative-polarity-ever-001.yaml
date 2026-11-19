@@ -13,6 +13,9 @@ relatedConstructions:
     relationship: interfaces-with
   - id: durational-long-001
     relationship: related-to
+  - id: never-adv-negation-001
+    relationship: related-to
+    notes: Have you ever seen it? licenses ever in a question and supplies no negative assertion. Jo never saw it has negation within the temporal adverb.
 grounds:
   - source: cgel-2002
     locator: Ch. 9 §§4.1–4.4

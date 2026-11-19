@@ -14,6 +14,9 @@ relatedConstructions:
     parthood: formal
   - id: present-futurate-001
     relationship: related-to
+  - id: progressive-ing-001
+    relationship: related-to
+    notes: Compare I’m going to leave and I’m going to the station. The prospective construction takes an infinitival and allows subjects with no motion interpretation.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §10.2

@@ -12,8 +12,6 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-  - id: plain-make-causative-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.4.3, 5.4, let

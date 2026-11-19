@@ -30,6 +30,9 @@ relatedConstructions:
   - id: relative-word-001
     relationship: related-to
     notes: The cleft relative can be marked by a relative word; that and zero relatives also occur.
+  - id: subject-extraposition-001
+    relationship: related-to
+    notes: It was Jo who opened the window identifies the focused value. It was surprising that Jo opened the window places the content of the evaluation after the predicate.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §§9.1–9.2, 9.4.1, pp. 1415–1425

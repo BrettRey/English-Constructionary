@@ -13,6 +13,9 @@ relatedConstructions:
     relationship: related-to
   - id: proposition-affirmation-001
     relationship: related-to
+  - id: anaphoric-propositional-not-001
+    relationship: alternates-with
+    notes: I hope so and I hope not share an attitude predicate. So picks up the proposition in play. Not picks up its negative counterpart.
 grounds:
   - source: cgel-2002
     locator: Ch. 9 §7.2; Ch. 17 §7.7.2

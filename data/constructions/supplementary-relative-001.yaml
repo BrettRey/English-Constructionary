@@ -9,8 +9,6 @@ meanings:
       - form: Jo visited Bath, [which she had never seen before].
         note: Constructed illustration.
 relatedConstructions:
-  - id: integrated-relative-modifier-001
-    relationship: related-to
   - id: relative-word-001
     relationship: contains
     parthood: formal

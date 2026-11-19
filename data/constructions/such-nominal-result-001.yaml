@@ -12,8 +12,6 @@ relatedConstructions:
   - id: declarative-content-clause-001
     relationship: contains
     parthood: formal
-  - id: so-degree-result-001
-    relationship: related-to
   - id: so-nominal-predication-001
     relationship: related-to
 grounds:

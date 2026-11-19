@@ -30,8 +30,6 @@ relatedConstructions:
   - id: cardinal-determinative-001
     relationship: related-to
     notes: Cardinal determinatives vs cardinal nouns
-  - id: denominator-numeral-001
-    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     relation: cites

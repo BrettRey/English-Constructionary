@@ -33,10 +33,6 @@ relatedConstructions:
     relationship: specialization-of
   - id: proper-name-001
     relationship: related-to
-  - id: numerical-label-001
-    relationship: related-to
-  - id: calendar-deictic-np-001
-    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     locator: "§5, calendrical labels"

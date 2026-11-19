@@ -14,8 +14,6 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-  - id: object-control-infinitival-001
-    relationship: related-to
   - id: subject-raising-infinitival-001
     relationship: related-to
 grounds:

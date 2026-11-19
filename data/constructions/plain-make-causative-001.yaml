@@ -12,10 +12,15 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-  - id: be-passive-001
-    relationship: related-to
   - id: into-causative-001
     relationship: related-to
+  - id: be-passive-001
+    relationship: interfaces-with
+    notes: Compare They made Kai wait and Kai was made to wait. The infinitival marker is required in the passive counterpart.
+  - id: let-permissive-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: Made Kai wait and let Kai wait share an NP followed by a bare infinitival. Make presents a cause and let presents permission or non-prevention.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.4.3, 5.4, make

@@ -26,16 +26,6 @@ relatedConstructions:
   - id: phrase-001
     relationship: specialization-of
     parthood: formal
-  - id: np-common-001
-    relationship: specialization-of
-    parthood: formal
-    notes: Common NPs specialize the formal pattern with common noun head
-  - id: np-proper-001
-    relationship: specialization-of
-    parthood: formal
-  - id: np-pron-001
-    relationship: specialization-of
-    parthood: formal
   - id: nom-001
     relationship: contains
     parthood: formal

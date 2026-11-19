@@ -17,6 +17,12 @@ relatedConstructions:
   - id: imperative-negation-do-001
     relationship: related-to
     notes: Imperative do also occurs before be.
+  - id: closed-interrogative-clause-001
+    relationship: interfaces-with
+    notes: Did Jo leave? inserts finite do when the clause needs inversion and has no other auxiliary. Has Jo left? inverts the auxiliary already present.
+  - id: primary-auxiliary-negation-001
+    relationship: interfaces-with
+    notes: Jo didn’t leave uses do to host negation. Jo hasn’t left uses the existing auxiliary.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §§2.1.1–2.1.2

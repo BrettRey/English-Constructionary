@@ -20,6 +20,10 @@ relatedConstructions:
   - id: closed-interrogative-clause-001
     relationship: related-to
     notes: The same auxiliary–subject order can express a question, with a wider range of auxiliaries.
+  - id: negative-initial-inversion-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: Had Jo known introduces a condition without if. Never had Jo seen it uses the same auxiliary–subject order in a clause with a preposed negative expression.
 grounds:
   - source: fillmore-lee-goldman-rhomieux-2012
     locator: author draft, §4.3.2 (27–31)

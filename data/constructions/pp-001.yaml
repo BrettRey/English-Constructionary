@@ -35,8 +35,6 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: The head is a preposition
-  - id: content-because-adjunct-001
-    relationship: related-to
 lexiconRefs:
   - gold/prepositions
 grounds:

@@ -59,7 +59,5 @@ kind:
     evidence: "CGEL describes the sibilant allomorphy and separately documents contextual count readings."
     confidence: medium
 relatedConstructions:
-  - id: irregular-vowel-plural-001
-    relationship: related-to
   - id: portion-variety-count-001
     relationship: related-to

@@ -12,8 +12,6 @@ relatedConstructions:
   - id: coordination-001
     relationship: specialization-of
     parthood: formal
-  - id: constituent-not-negation-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 15 §§2.5–2.6

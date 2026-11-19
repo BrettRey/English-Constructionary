@@ -9,8 +9,6 @@ meanings:
       - form: Jo must be home, [because her keys are on the table].
         note: Constructed illustration.
 relatedConstructions:
-  - id: content-because-adjunct-001
-    relationship: related-to
   - id: epistemic-perfect-modal-001
     relationship: related-to
 grounds:

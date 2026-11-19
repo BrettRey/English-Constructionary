@@ -71,6 +71,7 @@ Link entries through `relatedConstructions`, each with an `id` and a `relationsh
 Two conventions:
 
 - **No redundant inverses.** If a child has `specialization-of` pointing to its parent, don't add `contains` on the parent; the browser computes incoming relations.
+- **Inheritance points to the broader pattern.** The linter checks for cycles in `specialization-of` and `inherits-from`. A determined NP overlaps with a definite NP because each admits instances outside the other’s profile.
 - **Category vs use.** A category gets one entry (`cardinal-noun-001`); its distinct uses get their own entries (`numerical-label-001`, `magnitude-quantifier-001`) linked with `specialization-of`. Category entries answer "what exists?"; use entries answer "how is it used?".
 
 ### Search for relations before adding an entry

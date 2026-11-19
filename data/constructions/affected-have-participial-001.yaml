@@ -12,8 +12,6 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-  - id: causative-have-001
-    relationship: related-to
   - id: be-passive-001
     relationship: related-to
 grounds:

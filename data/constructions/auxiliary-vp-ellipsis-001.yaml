@@ -17,6 +17,13 @@ relatedConstructions:
   - id: coordination-gapping-001
     relationship: related-to
     notes: Gapping leaves contrastive material on both sides of the omitted sequence.
+  - id: infinitival-to-stranding-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: In Jo has, too, an auxiliary remains before an unexpressed VP. In Jo tried to, the infinitival marker remains before an unexpressed predicate.
+  - id: interrogative-sluicing-001
+    relationship: related-to
+    notes: I don’t know who retains a wh-remnant and leaves the rest of the question unexpressed. Jo can retains the auxiliary before an unexpressed VP.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §2.1.4; Ch. 17 §7.1

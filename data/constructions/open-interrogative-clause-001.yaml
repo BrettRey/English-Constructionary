@@ -71,9 +71,6 @@ relatedConstructions:
   - id: closed-interrogative-clause-001
     relationship: see-also
     notes: Open and closed interrogatives are distinct primary clause types with different syntactic marking
-  - id: exclamative-clause-001
-    relationship: see-also
-    notes: What and how can mark either type, but role, order, meaning, and context distinguish them
   - id: echo-question-001
     relationship: see-also
     notes: Echo marking is independent of clause type and can preserve the stimulus order instead of showing open-interrogative order

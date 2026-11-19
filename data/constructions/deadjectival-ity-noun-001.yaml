@@ -15,9 +15,6 @@ relatedConstructions:
   - id: n-common-001
     relationship: specialization-of
     notes: The output is a common noun.
-  - id: deadjectival-ness-noun-001
-    relationship: related-to
-    notes: The competing derivation has a different stress and stem profile.
 grounds:
   - source: casa-constructicon
     locator: record 153

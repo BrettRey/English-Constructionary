@@ -9,8 +9,6 @@ meanings:
       - form: I didn’t go, but I [wanted to].
         note: Constructed illustration.
 relatedConstructions:
-  - id: auxiliary-vp-ellipsis-001
-    relationship: related-to
   - id: lexical-do-so-anaphor-001
     relationship: related-to
 grounds:

@@ -17,12 +17,16 @@ semanticType: reference
 relatedConstructions:
   - id: np-001
     relationship: inherits-from
-  - id: np-bare-001
-    relationship: specialization-of
-  - id: np-det-001
-    relationship: specialization-of
   - id: strong-proper-name-001
     relationship: related-to
+  - id: np-bare-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: Dogs can be both bare and headed by a common noun. The dogs has the same head category with an overt determiner.
+  - id: np-det-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: The dogs is both determined and headed by a common noun. Dogs has the same head category without an overt determiner.
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §§1–3, 20"

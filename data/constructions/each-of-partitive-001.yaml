@@ -11,7 +11,7 @@ meanings:
 relatedConstructions:
   - id: true-partitive-001
     relationship: specialization-of
-    parthood: formal
+    notes: Each of the six drawers uses a partitive domain and distributes the predication over every drawer in it.
   - id: grammatical-number-001
     relationship: related-to
 grounds:

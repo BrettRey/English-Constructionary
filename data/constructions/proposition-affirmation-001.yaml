@@ -11,10 +11,11 @@ meanings:
       - form: “You did promise.” “[So did Jo].”
         note: Constructed comparison. Inversion instead adds Jo as another promiser.
 relatedConstructions:
-  - id: so-neither-inversion-001
-    relationship: related-to
   - id: auxiliary-vp-ellipsis-001
     relationship: related-to
+  - id: so-neither-inversion-001
+    relationship: related-to
+    notes: So I did confirms the proposition. So did Jo extends the predicate to another subject. Subject–auxiliary order distinguishes the two.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §3.2; Ch. 17, anaphoric so

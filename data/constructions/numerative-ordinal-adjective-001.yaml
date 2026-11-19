@@ -30,8 +30,6 @@ relatedConstructions:
     relationship: specialization-of
   - id: numerative-ordinal-rightmost-001
     relationship: related-to
-  - id: numerative-fractional-001
-    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     locator: "§5, ordinal adjectives"

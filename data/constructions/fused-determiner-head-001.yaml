@@ -30,9 +30,6 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
     notes: "Determinative-head subtype of the broader fused-head family"
-  - id: np-001
-    relationship: specialization-of
-    parthood: formal
   - id: absolute-negator-determinative-001
     relationship: related-to
     notes: Absolute negators standing alone as NPs instantiate this construction

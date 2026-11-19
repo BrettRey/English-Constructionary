@@ -72,8 +72,6 @@ syntacticRefs:
 relatedConstructions:
   - id: quasi-count-noun-001
     relationship: related-to
-  - id: portion-variety-count-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §§3.1–3.2"

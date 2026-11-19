@@ -11,8 +11,6 @@ meanings:
 relatedConstructions:
   - id: declarative-content-clause-001
     relationship: related-to
-  - id: past-tense-ed-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §6.2; Ch. 11 §9

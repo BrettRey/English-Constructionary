@@ -19,6 +19,7 @@ relatedConstructions:
     parthood: formal
   - id: integrated-relative-modifier-001
     relationship: related-to
+    notes: The rumour that Jo had left gives the content of the rumour, with no noun-linked gap. The rumour that Jo spread has an object gap linked to rumour.
 grounds:
   - source: cgel-2002
     locator: Ch. 11 §4.5; Ch. 5 §14, complements

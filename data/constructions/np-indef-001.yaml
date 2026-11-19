@@ -98,9 +98,6 @@ relatedConstructions:
   - id: np-001
     relationship: specialization-of
     parthood: formal
-  - id: np-def-001
-    relationship: alternates-with
-    notes: Paradigmatic contrast in the definiteness system
   - id: existential-there-001
     relationship: related-to
 semanticRefs:

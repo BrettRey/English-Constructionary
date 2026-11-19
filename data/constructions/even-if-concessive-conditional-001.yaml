@@ -12,8 +12,6 @@ relatedConstructions:
   - id: if-conditional-001
     relationship: specialization-of
     parthood: formal
-  - id: although-concessive-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §14.1.3

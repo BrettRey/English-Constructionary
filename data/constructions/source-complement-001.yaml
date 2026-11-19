@@ -78,9 +78,6 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: The source-role locative complement is a PP headed centrally by from, away, off, or out
-  - id: goal-complement-001
-    relationship: related-to
-    notes: Sister semantic roles within the locative-complement family
 lexiconRefs:
   - gold/prepositions
 grounds:

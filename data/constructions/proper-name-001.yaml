@@ -60,8 +60,6 @@ relatedConstructions:
     notes: Proper names can be realized as proper-noun-headed NPs
   - id: strong-proper-name-001
     relationship: interfaces-with
-  - id: proper-name-secondary-use-001
-    relationship: related-to
 semanticRefs:
   - honorific
   - title

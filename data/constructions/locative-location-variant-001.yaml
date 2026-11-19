@@ -12,6 +12,9 @@ relatedConstructions:
   - id: monotransitive-vp-001
     relationship: specialization-of
     parthood: formal
+  - id: instrumental-with-np-001
+    relationship: related-to
+    notes: In sprayed the panel with paint, the with-phrase gives the material applied. In painted the panel with a brush, it gives the instrument.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §§8.3.1, 8.3.3

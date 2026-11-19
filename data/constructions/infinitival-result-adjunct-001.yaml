@@ -8,9 +8,6 @@ meanings:
     examples:
       - form: Jo opened the parcel [only to find it empty].
         note: Constructed illustration.
-relatedConstructions:
-  - id: infinitival-purpose-adjunct-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §9 [3ii]; Ch. 8 §12.4, result

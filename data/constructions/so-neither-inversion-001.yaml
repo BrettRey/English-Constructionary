@@ -13,8 +13,6 @@ meanings:
 relatedConstructions:
   - id: auxiliary-vp-ellipsis-001
     relationship: related-to
-  - id: neither-nor-coordination-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §2.1.2, inversion after additive so/neither; Ch. 8 §19, connective adjuncts

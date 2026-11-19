@@ -12,8 +12,6 @@ relatedConstructions:
   - id: open-interrogative-clause-001
     relationship: specialization-of
     parthood: formal
-  - id: how-come-explanation-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 10 §7.10 n. 14

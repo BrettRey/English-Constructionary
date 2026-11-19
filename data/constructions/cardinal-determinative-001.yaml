@@ -23,8 +23,6 @@ constraints:
 semanticRefs:
   - cardinality
 relatedConstructions:
-  - id: cardinal-noun-001
-    relationship: related-to
   - id: numerative-fused-head-001
     relationship: related-to
   - id: determination-001

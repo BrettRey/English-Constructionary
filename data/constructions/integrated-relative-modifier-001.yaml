@@ -21,6 +21,9 @@ relatedConstructions:
   - id: fused-relative-np-001
     relationship: related-to
     notes: A fused relative can form an NP without a separately expressed antecedent.
+  - id: supplementary-relative-001
+    relationship: related-to
+    notes: In the books that arrived, the integrated clause helps identify the books. In The books, which arrived yesterday, are upstairs, the supplementary clause adds a separate comment on a referent already supplied.
 grounds:
   - source: casa-constructicon
     locator: record 108

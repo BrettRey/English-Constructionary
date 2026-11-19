@@ -9,10 +9,11 @@ meanings:
       - form: Jo [got promoted] last week.
         note: Constructed illustration.
 relatedConstructions:
-  - id: be-passive-001
-    relationship: related-to
   - id: subject-resultative-001
     relationship: related-to
+  - id: be-passive-001
+    relationship: alternates-with
+    notes: Jo got promoted and Jo was promoted can describe the same event. Get foregrounds the change or its relevance to Jo. Be is also available in stative uses such as is widely believed.
 grounds:
   - source: cgel-2002
     locator: Ch. 16 §10.1.3, verbal get-passive versus adjectival get

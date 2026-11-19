@@ -14,8 +14,6 @@ relatedConstructions:
   - id: clause-001
     relationship: specialization-of
     parthood: formal
-  - id: subject-control-infinitival-001
-    relationship: related-to
   - id: adjectival-raising-001
     relationship: related-to
 grounds:

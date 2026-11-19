@@ -9,8 +9,6 @@ meanings:
       - form: This plan is [better] than the first.
         note: Constructed illustration.
 relatedConstructions:
-  - id: comparative-er-001
-    relationship: related-to
   - id: superlative-grade-001
     relationship: related-to
 grounds:

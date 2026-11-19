@@ -12,8 +12,6 @@ relatedConstructions:
   - id: np-det-001
     relationship: specialization-of
     parthood: formal
-  - id: demonstrative-determinative-fused-head-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 5 §7.1; Ch. 17 §§5.1–5.3

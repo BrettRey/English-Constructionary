@@ -9,8 +9,6 @@ meanings:
       - form: “Is the screen broken?” “I [hope not].”
         note: Constructed illustration.
 relatedConstructions:
-  - id: anaphoric-propositional-so-001
-    relationship: related-to
   - id: negative-raising-001
     relationship: related-to
 grounds:

@@ -14,8 +14,6 @@ relatedConstructions:
   - id: pp-001
     relationship: specialization-of
     parthood: formal
-  - id: for-duration-adjunct-001
-    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§7.2–7.3

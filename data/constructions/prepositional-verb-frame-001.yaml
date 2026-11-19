@@ -14,6 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: verb-particle-object-001
     relationship: related-to
+    notes: Compare relied on Jo with picked the book up. Jo is the object of selected on. The book is an object of the verb and can precede the particle up.
 grounds:
   - source: cgel-2002
     locator: Ch. 4 §§6.1–6.2

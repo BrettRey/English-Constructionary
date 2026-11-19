@@ -8,9 +8,6 @@ meanings:
     examples:
       - form: We objected to [them blocking the exit].
         note: Constructed illustration.
-relatedConstructions:
-  - id: genitive-ing-subject-001
-    relationship: alternates-with
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §1.6

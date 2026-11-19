@@ -14,10 +14,11 @@ relatedConstructions:
   - id: vp-001
     relationship: specialization-of
     parthood: formal
-  - id: be-passive-001
-    relationship: related-to
   - id: adjective-hollow-infinitival-001
     relationship: related-to
+  - id: be-passive-001
+    relationship: related-to
+    notes: The hinge needs oiling has a passive interpretation with an active gerund-participial. The hinge needs to be oiled expresses the passive overtly.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §2.3

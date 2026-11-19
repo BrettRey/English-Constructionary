@@ -28,8 +28,6 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
     notes: The progressive auxiliary and gerund-participial complement form a VP headed by be
-  - id: progressive-futurate-001
-    relationship: related-to
   - id: genitive-ing-subject-001
     relationship: related-to
 grounds:

@@ -14,6 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: subject-raising-infinitival-001
     relationship: related-to
+    notes: Jo promised to return assigns Jo a role in the promising. There seems to be a leak allows dummy there because the subject is selected through the infinitival.
 grounds:
   - source: cgel-2002
     locator: Ch. 14 §§1.7, 2.1

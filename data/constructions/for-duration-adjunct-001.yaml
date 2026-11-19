@@ -14,6 +14,7 @@ relatedConstructions:
     parthood: formal
   - id: in-duration-completion-001
     relationship: related-to
+    notes: Wrote for an hour measures time spent writing. Wrote the letter in an hour measures elapsed time to completion.
 grounds:
   - source: cgel-2002
     locator: Ch. 8 §§7.2–7.3

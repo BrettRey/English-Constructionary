@@ -16,6 +16,10 @@ relatedConstructions:
     parthood: formal
   - id: experiential-perfect-001
     relationship: related-to
+    notes: I’ve lived here since 2019 allows an ongoing-state reading. I’ve visited three times since 2019 counts completed episodes within the same interval.
+  - id: since-time-anchor-001
+    relationship: interfaces-with
+    notes: Since 2019 supplies the start time in I’ve lived here since 2019. Since also combines with experiential uses, so it does not force continuity.
 grounds:
   - source: cgel-2002
     locator: Ch. 3 §5.2

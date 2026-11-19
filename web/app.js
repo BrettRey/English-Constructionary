@@ -425,6 +425,7 @@ const renderYamlSummary = (data, itemMeta = null) => {
     // Taxonomic hierarchy (type-subtype)
     renderRelationList('Is an instance of', instanceOf, true);
     renderRelationList('Is specialized by', isSpecializedBy, false);
+    renderRelationList('Is inherited by', isInheritedBy, false);
     renderRelationList('Is implemented by', isImplementedBy, false);
 
     // Symmetric relations
