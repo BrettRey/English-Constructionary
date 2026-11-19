@@ -4,6 +4,9 @@ const yaml = require('js-yaml');
 
 const root = path.join(__dirname, '..');
 const webDir = path.join(root, 'web');
+const profilesFile = 'profiles.yaml';
+const profiles = yaml.load(fs.readFileSync(path.join(root, 'data/lexicon', profilesFile), 'utf8')).records;
+const profileId = (record) => `lex:${encodeURIComponent(record.lemma)}:${record['source-pos']}`;
 
 const readYamlMeta = (filePath) => {
   try {
@@ -122,6 +125,7 @@ const buildLexemeSection = () => {
       relations: [],
       incomingRelations: []
     });
+    return items[items.length - 1];
   };
 
   if (fs.existsSync(goldDir)) {
@@ -174,6 +178,18 @@ const buildLexemeSection = () => {
           senses ? { override: detail, status: 'adjudicated', senses } : { override: detail, status: 'adjudicated' });
       }
     });
+  }
+
+  for (const record of profiles) {
+    const match = items.find(({ lexeme }) => lexeme.lemma === record.lemma
+      && lexeme.category === record.category
+      && (posForGoldFile[path.basename(lexeme.source)] || lexeme.override?.['source-pos']) === record['source-pos']);
+    const item = match || pushLexeme(record.lemma, record.category, profilesFile);
+    item.id = profileId(record);
+    item.lexeme.uses = record.uses;
+    item.lexeme.profileSource = profilesFile;
+    item.lexeme.status = 'profiled';
+    delete item.lexeme.constructions;
   }
 
   items.sort((a, b) => a.title.localeCompare(b.title));
@@ -237,6 +253,13 @@ const buildSourcesSection = () => {
       const ref = { id: rec.lemma, name: rec.lemma };
       sourceIds.forEach((sid) => record(sid, ref));
     });
+  }
+  for (const profile of profiles) {
+    const sourceIds = new Set();
+    collectGroundSources(profile, sourceIds);
+    for (const sourceId of sourceIds) {
+      record(sourceId, { id: profileId(profile), name: `${profile.lemma} (${profile.category})` });
+    }
   }
 
   const items = Object.entries(registry).map(([id, entry]) => ({
@@ -344,6 +367,7 @@ if (constructionSection) {
         };
         if (rel.parthood) incoming.parthood = rel.parthood;
         if (rel['overlap-dimension']) incoming['overlap-dimension'] = rel['overlap-dimension'];
+        if (rel.notes) incoming.notes = rel.notes;
         target.incomingRelations.push(incoming);
       }
     });
@@ -351,6 +375,23 @@ if (constructionSection) {
 
   // Keep all incoming relations so the UI can display hierarchy inverses and
   // symmetric relations without duplicating the data edges in both directions.
+  const lexemes = manifest.sections.find((section) => section.id === 'lexemes');
+  for (const item of lexemes.items) {
+    for (const use of item.lexeme.uses || []) {
+      for (const link of use.links) {
+        const target = byId.get(link.construction);
+        if (!target) throw new Error(`Unknown construction '${link.construction}' in ${item.id}`);
+        target.lexicalUses ||= [];
+        target.lexicalUses.push({
+          id: item.id,
+          lemma: item.lexeme.lemma,
+          category: item.lexeme.category,
+          label: use.label,
+          relationship: link.relationship
+        });
+      }
+    }
+  }
 }
 
 // Drop sections with no files (e.g. literature/ is untracked and absent in CI)

@@ -17,6 +17,7 @@ try {
   const schema = JSON.parse(fs.readFileSync(schemaPath, 'utf8'));
   const validate = ajv.compile(schema);
   const files = fs.readdirSync(constructionsDir).filter((file) => file.endsWith('.yaml')).sort();
+  const knownConstructions = new Set();
 
   let errorCount = 0;
 
@@ -39,6 +40,8 @@ try {
         console.error(formatError(error));
       });
       errorCount += 1;
+    } else {
+      knownConstructions.add(content.id);
     }
   });
 
@@ -46,7 +49,8 @@ try {
   const lexiconSchemaPath = path.join(__dirname, '../data/schemas/lexicon-override.json');
   const overridesPath = path.join(__dirname, '../data/lexicon/overrides.yaml');
   if (fs.existsSync(lexiconSchemaPath) && fs.existsSync(overridesPath)) {
-    const lexiconValidate = ajv.compile(JSON.parse(fs.readFileSync(lexiconSchemaPath, 'utf8')));
+    ajv.addSchema(JSON.parse(fs.readFileSync(lexiconSchemaPath, 'utf8')), 'lexicon-override.json');
+    const lexiconValidate = ajv.getSchema('lexicon-override.json');
     try {
       const overrides = yaml.load(fs.readFileSync(overridesPath, 'utf8'));
       if (!lexiconValidate(overrides)) {
@@ -57,6 +61,40 @@ try {
     } catch (parseError) {
       console.error(`\ndata/lexicon/overrides.yaml failed YAML parsing: ${parseError.message}`);
       errorCount += 1;
+    }
+  }
+
+  const profilesPath = path.join(__dirname, '../data/lexicon/profiles.yaml');
+  const profilesSchemaPath = path.join(__dirname, '../data/schemas/lexicon-profile.json');
+  const validateProfiles = ajv.compile(JSON.parse(fs.readFileSync(profilesSchemaPath, 'utf8')));
+  const profiles = yaml.load(fs.readFileSync(profilesPath, 'utf8'));
+  if (!validateProfiles(profiles)) {
+    console.error('\ndata/lexicon/profiles.yaml failed schema validation:');
+    validateProfiles.errors.forEach((error) => console.error(formatError(error)));
+    errorCount += 1;
+  } else {
+    const profileKeys = new Set();
+    for (const record of profiles.records) {
+      const key = `${record.lemma} / ${record['source-pos']}`;
+      const useIds = new Set();
+      if (profileKeys.has(key)) {
+        console.error(`data/lexicon/profiles.yaml: duplicate profile '${key}'`);
+        errorCount += 1;
+      }
+      profileKeys.add(key);
+      for (const use of record.uses) {
+        if (useIds.has(use.id)) {
+          console.error(`data/lexicon/profiles.yaml: duplicate use '${use.id}' for '${key}'`);
+          errorCount += 1;
+        }
+        useIds.add(use.id);
+        for (const link of use.links) {
+          if (!knownConstructions.has(link.construction)) {
+            console.error(`data/lexicon/profiles.yaml: unknown construction '${link.construction}' for '${key}'`);
+            errorCount += 1;
+          }
+        }
+      }
     }
   }
   const goldDir = path.join(__dirname, '../data/lexicon/gold');
@@ -108,6 +146,7 @@ try {
         checkFile('data/lexicon/overrides.yaml', yaml.load(fs.readFileSync(overridesPath, 'utf8')));
       } catch (parseError) { /* already reported above */ }
     }
+    checkFile('data/lexicon/profiles.yaml', profiles);
   }
 
   if (errorCount > 0) {

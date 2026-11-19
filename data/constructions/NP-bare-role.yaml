@@ -5,12 +5,12 @@ type: mixed
 dimensions:
   form: "A singular count nominal, optionally modified, with no determiner"
   meaning: "Presents an office, assignment, or role that can be held or taken on"
-  function: "Subject- or object-oriented predicative, complement of role-marking as or selected of, or ascriptive supplement"
+  function: "Subject- or object-oriented predicative, complement of a preposition in a licensed frame, or ascriptive supplement"
   distribution: "Available in particular role-denoting senses and constructions. Ordinary referential subject and object positions generally require a determiner with the same singular count noun."
 meanings:
   '1':
     definition: Ascribes an office or institutional role, or gives the content of an office expression.
-    details: "The same nominal can follow be, become, remain, appoint, or elect when the verb licenses a predicative complement. It can also occur with as and in role of or position of. In an appointment construction the direct object names the appointee and the bare NP gives the office."
+    details: "The same nominal can follow be, become, remain, appoint, or elect when the verb licenses a predicative complement. It can also occur with as and in role of or position of, in a matrix-licensed except phrase, or as an ascriptive supplement. In an appointment construction the direct object identifies the appointee and the bare NP gives the office."
     examples:
       - form: "They appointed Lee [treasurer of the club]."
         note: "Constructed object-oriented predicative. In They questioned the treasurer of the club, the article-marked NP instead identifies the person questioned."
@@ -25,6 +25,20 @@ meanings:
             bears-on: attestation
       - form: "Lee is [secretary of the club]."
         note: "Constructed after CGEL’s comparison. Lee is the secretary of the club can also specify the incumbent in answer to Who is the secretary?"
+      - form: "I’ve been everything except [president]."
+        note: "The except phrase picks out a role from the alternatives made available by the matrix clause."
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 7 §5, matrix-licensed complements [21ii]"
+            relation: attests
+            bears-on: attestation
+      - form: "Wilson, [Secretary to the Cabinet], had informed the Prime Minister immediately."
+        note: "Ascriptive supplement. The bare NP cannot replace Wilson as the referential subject."
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 15 §5 [22ii]"
+            relation: attests
+            bears-on: attestation
   '2':
     definition: Ascribes a professional assignment construed as a post.
     details: "A workplace can make a particular assignment available for the construction. The availability of a bare form is sensitive to lexical choice and how a job title is used in the institution."
@@ -47,7 +61,7 @@ constraints:
   - type: semantic
     description: "The choice of noun and context must support a role reading. Predicative function alone does not license removal of the article from become a miser or become a teacher."
   - type: semantic
-    description: "The role can have multiple holders. An article-marked alternative can also ascribe a role, and with specifying be it can identify the contextually relevant incumbent."
+    description: "The role can have multiple holders. A counterpart with an overt determiner can also ascribe a role, as in became a co-captain or remained our captain. With be, a counterpart with the can additionally identify the contextually relevant incumbent."
 relatedConstructions:
   - id: np-bare-001
     relationship: specialization-of
@@ -59,15 +73,35 @@ relatedConstructions:
   - id: object-ascriptive-001
     relationship: interfaces-with
     notes: "In the appointment frame the predicand is realized as object."
+  - id: pp-001
+    relationship: interfaces-with
+    notes: "A bare role NP can be the predicative complement of as or a complement of selected of or except."
+  - id: np-indef-001
+    relationship: alternates-with
+    notes: "Compare became co-captain and became a co-captain. Both can ascribe the same post."
+  - id: np-def-001
+    relationship: alternates-with
+    notes: "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
   - id: specificational-copular-001
     relationship: related-to
-    notes: "The definite counterpart can identify who fills the role."
+    notes: "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
+  - id: supplementary-appositive-np-001
+    relationship: related-to
+    notes: "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
+  - id: bare-institutional-use-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
+  - id: matched-bare-endpoints-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
+  - id: vocative-001
+    relationship: related-to
+    notes: "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
   - id: strong-proper-name-001
     relationship: related-to
     notes: "A role form used as a standing name independently licenses referential argument uses."
-  - id: weak-proper-name-article-001
-    relationship: related-to
-    notes: "The article pattern of a conventional name is independent of the article alternation in role predication."
 grounds:
   - source: cgel-2002
     locator: "Ch. 4 §5.1 [5]; Ch. 5 §8.5 [19], p. 409; Ch. 7, pp. 637–638, predicative complements of as; Ch. 15 §5, [22ii]"
@@ -75,7 +109,7 @@ grounds:
     bears-on: projection
     note: "Documents verbal, prepositional, and ascriptive supplementary uses and contrasts referential object uses."
   - source: cgel-2002
-    locator: "Ch. 4 §5.5.2, contrast with secretary of the bushwalking club; Ch. 5 §8.5 [19], p. 409"
+    locator: "Ch. 4 §5.5.1(e), contrast with secretary of the bushwalking club; Ch. 5 §8.5 [19], p. 409"
     relation: cites
     bears-on: projection
     note: "The role ascription and the identifying interpretation differ. Chapter 5 gives the stronger replacement claim."
@@ -83,7 +117,7 @@ kind:
   provisional: true
   projection:
     target: "In ordinary standard English, with a reading that ascribes or names an assignment, a nominal such as treasurer can remain bare in She stayed treasurer, They appointed her treasurer, and As treasurer, she signed. Reuse as a stand-alone referential object, as in They questioned the treasurer, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
-    evidence: "CGEL compares the same noun in predicative and object positions and documents the as and of uses. The Arizona State report documents shared tenure. The acceptability and reading of the article-insertion variants remain sensitive to the context."
+    evidence: "CGEL compares the same noun in predicative and object positions and documents the prepositional and supplementary uses. The Arizona State report documents shared tenure. Whether a counterpart with the preserves the bare reading depends on the frame and context."
     confidence: high
 semanticRefs:
   - role

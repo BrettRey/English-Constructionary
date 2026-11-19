@@ -8,7 +8,8 @@
     "build:web": "node scripts/build-web-manifest.js",
     "web": "node scripts/serve-web.js",
     "grounding": "node scripts/grounding-report.js",
-    "graph": "node scripts/export-graph.js"
+    "graph": "node scripts/export-graph.js",
+    "relations": "node scripts/find-relations.js"
   },
   "dependencies": {
     "ajv": "^8.12.0",

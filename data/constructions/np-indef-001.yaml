@@ -103,8 +103,6 @@ relatedConstructions:
     notes: Paradigmatic contrast in the definiteness system
   - id: existential-there-001
     relationship: related-to
-  - id: bare-role-001
-    relationship: related-to
 semanticRefs:
   - quantifier
   - predication

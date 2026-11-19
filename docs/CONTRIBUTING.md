@@ -73,6 +73,24 @@ Two conventions:
 - **No redundant inverses.** If a child has `specialization-of` pointing to its parent, don't add `contains` on the parent; the browser computes incoming relations.
 - **Category vs use.** A category gets one entry (`cardinal-noun-001`); its distinct uses get their own entries (`numerical-label-001`, `magnitude-quantifier-001`) linked with `specialization-of`. Category entries answer "what exists?"; use entries answer "how is it used?".
 
+### Search for relations before adding an entry
+
+1. Sketch the entry’s form, function, interpretation and a diagnostic contrast. Include contrasting examples with one variable changed. Pick search terms for the surrounding frame as well as the new pattern.
+2. Run `npm run relations -- ENTRY-ID --form REGEX --meaning REGEX --contrast REGEX` once the draft YAML is in `data/constructions/`. The command searches entry fields and examples and reports shared index terms, siblings of any proposed parent, and incoming and outgoing edges. Inspect the matched entries and the source passages that support the closest comparisons. Search the draft’s distinctive lemmas and competing frames, since one construction may be described under different terms.
+3. Ask what each proposed link lets the reader predict. A **specialization** retains the parent profile and adds a restriction. An **interface** shows that the two constructions work together, as when a bare role NP fills a predicative slot. An **alternation** compares forms within the same frame and states any change in reading or distribution. An **overlap** names the shared dimension and gives a test that distinguishes the entries. A boundary comparison can use **related-to** when it states a concrete structural or interpretive contrast.
+4. Record the test or comparison in the edge’s `notes`. Check incoming links for duplicates. Add a lexical profile link when the choice depends on a particular lexical use. Word matches suggest candidates for inspection.
+
+For bare role, the search covers predicative slots, role ascription and examples involving *treasurer* or *captain*.
+
+```sh
+npm run relations -- bare-role-001 \
+  --form 'predicative|bare singular|supplementary appositive|definite NP' \
+  --meaning 'ascrib|assign.*role|institutional role|officeholder' \
+  --contrast 'treasurer|captain|from teacher to pupil'
+```
+
+Compare the retrieved appositive entry with *Wilson, Secretary to the Cabinet*. The ascriptive supplement fails the substitution test for apposition. Compare the definite and indefinite NP entries by holding the predicative frame and role noun fixed.
+
 ## Style guide
 
 Terminology follows the *Cambridge Grammar of the English Language* (CGEL):
@@ -88,7 +106,7 @@ Formatting: no leading/trailing whitespace in string fields; meaning keys sequen
 
 1. Open a pull request with a focused change (one construction or one themed batch).
 2. CI must pass (`npm run validate`).
-3. A maintainer reviews for: schema conformance, CGEL-aligned terminology, example quality and bracket notation, relation hygiene (no redundant inverses, targets exist), and whether claimed projectibility or stabiliser metadata is backed by the cited diagnostics.
+3. A maintainer checks schema conformance, terminology, examples, and the documented search and grounds for relations. Cited diagnostics should support any projectibility or stabiliser claim.
 4. Expect discussion on analysis, not just format. Disagreement about an analysis is normal; entries can record open questions in `details` or `notes` fields.
 
 If you're unsure whether something merits an entry, open an issue first and sketch the case: what predictions does membership license, and in which domain?

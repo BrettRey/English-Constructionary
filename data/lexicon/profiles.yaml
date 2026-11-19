@@ -1,0 +1,125 @@
+records:
+  - lemma: need
+    source-pos: verb
+    category: verb
+    uses:
+      - id: modal
+        label: Modal auxiliary
+        example: "Need we leave?"
+        note: "Modal need takes a bare infinitival and can invert with the subject directly. It chiefly occurs in non-affirmative contexts and is uncommon in American English."
+        links:
+          - construction: modal-plain-complement-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 3 §2.5.5 [52–53]"
+            relation: discusses
+      - id: lexical-to
+        label: Lexical verb with a to-infinitival
+        example: "Does there need to be a vote?"
+        note: "Lexical need takes ordinary third-person singular -s and uses do-support here. Dummy there is possible because the subject is licensed by the infinitival complement."
+        links:
+          - construction: subject-raising-infinitival-001
+            relationship: licenses
+          - construction: finite-do-support-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 3 §2.5.5 [52–53]"
+            relation: discusses
+      - id: concealed-passive
+        label: Lexical verb with a concealed passive
+        example: "The hinge needs oiling."
+        note: "The hinge is what someone oils. Compare The hinge needs to be oiled."
+        links:
+          - construction: concealed-passive-ing-001
+            relationship: licenses
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 14 §2.3, pp. 1199–1200"
+            relation: discusses
+  - lemma: tell
+    source-pos: verb
+    category: verb
+    uses:
+      - id: communication
+        label: Communicating content to a recipient
+        example: "Tell Jo the story. / Tell the story to Jo."
+        note: "In this sense tell allows either frame. Their relative suitability depends in part on how the recipient and content are expressed."
+        links:
+          - construction: ditransitive-vp-001
+            relationship: licenses
+          - construction: transitive-to-recipient-001
+            relationship: licenses
+        grounds:
+          - source: goldberg-2011-preemption
+            locator: "Comparison of tell and explain, Table 4"
+            relation: discusses
+  - lemma: explain
+    source-pos: verb
+    category: verb
+    uses:
+      - id: communication
+        label: Making content clear to a recipient
+        example: "Explain the rule to Jo."
+        note: "The double-object counterpart Explain Jo the rule is strongly disfavoured in mainstream standard English. Goldberg compares explain with tell while holding their broad communication semantics and the expression of the recipient and theme approximately constant."
+        links:
+          - construction: transitive-to-recipient-001
+            relationship: licenses
+          - construction: ditransitive-vp-001
+            relationship: resists
+        grounds:
+          - source: goldberg-2011-preemption
+            locator: "Comparison of tell and explain, Table 4"
+            relation: discusses
+  - lemma: that
+    source-pos: conj
+    category: subordinator
+    uses:
+      - id: content-clause
+        label: Declarative content-clause marker
+        example: "I heard that Jo left."
+        note: "Jo left supplies the content of what was heard. That can be omitted in this frame."
+        links:
+          - construction: declarative-content-clause-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 11 §3.1"
+            relation: discusses
+      - id: relative
+        label: Integrated relative marker
+        example: "The book that Jo read was mine."
+        note: "Book is the antecedent linked to the unexpressed object of read. In CGEL’s analysis that marks the clause, and the gap supplies the link to book."
+        links:
+          - construction: integrated-relative-modifier-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 12 §3.5"
+            relation: discusses
+  - lemma: that
+    source-pos: det
+    category: determinative
+    uses:
+      - id: dependent
+        label: Demonstrative with an overt nominal
+        example: "Hand me that folder."
+        links:
+          - construction: demonstrative-distance-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 5 §7.1"
+            relation: discusses
+      - id: independent
+        label: Independent demonstrative
+        example: "That will do."
+        note: "That can make up the whole NP. The linked entry discusses CGEL’s fused determiner–head analysis."
+        links:
+          - construction: demonstrative-determinative-fused-head-001
+            relationship: occurs-in
+        grounds:
+          - source: cgel-2002
+            locator: "Ch. 5 §9.2"
+            relation: discusses

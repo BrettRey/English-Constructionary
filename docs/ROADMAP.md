@@ -30,7 +30,7 @@ Ordered by how much downstream work each unblocks:
 4. **Full-Wiktionary adverb sweep** — agents can extract the candidate list (traditional adverbs matching the intransitive-preposition profile) from the full dump for batch ruling.
   
 ## Infrastructure queue (agents)
-1. **Per-lexeme construction links** — join override `references` into lexeme cards, preferring them over file-level gold pointers (fixes _many_ linking to absolute-negator).
+1. **Per-use construction links** — extend the `profiles.yaml` pilot beyond *need*, *tell*, *explain*, and *that*. Cards without profiles still inherit their gold-list pointers, including irrelevant links such as *many* to absolute-negator.
   
 2. **Ladder-sync lint** — warn when an entry's `secured` tier disagrees with `kind-status.yaml`.
   

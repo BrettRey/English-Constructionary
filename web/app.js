@@ -109,7 +109,7 @@ const renderList = () => {
   state.filtered.forEach((item) => {
     const card = document.createElement('div');
     card.className = 'item';
-    if (state.active && state.active.path === item.path) {
+    if (state.active === item) {
       card.classList.add('is-active');
     }
     const title = document.createElement('div');
@@ -175,6 +175,21 @@ const appendGroundsBlock = (container, links) => {
   });
   block.appendChild(grid);
   container.appendChild(block);
+};
+
+const catalogueLink = (id, label) => {
+  const target = state.byId?.get(id);
+  if (!target) return document.createTextNode(label);
+  const link = document.createElement('a');
+  link.className = 'breadcrumb';
+  link.href = resolvePath(target.path);
+  link.textContent = label;
+  link.addEventListener('click', (event) => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    selectItem(target);
+  });
+  return link;
 };
 
 const renderYamlSummary = (data, itemMeta = null) => {
@@ -360,11 +375,15 @@ const renderYamlSummary = (data, itemMeta = null) => {
       ...(itemMeta.relations || []).filter((rel) => rel.relationship === 'alternates-with'),
       ...incomingSymmetric.filter((rel) => rel.relationship === 'alternates-with')
     ]);
+    const overlapsWith = uniqueRelations([
+      ...(itemMeta.relations || []).filter((rel) => rel.relationship === 'overlaps-with'),
+      ...incomingSymmetric.filter((rel) => rel.relationship === 'overlaps-with')
+    ]);
     const related = uniqueRelations((itemMeta.relations || []).filter(
       (rel) =>
-        !['specialization-of', 'implements', 'inherits-from', 'contains', 'interfaces-with', 'alternates-with'].includes(rel.relationship)
+        !['specialization-of', 'implements', 'inherits-from', 'contains', 'interfaces-with', 'alternates-with', 'overlaps-with'].includes(rel.relationship)
     ).concat(incomingSymmetric.filter((rel) =>
-      ['overlaps-with', 'related-to', 'see-also'].includes(rel.relationship)
+      ['related-to', 'see-also'].includes(rel.relationship)
     )));
 
     // Incoming relations (inverse)
@@ -384,17 +403,18 @@ const renderYamlSummary = (data, itemMeta = null) => {
     const renderRelationList = (label, rels, showParthood = false) => {
       if (!rels.length) return;
       const row = document.createElement('div');
-      const items = rels
-        .map((rel) => {
-          const targetId = rel.id;
-          let suffix = '';
-          if (showParthood && rel.parthood) {
-            suffix = ` (${rel.parthood})`;
-          }
-          return `<span class=\"tag\" data-rel=\"${targetId}\">${targetId}${suffix}</span>`;
-        })
-        .join(' ');
-      row.innerHTML = `<strong>${label}</strong>: ${items}`;
+      const title = document.createElement('strong');
+      title.textContent = `${label}:`;
+      row.appendChild(title);
+      for (const rel of rels) {
+        const dimension = showParthood && (rel.parthood || rel['overlap-dimension']);
+        const link = catalogueLink(rel.id, dimension ? `${rel.id} (${dimension})` : rel.id);
+        if (link instanceof HTMLElement) {
+          link.className = 'tag';
+          if (rel.notes) link.title = rel.notes;
+        }
+        row.append(' ', link);
+      }
       relationGrid.appendChild(row);
     };
 
@@ -410,6 +430,7 @@ const renderYamlSummary = (data, itemMeta = null) => {
     // Symmetric relations
     renderRelationList('Interfaces with', interfacesWith, true);
     renderRelationList('Alternates with', alternatesWith, false);
+    renderRelationList('Overlaps with', overlapsWith, true);
 
     // Other
     renderRelationList('Related to', related, true);
@@ -423,14 +444,21 @@ const renderYamlSummary = (data, itemMeta = null) => {
 
     relationBlock.appendChild(relationGrid);
     detailBody.appendChild(relationBlock);
+  }
 
-    relationBlock.querySelectorAll('.tag[data-rel]').forEach((tag) => {
-      tag.addEventListener('click', () => {
-        const relId = tag.dataset.rel;
-        const target = state.byId?.get(relId);
-        if (target) selectItem(target);
-      });
-    });
+  if (itemMeta?.lexicalUses?.length) {
+    const block = document.createElement('div');
+    block.className = 'detail-block';
+    const title = document.createElement('h3');
+    title.textContent = 'Lexical uses';
+    block.appendChild(title);
+    for (const use of itemMeta.lexicalUses) {
+      const row = document.createElement('div');
+      const relationship = { licenses: 'licenses this construction', 'occurs-in': 'occurs here', resists: 'resists this construction' };
+      row.append(catalogueLink(use.id, `${use.lemma} (${use.category})`), ` · ${use.label} · ${relationship[use.relationship]}`);
+      block.appendChild(row);
+    }
+    detailBody.appendChild(block);
   }
 };
 
@@ -546,6 +574,9 @@ const renderLexemeSummary = (lexeme) => {
   }
   const wikiSlug = encodeURIComponent(lexeme.lemma.replace(/ /g, '_'));
   addRow(`<strong>Source</strong>: data/lexicon/${lexeme.source}${lexeme.override && lexeme.override['source-pos'] ? ` (source POS: ${lexeme.override['source-pos']})` : ''} · <a href="https://en.wiktionary.org/wiki/${wikiSlug}#English" target="_blank" rel="noreferrer">Wiktionary</a> · <a href="https://simple.wiktionary.org/wiki/${wikiSlug}" target="_blank" rel="noreferrer">Simple</a>`);
+  if (lexeme.profileSource && lexeme.profileSource !== lexeme.source) {
+    addRow(`<strong>Construction profile</strong>: data/lexicon/${lexeme.profileSource}`);
+  }
   if (lexeme.override && lexeme.override.notes) addRow(`<strong>Notes</strong>: ${lexeme.override.notes}`);
   if (lexeme.override && lexeme.override.tests.length) {
     lexeme.override.tests.forEach((test) => {
@@ -557,6 +588,31 @@ const renderLexemeSummary = (lexeme) => {
   }
   block.appendChild(grid);
   detailBody.appendChild(block);
+
+  for (const use of lexeme.uses || []) {
+    const useBlock = document.createElement('div');
+    useBlock.className = 'detail-block';
+    const heading = document.createElement('h3');
+    heading.textContent = use.label;
+    const example = document.createElement('em');
+    example.textContent = use.example;
+    useBlock.append(heading, example);
+    if (use.note) {
+      const note = document.createElement('p');
+      note.textContent = use.note;
+      useBlock.appendChild(note);
+    }
+    const links = document.createElement('div');
+    links.className = 'detail-grid';
+    for (const link of use.links) {
+      const row = document.createElement('div');
+      row.append(`${link.relationship.replaceAll('-', ' ')} `, catalogueLink(link.construction, link.construction));
+      links.appendChild(row);
+    }
+    useBlock.appendChild(links);
+    appendGroundsBlock(useBlock, use.grounds);
+    detailBody.appendChild(useBlock);
+  }
 
   if (lexeme.constructions && lexeme.constructions.length) {
     const relBlock = document.createElement('div');
@@ -663,7 +719,7 @@ const renderSourceSummary = (source) => {
 
 const selectItem = async (item, options = {}) => {
   const { pushHistory: shouldPush = true } = options;
-  if (shouldPush && state.active && state.active.path !== item.path) {
+  if (shouldPush && state.active && state.active !== item) {
     pushHistory(state.active);
   }
   state.active = item;

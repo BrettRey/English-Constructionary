@@ -1,9 +1,10 @@
 // Exports web/graph.json: a typed graph over the whole resource (constructions,
 // sources, lexemes, diagnostics, and the gold lists that connect them).
 //
-// Node kinds: construction, source, lexeme, diagnostic, gold-list
+// Node kinds: construction, source, lexeme, lexical-use, diagnostic, gold-list
 // Edge types: relatedConstructions' relationship values; grounds' relation
-// values (cites/attests/...); 'diagnosed-by'; 'lexicon-members'; 'listed-in'.
+// values (cites/attests/...); 'diagnosed-by'; 'lexicon-members'; 'listed-in';
+// 'has-use', 'licenses', 'occurs-in', 'resists'.
 //
 // Plain node + js-yaml, no new dependencies (see scripts/build-web-manifest.js).
 
@@ -82,6 +83,19 @@ const addEdge = (from, to, type, extra) => {
 const sourcesDoc = loadYaml(path.join(dataDir, 'sources.yaml')) || {};
 const sourcesMap = (sourcesDoc && sourcesDoc.sources) || {};
 const sourceIds = new Set(Object.keys(sourcesMap));
+const addGroundEdges = (id, data) => {
+  walkGrounds(data, (ground) => {
+    if (!ground.source || !ground.relation) return;
+    if (!sourceIds.has(ground.source)) {
+      danglingCount += 1;
+      return;
+    }
+    addEdge(id, ground.source, ground.relation, {
+      locator: ground.locator,
+      'bears-on': ground['bears-on']
+    });
+  });
+};
 
 Object.keys(sourcesMap)
   .sort()
@@ -209,19 +223,27 @@ constructionDocs.forEach(({ id, data }) => {
   }
 
   // grounds, wherever nested -> sources
-  walkGrounds(data, (g) => {
-    if (!g.source || !g.relation) return;
-    if (!sourceIds.has(g.source)) {
-      danglingCount += 1;
-      return;
-    }
-    const extra = {};
-    if (g.locator) extra.locator = g.locator;
-    if (g['bears-on']) extra['bears-on'] = g['bears-on'];
-    addEdge(id, g.source, g.relation, extra);
-  });
+  addGroundEdges(id, data);
 });
 
+const profiles = loadYaml(path.join(dataDir, 'lexicon', 'profiles.yaml')).records;
+for (const profile of profiles) {
+  const lexId = `lex:${profile.lemma}`;
+  addNode(lexId, 'lexeme', profile.lemma);
+  for (const use of profile.uses) {
+    const useId = `use:${encodeURIComponent(profile.lemma)}:${profile['source-pos']}:${use.id}`;
+    addNode(useId, 'lexical-use', use.label, { category: profile.category, example: use.example });
+    addEdge(lexId, useId, 'has-use');
+    for (const link of use.links) {
+      if (!constructionIds.has(link.construction)) {
+        danglingCount += 1;
+        continue;
+      }
+      addEdge(useId, link.construction, link.relationship);
+    }
+    addGroundEdges(useId, use);
+  }
+}
 // --- Override records: grounds -> sources, from lex:<lemma> -----------------
 
 const overridesDoc = loadYaml(path.join(dataDir, 'lexicon', 'overrides.yaml')) || {};
@@ -230,18 +252,8 @@ const overrideRecords = Array.isArray(overridesDoc.records) ? overridesDoc.recor
 overrideRecords.forEach((record) => {
   if (!record || !record.lemma) return;
   const lexId = `lex:${record.lemma}`;
-  const lexemeExists = nodes.has(lexId);
-  walkGrounds(record, (g) => {
-    if (!g.source || !g.relation) return;
-    if (!lexemeExists || !sourceIds.has(g.source)) {
-      danglingCount += 1;
-      return;
-    }
-    const extra = {};
-    if (g.locator) extra.locator = g.locator;
-    if (g['bears-on']) extra['bears-on'] = g['bears-on'];
-    addEdge(lexId, g.source, g.relation, extra);
-  });
+  addNode(lexId, 'lexeme', record.lemma);
+  addGroundEdges(lexId, record);
 });
 
 // --- Sort for deterministic output ------------------------------------------

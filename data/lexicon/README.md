@@ -34,6 +34,12 @@ From the CxG perspective, individual words are constructions, so a complete Cons
 
 Closed-class construction entries point at their lexical membership via `lexiconRefs` (e.g. `determination-001` → `gold/determinatives`), and gold files carry reciprocal `constructions:` pointers. `npm run validate` checks `overrides.yaml` against its schema and parse-checks the gold files; the web browser exposes this directory as its Lexicon sections.
 
+### Construction profiles
+
+[profiles.yaml](profiles.yaml) records what a particular use licenses, occurs in, or resists. Profiles sit alongside the category overrides and use the same lemma + source POS key. Each use has a local ID, a constructed illustration, grounds with source locators, and typed links to existing construction entries. The cards for subordinator and demonstrative *that* illustrate how the source POS keeps homographs distinct. The uses of *need* show how a single card can document multiple distributional profiles.
+
+The browser uses these links on profiled cards and shows the reciprocal links on construction pages. The graph carries them through lexical-use nodes below the spelling nodes. This lets *explain* resist the double-object frame in the documented sense while *tell* licenses it.
+
 ## Category inventory caveat
 
 The override schema's category enum follows CGEL 2002 (determinative as a top-level lexical category). Reynolds, *Determinatives as nouns in English* (under review at ELL; [LingBuzz 009939](https://lingbuzz.net/lingbuzz/009939)), argues determinatives are a fourth noun subclass alongside common, proper, and pronoun, with simple independent uses as ordinary Head rather than fused Det-Head. If that analysis is adopted, the layer records it as `category: noun`, `subclass: determinative` — the lemma membership of the gold lists is unaffected either way.

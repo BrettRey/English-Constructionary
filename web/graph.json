@@ -2343,6 +2343,11 @@
       "label": "exclusive"
     },
     {
+      "id": "lex:explain",
+      "kind": "lexeme",
+      "label": "explain"
+    },
+    {
       "id": "lex:failing",
       "kind": "lexeme",
       "label": "failing"
@@ -2886,6 +2891,11 @@
       "id": "lex:nearest",
       "kind": "lexeme",
       "label": "nearest"
+    },
+    {
+      "id": "lex:need",
+      "kind": "lexeme",
+      "label": "need"
     },
     {
       "id": "lex:neither",
@@ -3616,6 +3626,11 @@
       "id": "lex:take away",
       "kind": "lexeme",
       "label": "take away"
+    },
+    {
+      "id": "lex:tell",
+      "kind": "lexeme",
+      "label": "tell"
     },
     {
       "id": "lex:ten",
@@ -5608,6 +5623,69 @@
       "type": "mixed"
     },
     {
+      "id": "use:explain:verb:communication",
+      "kind": "lexical-use",
+      "label": "Making content clear to a recipient",
+      "category": "verb",
+      "example": "Explain the rule to Jo."
+    },
+    {
+      "id": "use:need:verb:concealed-passive",
+      "kind": "lexical-use",
+      "label": "Lexical verb with a concealed passive",
+      "category": "verb",
+      "example": "The hinge needs oiling."
+    },
+    {
+      "id": "use:need:verb:lexical-to",
+      "kind": "lexical-use",
+      "label": "Lexical verb with a to-infinitival",
+      "category": "verb",
+      "example": "Does there need to be a vote?"
+    },
+    {
+      "id": "use:need:verb:modal",
+      "kind": "lexical-use",
+      "label": "Modal auxiliary",
+      "category": "verb",
+      "example": "Need we leave?"
+    },
+    {
+      "id": "use:tell:verb:communication",
+      "kind": "lexical-use",
+      "label": "Communicating content to a recipient",
+      "category": "verb",
+      "example": "Tell Jo the story. / Tell the story to Jo."
+    },
+    {
+      "id": "use:that:conj:content-clause",
+      "kind": "lexical-use",
+      "label": "Declarative content-clause marker",
+      "category": "subordinator",
+      "example": "I heard that Jo left."
+    },
+    {
+      "id": "use:that:conj:relative",
+      "kind": "lexical-use",
+      "label": "Integrated relative marker",
+      "category": "subordinator",
+      "example": "The book that Jo read was mine."
+    },
+    {
+      "id": "use:that:det:dependent",
+      "kind": "lexical-use",
+      "label": "Demonstrative with an overt nominal",
+      "category": "determinative",
+      "example": "Hand me that folder."
+    },
+    {
+      "id": "use:that:det:independent",
+      "kind": "lexical-use",
+      "label": "Independent demonstrative",
+      "category": "determinative",
+      "example": "That will do."
+    },
+    {
       "id": "verb-number-agreement-001",
       "kind": "construction",
       "label": "Verb Number Agreement",
@@ -6288,9 +6366,29 @@
     },
     {
       "from": "bare-role-001",
+      "to": "bare-institutional-use-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 15 §5 [22ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 7 §5, matrix-licensed complements [21ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-role-001",
       "to": "cgel-2002",
       "type": "cites",
-      "locator": "Ch. 4 §5.5.2, contrast with secretary of the bushwalking club; Ch. 5 §8.5 [19], p. 409",
+      "locator": "Ch. 4 §5.5.1(e), contrast with secretary of the bushwalking club; Ch. 5 §8.5 [19], p. 409",
       "bears-on": "projection"
     },
     {
@@ -6302,13 +6400,34 @@
     },
     {
       "from": "bare-role-001",
+      "to": "matched-bare-endpoints-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "bare-role-001",
       "to": "np-bare-001",
       "type": "specialization-of",
       "parthood": "formal"
     },
     {
       "from": "bare-role-001",
+      "to": "np-def-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "np-indef-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "bare-role-001",
       "to": "object-ascriptive-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "pp-001",
       "type": "interfaces-with"
     },
     {
@@ -6328,7 +6447,12 @@
     },
     {
       "from": "bare-role-001",
-      "to": "weak-proper-name-article-001",
+      "to": "supplementary-appositive-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "vocative-001",
       "type": "related-to"
     },
     {
@@ -11239,6 +11363,11 @@
       "type": "listed-in"
     },
     {
+      "from": "lex:explain",
+      "to": "use:explain:verb:communication",
+      "type": "has-use"
+    },
+    {
       "from": "lex:failing",
       "to": "gold:prepositions",
       "type": "listed-in"
@@ -11802,6 +11931,21 @@
       "from": "lex:nearest",
       "to": "gold:prepositions",
       "type": "listed-in"
+    },
+    {
+      "from": "lex:need",
+      "to": "use:need:verb:concealed-passive",
+      "type": "has-use"
+    },
+    {
+      "from": "lex:need",
+      "to": "use:need:verb:lexical-to",
+      "type": "has-use"
+    },
+    {
+      "from": "lex:need",
+      "to": "use:need:verb:modal",
+      "type": "has-use"
     },
     {
       "from": "lex:neither",
@@ -12559,6 +12703,11 @@
       "type": "listed-in"
     },
     {
+      "from": "lex:tell",
+      "to": "use:tell:verb:communication",
+      "type": "has-use"
+    },
+    {
       "from": "lex:ten",
       "to": "gold:determinatives",
       "type": "listed-in"
@@ -12582,6 +12731,26 @@
       "from": "lex:that",
       "to": "gold:determinatives",
       "type": "listed-in"
+    },
+    {
+      "from": "lex:that",
+      "to": "use:that:conj:content-clause",
+      "type": "has-use"
+    },
+    {
+      "from": "lex:that",
+      "to": "use:that:conj:relative",
+      "type": "has-use"
+    },
+    {
+      "from": "lex:that",
+      "to": "use:that:det:dependent",
+      "type": "has-use"
+    },
+    {
+      "from": "lex:that",
+      "to": "use:that:det:independent",
+      "type": "has-use"
     },
     {
       "from": "lex:the",
@@ -14280,11 +14449,6 @@
     },
     {
       "from": "np-bare-001",
-      "to": "bare-role-001",
-      "type": "related-to"
-    },
-    {
-      "from": "np-bare-001",
       "to": "bare-singular-exceptions",
       "type": "diagnosed-by"
     },
@@ -14409,11 +14573,6 @@
     {
       "from": "np-gen-indep-001",
       "to": "independent-genitive-pronoun-001",
-      "type": "related-to"
-    },
-    {
-      "from": "np-indef-001",
-      "to": "bare-role-001",
       "type": "related-to"
     },
     {
@@ -18337,6 +18496,120 @@
       "from": "until-time-boundary-001",
       "to": "since-time-anchor-001",
       "type": "related-to"
+    },
+    {
+      "from": "use:explain:verb:communication",
+      "to": "ditransitive-vp-001",
+      "type": "resists"
+    },
+    {
+      "from": "use:explain:verb:communication",
+      "to": "goldberg-2011-preemption",
+      "type": "discusses",
+      "locator": "Comparison of tell and explain, Table 4"
+    },
+    {
+      "from": "use:explain:verb:communication",
+      "to": "transitive-to-recipient-001",
+      "type": "licenses"
+    },
+    {
+      "from": "use:need:verb:concealed-passive",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §2.3, pp. 1199–1200"
+    },
+    {
+      "from": "use:need:verb:concealed-passive",
+      "to": "concealed-passive-ing-001",
+      "type": "licenses"
+    },
+    {
+      "from": "use:need:verb:lexical-to",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.5.5 [52–53]"
+    },
+    {
+      "from": "use:need:verb:lexical-to",
+      "to": "finite-do-support-001",
+      "type": "occurs-in"
+    },
+    {
+      "from": "use:need:verb:lexical-to",
+      "to": "subject-raising-infinitival-001",
+      "type": "licenses"
+    },
+    {
+      "from": "use:need:verb:modal",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.5.5 [52–53]"
+    },
+    {
+      "from": "use:need:verb:modal",
+      "to": "modal-plain-complement-001",
+      "type": "occurs-in"
+    },
+    {
+      "from": "use:tell:verb:communication",
+      "to": "ditransitive-vp-001",
+      "type": "licenses"
+    },
+    {
+      "from": "use:tell:verb:communication",
+      "to": "goldberg-2011-preemption",
+      "type": "discusses",
+      "locator": "Comparison of tell and explain, Table 4"
+    },
+    {
+      "from": "use:tell:verb:communication",
+      "to": "transitive-to-recipient-001",
+      "type": "licenses"
+    },
+    {
+      "from": "use:that:conj:content-clause",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §3.1"
+    },
+    {
+      "from": "use:that:conj:content-clause",
+      "to": "declarative-content-clause-001",
+      "type": "occurs-in"
+    },
+    {
+      "from": "use:that:conj:relative",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §3.5"
+    },
+    {
+      "from": "use:that:conj:relative",
+      "to": "integrated-relative-modifier-001",
+      "type": "occurs-in"
+    },
+    {
+      "from": "use:that:det:dependent",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.1"
+    },
+    {
+      "from": "use:that:det:dependent",
+      "to": "demonstrative-distance-001",
+      "type": "occurs-in"
+    },
+    {
+      "from": "use:that:det:independent",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §9.2"
+    },
+    {
+      "from": "use:that:det:independent",
+      "to": "demonstrative-determinative-fused-head-001",
+      "type": "occurs-in"
     },
     {
       "from": "verb-number-agreement-001",

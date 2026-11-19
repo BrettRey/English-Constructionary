@@ -27,7 +27,7 @@ meanings:
       - 2
   '3':
     definition: Ascribes a role with a bare singular count NP
-    details: "A licensed role NP can be bare in predicative and selected as/of frames. The same role noun generally needs a determiner when used as an ordinary argument referring to the incumbent."
+    details: "A licensed role NP can be bare as a predicative, in certain prepositional frames, or as an ascriptive supplement. The same role noun generally needs a determiner when used as an ordinary argument referring to the incumbent."
     examples:
       - form: Lee stayed [president]
         note: Role predication
@@ -110,8 +110,6 @@ kind:
     evidence: "CGEL provides independent distributional grounds for these kinds of bare uses. Absence of a determiner alone does not fix their interpretation."
     confidence: medium
 relatedConstructions:
-  - id: bare-role-001
-    relationship: related-to
   - id: bare-institutional-use-001
     relationship: related-to
   - id: strong-proper-name-001

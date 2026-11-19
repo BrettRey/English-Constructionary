@@ -19,4 +19,6 @@ relationships:
       domain: "determination"
     - constructions: [np-indef-001, bare-role-001]
       domain: "role-marking"
+    - constructions: [np-def-001, bare-role-001]
+      domain: "role-marking"
 

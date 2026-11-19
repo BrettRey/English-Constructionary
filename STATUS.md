@@ -11,7 +11,7 @@
 ## Current State
 
 - **389 published construction entries** in `data/constructions/`
-- **Lexicon layer**: 600 lexemes from Simple English Wiktionary (Brett's curated closed classes) with glosses, deitality statuses, and construction links, browsable on the site
+- **Lexicon layer**: 603 browsable cards, including new cards for *need*, *tell*, and *explain*. The profile pilot records use-specific construction links for those verbs and the two existing *that* cards.
 - **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
 - **Public site live:** https://brettrey.github.io/English-Constructionary/ (GitHub Pages, auto-deploys from main)
@@ -68,6 +68,8 @@ See [the roadmap](docs/ROADMAP.md) for the entry, adjudication, and infrastructu
 ---
 
 ## Session Log
+
+- **2026-11-19** — Published lexical profiles with links in both directions between words and constructions. Expanded the bare role entry’s relations and added a relation search to the authoring workflow.
 
 - **2026-11-19** — Published revisions to 97 entries, including the bare role construction. Added distributional contrasts and source locators and repaired construction links. The catalogue has 389 published entries and 58 evidence sources.
 - **2026-11-19** — Published 237 entries from the constructicon comparison and the expanded grammar survey. The release brings the public catalogue to 389 constructions with 55 registered sources.

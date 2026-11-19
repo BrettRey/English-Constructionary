@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T10:54:35.777Z",
+  "generatedAt": "2026-11-19T11:41:12.327Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -349,36 +349,59 @@
               "notes": "In the appointment frame the predicand is realized as object."
             },
             {
+              "id": "pp-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
+            },
+            {
+              "id": "np-indef-001",
+              "relationship": "alternates-with",
+              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
+            },
+            {
+              "id": "np-def-001",
+              "relationship": "alternates-with",
+              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
+            },
+            {
               "id": "specificational-copular-001",
               "relationship": "related-to",
-              "notes": "The definite counterpart can identify who fills the role."
+              "notes": "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
+            },
+            {
+              "id": "supplementary-appositive-np-001",
+              "relationship": "related-to",
+              "notes": "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
+            },
+            {
+              "id": "bare-institutional-use-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
+            },
+            {
+              "id": "matched-bare-endpoints-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
+            },
+            {
+              "id": "vocative-001",
+              "relationship": "related-to",
+              "notes": "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
             },
             {
               "id": "strong-proper-name-001",
               "relationship": "related-to",
               "notes": "A role form used as a standing name independently licenses referential argument uses."
-            },
-            {
-              "id": "weak-proper-name-article-001",
-              "relationship": "related-to",
-              "notes": "The article pattern of a conventional name is independent of the article alternation in role predication."
             }
           ],
           "incomingRelations": [
             {
               "id": "every-inch-predicative-001",
               "title": "every-inch-predicative-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "np-bare-001",
-              "title": "np-bare-001",
-              "relationship": "related-to"
-            },
-            {
-              "id": "np-indef-001",
-              "title": "np-indef-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both concern nominal predication. The every inch pattern shown here contains an article."
             }
           ]
         },
@@ -407,7 +430,8 @@
             {
               "id": "fused-determiner-head-001",
               "title": "fused-determiner-head-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Absolute negators standing alone as NPs instantiate this construction"
             },
             {
               "id": "neither-nor-coordination-001",
@@ -463,7 +487,8 @@
             {
               "id": "what-with-circumstantial-001",
               "title": "what-with-circumstantial-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both can express circumstances with their own predication."
             }
           ]
         },
@@ -646,12 +671,14 @@
             {
               "id": "deadjectival-ness-noun-001",
               "title": "deadjectival-ness-noun-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The core pattern selects an adjective as its base."
             },
             {
               "id": "deverbal-able-adjective-001",
               "title": "deverbal-able-adjective-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The derived form is adjectival."
             },
             {
               "id": "endowed-ful-001",
@@ -662,7 +689,8 @@
             {
               "id": "measure-adjective-001",
               "title": "measure-adjective-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The adjective supplies the dimension measured."
             },
             {
               "id": "numerative-ordinal-adjective-001",
@@ -678,7 +706,8 @@
             {
               "id": "the-adjective-np-001",
               "title": "the-adjective-np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The overt constituent retains adjectival modification."
             }
           ]
         },
@@ -704,7 +733,8 @@
             {
               "id": "adjectival-raising-001",
               "title": "adjectival-raising-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The tough construction instead links the matrix subject to a non-subject gap."
             },
             {
               "id": "concealed-passive-ing-001",
@@ -779,7 +809,8 @@
             {
               "id": "indefinite-rate-001",
               "title": "indefinite-rate-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both combine with a stated magnitude, with different interpretations."
             }
           ]
         },
@@ -928,7 +959,8 @@
             {
               "id": "it-auxiliary-clitic-001",
               "title": "it-auxiliary-clitic-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The following participial form helps determine the contracted auxiliary."
             }
           ]
         },
@@ -1026,6 +1058,13 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Both license bare singular count NPs. Compare remained treasurer with went to school. The licensed slots and interpretations differ."
+            },
+            {
               "id": "np-bare-001",
               "title": "np-bare-001",
               "relationship": "related-to"
@@ -1054,7 +1093,8 @@
             {
               "id": "matched-bare-endpoints-001",
               "title": "matched-bare-endpoints-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A different configuration makes two bare nouns available as a pair."
             }
           ]
         },
@@ -1100,7 +1140,8 @@
             {
               "id": "deverbal-able-adjective-001",
               "title": "deverbal-able-adjective-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The central reading is typically paraphrasable with a modal passive."
             },
             {
               "id": "dispositional-middle-001",
@@ -1212,7 +1253,8 @@
             {
               "id": "cardinal-noun-001",
               "title": "cardinal-noun-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Cardinal determinatives vs cardinal nouns"
             },
             {
               "id": "denominator-numeral-001",
@@ -1232,7 +1274,8 @@
             {
               "id": "numerative-complex-001",
               "title": "numerative-complex-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Phrasal construction headed by cardinal determinatives; not a specialization of the lexical category (lexeme/phrase boundary at 99, Reynolds 2026 EL&L)"
             },
             {
               "id": "numerative-factor-modifier-001",
@@ -1401,12 +1444,14 @@
             {
               "id": "ditransitive-vp-001",
               "title": "ditransitive-vp-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Caused motion has one Od plus a locative PP complement and is therefore monotransitive, not ditransitive"
             },
             {
               "id": "into-causative-001",
               "title": "into-causative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both pair an object with an endpoint. Here the endpoint is a situation expressed by a gerund-participial clause."
             },
             {
               "id": "locative-theme-variant-001",
@@ -1418,35 +1463,41 @@
               "id": "object-resultative-001",
               "title": "object-resultative-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "semantic"
+              "overlap-dimension": "semantic",
+              "notes": "Both express caused change, but caused motion uses a locative Comp:PP where the resultative uses PredComp"
             },
             {
               "id": "out-of-ing-causative-001",
               "title": "out-of-ing-causative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The literal counterpart can have a spatial source after out of."
             },
             {
               "id": "path-complement-001",
               "title": "path-complement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The object-oriented locative complement in caused motion can bear the path role"
             },
             {
               "id": "reflexive-state-goal-001",
               "title": "reflexive-state-goal-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "A state is construed as a goal."
             },
             {
               "id": "verb-particle-object-001",
               "title": "verb-particle-object-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "formal"
+              "overlap-dimension": "formal",
+              "notes": "Literal directional particles can realize the locative complement in caused-motion VPs, while idiomatic particles need not express motion"
             },
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "semantic"
+              "overlap-dimension": "semantic",
+              "notes": "Both combine manner or means with motion, but they assign different functions and roles to Od"
             }
           ]
         },
@@ -1490,17 +1541,20 @@
             {
               "id": "absolute-supplement-001",
               "title": "absolute-supplement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The supplement has its own subject and predicate."
             },
             {
               "id": "adjectival-raising-001",
               "title": "adjectival-raising-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The matrix adjective takes an infinitival."
             },
             {
               "id": "adjective-hollow-infinitival-001",
               "title": "adjective-hollow-infinitival-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "An adjectival predicative follows the matrix be."
             },
             {
               "id": "auxiliary-vp-ellipsis-001",
@@ -1511,13 +1565,15 @@
             {
               "id": "be-passive-001",
               "title": "be-passive-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The be-passive is a voice construction available in headed clauses."
             },
             {
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "semantic"
+              "overlap-dimension": "semantic",
+              "notes": "Shares clause-like semantic and discourse work but not the defining VP-headed form"
             },
             {
               "id": "closed-interrogative-clause-001",
@@ -1528,7 +1584,8 @@
             {
               "id": "complement-preposing-001",
               "title": "complement-preposing-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "A complement occurs before the clause nucleus."
             },
             {
               "id": "content-container-alternation-001",
@@ -1551,7 +1608,8 @@
             {
               "id": "echo-question-001",
               "title": "echo-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Many echoes overlay an independently typed headed Clause without becoming a clause type"
             },
             {
               "id": "exclamative-clause-001",
@@ -1574,7 +1632,8 @@
             {
               "id": "if-conditional-001",
               "title": "if-conditional-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The consequent and conditional adjunct are packaged in one construction."
             },
             {
               "id": "imperative-clause-001",
@@ -1585,12 +1644,14 @@
             {
               "id": "it-cleft-001",
               "title": "it-cleft-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The construction is headed by a VP in a matrix clause."
             },
             {
               "id": "left-dislocation-001",
               "title": "left-dislocation-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The clause nucleus supplies Head:VP."
             },
             {
               "id": "negative-initial-inversion-001",
@@ -1607,7 +1668,8 @@
             {
               "id": "presentational-dependent-inversion-001",
               "title": "presentational-dependent-inversion-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The clause nucleus includes a subject after the verb."
             },
             {
               "id": "presentational-there-001",
@@ -1624,22 +1686,26 @@
             {
               "id": "pseudo-cleft-001",
               "title": "pseudo-cleft-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The matrix clause is headed by a copular VP."
             },
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Many questions have a Clause host, which remains independently defined as (Subject +) Head:VP"
             },
             {
               "id": "right-dislocation-001",
               "title": "right-dislocation-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The clause nucleus supplies Head:VP."
             },
             {
               "id": "secondary-verbal-negation-001",
               "title": "secondary-verbal-negation-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Secondary verbal negation applies within headed non-finite and subjunctive Clauses"
             },
             {
               "id": "specificational-copular-001",
@@ -1662,7 +1728,8 @@
             {
               "id": "subject-extraposition-001",
               "title": "subject-extraposition-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The matrix clause has its own subject and predicate."
             },
             {
               "id": "subject-raising-infinitival-001",
@@ -1673,12 +1740,14 @@
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Both Anchor and Tag satisfy (Subject +) Head:VP; their supplemented combination is not itself a Clause"
             },
             {
               "id": "verb-number-agreement-001",
               "title": "verb-number-agreement-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Agreement links an overt Subject to the finite verbal head within Clause structure"
             }
           ]
         },
@@ -1716,37 +1785,44 @@
               "id": "clause-001",
               "title": "clause-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "semantic"
+              "overlap-dimension": "semantic",
+              "notes": "Both can convey clause-like content, but only Clause is formally headed by VP"
             },
             {
               "id": "comparative-correlative-001",
               "title": "comparative-correlative-001",
-              "relationship": "overlaps-with"
+              "relationship": "overlaps-with",
+              "notes": "Fully reduced pairs can express the relation with no overt VP."
             },
             {
               "id": "coordination-001",
               "title": "coordination-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Both are non-headed constituent types, but coordination is organized into coordinates rather than licensed by clausal semantics"
             },
             {
               "id": "echo-question-001",
               "title": "echo-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A licensed non-headed expression can host echo-question semantics without becoming a Clause"
             },
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
-              "relationship": "can-manifest-as"
+              "relationship": "can-manifest-as",
+              "notes": "Phrase-only exclamative forms realize the force without instantiating Clause"
             },
             {
               "id": "exclamative-clause-001",
               "title": "exclamative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Phrase-only exclamatory expressions receive clausal interpretations without being headed Clauses"
             },
             {
               "id": "exclamative-word-001",
               "title": "exclamative-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Exclamative what/how also occurs in non-headed constructions with exclamative clausal semantics"
             },
             {
               "id": "how-adjective-exclamative-001",
@@ -1756,37 +1832,44 @@
             {
               "id": "imperative-clause-001",
               "title": "imperative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Non-finite and non-headed directives can convey directive meaning without being imperative Clauses"
             },
             {
               "id": "interrogative-word-001",
               "title": "interrogative-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "An interrogative phrase can form a non-headed question construction without instantiating Clause"
             },
             {
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Phrase-only open-question expressions are interpreted clausally without being headed Clauses"
             },
             {
               "id": "paired-np-introduction-001",
               "title": "paired-np-introduction-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The two phrases conventionally perform an introduction without a VP at the construction’s level."
             },
             {
               "id": "phrase-001",
               "title": "phrase-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "A non-headed constituent may have clausal semantics, but it is neither a Phrase nor a Clause"
             },
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Constructionally licensed non-headed expressions may carry Question meaning without becoming Clauses"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Non-clausal anchors in forms such as Lovely day, isn't it? require a separate host analysis"
             },
             {
               "id": "what-np-exclamative-001",
@@ -1834,7 +1917,8 @@
             {
               "id": "declarative-question-001",
               "title": "declarative-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Closed interrogatives use interrogative syntax and can be neutral; declarative questions retain declarative syntax and are strongly biased"
             },
             {
               "id": "direct-quotation-001",
@@ -1844,17 +1928,20 @@
             {
               "id": "durational-long-001",
               "title": "durational-long-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A polar question can license durational long."
             },
             {
               "id": "if-conditional-001",
               "title": "if-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A separate use of if introduces an embedded yes/no question."
             },
             {
               "id": "inverted-conditional-001",
               "title": "inverted-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The same auxiliary–subject order can express a question, with a wider range of auxiliaries."
             },
             {
               "id": "modal-interrogative-request-001",
@@ -1864,17 +1951,20 @@
             {
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Open and closed interrogatives are distinct primary clause types with different syntactic marking"
             },
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Closed interrogatives are the characteristic syntactic host of closed questions, but clause type and Question meaning are distinct"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The short Tag is a closed-interrogative Clause with surface subject–auxiliary inversion"
             }
           ]
         },
@@ -1958,7 +2048,8 @@
             {
               "id": "reaction-object-001",
               "title": "reaction-object-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A cognate NP characterizes the action itself."
             },
             {
               "id": "simple-intransitive-vp-001",
@@ -2106,7 +2197,8 @@
             {
               "id": "comparative-correlative-001",
               "title": "comparative-correlative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An inflected comparative is one possible realization of each degree phrase."
             },
             {
               "id": "coordinate-degree-reduplication-001",
@@ -2190,7 +2282,8 @@
             {
               "id": "left-dislocation-001",
               "title": "left-dislocation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Preposing uses a gap instead of an overt pronoun."
             },
             {
               "id": "negative-initial-inversion-001",
@@ -2205,7 +2298,8 @@
             {
               "id": "presentational-dependent-inversion-001",
               "title": "presentational-dependent-inversion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Ordinary complement preposing does not send the subject after the verb."
             }
           ]
         },
@@ -2231,7 +2325,8 @@
             {
               "id": "continuative-away-at-001",
               "title": "continuative-away-at-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The two patterns share a target at-phrase and differ in aspect and available verbs."
             }
           ]
         },
@@ -2256,7 +2351,16 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [],
+          "lexicalUses": [
+            {
+              "id": "lex:need:verb",
+              "lemma": "need",
+              "category": "verb",
+              "label": "Lexical verb with a concealed passive",
+              "relationship": "licenses"
+            }
+          ]
         },
         {
           "id": "constituent-not-negation-001",
@@ -2476,7 +2580,8 @@
             {
               "id": "bare-noun-coordination-001",
               "title": "bare-noun-coordination-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The pair has coordinate structure."
             },
             {
               "id": "both-and-coordination-001",
@@ -2487,12 +2592,14 @@
             {
               "id": "clause-001",
               "title": "clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "A coordination may contain Clauses as coordinates, but the coordination itself is non-headed and is not a Clause"
             },
             {
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Both are non-headed constructions, but their internal organization and projections differ"
             },
             {
               "id": "coordinate-degree-reduplication-001",
@@ -2503,7 +2610,8 @@
             {
               "id": "coordination-gapping-001",
               "title": "coordination-gapping-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The pattern can link coordinated clauses."
             },
             {
               "id": "corrective-but-coordination-001",
@@ -2514,7 +2622,8 @@
             {
               "id": "delayed-right-constituent-001",
               "title": "delayed-right-constituent-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The first parts occur in a coordinate structure."
             },
             {
               "id": "either-or-coordination-001",
@@ -2525,7 +2634,8 @@
             {
               "id": "let-alone-001",
               "title": "let-alone-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "CGEL treats the connective as a candidate marginal coordinator."
             },
             {
               "id": "neither-nor-coordination-001",
@@ -2554,12 +2664,14 @@
             {
               "id": "phrase-001",
               "title": "phrase-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "The non-headed constituent type; the contrast is definitional"
             },
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A coordination of Clauses may jointly present one alternative question while remaining a non-headed coordination"
             },
             {
               "id": "right-argument-cluster-coordination-001",
@@ -2570,7 +2682,8 @@
             {
               "id": "some-n-or-other-001",
               "title": "some-n-or-other-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Related or another forms make coordination a live analysis of the tail."
             }
           ]
         },
@@ -2596,12 +2709,14 @@
             {
               "id": "auxiliary-vp-ellipsis-001",
               "title": "auxiliary-vp-ellipsis-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Gapping leaves contrastive material on both sides of the omitted sequence."
             },
             {
               "id": "delayed-right-constituent-001",
               "title": "delayed-right-constituent-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Gapping shares medial material which is pronounced in the first clause."
             },
             {
               "id": "right-argument-cluster-coordination-001",
@@ -2691,7 +2806,8 @@
             {
               "id": "deadjectival-ity-noun-001",
               "title": "deadjectival-ity-noun-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The competing derivation has a different stress and stem profile."
             }
           ]
         },
@@ -2712,17 +2828,20 @@
             {
               "id": "declarative-content-clause-001",
               "title": "declarative-content-clause-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The subordinate pattern preserves declarative order in the nucleus."
             },
             {
               "id": "declarative-question-001",
               "title": "declarative-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The syntactic host retains declarative Clause type while receiving question semantics"
             },
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
-              "relationship": "can-manifest-as"
+              "relationship": "can-manifest-as",
+              "notes": "A declarative Clause can be recruited as an exclamation by prosody"
             },
             {
               "id": "present-futurate-001",
@@ -2733,24 +2852,28 @@
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Declarative Clauses can host Question meaning while retaining declarative clause type"
             },
             {
               "id": "scalar-challenge-call-001",
               "title": "scalar-challenge-call-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The challenge frame retains declarative clause type"
             },
             {
               "id": "scalar-recalibration-declarative-001",
               "title": "scalar-recalibration-declarative-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The scalar-recalibration frame retains declarative clause type"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A declarative Clause is the default Anchor realization"
             }
           ]
         },
@@ -2840,6 +2963,15 @@
               "relationship": "contains",
               "parthood": "formal"
             }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:that:conj",
+              "lemma": "that",
+              "category": "subordinator",
+              "label": "Declarative content-clause marker",
+              "relationship": "occurs-in"
+            }
           ]
         },
         {
@@ -2875,27 +3007,32 @@
             {
               "id": "closed-interrogative-clause-001",
               "title": "closed-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "A declarative question asks without subject–auxiliary inversion and carries a stronger same-polarity bias"
             },
             {
               "id": "echo-question-001",
               "title": "echo-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Declarative questions have declarative syntax and confirmation bias but do not require a linguistic stimulus"
             },
             {
               "id": "scalar-challenge-call-001",
               "title": "scalar-challenge-call-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Question prosody conventionally layers onto the declarative challenge frame"
             },
             {
               "id": "scalar-recalibration-declarative-001",
               "title": "scalar-recalibration-declarative-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Question prosody commonly layers onto the declarative scalar frame"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "A declarative question applies Question meaning to one declarative Clause; a Tag Question adds a distinct Tag Clause to its Anchor"
             }
           ]
         },
@@ -2920,12 +3057,14 @@
               "id": "grammatical-definiteness-001",
               "title": "grammatical-definiteness-001",
               "relationship": "specialization-of",
-              "parthood": "semantic"
+              "parthood": "semantic",
+              "notes": "Grammatical definiteness is realized through definite construction"
             },
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Strong proper names are inherently definite, so the construction needs no determiner to mark definiteness"
             }
           ]
         },
@@ -2970,17 +3109,20 @@
               "id": "adjective-001",
               "title": "adjective-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "semantic"
+              "overlap-dimension": "semantic",
+              "notes": "Scalar adjectives share gradability semantics with degree constructions"
             },
             {
               "id": "degree-adjective-indefinite-001",
               "title": "degree-adjective-indefinite-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "Specialized degree construction with unusual word order"
             },
             {
               "id": "every-inch-predicative-001",
               "title": "every-inch-predicative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Every inch strengthens the characterization."
             },
             {
               "id": "exclamative-word-001",
@@ -2990,17 +3132,20 @@
             {
               "id": "intensifying-to-death-001",
               "title": "intensifying-to-death-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The figurative use locates the experience high on an intensity scale."
             },
             {
               "id": "so-nominal-predication-001",
               "title": "so-nominal-predication-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The construction invites a degree interpretation from a contextually retrieved property."
             },
             {
               "id": "subject-genitive-superlative-001",
               "title": "subject-genitive-superlative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The superlative supplies a degree standard."
             }
           ]
         },
@@ -3076,7 +3221,8 @@
             {
               "id": "activity-weak-definite-001",
               "title": "activity-weak-definite-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Definite form co-occurs with weaker semantic identification."
             },
             {
               "id": "definite-001",
@@ -3086,12 +3232,14 @@
             {
               "id": "demonstrative-determinative-fused-head-001",
               "title": "demonstrative-determinative-fused-head-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The demonstratives are the prototype of the deital profile"
             },
             {
               "id": "exclamative-word-001",
               "title": "exclamative-word-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Exclamative uses pattern non-deitally (Reynolds, deitality inventory)"
             },
             {
               "id": "grammatical-definiteness-001",
@@ -3106,17 +3254,20 @@
             {
               "id": "indeterminate-word-001",
               "title": "indeterminate-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Deitality status varies by packaging: ignorance-reading fused relatives pattern deitally; free-choice readings are mixed; exclamative uses are non-deital (Reynolds, deitality inventory)"
             },
             {
               "id": "interrogative-word-001",
               "title": "interrogative-word-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Deitality diagnostics are largely undefined for fronted interrogatives (clause-type dependent)"
             },
             {
               "id": "relative-word-001",
               "title": "relative-word-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Ignorance-reading fused relatives are deital; free-choice readings mixed (Reynolds, deitality inventory)"
             },
             {
               "id": "true-partitive-001",
@@ -3147,7 +3298,8 @@
             {
               "id": "coordination-gapping-001",
               "title": "coordination-gapping-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The shared material in delayed-right coordination instead has a single overt realization at the end."
             }
           ]
         },
@@ -3185,6 +3337,15 @@
               "relationship": "specialization-of",
               "parthood": "formal"
             }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:that:det",
+              "lemma": "that",
+              "category": "determinative",
+              "label": "Independent demonstrative",
+              "relationship": "occurs-in"
+            }
           ]
         },
         {
@@ -3210,6 +3371,15 @@
               "title": "demonstrative-determinative-fused-head-001",
               "relationship": "related-to"
             }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:that:det",
+              "lemma": "that",
+              "category": "determinative",
+              "label": "Demonstrative with an overt nominal",
+              "relationship": "occurs-in"
+            }
           ]
         },
         {
@@ -3234,7 +3404,8 @@
             {
               "id": "of-genitive-own-001",
               "title": "of-genitive-own-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both involve of and genitive forms. The own phrase uses the dependent form of the pronoun."
             }
           ]
         },
@@ -3334,7 +3505,8 @@
             {
               "id": "deitality-001",
               "title": "deitality-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Deitality is the structural profile that ranks and organizes the determination system's diagnostics"
             },
             {
               "id": "grammatical-number-001",
@@ -3508,7 +3680,8 @@
             {
               "id": "deverbal-er-noun-001",
               "title": "deverbal-er-noun-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The base verb’s object can supply the argument of an of-phrase."
             },
             {
               "id": "deverbal-ing-nominal-001",
@@ -3752,22 +3925,26 @@
             {
               "id": "object-ascriptive-001",
               "title": "object-ascriptive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Two NPs can instead be two distinct objects. The predicative describes the object."
             },
             {
               "id": "object-resultative-001",
               "title": "object-resultative-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Head–Od–PredComp is complex-transitive, not the Head–Oi–Od double-object pattern"
             },
             {
               "id": "recipient-passive-retained-object-001",
               "title": "recipient-passive-retained-object-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The recipient corresponds to the indirect object of the active frame."
             },
             {
               "id": "reflexive-benefactive-ditransitive-001",
               "title": "reflexive-benefactive-ditransitive-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Its two postverbal NPs are indirect and direct object."
             },
             {
               "id": "response-obligation-ditransitive-001",
@@ -3778,7 +3955,24 @@
             {
               "id": "transitive-to-recipient-001",
               "title": "transitive-to-recipient-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Send licenses both frames. Other verbs, including explain in mainstream standard English, select only the to frame in this sense."
+            }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:explain:verb",
+              "lemma": "explain",
+              "category": "verb",
+              "label": "Making content clear to a recipient",
+              "relationship": "resists"
+            },
+            {
+              "id": "lex:tell:verb",
+              "lemma": "tell",
+              "category": "verb",
+              "label": "Communicating content to a recipient",
+              "relationship": "licenses"
             }
           ]
         },
@@ -3895,17 +4089,20 @@
             {
               "id": "declarative-question-001",
               "title": "declarative-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Echo questions depend on a stimulus and question some aspect of that prior wording; ordinary declarative questions need not"
             },
             {
               "id": "interrogative-word-001",
               "title": "interrogative-word-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Variable echoes may use similar forms in situ but preserve the stimulus's independently determined clause type"
             },
             {
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Echo marking is independent of clause type and can preserve the stimulus order instead of showing open-interrogative order"
             }
           ]
         },
@@ -4241,18 +4438,21 @@
             {
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Some non-headed exclamative realizations carry exclamation force, while many exclamations and many members of this construction fall outside that overlap"
             },
             {
               "id": "directive-ostensive-001",
               "title": "directive-ostensive-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
+              "overlap-dimension": "functional",
+              "notes": "Prototypically exclamatory, but murmured reminders show the profiles can come apart"
             },
             {
               "id": "exclamative-clause-001",
               "title": "exclamative-clause-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Exclamative clauses characteristically realize exclamatory force, but the pragmatic exclamation profile is broader than this clause type"
             },
             {
               "id": "ostensive-np-001",
@@ -4263,13 +4463,15 @@
             {
               "id": "stressed-some-exclamative-001",
               "title": "stressed-some-exclamative-001",
-              "relationship": "implements"
+              "relationship": "implements",
+              "notes": "The pattern realizes exclamation as an utterance-level function."
             },
             {
               "id": "vocative-001",
               "title": "vocative-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
+              "overlap-dimension": "functional",
+              "notes": "Only the summons/call use is exclamatory; tag and address vocatives are not"
             }
           ]
         },
@@ -4310,27 +4512,32 @@
             {
               "id": "evaluation-of-person-001",
               "title": "evaluation-of-person-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "How kind of you to call uses the evaluative frame with exclamative packaging."
             },
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
-              "relationship": "can-manifest-as"
+              "relationship": "can-manifest-as",
+              "notes": "A headed exclamative Clause is a core realization of exclamation force"
             },
             {
               "id": "exclamative-word-001",
               "title": "exclamative-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Exclamative what/how marks headed exclamative Clauses"
             },
             {
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "What and how can mark either type, but role, order, meaning, and context distinguish them"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "An exclamative Clause can anchor a normally falling reversed-polarity tag"
             },
             {
               "id": "what-np-exclamative-001",
@@ -4383,12 +4590,14 @@
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The exclamative packaging of the indeterminates feeds core members (what/how exclamatives)"
             },
             {
               "id": "exclamative-clause-001",
               "title": "exclamative-clause-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Exclamative what/how supplies both a core phrasal role and the feature marking the Clause as exclamative"
             },
             {
               "id": "how-adjective-exclamative-001",
@@ -4641,6 +4850,15 @@
               "title": "primary-auxiliary-negation-001",
               "relationship": "related-to"
             }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:need:verb",
+              "lemma": "need",
+              "category": "verb",
+              "label": "Lexical verb with a to-infinitival",
+              "relationship": "occurs-in"
+            }
           ]
         },
         {
@@ -4803,7 +5021,8 @@
             {
               "id": "np-pron-001",
               "title": "np-pron-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns"
             },
             {
               "id": "numerative-fused-head-001",
@@ -4854,22 +5073,26 @@
               "id": "fused-determiner-head-001",
               "title": "fused-determiner-head-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Determinative-head subtype of the broader fused-head family"
             },
             {
               "id": "np-001",
               "title": "np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Fusion supplies a complete NP without an ordinary overt noun head."
             },
             {
               "id": "subject-genitive-superlative-001",
               "title": "subject-genitive-superlative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The examples have no overt noun after the superlative. The head analysis remains open."
             },
             {
               "id": "the-adjective-np-001",
               "title": "the-adjective-np-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The special interpretation is available without a recoverable antecedent noun."
             }
           ]
         },
@@ -4935,12 +5158,14 @@
             {
               "id": "integrated-relative-modifier-001",
               "title": "integrated-relative-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A fused relative can form an NP without a separately expressed antecedent."
             },
             {
               "id": "pseudo-cleft-001",
               "title": "pseudo-cleft-001",
-              "relationship": "contains"
+              "relationship": "contains",
+              "notes": "The variable is defined by a fused relative."
             },
             {
               "id": "unconditional-wh-adjunct-001",
@@ -5018,12 +5243,14 @@
             {
               "id": "all-class-role-modifier-001",
               "title": "all-class-role-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "CGEL analyzes the spelling girls’ in its example as genitive."
             },
             {
               "id": "deverbal-noun-of-argument-001",
               "title": "deverbal-noun-of-argument-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "\"The failure of WM\" ~ \"WM's failure\"; genitive preferred for agents, of-PP for non-agentive arguments"
             },
             {
               "id": "group-genitive-001",
@@ -5056,7 +5283,8 @@
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Non-pronominal x's way NPs realize the determiner through the genitive-s construction"
             }
           ]
         },
@@ -5107,42 +5335,50 @@
             {
               "id": "caused-motion-001",
               "title": "caused-motion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Transitive sister of the intransitive motion/goal frame; caused motion adds an Od theme"
             },
             {
               "id": "come-with-motion-participial-001",
               "title": "come-with-motion-participial-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A goal expression can specify the destination of the movement."
             },
             {
               "id": "conative-at-001",
               "title": "conative-at-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The target supplies a direction for the action, without an arrival or contact entailment."
             },
             {
               "id": "matched-bare-endpoints-001",
               "title": "matched-bare-endpoints-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A goal use can participate in the paired frame."
             },
             {
               "id": "object-resultative-001",
               "title": "object-resultative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Marked state goals such as to sleep are locative complements rather than PredComp"
             },
             {
               "id": "path-complement-001",
               "title": "path-complement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Sister locative role; a goal supplies the final location and typically bounds a motion event"
             },
             {
               "id": "source-complement-001",
               "title": "source-complement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Sister semantic roles within the locative-complement family"
             },
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The final locative complement can express the endpoint of progress"
             }
           ]
         },
@@ -5216,7 +5452,8 @@
             {
               "id": "adjective-001",
               "title": "adjective-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; gradable adjectives license degree modification, degree modification cues scalar interpretation"
             },
             {
               "id": "domain-wise-adjunct-001",
@@ -5291,22 +5528,26 @@
             {
               "id": "deitality-001",
               "title": "deitality-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The correlated semantic kind; deital form cues definite interpretation, definite intention licenses deital form, with principled leaks"
             },
             {
               "id": "deverbal-noun-of-argument-001",
               "title": "deverbal-noun-of-argument-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "An of-argument can contribute to identification. The determiner alternation tests the two properties separately."
             },
             {
               "id": "np-def-001",
               "title": "np-def-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The structural and interpretive profiles often co-occur. Weak definites and context-dependent identifications qualify the association."
             },
             {
               "id": "np-indef-001",
               "title": "np-indef-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; indefinite form cues non-identifiable interpretation in comprehension, non-identifiable intention licenses indefinite form in production"
             }
           ]
         },
@@ -5367,7 +5608,8 @@
             {
               "id": "plural-001",
               "title": "plural-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface for number"
             },
             {
               "id": "quasi-count-noun-001",
@@ -5377,7 +5619,8 @@
             {
               "id": "singular-001",
               "title": "singular-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface for number"
             },
             {
               "id": "verb-number-agreement-001",
@@ -5589,7 +5832,8 @@
             {
               "id": "durational-long-001",
               "title": "durational-long-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A conditional antecedent can also license it."
             },
             {
               "id": "even-if-concessive-conditional-001",
@@ -5620,7 +5864,8 @@
             {
               "id": "inverted-conditional-001",
               "title": "inverted-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An if-clause can supply an equivalent condition in ordinary order."
             },
             {
               "id": "irrealis-were-001",
@@ -5734,7 +5979,8 @@
               "id": "imperative-negation-do-001",
               "title": "imperative-negation-do-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Negative imperative retains imperative clause type and its special do-support requirement"
             },
             {
               "id": "lets-inclusive-001",
@@ -5790,7 +6036,8 @@
             {
               "id": "finite-do-support-001",
               "title": "finite-do-support-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Imperative do also occurs before be."
             },
             {
               "id": "secondary-verbal-negation-001",
@@ -5924,12 +6171,14 @@
             {
               "id": "degree-adjective-indefinite-001",
               "title": "degree-adjective-indefinite-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Requires indefinite article; incompatible with definite"
             },
             {
               "id": "grammatical-definiteness-001",
               "title": "grammatical-definiteness-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
             }
           ]
         },
@@ -5999,7 +6248,8 @@
             {
               "id": "of-genitive-own-001",
               "title": "of-genitive-own-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Of mine is the corresponding pronoun pattern without own."
             }
           ]
         },
@@ -6030,7 +6280,8 @@
             {
               "id": "god-knows-indeterminate-001",
               "title": "god-knows-indeterminate-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An indeterminate identifies the open value."
             },
             {
               "id": "interrogative-word-001",
@@ -6235,7 +6486,8 @@
             {
               "id": "declarative-content-clause-001",
               "title": "declarative-content-clause-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both can be marked with that. The relative has a link to a nominal antecedent."
             },
             {
               "id": "extraposed-relative-001",
@@ -6272,6 +6524,15 @@
               "id": "supplementary-relative-001",
               "title": "supplementary-relative-001",
               "relationship": "related-to"
+            }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:that:conj",
+              "lemma": "that",
+              "category": "subordinator",
+              "label": "Integrated relative marker",
+              "relationship": "occurs-in"
             }
           ]
         },
@@ -6359,7 +6620,8 @@
             {
               "id": "np-pron-001",
               "title": "np-pron-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Some interrogative forms are pronouns."
             },
             {
               "id": "np-pron-interrog-gen-indep-001",
@@ -6369,7 +6631,8 @@
             {
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The interrogative property percolates from the word through its phrase to mark the open-interrogative Clause"
             }
           ]
         },
@@ -6400,7 +6663,8 @@
             {
               "id": "out-of-ing-causative-001",
               "title": "out-of-ing-causative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both link the matrix object to the understood subject of a gerund-participial and contrast in the result."
             },
             {
               "id": "plain-make-causative-001",
@@ -6568,7 +6832,8 @@
             {
               "id": "pseudo-cleft-001",
               "title": "pseudo-cleft-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both foreground a value. Their backgrounded relatives occupy different positions."
             }
           ]
         },
@@ -6599,12 +6864,14 @@
             {
               "id": "complement-preposing-001",
               "title": "complement-preposing-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The detached-topic construction allows an overt resumptive expression."
             },
             {
               "id": "right-dislocation-001",
               "title": "right-dislocation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The left pattern can introduce a new referent."
             }
           ]
         },
@@ -7009,9 +7276,17 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "formal",
+              "notes": "Role nouns can also occur bare as paired endpoints, as in from teacher to pupil. The pairing licenses a source–goal interpretation."
+            },
+            {
               "id": "repeated-noun-preposition-001",
               "title": "repeated-noun-preposition-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "From N to N can relate two different nouns that restrict the endpoints."
             }
           ]
         },
@@ -7301,6 +7576,15 @@
               "relationship": "specialization-of",
               "parthood": "formal"
             }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:need:verb",
+              "lemma": "need",
+              "category": "verb",
+              "label": "Modal auxiliary",
+              "relationship": "occurs-in"
+            }
           ]
         },
         {
@@ -7324,7 +7608,8 @@
             {
               "id": "causative-inchoative-001",
               "title": "causative-inchoative-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The causative member uses the changing participant as direct object."
             },
             {
               "id": "implicit-object-use-001",
@@ -7403,12 +7688,14 @@
             {
               "id": "deadjectival-ity-noun-001",
               "title": "deadjectival-ity-noun-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The output is a common noun."
             },
             {
               "id": "deadjectival-ness-noun-001",
               "title": "deadjectival-ness-noun-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The output is a common noun."
             },
             {
               "id": "denominator-numeral-001",
@@ -7418,12 +7705,14 @@
             {
               "id": "deverbal-er-noun-001",
               "title": "deverbal-er-noun-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The derivation forms an ordinary common noun."
             },
             {
               "id": "letter-case-specification-001",
               "title": "letter-case-specification-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Lowercase specifications align with common-noun readings."
             },
             {
               "id": "magnitude-quantifier-001",
@@ -7433,13 +7722,15 @@
             {
               "id": "n-proper-001",
               "title": "n-proper-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Parallel noun category"
             },
             {
               "id": "nom-001",
               "title": "nom-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Nom formally contains N as head"
             },
             {
               "id": "numerative-fractional-001",
@@ -7449,12 +7740,14 @@
             {
               "id": "with-a-lowercase-letter-001",
               "title": "with-a-lowercase-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Lowercase specification aligns with common-noun readings."
             },
             {
               "id": "with-a-small-letter-001",
               "title": "with-a-small-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Lowercase specification aligns with common-noun readings."
             }
           ]
         },
@@ -7512,12 +7805,14 @@
             {
               "id": "non-count-material-construal-001",
               "title": "non-count-material-construal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The resulting use has non-count grammar."
             },
             {
               "id": "portion-variety-count-001",
               "title": "portion-variety-count-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A normally non-count substance description supplies what is portioned or classified."
             },
             {
               "id": "quasi-count-noun-001",
@@ -7587,12 +7882,14 @@
             {
               "id": "letter-case-specification-001",
               "title": "letter-case-specification-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Letter-case cues interact with proper-noun orthography."
             },
             {
               "id": "n-common-001",
               "title": "n-common-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Parallel noun category"
             },
             {
               "id": "numerical-label-001",
@@ -7602,22 +7899,26 @@
             {
               "id": "proper-name-001",
               "title": "proper-name-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; proper-name intention licenses proper noun choice, proper nouns cue proper-name interpretation"
             },
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Proper nouns are specialized for heading NPs used as names but are not required by the construction"
             },
             {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Uppercase specification aligns with proper-noun readings."
             },
             {
               "id": "with-an-uppercase-letter-001",
               "title": "with-an-uppercase-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Uppercase specification aligns with proper-noun readings."
             }
           ]
         },
@@ -7831,12 +8132,14 @@
             {
               "id": "absolute-negator-determinative-001",
               "title": "absolute-negator-determinative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Same determinative no in dependent (determiner) function"
             },
             {
               "id": "existential-no-gerund-001",
               "title": "existential-no-gerund-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The fixed form no is shared with ordinary negative NPs."
             },
             {
               "id": "negative-concord-001",
@@ -7879,7 +8182,8 @@
             {
               "id": "all-class-role-modifier-001",
               "title": "all-class-role-modifier-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The role-restricting expression combines with a nominal head."
             },
             {
               "id": "content-clause-in-np-001",
@@ -7890,23 +8194,27 @@
             {
               "id": "integrated-relative-modifier-001",
               "title": "integrated-relative-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The relative is a dependent within a nominal."
             },
             {
               "id": "nom-n-mod-001",
               "title": "nom-n-mod-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Original relationship: can-fill."
             },
             {
               "id": "np-001",
               "title": "np-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "NP formally contains Nom as immediate constituent"
             },
             {
               "id": "np-property-value-001",
               "title": "np-property-value-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The post-head variant modifies the nominal."
             },
             {
               "id": "pro-nominal-one-001",
@@ -7948,12 +8256,14 @@
             {
               "id": "letter-case-modifier-001",
               "title": "letter-case-modifier-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Realized as an adjectival pre-head modifier in nominals."
             },
             {
               "id": "measure-adjective-001",
               "title": "measure-adjective-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The pre-head variant modifies a following noun."
             },
             {
               "id": "nom-prehead-mod-001",
@@ -8013,7 +8323,8 @@
             {
               "id": "nom-adjp-mod-001",
               "title": "nom-adjp-mod-001",
-              "relationship": "inherits-from"
+              "relationship": "inherits-from",
+              "notes": "Specific type of pre-head modification"
             },
             {
               "id": "nom-prehead-mod-001",
@@ -8134,18 +8445,21 @@
               "id": "caused-motion-001",
               "title": "caused-motion-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The moving-theme direct object is normally realized by an NP"
             },
             {
               "id": "ditransitive-vp-001",
               "title": "ditransitive-vp-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The two object slots are normally realized by NPs"
             },
             {
               "id": "evaluative-binominal-001",
               "title": "evaluative-binominal-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The whole expression can serve as an NP."
             },
             {
               "id": "fused-determiner-head-001",
@@ -8156,7 +8470,8 @@
             {
               "id": "fused-relative-np-001",
               "title": "fused-relative-np-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The whole expression distributes as an NP."
             },
             {
               "id": "measure-pseudopartitive-001",
@@ -8168,12 +8483,14 @@
               "id": "nom-001",
               "title": "nom-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "NP formally contains Nom as immediate constituent"
             },
             {
               "id": "nom-n-mod-001",
               "title": "nom-n-mod-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Original relationship: can-be-part-of."
             },
             {
               "id": "np-common-001",
@@ -8206,7 +8523,8 @@
               "id": "object-resultative-001",
               "title": "object-resultative-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The result predicand is realized by an NP direct object; PredComp itself may also be an NP"
             },
             {
               "id": "ostensive-np-001",
@@ -8217,13 +8535,15 @@
             {
               "id": "reciprocal-noun-with-001",
               "title": "reciprocal-noun-with-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The plural noun heads a predicative NP in CGEL's analysis."
             },
             {
               "id": "time-away-001",
               "title": "time-away-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The construction-licensed time direct object is realized by an NP"
             },
             {
               "id": "true-partitive-001",
@@ -8235,13 +8555,15 @@
               "id": "verb-particle-object-001",
               "title": "verb-particle-object-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The separate direct object is realized by an NP"
             },
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The fixed x's way constituent is an NP functioning as Od"
             }
           ]
         },
@@ -8252,10 +8574,6 @@
           "path": "/data/constructions/np-bare-001.yaml",
           "kind": "yaml",
           "relations": [
-            {
-              "id": "bare-role-001",
-              "relationship": "related-to"
-            },
             {
               "id": "bare-institutional-use-001",
               "relationship": "related-to"
@@ -8270,7 +8588,8 @@
               "id": "bare-role-001",
               "title": "bare-role-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "This is one use of a determinerless NP headed by a nominal."
             },
             {
               "id": "bare-institutional-use-001",
@@ -8286,12 +8605,14 @@
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "Specializes the bare-NP individual-reference use (meaning 4) to NPs with naming semantics"
             },
             {
               "id": "vocative-001",
               "title": "vocative-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Vocative function licenses bare NP for kinship terms that would otherwise require determination"
             }
           ]
         },
@@ -8329,7 +8650,8 @@
               "id": "np-001",
               "title": "np-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Common NPs specialize the formal pattern with common noun head"
             }
           ]
         },
@@ -8366,14 +8688,22 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "alternates-with",
+              "notes": "Compare remained captain and remained our captain. The determiner adds a relation to the speaker’s group. With be, the captain can also give a specifying reading."
+            },
+            {
               "id": "activity-weak-definite-001",
               "title": "activity-weak-definite-001",
-              "relationship": "contains"
+              "relationship": "contains",
+              "notes": "The activity frame contains an NP with the definite article."
             },
             {
               "id": "definite-cardinal-of-pronoun-001",
               "title": "definite-cardinal-of-pronoun-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The article determines the whole NP."
             },
             {
               "id": "deitality-001",
@@ -8383,7 +8713,8 @@
             {
               "id": "demonstrative-oblique-genitive-001",
               "title": "demonstrative-oblique-genitive-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The demonstrative marks the NP as definite."
             },
             {
               "id": "determination-001",
@@ -8393,7 +8724,8 @@
             {
               "id": "grammatical-definiteness-001",
               "title": "grammatical-definiteness-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional interface; definite interpretation cues deital form in production, deital form cues definite interpretation in comprehension"
             },
             {
               "id": "np-det-001",
@@ -8403,12 +8735,14 @@
             {
               "id": "np-indef-001",
               "title": "np-indef-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
             },
             {
               "id": "prenominal-modifier-001",
               "title": "prenominal-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The old men shows the same modification inside an article-marked NP."
             }
           ]
         },
@@ -8461,7 +8795,8 @@
             {
               "id": "nom-001",
               "title": "nom-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Nominal structure supplies the complement of the determiner function."
             },
             {
               "id": "np-common-001",
@@ -8471,7 +8806,8 @@
             {
               "id": "np-property-value-001",
               "title": "np-property-value-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The pre-head variant has determiner function in CGEL."
             },
             {
               "id": "personal-determiner-001",
@@ -8513,7 +8849,8 @@
             {
               "id": "demonstrative-oblique-genitive-001",
               "title": "demonstrative-oblique-genitive-001",
-              "relationship": "contains"
+              "relationship": "contains",
+              "notes": "The of-phrase takes an independent genitive NP."
             },
             {
               "id": "genitive-ing-subject-001",
@@ -8552,13 +8889,15 @@
             {
               "id": "existential-there-001",
               "relationship": "related-to"
-            },
-            {
-              "id": "bare-role-001",
-              "relationship": "related-to"
             }
           ],
           "incomingRelations": [
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "alternates-with",
+              "notes": "Compare became co-captain and became a co-captain. Both can ascribe the same post."
+            },
             {
               "id": "another-additive-measure-001",
               "title": "another-additive-measure-001",
@@ -8583,12 +8922,14 @@
             {
               "id": "indefinite-rate-001",
               "title": "indefinite-rate-001",
-              "relationship": "contains"
+              "relationship": "contains",
+              "notes": "The denominator is an indefinite singular NP."
             },
             {
               "id": "np-def-001",
               "title": "np-def-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the definiteness system"
             },
             {
               "id": "np-det-001",
@@ -8598,12 +8939,14 @@
             {
               "id": "portion-variety-count-001",
               "title": "portion-variety-count-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The examples use ordinary count NP syntax."
             },
             {
               "id": "some-n-or-other-001",
               "title": "some-n-or-other-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "A form of indefinite NP with a specific discourse effect."
             }
           ]
         },
@@ -8660,12 +9003,14 @@
             {
               "id": "np-pron-reciprocal-001",
               "title": "np-pron-reciprocal-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The core expression is a reciprocal pronoun."
             },
             {
               "id": "np-pron-reflexive-001",
               "title": "np-pron-reflexive-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "A personal pronoun appears in its reflexive form."
             },
             {
               "id": "personal-determiner-001",
@@ -8750,7 +9095,8 @@
             {
               "id": "np-pron-reflexive-001",
               "title": "np-pron-reflexive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A reciprocal can occupy the same object position with a different relation among participants."
             }
           ]
         },
@@ -8781,12 +9127,14 @@
             {
               "id": "np-pron-reciprocal-001",
               "title": "np-pron-reciprocal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The nearby antecedent links a reflexive to its own referent, while a reciprocal relates group members."
             },
             {
               "id": "reflexive-benefactive-ditransitive-001",
               "title": "reflexive-benefactive-ditransitive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Here the reflexive is indirect rather than direct object."
             },
             {
               "id": "reflexive-state-goal-001",
@@ -8822,7 +9170,8 @@
               "id": "n-proper-001",
               "title": "n-proper-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Proper noun formally heads proper NP (via Nom)"
             },
             {
               "id": "np-001",
@@ -8834,18 +9183,21 @@
               "id": "proper-name-001",
               "title": "proper-name-001",
               "relationship": "can-manifest-as",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Proper names can be realized as proper-noun-headed NPs"
             },
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "formal"
+              "overlap-dimension": "formal",
+              "notes": "Overlap is the strong proper-noun-headed NPs (London); weak names (the United Nations) are proper-noun NPs outside the construction, and common-noun heads in naming use (Mom) are inside it but not proper-noun NPs"
             },
             {
               "id": "vocative-001",
               "title": "vocative-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Proper names freely occur as vocatives"
             }
           ]
         },
@@ -9109,7 +9461,8 @@
             {
               "id": "all-of-magnitude-001",
               "title": "all-of-magnitude-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The numeral supplies the magnitude independently of the all of expression."
             },
             {
               "id": "numerative-addition-asyndetic-001",
@@ -9337,7 +9690,8 @@
             {
               "id": "definite-cardinal-of-pronoun-001",
               "title": "definite-cardinal-of-pronoun-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Cardinals with of-phrases can occur in ordinary partitive syntax."
             },
             {
               "id": "fused-head-001",
@@ -9594,7 +9948,8 @@
             {
               "id": "month-day-date-001",
               "title": "month-day-date-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The day numeral identifies a position in a conventional system."
             },
             {
               "id": "year-name-001",
@@ -9630,7 +9985,8 @@
             {
               "id": "bare-role-001",
               "title": "bare-role-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "In the appointment frame the predicand is realized as object."
             },
             {
               "id": "subject-ascriptive-001",
@@ -9743,22 +10099,26 @@
             {
               "id": "intensifying-to-death-001",
               "title": "intensifying-to-death-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The literal construction presents death as an achieved result."
             },
             {
               "id": "into-causative-001",
               "title": "into-causative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both can license an object to which the result applies."
             },
             {
               "id": "object-ascriptive-001",
               "title": "object-ascriptive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The resultative presents a property as a result of the event."
             },
             {
               "id": "reflexive-state-goal-001",
               "title": "reflexive-state-goal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "CGEL distinguishes these PPs from adjective and noun phrase predicatives."
             },
             {
               "id": "resultative-scalar-state-001",
@@ -9775,7 +10135,8 @@
               "id": "unselected-object-resultative-001",
               "title": "unselected-object-resultative-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "formal"
+              "overlap-dimension": "formal",
+              "notes": "This family includes unselected non-reflexive objects. CGEL’s narrower agentive intransitive pattern is recorded in the linked entry."
             }
           ]
         },
@@ -9834,7 +10195,8 @@
             {
               "id": "if-only-wish-001",
               "title": "if-only-wish-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Only if imposes a condition, while if only can express a wish."
             }
           ]
         },
@@ -9880,27 +10242,32 @@
             {
               "id": "closed-interrogative-clause-001",
               "title": "closed-interrogative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Closed and open interrogatives are distinct primary clause types with different syntactic marking"
             },
             {
               "id": "echo-question-001",
               "title": "echo-question-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Variable echoes may contain similar forms but preserve stimulus order rather than instantiating ordinary open-interrogative syntax"
             },
             {
               "id": "exclamative-clause-001",
               "title": "exclamative-clause-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "What and how can mark either type, but role, order, meaning, and context distinguish them"
             },
             {
               "id": "fused-relative-np-001",
               "title": "fused-relative-np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The same string can express an embedded question in another construction."
             },
             {
               "id": "god-knows-indeterminate-001",
               "title": "god-knows-indeterminate-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An independent verb of knowing can instead take an ordinary embedded question."
             },
             {
               "id": "how-come-explanation-001",
@@ -9927,7 +10294,8 @@
             {
               "id": "interrogative-word-001",
               "title": "interrogative-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Interrogative words mark headed open-interrogative Clauses through upward percolation"
             },
             {
               "id": "long-distance-open-interrogative-001",
@@ -9938,7 +10306,8 @@
             {
               "id": "question-001",
               "title": "question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Open interrogatives characteristically host variable questions without defining the semantic category"
             }
           ]
         },
@@ -9988,19 +10357,22 @@
               "id": "directive-ostensive-001",
               "title": "directive-ostensive-001",
               "relationship": "specialization-of",
-              "parthood": "functional"
+              "parthood": "functional",
+              "notes": "Environment-directed packaging of the ostensive NP"
             },
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
+              "overlap-dimension": "functional",
+              "notes": "Cross-cutting, not containment; the leak cases are the boundary items"
             },
             {
               "id": "vocative-001",
               "title": "vocative-001",
               "relationship": "specialization-of",
-              "parthood": "functional"
+              "parthood": "functional",
+              "notes": "Addressee-directed packaging of the ostensive NP (securing the channel)"
             }
           ]
         },
@@ -10051,7 +10423,8 @@
             {
               "id": "proper-name-secondary-use-001",
               "title": "proper-name-secondary-use-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An introduction can establish which entity a form names. Secondary constructions can then use a standing name descriptively."
             }
           ]
         },
@@ -10100,7 +10473,8 @@
             {
               "id": "if-conditional-001",
               "title": "if-conditional-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A regular preterite can mark remoteness as well as past time."
             },
             {
               "id": "irregular-ablaut-verb-001",
@@ -10163,7 +10537,8 @@
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The final locative complement can express the route traversed"
             }
           ]
         },
@@ -10254,7 +10629,8 @@
             {
               "id": "be-passive-001",
               "title": "be-passive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both use a past participle, with different auxiliary selection and argument syntax."
             },
             {
               "id": "causative-have-001",
@@ -10271,7 +10647,8 @@
               "id": "epistemic-perfect-modal-001",
               "title": "epistemic-perfect-modal-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Perfect have locates the assessed event before the reference time."
             },
             {
               "id": "experiential-perfect-001",
@@ -10282,12 +10659,14 @@
             {
               "id": "had-it-up-to-here-001",
               "title": "had-it-up-to-here-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The canonical form of this idiom has perfect have."
             },
             {
               "id": "irregular-ablaut-verb-001",
               "title": "irregular-ablaut-verb-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The perfect selects the past participle, here sung."
             },
             {
               "id": "modal-plain-complement-001",
@@ -10343,17 +10722,20 @@
               "id": "clause-001",
               "title": "clause-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Clause specializes Phrase with VP as its immediate Head"
             },
             {
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Its daughters may be headed Phrases, but the higher clausal-semantics construction is not itself a Phrase"
             },
             {
               "id": "coordination-001",
               "title": "coordination-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "The headed constituent type; the contrast is definitional"
             },
             {
               "id": "nom-001",
@@ -10377,7 +10759,8 @@
               "id": "vp-001",
               "title": "vp-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "VP specializes the headed Phrase pattern with V as Head"
             }
           ]
         },
@@ -10446,12 +10829,14 @@
             {
               "id": "grammatical-number-001",
               "title": "grammatical-number-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; plural form cues non-singular construal, non-singular construal licenses plural form"
             },
             {
               "id": "singular-001",
               "title": "singular-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the number system"
             },
             {
               "id": "verb-number-agreement-001",
@@ -10486,7 +10871,8 @@
               "id": "plural-001",
               "title": "plural-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Regular plural suffix is specialization of plural construction"
             },
             {
               "id": "zero-plural-001",
@@ -10536,7 +10922,8 @@
             {
               "id": "non-count-material-construal-001",
               "title": "non-count-material-construal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Material readings can subsequently supply a portion or a variety."
             },
             {
               "id": "plural-s-001",
@@ -10633,6 +11020,12 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can be the predicative complement of as or a complement of selected of or except."
+            },
+            {
               "id": "absolute-with-predication-001",
               "title": "absolute-with-predication-001",
               "relationship": "specialization-of",
@@ -10648,7 +11041,8 @@
               "id": "caused-motion-001",
               "title": "caused-motion-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The final dependent is a locative PP complement"
             },
             {
               "id": "content-because-adjunct-001",
@@ -10666,7 +11060,8 @@
               "id": "goal-complement-001",
               "title": "goal-complement-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The goal-role locative complement is a PP"
             },
             {
               "id": "in-case-contingency-001",
@@ -10701,7 +11096,8 @@
               "id": "path-complement-001",
               "title": "path-complement-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The path-role dependent is a PP in locative-complement function"
             },
             {
               "id": "scalar-change-by-measure-001",
@@ -10719,7 +11115,8 @@
               "id": "source-complement-001",
               "title": "source-complement-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The source-role locative complement is a PP headed centrally by from, away, off, or out"
             },
             {
               "id": "sufficiency-provided-that-001",
@@ -10731,7 +11128,8 @@
               "id": "time-away-001",
               "title": "time-away-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Away heads the one-word PP in particle function"
             },
             {
               "id": "time-measure-ago-001",
@@ -10755,18 +11153,21 @@
               "id": "verb-particle-object-001",
               "title": "verb-particle-object-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The particle is a one-word PP complement"
             },
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The route, direction, or endpoint is expressed by a locative PP complement"
             },
             {
               "id": "what-with-circumstantial-001",
               "title": "what-with-circumstantial-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The form includes fixed with and can contain an NP."
             }
           ]
         },
@@ -10871,7 +11272,8 @@
               "id": "pp-001",
               "title": "pp-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The head is a preposition"
             }
           ]
         },
@@ -10945,7 +11347,8 @@
             {
               "id": "prepositional-passive-001",
               "title": "prepositional-passive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Selected prepositions are a major source. Some independently licensed locatives can also be stranded."
             }
           ]
         },
@@ -11318,17 +11721,20 @@
             {
               "id": "letter-case-specification-001",
               "title": "letter-case-specification-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Case specification often disambiguates proper-name readings."
             },
             {
               "id": "n-proper-001",
               "title": "n-proper-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional syntax-semantics interface; proper nouns cue proper-name interpretation, proper-name intention licenses proper noun choice"
             },
             {
               "id": "np-proper-001",
               "title": "np-proper-001",
-              "relationship": "implements"
+              "relationship": "implements",
+              "notes": "Realizes the proper name function"
             },
             {
               "id": "numerical-label-001",
@@ -11338,32 +11744,38 @@
             {
               "id": "proper-name-secondary-use-001",
               "title": "proper-name-secondary-use-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The descriptive NP is built around a form otherwise used as a name."
             },
             {
               "id": "so-nominal-predication-001",
               "title": "so-nominal-predication-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A name can supply the source of an associated property."
             },
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
-              "relationship": "implements"
+              "relationship": "implements",
+              "notes": "Realizes the proper-name function in a determinerless singular NP; proper name stays the semantic classification"
             },
             {
               "id": "weak-proper-name-article-001",
               "title": "weak-proper-name-article-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A different dedicated syntactic host for the primary name use."
             },
             {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Uppercase specification often cues proper-name interpretation."
             },
             {
               "id": "with-an-uppercase-letter-001",
               "title": "with-an-uppercase-letter-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Uppercase specification often cues proper-name interpretation."
             },
             {
               "id": "year-name-001",
@@ -11464,7 +11876,8 @@
             {
               "id": "fused-relative-np-001",
               "title": "fused-relative-np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The variable expression of a pseudo-cleft is a fused relative."
             },
             {
               "id": "specificational-copular-001",
@@ -11497,7 +11910,8 @@
             {
               "id": "grammatical-number-001",
               "title": "grammatical-number-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Boundary items showing ordered dissociation of count diagnostics"
             },
             {
               "id": "n-common-pl-001",
@@ -11573,13 +11987,15 @@
               "id": "declarative-question-001",
               "title": "declarative-question-001",
               "relationship": "specialization-of",
-              "parthood": "semantic"
+              "parthood": "semantic",
+              "notes": "Declarative Question is the same-polarity-biased subtype realized on a declarative Clause"
             },
             {
               "id": "echo-question-001",
               "title": "echo-question-001",
               "relationship": "specialization-of",
-              "parthood": "semantic"
+              "parthood": "semantic",
+              "notes": "Echo Question specializes Question by making the questioned content a prior linguistic stimulus"
             },
             {
               "id": "how-about-proposal-001",
@@ -11589,13 +12005,15 @@
             {
               "id": "interrogative-word-001",
               "title": "interrogative-word-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Interrogative words contribute variables to open-question semantics"
             },
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
               "relationship": "specialization-of",
-              "parthood": "semantic"
+              "parthood": "semantic",
+              "notes": "Tag Question inherits answer-set semantics and specializes it as an anchor-dependent, normally biased polar question"
             },
             {
               "id": "what-about-topic-001",
@@ -11669,7 +12087,8 @@
             {
               "id": "cognate-event-object-001",
               "title": "cognate-event-object-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The reaction NP identifies what is expressed rather than describing the verbal event."
             }
           ]
         },
@@ -11699,7 +12118,8 @@
             {
               "id": "response-obligation-ditransitive-001",
               "title": "response-obligation-ditransitive-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An apology can be owed to someone without ever being delivered."
             }
           ]
         },
@@ -11720,7 +12140,8 @@
             {
               "id": "np-pron-reciprocal-001",
               "title": "np-pron-reciprocal-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Reciprocity can instead be part of a nominal predicate with a with-phrase."
             }
           ]
         },
@@ -11832,22 +12253,26 @@
             {
               "id": "fused-relative-np-001",
               "title": "fused-relative-np-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A relative expression helps identify the nominal referent."
             },
             {
               "id": "integrated-relative-modifier-001",
               "title": "integrated-relative-modifier-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "One form registers the relative link with a relative word."
             },
             {
               "id": "it-cleft-001",
               "title": "it-cleft-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The cleft relative can be marked by a relative word; that and zero relatives also occur."
             },
             {
               "id": "np-pron-001",
               "title": "np-pron-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Some relative forms are pronouns."
             },
             {
               "id": "possessive-relative-whose-001",
@@ -11988,12 +12413,14 @@
             {
               "id": "left-dislocation-001",
               "title": "left-dislocation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The linked NP can also follow the nucleus, with different discourse conditions."
             },
             {
               "id": "subject-extraposition-001",
               "title": "subject-extraposition-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The pronoun is referential in the dislocated NP construction."
             }
           ]
         },
@@ -12056,7 +12483,8 @@
               "id": "scalar-recalibration-declarative-001",
               "title": "scalar-recalibration-declarative-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
+              "overlap-dimension": "functional",
+              "notes": "Shares addressee-directed scalar-challenge function; differs in matrix verb and targets category membership rather than degree"
             }
           ]
         },
@@ -12113,7 +12541,8 @@
               "id": "scalar-challenge-call-001",
               "title": "scalar-challenge-call-001",
               "relationship": "overlaps-with",
-              "overlap-dimension": "functional"
+              "overlap-dimension": "functional",
+              "notes": "Shares addressee-directed challenge function; targets category membership rather than scalar degree"
             }
           ]
         },
@@ -12186,7 +12615,8 @@
             {
               "id": "causative-inchoative-001",
               "title": "causative-inchoative-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The inchoative member uses it as subject."
             },
             {
               "id": "implicit-object-use-001",
@@ -12251,12 +12681,14 @@
             {
               "id": "grammatical-number-001",
               "title": "grammatical-number-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Bidirectional; singular form cues singular construal, singular construal licenses singular form"
             },
             {
               "id": "plural-001",
               "title": "plural-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Paradigmatic contrast in the number system"
             },
             {
               "id": "verb-number-agreement-001",
@@ -12391,7 +12823,8 @@
             {
               "id": "stressed-some-exclamative-001",
               "title": "stressed-some-exclamative-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "An independent use of some associates the NP with a different discourse contribution."
             }
           ]
         },
@@ -12424,22 +12857,26 @@
             {
               "id": "caused-motion-001",
               "title": "caused-motion-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The final locative complement can bear the source role"
             },
             {
               "id": "goal-complement-001",
               "title": "goal-complement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Sister semantic roles within the locative-complement family"
             },
             {
               "id": "matched-bare-endpoints-001",
               "title": "matched-bare-endpoints-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A source use can participate in the paired frame."
             },
             {
               "id": "path-complement-001",
               "title": "path-complement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Sister locative role; source, path, and goal can co-occur in a single motion VP"
             }
           ]
         },
@@ -12468,7 +12905,8 @@
             {
               "id": "bare-role-001",
               "title": "bare-role-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Compare Lee is secretary of the club and Lee is the secretary of the club. The latter can answer Who is the secretary?"
             }
           ]
         },
@@ -12530,7 +12968,8 @@
             {
               "id": "so-nominal-predication-001",
               "title": "so-nominal-predication-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both can invite evaluation with a stressed expression and nominal material."
             }
           ]
         },
@@ -12577,12 +13016,14 @@
             {
               "id": "bare-role-001",
               "title": "bare-role-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A role form used as a standing name independently licenses referential argument uses."
             },
             {
               "id": "bare-noun-coordination-001",
               "title": "bare-noun-coordination-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A separate construction licenses bare referential names, including some common-noun forms."
             },
             {
               "id": "np-bare-001",
@@ -12597,7 +13038,8 @@
             {
               "id": "paired-np-introduction-001",
               "title": "paired-np-introduction-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The introduced-referent slot can be filled by a strong name NP."
             },
             {
               "id": "proper-name-001",
@@ -12607,12 +13049,14 @@
             {
               "id": "proper-name-secondary-use-001",
               "title": "proper-name-secondary-use-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A strong proper name independently supplies a definite referent without a determiner."
             },
             {
               "id": "title-personal-name-001",
               "title": "title-personal-name-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "These forms can be determinerless personal names."
             },
             {
               "id": "weak-proper-name-article-001",
@@ -12642,7 +13086,8 @@
             {
               "id": "bare-role-001",
               "title": "bare-role-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A bare role NP can ascribe a post to the subject."
             },
             {
               "id": "adjectival-passive-001",
@@ -12721,7 +13166,8 @@
             {
               "id": "genitive-every-001",
               "title": "genitive-every-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "A genitive appears in determiner function before every."
             }
           ]
         },
@@ -12752,12 +13198,14 @@
             {
               "id": "declarative-content-clause-001",
               "title": "declarative-content-clause-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Extraposition creates one position in which that is often optional."
             },
             {
               "id": "evaluation-of-person-001",
               "title": "evaluation-of-person-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both occur with it and a following infinitival."
             },
             {
               "id": "for-infinitival-001",
@@ -12772,7 +13220,8 @@
             {
               "id": "right-dislocation-001",
               "title": "right-dislocation-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Extraposition has a different status for the pronoun and the final expression."
             }
           ]
         },
@@ -12798,7 +13247,8 @@
             {
               "id": "reaction-object-001",
               "title": "reaction-object-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Smiled her sweetest grades the smile rather than identifying a reaction expressed by it."
             },
             {
               "id": "superlative-grade-001",
@@ -12838,6 +13288,15 @@
               "id": "subject-control-infinitival-001",
               "title": "subject-control-infinitival-001",
               "relationship": "related-to"
+            }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:need:verb",
+              "lemma": "need",
+              "category": "verb",
+              "label": "Lexical verb with a to-infinitival",
+              "relationship": "licenses"
             }
           ]
         },
@@ -13001,7 +13460,14 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "related-to",
+              "notes": "Wilson, Secretary to the Cabinet shares the supplement packaging. Its bare supplement cannot replace Wilson as subject, which is CGEL’s diagnostic against apposition here."
+            }
+          ]
         },
         {
           "id": "supplementary-relative-001",
@@ -13245,17 +13711,20 @@
             {
               "id": "adjective-hollow-infinitival-001",
               "title": "adjective-hollow-infinitival-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The existing time-away entry uses the tough frame as an objecthood diagnostic."
             },
             {
               "id": "continuative-away-at-001",
               "title": "continuative-away-at-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Both have nonlocative away, but the time-away pattern licenses a time object."
             },
             {
               "id": "object-resultative-001",
               "title": "object-resultative-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Time-away contains Od plus a particle PP complement and does not predicate a result property of Od"
             }
           ]
         },
@@ -13370,6 +13839,22 @@
               "id": "recipient-passive-retained-object-001",
               "title": "recipient-passive-retained-object-001",
               "relationship": "related-to"
+            }
+          ],
+          "lexicalUses": [
+            {
+              "id": "lex:explain:verb",
+              "lemma": "explain",
+              "category": "verb",
+              "label": "Making content clear to a recipient",
+              "relationship": "licenses"
+            },
+            {
+              "id": "lex:tell:verb",
+              "lemma": "tell",
+              "category": "verb",
+              "label": "Communicating content to a recipient",
+              "relationship": "licenses"
             }
           ]
         },
@@ -13565,7 +14050,8 @@
             {
               "id": "clause-001",
               "title": "clause-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Finite subject-bearing Clauses provide the Subject–verb configuration in which number agreement is realized"
             },
             {
               "id": "collective-agreement-001",
@@ -13617,7 +14103,8 @@
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The tag auxiliary agrees with the personal-pronoun tag Subject, including singular-anchor/plural-they cases"
             }
           ]
         },
@@ -13663,7 +14150,8 @@
               "id": "time-away-001",
               "title": "time-away-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Time-away fixes away as the particle and restricts the direct object to a time-period NP"
             }
           ]
         },
@@ -13703,29 +14191,40 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-role-001",
+              "title": "bare-role-001",
+              "relationship": "related-to",
+              "notes": "Compare Chair, may I respond? with Lee remained chair. The role noun serves as a form of address in the first example and a predicative in the second."
+            },
+            {
               "id": "directive-ostensive-001",
               "title": "directive-ostensive-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Both direct attention but differ in target (addressee vs. environment)"
             },
             {
               "id": "exclamation-001",
               "title": "exclamation-001",
-              "relationship": "can-manifest-as"
+              "relationship": "can-manifest-as",
+              "notes": "Only via the summons/call use"
             },
             {
               "id": "paired-np-introduction-001",
               "title": "paired-np-introduction-001",
-              "relationship": "contains"
+              "relationship": "contains",
+              "notes": "The first NP has vocative function."
             },
             {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
-              "relationship": "see-also"
+              "relationship": "see-also",
+              "notes": "Bare vocatives share the bare form but not the construction; their bareness is licensed by the vocative function"
             },
             {
               "id": "title-personal-name-001",
               "title": "title-personal-name-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "A titled personal name may be used in direct address."
             }
           ]
         },
@@ -13766,23 +14265,27 @@
               "id": "caused-motion-001",
               "title": "caused-motion-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Caused motion is a VP-level argument-structure specialization"
             },
             {
               "id": "clause-001",
               "title": "clause-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The Clause's obligatory Head constituent is a VP"
             },
             {
               "id": "cognate-event-object-001",
               "title": "cognate-event-object-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The cognate NP is internal to the verbal phrase."
             },
             {
               "id": "come-with-motion-participial-001",
               "title": "come-with-motion-participial-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "Both the participial and any path expression are part of the motion description."
             },
             {
               "id": "complement-it-extraposition-001",
@@ -13793,7 +14296,8 @@
             {
               "id": "conative-at-001",
               "title": "conative-at-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The target is internal to the VP, as the object of at."
             },
             {
               "id": "concealed-passive-ing-001",
@@ -13811,13 +14315,15 @@
               "id": "ditransitive-vp-001",
               "title": "ditransitive-vp-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Ditransitive complementation is a specialization of VP structure"
             },
             {
               "id": "goal-complement-001",
               "title": "goal-complement-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The goal-role locative complement is licensed within VP structure"
             },
             {
               "id": "going-to-future-001",
@@ -13834,7 +14340,8 @@
             {
               "id": "had-it-up-to-here-001",
               "title": "had-it-up-to-here-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The core verbal expression has a largely fixed lexical form."
             },
             {
               "id": "heavy-np-shift-001",
@@ -13845,7 +14352,8 @@
             {
               "id": "into-causative-001",
               "title": "into-causative-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "Causation is expressed through the object and into-phrase inside the VP."
             },
             {
               "id": "let-permissive-001",
@@ -13874,7 +14382,8 @@
             {
               "id": "object-ascriptive-001",
               "title": "object-ascriptive-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The active VP contains an object and a predicative complement."
             },
             {
               "id": "object-control-infinitival-001",
@@ -13892,13 +14401,15 @@
               "id": "object-resultative-001",
               "title": "object-resultative-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Object-oriented resultatives are VP-level complement constructions"
             },
             {
               "id": "path-complement-001",
               "title": "path-complement-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The path-role locative complement is licensed within VP structure"
             },
             {
               "id": "perception-bare-infinitival-001",
@@ -13916,7 +14427,8 @@
               "id": "perfect-have-001",
               "title": "perfect-have-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The perfect auxiliary and participial complement form a VP headed by have"
             },
             {
               "id": "plain-make-causative-001",
@@ -13940,7 +14452,8 @@
               "id": "progressive-ing-001",
               "title": "progressive-ing-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The progressive auxiliary and gerund-participial complement form a VP headed by be"
             },
             {
               "id": "quasi-modal-be-to-001",
@@ -13951,13 +14464,15 @@
             {
               "id": "reaction-object-001",
               "title": "reaction-object-001",
-              "relationship": "specialization-of"
+              "relationship": "specialization-of",
+              "notes": "The verb and reaction expression form a VP."
             },
             {
               "id": "secondary-verbal-negation-001",
               "title": "secondary-verbal-negation-001",
               "relationship": "contains",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Secondary not premodifies the VP that heads the non-finite or subjunctive Clause"
             },
             {
               "id": "simple-intransitive-vp-001",
@@ -13969,7 +14484,8 @@
               "id": "source-complement-001",
               "title": "source-complement-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The source-role locative complement is licensed within VP structure"
             },
             {
               "id": "subject-resultative-001",
@@ -13980,24 +14496,28 @@
             {
               "id": "tag-question-001",
               "title": "tag-question-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "The Tag Clause retains an auxiliary-headed VP despite surface inversion"
             },
             {
               "id": "verb-number-agreement-001",
               "title": "verb-number-agreement-001",
-              "relationship": "interfaces-with"
+              "relationship": "interfaces-with",
+              "notes": "Number is realized on the finite verb or auxiliary in the VP head of the Clause"
             },
             {
               "id": "verb-particle-object-001",
               "title": "verb-particle-object-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "The particle and direct object are dependents in a VP headed by V"
             },
             {
               "id": "way-motion-001",
               "title": "way-motion-001",
               "relationship": "specialization-of",
-              "parthood": "formal"
+              "parthood": "formal",
+              "notes": "Way-motion is a VP-level argument-structure specialization"
             }
           ]
         },
@@ -14067,13 +14587,7 @@
               "notes": "A different dedicated syntactic host for the primary name use."
             }
           ],
-          "incomingRelations": [
-            {
-              "id": "bare-role-001",
-              "title": "bare-role-001",
-              "relationship": "related-to"
-            }
-          ]
+          "incomingRelations": []
         },
         {
           "id": "what-about-topic-001",
@@ -14173,7 +14687,8 @@
             {
               "id": "absolute-supplement-001",
               "title": "absolute-supplement-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The what with frame also licenses a separate subject and predicate."
             },
             {
               "id": "absolute-with-predication-001",
@@ -14235,7 +14750,8 @@
             {
               "id": "with-an-uppercase-letter-001",
               "title": "with-an-uppercase-letter-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using capital."
             }
           ]
         },
@@ -14265,7 +14781,8 @@
             {
               "id": "with-a-small-letter-001",
               "title": "with-a-small-letter-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using lowercase."
             }
           ]
         },
@@ -14295,7 +14812,8 @@
             {
               "id": "with-a-lowercase-letter-001",
               "title": "with-a-lowercase-letter-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using small."
             }
           ]
         },
@@ -14330,7 +14848,8 @@
             {
               "id": "with-a-capital-letter-001",
               "title": "with-a-capital-letter-001",
-              "relationship": "alternates-with"
+              "relationship": "alternates-with",
+              "notes": "Lexical variant using uppercase."
             }
           ]
         },
@@ -14367,7 +14886,8 @@
             {
               "id": "month-day-date-001",
               "title": "month-day-date-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "The two patterns conventionally pick out different calendrical units by number."
             },
             {
               "id": "numerical-label-001",
@@ -14557,6 +15077,15 @@
           "title": "pos-defaults.yaml",
           "subtitle": "",
           "path": "/data/lexicon/pos-defaults.yaml",
+          "kind": "yaml",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "profiles.yaml",
+          "subtitle": "",
+          "path": "/data/lexicon/profiles.yaml",
           "kind": "yaml",
           "relations": [],
           "incomingRelations": []
@@ -20093,6 +20622,47 @@
           "incomingRelations": []
         },
         {
+          "id": "lex:explain:verb",
+          "title": "explain",
+          "subtitle": "verb",
+          "path": "/data/lexicon/profiles.yaml",
+          "kind": "lexeme",
+          "lexeme": {
+            "lemma": "explain",
+            "category": "verb",
+            "source": "profiles.yaml",
+            "uses": [
+              {
+                "id": "communication",
+                "label": "Making content clear to a recipient",
+                "example": "Explain the rule to Jo.",
+                "note": "The double-object counterpart Explain Jo the rule is strongly disfavoured in mainstream standard English. Goldberg compares explain with tell while holding their broad communication semantics and the expression of the recipient and theme approximately constant.",
+                "links": [
+                  {
+                    "construction": "transitive-to-recipient-001",
+                    "relationship": "licenses"
+                  },
+                  {
+                    "construction": "ditransitive-vp-001",
+                    "relationship": "resists"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "goldberg-2011-preemption",
+                    "locator": "Comparison of tell and explain, Table 4",
+                    "relation": "discusses"
+                  }
+                ]
+              }
+            ],
+            "profileSource": "profiles.yaml",
+            "status": "profiled"
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
           "id": null,
           "title": "failing",
           "subtitle": "preposition",
@@ -23439,6 +24009,85 @@
                 "gloss": "closest to."
               }
             ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": "lex:need:verb",
+          "title": "need",
+          "subtitle": "verb",
+          "path": "/data/lexicon/profiles.yaml",
+          "kind": "lexeme",
+          "lexeme": {
+            "lemma": "need",
+            "category": "verb",
+            "source": "profiles.yaml",
+            "uses": [
+              {
+                "id": "modal",
+                "label": "Modal auxiliary",
+                "example": "Need we leave?",
+                "note": "Modal need takes a bare infinitival and can invert with the subject directly. It chiefly occurs in non-affirmative contexts and is uncommon in American English.",
+                "links": [
+                  {
+                    "construction": "modal-plain-complement-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 3 §2.5.5 [52–53]",
+                    "relation": "discusses"
+                  }
+                ]
+              },
+              {
+                "id": "lexical-to",
+                "label": "Lexical verb with a to-infinitival",
+                "example": "Does there need to be a vote?",
+                "note": "Lexical need takes ordinary third-person singular -s and uses do-support here. Dummy there is possible because the subject is licensed by the infinitival complement.",
+                "links": [
+                  {
+                    "construction": "subject-raising-infinitival-001",
+                    "relationship": "licenses"
+                  },
+                  {
+                    "construction": "finite-do-support-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 3 §2.5.5 [52–53]",
+                    "relation": "discusses"
+                  }
+                ]
+              },
+              {
+                "id": "concealed-passive",
+                "label": "Lexical verb with a concealed passive",
+                "example": "The hinge needs oiling.",
+                "note": "The hinge is what someone oils. Compare The hinge needs to be oiled.",
+                "links": [
+                  {
+                    "construction": "concealed-passive-ing-001",
+                    "relationship": "licenses"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 14 §2.3, pp. 1199–1200",
+                    "relation": "discusses"
+                  }
+                ]
+              }
+            ],
+            "profileSource": "profiles.yaml",
+            "status": "profiled"
           },
           "relations": [],
           "incomingRelations": []
@@ -28020,6 +28669,47 @@
           "incomingRelations": []
         },
         {
+          "id": "lex:tell:verb",
+          "title": "tell",
+          "subtitle": "verb",
+          "path": "/data/lexicon/profiles.yaml",
+          "kind": "lexeme",
+          "lexeme": {
+            "lemma": "tell",
+            "category": "verb",
+            "source": "profiles.yaml",
+            "uses": [
+              {
+                "id": "communication",
+                "label": "Communicating content to a recipient",
+                "example": "Tell Jo the story. / Tell the story to Jo.",
+                "note": "In this sense tell allows either frame. Their relative suitability depends in part on how the recipient and content are expressed.",
+                "links": [
+                  {
+                    "construction": "ditransitive-vp-001",
+                    "relationship": "licenses"
+                  },
+                  {
+                    "construction": "transitive-to-recipient-001",
+                    "relationship": "licenses"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "goldberg-2011-preemption",
+                    "locator": "Comparison of tell and explain, Table 4",
+                    "relation": "discusses"
+                  }
+                ]
+              }
+            ],
+            "profileSource": "profiles.yaml",
+            "status": "profiled"
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
           "id": null,
           "title": "ten",
           "subtitle": "determinative",
@@ -28108,7 +28798,7 @@
           "incomingRelations": []
         },
         {
-          "id": null,
+          "id": "lex:that:conj",
           "title": "that",
           "subtitle": "subordinator",
           "path": "/data/lexicon/gold/conjunctions.yaml",
@@ -28117,24 +28807,61 @@
             "lemma": "that",
             "category": "subordinator",
             "source": "gold/conjunctions.yaml",
-            "status": "seed",
-            "constructions": [
-              "neither-nor-coordination-001",
-              "numerative-addition-coordination-001"
-            ],
+            "status": "profiled",
             "senses": [
               {
                 "gloss": "You use that to mark a clause as subordinate.",
                 "example": "You said that you liked me."
               }
             ],
-            "deitality": "deital"
+            "deitality": "deital",
+            "uses": [
+              {
+                "id": "content-clause",
+                "label": "Declarative content-clause marker",
+                "example": "I heard that Jo left.",
+                "note": "Jo left supplies the content of what was heard. That can be omitted in this frame.",
+                "links": [
+                  {
+                    "construction": "declarative-content-clause-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 11 §3.1",
+                    "relation": "discusses"
+                  }
+                ]
+              },
+              {
+                "id": "relative",
+                "label": "Integrated relative marker",
+                "example": "The book that Jo read was mine.",
+                "note": "Book is the antecedent linked to the unexpressed object of read. In CGEL’s analysis that marks the clause, and the gap supplies the link to book.",
+                "links": [
+                  {
+                    "construction": "integrated-relative-modifier-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 12 §3.5",
+                    "relation": "discusses"
+                  }
+                ]
+              }
+            ],
+            "profileSource": "profiles.yaml"
           },
           "relations": [],
           "incomingRelations": []
         },
         {
-          "id": null,
+          "id": "lex:that:det",
           "title": "that",
           "subtitle": "determinative",
           "path": "/data/lexicon/gold/determinatives.yaml",
@@ -28143,21 +28870,54 @@
             "lemma": "that",
             "category": "determinative",
             "source": "gold/determinatives.yaml",
-            "status": "seed",
-            "constructions": [
-              "determination-001",
-              "cardinal-determinative-001",
-              "fused-determiner-head-001",
-              "absolute-negator-determinative-001",
-              "deitality-001"
-            ],
+            "status": "profiled",
             "senses": [
               {
                 "gloss": "Used to show which thing we are talking about; used with things that are not close to the speaker.",
                 "example": "Give me that book, not this one."
               }
             ],
-            "deitality": "deital"
+            "deitality": "deital",
+            "uses": [
+              {
+                "id": "dependent",
+                "label": "Demonstrative with an overt nominal",
+                "example": "Hand me that folder.",
+                "links": [
+                  {
+                    "construction": "demonstrative-distance-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 5 §7.1",
+                    "relation": "discusses"
+                  }
+                ]
+              },
+              {
+                "id": "independent",
+                "label": "Independent demonstrative",
+                "example": "That will do.",
+                "note": "That can make up the whole NP. The linked entry discusses CGEL’s fused determiner–head analysis.",
+                "links": [
+                  {
+                    "construction": "demonstrative-determinative-fused-head-001",
+                    "relationship": "occurs-in"
+                  }
+                ],
+                "grounds": [
+                  {
+                    "source": "cgel-2002",
+                    "locator": "Ch. 5 §9.2",
+                    "relation": "discusses"
+                  }
+                ]
+              }
+            ],
+            "profileSource": "profiles.yaml"
           },
           "relations": [],
           "incomingRelations": []
@@ -34286,6 +35046,18 @@
               {
                 "id": "ago",
                 "name": "ago"
+              },
+              {
+                "id": "lex:need:verb",
+                "name": "need (verb)"
+              },
+              {
+                "id": "lex:that:conj",
+                "name": "that (subordinator)"
+              },
+              {
+                "id": "lex:that:det",
+                "name": "that (determinative)"
               }
             ]
           },
@@ -35811,6 +36583,14 @@
               {
                 "id": "transitive-to-recipient-001",
                 "name": "Monotransitive Transfer with To"
+              },
+              {
+                "id": "lex:tell:verb",
+                "name": "tell (verb)"
+              },
+              {
+                "id": "lex:explain:verb",
+                "name": "explain (verb)"
               }
             ]
           },
@@ -35924,6 +36704,15 @@
           "title": "lexicon-override.json",
           "subtitle": "",
           "path": "/data/schemas/lexicon-override.json",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "lexicon-profile.json",
+          "subtitle": "",
+          "path": "/data/schemas/lexicon-profile.json",
           "kind": "text",
           "relations": [],
           "incomingRelations": []
