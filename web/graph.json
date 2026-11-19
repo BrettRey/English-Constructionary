@@ -746,6 +746,12 @@
       "type": "mixed"
     },
     {
+      "id": "emphatic-polarity-response-001",
+      "kind": "construction",
+      "label": "Emphatic Polarity Response Family",
+      "type": "pragmatic"
+    },
+    {
       "id": "endowed-ful-001",
       "kind": "construction",
       "label": "Adjective in -Ful",
@@ -4409,6 +4415,12 @@
       "type": "mixed"
     },
     {
+      "id": "mackenzie-2019-expletive",
+      "kind": "source",
+      "label": "Mackenzie, J. Lachlan (2019), The syntax of an emotional expletive in English. Emotion in Discourse: 55-86",
+      "type": "paper"
+    },
+    {
       "id": "magnitude-quantifier-001",
       "kind": "construction",
       "label": "Magnitude Quantifier Construction",
@@ -4497,6 +4509,12 @@
       "kind": "construction",
       "label": "Month-First Calendar Date",
       "type": "mixed"
+    },
+    {
+      "id": "moreau-2024-subtitling",
+      "kind": "source",
+      "label": "Moreau, Eponine (2024), The Subtitling Strategies Adopted to Render the Four-Letter Words Fuck, Shit and Their Variants in the French Version of Orange Is the New Black: A Corpus-Based Study. Anglo Saxonica 22(1), article 11: 1-15",
+      "type": "paper"
     },
     {
       "id": "n-common-001",
@@ -4622,6 +4640,12 @@
       "kind": "construction",
       "label": "Non-count NP for Material from Countable Things",
       "type": "mixed"
+    },
+    {
+      "id": "norrick-2009",
+      "kind": "source",
+      "label": "Norrick, Neal R. (2009), Interjections as pragmatic markers. Journal of Pragmatics 41: 866-891",
+      "type": "paper"
     },
     {
       "id": "not-even-continuation",
@@ -8353,6 +8377,78 @@
       "from": "either-or-coordination-001",
       "to": "neither-nor-coordination-001",
       "type": "related-to"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "pp. 558, 568, 848"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "coca",
+      "type": "attests",
+      "locator": "Green Street Hooligans; COCA year 2005, MOV; supplied 2026-11-14"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "coca",
+      "type": "attests",
+      "locator": "The Bronze; COCA year 2015, MOV; supplied 2026-11-14"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "coca",
+      "type": "attests",
+      "locator": "V/H/S Viral; COCA year 2014, MOV; supplied 2026-11-14"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "exclamation-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "mackenzie-2019-expletive",
+      "type": "cites",
+      "locator": "p. 69, example (43a)"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "mackenzie-2019-expletive",
+      "type": "discusses",
+      "locator": "p. 69, example (43)"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "moreau-2024-subtitling",
+      "type": "attests",
+      "locator": "p. 8, Table 3"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "moreau-2024-subtitling",
+      "type": "attests",
+      "locator": "p. 8, Table 3"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "norrick-2009",
+      "type": "attests",
+      "locator": "p. 880, SCoSE Football"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "norrick-2009",
+      "type": "attests",
+      "locator": "p. 880, WSC DPC032"
+    },
+    {
+      "from": "emphatic-polarity-response-001",
+      "to": "norrick-2009",
+      "type": "cites",
+      "locator": "pp. 880-882"
     },
     {
       "from": "endowed-ful-001",
@@ -15912,6 +16008,11 @@
       "type": "discusses",
       "locator": "Ch. 9 §7.1; Ch. 10, polar questions",
       "bears-on": "projection"
+    },
+    {
+      "from": "polarity-short-answer-001",
+      "to": "emphatic-polarity-response-001",
+      "type": "related-to"
     },
     {
       "from": "portion-variety-count-001",

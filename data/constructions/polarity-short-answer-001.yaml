@@ -11,6 +11,9 @@ meanings:
 relatedConstructions:
   - id: auxiliary-vp-ellipsis-001
     relationship: interfaces-with
+  - id: emphatic-polarity-response-001
+    relationship: related-to
+    notes: Compare Yes, she did with Hell yeah. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word.
 grounds:
   - source: cgel-2002
     locator: Ch. 9 §7.1; Ch. 10, polar questions

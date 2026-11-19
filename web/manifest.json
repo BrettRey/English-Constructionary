@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T11:49:24.461Z",
+  "generatedAt": "2026-11-19T12:42:36.724Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -72,6 +72,21 @@
     "brett-judgment": {
       "type": "author-judgment",
       "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+    },
+    "norrick-2009": {
+      "type": "paper",
+      "citation": "Norrick, Neal R. (2009), Interjections as pragmatic markers. Journal of Pragmatics 41: 866-891",
+      "doi": "10.1016/j.pragma.2008.08.005"
+    },
+    "mackenzie-2019-expletive": {
+      "type": "paper",
+      "citation": "Mackenzie, J. Lachlan (2019), The syntax of an emotional expletive in English. Emotion in Discourse: 55-86",
+      "doi": "10.1075/pbns.302.03mac"
+    },
+    "moreau-2024-subtitling": {
+      "type": "paper",
+      "citation": "Moreau, Eponine (2024), The Subtitling Strategies Adopted to Render the Four-Letter Words Fuck, Shit and Their Variants in the French Version of Orange Is the New Black: A Corpus-Based Study. Anglo Saxonica 22(1), article 11: 1-15",
+      "doi": "10.5334/as.195"
     },
     "kim-sells-2015": {
       "type": "paper",
@@ -318,6 +333,18 @@
           "subtitle": "Project file",
           "path": "/LICENSE",
           "kind": "text"
+        },
+        {
+          "title": "AGENTS.md",
+          "subtitle": "Project file",
+          "path": "/AGENTS.md",
+          "kind": "markdown"
+        },
+        {
+          "title": "CLAUDE.md",
+          "subtitle": "Project file",
+          "path": "/CLAUDE.md",
+          "kind": "markdown"
         }
       ]
     },
@@ -4045,6 +4072,29 @@
           ]
         },
         {
+          "id": "emphatic-polarity-response-001",
+          "title": "emphatic-polarity-response-001",
+          "subtitle": "Emphatic Polarity Response Family",
+          "path": "/data/constructions/emphatic-polarity-response-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "exclamation-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Some emphatic responses have exclamatory force; response use alone does not establish the exclamation entry's prosodic and force profile"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "polarity-short-answer-001",
+              "title": "polarity-short-answer-001",
+              "relationship": "related-to",
+              "notes": "Compare Yes, she did with Hell yeah. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word."
+            }
+          ]
+        },
+        {
           "id": "endowed-ful-001",
           "title": "endowed-ful-001",
           "subtitle": "Adjective in -Ful",
@@ -4331,6 +4381,13 @@
               "relationship": "overlaps-with",
               "overlap-dimension": "functional",
               "notes": "Prototypically exclamatory, but murmured reminders show the profiles can come apart"
+            },
+            {
+              "id": "emphatic-polarity-response-001",
+              "title": "emphatic-polarity-response-001",
+              "relationship": "overlaps-with",
+              "overlap-dimension": "functional",
+              "notes": "Some emphatic responses have exclamatory force; response use alone does not establish the exclamation entry's prosodic and force profile"
             },
             {
               "id": "exclamative-clause-001",
@@ -10502,6 +10559,11 @@
             {
               "id": "auxiliary-vp-ellipsis-001",
               "relationship": "interfaces-with"
+            },
+            {
+              "id": "emphatic-polarity-response-001",
+              "relationship": "related-to",
+              "notes": "Compare Yes, she did with Hell yeah. The first can retain a subject and finite auxiliary from the antecedent clause. The second adds emphasis to the response word."
             }
           ],
           "incomingRelations": []
@@ -33522,6 +33584,10 @@
                 "name": "Correlative Either and Or"
               },
               {
+                "id": "emphatic-polarity-response-001",
+                "name": "Emphatic Polarity Response Family"
+              },
+              {
                 "id": "endowed-ful-001",
                 "name": "Adjective in -Ful"
               },
@@ -34975,7 +35041,12 @@
             "type": "corpus",
             "citation": "Davies, Mark (2008-), The Corpus of Contemporary American English",
             "access-note": "agent wrapper blocked (Cloudflare, 2026-07-12); Brett supplies queries and counts by hand",
-            "grounded": []
+            "grounded": [
+              {
+                "id": "emphatic-polarity-response-001",
+                "name": "Emphatic Polarity Response Family"
+              }
+            ]
           },
           "relations": [],
           "incomingRelations": []
@@ -35054,6 +35125,69 @@
               {
                 "id": "ago",
                 "name": "ago"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "norrick-2009",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "norrick-2009",
+            "type": "paper",
+            "citation": "Norrick, Neal R. (2009), Interjections as pragmatic markers. Journal of Pragmatics 41: 866-891",
+            "doi": "10.1016/j.pragma.2008.08.005",
+            "grounded": [
+              {
+                "id": "emphatic-polarity-response-001",
+                "name": "Emphatic Polarity Response Family"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "mackenzie-2019-expletive",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "mackenzie-2019-expletive",
+            "type": "paper",
+            "citation": "Mackenzie, J. Lachlan (2019), The syntax of an emotional expletive in English. Emotion in Discourse: 55-86",
+            "doi": "10.1075/pbns.302.03mac",
+            "grounded": [
+              {
+                "id": "emphatic-polarity-response-001",
+                "name": "Emphatic Polarity Response Family"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "moreau-2024-subtitling",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "moreau-2024-subtitling",
+            "type": "paper",
+            "citation": "Moreau, Eponine (2024), The Subtitling Strategies Adopted to Render the Four-Letter Words Fuck, Shit and Their Variants in the French Version of Orange Is the New Black: A Corpus-Based Study. Anglo Saxonica 22(1), article 11: 1-15",
+            "doi": "10.5334/as.195",
+            "grounded": [
+              {
+                "id": "emphatic-polarity-response-001",
+                "name": "Emphatic Polarity Response Family"
               }
             ]
           },
@@ -36326,6 +36460,75 @@
           "subtitle": "",
           "path": "/docs/projectibility-first.md",
           "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "proposed-emphatic-polarity-response-001.md",
+          "subtitle": "",
+          "path": "/docs/proposed-emphatic-polarity-response-001.md",
+          "kind": "markdown",
+          "relations": [],
+          "incomingRelations": []
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "label": "Literature",
+      "items": [
+        {
+          "id": null,
+          "title": "cgel-determiner.pdf",
+          "subtitle": "",
+          "path": "/literature/cgel-determiner.pdf",
+          "kind": "pdf",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "cgel-negation.pdf",
+          "subtitle": "",
+          "path": "/literature/cgel-negation.pdf",
+          "kind": "pdf",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "countability copy.tex",
+          "subtitle": "",
+          "path": "/literature/countability copy.tex",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "deitality copy.tex",
+          "subtitle": "",
+          "path": "/literature/deitality copy.tex",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "mereology.tex",
+          "subtitle": "",
+          "path": "/literature/mereology.tex",
+          "kind": "text",
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "numerals.tex",
+          "subtitle": "",
+          "path": "/literature/numerals.tex",
+          "kind": "text",
           "relations": [],
           "incomingRelations": []
         }

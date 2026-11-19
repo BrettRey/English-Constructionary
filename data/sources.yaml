@@ -60,6 +60,18 @@ sources:
   brett-judgment:
     type: author-judgment
     citation: "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+  norrick-2009:
+    type: paper
+    citation: "Norrick, Neal R. (2009), Interjections as pragmatic markers. Journal of Pragmatics 41: 866-891"
+    doi: "10.1016/j.pragma.2008.08.005"
+  mackenzie-2019-expletive:
+    type: paper
+    citation: "Mackenzie, J. Lachlan (2019), The syntax of an emotional expletive in English. Emotion in Discourse: 55-86"
+    doi: "10.1075/pbns.302.03mac"
+  moreau-2024-subtitling:
+    type: paper
+    citation: "Moreau, Eponine (2024), The Subtitling Strategies Adopted to Render the Four-Letter Words Fuck, Shit and Their Variants in the French Version of Orange Is the New Black: A Corpus-Based Study. Anglo Saxonica 22(1), article 11: 1-15"
+    doi: "10.5334/as.195"
   kim-sells-2015:
     type: paper
     citation: 'Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73'

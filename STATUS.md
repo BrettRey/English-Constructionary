@@ -1,5 +1,5 @@
 # English Constructionary
-<!-- SUMMARY: Projectibility-first English construction dictionary with 389 published constructions, a lexicon layer, and linked evidence · status: active · updated: 2026-11-19 -->
+<!-- SUMMARY: Projectibility-first English construction dictionary with 390 published constructions, a lexicon layer, and linked evidence · status: active · updated: 2026-11-19 -->
 
 **Status:** Active development
 **Last updated:** 2026-11-19
@@ -10,7 +10,7 @@
 
 ## Current State
 
-- **389 published construction entries** in `data/constructions/`
+- **390 published construction entries** in `data/constructions/`
 - **Lexicon layer**: 603 browsable cards, including new cards for *need*, *tell*, and *explain*. The profile pilot records use-specific construction links for those verbs and the two existing *that* cards.
 - **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
@@ -18,7 +18,7 @@
 - **CI:** schema validation + lint on every push/PR (`.github/workflows/validate.yml`)
 - `docs/CONTRIBUTING.md` published (data format, style guide, review process)
 - Web interface with bracket highlighting, dimensions, symmetric relations, kind-block display
-- **Evidence links** connect examples and claims to 58 registered sources. The browser displays the links, and the project exports them in its construction graph.
+- **Evidence links** connect examples and claims to 61 registered sources. The browser displays the links, and the project exports them in its construction graph.
 - Morphological strategies index (`data/indices/morphological-strategies.yaml`)
 
 ## Theoretical Framework
@@ -68,6 +68,8 @@ See [the roadmap](docs/ROADMAP.md) for the entry, adjudication, and infrastructu
 ---
 
 ## Session Log
+
+- **2026-11-19** — Published the approved emphatic polarity response family and its three additional sources.
 
 - **2026-11-19** — Screened relations across all 389 published constructions and revised 134 entries. Corrected hierarchy cycles and added diagnostic notes to comparisons across construction families.
 
