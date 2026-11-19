@@ -1,0 +1,31 @@
+id: object-raising-infinitival-001
+name: Object Raising with a To-Infinitival
+pattern: VP[V + raised NPᵢ + to-infinitival with understood subjectᵢ]
+type: syntactic
+meanings:
+  '1':
+    definition: Presents an assessment of a subordinate situation whose subject is realized in the higher complement sequence.
+    examples:
+      - form: They [expected there to be trouble].
+        note: Constructed illustration.
+      - form: Jo [was expected to win].
+        note: Constructed comparison. A passive counterpart preserves the embedded predication.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: object-control-infinitival-001
+    relationship: related-to
+  - id: subject-raising-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§3.1.1, 4.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The raised slot admits dummy there, and an ordinary raised NP can correspond to the subject of a passive with verbs such as believe. It need not independently participate in the believing.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

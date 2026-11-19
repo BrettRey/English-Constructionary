@@ -1,0 +1,28 @@
+id: negative-raising-001
+name: Inferred Embedded Negation under a Matrix Negative
+pattern: matrix negation + opinion/expectation predicate + content clause
+type: mixed
+meanings:
+  '1':
+    definition: Often invites a negative interpretation in the subordinate content while expressing negation in the matrix.
+    examples:
+      - form: I [don’t think the shop is open].
+        note: Constructed illustration.
+      - form: I [don’t believe the gate is open], but I have no view on whether it is closed.
+        note: Constructed comparison. The continuation can cancel the ordinary interpretation that the speaker believes it closed.
+relatedConstructions:
+  - id: primary-auxiliary-negation-001
+    relationship: related-to
+  - id: declarative-content-clause-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The natural interpretation often approximates I think the shop isn’t open. The two differ if the speaker lacks an opinion either way. The availability depends on the matrix predicate and context.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

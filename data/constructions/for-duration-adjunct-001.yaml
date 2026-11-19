@@ -1,0 +1,27 @@
+id: for-duration-adjunct-001
+name: Duration with For
+pattern: clause with adjunct PP[for + measure NP of time]
+type: mixed
+meanings:
+  '1':
+    definition: Measures how long a state, process or maintained result holds.
+    examples:
+      - form: Jo stayed outside [for fifteen minutes].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: in-duration-completion-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§7.2–7.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The adjunct measures holding time. With a normally punctual predicate it can favour a repeated-event or resulting-state construal where supported by context.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: how-come-explanation-001
+name: Explanatory How Come
+pattern: how come + Subject + finite predicate
+type: mixed
+meanings:
+  '1':
+    definition: Asks for an explanation of an actual or apparently actual state of affairs.
+    examples:
+      - form: '[How come the gate is open?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: open-interrogative-clause-001
+    relationship: related-to
+  - id: incongruity-whats-doing-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §§7.6–7.7, how come
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Ordinary why questions allow Why is the gate open? How come normally retains subject-before-auxiliary order in the corresponding main-clause question.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

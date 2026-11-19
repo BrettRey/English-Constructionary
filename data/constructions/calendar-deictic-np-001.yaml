@@ -1,0 +1,26 @@
+id: calendar-deictic-np-001
+name: Bare Deictic Calendar NP
+pattern: NP[this/last/next + calendar noun or weekday] in temporal adjunct use
+type: mixed
+meanings:
+  '1':
+    definition: Uses the contextual present to select an adjacent or current calendar period.
+    examples:
+      - form: I’ll call [next Tuesday].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: month-day-date-001
+    relationship: related-to
+  - id: year-name-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §6.3; Ch. 17, temporal deixis
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The NP can be a time adjunct without on. The relevant Tuesday is selected by the deictic expression, with some variation in how speakers resolve next.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,27 @@
+id: presentational-there-001
+name: Presentational There with a Lexical Verb
+pattern: Clause[dummy there + lexical V + postverbal NP]
+type: mixed
+meanings:
+  '1':
+    definition: Introduces an entity through an event of appearance, presence or emergence.
+    examples:
+      - form: '[There appeared a crack in the plaster].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: presentational-dependent-inversion-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §6.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Only certain lexical predicates license dummy there in this frame. The opening there need not locate the crack, and ordinary event-transitive verbs are excluded.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

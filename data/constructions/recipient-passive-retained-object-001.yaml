@@ -1,0 +1,32 @@
+id: recipient-passive-retained-object-001
+name: Recipient Passive with a Retained Object
+pattern: Clause[Subject:recipient NP + passive be + V-en + retained theme NP]
+type: mixed
+meanings:
+  '1':
+    definition: Makes the recipient the passive subject while keeping the theme in object position.
+    examples:
+      - form: Lee [was sent a replacement key].
+        note: Constructed illustration.
+      - form: '[A replacement key was sent to Lee].'
+        note: Constructed comparison. Theme subject with an oblique recipient.
+relatedConstructions:
+  - id: be-passive-001
+    relationship: specialization-of
+    parthood: formal
+  - id: ditransitive-vp-001
+    relationship: interfaces-with
+    notes: The recipient corresponds to the indirect object of the active frame.
+  - id: transitive-to-recipient-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §4.3, passive asymmetries; Ch. 16 §10
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The replacement key remains an ordinary NP complement of sent. In A replacement key was sent to Lee, the theme instead controls agreement and the recipient is an oblique.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

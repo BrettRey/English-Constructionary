@@ -1,0 +1,30 @@
+id: interrogative-sluicing-001
+name: Interrogative Sluicing
+pattern: interrogative XP with the remaining clause unexpressed
+type: syntactic
+meanings:
+  '1':
+    definition: Recovers a question with only the questioned part overt.
+    examples:
+      - form: Someone moved the keys, but I don’t know [who].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: open-interrogative-clause-001
+    relationship: related-to
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 17 §7.8.2
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-perek-2019
+    locator: discussion of clause-level ellipsis in Construction Grammar
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The mover role can be recovered from the preceding clause. A more explicit interrogative XP such as which person can likewise remain overt.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

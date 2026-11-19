@@ -1,0 +1,26 @@
+id: preposition-pied-piping-001
+name: Preposition Fronting in a Relative
+pattern: relative [PP[P + relative NP] + clause with linked gap]
+type: syntactic
+meanings:
+  '1':
+    definition: Places a preposition and relative expression together at the front of the relative clause.
+    examples:
+      - form: The terminal [from which they departed] is closed.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: interfaces-with
+  - id: prepositional-verb-frame-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §3.2, relative phrase formation; Ch. 7 §4.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A fronted P can take which or whom. The comparable relative with that requires stranding rather than forming an initial PP from that.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

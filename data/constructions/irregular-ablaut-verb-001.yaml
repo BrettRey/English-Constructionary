@@ -1,0 +1,27 @@
+id: irregular-ablaut-verb-001
+name: Vowel Alternation in Irregular Verb Inflection
+pattern: selected verb stems with present, preterite and participial vowel alternants
+type: morphological
+meanings:
+  '1':
+    definition: Distinguishes verbal inflectional forms through lexicalized changes in the stem vowel.
+    examples:
+      - form: Jo [sang] yesterday and has [sung] twice today.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: past-tense-ed-001
+    relationship: related-to
+  - id: perfect-have-001
+    relationship: related-to
+    notes: The perfect selects the past participle, here sung.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 18 §5.3.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Sang and sung correspond to different slots for this verb. Other verbs can share one form across those slots, so the exact mapping is lexical.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

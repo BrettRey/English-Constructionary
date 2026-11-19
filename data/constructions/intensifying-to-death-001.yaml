@@ -1,0 +1,32 @@
+id: intensifying-to-death-001
+name: Intensifying To Death
+pattern: VP[Head:V + (Od:NP) + to death]
+type: mixed
+meanings:
+  '1':
+    definition: Intensifies an action or the experience it causes.
+    details: In the dog scared me to death, to death conventionally expresses extreme fright. With a killing verb or an appropriate context, the same phrase instead identifies a literal result. A literal outcome and an intensified experience can thus differ without a change in surface order.
+    examples:
+      - form: The alarm [scared me to death], but everyone was fine.
+        note: Constructed context selects the degree interpretation.
+      - form: The fox [bit the hare to death].
+        note: Constructed comparison with a fatal outcome.
+relatedConstructions:
+  - id: object-resultative-001
+    relationship: related-to
+    notes: The literal construction presents death as an achieved result.
+  - id: degree-001
+    relationship: related-to
+    notes: The figurative use locates the experience high on an intensity scale.
+grounds:
+  - source: birmingham-english-constructicon
+    locator: records 62–64
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes intensity, stimulating emotion and a literal killing outcome.
+kind:
+  provisional: true
+  projection:
+    target: A later report of survival is compatible with the emotional intensity reading. The same continuation contradicts the literal outcome reading.
+    evidence: Birmingham distinguishes a general intensifier entry, its emotional subtype and a literal killing construction. The continuation tests make the difference assessable.
+    confidence: high

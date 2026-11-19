@@ -1,0 +1,50 @@
+id: reaction-object-001
+name: Reaction Object
+pattern: VP[Head:V[expression or action] + NP[reaction expressed]]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a reaction through the action named by the verb.
+    details: In smiled her thanks, the smile is the means of expressing thanks. The NP can denote an attitude, communicative response, or emotion. The verb need not ordinarily take an object of this type. The sources distinguish the pattern from a cognate object naming the event itself and report restrictions on passive versions.
+    examples:
+      - form: She [nodded satisfaction].
+        note: Published example. The NP denotes the attitude expressed by the nod.
+        grounds:
+          - source: bouso-2022-reaction-object
+            locator: abstract
+            relation: attests
+            bears-on: attestation
+      - form: He [grunted assent].
+        note: COCA example of a bare response NP.
+        grounds:
+          - source: bouso-hundt-van-driessche-2024
+            locator: §3.2 (11)
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: The verb and reaction expression form a VP.
+  - id: cognate-event-object-001
+    relationship: related-to
+    notes: A cognate NP characterizes the action itself.
+  - id: subject-genitive-superlative-001
+    relationship: related-to
+    notes: Smiled her sweetest grades the smile rather than identifying a reaction expressed by it.
+grounds:
+  - source: bouso-2022-reaction-object
+    locator: article
+    relation: discusses
+    bears-on: projection
+    note: Documents lexical diversity and possible sources of the reaction object.
+  - source: bouso-hundt-van-driessche-2024
+    locator: §§2, 3.2 [11–14]
+    relation: discusses
+    bears-on: projection
+    note: Reports reaction examples and passive diagnostics.
+kind:
+  provisional: true
+  projection:
+    target: An action verb can combine with an NP describing what the action expresses, even when its ordinary intransitive use has no such NP.
+    evidence: Bouso documents varied reaction nouns. Bouso, Hundt and Van Driessche compare reaction, cognate and superlative patterns and their distinct transitivity profiles.
+    confidence: high

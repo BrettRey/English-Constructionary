@@ -1,0 +1,27 @@
+id: right-argument-cluster-coordination-001
+name: Right Argument-Cluster Coordination
+pattern: V + [argument sequence] + coordinator + [argument sequence]
+type: syntactic
+meanings:
+  '1':
+    definition: Coordinates corresponding postverbal bundles that need not form ordinary independent phrases.
+    examples:
+      - form: I took [Jo to the station and Lee home].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+  - id: coordination-gapping-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §4.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Each person pairs with a separate goal under one overt verb. Lee home is the object and goal sequence, and is not an ordinary nominal constituent.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: comparative-adjective-suppletion-001
+name: Suppletive Adjectival Comparison
+pattern: good ↔ better/best; bad ↔ worse/worst
+type: morphological
+meanings:
+  '1':
+    definition: Realizes grade in selected adjectives with different stems.
+    examples:
+      - form: This plan is [better] than the first.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: comparative-er-001
+    relationship: related-to
+  - id: superlative-grade-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 6, grade inflection; Ch. 13 §6.3; Ch. 18, adjective inflection
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Better behaves like a comparative even though it has no transparently added -er ending. Better than and the best share a paradigm with plain good in the relevant readings.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

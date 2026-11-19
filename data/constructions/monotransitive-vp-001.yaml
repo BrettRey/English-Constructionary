@@ -1,0 +1,27 @@
+id: monotransitive-vp-001
+name: Monotransitive VP
+pattern: VP[Head:V + Od:NP]
+type: syntactic
+meanings:
+  '1':
+    definition: Realizes one participant as a direct object of the verb.
+    examples:
+      - form: The carpenter [replaced the hinge].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: be-passive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§1.1, 4.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The object can bear accusative pronoun case and, with a suitable verb, correspond to the subject of a passive. A PP complement has different internal syntax.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

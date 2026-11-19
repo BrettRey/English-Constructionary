@@ -1,0 +1,31 @@
+id: measure-pseudopartitive-001
+name: Measure Pseudopartitive with Of
+pattern: NP[quantified measure expression + of + substance or plural nominal expression]
+type: mixed
+meanings:
+  '1':
+    definition: Uses a unit or container expression to specify quantity.
+    examples:
+      - form: They bought [three litres of milk].
+        note: Constructed illustration.
+      - form: They bought [three litres of the milk from yesterday].
+        note: Constructed comparison. The construction can instead pick a quantity out of an established stock.
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: true-partitive-001
+    relationship: related-to
+  - id: measure-adjective-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §3.1, measure nouns and partitives; §14.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Milk supplies the substance measured without referring to a definite stock of which the purchase was a subset. Compare three litres of the milk, which can select from such a stock.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

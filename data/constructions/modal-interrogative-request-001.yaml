@@ -1,0 +1,26 @@
+id: modal-interrogative-request-001
+name: Modal Interrogative Request
+pattern: polar interrogative with can/could/will/would and second-person subject
+type: pragmatic
+meanings:
+  '1':
+    definition: Uses interrogative form to request the addressee’s action.
+    examples:
+      - form: '[Could you lower the shade?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: closed-interrogative-clause-001
+    relationship: interfaces-with
+  - id: imperative-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §9.6.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Lowering the shade can satisfy the utterance. In a capacity-testing context the same form can instead invite an answer about ability.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

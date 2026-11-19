@@ -1,0 +1,42 @@
+id: durational-long-001
+name: Postverbal Durational Long
+pattern: VP[... + long in a non-affirmative duration frame]
+type: mixed
+meanings:
+  '1':
+    definition: Describes a potentially long duration, typically under negation, a question, or a conditional.
+    details: Plain long in the postverbal position is natural in They didn’t stay long and Will they stay long? The ordinary affirmative They stayed long is markedly less natural for many speakers. Modified forms can behave differently, as in They stayed too long. The category analysis varies across sources. A separate use before the main verb is possible in affirmative They have long known.
+    examples:
+      - form: Did you [wait long]?
+        note: Constructed polar question.
+      - form: They didn’t [stay long].
+        note: Negated example used in CGEL's temporal duration discussion.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 8 §7, duration discussion
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: closed-interrogative-clause-001
+    relationship: related-to
+    notes: A polar question can license durational long.
+  - id: if-conditional-001
+    relationship: related-to
+    notes: A conditional antecedent can also license it.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.4 (36–39)
+    relation: discusses
+    bears-on: projection
+    note: Documents environments and proposes an NP analysis for the postverbal use.
+  - source: cgel-2002
+    locator: Ch. 7, p. 569 [17]; Ch. 8 §7
+    relation: discusses
+    bears-on: projection
+    note: Gives reasons for an adverb analysis and records the duration and polarity contrast.
+kind:
+  provisional: true
+  projection:
+    target: Changing polarity or clause type while holding the duration predicate fixed can make plain postverbal long natural. Degree modification can change the distribution.
+    evidence: FrameNet supplies documented questions, negation, conditional clauses and a separate preverbal use. CGEL independently marks the usual affirmative restriction for plain long.
+    confidence: high

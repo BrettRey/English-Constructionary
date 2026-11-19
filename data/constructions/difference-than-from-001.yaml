@@ -1,0 +1,26 @@
+id: difference-than-from-001
+name: Difference Complement after Different
+pattern: AdjP[different + from/to/than-standard]
+type: mixed
+meanings:
+  '1':
+    definition: Specifies the referent or situation from which something differs.
+    examples:
+      - form: The result was [different from what we expected].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: same-as-comparison-001
+    relationship: related-to
+  - id: than-reduced-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §5.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The choice of marker depends on variety and complement form. Than can introduce a finite comparison in uses where from requires a nominal or other licensed complement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

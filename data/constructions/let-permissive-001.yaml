@@ -1,0 +1,27 @@
+id: let-permissive-001
+name: Let Permissive with a Bare Infinitival
+pattern: VP[let + NP + bare infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an action as permitted or allowed to proceed.
+    examples:
+      - form: They [let Jo use the key].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: plain-make-causative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§1.4.3, 5.4, let
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Let licenses a plain form after Jo. An ordinary verbal passive with let and to is unavailable in this use, unlike Jo was allowed to use the key.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

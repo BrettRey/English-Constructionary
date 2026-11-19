@@ -1,0 +1,29 @@
+id: in-duration-completion-001
+name: Completion in a Time Span
+pattern: clause with adjunct PP[in + measure NP of time]
+type: mixed
+meanings:
+  '1':
+    definition: Measures the time to a bounded occurrence or endpoint.
+    examples:
+      - form: Jo sealed the cartons [in fifteen minutes].
+        note: Constructed illustration.
+      - form: Lee will start [in fifteen minutes].
+        note: Constructed comparison. Temporal location reading of the same form.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: for-duration-adjunct-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§7.2–7.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: With a completed-event preterite the interval normally measures time to completion. With a prospective reading in fifteen minutes can instead locate an event fifteen minutes from now.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

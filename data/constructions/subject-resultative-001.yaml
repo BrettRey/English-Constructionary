@@ -1,0 +1,31 @@
+id: subject-resultative-001
+name: Subject-Oriented Resultative
+pattern: VP[Head:V + PredComp:XP predicated of the subject]
+type: mixed
+meanings:
+  '1':
+    definition: Uses a postverbal complement to specify the state the subject reaches.
+    examples:
+      - form: The basin [froze solid].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: object-resultative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§5.1, 5.3
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-1995
+    locator: Ch. 8, resultative family
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Solid describes the outcome of freezing, whereas a depictive predicate ordinarily holds during the event. No separate object licenses solid in this use.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

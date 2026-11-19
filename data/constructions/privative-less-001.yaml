@@ -1,0 +1,27 @@
+id: privative-less-001
+name: Privative Adjective in -Less
+pattern: Adj[noun base + -less]
+type: morphological
+meanings:
+  '1':
+    definition: Characterizes something by absence of a feature or entity named by the noun base.
+    examples:
+      - form: The room was [windowless].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: adjective-001
+    relationship: specialization-of
+    parthood: formal
+  - id: endowed-ful-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19 §5.8(m)
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The default interpretation is a room with no windows. Context and lexicalization can supply an evaluative reading, as with careless, rather than literal absence alone.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

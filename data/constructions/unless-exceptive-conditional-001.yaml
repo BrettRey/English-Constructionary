@@ -1,0 +1,27 @@
+id: unless-exceptive-conditional-001
+name: Exceptive Conditional Unless
+pattern: PP[unless + finite clause]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the condition as an exception to the main claim.
+    examples:
+      - form: The door will stay locked [unless Lee comes back].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: if-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.4, unless
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Outside cases in which Lee comes back, the door remains locked. The sentence need not determine what happens if Lee does return.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

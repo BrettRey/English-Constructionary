@@ -1,0 +1,37 @@
+id: the-adjective-np-001
+name: Special Fused-Head NP with The and an Adjective
+pattern: NP[Det:the + fused Modifier–Head:AdjP]
+type: mixed
+meanings:
+  '1':
+    definition: Refers to a class of people or to an abstract domain characterized by the adjective.
+    details: With the very wealthy, the default special interpretation is plural and human. With the utterly impossible, the abstract interpretation has singular agreement. The adjective retains its ability to take adverbial modifiers. Anaphoric examples like the long in the short route and the long recover their nominal description from context and have independent agreement.
+    examples:
+      - form: '[The very wealthy] are exempt.'
+        note: Constructed human-class reading with plural agreement.
+      - form: '[The seemingly impossible] is now routine.'
+        note: Constructed abstract reading with singular agreement.
+relatedConstructions:
+  - id: fused-head-001
+    relationship: specialization-of
+    notes: The special interpretation is available without a recoverable antecedent noun.
+  - id: adjective-001
+    relationship: related-to
+    notes: The overt constituent retains adjectival modification.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.12
+    relation: discusses
+    bears-on: projection
+    note: Contrasts human, abstract and anaphoric uses.
+  - source: cgel-2002
+    locator: Ch. 5 §9.3 [29–30]
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes special readings and noun conversion.
+kind:
+  provisional: true
+  projection:
+    target: The same article-plus-adjective frame can show plural agreement in the human reading and singular agreement in the abstract reading. Adverbial modification of the adjective survives in both.
+    evidence: FrameNet separates human, abstract and anaphoric patterns. CGEL supplies the count-noun conversion comparison and contrasts the special reading with contextually recovered readings.
+    confidence: high

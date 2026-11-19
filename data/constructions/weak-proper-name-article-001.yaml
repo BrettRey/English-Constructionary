@@ -1,0 +1,27 @@
+id: weak-proper-name-article-001
+name: Article in a Weak Proper Name
+pattern: NP[lexically conventional article + name expression]
+type: syntactic
+meanings:
+  '1':
+    definition: Realizes a conventional proper name that uses an article in ordinary argument position.
+    examples:
+      - form: They crossed [the Thames].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: strong-proper-name-001
+    relationship: related-to
+  - id: proper-name-001
+    relationship: interfaces-with
+    notes: A different dedicated syntactic host for the primary name use.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§20.2.1–20.2.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The article forms part of the ordinary naming pattern, while a label or compound can omit it in a suitable form. Arbitrary replacement with a does not preserve the primary name use.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

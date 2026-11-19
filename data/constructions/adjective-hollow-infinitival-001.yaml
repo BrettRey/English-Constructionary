@@ -1,0 +1,44 @@
+id: adjective-hollow-infinitival-001
+name: Adjectival Tough Construction
+pattern: Clause[Subject:NPᵢ + be + PredComp:AdjP[Adj + to-infinitival Clause with non-subject gapᵢ]]
+type: mixed
+meanings:
+  '1':
+    definition: Characterizes the matrix subject by evaluating an action involving it.
+    details: In their argument was impossible to follow, the argument is understood as the object of follow. A preposition can supply the gap instead. The infinitival may have its own subject with for. Compare Kim was anxious to follow the argument, where Kim is the understood subject of follow. The construction makes an evaluation about the matrix subject, which excludes dummy there on this reading.
+    examples:
+      - form: '[Their argument was impossible to follow.]'
+        note: The argument is the understood object of follow.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 14 §8.1, p. 1257 [2i]
+            relation: attests
+            bears-on: attestation
+      - form: '[His performance was easy to find fault with.]'
+        note: The gap is the object of with.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 7 §4.1, [3vii]
+            relation: attests
+            bears-on: attestation
+      - form: '[The instructions were hard for us to follow.]'
+        note: Constructed with an overt subject in the infinitival.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: An adjectival predicative follows the matrix be.
+  - id: time-away-001
+    relationship: related-to
+    notes: The existing time-away entry uses the tough frame as an objecthood diagnostic.
+grounds:
+  - source: casa-constructicon
+    locator: record 45
+    relation: discusses
+    bears-on: projection
+    note: Identifies the adjective and infinitival pattern with evaluation of an entity through an action.
+kind:
+  provisional: true
+  projection:
+    target: The matrix subject supplies a non-subject argument of the infinitival. The infinitival can separately identify who undertakes the action.
+    evidence: CGEL compares hollow and ordinary infinitivals and contrasts their subject restrictions. CASA records the difficult-to-answer pattern.
+    confidence: high

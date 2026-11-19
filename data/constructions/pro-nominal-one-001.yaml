@@ -1,0 +1,29 @@
+id: pro-nominal-one-001
+name: Pro-Nominal One and Ones
+pattern: Nom[one/ones as anaphoric head + optional nominal dependents]
+type: syntactic
+meanings:
+  '1':
+    definition: Recovers a nominal description while allowing independent determination and number.
+    examples:
+      - form: I preferred [the larger ones].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: nom-001
+    relationship: specialization-of
+    parthood: formal
+  - id: numerative-single-digit-001
+    relationship: related-to
+  - id: the-adjective-np-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 17 §6.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Ones can take plural morphology and an adjective. It normally recovers count nominal content, while the separate numeral one can answer a question about cardinality.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

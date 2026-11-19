@@ -1,0 +1,27 @@
+id: instrumental-with-np-001
+name: Instrumental With-PP
+pattern: PP[with + instrument NP] as an adjunct
+type: mixed
+meanings:
+  '1':
+    definition: Identifies an object that mediates or enables an action.
+    examples:
+      - form: Lee opened the case [with a small screwdriver].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: means-by-gerund-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §2.2; Ch. 7, functions of PPs
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A screwdriver has a means role here. With the watchman can instead identify an accompanying participant under a distinct interpretation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,27 @@
+id: positive-paucal-a-001
+name: Positive Paucal A Few and A Little
+pattern: NP[Det:a few + plural count nominal, or Det:a little + non-count nominal]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a small quantity as a positive amount.
+    examples:
+      - form: We still have [a little time].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: np-det-001
+    relationship: specialization-of
+    parthood: formal
+  - id: absolute-negator-determinative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§7.10–7.11; Ch. 9 §3.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A little asserts some available time. Bare little favours an inadequate-amount reading and patterns differently in environments sensitive to negative orientation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

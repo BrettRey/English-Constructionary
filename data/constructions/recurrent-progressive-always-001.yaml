@@ -1,0 +1,25 @@
+id: recurrent-progressive-always-001
+name: Recurrent Progressive with Always
+pattern: Clause[be + always + V-ing]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a habit as a recurring series of occurrences, often with a speaker evaluation.
+    examples:
+      - form: You’re [always leaving] the gate open.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: progressive-ing-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §8.1, occurrence series; Ch. 8 §§8–9
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The frame can describe repeated gate-leaving even if the gate is closed now. Irritation suits this example but an evaluatively positive action can support praise in the same frame.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

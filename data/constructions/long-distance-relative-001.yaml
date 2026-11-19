@@ -1,0 +1,33 @@
+id: long-distance-relative-001
+name: Long-Distance Dependency in an Integrated Relative
+pattern: antecedent nominal + relative with an antecedent-linked gap inside an embedded clause
+type: mixed
+meanings:
+  '1':
+    definition: Identifies a referent by a dependency that crosses into an embedded predication.
+    examples:
+      - form: We need the tool [which Lee said Jo had borrowed].
+        note: Constructed illustration.
+      - form: We need the tool [which Jo borrowed].
+        note: Constructed comparison. Local counterpart with no intervening clause.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: specialization-of
+    parthood: formal
+  - id: preposition-pied-piping-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §§3.4, 7
+    relation: discusses
+    bears-on: projection
+  - source: cuneo-goldberg-2023
+    locator: experiments comparing questions and relatives in the same base constructions
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The tool fills the object role of borrowed. The relative and a corresponding question differ in their discourse functions, and the acceptability of both depends on the intervening construction.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

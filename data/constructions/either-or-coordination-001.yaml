@@ -1,0 +1,27 @@
+id: either-or-coordination-001
+name: Correlative Either and Or
+pattern: coordination[either + XP + or + XP]
+type: mixed
+meanings:
+  '1':
+    definition: Introduces alternatives with an overt marker at the left edge.
+    examples:
+      - form: Pick [either the blue folder or the red one].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+  - id: neither-nor-coordination-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §§2.2.1, 2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Either signals a forthcoming alternative. Exclusion of both can be imposed by context without being a universal truth-condition of or.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,30 @@
+id: too-degree-infinitival-001
+name: Excess Degree Too with an Infinitival
+pattern: AdjP/AdvP[too + gradable head + to-infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a degree as exceeding a threshold set by an action or outcome.
+    examples:
+      - form: The gap was [too narrow for the crate to fit through].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: gradation-001
+    relationship: interfaces-with
+  - id: enough-degree-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §8.4; Ch. 6, degree modification
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §§4.5–4.6, degree and qualification
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The crate could count as large enough for other purposes. The relevant threshold is whether it can fit through that gap, not a universal degree of narrowness.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

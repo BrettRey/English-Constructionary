@@ -1,0 +1,27 @@
+id: going-to-future-001
+name: Prospective Be Going To
+pattern: VP[be + going + to-infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an event as prospective in light of an intention or present indications.
+    examples:
+      - form: '[It’s going to freeze tonight].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: present-futurate-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §10.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The weather subject requires no mover and no physical destination. The prospective use can therefore be distinguished from motion in going to the station.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

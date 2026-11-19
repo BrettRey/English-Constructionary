@@ -1,0 +1,29 @@
+id: continuative-perfect-001
+name: Continuative Perfect
+pattern: Clause[perfect have + past-participial VP + duration reaching the reference time]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a situation as holding through an interval ending at the relevant temporal anchor.
+    examples:
+      - form: Jo [has lived here since April].
+        note: Constructed illustration.
+      - form: Jo [had lived there since April] when we met.
+        note: Constructed comparison. Past reference point supplied by the meeting.
+relatedConstructions:
+  - id: perfect-have-001
+    relationship: specialization-of
+    parthood: formal
+  - id: experiential-perfect-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §5.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: With a suitable stative predicate and since-anchor, the ordinary reading extends residence to the present or other reference time. An experiential perfect need only locate an occurrence before that time.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

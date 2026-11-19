@@ -1,0 +1,35 @@
+id: incongruity-whats-doing-001
+name: Incongruity What Is X Doing Y?
+pattern: interrogative[what + be + Subject + doing + location or V-ing expression]
+type: mixed
+meanings:
+  '1':
+    definition: Asks for an explanation of a state, presence or action presented as anomalous.
+    examples:
+      - form: '[What’s that ladder doing in the hall?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: open-interrogative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: how-come-explanation-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §7.10 n. 14
+    relation: discusses
+    bears-on: projection
+  - source: kay-fillmore-1999
+    locator: §§2–3, explanation and grammatical contrasts
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-2006
+    locator: Ch. 1, inventory and inheritance
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A ladder in a hall need not be performing an action. The same string shape with a human subject and an activity can also support an ordinary literal what-question.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

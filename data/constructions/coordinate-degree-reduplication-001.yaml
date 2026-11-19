@@ -1,0 +1,27 @@
+id: coordinate-degree-reduplication-001
+name: Comparative Reduplication with And
+pattern: AdjP/AdvP[comparative XP + and + identical comparative XP]
+type: mixed
+meanings:
+  '1':
+    definition: Presents degree as progressively increasing or decreasing over a relevant interval.
+    examples:
+      - form: The sound grew [fainter and fainter].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: comparative-er-001
+    relationship: related-to
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §2.2.5; Ch. 13, comparative grade
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Repeating the same comparative yields continued change rather than identifying two independent properties. The corresponding plain-grade repetition has other uses.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

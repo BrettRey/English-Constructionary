@@ -1,0 +1,42 @@
+id: np-pron-reflexive-001
+name: Direct-Object Reflexive Anaphor
+pattern: NP[Pron.REFLᵢ] as direct object with local Subject:NPᵢ
+type: mixed
+meanings:
+  '1':
+    definition: Interprets a direct-object personal pronoun as having the same referent as the subject of the verb.
+    details: Sue defended herself has a local antecedent for herself. In the ordinary transitive reading, Sue defended her is about Sue defending someone else. This entry covers the simple direct-object pattern. A reflexive used for emphasis or in a picture NP can have different licensing.
+    examples:
+      - form: Sue defended [herself].
+        note: The reflexive is co-referential with the subject Sue.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 17 §3.1.1 [12i]
+            relation: attests
+            bears-on: attestation
+      - form: The players congratulated [themselves].
+        note: Constructed plural example with a matching local antecedent.
+relatedConstructions:
+  - id: np-pron-001
+    relationship: specialization-of
+    notes: A personal pronoun appears in its reflexive form.
+  - id: np-pron-reciprocal-001
+    relationship: related-to
+    notes: A reciprocal can occupy the same object position with a different relation among participants.
+grounds:
+  - source: casa-constructicon
+    locator: records 82–89
+    relation: discusses
+    bears-on: projection
+    note: Lists reflexive forms as reference constructions.
+  - source: cgel-2002
+    locator: Ch. 17 §§3.1.1, 3.1.4 and 3.2
+    relation: discusses
+    bears-on: projection
+    note: Separates the simple object pattern from other reflexive uses.
+kind:
+  provisional: true
+  projection:
+    target: Changing a simple direct-object reflexive to the corresponding accusative usually removes the local co-reference reading. The reflexive form tracks the antecedent’s person and number.
+    evidence: CGEL examines the basic verb-domain pattern and explicitly distinguishes override and emphatic reflexives. CASA lists corresponding members of the paradigm.
+    confidence: high

@@ -1,0 +1,29 @@
+id: plain-make-causative-001
+name: Make Causative with a Bare Infinitival
+pattern: VP[make + NP + bare infinitival]; passive be made + to-infinitival
+type: mixed
+meanings:
+  '1':
+    definition: Presents one participant as causing the other to undertake or undergo a situation.
+    examples:
+      - form: The joke [made Lee laugh].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: be-passive-001
+    relationship: related-to
+  - id: into-causative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§1.4.3, 5.4, make
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In the active make selects the bare infinitival, while the corresponding passive Lee was made to laugh uses to. The interpretation retains Lee as the laugher.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

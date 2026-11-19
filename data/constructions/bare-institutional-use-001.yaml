@@ -1,0 +1,27 @@
+id: bare-institutional-use-001
+name: Institutional Bare Singular
+pattern: bare singular institutional noun in a licensed frame
+type: mixed
+meanings:
+  '1':
+    definition: Refers to participation in an institutional activity or status.
+    examples:
+      - form: The children are [at school].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: activity-weak-definite-001
+    relationship: related-to
+  - id: np-bare-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §8.5; Ch. 7, bare NPs after prepositions
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: At school can describe the relevant institutional setting without selecting a particular building in the same way as at the school. Licensing depends on noun, context and variety.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

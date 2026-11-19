@@ -1,0 +1,29 @@
+id: causative-have-001
+name: Causative Have with a Bare Infinitival
+pattern: VP[have + NP + bare infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an event as arranged, instructed or brought about by the subject.
+    examples:
+      - form: I’ll [have Jo check the figures].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: perfect-have-001
+    relationship: related-to
+  - id: affected-have-participial-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §5.4, have
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Jo undertakes the checking. Have Jo check contrasts with perfect have checked and with affected have the figures checked.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,28 @@
+id: what-np-exclamative-001
+name: Phrasal Exclamation with What
+pattern: independent NP[exclamative what + optional a/an + Nom]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses an affective evaluation through an apt nominal description.
+    examples:
+      - form: '[What a mess!]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: exclamative-word-001
+    relationship: interfaces-with
+  - id: clause-analogue-001
+    relationship: related-to
+  - id: exclamative-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §§8.1.2, 8.1.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The singular count example includes a, whereas What lovely weather! does not. The independent pattern needs no finite predication to convey the evaluation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

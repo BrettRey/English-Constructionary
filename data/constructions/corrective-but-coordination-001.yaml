@@ -1,0 +1,27 @@
+id: corrective-but-coordination-001
+name: Corrective Not X But Y
+pattern: coordination[not XP + but XP]
+type: mixed
+meanings:
+  '1':
+    definition: Rejects one description and substitutes another as the intended one.
+    examples:
+      - form: I ordered [not tea but coffee].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+  - id: constituent-not-negation-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §§2.5–2.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Not applies to the rejected candidate, and but introduces the correction. This differs from concessive but, where both coordinated propositions can be asserted.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

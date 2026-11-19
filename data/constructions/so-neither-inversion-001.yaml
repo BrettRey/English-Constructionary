@@ -1,0 +1,28 @@
+id: so-neither-inversion-001
+name: Inverted Additive So and Neither
+pattern: Clause[so/neither/nor + finite Aux + Subject]
+type: mixed
+meanings:
+  '1':
+    definition: Affirms a parallel predication under matching polarity.
+    examples:
+      - form: Lee has finished, and [so has Jo].
+        note: Constructed illustration.
+      - form: Lee hasn’t finished, and [neither has Jo].
+        note: Constructed comparison. Negative additive counterpart.
+relatedConstructions:
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+  - id: neither-nor-coordination-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §2.1.2, inversion after additive so/neither; Ch. 8 §19, connective adjuncts
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A positive antecedent licenses additive so, a negative one neither or nor. The new subject follows the auxiliary and the prior predicate is recoverable.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

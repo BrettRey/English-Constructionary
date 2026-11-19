@@ -1,0 +1,29 @@
+id: object-control-infinitival-001
+name: Object Control in a To-Infinitival Complement
+pattern: VP[V + NPᵢ + to-infinitival with understood subjectᵢ]
+type: syntactic
+meanings:
+  '1':
+    definition: Interprets a selected object as the participant in the infinitival situation.
+    examples:
+      - form: Jo [persuaded Kai to stay].
+        note: Constructed illustration.
+      - form: They [persuaded Kai not to wait].
+        note: Constructed comparison. Negation in the subordinate clause applies to waiting. Kai remains the persuadee.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: object-raising-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §3.1.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Kai is both the person persuaded and the understood subject of stay. Dummy there cannot serve as a persuadee.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

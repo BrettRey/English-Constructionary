@@ -1,0 +1,29 @@
+id: epistemic-perfect-modal-001
+name: Epistemic Modal over Perfect
+pattern: VP[epistemic modal + have + past participle]
+type: mixed
+meanings:
+  '1':
+    definition: Assesses an earlier situation from a later point of view.
+    examples:
+      - form: It [must have rained] last night.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: modal-plain-complement-001
+    relationship: specialization-of
+    parthood: formal
+  - id: perfect-have-001
+    relationship: contains
+    parthood: formal
+    notes: Perfect have locates the assessed event before the reference time.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§9.3.1, 9.9
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: On the inferential reading, must expresses the current conclusion and have places the rain earlier. A past requirement ordinarily calls for had to rather than this construction.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,27 @@
+id: preference-would-rather-001
+name: Preference Would Rather
+pattern: VP[would rather + plain infinitival or finite subordinate clause]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses preference between actual or imagined alternatives.
+    examples:
+      - form: I [would rather you stayed].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: irrealis-were-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§2.5.1, 6.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A finite clause can have its own subject and a modally remote preterite. In I would rather stay, the subject of stay is understood as the matrix subject.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

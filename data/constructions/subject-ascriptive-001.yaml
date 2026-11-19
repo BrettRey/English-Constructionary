@@ -1,0 +1,27 @@
+id: subject-ascriptive-001
+name: Subject-Oriented Ascriptive Predicative
+pattern: Clause[Subject + linking verb + PredComp:XP]
+type: syntactic
+meanings:
+  '1':
+    definition: Attributes a property, class or condition to the subject referent.
+    examples:
+      - form: Jo [seems unusually calm].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: object-ascriptive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§5.1, 5.4–5.5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The complement describes Jo, and the corresponding stative property can often be predicated with be. An ordinary object cannot replace the adjective in the same role.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

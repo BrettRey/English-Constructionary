@@ -1,0 +1,27 @@
+id: another-additive-measure-001
+name: Additive Another before a Measure or Cardinal
+pattern: NP[another + cardinal or measure expression + nominal]
+type: mixed
+meanings:
+  '1':
+    definition: Adds another amount of the stated size to the relevant course or quantity.
+    examples:
+      - form: We stayed [another three days].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: np-indef-001
+    relationship: specialization-of
+    parthood: formal
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.9
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The added quantity can be plural, even though ordinary another with no intervening quantifier selects a singular count nominal. The example adds days rather than replacing the prior period.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

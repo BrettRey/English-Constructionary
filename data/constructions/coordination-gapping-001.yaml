@@ -1,0 +1,42 @@
+id: coordination-gapping-001
+name: Gapping in Coordination
+pattern: coordination[Clause₁ + (Coordinator) + Clause₂ with a medial gap between remnants]
+type: mixed
+meanings:
+  '1':
+    definition: Contrasts corresponding elements of linked predications while leaving repeated medial material unspoken.
+    details: In Kim lives in Perth, Pat in Melbourne, the second clause is understood with lives. Both Pat and in Melbourne contrast with material in the first clause. The gap can contain more than the verb. The ordinary construction depends on a coordinate or closely parallel discourse relation.
+    examples:
+      - form: '[Kim lives in Perth, Pat in Melbourne.]'
+        note: The second pair of contrasting expressions flanks the gap for lives.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 17 §7.8.4 [81i]
+            relation: attests
+            bears-on: attestation
+      - form: '[Sam ordered tea and Lee coffee].'
+        note: Constructed example with two contrasting remnants in the second clause.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    notes: The pattern can link coordinated clauses.
+  - id: delayed-right-constituent-001
+    relationship: related-to
+    notes: The shared material in delayed-right coordination instead has a single overt realization at the end.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.2 (19–20)
+    relation: discusses
+    bears-on: projection
+    note: Describes contrasting material around a shared medial sequence.
+  - source: cgel-2002
+    locator: Ch. 15 §4.2; Ch. 17 §7.8.4
+    relation: discusses
+    bears-on: projection
+    note: Documents gaps of different lengths and the relation to coordination.
+kind:
+  provisional: true
+  projection:
+    target: The repeated verb or overt medial sequence can be absent between two contrastive remnants. This distinguishes gapping from final VP ellipsis after a stranded auxiliary.
+    evidence: FrameNet specifies the positions around the gap. CGEL documents multiword gaps and the relative restrictions on coordination.
+    confidence: high

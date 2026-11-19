@@ -1,0 +1,45 @@
+id: object-ascriptive-001
+name: Object-Oriented Ascriptive Predicative
+pattern: VP[Head:V + Od:NPᵢ + PredComp:NPᵢ or AdjPᵢ]
+type: mixed
+meanings:
+  '1':
+    definition: Ascribes a property or status to the object referent.
+    details: In considered him a fool, the NP a fool describes him. The predicative does not add another participant or require a change of state. Passivizing can make the original object the subject while retaining its status as the referent described by the predicative.
+    examples:
+      - form: She [considered him a fool].
+        note: The predicative NP describes the person referred to by him.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 4 §5.1 [7iia]
+            relation: attests
+            bears-on: attestation
+      - form: He was [considered unreliable].
+        note: Constructed passive with the adjectival predicative retained.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: The active VP contains an object and a predicative complement.
+  - id: object-resultative-001
+    relationship: related-to
+    notes: The resultative presents a property as a result of the event.
+  - id: ditransitive-vp-001
+    relationship: related-to
+    notes: Two NPs can instead be two distinct objects. The predicative describes the object.
+grounds:
+  - source: casa-constructicon
+    locator: records 22–23
+    relation: discusses
+    bears-on: projection
+    note: Documents object attribute frames.
+  - source: cgel-2002
+    locator: Ch. 4 §§5.1–3
+    relation: discusses
+    bears-on: projection
+    note: Compares predicative complements, objects and resultatives.
+kind:
+  provisional: true
+  projection:
+    target: The predicative remains oriented to the original object under passivization. With consider, the sentence does not present the object as undergoing a change.
+    evidence: CASA distinguishes NP and adjective realizations. CGEL treats them as predicative complements with the object as their predicand.
+    confidence: high

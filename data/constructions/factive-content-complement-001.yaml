@@ -1,0 +1,24 @@
+id: factive-content-complement-001
+name: Factive Predication with a Content Clause
+pattern: matrix factive predicate + subordinate declarative content
+type: mixed
+meanings:
+  '1':
+    definition: Treats the content as already true or taken for granted in ordinary uses.
+    examples:
+      - form: Jo didn’t [regret that the shop closed].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §7.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The closure normally remains taken for granted under matrix negation. Context and predicate choice can alter projection, so factivity must be checked per use.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

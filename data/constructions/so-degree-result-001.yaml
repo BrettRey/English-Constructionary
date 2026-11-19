@@ -1,0 +1,27 @@
+id: so-degree-result-001
+name: Degree So with a Result Content Clause
+pattern: so + gradable expression + (that) content clause
+type: mixed
+meanings:
+  '1':
+    definition: Identifies a high degree through a resulting or evidentially linked situation.
+    examples:
+      - form: The street was [so narrow that the van couldn’t turn].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: contains
+    parthood: formal
+  - id: too-degree-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §4.6; Ch. 8 §12.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The result clause identifies the relevant scale threshold and ordinarily presents a realized situation. Compare too narrow to turn, which describes an obstacle without reporting an attempt.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

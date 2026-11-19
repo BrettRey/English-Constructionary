@@ -1,0 +1,27 @@
+id: heavy-np-shift-001
+name: Heavy Complement Postposing
+pattern: VP[V + short dependent + relatively heavy NP complement]
+type: mixed
+meanings:
+  '1':
+    definition: Places a bulky complement after a lighter dependent of the same verb.
+    examples:
+      - form: She [handed to the chair a folder containing all the amended exhibits].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: transitive-to-recipient-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §4; Ch. 4 §4.3, postposing
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Substituting a short pronoun produces strongly degraded handed to the chair it. Relative length and information status affect the postposed order.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

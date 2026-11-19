@@ -1,0 +1,26 @@
+id: zero-plural-001
+name: Zero Plural of Selected Count Nouns
+pattern: N[plural] realized with the same stem form as N[singular]
+type: morphological
+meanings:
+  '1':
+    definition: Realizes count plural without a distinct suffix on a restricted set of nouns.
+    examples:
+      - form: '[Three sheep] were left outside.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: plural-s-001
+    relationship: related-to
+  - id: grammatical-number-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 18 §4.1.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The numeral and verb agree with a plural even though sheep lacks a plural suffix. A singular determiner can combine with the same stem form in a sheep.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

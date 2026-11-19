@@ -1,0 +1,27 @@
+id: perception-gerund-participial-001
+name: Perception with a Gerund-Participial
+pattern: VP[perception V + NP + gerund-participial predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a perceived participant in the course of an activity or event.
+    examples:
+      - form: I [saw Kai crossing the square].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: perception-bare-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§3.2.2, 5.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Seeing Kai crossing the square is compatible with leaving before Kai reached the other side. The -ing complement can describe the phase perceived.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

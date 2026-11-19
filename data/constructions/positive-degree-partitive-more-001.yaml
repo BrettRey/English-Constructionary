@@ -1,0 +1,27 @@
+id: positive-degree-partitive-more-001
+name: Comparative Quantification with More of
+pattern: NP[more + PP[of + domain expression]]
+type: mixed
+meanings:
+  '1':
+    definition: Compares amounts drawn from a specified set or whole.
+    examples:
+      - form: We should keep [more of these samples].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: true-partitive-001
+    relationship: specialization-of
+    parthood: formal
+  - id: differential-measure-comparative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§7.11, 9.2; Ch. 13 §4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The of-phrase fixes the group counted over. More can quantify a plural count domain or an amount of a non-count substance, depending on the complement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

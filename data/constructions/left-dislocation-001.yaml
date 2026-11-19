@@ -1,0 +1,45 @@
+id: left-dislocation-001
+name: Left Dislocation with a Pronoun
+pattern: NPᵢ + Clause[... overt personal pronounᵢ ...]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a referent before making a predication about it within the clause.
+    details: A pronoun in the clause takes the referent of the initial NP. The pronoun may be a subject, an object, or a genitive determiner. In complement preposing the relevant position has a gap. The left-dislocated NP can introduce a new referent.
+    examples:
+      - form: '[Her parents, I don’t like them at all.]'
+        note: The object them is overt.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §8.1 [4i]
+            relation: attests
+            bears-on: attestation
+      - form: '[Some guys, they just show up without even calling first.]'
+        note: The initial NP can introduce a class of people to the discourse.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §8.1 [5]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The clause nucleus supplies Head:VP.
+  - id: right-dislocation-001
+    relationship: related-to
+    notes: The linked NP can also follow the nucleus, with different discourse conditions.
+  - id: complement-preposing-001
+    relationship: related-to
+    notes: Preposing uses a gap instead of an overt pronoun.
+grounds:
+  - source: casa-constructicon
+    locator: record 143
+    relation: discusses
+    bears-on: projection
+    note: Records the detached initial NP and the following clause with a linked pronoun.
+kind:
+  provisional: true
+  projection:
+    target: An overt pronoun can appear inside an NP as a genitive determiner while the initial referent is outside the clause nucleus. The referent can be new to the discourse.
+    evidence: CGEL compares preposing with matched left dislocation and documents genitive and discourse-new cases. CASA records the linked pronoun.
+    confidence: high

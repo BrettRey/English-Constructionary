@@ -1,0 +1,26 @@
+id: exhaustive-alternative-conditional-001
+name: Alternative Exhaustive Conditional
+pattern: adjunct[whether + alternatives linked by or]
+type: mixed
+meanings:
+  '1':
+    definition: States that the outcome holds whichever of the presented alternatives obtains.
+    examples:
+      - form: '[Whether Lee comes or not], the meeting goes ahead.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: closed-interrogative-whether-001
+    relationship: related-to
+  - id: if-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §5.3.6; Ch. 8 §14.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The adjunct does not ask or report an unresolved question. It asserts that the consequence holds on both alternatives.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

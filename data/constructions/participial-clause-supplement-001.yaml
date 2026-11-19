@@ -1,0 +1,26 @@
+id: participial-clause-supplement-001
+name: Subjectless Participial Supplement
+pattern: nonfinite supplement[V-ing or V-en + dependents] anchored to main clause
+type: mixed
+meanings:
+  '1':
+    definition: Adds a circumstance whose understood subject is normally recovered from the anchor.
+    examples:
+      - form: '[Hearing footsteps], Jo switched off the light.'
+        note: Constructed illustration.
+      - form: Lee shut the door, [startled by the noise].
+        note: Constructed comparison. The past-participial supplement takes Lee as its understood subject.
+relatedConstructions:
+  - id: absolute-supplement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§9, 11
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Jo is the ordinary understood hearer. A separate overt subject would instead support an absolute supplement, while some fixed discourse adjuncts use contextual subjects.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

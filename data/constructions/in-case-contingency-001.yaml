@@ -1,0 +1,27 @@
+id: in-case-contingency-001
+name: Precautionary In Case
+pattern: PP[in case + finite clause]
+type: mixed
+meanings:
+  '1':
+    definition: Supplies the possibility against which the main action is a precaution.
+    examples:
+      - form: Take a key [in case the door locks].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: if-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.4, in case
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The taking is appropriate before it is known whether the door will lock. An if-adjunct can instead make taking conditional on the door locking.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

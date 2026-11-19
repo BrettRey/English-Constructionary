@@ -1,0 +1,39 @@
+id: inverted-conditional-001
+name: Inverted Conditional
+pattern: conditional Clause[had, were, or should + Subject + residual predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Introduces a condition through auxiliary–subject order without if.
+    details: Had you known corresponds to If you had known. Were and should license the same order in their own conditional uses. Other auxiliaries do not freely enter this frame. In the central standard pattern the negative is separate, as in Had you not called.
+    examples:
+      - form: '[Had you called], we could have picked you up.'
+        note: Constructed perfect conditional.
+      - form: '[Should you need help], call this number.'
+        note: Constructed contingency instruction.
+      - form: '[Were I in charge], I would change it.'
+        note: Constructed irrealis conditional.
+relatedConstructions:
+  - id: if-conditional-001
+    relationship: related-to
+    notes: An if-clause can supply an equivalent condition in ordinary order.
+  - id: closed-interrogative-clause-001
+    relationship: related-to
+    notes: The same auxiliary–subject order can express a question, with a wider range of auxiliaries.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.3.2 (27–31)
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes conditional from other auxiliary-initial clauses.
+  - source: cgel-2002
+    locator: Ch. 11 §4, discussion of [55]
+    relation: discusses
+    bears-on: projection
+    note: Compares interrogative and inverted conditional uses and records marginal historical or literary forms.
+kind:
+  provisional: true
+  projection:
+    target: The inverted conditional is restricted to a small set of auxiliaries. Substituting an ordinary modal such as would fails to preserve the construction.
+    evidence: FrameNet identifies the auxiliary restriction and compares conditional inversion with interrogative uses of the same order. CGEL records the core restriction and rare literary extensions.
+    confidence: high

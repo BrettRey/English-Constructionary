@@ -1,0 +1,29 @@
+id: perception-bare-infinitival-001
+name: Perception with a Bare Infinitival
+pattern: VP[perception V + NP + bare infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents something directly perceived as an occurrence.
+    examples:
+      - form: We [heard Kai close the latch].
+        note: Constructed illustration.
+      - form: We [heard Kai closing the latch].
+        note: Constructed comparison. Progressive-shaped comparison presents a phase of the perceptible event.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: perception-gerund-participial-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§1.4.3, 5.4 and 5.6, perception complements
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The plain form follows the perceived participant. The construction can present the closing as a whole, while heard Kai closing the latch can target an ongoing phase.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,49 @@
+id: subject-extraposition-001
+name: Subject Extraposition
+pattern: Clause[Subject:dummy it + VP[... + extraposed content clause or infinitival]]
+type: mixed
+meanings:
+  '1':
+    definition: Puts the situation under discussion after the predicate, leaving dummy it in subject position.
+    details: A that-clause, an interrogative clause, or an infinitival may occur in the later position. The basic initial-clause version is often less natural when the information is presented as new. A referential NP does not ordinarily alternate in this way. In a right dislocation like It’s fascinating, this book, it refers to the book.
+    examples:
+      - form: '[It worries me that he hasn’t phoned.]'
+        note: Compare the basic That he hasn’t phoned worries me.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §7.1 [1i]
+            relation: attests
+            bears-on: attestation
+      - form: '[It is unclear why she told him.]'
+        note: Interrogative in the later position.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §7.1 [1ii]
+            relation: attests
+            bears-on: attestation
+      - form: '[It would be pointless to resist.]'
+        note: Infinitival in the later position.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §7.1 [1iii]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The matrix clause has its own subject and predicate.
+  - id: right-dislocation-001
+    relationship: related-to
+    notes: The pronoun is referential in the dislocated NP construction.
+grounds:
+  - source: casa-constructicon
+    locator: records 51–52
+    relation: discusses
+    bears-on: projection
+    note: Lists finite and infinitival patterns with dummy it.
+kind:
+  provisional: true
+  projection:
+    target: A clause can appear after the predicate with dummy it. The same predicate need not allow an ordinary NP in that position. Extraposition is especially useful with newly introduced information.
+    evidence: CGEL gives matched clauses, an excluded ordinary NP, and an attested text opening. CASA lists finite and infinitival forms separately.
+    confidence: high

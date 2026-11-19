@@ -1,0 +1,31 @@
+id: concealed-passive-ing-001
+name: Concealed Passive in an -ing Complement
+pattern: VP[need/want/require or other licensing V + gerund-participial]
+type: mixed
+meanings:
+  '1':
+    definition: Uses an active-shaped complement with a passive interpretation.
+    examples:
+      - form: The hinge [needs oiling].
+        note: Constructed illustration.
+      - form: The hinge [needs to be oiled].
+        note: Constructed comparison. The infinitival counterpart displays the passive overtly.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: be-passive-001
+    relationship: related-to
+  - id: adjective-hollow-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The hinge is understood as what someone oils. A to-infinitival with analogous meaning normally requires passive morphology, as in needs to be oiled.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

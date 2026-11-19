@@ -1,0 +1,27 @@
+id: amount-singular-agreement-001
+name: Singular Agreement with an Amount Expression
+pattern: Clause[plural-shaped measure NP as subject + singular agreement]
+type: syntactic
+meanings:
+  '1':
+    definition: Treats a multi-unit expression as a single amount for agreement.
+    examples:
+      - form: Three hours [is enough].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: verb-number-agreement-001
+    relationship: specialization-of
+    parthood: formal
+  - id: collective-agreement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §18.3, measure phrases
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The singular is natural when the predicate evaluates a duration as a whole. An individually predicated series of hours can instead take plural agreement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

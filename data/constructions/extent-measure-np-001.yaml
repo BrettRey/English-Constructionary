@@ -1,0 +1,26 @@
+id: extent-measure-np-001
+name: Spatial Extent with a Measure NP
+pattern: VP[motion/spatial V + measure NP]
+type: mixed
+meanings:
+  '1':
+    definition: Measures traversed distance or the spatial extent of a configuration.
+    examples:
+      - form: We walked [three kilometres] before lunch.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: path-complement-001
+    relationship: related-to
+  - id: measure-adjective-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§5.1–5.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The NP answers how far and usually lacks an ordinary active-object/passive-subject alternation. A goal phrase can independently say where the walking led.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

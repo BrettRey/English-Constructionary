@@ -1,0 +1,37 @@
+id: what-with-circumstantial-001
+name: What With Circumstantial Adjunct
+pattern: adjunct[what with + NP, non-finite or verbless predication, or coordination]
+type: mixed
+meanings:
+  '1':
+    definition: Presents one or more circumstances as explaining the main situation.
+    details: What with the trains being late describes a reason for the delay. A plain with phrase can also depict an accompanying circumstance with no explanatory force, as in She waited with her arms folded. Adding what invites a reason reading. A simple NP such as the weather can fill the same slot.
+    examples:
+      - form: '[What with the trains being late and the roads blocked], we stayed put.'
+        note: Constructed explanation using coordinated circumstances.
+      - form: '[What with the weather], we never left the house.'
+        note: Constructed example with a simple NP.
+relatedConstructions:
+  - id: absolute-supplement-001
+    relationship: related-to
+    notes: Both can express circumstances with their own predication.
+  - id: pp-001
+    relationship: related-to
+    notes: The form includes fixed with and can contain an NP.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.3.1 (25–26)
+    relation: discusses
+    bears-on: projection
+    note: Tests addition of what in the depictive use.
+  - source: cgel-2002
+    locator: Ch. 7, p. 626 n. 10
+    relation: discusses
+    bears-on: projection
+    note: Records the reason adjunct and the coordinated complement.
+kind:
+  provisional: true
+  projection:
+    target: Adding what to the relevant with frame imposes an explanatory interpretation. Its complement can also be a simple circumstance-denoting NP.
+    evidence: FrameNet tests explanatory versus depictive interpretations. CGEL records what with as an idiom introducing a reason adjunct.
+    confidence: high

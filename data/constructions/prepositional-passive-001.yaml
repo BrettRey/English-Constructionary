@@ -1,0 +1,28 @@
+id: prepositional-passive-001
+name: Prepositional Passive
+pattern: Clause[NPᵢ + be + V-en + stranded P with gapᵢ]
+type: syntactic
+meanings:
+  '1':
+    definition: Allows the complement of a preposition to correspond to the subject of a passive.
+    examples:
+      - form: This proposal [was referred to] repeatedly.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: be-passive-001
+    relationship: specialization-of
+    parthood: formal
+  - id: prepositional-verb-frame-001
+    relationship: related-to
+    notes: Selected prepositions are a major source. Some independently licensed locatives can also be stranded.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §10.1.1, prepositional passives; Ch. 4 §6.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: To remains part of the passive VP. Selection by the verb strongly supports the construction, and some independently licensed adjunct PPs can also occur under restricted conditions.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

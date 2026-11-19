@@ -1,0 +1,27 @@
+id: modal-plain-complement-001
+name: Central Modal with a Plain-Form Complement
+pattern: VP[central modal + plain-form VP]
+type: syntactic
+meanings:
+  '1':
+    definition: Combines central modal marking with a plain-form verbal complement.
+    examples:
+      - form: Jo [might have missed] the train.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: perfect-have-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§2.3–2.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Might selects plain have, and the modal itself has no third-person singular suffix. Ordinary central modals cannot occupy the complement slot of perfect have.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

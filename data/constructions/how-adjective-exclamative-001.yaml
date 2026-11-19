@@ -1,0 +1,26 @@
+id: how-adjective-exclamative-001
+name: Phrasal Exclamation with How
+pattern: independent AdjP[exclamative how + gradable Adj]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses an affective reaction to a degree judged remarkable.
+    examples:
+      - form: '[How odd!]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: exclamative-word-001
+    relationship: interfaces-with
+  - id: clause-analogue-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §§8.1.1, 8.1.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The phrase already supports an exclamation without an overt subject or predicate. The corresponding full exclamative can supply the evaluated situation explicitly.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

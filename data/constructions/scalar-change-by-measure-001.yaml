@@ -1,0 +1,29 @@
+id: scalar-change-by-measure-001
+name: Differential By in Scalar Change
+pattern: VP[scalar-change V + PP[by + measure NP]]
+type: mixed
+meanings:
+  '1':
+    definition: Quantifies the amount of change on an ordered scale.
+    examples:
+      - form: The water level fell [by twelve centimetres].
+        note: Constructed illustration.
+      - form: The water level fell [to twelve centimetres].
+        note: Constructed comparison. To introduces the attained value, not the difference.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: differential-measure-comparative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§5.2, 5.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: By measures the difference between starting and ending values. To with an endpoint instead names the final value, which can co-occur with a differential.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

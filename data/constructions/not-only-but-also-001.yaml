@@ -1,0 +1,27 @@
+id: not-only-but-also-001
+name: Additive Not Only and But Also
+pattern: coordination[not only XP + but (also) XP]
+type: mixed
+meanings:
+  '1':
+    definition: Asserts both contributions with the second presented as additional or noteworthy.
+    examples:
+      - form: She [not only signed it but also delivered it].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+  - id: negative-initial-inversion-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §2.7
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The first contribution is included despite the overt not. Preposing not only plus a constituent can trigger inversion when the first coordinate is a clause.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

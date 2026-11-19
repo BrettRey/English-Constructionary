@@ -1,0 +1,27 @@
+id: collective-agreement-001
+name: Notional Agreement with a Collective NP
+pattern: Clause[Subject headed by singular collective N + singular or plural finite agreement]
+type: syntactic
+meanings:
+  '1':
+    definition: Allows agreement to track a collective unit or its members in appropriate varieties.
+    examples:
+      - form: The committee [have all signed] the report.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: verb-number-agreement-001
+    relationship: specialization-of
+    parthood: formal
+  - id: grammatical-number-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §18.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Singular committee can control plural agreement where the members are foregrounded. Availability depends on variety and the particular predicate, and the noun itself stays singular.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

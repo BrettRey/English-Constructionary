@@ -1,0 +1,27 @@
+id: both-and-coordination-001
+name: Correlative Both and And
+pattern: coordination[both + XP + and + XP]
+type: mixed
+meanings:
+  '1':
+    definition: Explicitly presents the first two coordinates as jointly included.
+    examples:
+      - form: We need [both a permit and an inspection].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    parthood: formal
+  - id: either-or-coordination-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Both signals the first coordinate and and marks the second. Both alone can be an NP quantifier, a use with a different structural relation to the following material.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

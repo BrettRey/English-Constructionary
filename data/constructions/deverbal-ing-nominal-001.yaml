@@ -1,0 +1,26 @@
+id: deverbal-ing-nominal-001
+name: Deverbal Noun in -Ing
+pattern: N[verb base + derivational -ing] with nominal dependents
+type: morphological
+meanings:
+  '1':
+    definition: Names an activity, result, or product using nominal syntax.
+    examples:
+      - form: '[The careful sorting of the files] took hours.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: deverbal-noun-of-argument-001
+    relationship: interfaces-with
+  - id: genitive-ing-subject-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19 §5.7.2(g); Ch. 14 §§1.5, 4.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Careful modifies the noun and of introduces the former object argument. A gerund-participial can instead have carefully and take the files as a direct object.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

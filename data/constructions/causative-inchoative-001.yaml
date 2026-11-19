@@ -1,0 +1,32 @@
+id: causative-inchoative-001
+name: Causative and Inchoative Alternation
+pattern: alternation[Subject + V + affected NP ↔ affected NP + V]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a change either with an external causer as subject or with the changing participant as subject.
+    examples:
+      - form: The heat cracked the window, and [the window cracked].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: monotransitive-vp-001
+    relationship: interfaces-with
+    notes: The causative member uses the changing participant as direct object.
+  - id: simple-intransitive-vp-001
+    relationship: interfaces-with
+    notes: The inchoative member uses it as subject.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §8.1.4(a)
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-1995
+    locator: §5.2, the causative–inchoative relation
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The affected participant has object function in the causative and subject function in the inchoative. The inchoative does not require a separate external causer argument.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

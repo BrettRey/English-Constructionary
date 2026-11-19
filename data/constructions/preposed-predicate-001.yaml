@@ -1,0 +1,28 @@
+id: preposed-predicate-001
+name: Preposed Verbal Predicate
+pattern: Clause[preposed VP + Subject + stranded licensing auxiliary]
+type: mixed
+meanings:
+  '1':
+    definition: Repeats or validates a salient predicate by putting the verbal material first.
+    examples:
+      - form: They said Jo would run, and [run she did].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: complement-preposing-001
+    relationship: related-to
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+  - id: finite-do-support-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §3, complement preposing; Ch. 3 §2.1.4, stranding and preposing
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The auxiliary remains in the nucleus and the preposed VP is plain after do. Preposing the lexical predicate does not require inverting the subject and auxiliary.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

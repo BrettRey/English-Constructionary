@@ -1,0 +1,24 @@
+id: re-iterative-prefix-001
+name: Iterative Re- on a Verb
+pattern: V[re- + suitable verbal base]
+type: morphological
+meanings:
+  '1':
+    definition: Forms a verb describing another performance of the relevant action.
+    examples:
+      - form: Please [recheck] the numbers.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: light-verb-event-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19, derivation with re-
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The normal reading presupposes an earlier check. A word that merely starts with the same letters, such as reject, need not support an again analysis.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

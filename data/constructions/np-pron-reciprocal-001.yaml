@@ -1,0 +1,45 @@
+id: np-pron-reciprocal-001
+name: Reciprocal Anaphor
+pattern: NP[each other or one another], optionally genitive
+type: mixed
+meanings:
+  '1':
+    definition: Relates members of an antecedent group to other members of that group.
+    details: In Kim and Pat defended each other, Kim defended Pat and Pat defended Kim on the ordinary reading. A possessive counterpart occurs in each other’s clients. Larger groups can permit weaker readings, such as relations only between neighbours in a line. The genitive is available even though reflexives lack corresponding genitives.
+    examples:
+      - form: Kim and Pat defended [each other].
+        note: Constructed two-participant example.
+      - form: They blamed [each other’s] parents.
+        note: The reciprocal occurs in genitive determiner function.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 17 §4.2 [12ii], discussion
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-pron-001
+    relationship: specialization-of
+    notes: The core expression is a reciprocal pronoun.
+  - id: np-pron-reflexive-001
+    relationship: related-to
+    notes: The nearby antecedent links a reflexive to its own referent, while a reciprocal relates group members.
+  - id: reciprocal-noun-with-001
+    relationship: related-to
+    notes: Reciprocity can instead be part of a nominal predicate with a with-phrase.
+grounds:
+  - source: casa-constructicon
+    locator: records 90–91
+    relation: discusses
+    bears-on: projection
+    note: Records each other and one another.
+  - source: cgel-2002
+    locator: Ch. 17 §§4.1–2
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes reciprocity readings and tests the genitive contrast.
+kind:
+  provisional: true
+  projection:
+    target: Each other and one another can occur as genitive determiners. A reflexive form is excluded in the same genitive slot.
+    evidence: CGEL compares the distribution of reciprocals and reflexives and gives examples where full pairwise reciprocity is too strong. CASA lists the two reciprocal forms.
+    confidence: high

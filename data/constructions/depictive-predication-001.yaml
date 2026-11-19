@@ -1,0 +1,26 @@
+id: depictive-predication-001
+name: Depictive Secondary Predication
+pattern: Clause[primary VP + secondary AdjP/NP predicated of a participant]
+type: mixed
+meanings:
+  '1':
+    definition: Ascribes a condition to a participant during the primary event.
+    examples:
+      - form: They carried the patient [unconscious].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: object-resultative-001
+    relationship: related-to
+  - id: subject-resultative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §5.3, depictives and resultatives
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The patient can already have been unconscious before being carried. That temporal compatibility distinguishes the depictive reading from a caused-result reading.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: equative-as-as-001
+name: Scalar Equative As … As
+pattern: as + gradable expression + as-phrase/clause
+type: mixed
+meanings:
+  '1':
+    definition: Compares a degree with a standard without asserting a greater degree in the positive form.
+    examples:
+      - form: The new shelf is [as wide as the old one].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: gradation-001
+    relationship: interfaces-with
+  - id: than-reduced-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §§1.1, 4.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The first as sets up a degree standard and the second introduces it. At least as wide explicitly allows a greater width and not as wide ordinarily implies a lower degree.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

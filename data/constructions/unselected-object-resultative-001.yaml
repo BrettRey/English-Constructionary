@@ -1,0 +1,34 @@
+id: unselected-object-resultative-001
+name: Resultative with a Nonselected Object
+pattern: VP[V + NP[not the ordinary object of V] + result predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Licenses an affected participant through a result predicate, including when the base verb normally takes no such object.
+    examples:
+      - form: The neighbours [shouted the baby awake].
+        note: Constructed illustration.
+      - form: The neighbours [shouted at the baby].
+        note: Constructed comparison. An addressee reading is possible without attributing a change of state to the baby.
+relatedConstructions:
+  - id: object-resultative-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: This family includes unselected non-reflexive objects. CGEL’s narrower agentive intransitive pattern is recorded in the linked entry.
+  - id: reflexive-state-goal-001
+    relationship: related-to
+grounds:
+  - source: goldberg-1995
+    locator: Ch. 8 §§8.5–8.6
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-jackendoff-2004
+    locator: §§2–3, unselected object resultatives
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The baby need not be an addressee of shouting. The result requires an affected participant, and dropping awake removes that reading. This goes beyond the reflexive-only subtype in the CGEL comparison.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

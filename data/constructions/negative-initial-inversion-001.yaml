@@ -1,0 +1,35 @@
+id: negative-initial-inversion-001
+name: Inversion after Preposed Negative or Restrictive Expression
+pattern: Clause[preposed negative/restrictive dependent + finite Aux + Subject + VP]
+type: mixed
+meanings:
+  '1':
+    definition: Uses auxiliary-first order within the nucleus after certain negative or restrictive expressions.
+    examples:
+      - form: '[Only after the meeting did I find out].'
+        note: Constructed illustration.
+      - form: '[After the meeting I found out].'
+        note: Constructed comparison. The non-restrictive fronted adjunct does not trigger inversion.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: finite-do-support-001
+    relationship: related-to
+  - id: complement-preposing-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §2.1.2; Ch. 9, scope and inversion
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-2006
+    locator: Ch. 8, the subject–auxiliary inversion family
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Only after the meeting triggers inversion in this use. After the meeting I found out differs in auxiliary placement, and only modifying the subject does not trigger it.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

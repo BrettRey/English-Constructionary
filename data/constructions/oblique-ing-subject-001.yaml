@@ -1,0 +1,24 @@
+id: oblique-ing-subject-001
+name: Accusative Subject in a Gerund-Participial
+pattern: gerund-participial[Subject:NP in accusative if a personal pronoun + V-ing VP]
+type: syntactic
+meanings:
+  '1':
+    definition: Expresses the subject of an -ing clause without genitive marking where the environment allows it.
+    examples:
+      - form: We objected to [them blocking the exit].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: genitive-ing-subject-001
+    relationship: alternates-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §1.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The prepositional context can license them as the embedded subject, and blocking still takes a direct object. Alternatives with a genitive vary with syntactic environment and style.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

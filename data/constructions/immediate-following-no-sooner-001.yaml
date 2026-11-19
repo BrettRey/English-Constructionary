@@ -1,0 +1,26 @@
+id: immediate-following-no-sooner-001
+name: No Sooner … Than
+pattern: No sooner + inverted primary clause + than + second clause
+type: mixed
+meanings:
+  '1':
+    definition: Presents one event as occurring almost immediately after another.
+    examples:
+      - form: '[No sooner had we parked than the rain started].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: negative-initial-inversion-001
+    relationship: interfaces-with
+  - id: than-reduced-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§6, 10; Ch. 9, inversion after initial negation
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The comparative-shaped than-clause supplies the subsequent event. Fronted no sooner licenses inversion in the initial clause.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

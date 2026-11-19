@@ -1,0 +1,28 @@
+id: differential-measure-comparative-001
+name: Measure Differential in a Comparative
+pattern: measure NP + comparative AdjP/AdvP
+type: mixed
+meanings:
+  '1':
+    definition: Gives the numerical difference between a degree and its standard.
+    examples:
+      - form: The replacement is [two centimetres wider] than the old bracket.
+        note: Constructed illustration.
+      - form: It was [two centimetres wide].
+        note: Constructed comparison. In the plain-grade measurement frame the measure gives the total width.
+relatedConstructions:
+  - id: measure-adjective-001
+    relationship: related-to
+  - id: comparative-er-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §4.4; Ch. 8 §5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Two centimetres measures the difference, not the total width. Explicitly naming the comparison standard can therefore fix the implied total independently.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

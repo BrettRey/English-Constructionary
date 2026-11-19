@@ -1,0 +1,26 @@
+id: implicit-object-use-001
+name: Indefinite Object Omission
+pattern: VP[transitive-capable V used without an overt object]
+type: mixed
+meanings:
+  '1':
+    definition: Leaves a usual participant nonspecific while asserting the activity or event.
+    examples:
+      - form: Have you [eaten] yet?
+        note: Constructed illustration.
+relatedConstructions:
+  - id: simple-intransitive-vp-001
+    relationship: related-to
+  - id: monotransitive-vp-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §8.1.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The implied food need not have been mentioned. Leaving the relevant object unexpressed is natural for eat, even when plausible near-synonyms such as consume strongly favour a stated object.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

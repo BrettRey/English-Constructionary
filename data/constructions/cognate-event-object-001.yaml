@@ -1,0 +1,42 @@
+id: cognate-event-object-001
+name: Cognate Event Object
+pattern: VP[Head:V[event] + Od:NP[event nominal cognate with V]]
+type: mixed
+meanings:
+  '1':
+    definition: Elaborates the event already described by the verb.
+    details: An otherwise intransitive verb such as die can occur with a cognate event noun and its modifiers. The object in died a long and agonising death adds duration and manner without introducing a second dying event. Modification is commonly needed to make the object informative. This entry targets the event-reading construction, including otherwise intransitive verbs.
+    examples:
+      - form: He [died a long and agonising death].
+        note: The NP supplies information about how he died.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 8 §2.1, p. 673 [11b]
+            relation: attests
+            bears-on: attestation
+      - form: She [fought a heroic fight].
+        note: The event nominal elaborates the fight.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 8 §2.1, p. 673 [11a]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: The cognate NP is internal to the verbal phrase.
+  - id: reaction-object-001
+    relationship: related-to
+    notes: The reaction NP identifies what is expressed rather than describing the verbal event.
+grounds:
+  - source: bouso-hundt-van-driessche-2024
+    locator: pp. 314–315
+    relation: discusses
+    bears-on: projection
+    note: Compares event-denoting cognates with reaction and superlative expressions.
+kind:
+  provisional: true
+  projection:
+    target: An intransitive verb can take an event NP when its head and the verb describe the same event type. The NP commonly adds information through modification.
+    evidence: CGEL documents the manner reading, and Bouso, Hundt and Van Driessche distinguish the event-denoting cognate from other object-like expressions.
+    confidence: high

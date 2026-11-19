@@ -1,0 +1,27 @@
+id: each-of-partitive-001
+name: Each in a Partitive NP
+pattern: NP[each + PP[of + plural definite NP]]
+type: mixed
+meanings:
+  '1':
+    definition: Distributes a predication over every member of an established group.
+    examples:
+      - form: '[Each of the six drawers] has a lock.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: true-partitive-001
+    relationship: specialization-of
+    parthood: formal
+  - id: grammatical-number-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§7.4, 9.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The of-phrase has a plural complement, while each favours singular verbal agreement. Every without a following one does not normally form the same construction.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: negative-concord-001
+name: Negative Concord
+pattern: clause with verbal negation and/or multiple negative expressions interpreted together
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a single negation through more than one negative-marked item in the relevant variety.
+    examples:
+      - form: I [didn’t tell nobody] about it.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: primary-auxiliary-negation-001
+    relationship: related-to
+  - id: no-determiner-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §6.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In concord varieties this can mean nobody was told. A two-negation interpretation is also possible in other systems or with a specially contrastive context.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

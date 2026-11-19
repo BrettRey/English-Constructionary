@@ -1,0 +1,27 @@
+id: supplementary-relative-001
+name: Supplementary Relative
+pattern: anchor + supplementary wh-relative clause
+type: mixed
+meanings:
+  '1':
+    definition: Adds a separate predication about a referent or a larger anchor.
+    examples:
+      - form: Jo visited Bath, [which she had never seen before].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: related-to
+  - id: relative-word-001
+    relationship: contains
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §§2.2, 4.1–4.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The clause can add information about an already identified referent. Substituting bare that-relative syntax generally fails in the same supplementary reading.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

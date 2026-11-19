@@ -1,0 +1,26 @@
+id: superlative-grade-001
+name: Scalar Superlative with a Comparison Set
+pattern: superlative AdjP/AdvP, optionally with of/in domain expression
+type: mixed
+meanings:
+  '1':
+    definition: Places the chosen instance at an extreme relative to a contextually delimited set.
+    examples:
+      - form: Jo chose the [narrowest of the three aisles].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: gradation-001
+    relationship: interfaces-with
+  - id: subject-genitive-superlative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §§6.3.1–6.3.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Of the three restricts the comparison set. The aisle need not count as narrow by an independent contextual standard.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

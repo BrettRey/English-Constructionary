@@ -1,0 +1,29 @@
+id: existential-there-001
+name: Existential There with Be
+pattern: Clause[dummy there + finite be + pivot NP]
+type: mixed
+meanings:
+  '1':
+    definition: Introduces a candidate referent or asserts its presence, availability, or occurrence.
+    examples:
+      - form: '[There are two spare seats].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: existential-no-gerund-001
+    relationship: related-to
+  - id: presentational-there-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §§6.1–6.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: There inverts in Is there a seat? and can occur in a tag. In the central presentational use the pivot favours new information, even though some definites are licensed in appropriate contexts.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

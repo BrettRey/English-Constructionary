@@ -1,0 +1,31 @@
+id: subject-raising-infinitival-001
+name: Subject Raising with a Catenative Verb
+pattern: Clause[Subject NPᵢ + V + to-infinitival with understood subjectᵢ]
+type: syntactic
+meanings:
+  '1':
+    definition: Combines a verbal assessment or aspectual predicate with a subject selected through its complement.
+    examples:
+      - form: '[There seems to be a leak].'
+        note: Constructed illustration.
+      - form: '[Jo seems to have checked the lock].'
+        note: Constructed comparison. The corresponding passive, The lock seems to have been checked by Jo, preserves the subordinate event being assessed.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: subject-control-infinitival-001
+    relationship: related-to
+  - id: adjectival-raising-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §2.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Dummy there is acceptable, and active and passive descriptions of the subordinate event preserve what seems to hold. This distinguishes raising from subject control.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

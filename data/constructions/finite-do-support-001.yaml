@@ -1,0 +1,30 @@
+id: finite-do-support-001
+name: Finite Do Support
+pattern: Clause[finite do + plain-form VP] in inversion or clause negation
+type: syntactic
+meanings:
+  '1':
+    definition: Supplies a finite auxiliary when the construction requires one and the ordinary positive clause has a lexical verb.
+    examples:
+      - form: '[Did you check] the hinge?'
+        note: Constructed illustration.
+      - form: '[Can you check] the hinge?'
+        note: Constructed comparison. An available finite modal supplies the operator.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: imperative-negation-do-001
+    relationship: related-to
+    notes: Imperative do also occurs before be.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§2.1.1–2.1.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The tense feature is expressed on do, and check is plain. An available modal in Can you check? occupies the finite auxiliary position directly.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

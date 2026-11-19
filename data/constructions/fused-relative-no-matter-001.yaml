@@ -1,0 +1,27 @@
+id: fused-relative-no-matter-001
+name: Free-Choice Fused Relative in -ever
+pattern: NP[relative wh-ever + dependent clause]
+type: mixed
+meanings:
+  '1':
+    definition: Picks out an eligible participant without requiring the speaker to identify which one.
+    examples:
+      - form: '[Whoever is on duty] can sign it.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: fused-relative-np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: unconditional-wh-adjunct-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §6, simple and -ever fused relatives
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In a generic or future context the identity can be left open. The whole phrase occupies an NP position and can also have a specific unknown referent in a suitable episodic context.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

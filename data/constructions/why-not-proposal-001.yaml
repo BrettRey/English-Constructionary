@@ -1,0 +1,26 @@
+id: why-not-proposal-001
+name: Deliberative Why Not with a Bare Infinitival
+pattern: why not + plain verbal predicate
+type: pragmatic
+meanings:
+  '1':
+    definition: Invites consideration of an action by asking for a reason against it.
+    examples:
+      - form: '[Why not call again tomorrow?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: directive-ostensive-001
+    relationship: related-to
+  - id: what-if-scenario-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §§7.6, 9.6.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The usual response can accept the suggestion instead of reporting a cause. The plain form can follow not without finite auxiliary do.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

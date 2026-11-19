@@ -1,0 +1,26 @@
+id: present-backshift-001
+name: Backshift in Reported Content
+pattern: Clause[past reporting setting + subordinate preterite]
+type: mixed
+meanings:
+  '1':
+    definition: Allows a preterite in the subordinate report to correspond to a present-tense original or to overlap the reporting reference time.
+    examples:
+      - form: Yesterday Jo said [she was hungry].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: related-to
+  - id: past-tense-ed-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §6.2; Ch. 11 §9
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The hunger can coincide with the speaking. Present-tense is also possible in appropriate contexts, especially where the reporter treats the content as still current.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,29 @@
+id: measure-genitive-001
+name: Measure Genitive Premodifier
+pattern: Nom[measure NP.GEN + nominal]
+type: mixed
+meanings:
+  '1':
+    definition: Specifies a duration or monetary measure within a nominal.
+    examples:
+      - form: We had [another two hours’ wait].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: genitive-s-001
+    relationship: specialization-of
+    parthood: formal
+  - id: extent-measure-np-001
+    relationship: related-to
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §16.3, Type VI(b), measure genitives [46]
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Two hours’ gives the duration of the wait and can be embedded within the scope of a preceding determiner. A personal genitive has an independently referential or participant interpretation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,27 @@
+id: until-time-boundary-001
+name: Temporal Until with an Endpoint
+pattern: PP[until + date/NP/finite clause]
+type: mixed
+meanings:
+  '1':
+    definition: Supplies the boundary up to which a situation holds or an occurrence is delayed.
+    examples:
+      - form: We waited [until the shutters opened].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: since-time-anchor-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§6, 7; Ch. 7, adjunct PPs
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The opening ends the wait on the ordinary reading. Under negation as in didn’t leave until noon, the earlier interval is associated with absence of the event.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

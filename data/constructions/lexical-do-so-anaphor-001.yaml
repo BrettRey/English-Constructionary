@@ -1,0 +1,27 @@
+id: lexical-do-so-anaphor-001
+name: Anaphoric Do So
+pattern: VP[do + so]
+type: mixed
+meanings:
+  '1':
+    definition: Uses an anaphoric expression as a VP in its own right.
+    examples:
+      - form: Kai tied the bundle, and [did so] again the next day.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 17 §§7.5–7.6, do so versus do it/that; Ch. 3 §2.1.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Do so can be infinitival in promised to do so, and in its ordinary use favours an action antecedent. Stranded auxiliary do has a wider range of antecedents.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

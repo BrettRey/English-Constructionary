@@ -1,0 +1,42 @@
+id: presentational-dependent-inversion-001
+name: Locative and Temporal Subject–Dependent Inversion
+pattern: Clause[locative or temporal dependent + V(P) + postposed Subject:NP]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a referent or event after giving the location or time that anchors it.
+    details: In Three days later came another eight offers, the temporal phrase is an adjunct and the offers are the subject. With be, the fronted phrase is often a locative complement. The preposed material normally links more closely to the preceding discourse than the subject. The verb need not be auxiliary be.
+    examples:
+      - form: '[Three days later came another eight offers.]'
+        note: After mention of the first fourteen credit offers.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §5.1 [1vi]
+            relation: attests
+            bears-on: attestation
+      - form: '[On the wall hung a portrait].'
+        note: Constructed locative example with a lexical verb.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The clause nucleus includes a subject after the verb.
+  - id: complement-preposing-001
+    relationship: related-to
+    notes: Ordinary complement preposing does not send the subject after the verb.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §§5.1–2
+    relation: discusses
+    bears-on: projection
+    note: Documents the noun phrase subject after the verb and the discourse conditions on inversion.
+  - source: fau-tzimas-inversion
+    locator: Locative and Temporal Full-Verb Inversion
+    relation: discusses
+    bears-on: projection
+    note: Provides the catalogue pointers. The diagnostics come from CGEL.
+kind:
+  provisional: true
+  projection:
+    target: The frame admits a lexical verb and a temporal adjunct. Relative discourse familiarity matters even for syntactically permissible sequences.
+    evidence: CGEL documents the temporal and locative subtypes of the wider subject–dependent inversion family and compares the information status of the two dependents.
+    confidence: high

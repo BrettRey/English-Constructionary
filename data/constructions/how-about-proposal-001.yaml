@@ -1,0 +1,26 @@
+id: how-about-proposal-001
+name: Proposal with How About
+pattern: how about + NP, gerund-participial or licensed clause
+type: pragmatic
+meanings:
+  '1':
+    definition: Offers an item or course of action for consideration.
+    examples:
+      - form: '[How about a short break?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: question-001
+    relationship: related-to
+  - id: what-about-topic-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §7.7, how about
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The response can accept or reject the proposal. The phrase need not ask how a break would be carried out.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

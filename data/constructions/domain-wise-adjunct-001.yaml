@@ -1,0 +1,24 @@
+id: domain-wise-adjunct-001
+name: Domain Adjunct with -Wise
+pattern: initial domain expression in -wise + clause
+type: mixed
+meanings:
+  '1':
+    definition: Restricts the dimension within which the following claim is assessed.
+    examples:
+      - form: '[Cost-wise], the smaller van is better.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: gradation-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §15; Ch. 19, adverbial word formation
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The same van can be worse in comfort without contradiction. The adjunct sets the assessment domain rather than describing how better is realized.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

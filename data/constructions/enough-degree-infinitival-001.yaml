@@ -1,0 +1,30 @@
+id: enough-degree-infinitival-001
+name: Sufficient Degree Enough with an Infinitival
+pattern: AdjP/AdvP[gradable head + enough + to-infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a degree as meeting the threshold for the specified outcome.
+    examples:
+      - form: The wall is [high enough to hide the bins].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: gradation-001
+    relationship: interfaces-with
+  - id: too-degree-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §8.4; Ch. 6, degree modification
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §§4.5–4.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Meeting the threshold does not assert that the bins are currently behind the wall. In the ordinary adjectival pattern enough follows the gradable adjective.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

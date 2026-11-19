@@ -1,0 +1,27 @@
+id: prepositional-verb-frame-001
+name: Selected Prepositional Complement
+pattern: VP[Head:V + PP with lexically selected P]
+type: syntactic
+meanings:
+  '1':
+    definition: Links a verbal argument through a preposition selected by the lexical sense.
+    examples:
+      - form: We [relied on Jo].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: verb-particle-object-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§6.1–6.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The preposition in this sense can be stranded in Who did you rely on? It remains adjacent to its NP in the ordinary order and does not undergo particle shift.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

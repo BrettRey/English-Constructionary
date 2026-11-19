@@ -1,0 +1,27 @@
+id: personal-determiner-001
+name: Personal Determination with We or You
+pattern: NP[we/us or you + plural nominal]
+type: mixed
+meanings:
+  '1':
+    definition: Locates the named group in relation to the speaker or addressee.
+    examples:
+      - form: '[We volunteers] need a break.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: np-det-001
+    relationship: specialization-of
+    parthood: formal
+  - id: np-pron-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The nominal survives after the personal expression. In many varieties a non-subject parallel can use us volunteers, showing that case and reference matter independently.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: what-about-topic-001
+name: Topic Proposal with What About
+pattern: what about + NP or gerund-participial expression
+type: pragmatic
+meanings:
+  '1':
+    definition: Introduces something for consideration, often as a related topic or proposed activity.
+    examples:
+      - form: '[What about asking Lee first?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: question-001
+    relationship: related-to
+  - id: how-about-proposal-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §7.8 [26i–iv]
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: An activity can be proposed without asking for the identity of an object. With a referent such as the spare key, the intended issue is supplied by the conversation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

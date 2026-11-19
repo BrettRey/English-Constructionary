@@ -1,0 +1,37 @@
+id: complement-preposing-001
+name: Complement Preposing
+pattern: Clause[XPᵢ + Subject + VP[... gapᵢ ...]]
+type: mixed
+meanings:
+  '1':
+    definition: Uses a fronted complement to link the clause to something evoked in the discourse.
+    details: In the muffin example the fronted NP occupies the position interpreted as the object of give. A contrast or a set of alternatives can make the link available without repeating the same words. A fronted adjunct can introduce a new setting with no prior link, and left dislocation instead leaves an overt expression in the nucleus.
+    examples:
+      - form: '[A bran muffin I can give you.]'
+        note: The server has just said that the bagels are sold out. The muffins are an available alternative.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §3 [3ic]
+            relation: attests
+            bears-on: attestation
+      - form: About the forms, [two of them I have already signed].
+        note: Constructed example with an explicit anchor for the preposed object.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: A complement occurs before the clause nucleus.
+  - id: left-dislocation-001
+    relationship: related-to
+    notes: The detached-topic construction allows an overt resumptive expression.
+grounds:
+  - source: casa-constructicon
+    locator: record 142
+    relation: discusses
+    bears-on: projection
+    note: Registers topicalization with a preposed complement.
+kind:
+  provisional: true
+  projection:
+    target: In its ordinary declarative use the preposed complement needs a discourse link even when the speaker has not mentioned the exact referent. An initial setting adjunct has no corresponding requirement.
+    evidence: CGEL contrasts preposed complements and adjuncts, including links by repeated mention, subset, and contrasting alternative. CASA records topicalization.
+    confidence: high

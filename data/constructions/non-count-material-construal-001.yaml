@@ -1,0 +1,32 @@
+id: non-count-material-construal-001
+name: Non-count NP for Material from Countable Things
+pattern: NP[(Det compatible with non-count syntax) + noun ordinarily used in count syntax]
+type: mixed
+meanings:
+  '1':
+    definition: Describes material from identifiable objects or organisms without counting the original individuals.
+    details: Apple in there’s apple all over the floor can denote apple matter rather than whole apples. In the culinary reading the material is specifically meat, as with some rabbit. A determiner like the can leave count and non-count readings open. Which material a noun makes accessible depends on lexical convention and context.
+    examples:
+      - form: The toddler got [apple] all over the high chair.
+        note: Constructed example with material distributed over a surface.
+      - form: The stew contains [some rabbit].
+        note: Constructed example with a culinary interpretation.
+relatedConstructions:
+  - id: n-non-count-001
+    relationship: related-to
+    notes: The resulting use has non-count grammar.
+  - id: portion-variety-count-001
+    relationship: related-to
+    notes: Material readings can subsequently supply a portion or a variety.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §§4.8.1–3 (53–58)
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes material, meat and renewed count interpretations.
+kind:
+  provisional: true
+  projection:
+    target: The non-count use permits amount expressions and suspends counting the source individuals. A shared surface form such as the rabbit can still be ambiguous between an animal and its meat.
+    evidence: FrameNet contrasts general material construal with the culinary interpretation and shows that a culinary construal can in turn feed a portion reading.
+    confidence: high

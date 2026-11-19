@@ -1,0 +1,27 @@
+id: restrictive-appositive-name-001
+name: Integrated Appositive Name
+pattern: Nom[descriptive noun + proper-name expression identifying the referent]
+type: mixed
+meanings:
+  '1':
+    definition: Identifies the bearer of a nominal description by appending a name without a supplementary break.
+    examples:
+      - form: The [river Wye] flooded.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: nom-001
+    relationship: specialization-of
+    parthood: formal
+  - id: title-personal-name-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§14.3, 20.2.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Both parts concern the same river. A name replacement changes the referent identified. An ordinary modifier like river water gives no comparable identification.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

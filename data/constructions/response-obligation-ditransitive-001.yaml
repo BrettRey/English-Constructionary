@@ -1,0 +1,32 @@
+id: response-obligation-ditransitive-001
+name: Double-Object Obligation with Owe
+pattern: VP[owe + Oi:creditor/entitled participant + Od:outstanding thing]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a person as entitled to something that remains outstanding.
+    examples:
+      - form: I [owe Lee an apology].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: ditransitive-vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: recipient-passive-retained-object-001
+    relationship: related-to
+    notes: An apology can be owed to someone without ever being delivered.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §8.2.1
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-1995
+    locator: Ch. 6, future transfer and obligation
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Lee is the person to whom the apology is owed. The construction can be true when the apology has not been offered and describes an obligation rather than an intended gift.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

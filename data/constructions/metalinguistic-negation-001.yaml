@@ -1,0 +1,26 @@
+id: metalinguistic-negation-001
+name: Metalinguistic Negation and Correction
+pattern: negated expression followed or contextualized by correction of wording or scale
+type: mixed
+meanings:
+  '1':
+    definition: Rejects the wording, implication, or strength of a description as inadequate.
+    examples:
+      - form: It isn’t [warm]. It’s scorching.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: constituent-not-negation-001
+    relationship: related-to
+  - id: metalinguistic-more-than-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §§1.2–1.3; Ch. 13 §3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: An ordinary scalar reading of scorching would imply warmth. The emphatic correction licenses negation of the weaker label while preserving the stronger characterization.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

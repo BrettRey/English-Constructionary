@@ -1,0 +1,29 @@
+id: time-measure-ago-001
+name: Measure before Ago
+pattern: PP[measure NP + ago]
+type: mixed
+meanings:
+  '1':
+    definition: Locates an event or point by measuring backwards from the relevant deictic time.
+    examples:
+      - form: The review arrived [four days ago].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: intransitive-preposition-001
+    relationship: related-to
+  - id: since-time-anchor-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 7, p. 632; Ch. 8 §6.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The time can usually be paraphrased as four days before now. Ago normally takes its measure before it, in contrast to temporal before with a following reference complement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

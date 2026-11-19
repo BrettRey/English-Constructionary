@@ -1,0 +1,26 @@
+id: synthetic-noun-compound-001
+name: Deverbal Synthetic Noun Compound
+pattern: N[participant nominal base + derived deverbal noun]
+type: morphological
+meanings:
+  '1':
+    definition: Builds a compound whose first element supplies a participant associated with the verbal base.
+    examples:
+      - form: They hired a [window-cleaner].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: deverbal-er-noun-001
+    relationship: related-to
+  - id: nom-n-mod-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19 §4.2.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In the agentive reading the eventual cleaner cleans windows. Ordinary nondeverbal compounds can connect their two nouns through a much wider range of contextually inferred relations.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

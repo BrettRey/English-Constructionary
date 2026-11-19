@@ -1,0 +1,27 @@
+id: closed-interrogative-whether-001
+name: Subordinate Closed Interrogative with Whether
+pattern: whether + subordinate declarative-order nucleus, or whether + to-infinitival
+type: syntactic
+meanings:
+  '1':
+    definition: Introduces an embedded closed question or choice between alternatives.
+    examples:
+      - form: '[Whether to reschedule] still needs discussion.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: closed-interrogative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: for-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §§5.1–5.2, 5.3.5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Whether can introduce an infinitival, where interrogative if is unavailable. Certain finite prepositional and subject environments likewise favour or require whether.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,29 @@
+id: experiential-perfect-001
+name: Experiential Perfect
+pattern: Clause[perfect have + past-participial VP], with experiential time span
+type: mixed
+meanings:
+  '1':
+    definition: Places one or more previous occurrences within a time span understood as relevant now.
+    examples:
+      - form: '[Have you ever driven] a bus?'
+        note: Constructed illustration.
+      - form: '[Did you drive the bus yesterday?]'
+        note: Constructed comparison. The simple preterite is natural for the specifically dated occurrence.
+relatedConstructions:
+  - id: perfect-have-001
+    relationship: specialization-of
+    parthood: formal
+  - id: continuative-perfect-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§5.3–5.3.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Ever can ask about any occurrence before the reference time. A finished, explicitly dated occasion normally favours the simple preterite over the present perfect in the standard contrast.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

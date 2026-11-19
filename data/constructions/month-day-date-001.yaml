@@ -1,0 +1,37 @@
+id: month-day-date-001
+name: Month-First Calendar Date
+pattern: date expression[month name + day number]
+type: mixed
+meanings:
+  '1':
+    definition: Identifies a day by its ordinal position within the named month.
+    details: In June fourteenth, the final numeral identifies the day of the month. The same convention can be written June 14. The month name and day number can do this without an article or a preposition inside the date. A separately formed expression such as the fourteenth of June identifies the same date by a different order and marking.
+    examples:
+      - form: '[June 14th]'
+        note: Published example with month followed by an ordinal.
+        grounds:
+          - source: fillmore-lee-goldman-rhomieux-2012
+            locator: author draft, §2 on construct annotation
+            relation: attests
+            bears-on: attestation
+      - form: They set the deadline for [November 18].
+        note: Constructed example in the articleless written format.
+relatedConstructions:
+  - id: year-name-001
+    relationship: related-to
+    notes: The two patterns conventionally pick out different calendrical units by number.
+  - id: numerical-label-001
+    relationship: related-to
+    notes: The day numeral identifies a position in a conventional system.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §2
+    relation: discusses
+    bears-on: projection
+    note: Gives Month-plus-Date as a worked example of constructional annotation.
+kind:
+  provisional: true
+  projection:
+    target: A day numeral after a month name is interpreted as an index within that month, with the same interpretation available to ordinal forms and written digits.
+    evidence: The FrameNet chapter identifies the two slots and their contributions. The restricted month-first pattern leaves other date formats to separate accounts.
+    confidence: high

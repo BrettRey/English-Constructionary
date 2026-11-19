@@ -1,0 +1,40 @@
+id: integrated-relative-modifier-001
+name: Integrated Relative Modifier
+pattern: Nominal[... antecedent ... + relative clause containing a linked gap]
+type: mixed
+meanings:
+  '1':
+    definition: Adds a clause to the nominal description of a referent or set of referents.
+    details: A nominal containing a relative can describe a subset, as with the books Kim bought. It can also add a property of a referent already uniquely identified. Wh-marking, that, and bare forms can package the link. Bare finite relatives generally permit an object gap but exclude a gap in the subject position of the relative clause itself.
+    examples:
+      - form: The books [that Kim bought] are on the desk.
+        note: Constructed object relative. The books Kim bought has a bare variant.
+      - form: The books [that arrived today] are on the desk.
+        note: Constructed subject relative. Omitting that here does not give the same integrated NP.
+relatedConstructions:
+  - id: nom-001
+    relationship: related-to
+    notes: The relative is a dependent within a nominal.
+  - id: relative-word-001
+    relationship: related-to
+    notes: One form registers the relative link with a relative word.
+  - id: fused-relative-np-001
+    relationship: related-to
+    notes: A fused relative can form an NP without a separately expressed antecedent.
+grounds:
+  - source: casa-constructicon
+    locator: record 108
+    relation: discusses
+    bears-on: projection
+    note: Records relative postmodification.
+  - source: cgel-2002
+    locator: Ch. 12 §§2.2, 3.5.5 and 4
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes the types and documents the conditions on bare relatives.
+kind:
+  provisional: true
+  projection:
+    target: An integrated relative can be bare with a close object gap but normally needs a marker with a gap as its immediate subject. Restriction of reference is a frequent interpretation.
+    evidence: CGEL distinguishes integration from semantic restriction and limits the omission generalization to the relevant gap configuration. CASA supplies the relative-postmodifier frame.
+    confidence: high

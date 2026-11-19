@@ -178,3 +178,52 @@ sources:
     type: paper
     citation: Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6
     doi: 10.4148/biyclc.v6i0.1571
+  kim-sim-2024-out-of:
+    type: paper
+    citation: Kim, Jungsoo & Rok Sim (2024), A Collostructional and Constructional Approach to the Transitive out of -ing Construction. English Studies 105(2), 263–289
+    doi: 10.1080/0013838X.2023.2275458
+    url: https://www.tandfonline.com/doi/full/10.1080/0013838X.2023.2275458
+  hunston-v-n-out-of-n:
+    type: database
+    citation: Hunston, Susan, V n out of n. Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham
+    url: https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-out-of-n/
+  bouso-2022-reaction-object:
+    type: paper
+    citation: 'Bouso Rivas, Tamara (2022), The English Reaction Object Construction: A Case of Syntactic Constructional Contamination. Miscelánea 65, 13–36'
+    doi: 10.26754/ojs_misc/mj.20226826
+    url: https://papiro.unizar.es/ojs/index.php/misc/en/article/view/6826
+  fau-patel-come-ing:
+    type: database
+    citation: Patel, Come plus Noise or Manner of Movement V-ing. Research Constructicon, FAU Erlangen-Nürnberg, record comePLUSnoisemannerofmovementVing (CC BY 4.0, examples excerpted with attribution)
+    url: https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L871-L896
+  fanego-motion-participial:
+    type: paper
+    citation: Fanego, Teresa (2020), On the History of the English Progressive Construction Jane came whistling down the street. Journal of English Linguistics 48(4), 319–354
+    doi: 10.1177/0075424220945008
+    url: https://journals.sagepub.com/doi/full/10.1177/0075424220945008
+  fau-iabdounane-up-to-here:
+    type: database
+    citation: Iabdounane, Had it up to here with. Research Constructicon, FAU Erlangen-Nürnberg, English verbal and gesture-linked records (CC BY 4.0, example excerpted with attribution)
+    url: https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3692-L3771
+  fau-tzimas-inversion:
+    type: database
+    citation: Tzimas, Locative Full-Verb Inversion and Temporal Full-Verb Inversion. Research Constructicon, FAU Erlangen-Nürnberg
+    url: https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L4218-L4308
+  kay-fillmore-1999:
+    type: paper
+    citation: 'Kay, Paul & Charles J. Fillmore (1999), Grammatical Constructions and Linguistic Generalizations: The What''s X Doing Y? Construction. Language 75(1), 1–33'
+    doi: 10.2307/417472
+  goldberg-jackendoff-2004:
+    type: paper
+    citation: Goldberg, Adele E. & Ray Jackendoff (2004), The English Resultative as a Family of Constructions. Language 80(3), 532–568
+    doi: 10.1353/lan.2004.0129
+  cuneo-goldberg-2023:
+    type: paper
+    citation: Cuneo, Nicole & Adele E. Goldberg (2023), The discourse functions of grammatical constructions explain an enduring syntactic puzzle. Cognition 240, 105563
+    doi: 10.1016/j.cognition.2023.105563
+    url: https://www.sciencedirect.com/science/article/pii/S001002772300197X
+  goldberg-2011-preemption:
+    type: paper
+    citation: Goldberg, Adele E. (2011), Corpus evidence of the viability of statistical preemption. Cognitive Linguistics 22(1), 131–153
+    doi: 10.1515/cogl.2011.006
+    url: https://www.degruyterbrill.com/document/doi/10.1515/cogl.2011.006/html

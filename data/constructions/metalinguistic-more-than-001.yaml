@@ -1,0 +1,26 @@
+id: metalinguistic-more-than-001
+name: Metalinguistic More … Than
+pattern: more XP than YP with competing descriptions of one item
+type: mixed
+meanings:
+  '1':
+    definition: Ranks alternative descriptions by their appropriateness.
+    examples:
+      - form: The proposal was [more optimistic than realistic].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: than-reduced-clause-001
+    relationship: related-to
+  - id: gradation-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The same referent is evaluated under alternative labels. Even expressions lacking a common numerical scale can be compared for adequacy of description.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

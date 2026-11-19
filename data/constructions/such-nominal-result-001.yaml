@@ -1,0 +1,29 @@
+id: such-nominal-result-001
+name: Degree Such with Nominal and Result Clause
+pattern: such + nominal expression + (that) content clause
+type: mixed
+meanings:
+  '1':
+    definition: Characterizes the extent or kind of something through an associated result.
+    examples:
+      - form: It was [such a cold morning that the locks froze].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: contains
+    parthood: formal
+  - id: so-degree-result-001
+    relationship: related-to
+  - id: so-nominal-predication-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §4.6; Ch. 5, such
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In the singular count pattern such precedes a. A plural nominal such as such cold mornings uses no a, while the result dependency remains available.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

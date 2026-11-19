@@ -1,0 +1,26 @@
+id: irregular-vowel-plural-001
+name: Stem-Vowel Alternation in Noun Plurals
+pattern: selected noun stem alternation, e.g. tooth ↔ teeth
+type: morphological
+meanings:
+  '1':
+    definition: Realizes a lexical noun plural by internal vowel change.
+    examples:
+      - form: One tooth had broken and [two teeth] were loose.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: plural-s-001
+    relationship: related-to
+  - id: zero-plural-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 18 §4.1.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Plural agreement is expressed without ordinary -s. The pattern is confined to established pairs and does not productively pluralize arbitrarily similar nouns.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

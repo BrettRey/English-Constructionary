@@ -1,0 +1,26 @@
+id: supplementary-appositive-np-001
+name: Supplementary Appositive NP
+pattern: anchor NP + supplementary NP with a co-referential interpretation
+type: mixed
+meanings:
+  '1':
+    definition: Adds a second description or identification of a discourse referent.
+    examples:
+      - form: Lee, [our treasurer], signed the form.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: restrictive-appositive-name-001
+    relationship: related-to
+  - id: supplementary-relative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 15 §5; Ch. 5 §14.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The second NP can be set off prosodically and contributes its own identification or characterization. Removing it leaves the anchor available for the same matrix role.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

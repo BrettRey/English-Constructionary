@@ -1,0 +1,26 @@
+id: still-yet-aspectual-001
+name: Aspectual Still and Negative Yet
+pattern: clause with still or polarity-sensitive yet and a temporal reference point
+type: mixed
+meanings:
+  '1':
+    definition: Locates persistence or non-occurrence against an expected course of events.
+    examples:
+      - form: The alarm [hasn’t stopped yet].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: durational-long-001
+    relationship: related-to
+  - id: continuative-perfect-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §8
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Not yet says that stopping has failed to occur up to the reference point and can suggest it remains expected. Still can instead present the existing state as persisting.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

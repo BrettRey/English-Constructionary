@@ -1,0 +1,29 @@
+id: closed-interrogative-if-001
+name: Subordinate Closed Interrogative with If
+pattern: interrogative if + finite subordinate clause
+type: syntactic
+meanings:
+  '1':
+    definition: Introduces a closed question in licensed complement positions.
+    examples:
+      - form: I wondered [if Lee had arrived].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: closed-interrogative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: closed-interrogative-whether-001
+    relationship: related-to
+  - id: if-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §§5.1–5.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The clause has embedded question interpretation and ordinary subject–verb order. In this use if cannot introduce a whether-to infinitival.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

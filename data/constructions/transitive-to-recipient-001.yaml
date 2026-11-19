@@ -1,0 +1,32 @@
+id: transitive-to-recipient-001
+name: Monotransitive Transfer with To
+pattern: VP[Head:V + Theme NP + PP[to + recipient NP]]
+type: mixed
+meanings:
+  '1':
+    definition: Packages a transferred item as direct object and its intended recipient as a to-phrase.
+    examples:
+      - form: Kim [sent the keys to Lee].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: monotransitive-vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: ditransitive-vp-001
+    relationship: alternates-with
+    notes: Send licenses both frames. Other verbs, including explain in mainstream standard English, select only the to frame in this sense.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§4.3, 8.2.1
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-2011-preemption
+    locator: verb bias and dative competition
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The Theme can be the ordinary passive subject, and certain verbs such as explain allow a recipient to-phrase while resisting double objects in mainstream standard usage.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

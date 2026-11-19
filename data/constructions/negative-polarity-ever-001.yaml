@@ -1,0 +1,26 @@
+id: negative-polarity-ever-001
+name: Polarity-Sensitive Temporal Ever
+pattern: temporal ever in a licensing environment
+type: mixed
+meanings:
+  '1':
+    definition: Ranges over occasions or times, especially under negation or questioning.
+    examples:
+      - form: Has Lee [ever sailed] solo?
+        note: Constructed illustration.
+relatedConstructions:
+  - id: experiential-perfect-001
+    relationship: interfaces-with
+  - id: durational-long-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §§4.1–4.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The affirmative counterpart Lee has ever sailed solo is marked without a special licensor. Superlatives and other suitable environments also permit ever.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

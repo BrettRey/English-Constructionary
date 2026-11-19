@@ -1,0 +1,31 @@
+id: resultative-scalar-state-001
+name: Scalar Endpoint Adjective in a Resultative
+pattern: resultative VP with an adjectival result construed as a reachable state
+type: mixed
+meanings:
+  '1':
+    definition: Presents the result as an attained point or region on a scale.
+    examples:
+      - form: They [polished the railing smooth].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: object-resultative-001
+    relationship: specialization-of
+    parthood: formal
+  - id: gradation-001
+    relationship: interfaces-with
+grounds:
+  - source: goldberg-1995
+    locator: §8.6, restrictions on result predicates
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-jackendoff-2004
+    locator: discussion of result predicates and endpoint construal
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: On the completed-event reading, the rail reaches contextual smoothness. Replacing smooth with a property that does not readily supply an attainable endpoint can lower acceptability even when the verb and object are unchanged.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

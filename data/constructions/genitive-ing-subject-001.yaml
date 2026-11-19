@@ -1,0 +1,26 @@
+id: genitive-ing-subject-001
+name: Genitive Subject in a Gerund-Participial
+pattern: gerund-participial[Subject:genitive NP + V-ing VP]
+type: syntactic
+meanings:
+  '1':
+    definition: Expresses an overt subject in the genitive inside a gerund-participial.
+    examples:
+      - form: I disliked [their arriving so late].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: deverbal-noun-of-argument-001
+    relationship: related-to
+  - id: np-gen-indep-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§1.5–1.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The verb can retain adverbial modification and take a direct object. The genitive marks its subject rather than turning the following verb into a noun.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -12,6 +12,14 @@ families:
       - source-complement-001
       - path-complement-001
       - time-away-001
+      - continuative-away-at-001
+      - out-of-ing-causative-001
+      - reaction-object-001
+      - cognate-event-object-001
+      - come-with-motion-participial-001
+      - object-ascriptive-001
+      - adjectival-raising-001
+      - adjective-hollow-infinitival-001
   constituent-structure:
     members:
       - phrase-001
@@ -21,6 +29,11 @@ families:
       - clause-001
       - fused-head-001
       - clause-analogue-001
+      - coordination-gapping-001
+      - delayed-right-constituent-001
+      - integrated-relative-modifier-001
+      - fused-relative-np-001
+      - declarative-content-clause-001
   clause-type:
     members:
       - declarative-clause-001
@@ -45,11 +58,15 @@ families:
       - np-property-value-001
       - all-class-role-modifier-001
       - every-inch-predicative-001
+      - measure-adjective-001
+      - intensifying-to-death-001
   countability:
     members:
       - grammatical-number-001
       - n-non-count-001
       - quasi-count-noun-001
+      - portion-variety-count-001
+      - non-count-material-construal-001
   numeratives:
     members:
       - cardinal-determinative-001
@@ -57,6 +74,8 @@ families:
       - abstract-numeral-001
       - numerical-label-001
       - year-name-001
+      - month-day-date-001
+      - definite-cardinal-of-pronoun-001
       - magnitude-quantifier-001
       - collective-numeral-001
       - denominator-numeral-001
@@ -83,3 +102,243 @@ families:
       - with-a-capital-letter-001
       - with-an-uppercase-letter-001
       - letter-case-modifier-001
+  information-packaging:
+    members:
+      - it-cleft-001
+      - pseudo-cleft-001
+      - complement-preposing-001
+      - left-dislocation-001
+      - right-dislocation-001
+      - subject-extraposition-001
+      - presentational-dependent-inversion-001
+      - existential-there-001
+      - extended-existential-001
+      - presentational-there-001
+      - deictic-here-there-inversion-001
+      - heavy-np-shift-001
+      - extraposed-relative-001
+      - proposition-affirmation-001
+      - preposed-predicate-001
+  personal-naming:
+    members:
+      - strong-proper-name-001
+      - paired-np-introduction-001
+      - title-personal-name-001
+      - proper-name-secondary-use-001
+  auxiliary-patterns:
+    members:
+      - auxiliary-vp-ellipsis-001
+      - lexical-do-so-anaphor-001
+      - infinitival-to-stranding-001
+      - finite-do-support-001
+      - primary-auxiliary-negation-001
+      - negative-initial-inversion-001
+      - so-neither-inversion-001
+      - modal-plain-complement-001
+      - auxiliary-chain-001
+  tense-aspect-modality:
+    members:
+      - present-futurate-001
+      - progressive-futurate-001
+      - going-to-future-001
+      - present-backshift-001
+      - preterite-politeness-001
+      - irrealis-were-001
+      - continuative-perfect-001
+      - experiential-perfect-001
+      - backshift-past-perfect-001
+      - recurrent-progressive-always-001
+      - epistemic-perfect-modal-001
+      - directive-had-better-001
+      - preference-would-rather-001
+      - quasi-modal-be-to-001
+      - habitual-used-to-001
+  valency-patterns:
+    members:
+      - monotransitive-vp-001
+      - simple-intransitive-vp-001
+      - implicit-object-use-001
+      - causative-inchoative-001
+      - dispositional-middle-001
+      - subject-ascriptive-001
+      - specificational-copular-001
+      - subject-resultative-001
+      - reflexive-state-goal-001
+      - depictive-predication-001
+      - prepositional-verb-frame-001
+      - prepositional-passive-001
+      - light-verb-event-001
+      - reflexive-benefactive-ditransitive-001
+      - transitive-to-recipient-001
+      - locative-theme-variant-001
+      - locative-location-variant-001
+      - content-container-alternation-001
+      - get-event-passive-001
+      - adjectival-passive-001
+  nonfinite-complementation:
+    members:
+      - for-infinitival-001
+      - subject-control-infinitival-001
+      - subject-raising-infinitival-001
+      - object-control-infinitival-001
+      - object-raising-infinitival-001
+      - perception-bare-infinitival-001
+      - perception-gerund-participial-001
+      - plain-make-causative-001
+      - let-permissive-001
+      - causative-have-001
+      - affected-have-participial-001
+      - concealed-passive-ing-001
+      - genitive-ing-subject-001
+      - oblique-ing-subject-001
+      - infinitival-purpose-adjunct-001
+      - infinitival-result-adjunct-001
+      - participial-clause-supplement-001
+      - absolute-with-predication-001
+  finite-subordination:
+    members:
+      - subjunctive-mandative-001
+      - mandative-should-001
+      - content-clause-in-np-001
+      - complement-it-extraposition-001
+      - factive-content-complement-001
+      - closed-interrogative-whether-001
+      - closed-interrogative-if-001
+      - infinitival-open-interrogative-001
+      - exhaustive-alternative-conditional-001
+      - unconditional-wh-adjunct-001
+      - indirect-report-001
+      - direct-quotation-001
+      - quotative-inversion-001
+  relative-patterns:
+    members:
+      - supplementary-relative-001
+      - relative-clausal-which-001
+      - preposition-pied-piping-001
+      - possessive-relative-whose-001
+      - infinitival-relative-modifier-001
+      - fused-relative-no-matter-001
+  coordination-patterns:
+    members:
+      - both-and-coordination-001
+      - either-or-coordination-001
+      - corrective-but-coordination-001
+      - not-only-but-also-001
+      - imperative-and-conditional-001
+      - imperative-or-warning-001
+      - coordinate-degree-reduplication-001
+      - right-argument-cluster-coordination-001
+  comparison-patterns:
+    members:
+      - than-reduced-clause-001
+      - equative-as-as-001
+      - differential-measure-comparative-001
+      - comparative-factor-001
+      - metalinguistic-more-than-001
+      - comparative-adjective-suppletion-001
+      - superlative-grade-001
+      - same-as-comparison-001
+      - such-as-exemplification-001
+      - difference-than-from-001
+      - too-degree-infinitival-001
+      - enough-degree-infinitival-001
+      - so-degree-result-001
+      - such-nominal-result-001
+  temporal-and-spatial-patterns:
+    members:
+      - in-duration-completion-001
+      - for-duration-adjunct-001
+      - since-time-anchor-001
+      - until-time-boundary-001
+      - time-measure-ago-001
+      - calendar-deictic-np-001
+      - immediate-following-no-sooner-001
+      - extent-measure-np-001
+      - scalar-change-by-measure-001
+  adjunct-patterns:
+    members:
+      - means-by-gerund-001
+      - instrumental-with-np-001
+      - content-because-adjunct-001
+      - evidential-because-001
+      - although-concessive-001
+      - even-if-concessive-conditional-001
+      - unless-exceptive-conditional-001
+      - sufficiency-provided-that-001
+      - only-if-restriction-001
+      - in-case-contingency-001
+      - still-yet-aspectual-001
+      - domain-wise-adjunct-001
+      - evaluative-sentence-adverb-001
+      - speech-act-adverbial-001
+  nominal-construals:
+    members:
+      - true-partitive-001
+      - measure-pseudopartitive-001
+      - demonstrative-distance-001
+      - personal-determiner-001
+      - each-of-partitive-001
+      - floating-distributive-001
+      - distributive-rate-apiece-001
+      - another-additive-measure-001
+      - positive-paucal-a-001
+      - positive-degree-partitive-more-001
+      - prenominal-all-the-001
+      - pro-nominal-one-001
+      - fused-adjective-anaphoric-001
+      - restrictive-appositive-name-001
+      - supplementary-appositive-np-001
+      - bare-institutional-use-001
+      - weak-proper-name-article-001
+      - group-genitive-001
+      - temporal-genitive-001
+      - measure-genitive-001
+      - collective-agreement-001
+      - number-transparent-agreement-001
+      - amount-singular-agreement-001
+      - singular-anaphoric-they-001
+  polarity-and-response:
+    members:
+      - negative-concord-001
+      - metalinguistic-negation-001
+      - negative-raising-001
+      - negative-polarity-ever-001
+      - minimizer-negative-polarity-001
+      - polarity-short-answer-001
+      - anaphoric-propositional-so-001
+      - anaphoric-propositional-not-001
+  interactional-patterns:
+    members:
+      - incongruity-whats-doing-001
+      - how-come-explanation-001
+      - what-about-topic-001
+      - how-about-proposal-001
+      - what-if-scenario-001
+      - why-not-proposal-001
+      - lets-inclusive-001
+      - open-let-imperative-001
+      - modal-interrogative-request-001
+      - if-only-wish-001
+      - what-np-exclamative-001
+      - how-adjective-exclamative-001
+      - interrogative-sluicing-001
+  word-formation-patterns:
+    members:
+      - zero-plural-001
+      - irregular-vowel-plural-001
+      - irregular-ablaut-verb-001
+      - it-auxiliary-clitic-001
+      - synthetic-noun-compound-001
+      - deverbal-ing-nominal-001
+      - privative-less-001
+      - endowed-ful-001
+      - deadjectival-ize-001
+      - re-iterative-prefix-001
+  constructional-argument-and-filler-patterns:
+    members:
+      - unselected-object-resultative-001
+      - resultative-scalar-state-001
+      - recipient-passive-retained-object-001
+      - response-obligation-ditransitive-001
+      - long-distance-open-interrogative-001
+      - long-distance-relative-001

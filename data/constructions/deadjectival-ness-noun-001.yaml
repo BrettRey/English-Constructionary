@@ -1,0 +1,37 @@
+id: deadjectival-ness-noun-001
+name: Deadjectival Noun in -ness
+pattern: N[adjective base + -ness]
+type: mixed
+meanings:
+  '1':
+    definition: Names a property or state characterized by the base adjective.
+    details: The regular formation preserves the stress of the base. Novel formations are generally interpretable given a recognizable adjective. Some derivatives lexicalize specialized readings. Competing -ity may shift stress or alter the base.
+    examples:
+      - form: '[the clearness of the recording]'
+        note: Constructed example with -ness from clear.
+      - form: '[unexpected awkwardness]'
+        note: Constructed example with the stress of awkward preserved.
+relatedConstructions:
+  - id: n-common-001
+    relationship: specialization-of
+    notes: The output is a common noun.
+  - id: adjective-001
+    relationship: related-to
+    notes: The core pattern selects an adjective as its base.
+grounds:
+  - source: casa-constructicon
+    locator: records 152–153
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes the two derivational patterns.
+  - source: cgel-2002
+    locator: Ch. 19 §5.7.2(i)
+    relation: discusses
+    bears-on: projection
+    note: Documents stress, stem alternations and productivity in the two patterns.
+kind:
+  provisional: true
+  projection:
+    target: The regular -ness output retains base stress, and the pattern supports novel property nouns. A competing -ity formation can change the stress or shape of the base.
+    evidence: CASA gives separate -ness and -ity records. CGEL documents their formal and productivity contrast.
+    confidence: high

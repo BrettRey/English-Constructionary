@@ -1,0 +1,29 @@
+id: present-futurate-001
+name: Present Futurate
+pattern: Clause[present-tense predicate + future-time anchoring]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a future occurrence as scheduled or fixed by an arrangement.
+    examples:
+      - form: '[The ferry leaves at dawn tomorrow].'
+        note: Constructed illustration.
+      - form: '[The Sun sets at five tomorrow].'
+        note: Constructed comparison. A calculable future event with the simple present.
+relatedConstructions:
+  - id: declarative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: going-to-future-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §4.2.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The plain present can locate a scheduled departure in the future. Compare the heat will crack the pane tomorrow, where the ordinary simple present would suggest a more settled prediction or scenario.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

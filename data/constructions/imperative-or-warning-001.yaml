@@ -1,0 +1,26 @@
+id: imperative-or-warning-001
+name: Imperative Plus Or with a Warning
+pattern: Clause[imperative] + or + declarative consequence
+type: mixed
+meanings:
+  '1':
+    definition: Presents the second state of affairs as what may happen if the directive is ignored.
+    examples:
+      - form: '[Hold still or you’ll fall].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: imperative-and-conditional-001
+    relationship: related-to
+  - id: either-or-coordination-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §9.5; Ch. 15 §2.2, asymmetric or
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The fall is associated with failure to hold still, rather than offered as an equally intended alternative action.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

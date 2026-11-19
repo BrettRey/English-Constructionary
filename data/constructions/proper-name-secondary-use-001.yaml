@@ -1,0 +1,50 @@
+id: proper-name-secondary-use-001
+name: Proper Name in a Descriptive NP
+pattern: NP[Determiner + Nominal based on a proper name, optionally plural or modified]
+type: mixed
+meanings:
+  '1':
+    definition: Counts or distinguishes bearers of the same name.
+    details: In two Kims, two individuals satisfy the description ‘has the name Kim’. A modifier can select one Kim from that group. This use can be created even if Kim has never previously been used as an ordinary count noun in that community.
+    examples:
+      - form: There are [two Kims] on the committee.
+        note: Constructed name-bearer example.
+  '2':
+    definition: Describes a person by resemblance to a salient bearer of the name.
+    details: In another Einstein, the person evaluated need not have the name Einstein. A name can contribute properties of the bearer, selected by the context. With no Einstein the interpretation concerns the absence of those properties.
+    examples:
+      - form: They were hoping to recruit [another Einstein].
+        note: Constructed resemblance example.
+  '3':
+    definition: Selects a manifestation, product, or copy associated with the named entity.
+    details: The Paris of her youth identifies a period or version of Paris. A Rembrandt can refer to a painting. Some Beethoven can refer to music. A copy of a publication can be described by the title with a possessive determiner.
+    examples:
+      - form: They bought [a Rembrandt].
+        note: Constructed example with count syntax and an artwork interpretation.
+relatedConstructions:
+  - id: proper-name-001
+    relationship: related-to
+    notes: The descriptive NP is built around a form otherwise used as a name.
+  - id: strong-proper-name-001
+    relationship: related-to
+    notes: A strong proper name independently supplies a definite referent without a determiner.
+  - id: paired-np-introduction-001
+    relationship: related-to
+    notes: An introduction can establish which entity a form names. Secondary constructions can then use a standing name descriptively.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.8.4 (59)
+    relation: discusses
+    bears-on: projection
+    note: Documents name-bearer and resemblance uses and leaves the number of constructions open.
+  - source: cgel-2002
+    locator: Ch. 5 §20.4 [6–10]
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes name bearers, resemblance, manifestations, products and copies.
+kind:
+  provisional: true
+  projection:
+    target: Numeral and plural marking can count bearers, and an indefinite NP can describe resemblance, including when the described person has a different name. Product uses independently admit count and non-count construals.
+    evidence: FrameNet supplies name-bearer and resemblance uses of the same form family. CGEL documents those readings along with manifestations, products and copies. Their differing entailments motivate keeping the readings visible while leaving the number of constructions open.
+    confidence: high

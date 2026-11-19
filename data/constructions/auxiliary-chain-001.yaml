@@ -1,0 +1,34 @@
+id: auxiliary-chain-001
+name: Ordered Auxiliary Chain
+pattern: VP[(modal) + (perfect have + past participle) + (progressive be + gerund-participle) + (passive be + past participle)]
+type: syntactic
+meanings:
+  '1':
+    definition: Composes several auxiliaries with locally selected verb forms and restricted relative order.
+    examples:
+      - form: It [might have been being repaired].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: modal-plain-complement-001
+    relationship: contains
+    parthood: formal
+  - id: be-passive-001
+    relationship: related-to
+  - id: progressive-ing-001
+    relationship: related-to
+  - id: perfect-have-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Each auxiliary determines the immediately following form. The components normally retain the modal–perfect–progressive–passive order even when intermediate components are omitted.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

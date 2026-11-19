@@ -1,0 +1,37 @@
+id: long-distance-open-interrogative-001
+name: Long-Distance Open Interrogative
+pattern: fronted interrogative XPᵢ + clause containing a subordinate clause with gapᵢ
+type: mixed
+meanings:
+  '1':
+    definition: Questions a dependent associated with a predicate inside an embedded clause.
+    examples:
+      - form: '[Which tool did Lee say Jo had borrowed?]'
+        note: Constructed illustration.
+      - form: '[Which tool did Jo borrow?]'
+        note: Constructed comparison. Local counterpart. The same interrogative is associated directly with the main verb.
+relatedConstructions:
+  - id: open-interrogative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: long-distance-relative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §7.11; Ch. 12 §7
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-2006
+    locator: Ch. 7, islands and backgroundedness
+    relation: discusses
+    bears-on: projection
+  - source: cuneo-goldberg-2023
+    locator: experiments on open-interrogative dependencies
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The tool is interpreted as the object of borrowed. Licensing varies with the intervening construction, and experiments find gradient effects associated with how strongly the embedded content is backgrounded.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

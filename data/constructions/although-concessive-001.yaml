@@ -1,0 +1,29 @@
+id: although-concessive-001
+name: Concessive Although Adjunct
+pattern: PP[although + finite or licensed reduced predication]
+type: mixed
+meanings:
+  '1':
+    definition: Acknowledges a circumstance that might have counted against the main claim.
+    examples:
+      - form: '[Although the steps were icy], we reached the door.'
+        note: Constructed illustration.
+      - form: '[Even if the steps are icy], we’ll reach the door.'
+        note: Constructed comparison. Conditional concession leaves the ice uncertain.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: even-if-concessive-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §13; Ch. 14 §10(b)
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Both the ice and the arrival are presented as actual. The contrast comes from an expectation about what the ice might impede.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

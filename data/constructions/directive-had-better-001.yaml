@@ -1,0 +1,27 @@
+id: directive-had-better-001
+name: Directive Had Better
+pattern: VP[fixed had + better + plain infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Recommends a course of action, often implying an adverse consequence otherwise.
+    examples:
+      - form: You [had better bring] the receipt.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: modal-plain-complement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§2.5.6, 9.7
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Had can contract to ’d but ordinarily cannot be replaced by present have. The directive refers to prospective rather than past action.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

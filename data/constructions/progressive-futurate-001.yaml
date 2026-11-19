@@ -1,0 +1,27 @@
+id: progressive-futurate-001
+name: Progressive Futurate
+pattern: Clause[progressive be + V-ing + future anchor]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a future event as already arranged, planned or settled in the relevant circumstances.
+    examples:
+      - form: '[We’re meeting Jo on Tuesday].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: progressive-ing-001
+    relationship: specialization-of
+    parthood: formal
+  - id: present-futurate-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §8.3(a)
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: An explicit future anchor selects an arrangement interpretation. With an ordinary predicted natural event, as in the time of sunset, the plain present is often preferred to the progressive futurate.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

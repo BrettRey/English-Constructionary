@@ -1,0 +1,27 @@
+id: if-only-wish-001
+name: Optative If Only
+pattern: standalone if only + finite clause, often modally remote
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a wish concerning a possibility or unrealized state.
+    examples:
+      - form: '[If only we had brought a torch!]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: if-conditional-001
+    relationship: related-to
+  - id: only-if-restriction-001
+    relationship: related-to
+    notes: Only if imposes a condition, while if only can express a wish.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.2.1; Ch. 10 §10
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A consequence can remain unexpressed, and the utterance conveys a wish. In We can enter only if we bring a torch, only if instead sets a necessary condition.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

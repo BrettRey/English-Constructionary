@@ -1,0 +1,37 @@
+id: absolute-supplement-001
+name: Absolute Supplement
+pattern: supplement[Subject:NP + non-finite VP or verbless predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Adds a circumstance with a subject of its own.
+    details: In Her hands shaking, Mia set the glass down, her hands is the subject of shaking. The supplement can instead be verbless, as in Her keys in her coat pocket, Mia left the house. The relation to the main situation can be simultaneous, explanatory, or sequential, as context permits.
+    examples:
+      - form: '[Her hands shaking], Mia set the glass down.'
+        note: Constructed non-finite supplement with an overt subject.
+      - form: '[Her keys in her coat pocket], Mia left the house.'
+        note: Constructed verbless supplement.
+relatedConstructions:
+  - id: clause-001
+    relationship: related-to
+    notes: The supplement has its own subject and predicate.
+  - id: what-with-circumstantial-001
+    relationship: related-to
+    notes: The what with frame also licenses a separate subject and predicate.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.3.1 (22–26)
+    relation: discusses
+    bears-on: projection
+    note: Describes absolute forms and their discourse contributions.
+  - source: cgel-2002
+    locator: Ch. 14 §§9–10, pp. 1266–1267
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes absolute clauses from subjectless supplements and describes verbless counterparts.
+kind:
+  provisional: true
+  projection:
+    target: Removing the overt subject of the non-finite supplement changes who is understood to be shaking in the ordinary reading. The same frame can host a verbless predicate.
+    evidence: CGEL distinguishes absolute supplements from subjectless supplements. The FrameNet team gives non-finite, verbless, and related with-variants.
+    confidence: high

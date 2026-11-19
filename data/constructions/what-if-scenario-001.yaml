@@ -1,0 +1,26 @@
+id: what-if-scenario-001
+name: Deliberative What If
+pattern: what if + finite clause
+type: pragmatic
+meanings:
+  '1':
+    definition: Raises a hypothetical circumstance and invites consideration of its consequences.
+    examples:
+      - form: '[What if the last bus has already gone?]'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: if-conditional-001
+    relationship: related-to
+  - id: question-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §7.8 [26v]; §10, minor clause uses
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A response can discuss a plan for that circumstance. The string can stand alone without a stated matrix consequence, unlike a fully expressed ordinary conditional.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

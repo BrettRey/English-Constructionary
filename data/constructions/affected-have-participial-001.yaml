@@ -1,0 +1,29 @@
+id: affected-have-participial-001
+name: Have with a Past-Participial Predication
+pattern: VP[have + NP + past-participial predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an outcome as arranged by or affecting the subject.
+    examples:
+      - form: We [had the roof replaced] in June.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: causative-have-001
+    relationship: related-to
+  - id: be-passive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§5.4, 7, past-participial complements
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The subject can be an arranger, but had her bag stolen can describe an unwanted event she experienced. The post-have NP is understood as the affected participant of the participial.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

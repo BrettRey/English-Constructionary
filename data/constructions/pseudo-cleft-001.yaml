@@ -1,0 +1,52 @@
+id: pseudo-cleft-001
+name: Pseudo-Cleft
+pattern: Clause[Subject:NP[fused relative] + be + PredComp:XP[value]], or reversed alignment
+type: mixed
+meanings:
+  '1':
+    definition: Specifies the value of a variable defined by a fused relative.
+    details: The fused relative in What I need is a long cool drink defines what is to be identified. The value can precede be in the reversed version. Clausal values are common, including a bare or to-infinitival when the relative has do. A copular clause that evaluates what they did as a disgrace is ascriptive and does not specify the action.
+    examples:
+      - form: '[What I need is a long cool drink.]'
+        note: The drink supplies the value of what I need.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §9.3 [24i]
+            relation: attests
+            bears-on: attestation
+      - form: '[A long cool drink is what I need.]'
+        note: Reversed alignment.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §9.3 [24ii]
+            relation: attests
+            bears-on: attestation
+      - form: '[What you must do is apply for special leave.]'
+        note: Bare infinitival value. To is also possible here.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §9.3 [27ii]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The matrix clause is headed by a copular VP.
+  - id: it-cleft-001
+    relationship: related-to
+    notes: Both foreground a value. Their backgrounded relatives occupy different positions.
+  - id: fused-relative-np-001
+    relationship: contains
+    notes: The variable is defined by a fused relative.
+grounds:
+  - source: casa-constructicon
+    locator: record 141
+    relation: discusses
+    bears-on: projection
+    note: Lists multiple phrase and clause types in the post-be position.
+kind:
+  provisional: true
+  projection:
+    target: A do pseudo-cleft can take an infinitival value which the corresponding it-cleft generally excludes.
+    evidence: CGEL compares the two clefts with matched clausal values and distinguishes specifying and ascriptive be. CASA catalogs the wh-cleft pattern.
+    confidence: high

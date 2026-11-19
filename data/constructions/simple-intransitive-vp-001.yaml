@@ -1,0 +1,27 @@
+id: simple-intransitive-vp-001
+name: Simple Intransitive VP
+pattern: VP[Head:V, without a core complement slot in the use at issue]
+type: syntactic
+meanings:
+  '1':
+    definition: Presents a one-place predication without a core object or predicative complement.
+    examples:
+      - form: The guests [laughed].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: cognate-event-object-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§1.1, 8.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: An adjunct may be added without changing the verb's core frame. An NP after the verb can instead require a separately licensed construction, as with a cognate event object.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

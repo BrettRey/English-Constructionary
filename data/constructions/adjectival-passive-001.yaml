@@ -1,0 +1,27 @@
+id: adjectival-passive-001
+name: Adjectival Passive
+pattern: Clause[Subject + be/seem/remain + AdjP[past-participial base]]
+type: syntactic
+meanings:
+  '1':
+    definition: Predicates a state or property through an adjective with passive-like morphology.
+    examples:
+      - form: The door [remained locked].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: be-passive-001
+    relationship: related-to
+  - id: subject-ascriptive-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §10.1.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Remain can select the stative predicate. A verbal passive with an agent and an explicitly dated event gives an event reading rather than the state interpretation illustrated here.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

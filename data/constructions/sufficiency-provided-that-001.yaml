@@ -1,0 +1,27 @@
+id: sufficiency-provided-that-001
+name: Conditional Provided That
+pattern: conditional PP[provided (that) + finite clause]
+type: mixed
+meanings:
+  '1':
+    definition: States a proviso under which a proposal or promise holds.
+    examples:
+      - form: You can use the room [provided that you lock up].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: unless-exceptive-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.4; Ch. 7, clause-taking prepositions
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In a permission context the phrase gives a condition on permission. It does not report the locking as already true.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

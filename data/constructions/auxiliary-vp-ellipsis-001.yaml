@@ -1,0 +1,30 @@
+id: auxiliary-vp-ellipsis-001
+name: Auxiliary-Stranding VP Ellipsis
+pattern: Clause[Subject + finite auxiliary + unexpressed complement]
+type: syntactic
+meanings:
+  '1':
+    definition: Recovers a predicate from the preceding discourse while pronouncing the auxiliary.
+    examples:
+      - form: Nora could repair it, and [Kai could too].
+        note: Constructed illustration.
+      - form: Nora repaired it, but [Kai didn’t].
+        note: Constructed comparison. The antecedent is positive and has a lexical preterite. The ellipsis host supplies negative do.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: coordination-gapping-001
+    relationship: related-to
+    notes: Gapping leaves contrastive material on both sides of the omitted sequence.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §2.1.4; Ch. 17 §7.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The stranded auxiliary can differ in tense or polarity from the antecedent, as in Nora repaired it, but Kai didn't. A lexical verb does not freely strand in the same pattern.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,33 @@
+id: absolute-with-predication-001
+name: With Plus an Absolute Predication
+pattern: PP[with + NP + participial or verbless predicate]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a background condition with its own subject and predicate.
+    examples:
+      - form: '[With the shutters closed], the room stayed cool.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: absolute-supplement-001
+    relationship: related-to
+  - id: what-with-circumstantial-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§8.3, 10(a)
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4.3.1, Absolute:with
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The shutters are understood as closed. The relation to the main situation can be merely concomitant or explanatory, whereas what with conventionally gives a reason.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

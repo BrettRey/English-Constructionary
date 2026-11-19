@@ -1,0 +1,26 @@
+id: infinitival-to-stranding-001
+name: Infinitival To Stranding
+pattern: to-infinitival[to + unexpressed VP]
+type: syntactic
+meanings:
+  '1':
+    definition: Realizes an infinitival complement with overt to and a contextually recoverable predicate.
+    examples:
+      - form: I didn’t go, but I [wanted to].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+  - id: lexical-do-so-anaphor-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 17 §7.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: To can remain in the position where the full infinitival would occur. The same speaker can recover go without substituting lexical do so.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

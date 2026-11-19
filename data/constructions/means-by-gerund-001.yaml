@@ -1,0 +1,29 @@
+id: means-by-gerund-001
+name: Means By with a Gerund-Participial
+pattern: PP[by + gerund-participial Clause]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an activity as the means by which another outcome is obtained.
+    examples:
+      - form: Jo reopened the file [by restoring a backup].
+        note: Constructed illustration.
+      - form: Jo reopened the file [after restoring a backup].
+        note: Constructed comparison. After supplies temporal order and leaves the means relation to context.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: infinitival-purpose-adjunct-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §2.2; Ch. 14 §8.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The restoring is interpreted as part of the method, not merely as a coincidental event in the same time period.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,42 @@
+id: continuative-away-at-001
+name: Continuative Away At
+pattern: VP[Head:V + away + PP[at + NP[target]]]
+type: mixed
+meanings:
+  '1':
+    definition: Describes sustained or repeated activity directed at a target.
+    details: The activity can consist of many small effects on the target without presenting a finished result. The combination sometimes allows a verb that is markedly less acceptable with at alone. Away here has an aspectual contribution. A directional away from construction has a separate interpretation.
+    examples:
+      - form: Simmy was [carving away at the roast].
+        note: Published comparison. The version without away was judged degraded.
+        grounds:
+          - source: jackendoff-1997
+            locator: p. 540
+            relation: attests
+            bears-on: attestation
+      - form: They [worked away at the problem] all afternoon.
+        note: Constructed example. The duration concerns the work and does not imply a solution.
+relatedConstructions:
+  - id: conative-at-001
+    relationship: related-to
+    notes: The two patterns share a target at-phrase and differ in aspect and available verbs.
+  - id: time-away-001
+    relationship: related-to
+    notes: Both have nonlocative away, but the time-away pattern licenses a time object.
+grounds:
+  - source: birmingham-english-constructicon
+    locator: V away at n, records 45–48
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes extended action and more specific readings.
+  - source: jackendoff-1997
+    locator: p. 540
+    relation: discusses
+    bears-on: projection
+    note: Gives the carve contrast alongside other uses of aspectual away.
+kind:
+  provisional: true
+  projection:
+    target: Away favours an extended or repeated reading. In the published carve pair it also improves the target-at frame without adding a spatial direction.
+    evidence: The Birmingham inventory separates duration, effort, bit-by-bit damage and ingestion. Jackendoff gives a comparison holding the verb and target fixed.
+    confidence: medium

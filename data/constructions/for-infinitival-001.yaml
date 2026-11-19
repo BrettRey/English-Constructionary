@@ -1,0 +1,26 @@
+id: for-infinitival-001
+name: For-Infinitival with an Overt Subject
+pattern: for + Subject:NP[accusative if personal pronoun] + to-infinitival VP
+type: syntactic
+meanings:
+  '1':
+    definition: Introduces an infinitival with a syntactically expressed subject.
+    examples:
+      - form: '[For them to leave now] would be awkward.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: related-to
+  - id: subject-extraposition-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §§1.3–1.4.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Them is the subject of leave, not the object of a purpose preposition in this use. In subject position this infinitival normally requires for before its overt subject.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

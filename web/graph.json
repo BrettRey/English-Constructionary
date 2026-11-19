@@ -13,6 +13,18 @@
       "type": "syntactic"
     },
     {
+      "id": "absolute-supplement-001",
+      "kind": "construction",
+      "label": "Absolute Supplement",
+      "type": "mixed"
+    },
+    {
+      "id": "absolute-with-predication-001",
+      "kind": "construction",
+      "label": "With Plus an Absolute Predication",
+      "type": "mixed"
+    },
+    {
       "id": "abstract-numeral-001",
       "kind": "construction",
       "label": "Abstract Numeral Construction",
@@ -25,10 +37,34 @@
       "type": "mixed"
     },
     {
+      "id": "adjectival-passive-001",
+      "kind": "construction",
+      "label": "Adjectival Passive",
+      "type": "syntactic"
+    },
+    {
+      "id": "adjectival-raising-001",
+      "kind": "construction",
+      "label": "Raising with an Adjectival Predicative",
+      "type": "mixed"
+    },
+    {
       "id": "adjective-001",
       "kind": "construction",
       "label": "Adjective",
       "type": "syntactic"
+    },
+    {
+      "id": "adjective-hollow-infinitival-001",
+      "kind": "construction",
+      "label": "Adjectival Tough Construction",
+      "type": "mixed"
+    },
+    {
+      "id": "affected-have-participial-001",
+      "kind": "construction",
+      "label": "Have with a Past-Participial Predication",
+      "type": "mixed"
     },
     {
       "id": "all-class-role-modifier-001",
@@ -43,10 +79,64 @@
       "type": "mixed"
     },
     {
+      "id": "although-concessive-001",
+      "kind": "construction",
+      "label": "Concessive Although Adjunct",
+      "type": "mixed"
+    },
+    {
+      "id": "amount-singular-agreement-001",
+      "kind": "construction",
+      "label": "Singular Agreement with an Amount Expression",
+      "type": "syntactic"
+    },
+    {
+      "id": "anaphoric-propositional-not-001",
+      "kind": "construction",
+      "label": "Anaphoric Not with an Attitude Predicate",
+      "type": "mixed"
+    },
+    {
+      "id": "anaphoric-propositional-so-001",
+      "kind": "construction",
+      "label": "Anaphoric So with an Attitude Predicate",
+      "type": "mixed"
+    },
+    {
       "id": "anderson-some-exclamatives",
       "kind": "source",
       "label": "Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52",
       "type": "paper"
+    },
+    {
+      "id": "another-additive-measure-001",
+      "kind": "construction",
+      "label": "Additive Another before a Measure or Cardinal",
+      "type": "mixed"
+    },
+    {
+      "id": "auxiliary-chain-001",
+      "kind": "construction",
+      "label": "Ordered Auxiliary Chain",
+      "type": "syntactic"
+    },
+    {
+      "id": "auxiliary-vp-ellipsis-001",
+      "kind": "construction",
+      "label": "Auxiliary-Stranding VP Ellipsis",
+      "type": "syntactic"
+    },
+    {
+      "id": "backshift-past-perfect-001",
+      "kind": "construction",
+      "label": "Past Perfect Anteriority",
+      "type": "mixed"
+    },
+    {
+      "id": "bare-institutional-use-001",
+      "kind": "construction",
+      "label": "Institutional Bare Singular",
+      "type": "mixed"
     },
     {
       "id": "bare-noun-coordination-001",
@@ -94,6 +184,18 @@
       "type": "database"
     },
     {
+      "id": "both-and-coordination-001",
+      "kind": "construction",
+      "label": "Correlative Both and And",
+      "type": "mixed"
+    },
+    {
+      "id": "bouso-2022-reaction-object",
+      "kind": "source",
+      "label": "Bouso Rivas, Tamara (2022), The English Reaction Object Construction: A Case of Syntactic Constructional Contamination. Miscelánea 65, 13–36",
+      "type": "paper"
+    },
+    {
       "id": "bouso-2024-superlative",
       "kind": "source",
       "label": "Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129",
@@ -118,6 +220,12 @@
       "type": "paper"
     },
     {
+      "id": "calendar-deictic-np-001",
+      "kind": "construction",
+      "label": "Bare Deictic Calendar NP",
+      "type": "mixed"
+    },
+    {
       "id": "cardinal-determinative-001",
       "kind": "construction",
       "label": "Cardinal Determinative",
@@ -134,6 +242,18 @@
       "kind": "source",
       "label": "Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language",
       "type": "database"
+    },
+    {
+      "id": "causative-have-001",
+      "kind": "construction",
+      "label": "Causative Have with a Bare Infinitival",
+      "type": "mixed"
+    },
+    {
+      "id": "causative-inchoative-001",
+      "kind": "construction",
+      "label": "Causative and Inchoative Alternation",
+      "type": "mixed"
     },
     {
       "id": "caused-motion-001",
@@ -187,16 +307,52 @@
       "secured": "stable"
     },
     {
+      "id": "closed-interrogative-if-001",
+      "kind": "construction",
+      "label": "Subordinate Closed Interrogative with If",
+      "type": "syntactic"
+    },
+    {
+      "id": "closed-interrogative-whether-001",
+      "kind": "construction",
+      "label": "Subordinate Closed Interrogative with Whether",
+      "type": "syntactic"
+    },
+    {
       "id": "coca",
       "kind": "source",
       "label": "Davies, Mark (2008-), The Corpus of Contemporary American English",
       "type": "corpus"
     },
     {
+      "id": "cognate-event-object-001",
+      "kind": "construction",
+      "label": "Cognate Event Object",
+      "type": "mixed"
+    },
+    {
+      "id": "collective-agreement-001",
+      "kind": "construction",
+      "label": "Notional Agreement with a Collective NP",
+      "type": "syntactic"
+    },
+    {
       "id": "collective-numeral-001",
       "kind": "construction",
       "label": "Collective Numeral Construction",
       "type": "syntactic"
+    },
+    {
+      "id": "come-with-motion-participial-001",
+      "kind": "construction",
+      "label": "Come with a Motion or Sound Participial",
+      "type": "mixed"
+    },
+    {
+      "id": "comparative-adjective-suppletion-001",
+      "kind": "construction",
+      "label": "Suppletive Adjectival Comparison",
+      "type": "morphological"
     },
     {
       "id": "comparative-correlative-001",
@@ -211,9 +367,33 @@
       "type": "morphological"
     },
     {
+      "id": "comparative-factor-001",
+      "kind": "construction",
+      "label": "Multiplicative Measure Comparison",
+      "type": "mixed"
+    },
+    {
+      "id": "complement-it-extraposition-001",
+      "kind": "construction",
+      "label": "Object It with an Extraposed Content Clause",
+      "type": "syntactic"
+    },
+    {
+      "id": "complement-preposing-001",
+      "kind": "construction",
+      "label": "Complement Preposing",
+      "type": "mixed"
+    },
+    {
       "id": "conative-at-001",
       "kind": "construction",
       "label": "Conative At",
+      "type": "mixed"
+    },
+    {
+      "id": "concealed-passive-ing-001",
+      "kind": "construction",
+      "label": "Concealed Passive in an -ing Complement",
       "type": "mixed"
     },
     {
@@ -221,6 +401,42 @@
       "kind": "construction",
       "label": "Constituent Negation with not",
       "type": "syntactic"
+    },
+    {
+      "id": "content-because-adjunct-001",
+      "kind": "construction",
+      "label": "Content-Level Because Adjunct",
+      "type": "mixed"
+    },
+    {
+      "id": "content-clause-in-np-001",
+      "kind": "construction",
+      "label": "Noun with a Declarative Content Complement",
+      "type": "mixed"
+    },
+    {
+      "id": "content-container-alternation-001",
+      "kind": "construction",
+      "label": "Content and Container Subject Alternation",
+      "type": "mixed"
+    },
+    {
+      "id": "continuative-away-at-001",
+      "kind": "construction",
+      "label": "Continuative Away At",
+      "type": "mixed"
+    },
+    {
+      "id": "continuative-perfect-001",
+      "kind": "construction",
+      "label": "Continuative Perfect",
+      "type": "mixed"
+    },
+    {
+      "id": "coordinate-degree-reduplication-001",
+      "kind": "construction",
+      "label": "Comparative Reduplication with And",
+      "type": "mixed"
     },
     {
       "id": "coordination-001",
@@ -233,6 +449,18 @@
       "id": "coordination-ellipsis-numerative",
       "kind": "diagnostic",
       "label": "coordination-ellipsis-numerative"
+    },
+    {
+      "id": "coordination-gapping-001",
+      "kind": "construction",
+      "label": "Gapping in Coordination",
+      "type": "mixed"
+    },
+    {
+      "id": "corrective-but-coordination-001",
+      "kind": "construction",
+      "label": "Corrective Not X But Y",
+      "type": "mixed"
     },
     {
       "id": "countability-diagnostics",
@@ -255,11 +483,41 @@
       "label": "countability-tight"
     },
     {
+      "id": "cuneo-goldberg-2023",
+      "kind": "source",
+      "label": "Cuneo, Nicole & Adele E. Goldberg (2023), The discourse functions of grammatical constructions explain an enduring syntactic puzzle. Cognition 240, 105563",
+      "type": "paper"
+    },
+    {
+      "id": "deadjectival-ity-noun-001",
+      "kind": "construction",
+      "label": "Deadjectival Noun in -ity",
+      "type": "mixed"
+    },
+    {
+      "id": "deadjectival-ize-001",
+      "kind": "construction",
+      "label": "Change Verb in -Ize",
+      "type": "morphological"
+    },
+    {
+      "id": "deadjectival-ness-noun-001",
+      "kind": "construction",
+      "label": "Deadjectival Noun in -ness",
+      "type": "mixed"
+    },
+    {
       "id": "declarative-clause-001",
       "kind": "construction",
       "label": "Declarative Clause",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "declarative-content-clause-001",
+      "kind": "construction",
+      "label": "Declarative Content Clause",
+      "type": "syntactic"
     },
     {
       "id": "declarative-question-001",
@@ -275,6 +533,12 @@
       "type": "semantic"
     },
     {
+      "id": "definite-cardinal-of-pronoun-001",
+      "kind": "construction",
+      "label": "The Two of Us",
+      "type": "mixed"
+    },
+    {
       "id": "degree-001",
       "kind": "construction",
       "label": "Degree",
@@ -285,6 +549,12 @@
       "kind": "construction",
       "label": "Degree-Adjective-Indefinite (Big Mess Construction)",
       "type": "syntactic"
+    },
+    {
+      "id": "deictic-here-there-inversion-001",
+      "kind": "construction",
+      "label": "Deictic Here or There with Inversion",
+      "type": "mixed"
     },
     {
       "id": "deitality-001",
@@ -299,10 +569,22 @@
       "label": "deitality-diagnostics"
     },
     {
+      "id": "delayed-right-constituent-001",
+      "kind": "construction",
+      "label": "Delayed Right Constituent in Coordination",
+      "type": "mixed"
+    },
+    {
       "id": "demonstrative-determinative-fused-head-001",
       "kind": "construction",
       "label": "Demonstrative Determinative in Fused Determiner-Head Function",
       "type": "syntactic"
+    },
+    {
+      "id": "demonstrative-distance-001",
+      "kind": "construction",
+      "label": "Deictic Demonstrative Determination",
+      "type": "mixed"
     },
     {
       "id": "demonstrative-oblique-genitive-001",
@@ -315,6 +597,12 @@
       "kind": "construction",
       "label": "Denominator Numeral Construction",
       "type": "syntactic"
+    },
+    {
+      "id": "depictive-predication-001",
+      "kind": "construction",
+      "label": "Depictive Secondary Predication",
+      "type": "mixed"
     },
     {
       "id": "determination-001",
@@ -334,9 +622,51 @@
       "label": "determiner-obligatoriness-singular-count"
     },
     {
+      "id": "deverbal-able-adjective-001",
+      "kind": "construction",
+      "label": "Deverbal Adjective in -able",
+      "type": "mixed"
+    },
+    {
+      "id": "deverbal-er-noun-001",
+      "kind": "construction",
+      "label": "Deverbal Noun in -er",
+      "type": "mixed"
+    },
+    {
+      "id": "deverbal-ing-nominal-001",
+      "kind": "construction",
+      "label": "Deverbal Noun in -Ing",
+      "type": "morphological"
+    },
+    {
       "id": "deverbal-noun-of-argument-001",
       "kind": "construction",
       "label": "Deverbal Noun Of-Argument",
+      "type": "mixed"
+    },
+    {
+      "id": "difference-than-from-001",
+      "kind": "construction",
+      "label": "Difference Complement after Different",
+      "type": "mixed"
+    },
+    {
+      "id": "differential-measure-comparative-001",
+      "kind": "construction",
+      "label": "Measure Differential in a Comparative",
+      "type": "mixed"
+    },
+    {
+      "id": "direct-quotation-001",
+      "kind": "construction",
+      "label": "Direct Quotation with Reporting Predicate",
+      "type": "mixed"
+    },
+    {
+      "id": "directive-had-better-001",
+      "kind": "construction",
+      "label": "Directive Had Better",
       "type": "mixed"
     },
     {
@@ -347,11 +677,41 @@
       "secured": "stable"
     },
     {
+      "id": "dispositional-middle-001",
+      "kind": "construction",
+      "label": "Dispositional Middle",
+      "type": "mixed"
+    },
+    {
+      "id": "distributive-rate-apiece-001",
+      "kind": "construction",
+      "label": "Distributive Rate with Each or Apiece",
+      "type": "mixed"
+    },
+    {
       "id": "ditransitive-vp-001",
       "kind": "construction",
       "label": "Ditransitive VP (Double-object Construction)",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "domain-wise-adjunct-001",
+      "kind": "construction",
+      "label": "Domain Adjunct with -Wise",
+      "type": "mixed"
+    },
+    {
+      "id": "durational-long-001",
+      "kind": "construction",
+      "label": "Postverbal Durational Long",
+      "type": "mixed"
+    },
+    {
+      "id": "each-of-partitive-001",
+      "kind": "construction",
+      "label": "Each in a Partitive NP",
+      "type": "mixed"
     },
     {
       "id": "echo-question-001",
@@ -361,15 +721,69 @@
       "secured": "stable"
     },
     {
+      "id": "either-or-coordination-001",
+      "kind": "construction",
+      "label": "Correlative Either and Or",
+      "type": "mixed"
+    },
+    {
+      "id": "endowed-ful-001",
+      "kind": "construction",
+      "label": "Adjective in -Ful",
+      "type": "morphological"
+    },
+    {
+      "id": "enough-degree-infinitival-001",
+      "kind": "construction",
+      "label": "Sufficient Degree Enough with an Infinitival",
+      "type": "mixed"
+    },
+    {
+      "id": "epistemic-perfect-modal-001",
+      "kind": "construction",
+      "label": "Epistemic Modal over Perfect",
+      "type": "mixed"
+    },
+    {
+      "id": "equative-as-as-001",
+      "kind": "construction",
+      "label": "Scalar Equative As … As",
+      "type": "mixed"
+    },
+    {
+      "id": "evaluation-of-person-001",
+      "kind": "construction",
+      "label": "Evaluative Adjective with Of and an Infinitival",
+      "type": "mixed"
+    },
+    {
       "id": "evaluative-binominal-001",
       "kind": "construction",
       "label": "Evaluative Binominal",
       "type": "mixed"
     },
     {
+      "id": "evaluative-sentence-adverb-001",
+      "kind": "construction",
+      "label": "Clause-Orientated Evaluative Adjunct",
+      "type": "mixed"
+    },
+    {
+      "id": "even-if-concessive-conditional-001",
+      "kind": "construction",
+      "label": "Concessive Conditional Even If",
+      "type": "mixed"
+    },
+    {
       "id": "every-inch-predicative-001",
       "kind": "construction",
       "label": "Every Inch with a Nominal Predicative",
+      "type": "mixed"
+    },
+    {
+      "id": "evidential-because-001",
+      "kind": "construction",
+      "label": "Speech-Act or Evidential Because",
       "type": "mixed"
     },
     {
@@ -393,9 +807,21 @@
       "type": "semantic"
     },
     {
+      "id": "exhaustive-alternative-conditional-001",
+      "kind": "construction",
+      "label": "Alternative Exhaustive Conditional",
+      "type": "mixed"
+    },
+    {
       "id": "existential-no-gerund-001",
       "kind": "construction",
       "label": "Existential No with a Gerund-Participial",
+      "type": "mixed"
+    },
+    {
+      "id": "existential-there-001",
+      "kind": "construction",
+      "label": "Existential There with Be",
       "type": "mixed"
     },
     {
@@ -404,9 +830,63 @@
       "label": "existential-there-pivot"
     },
     {
+      "id": "experiential-perfect-001",
+      "kind": "construction",
+      "label": "Experiential Perfect",
+      "type": "mixed"
+    },
+    {
+      "id": "extended-existential-001",
+      "kind": "construction",
+      "label": "Extended Existential with a Predicate",
+      "type": "mixed"
+    },
+    {
+      "id": "extent-measure-np-001",
+      "kind": "construction",
+      "label": "Spatial Extent with a Measure NP",
+      "type": "mixed"
+    },
+    {
+      "id": "extraposed-relative-001",
+      "kind": "construction",
+      "label": "Postposed Relative Modifier",
+      "type": "mixed"
+    },
+    {
+      "id": "factive-content-complement-001",
+      "kind": "construction",
+      "label": "Factive Predication with a Content Clause",
+      "type": "mixed"
+    },
+    {
+      "id": "fanego-motion-participial",
+      "kind": "source",
+      "label": "Fanego, Teresa (2020), On the History of the English Progressive Construction Jane came whistling down the street. Journal of English Linguistics 48(4), 319–354",
+      "type": "paper"
+    },
+    {
+      "id": "fau-iabdounane-up-to-here",
+      "kind": "source",
+      "label": "Iabdounane, Had it up to here with. Research Constructicon, FAU Erlangen-Nürnberg, English verbal and gesture-linked records (CC BY 4.0, example excerpted with attribution)",
+      "type": "database"
+    },
+    {
+      "id": "fau-patel-come-ing",
+      "kind": "source",
+      "label": "Patel, Come plus Noise or Manner of Movement V-ing. Research Constructicon, FAU Erlangen-Nürnberg, record comePLUSnoisemannerofmovementVing (CC BY 4.0, examples excerpted with attribution)",
+      "type": "database"
+    },
+    {
       "id": "fau-senger-so-np",
       "kind": "source",
       "label": "Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)",
+      "type": "database"
+    },
+    {
+      "id": "fau-tzimas-inversion",
+      "kind": "source",
+      "label": "Tzimas, Locative Full-Verb Inversion and Temporal Full-Verb Inversion. Research Constructicon, FAU Erlangen-Nürnberg",
       "type": "database"
     },
     {
@@ -422,6 +902,36 @@
       "type": "paper"
     },
     {
+      "id": "finite-do-support-001",
+      "kind": "construction",
+      "label": "Finite Do Support",
+      "type": "syntactic"
+    },
+    {
+      "id": "floating-distributive-001",
+      "kind": "construction",
+      "label": "Floating Each",
+      "type": "mixed"
+    },
+    {
+      "id": "for-duration-adjunct-001",
+      "kind": "construction",
+      "label": "Duration with For",
+      "type": "mixed"
+    },
+    {
+      "id": "for-infinitival-001",
+      "kind": "construction",
+      "label": "For-Infinitival with an Overt Subject",
+      "type": "syntactic"
+    },
+    {
+      "id": "fused-adjective-anaphoric-001",
+      "kind": "construction",
+      "label": "Anaphoric Adjective in a Fused-Head NP",
+      "type": "mixed"
+    },
+    {
       "id": "fused-determiner-head-001",
       "kind": "construction",
       "label": "Fused Determiner-Head Construction",
@@ -434,10 +944,28 @@
       "type": "syntactic"
     },
     {
+      "id": "fused-relative-no-matter-001",
+      "kind": "construction",
+      "label": "Free-Choice Fused Relative in -ever",
+      "type": "mixed"
+    },
+    {
+      "id": "fused-relative-np-001",
+      "kind": "construction",
+      "label": "Fused Relative NP",
+      "type": "mixed"
+    },
+    {
       "id": "genitive-every-001",
       "kind": "construction",
       "label": "Genitive with Every",
       "type": "mixed"
+    },
+    {
+      "id": "genitive-ing-subject-001",
+      "kind": "construction",
+      "label": "Genitive Subject in a Gerund-Participial",
+      "type": "syntactic"
     },
     {
       "id": "genitive-s-001",
@@ -445,11 +973,29 @@
       "label": "Genitive 's"
     },
     {
+      "id": "get-event-passive-001",
+      "kind": "construction",
+      "label": "Get Passive",
+      "type": "mixed"
+    },
+    {
       "id": "goal-complement-001",
       "kind": "construction",
       "label": "Goal Locative-Complement Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "god-knows-indeterminate-001",
+      "kind": "construction",
+      "label": "God Knows with an Indeterminate Expression",
+      "type": "mixed"
+    },
+    {
+      "id": "going-to-future-001",
+      "kind": "construction",
+      "label": "Prospective Be Going To",
+      "type": "mixed"
     },
     {
       "id": "gold:conjunctions",
@@ -484,6 +1030,18 @@
       "type": "book"
     },
     {
+      "id": "goldberg-2011-preemption",
+      "kind": "source",
+      "label": "Goldberg, Adele E. (2011), Corpus evidence of the viability of statistical preemption. Cognitive Linguistics 22(1), 131–153",
+      "type": "paper"
+    },
+    {
+      "id": "goldberg-jackendoff-2004",
+      "kind": "source",
+      "label": "Goldberg, Adele E. & Ray Jackendoff (2004), The English Resultative as a Family of Constructions. Language 80(3), 532–568",
+      "type": "paper"
+    },
+    {
       "id": "goldberg-perek-2019",
       "kind": "source",
       "label": "Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press",
@@ -509,10 +1067,34 @@
       "secured": "stable"
     },
     {
+      "id": "group-genitive-001",
+      "kind": "construction",
+      "label": "Phrasal Genitive at the NP Edge",
+      "type": "syntactic"
+    },
+    {
+      "id": "habitual-used-to-001",
+      "kind": "construction",
+      "label": "Habitual Used To",
+      "type": "mixed"
+    },
+    {
+      "id": "had-it-up-to-here-001",
+      "kind": "construction",
+      "label": "Have Had It Up to Here",
+      "type": "mixed"
+    },
+    {
       "id": "harjo-crazy-brave-spl",
       "kind": "source",
       "label": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
       "type": "transcript"
+    },
+    {
+      "id": "heavy-np-shift-001",
+      "kind": "construction",
+      "label": "Heavy Complement Postposing",
+      "type": "mixed"
     },
     {
       "id": "hoffmann-comparative-correlatives",
@@ -521,15 +1103,63 @@
       "type": "book"
     },
     {
+      "id": "how-about-proposal-001",
+      "kind": "construction",
+      "label": "Proposal with How About",
+      "type": "pragmatic"
+    },
+    {
+      "id": "how-adjective-exclamative-001",
+      "kind": "construction",
+      "label": "Phrasal Exclamation with How",
+      "type": "mixed"
+    },
+    {
+      "id": "how-come-explanation-001",
+      "kind": "construction",
+      "label": "Explanatory How Come",
+      "type": "mixed"
+    },
+    {
       "id": "hunston-transitivity-networks",
       "kind": "source",
       "label": "Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
       "type": "database"
     },
     {
+      "id": "hunston-v-n-out-of-n",
+      "kind": "source",
+      "label": "Hunston, Susan, V n out of n. Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+      "type": "database"
+    },
+    {
       "id": "identificational-hosting",
       "kind": "diagnostic",
       "label": "identificational-hosting"
+    },
+    {
+      "id": "if-conditional-001",
+      "kind": "construction",
+      "label": "Open and Remote If-Conditionals",
+      "type": "mixed"
+    },
+    {
+      "id": "if-only-wish-001",
+      "kind": "construction",
+      "label": "Optative If Only",
+      "type": "mixed"
+    },
+    {
+      "id": "immediate-following-no-sooner-001",
+      "kind": "construction",
+      "label": "No Sooner … Than",
+      "type": "mixed"
+    },
+    {
+      "id": "imperative-and-conditional-001",
+      "kind": "construction",
+      "label": "Imperative Plus And with Conditional Force",
+      "type": "mixed"
     },
     {
       "id": "imperative-clause-001",
@@ -543,6 +1173,36 @@
       "kind": "construction",
       "label": "Imperative Negation with do-support",
       "type": "syntactic"
+    },
+    {
+      "id": "imperative-or-warning-001",
+      "kind": "construction",
+      "label": "Imperative Plus Or with a Warning",
+      "type": "mixed"
+    },
+    {
+      "id": "implicit-object-use-001",
+      "kind": "construction",
+      "label": "Indefinite Object Omission",
+      "type": "mixed"
+    },
+    {
+      "id": "in-case-contingency-001",
+      "kind": "construction",
+      "label": "Precautionary In Case",
+      "type": "mixed"
+    },
+    {
+      "id": "in-duration-completion-001",
+      "kind": "construction",
+      "label": "Completion in a Time Span",
+      "type": "mixed"
+    },
+    {
+      "id": "incongruity-whats-doing-001",
+      "kind": "construction",
+      "label": "Incongruity What Is X Doing Y?",
+      "type": "mixed"
     },
     {
       "id": "indefinite-001",
@@ -568,6 +1228,66 @@
       "type": "semantic"
     },
     {
+      "id": "indirect-report-001",
+      "kind": "construction",
+      "label": "Indirect Speech Report",
+      "type": "mixed"
+    },
+    {
+      "id": "infinitival-open-interrogative-001",
+      "kind": "construction",
+      "label": "Infinitival Open Interrogative",
+      "type": "mixed"
+    },
+    {
+      "id": "infinitival-purpose-adjunct-001",
+      "kind": "construction",
+      "label": "Infinitival Purpose Adjunct",
+      "type": "mixed"
+    },
+    {
+      "id": "infinitival-relative-modifier-001",
+      "kind": "construction",
+      "label": "Infinitival Relative Modifier",
+      "type": "mixed"
+    },
+    {
+      "id": "infinitival-result-adjunct-001",
+      "kind": "construction",
+      "label": "Infinitival of Subsequent Outcome",
+      "type": "mixed"
+    },
+    {
+      "id": "infinitival-to-stranding-001",
+      "kind": "construction",
+      "label": "Infinitival To Stranding",
+      "type": "syntactic"
+    },
+    {
+      "id": "instrumental-with-np-001",
+      "kind": "construction",
+      "label": "Instrumental With-PP",
+      "type": "mixed"
+    },
+    {
+      "id": "integrated-relative-modifier-001",
+      "kind": "construction",
+      "label": "Integrated Relative Modifier",
+      "type": "mixed"
+    },
+    {
+      "id": "intensifying-to-death-001",
+      "kind": "construction",
+      "label": "Intensifying To Death",
+      "type": "mixed"
+    },
+    {
+      "id": "interrogative-sluicing-001",
+      "kind": "construction",
+      "label": "Interrogative Sluicing",
+      "type": "syntactic"
+    },
+    {
       "id": "interrogative-word-001",
       "kind": "construction",
       "label": "Interrogative Use of Indeterminates",
@@ -584,6 +1304,36 @@
       "kind": "construction",
       "label": "Intransitive Preposition Use",
       "type": "syntactic"
+    },
+    {
+      "id": "inverted-conditional-001",
+      "kind": "construction",
+      "label": "Inverted Conditional",
+      "type": "mixed"
+    },
+    {
+      "id": "irrealis-were-001",
+      "kind": "construction",
+      "label": "Irrealis Were",
+      "type": "syntactic"
+    },
+    {
+      "id": "irregular-ablaut-verb-001",
+      "kind": "construction",
+      "label": "Vowel Alternation in Irregular Verb Inflection",
+      "type": "morphological"
+    },
+    {
+      "id": "irregular-vowel-plural-001",
+      "kind": "construction",
+      "label": "Stem-Vowel Alternation in Noun Plurals",
+      "type": "morphological"
+    },
+    {
+      "id": "it-auxiliary-clitic-001",
+      "kind": "construction",
+      "label": "Clitic It’s in Auxiliary Uses",
+      "type": "morphological"
     },
     {
       "id": "it-cleft-001",
@@ -604,6 +1354,12 @@
       "type": "paper"
     },
     {
+      "id": "kay-fillmore-1999",
+      "kind": "source",
+      "label": "Kay, Paul & Charles J. Fillmore (1999), Grammatical Constructions and Linguistic Generalizations: The What's X Doing Y? Construction. Language 75(1), 1–33",
+      "type": "paper"
+    },
+    {
       "id": "kim-davies-2016-into",
       "kind": "source",
       "label": "Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83",
@@ -613,6 +1369,12 @@
       "id": "kim-sells-2015",
       "kind": "source",
       "label": "Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73",
+      "type": "paper"
+    },
+    {
+      "id": "kim-sim-2024-out-of",
+      "kind": "source",
+      "label": "Kim, Jungsoo & Rok Sim (2024), A Collostructional and Constructional Approach to the Transitive out of -ing Construction. English Studies 105(2), 263–289",
       "type": "paper"
     },
     {
@@ -646,9 +1408,27 @@
       "type": "paper"
     },
     {
+      "id": "left-dislocation-001",
+      "kind": "construction",
+      "label": "Left Dislocation with a Pronoun",
+      "type": "mixed"
+    },
+    {
       "id": "let-alone-001",
       "kind": "construction",
       "label": "Let Alone",
+      "type": "mixed"
+    },
+    {
+      "id": "let-permissive-001",
+      "kind": "construction",
+      "label": "Let Permissive with a Bare Infinitival",
+      "type": "mixed"
+    },
+    {
+      "id": "lets-inclusive-001",
+      "kind": "construction",
+      "label": "Inclusive Let’s Imperative",
       "type": "mixed"
     },
     {
@@ -3559,10 +4339,52 @@
       "label": "zero"
     },
     {
+      "id": "lexical-do-so-anaphor-001",
+      "kind": "construction",
+      "label": "Anaphoric Do So",
+      "type": "mixed"
+    },
+    {
+      "id": "light-verb-event-001",
+      "kind": "construction",
+      "label": "Light Verb with an Event Nominal",
+      "type": "mixed"
+    },
+    {
+      "id": "locative-location-variant-001",
+      "kind": "construction",
+      "label": "Locative Location-Object Frame",
+      "type": "mixed"
+    },
+    {
+      "id": "locative-theme-variant-001",
+      "kind": "construction",
+      "label": "Locative Theme-Object Frame",
+      "type": "mixed"
+    },
+    {
+      "id": "long-distance-open-interrogative-001",
+      "kind": "construction",
+      "label": "Long-Distance Open Interrogative",
+      "type": "mixed"
+    },
+    {
+      "id": "long-distance-relative-001",
+      "kind": "construction",
+      "label": "Long-Distance Dependency in an Integrated Relative",
+      "type": "mixed"
+    },
+    {
       "id": "magnitude-quantifier-001",
       "kind": "construction",
       "label": "Magnitude Quantifier Construction",
       "type": "syntactic"
+    },
+    {
+      "id": "mandative-should-001",
+      "kind": "construction",
+      "label": "Mandative Should",
+      "type": "mixed"
     },
     {
       "id": "matched-bare-endpoints-001",
@@ -3571,10 +4393,76 @@
       "type": "mixed"
     },
     {
+      "id": "means-by-gerund-001",
+      "kind": "construction",
+      "label": "Means By with a Gerund-Participial",
+      "type": "mixed"
+    },
+    {
+      "id": "measure-adjective-001",
+      "kind": "construction",
+      "label": "Measurement with a Scale Adjective",
+      "type": "mixed"
+    },
+    {
+      "id": "measure-genitive-001",
+      "kind": "construction",
+      "label": "Measure Genitive Premodifier",
+      "type": "mixed"
+    },
+    {
+      "id": "measure-pseudopartitive-001",
+      "kind": "construction",
+      "label": "Measure Pseudopartitive with Of",
+      "type": "mixed"
+    },
+    {
+      "id": "metalinguistic-more-than-001",
+      "kind": "construction",
+      "label": "Metalinguistic More … Than",
+      "type": "mixed"
+    },
+    {
+      "id": "metalinguistic-negation-001",
+      "kind": "construction",
+      "label": "Metalinguistic Negation and Correction",
+      "type": "mixed"
+    },
+    {
+      "id": "minimizer-negative-polarity-001",
+      "kind": "construction",
+      "label": "Minimizer under Non-Affirmative Polarity",
+      "type": "mixed"
+    },
+    {
       "id": "minor-determiner-001",
       "kind": "construction",
       "label": "Minor Determiner (Plain NP/PP)",
       "type": "syntactic"
+    },
+    {
+      "id": "modal-interrogative-request-001",
+      "kind": "construction",
+      "label": "Modal Interrogative Request",
+      "type": "pragmatic"
+    },
+    {
+      "id": "modal-plain-complement-001",
+      "kind": "construction",
+      "label": "Central Modal with a Plain-Form Complement",
+      "type": "syntactic"
+    },
+    {
+      "id": "monotransitive-vp-001",
+      "kind": "construction",
+      "label": "Monotransitive VP",
+      "type": "syntactic"
+    },
+    {
+      "id": "month-day-date-001",
+      "kind": "construction",
+      "label": "Month-First Calendar Date",
+      "type": "mixed"
     },
     {
       "id": "n-common-001",
@@ -3614,9 +4502,33 @@
       "type": "syntactic"
     },
     {
+      "id": "negative-concord-001",
+      "kind": "construction",
+      "label": "Negative Concord",
+      "type": "mixed"
+    },
+    {
       "id": "negative-fronting-inversion",
       "kind": "diagnostic",
       "label": "negative-fronting-inversion"
+    },
+    {
+      "id": "negative-initial-inversion-001",
+      "kind": "construction",
+      "label": "Inversion after Preposed Negative or Restrictive Expression",
+      "type": "mixed"
+    },
+    {
+      "id": "negative-polarity-ever-001",
+      "kind": "construction",
+      "label": "Polarity-Sensitive Temporal Ever",
+      "type": "mixed"
+    },
+    {
+      "id": "negative-raising-001",
+      "kind": "construction",
+      "label": "Inferred Embedded Negation under a Matrix Negative",
+      "type": "mixed"
     },
     {
       "id": "neither-nor-continuation",
@@ -3672,9 +4584,21 @@
       "type": "syntactic"
     },
     {
+      "id": "non-count-material-construal-001",
+      "kind": "construction",
+      "label": "Non-count NP for Material from Countable Things",
+      "type": "mixed"
+    },
+    {
       "id": "not-even-continuation",
       "kind": "diagnostic",
       "label": "not-even-continuation"
+    },
+    {
+      "id": "not-only-but-also-001",
+      "kind": "construction",
+      "label": "Additive Not Only and But Also",
+      "type": "mixed"
     },
     {
       "id": "np-001",
@@ -3736,6 +4660,18 @@
       "type": "syntactic"
     },
     {
+      "id": "np-pron-reciprocal-001",
+      "kind": "construction",
+      "label": "Reciprocal Anaphor",
+      "type": "mixed"
+    },
+    {
+      "id": "np-pron-reflexive-001",
+      "kind": "construction",
+      "label": "Direct-Object Reflexive Anaphor",
+      "type": "mixed"
+    },
+    {
       "id": "np-proper-001",
       "kind": "construction",
       "label": "Proper Noun Phrase",
@@ -3746,6 +4682,12 @@
       "kind": "construction",
       "label": "Property-Value NP in a Nominal",
       "type": "mixed"
+    },
+    {
+      "id": "number-transparent-agreement-001",
+      "kind": "construction",
+      "label": "Agreement through a Number-Transparent Nominal",
+      "type": "syntactic"
     },
     {
       "id": "numerative-addition-asyndetic-001",
@@ -3855,11 +4797,35 @@
       "type": "syntactic"
     },
     {
+      "id": "object-ascriptive-001",
+      "kind": "construction",
+      "label": "Object-Oriented Ascriptive Predicative",
+      "type": "mixed"
+    },
+    {
+      "id": "object-control-infinitival-001",
+      "kind": "construction",
+      "label": "Object Control in a To-Infinitival Complement",
+      "type": "syntactic"
+    },
+    {
+      "id": "object-raising-infinitival-001",
+      "kind": "construction",
+      "label": "Object Raising with a To-Infinitival",
+      "type": "syntactic"
+    },
+    {
       "id": "object-resultative-001",
       "kind": "construction",
       "label": "Object-Oriented Resultative Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "oblique-ing-subject-001",
+      "kind": "construction",
+      "label": "Accusative Subject in a Gerund-Participial",
+      "type": "syntactic"
     },
     {
       "id": "of-genitive-own-001",
@@ -3873,11 +4839,23 @@
       "label": "one-substitution"
     },
     {
+      "id": "only-if-restriction-001",
+      "kind": "construction",
+      "label": "Necessary Condition Only If",
+      "type": "mixed"
+    },
+    {
       "id": "open-interrogative-clause-001",
       "kind": "construction",
       "label": "Open Interrogative Clause",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "open-let-imperative-001",
+      "kind": "construction",
+      "label": "Open Let Imperative",
+      "type": "mixed"
     },
     {
       "id": "ordinal-fractional-rightmost-base",
@@ -3892,10 +4870,22 @@
       "secured": "stable"
     },
     {
+      "id": "out-of-ing-causative-001",
+      "kind": "construction",
+      "label": "Out-of Causative with an -ing Clause",
+      "type": "mixed"
+    },
+    {
       "id": "paired-np-introduction-001",
       "kind": "construction",
       "label": "Paired-NP Introduction",
       "type": "pragmatic"
+    },
+    {
+      "id": "participial-clause-supplement-001",
+      "kind": "construction",
+      "label": "Subjectless Participial Supplement",
+      "type": "mixed"
     },
     {
       "id": "partitive-of-complement",
@@ -3916,6 +4906,18 @@
       "secured": "stable"
     },
     {
+      "id": "perception-bare-infinitival-001",
+      "kind": "construction",
+      "label": "Perception with a Bare Infinitival",
+      "type": "mixed"
+    },
+    {
+      "id": "perception-gerund-participial-001",
+      "kind": "construction",
+      "label": "Perception with a Gerund-Participial",
+      "type": "mixed"
+    },
+    {
       "id": "perek-2014-conative",
       "kind": "source",
       "label": "Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins",
@@ -3928,11 +4930,23 @@
       "type": "syntactic"
     },
     {
+      "id": "personal-determiner-001",
+      "kind": "construction",
+      "label": "Personal Determination with We or You",
+      "type": "mixed"
+    },
+    {
       "id": "phrase-001",
       "kind": "construction",
       "label": "Phrase",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "plain-make-causative-001",
+      "kind": "construction",
+      "label": "Make Causative with a Bare Infinitival",
+      "type": "mixed"
     },
     {
       "id": "plural-001",
@@ -3944,6 +4958,36 @@
       "id": "plural-s-001",
       "kind": "construction",
       "label": "Plural -s"
+    },
+    {
+      "id": "polarity-short-answer-001",
+      "kind": "construction",
+      "label": "Finite Auxiliary in a Polar Short Answer",
+      "type": "mixed"
+    },
+    {
+      "id": "portion-variety-count-001",
+      "kind": "construction",
+      "label": "Count NP for a Portion or Variety",
+      "type": "mixed"
+    },
+    {
+      "id": "positive-degree-partitive-more-001",
+      "kind": "construction",
+      "label": "Comparative Quantification with More of",
+      "type": "mixed"
+    },
+    {
+      "id": "positive-paucal-a-001",
+      "kind": "construction",
+      "label": "Positive Paucal A Few and A Little",
+      "type": "mixed"
+    },
+    {
+      "id": "possessive-relative-whose-001",
+      "kind": "construction",
+      "label": "Genitive Whose Relative",
+      "type": "syntactic"
     },
     {
       "id": "postma-rooryck-1996",
@@ -3958,10 +5002,28 @@
       "type": "syntactic"
     },
     {
+      "id": "preference-would-rather-001",
+      "kind": "construction",
+      "label": "Preference Would Rather",
+      "type": "mixed"
+    },
+    {
+      "id": "prenominal-all-the-001",
+      "kind": "construction",
+      "label": "Predeterminer All before a Determined NP",
+      "type": "syntactic"
+    },
+    {
       "id": "prenominal-modifier-001",
       "kind": "construction",
       "label": "Bare Plural with Prenominal Modifier",
       "type": "syntactic"
+    },
+    {
+      "id": "preposed-predicate-001",
+      "kind": "construction",
+      "label": "Preposed Verbal Predicate",
+      "type": "mixed"
     },
     {
       "id": "preposition-001",
@@ -3969,6 +5031,78 @@
       "label": "Preposition",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "preposition-pied-piping-001",
+      "kind": "construction",
+      "label": "Preposition Fronting in a Relative",
+      "type": "syntactic"
+    },
+    {
+      "id": "prepositional-passive-001",
+      "kind": "construction",
+      "label": "Prepositional Passive",
+      "type": "syntactic"
+    },
+    {
+      "id": "prepositional-verb-frame-001",
+      "kind": "construction",
+      "label": "Selected Prepositional Complement",
+      "type": "syntactic"
+    },
+    {
+      "id": "present-backshift-001",
+      "kind": "construction",
+      "label": "Backshift in Reported Content",
+      "type": "mixed"
+    },
+    {
+      "id": "present-futurate-001",
+      "kind": "construction",
+      "label": "Present Futurate",
+      "type": "mixed"
+    },
+    {
+      "id": "presentational-dependent-inversion-001",
+      "kind": "construction",
+      "label": "Locative and Temporal Subject–Dependent Inversion",
+      "type": "mixed"
+    },
+    {
+      "id": "presentational-there-001",
+      "kind": "construction",
+      "label": "Presentational There with a Lexical Verb",
+      "type": "mixed"
+    },
+    {
+      "id": "preterite-politeness-001",
+      "kind": "construction",
+      "label": "Preterite with Present-Time Politeness",
+      "type": "mixed"
+    },
+    {
+      "id": "primary-auxiliary-negation-001",
+      "kind": "construction",
+      "label": "Finite Auxiliary with Not",
+      "type": "syntactic"
+    },
+    {
+      "id": "privative-less-001",
+      "kind": "construction",
+      "label": "Privative Adjective in -Less",
+      "type": "morphological"
+    },
+    {
+      "id": "pro-nominal-one-001",
+      "kind": "construction",
+      "label": "Pro-Nominal One and Ones",
+      "type": "syntactic"
+    },
+    {
+      "id": "progressive-futurate-001",
+      "kind": "construction",
+      "label": "Progressive Futurate",
+      "type": "mixed"
     },
     {
       "id": "progressive-ing-001",
@@ -3983,9 +5117,27 @@
       "type": "semantic"
     },
     {
+      "id": "proper-name-secondary-use-001",
+      "kind": "construction",
+      "label": "Proper Name in a Descriptive NP",
+      "type": "mixed"
+    },
+    {
+      "id": "proposition-affirmation-001",
+      "kind": "construction",
+      "label": "Proposition Affirmation with Fronted So",
+      "type": "mixed"
+    },
+    {
       "id": "prosodic-breaks-magnitude",
       "kind": "diagnostic",
       "label": "prosodic-breaks-magnitude"
+    },
+    {
+      "id": "pseudo-cleft-001",
+      "kind": "construction",
+      "label": "Pseudo-Cleft",
+      "type": "mixed"
     },
     {
       "id": "quasi-count-noun-001",
@@ -3995,11 +5147,23 @@
       "secured": "stable"
     },
     {
+      "id": "quasi-modal-be-to-001",
+      "kind": "construction",
+      "label": "Quasi-Modal Be To",
+      "type": "mixed"
+    },
+    {
       "id": "question-001",
       "kind": "construction",
       "label": "Question",
       "type": "semantic",
       "secured": "stable"
+    },
+    {
+      "id": "quotative-inversion-001",
+      "kind": "construction",
+      "label": "Quotative Inversion",
+      "type": "mixed"
     },
     {
       "id": "rabin-illinois-oral-history",
@@ -4008,9 +5172,51 @@
       "type": "transcript"
     },
     {
+      "id": "re-iterative-prefix-001",
+      "kind": "construction",
+      "label": "Iterative Re- on a Verb",
+      "type": "morphological"
+    },
+    {
+      "id": "reaction-object-001",
+      "kind": "construction",
+      "label": "Reaction Object",
+      "type": "mixed"
+    },
+    {
+      "id": "recipient-passive-retained-object-001",
+      "kind": "construction",
+      "label": "Recipient Passive with a Retained Object",
+      "type": "mixed"
+    },
+    {
       "id": "reciprocal-noun-with-001",
       "kind": "construction",
       "label": "Reciprocal Predicative NP with a With-Phrase",
+      "type": "mixed"
+    },
+    {
+      "id": "recurrent-progressive-always-001",
+      "kind": "construction",
+      "label": "Recurrent Progressive with Always",
+      "type": "mixed"
+    },
+    {
+      "id": "reflexive-benefactive-ditransitive-001",
+      "kind": "construction",
+      "label": "Reflexive Beneficiary in a Double-Object VP",
+      "type": "mixed"
+    },
+    {
+      "id": "reflexive-state-goal-001",
+      "kind": "construction",
+      "label": "State Goal with a Construction-Licensed Reflexive",
+      "type": "mixed"
+    },
+    {
+      "id": "relative-clausal-which-001",
+      "kind": "construction",
+      "label": "Supplementary Which with a Clausal Anchor",
       "type": "mixed"
     },
     {
@@ -4023,6 +5229,24 @@
       "id": "repeated-noun-preposition-001",
       "kind": "construction",
       "label": "Repeated Bare Noun with a Preposition",
+      "type": "mixed"
+    },
+    {
+      "id": "response-obligation-ditransitive-001",
+      "kind": "construction",
+      "label": "Double-Object Obligation with Owe",
+      "type": "mixed"
+    },
+    {
+      "id": "restrictive-appositive-name-001",
+      "kind": "construction",
+      "label": "Integrated Appositive Name",
+      "type": "mixed"
+    },
+    {
+      "id": "resultative-scalar-state-001",
+      "kind": "construction",
+      "label": "Scalar Endpoint Adjective in a Resultative",
       "type": "mixed"
     },
     {
@@ -4055,15 +5279,39 @@
       "type": "paper"
     },
     {
+      "id": "right-argument-cluster-coordination-001",
+      "kind": "construction",
+      "label": "Right Argument-Cluster Coordination",
+      "type": "syntactic"
+    },
+    {
+      "id": "right-dislocation-001",
+      "kind": "construction",
+      "label": "Right Dislocation with a Pronoun",
+      "type": "mixed"
+    },
+    {
       "id": "rosenthal-1973-smithsonian",
       "kind": "source",
       "label": "Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution",
       "type": "transcript"
     },
     {
+      "id": "same-as-comparison-001",
+      "kind": "construction",
+      "label": "Identity Comparison with Same … As",
+      "type": "mixed"
+    },
+    {
       "id": "scalar-challenge-call-001",
       "kind": "construction",
       "label": "You Call That X Challenge",
+      "type": "mixed"
+    },
+    {
+      "id": "scalar-change-by-measure-001",
+      "kind": "construction",
+      "label": "Differential By in Scalar Change",
       "type": "mixed"
     },
     {
@@ -4079,10 +5327,40 @@
       "type": "syntactic"
     },
     {
+      "id": "simple-intransitive-vp-001",
+      "kind": "construction",
+      "label": "Simple Intransitive VP",
+      "type": "syntactic"
+    },
+    {
+      "id": "since-time-anchor-001",
+      "kind": "construction",
+      "label": "Temporal Since with a Reference Anchor",
+      "type": "mixed"
+    },
+    {
       "id": "singular-001",
       "kind": "construction",
       "label": "Singular Construction",
       "type": "morphological"
+    },
+    {
+      "id": "singular-anaphoric-they-001",
+      "kind": "construction",
+      "label": "Singular Anaphoric They",
+      "type": "syntactic"
+    },
+    {
+      "id": "so-degree-result-001",
+      "kind": "construction",
+      "label": "Degree So with a Result Content Clause",
+      "type": "mixed"
+    },
+    {
+      "id": "so-neither-inversion-001",
+      "kind": "construction",
+      "label": "Inverted Additive So and Neither",
+      "type": "mixed"
     },
     {
       "id": "so-nominal-predication-001",
@@ -4104,6 +5382,24 @@
       "secured": "stable"
     },
     {
+      "id": "specificational-copular-001",
+      "kind": "construction",
+      "label": "Specificational Copular Clause",
+      "type": "mixed"
+    },
+    {
+      "id": "speech-act-adverbial-001",
+      "kind": "construction",
+      "label": "Speech-Act Adverbial",
+      "type": "mixed"
+    },
+    {
+      "id": "still-yet-aspectual-001",
+      "kind": "construction",
+      "label": "Aspectual Still and Negative Yet",
+      "type": "mixed"
+    },
+    {
       "id": "stressed-some-exclamative-001",
       "kind": "construction",
       "label": "Exclamation with Stressed Some",
@@ -4117,16 +5413,94 @@
       "secured": "stable"
     },
     {
+      "id": "subject-ascriptive-001",
+      "kind": "construction",
+      "label": "Subject-Oriented Ascriptive Predicative",
+      "type": "syntactic"
+    },
+    {
+      "id": "subject-control-infinitival-001",
+      "kind": "construction",
+      "label": "Subject Control in a To-Infinitival Complement",
+      "type": "syntactic"
+    },
+    {
       "id": "subject-determiner-001",
       "kind": "construction",
       "label": "Subject-determiner (Genitive NP)",
       "type": "syntactic"
     },
     {
+      "id": "subject-extraposition-001",
+      "kind": "construction",
+      "label": "Subject Extraposition",
+      "type": "mixed"
+    },
+    {
       "id": "subject-genitive-superlative-001",
       "kind": "construction",
       "label": "Subject-Linked Genitive Superlative",
       "type": "mixed"
+    },
+    {
+      "id": "subject-raising-infinitival-001",
+      "kind": "construction",
+      "label": "Subject Raising with a Catenative Verb",
+      "type": "syntactic"
+    },
+    {
+      "id": "subject-resultative-001",
+      "kind": "construction",
+      "label": "Subject-Oriented Resultative",
+      "type": "mixed"
+    },
+    {
+      "id": "subjunctive-mandative-001",
+      "kind": "construction",
+      "label": "Mandative Subjunctive",
+      "type": "mixed"
+    },
+    {
+      "id": "such-as-exemplification-001",
+      "kind": "construction",
+      "label": "Exemplifying Such As",
+      "type": "mixed"
+    },
+    {
+      "id": "such-nominal-result-001",
+      "kind": "construction",
+      "label": "Degree Such with Nominal and Result Clause",
+      "type": "mixed"
+    },
+    {
+      "id": "sufficiency-provided-that-001",
+      "kind": "construction",
+      "label": "Conditional Provided That",
+      "type": "mixed"
+    },
+    {
+      "id": "superlative-grade-001",
+      "kind": "construction",
+      "label": "Scalar Superlative with a Comparison Set",
+      "type": "mixed"
+    },
+    {
+      "id": "supplementary-appositive-np-001",
+      "kind": "construction",
+      "label": "Supplementary Appositive NP",
+      "type": "mixed"
+    },
+    {
+      "id": "supplementary-relative-001",
+      "kind": "construction",
+      "label": "Supplementary Relative",
+      "type": "mixed"
+    },
+    {
+      "id": "synthetic-noun-compound-001",
+      "kind": "construction",
+      "label": "Deverbal Synthetic Noun Compound",
+      "type": "morphological"
     },
     {
       "id": "tag-question-001",
@@ -4136,11 +5510,83 @@
       "secured": "stable"
     },
     {
+      "id": "temporal-genitive-001",
+      "kind": "construction",
+      "label": "Temporal Genitive Determiner",
+      "type": "mixed"
+    },
+    {
+      "id": "than-reduced-clause-001",
+      "kind": "construction",
+      "label": "Reduced Than Comparative Clause",
+      "type": "syntactic"
+    },
+    {
+      "id": "the-adjective-np-001",
+      "kind": "construction",
+      "label": "Special Fused-Head NP with The and an Adjective",
+      "type": "mixed"
+    },
+    {
       "id": "time-away-001",
       "kind": "construction",
       "label": "Time-Away Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "time-measure-ago-001",
+      "kind": "construction",
+      "label": "Measure before Ago",
+      "type": "mixed"
+    },
+    {
+      "id": "title-personal-name-001",
+      "kind": "construction",
+      "label": "Title with a Personal Name",
+      "type": "mixed"
+    },
+    {
+      "id": "too-degree-infinitival-001",
+      "kind": "construction",
+      "label": "Excess Degree Too with an Infinitival",
+      "type": "mixed"
+    },
+    {
+      "id": "transitive-to-recipient-001",
+      "kind": "construction",
+      "label": "Monotransitive Transfer with To",
+      "type": "mixed"
+    },
+    {
+      "id": "true-partitive-001",
+      "kind": "construction",
+      "label": "True Partitive with Of",
+      "type": "mixed"
+    },
+    {
+      "id": "unconditional-wh-adjunct-001",
+      "kind": "construction",
+      "label": "Open Exhaustive Conditional",
+      "type": "mixed"
+    },
+    {
+      "id": "unless-exceptive-conditional-001",
+      "kind": "construction",
+      "label": "Exceptive Conditional Unless",
+      "type": "mixed"
+    },
+    {
+      "id": "unselected-object-resultative-001",
+      "kind": "construction",
+      "label": "Resultative with a Nonselected Object",
+      "type": "mixed"
+    },
+    {
+      "id": "until-time-boundary-001",
+      "kind": "construction",
+      "label": "Temporal Until with an Endpoint",
+      "type": "mixed"
     },
     {
       "id": "verb-number-agreement-001",
@@ -4174,6 +5620,42 @@
       "label": "Way-Motion Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "weak-proper-name-article-001",
+      "kind": "construction",
+      "label": "Article in a Weak Proper Name",
+      "type": "syntactic"
+    },
+    {
+      "id": "what-about-topic-001",
+      "kind": "construction",
+      "label": "Topic Proposal with What About",
+      "type": "pragmatic"
+    },
+    {
+      "id": "what-if-scenario-001",
+      "kind": "construction",
+      "label": "Deliberative What If",
+      "type": "pragmatic"
+    },
+    {
+      "id": "what-np-exclamative-001",
+      "kind": "construction",
+      "label": "Phrasal Exclamation with What",
+      "type": "mixed"
+    },
+    {
+      "id": "what-with-circumstantial-001",
+      "kind": "construction",
+      "label": "What With Circumstantial Adjunct",
+      "type": "mixed"
+    },
+    {
+      "id": "why-not-proposal-001",
+      "kind": "construction",
+      "label": "Deliberative Why Not with a Bare Infinitival",
+      "type": "pragmatic"
     },
     {
       "id": "wiktionary-en",
@@ -4224,6 +5706,12 @@
       "type": "syntactic"
     },
     {
+      "id": "zero-plural-001",
+      "kind": "construction",
+      "label": "Zero Plural of Selected Count Nouns",
+      "type": "morphological"
+    },
+    {
       "id": "zwarts-2013-from-n-to-n",
       "kind": "source",
       "label": "Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy",
@@ -4256,6 +5744,60 @@
     {
       "from": "absolute-negator-determinative-001",
       "to": "no-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "absolute-supplement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§9–10, pp. 1266–1267",
+      "bears-on": "projection"
+    },
+    {
+      "from": "absolute-supplement-001",
+      "to": "clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "absolute-supplement-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.3.1 (22–26)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "absolute-supplement-001",
+      "to": "what-with-circumstantial-001",
+      "type": "related-to"
+    },
+    {
+      "from": "absolute-with-predication-001",
+      "to": "absolute-supplement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "absolute-with-predication-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§8.3, 10(a)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "absolute-with-predication-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4.3.1, Absolute:with",
+      "bears-on": "projection"
+    },
+    {
+      "from": "absolute-with-predication-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "absolute-with-predication-001",
+      "to": "what-with-circumstantial-001",
       "type": "related-to"
     },
     {
@@ -4298,6 +5840,55 @@
       "type": "contains"
     },
     {
+      "from": "adjectival-passive-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "adjectival-passive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §10.1.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "adjectival-passive-001",
+      "to": "subject-ascriptive-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "adjectival-raising-001",
+      "to": "adjective-hollow-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "adjectival-raising-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 50",
+      "bears-on": "projection"
+    },
+    {
+      "from": "adjectival-raising-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 14 §8.1 [3b], [4iib]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "adjectival-raising-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 14 §8.1 [4ivb]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "adjectival-raising-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "adjective-001",
       "to": "degree-001",
       "type": "overlaps-with",
@@ -4307,6 +5898,60 @@
       "from": "adjective-001",
       "to": "gradation-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "adjective-hollow-infinitival-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 45",
+      "bears-on": "projection"
+    },
+    {
+      "from": "adjective-hollow-infinitival-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 14 §8.1, p. 1257 [2i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "adjective-hollow-infinitival-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 7 §4.1, [3vii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "adjective-hollow-infinitival-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "adjective-hollow-infinitival-001",
+      "to": "time-away-001",
+      "type": "related-to"
+    },
+    {
+      "from": "affected-have-participial-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "affected-have-participial-001",
+      "to": "causative-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "affected-have-participial-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§5.4, 7, past-participial complements",
+      "bears-on": "projection"
+    },
+    {
+      "from": "affected-have-participial-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "all-class-role-modifier-001",
@@ -4364,6 +6009,182 @@
       "type": "attests",
       "locator": "16 May 1973 oral history",
       "bears-on": "attestation"
+    },
+    {
+      "from": "although-concessive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §13; Ch. 14 §10(b)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "although-concessive-001",
+      "to": "even-if-concessive-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "although-concessive-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "amount-singular-agreement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §18.3, measure phrases",
+      "bears-on": "projection"
+    },
+    {
+      "from": "amount-singular-agreement-001",
+      "to": "collective-agreement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "amount-singular-agreement-001",
+      "to": "verb-number-agreement-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "anaphoric-propositional-not-001",
+      "to": "anaphoric-propositional-so-001",
+      "type": "related-to"
+    },
+    {
+      "from": "anaphoric-propositional-not-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §7.2; Ch. 17 §7.7.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "anaphoric-propositional-not-001",
+      "to": "negative-raising-001",
+      "type": "related-to"
+    },
+    {
+      "from": "anaphoric-propositional-so-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §7.2; Ch. 17 §7.7.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "anaphoric-propositional-so-001",
+      "to": "lexical-do-so-anaphor-001",
+      "type": "related-to"
+    },
+    {
+      "from": "anaphoric-propositional-so-001",
+      "to": "proposition-affirmation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "another-additive-measure-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.9",
+      "bears-on": "projection"
+    },
+    {
+      "from": "another-additive-measure-001",
+      "to": "measure-pseudopartitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "another-additive-measure-001",
+      "to": "np-indef-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "modal-plain-complement-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "progressive-ing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "auxiliary-chain-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "auxiliary-vp-ellipsis-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.1.4; Ch. 17 §7.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "auxiliary-vp-ellipsis-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "auxiliary-vp-ellipsis-001",
+      "to": "coordination-gapping-001",
+      "type": "related-to"
+    },
+    {
+      "from": "backshift-past-perfect-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§5.1, 5.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "backshift-past-perfect-001",
+      "to": "perfect-have-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "backshift-past-perfect-001",
+      "to": "present-backshift-001",
+      "type": "related-to"
+    },
+    {
+      "from": "bare-institutional-use-001",
+      "to": "activity-weak-definite-001",
+      "type": "related-to"
+    },
+    {
+      "from": "bare-institutional-use-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §8.5; Ch. 7, bare NPs after prepositions",
+      "bears-on": "projection"
+    },
+    {
+      "from": "bare-institutional-use-001",
+      "to": "np-bare-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "bare-noun-coordination-001",
@@ -4442,6 +6263,41 @@
       "type": "related-to"
     },
     {
+      "from": "both-and-coordination-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "both-and-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "both-and-coordination-001",
+      "to": "either-or-coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "calendar-deictic-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §6.3; Ch. 17, temporal deixis",
+      "bears-on": "projection"
+    },
+    {
+      "from": "calendar-deictic-np-001",
+      "to": "month-day-date-001",
+      "type": "related-to"
+    },
+    {
+      "from": "calendar-deictic-np-001",
+      "to": "year-name-001",
+      "type": "related-to"
+    },
+    {
       "from": "cardinal-determinative-001",
       "to": "cardinal-noun-001",
       "type": "related-to"
@@ -4477,6 +6333,53 @@
       "to": "reynolds-2026-numerals",
       "type": "cites",
       "bears-on": "category-assignment"
+    },
+    {
+      "from": "causative-have-001",
+      "to": "affected-have-participial-001",
+      "type": "related-to"
+    },
+    {
+      "from": "causative-have-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §5.4, have",
+      "bears-on": "projection"
+    },
+    {
+      "from": "causative-have-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "causative-have-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "causative-inchoative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.1.4(a)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "causative-inchoative-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "§5.2, the causative–inchoative relation",
+      "bears-on": "projection"
+    },
+    {
+      "from": "causative-inchoative-001",
+      "to": "monotransitive-vp-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "causative-inchoative-001",
+      "to": "simple-intransitive-vp-001",
+      "type": "interfaces-with"
     },
     {
       "from": "caused-motion-001",
@@ -4694,6 +6597,96 @@
       "type": "see-also"
     },
     {
+      "from": "closed-interrogative-if-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §§5.1–5.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "closed-interrogative-if-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "closed-interrogative-if-001",
+      "to": "closed-interrogative-whether-001",
+      "type": "related-to"
+    },
+    {
+      "from": "closed-interrogative-if-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "closed-interrogative-whether-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §§5.1–5.2, 5.3.5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "closed-interrogative-whether-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "closed-interrogative-whether-001",
+      "to": "for-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cognate-event-object-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "discusses",
+      "locator": "pp. 314–315",
+      "bears-on": "projection"
+    },
+    {
+      "from": "cognate-event-object-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 8 §2.1, p. 673 [11a]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "cognate-event-object-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 8 §2.1, p. 673 [11b]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "cognate-event-object-001",
+      "to": "reaction-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "cognate-event-object-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "collective-agreement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §18.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "collective-agreement-001",
+      "to": "grammatical-number-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "collective-agreement-001",
+      "to": "verb-number-agreement-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "collective-numeral-001",
       "to": "cardinal-noun-001",
       "type": "specialization-of"
@@ -4701,6 +6694,54 @@
     {
       "from": "collective-numeral-001",
       "to": "n-common-001",
+      "type": "related-to"
+    },
+    {
+      "from": "come-with-motion-participial-001",
+      "to": "fanego-motion-participial",
+      "type": "discusses",
+      "locator": "§§7–8, productivity and grammatical properties",
+      "bears-on": "projection"
+    },
+    {
+      "from": "come-with-motion-participial-001",
+      "to": "fau-patel-come-ing",
+      "type": "attests",
+      "locator": "example A",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "come-with-motion-participial-001",
+      "to": "fau-patel-come-ing",
+      "type": "attests",
+      "locator": "example B",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "come-with-motion-participial-001",
+      "to": "goal-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "come-with-motion-participial-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "comparative-adjective-suppletion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 6, grade inflection; Ch. 13 §6.3; Ch. 18, adjective inflection",
+      "bears-on": "projection"
+    },
+    {
+      "from": "comparative-adjective-suppletion-001",
+      "to": "comparative-er-001",
+      "type": "related-to"
+    },
+    {
+      "from": "comparative-adjective-suppletion-001",
+      "to": "superlative-grade-001",
       "type": "related-to"
     },
     {
@@ -4749,6 +6790,72 @@
       "bears-on": "projection"
     },
     {
+      "from": "comparative-factor-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §§4.3–4.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "comparative-factor-001",
+      "to": "differential-measure-comparative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "comparative-factor-001",
+      "to": "equative-as-as-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "complement-it-extraposition-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §4.3.2; Ch. 16 §7.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "complement-it-extraposition-001",
+      "to": "declarative-content-clause-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "complement-it-extraposition-001",
+      "to": "subject-extraposition-001",
+      "type": "related-to"
+    },
+    {
+      "from": "complement-it-extraposition-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "complement-preposing-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 142",
+      "bears-on": "projection"
+    },
+    {
+      "from": "complement-preposing-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §3 [3ic]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "complement-preposing-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "complement-preposing-001",
+      "to": "left-dislocation-001",
+      "type": "related-to"
+    },
+    {
       "from": "conative-at-001",
       "to": "birmingham-english-constructicon",
       "type": "discusses",
@@ -4794,6 +6901,161 @@
       "type": "specialization-of"
     },
     {
+      "from": "concealed-passive-ing-001",
+      "to": "adjective-hollow-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "concealed-passive-ing-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "concealed-passive-ing-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "concealed-passive-ing-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "content-because-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§12.1–12.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "content-because-adjunct-001",
+      "to": "evidential-because-001",
+      "type": "related-to"
+    },
+    {
+      "from": "content-because-adjunct-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "content-clause-in-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §4.5; Ch. 5 §14, complements",
+      "bears-on": "projection"
+    },
+    {
+      "from": "content-clause-in-np-001",
+      "to": "declarative-content-clause-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "content-clause-in-np-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "content-clause-in-np-001",
+      "to": "nom-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "content-container-alternation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "content-container-alternation-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "content-container-alternation-001",
+      "to": "locative-location-variant-001",
+      "type": "related-to"
+    },
+    {
+      "from": "content-container-alternation-001",
+      "to": "presentational-dependent-inversion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "continuative-away-at-001",
+      "to": "birmingham-english-constructicon",
+      "type": "discusses",
+      "locator": "V away at n, records 45–48",
+      "bears-on": "projection"
+    },
+    {
+      "from": "continuative-away-at-001",
+      "to": "conative-at-001",
+      "type": "related-to"
+    },
+    {
+      "from": "continuative-away-at-001",
+      "to": "jackendoff-1997",
+      "type": "attests",
+      "locator": "p. 540",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "continuative-away-at-001",
+      "to": "jackendoff-1997",
+      "type": "discusses",
+      "locator": "p. 540",
+      "bears-on": "projection"
+    },
+    {
+      "from": "continuative-away-at-001",
+      "to": "time-away-001",
+      "type": "related-to"
+    },
+    {
+      "from": "continuative-perfect-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §5.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "continuative-perfect-001",
+      "to": "experiential-perfect-001",
+      "type": "related-to"
+    },
+    {
+      "from": "continuative-perfect-001",
+      "to": "perfect-have-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "coordinate-degree-reduplication-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §2.2.5; Ch. 13, comparative grade",
+      "bears-on": "projection"
+    },
+    {
+      "from": "coordinate-degree-reduplication-001",
+      "to": "comparative-er-001",
+      "type": "related-to"
+    },
+    {
+      "from": "coordinate-degree-reduplication-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "coordination-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -4816,6 +7078,115 @@
       "from": "coordination-001",
       "to": "phrase-001",
       "type": "see-also"
+    },
+    {
+      "from": "coordination-gapping-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 17 §7.8.4 [81i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "coordination-gapping-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §4.2; Ch. 17 §7.8.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "coordination-gapping-001",
+      "to": "coordination-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "coordination-gapping-001",
+      "to": "delayed-right-constituent-001",
+      "type": "related-to"
+    },
+    {
+      "from": "coordination-gapping-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.2 (19–20)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "corrective-but-coordination-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §§2.5–2.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "corrective-but-coordination-001",
+      "to": "constituent-not-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "corrective-but-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "deadjectival-ity-noun-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 153",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deadjectival-ity-noun-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.7.2(i) [55]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deadjectival-ity-noun-001",
+      "to": "deadjectival-ness-noun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deadjectival-ity-noun-001",
+      "to": "n-common-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "deadjectival-ize-001",
+      "to": "causative-inchoative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deadjectival-ize-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.9(f)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deadjectival-ness-noun-001",
+      "to": "adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deadjectival-ness-noun-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 152–153",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deadjectival-ness-noun-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.7.2(i)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deadjectival-ness-noun-001",
+      "to": "n-common-001",
+      "type": "specialization-of"
     },
     {
       "from": "declarative-clause-001",
@@ -4842,6 +7213,35 @@
       "to": "clause-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "declarative-content-clause-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 11 §3.1 [3i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "declarative-content-clause-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §§3.1, 4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "declarative-content-clause-001",
+      "to": "declarative-clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "declarative-content-clause-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "declarative-content-clause-001",
+      "to": "subject-extraposition-001",
+      "type": "related-to"
     },
     {
       "from": "declarative-question-001",
@@ -4885,6 +7285,30 @@
       "parthood": "semantic"
     },
     {
+      "from": "definite-cardinal-of-pronoun-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 62",
+      "bears-on": "projection"
+    },
+    {
+      "from": "definite-cardinal-of-pronoun-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.3, ‘The both of us’",
+      "bears-on": "projection"
+    },
+    {
+      "from": "definite-cardinal-of-pronoun-001",
+      "to": "np-def-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "definite-cardinal-of-pronoun-001",
+      "to": "numerative-fused-head-001",
+      "type": "related-to"
+    },
+    {
       "from": "degree-adjective-indefinite-001",
       "to": "degree-001",
       "type": "specialization-of"
@@ -4893,6 +7317,23 @@
       "from": "degree-adjective-indefinite-001",
       "to": "indefinite-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "deictic-here-there-inversion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §5.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deictic-here-there-inversion-001",
+      "to": "presentational-dependent-inversion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deictic-here-there-inversion-001",
+      "to": "presentational-there-001",
+      "type": "related-to"
     },
     {
       "from": "deitality-001",
@@ -4942,6 +7383,30 @@
       "bears-on": "stability"
     },
     {
+      "from": "delayed-right-constituent-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §4.4 [21–22]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "delayed-right-constituent-001",
+      "to": "coordination-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "delayed-right-constituent-001",
+      "to": "coordination-gapping-001",
+      "type": "related-to"
+    },
+    {
+      "from": "delayed-right-constituent-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.2",
+      "bears-on": "projection"
+    },
+    {
       "from": "demonstrative-determinative-fused-head-001",
       "to": "deitality-001",
       "type": "related-to"
@@ -4956,6 +7421,24 @@
       "from": "demonstrative-determinative-fused-head-001",
       "to": "gold:determinatives",
       "type": "lexicon-members"
+    },
+    {
+      "from": "demonstrative-distance-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.1; Ch. 17 §§5.1–5.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "demonstrative-distance-001",
+      "to": "demonstrative-determinative-fused-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "demonstrative-distance-001",
+      "to": "np-det-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "demonstrative-oblique-genitive-001",
@@ -5006,6 +7489,23 @@
       "type": "related-to"
     },
     {
+      "from": "depictive-predication-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §5.3, depictives and resultatives",
+      "bears-on": "projection"
+    },
+    {
+      "from": "depictive-predication-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "depictive-predication-001",
+      "to": "subject-resultative-001",
+      "type": "related-to"
+    },
+    {
       "from": "determination-001",
       "to": "bare-singular-exceptions",
       "type": "diagnosed-by"
@@ -5051,6 +7551,71 @@
       "type": "related-to"
     },
     {
+      "from": "deverbal-able-adjective-001",
+      "to": "adjective-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "deverbal-able-adjective-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deverbal-able-adjective-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 156",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deverbal-able-adjective-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.8(b)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deverbal-er-noun-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 157, 161–163",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deverbal-er-noun-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.7.1(f)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deverbal-er-noun-001",
+      "to": "deverbal-noun-of-argument-001",
+      "type": "related-to"
+    },
+    {
+      "from": "deverbal-er-noun-001",
+      "to": "n-common-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "deverbal-ing-nominal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.7.2(g); Ch. 14 §§1.5, 4.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "deverbal-ing-nominal-001",
+      "to": "deverbal-noun-of-argument-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "deverbal-ing-nominal-001",
+      "to": "genitive-ing-subject-001",
+      "type": "related-to"
+    },
+    {
       "from": "deverbal-noun-of-argument-001",
       "to": "genitive-s-001",
       "type": "alternates-with"
@@ -5059,6 +7624,75 @@
       "from": "deverbal-noun-of-argument-001",
       "to": "grammatical-definiteness-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "difference-than-from-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §5.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "difference-than-from-001",
+      "to": "same-as-comparison-001",
+      "type": "related-to"
+    },
+    {
+      "from": "difference-than-from-001",
+      "to": "than-reduced-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "differential-measure-comparative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §4.4; Ch. 8 §5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "differential-measure-comparative-001",
+      "to": "comparative-er-001",
+      "type": "related-to"
+    },
+    {
+      "from": "differential-measure-comparative-001",
+      "to": "measure-adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "direct-quotation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §9.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "direct-quotation-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "direct-quotation-001",
+      "to": "indirect-report-001",
+      "type": "related-to"
+    },
+    {
+      "from": "directive-had-better-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§2.5.6, 9.7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "directive-had-better-001",
+      "to": "modal-plain-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "directive-had-better-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "directive-ostensive-001",
@@ -5076,6 +7710,60 @@
       "from": "directive-ostensive-001",
       "to": "vocative-001",
       "type": "alternates-with"
+    },
+    {
+      "from": "dispositional-middle-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "dispositional-middle-001",
+      "to": "causative-inchoative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "dispositional-middle-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.1.4(d)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "dispositional-middle-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "dispositional-middle-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 8, direct-object condition and middles",
+      "bears-on": "projection"
+    },
+    {
+      "from": "distributive-rate-apiece-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "distributive-rate-apiece-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4.14, rate and denominator variants",
+      "bears-on": "projection"
+    },
+    {
+      "from": "distributive-rate-apiece-001",
+      "to": "floating-distributive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "distributive-rate-apiece-001",
+      "to": "indefinite-rate-001",
+      "type": "related-to"
     },
     {
       "from": "ditransitive-vp-001",
@@ -5118,6 +7806,67 @@
     {
       "from": "ditransitive-vp-001",
       "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "domain-wise-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §15; Ch. 19, adverbial word formation",
+      "bears-on": "projection"
+    },
+    {
+      "from": "domain-wise-adjunct-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "durational-long-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 8 §7, duration discussion",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "durational-long-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 7, p. 569 [17]; Ch. 8 §7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "durational-long-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "durational-long-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.4 (36–39)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "durational-long-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "each-of-partitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§7.4, 9.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "each-of-partitive-001",
+      "to": "grammatical-number-001",
+      "type": "related-to"
+    },
+    {
+      "from": "each-of-partitive-001",
+      "to": "true-partitive-001",
       "type": "specialization-of",
       "parthood": "formal"
     },
@@ -5168,6 +7917,133 @@
       "parthood": "semantic"
     },
     {
+      "from": "either-or-coordination-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §§2.2.1, 2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "either-or-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "either-or-coordination-001",
+      "to": "neither-nor-coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "endowed-ful-001",
+      "to": "adjective-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "endowed-ful-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 155",
+      "bears-on": "projection"
+    },
+    {
+      "from": "endowed-ful-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.8(i); CASA record for adjectival -ful",
+      "bears-on": "projection"
+    },
+    {
+      "from": "endowed-ful-001",
+      "to": "privative-less-001",
+      "type": "related-to"
+    },
+    {
+      "from": "enough-degree-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §8.4; Ch. 6, degree modification",
+      "bears-on": "projection"
+    },
+    {
+      "from": "enough-degree-infinitival-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§§4.5–4.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "enough-degree-infinitival-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "enough-degree-infinitival-001",
+      "to": "too-degree-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "epistemic-perfect-modal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§9.3.1, 9.9",
+      "bears-on": "projection"
+    },
+    {
+      "from": "epistemic-perfect-modal-001",
+      "to": "modal-plain-complement-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "epistemic-perfect-modal-001",
+      "to": "perfect-have-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "equative-as-as-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §§1.1, 4.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "equative-as-as-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "equative-as-as-001",
+      "to": "than-reduced-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "evaluation-of-person-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 52–53",
+      "bears-on": "projection"
+    },
+    {
+      "from": "evaluation-of-person-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 7 §6.2 [18]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "evaluation-of-person-001",
+      "to": "exclamative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "evaluation-of-person-001",
+      "to": "subject-extraposition-001",
+      "type": "related-to"
+    },
+    {
       "from": "evaluative-binominal-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -5201,6 +8077,36 @@
       "type": "specialization-of"
     },
     {
+      "from": "evaluative-sentence-adverb-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §17",
+      "bears-on": "projection"
+    },
+    {
+      "from": "evaluative-sentence-adverb-001",
+      "to": "evidential-because-001",
+      "type": "related-to"
+    },
+    {
+      "from": "even-if-concessive-conditional-001",
+      "to": "although-concessive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "even-if-concessive-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.1.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "even-if-concessive-conditional-001",
+      "to": "if-conditional-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "every-inch-predicative-001",
       "to": "bare-role-001",
       "type": "related-to"
@@ -5222,6 +8128,23 @@
     {
       "from": "every-inch-predicative-001",
       "to": "degree-001",
+      "type": "related-to"
+    },
+    {
+      "from": "evidential-because-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §12.1, act-related versus content-related cause; §18",
+      "bears-on": "projection"
+    },
+    {
+      "from": "evidential-because-001",
+      "to": "content-because-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "evidential-because-001",
+      "to": "epistemic-perfect-modal-001",
       "type": "related-to"
     },
     {
@@ -5346,6 +8269,23 @@
       "parthood": "semantic"
     },
     {
+      "from": "exhaustive-alternative-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §5.3.6; Ch. 8 §14.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "exhaustive-alternative-conditional-001",
+      "to": "closed-interrogative-whether-001",
+      "type": "related-to"
+    },
+    {
+      "from": "exhaustive-alternative-conditional-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
       "from": "existential-no-gerund-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -5376,6 +8316,211 @@
     {
       "from": "existential-no-gerund-001",
       "to": "no-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "existential-there-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §§6.1–6.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "existential-there-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "existential-there-001",
+      "to": "existential-no-gerund-001",
+      "type": "related-to"
+    },
+    {
+      "from": "existential-there-001",
+      "to": "presentational-there-001",
+      "type": "related-to"
+    },
+    {
+      "from": "experiential-perfect-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§5.3–5.3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "experiential-perfect-001",
+      "to": "continuative-perfect-001",
+      "type": "related-to"
+    },
+    {
+      "from": "experiential-perfect-001",
+      "to": "perfect-have-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "extended-existential-001",
+      "to": "absolute-with-predication-001",
+      "type": "related-to"
+    },
+    {
+      "from": "extended-existential-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §6.2.1(b)–(e)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "extended-existential-001",
+      "to": "existential-there-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "extent-measure-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§5.1–5.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "extent-measure-np-001",
+      "to": "measure-adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "extent-measure-np-001",
+      "to": "path-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "extraposed-relative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §4, postposed dependents in NP structure; Ch. 12 §3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "extraposed-relative-001",
+      "to": "heavy-np-shift-001",
+      "type": "related-to"
+    },
+    {
+      "from": "extraposed-relative-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "factive-content-complement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §7.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "factive-content-complement-001",
+      "to": "declarative-content-clause-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "finite-do-support-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§2.1.1–2.1.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "finite-do-support-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "finite-do-support-001",
+      "to": "imperative-negation-do-001",
+      "type": "related-to"
+    },
+    {
+      "from": "floating-distributive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.4; Ch. 8, distributive adjuncts",
+      "bears-on": "projection"
+    },
+    {
+      "from": "floating-distributive-001",
+      "to": "each-of-partitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "floating-distributive-001",
+      "to": "subject-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "for-duration-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§7.2–7.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "for-duration-adjunct-001",
+      "to": "in-duration-completion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "for-duration-adjunct-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "for-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.3–1.4.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "for-infinitival-001",
+      "to": "declarative-content-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "for-infinitival-001",
+      "to": "subject-extraposition-001",
+      "type": "related-to"
+    },
+    {
+      "from": "fused-adjective-anaphoric-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §9.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "fused-adjective-anaphoric-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4.12.2, anaphoric subtype",
+      "bears-on": "projection"
+    },
+    {
+      "from": "fused-adjective-anaphoric-001",
+      "to": "fused-head-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "fused-adjective-anaphoric-001",
+      "to": "pro-nominal-one-001",
+      "type": "related-to"
+    },
+    {
+      "from": "fused-adjective-anaphoric-001",
+      "to": "the-adjective-np-001",
       "type": "related-to"
     },
     {
@@ -5430,6 +8575,58 @@
       "parthood": "formal"
     },
     {
+      "from": "fused-relative-no-matter-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §6, simple and -ever fused relatives",
+      "bears-on": "projection"
+    },
+    {
+      "from": "fused-relative-no-matter-001",
+      "to": "fused-relative-np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "fused-relative-no-matter-001",
+      "to": "unconditional-wh-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 12 §6.1 [4b]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 12 §6.2 [11i–ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "np-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "open-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "pseudo-cleft-001",
+      "type": "related-to"
+    },
+    {
+      "from": "fused-relative-np-001",
+      "to": "relative-word-001",
+      "type": "related-to"
+    },
+    {
       "from": "genitive-every-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -5447,6 +8644,40 @@
       "from": "genitive-every-001",
       "to": "subject-determiner-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "genitive-ing-subject-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.5–1.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "genitive-ing-subject-001",
+      "to": "deverbal-noun-of-argument-001",
+      "type": "related-to"
+    },
+    {
+      "from": "genitive-ing-subject-001",
+      "to": "np-gen-indep-001",
+      "type": "related-to"
+    },
+    {
+      "from": "get-event-passive-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "get-event-passive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §10.1.3, verbal get-passive versus adjectival get",
+      "bears-on": "projection"
+    },
+    {
+      "from": "get-event-passive-001",
+      "to": "subject-resultative-001",
+      "type": "related-to"
     },
     {
       "from": "goal-complement-001",
@@ -5490,6 +8721,41 @@
     },
     {
       "from": "goal-complement-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "god-knows-indeterminate-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 63",
+      "bears-on": "projection"
+    },
+    {
+      "from": "god-knows-indeterminate-001",
+      "to": "indeterminate-word-001",
+      "type": "related-to"
+    },
+    {
+      "from": "god-knows-indeterminate-001",
+      "to": "open-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "going-to-future-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §10.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "going-to-future-001",
+      "to": "present-futurate-001",
+      "type": "related-to"
+    },
+    {
+      "from": "going-to-future-001",
       "to": "vp-001",
       "type": "specialization-of",
       "parthood": "formal"
@@ -5556,6 +8822,229 @@
       "type": "related-to"
     },
     {
+      "from": "group-genitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §16.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "group-genitive-001",
+      "to": "genitive-s-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "group-genitive-001",
+      "to": "np-det-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "habitual-used-to-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.5.6, used to; Ch. 18 §6.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "habitual-used-to-001",
+      "to": "past-tense-ed-001",
+      "type": "related-to"
+    },
+    {
+      "from": "habitual-used-to-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "had-it-up-to-here-001",
+      "to": "fau-iabdounane-up-to-here",
+      "type": "attests",
+      "locator": "verbal pattern, example A",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "had-it-up-to-here-001",
+      "to": "fau-iabdounane-up-to-here",
+      "type": "discusses",
+      "locator": "verbal pattern and inherited gesture variants",
+      "bears-on": "projection"
+    },
+    {
+      "from": "had-it-up-to-here-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "had-it-up-to-here-001",
+      "to": "vp-001",
+      "type": "related-to"
+    },
+    {
+      "from": "heavy-np-shift-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §4; Ch. 4 §4.3, postposing",
+      "bears-on": "projection"
+    },
+    {
+      "from": "heavy-np-shift-001",
+      "to": "transitive-to-recipient-001",
+      "type": "related-to"
+    },
+    {
+      "from": "heavy-np-shift-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "how-about-proposal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §7.7, how about",
+      "bears-on": "projection"
+    },
+    {
+      "from": "how-about-proposal-001",
+      "to": "question-001",
+      "type": "related-to"
+    },
+    {
+      "from": "how-about-proposal-001",
+      "to": "what-about-topic-001",
+      "type": "related-to"
+    },
+    {
+      "from": "how-adjective-exclamative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §§8.1.1, 8.1.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "how-adjective-exclamative-001",
+      "to": "clause-analogue-001",
+      "type": "related-to"
+    },
+    {
+      "from": "how-adjective-exclamative-001",
+      "to": "exclamative-word-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "how-come-explanation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §§7.6–7.7, how come",
+      "bears-on": "projection"
+    },
+    {
+      "from": "how-come-explanation-001",
+      "to": "incongruity-whats-doing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "how-come-explanation-001",
+      "to": "open-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 148–150",
+      "bears-on": "projection"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 3 §1.7 [29ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 3 §1.7 [30ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§14.1–2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "if-conditional-001",
+      "to": "past-tense-ed-001",
+      "type": "related-to"
+    },
+    {
+      "from": "if-only-wish-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.2.1; Ch. 10 §10",
+      "bears-on": "projection"
+    },
+    {
+      "from": "if-only-wish-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "if-only-wish-001",
+      "to": "only-if-restriction-001",
+      "type": "related-to"
+    },
+    {
+      "from": "immediate-following-no-sooner-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§6, 10; Ch. 9, inversion after initial negation",
+      "bears-on": "projection"
+    },
+    {
+      "from": "immediate-following-no-sooner-001",
+      "to": "negative-initial-inversion-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "immediate-following-no-sooner-001",
+      "to": "than-reduced-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "imperative-and-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §9.5; Ch. 15 §2.2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "imperative-and-conditional-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "imperative-and-conditional-001",
+      "to": "imperative-clause-001",
+      "type": "related-to"
+    },
+    {
       "from": "imperative-clause-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -5596,6 +9085,108 @@
       "from": "imperative-negation-do-001",
       "to": "secondary-verbal-negation-001",
       "type": "related-to"
+    },
+    {
+      "from": "imperative-or-warning-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §9.5; Ch. 15 §2.2, asymmetric or",
+      "bears-on": "projection"
+    },
+    {
+      "from": "imperative-or-warning-001",
+      "to": "either-or-coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "imperative-or-warning-001",
+      "to": "imperative-and-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "implicit-object-use-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.1.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "implicit-object-use-001",
+      "to": "monotransitive-vp-001",
+      "type": "related-to"
+    },
+    {
+      "from": "implicit-object-use-001",
+      "to": "simple-intransitive-vp-001",
+      "type": "related-to"
+    },
+    {
+      "from": "in-case-contingency-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.4, in case",
+      "bears-on": "projection"
+    },
+    {
+      "from": "in-case-contingency-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "in-case-contingency-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "in-duration-completion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§7.2–7.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "in-duration-completion-001",
+      "to": "for-duration-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "in-duration-completion-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "incongruity-whats-doing-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §7.10 n. 14",
+      "bears-on": "projection"
+    },
+    {
+      "from": "incongruity-whats-doing-001",
+      "to": "goldberg-2006",
+      "type": "discusses",
+      "locator": "Ch. 1, inventory and inheritance",
+      "bears-on": "projection"
+    },
+    {
+      "from": "incongruity-whats-doing-001",
+      "to": "how-come-explanation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "incongruity-whats-doing-001",
+      "to": "kay-fillmore-1999",
+      "type": "discusses",
+      "locator": "§§2–3, explanation and grammatical contrasts",
+      "bears-on": "projection"
+    },
+    {
+      "from": "incongruity-whats-doing-001",
+      "to": "open-interrogative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "indefinite-rate-001",
@@ -5652,6 +9243,198 @@
       "from": "indeterminate-word-001",
       "to": "kuroda-1965",
       "type": "cites"
+    },
+    {
+      "from": "indirect-report-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §9.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "indirect-report-001",
+      "to": "declarative-content-clause-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "indirect-report-001",
+      "to": "direct-quotation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "indirect-report-001",
+      "to": "present-backshift-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-open-interrogative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §5.3.5; Ch. 14 §8.5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "infinitival-open-interrogative-001",
+      "to": "for-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-open-interrogative-001",
+      "to": "open-interrogative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "infinitival-purpose-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §9; Ch. 8 §12.2, purpose",
+      "bears-on": "projection"
+    },
+    {
+      "from": "infinitival-purpose-adjunct-001",
+      "to": "for-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-purpose-adjunct-001",
+      "to": "infinitival-result-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-relative-modifier-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "infinitival-relative-modifier-001",
+      "to": "infinitival-purpose-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-relative-modifier-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-result-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §9 [3ii]; Ch. 8 §12.4, result",
+      "bears-on": "projection"
+    },
+    {
+      "from": "infinitival-result-adjunct-001",
+      "to": "infinitival-purpose-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-to-stranding-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "infinitival-to-stranding-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §7.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "infinitival-to-stranding-001",
+      "to": "lexical-do-so-anaphor-001",
+      "type": "related-to"
+    },
+    {
+      "from": "instrumental-with-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §2.2; Ch. 7, functions of PPs",
+      "bears-on": "projection"
+    },
+    {
+      "from": "instrumental-with-np-001",
+      "to": "means-by-gerund-001",
+      "type": "related-to"
+    },
+    {
+      "from": "instrumental-with-np-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "integrated-relative-modifier-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 108",
+      "bears-on": "projection"
+    },
+    {
+      "from": "integrated-relative-modifier-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §§2.2, 3.5.5 and 4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "integrated-relative-modifier-001",
+      "to": "fused-relative-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "integrated-relative-modifier-001",
+      "to": "nom-001",
+      "type": "related-to"
+    },
+    {
+      "from": "integrated-relative-modifier-001",
+      "to": "relative-word-001",
+      "type": "related-to"
+    },
+    {
+      "from": "intensifying-to-death-001",
+      "to": "birmingham-english-constructicon",
+      "type": "discusses",
+      "locator": "records 62–64",
+      "bears-on": "projection"
+    },
+    {
+      "from": "intensifying-to-death-001",
+      "to": "degree-001",
+      "type": "related-to"
+    },
+    {
+      "from": "intensifying-to-death-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "interrogative-sluicing-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "interrogative-sluicing-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §7.8.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "interrogative-sluicing-001",
+      "to": "goldberg-perek-2019",
+      "type": "discusses",
+      "locator": "discussion of clause-level ellipsis in Construction Grammar",
+      "bears-on": "projection"
+    },
+    {
+      "from": "interrogative-sluicing-001",
+      "to": "open-interrogative-clause-001",
+      "type": "related-to"
     },
     {
       "from": "interrogative-word-001",
@@ -5732,6 +9515,98 @@
       "parthood": "formal"
     },
     {
+      "from": "inverted-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §4, discussion of [55]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "inverted-conditional-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "inverted-conditional-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.3.2 (27–31)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "inverted-conditional-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irrealis-were-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §1.7; Ch. 8 §14.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "irrealis-were-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irrealis-were-001",
+      "to": "inverted-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irregular-ablaut-verb-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 18 §5.3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "irregular-ablaut-verb-001",
+      "to": "past-tense-ed-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irregular-ablaut-verb-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irregular-vowel-plural-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 18 §4.1.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "irregular-vowel-plural-001",
+      "to": "plural-s-001",
+      "type": "related-to"
+    },
+    {
+      "from": "irregular-vowel-plural-001",
+      "to": "zero-plural-001",
+      "type": "related-to"
+    },
+    {
+      "from": "it-auxiliary-clitic-001",
+      "to": "auxiliary-chain-001",
+      "type": "related-to"
+    },
+    {
+      "from": "it-auxiliary-clitic-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 18 §6.2; Ch. 5 §16.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "it-auxiliary-clitic-001",
+      "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
       "from": "it-cleft-001",
       "to": "casa-constructicon",
       "type": "discusses",
@@ -5770,6 +9645,42 @@
       "type": "related-to"
     },
     {
+      "from": "left-dislocation-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 143",
+      "bears-on": "projection"
+    },
+    {
+      "from": "left-dislocation-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §8.1 [4i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "left-dislocation-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §8.1 [5]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "left-dislocation-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "left-dislocation-001",
+      "to": "complement-preposing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "left-dislocation-001",
+      "to": "right-dislocation-001",
+      "type": "related-to"
+    },
+    {
       "from": "let-alone-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -5794,6 +9705,42 @@
       "type": "discusses",
       "locator": "§4, n. 34 in author draft",
       "bears-on": "projection"
+    },
+    {
+      "from": "let-permissive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.4.3, 5.4, let",
+      "bears-on": "projection"
+    },
+    {
+      "from": "let-permissive-001",
+      "to": "plain-make-causative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "let-permissive-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "lets-inclusive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §9.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "lets-inclusive-001",
+      "to": "imperative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "lets-inclusive-001",
+      "to": "let-permissive-001",
+      "type": "related-to"
     },
     {
       "from": "letter-case-modifier-001",
@@ -8840,6 +12787,144 @@
       "type": "listed-in"
     },
     {
+      "from": "lexical-do-so-anaphor-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "lexical-do-so-anaphor-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §§7.5–7.6, do so versus do it/that; Ch. 3 §2.1.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "lexical-do-so-anaphor-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "light-verb-event-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§7.1–7.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "light-verb-event-001",
+      "to": "cognate-event-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "light-verb-event-001",
+      "to": "monotransitive-vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "locative-location-variant-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§8.3.1, 8.3.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "locative-location-variant-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 1, argument-structure alternations",
+      "bears-on": "projection"
+    },
+    {
+      "from": "locative-location-variant-001",
+      "to": "monotransitive-vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "locative-theme-variant-001",
+      "to": "caused-motion-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "locative-theme-variant-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.3.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "locative-theme-variant-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 7, caused motion",
+      "bears-on": "projection"
+    },
+    {
+      "from": "locative-theme-variant-001",
+      "to": "locative-location-variant-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "long-distance-open-interrogative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §7.11; Ch. 12 §7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "long-distance-open-interrogative-001",
+      "to": "cuneo-goldberg-2023",
+      "type": "discusses",
+      "locator": "experiments on open-interrogative dependencies",
+      "bears-on": "projection"
+    },
+    {
+      "from": "long-distance-open-interrogative-001",
+      "to": "goldberg-2006",
+      "type": "discusses",
+      "locator": "Ch. 7, islands and backgroundedness",
+      "bears-on": "projection"
+    },
+    {
+      "from": "long-distance-open-interrogative-001",
+      "to": "long-distance-relative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "long-distance-open-interrogative-001",
+      "to": "open-interrogative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "long-distance-relative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §§3.4, 7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "long-distance-relative-001",
+      "to": "cuneo-goldberg-2023",
+      "type": "discusses",
+      "locator": "experiments comparing questions and relatives in the same base constructions",
+      "bears-on": "projection"
+    },
+    {
+      "from": "long-distance-relative-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "long-distance-relative-001",
+      "to": "preposition-pied-piping-001",
+      "type": "related-to"
+    },
+    {
       "from": "magnitude-quantifier-001",
       "to": "cardinal-noun-001",
       "type": "specialization-of"
@@ -8853,6 +12938,24 @@
       "from": "magnitude-quantifier-001",
       "to": "numerative-magnitude-head-001",
       "type": "related-to"
+    },
+    {
+      "from": "mandative-should-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §7.1.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "mandative-should-001",
+      "to": "declarative-content-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "mandative-should-001",
+      "to": "subjunctive-mandative-001",
+      "type": "alternates-with"
     },
     {
       "from": "matched-bare-endpoints-001",
@@ -8898,6 +13001,145 @@
       "bears-on": "projection"
     },
     {
+      "from": "means-by-gerund-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §2.2; Ch. 14 §8.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "means-by-gerund-001",
+      "to": "infinitival-purpose-adjunct-001",
+      "type": "related-to"
+    },
+    {
+      "from": "means-by-gerund-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "measure-adjective-001",
+      "to": "adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "measure-adjective-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.13 (82–87)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "measure-adjective-001",
+      "to": "nom-adjp-mod-001",
+      "type": "related-to"
+    },
+    {
+      "from": "measure-genitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §16.3, Type VI(b), measure genitives [46]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "measure-genitive-001",
+      "to": "extent-measure-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "measure-genitive-001",
+      "to": "genitive-s-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "measure-genitive-001",
+      "to": "measure-pseudopartitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "measure-pseudopartitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §3.1, measure nouns and partitives; §14.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "measure-pseudopartitive-001",
+      "to": "measure-adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "measure-pseudopartitive-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "measure-pseudopartitive-001",
+      "to": "true-partitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "metalinguistic-more-than-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "metalinguistic-more-than-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "metalinguistic-more-than-001",
+      "to": "than-reduced-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "metalinguistic-negation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §§1.2–1.3; Ch. 13 §3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "metalinguistic-negation-001",
+      "to": "constituent-not-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "metalinguistic-negation-001",
+      "to": "metalinguistic-more-than-001",
+      "type": "related-to"
+    },
+    {
+      "from": "minimizer-negative-polarity-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §4.1, minimizers",
+      "bears-on": "projection"
+    },
+    {
+      "from": "minimizer-negative-polarity-001",
+      "to": "extent-measure-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "minimizer-negative-polarity-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4.4, polarity contexts",
+      "bears-on": "projection"
+    },
+    {
+      "from": "minimizer-negative-polarity-001",
+      "to": "negative-polarity-ever-001",
+      "type": "related-to"
+    },
+    {
       "from": "minor-determiner-001",
       "to": "deitality-diagnostics",
       "type": "diagnosed-by"
@@ -8906,6 +13148,83 @@
       "from": "minor-determiner-001",
       "to": "determination-001",
       "type": "specialization-of"
+    },
+    {
+      "from": "modal-interrogative-request-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §9.6.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "modal-interrogative-request-001",
+      "to": "closed-interrogative-clause-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "modal-interrogative-request-001",
+      "to": "imperative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "modal-plain-complement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§2.3–2.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "modal-plain-complement-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
+    },
+    {
+      "from": "modal-plain-complement-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "monotransitive-vp-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "monotransitive-vp-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§1.1, 4.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "monotransitive-vp-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "month-day-date-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "attests",
+      "locator": "author draft, §2 on construct annotation",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "month-day-date-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "month-day-date-001",
+      "to": "numerical-label-001",
+      "type": "related-to"
+    },
+    {
+      "from": "month-day-date-001",
+      "to": "year-name-001",
+      "type": "related-to"
     },
     {
       "from": "n-common-001",
@@ -8937,6 +13256,87 @@
       "from": "n-proper-001",
       "to": "proper-name-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "negative-concord-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §6.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "negative-concord-001",
+      "to": "no-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "negative-concord-001",
+      "to": "primary-auxiliary-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "negative-initial-inversion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.1.2; Ch. 9, scope and inversion",
+      "bears-on": "projection"
+    },
+    {
+      "from": "negative-initial-inversion-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "negative-initial-inversion-001",
+      "to": "complement-preposing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "negative-initial-inversion-001",
+      "to": "finite-do-support-001",
+      "type": "related-to"
+    },
+    {
+      "from": "negative-initial-inversion-001",
+      "to": "goldberg-2006",
+      "type": "discusses",
+      "locator": "Ch. 8, the subject–auxiliary inversion family",
+      "bears-on": "projection"
+    },
+    {
+      "from": "negative-polarity-ever-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §§4.1–4.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "negative-polarity-ever-001",
+      "to": "durational-long-001",
+      "type": "related-to"
+    },
+    {
+      "from": "negative-polarity-ever-001",
+      "to": "experiential-perfect-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "negative-raising-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "negative-raising-001",
+      "to": "declarative-content-clause-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "negative-raising-001",
+      "to": "primary-auxiliary-negation-001",
+      "type": "related-to"
     },
     {
       "from": "neither-nor-coordination-001",
@@ -9011,6 +13411,41 @@
       "from": "nom-prehead-mod-001",
       "to": "nom-premod-000",
       "type": "see-also"
+    },
+    {
+      "from": "non-count-material-construal-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §§4.8.1–3 (53–58)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "non-count-material-construal-001",
+      "to": "n-non-count-001",
+      "type": "related-to"
+    },
+    {
+      "from": "non-count-material-construal-001",
+      "to": "portion-variety-count-001",
+      "type": "related-to"
+    },
+    {
+      "from": "not-only-but-also-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §2.7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "not-only-but-also-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "not-only-but-also-001",
+      "to": "negative-initial-inversion-001",
+      "type": "related-to"
     },
     {
       "from": "np-001",
@@ -9130,6 +13565,16 @@
       "type": "inherits-from"
     },
     {
+      "from": "np-pron-001",
+      "to": "np-pron-reciprocal-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-pron-001",
+      "to": "np-pron-reflexive-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "np-pron-interrog-gen-indep-001",
       "to": "independent-genitive-pronoun-001",
       "type": "related-to"
@@ -9137,6 +13582,73 @@
     {
       "from": "np-pron-personal-gen-indep-001",
       "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 90–91",
+      "bears-on": "projection"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 17 §4.2 [12ii], discussion",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §§4.1–2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "np-pron-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "np-pron-reflexive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-pron-reciprocal-001",
+      "to": "reciprocal-noun-with-001",
+      "type": "related-to"
+    },
+    {
+      "from": "np-pron-reflexive-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 82–89",
+      "bears-on": "projection"
+    },
+    {
+      "from": "np-pron-reflexive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 17 §3.1.1 [12i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "np-pron-reflexive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §§3.1.1, 3.1.4 and 3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "np-pron-reflexive-001",
+      "to": "np-pron-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "np-pron-reflexive-001",
+      "to": "np-pron-reciprocal-001",
       "type": "related-to"
     },
     {
@@ -9186,6 +13698,24 @@
       "type": "attests",
       "locator": "printed p. 50",
       "bears-on": "attestation"
+    },
+    {
+      "from": "number-transparent-agreement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §18.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "number-transparent-agreement-001",
+      "to": "measure-pseudopartitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "number-transparent-agreement-001",
+      "to": "verb-number-agreement-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "numerative-addition-asyndetic-001",
@@ -9551,6 +14081,83 @@
       "type": "related-to"
     },
     {
+      "from": "object-ascriptive-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 22–23",
+      "bears-on": "projection"
+    },
+    {
+      "from": "object-ascriptive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 4 §5.1 [7iia]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "object-ascriptive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§5.1–3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "object-ascriptive-001",
+      "to": "ditransitive-vp-001",
+      "type": "related-to"
+    },
+    {
+      "from": "object-ascriptive-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "object-ascriptive-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "object-control-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §3.1.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "object-control-infinitival-001",
+      "to": "object-raising-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "object-control-infinitival-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "object-raising-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§3.1.1, 4.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "object-raising-infinitival-001",
+      "to": "object-control-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "object-raising-infinitival-001",
+      "to": "subject-raising-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "object-raising-infinitival-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "object-resultative-001",
       "to": "caused-motion-001",
       "type": "overlaps-with",
@@ -9632,6 +14239,18 @@
       "parthood": "formal"
     },
     {
+      "from": "oblique-ing-subject-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §1.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "oblique-ing-subject-001",
+      "to": "genitive-ing-subject-001",
+      "type": "alternates-with"
+    },
+    {
       "from": "of-genitive-own-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -9661,6 +14280,24 @@
       "from": "of-genitive-own-001",
       "to": "independent-genitive-pronoun-001",
       "type": "related-to"
+    },
+    {
+      "from": "only-if-restriction-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.1.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "only-if-restriction-001",
+      "to": "even-if-concessive-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "only-if-restriction-001",
+      "to": "if-conditional-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "open-interrogative-clause-001",
@@ -9714,6 +14351,29 @@
       "type": "interfaces-with"
     },
     {
+      "from": "open-let-imperative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §9.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "open-let-imperative-001",
+      "to": "imperative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "open-let-imperative-001",
+      "to": "let-permissive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "open-let-imperative-001",
+      "to": "lets-inclusive-001",
+      "type": "related-to"
+    },
+    {
       "from": "ostensive-np-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -9731,6 +14391,37 @@
       "to": "np-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "out-of-ing-causative-001",
+      "to": "caused-motion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "out-of-ing-causative-001",
+      "to": "hunston-v-n-out-of-n",
+      "type": "discusses",
+      "locator": "sense groups for the NP-taking form",
+      "bears-on": "projection"
+    },
+    {
+      "from": "out-of-ing-causative-001",
+      "to": "into-causative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "out-of-ing-causative-001",
+      "to": "kim-sim-2024-out-of",
+      "type": "attests",
+      "locator": "opening example",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "out-of-ing-causative-001",
+      "to": "kim-sim-2024-out-of",
+      "type": "discusses",
+      "locator": "corpus and constructional analyses",
+      "bears-on": "projection"
     },
     {
       "from": "paired-np-introduction-001",
@@ -9760,6 +14451,18 @@
       "from": "paired-np-introduction-001",
       "to": "vocative-001",
       "type": "contains"
+    },
+    {
+      "from": "participial-clause-supplement-001",
+      "to": "absolute-supplement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "participial-clause-supplement-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§9, 11",
+      "bears-on": "projection"
     },
     {
       "from": "path-complement-001",
@@ -9842,10 +14545,64 @@
       "parthood": "formal"
     },
     {
+      "from": "perception-bare-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.4.3, 5.4 and 5.6, perception complements",
+      "bears-on": "projection"
+    },
+    {
+      "from": "perception-bare-infinitival-001",
+      "to": "perception-gerund-participial-001",
+      "type": "related-to"
+    },
+    {
+      "from": "perception-bare-infinitival-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "perception-gerund-participial-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§3.2.2, 5.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "perception-gerund-participial-001",
+      "to": "perception-bare-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "perception-gerund-participial-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "perfect-have-001",
       "to": "vp-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "personal-determiner-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §7.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "personal-determiner-001",
+      "to": "np-det-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "personal-determiner-001",
+      "to": "np-pron-001",
+      "type": "related-to"
     },
     {
       "from": "phrase-001",
@@ -9884,6 +14641,29 @@
       "type": "see-also"
     },
     {
+      "from": "plain-make-causative-001",
+      "to": "be-passive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "plain-make-causative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.4.3, 5.4, make",
+      "bears-on": "projection"
+    },
+    {
+      "from": "plain-make-causative-001",
+      "to": "into-causative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "plain-make-causative-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "plural-001",
       "to": "grammatical-number-001",
       "type": "interfaces-with"
@@ -9898,6 +14678,89 @@
       "from": "plural-001",
       "to": "singular-001",
       "type": "alternates-with"
+    },
+    {
+      "from": "polarity-short-answer-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "polarity-short-answer-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 9 §7.1; Ch. 10, polar questions",
+      "bears-on": "projection"
+    },
+    {
+      "from": "portion-variety-count-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.8.3 (57–58)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "portion-variety-count-001",
+      "to": "n-non-count-001",
+      "type": "related-to"
+    },
+    {
+      "from": "portion-variety-count-001",
+      "to": "np-indef-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "positive-degree-partitive-more-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§7.11, 9.2; Ch. 13 §4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "positive-degree-partitive-more-001",
+      "to": "differential-measure-comparative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "positive-degree-partitive-more-001",
+      "to": "true-partitive-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "positive-paucal-a-001",
+      "to": "absolute-negator-determinative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "positive-paucal-a-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§7.10–7.11; Ch. 9 §3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "positive-paucal-a-001",
+      "to": "np-det-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "possessive-relative-whose-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §3.2.5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "possessive-relative-whose-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "possessive-relative-whose-001",
+      "to": "relative-word-001",
+      "type": "contains",
+      "parthood": "formal"
     },
     {
       "from": "pp-001",
@@ -9915,6 +14778,64 @@
       "to": "preposition-001",
       "type": "contains",
       "parthood": "formal"
+    },
+    {
+      "from": "preference-would-rather-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §§2.5.1, 6.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "preference-would-rather-001",
+      "to": "irrealis-were-001",
+      "type": "related-to"
+    },
+    {
+      "from": "preference-would-rather-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "prenominal-all-the-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§7.3, 12",
+      "bears-on": "projection"
+    },
+    {
+      "from": "prenominal-all-the-001",
+      "to": "each-of-partitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "prenominal-all-the-001",
+      "to": "np-det-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "preposed-predicate-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "preposed-predicate-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §3, complement preposing; Ch. 3 §2.1.4, stranding and preposing",
+      "bears-on": "projection"
+    },
+    {
+      "from": "preposed-predicate-001",
+      "to": "complement-preposing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "preposed-predicate-001",
+      "to": "finite-do-support-001",
+      "type": "related-to"
     },
     {
       "from": "preposition-001",
@@ -9943,6 +14864,242 @@
       "type": "lexicon-members"
     },
     {
+      "from": "preposition-pied-piping-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §3.2, relative phrase formation; Ch. 7 §4.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "preposition-pied-piping-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "preposition-pied-piping-001",
+      "to": "prepositional-verb-frame-001",
+      "type": "related-to"
+    },
+    {
+      "from": "prepositional-passive-001",
+      "to": "be-passive-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "prepositional-passive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §10.1.1, prepositional passives; Ch. 4 §6.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "prepositional-passive-001",
+      "to": "prepositional-verb-frame-001",
+      "type": "related-to"
+    },
+    {
+      "from": "prepositional-verb-frame-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§6.1–6.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "prepositional-verb-frame-001",
+      "to": "verb-particle-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "prepositional-verb-frame-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "present-backshift-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §6.2; Ch. 11 §9",
+      "bears-on": "projection"
+    },
+    {
+      "from": "present-backshift-001",
+      "to": "declarative-content-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "present-backshift-001",
+      "to": "past-tense-ed-001",
+      "type": "related-to"
+    },
+    {
+      "from": "present-futurate-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §4.2.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "present-futurate-001",
+      "to": "declarative-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "present-futurate-001",
+      "to": "going-to-future-001",
+      "type": "related-to"
+    },
+    {
+      "from": "presentational-dependent-inversion-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §5.1 [1vi]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "presentational-dependent-inversion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §§5.1–2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "presentational-dependent-inversion-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "presentational-dependent-inversion-001",
+      "to": "complement-preposing-001",
+      "type": "related-to"
+    },
+    {
+      "from": "presentational-dependent-inversion-001",
+      "to": "fau-tzimas-inversion",
+      "type": "discusses",
+      "locator": "Locative and Temporal Full-Verb Inversion",
+      "bears-on": "projection"
+    },
+    {
+      "from": "presentational-there-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §6.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "presentational-there-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "presentational-there-001",
+      "to": "presentational-dependent-inversion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "preterite-politeness-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §4.3.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "preterite-politeness-001",
+      "to": "past-tense-ed-001",
+      "type": "related-to"
+    },
+    {
+      "from": "preterite-politeness-001",
+      "to": "present-backshift-001",
+      "type": "related-to"
+    },
+    {
+      "from": "primary-auxiliary-negation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.1.1; Ch. 9 §2.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "primary-auxiliary-negation-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "primary-auxiliary-negation-001",
+      "to": "finite-do-support-001",
+      "type": "related-to"
+    },
+    {
+      "from": "primary-auxiliary-negation-001",
+      "to": "secondary-verbal-negation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "privative-less-001",
+      "to": "adjective-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "privative-less-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §5.8(m)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "privative-less-001",
+      "to": "endowed-ful-001",
+      "type": "related-to"
+    },
+    {
+      "from": "pro-nominal-one-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §6.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "pro-nominal-one-001",
+      "to": "nom-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "pro-nominal-one-001",
+      "to": "numerative-single-digit-001",
+      "type": "related-to"
+    },
+    {
+      "from": "pro-nominal-one-001",
+      "to": "the-adjective-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "progressive-futurate-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §8.3(a)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "progressive-futurate-001",
+      "to": "present-futurate-001",
+      "type": "related-to"
+    },
+    {
+      "from": "progressive-futurate-001",
+      "to": "progressive-ing-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "progressive-ing-001",
       "to": "vp-001",
       "type": "specialization-of",
@@ -9958,6 +15115,95 @@
       "to": "np-proper-001",
       "type": "can-manifest-as",
       "parthood": "formal"
+    },
+    {
+      "from": "proper-name-secondary-use-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §20.4 [6–10]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "proper-name-secondary-use-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.8.4 (59)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "proper-name-secondary-use-001",
+      "to": "paired-np-introduction-001",
+      "type": "related-to"
+    },
+    {
+      "from": "proper-name-secondary-use-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "proper-name-secondary-use-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "proposition-affirmation-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "proposition-affirmation-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §3.2; Ch. 17, anaphoric so",
+      "bears-on": "projection"
+    },
+    {
+      "from": "proposition-affirmation-001",
+      "to": "so-neither-inversion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 141",
+      "bears-on": "projection"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §9.3 [24i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §9.3 [24ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §9.3 [27ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "fused-relative-np-001",
+      "type": "contains"
+    },
+    {
+      "from": "pseudo-cleft-001",
+      "to": "it-cleft-001",
+      "type": "related-to"
     },
     {
       "from": "quasi-count-noun-001",
@@ -9978,6 +15224,24 @@
       "from": "quasi-count-noun-001",
       "to": "n-non-count-001",
       "type": "related-to"
+    },
+    {
+      "from": "quasi-modal-be-to-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §9.11",
+      "bears-on": "projection"
+    },
+    {
+      "from": "quasi-modal-be-to-001",
+      "to": "going-to-future-001",
+      "type": "related-to"
+    },
+    {
+      "from": "quasi-modal-be-to-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "question-001",
@@ -10059,6 +15323,102 @@
       "type": "interfaces-with"
     },
     {
+      "from": "quotative-inversion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §9.2, reporting clause order; Ch. 16 §5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "quotative-inversion-001",
+      "to": "direct-quotation-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "quotative-inversion-001",
+      "to": "presentational-dependent-inversion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "re-iterative-prefix-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19, derivation with re-",
+      "bears-on": "projection"
+    },
+    {
+      "from": "re-iterative-prefix-001",
+      "to": "light-verb-event-001",
+      "type": "related-to"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "bouso-2022-reaction-object",
+      "type": "attests",
+      "locator": "abstract",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "bouso-2022-reaction-object",
+      "type": "discusses",
+      "locator": "article",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "attests",
+      "locator": "§3.2 (11)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "discusses",
+      "locator": "§§2, 3.2 [11–14]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "cognate-event-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "subject-genitive-superlative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "reaction-object-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "recipient-passive-retained-object-001",
+      "to": "be-passive-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "recipient-passive-retained-object-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §4.3, passive asymmetries; Ch. 16 §10",
+      "bears-on": "projection"
+    },
+    {
+      "from": "recipient-passive-retained-object-001",
+      "to": "ditransitive-vp-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "recipient-passive-retained-object-001",
+      "to": "transitive-to-recipient-001",
+      "type": "related-to"
+    },
+    {
       "from": "reciprocal-noun-with-001",
       "to": "cgel-2002",
       "type": "attests",
@@ -10083,6 +15443,87 @@
       "from": "reciprocal-noun-with-001",
       "to": "np-001",
       "type": "specialization-of"
+    },
+    {
+      "from": "recurrent-progressive-always-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §8.1, occurrence series; Ch. 8 §§8–9",
+      "bears-on": "projection"
+    },
+    {
+      "from": "recurrent-progressive-always-001",
+      "to": "progressive-ing-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "reflexive-benefactive-ditransitive-001",
+      "to": "birmingham-english-constructicon",
+      "type": "discusses",
+      "locator": "record 99, Getting V oneself N",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reflexive-benefactive-ditransitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§4.3, 8.2.1, benefit and receipt",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reflexive-benefactive-ditransitive-001",
+      "to": "ditransitive-vp-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "reflexive-benefactive-ditransitive-001",
+      "to": "np-pron-reflexive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "reflexive-state-goal-001",
+      "to": "caused-motion-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "reflexive-state-goal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 17 §3.1.1 [14ia]; Ch. 4 §§5.2–5.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reflexive-state-goal-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Chs. 7–8, caused motion and resultative constructions",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reflexive-state-goal-001",
+      "to": "np-pron-reflexive-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "reflexive-state-goal-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "relative-clausal-which-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §4, category of the antecedent",
+      "bears-on": "projection"
+    },
+    {
+      "from": "relative-clausal-which-001",
+      "to": "supplementary-relative-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "relative-word-001",
@@ -10129,6 +15570,140 @@
       "type": "related-to"
     },
     {
+      "from": "response-obligation-ditransitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §8.2.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "response-obligation-ditransitive-001",
+      "to": "ditransitive-vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "response-obligation-ditransitive-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 6, future transfer and obligation",
+      "bears-on": "projection"
+    },
+    {
+      "from": "response-obligation-ditransitive-001",
+      "to": "recipient-passive-retained-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "restrictive-appositive-name-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§14.3, 20.2.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "restrictive-appositive-name-001",
+      "to": "nom-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "restrictive-appositive-name-001",
+      "to": "title-personal-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "resultative-scalar-state-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "§8.6, restrictions on result predicates",
+      "bears-on": "projection"
+    },
+    {
+      "from": "resultative-scalar-state-001",
+      "to": "goldberg-jackendoff-2004",
+      "type": "discusses",
+      "locator": "discussion of result predicates and endpoint construal",
+      "bears-on": "projection"
+    },
+    {
+      "from": "resultative-scalar-state-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "resultative-scalar-state-001",
+      "to": "object-resultative-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "right-argument-cluster-coordination-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §4.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "right-argument-cluster-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "right-argument-cluster-coordination-001",
+      "to": "coordination-gapping-001",
+      "type": "related-to"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 144",
+      "bears-on": "projection"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §8.2 [11i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §8.2 [13ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "left-dislocation-001",
+      "type": "related-to"
+    },
+    {
+      "from": "right-dislocation-001",
+      "to": "subject-extraposition-001",
+      "type": "related-to"
+    },
+    {
+      "from": "same-as-comparison-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §5.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "same-as-comparison-001",
+      "to": "equative-as-as-001",
+      "type": "related-to"
+    },
+    {
       "from": "scalar-challenge-call-001",
       "to": "declarative-clause-001",
       "type": "specialization-of",
@@ -10144,6 +15719,24 @@
       "to": "scalar-recalibration-declarative-001",
       "type": "overlaps-with",
       "overlap-dimension": "functional"
+    },
+    {
+      "from": "scalar-change-by-measure-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§5.2, 5.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "scalar-change-by-measure-001",
+      "to": "differential-measure-comparative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "scalar-change-by-measure-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
     },
     {
       "from": "scalar-recalibration-declarative-001",
@@ -10184,6 +15777,42 @@
       "parthood": "formal"
     },
     {
+      "from": "simple-intransitive-vp-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§1.1, 8.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "simple-intransitive-vp-001",
+      "to": "cognate-event-object-001",
+      "type": "related-to"
+    },
+    {
+      "from": "simple-intransitive-vp-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "since-time-anchor-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§6, 7; Ch. 3 §5.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "since-time-anchor-001",
+      "to": "continuative-perfect-001",
+      "type": "related-to"
+    },
+    {
+      "from": "since-time-anchor-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
       "from": "singular-001",
       "to": "grammatical-number-001",
       "type": "interfaces-with"
@@ -10192,6 +15821,59 @@
       "from": "singular-001",
       "to": "plural-001",
       "type": "alternates-with"
+    },
+    {
+      "from": "singular-anaphoric-they-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §17.2.5; Ch. 17 §2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "singular-anaphoric-they-001",
+      "to": "np-pron-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "singular-anaphoric-they-001",
+      "to": "verb-number-agreement-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "so-degree-result-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §4.6; Ch. 8 §12.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "so-degree-result-001",
+      "to": "declarative-content-clause-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "so-degree-result-001",
+      "to": "too-degree-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "so-neither-inversion-001",
+      "to": "auxiliary-vp-ellipsis-001",
+      "type": "related-to"
+    },
+    {
+      "from": "so-neither-inversion-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 3 §2.1.2, inversion after additive so/neither; Ch. 8 §19, connective adjuncts",
+      "bears-on": "projection"
+    },
+    {
+      "from": "so-neither-inversion-001",
+      "to": "neither-nor-coordination-001",
+      "type": "related-to"
     },
     {
       "from": "so-nominal-predication-001",
@@ -10304,6 +15986,63 @@
       "parthood": "formal"
     },
     {
+      "from": "specificational-copular-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§5.5.1–5.5.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "specificational-copular-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "specificational-copular-001",
+      "to": "pseudo-cleft-001",
+      "type": "related-to"
+    },
+    {
+      "from": "specificational-copular-001",
+      "to": "subject-ascriptive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "speech-act-adverbial-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §18",
+      "bears-on": "projection"
+    },
+    {
+      "from": "speech-act-adverbial-001",
+      "to": "evaluative-sentence-adverb-001",
+      "type": "related-to"
+    },
+    {
+      "from": "speech-act-adverbial-001",
+      "to": "participial-clause-supplement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "still-yet-aspectual-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §8",
+      "bears-on": "projection"
+    },
+    {
+      "from": "still-yet-aspectual-001",
+      "to": "continuative-perfect-001",
+      "type": "related-to"
+    },
+    {
+      "from": "still-yet-aspectual-001",
+      "to": "durational-long-001",
+      "type": "related-to"
+    },
+    {
       "from": "stressed-some-exclamative-001",
       "to": "anderson-some-exclamatives",
       "type": "attests",
@@ -10408,6 +16147,42 @@
       "type": "see-also"
     },
     {
+      "from": "subject-ascriptive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§5.1, 5.4–5.5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-ascriptive-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "subject-ascriptive-001",
+      "to": "object-ascriptive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-control-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §§1.7, 2.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-control-infinitival-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "subject-control-infinitival-001",
+      "to": "subject-raising-infinitival-001",
+      "type": "related-to"
+    },
+    {
       "from": "subject-determiner-001",
       "to": "deitality-diagnostics",
       "type": "diagnosed-by"
@@ -10416,6 +16191,44 @@
       "from": "subject-determiner-001",
       "to": "determination-001",
       "type": "specialization-of"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 51–52",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §7.1 [1i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §7.1 [1ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §7.1 [1iii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "subject-extraposition-001",
+      "to": "right-dislocation-001",
+      "type": "related-to"
     },
     {
       "from": "subject-genitive-superlative-001",
@@ -10467,6 +16280,199 @@
     {
       "from": "subject-genitive-superlative-001",
       "to": "fused-head-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-raising-infinitival-001",
+      "to": "adjectival-raising-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-raising-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §2.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-raising-infinitival-001",
+      "to": "clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "subject-raising-infinitival-001",
+      "to": "subject-control-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-resultative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§5.1, 5.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-resultative-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 8, resultative family",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-resultative-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-resultative-001",
+      "to": "vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "subjunctive-mandative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §§7.1–7.1.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subjunctive-mandative-001",
+      "to": "declarative-content-clause-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "subjunctive-mandative-001",
+      "to": "mandative-should-001",
+      "type": "related-to"
+    },
+    {
+      "from": "such-as-exemplification-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §5.3, exemplification",
+      "bears-on": "projection"
+    },
+    {
+      "from": "such-as-exemplification-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "such-as-exemplification-001",
+      "to": "same-as-comparison-001",
+      "type": "related-to"
+    },
+    {
+      "from": "such-nominal-result-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 11 §4.6; Ch. 5, such",
+      "bears-on": "projection"
+    },
+    {
+      "from": "such-nominal-result-001",
+      "to": "declarative-content-clause-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "such-nominal-result-001",
+      "to": "so-degree-result-001",
+      "type": "related-to"
+    },
+    {
+      "from": "such-nominal-result-001",
+      "to": "so-nominal-predication-001",
+      "type": "related-to"
+    },
+    {
+      "from": "sufficiency-provided-that-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.4; Ch. 7, clause-taking prepositions",
+      "bears-on": "projection"
+    },
+    {
+      "from": "sufficiency-provided-that-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "sufficiency-provided-that-001",
+      "to": "unless-exceptive-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "superlative-grade-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §§6.3.1–6.3.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "superlative-grade-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "superlative-grade-001",
+      "to": "subject-genitive-superlative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "supplementary-appositive-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 15 §5; Ch. 5 §14.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "supplementary-appositive-np-001",
+      "to": "restrictive-appositive-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "supplementary-appositive-np-001",
+      "to": "supplementary-relative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "supplementary-relative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 12 §§2.2, 4.1–4.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "supplementary-relative-001",
+      "to": "integrated-relative-modifier-001",
+      "type": "related-to"
+    },
+    {
+      "from": "supplementary-relative-001",
+      "to": "relative-word-001",
+      "type": "contains",
+      "parthood": "formal"
+    },
+    {
+      "from": "synthetic-noun-compound-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 19 §4.2.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "synthetic-noun-compound-001",
+      "to": "deverbal-er-noun-001",
+      "type": "related-to"
+    },
+    {
+      "from": "synthetic-noun-compound-001",
+      "to": "nom-n-mod-001",
       "type": "related-to"
     },
     {
@@ -10579,6 +16585,60 @@
       "type": "interfaces-with"
     },
     {
+      "from": "temporal-genitive-001",
+      "to": "calendar-deictic-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "temporal-genitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§16.3, 16.5, relations expressed by genitive determination",
+      "bears-on": "projection"
+    },
+    {
+      "from": "temporal-genitive-001",
+      "to": "genitive-s-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "than-reduced-clause-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 13 §§2.1–2.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "than-reduced-clause-001",
+      "to": "comparative-er-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "the-adjective-np-001",
+      "to": "adjective-001",
+      "type": "related-to"
+    },
+    {
+      "from": "the-adjective-np-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §9.3 [29–30]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "the-adjective-np-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.12",
+      "bears-on": "projection"
+    },
+    {
+      "from": "the-adjective-np-001",
+      "to": "fused-head-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "time-away-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -10643,6 +16703,203 @@
       "to": "verb-particle-object-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "time-measure-ago-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 7, p. 632; Ch. 8 §6.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "time-measure-ago-001",
+      "to": "intransitive-preposition-001",
+      "type": "related-to"
+    },
+    {
+      "from": "time-measure-ago-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "time-measure-ago-001",
+      "to": "since-time-anchor-001",
+      "type": "related-to"
+    },
+    {
+      "from": "title-personal-name-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 105",
+      "bears-on": "projection"
+    },
+    {
+      "from": "title-personal-name-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §21 [12i]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "title-personal-name-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "title-personal-name-001",
+      "to": "vocative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "too-degree-infinitival-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 14 §8.4; Ch. 6, degree modification",
+      "bears-on": "projection"
+    },
+    {
+      "from": "too-degree-infinitival-001",
+      "to": "enough-degree-infinitival-001",
+      "type": "related-to"
+    },
+    {
+      "from": "too-degree-infinitival-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§§4.5–4.6, degree and qualification",
+      "bears-on": "projection"
+    },
+    {
+      "from": "too-degree-infinitival-001",
+      "to": "gradation-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "transitive-to-recipient-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 4 §§4.3, 8.2.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "transitive-to-recipient-001",
+      "to": "ditransitive-vp-001",
+      "type": "alternates-with"
+    },
+    {
+      "from": "transitive-to-recipient-001",
+      "to": "goldberg-2011-preemption",
+      "type": "discusses",
+      "locator": "verb bias and dative competition",
+      "bears-on": "projection"
+    },
+    {
+      "from": "transitive-to-recipient-001",
+      "to": "monotransitive-vp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "true-partitive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§7.3–7.6, 9.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "true-partitive-001",
+      "to": "deitality-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "true-partitive-001",
+      "to": "measure-pseudopartitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "true-partitive-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "unconditional-wh-adjunct-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.6; Ch. 11 §5.3.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "unconditional-wh-adjunct-001",
+      "to": "exhaustive-alternative-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "unconditional-wh-adjunct-001",
+      "to": "fused-relative-np-001",
+      "type": "related-to"
+    },
+    {
+      "from": "unless-exceptive-conditional-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §14.4, unless",
+      "bears-on": "projection"
+    },
+    {
+      "from": "unless-exceptive-conditional-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "unless-exceptive-conditional-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "unselected-object-resultative-001",
+      "to": "goldberg-1995",
+      "type": "discusses",
+      "locator": "Ch. 8 §§8.5–8.6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "unselected-object-resultative-001",
+      "to": "goldberg-jackendoff-2004",
+      "type": "discusses",
+      "locator": "§§2–3, unselected object resultatives",
+      "bears-on": "projection"
+    },
+    {
+      "from": "unselected-object-resultative-001",
+      "to": "object-resultative-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "unselected-object-resultative-001",
+      "to": "reflexive-state-goal-001",
+      "type": "related-to"
+    },
+    {
+      "from": "until-time-boundary-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 8 §§6, 7; Ch. 7, adjunct PPs",
+      "bears-on": "projection"
+    },
+    {
+      "from": "until-time-boundary-001",
+      "to": "pp-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "until-time-boundary-001",
+      "to": "since-time-anchor-001",
+      "type": "related-to"
     },
     {
       "from": "verb-number-agreement-001",
@@ -10883,6 +17140,120 @@
       "parthood": "formal"
     },
     {
+      "from": "weak-proper-name-article-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§20.2.1–20.2.2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "weak-proper-name-article-001",
+      "to": "proper-name-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "weak-proper-name-article-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-about-topic-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §7.8 [26i–iv]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "what-about-topic-001",
+      "to": "how-about-proposal-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-about-topic-001",
+      "to": "question-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-if-scenario-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §7.8 [26v]; §10, minor clause uses",
+      "bears-on": "projection"
+    },
+    {
+      "from": "what-if-scenario-001",
+      "to": "if-conditional-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-if-scenario-001",
+      "to": "question-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-np-exclamative-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §§8.1.2, 8.1.4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "what-np-exclamative-001",
+      "to": "clause-analogue-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-np-exclamative-001",
+      "to": "exclamative-clause-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-np-exclamative-001",
+      "to": "exclamative-word-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "what-with-circumstantial-001",
+      "to": "absolute-supplement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "what-with-circumstantial-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 7, p. 626 n. 10",
+      "bears-on": "projection"
+    },
+    {
+      "from": "what-with-circumstantial-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "author draft, §4.3.1 (25–26)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "what-with-circumstantial-001",
+      "to": "pp-001",
+      "type": "related-to"
+    },
+    {
+      "from": "why-not-proposal-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 10 §§7.6, 9.6.1",
+      "bears-on": "projection"
+    },
+    {
+      "from": "why-not-proposal-001",
+      "to": "directive-ostensive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "why-not-proposal-001",
+      "to": "what-if-scenario-001",
+      "type": "related-to"
+    },
+    {
       "from": "with-a-capital-letter-001",
       "to": "letter-case-specification-001",
       "type": "specialization-of"
@@ -10965,6 +17336,23 @@
     {
       "from": "year-name-001",
       "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "zero-plural-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 18 §4.1.3",
+      "bears-on": "projection"
+    },
+    {
+      "from": "zero-plural-001",
+      "to": "grammatical-number-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "zero-plural-001",
+      "to": "plural-s-001",
       "type": "related-to"
     }
   ]

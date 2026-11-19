@@ -1,0 +1,37 @@
+id: definite-cardinal-of-pronoun-001
+name: The Two of Us
+pattern: NP[the + cardinal + PP[of + personal pronoun]]
+type: mixed
+meanings:
+  '1':
+    definition: Identifies a group while explicitly giving its size.
+    details: The four of us can describe the group of four that includes the speaker. If a larger group is salient, the phrase needs a recoverable set of four. Without the, four of us can simply pick an unspecified subset of a larger us-group. The scope of the definite is the group picked out by the whole NP.
+    examples:
+      - form: There were six of us, and [four of us] had bikes.
+        note: Constructed subset with the article absent.
+      - form: I was there with Jo, Lee and Pat. [The four of us] shared a tent.
+        note: Constructed definite whose numeral matches the contextually salient group.
+relatedConstructions:
+  - id: np-def-001
+    relationship: specialization-of
+    notes: The article determines the whole NP.
+  - id: numerative-fused-head-001
+    relationship: related-to
+    notes: Cardinals with of-phrases can occur in ordinary partitive syntax.
+grounds:
+  - source: casa-constructicon
+    locator: record 62
+    relation: discusses
+    bears-on: projection
+    note: Lists several cardinals and personal pronouns with the group-size function.
+  - source: cgel-2002
+    locator: Ch. 5 §7.3, ‘The both of us’
+    relation: discusses
+    bears-on: projection
+    note: Notes the standard cardinal and the less widely accepted both variant.
+kind:
+  provisional: true
+  projection:
+    target: A cardinal with the can count members of an already identified group. Without the, the same numeral and pronoun also admit an unspecified subset of a larger salient group.
+    evidence: CASA records the cardinal and pronoun slots and the group-size reading. CGEL explicitly contrasts the two of us with both of us and dialectal the both of us.
+    confidence: high

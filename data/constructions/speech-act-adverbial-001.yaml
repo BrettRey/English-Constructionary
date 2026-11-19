@@ -1,0 +1,26 @@
+id: speech-act-adverbial-001
+name: Speech-Act Adverbial
+pattern: supplementary adverbial oriented to the utterance act
+type: mixed
+meanings:
+  '1':
+    definition: Characterizes the speaker’s manner or purpose in making the utterance.
+    examples:
+      - form: '[Frankly], the repair won’t last.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: evaluative-sentence-adverb-001
+    relationship: related-to
+  - id: participial-clause-supplement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §18
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Frankly characterizes the speaker’s statement, not the repair's manner of failing. A paraphrase can mention speaking frankly without changing the content asserted.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

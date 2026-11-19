@@ -1,0 +1,45 @@
+id: right-dislocation-001
+name: Right Dislocation with a Pronoun
+pattern: Clause[... overt personal pronounᵢ ...] + NPᵢ
+type: mixed
+meanings:
+  '1':
+    definition: Clarifies or reiterates a referent expressed by a pronoun in the preceding clause nucleus.
+    details: The following NP can disambiguate a pronoun or restate a referent that is already clear. CGEL contrasts a topic that is already evoked or accessible through the prior context with an attorney introduced for the first time, for which right dislocation is infelicitous. The observation concerns this pronoun-linked NP subtype.
+    examples:
+      - form: '[I really like him, your dad.]'
+        note: The final NP specifies the intended referent of him.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §8.2 [11i]
+            relation: attests
+            bears-on: attestation
+      - form: '[It’s fascinating, this book.]'
+        note: From a passage in which the book is already identified.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §8.2 [13ii]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The clause nucleus supplies Head:VP.
+  - id: left-dislocation-001
+    relationship: related-to
+    notes: The left pattern can introduce a new referent.
+  - id: subject-extraposition-001
+    relationship: related-to
+    notes: Extraposition has a different status for the pronoun and the final expression.
+grounds:
+  - source: casa-constructicon
+    locator: record 144
+    relation: discusses
+    bears-on: projection
+    note: Gives a clause-first sequence with the co-referential final NP.
+kind:
+  provisional: true
+  projection:
+    target: Right dislocation favours an accessible referent. It can clarify a choice between already available referents, including when the pronoun is embedded.
+    evidence: CGEL contrasts clarification, reiteration and discourse-new contexts. CASA notes the role of an active topic.
+    confidence: high

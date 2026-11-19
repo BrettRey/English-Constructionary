@@ -1,0 +1,27 @@
+id: demonstrative-distance-001
+name: Deictic Demonstrative Determination
+pattern: NP[Det:this/that or these/those + Nom]
+type: mixed
+meanings:
+  '1':
+    definition: Directs attention to a referent and presents it as proximal or distal in a relevant deictic dimension.
+    examples:
+      - form: Could you pass me [that blue folder] over there?
+        note: Constructed illustration.
+relatedConstructions:
+  - id: np-det-001
+    relationship: specialization-of
+    parthood: formal
+  - id: demonstrative-determinative-fused-head-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.1; Ch. 17 §§5.1–5.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: This and that can select different candidates without a prior noun-phrase antecedent. Spatial distance is one dimension and is not obligatory in discourse-deictic uses.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

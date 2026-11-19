@@ -1,0 +1,27 @@
+id: quasi-modal-be-to-001
+name: Quasi-Modal Be To
+pattern: VP[finite be + to-infinitival]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a requirement, official arrangement, or projected event.
+    examples:
+      - form: Staff [are to report] at eight.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: going-to-future-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §9.11
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The required or arranged reading occurs without a predicative NP or adjective. It can use preterite was/were for a past arrangement without asserting fulfilment.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

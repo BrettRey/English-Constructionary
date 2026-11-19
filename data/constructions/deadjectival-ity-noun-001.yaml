@@ -1,0 +1,37 @@
+id: deadjectival-ity-noun-001
+name: Deadjectival Noun in -ity
+pattern: N[adjectival base + -ity], sometimes with a stem alternation
+type: mixed
+meanings:
+  '1':
+    definition: Names a quality or state associated with the adjective.
+    details: -ity typically stresses the syllable immediately before the ending. It may also alter the end of the base, as in curious and curiosity. Formations cluster with particular adjective types. The corresponding -ness formation typically preserves the base’s shape and stress.
+    examples:
+      - form: '[eccentricity]'
+        note: Existing derivative illustrating stress shift from eccentric and a change in the final consonant.
+      - form: '[curiosity]'
+        note: Existing derivative illustrating shift of stress and the form of the base.
+relatedConstructions:
+  - id: n-common-001
+    relationship: specialization-of
+    notes: The output is a common noun.
+  - id: deadjectival-ness-noun-001
+    relationship: related-to
+    notes: The competing derivation has a different stress and stem profile.
+grounds:
+  - source: casa-constructicon
+    locator: record 153
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes the -ity nominal from -ness.
+  - source: cgel-2002
+    locator: Ch. 19 §5.7.2(i) [55]
+    relation: discusses
+    bears-on: projection
+    note: Documents stress, vowel changes, velar softening and stem alternation.
+kind:
+  provisional: true
+  projection:
+    target: Recognizable -ity derivatives generally have stress just before the suffix. The pattern allows changes to the base that the productive -ness pattern does not.
+    evidence: CGEL gives matched stress and stem contrasts. CASA records -ity separately from -ness.
+    confidence: high

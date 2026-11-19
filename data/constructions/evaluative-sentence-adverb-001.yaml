@@ -1,0 +1,24 @@
+id: evaluative-sentence-adverb-001
+name: Clause-Orientated Evaluative Adjunct
+pattern: evaluative AdvP + clause, often separated prosodically
+type: mixed
+meanings:
+  '1':
+    definition: Expresses the speaker’s evaluation of the reported situation.
+    examples:
+      - form: '[Fortunately], the backup worked.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: evidential-because-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §17
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Fortunately evaluates the situation as a whole. It does not describe a fortunate manner in which the backup operated.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

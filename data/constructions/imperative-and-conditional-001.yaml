@@ -1,0 +1,26 @@
+id: imperative-and-conditional-001
+name: Imperative Plus And with Conditional Force
+pattern: Clause[imperative] + and + declarative consequence
+type: mixed
+meanings:
+  '1':
+    definition: Interprets an imperative-shaped first coordinate as a sufficient condition in context.
+    examples:
+      - form: '[Touch that wire and the alarm will ring].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: imperative-clause-001
+    relationship: related-to
+  - id: if-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §9.5; Ch. 15 §2.2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The first coordinate can warn against touching, with no instruction to do it. The consequent interpretation depends on performing the mentioned act.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

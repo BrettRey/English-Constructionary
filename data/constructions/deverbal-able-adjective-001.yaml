@@ -1,0 +1,37 @@
+id: deverbal-able-adjective-001
+name: Deverbal Adjective in -able
+pattern: Adj[verb base + -able], with related forms in -ible
+type: mixed
+meanings:
+  '1':
+    definition: Characterizes a potential participant of an action by the possibility or suitability of that action.
+    details: Readable normally describes what people can read. The productive transitive pattern is therefore oriented to the base verb’s object. A prepositional verb can supply an oblique participant, as in dependable. Intransitive-base and lexicalized readings, such as perishable, extend beyond the central pattern.
+    examples:
+      - form: The document is [searchable].
+        note: Constructed example. The document is what one can search.
+      - form: A [dependable] source is hard to find.
+        note: Constructed example with depend on as the relevant verb and preposition.
+relatedConstructions:
+  - id: adjective-001
+    relationship: specialization-of
+    notes: The derived form is adjectival.
+  - id: be-passive-001
+    relationship: related-to
+    notes: The central reading is typically paraphrasable with a modal passive.
+grounds:
+  - source: casa-constructicon
+    locator: record 156
+    relation: discusses
+    bears-on: projection
+    note: Registers the -able and -ible adjective family.
+  - source: cgel-2002
+    locator: Ch. 19 §5.8(b)
+    relation: discusses
+    bears-on: projection
+    note: Documents base types, modal interpretation and participant contrasts.
+kind:
+  provisional: true
+  projection:
+    target: For a new transparent formation with a transitive base, the default referent is what can undergo the action. Prepositional verbs can supply a different participant.
+    evidence: CASA registers the -able and -ible family. CGEL describes the productive modal use and records prefixed, oblique and other departures from it.
+    confidence: high

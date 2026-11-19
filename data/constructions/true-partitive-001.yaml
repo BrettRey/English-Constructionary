@@ -1,0 +1,31 @@
+id: true-partitive-001
+name: True Partitive with Of
+pattern: NP[quantificational head or fused head + PP[of + definite/domain-establishing NP]]
+type: mixed
+meanings:
+  '1':
+    definition: Selects a subset from an established domain.
+    examples:
+      - form: They opened [three of the boxes].
+        note: Constructed illustration.
+      - form: They bought [three of the cartons of milk].
+        note: Constructed comparison. Of the cartons supplies an established group of containers. Of milk identifies the contents of each.
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+  - id: deitality-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§7.3–7.6, 9.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The of-phrase supplies the domain counted over. The boxes can be more numerous than three. In three boxes of apples, of apples instead identifies the content or measure domain.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

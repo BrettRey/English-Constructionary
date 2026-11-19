@@ -1,0 +1,32 @@
+id: measure-adjective-001
+name: Measurement with a Scale Adjective
+pattern: measure NP + scale Adj, or [number-unit.SG-scale Adj] before a noun
+type: mixed
+meanings:
+  '1':
+    definition: Gives the position of a referent on a scale such as height, length, or age.
+    details: The same length is expressed by six feet long in a predicate and six-foot-long before a noun. The unit usually has ordinary number inflection in the predicative form and remains singular in the pre-head modifier. Corpus examples show variation in both directions. Only selected scale adjectives take the frame. Fifteen-pound turkey works without an adjective, while fifteen-pound-heavy turkey is excluded in the ordinary pattern.
+    examples:
+      - form: The board is [six feet long].
+        note: Constructed predicative example with plural feet.
+      - form: We ordered a [six-foot-long] board.
+        note: Constructed counterpart with the singular unit and conventional written hyphens.
+relatedConstructions:
+  - id: adjective-001
+    relationship: related-to
+    notes: The adjective supplies the dimension measured.
+  - id: nom-adjp-mod-001
+    relationship: related-to
+    notes: The pre-head variant modifies a following noun.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.13 (82–87)
+    relation: discusses
+    bears-on: projection
+    note: Documents both forms, selection among scale adjectives and exceptions to the ordinary unit number.
+kind:
+  provisional: true
+  projection:
+    target: The placement of the expression predicts a difference in default unit inflection. The frame is selective even among adjectives that denote measurable properties.
+    evidence: The FrameNet team compares predicative and attributive subtypes and gives BNC exceptions to the default number pattern.
+    confidence: high

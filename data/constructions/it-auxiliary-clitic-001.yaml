@@ -1,0 +1,27 @@
+id: it-auxiliary-clitic-001
+name: Clitic It’s in Auxiliary Uses
+pattern: it + contracted is or has
+type: morphological
+meanings:
+  '1':
+    definition: Realizes a reduced auxiliary on the pronoun it.
+    examples:
+      - form: '[It’s] been repaired.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: auxiliary-chain-001
+    relationship: related-to
+    notes: The following participial form helps determine the contracted auxiliary.
+  - id: independent-genitive-pronoun-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 18 §6.2; Ch. 5 §16.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The host and following participial environment distinguish has in It’s been repaired from is in It’s being repaired. Genitive its instead combines with a nominal in its ordinary dependent use.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

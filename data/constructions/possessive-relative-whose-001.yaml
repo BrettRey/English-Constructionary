@@ -1,0 +1,27 @@
+id: possessive-relative-whose-001
+name: Genitive Whose Relative
+pattern: relative[NP[whose + Nom]ᵢ + clause with linked positionᵢ]
+type: syntactic
+meanings:
+  '1':
+    definition: Relativizes the genitive dependent inside a larger NP.
+    examples:
+      - form: I called the engineer [whose report had leaked].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: interfaces-with
+  - id: relative-word-001
+    relationship: contains
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §3.2.5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Whose tracks the antecedent engineer, but the whole NP whose report is the subject of had leaked. The antecedent can also be nonhuman.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

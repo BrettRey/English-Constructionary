@@ -1,0 +1,25 @@
+id: relative-clausal-which-001
+name: Supplementary Which with a Clausal Anchor
+pattern: Clause or larger discourse unit + supplement with relative which
+type: mixed
+meanings:
+  '1':
+    definition: Refers back to a situation or proposition conveyed by an anchor.
+    examples:
+      - form: The train had already left, [which was unfortunate].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: supplementary-relative-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §4, category of the antecedent
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Which can refer to the departure situation as a whole. Number from an incidental NP inside the anchor does not determine the reference of which.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

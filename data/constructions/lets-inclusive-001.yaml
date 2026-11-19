@@ -1,0 +1,27 @@
+id: lets-inclusive-001
+name: Inclusive Let’s Imperative
+pattern: let’s + plain-form VP
+type: mixed
+meanings:
+  '1':
+    definition: Proposes a course of action involving speaker and addressee or the relevant joint group.
+    examples:
+      - form: '[Let’s take a break].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: imperative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: let-permissive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 10 §9.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The preferred negative counterpart can be Let’s not take a break. The ’s form identifies the inclusive pattern and is unavailable in a literal command to release someone.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: infinitival-relative-modifier-001
+name: Infinitival Relative Modifier
+pattern: Nom + to-infinitival with an antecedent-linked gap
+type: mixed
+meanings:
+  '1':
+    definition: Characterizes a referent by a possible or appropriate action involving it.
+    examples:
+      - form: We need a bench [to sit on].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: related-to
+  - id: infinitival-purpose-adjunct-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 12 §5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The bench supplies the complement of on. The relative often has a modal reading and can differ from a purpose adjunct describing why a matrix action occurred.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,29 @@
+id: indirect-report-001
+name: Indirect Speech Report
+pattern: reporting predicate + content clause
+type: mixed
+meanings:
+  '1':
+    definition: Reports propositional or interrogative content from the reporter’s perspective.
+    examples:
+      - form: Jo said [that she would call the next day].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: contains
+    parthood: formal
+  - id: present-backshift-001
+    relationship: related-to
+  - id: direct-quotation-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §9.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Person, tense and calendar anchoring can adapt to the reporting context. The reported clause need not reproduce the words used in the prior utterance.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

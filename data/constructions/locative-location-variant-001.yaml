@@ -1,0 +1,29 @@
+id: locative-location-variant-001
+name: Locative Location-Object Frame
+pattern: VP[verb + location Od + with-PP[material]]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a location as the principal affected object and the material as a with-dependent.
+    examples:
+      - form: They [sprayed the panel with paint].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: monotransitive-vp-001
+    relationship: specialization-of
+    parthood: formal
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§8.3.1, 8.3.3
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-1995
+    locator: Ch. 1, argument-structure alternations
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The location can be the passive subject. The location-object variant favours an affected-region reading, which need not literally cover every part of the site.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

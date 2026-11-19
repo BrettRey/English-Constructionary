@@ -1,0 +1,26 @@
+id: extraposed-relative-001
+name: Postposed Relative Modifier
+pattern: Clause[NP with its relative realized later in the clause]
+type: mixed
+meanings:
+  '1':
+    definition: Separates a relative from its antecedent when packaging allows the nominal to be short and the relative later.
+    examples:
+      - form: Several visitors arrived [who hadn’t registered].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: integrated-relative-modifier-001
+    relationship: related-to
+  - id: heavy-np-shift-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §4, postposed dependents in NP structure; Ch. 12 §3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Who is linked to visitors despite intervening arrived. A matching relative can occur adjacent to the antecedent without changing that dependency.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

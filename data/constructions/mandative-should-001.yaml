@@ -1,0 +1,27 @@
+id: mandative-should-001
+name: Mandative Should
+pattern: content clause[(that) + Subject + should + plain-form VP]
+type: mixed
+meanings:
+  '1':
+    definition: Realizes a requirement or recommendation with a specialized modal.
+    examples:
+      - form: It is essential [that the gate should remain closed].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: subjunctive-mandative-001
+    relationship: alternates-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §7.1.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Should is possible with strongly requiring predicates such as essential. This modal need not weaken the strength of the matrix requirement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

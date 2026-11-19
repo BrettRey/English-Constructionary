@@ -1,0 +1,26 @@
+id: evidential-because-001
+name: Speech-Act or Evidential Because
+pattern: clause + supplementary because-PP
+type: mixed
+meanings:
+  '1':
+    definition: Gives grounds for making the preceding claim or directive.
+    examples:
+      - form: Jo must be home, [because her keys are on the table].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: content-because-adjunct-001
+    relationship: related-to
+  - id: epistemic-perfect-modal-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §12.1, act-related versus content-related cause; §18
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The keys motivate the speaker’s conclusion. Their being on the table need not be what caused Jo to be home.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

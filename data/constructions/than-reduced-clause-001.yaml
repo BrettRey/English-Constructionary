@@ -1,0 +1,24 @@
+id: than-reduced-clause-001
+name: Reduced Than Comparative Clause
+pattern: comparative governor + than + finite clause with constructionally unexpressed element
+type: syntactic
+meanings:
+  '1':
+    definition: Supplies a comparison standard through a subordinate clause with predictable reduction.
+    examples:
+      - form: It took longer [than we had expected it to take].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: comparative-er-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §§2.1–2.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The duration slot corresponding to longer is understood without an overt degree expression. The gap can occur inside a nonfinite complement of the standard clause.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

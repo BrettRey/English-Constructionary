@@ -1,0 +1,32 @@
+id: reflexive-benefactive-ditransitive-001
+name: Reflexive Beneficiary in a Double-Object VP
+pattern: Clause[Subject NPᵢ + V + reflexive indirect objectᵢ + direct object NP]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the subject’s action as securing goods or a resource for the subject.
+    examples:
+      - form: Jo [found herself a quieter room].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: ditransitive-vp-001
+    relationship: interfaces-with
+    notes: Its two postverbal NPs are indirect and direct object.
+  - id: np-pron-reflexive-001
+    relationship: related-to
+    notes: Here the reflexive is indirect rather than direct object.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§4.3, 8.2.1, benefit and receipt
+    relation: discusses
+    bears-on: projection
+  - source: birmingham-english-constructicon
+    locator: record 99, Getting V oneself N
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Jo is understood as the intended beneficiary and room is the acquired resource. In found herself in a quieter room, herself is instead the direct object and the PP locates Jo.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

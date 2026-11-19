@@ -1,0 +1,27 @@
+id: prenominal-all-the-001
+name: Predeterminer All before a Determined NP
+pattern: NP[all + Det + Nom]
+type: syntactic
+meanings:
+  '1':
+    definition: Applies universal quantification outside a following determiner phrase or constituent.
+    examples:
+      - form: They catalogued [all those shells].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: np-det-001
+    relationship: specialization-of
+    parthood: formal
+  - id: each-of-partitive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§7.3, 12
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: All can precede those and the in the same NP. Each and every do not generally occupy that same position before an existing central determiner.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

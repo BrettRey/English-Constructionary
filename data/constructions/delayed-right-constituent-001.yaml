@@ -1,0 +1,37 @@
+id: delayed-right-constituent-001
+name: Delayed Right Constituent in Coordination
+pattern: coordination[XP₁ ... gap + Coordinator + XP₂ ...] + shared right-edge constituent
+type: mixed
+meanings:
+  '1':
+    definition: Expresses shared right-edge material once while contrasting what precedes it.
+    details: In She knew of but never mentioned the proposal, the proposal completes both knew of and mentioned. Its functions differ across the two coordinates. Delay can foreground the contrast between the predicates.
+    examples:
+      - form: She [knew of but never mentioned the proposal].
+        note: Constructed after the CGEL model with a PP complement in one coordinate and a direct object in the other.
+      - form: I am [interested in but worried about the new plan].
+        note: Constructed example where different prepositions precede the delayed NP.
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    notes: The first parts occur in a coordinate structure.
+  - id: coordination-gapping-001
+    relationship: related-to
+    notes: Gapping shares medial material which is pronounced in the first clause.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: author draft, §4.2
+    relation: discusses
+    bears-on: projection
+    note: Lists Shared_completion, also known as right-node raising.
+  - source: cgel-2002
+    locator: Ch. 15 §4.4 [21–22]
+    relation: discusses
+    bears-on: projection
+    note: Shows different syntactic functions for the delayed element.
+kind:
+  provisional: true
+  projection:
+    target: The single pronounced NP can satisfy two distinct local frames. The preposition inside the first coordinate can select that NP even though the second frame takes a direct object.
+    evidence: The CGEL examples control which constituent is delayed and show different complement selections. FrameNet names the Shared_completion construction.
+    confidence: high

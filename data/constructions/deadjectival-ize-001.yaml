@@ -1,0 +1,24 @@
+id: deadjectival-ize-001
+name: Change Verb in -Ize
+pattern: V[adjective base + -ize/-ise]
+type: morphological
+meanings:
+  '1':
+    definition: Forms a verb for causing or undergoing a change connected to the adjectival base.
+    examples:
+      - form: The update should [stabilize] the connection.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: causative-inchoative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19 §5.9(f)
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: In the transparent causative use stable specifies a result. The -ize family also has noun bases and lexicalized meanings beyond this construction.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

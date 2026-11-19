@@ -1,0 +1,27 @@
+id: number-transparent-agreement-001
+name: Agreement through a Number-Transparent Nominal
+pattern: Clause[Subject with number-transparent N + of-PP + finite agreement]
+type: syntactic
+meanings:
+  '1':
+    definition: Allows the number of an embedded complement to determine agreement in a licensed nominal frame.
+    examples:
+      - form: A number of applicants [were waiting].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: verb-number-agreement-001
+    relationship: specialization-of
+    parthood: formal
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §18.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The plural is licensed despite singular number. With the number of applicants, the nominal normally denotes the numerical quantity and takes singular agreement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

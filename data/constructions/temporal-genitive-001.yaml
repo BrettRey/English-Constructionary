@@ -1,0 +1,27 @@
+id: temporal-genitive-001
+name: Temporal Genitive Determiner
+pattern: NP[Det:time-denoting genitive NP + Nom]
+type: mixed
+meanings:
+  '1':
+    definition: Locates the nominal referent or event at a contextually identified time.
+    examples:
+      - form: They cancelled [tomorrow’s inspection].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: genitive-s-001
+    relationship: specialization-of
+    parthood: formal
+  - id: calendar-deictic-np-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §§16.3, 16.5, relations expressed by genitive determination
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Tomorrow dates the event without denoting a participant in the inspecting. The inspector’s inspection can instead relate an argument to the nominal predicate.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

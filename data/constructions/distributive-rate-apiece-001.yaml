@@ -1,0 +1,30 @@
+id: distributive-rate-apiece-001
+name: Distributive Rate with Each or Apiece
+pattern: measure or counted NP + each/apiece, with a group supplied by context
+type: mixed
+meanings:
+  '1':
+    definition: Assigns the stated amount to each unit or participant.
+    examples:
+      - form: The tickets cost [six dollars apiece].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: indefinite-rate-001
+    relationship: related-to
+  - id: floating-distributive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.4
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4.14, rate and denominator variants
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The six dollars is the price of an individual ticket. With six dollars altogether, the same amount instead applies to the whole set.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

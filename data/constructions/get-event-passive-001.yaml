@@ -1,0 +1,26 @@
+id: get-event-passive-001
+name: Get Passive
+pattern: Clause[affected Subject + get + verbal past participle]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the subject as undergoing a passive event, often with subject relevance or affectedness.
+    examples:
+      - form: Jo [got promoted] last week.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: be-passive-001
+    relationship: related-to
+  - id: subject-resultative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §10.1.3, verbal get-passive versus adjectival get
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: An apparent positive outcome can occur, so adverse consequence is unnecessary. The construction can admit an agent by-phrase and contrasts with get plus an ordinary adjective.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

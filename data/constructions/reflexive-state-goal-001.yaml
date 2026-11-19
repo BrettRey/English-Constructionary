@@ -1,0 +1,36 @@
+id: reflexive-state-goal-001
+name: State Goal with a Construction-Licensed Reflexive
+pattern: VP[V + reflexive direct object + PP denoting a resulting state]
+type: mixed
+meanings:
+  '1':
+    definition: Extends a goal expression to a state caused by an activity whose verbal head need not otherwise license the reflexive object.
+    examples:
+      - form: The child [cried herself to sleep].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: caused-motion-001
+    relationship: specialization-of
+    parthood: formal
+    notes: A state is construed as a goal.
+  - id: np-pron-reflexive-001
+    relationship: contains
+    parthood: formal
+  - id: object-resultative-001
+    relationship: related-to
+    notes: CGEL distinguishes these PPs from adjective and noun phrase predicatives.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 17 §3.1.1 [14ia]; Ch. 4 §§5.2–5.3
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-1995
+    locator: Chs. 7–8, caused motion and resultative constructions
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: To sleep describes the state reached, not the destination of an actual motion. Omitting the PP removes the interpretation that licenses the reflexive object after cry.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

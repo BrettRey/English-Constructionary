@@ -1,0 +1,27 @@
+id: backshift-past-perfect-001
+name: Past Perfect Anteriority
+pattern: Clause[preterite had + past-participial VP] with a past temporal anchor
+type: mixed
+meanings:
+  '1':
+    definition: Places the event or state before a distinct past reference point.
+    examples:
+      - form: When I arrived, Jo [had already left].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: perfect-have-001
+    relationship: specialization-of
+    parthood: formal
+  - id: present-backshift-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §§5.1, 5.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The departure precedes the arrival on the ordinary reading. The reference point can be supplied by the surrounding narrative without a separate time adjunct.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,28 @@
+id: proposition-affirmation-001
+name: Proposition Affirmation with Fronted So
+pattern: Clause[so + Subject + finite auxiliary]
+type: mixed
+meanings:
+  '1':
+    definition: Confirms or acknowledges the proposition just put into play.
+    examples:
+      - form: “You did promise.” “[So I did].”
+        note: Constructed illustration.
+      - form: “You did promise.” “[So did Jo].”
+        note: Constructed comparison. Inversion instead adds Jo as another promiser.
+relatedConstructions:
+  - id: so-neither-inversion-001
+    relationship: related-to
+  - id: auxiliary-vp-ellipsis-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §3.2; Ch. 17, anaphoric so
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The same subject normally resumes the prior assertion, with subject before auxiliary. Inverted so did I typically adds a parallel case instead.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

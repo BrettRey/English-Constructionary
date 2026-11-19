@@ -1,0 +1,27 @@
+id: light-verb-event-001
+name: Light Verb with an Event Nominal
+pattern: VP[light V + Od:NP[event]]
+type: mixed
+meanings:
+  '1':
+    definition: Packages an event in a nominal while the verbal head carries tense and complementation.
+    examples:
+      - form: We [took a quick look] at the charts.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: monotransitive-vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: cognate-event-object-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 4 §§7.1–7.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The nominal can take attributive modification or be counted, as in two quick looks. Its lexical collocation with the light verb constrains substitution.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

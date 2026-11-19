@@ -1,0 +1,24 @@
+id: infinitival-result-adjunct-001
+name: Infinitival of Subsequent Outcome
+pattern: Clause + supplementary to-infinitival
+type: mixed
+meanings:
+  '1':
+    definition: Presents a later situation as an outcome or unexpected sequel.
+    examples:
+      - form: Jo opened the parcel [only to find it empty].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: infinitival-purpose-adjunct-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §9 [3ii]; Ch. 8 §12.4, result
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The finding is presented as having occurred in the narrative. Expanding to in order to changes the reading to purpose.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

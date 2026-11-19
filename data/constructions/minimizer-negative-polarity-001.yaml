@@ -1,0 +1,30 @@
+id: minimizer-negative-polarity-001
+name: Minimizer under Non-Affirmative Polarity
+pattern: minimal quantity expression in a negative or otherwise licensed context
+type: mixed
+meanings:
+  '1':
+    definition: Uses a minimal unit to emphasize absence of any relevant amount.
+    examples:
+      - form: They didn’t [budge an inch].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: negative-polarity-ever-001
+    relationship: related-to
+  - id: extent-measure-np-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §4.1, minimizers
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4.4, polarity contexts
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Under negation even the minimal unit is denied. An inch can otherwise denote a literal distance without that emphatic interpretation.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

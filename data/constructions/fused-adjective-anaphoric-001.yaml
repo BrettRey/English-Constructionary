@@ -1,0 +1,33 @@
+id: fused-adjective-anaphoric-001
+name: Anaphoric Adjective in a Fused-Head NP
+pattern: NP[Det + AdjP with a contextually supplied nominal description]
+type: mixed
+meanings:
+  '1':
+    definition: Uses a modifier to distinguish a referent while leaving the descriptive noun recoverable.
+    examples:
+      - form: I took the dry cloth and left [the damp].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: fused-head-001
+    relationship: specialization-of
+    parthood: formal
+  - id: the-adjective-np-001
+    relationship: related-to
+  - id: pro-nominal-one-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §9.3
+    relation: discusses
+    bears-on: projection
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4.12.2, anaphoric subtype
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The inferred kind comes from cloth, and agreement follows the recovered nominal. The human-class reading of the wealthy instead needs no such antecedent.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

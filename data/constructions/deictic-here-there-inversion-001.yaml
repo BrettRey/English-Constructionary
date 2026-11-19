@@ -1,0 +1,28 @@
+id: deictic-here-there-inversion-001
+name: Deictic Here or There with Inversion
+pattern: Clause[stressed locative here/there + V + full NP], or here/there + pronoun + V
+type: mixed
+meanings:
+  '1':
+    definition: Draws attention to an arrival, presence or departure in the relevant perceptual setting.
+    examples:
+      - form: '[Here comes the bus].'
+        note: Constructed illustration.
+      - form: '[Here it comes].'
+        note: Constructed comparison. Ordinary order when the subject is a personal pronoun.
+relatedConstructions:
+  - id: presentational-dependent-inversion-001
+    relationship: related-to
+  - id: presentational-there-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §5.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: A full NP typically follows come. A personal pronoun occurs before it in Here it comes. The locative can receive pointing stress, unlike the dummy subject of an existential.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

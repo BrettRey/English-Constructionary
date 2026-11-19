@@ -1,0 +1,27 @@
+id: comparative-factor-001
+name: Multiplicative Measure Comparison
+pattern: multiplier + as + gradable expression + as-phrase
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a ratio between quantities on a scale.
+    examples:
+      - form: This cabinet is [twice as deep as that one].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: equative-as-as-001
+    relationship: specialization-of
+    parthood: formal
+  - id: differential-measure-comparative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §§4.3–4.4
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Twice measures the ratio of depths rather than repetition of the cabinet state. Twice as deep fixes a ratio in a way that two centimetres deeper does not.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,26 @@
+id: floating-distributive-001
+name: Floating Each
+pattern: Clause[plural participant NP + separately positioned each]
+type: mixed
+meanings:
+  '1':
+    definition: Distributes the predication over individual members associated with a nearby argument.
+    examples:
+      - form: The three hikers [each carried a radio].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: each-of-partitive-001
+    relationship: related-to
+  - id: subject-determiner-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.4; Ch. 8, distributive adjuncts
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Each can follow the subject across a finite auxiliary in The hikers had each carried a radio. The linked NP can have its own determiner and is not contained in each.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

@@ -1,0 +1,27 @@
+id: infinitival-open-interrogative-001
+name: Infinitival Open Interrogative
+pattern: interrogative XP + to-infinitival with a linked gap
+type: mixed
+meanings:
+  '1':
+    definition: Presents an unresolved choice about an envisaged action.
+    examples:
+      - form: They discussed [which route to take].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: open-interrogative-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: for-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §5.3.5; Ch. 14 §8.5
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Which route supplies the missing object and the action is prospective or modal. The corresponding finite question can ask instead what was actually done.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

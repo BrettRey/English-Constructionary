@@ -1,0 +1,28 @@
+id: infinitival-purpose-adjunct-001
+name: Infinitival Purpose Adjunct
+pattern: Clause + to-infinitival adjunct
+type: mixed
+meanings:
+  '1':
+    definition: Presents a desired outcome as the purpose of the main situation.
+    examples:
+      - form: Jo borrowed the van [to move the chairs].
+        note: Constructed illustration.
+      - form: Jo borrowed the van [to move the chairs], but the plan fell through.
+        note: Constructed comparison. The purpose can remain unrealized.
+relatedConstructions:
+  - id: infinitival-result-adjunct-001
+    relationship: related-to
+  - id: for-infinitival-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 14 §9; Ch. 8 §12.2, purpose
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The chair-moving need never occur. The clause can be expanded with in order, unlike many result infinitivals that report a realized later event.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

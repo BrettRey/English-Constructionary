@@ -1,0 +1,27 @@
+id: content-because-adjunct-001
+name: Content-Level Because Adjunct
+pattern: PP[because + finite clause] modifying predication
+type: mixed
+meanings:
+  '1':
+    definition: Presents a circumstance as the reason for the event or state asserted.
+    examples:
+      - form: Jo left [because the room was too cold].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: pp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: evidential-because-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §§12.1–12.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The cold explains the leaving on the content reading. In the reasoning use of because, its clause can instead supply evidence for making the assertion.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

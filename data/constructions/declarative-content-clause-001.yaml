@@ -1,0 +1,40 @@
+id: declarative-content-clause-001
+name: Declarative Content Clause
+pattern: Subordinate Clause[(that) + declarative clause nucleus]
+type: syntactic
+meanings:
+  '1':
+    definition: Presents propositional content as part of a larger construction.
+    details: That can be optional after a verb such as say or in subject extraposition. It is required in ordinary fully expressed initial clausal subjects. Whether the proposition is reported, presupposed, or questioned depends on the matrix construction.
+    examples:
+      - form: '[That they were lying] is now quite obvious.'
+        note: Initial clausal subject requires that in this example.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 11 §3.1 [3i]
+            relation: attests
+            bears-on: attestation
+      - form: I believe [(that) they were lying].
+        note: Constructed post-verbal complement. The bracketed that itself can be omitted.
+relatedConstructions:
+  - id: declarative-clause-001
+    relationship: specialization-of
+    notes: The subordinate pattern preserves declarative order in the nucleus.
+  - id: subject-extraposition-001
+    relationship: related-to
+    notes: Extraposition creates one position in which that is often optional.
+  - id: integrated-relative-modifier-001
+    relationship: related-to
+    notes: Both can be marked with that. The relative has a link to a nominal antecedent.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §§3.1, 4
+    relation: discusses
+    bears-on: projection
+    note: Documents context-sensitive marking and functions of declarative content clauses.
+kind:
+  provisional: true
+  projection:
+    target: The same declarative content requires that in a canonical initial subject and can omit it in the corresponding extraposed subject.
+    evidence: CGEL compares the same proposition and matrix predicate with the content clause in those two positions. CASA’s it-that record is one context for the broader pattern.
+    confidence: high

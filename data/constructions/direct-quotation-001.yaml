@@ -1,0 +1,26 @@
+id: direct-quotation-001
+name: Direct Quotation with Reporting Predicate
+pattern: quotation + reporting predicate or reporting predicate + quotation
+type: mixed
+meanings:
+  '1':
+    definition: Presents words as directly voiced or displayed against a reporting frame.
+    examples:
+      - form: '[“I’ll call tomorrow,” Jo said].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: indirect-report-001
+    relationship: related-to
+  - id: closed-interrogative-clause-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §9.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: I and tomorrow are anchored to the quoted speech. A verbal question can retain root inversion inside the quote, unlike the ordinary indirect question complement.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

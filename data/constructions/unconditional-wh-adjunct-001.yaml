@@ -1,0 +1,26 @@
+id: unconditional-wh-adjunct-001
+name: Open Exhaustive Conditional
+pattern: adjunct[interrogative XP or wh-ever + finite clause]
+type: mixed
+meanings:
+  '1':
+    definition: Makes the main claim hold across values for an open variable.
+    examples:
+      - form: '[Whatever Jo suggests], we need a vote.'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: exhaustive-alternative-conditional-001
+    relationship: related-to
+  - id: fused-relative-np-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.6; Ch. 11 §5.3.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The adjunct does not fill a nominal argument role. The main claim is to hold across suggestions, unlike an object fused relative denoting the suggestion itself.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

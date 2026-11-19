@@ -1,0 +1,27 @@
+id: habitual-used-to-001
+name: Habitual Used To
+pattern: VP[used to + plain form]
+type: mixed
+meanings:
+  '1':
+    definition: Presents a habitual situation or state as characteristic of a past period.
+    examples:
+      - form: The shop [used to close] at noon.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    parthood: formal
+  - id: past-tense-ed-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 3 §2.5.6, used to; Ch. 18 §6.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Used to can describe a past state, as in Jo used to own it. The present counterpart use to does not express a parallel current habit in ordinary affirmative clauses.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

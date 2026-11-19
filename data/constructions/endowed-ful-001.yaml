@@ -1,0 +1,31 @@
+id: endowed-ful-001
+name: Adjective in -Ful
+pattern: Adj[typically nominal base + -ful]
+type: morphological
+meanings:
+  '1':
+    definition: Characterizes something as having or displaying the substance or property associated with the base.
+    examples:
+      - form: The chair gave a [thoughtful] reply.
+        note: Constructed illustration.
+relatedConstructions:
+  - id: adjective-001
+    relationship: specialization-of
+    parthood: formal
+  - id: privative-less-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 19 §5.8(i); CASA record for adjectival -ful
+    relation: discusses
+    bears-on: projection
+  - source: casa-constructicon
+    locator: record 155
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The output is adjectival and can modify reply. Noun formations like cupful have a separate measure interpretation and can take plural morphology.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

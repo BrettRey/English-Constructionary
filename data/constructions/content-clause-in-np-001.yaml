@@ -1,0 +1,32 @@
+id: content-clause-in-np-001
+name: Noun with a Declarative Content Complement
+pattern: Nom[N + finite content clause]
+type: mixed
+meanings:
+  '1':
+    definition: Supplies the propositional content associated with a noun such as claim or fact.
+    examples:
+      - form: The [claim that Jo knew the code] surprised us.
+        note: Constructed illustration.
+      - form: The claim [that Jo rejected] surprised us.
+        note: Constructed comparison. Integrated relative with a missing object corresponding to claim.
+relatedConstructions:
+  - id: nom-001
+    relationship: specialization-of
+    parthood: formal
+  - id: declarative-content-clause-001
+    relationship: contains
+    parthood: formal
+  - id: integrated-relative-modifier-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §4.5; Ch. 5 §14, complements
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The embedded knew the code has no gap linked to claim. In the claim that Jo rejected, the matching string that Jo rejected instead has an object gap.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

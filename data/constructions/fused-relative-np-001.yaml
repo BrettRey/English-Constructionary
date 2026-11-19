@@ -1,0 +1,42 @@
+id: fused-relative-np-001
+name: Fused Relative NP
+pattern: NP[relative expressionᵢ + ... linked gapᵢ ...]
+type: mixed
+meanings:
+  '1':
+    definition: Identifies a person, thing, or quantity through the relation expressed inside the NP.
+    details: In what she wrote, the initial expression supplies both the nominal reference and a dependent of wrote. The resulting NP can denote written material. The same word sequence can form an embedded interrogative about the identity of that material. In subject position a plural fused relative licenses plural agreement, whereas a clausal subject takes default singular agreement.
+    examples:
+      - form: I really liked [what she wrote].
+        note: Fused relative contrasted with the interrogative after wonder.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 12 §6.2 [11i–ii]
+            relation: attests
+            bears-on: attestation
+      - form: '[What books she has] are in the attic.'
+        note: The NP has plural agreement despite containing a finite clause.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 12 §6.1 [4b]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    notes: The whole expression distributes as an NP.
+  - id: relative-word-001
+    relationship: related-to
+    notes: A relative expression helps identify the nominal referent.
+  - id: open-interrogative-clause-001
+    relationship: related-to
+    notes: The same string can express an embedded question in another construction.
+  - id: pseudo-cleft-001
+    relationship: related-to
+    notes: The variable expression of a pseudo-cleft is a fused relative.
+kind:
+  provisional: true
+  projection:
+    target: Identical-looking subordinate strings can differ in agreement and complement distribution. A plural fused relative can control plural agreement where an open interrogative cannot.
+    evidence: CGEL uses agreement, extraposition and selection as diagnostics independent of the referential contrast. The NP is also the variable expression in the CASA wh-cleft.
+    confidence: high

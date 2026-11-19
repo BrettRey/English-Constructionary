@@ -1,0 +1,24 @@
+id: same-as-comparison-001
+name: Identity Comparison with Same … As
+pattern: NP[the same + nominal] + as-standard
+type: mixed
+meanings:
+  '1':
+    definition: Compares items for identity of referent or identity of relevant type.
+    examples:
+      - form: We chose [the same model as Lee].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: equative-as-as-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 13 §5.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The same model can identify a shared model without asserting that we bought one and the same physical object. As supplies the standard of comparison.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

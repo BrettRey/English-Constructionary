@@ -1,0 +1,26 @@
+id: anaphoric-propositional-not-001
+name: Anaphoric Not with an Attitude Predicate
+pattern: licensed predicate + not
+type: mixed
+meanings:
+  '1':
+    definition: Picks up the negative counterpart of a prior proposition.
+    examples:
+      - form: “Is the screen broken?” “I [hope not].”
+        note: Constructed illustration.
+relatedConstructions:
+  - id: anaphoric-propositional-so-001
+    relationship: related-to
+  - id: negative-raising-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §7.2; Ch. 17 §7.7.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Not supplies the content that the screen is not broken. I don’t hope so can instead negate the hoping, and compatibility of the standalone not varies by predicate.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

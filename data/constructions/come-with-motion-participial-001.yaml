@@ -1,0 +1,42 @@
+id: come-with-motion-participial-001
+name: Come with a Motion or Sound Participial
+pattern: VP[Head:come + V-ing expression + (path expression)]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an approach with its manner or accompanying sound.
+    details: In came running, running supplies the manner. In came roaring past, roaring supplies sound during the movement and past supplies the path. The subject participates in the motion and the activity or sound. Compare came looking for us, where the participial can instead describe a purpose. This entry covers the manner and sound reading with come.
+    examples:
+      - form: Sally [came running excitedly into the room].
+        note: Excerpt from the documented example. Running supplies manner.
+        grounds:
+          - source: fau-patel-come-ing
+            locator: example A
+            relation: attests
+            bears-on: attestation
+      - form: '[came roaring past]'
+        note: Excerpt from a description of tanks. Roaring supplies the sound and past the path.
+        grounds:
+          - source: fau-patel-come-ing
+            locator: example B
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: Both the participial and any path expression are part of the motion description.
+  - id: goal-complement-001
+    relationship: related-to
+    notes: A goal expression can specify the destination of the movement.
+grounds:
+  - source: fanego-motion-participial
+    locator: §§7–8, productivity and grammatical properties
+    relation: discusses
+    bears-on: projection
+    note: Documents the motion frame and the distribution of manner and sound participles.
+kind:
+  provisional: true
+  projection:
+    target: A sound verb can describe how the movement unfolds, with a path expression that describes the movement rather than the direction of the sound.
+    evidence: Patel’s Research Constructicon entry gives motion and sound examples. Fanego traces the corpus distribution of the broader movement-plus-participial pattern.
+    confidence: high

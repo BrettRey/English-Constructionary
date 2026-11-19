@@ -1,0 +1,27 @@
+id: only-if-restriction-001
+name: Necessary Condition Only If
+pattern: (main clause) + only if + finite clause
+type: mixed
+meanings:
+  '1':
+    definition: Restricts the circumstances in which a consequence holds or a permission applies.
+    examples:
+      - form: We’ll go [only if the ferry runs].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: if-conditional-001
+    relationship: specialization-of
+    parthood: formal
+  - id: even-if-concessive-conditional-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 8 §14.1.3
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: The ferry running is required for going. Its running alone need not guarantee going, since further conditions can remain open.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

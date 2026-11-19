@@ -1,0 +1,37 @@
+id: had-it-up-to-here-001
+name: Have Had It Up to Here
+pattern: Clause[experiencer + perfect have had it up to here + (with + stimulus NP)]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the speaker or reported experiencer as having reached a limit of tolerance.
+    details: Here locates a figurative threshold. A gesture can give it a physical locus, and the idiom is also available in writing. The with-phrase can identify what has become intolerable. A literal liquid-level description lacks the experiencer and tolerance interpretation.
+    examples:
+      - form: We have [had it up to here with typical politicians].
+        note: Excerpt from the annotated FAU example with an explicit stimulus.
+        grounds:
+          - source: fau-iabdounane-up-to-here
+            locator: verbal pattern, example A
+            relation: attests
+            bears-on: attestation
+      - form: '[I’ve had it up to here].'
+        note: Constructed example where the stimulus is clear in context.
+relatedConstructions:
+  - id: vp-001
+    relationship: related-to
+    notes: The core verbal expression has a largely fixed lexical form.
+  - id: perfect-have-001
+    relationship: related-to
+    notes: The canonical form of this idiom has perfect have.
+grounds:
+  - source: fau-iabdounane-up-to-here
+    locator: verbal pattern and inherited gesture variants
+    relation: discusses
+    bears-on: projection
+    note: Records the negative-stimulus role and the threshold reading.
+kind:
+  provisional: true
+  projection:
+    target: The with-phrase identifies the source of frustration. An optional height gesture can highlight the threshold, while a distance phrase does not freely substitute for here with the same idiomatic reading.
+    evidence: The FAU records distinguish the verbal idiom from two established gesture combinations and give an example with an explicit with-phrase.
+    confidence: high

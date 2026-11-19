@@ -1,0 +1,27 @@
+id: group-genitive-001
+name: Phrasal Genitive at the NP Edge
+pattern: NP[Determiner:genitive extended NP whose rightmost host is not its nominal head + Nom]
+type: syntactic
+meanings:
+  '1':
+    definition: Places genitive marking at the right edge of a possessor expression.
+    examples:
+      - form: It was [the person next door’s ladder].
+        note: Constructed illustration.
+relatedConstructions:
+  - id: genitive-s-001
+    relationship: specialization-of
+    parthood: formal
+  - id: np-det-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §16.6
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Door is the rightmost host of the marker, though the ladder is associated with the person. The possessor reading is determined by the whole genitive NP.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

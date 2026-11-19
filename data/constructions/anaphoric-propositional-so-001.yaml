@@ -1,0 +1,26 @@
+id: anaphoric-propositional-so-001
+name: Anaphoric So with an Attitude Predicate
+pattern: licensed predicate + so
+type: mixed
+meanings:
+  '1':
+    definition: Picks up a prior proposition as the content of an attitude or utterance.
+    examples:
+      - form: “Are the keys inside?” “I [think so].”
+        note: Constructed illustration.
+relatedConstructions:
+  - id: lexical-do-so-anaphor-001
+    relationship: related-to
+  - id: proposition-affirmation-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 9 §7.2; Ch. 17 §7.7.2
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: So is interpreted as the proposition that the keys are inside. Substitution of do so gives an action anaphor and fails to express that content in this frame.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

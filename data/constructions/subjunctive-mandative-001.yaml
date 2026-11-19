@@ -1,0 +1,29 @@
+id: subjunctive-mandative-001
+name: Mandative Subjunctive
+pattern: content clause[(that) + Subject + plain-form V]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the content of a requirement, recommendation, or request.
+    examples:
+      - form: They requested [that the gate remain closed].
+        note: Constructed illustration.
+      - form: They requested [that the gate not be opened].
+        note: Constructed comparison. The subjunctive uses plain be after not, without support from do.
+relatedConstructions:
+  - id: declarative-content-clause-001
+    relationship: specialization-of
+    parthood: formal
+  - id: mandative-should-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 11 §§7.1–7.1.1
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Remain does not carry third-person singular marking. With negative not the plain form can occur without finite do, as in that it not remain closed.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium

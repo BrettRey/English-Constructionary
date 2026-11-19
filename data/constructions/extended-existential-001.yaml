@@ -1,0 +1,27 @@
+id: extended-existential-001
+name: Extended Existential with a Predicate
+pattern: Clause[dummy there + be + pivot NP + integrated location or secondary predication]
+type: mixed
+meanings:
+  '1':
+    definition: Introduces a referent and characterizes its position or current situation.
+    examples:
+      - form: '[There were two alarms ringing].'
+        note: Constructed illustration.
+relatedConstructions:
+  - id: existential-there-001
+    relationship: specialization-of
+    parthood: formal
+  - id: absolute-with-predication-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §6.2.1(b)–(e)
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: Ringing predicates an activity of the alarms. A free event adjunct can instead modify the whole existential assertion without predicating a property of the pivot.
+    evidence: See the cited discussion and the constructed illustration.
+    confidence: medium
