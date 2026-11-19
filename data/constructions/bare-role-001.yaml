@@ -49,7 +49,7 @@ meanings:
         note: "Constructed comparison. In ordinary standard usage, became lawyer is degraded on the professional-class reading."
   '3':
     definition: Ascribes a relational or ceremonial role in a licensed frame.
-    details: "A following relational dependent can specify whom the role is held in relation to. This use is limited to independently available role expressions. It is distinct from using a kin term as a form of address or as a standing name."
+    details: "A following relational dependent can specify whom the role is held in relation to. This use is limited to independently available role expressions. It is distinct from using a kin term as a form of address or as a standing name. Holding a kin role doesn't confer the kin term as a designation: Schneider and Homans report that when a child is reared from infancy by an aunt playing a maternal role, she “is still not called ‘mother’” (1955: 1203)."
     examples:
       - form: "They asked Lee to be [godfather to their son]."
         note: "Constructed relational example. The to-phrase supplies the other participant."
@@ -126,11 +126,17 @@ grounds:
     relation: adjudicates
     bears-on: category-assignment
     note: "Kin nouns in relational predicatives (father of the student) are instances of meaning 3; kin terms used as names (Dad called) are not, and belong to strong-proper-name-001."
+  - source: schneider-homans-1955
+    locator: "p. 1203"
+    relation: discusses
+    bears-on: projection
+    note: "An aunt who raises a child in a maternal role isn't thereby called mother: the role and the designation come apart."
 kind:
   provisional: true
   boundaries:
     known_boundary_items:
       - "Dad called, but Sam answered (constructed). Dad identifies a person as subject when the family uses it as a name: an instance of strong-proper-name-001, not of this construction."
+      - "Captain called, said of Lee, a former captain the team still calls Captain, while Sam holds the post (constructed). Captain identifies Lee, the captain identifies Sam, and Lee is captain is false: the designation outlasts the tenure, so the referential use belongs to strong-proper-name-001, not to this construction."
   projection:
     target: "In ordinary standard English, with a reading that ascribes an assignment or gives its content, a nominal such as treasurer can remain bare in She stayed treasurer, They appointed her treasurer, and As treasurer, she signed. Reuse as a stand-alone referential object, as in They questioned the treasurer, normally calls for a determiner. The same bare office ascription can apply to more than one holder."
     evidence: "CGEL compares the same noun in predicative and object positions and documents the prepositional and supplementary uses. The Arizona State report documents shared tenure. Whether a counterpart with the preserves the bare reading depends on the frame and context."

@@ -185,6 +185,12 @@
       "type": "syntactic"
     },
     {
+      "id": "berezowski-2021",
+      "kind": "source",
+      "label": "Berezowski, Leszek (2021), Strange bedfellows: Non-metonymic English proper names and the indefinite article. Finnish Journal of Linguistics 34, 7–37",
+      "type": "paper"
+    },
+    {
       "id": "birmingham-english-constructicon",
       "kind": "source",
       "label": "Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham",
@@ -280,6 +286,12 @@
       "label": "Caused-Motion Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "cbs-2001-giuliani",
+      "kind": "source",
+      "label": "CBS News (18 June 2001), No Answers In NYC Fire",
+      "type": "document"
     },
     {
       "id": "cgel-2002",
@@ -1110,6 +1122,12 @@
       "type": "mixed"
     },
     {
+      "id": "halm-2022",
+      "kind": "source",
+      "label": "Halm, Tamás (2022), Modified pronouns and split agreement: the syntax of virtual performatives. NELS 52, vol. 1, 319–329. Amherst, MA: GLSA",
+      "type": "paper"
+    },
+    {
       "id": "harjo-crazy-brave-spl",
       "kind": "source",
       "label": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
@@ -1234,6 +1252,12 @@
       "kind": "construction",
       "label": "Indefinite Construction",
       "type": "semantic"
+    },
+    {
+      "id": "indefinite-modified-name-001",
+      "kind": "construction",
+      "label": "Indefinite NP with a Modified Personal Name",
+      "type": "mixed"
     },
     {
       "id": "indefinite-rate-001",
@@ -1382,6 +1406,12 @@
       "id": "kay-fillmore-1999",
       "kind": "source",
       "label": "Kay, Paul & Charles J. Fillmore (1999), Grammatical Constructions and Linguistic Generalizations: The What's X Doing Y? Construction. Language 75(1), 1–33",
+      "type": "paper"
+    },
+    {
+      "id": "kemp-hengeveld-2022",
+      "kind": "source",
+      "label": "Kemp, Lois & Kees Hengeveld (2022), English evidential -ly adverbs in the noun phrase from a functional perspective. Open Linguistics 8(1), 573–592",
       "type": "paper"
     },
     {
@@ -4505,6 +4535,12 @@
       "type": "syntactic"
     },
     {
+      "id": "modified-personal-pronoun-001",
+      "kind": "construction",
+      "label": "Adjectivally Modified Personal Pronoun NP",
+      "type": "mixed"
+    },
+    {
       "id": "monotransitive-vp-001",
       "kind": "construction",
       "label": "Monotransitive VP",
@@ -5722,6 +5758,12 @@
       "example": "That will do."
     },
     {
+      "id": "vandelanotte-willemse-2002",
+      "kind": "source",
+      "label": "Vandelanotte, Lieven & Peter Willemse (2002), Restrictive and non-restrictive modification of proprial lemmas. Word 53(1), 9–36",
+      "type": "paper"
+    },
+    {
       "id": "verb-number-agreement-001",
       "kind": "construction",
       "label": "Verb Number Agreement",
@@ -6495,6 +6537,13 @@
       "from": "bare-role-001",
       "to": "pp-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "schneider-homans-1955",
+      "type": "discusses",
+      "locator": "p. 1203",
+      "bears-on": "projection"
     },
     {
       "from": "bare-role-001",
@@ -9853,6 +9902,70 @@
       "to": "reynolds-deitality",
       "type": "discusses",
       "locator": "Deital form and interpretation, including non-deital residual cases",
+      "bears-on": "projection"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "berezowski-2021",
+      "type": "attests",
+      "locator": "§5, pp. 19–20 [12], from COCA",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "berezowski-2021",
+      "type": "discusses",
+      "locator": "§5, Tables 1–2 and [8–14], and §7",
+      "bears-on": "projection"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "cbs-2001-giuliani",
+      "type": "attests",
+      "locator": "Paragraph before the quotation about Father’s Day",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §20.3 [5ii], §20.4 [8]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "depictive-predication-001",
+      "type": "related-to"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "kemp-hengeveld-2022",
+      "type": "attests",
+      "locator": "§7 [62], from the GB section of NOW, 23 February 2017",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "np-det-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "proper-name-secondary-use-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "semantic"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "indefinite-modified-name-001",
+      "to": "vandelanotte-willemse-2002",
+      "type": "discusses",
+      "locator": "pp. 27–28 [49], pp. 31–33, Tables 1–2",
       "bears-on": "projection"
     },
     {
@@ -14082,6 +14195,68 @@
       "to": "vp-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §§10.2, 17.2.1, pp. 429–430 and 486",
+      "bears-on": "projection"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "halm-2022",
+      "type": "attests",
+      "locator": "§10 [31a]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "halm-2022",
+      "type": "attests",
+      "locator": "§4 [6b]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "halm-2022",
+      "type": "cites",
+      "locator": "§8 [24a]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "halm-2022",
+      "type": "discusses",
+      "locator": "§§4, 8–10 [6], [23–31]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "indefinite-modified-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "np-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "np-det-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "personal-determiner-001",
+      "type": "related-to"
+    },
+    {
+      "from": "modified-personal-pronoun-001",
+      "to": "proper-name-secondary-use-001",
+      "type": "related-to"
     },
     {
       "from": "monotransitive-vp-001",

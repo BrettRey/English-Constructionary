@@ -53,6 +53,7 @@ families:
     members:
       - adjective-001
       - degree-001
+      - modified-personal-pronoun-001
       - subject-genitive-superlative-001
       - so-nominal-predication-001
       - np-property-value-001
@@ -122,6 +123,7 @@ families:
   personal-naming:
     members:
       - strong-proper-name-001
+      - indefinite-modified-name-001
       - paired-np-introduction-001
       - title-personal-name-001
       - kin-title-name-001

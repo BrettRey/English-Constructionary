@@ -255,3 +255,25 @@ sources:
     type: paper
     citation: "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208"
     url: https://www.jstor.org/stable/665964
+  halm-2022:
+    type: paper
+    citation: "Halm, Tamás (2022), Modified pronouns and split agreement: the syntax of virtual performatives. NELS 52, vol. 1, 319–329. Amherst, MA: GLSA"
+    url: https://www.researchgate.net/publication/360162060_Modified_pronouns_and_split_agreement_the_syntax_of_virtual_performatives
+  berezowski-2021:
+    type: paper
+    citation: "Berezowski, Leszek (2021), Strange bedfellows: Non-metonymic English proper names and the indefinite article. Finnish Journal of Linguistics 34, 7–37"
+    url: https://journal.fi/finjol/article/download/107674/67971
+  vandelanotte-willemse-2002:
+    type: paper
+    citation: "Vandelanotte, Lieven & Peter Willemse (2002), Restrictive and non-restrictive modification of proprial lemmas. Word 53(1), 9–36"
+    doi: 10.1080/00437956.2002.11432522
+    url: https://www.tandfonline.com/doi/pdf/10.1080/00437956.2002.11432522
+  kemp-hengeveld-2022:
+    type: paper
+    citation: "Kemp, Lois & Kees Hengeveld (2022), English evidential -ly adverbs in the noun phrase from a functional perspective. Open Linguistics 8(1), 573–592"
+    doi: 10.1515/opli-2022-0208
+    url: https://www.degruyterbrill.com/document/doi/10.1515/opli-2022-0208/html
+  cbs-2001-giuliani:
+    type: document
+    citation: "CBS News (18 June 2001), No Answers In NYC Fire"
+    url: https://www.cbsnews.com/news/no-answers-in-nyc-fire/

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 const yaml = require('js-yaml');
 
 const root = path.join(__dirname, '..');
@@ -28,11 +29,30 @@ const readYamlMeta = (filePath) => {
   return null;
 };
 
+// Files git would publish: tracked, or untracked but not ignored. Ignored files
+// (agent instructions, copyrighted literature) must not appear in the manifest.
+const gitVisible = (() => {
+  try {
+    const out = execFileSync(
+      'git',
+      ['ls-files', '--cached', '--others', '--exclude-standard', '-z'],
+      { cwd: root, encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 }
+    );
+    return new Set(out.split('\0').filter(Boolean));
+  } catch (err) {
+    console.warn('git ls-files failed; ignored files will not be filtered out of the manifest.');
+    return null;
+  }
+})();
+const isPublishable = (fullPath) =>
+  !gitVisible || gitVisible.has(path.relative(root, fullPath).split(path.sep).join('/'));
+
 const listFiles = (dir, exts) => {
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
     .filter((file) => exts.includes(path.extname(file)))
+    .filter((file) => isPublishable(path.join(dir, file)))
     .sort();
 };
 
@@ -279,7 +299,7 @@ const buildSourcesSection = () => {
 const sourcesData = buildSourcesSection();
 
 const projectFiles = ['README.md', 'STATUS.md', 'LICENSE', 'AGENTS.md', 'CLAUDE.md']
-  .filter((file) => fs.existsSync(path.join(root, file)))
+  .filter((file) => fs.existsSync(path.join(root, file)) && isPublishable(path.join(root, file)))
   .map((file) => ({
     title: file,
     subtitle: 'Project file',

@@ -1,0 +1,73 @@
+id: modified-personal-pronoun-001
+name: Adjectivally Modified Personal Pronoun NP
+pattern: "NP[(article) + attributive AdjP + personal-pronoun form]"
+type: mixed
+meanings:
+  '1':
+    definition: Picks out a stage or aspect of the person or group identified by a pronoun.
+    details: "In the five-year-old you, the pronoun anchors the reference to the addressee and the adjective specifies an age. In subject position the whole NP can take third-person verbal agreement. A coreferential reflexive can still carry the person of the pronoun. Some age-modified uses are bare. The category of the head and the explanation for the agreement split remain open."
+    examples:
+      - form: "[The five-year-old you] was so cute!"
+        note: Was contrasts with ordinary second-person you were.
+        grounds:
+          - source: halm-2022
+            locator: "§8 [24a]"
+            relation: cites
+            bears-on: projection
+      - form: "Questions [A Younger Me] Would Ask Myself"
+        note: In the reported title, the object reflexive retains first person.
+        grounds:
+          - source: halm-2022
+            locator: "§4 [6b]"
+            relation: attests
+            bears-on: attestation
+  '2':
+    definition: Characterizes the person identified by the pronoun as being in a particular state.
+    details: "In an exhausted me, the speaker is still identified by me. The adjective adds the state in which the speaker experienced the situation. Halm compares this use with a visibly irritated Mr Andrews and distinguishes it from a reading that explicitly selects a stage or aspect."
+    examples:
+      - form: "[An exhausted me] has felt …"
+        note: Excerpt from Halm’s example of the state-characterizing interpretation.
+        grounds:
+          - source: halm-2022
+            locator: "§10 [31a]"
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    parthood: formal
+    notes: The whole expression can occupy a subject or object slot. An attributive adjective combines with a form otherwise used as a personal pronoun.
+  - id: np-det-001
+    relationship: overlaps-with
+    overlap-dimension: formal
+    notes: "The younger me has overt determination. Halm also reports bare age-modified forms, including 12 year old me as the subject of a relative clause."
+  - id: indefinite-modified-name-001
+    relationship: related-to
+    notes: "An exhausted me and a visibly shaken Giuliani combine a/an with an adjective that characterizes a participant identified independently by the pronoun or name."
+  - id: proper-name-secondary-use-001
+    relationship: related-to
+    notes: "The young Isaac Newton and the five-year-old you can each pick out a life stage, anchored by a name in the first case and by the addressee pronoun in the second."
+  - id: personal-determiner-001
+    relationship: related-to
+    notes: "In we linguists, we occupies the determiner slot and precedes a lexical head. In the younger us, the article occupies that slot and us follows the modifier."
+grounds:
+  - source: halm-2022
+    locator: "§§4, 8–10 [6], [23–31]"
+    relation: discusses
+    bears-on: projection
+    note: Reports adjectivally modified forms across person and number, split agreement and third-person anaphora when stages are juxtaposed.
+  - source: cgel-2002
+    locator: "Ch. 5 §§10.2, 17.2.1, pp. 429–430 and 486"
+    relation: discusses
+    bears-on: projection
+    note: The general personal-pronoun examples in CGEL restrict pre-head dependents and give ordinary subject–reflexive person agreement.
+kind:
+  provisional: true
+  projection:
+    target: The modified NP can take a singular verb form unavailable to ordinary you, while an antecedent containing me can support myself. A stage contrast can also support third-person anaphora.
+    evidence: Halm’s contrasts separate finite agreement from the selection of coreferential forms. The article alone leaves the head’s lexical category open.
+    confidence: medium
+  boundaries:
+    known_boundary_items:
+      - "Poor old me is CGEL’s bare evaluative pattern. The younger me can pick out a life stage and occurs in a pattern that also permits a younger me."
+      - "A he or a she can denote a person of a category and lacks the ordinary speaker or addressee anchoring tested here."
