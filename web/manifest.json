@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T13:07:02.088Z",
+  "generatedAt": "2026-11-19T13:20:51.067Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -18,7 +18,7 @@
     },
     "reynolds-kinship": {
       "type": "paper",
-      "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+      "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics)",
       "url": "https://ling.auf.net/lingbuzz/009751",
       "status": "under-review"
     },
@@ -34907,7 +34907,7 @@
           "source": {
             "id": "reynolds-kinship",
             "type": "paper",
-            "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+            "citation": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics)",
             "url": "https://ling.auf.net/lingbuzz/009751",
             "status": "under-review",
             "grounded": []
@@ -36581,11 +36581,6 @@
           "incomingRelations": []
         }
       ]
-    },
-    {
-      "id": "literature",
-      "label": "Literature",
-      "items": []
     }
   ]
 }

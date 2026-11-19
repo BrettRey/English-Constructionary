@@ -1403,6 +1403,12 @@
       "type": "paper"
     },
     {
+      "id": "kin-title-name-001",
+      "kind": "construction",
+      "label": "Kin Title with a Personal Name",
+      "type": "mixed"
+    },
+    {
       "id": "klein-et-al-2013-weak-definites",
       "kind": "source",
       "label": "Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213",
@@ -5327,7 +5333,7 @@
     {
       "id": "reynolds-kinship",
       "kind": "source",
-      "label": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics, JEngL-26-0039)",
+      "label": "Reynolds, Brett, English kinship terms (submitted, Journal of English Linguistics)",
       "type": "paper"
     },
     {
@@ -5377,6 +5383,12 @@
       "kind": "construction",
       "label": "Declarative Scalar Recalibration",
       "type": "mixed"
+    },
+    {
+      "id": "schneider-homans-1955",
+      "kind": "source",
+      "label": "Schneider, David M. & George C. Homans (1955), Kinship terminology and the American kinship system. American Anthropologist 57(6), 1194–1208",
+      "type": "paper"
     },
     {
       "id": "secondary-verbal-negation-001",
@@ -6412,9 +6424,23 @@
     },
     {
       "from": "bare-role-001",
+      "to": "brett-judgment",
+      "type": "adjudicates",
+      "locator": "2026-11-19",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "bare-role-001",
       "to": "cgel-2002",
       "type": "attests",
       "locator": "Ch. 15 §5 [22ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-role-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §6.1, p. 369",
       "bears-on": "attestation"
     },
     {
@@ -6478,7 +6504,8 @@
     {
       "from": "bare-role-001",
       "to": "strong-proper-name-001",
-      "type": "related-to"
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
     },
     {
       "from": "bare-role-001",
@@ -10337,6 +10364,87 @@
       "from": "it-cleft-001",
       "to": "subject-extraposition-001",
       "type": "related-to"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §20.2.2, [4ii] and Appellations, pp. 518–519; nominal modifiers and appositives, p. 520",
+      "bears-on": "projection"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Brent, j1/010001.cha, line 392",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Hall, WhitePro/jub.cha, line 15237",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Snow, 030019b.cha, line 3596",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Weist, Matt/040610.cha line 899; Brent, j1/010001.cha line 392; Snow, 030019b.cha line 3596; Hall, WhitePro/jub.cha line 15237; Peters, 010621a.cha line 20 and 010410c.cha line 605; Brown, Sarah/040118.cha line 296",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "childes",
+      "type": "attests",
+      "locator": "Weist, Matt/040610.cha, line 899",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "genitive-s-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "proper-name-001",
+      "type": "implements"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "restrictive-appositive-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "schneider-homans-1955",
+      "type": "discusses",
+      "locator": "pp. 1195, 1196, 1199–1201",
+      "bears-on": "projection"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "strong-proper-name-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "functional"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "title-personal-name-001",
+      "type": "overlaps-with",
+      "overlap-dimension": "formal"
+    },
+    {
+      "from": "kin-title-name-001",
+      "to": "vocative-001",
+      "type": "interfaces-with"
     },
     {
       "from": "left-dislocation-001",
