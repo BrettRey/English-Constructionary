@@ -1,0 +1,43 @@
+id: bare-noun-coordination-001
+name: Bare Singular Noun Coordination
+pattern: Coordination[bare singular count form + and + bare singular count form]
+type: mixed
+meanings:
+  '1':
+    definition: Presents two linked individuals or roles through one bare coordinate phrase.
+    details: The context may make the pair identifiable or introduce its members as new. In the invitation example, the preceding text introduces the bride and her dog, which lets the coordination refer to their depictions. The pairing can support an argument use whose individual bare nouns would require separate licensing.
+    examples:
+      - form: '[between husband and wife]'
+        note: CGEL illustrates the pairing inside a PP.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.5(b), pp. 409–410 [20vii]
+            relation: attests
+            bears-on: attestation
+      - form: '[Bride and dog] can be customized!'
+        note: Attested subject. The bride and dog are already salient from the description of the invitation.
+        grounds:
+          - source: le-bruyn-de-swart-2014
+            locator: §4.1, (39)
+            relation: attests
+            bears-on: attestation
+      - form: He had [pad and pencil].
+        note: Attested object introducing the two items.
+        grounds:
+          - source: le-bruyn-de-swart-2014
+            locator: §2.4, (23)
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: coordination-001
+    relationship: specialization-of
+    notes: The pair has coordinate structure.
+  - id: strong-proper-name-001
+    relationship: related-to
+    notes: A separate construction licenses bare referential names, including some common-noun forms.
+kind:
+  provisional: true
+  projection:
+    target: Context can license the whole coordination as an argument, with a recoverable relationship between the individuals and either a familiar or a new pair.
+    evidence: Le Bruyn and de Swart document both interpretations and the role of contextual links, extending the pattern beyond familiar collocations.
+    confidence: medium

@@ -1,0 +1,37 @@
+id: activity-weak-definite-001
+name: Activity Weak Definite
+pattern: Host expressing a conventional activity + NP[the + N]
+type: mixed
+meanings:
+  '1':
+    definition: Invokes a conventional activity with a definite NP that need not identify a unique participant or object.
+    details: In take the bus, the transport activity can be understood without identifying which vehicle is involved. The same NP can identify a particular vehicle with a different predicate. The host and the noun both matter, and the activity frame may also allow an ordinary identifying reading in context.
+    examples:
+      - form: We [took the bus].
+        note: Conventional transport use. The NP sits inside the bracketed activity frame.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.4(b), p. 408 [17v]
+            relation: attests
+            bears-on: attestation
+      - form: Lee [parked the bus].
+        note: Constructed identifying control. The verb and activity are different, with the noun and article held fixed.
+relatedConstructions:
+  - id: np-def-001
+    relationship: contains
+    notes: The activity frame contains an NP with the definite article.
+  - id: deitality-001
+    relationship: interfaces-with
+    notes: Definite form co-occurs with weaker semantic identification.
+grounds:
+  - source: klein-et-al-2013-weak-definites
+    locator: Experiment 4
+    relation: discusses
+    bears-on: projection
+    note: Tests which combinations of verb and noun license the weak reading.
+kind:
+  provisional: true
+  projection:
+    target: With a suitable host and noun, the hearer can recover the activity without identifying a unique participant of the kind denoted by the noun.
+    evidence: CGEL's activity examples and Klein et al.'s Experiment 4, which combines and varies the verbs and nouns in licensing environments.
+    confidence: medium

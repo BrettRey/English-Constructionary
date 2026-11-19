@@ -1,0 +1,54 @@
+id: conative-at-001
+name: Conative At
+pattern: VP[Head:V[action] + Comp:PP[at + NP[target]]]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an action directed towards a target without committing to the usual result of the transitive use.
+    details: With kick, the direct object normally entails contact. The at-phrase identifies what the action was directed towards and permits either contact or a miss. With eat or nibble, related uses can instead involve small amounts or repetition. The entry concerns the directed-action reading with verbs that support the contrast, leaving ordinary uses such as look at to their own accounts.
+    examples:
+      - form: The horse [kicked at me].
+        note: The action is directed at the speaker, who may have been missed.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 4 §8.1.1(a), p. 298 [6ib]
+            relation: attests
+            bears-on: attestation
+      - form: The horse [kicked me].
+        note: Transitive control. Contact occurred.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 4 §8.1.1(a), p. 298 [6ia]
+            relation: attests
+            bears-on: attestation
+      - form: The striker [kicked at the ball] and caught it with the outside of her foot.
+        note: Constructed. Success remains compatible with the at-form.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: The target is internal to the VP, as the object of at.
+  - id: goal-complement-001
+    relationship: related-to
+    notes: The target supplies a direction for the action, without an arrival or contact entailment.
+grounds:
+  - source: birmingham-english-constructicon
+    locator: V at n, records 33–36, especially 34
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes attempted contact from repeated contact and partial ingestion.
+  - source: perek-2014-conative
+    locator: ch. 3, verb-class analysis
+    relation: discusses
+    bears-on: projection
+    note: Examines the contribution of the pattern by verb class.
+  - source: casa-constructicon
+    locator: record 41
+    relation: discusses
+    bears-on: projection
+    note: Records the target-oriented action pattern.
+kind:
+  provisional: true
+  projection:
+    target: For contact verbs such as kick, at plus the target permits a continuation with a miss. A transitive object with the same verb normally rules that continuation out.
+    evidence: CGEL’s alternation, Birmingham’s attempted-contact record and Perek’s evidence for different conative verb classes.
+    confidence: high

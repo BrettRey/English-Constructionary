@@ -1,0 +1,42 @@
+id: paired-np-introduction-001
+name: Paired-NP Introduction
+pattern: Vocative:NP + pause + NP[name or definite description]
+type: pragmatic
+meanings:
+  '1':
+    definition: Introduces the referent of the second NP to the addressee picked out by the first.
+    details: A pause separates the two NPs. Gaze or gesture often helps identify the participant being introduced. The introduced referent can be presented by name or by description without a preceding clause to complete. In the shelter example, Alex can learn that Teacup is the kitten’s name in the course of being introduced. The construction alone gives no evidence about when the name was established or whether the hearer stores a separate noun lexeme.
+    examples:
+      - form: '[Alex, Teacup.]'
+        note: Constructed. A volunteer addresses Alex and indicates the kitten called Teacup.
+      - form: '[Elise, Casey.]'
+        note: Published example of introducing Casey to Elise.
+        grounds:
+          - source: goldberg-perek-2019
+            locator: exx. (19) and (24)
+            relation: attests
+            bears-on: attestation
+      - form: '[Alex, the new vet.]'
+        note: Constructed. A definite description identifies the person being introduced.
+relatedConstructions:
+  - id: vocative-001
+    relationship: contains
+    notes: The first NP has vocative function.
+  - id: strong-proper-name-001
+    relationship: related-to
+    notes: The introduced-referent slot can be filled by a strong name NP.
+  - id: clause-analogue-001
+    relationship: specialization-of
+    notes: The two phrases conventionally perform an introduction without a VP at the construction’s level.
+grounds:
+  - source: goldberg-perek-2019
+    locator: ch. 8, exx. (19) and (24)
+    relation: discusses
+    bears-on: projection
+    note: Analyzes a paired-NP introduction with a vocative and a name or definite description.
+kind:
+  provisional: true
+  projection:
+    target: In an introduction context, the first NP sets the addressee and the second identifies the introduced referent. The second slot admits descriptions as well as names, without requiring an overt introducing verb or a linguistic antecedent.
+    evidence: Goldberg and Perek give the paired example and describe its use with a pause and typically a gesture. The kitten and definite-description cases illustrate the contrast.
+    confidence: medium

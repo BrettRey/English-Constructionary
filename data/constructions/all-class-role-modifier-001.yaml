@@ -1,0 +1,43 @@
+id: all-class-role-modifier-001
+name: All Modifier Restricting a Role
+pattern: Nom[all + class-denoting nominal or adjective + N]
+type: mixed
+meanings:
+  '1':
+    definition: Restricts the occupants of a salient role associated with the head noun to one class.
+    details: With an all girls’ school the relevant role is eligibility to attend. The school can educate only some of the town’s girls and have men on staff. With an all-women team the team supplies the members. Genitive and plain-case nominal forms and adjectives support the interpretation. CGEL treats all girls’ as a genitive NP with peripheral all. The related patterns leave that token’s internal bracketing open.
+    examples:
+      - form: an [all girls’ school]
+        note: The restriction concerns who can attend the school.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §16.3, p. 470 [45]
+            relation: attests
+            bears-on: attestation
+      - form: '[all-female police unit]'
+        note: Adjectival class specification.
+        grounds:
+          - source: klossek-johansson-nogues-2021
+            locator: opening discussion, p. 1 of author manuscript
+            relation: attests
+            bears-on: attestation
+      - form: '[all-women team]'
+        note: Plain plural form. The same contingent is described by both published expressions.
+        grounds:
+          - source: klossek-johansson-nogues-2021
+            locator: opening discussion, p. 1 of author manuscript
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: nom-001
+    relationship: specialization-of
+    notes: The role-restricting expression combines with a nominal head.
+  - id: genitive-s-001
+    relationship: related-to
+    notes: CGEL analyzes the spelling girls’ in its example as genitive.
+kind:
+  provisional: true
+  projection:
+    target: The head helps select the set to which all applies. The restriction applies to students in the school case and members in the team case.
+    evidence: CGEL's exclusivity gloss and the two expressions for the same Indian police contingent support the cross-form comparison.
+    confidence: medium

@@ -1,0 +1,35 @@
+id: every-inch-predicative-001
+name: Every Inch with a Nominal Predicative
+pattern: PredComp:NP[every inch + a(n) + Nom]
+type: mixed
+meanings:
+  '1':
+    definition: Emphasizes that someone exemplifies a role or type in the relevant respects.
+    details: Every inch marks completeness in the characterization. CGEL identifies this use as idiomatic and contrasts the predicative with an unacceptable use as a by-agent. The relation to every bit as good remains open.
+    examples:
+      - form: She is [every inch a philosopher].
+        note: The relevant respects come from the description philosopher.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §13(d), p. 438 [6i]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: degree-001
+    relationship: related-to
+    notes: Every inch strengthens the characterization.
+  - id: bare-role-001
+    relationship: related-to
+    notes: Both concern nominal predication. The every inch pattern shown here contains an article.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 5 §7.4, p. 379 n. 22; §13(d), p. 438
+    relation: cites
+    bears-on: projection
+    note: Identifies idiomatic every inch and compares its predicative and nonpredicative distribution.
+kind:
+  provisional: true
+  projection:
+    target: The idiomatic frame favours predicative use and an interpretation over respects in which the description applies.
+    evidence: CGEL's predicative versus by-agent comparison and its note on idiomatic every inch. A constructed test replaces inch with centimetre.
+    confidence: medium

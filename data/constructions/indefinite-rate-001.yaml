@@ -1,0 +1,44 @@
+id: indefinite-rate-001
+name: Rate with an Indefinite Denominator
+pattern: quantity or frequency expression + NP[a(n) + singular unit nominal]
+type: mixed
+meanings:
+  '1':
+    definition: Expresses a ratio by pairing a numerator with a unit denominator.
+    details: Fifty miles an hour supplies a speed, even if the measured motion lasts only a minute. Fifty miles every hour can instead assert successive hourly totals. The same form supports price, salary, and frequency. A per-phrase can often express the same ratio and is more flexible with stacked or complex denominators.
+    examples:
+      - form: He was going at [50 miles an hour].
+        note: Distance per elapsed time.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.4(c), pp. 408–409 [18]
+            relation: attests
+            bears-on: attestation
+      - form: It costs [$20 a yard].
+        note: Price per unit length.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.4(c), pp. 408–409 [18]
+            relation: attests
+            bears-on: attestation
+      - form: The nurse checked it [twice a day].
+        note: Constructed frequency example; the numerator can be multiplicative.
+relatedConstructions:
+  - id: np-indef-001
+    relationship: contains
+    notes: The denominator is an indefinite singular NP.
+  - id: all-of-magnitude-001
+    relationship: related-to
+    notes: Both combine with a stated magnitude, with different interpretations.
+grounds:
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4.14 in author draft
+    relation: discusses
+    bears-on: projection
+    note: Compares the indefinite denominator with an every-time adjunct and a per-phrase.
+kind:
+  provisional: true
+  projection:
+    target: The second NP is interpreted as a unit denominator. The construction can describe a rate without asserting one complete occurrence of that unit.
+    evidence: CGEL distinguishes the a- and per-forms. The FrameNet account controls the duration of motion in the comparison with every hour.
+    confidence: high

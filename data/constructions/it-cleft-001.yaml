@@ -1,0 +1,49 @@
+id: it-cleft-001
+name: It-Cleft
+pattern: Clause[Subject:it + be + PredComp:XP + cleft relative Clause]
+type: mixed
+meanings:
+  '1':
+    definition: Specifies the value of a variable whose descriptive content is supplied by the cleft relative.
+    details: In it was Kim who was sacked, Kim supplies the value and the relative sets out the background proposition that somebody was sacked. This packaging can present new information as background. The position after be marks grammatical foregrounding. Main stress can fall inside the relative instead. CGEL distinguishes this structure from a referential it with an integrated relative inside an NP, using contexts where the surface wording is the same.
+    examples:
+      - form: '[It was peace and quiet that he wanted most.]'
+        note: The value is peace and quiet.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 4 §5.5.1, p. 267 [47i]
+            relation: attests
+            bears-on: attestation
+      - form: '[It was to Boston that I flew.]'
+        note: A PP can occupy the foregrounded slot.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 4 §6.1.1, p. 275 [5iii]
+            relation: attests
+            bears-on: attestation
+      - form: '[It wasn’t Kim who took the keys.]'
+        note: Constructed. The denial normally targets Kim’s identification, with somebody’s taking the keys treated as background.
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The construction is headed by a VP in a matrix clause.
+  - id: relative-word-001
+    relationship: related-to
+    notes: The cleft relative can be marked by a relative word; that and zero relatives also occur.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §§9.1–9.2, 9.4.1, pp. 1415–1425
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes foregrounded syntax, discourse availability of the presupposition, and accent.
+  - source: casa-constructicon
+    locator: record 140
+    relation: discusses
+    bears-on: projection
+    note: Documents the cleft frame across foregrounded phrase types.
+kind:
+  provisional: true
+  projection:
+    target: The relative supplies a background proposition and the post-be phrase provides a value. In an ordinary identifying context, negating the identification can leave that background proposition in place.
+    evidence: CGEL’s integrated-relative contrast and two kinds of presupposition. CASA documents different foregrounded phrase types.
+    confidence: high

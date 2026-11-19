@@ -1,0 +1,52 @@
+id: repeated-noun-preposition-001
+name: Repeated Bare Noun with a Preposition
+pattern: Nᵢ + P + Nᵢ, with bare noun forms and a choice of preposition tied to the reading
+type: mixed
+meanings:
+  '1':
+    definition: Presents successive instances over an interval.
+    details: After presents a succession of distinct instances of one kind. CGEL also gives upon in mile upon mile. Nominal uses such as flight after flight of stairs coexist with adjunct uses. The construction's interpretation and the question of what heads each subtype can be evaluated separately.
+    examples:
+      - form: '[day after day]'
+        note: Successive temporal units.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.5(b), pp. 409–410 [20vi]
+            relation: attests
+            bears-on: attestation
+      - form: '[flight after flight of stairs]'
+        note: An NP use discussed by CGEL in the chapter on prepositions.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 7 §4.4, p. 634 n. 15
+            relation: attests
+            bears-on: attestation
+  '2':
+    definition: Presents a process in successive units with by.
+    details: The repeated noun supplies the units by which an event proceeds. Which prepositions can express a particular reading is a property of the subtype. This entry records the productive succession patterns.
+    examples:
+      - form: '[mouthful by mouthful]'
+        note: The process advances by successive mouthfuls.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.5(b), pp. 409–410 [20vi]
+            relation: attests
+            bears-on: attestation
+      - form: We checked the total [invoice by invoice].
+        note: Constructed test of the stepwise reading with a different noun.
+relatedConstructions:
+  - id: matched-bare-endpoints-001
+    relationship: related-to
+    notes: From N to N can relate two different nouns that restrict the endpoints.
+grounds:
+  - source: jackendoff-2008-npn
+    locator: §2
+    relation: discusses
+    bears-on: projection
+    note: Documents distinct readings by preposition and distinct nominal and adjunct distributions.
+kind:
+  provisional: true
+  projection:
+    target: The preposition and the matched noun slots together distinguish iteration over instances from a description of how an event proceeds.
+    evidence: CGEL's matched forms and distributional contrasts. Jackendoff documents productive subtypes and lexical exceptions.
+    confidence: medium

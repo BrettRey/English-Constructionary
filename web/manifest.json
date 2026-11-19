@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T01:21:43.134Z",
+  "generatedAt": "2026-11-19T01:55:34.668Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -72,6 +72,153 @@
     "brett-judgment": {
       "type": "author-judgment",
       "citation": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+    },
+    "kim-sells-2015": {
+      "type": "paper",
+      "citation": "Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73",
+      "doi": "10.1017/S002222671400005X"
+    },
+    "lee-goldman-petruck-2018": {
+      "type": "paper",
+      "citation": "Lee-Goldman, Russell & Miriam R. L. Petruck (2018), The FrameNet constructicon in action. In Constructicography, 19–40. John Benjamins",
+      "doi": "10.1075/cal.22.02lee"
+    },
+    "jackendoff-2008-npn": {
+      "type": "paper",
+      "citation": "Jackendoff, Ray (2008), Construction After Construction and Its Theoretical Challenges. Language 84(1): 8–28",
+      "doi": "10.1353/lan.2008.0058"
+    },
+    "klein-et-al-2013-weak-definites": {
+      "type": "paper",
+      "citation": "Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213",
+      "doi": "10.1016/j.cognition.2013.03.007"
+    },
+    "zwarts-2013-from-n-to-n": {
+      "type": "paper",
+      "citation": "Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy",
+      "doi": "10.1007/s10988-013-9131-7"
+    },
+    "battle-unesco-craft": {
+      "type": "document",
+      "citation": "Battle, Stephen, UNESCO conference abstract on craft transmission, printed p. 31",
+      "url": "https://whc.unesco.org/document/141024"
+    },
+    "le-bruyn-de-swart-2014": {
+      "type": "paper",
+      "citation": "Le Bruyn, Bert & Henriëtte de Swart (2014), Bare coordination: the semantic shift. Natural Language & Linguistic Theory 32: 1205–1246",
+      "doi": "10.1007/s11049-014-9237-9"
+    },
+    "wv-building-code-2009": {
+      "type": "transcript",
+      "citation": "West Virginia building-code hearing transcript, 16 June 2009",
+      "url": "https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=7554&Format=PDF"
+    },
+    "rosenthal-1973-smithsonian": {
+      "type": "transcript",
+      "citation": "Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution",
+      "url": "https://mads.si.edu/mads/id/NMAH-AC0196_rose730516"
+    },
+    "rabin-illinois-oral-history": {
+      "type": "transcript",
+      "citation": "A. Mark Rabin oral history. Illinois Supreme Court Historic Preservation Commission",
+      "url": "https://www.illinoiscourthistory.org/Resources/295e7108-98ee-4e33-ae0a-b5f6e98f2829/a-mark-rabin-abstract-bio-and-complete-transcript-final.pdf"
+    },
+    "postma-rooryck-1996": {
+      "type": "paper",
+      "citation": "Postma, Gertjan & Johan Rooryck (1996), Modality and Possession in NPs. Proceedings of NELS 26: 273–287",
+      "url": "https://www.rooryck.org/_files/ugd/d58ca7_29c6d3f6972c411181e1c3ce3c490f3c.pdf"
+    },
+    "abenina-adar-2020": {
+      "type": "dissertation",
+      "citation": "Abenina-Adar, Maayan (2020), Expressing ignorance with determiner phrases. UCLA dissertation",
+      "url": "https://escholarship.org/uc/item/8964606g"
+    },
+    "klossek-johansson-nogues-2021": {
+      "type": "paper",
+      "citation": "Klossek, Lara & Elisabeth Johansson-Nogués (2021), The Female ‘Boot on the Ground’: Indian Ambivalence Over Gender Mainstreaming in UN Peacekeeping Operations. International Peacekeeping",
+      "doi": "10.1080/13533312.2021.1880899",
+      "url": "https://repositori-api.upf.edu/api/core/bitstreams/46884c4d-afa1-4714-8f28-69b7ac9b1889/content"
+    },
+    "barker-1998": {
+      "type": "paper",
+      "citation": "Barker, Chris (1998), Partitives, Double Genitives, and Anti-Uniqueness. Natural Language & Linguistic Theory",
+      "doi": "10.1023/A:1005917421076"
+    },
+    "anderson-some-exclamatives": {
+      "type": "paper",
+      "citation": "Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52",
+      "doi": "10.18148/sub/2018.v21i1.123"
+    },
+    "harjo-crazy-brave-spl": {
+      "type": "transcript",
+      "citation": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
+      "url": "https://www.spl.org/Seattle-Public-Library/documents/transcriptions/2012/12-07-11_Joy-Harjo.pdf"
+    },
+    "goldberg-perek-2019": {
+      "type": "paper",
+      "citation": "Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press",
+      "doi": "10.1093/oxfordhb/9780198712398.013.8",
+      "url": "https://fperek.net/pdfs/GoldbergPerekTA-ellipsis-CxG.pdf"
+    },
+    "casa-constructicon": {
+      "type": "database",
+      "citation": "Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language",
+      "url": "https://constructicon.de/constructions/"
+    },
+    "hoffmann-comparative-correlatives": {
+      "type": "book",
+      "citation": "Hoffmann, Thomas (2019), English Comparative Correlatives. Cambridge University Press",
+      "doi": "10.1017/9781108569859"
+    },
+    "fillmore-lee-goldman-rhomieux-2012": {
+      "type": "paper",
+      "citation": "Fillmore, Charles J., Russell R. Lee-Goldman & Russell Rhomieux (2012), The FrameNet Constructicon. In Sign-Based Construction Grammar, 309–372. CSLI",
+      "url": "https://paperzz.com/doc/9428811/the-framenet-constructicon"
+    },
+    "fillmore-kay-oconnor-1988": {
+      "type": "paper",
+      "citation": "Fillmore, Charles J., Paul Kay & Mary Catherine O’Connor (1988), Regularity and Idiomaticity in Grammatical Constructions: The Case of Let Alone. Language 64(3): 501–538",
+      "doi": "10.2307/414531"
+    },
+    "birmingham-english-constructicon": {
+      "type": "database",
+      "citation": "Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham",
+      "url": "https://englishconstructicon.bham.ac.uk/database/api/constructions"
+    },
+    "perek-2014-conative": {
+      "type": "paper",
+      "citation": "Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins",
+      "doi": "10.1075/hcp.43.03per"
+    },
+    "hunston-transitivity-networks": {
+      "type": "database",
+      "citation": "Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+      "url": "https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-into-ing/"
+    },
+    "kim-davies-2016-into": {
+      "type": "paper",
+      "citation": "Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83",
+      "doi": "10.1017/S1360674315000271"
+    },
+    "bouso-2024-superlative": {
+      "type": "paper",
+      "citation": "Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129",
+      "doi": "10.1075/cf.22020.bou"
+    },
+    "bouso-hundt-van-driessche-2024": {
+      "type": "paper",
+      "citation": "Bouso, Tamara, Marianne Hundt & Laetitia Van Driessche (2024), A sisterhood of constructions? Cognitive Linguistics 35(3): 313–344",
+      "doi": "10.1515/cog-2023-0103"
+    },
+    "fau-senger-so-np": {
+      "type": "database",
+      "citation": "Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)",
+      "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3791-L3857"
+    },
+    "bylinina-this-is-so-np": {
+      "type": "paper",
+      "citation": "Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6",
+      "doi": "10.4148/biyclc.v6i0.1571"
     }
   },
   "sections": [
@@ -96,18 +243,6 @@
           "subtitle": "Project file",
           "path": "/LICENSE",
           "kind": "text"
-        },
-        {
-          "title": "AGENTS.md",
-          "subtitle": "Project file",
-          "path": "/AGENTS.md",
-          "kind": "markdown"
-        },
-        {
-          "title": "CLAUDE.md",
-          "subtitle": "Project file",
-          "path": "/CLAUDE.md",
-          "kind": "markdown"
         }
       ]
     },
@@ -122,7 +257,13 @@
           "path": "/data/constructions/NP-bare-role.yaml",
           "kind": "yaml",
           "relations": [],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "every-inch-predicative-001",
+              "title": "every-inch-predicative-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "absolute-negator-determinative-001",
@@ -187,6 +328,26 @@
           "incomingRelations": []
         },
         {
+          "id": "activity-weak-definite-001",
+          "title": "activity-weak-definite-001",
+          "subtitle": "Activity Weak Definite",
+          "path": "/data/constructions/activity-weak-definite-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-def-001",
+              "relationship": "contains",
+              "notes": "The activity frame contains an NP with the definite article."
+            },
+            {
+              "id": "deitality-001",
+              "relationship": "interfaces-with",
+              "notes": "Definite form co-occurs with weaker semantic identification."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "adjective-001",
           "title": "adjective-001",
           "subtitle": "Adjective",
@@ -212,6 +373,93 @@
               "relationship": "specialization-of"
             }
           ]
+        },
+        {
+          "id": "all-class-role-modifier-001",
+          "title": "all-class-role-modifier-001",
+          "subtitle": "All Modifier Restricting a Role",
+          "path": "/data/constructions/all-class-role-modifier-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "nom-001",
+              "relationship": "specialization-of",
+              "notes": "The role-restricting expression combines with a nominal head."
+            },
+            {
+              "id": "genitive-s-001",
+              "relationship": "related-to",
+              "notes": "CGEL analyzes the spelling girls’ in its example as genitive."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "all-of-magnitude-001",
+          "title": "all-of-magnitude-001",
+          "subtitle": "All of with a Stated Magnitude",
+          "path": "/data/constructions/all-of-magnitude-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "numerative-complex-001",
+              "relationship": "related-to",
+              "notes": "The numeral supplies the magnitude independently of the all of expression."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "indefinite-rate-001",
+              "title": "indefinite-rate-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "bare-noun-coordination-001",
+          "title": "bare-noun-coordination-001",
+          "subtitle": "Bare Singular Noun Coordination",
+          "path": "/data/constructions/bare-noun-coordination-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "coordination-001",
+              "relationship": "specialization-of",
+              "notes": "The pair has coordinate structure."
+            },
+            {
+              "id": "strong-proper-name-001",
+              "relationship": "related-to",
+              "notes": "A separate construction licenses bare referential names, including some common-noun forms."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "matched-bare-endpoints-001",
+              "title": "matched-bare-endpoints-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "be-passive-001",
+          "title": "be-passive-001",
+          "subtitle": "Verbal Be-Passive",
+          "path": "/data/constructions/be-passive-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "clause-001",
+              "relationship": "specialization-of",
+              "notes": "The be-passive is a voice construction available in headed clauses."
+            },
+            {
+              "id": "perfect-have-001",
+              "relationship": "related-to",
+              "notes": "Both use a past participle, with different auxiliary selection and argument syntax."
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "cardinal-determinative-001",
@@ -350,6 +598,11 @@
               "relationship": "see-also"
             },
             {
+              "id": "into-causative-001",
+              "title": "into-causative-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "object-resultative-001",
               "title": "object-resultative-001",
               "relationship": "overlaps-with",
@@ -412,6 +665,11 @@
           ],
           "incomingRelations": [
             {
+              "id": "be-passive-001",
+              "title": "be-passive-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
               "relationship": "overlaps-with",
@@ -445,6 +703,11 @@
               "title": "imperative-clause-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "it-cleft-001",
+              "title": "it-cleft-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "open-interrogative-clause-001",
@@ -511,6 +774,11 @@
               "overlap-dimension": "semantic"
             },
             {
+              "id": "comparative-correlative-001",
+              "title": "comparative-correlative-001",
+              "relationship": "overlaps-with"
+            },
+            {
               "id": "coordination-001",
               "title": "coordination-001",
               "relationship": "see-also"
@@ -549,6 +817,11 @@
               "id": "open-interrogative-clause-001",
               "title": "open-interrogative-clause-001",
               "relationship": "see-also"
+            },
+            {
+              "id": "paired-np-introduction-001",
+              "title": "paired-np-introduction-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "phrase-001",
@@ -632,12 +905,58 @@
           "incomingRelations": []
         },
         {
+          "id": "comparative-correlative-001",
+          "title": "comparative-correlative-001",
+          "subtitle": "Comparative Correlative",
+          "path": "/data/constructions/comparative-correlative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "comparative-er-001",
+              "relationship": "related-to",
+              "notes": "An inflected comparative is one possible realization of each degree phrase."
+            },
+            {
+              "id": "clause-analogue-001",
+              "relationship": "overlaps-with",
+              "notes": "Fully reduced pairs can express the relation with no overt VP."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "comparative-er-001",
           "title": "comparative-er-001",
           "subtitle": "Comparative -er",
           "path": "/data/constructions/comparative-er-001.yaml",
           "kind": "yaml",
           "relations": [],
+          "incomingRelations": [
+            {
+              "id": "comparative-correlative-001",
+              "title": "comparative-correlative-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "conative-at-001",
+          "title": "conative-at-001",
+          "subtitle": "Conative At",
+          "path": "/data/constructions/conative-at-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "vp-001",
+              "relationship": "specialization-of",
+              "notes": "The target is internal to the VP, as the object of at."
+            },
+            {
+              "id": "goal-complement-001",
+              "relationship": "related-to",
+              "notes": "The target supplies a direction for the action, without an arrival or contact entailment."
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -675,6 +994,11 @@
           ],
           "incomingRelations": [
             {
+              "id": "bare-noun-coordination-001",
+              "title": "bare-noun-coordination-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "clause-001",
               "title": "clause-001",
               "relationship": "see-also"
@@ -683,6 +1007,11 @@
               "id": "clause-analogue-001",
               "title": "clause-analogue-001",
               "relationship": "see-also"
+            },
+            {
+              "id": "let-alone-001",
+              "title": "let-alone-001",
+              "relationship": "related-to"
             },
             {
               "id": "neither-nor-coordination-001",
@@ -711,6 +1040,11 @@
               "id": "question-001",
               "title": "question-001",
               "relationship": "interfaces-with"
+            },
+            {
+              "id": "some-n-or-other-001",
+              "title": "some-n-or-other-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -860,8 +1194,23 @@
               "relationship": "specialization-of"
             },
             {
+              "id": "every-inch-predicative-001",
+              "title": "every-inch-predicative-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "exclamative-word-001",
               "title": "exclamative-word-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "so-nominal-predication-001",
+              "title": "so-nominal-predication-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "subject-genitive-superlative-001",
+              "title": "subject-genitive-superlative-001",
               "relationship": "related-to"
             }
           ]
@@ -909,6 +1258,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "activity-weak-definite-001",
+              "title": "activity-weak-definite-001",
+              "relationship": "interfaces-with"
+            },
             {
               "id": "demonstrative-determinative-fused-head-001",
               "title": "demonstrative-determinative-fused-head-001",
@@ -960,6 +1314,32 @@
               "title": "fused-head-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            }
+          ]
+        },
+        {
+          "id": "demonstrative-oblique-genitive-001",
+          "title": "demonstrative-oblique-genitive-001",
+          "subtitle": "Demonstrative with an Oblique Genitive",
+          "path": "/data/constructions/demonstrative-oblique-genitive-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-def-001",
+              "relationship": "specialization-of",
+              "notes": "The demonstrative marks the NP as definite."
+            },
+            {
+              "id": "np-gen-indep-001",
+              "relationship": "contains",
+              "notes": "The of-phrase takes an independent genitive NP."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "of-genitive-own-001",
+              "title": "of-genitive-own-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -1231,6 +1611,41 @@
           ]
         },
         {
+          "id": "evaluative-binominal-001",
+          "title": "evaluative-binominal-001",
+          "subtitle": "Evaluative Binominal",
+          "path": "/data/constructions/evaluative-binominal-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "notes": "The whole expression can serve as an NP."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "every-inch-predicative-001",
+          "title": "every-inch-predicative-001",
+          "subtitle": "Every Inch with a Nominal Predicative",
+          "path": "/data/constructions/every-inch-predicative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "degree-001",
+              "relationship": "related-to",
+              "notes": "Every inch strengthens the characterization."
+            },
+            {
+              "id": "bare-role-001",
+              "relationship": "related-to",
+              "notes": "Both concern nominal predication. The every inch pattern shown here contains an article."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "exclamation-001",
           "title": "exclamation-001",
           "subtitle": "Exclamation",
@@ -1295,6 +1710,11 @@
               "title": "ostensive-np-001",
               "relationship": "overlaps-with",
               "overlap-dimension": "functional"
+            },
+            {
+              "id": "stressed-some-exclamative-001",
+              "title": "stressed-some-exclamative-001",
+              "relationship": "implements"
             },
             {
               "id": "vocative-001",
@@ -1406,6 +1826,21 @@
           ]
         },
         {
+          "id": "existential-no-gerund-001",
+          "title": "existential-no-gerund-001",
+          "subtitle": "Existential No with a Gerund-Participial",
+          "path": "/data/constructions/existential-no-gerund-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "no-determiner-001",
+              "relationship": "related-to",
+              "notes": "The fixed form no is shared with ordinary negative NPs."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "fused-determiner-head-001",
           "title": "fused-determiner-head-001",
           "subtitle": "Fused Determiner-Head Construction",
@@ -1483,8 +1918,28 @@
               "title": "fused-determiner-head-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "subject-genitive-superlative-001",
+              "title": "subject-genitive-superlative-001",
+              "relationship": "related-to"
             }
           ]
+        },
+        {
+          "id": "genitive-every-001",
+          "title": "genitive-every-001",
+          "subtitle": "Genitive with Every",
+          "path": "/data/constructions/genitive-every-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "subject-determiner-001",
+              "relationship": "interfaces-with",
+              "notes": "A genitive appears in determiner function before every."
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "genitive-s-001",
@@ -1494,6 +1949,11 @@
           "kind": "yaml",
           "relations": [],
           "incomingRelations": [
+            {
+              "id": "all-class-role-modifier-001",
+              "title": "all-class-role-modifier-001",
+              "relationship": "related-to"
+            },
             {
               "id": "deverbal-noun-of-argument-001",
               "title": "deverbal-noun-of-argument-001",
@@ -1535,6 +1995,16 @@
             {
               "id": "caused-motion-001",
               "title": "caused-motion-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "conative-at-001",
+              "title": "conative-at-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "matched-bare-endpoints-001",
+              "title": "matched-bare-endpoints-001",
               "relationship": "related-to"
             },
             {
@@ -1757,6 +2227,26 @@
           ]
         },
         {
+          "id": "indefinite-rate-001",
+          "title": "indefinite-rate-001",
+          "subtitle": "Rate with an Indefinite Denominator",
+          "path": "/data/constructions/indefinite-rate-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-indef-001",
+              "relationship": "contains",
+              "notes": "The denominator is an indefinite singular NP."
+            },
+            {
+              "id": "all-of-magnitude-001",
+              "relationship": "related-to",
+              "notes": "Both combine with a stated magnitude, with different interpretations."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "independent-genitive-pronoun-001",
           "title": "independent-genitive-pronoun-001",
           "subtitle": "Independent Genitive Pronoun",
@@ -1777,6 +2267,11 @@
             {
               "id": "np-pron-personal-gen-indep-001",
               "title": "np-pron-personal-gen-indep-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "of-genitive-own-001",
+              "title": "of-genitive-own-001",
               "relationship": "related-to"
             }
           ]
@@ -1862,6 +2357,31 @@
           ]
         },
         {
+          "id": "into-causative-001",
+          "title": "into-causative-001",
+          "subtitle": "Into-Causative",
+          "path": "/data/constructions/into-causative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "vp-001",
+              "relationship": "specialization-of",
+              "notes": "Causation is expressed through the object and into-phrase inside the VP."
+            },
+            {
+              "id": "caused-motion-001",
+              "relationship": "related-to",
+              "notes": "Both pair an object with an endpoint. Here the endpoint is a situation expressed by a gerund-participial clause."
+            },
+            {
+              "id": "object-resultative-001",
+              "relationship": "related-to",
+              "notes": "Both can license an object to which the result applies."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "intransitive-preposition-001",
           "title": "intransitive-preposition-001",
           "subtitle": "Intransitive Preposition Use",
@@ -1872,6 +2392,41 @@
               "id": "preposition-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "it-cleft-001",
+          "title": "it-cleft-001",
+          "subtitle": "It-Cleft",
+          "path": "/data/constructions/it-cleft-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "clause-001",
+              "relationship": "specialization-of",
+              "notes": "The construction is headed by a VP in a matrix clause."
+            },
+            {
+              "id": "relative-word-001",
+              "relationship": "related-to",
+              "notes": "The cleft relative can be marked by a relative word; that and zero relatives also occur."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "let-alone-001",
+          "title": "let-alone-001",
+          "subtitle": "Let Alone",
+          "path": "/data/constructions/let-alone-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "coordination-001",
+              "relationship": "related-to",
+              "notes": "CGEL treats the connective as a candidate marginal coordinator."
             }
           ],
           "incomingRelations": []
@@ -1967,6 +2522,37 @@
             }
           ],
           "incomingRelations": []
+        },
+        {
+          "id": "matched-bare-endpoints-001",
+          "title": "matched-bare-endpoints-001",
+          "subtitle": "Matched Bare Endpoints",
+          "path": "/data/constructions/matched-bare-endpoints-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "bare-noun-coordination-001",
+              "relationship": "related-to",
+              "notes": "A different configuration makes two bare nouns available as a pair."
+            },
+            {
+              "id": "source-complement-001",
+              "relationship": "related-to",
+              "notes": "A source use can participate in the paired frame."
+            },
+            {
+              "id": "goal-complement-001",
+              "relationship": "related-to",
+              "notes": "A goal use can participate in the paired frame."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "repeated-noun-preposition-001",
+              "title": "repeated-noun-preposition-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "minor-determiner-001",
@@ -2220,6 +2806,11 @@
               "id": "absolute-negator-determinative-001",
               "title": "absolute-negator-determinative-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "existential-no-gerund-001",
+              "title": "existential-no-gerund-001",
+              "relationship": "related-to"
             }
           ]
         },
@@ -2250,6 +2841,11 @@
           ],
           "incomingRelations": [
             {
+              "id": "all-class-role-modifier-001",
+              "title": "all-class-role-modifier-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "nom-n-mod-001",
               "title": "nom-n-mod-001",
               "relationship": "related-to"
@@ -2259,6 +2855,11 @@
               "title": "np-001",
               "relationship": "contains",
               "parthood": "formal"
+            },
+            {
+              "id": "np-property-value-001",
+              "title": "np-property-value-001",
+              "relationship": "interfaces-with"
             }
           ]
         },
@@ -2386,6 +2987,11 @@
               "parthood": "formal"
             },
             {
+              "id": "evaluative-binominal-001",
+              "title": "evaluative-binominal-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "fused-determiner-head-001",
               "title": "fused-determiner-head-001",
               "relationship": "specialization-of",
@@ -2440,6 +3046,11 @@
               "title": "ostensive-np-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "reciprocal-noun-with-001",
+              "title": "reciprocal-noun-with-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "time-away-001",
@@ -2540,9 +3151,19 @@
           ],
           "incomingRelations": [
             {
+              "id": "activity-weak-definite-001",
+              "title": "activity-weak-definite-001",
+              "relationship": "contains"
+            },
+            {
               "id": "deitality-001",
               "title": "deitality-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "demonstrative-oblique-genitive-001",
+              "title": "demonstrative-oblique-genitive-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "determination-001",
@@ -2601,6 +3222,11 @@
               "id": "np-common-001",
               "title": "np-common-001",
               "relationship": "specialization-of"
+            },
+            {
+              "id": "np-property-value-001",
+              "title": "np-property-value-001",
+              "relationship": "interfaces-with"
             }
           ]
         },
@@ -2616,7 +3242,13 @@
               "relationship": "related-to"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "demonstrative-oblique-genitive-001",
+              "title": "demonstrative-oblique-genitive-001",
+              "relationship": "contains"
+            }
+          ]
         },
         {
           "id": "np-indef-001",
@@ -2648,6 +3280,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "indefinite-rate-001",
+              "title": "indefinite-rate-001",
+              "relationship": "contains"
+            },
+            {
               "id": "np-def-001",
               "title": "np-def-001",
               "relationship": "alternates-with"
@@ -2655,6 +3292,11 @@
             {
               "id": "np-det-001",
               "title": "np-det-001",
+              "relationship": "specialization-of"
+            },
+            {
+              "id": "some-n-or-other-001",
+              "title": "some-n-or-other-001",
               "relationship": "specialization-of"
             }
           ]
@@ -2785,6 +3427,26 @@
               "relationship": "interfaces-with"
             }
           ]
+        },
+        {
+          "id": "np-property-value-001",
+          "title": "np-property-value-001",
+          "subtitle": "Property-Value NP in a Nominal",
+          "path": "/data/constructions/np-property-value-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "nom-001",
+              "relationship": "interfaces-with",
+              "notes": "The post-head variant modifies the nominal."
+            },
+            {
+              "id": "np-det-001",
+              "relationship": "interfaces-with",
+              "notes": "The pre-head variant has determiner function in CGEL."
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "numerative-addition-asyndetic-001",
@@ -2983,6 +3645,11 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "all-of-magnitude-001",
+              "title": "all-of-magnitude-001",
+              "relationship": "related-to"
+            },
             {
               "id": "numerative-addition-asyndetic-001",
               "title": "numerative-addition-asyndetic-001",
@@ -3411,6 +4078,32 @@
               "notes": "Time-away contains Od plus a particle PP complement and does not predicate a result property of Od"
             }
           ],
+          "incomingRelations": [
+            {
+              "id": "into-causative-001",
+              "title": "into-causative-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "of-genitive-own-001",
+          "title": "of-genitive-own-001",
+          "subtitle": "Of with a Genitive Pronoun and Own",
+          "path": "/data/constructions/of-genitive-own-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "independent-genitive-pronoun-001",
+              "relationship": "related-to",
+              "notes": "Of mine is the corresponding pronoun pattern without own."
+            },
+            {
+              "id": "demonstrative-oblique-genitive-001",
+              "relationship": "related-to",
+              "notes": "Both involve of and genitive forms. The own phrase uses the dependent form of the pronoun."
+            }
+          ],
           "incomingRelations": []
         },
         {
@@ -3519,6 +4212,31 @@
           ]
         },
         {
+          "id": "paired-np-introduction-001",
+          "title": "paired-np-introduction-001",
+          "subtitle": "Paired-NP Introduction",
+          "path": "/data/constructions/paired-np-introduction-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "vocative-001",
+              "relationship": "contains",
+              "notes": "The first NP has vocative function."
+            },
+            {
+              "id": "strong-proper-name-001",
+              "relationship": "related-to",
+              "notes": "The introduced-referent slot can be filled by a strong name NP."
+            },
+            {
+              "id": "clause-analogue-001",
+              "relationship": "specialization-of",
+              "notes": "The two phrases conventionally perform an introduction without a VP at the construction’s level."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "past-tense-ed-001",
           "title": "past-tense-ed-001",
           "subtitle": "Past Tense -ed",
@@ -3584,7 +4302,13 @@
               "notes": "The perfect auxiliary and participial complement form a VP headed by have"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "be-passive-001",
+              "title": "be-passive-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "phrase-001",
@@ -3868,6 +4592,11 @@
               "relationship": "related-to"
             },
             {
+              "id": "so-nominal-predication-001",
+              "title": "so-nominal-predication-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
               "relationship": "implements"
@@ -3983,6 +4712,21 @@
           ]
         },
         {
+          "id": "reciprocal-noun-with-001",
+          "title": "reciprocal-noun-with-001",
+          "subtitle": "Reciprocal Predicative NP with a With-Phrase",
+          "path": "/data/constructions/reciprocal-noun-with-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-001",
+              "relationship": "specialization-of",
+              "notes": "The plural noun heads a predicative NP in CGEL's analysis."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
           "id": "relative-word-001",
           "title": "relative-word-001",
           "subtitle": "Relative Use of Indeterminates",
@@ -3998,6 +4742,27 @@
               "id": "deitality-001",
               "relationship": "see-also",
               "notes": "Ignorance-reading fused relatives are deital; free-choice readings mixed (Reynolds, deitality inventory)"
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "it-cleft-001",
+              "title": "it-cleft-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "repeated-noun-preposition-001",
+          "title": "repeated-noun-preposition-001",
+          "subtitle": "Repeated Bare Noun with a Preposition",
+          "path": "/data/constructions/repeated-noun-preposition-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "matched-bare-endpoints-001",
+              "relationship": "related-to",
+              "notes": "From N to N can relate two different nouns that restrict the endpoints."
             }
           ],
           "incomingRelations": []
@@ -4142,6 +4907,57 @@
           ]
         },
         {
+          "id": "so-nominal-predication-001",
+          "title": "so-nominal-predication-001",
+          "subtitle": "Intensifying So with a Nominal",
+          "path": "/data/constructions/so-nominal-predication-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "degree-001",
+              "relationship": "related-to",
+              "notes": "The construction invites a degree interpretation from a contextually retrieved property."
+            },
+            {
+              "id": "proper-name-001",
+              "relationship": "related-to",
+              "notes": "A name can supply the source of an associated property."
+            },
+            {
+              "id": "stressed-some-exclamative-001",
+              "relationship": "related-to",
+              "notes": "Both can invite evaluation with a stressed expression and nominal material."
+            }
+          ],
+          "incomingRelations": []
+        },
+        {
+          "id": "some-n-or-other-001",
+          "title": "some-n-or-other-001",
+          "subtitle": "Some N or Other",
+          "path": "/data/constructions/some-n-or-other-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "np-indef-001",
+              "relationship": "specialization-of",
+              "notes": "A form of indefinite NP with a specific discourse effect."
+            },
+            {
+              "id": "coordination-001",
+              "relationship": "related-to",
+              "notes": "Related or another forms make coordination a live analysis of the tail."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "stressed-some-exclamative-001",
+              "title": "stressed-some-exclamative-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
           "id": "source-complement-001",
           "title": "source-complement-001",
           "subtitle": "Source Locative-Complement Construction",
@@ -4178,8 +4994,39 @@
               "relationship": "related-to"
             },
             {
+              "id": "matched-bare-endpoints-001",
+              "title": "matched-bare-endpoints-001",
+              "relationship": "related-to"
+            },
+            {
               "id": "path-complement-001",
               "title": "path-complement-001",
+              "relationship": "related-to"
+            }
+          ]
+        },
+        {
+          "id": "stressed-some-exclamative-001",
+          "title": "stressed-some-exclamative-001",
+          "subtitle": "Exclamation with Stressed Some",
+          "path": "/data/constructions/stressed-some-exclamative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "exclamation-001",
+              "relationship": "implements",
+              "notes": "The pattern realizes exclamation as an utterance-level function."
+            },
+            {
+              "id": "some-n-or-other-001",
+              "relationship": "related-to",
+              "notes": "An independent use of some associates the NP with a different discourse contribution."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "so-nominal-predication-001",
+              "title": "so-nominal-predication-001",
               "relationship": "related-to"
             }
           ]
@@ -4223,7 +5070,18 @@
               "notes": "Bare vocatives share the bare form but not the construction; their bareness is licensed by the vocative function"
             }
           ],
-          "incomingRelations": []
+          "incomingRelations": [
+            {
+              "id": "bare-noun-coordination-001",
+              "title": "bare-noun-coordination-001",
+              "relationship": "related-to"
+            },
+            {
+              "id": "paired-np-introduction-001",
+              "title": "paired-np-introduction-001",
+              "relationship": "related-to"
+            }
+          ]
         },
         {
           "id": "subject-determiner-001",
@@ -4242,8 +5100,33 @@
               "id": "determination-001",
               "title": "determination-001",
               "relationship": "related-to"
+            },
+            {
+              "id": "genitive-every-001",
+              "title": "genitive-every-001",
+              "relationship": "interfaces-with"
             }
           ]
+        },
+        {
+          "id": "subject-genitive-superlative-001",
+          "title": "subject-genitive-superlative-001",
+          "subtitle": "Subject-Linked Genitive Superlative",
+          "path": "/data/constructions/subject-genitive-superlative-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "degree-001",
+              "relationship": "related-to",
+              "notes": "The superlative supplies a degree standard."
+            },
+            {
+              "id": "fused-head-001",
+              "relationship": "related-to",
+              "notes": "The examples have no overt noun after the superlative. The head analysis remains open."
+            }
+          ],
+          "incomingRelations": []
         },
         {
           "id": "tag-question-001",
@@ -4466,6 +5349,11 @@
               "relationship": "can-manifest-as"
             },
             {
+              "id": "paired-np-introduction-001",
+              "title": "paired-np-introduction-001",
+              "relationship": "contains"
+            },
+            {
               "id": "strong-proper-name-001",
               "title": "strong-proper-name-001",
               "relationship": "see-also"
@@ -4500,6 +5388,11 @@
               "parthood": "formal"
             },
             {
+              "id": "conative-at-001",
+              "title": "conative-at-001",
+              "relationship": "specialization-of"
+            },
+            {
               "id": "ditransitive-vp-001",
               "title": "ditransitive-vp-001",
               "relationship": "specialization-of",
@@ -4510,6 +5403,11 @@
               "title": "goal-complement-001",
               "relationship": "specialization-of",
               "parthood": "formal"
+            },
+            {
+              "id": "into-causative-001",
+              "title": "into-causative-001",
+              "relationship": "specialization-of"
             },
             {
               "id": "object-resultative-001",
@@ -23251,6 +24149,26 @@
                 "name": "Absolute Negator Determinatives"
               },
               {
+                "id": "activity-weak-definite-001",
+                "name": "Activity Weak Definite"
+              },
+              {
+                "id": "all-class-role-modifier-001",
+                "name": "All Modifier Restricting a Role"
+              },
+              {
+                "id": "all-of-magnitude-001",
+                "name": "All of with a Stated Magnitude"
+              },
+              {
+                "id": "bare-noun-coordination-001",
+                "name": "Bare Singular Noun Coordination"
+              },
+              {
+                "id": "be-passive-001",
+                "name": "Verbal Be-Passive"
+              },
+              {
                 "id": "caused-motion-001",
                 "name": "Caused-Motion Construction"
               },
@@ -23267,6 +24185,14 @@
                 "name": "Closed Interrogative Clause"
               },
               {
+                "id": "comparative-correlative-001",
+                "name": "Comparative Correlative"
+              },
+              {
+                "id": "conative-at-001",
+                "name": "Conative At"
+              },
+              {
                 "id": "coordination-001",
                 "name": "Coordination"
               },
@@ -23279,12 +24205,24 @@
                 "name": "Declarative Question"
               },
               {
+                "id": "demonstrative-oblique-genitive-001",
+                "name": "Demonstrative with an Oblique Genitive"
+              },
+              {
                 "id": "ditransitive-vp-001",
                 "name": "Ditransitive VP (Double-object Construction)"
               },
               {
                 "id": "echo-question-001",
                 "name": "Echo Question"
+              },
+              {
+                "id": "evaluative-binominal-001",
+                "name": "Evaluative Binominal"
+              },
+              {
+                "id": "every-inch-predicative-001",
+                "name": "Every Inch with a Nominal Predicative"
               },
               {
                 "id": "exclamation-001",
@@ -23299,8 +24237,16 @@
                 "name": "Exclamative Use of Indeterminates"
               },
               {
+                "id": "existential-no-gerund-001",
+                "name": "Existential No with a Gerund-Participial"
+              },
+              {
                 "id": "fused-head-001",
                 "name": "Fused-Head Construction"
+              },
+              {
+                "id": "genitive-every-001",
+                "name": "Genitive with Every"
               },
               {
                 "id": "goal-complement-001",
@@ -23311,8 +24257,32 @@
                 "name": "Imperative Clause"
               },
               {
+                "id": "indefinite-rate-001",
+                "name": "Rate with an Indefinite Denominator"
+              },
+              {
+                "id": "it-cleft-001",
+                "name": "It-Cleft"
+              },
+              {
+                "id": "let-alone-001",
+                "name": "Let Alone"
+              },
+              {
+                "id": "matched-bare-endpoints-001",
+                "name": "Matched Bare Endpoints"
+              },
+              {
+                "id": "np-property-value-001",
+                "name": "Property-Value NP in a Nominal"
+              },
+              {
                 "id": "object-resultative-001",
                 "name": "Object-Oriented Resultative Construction"
+              },
+              {
+                "id": "of-genitive-own-001",
+                "name": "Of with a Genitive Pronoun and Own"
               },
               {
                 "id": "open-interrogative-clause-001",
@@ -23339,8 +24309,24 @@
                 "name": "Question"
               },
               {
+                "id": "reciprocal-noun-with-001",
+                "name": "Reciprocal Predicative NP with a With-Phrase"
+              },
+              {
+                "id": "repeated-noun-preposition-001",
+                "name": "Repeated Bare Noun with a Preposition"
+              },
+              {
+                "id": "some-n-or-other-001",
+                "name": "Some N or Other"
+              },
+              {
                 "id": "source-complement-001",
                 "name": "Source Locative-Complement Construction"
+              },
+              {
+                "id": "stressed-some-exclamative-001",
+                "name": "Exclamation with Stressed Some"
               },
               {
                 "id": "strong-proper-name-001",
@@ -23696,6 +24682,641 @@
           },
           "relations": [],
           "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "kim-sells-2015",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "kim-sells-2015",
+            "type": "paper",
+            "citation": "Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73",
+            "doi": "10.1017/S002222671400005X",
+            "grounded": [
+              {
+                "id": "evaluative-binominal-001",
+                "name": "Evaluative Binominal"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "lee-goldman-petruck-2018",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "lee-goldman-petruck-2018",
+            "type": "paper",
+            "citation": "Lee-Goldman, Russell & Miriam R. L. Petruck (2018), The FrameNet constructicon in action. In Constructicography, 19–40. John Benjamins",
+            "doi": "10.1075/cal.22.02lee",
+            "grounded": [
+              {
+                "id": "reciprocal-noun-with-001",
+                "name": "Reciprocal Predicative NP with a With-Phrase"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "jackendoff-2008-npn",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "jackendoff-2008-npn",
+            "type": "paper",
+            "citation": "Jackendoff, Ray (2008), Construction After Construction and Its Theoretical Challenges. Language 84(1): 8–28",
+            "doi": "10.1353/lan.2008.0058",
+            "grounded": [
+              {
+                "id": "repeated-noun-preposition-001",
+                "name": "Repeated Bare Noun with a Preposition"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "klein-et-al-2013-weak-definites",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "klein-et-al-2013-weak-definites",
+            "type": "paper",
+            "citation": "Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213",
+            "doi": "10.1016/j.cognition.2013.03.007",
+            "grounded": [
+              {
+                "id": "activity-weak-definite-001",
+                "name": "Activity Weak Definite"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "zwarts-2013-from-n-to-n",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "zwarts-2013-from-n-to-n",
+            "type": "paper",
+            "citation": "Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy",
+            "doi": "10.1007/s10988-013-9131-7",
+            "grounded": [
+              {
+                "id": "matched-bare-endpoints-001",
+                "name": "Matched Bare Endpoints"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "battle-unesco-craft",
+          "subtitle": "document",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "battle-unesco-craft",
+            "type": "document",
+            "citation": "Battle, Stephen, UNESCO conference abstract on craft transmission, printed p. 31",
+            "url": "https://whc.unesco.org/document/141024",
+            "grounded": [
+              {
+                "id": "matched-bare-endpoints-001",
+                "name": "Matched Bare Endpoints"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "le-bruyn-de-swart-2014",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "le-bruyn-de-swart-2014",
+            "type": "paper",
+            "citation": "Le Bruyn, Bert & Henriëtte de Swart (2014), Bare coordination: the semantic shift. Natural Language & Linguistic Theory 32: 1205–1246",
+            "doi": "10.1007/s11049-014-9237-9",
+            "grounded": [
+              {
+                "id": "bare-noun-coordination-001",
+                "name": "Bare Singular Noun Coordination"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "wv-building-code-2009",
+          "subtitle": "transcript",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "wv-building-code-2009",
+            "type": "transcript",
+            "citation": "West Virginia building-code hearing transcript, 16 June 2009",
+            "url": "https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=7554&Format=PDF",
+            "grounded": [
+              {
+                "id": "np-property-value-001",
+                "name": "Property-Value NP in a Nominal"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "rosenthal-1973-smithsonian",
+          "subtitle": "transcript",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "rosenthal-1973-smithsonian",
+            "type": "transcript",
+            "citation": "Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution",
+            "url": "https://mads.si.edu/mads/id/NMAH-AC0196_rose730516",
+            "grounded": [
+              {
+                "id": "all-of-magnitude-001",
+                "name": "All of with a Stated Magnitude"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "rabin-illinois-oral-history",
+          "subtitle": "transcript",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "rabin-illinois-oral-history",
+            "type": "transcript",
+            "citation": "A. Mark Rabin oral history. Illinois Supreme Court Historic Preservation Commission",
+            "url": "https://www.illinoiscourthistory.org/Resources/295e7108-98ee-4e33-ae0a-b5f6e98f2829/a-mark-rabin-abstract-bio-and-complete-transcript-final.pdf",
+            "grounded": [
+              {
+                "id": "all-of-magnitude-001",
+                "name": "All of with a Stated Magnitude"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "postma-rooryck-1996",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "postma-rooryck-1996",
+            "type": "paper",
+            "citation": "Postma, Gertjan & Johan Rooryck (1996), Modality and Possession in NPs. Proceedings of NELS 26: 273–287",
+            "url": "https://www.rooryck.org/_files/ugd/d58ca7_29c6d3f6972c411181e1c3ce3c490f3c.pdf",
+            "grounded": [
+              {
+                "id": "genitive-every-001",
+                "name": "Genitive with Every"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "abenina-adar-2020",
+          "subtitle": "dissertation",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "abenina-adar-2020",
+            "type": "dissertation",
+            "citation": "Abenina-Adar, Maayan (2020), Expressing ignorance with determiner phrases. UCLA dissertation",
+            "url": "https://escholarship.org/uc/item/8964606g",
+            "grounded": [
+              {
+                "id": "some-n-or-other-001",
+                "name": "Some N or Other"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "klossek-johansson-nogues-2021",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "klossek-johansson-nogues-2021",
+            "type": "paper",
+            "citation": "Klossek, Lara & Elisabeth Johansson-Nogués (2021), The Female ‘Boot on the Ground’: Indian Ambivalence Over Gender Mainstreaming in UN Peacekeeping Operations. International Peacekeeping",
+            "doi": "10.1080/13533312.2021.1880899",
+            "url": "https://repositori-api.upf.edu/api/core/bitstreams/46884c4d-afa1-4714-8f28-69b7ac9b1889/content",
+            "grounded": [
+              {
+                "id": "all-class-role-modifier-001",
+                "name": "All Modifier Restricting a Role"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "barker-1998",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "barker-1998",
+            "type": "paper",
+            "citation": "Barker, Chris (1998), Partitives, Double Genitives, and Anti-Uniqueness. Natural Language & Linguistic Theory",
+            "doi": "10.1023/A:1005917421076",
+            "grounded": [
+              {
+                "id": "demonstrative-oblique-genitive-001",
+                "name": "Demonstrative with an Oblique Genitive"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "anderson-some-exclamatives",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "anderson-some-exclamatives",
+            "type": "paper",
+            "citation": "Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52",
+            "doi": "10.18148/sub/2018.v21i1.123",
+            "grounded": [
+              {
+                "id": "stressed-some-exclamative-001",
+                "name": "Exclamation with Stressed Some"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "harjo-crazy-brave-spl",
+          "subtitle": "transcript",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "harjo-crazy-brave-spl",
+            "type": "transcript",
+            "citation": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
+            "url": "https://www.spl.org/Seattle-Public-Library/documents/transcriptions/2012/12-07-11_Joy-Harjo.pdf",
+            "grounded": [
+              {
+                "id": "of-genitive-own-001",
+                "name": "Of with a Genitive Pronoun and Own"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "goldberg-perek-2019",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "goldberg-perek-2019",
+            "type": "paper",
+            "citation": "Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press",
+            "doi": "10.1093/oxfordhb/9780198712398.013.8",
+            "url": "https://fperek.net/pdfs/GoldbergPerekTA-ellipsis-CxG.pdf",
+            "grounded": [
+              {
+                "id": "paired-np-introduction-001",
+                "name": "Paired-NP Introduction"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "casa-constructicon",
+          "subtitle": "database",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "casa-constructicon",
+            "type": "database",
+            "citation": "Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language",
+            "url": "https://constructicon.de/constructions/",
+            "grounded": [
+              {
+                "id": "be-passive-001",
+                "name": "Verbal Be-Passive"
+              },
+              {
+                "id": "comparative-correlative-001",
+                "name": "Comparative Correlative"
+              },
+              {
+                "id": "conative-at-001",
+                "name": "Conative At"
+              },
+              {
+                "id": "into-causative-001",
+                "name": "Into-Causative"
+              },
+              {
+                "id": "it-cleft-001",
+                "name": "It-Cleft"
+              },
+              {
+                "id": "subject-genitive-superlative-001",
+                "name": "Subject-Linked Genitive Superlative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "hoffmann-comparative-correlatives",
+          "subtitle": "book",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "hoffmann-comparative-correlatives",
+            "type": "book",
+            "citation": "Hoffmann, Thomas (2019), English Comparative Correlatives. Cambridge University Press",
+            "doi": "10.1017/9781108569859",
+            "grounded": [
+              {
+                "id": "comparative-correlative-001",
+                "name": "Comparative Correlative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "fillmore-lee-goldman-rhomieux-2012",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "fillmore-lee-goldman-rhomieux-2012",
+            "type": "paper",
+            "citation": "Fillmore, Charles J., Russell R. Lee-Goldman & Russell Rhomieux (2012), The FrameNet Constructicon. In Sign-Based Construction Grammar, 309–372. CSLI",
+            "url": "https://paperzz.com/doc/9428811/the-framenet-constructicon",
+            "grounded": [
+              {
+                "id": "indefinite-rate-001",
+                "name": "Rate with an Indefinite Denominator"
+              },
+              {
+                "id": "let-alone-001",
+                "name": "Let Alone"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "fillmore-kay-oconnor-1988",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "fillmore-kay-oconnor-1988",
+            "type": "paper",
+            "citation": "Fillmore, Charles J., Paul Kay & Mary Catherine O’Connor (1988), Regularity and Idiomaticity in Grammatical Constructions: The Case of Let Alone. Language 64(3): 501–538",
+            "doi": "10.2307/414531",
+            "grounded": [
+              {
+                "id": "let-alone-001",
+                "name": "Let Alone"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "birmingham-english-constructicon",
+          "subtitle": "database",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "birmingham-english-constructicon",
+            "type": "database",
+            "citation": "Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham",
+            "url": "https://englishconstructicon.bham.ac.uk/database/api/constructions",
+            "grounded": [
+              {
+                "id": "conative-at-001",
+                "name": "Conative At"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "perek-2014-conative",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "perek-2014-conative",
+            "type": "paper",
+            "citation": "Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins",
+            "doi": "10.1075/hcp.43.03per",
+            "grounded": [
+              {
+                "id": "conative-at-001",
+                "name": "Conative At"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "hunston-transitivity-networks",
+          "subtitle": "database",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "hunston-transitivity-networks",
+            "type": "database",
+            "citation": "Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+            "url": "https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-into-ing/",
+            "grounded": [
+              {
+                "id": "into-causative-001",
+                "name": "Into-Causative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "kim-davies-2016-into",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "kim-davies-2016-into",
+            "type": "paper",
+            "citation": "Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83",
+            "doi": "10.1017/S1360674315000271",
+            "grounded": [
+              {
+                "id": "into-causative-001",
+                "name": "Into-Causative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "bouso-2024-superlative",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "bouso-2024-superlative",
+            "type": "paper",
+            "citation": "Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129",
+            "doi": "10.1075/cf.22020.bou",
+            "grounded": [
+              {
+                "id": "subject-genitive-superlative-001",
+                "name": "Subject-Linked Genitive Superlative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "bouso-hundt-van-driessche-2024",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "bouso-hundt-van-driessche-2024",
+            "type": "paper",
+            "citation": "Bouso, Tamara, Marianne Hundt & Laetitia Van Driessche (2024), A sisterhood of constructions? Cognitive Linguistics 35(3): 313–344",
+            "doi": "10.1515/cog-2023-0103",
+            "grounded": [
+              {
+                "id": "subject-genitive-superlative-001",
+                "name": "Subject-Linked Genitive Superlative"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "fau-senger-so-np",
+          "subtitle": "database",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "fau-senger-so-np",
+            "type": "database",
+            "citation": "Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)",
+            "url": "https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3791-L3857",
+            "grounded": [
+              {
+                "id": "so-nominal-predication-001",
+                "name": "Intensifying So with a Nominal"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "bylinina-this-is-so-np",
+          "subtitle": "paper",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "bylinina-this-is-so-np",
+            "type": "paper",
+            "citation": "Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6",
+            "doi": "10.4148/biyclc.v6i0.1571",
+            "grounded": [
+              {
+                "id": "so-nominal-predication-001",
+                "name": "Intensifying So with a Nominal"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
         }
       ]
     },
@@ -23796,66 +25417,6 @@
           "subtitle": "",
           "path": "/docs/projectibility-first.md",
           "kind": "markdown",
-          "relations": [],
-          "incomingRelations": []
-        }
-      ]
-    },
-    {
-      "id": "literature",
-      "label": "Literature",
-      "items": [
-        {
-          "id": null,
-          "title": "cgel-determiner.pdf",
-          "subtitle": "",
-          "path": "/literature/cgel-determiner.pdf",
-          "kind": "pdf",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "cgel-negation.pdf",
-          "subtitle": "",
-          "path": "/literature/cgel-negation.pdf",
-          "kind": "pdf",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "countability copy.tex",
-          "subtitle": "",
-          "path": "/literature/countability copy.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "deitality copy.tex",
-          "subtitle": "",
-          "path": "/literature/deitality copy.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "mereology.tex",
-          "subtitle": "",
-          "path": "/literature/mereology.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "numerals.tex",
-          "subtitle": "",
-          "path": "/literature/numerals.tex",
-          "kind": "text",
           "relations": [],
           "incomingRelations": []
         }

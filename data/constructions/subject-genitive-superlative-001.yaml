@@ -1,0 +1,59 @@
+id: subject-genitive-superlative-001
+name: Subject-Linked Genitive Superlative
+pattern: Clause[Subject:NPᵢ + VP[V + phrase[dependent genitiveᵢ + superlative]]]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the performance at an extreme on a scale associated with the subject.
+    details: In worked our hardest, our refers to the people doing the work and hardest characterizes their effort. The postverbal expression has no overt noun and supplies a degree or standard. A linked at-pattern is available with some verbs. Its range differs, as in be at one’s best. The label objoid in the cited work notes the position and the unusual object profile. The present entry leaves the grammatical function of the bare phrase open.
+    examples:
+      - form: Kate and I have [worked our hardest] to raise them that way.
+        note: COCA example in CASA. Our is linked to the subject.
+        grounds:
+          - source: casa-constructicon
+            locator: record 55, example (6)
+            relation: attests
+            bears-on: attestation
+      - form: They [worked at their hardest].
+        note: Published comparison with the separate at-pattern, using the same verb.
+        grounds:
+          - source: bouso-hundt-van-driessche-2024
+            locator: abstract and §2
+            relation: attests
+            bears-on: attestation
+      - form: They [worked their hardest].
+        note: Published illustration of the bare variant.
+        grounds:
+          - source: bouso-hundt-van-driessche-2024
+            locator: abstract and §2
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: degree-001
+    relationship: related-to
+    notes: The superlative supplies a degree standard.
+  - id: fused-head-001
+    relationship: related-to
+    notes: The examples have no overt noun after the superlative. The head analysis remains open.
+grounds:
+  - source: bouso-2024-superlative
+    locator: formal and functional analysis
+    relation: discusses
+    bears-on: projection
+    note: Documents conventional collocations and productivity from COCA.
+  - source: casa-constructicon
+    locator: records 55 and 57
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes the bare and at-patterns and provides corpus examples.
+  - source: bouso-hundt-van-driessche-2024
+    locator: §§5.2–6
+    relation: discusses
+    bears-on: projection
+    note: Reports asymmetric priming and discusses what this can support about their relation.
+kind:
+  provisional: true
+  projection:
+    target: The genitive normally tracks the subject while the bare superlative supplies a high degree for the performance. A related phrase with at can broaden the interpretation to a condition.
+    evidence: Bouso’s corpus analysis and CASA’s contrasted records. The published priming study reports an asymmetry between the two forms.
+    confidence: medium

@@ -1,0 +1,46 @@
+id: evaluative-binominal-001
+name: Evaluative Binominal
+pattern: NP[... Nom₁ of NP₂], with Nom₁ predicated of the referent of NP₂
+type: mixed
+meanings:
+  '1':
+    definition: Evaluates the person or thing introduced by the second nominal.
+    details: A nitwit of a husband evaluates the husband as a nitwit. Material and measure expressions such as a statue of bronze and a cup of water supply different relations. The usual singular oblique takes a(n). Kim and Sells document bare plural obliques. The evaluation can apply to a complex first nominal, as when destroyer of education is predicated of the minister. That semantic grouping leaves the attachment of the outer PP open.
+    examples:
+      - form: '[her stupid nitwit of a husband]'
+        note: The husband is the target of the evaluation.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §14.1, p. 442 [7viii]
+            relation: attests
+            bears-on: attestation
+      - form: '[wobbly jellies of men]'
+        note: BNC example with a bare plural oblique.
+        grounds:
+          - source: kim-sells-2015
+            locator: p. 45 [12]
+            relation: attests
+            bears-on: attestation
+      - form: '[that destroyer of education of a minister]'
+        note: Published judgment. Education is what the minister destroys.
+        grounds:
+          - source: kim-sells-2015
+            locator: pp. 61–62 [60–63]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    notes: The whole expression can serve as an NP.
+grounds:
+  - source: kim-sells-2015
+    locator: pp. 45, 61–62
+    relation: discusses
+    bears-on: projection
+    note: Reports bare plural obliques and argues for a constructional analysis.
+kind:
+  provisional: true
+  projection:
+    target: The first nominal supplies a description of the referent contributed by the second. A bare plural second nominal can support that relation.
+    evidence: CGEL's clausal paraphrase and the published singular and plural cases investigated by Kim and Sells.
+    confidence: medium

@@ -1,0 +1,50 @@
+id: np-property-value-001
+name: Property-Value NP in a Nominal
+pattern: NP[Det:NP[property value] + Nom] or Nom[N + Mod:NP[property value]]
+type: mixed
+meanings:
+  '1':
+    definition: Uses an NP to supply or ask for the value of a property of the head noun’s referent.
+    details: The dependent NP supplies both a property and a value, as in shoes that size. In what size hat, the value is the requested information. CGEL analyzes the pre-head NP as determiner and the post-head NP as modifier. This entry records the shared interpretation. The lexical range of each position and the relation to predicative my age remain open.
+    examples:
+      - form: '[what size hat]'
+        note: The interrogative NP asks for a value.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §4.1, p. 357
+            relation: attests
+            bears-on: attestation
+      - form: They don’t stock [that size shoes].
+        note: CGEL's pre-head variant.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §4.1, p. 357
+            relation: attests
+            bears-on: attestation
+      - form: They don’t stock [shoes that size].
+        note: CGEL's preferred post-head variant for this example.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §4.1, p. 357
+            relation: attests
+            bears-on: attestation
+      - form: '[a house that size and that price]'
+        note: Coordinated post-head property specifications in a building-code hearing.
+        grounds:
+          - source: wv-building-code-2009
+            locator: printed p. 50
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: nom-001
+    relationship: interfaces-with
+    notes: The post-head variant modifies the nominal.
+  - id: np-det-001
+    relationship: interfaces-with
+    notes: The pre-head variant has determiner function in CGEL.
+kind:
+  provisional: true
+  projection:
+    target: The dependent is interpreted as a property with a value to match or supply, in either of CGEL's two positions.
+    evidence: CGEL gives paired examples with the same property. The hearing shows that two property values can be specified together.
+    confidence: medium

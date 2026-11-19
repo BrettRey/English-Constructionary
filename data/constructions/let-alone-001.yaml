@@ -1,0 +1,39 @@
+id: let-alone-001
+name: Let Alone
+pattern: utterance with contrasting focus A + let alone + corresponding focus B; shared material can follow both foci
+type: mixed
+meanings:
+  '1':
+    definition: Uses a contrast on a contextually supplied scale to justify dismissing a further alternative.
+    details: On the usual negative pattern, the first alternative is easier, smaller, or otherwise more attainable. If even it fails, the harder one can be dismissed. The material after let alone can consist of a phrase whose interpretation uses the shared material of the first part. Negation and other downward-oriented environments are favoured. The original study also discusses positive uses and speaker variation.
+    examples:
+      - form: '[Few people have seen the document, let alone know what’s in it.]'
+        note: The scale links seeing the document and knowing its contents.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 15, p. 1319 [76i]
+            relation: attests
+            bears-on: attestation
+      - form: '[We couldn’t fit a bicycle, let alone a whole sofa, through that doorway.]'
+        note: Constructed NP contrast. Through that doorway applies to both alternatives.
+relatedConstructions:
+  - id: coordination-001
+    relationship: related-to
+    notes: CGEL treats the connective as a candidate marginal coordinator.
+grounds:
+  - source: fillmore-kay-oconnor-1988
+    locator: pp. 511–518, 522–529
+    relation: discusses
+    bears-on: projection
+    note: Analyzes paired foci, licensing contexts and scalar inference.
+  - source: fillmore-lee-goldman-rhomieux-2012
+    locator: §4, n. 34 in author draft
+    relation: discusses
+    bears-on: projection
+    note: Reports let alone among well-studied constructions omitted from the chapter’s worked survey.
+kind:
+  provisional: true
+  projection:
+    target: A short paired focus after let alone receives a fuller interpretation from the shared material, with the ordering of the alternatives constrained by the discourse scale and polarity context.
+    evidence: Fillmore, Kay and O’Connor give paired-focus, shared-material, polarity and scale diagnostics. CGEL records the link between finite VPs.
+    confidence: high

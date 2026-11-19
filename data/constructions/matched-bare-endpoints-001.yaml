@@ -1,0 +1,54 @@
+id: matched-bare-endpoints-001
+name: Matched Bare Endpoints
+pattern: from + NP[bare] + to + NP[bare]
+type: mixed
+meanings:
+  '1':
+    definition: Uses two bare nouns to set the endpoints of a path, transfer, or transition.
+    details: The predicate and context determine what traverses the path and what the bare nouns describe. With from student to teacher, an object can pass from one person to another, or a person can move between two roles. A context can supply particular endpoints. The availability of either form alone is an independent test.
+    examples:
+      - form: '[from father to son]'
+        note: A pair of related roles in the Chapter 5 list.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §8.5(b), pp. 409–410 [20vii]
+            relation: attests
+            bears-on: attestation
+      - form: '[from teacher to pupil]'
+        note: Source and goal in a transfer.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 8 §4.4, p. 689 [33vi]
+            relation: attests
+            bears-on: attestation
+      - form: '[from craftsperson to apprentice]'
+        note: The conference abstract uses the phrase of the handing down of techniques.
+        grounds:
+          - source: battle-unesco-craft
+            locator: printed p. 31
+            relation: attests
+            bears-on: attestation
+      - form: Lee went [from student to teacher].
+        note: Constructed change-of-role use. Compare The manuscript went from student to teacher.
+relatedConstructions:
+  - id: bare-noun-coordination-001
+    relationship: related-to
+    notes: A different configuration makes two bare nouns available as a pair.
+  - id: source-complement-001
+    relationship: related-to
+    notes: A source use can participate in the paired frame.
+  - id: goal-complement-001
+    relationship: related-to
+    notes: A goal use can participate in the paired frame.
+grounds:
+  - source: zwarts-2013-from-n-to-n
+    locator: article
+    relation: discusses
+    bears-on: projection
+    note: Proposes a pair-level construction for the meanings of these bare-noun sequences.
+kind:
+  provisional: true
+  projection:
+    target: The same bare-noun pair can specify transfer between people, a role transition, or another route, depending on the host.
+    evidence: Zwarts analyzes the construction over a pair. CGEL and the UNESCO abstract give distinct role pairings, and the audit records matched transfer and change-of-role contexts.
+    confidence: medium

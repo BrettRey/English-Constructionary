@@ -3,6 +3,8 @@ families:
     members:
       - ditransitive-vp-001
       - caused-motion-001
+      - into-causative-001
+      - conative-at-001
       - object-resultative-001
       - way-motion-001
       - verb-particle-object-001
@@ -14,6 +16,7 @@ families:
     members:
       - phrase-001
       - coordination-001
+      - bare-noun-coordination-001
       - vp-001
       - clause-001
       - fused-head-001
@@ -37,6 +40,11 @@ families:
     members:
       - adjective-001
       - degree-001
+      - subject-genitive-superlative-001
+      - so-nominal-predication-001
+      - np-property-value-001
+      - all-class-role-modifier-001
+      - every-inch-predicative-001
   countability:
     members:
       - grammatical-number-001

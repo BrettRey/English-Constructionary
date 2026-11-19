@@ -1,0 +1,39 @@
+id: reciprocal-noun-with-001
+name: Reciprocal Predicative NP with a With-Phrase
+pattern: PredComp:NP[N[pl] + PP[with + NP]], with the other participant supplied by the predicand
+type: mixed
+meanings:
+  '1':
+    definition: Ascribes a reciprocal relation whose participants are expressed separately.
+    details: With friends, the predicand supplies one side of the relationship and the with-phrase supplies the other. CGEL observes that the predicative noun can be plural even with a singular subject. Lee-Goldman and Petruck report that good friends with the president can describe the quality of the relationship, whereas powerful friends with the president fares poorly on the reading where powerful describes the people. Extension of that modifier contrast to other relation nouns remains open.
+    examples:
+      - form: I’m no longer [friends with him].
+        note: The subject is singular and the predicative noun is plural.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §3.2.1, p. 344 [35ii]
+            relation: attests
+            bears-on: attestation
+      - form: They are [good friends with the president].
+        note: Published judgment. Good can describe the friendship.
+        grounds:
+          - source: lee-goldman-petruck-2018
+            locator: pp. 29–32, ex. (11b–c)
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-001
+    relationship: specialization-of
+    notes: The plural noun heads a predicative NP in CGEL's analysis.
+grounds:
+  - source: lee-goldman-petruck-2018
+    locator: pp. 29–32
+    relation: discusses
+    bears-on: projection
+    note: Analyzes the reciprocal relation and compares modifiers of friends with and friends of.
+kind:
+  provisional: true
+  projection:
+    target: For friends with, the split predication permits a singular subject and licenses modifiers that assess the relationship.
+    evidence: CGEL gives the singular-subject case. FrameNet's published modifier comparison holds the plural subject fixed.
+    confidence: medium

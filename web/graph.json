@@ -1,6 +1,12 @@
 {
   "nodes": [
     {
+      "id": "abenina-adar-2020",
+      "kind": "source",
+      "label": "Abenina-Adar, Maayan (2020), Expressing ignorance with determiner phrases. UCLA dissertation",
+      "type": "dissertation"
+    },
+    {
       "id": "absolute-negator-determinative-001",
       "kind": "construction",
       "label": "Absolute Negator Determinatives",
@@ -13,10 +19,40 @@
       "type": "syntactic"
     },
     {
+      "id": "activity-weak-definite-001",
+      "kind": "construction",
+      "label": "Activity Weak Definite",
+      "type": "mixed"
+    },
+    {
       "id": "adjective-001",
       "kind": "construction",
       "label": "Adjective",
       "type": "syntactic"
+    },
+    {
+      "id": "all-class-role-modifier-001",
+      "kind": "construction",
+      "label": "All Modifier Restricting a Role",
+      "type": "mixed"
+    },
+    {
+      "id": "all-of-magnitude-001",
+      "kind": "construction",
+      "label": "All of with a Stated Magnitude",
+      "type": "mixed"
+    },
+    {
+      "id": "anderson-some-exclamatives",
+      "kind": "source",
+      "label": "Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52",
+      "type": "paper"
+    },
+    {
+      "id": "bare-noun-coordination-001",
+      "kind": "construction",
+      "label": "Bare Singular Noun Coordination",
+      "type": "mixed"
     },
     {
       "id": "bare-role-001",
@@ -29,15 +65,57 @@
       "label": "bare-singular-exceptions"
     },
     {
+      "id": "barker-1998",
+      "kind": "source",
+      "label": "Barker, Chris (1998), Partitives, Double Genitives, and Anti-Uniqueness. Natural Language & Linguistic Theory",
+      "type": "paper"
+    },
+    {
       "id": "basic-numerative-atomicity",
       "kind": "diagnostic",
       "label": "basic-numerative-atomicity"
+    },
+    {
+      "id": "battle-unesco-craft",
+      "kind": "source",
+      "label": "Battle, Stephen, UNESCO conference abstract on craft transmission, printed p. 31",
+      "type": "document"
+    },
+    {
+      "id": "be-passive-001",
+      "kind": "construction",
+      "label": "Verbal Be-Passive",
+      "type": "syntactic"
+    },
+    {
+      "id": "birmingham-english-constructicon",
+      "kind": "source",
+      "label": "Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham",
+      "type": "database"
+    },
+    {
+      "id": "bouso-2024-superlative",
+      "kind": "source",
+      "label": "Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129",
+      "type": "paper"
+    },
+    {
+      "id": "bouso-hundt-van-driessche-2024",
+      "kind": "source",
+      "label": "Bouso, Tamara, Marianne Hundt & Laetitia Van Driessche (2024), A sisterhood of constructions? Cognitive Linguistics 35(3): 313–344",
+      "type": "paper"
     },
     {
       "id": "brett-judgment",
       "kind": "source",
       "label": "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records",
       "type": "author-judgment"
+    },
+    {
+      "id": "bylinina-this-is-so-np",
+      "kind": "source",
+      "label": "Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6",
+      "type": "paper"
     },
     {
       "id": "cardinal-determinative-001",
@@ -50,6 +128,12 @@
       "kind": "construction",
       "label": "Cardinal Noun",
       "type": "syntactic"
+    },
+    {
+      "id": "casa-constructicon",
+      "kind": "source",
+      "label": "Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language",
+      "type": "database"
     },
     {
       "id": "caused-motion-001",
@@ -115,10 +199,22 @@
       "type": "syntactic"
     },
     {
+      "id": "comparative-correlative-001",
+      "kind": "construction",
+      "label": "Comparative Correlative",
+      "type": "mixed"
+    },
+    {
       "id": "comparative-er-001",
       "kind": "construction",
       "label": "Comparative -er",
       "type": "morphological"
+    },
+    {
+      "id": "conative-at-001",
+      "kind": "construction",
+      "label": "Conative At",
+      "type": "mixed"
     },
     {
       "id": "constituent-not-negation-001",
@@ -209,6 +305,12 @@
       "type": "syntactic"
     },
     {
+      "id": "demonstrative-oblique-genitive-001",
+      "kind": "construction",
+      "label": "Demonstrative with an Oblique Genitive",
+      "type": "mixed"
+    },
+    {
       "id": "denominator-numeral-001",
       "kind": "construction",
       "label": "Denominator Numeral Construction",
@@ -259,6 +361,18 @@
       "secured": "stable"
     },
     {
+      "id": "evaluative-binominal-001",
+      "kind": "construction",
+      "label": "Evaluative Binominal",
+      "type": "mixed"
+    },
+    {
+      "id": "every-inch-predicative-001",
+      "kind": "construction",
+      "label": "Every Inch with a Nominal Predicative",
+      "type": "mixed"
+    },
+    {
       "id": "exclamation-001",
       "kind": "construction",
       "label": "Exclamation",
@@ -279,9 +393,33 @@
       "type": "semantic"
     },
     {
+      "id": "existential-no-gerund-001",
+      "kind": "construction",
+      "label": "Existential No with a Gerund-Participial",
+      "type": "mixed"
+    },
+    {
       "id": "existential-there-pivot",
       "kind": "diagnostic",
       "label": "existential-there-pivot"
+    },
+    {
+      "id": "fau-senger-so-np",
+      "kind": "source",
+      "label": "Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)",
+      "type": "database"
+    },
+    {
+      "id": "fillmore-kay-oconnor-1988",
+      "kind": "source",
+      "label": "Fillmore, Charles J., Paul Kay & Mary Catherine O’Connor (1988), Regularity and Idiomaticity in Grammatical Constructions: The Case of Let Alone. Language 64(3): 501–538",
+      "type": "paper"
+    },
+    {
+      "id": "fillmore-lee-goldman-rhomieux-2012",
+      "kind": "source",
+      "label": "Fillmore, Charles J., Russell R. Lee-Goldman & Russell Rhomieux (2012), The FrameNet Constructicon. In Sign-Based Construction Grammar, 309–372. CSLI",
+      "type": "paper"
     },
     {
       "id": "fused-determiner-head-001",
@@ -294,6 +432,12 @@
       "kind": "construction",
       "label": "Fused-Head Construction",
       "type": "syntactic"
+    },
+    {
+      "id": "genitive-every-001",
+      "kind": "construction",
+      "label": "Genitive with Every",
+      "type": "mixed"
     },
     {
       "id": "genitive-s-001",
@@ -340,6 +484,12 @@
       "type": "book"
     },
     {
+      "id": "goldberg-perek-2019",
+      "kind": "source",
+      "label": "Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press",
+      "type": "paper"
+    },
+    {
       "id": "gradation-001",
       "kind": "construction",
       "label": "Gradation",
@@ -357,6 +507,24 @@
       "label": "Grammatical Number",
       "type": "semantic",
       "secured": "stable"
+    },
+    {
+      "id": "harjo-crazy-brave-spl",
+      "kind": "source",
+      "label": "Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript",
+      "type": "transcript"
+    },
+    {
+      "id": "hoffmann-comparative-correlatives",
+      "kind": "source",
+      "label": "Hoffmann, Thomas (2019), English Comparative Correlatives. Cambridge University Press",
+      "type": "book"
+    },
+    {
+      "id": "hunston-transitivity-networks",
+      "kind": "source",
+      "label": "Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham",
+      "type": "database"
     },
     {
       "id": "identificational-hosting",
@@ -383,6 +551,12 @@
       "type": "semantic"
     },
     {
+      "id": "indefinite-rate-001",
+      "kind": "construction",
+      "label": "Rate with an Indefinite Denominator",
+      "type": "mixed"
+    },
+    {
       "id": "independent-genitive-pronoun-001",
       "kind": "construction",
       "label": "Independent Genitive Pronoun"
@@ -400,10 +574,22 @@
       "type": "semantic"
     },
     {
+      "id": "into-causative-001",
+      "kind": "construction",
+      "label": "Into-Causative",
+      "type": "mixed"
+    },
+    {
       "id": "intransitive-preposition-001",
       "kind": "construction",
       "label": "Intransitive Preposition Use",
       "type": "syntactic"
+    },
+    {
+      "id": "it-cleft-001",
+      "kind": "construction",
+      "label": "It-Cleft",
+      "type": "mixed"
     },
     {
       "id": "jackendoff-1997",
@@ -412,10 +598,58 @@
       "type": "paper"
     },
     {
+      "id": "jackendoff-2008-npn",
+      "kind": "source",
+      "label": "Jackendoff, Ray (2008), Construction After Construction and Its Theoretical Challenges. Language 84(1): 8–28",
+      "type": "paper"
+    },
+    {
+      "id": "kim-davies-2016-into",
+      "kind": "source",
+      "label": "Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83",
+      "type": "paper"
+    },
+    {
+      "id": "kim-sells-2015",
+      "kind": "source",
+      "label": "Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73",
+      "type": "paper"
+    },
+    {
+      "id": "klein-et-al-2013-weak-definites",
+      "kind": "source",
+      "label": "Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213",
+      "type": "paper"
+    },
+    {
+      "id": "klossek-johansson-nogues-2021",
+      "kind": "source",
+      "label": "Klossek, Lara & Elisabeth Johansson-Nogués (2021), The Female ‘Boot on the Ground’: Indian Ambivalence Over Gender Mainstreaming in UN Peacekeeping Operations. International Peacekeeping",
+      "type": "paper"
+    },
+    {
       "id": "kuroda-1965",
       "kind": "source",
       "label": "Kuroda, S.-Y. (1965), Generative Grammatical Studies in the Japanese Language. MIT dissertation",
       "type": "paper"
+    },
+    {
+      "id": "le-bruyn-de-swart-2014",
+      "kind": "source",
+      "label": "Le Bruyn, Bert & Henriëtte de Swart (2014), Bare coordination: the semantic shift. Natural Language & Linguistic Theory 32: 1205–1246",
+      "type": "paper"
+    },
+    {
+      "id": "lee-goldman-petruck-2018",
+      "kind": "source",
+      "label": "Lee-Goldman, Russell & Miriam R. L. Petruck (2018), The FrameNet constructicon in action. In Constructicography, 19–40. John Benjamins",
+      "type": "paper"
+    },
+    {
+      "id": "let-alone-001",
+      "kind": "construction",
+      "label": "Let Alone",
+      "type": "mixed"
     },
     {
       "id": "letter-case-modifier-001",
@@ -3331,6 +3565,12 @@
       "type": "syntactic"
     },
     {
+      "id": "matched-bare-endpoints-001",
+      "kind": "construction",
+      "label": "Matched Bare Endpoints",
+      "type": "mixed"
+    },
+    {
       "id": "minor-determiner-001",
       "kind": "construction",
       "label": "Minor Determiner (Plain NP/PP)",
@@ -3502,6 +3742,12 @@
       "type": "syntactic"
     },
     {
+      "id": "np-property-value-001",
+      "kind": "construction",
+      "label": "Property-Value NP in a Nominal",
+      "type": "mixed"
+    },
+    {
       "id": "numerative-addition-asyndetic-001",
       "kind": "construction",
       "label": "Numerative Addition Coordination (without and)",
@@ -3616,6 +3862,12 @@
       "secured": "stable"
     },
     {
+      "id": "of-genitive-own-001",
+      "kind": "construction",
+      "label": "Of with a Genitive Pronoun and Own",
+      "type": "mixed"
+    },
+    {
       "id": "one-substitution",
       "kind": "diagnostic",
       "label": "one-substitution"
@@ -3640,6 +3892,12 @@
       "secured": "stable"
     },
     {
+      "id": "paired-np-introduction-001",
+      "kind": "construction",
+      "label": "Paired-NP Introduction",
+      "type": "pragmatic"
+    },
+    {
       "id": "partitive-of-complement",
       "kind": "diagnostic",
       "label": "partitive-of-complement"
@@ -3656,6 +3914,12 @@
       "label": "Path Locative-Complement Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "perek-2014-conative",
+      "kind": "source",
+      "label": "Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins",
+      "type": "paper"
     },
     {
       "id": "perfect-have-001",
@@ -3680,6 +3944,12 @@
       "id": "plural-s-001",
       "kind": "construction",
       "label": "Plural -s"
+    },
+    {
+      "id": "postma-rooryck-1996",
+      "kind": "source",
+      "label": "Postma, Gertjan & Johan Rooryck (1996), Modality and Possession in NPs. Proceedings of NELS 26: 273–287",
+      "type": "paper"
     },
     {
       "id": "pp-001",
@@ -3732,10 +4002,28 @@
       "secured": "stable"
     },
     {
+      "id": "rabin-illinois-oral-history",
+      "kind": "source",
+      "label": "A. Mark Rabin oral history. Illinois Supreme Court Historic Preservation Commission",
+      "type": "transcript"
+    },
+    {
+      "id": "reciprocal-noun-with-001",
+      "kind": "construction",
+      "label": "Reciprocal Predicative NP with a With-Phrase",
+      "type": "mixed"
+    },
+    {
       "id": "relative-word-001",
       "kind": "construction",
       "label": "Relative Use of Indeterminates",
       "type": "semantic"
+    },
+    {
+      "id": "repeated-noun-preposition-001",
+      "kind": "construction",
+      "label": "Repeated Bare Noun with a Preposition",
+      "type": "mixed"
     },
     {
       "id": "reversed-polarity-tag",
@@ -3767,6 +4055,12 @@
       "type": "paper"
     },
     {
+      "id": "rosenthal-1973-smithsonian",
+      "kind": "source",
+      "label": "Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution",
+      "type": "transcript"
+    },
+    {
       "id": "scalar-challenge-call-001",
       "kind": "construction",
       "label": "You Call That X Challenge",
@@ -3791,11 +4085,29 @@
       "type": "morphological"
     },
     {
+      "id": "so-nominal-predication-001",
+      "kind": "construction",
+      "label": "Intensifying So with a Nominal",
+      "type": "mixed"
+    },
+    {
+      "id": "some-n-or-other-001",
+      "kind": "construction",
+      "label": "Some N or Other",
+      "type": "mixed"
+    },
+    {
       "id": "source-complement-001",
       "kind": "construction",
       "label": "Source Locative-Complement Construction",
       "type": "syntactic",
       "secured": "stable"
+    },
+    {
+      "id": "stressed-some-exclamative-001",
+      "kind": "construction",
+      "label": "Exclamation with Stressed Some",
+      "type": "pragmatic"
     },
     {
       "id": "strong-proper-name-001",
@@ -3809,6 +4121,12 @@
       "kind": "construction",
       "label": "Subject-determiner (Genitive NP)",
       "type": "syntactic"
+    },
+    {
+      "id": "subject-genitive-superlative-001",
+      "kind": "construction",
+      "label": "Subject-Linked Genitive Superlative",
+      "type": "mixed"
     },
     {
       "id": "tag-question-001",
@@ -3894,10 +4212,22 @@
       "type": "semantic"
     },
     {
+      "id": "wv-building-code-2009",
+      "kind": "source",
+      "label": "West Virginia building-code hearing transcript, 16 June 2009",
+      "type": "transcript"
+    },
+    {
       "id": "year-name-001",
       "kind": "construction",
       "label": "Year Name Construction",
       "type": "syntactic"
+    },
+    {
+      "id": "zwarts-2013-from-n-to-n",
+      "kind": "source",
+      "label": "Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy",
+      "type": "paper"
     }
   ],
   "edges": [
@@ -3944,6 +4274,30 @@
       "type": "related-to"
     },
     {
+      "from": "activity-weak-definite-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.4(b), p. 408 [17v]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "activity-weak-definite-001",
+      "to": "deitality-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "activity-weak-definite-001",
+      "to": "klein-et-al-2013-weak-definites",
+      "type": "discusses",
+      "locator": "Experiment 4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "activity-weak-definite-001",
+      "to": "np-def-001",
+      "type": "contains"
+    },
+    {
       "from": "adjective-001",
       "to": "degree-001",
       "type": "overlaps-with",
@@ -3953,6 +4307,139 @@
       "from": "adjective-001",
       "to": "gradation-001",
       "type": "interfaces-with"
+    },
+    {
+      "from": "all-class-role-modifier-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §16.3, p. 470 [45]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "all-class-role-modifier-001",
+      "to": "genitive-s-001",
+      "type": "related-to"
+    },
+    {
+      "from": "all-class-role-modifier-001",
+      "to": "klossek-johansson-nogues-2021",
+      "type": "attests",
+      "locator": "opening discussion, p. 1 of author manuscript",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "all-class-role-modifier-001",
+      "to": "klossek-johansson-nogues-2021",
+      "type": "attests",
+      "locator": "opening discussion, p. 1 of author manuscript",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "all-class-role-modifier-001",
+      "to": "nom-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "all-of-magnitude-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §11(b), p. 431",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "all-of-magnitude-001",
+      "to": "numerative-complex-001",
+      "type": "related-to"
+    },
+    {
+      "from": "all-of-magnitude-001",
+      "to": "rabin-illinois-oral-history",
+      "type": "attests",
+      "locator": "p. 61",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "all-of-magnitude-001",
+      "to": "rosenthal-1973-smithsonian",
+      "type": "attests",
+      "locator": "16 May 1973 oral history",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-noun-coordination-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.5(b), pp. 409–410 [20vii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-noun-coordination-001",
+      "to": "coordination-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "bare-noun-coordination-001",
+      "to": "le-bruyn-de-swart-2014",
+      "type": "attests",
+      "locator": "§2.4, (23)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-noun-coordination-001",
+      "to": "le-bruyn-de-swart-2014",
+      "type": "attests",
+      "locator": "§4.1, (39)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "bare-noun-coordination-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 138",
+      "bears-on": "projection"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §10.1.1, p. 1428 [5ib]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §10.1.1, p. 1429 [6iib]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 16 §10.1.1, pp. 1427–1428 [3ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §10.1.1, pp. 1427–1430",
+      "bears-on": "projection"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "be-passive-001",
+      "to": "perfect-have-001",
+      "type": "related-to"
     },
     {
       "from": "cardinal-determinative-001",
@@ -4217,6 +4704,96 @@
       "type": "related-to"
     },
     {
+      "from": "comparative-correlative-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 130",
+      "bears-on": "projection"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 13 §4.6, p. 1135 [39iic]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 13 §4.6, p. 1136 [44iv]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 13 §4.6, pp. 1135–1136 [41i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "clause-analogue-001",
+      "type": "overlaps-with"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "comparative-er-001",
+      "type": "related-to"
+    },
+    {
+      "from": "comparative-correlative-001",
+      "to": "hoffmann-comparative-correlatives",
+      "type": "discusses",
+      "locator": "ch. 4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "birmingham-english-constructicon",
+      "type": "discusses",
+      "locator": "V at n, records 33–36, especially 34",
+      "bears-on": "projection"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 41",
+      "bears-on": "projection"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 4 §8.1.1(a), p. 298 [6ia]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 4 §8.1.1(a), p. 298 [6ib]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "goal-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "perek-2014-conative",
+      "type": "discusses",
+      "locator": "ch. 3, verb-class analysis",
+      "bears-on": "projection"
+    },
+    {
+      "from": "conative-at-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "coordination-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -4379,6 +4956,44 @@
       "from": "demonstrative-determinative-fused-head-001",
       "to": "gold:determinatives",
       "type": "lexicon-members"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "barker-1998",
+      "type": "attests",
+      "locator": "§5",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "barker-1998",
+      "type": "discusses",
+      "locator": "§5",
+      "bears-on": "projection"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §16.5.3 [62i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §16.5.3 [62i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "np-def-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "demonstrative-oblique-genitive-001",
+      "to": "np-gen-indep-001",
+      "type": "contains"
     },
     {
       "from": "denominator-numeral-001",
@@ -4553,6 +5168,63 @@
       "parthood": "semantic"
     },
     {
+      "from": "evaluative-binominal-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §14.1, p. 442 [7viii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "evaluative-binominal-001",
+      "to": "kim-sells-2015",
+      "type": "attests",
+      "locator": "p. 45 [12]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "evaluative-binominal-001",
+      "to": "kim-sells-2015",
+      "type": "attests",
+      "locator": "pp. 61–62 [60–63]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "evaluative-binominal-001",
+      "to": "kim-sells-2015",
+      "type": "discusses",
+      "locator": "pp. 45, 61–62",
+      "bears-on": "projection"
+    },
+    {
+      "from": "evaluative-binominal-001",
+      "to": "np-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "every-inch-predicative-001",
+      "to": "bare-role-001",
+      "type": "related-to"
+    },
+    {
+      "from": "every-inch-predicative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §13(d), p. 438 [6i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "every-inch-predicative-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 5 §7.4, p. 379 n. 22; §13(d), p. 438",
+      "bears-on": "projection"
+    },
+    {
+      "from": "every-inch-predicative-001",
+      "to": "degree-001",
+      "type": "related-to"
+    },
+    {
       "from": "exclamation-001",
       "to": "cgel-2002",
       "type": "discusses",
@@ -4674,6 +5346,39 @@
       "parthood": "semantic"
     },
     {
+      "from": "existential-no-gerund-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 14 §1.6(b), p. 1189 [57iia]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "existential-no-gerund-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 14, p. 1189 [57iib]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "existential-no-gerund-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §2, p. 332 n. 3",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "existential-no-gerund-001",
+      "to": "cgel-2002",
+      "type": "cites",
+      "locator": "Ch. 14, p. 1189 [57ii]",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "existential-no-gerund-001",
+      "to": "no-determiner-001",
+      "type": "related-to"
+    },
+    {
       "from": "fused-determiner-head-001",
       "to": "absolute-negator-determinative-001",
       "type": "related-to"
@@ -4723,6 +5428,25 @@
       "to": "numerative-fused-head-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "genitive-every-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §7.4(g), p. 379 [25a]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "genitive-every-001",
+      "to": "postma-rooryck-1996",
+      "type": "discusses",
+      "locator": "§§2–4",
+      "bears-on": "projection"
+    },
+    {
+      "from": "genitive-every-001",
+      "to": "subject-determiner-001",
+      "type": "interfaces-with"
     },
     {
       "from": "goal-complement-001",
@@ -4874,6 +5598,37 @@
       "type": "related-to"
     },
     {
+      "from": "indefinite-rate-001",
+      "to": "all-of-magnitude-001",
+      "type": "related-to"
+    },
+    {
+      "from": "indefinite-rate-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.4(c), pp. 408–409 [18]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "indefinite-rate-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.4(c), pp. 408–409 [18]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "indefinite-rate-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4.14 in author draft",
+      "bears-on": "projection"
+    },
+    {
+      "from": "indefinite-rate-001",
+      "to": "np-indef-001",
+      "type": "contains"
+    },
+    {
       "from": "independent-genitive-pronoun-001",
       "to": "gold:pronouns",
       "type": "lexicon-members"
@@ -4930,6 +5685,42 @@
       "type": "interfaces-with"
     },
     {
+      "from": "into-causative-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 35",
+      "bears-on": "projection"
+    },
+    {
+      "from": "into-causative-001",
+      "to": "caused-motion-001",
+      "type": "related-to"
+    },
+    {
+      "from": "into-causative-001",
+      "to": "hunston-transitivity-networks",
+      "type": "attests",
+      "locator": "V n into -ing, example with talk",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "into-causative-001",
+      "to": "kim-davies-2016-into",
+      "type": "discusses",
+      "locator": "corpus and constructional analyses",
+      "bears-on": "projection"
+    },
+    {
+      "from": "into-causative-001",
+      "to": "object-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "into-causative-001",
+      "to": "vp-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "intransitive-preposition-001",
       "to": "gold:prepositions",
       "type": "lexicon-members"
@@ -4939,6 +5730,70 @@
       "to": "preposition-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "record 140",
+      "bears-on": "projection"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 4 §5.5.1, p. 267 [47i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 4 §6.1.1, p. 275 [5iii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 16 §§9.1–9.2, 9.4.1, pp. 1415–1425",
+      "bears-on": "projection"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "clause-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "it-cleft-001",
+      "to": "relative-word-001",
+      "type": "related-to"
+    },
+    {
+      "from": "let-alone-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 15, p. 1319 [76i]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "let-alone-001",
+      "to": "coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "let-alone-001",
+      "to": "fillmore-kay-oconnor-1988",
+      "type": "discusses",
+      "locator": "pp. 511–518, 522–529",
+      "bears-on": "projection"
+    },
+    {
+      "from": "let-alone-001",
+      "to": "fillmore-lee-goldman-rhomieux-2012",
+      "type": "discusses",
+      "locator": "§4, n. 34 in author draft",
+      "bears-on": "projection"
     },
     {
       "from": "letter-case-modifier-001",
@@ -8000,6 +8855,49 @@
       "type": "related-to"
     },
     {
+      "from": "matched-bare-endpoints-001",
+      "to": "bare-noun-coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "battle-unesco-craft",
+      "type": "attests",
+      "locator": "printed p. 31",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.5(b), pp. 409–410 [20vii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 8 §4.4, p. 689 [33vi]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "goal-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "source-complement-001",
+      "type": "related-to"
+    },
+    {
+      "from": "matched-bare-endpoints-001",
+      "to": "zwarts-2013-from-n-to-n",
+      "type": "discusses",
+      "locator": "article",
+      "bears-on": "projection"
+    },
+    {
       "from": "minor-determiner-001",
       "to": "deitality-diagnostics",
       "type": "diagnosed-by"
@@ -8250,6 +9148,44 @@
       "from": "np-proper-001",
       "to": "proper-name-001",
       "type": "implements"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §4.1, p. 357",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §4.1, p. 357",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §4.1, p. 357",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "nom-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "np-det-001",
+      "type": "interfaces-with"
+    },
+    {
+      "from": "np-property-value-001",
+      "to": "wv-building-code-2009",
+      "type": "attests",
+      "locator": "printed p. 50",
+      "bears-on": "attestation"
     },
     {
       "from": "numerative-addition-asyndetic-001",
@@ -8696,6 +9632,37 @@
       "parthood": "formal"
     },
     {
+      "from": "of-genitive-own-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §16.7(b), p. 483 [74ii b]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "of-genitive-own-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §16.7(b), p. 483, Modification",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "of-genitive-own-001",
+      "to": "demonstrative-oblique-genitive-001",
+      "type": "related-to"
+    },
+    {
+      "from": "of-genitive-own-001",
+      "to": "harjo-crazy-brave-spl",
+      "type": "attests",
+      "locator": "46:58–47:58",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "of-genitive-own-001",
+      "to": "independent-genitive-pronoun-001",
+      "type": "related-to"
+    },
+    {
       "from": "open-interrogative-clause-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -8764,6 +9731,35 @@
       "to": "np-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "paired-np-introduction-001",
+      "to": "clause-analogue-001",
+      "type": "specialization-of"
+    },
+    {
+      "from": "paired-np-introduction-001",
+      "to": "goldberg-perek-2019",
+      "type": "attests",
+      "locator": "exx. (19) and (24)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "paired-np-introduction-001",
+      "to": "goldberg-perek-2019",
+      "type": "discusses",
+      "locator": "ch. 8, exx. (19) and (24)",
+      "bears-on": "projection"
+    },
+    {
+      "from": "paired-np-introduction-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "paired-np-introduction-001",
+      "to": "vocative-001",
+      "type": "contains"
     },
     {
       "from": "path-complement-001",
@@ -9063,6 +10059,32 @@
       "type": "interfaces-with"
     },
     {
+      "from": "reciprocal-noun-with-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §3.2.1, p. 344 [35ii]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "reciprocal-noun-with-001",
+      "to": "lee-goldman-petruck-2018",
+      "type": "attests",
+      "locator": "pp. 29–32, ex. (11b–c)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "reciprocal-noun-with-001",
+      "to": "lee-goldman-petruck-2018",
+      "type": "discusses",
+      "locator": "pp. 29–32",
+      "bears-on": "projection"
+    },
+    {
+      "from": "reciprocal-noun-with-001",
+      "to": "np-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "relative-word-001",
       "to": "deitality-001",
       "type": "see-also"
@@ -9072,6 +10094,39 @@
       "to": "indeterminate-word-001",
       "type": "specialization-of",
       "parthood": "semantic"
+    },
+    {
+      "from": "repeated-noun-preposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.5(b), pp. 409–410 [20vi]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "repeated-noun-preposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §8.5(b), pp. 409–410 [20vi]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "repeated-noun-preposition-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 7 §4.4, p. 634 n. 15",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "repeated-noun-preposition-001",
+      "to": "jackendoff-2008-npn",
+      "type": "discusses",
+      "locator": "§2",
+      "bears-on": "projection"
+    },
+    {
+      "from": "repeated-noun-preposition-001",
+      "to": "matched-bare-endpoints-001",
+      "type": "related-to"
     },
     {
       "from": "scalar-challenge-call-001",
@@ -9139,6 +10194,73 @@
       "type": "alternates-with"
     },
     {
+      "from": "so-nominal-predication-001",
+      "to": "bylinina-this-is-so-np",
+      "type": "attests",
+      "locator": "opening example",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "bylinina-this-is-so-np",
+      "type": "discusses",
+      "locator": "introductory examples and analysis",
+      "bears-on": "projection"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "degree-001",
+      "type": "related-to"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "fau-senger-so-np",
+      "type": "attests",
+      "locator": "example A, 6 August 2009",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "fau-senger-so-np",
+      "type": "attests",
+      "locator": "example B, 19 October 2009",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "so-nominal-predication-001",
+      "to": "stressed-some-exclamative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "some-n-or-other-001",
+      "to": "abenina-adar-2020",
+      "type": "attests",
+      "locator": "§3.1, pp. 101–103",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "some-n-or-other-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §7.5(c), p. 381, discussion of [29]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "some-n-or-other-001",
+      "to": "coordination-001",
+      "type": "related-to"
+    },
+    {
+      "from": "some-n-or-other-001",
+      "to": "np-indef-001",
+      "type": "specialization-of"
+    },
+    {
       "from": "source-complement-001",
       "to": "cgel-2002",
       "type": "cites",
@@ -9180,6 +10302,37 @@
       "to": "vp-001",
       "type": "specialization-of",
       "parthood": "formal"
+    },
+    {
+      "from": "stressed-some-exclamative-001",
+      "to": "anderson-some-exclamatives",
+      "type": "attests",
+      "locator": "p. 41, (23)–(24)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "stressed-some-exclamative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §7.5(d) [30a]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "stressed-some-exclamative-001",
+      "to": "cgel-2002",
+      "type": "attests",
+      "locator": "Ch. 5 §7.5(d) [30b]",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "stressed-some-exclamative-001",
+      "to": "exclamation-001",
+      "type": "implements"
+    },
+    {
+      "from": "stressed-some-exclamative-001",
+      "to": "some-n-or-other-001",
+      "type": "related-to"
     },
     {
       "from": "strong-proper-name-001",
@@ -9263,6 +10416,58 @@
       "from": "subject-determiner-001",
       "to": "determination-001",
       "type": "specialization-of"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "bouso-2024-superlative",
+      "type": "discusses",
+      "locator": "formal and functional analysis",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "attests",
+      "locator": "abstract and §2",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "attests",
+      "locator": "abstract and §2",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "bouso-hundt-van-driessche-2024",
+      "type": "discusses",
+      "locator": "§§5.2–6",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "casa-constructicon",
+      "type": "attests",
+      "locator": "record 55, example (6)",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "casa-constructicon",
+      "type": "discusses",
+      "locator": "records 55 and 57",
+      "bears-on": "projection"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "degree-001",
+      "type": "related-to"
+    },
+    {
+      "from": "subject-genitive-superlative-001",
+      "to": "fused-head-001",
+      "type": "related-to"
     },
     {
       "from": "tag-question-001",

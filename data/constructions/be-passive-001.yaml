@@ -1,0 +1,54 @@
+id: be-passive-001
+name: Verbal Be-Passive
+pattern: Clause[Subject:NPᵢ + Head:VP[be + VP[past participle, complementᵢ externalized, optional internalized by-PP]]]
+type: syntactic
+meanings:
+  '1':
+    definition: Realigns the verb’s arguments so an internal complement of the active can appear as subject.
+    details: In my surfboard was stolen by Pat, the active object becomes subject, and a by-phrase realizes the participant that would be active subject. The short form usually leaves that participant unexpressed. The by-phrase can supply an experiencer when the active subject is an experiencer. The externalized complement can also come from a preposition, as in the paper was referred to. The participial VP may have complements and verbal modifications. This entry covers the auxiliary be construction.
+    examples:
+      - form: '[My surfboard was stolen by Pat.]'
+        note: Long passive with the active subject expressed as the complement of by.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §10.1.1, pp. 1427–1428 [3ii]
+            relation: attests
+            bears-on: attestation
+      - form: '[My surfboard was stolen.]'
+        note: Short passive.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §10.1.1, p. 1428 [5ib]
+            relation: attests
+            bears-on: attestation
+      - form: '[Her paper is referred to by everyone.]'
+        note: The active would express the paper as object of to.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 16 §10.1.1, p. 1429 [6iib]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: clause-001
+    relationship: specialization-of
+    notes: The be-passive is a voice construction available in headed clauses.
+  - id: perfect-have-001
+    relationship: related-to
+    notes: Both use a past participle, with different auxiliary selection and argument syntax.
+grounds:
+  - source: cgel-2002
+    locator: Ch. 16 §10.1.1, pp. 1427–1430
+    relation: discusses
+    bears-on: projection
+    note: Documents long and short passives and the complement correspondence.
+  - source: casa-constructicon
+    locator: record 138
+    relation: discusses
+    bears-on: projection
+    note: Records auxiliary be followed by a past-participial form.
+kind:
+  provisional: true
+  projection:
+    target: A verbal be-passive lacks a complement present in the corresponding active VP. The missing complement can correspond to the passive subject, and a by-phrase can realize the active subject independently of its semantic role.
+    evidence: CGEL’s active/passive comparisons include direct objects, indirect objects, prepositional objects and non-agent subjects. CASA records the auxiliary and participle pairing.
+    confidence: high

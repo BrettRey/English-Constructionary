@@ -1,0 +1,54 @@
+id: comparative-correlative-001
+name: Comparative Correlative
+pattern: the + fronted comparative in first unit, the + fronted comparative in second unit; also matrix comparative + final the-comparative unit
+type: mixed
+meanings:
+  '1':
+    definition: Makes variation on one scale contingent on the value on another.
+    details: The more we pay them, the harder they work makes effort vary with pay. Reversing the order can make pay vary with effort, which licenses different inferences. The second comparative can stay in its ordinary position when the dependent unit comes last. Fronted pairs also allow reductions such as the sooner, the better. The comparative marker the also occurs before comparative AdjPs and AdvPs in this pattern.
+    examples:
+      - form: '[The more we pay them, the harder they work.]'
+        note: Pay supplies the scale from which variation in effort is projected.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 13 §4.6, pp. 1135–1136 [41i]
+            relation: attests
+            bears-on: attestation
+      - form: '[He becomes more cynical the older he gets.]'
+        note: The dependent comparative comes last.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 13 §4.6, p. 1135 [39iic]
+            relation: attests
+            bears-on: attestation
+      - form: '[The sooner, the better.]'
+        note: Both units are reduced.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 13 §4.6, p. 1136 [44iv]
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: comparative-er-001
+    relationship: related-to
+    notes: An inflected comparative is one possible realization of each degree phrase.
+  - id: clause-analogue-001
+    relationship: overlaps-with
+    notes: Fully reduced pairs can express the relation with no overt VP.
+grounds:
+  - source: casa-constructicon
+    locator: record 130
+    relation: discusses
+    bears-on: projection
+    note: Documents reduction in the comparative correlative.
+  - source: hoffmann-comparative-correlatives
+    locator: ch. 4
+    relation: discusses
+    bears-on: projection
+    note: Corpus study of the construction and its variants.
+kind:
+  provisional: true
+  projection:
+    target: Matched comparatives cue linked variation rather than two unconnected comparisons. The fronted pairing permits reduced units, and reversing which scale sets the condition can change truth conditions.
+    evidence: CGEL’s order, dependency and reduction contrasts, CASA’s reduced pattern, and Hoffmann’s corpus study.
+    confidence: high

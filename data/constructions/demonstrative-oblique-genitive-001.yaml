@@ -1,0 +1,49 @@
+id: demonstrative-oblique-genitive-001
+name: Demonstrative with an Oblique Genitive
+pattern: NP[Det:demonstrative + Nom[N ... of NP[gen]]]
+type: mixed
+meanings:
+  '1':
+    definition: Picks out a referent through a demonstrative and a genitive relation, including a uniquely possessed referent.
+    details: Barker analyzes a demonstrative construction in which that nose of his is usable for an ordinary person with one nose, though the nose of his is degraded. He links the use to focus on the head and speaker affect. The extent to which affect is required across CGEL’s examples remains open.
+    examples:
+      - form: '[that husband of Mary’s]'
+        note: The phrase can be tested in a setting with a single husband.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §16.5.3 [62i]
+            relation: attests
+            bears-on: attestation
+      - form: '[those green eyes of Mary’s]'
+        note: Plural demonstrative in CGEL's oblique-genitive series.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §16.5.3 [62i]
+            relation: attests
+            bears-on: attestation
+      - form: '[that nose of his]'
+        note: Published judgment in comparison with the nose of his.
+        grounds:
+          - source: barker-1998
+            locator: §5
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: np-def-001
+    relationship: specialization-of
+    notes: The demonstrative marks the NP as definite.
+  - id: np-gen-indep-001
+    relationship: contains
+    notes: The of-phrase takes an independent genitive NP.
+grounds:
+  - source: barker-1998
+    locator: §5
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes the demonstrative pattern from oblique genitives subject to anti-uniqueness.
+kind:
+  provisional: true
+  projection:
+    target: The demonstrative form can license an oblique genitive even when the relation supplies only one relevant referent.
+    evidence: Barker's controlled contrast and the range of relations in CGEL's demonstrative series.
+    confidence: medium

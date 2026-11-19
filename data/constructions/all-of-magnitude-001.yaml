@@ -1,0 +1,40 @@
+id: all-of-magnitude-001
+name: All of with a Stated Magnitude
+pattern: all of + (approximator) + numeral expression, with no definite article after of
+type: mixed
+meanings:
+  '1':
+    definition: Calls attention to a stated magnitude relative to an expectation.
+    details: The numeral gives the measured or counted magnitude. A distinct approximator can still make it inexact. All of the fifty volunteers instead quantifies over a separately identified group. The direction of the evaluation in the magnitude use remains open and can be tested by varying the expectation while holding the magnitude fixed.
+    examples:
+      - form: They had recruited [all of fifty] volunteers.
+        note: The magnitude supplies a count of the recruits.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §11(b), p. 431
+            relation: attests
+            bears-on: attestation
+      - form: '[all of about five minutes]'
+        note: Overt approximation in an oral history.
+        grounds:
+          - source: rosenthal-1973-smithsonian
+            locator: 16 May 1973 oral history
+            relation: attests
+            bears-on: attestation
+      - form: '[all of about ten minutes]'
+        note: Overt approximation in an oral history.
+        grounds:
+          - source: rabin-illinois-oral-history
+            locator: p. 61
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: numerative-complex-001
+    relationship: related-to
+    notes: The numeral supplies the magnitude independently of the all of expression.
+kind:
+  provisional: true
+  projection:
+    target: The pattern can retain about and its approximation while inviting an assessment of whether the magnitude is noteworthy in context.
+    evidence: CGEL's example and the two oral histories establish the form. The role of expectations is a proposal to test.
+    confidence: low

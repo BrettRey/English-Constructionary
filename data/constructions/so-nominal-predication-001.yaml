@@ -1,0 +1,52 @@
+id: so-nominal-predication-001
+name: Intensifying So with a Nominal
+pattern: Clause[Subject:NP + be + PredComp:[stressed so + nominal expression]]
+type: mixed
+meanings:
+  '1':
+    definition: Attributes a conspicuous degree of a quality associated with the nominal expression.
+    details: In you’re so glass half full today, the final expression makes a description such as optimism available to be graded. A familiar name can work similarly when speakers associate the bearer with a style or quality. A name in this use can contribute associated qualities while retaining its independent use to identify its bearer in other contexts. The construction does not settle the lexical category of every filler.
+    examples:
+      - form: You’re [so glass half full] today.
+        note: KABC spoken example, transcribed in the Research Constructicon. Stress is on so.
+        grounds:
+          - source: fau-senger-so-np
+            locator: example B, 19 October 2009
+            relation: attests
+            bears-on: attestation
+      - form: It’s [so college].
+        note: KABC spoken example. The situation is characterized by a feature associated with college.
+        grounds:
+          - source: fau-senger-so-np
+            locator: example A, 6 August 2009
+            relation: attests
+            bears-on: attestation
+      - form: This is [so Obama]!
+        note: Published example using a personal name as the basis for characterization.
+        grounds:
+          - source: bylinina-this-is-so-np
+            locator: opening example
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: degree-001
+    relationship: related-to
+    notes: The construction invites a degree interpretation from a contextually retrieved property.
+  - id: proper-name-001
+    relationship: related-to
+    notes: A name can supply the source of an associated property.
+  - id: stressed-some-exclamative-001
+    relationship: related-to
+    notes: Both can invite evaluation with a stressed expression and nominal material.
+grounds:
+  - source: bylinina-this-is-so-np
+    locator: introductory examples and analysis
+    relation: discusses
+    bears-on: projection
+    note: Distinguishes referring to an individual from grading a property associated with that individual.
+kind:
+  provisional: true
+  projection:
+    target: Stressed so in the predicative frame makes a degree interpretation available even with an expression that elsewhere names an individual or describes a situation.
+    evidence: Senger records two spoken examples. Bylinina studies the individual-denoting nominal and the inferred scale of comparison.
+    confidence: medium

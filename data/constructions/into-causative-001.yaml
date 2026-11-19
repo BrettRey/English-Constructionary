@@ -1,0 +1,45 @@
+id: into-causative-001
+name: Into-Causative
+pattern: VP[Head:V + Od:NPᵢ + Comp:PP[into + gerund-participial Clause with understood subjectᵢ]]
+type: mixed
+meanings:
+  '1':
+    definition: Presents the object’s action or change of mental state as a result of what the matrix verb describes.
+    details: In talk someone into leaving, talk supplies a means and the object supplies the understood subject of leaving. The pattern can give an otherwise intransitive use of a verb an object. The result inference concerns an affirmative, completed instance. A conditional, an attempt or negation can suspend it. Into followed by a locative NP can have the distinct caused-motion interpretation.
+    examples:
+      - form: '[talked him into going to London]'
+        note: BNC example. He is both the affected participant and the understood subject of going.
+        grounds:
+          - source: hunston-transitivity-networks
+            locator: V n into -ing, example with talk
+            relation: attests
+            bears-on: attestation
+      - form: They [laughed him into joining in].
+        note: Constructed extension. The laughter can be understood as the means by which he was induced to join.
+relatedConstructions:
+  - id: vp-001
+    relationship: specialization-of
+    notes: Causation is expressed through the object and into-phrase inside the VP.
+  - id: caused-motion-001
+    relationship: related-to
+    notes: Both pair an object with an endpoint. Here the endpoint is a situation expressed by a gerund-participial clause.
+  - id: object-resultative-001
+    relationship: related-to
+    notes: Both can license an object to which the result applies.
+grounds:
+  - source: casa-constructicon
+    locator: record 35
+    relation: discusses
+    bears-on: projection
+    note: Describes the object and into-phrase in one pattern.
+  - source: kim-davies-2016-into
+    locator: corpus and constructional analyses
+    relation: discusses
+    bears-on: projection
+    note: Investigates verb choice, innovative uses and the relation to caused-motion and resultative constructions.
+kind:
+  provisional: true
+  projection:
+    target: The postverbal NP supplies the participant who carries out or experiences the result expressed after into, even with verbs that do not ordinarily take that object.
+    evidence: The CASA and Hunston inventories document diverse verbs. Kim and Davies use corpus evidence to distinguish this form from literal caused motion and related frames.
+    confidence: high

@@ -60,3 +60,121 @@ sources:
   brett-judgment:
     type: author-judgment
     citation: "Dated analytical rulings by Brett Reynolds, recorded in DECISIONS.md and override records"
+  kim-sells-2015:
+    type: paper
+    citation: 'Kim, Jong-Bok & Peter Sells (2015), English Binominal NPs: A Construction-based Perspective. Journal of Linguistics 51(1): 41–73'
+    doi: 10.1017/S002222671400005X
+  lee-goldman-petruck-2018:
+    type: paper
+    citation: Lee-Goldman, Russell & Miriam R. L. Petruck (2018), The FrameNet constructicon in action. In Constructicography, 19–40. John Benjamins
+    doi: 10.1075/cal.22.02lee
+  jackendoff-2008-npn:
+    type: paper
+    citation: 'Jackendoff, Ray (2008), Construction After Construction and Its Theoretical Challenges. Language 84(1): 8–28'
+    doi: 10.1353/lan.2008.0058
+  klein-et-al-2013-weak-definites:
+    type: paper
+    citation: 'Klein, Natalie M., Whitney M. Gegg-Harrison, Greg N. Carlson & Michael K. Tanenhaus (2013), Experimental investigations of weak definite and weak indefinite noun phrases. Cognition 128(2): 187–213'
+    doi: 10.1016/j.cognition.2013.03.007
+  zwarts-2013-from-n-to-n:
+    type: paper
+    citation: 'Zwarts, Joost (2013), From N to N: The Anatomy of a Construction. Linguistics and Philosophy'
+    doi: 10.1007/s10988-013-9131-7
+  battle-unesco-craft:
+    type: document
+    citation: Battle, Stephen, UNESCO conference abstract on craft transmission, printed p. 31
+    url: https://whc.unesco.org/document/141024
+  le-bruyn-de-swart-2014:
+    type: paper
+    citation: 'Le Bruyn, Bert & Henriëtte de Swart (2014), Bare coordination: the semantic shift. Natural Language & Linguistic Theory 32: 1205–1246'
+    doi: 10.1007/s11049-014-9237-9
+  wv-building-code-2009:
+    type: transcript
+    citation: West Virginia building-code hearing transcript, 16 June 2009
+    url: https://apps.sos.wv.gov/adlaw/csr/readfile.aspx?DocId=7554&Format=PDF
+  rosenthal-1973-smithsonian:
+    type: transcript
+    citation: Rosenthal oral history, 16 May 1973. National Museum of American History, Smithsonian Institution
+    url: https://mads.si.edu/mads/id/NMAH-AC0196_rose730516
+  rabin-illinois-oral-history:
+    type: transcript
+    citation: A. Mark Rabin oral history. Illinois Supreme Court Historic Preservation Commission
+    url: https://www.illinoiscourthistory.org/Resources/295e7108-98ee-4e33-ae0a-b5f6e98f2829/a-mark-rabin-abstract-bio-and-complete-transcript-final.pdf
+  postma-rooryck-1996:
+    type: paper
+    citation: 'Postma, Gertjan & Johan Rooryck (1996), Modality and Possession in NPs. Proceedings of NELS 26: 273–287'
+    url: https://www.rooryck.org/_files/ugd/d58ca7_29c6d3f6972c411181e1c3ce3c490f3c.pdf
+  abenina-adar-2020:
+    type: dissertation
+    citation: Abenina-Adar, Maayan (2020), Expressing ignorance with determiner phrases. UCLA dissertation
+    url: https://escholarship.org/uc/item/8964606g
+  klossek-johansson-nogues-2021:
+    type: paper
+    citation: 'Klossek, Lara & Elisabeth Johansson-Nogués (2021), The Female ‘Boot on the Ground’: Indian Ambivalence Over Gender Mainstreaming in UN Peacekeeping Operations. International Peacekeeping'
+    doi: 10.1080/13533312.2021.1880899
+    url: https://repositori-api.upf.edu/api/core/bitstreams/46884c4d-afa1-4714-8f28-69b7ac9b1889/content
+  barker-1998:
+    type: paper
+    citation: Barker, Chris (1998), Partitives, Double Genitives, and Anti-Uniqueness. Natural Language & Linguistic Theory
+    doi: 10.1023/A:1005917421076
+  anderson-some-exclamatives:
+    type: paper
+    citation: 'Anderson, Curt, Kinds, epistemic indefinites, and some-exclamatives. Proceedings of Sinn und Bedeutung 21(1): 35–52'
+    doi: 10.18148/sub/2018.v21i1.123
+  harjo-crazy-brave-spl:
+    type: transcript
+    citation: Harjo, Joy, reading from Crazy Brave. Seattle Public Library transcript
+    url: https://www.spl.org/Seattle-Public-Library/documents/transcriptions/2012/12-07-11_Joy-Harjo.pdf
+  goldberg-perek-2019:
+    type: paper
+    citation: Goldberg, Adele E. & Florent Perek (2019), Ellipsis in Construction Grammar. The Oxford Handbook of Ellipsis, 188–204. Oxford University Press
+    doi: 10.1093/oxfordhb/9780198712398.013.8
+    url: https://fperek.net/pdfs/GoldbergPerekTA-ellipsis-CxG.pdf
+  casa-constructicon:
+    type: database
+    citation: 'Herbst, Thomas R., Thomas Hoffmann, Peter Uhrig & contributors, CASA|Con: The CASA-ConstructiCon of the English Language'
+    url: https://constructicon.de/constructions/
+  hoffmann-comparative-correlatives:
+    type: book
+    citation: Hoffmann, Thomas (2019), English Comparative Correlatives. Cambridge University Press
+    doi: 10.1017/9781108569859
+  fillmore-lee-goldman-rhomieux-2012:
+    type: paper
+    citation: Fillmore, Charles J., Russell R. Lee-Goldman & Russell Rhomieux (2012), The FrameNet Constructicon. In Sign-Based Construction Grammar, 309–372. CSLI
+    url: https://paperzz.com/doc/9428811/the-framenet-constructicon
+  fillmore-kay-oconnor-1988:
+    type: paper
+    citation: 'Fillmore, Charles J., Paul Kay & Mary Catherine O’Connor (1988), Regularity and Idiomaticity in Grammatical Constructions: The Case of Let Alone. Language 64(3): 501–538'
+    doi: 10.2307/414531
+  birmingham-english-constructicon:
+    type: database
+    citation: Perek, Florent & Amanda Patten, English Constructicon. University of Birmingham
+    url: https://englishconstructicon.bham.ac.uk/database/api/constructions
+  perek-2014-conative:
+    type: paper
+    citation: 'Perek, Florent (2014), The case of the English conative construction: Rethinking constructional polysemy. John Benjamins'
+    doi: 10.1075/hcp.43.03per
+  hunston-transitivity-networks:
+    type: database
+    citation: Hunston, Susan, Conceptualising Transitivity Networks Through Pattern Based Constructions. University of Birmingham
+    url: https://transitivity-net.bham.ac.uk/patterns/pattern/v-n-into-ing/
+  kim-davies-2016-into:
+    type: paper
+    citation: 'Kim, Jong-Bok & Mark A. Davies (2016), The into-causative construction in English: a construction-based perspective. English Language & Linguistics 20(1): 55–83'
+    doi: 10.1017/S1360674315000271
+  bouso-2024-superlative:
+    type: paper
+    citation: 'Bouso, Tamara (2024), Towards a usage-based characterisation of the English Superlative Object Construction. Constructions and Frames 16(1): 100–129'
+    doi: 10.1075/cf.22020.bou
+  bouso-hundt-van-driessche-2024:
+    type: paper
+    citation: 'Bouso, Tamara, Marianne Hundt & Laetitia Van Driessche (2024), A sisterhood of constructions? Cognitive Linguistics 35(3): 313–344'
+    doi: 10.1515/cog-2023-0103
+  fau-senger-so-np:
+    type: database
+    citation: Senger, X is so NP. Research Constructicon, FAU Erlangen-Nürnberg, record engUsSpo_XissoNP (CC BY 4.0, examples reproduced with source attribution)
+    url: https://github.com/ElodieWinckel/RCxn/blob/3fc710532d5be7819482d82f0e01ef0f4a28952c/Abox/cx.ttl#L3791-L3857
+  bylinina-this-is-so-np:
+    type: paper
+    citation: Bylinina, Elizaveta, This Is So NP! Baltic International Yearbook of Cognition, Logic and Communication 6
+    doi: 10.4148/biyclc.v6i0.1571

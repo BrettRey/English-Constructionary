@@ -1,0 +1,43 @@
+id: of-genitive-own-001
+name: Of with a Genitive Pronoun and Own
+pattern: NP[... N + PP[of + NP[dependent genitive pronoun + own]]]
+type: mixed
+meanings:
+  '1':
+    definition: Presents an entity as set aside for someone’s ownership or independent use.
+    details: My own uses the dependent genitive form. CGEL contrasts a car of my own and a car of mine. Harjo’s motel-room example specifies independent use through rental. Comparing a room of her own with her own room and a room of hers in the same new rental context would help show which contribution belongs to the of pattern.
+    examples:
+      - form: I’ve got [a car of my own].
+        note: CGEL's special use of own.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §16.7(b), p. 483 [74ii b]
+            relation: attests
+            bears-on: attestation
+      - form: '[a room all of my own]'
+        note: All can emphasize the relation.
+        grounds:
+          - source: cgel-2002
+            locator: Ch. 5 §16.7(b), p. 483, Modification
+            relation: attests
+            bears-on: attestation
+      - form: rent [a room of my own]
+        note: Harjo imagines renting space to sleep and paint.
+        grounds:
+          - source: harjo-crazy-brave-spl
+            locator: 46:58–47:58
+            relation: attests
+            bears-on: attestation
+relatedConstructions:
+  - id: independent-genitive-pronoun-001
+    relationship: related-to
+    notes: Of mine is the corresponding pronoun pattern without own.
+  - id: demonstrative-oblique-genitive-001
+    relationship: related-to
+    notes: Both involve of and genitive forms. The own phrase uses the dependent form of the pronoun.
+kind:
+  provisional: true
+  projection:
+    target: The construction can describe independent use without legal ownership, and uses my own where the simple genitive would have mine.
+    evidence: CGEL's form contrast and Harjo's rental example. The pre-head own comparison remains a proposed test.
+    confidence: medium
