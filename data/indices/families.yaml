@@ -128,6 +128,10 @@ families:
       - title-personal-name-001
       - kin-title-name-001
       - proper-name-secondary-use-001
+  identifier-labels:
+    members:
+      - descriptor-identifier-001
+      - numerical-label-001
   auxiliary-patterns:
     members:
       - auxiliary-vp-ellipsis-001

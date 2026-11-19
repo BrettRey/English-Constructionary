@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T13:57:22.059Z",
+  "generatedAt": "2026-11-19T17:44:02.050Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -341,6 +341,16 @@
       "type": "document",
       "citation": "CBS News (18 June 2001), No Answers In NYC Fire",
       "url": "https://www.cbsnews.com/news/no-answers-in-nyc-fire/"
+    },
+    "cornell-meeting-locations": {
+      "type": "document",
+      "citation": "Cornell University Academic and Event Scheduling, Meeting or Info Session",
+      "url": "https://scheduling.cornell.edu/planning-guide-and-policies/event-planning-guide/meeting-or-info-session"
+    },
+    "dimock-2023-generational-labels": {
+      "type": "document",
+      "citation": "Dimock, Michael (22 May 2023), 5 things to keep in mind when you hear about Gen Z, Millennials, Boomers and other generations. Pew Research Center",
+      "url": "https://www.pewresearch.org/short-reads/2023/05/22/5-things-to-keep-in-mind-when-you-hear-about-gen-z-millennials-boomers-and-other-generations/"
     }
   },
   "sections": [
@@ -3427,6 +3437,44 @@
               "title": "indefinite-modified-name-001",
               "relationship": "related-to",
               "notes": "Both patterns can characterize a participant during an event. Compare They carried an unconscious Kim with They carried Kim unconscious. In the former, the adjective is internal to the object NP. In the latter, it is a secondary predicative outside that NP."
+            }
+          ]
+        },
+        {
+          "id": "descriptor-identifier-001",
+          "title": "descriptor-identifier-001",
+          "subtitle": "Descriptor + Identifier Label",
+          "path": "/data/constructions/descriptor-identifier-001.yaml",
+          "kind": "yaml",
+          "relations": [
+            {
+              "id": "proper-name-001",
+              "relationship": "implements",
+              "notes": "Room 302A realizes naming through a type-denoting descriptor and an assigned code. The identification depends on the code assignment at the relevant site."
+            },
+            {
+              "id": "strong-proper-name-001",
+              "relationship": "related-to",
+              "notes": "Room 101 and Kim both occur as bare argument NPs. In Room 101 the noun supplies the type of bearer and the assigned code supplies its identity."
+            },
+            {
+              "id": "title-personal-name-001",
+              "relationship": "related-to",
+              "notes": "Dr Patel also places a nominal before an identifying form. Dr is an appellation giving the bearer’s status in a personal name. Room in Room 101 gives the type of entity and the following code is interpreted within the site."
+            },
+            {
+              "id": "restrictive-appositive-name-001",
+              "relationship": "related-to",
+              "notes": "Compare Room 101 with the river Wye. Both pair a type expression with an identifier. The latter has an overt determiner and is analyzed as an integrated appositive. The comparison leaves the headedness of Room 101 open."
+            }
+          ],
+          "incomingRelations": [
+            {
+              "id": "numerical-label-001",
+              "title": "numerical-label-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "This subtype restricts the identifier to numerical forms. The wider pattern also admits letters and mixed codes."
             }
           ]
         },
@@ -9822,6 +9870,12 @@
               "relationship": "specialization-of"
             },
             {
+              "id": "descriptor-identifier-001",
+              "relationship": "specialization-of",
+              "parthood": "formal",
+              "notes": "This subtype restricts the identifier to numerical forms. The wider pattern also admits letters and mixed codes."
+            },
+            {
               "id": "proper-name-001",
               "relationship": "related-to"
             },
@@ -9831,7 +9885,8 @@
             },
             {
               "id": "year-name-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Reynolds treats 1066 in the year 1066 as an appositive (n. 10). A bare year such as 1066 can identify a calendar year on its own."
             }
           ],
           "incomingRelations": [
@@ -11555,6 +11610,12 @@
               "relationship": "related-to"
             },
             {
+              "id": "descriptor-identifier-001",
+              "title": "descriptor-identifier-001",
+              "relationship": "implements",
+              "notes": "Room 302A realizes naming through a type-denoting descriptor and an assigned code. The identification depends on the code assignment at the relevant site."
+            },
+            {
               "id": "kin-title-name-001",
               "title": "kin-title-name-001",
               "relationship": "implements",
@@ -12185,6 +12246,12 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "descriptor-identifier-001",
+              "title": "descriptor-identifier-001",
+              "relationship": "related-to",
+              "notes": "Compare Room 101 with the river Wye. Both pair a type expression with an identifier. The latter has an overt determiner and is analyzed as an integrated appositive. The comparison leaves the headedness of Room 101 open."
+            },
             {
               "id": "kin-title-name-001",
               "title": "kin-title-name-001",
@@ -12860,6 +12927,12 @@
               "relationship": "overlaps-with",
               "overlap-dimension": "formal",
               "notes": "Both are determinerless singular NPs whose definite interpretation is relative to a domain, an organisation for treasurer and a household for Mom. Function distinguishes them: a bare role NP is predicative or in a licensed frame (Lee remained treasurer), while a strong proper name is a referential argument (Mom called; compare CGEL’s ∗I’m told treasurer strongly supports this proposal, p. 409). Inserting the keeps the ascription in Henry became the treasurer (p. 409) but loses the name in The mom called (constructed). A role form used as a standing name independently licenses referential argument uses."
+            },
+            {
+              "id": "descriptor-identifier-001",
+              "title": "descriptor-identifier-001",
+              "relationship": "related-to",
+              "notes": "Room 101 and Kim both occur as bare argument NPs. In Room 101 the noun supplies the type of bearer and the assigned code supplies its identity."
             },
             {
               "id": "indefinite-modified-name-001",
@@ -13601,6 +13674,12 @@
             }
           ],
           "incomingRelations": [
+            {
+              "id": "descriptor-identifier-001",
+              "title": "descriptor-identifier-001",
+              "relationship": "related-to",
+              "notes": "Dr Patel also places a nominal before an identifying form. Dr is an appellation giving the bearer’s status in a personal name. Room in Room 101 gives the type of entity and the following code is interpreted within the site."
+            },
             {
               "id": "kin-title-name-001",
               "title": "kin-title-name-001",
@@ -14720,7 +14799,8 @@
             {
               "id": "numerical-label-001",
               "title": "numerical-label-001",
-              "relationship": "related-to"
+              "relationship": "related-to",
+              "notes": "Reynolds treats 1066 in the year 1066 as an appositive (n. 10). A bare year such as 1066 can identify a calendar year on its own."
             }
           ]
         },
@@ -33744,6 +33824,10 @@
                 "name": "Depictive Secondary Predication"
               },
               {
+                "id": "descriptor-identifier-001",
+                "name": "Descriptor + Identifier Label"
+              },
+              {
                 "id": "determination-001",
                 "name": "Determination"
               },
@@ -34396,6 +34480,10 @@
                 "name": "Ten Numerative"
               },
               {
+                "id": "numerical-label-001",
+                "name": "Numerical Label Construction"
+              },
+              {
                 "id": "object-ascriptive-001",
                 "name": "Object-Oriented Ascriptive Predicative"
               },
@@ -34939,6 +35027,10 @@
               {
                 "id": "denominator-numeral-001",
                 "name": "Denominator Numeral Construction"
+              },
+              {
+                "id": "descriptor-identifier-001",
+                "name": "Descriptor + Identifier Label"
               },
               {
                 "id": "magnitude-quantifier-001",
@@ -36730,6 +36822,52 @@
               {
                 "id": "indefinite-modified-name-001",
                 "name": "Indefinite NP with a Modified Personal Name"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "cornell-meeting-locations",
+          "subtitle": "document",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "cornell-meeting-locations",
+            "type": "document",
+            "citation": "Cornell University Academic and Event Scheduling, Meeting or Info Session",
+            "url": "https://scheduling.cornell.edu/planning-guide-and-policies/event-planning-guide/meeting-or-info-session",
+            "grounded": [
+              {
+                "id": "descriptor-identifier-001",
+                "name": "Descriptor + Identifier Label"
+              },
+              {
+                "id": "numerical-label-001",
+                "name": "Numerical Label Construction"
+              }
+            ]
+          },
+          "relations": [],
+          "incomingRelations": []
+        },
+        {
+          "id": null,
+          "title": "dimock-2023-generational-labels",
+          "subtitle": "document",
+          "path": "/data/sources.yaml",
+          "kind": "source",
+          "source": {
+            "id": "dimock-2023-generational-labels",
+            "type": "document",
+            "citation": "Dimock, Michael (22 May 2023), 5 things to keep in mind when you hear about Gen Z, Millennials, Boomers and other generations. Pew Research Center",
+            "url": "https://www.pewresearch.org/short-reads/2023/05/22/5-things-to-keep-in-mind-when-you-hear-about-gen-z-millennials-boomers-and-other-generations/",
+            "grounded": [
+              {
+                "id": "descriptor-identifier-001",
+                "name": "Descriptor + Identifier Label"
               }
             ]
           },

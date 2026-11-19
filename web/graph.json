@@ -488,6 +488,12 @@
       "type": "mixed"
     },
     {
+      "id": "cornell-meeting-locations",
+      "kind": "source",
+      "label": "Cornell University Academic and Event Scheduling, Meeting or Info Session",
+      "type": "document"
+    },
+    {
       "id": "corrective-but-coordination-001",
       "kind": "construction",
       "label": "Corrective Not X But Y",
@@ -636,6 +642,12 @@
       "type": "mixed"
     },
     {
+      "id": "descriptor-identifier-001",
+      "kind": "construction",
+      "label": "Descriptor + Identifier Label",
+      "type": "mixed"
+    },
+    {
       "id": "determination-001",
       "kind": "construction",
       "label": "Determination",
@@ -687,6 +699,12 @@
       "kind": "construction",
       "label": "Measure Differential in a Comparative",
       "type": "mixed"
+    },
+    {
+      "id": "dimock-2023-generational-labels",
+      "kind": "source",
+      "label": "Dimock, Michael (22 May 2023), 5 things to keep in mind when you hear about Gen Z, Millennials, Boomers and other generations. Pew Research Center",
+      "type": "document"
     },
     {
       "id": "direct-quotation-001",
@@ -8008,6 +8026,54 @@
     {
       "from": "depictive-predication-001",
       "to": "subject-resultative-001",
+      "type": "related-to"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §20.2.2, pp. 518–519 [4v]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "cornell-meeting-locations",
+      "type": "attests",
+      "locator": "Info Session Locations, Appel Commons Community Center",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "dimock-2023-generational-labels",
+      "type": "attests",
+      "locator": "First numbered point",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "proper-name-001",
+      "type": "implements"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "restrictive-appositive-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "reynolds-2026-numerals",
+      "type": "discusses",
+      "locator": "§5.2, [7a–b] and n. 9",
+      "bears-on": "projection"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "strong-proper-name-001",
+      "type": "related-to"
+    },
+    {
+      "from": "descriptor-identifier-001",
+      "to": "title-personal-name-001",
       "type": "related-to"
     },
     {
@@ -15628,6 +15694,26 @@
     },
     {
       "from": "numerical-label-001",
+      "to": "cgel-2002",
+      "type": "discusses",
+      "locator": "Ch. 5 §20.2.2, pp. 518–519 [4v]; §20.3, p. 520",
+      "bears-on": "category-assignment"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "cornell-meeting-locations",
+      "type": "attests",
+      "locator": "Meeting Locations, Robert Purcell Community Center",
+      "bears-on": "attestation"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "descriptor-identifier-001",
+      "type": "specialization-of",
+      "parthood": "formal"
+    },
+    {
+      "from": "numerical-label-001",
       "to": "n-proper-001",
       "type": "related-to"
     },
@@ -15639,8 +15725,15 @@
     {
       "from": "numerical-label-001",
       "to": "reynolds-2026-numerals",
+      "type": "cites",
+      "locator": "§5.2 [7a]",
+      "bears-on": "projection"
+    },
+    {
+      "from": "numerical-label-001",
+      "to": "reynolds-2026-numerals",
       "type": "discusses",
-      "locator": "§5, cardinal nouns used as labels; §2, terminology",
+      "locator": "§5, cardinal nouns used as labels (§5.2 [7a–b] and nn. 9–10); §2, terminology",
       "bears-on": "projection"
     },
     {

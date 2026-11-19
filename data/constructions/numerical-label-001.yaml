@@ -13,6 +13,11 @@ meanings:
     examples:
       - form: Room 101
         note: Numerical label identifying a specific room
+        grounds:
+          - source: reynolds-2026-numerals
+            locator: "§5.2 [7a]"
+            relation: cites
+            bears-on: projection
       - form: Highway 401
         note: Numerical label for a specific highway
       - form: 20 Pheasant Street
@@ -32,20 +37,39 @@ semanticRefs:
 relatedConstructions:
   - id: cardinal-noun-001
     relationship: specialization-of
+  - id: descriptor-identifier-001
+    relationship: specialization-of
+    parthood: formal
+    notes: "This subtype restricts the identifier to numerical forms. The wider pattern also admits letters and mixed codes."
   - id: proper-name-001
     relationship: related-to
   - id: n-proper-001
     relationship: related-to
   - id: year-name-001
     relationship: related-to
+    notes: "Reynolds treats 1066 in the year 1066 as an appositive (n. 10). A bare year such as 1066 can identify a calendar year on its own."
 grounds:
   - source: reynolds-2026-numerals
-    locator: "§5, cardinal nouns used as labels; §2, terminology"
+    locator: "§5, cardinal nouns used as labels (§5.2 [7a–b] and nn. 9–10); §2, terminology"
     relation: discusses
     bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §20.2.2, pp. 518–519 [4v]; §20.3, p. 520"
+    relation: discusses
+    bears-on: category-assignment
+    note: "CGEL lists Ward 17 among composite heads and calls Ward a descriptor inside the name. Its embellishments are semantically non-restrictive dependents outside the name, and they include nominal and adjectival attributive modifiers. So CGEL doesn't contrast embellishment with attributive modifier, as the third constraint (from Reynolds 2026, n. 9) does."
+  - source: cornell-meeting-locations
+    locator: Meeting Locations, Robert Purcell Community Center
+    relation: attests
+    bears-on: attestation
+    note: Lists Room 101 as the code for the TV Lounge.
 kind:
   provisional: true
   projection:
     target: "In room six, six identifies a designated room in the labeling system. It does not say that six rooms are involved. Adding an external quantity in two Room Six signs can count the signs while leaving the label unchanged."
     evidence: "Reynolds includes label uses among cardinal proper-noun uses and distinguishes the label from count determination."
     confidence: medium
+  boundaries:
+    known_boundary_items:
+      - "In 20 Pheasant Street the number precedes the street name, unlike Room 101 and Flight 447."
+      - "Room 302A has the same naming function with a mixed code, as covered by the wider descriptor-plus-identifier entry."
