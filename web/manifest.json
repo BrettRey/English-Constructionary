@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T12:42:36.724Z",
+  "generatedAt": "2026-11-19T12:45:34.019Z",
   "sources": {
     "cgel-2002": {
       "type": "reference-grammar",
@@ -333,18 +333,6 @@
           "subtitle": "Project file",
           "path": "/LICENSE",
           "kind": "text"
-        },
-        {
-          "title": "AGENTS.md",
-          "subtitle": "Project file",
-          "path": "/AGENTS.md",
-          "kind": "markdown"
-        },
-        {
-          "title": "CLAUDE.md",
-          "subtitle": "Project file",
-          "path": "/CLAUDE.md",
-          "kind": "markdown"
         }
       ]
     },
@@ -36469,66 +36457,6 @@
           "subtitle": "",
           "path": "/docs/proposed-emphatic-polarity-response-001.md",
           "kind": "markdown",
-          "relations": [],
-          "incomingRelations": []
-        }
-      ]
-    },
-    {
-      "id": "literature",
-      "label": "Literature",
-      "items": [
-        {
-          "id": null,
-          "title": "cgel-determiner.pdf",
-          "subtitle": "",
-          "path": "/literature/cgel-determiner.pdf",
-          "kind": "pdf",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "cgel-negation.pdf",
-          "subtitle": "",
-          "path": "/literature/cgel-negation.pdf",
-          "kind": "pdf",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "countability copy.tex",
-          "subtitle": "",
-          "path": "/literature/countability copy.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "deitality copy.tex",
-          "subtitle": "",
-          "path": "/literature/deitality copy.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "mereology.tex",
-          "subtitle": "",
-          "path": "/literature/mereology.tex",
-          "kind": "text",
-          "relations": [],
-          "incomingRelations": []
-        },
-        {
-          "id": null,
-          "title": "numerals.tex",
-          "subtitle": "",
-          "path": "/literature/numerals.tex",
-          "kind": "text",
           "relations": [],
           "incomingRelations": []
         }
