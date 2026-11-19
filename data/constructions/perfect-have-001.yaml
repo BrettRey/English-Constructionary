@@ -4,13 +4,13 @@ pattern: Aux HAVE + V-en
 type: syntactic
 meanings:
   '1':
-    definition: Marks a prior situation with current relevance
+    definition: Places a prior situation relative to a temporal anchor
     examples:
       - form: She has finished the report
         note: Prior completion relevant now
       - form: They had already left
         note: Prior event relative to a past reference time
-    details: Typically contrasts with simple past by leaving the time open; often resists definite past-time adverbials in many varieties.
+    details: "The present perfect has a present anchor and often suggests current relevance. In many varieties it resists an explicitly finished past-time setting. The preterite perfect instead uses a past anchor."
   '2':
     definition: Marks experiential or repeatable prior occurrence
     examples:
@@ -30,3 +30,18 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
     notes: The perfect auxiliary and participial complement form a VP headed by have
+  - id: continuative-perfect-001
+    relationship: related-to
+  - id: experiential-perfect-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 3 §§5.1–5.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Perfect have selects a past participle. With a past anchor, had left precedes that past time. A present anchor is only one possibility, even when no time expression is overt."
+    evidence: "CGEL separates perfect anteriority from primary tense and from the contextual interpretation of current relevance."
+    confidence: medium

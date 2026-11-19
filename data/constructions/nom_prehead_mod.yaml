@@ -13,3 +13,18 @@ meanings:
 relatedConstructions:
   - id: nom-premod-000
     relationship: see-also
+  - id: nom-adjp-mod-001
+    relationship: related-to
+  - id: nom-n-mod-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§14.2, 14.4, 15"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The head remains the source of the nominal’s ordinary number possibilities. Compare dog breeders, where breeders pluralizes, with old books, where books pluralizes. Premodifier category can be tested independently."
+    evidence: "CGEL’s account of nominal heads and internal modifiers separates the function from how an adjunct realizes it."
+    confidence: medium

@@ -58,7 +58,26 @@ relatedConstructions:
     relationship: can-manifest-as
     parthood: formal
     notes: Proper names can be realized as proper-noun-headed NPs
+  - id: strong-proper-name-001
+    relationship: interfaces-with
+  - id: proper-name-secondary-use-001
+    relationship: related-to
 semanticRefs:
   - honorific
   - title
   - corporate-designation
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§20.1–20.4"
+    relation: discusses
+    bears-on: projection
+  - source: goldberg-2006
+    locator: "Ch. 1, conventional form–function pairings"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A standing name such as Jo can identify its bearer in subject or object position. Two Jos can instead count people sharing the name. A capital letter or name-shaped form alone does not fix which interpretation is used."
+    evidence: "CGEL contrasts ordinary name uses with description and counting uses. The construction account separates standing designation from its syntactic realization."
+    confidence: medium

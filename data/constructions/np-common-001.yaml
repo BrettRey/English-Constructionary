@@ -21,3 +21,16 @@ relatedConstructions:
     relationship: specialization-of
   - id: np-det-001
     relationship: specialization-of
+  - id: strong-proper-name-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§1–3, 20"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A common noun such as river heads either the river or a river. A particular identifiable referent need not therefore be named through a proper noun."
+    evidence: "CGEL contrasts the lexical noun classes and distinguishes referential status from noun class."
+    confidence: medium

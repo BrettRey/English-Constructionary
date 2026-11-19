@@ -33,6 +33,8 @@ relatedConstructions:
     relationship: related-to
   - id: n-non-count-001
     relationship: related-to
+  - id: n-common-pl-001
+    relationship: related-to
 kind:
   provisional: true
   secured: stable
@@ -56,8 +58,8 @@ kind:
     - type: transmission
       evidence: "Iterated transmission preserves the ordered dissociation pattern."
   projection:
-    target: "New aggregate nouns align with loose diagnostics before tight ones."
-    evidence: "Quasi-count class shows implicational hierarchy."
+    target: "Cattle admits many and plural agreement, while an individual count normally uses a classifier or counting expression such as three head of cattle. No claim about novel forms follows automatically from those facts."
+    evidence: "CGEL documents the restricted cardinal patterns and plural agreement of plural-only nouns."
     confidence: medium
   maintenance:
     perturbations:
@@ -81,3 +83,8 @@ kind:
   coupling:
     linked_cluster: "individuation construal"
     mechanism: "bidirectional inference between construal and count morphosyntax"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.2, 3.4, plural-only nouns"
+    relation: discusses
+    bears-on: projection

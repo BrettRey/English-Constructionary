@@ -20,3 +20,16 @@ syntacticRefs:
 relatedConstructions:
   - id: absolute-negator-determinative-001
     relationship: related-to
+  - id: primary-auxiliary-negation-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§7, 11; Ch. 9 §§3.2.1–3.2.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "No can determine a singular count, plural count, or non-count nominal. A clause with We saw no damage normally licenses a positive confirmation tag, linking the local determiner to wider clausal polarity."
+    evidence: "CGEL documents the distributions of no and the distinct polarity diagnostics. Those are separable from the claim that a contextually relevant quantity is zero."
+    confidence: medium

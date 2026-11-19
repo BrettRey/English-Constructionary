@@ -60,9 +60,9 @@ kind:
     - type: functional-pressure
       evidence: "need to track individuation and plurality in discourse"
   projection:
-    target: "new nouns participate in number marking and agreement"
-    evidence: "productive plural formation and demonstrative-determinative agreement"
-    confidence: high
+    target: "The standard count singular three-hour span contrasts with three hours is enough, where a morphologically plural measure can take singular agreement. This rules out deriving all agreement directly from the number of units in the situation."
+    evidence: "CGEL treats amount agreement as an override alongside the ordinary singular and plural agreement construction."
+    confidence: medium
   maintenance:
     perturbations:
       - "reduced transmission or contact leads to erosion of number marking"
@@ -111,3 +111,10 @@ relatedConstructions:
     relationship: related-to
   - id: verb-number-agreement-001
     relationship: related-to
+  - id: amount-singular-agreement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3, 18–19; Ch. 18 §4.1"
+    relation: discusses
+    bears-on: projection

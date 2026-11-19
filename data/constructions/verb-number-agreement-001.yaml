@@ -28,3 +28,18 @@ relatedConstructions:
     relationship: related-to
   - id: plural-001
     relationship: related-to
+  - id: number-transparent-agreement-001
+    relationship: related-to
+  - id: collective-agreement-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§18.1–18.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In the key to the cabinets is missing, agreement tracks the subject head rather than the nearest plural noun. The number-transparent pattern a number of keys are missing needs a separate account."
+    evidence: "CGEL distinguishes ordinary agreement and independently conditioned overrides."
+    confidence: medium

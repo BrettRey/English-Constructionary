@@ -47,3 +47,13 @@ grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§§3–4, addition as coordination"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In three hundred and seven, each of three hundred and seven can denote a number independently. The whole normally denotes their sum and does not treat seven as another multiplier of hundred."
+    evidence: "Reynolds treats additions as coordinates and separates their distribution from that of factors."
+    confidence: medium

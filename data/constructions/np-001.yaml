@@ -1,6 +1,6 @@
 id: np-001
 name: Noun Phrase
-pattern: "(Det:DP +) Head:Nom"
+pattern: "(Det:licensed XP +) Head:Nom, with independently licensed fused-head and pronominal realizations"
 type: syntactic
 dimensions:
   form: "Headed by N or pronoun; optional determiner, modifiers"
@@ -40,3 +40,17 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: NP formally contains Nom as immediate constituent
+  - id: fused-head-001
+    relationship: related-to
+    notes: "Fusion supplies a complete NP without an ordinary overt noun head."
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§1–2; Ch. 4 §§3.1, 4.1"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A complete nominal expression such as the small box can appear as subject and object. In those positions replacing it with the small alone ordinarily requires a recoverable noun or another independently licensed fused-head use."
+    evidence: "CGEL compares the distribution of NPs and nominals in larger constructions and describes the fused-head exceptions separately."
+    confidence: medium

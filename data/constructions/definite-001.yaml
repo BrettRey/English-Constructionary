@@ -1,6 +1,6 @@
 id: definite-001
 name: Definite Construction
-pattern: Definite determiner + Nominal | Proper name | Personal pronoun | Universal quantifier + Nominal
+pattern: Typical hosts include a determined NP, a name used referentially, or a referential pronoun
 type: semantic
 meanings:
   '1':
@@ -10,23 +10,23 @@ meanings:
       - form: the dog
         note: Previously mentioned/contextually unique
       - form: John
-        note: Inherently identifiable
+        note: Standing designation in a community that can identify the intended bearer
   '2':
     definition: Unique/maximal entity
     details: Entity or set exhausting relevant context
     examples:
       - form: the tallest student
         note: Satisfies unique description
-      - form: every book
-        note: Complete set
+      - form: the books
+        note: Contextually maximal group on the ordinary referential reading
   '3':
     definition: Kind/type
     details: Category-level reference
     examples:
       - form: the lion
         note: Species
-      - form: all cats
-        note: Category
+      - form: The dodo is extinct
+        note: Kind-level predication
   '4':
     definition: Familiar entity
     details: Established in discourse/knowledge
@@ -40,3 +40,23 @@ semanticRefs:
   - uniqueness
   - kind
   - familiarity
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§6.1, 8.4; Ch. 16 §6.2.2"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-deitality
+    locator: "Separation of structural and semantic profiles"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The plumber can identify an unmentioned person via an appointment already known to the hearer. On the usual weak reading of take the bus, the same article need not identify a particular vehicle. Familiarity and uniqueness are therefore subject to independent checks."
+    evidence: "CGEL describes recognitional and restricted activity readings. Reynolds treats deital syntax and definite interpretation as distinguishable."
+    confidence: medium
+relatedConstructions:
+  - id: deitality-001
+    relationship: interfaces-with
+  - id: activity-weak-definite-001
+    relationship: related-to

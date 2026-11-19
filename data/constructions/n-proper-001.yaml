@@ -65,7 +65,20 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: Proper noun formally heads proper NP (via Nom)
+  - id: proper-name-secondary-use-001
+    relationship: related-to
 semanticRefs:
   - metaphor-source
   - institution-type
   - location-type
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§20.1–20.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Proper noun and proper name need not have the same extent. New Zealand is a multiword name, and a noun normally used as a name can appear in an explicitly descriptive NP such as another Einstein."
+    evidence: "CGEL separates the word category from the whole designation and documents secondary uses."
+    confidence: medium

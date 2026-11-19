@@ -45,3 +45,16 @@ relatedConstructions:
   - id: deitality-001
     relationship: see-also
     notes: Deitality diagnostics are largely undefined for fronted interrogatives (clause-type dependent)
+  - id: long-distance-open-interrogative-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 10 §§7–7.11; Ch. 11 §5"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In Whose coat did Jo borrow?, the whole phrase whose coat fronts while whose supplies the open variable for the possessor. With an interrogative subject, Who left? has no corresponding auxiliary inversion."
+    evidence: "CGEL separates the interrogative feature of a word from that of its containing phrase and tests subject versus non-subject distributions."
+    confidence: medium

@@ -33,3 +33,14 @@ relatedConstructions:
   - id: proper-name-001
     relationship: related-to
     notes: "Uppercase specification often cues proper-name interpretation."
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Literal orthographic case as comparison"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "When the contrast is literal, uppercase I specifies the same letter shape as capital I. In a spelling instruction this does not tell the listener whether the word is a name. The comparison concerns the literal case instruction."
+    evidence: "The dictionary verifies the written-case contrast. The uppercase substitution is a constructed use."
+    confidence: medium

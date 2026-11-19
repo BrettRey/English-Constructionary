@@ -25,3 +25,20 @@ relatedConstructions:
     relationship: specialization-of
   - id: determination-001
     relationship: related-to
+  - id: numerative-decade-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 19 §5.10"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-2026-numerals
+    locator: "§3, basic numeratives"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The -teen word form gives a value ten greater than the base related to it. The same base element can give a different value with -ty, as thirteen versus thirty shows. The two endings do not have the same lexical or prosodic distribution."
+    evidence: "CGEL separates the teen and decade formations. Reynolds counts both among the basic lexemes."
+    confidence: medium

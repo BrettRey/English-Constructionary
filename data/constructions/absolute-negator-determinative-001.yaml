@@ -28,6 +28,8 @@ relatedConstructions:
     notes: Same determinative no in dependent (determiner) function
   - id: never-adv-negation-001
     relationship: related-to
+  - id: negative-polarity-ever-001
+    relationship: related-to
 lexiconRefs:
   - gold/determinatives
 grounds:
@@ -36,3 +38,13 @@ grounds:
     relation: cites
     bears-on: category-assignment
     note: "no/none dependent and independent forms of the determinative no; compounds are single words"
+  - source: cgel-2002
+    locator: "Ch. 9 §3.2.1; Ch. 5 §9.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Nobody and nothing can trigger a positive confirmation tag even when the finite VP has affirmative form. The same polarity cannot be inferred merely from the use of few or little in every context."
+    evidence: "CGEL discusses positive tags and the relation between absolute negative expressions and approximate negation."
+    confidence: medium

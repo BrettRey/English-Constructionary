@@ -56,7 +56,13 @@ relatedConstructions:
   - id: np-proper-001
     relationship: interfaces-with
     notes: Proper names freely occur as vocatives
+  - id: imperative-clause-001
+    relationship: related-to
 kind:
+  projection:
+    target: "An overt imperative subject and a vocative can co-occur, as in Lee, you take the first shift. Moving Lee to the end can preserve the address reading while you continues to supply the subject. The name in the vocative is therefore not the only potential subject expression."
+    evidence: "CGEL contrasts vocatives and subjects in imperative clauses. The constructed position and co-occurrence test illustrates the proposed distribution without relying on corpus frequencies or kin-term acquisition claims."
+    confidence: medium
   provisional: true
   profile:
     core:
@@ -86,3 +92,8 @@ kind:
   coupling:
     linked_cluster: "proper-name-like behaviour"
     mechanism: "Vocative use licenses bare form; bare form signals vocative construal"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §21; Ch. 10 §9.2.2"
+    relation: discusses
+    bears-on: projection

@@ -30,3 +30,14 @@ relatedConstructions:
   - id: n-common-001
     relationship: related-to
     notes: "Lowercase specification aligns with common-noun readings."
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Literal contrast with capital letters"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "With a lowercase r and with a small r can direct a reader to the same written form in a literal clarification. The named letter generally matches the relevant initial or contrasted position in the label."
+    evidence: "The case contrast is documented for small and capital. The lowercase substitution illustrates the independently meaningful case terminology in the same slot."
+    confidence: medium

@@ -27,3 +27,18 @@ relatedConstructions:
     notes: Negative imperative retains imperative clause type and its special do-support requirement
   - id: secondary-verbal-negation-001
     relationship: related-to
+  - id: finite-do-support-001
+    relationship: related-to
+  - id: lets-inclusive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 9 §2.2; Ch. 10 §§9.2–9.3"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A prohibitive imperative can use don’t with be, as in Don’t be late, while an ordinary finite declarative uses She isn’t late. The negative inclusive Let’s not leave instantiates a different imperative subtype."
+    evidence: "CGEL documents the distinctive imperative do distribution and the order alternatives in negatives with let’s."
+    confidence: medium

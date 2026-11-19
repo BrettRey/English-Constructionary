@@ -4,8 +4,8 @@ pattern: "You call that (a) [N/PRED]?"
 type: mixed
 meanings:
   '1':
-    definition: Challenges the appropriateness of a category label by implying the speaker has a better exemplar
-    details: Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies "that doesn't deserve the label X" or "let me show you what X really is." The speaker positions themselves as having superior knowledge of what counts as X.
+    definition: Challenges the appropriateness of a category label in a dismissive or corrective context
+    details: Challenges category membership rather than scalar degree (though the two are related via prototype structure). Implies "that doesn't deserve the label X" or "let me show you what X really is." A speaker can reject the label without offering a replacement exemplar. A literal inquiry about what to call an object is also possible.
     examples:
       - form: "[You call that a sandwich]? It's just bread with lettuce."
         note: Challenges category membership; implying it fails to meet criteria
@@ -34,3 +34,16 @@ relatedConstructions:
     relationship: overlaps-with
     overlap-dimension: functional
     notes: Shares addressee-directed challenge function; targets category membership rather than scalar degree
+  - id: metalinguistic-negation-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 10 §§4.7.2, 6.4, declarative questions and challenges to question presuppositions, for comparison"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Keeping the wording You call that a repair? fixed, dismissive intonation and a visibly broken object invite a challenge to repair. In a cooperative question about terminology, the wording can instead check what label the addressee uses."
+    evidence: "The source describes the surrounding question architecture. The proposed challenge reading is illustrated by a constructed contextual contrast and its conventionality remains open."
+    confidence: medium

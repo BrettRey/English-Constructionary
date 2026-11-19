@@ -10,10 +10,10 @@ dimensions:
 meanings:
   '1':
     definition: Refers to/predicates non-identifiable instance
-    details: Refers to or predicates property of novel/arbitrary instance of nominal's type
+    details: "The expression may introduce an individual or contribute the nominal as a predicate. The speaker can still have a specific individual in mind."
     examples:
       - form: A dog barked
-        note: Refers to non-specific dog
+        note: Indefinite introduction, with the dog’s identity left unstated
       - form: She is a teacher
         note: Predicates category membership
     relations:
@@ -31,8 +31,8 @@ meanings:
       - 1
       - 2
   '3':
-    definition: Refers to/predicates arbitrary role
-    details: Refers to or predicates property of any role instance
+    definition: Describes a role instance or classifies someone as a roleholder
+    details: "An article-marked NP can refer generically to a roleholder or ascribe occupational class membership. A bare role assignment has a different constructional license."
     examples:
       - form: A CEO should lead
         note: Refers to arbitrary role-holder
@@ -68,7 +68,7 @@ meanings:
       - form: There's a dog in the yard
         note: Refers to existent
       - form: Water spilled
-        note: Predicates existence of substance
+        note: Bare non-count NP denoting the substance involved
     relations:
       - 1
       - 2
@@ -101,7 +101,26 @@ relatedConstructions:
   - id: np-def-001
     relationship: alternates-with
     notes: Paradigmatic contrast in the definiteness system
+  - id: existential-there-001
+    relationship: related-to
+  - id: bare-role-001
+    relationship: related-to
 semanticRefs:
   - quantifier
   - predication
   - kind
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§6.2, 8.2–8.4; Ch. 16 §6.2.2"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-deitality
+    locator: "Identification, existential pivots, and the relation between deitality and interpretation"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In a neutral opening, There was a spare key in the box introduces a possible referent without assuming it is already identifiable. In She is a teacher, the same article can head a classification with no independent referent for the predicate."
+    evidence: "CGEL distinguishes predicative and referential uses and documents definiteness effects in existentials. Those effects depend on information status as well as nominal marking."
+    confidence: medium

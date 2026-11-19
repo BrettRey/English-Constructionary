@@ -5,31 +5,31 @@ type: syntactic
 meanings:
   '1':
     definition: Anaphoric reference - refers back to a previously mentioned entity (antecedent)
-    details: 'Constraints: discourse: Requires an antecedent in the preceding discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
+    details: "The interpretation can recover an earlier linguistic antecedent in the same sentence or the surrounding discourse."
     examples:
       - form: "John arrived. [He] looked tired."
         note: '''He'' refers back to ''John''.'
   '2':
     definition: Cataphoric reference - refers forward to an entity mentioned later in the discourse
-    details: 'Constraints: discourse: Requires an antecedent in the following discourse Related constructions: np-pron-personal-001 (can-be-filled-by)'
+    details: "A following antecedent is possible in suitable structural and discourse settings."
     examples:
-      - form: "If you see [him], tell John I need to talk to [him]."
-        note: '''him'' refers forward to ''John''.'
+      - form: "Before [he] entered the room, John switched off his phone."
+        note: '''He'' refers forward to ''John'' in this reading.'
   '3':
     definition: Exophoric reference - refers to an entity in the extralinguistic context (situation, shared knowledge)
-    details: 'Constraints: contextual: Requires a referent that is salient in the shared context of the speakers Related constructions: np-pron-personal-001 (can-be-filled-by)'
+    details: "Salience in the situation can identify the referent without any antecedent expression."
     examples:
       - form: "[He]'s late again."
         note: Said about someone not present, referring to a shared understanding of who 'he' is.
   '4':
     definition: Bound variable reference - refers to an entity whose referent varies depending on a quantifier
-    details: 'Constraints: syntactic: Requires a quantified antecedent, often in the same sentence Related constructions: np-pron-personal-001 (can-be-filled-by)'
+    details: "The value can vary with the quantified antecedent."
     examples:
       - form: "Every student thinks [they] are smart."
         note: '''they'' refers to each student, and its referent varies with each student.'
   '5':
     definition: Dummy pronoun - has no referential meaning, serves a grammatical function
-    details: 'Limited to ''it'' and ''there'' in specific grammatical constructions. Constraints: semantic: Devoid of semantic content Related constructions: np-pron-dummy-001 (can-be-filled-by)'
+    details: "Dummy it and there occupy grammatical positions without identifying entities."
     examples:
       - form: "[It] is raining."
         note: '''It'' does not refer to anything; it''s a grammatical placeholder.'
@@ -42,8 +42,6 @@ semanticType: reference
 relatedConstructions:
   - id: np-001
     relationship: inherits-from
-  - id: np-pron-personal-001
-    relationship: specialization-of
   - id: fused-determiner-head-001
     relationship: see-also
     notes: Traditional 'indefinite pronouns' (everybody, something, nobody) are compound determinatives in fused determiner-head function, not pronouns
@@ -51,11 +49,26 @@ relatedConstructions:
     relationship: specialization-of
   - id: np-pron-reciprocal-001
     relationship: specialization-of
-  - id: np-pron-interrog-001
-    relationship: specialization-of
-  - id: np-pron-rel-001
-    relationship: specialization-of
-  - id: np-pron-dummy-001
-    relationship: specialization-of
+  - id: interrogative-word-001
+    relationship: related-to
+    notes: Some interrogative forms are pronouns.
+  - id: relative-word-001
+    relationship: related-to
+    notes: Some relative forms are pronouns.
+  - id: existential-there-001
+    relationship: related-to
+  - id: subject-extraposition-001
+    relationship: related-to
 lexiconRefs:
   - gold/pronouns
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§10, 16.2; Ch. 17 §2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "They and them can pick up a prior referent but change realization with subject versus object function. Dummy it can fill a subject slot with no antecedent, so antecedence is neither necessary for pronominal NP status nor sufficient to pick its case."
+    evidence: "CGEL separates pronominal form and syntax from anaphoric, deictic and dummy uses."
+    confidence: medium

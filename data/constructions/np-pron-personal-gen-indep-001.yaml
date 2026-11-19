@@ -13,3 +13,14 @@ meanings:
 relatedConstructions:
   - id: independent-genitive-pronoun-001
     relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §16.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A form such as mine can occupy an NP slot without an overt noun, as in mine fell. The dependent counterpart my requires a nominal. His is formally shared across the two slots."
+    evidence: "CGEL lists independent and dependent forms and describes their different distributions."
+    confidence: medium

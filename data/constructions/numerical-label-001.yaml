@@ -36,3 +36,16 @@ relatedConstructions:
     relationship: related-to
   - id: n-proper-001
     relationship: related-to
+  - id: year-name-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, cardinal nouns used as labels; §2, terminology"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In room six, six identifies a designated room in the labeling system. It does not say that six rooms are involved. Adding an external quantity in two Room Six signs can count the signs while leaving the label unchanged."
+    evidence: "Reynolds includes label uses among cardinal proper-noun uses and distinguishes the label from count determination."
+    confidence: medium

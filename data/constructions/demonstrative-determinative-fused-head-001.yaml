@@ -20,5 +20,18 @@ relatedConstructions:
   - id: deitality-001
     relationship: related-to
     notes: The demonstratives are the prototype of the deital profile
+  - id: demonstrative-distance-001
+    relationship: related-to
 lexiconRefs:
   - gold/determinatives
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§7.1, 9.2; Ch. 17 §§5.1–5.3"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "That can be an entire NP subject in That is strange. In That plan is strange, it instead determines a nominal. A prior proposition can supply the deictic target even with no physical object indicated."
+    evidence: "CGEL treats the two syntactic realizations separately and documents discourse-deictic demonstratives."
+    confidence: medium

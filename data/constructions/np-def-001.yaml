@@ -1,6 +1,6 @@
 id: np-def-001
 name: Definite NP Construction
-pattern: Definite determiner + Nominal | Personal pronoun | Universal quantifier + Nominal | Proper name
+pattern: Definite determiner + Nominal | referential personal pronoun | NP used as a proper name
 type: syntactic
 dimensions:
   form: "Deital determiner (the, this, that, dependent genitive pronoun, or genitive NP) + Nom, or personal pronoun, or bare proper-noun NP"
@@ -23,8 +23,8 @@ meanings:
     definition: Refers to/predicates maximal set
     details: Refers to or predicates property of all contextually relevant instances of nominal's type
     examples:
-      - form: All students passed
-        note: Refers to complete set
+      - form: The students passed
+        note: The group is delimited by the context
       - form: They are the top performers
         note: Predicates maximal group property
     relations:
@@ -47,8 +47,8 @@ meanings:
     examples:
       - form: The dodo is extinct
         note: Refers to species
-      - form: That animal is the lion
-        note: Predicates species membership
+      - form: The wolf has returned to the region
+        note: Kind-level statement in a context about species distribution
     relations:
       - 1
   '5':
@@ -73,14 +73,33 @@ relations:
 relatedConstructions:
   - id: grammatical-definiteness-001
     relationship: interfaces-with
-    notes: Bidirectional interface; deital form cues definite interpretation in comprehension, definite intention licenses deital form in production
+    notes: The structural and interpretive profiles often co-occur. Weak definites and context-dependent identifications qualify the association.
   - id: np-001
     relationship: specialization-of
     parthood: formal
   - id: np-indef-001
     relationship: alternates-with
     notes: Paradigmatic contrast in the definiteness system
+  - id: true-partitive-001
+    relationship: related-to
+  - id: activity-weak-definite-001
+    relationship: related-to
 semanticRefs:
   - quantifier
   - predication
   - kind
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§6.1, 8.4; Ch. 16 §6.2.2"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-deitality
+    locator: "Diagnostics and the weak-definite boundary cases"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The keys normally identifies an accessible set and can supply a domain in two of the keys. The radio in Jo listened to the radio can still have a conventional activity reading without identifying one physical radio."
+    evidence: "CGEL documents both ordinary definites and restricted non-referential readings. Reynolds uses partitive domain establishment as a structural test rather than relying on identifiability alone."
+    confidence: medium

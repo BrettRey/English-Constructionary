@@ -56,6 +56,8 @@ relatedConstructions:
   - id: gradation-001
     relationship: interfaces-with
     notes: Bidirectional; gradable adjectives license degree modification, degree modification cues scalar interpretation
+  - id: nom-adjp-mod-001
+    relationship: related-to
 semanticRefs:
   - property
   - scale
@@ -86,9 +88,9 @@ kind:
     - type: functional-pressure
       evidence: "need to encode properties for reference and predication"
   projection:
-    target: "new adjectives generalize to core modifier frames but not reliably across subtypes"
-    evidence: "gradable vs classificatory diagnostics diverge"
-    confidence: low
+    target: "A common central adjective can be both pre-head and predicative, as with an angry neighbour and the neighbour is angry. Former in former president lacks the corresponding reading after be. Neither semantic property description nor a single position suffices to identify every adjective."
+    evidence: "CGEL treats the central distribution as a cluster and describes restricted attributive and predicative members."
+    confidence: medium
   maintenance:
     perturbations:
       - "reduced exposure to degree morphology weakens gradable diagnostics but leaves classificatory uses intact"
@@ -108,3 +110,8 @@ kind:
     level: macro
     parent_families:
       - modification
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 6 §§1–2, adjective distribution"
+    relation: discusses
+    bears-on: projection

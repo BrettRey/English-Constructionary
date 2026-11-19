@@ -10,3 +10,19 @@ meanings:
         note: Multiple countable entities
       - form: books
         note: Plural count noun
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.2–3.4, 18; Ch. 18 §4.1"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Plural noun form does not require the spelling -s or direct counting. Sheep can show plural agreement with no suffix, and scissors typically needs a unit expression to count individual instruments."
+    evidence: "CGEL’s irregular and plural-only forms supply independent contrasts for number marking and countability."
+    confidence: medium
+relatedConstructions:
+  - id: zero-plural-001
+    relationship: related-to
+  - id: n-common-pl-001
+    relationship: related-to

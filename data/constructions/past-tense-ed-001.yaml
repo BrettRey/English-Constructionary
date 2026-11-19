@@ -42,3 +42,19 @@ semanticRefs:
   - temporal-relation
   - irrealis
   - politeness
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 3 §§1.7, 4.3.2, 6.1–6.2; Ch. 18 §§2.1.2, 5.1"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Regular -ed can mark a preterite or past participle. In Jo checked the key it marks finite preterite, while in Jo has checked the key it realizes the participle selected by have. Remote and backshifted preterites need not locate the event before speech time."
+    evidence: "CGEL documents the syncretism and the independent distribution of the temporal and remote interpretations."
+    confidence: medium
+relatedConstructions:
+  - id: perfect-have-001
+    relationship: interfaces-with
+  - id: present-backshift-001
+    relationship: related-to

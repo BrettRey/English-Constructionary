@@ -42,3 +42,13 @@ grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§3, prosody, morphology, and coordination; §4, factors"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Two hundred and four has an internal phrase two hundred which can also stand independently. Where the context supports the intended scale, the second coordinate of between two hundred and four and six can recover material and mean two hundred and six."
+    evidence: "Reynolds uses reduction and coordination to diagnose structure above the basic lexical inventory. A shorter coordinate can also get a literal small-number reading in other contexts."
+    confidence: medium

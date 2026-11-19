@@ -82,3 +82,19 @@ semanticRefs:
   - measure
   - agent
   - social-role
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§16.3, 16.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "With the person next door’s bicycle, the genitive marker is adjacent to door but the possessor is the whole person next door. The semantic relation also varies across uses such as Monday’s meeting and our uncle’s bicycle."
+    evidence: "CGEL uses phrasal placement to separate the marker’s host from the genitive’s semantic argument."
+    confidence: medium
+relatedConstructions:
+  - id: group-genitive-001
+    relationship: related-to
+  - id: temporal-genitive-001
+    relationship: related-to

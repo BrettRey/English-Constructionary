@@ -32,3 +32,19 @@ semanticRefs:
   - measure
   - comparison
   - standard
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 6, gradability; Ch. 13 §§1.1, 4.3–4.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Positive tall relies on a contextually set standard. Six feet tall can place someone on the scale without settling whether they count as tall for a basketball player."
+    evidence: "CGEL distinguishes scalar comparison and standards from positive-grade property ascription."
+    confidence: medium
+relatedConstructions:
+  - id: measure-adjective-001
+    relationship: related-to
+  - id: equative-as-as-001
+    relationship: related-to

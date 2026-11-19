@@ -17,6 +17,21 @@ constraints:
     description: Head must be plural
 semanticType: reference
 relatedConstructions:
-  - id: def-prenominal-001
-    relationship: alternates-with
-    notes: The definite version (the old men) refers to specific group
+  - id: np-def-001
+    relationship: related-to
+    notes: "The old men shows the same modification inside an article-marked NP."
+  - id: nom-adjp-mod-001
+    relationship: related-to
+  - id: nom-prehead-mod-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§14.2, 15; Ch. 6, attributive adjectives"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In a clause such as Old men were waiting, the modified bare plural can be an ordinary subject without an article. In the same episodic use an old man needs the article. The difference in bare licensing follows the head’s count and number profile and survives expansion to very old."
+    evidence: "CGEL gives the range of attributive AdjPs and the ordinary order within the nominal."
+    confidence: medium

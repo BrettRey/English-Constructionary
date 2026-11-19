@@ -38,9 +38,23 @@ relatedConstructions:
   - id: clause-analogue-001
     relationship: interfaces-with
     notes: Exclamative what/how also occurs in non-headed constructions with exclamative clausal semantics
+  - id: what-np-exclamative-001
+    relationship: related-to
+  - id: how-adjective-exclamative-001
+    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: "pp. 918-20"
     relation: cites
     bears-on: category-assignment
     note: "Exclamative what is an adjective; interrogative what a determinative"
+  - source: cgel-2002
+    locator: "Ch. 10 §§8.1.1–8.1.4; Ch. 11 §6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "An independent What a mess! uses a in the singular count case, while What awful weather! does not. How odd! can supply its own exclamatory force without an overt subject. An ordinary open interrogative uses related forms in a different clause construction."
+    evidence: "CGEL compares exclamatives with open interrogatives and gives the phrasal uses and internal NP restrictions."
+    confidence: medium

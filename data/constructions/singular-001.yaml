@@ -46,3 +46,16 @@ relatedConstructions:
   - id: plural-001
     relationship: alternates-with
     notes: Paradigmatic contrast in the number system
+  - id: verb-number-agreement-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.1–3.4, 18"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The singular grammatical pattern travels across count and non-count uses. The water is cold has singular agreement although no distinct unit of water need have been selected."
+    evidence: "CGEL separates number agreement and countability, including singular morphology for non-count nouns."
+    confidence: medium

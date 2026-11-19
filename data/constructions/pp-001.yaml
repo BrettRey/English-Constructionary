@@ -35,5 +35,18 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: The head is a preposition
+  - id: content-because-adjunct-001
+    relationship: related-to
 lexiconRefs:
   - gold/prepositions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 7 §§2, 4–5"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A preposition can head a phrase even without an NP after it, as in We waited outside. Some heads take a different category, as with because it rained, and a PP can itself be selected, as with from under the stairs."
+    evidence: "CGEL classifies PPs by their heads and documents complement types and functions rather than identifying them through the presence of an NP alone."
+    confidence: medium

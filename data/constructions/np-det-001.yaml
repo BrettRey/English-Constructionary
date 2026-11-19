@@ -26,3 +26,16 @@ relatedConstructions:
     relationship: specialization-of
   - id: np-indef-001
     relationship: specialization-of
+  - id: np-property-value-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §4, determiner function and non-DP realizations"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Holding the target size fixed, that size shoes and shoes that size can share a property specification. Only the first puts the property NP before the head in determiner function in CGEL’s analysis."
+    evidence: "CGEL provides the matching property-value forms and treats non-determinative realizations as restricted."
+    confidence: medium

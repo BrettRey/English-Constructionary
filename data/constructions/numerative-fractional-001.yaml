@@ -38,3 +38,20 @@ relatedConstructions:
     relationship: contains
   - id: determination-001
     relationship: related-to
+  - id: numerative-ordinal-adjective-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, fractionals; §3, morphology"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 19 §5.10"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Fifths in three fifths accepts plural marking and a cardinal determiner. Fifth in fifth place is adjectival and does not take plural marking there. The two distributions persist where the forms are partly identical."
+    evidence: "CGEL and Reynolds distinguish fractional nouns from ordinal adjectives despite the shared morphological material."
+    confidence: medium

@@ -73,3 +73,9 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 ## 2026-11-19
 
 - **Constructionary release.** Published the 42 entries from the broader constructicon screen and 195 from the expansion across CGEL, Goldberg, and other sources. The release includes 389 constructions and 55 evidence sources.
+
+- **Underdeveloped entries revised.** Screened the 390 records for a missing diagnostic or evidence link and checked the flagged entries against their existing analyses. Revised 97. Two flagged records were outside this pass’s substantive set: the duplicate pre-head modifier record `nom-premod-000` and the separate emphatic-polarity draft.
+
+  Bare role now distinguishes an assignment, professional-class predication, and standing designation. It documents verbal and prepositional frames, a referential object contrast, the difference between role ascription and identification with `the`, and the Arizona State report of two co-captains. The latter supports shared tenure. It does not establish the acceptability of every definite counterpart. The meaning index now treats bare role as a use of bare NPs without treating role ascription as an implementation of indefiniteness.
+
+  The wider revisions add distributional comparisons and locators, including the published numerative analysis. They correct the conflation of grammatical number with unit count, of definite marking with universal quantification, and of nominal argument realization with required definiteness. The degree-adjective entry now includes the documented comparative and limits its claims about intervening `of`. Pronominal entries link to the existing constructions that actually cover the relevant uses. Constructed contrasts are separated from attestation. This pass adds no new claims about stabilization.

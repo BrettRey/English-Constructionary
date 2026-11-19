@@ -35,3 +35,20 @@ relatedConstructions:
     relationship: related-to
   - id: n-proper-001
     relationship: related-to
+  - id: denominator-numeral-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, cardinal nouns as mathematical names"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §7.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In Seven is prime, seven is an independent subject naming a number. In seven pages, seven supplies cardinal determination. Plural sevens can instead count instances of a written symbol or value."
+    evidence: "Reynolds distinguishes abstract-name, token, and quantificational uses by their distributions."
+    confidence: medium

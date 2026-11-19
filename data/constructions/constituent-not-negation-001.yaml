@@ -17,3 +17,19 @@ constraints:
     description: Occurs with predicative XP (AdjP/PP/NP) in a copular or similar frame.
   - type: semantic
     description: Negates the property or relation expressed by the XP.
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 9 §3.1 [16–17]; Ch. 15 §2.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In Lee came not on Tuesday but on Wednesday, the correction replaces a temporal expression while the coming remains asserted. The clause can take an ordinary negative tag expecting confirmation of that coming."
+    evidence: "CGEL documents local scope of not inside coordinates and distinguishes it from primary finite negation."
+    confidence: medium
+relatedConstructions:
+  - id: corrective-but-coordination-001
+    relationship: related-to
+  - id: primary-auxiliary-negation-001
+    relationship: related-to

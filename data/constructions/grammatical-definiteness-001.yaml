@@ -20,8 +20,8 @@ meanings:
     definition: Reference scope
     details: Whether reference exhausts contextual set
     examples:
-      - form: every/some students
-        note: Maximal vs partial
+      - form: the students/some students
+        note: An established group versus a subset, on the ordinary referential readings
       - form: the/a winner
         note: Unique vs arbitrary
   '3':
@@ -43,7 +43,26 @@ relatedConstructions:
   - id: indefinite-001
     relationship: alternates-with
     notes: Paradigmatic contrast in the definiteness system
+  - id: deitality-001
+    relationship: interfaces-with
+  - id: activity-weak-definite-001
+    relationship: related-to
 semanticRefs:
   - identifiability
   - uniqueness
   - familiarity
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §6; Ch. 16 §6.2.2"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-deitality
+    locator: "Ranked formal diagnostics and interpretation mismatches"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Shared knowledge can make the only exit identifiable at first mention. Conversely, the in take the train can mark the lexicalized activity without distinguishing a specific train. Familiarity, unique reference, and structural diagnostics need separate predictions."
+    evidence: "CGEL and Reynolds document structural and interpretive departures from the simple definite/familiar mapping."
+    confidence: medium

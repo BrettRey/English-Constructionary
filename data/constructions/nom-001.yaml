@@ -61,3 +61,17 @@ relatedConstructions:
     relationship: contains
     parthood: formal
     notes: Nom formally contains N as head
+  - id: np-det-001
+    relationship: interfaces-with
+    notes: "Nominal structure supplies the complement of the determiner function."
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§1–2, 14"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "An expansion of chair to old chair can fit inside the frame the __ without adding another determiner. The resulting old chair still normally requires a determiner as an independent singular count argument."
+    evidence: "CGEL distinguishes the noun-headed phrase that determination combines with from the resulting NP."
+    confidence: medium

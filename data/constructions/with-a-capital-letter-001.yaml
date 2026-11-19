@@ -33,3 +33,20 @@ relatedConstructions:
   - id: proper-name-001
     relationship: related-to
     notes: "Uppercase specification often cues proper-name interpretation."
+  - id: letter-case-modifier-001
+    relationship: related-to
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Capital letter"
+    relation: discusses
+    bears-on: projection
+  - source: cambridge-dictionary-with-a-capital
+    locator: "Emphatic idiom"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Democrat with a capital D specifies the writing of the label and can imply party affiliation. In chaos with a capital C, there need be neither an organization nor a name. The capital instruction can support emphatic construal."
+    evidence: "The dictionary directly documents both the literal terminology and the emphatic idiom. The constructed comparison holds the frame constant."
+    confidence: medium

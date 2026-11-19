@@ -22,3 +22,20 @@ relatedConstructions:
     relationship: specialization-of
   - id: determination-001
     relationship: related-to
+  - id: cardinal-noun-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §7.6"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-2026-numerals
+    locator: "§§2, 5, basic determinatives and cardinal nouns"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Ten chapters uses ten directly with a plural nominal. In two tens, the separate cardinal two quantifies two realizations of the value and tens inflects. An independent use of ten does not force either analysis across contexts."
+    evidence: "Reynolds lists ten among the basic determinative forms and uses token nouns to establish separate noun distribution."
+    confidence: medium

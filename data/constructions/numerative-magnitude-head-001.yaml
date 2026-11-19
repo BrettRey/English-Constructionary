@@ -24,7 +24,19 @@ syntacticRefs:
 relatedConstructions:
   - id: determination-001
     relationship: related-to
+  - id: magnitude-quantifier-001
+    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§4, magnitude heads and obligatory factors"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Hundred remains singular in exact two hundred books and supplies its scale. In hundreds of books, the same base has count plural morphology and an oblique dependent. These diagnostics separate the head’s lexical uses."
+    evidence: "Reynolds identifies a determinative magnitude head in the exact phrases and distinguishes plural magnitude nouns in the categorial analysis."
+    confidence: medium

@@ -227,3 +227,15 @@ sources:
     citation: Goldberg, Adele E. (2011), Corpus evidence of the viability of statistical preemption. Cognitive Linguistics 22(1), 131–153
     doi: 10.1515/cogl.2011.006
     url: https://www.degruyterbrill.com/document/doi/10.1515/cogl.2011.006/html
+  asu-faatulu-co-captain:
+    type: document
+    citation: "Arizona State University Athletics, Jolynn Faatulu Overcomes Injuries to Shine"
+    url: https://thesundevils.com/jolynn-faatulu-overcomes-injuries-to-shine
+  cambridge-dictionary-capital:
+    type: dictionary
+    citation: "Cambridge Dictionary, capital, adjective and noun entries"
+    url: https://dictionary.cambridge.org/dictionary/english/capital
+  cambridge-dictionary-with-a-capital:
+    type: dictionary
+    citation: "Cambridge Dictionary, with a capital A, B, etc."
+    url: https://dictionary.cambridge.org/dictionary/english/with-a-capital-etc

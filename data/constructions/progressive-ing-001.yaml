@@ -28,3 +28,18 @@ relatedConstructions:
     relationship: specialization-of
     parthood: formal
     notes: The progressive auxiliary and gerund-participial complement form a VP headed by be
+  - id: progressive-futurate-001
+    relationship: related-to
+  - id: genitive-ing-subject-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 3 §§8.1–8.3; Ch. 14 §§1.5, 4.3"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Be plus a gerund-participle typically presents an activity in progress or a current phase. An -ing complement in Jo avoided staying does not itself have progressive aspect. A future adjunct can instead give the progressive an arrangement reading."
+    evidence: "CGEL distinguishes progressive be from other gerund-participial structures and discusses futurate uses."
+    confidence: medium

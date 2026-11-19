@@ -34,7 +34,23 @@ relatedConstructions:
     relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to
+  - id: abstract-numeral-001
+    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§5, Table 1; §3, ellipsis"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §9.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In Lee bought thirty books and I bought forty, the second numerative fills the object NP and can recover the kind from context. In Forty is even, the bare form can instead name the number. Stand-alone shape does not fix the analysis."
+    evidence: "CGEL’s fused-head comparison and Reynolds’s cardinal-noun diagnostics separate the corresponding readings."
+    confidence: medium

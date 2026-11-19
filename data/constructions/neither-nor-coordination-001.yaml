@@ -23,5 +23,20 @@ relatedConstructions:
     parthood: formal
   - id: absolute-negator-determinative-001
     relationship: related-to
+  - id: either-or-coordination-001
+    relationship: related-to
+  - id: so-neither-inversion-001
+    relationship: related-to
 lexiconRefs:
   - gold/conjunctions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 15 §2.4; Ch. 9 §3.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The coordinator can link two phrases as in neither Jo nor Kai or two verb phrases as in neither called nor wrote. The construction differs from additive neither did Jo, which depends on a preceding negative assertion."
+    evidence: "CGEL describes the correlative frame and the wider use of nor and neither following negative clauses."
+    confidence: medium

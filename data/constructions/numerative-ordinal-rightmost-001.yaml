@@ -37,3 +37,16 @@ relatedConstructions:
     relationship: related-to
   - id: numerative-basic-lexeme-001
     relationship: contains
+  - id: numerative-complex-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§3, ordinal and fractional morphology"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In two hundred forty-second, the only overt ordinal form is the last part of the numerative, while the ordinal interpretation applies to the whole rank. Ordinalizing an earlier component cannot freely substitute for that realization."
+    evidence: "Reynolds uses the placement of ordinal morphology among the constituency tests, independently of spelling conventions."
+    confidence: medium

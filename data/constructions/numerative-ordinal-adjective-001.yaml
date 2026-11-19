@@ -30,3 +30,20 @@ relatedConstructions:
     relationship: specialization-of
   - id: numerative-ordinal-rightmost-001
     relationship: related-to
+  - id: numerative-fractional-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, ordinal adjectives"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 19 §5.10"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Third can premodify chapter alongside a separate determiner, as in the third chapter. In three thirds the homophonous ordinal base supplies a count noun with plural marking and a preceding numeral."
+    evidence: "CGEL and Reynolds distinguish the ordinal adjective from the fractional noun by its NP distribution."
+    confidence: medium

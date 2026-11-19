@@ -77,3 +77,8 @@ kind:
       evidence: "Need to rapidly alert others to threats or opportunities"
     - type: entrenchment
       evidence: "High-frequency alerting expressions (Fire!, Watch out!)"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 10 §§8.3, 9.6.3; Ch. 2, non-clausal utterances"
+    relation: discusses
+    bears-on: projection

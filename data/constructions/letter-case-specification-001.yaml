@@ -9,8 +9,8 @@ dimensions:
   distribution: "Adjunct to category labels; often parenthetical after the label."
 meanings:
   '1':
-    definition: "Specifies letter-case to mark whether a label is used in a proper/institutional vs common/ordinary sense."
-    details: "Uppercase/capital typically signals institutional or proper-name status; lowercase/small signals ordinary descriptive use."
+    definition: "Specifies the capitalization of a letter in a label."
+    details: "Capitalization can distinguish institutional and descriptive uses. Name conventions and ordinary spelling supply other uses. The capital-letter format can also emphatically present an example as fully deserving its label."
     examples:
       - form: "Catholic [with a small c]."
         note: "Non-institutional, descriptive sense."
@@ -31,3 +31,20 @@ relatedConstructions:
   - id: n-proper-001
     relationship: related-to
     notes: "Letter-case cues interact with proper-noun orthography."
+  - id: letter-case-modifier-001
+    relationship: related-to
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Entries for capital letter and its contrast with small letter"
+    relation: discusses
+    bears-on: projection
+  - source: cambridge-dictionary-with-a-capital
+    locator: "Idiom entry, attributing a strong degree"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "With a capital R can distinguish the Romantic movement from a descriptive adjective. A quality with a capital letter can also express emphatic exemplarity. Neither the letter case nor the verbal specification determines noun subclass independently."
+    evidence: "The dictionary contrasts labels by written case and lists the emphatic idiom separately."
+    confidence: medium

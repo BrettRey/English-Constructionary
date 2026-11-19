@@ -36,5 +36,20 @@ relatedConstructions:
   - id: absolute-negator-determinative-001
     relationship: related-to
     notes: Absolute negators standing alone as NPs instantiate this construction
+  - id: true-partitive-001
+    relationship: related-to
+  - id: pro-nominal-one-001
+    relationship: related-to
 lexiconRefs:
   - gold/determinatives
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§9.2, 9.5; Ch. 17 §6.1"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Several of these can serve as an argument without an overt nominal following several. Some of the fruit admits a non-count partitive domain. Several of the fruit does not admit that same reading. A determiner-like expression as an entire NP need not uniformly be anaphoric."
+    evidence: "CGEL tests partitive complements and non-anaphoric special readings. The head analysis is the one adopted in this record and alternatives are separately noted."
+    confidence: medium

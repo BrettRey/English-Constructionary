@@ -14,7 +14,7 @@ meanings:
       - form: in twos and threes
         note: Arriving/arranged in small groups
       - form: by the hundreds
-        note: In groups of approximately 100
+        note: Magnitude reading, often large numbers rather than batches of exactly one hundred
       - form: count by fives
         note: Grouping for counting
 constraints:
@@ -32,3 +32,22 @@ relatedConstructions:
     relationship: specialization-of
   - id: n-common-001
     relationship: related-to
+  - id: distributive-rate-apiece-001
+    relationship: related-to
+  - id: magnitude-quantifier-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, Table 2, collective"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §7.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "People entered in threes can describe an arbitrarily large crowd. Three counts the members in each group even though threes is itself grammatically plural. A phrase such as by the hundreds can instead indicate large numbers without fixed groups."
+    evidence: "Reynolds assigns the grouping use its own semantic role among cardinal nouns. The constructed contrast checks whether the number applies to the total or to the groups."
+    confidence: medium

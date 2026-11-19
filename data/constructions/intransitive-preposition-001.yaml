@@ -33,5 +33,18 @@ relatedConstructions:
   - id: preposition-001
     relationship: specialization-of
     parthood: formal
+  - id: pp-001
+    relationship: related-to
 lexiconRefs:
   - gold/prepositions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 7 §§2, 4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Outside can occur alone in We waited outside or with a complement in We waited outside the gate. The ability to say from outside supplies a test beyond merely counting overt NP complements."
+    evidence: "CGEL distinguishes intransitive uses and documents PP embedding by from and other prepositions."
+    confidence: medium

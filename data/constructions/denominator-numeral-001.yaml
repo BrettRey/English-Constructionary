@@ -30,3 +30,18 @@ relatedConstructions:
     relationship: specialization-of
   - id: n-common-001
     relationship: related-to
+  - id: abstract-numeral-001
+    relationship: related-to
+  - id: cardinal-determinative-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, Tables 1–2, denominator use"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "I rolled three tens describes three tokens of the value ten, rather than a count of ten objects. The lexical noun takes its own plural marking and appears under a separate cardinal determiner."
+    evidence: "The numeral paper distinguishes the count noun for a token or score from arithmetic name and quantificational uses."
+    confidence: medium

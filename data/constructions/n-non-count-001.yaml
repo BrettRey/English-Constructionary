@@ -35,8 +35,8 @@ kind:
     - type: functional-pressure
       evidence: "need to distinguish substance from individuated reference"
   projection:
-    target: "new substance terms default to non-count frames; count conversion is constrained"
-    evidence: "non-count quantifier compatibility for novel materials"
+    target: "In much coffee, coffee has non-count distribution. Two coffees permits a count reading because the context supplies portions or varieties. The individual lexical form alone does not decide the syntactic use."
+    evidence: "CGEL compares count and non-count uses of the same substance nouns, including drink names."
     confidence: medium
   maintenance:
     perturbations:
@@ -72,3 +72,10 @@ syntacticRefs:
 relatedConstructions:
   - id: quasi-count-noun-001
     relationship: related-to
+  - id: portion-variety-count-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.1–3.2"
+    relation: discusses
+    bears-on: projection

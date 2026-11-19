@@ -9,7 +9,7 @@ dimensions:
   distribution: "All numerative positions; combine freely in compounds"
 meanings:
   '1':
-    definition: Specifies a cardinality from one to nine
+    definition: Specifies a cardinal value from zero to nine
     examples:
       - form: one
         note: Cardinality 1
@@ -24,3 +24,20 @@ relatedConstructions:
     relationship: specialization-of
   - id: determination-001
     relationship: related-to
+  - id: verb-number-agreement-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§§2–3, basic numeratives and lexical compounds"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §7.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The digit 0 participates as the lexeme zero and can determine a plural in zero defects. One differs in selecting a singular count nominal. The single-digit class therefore does not predict uniform agreement or determiner selection."
+    evidence: "CGEL gives the cardinal distribution and Reynolds includes zero in the basic lexical inventory. The comparison separates numerical representation from grammatical number."
+    confidence: medium

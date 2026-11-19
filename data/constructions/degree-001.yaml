@@ -62,8 +62,8 @@ kind:
     - type: processing-economy
       evidence: "short comparative morphology favored in production"
   projection:
-    target: "new gradable predicates generalize to degree frames"
-    evidence: "productivity of -er/-est and periphrastic more/most"
+    target: "The same dimension can have an explicit differential in two centimetres wider and a simple comparative in wider. An equality comparison can instead supply a standard with as wide as. The constructions test comparison structure separately from the particular scale chosen."
+    evidence: "CGEL discusses equality and inequality and separates differential modification from the standard phrase."
     confidence: medium
   maintenance:
     perturbations:
@@ -86,3 +86,13 @@ kind:
   coupling:
     linked_cluster: "semantic gradability"
     mechanism: "bidirectional inference between scale construal and degree morphology"
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 6, degree; Ch. 13 §§1.1, 4.3–4.4"
+    relation: discusses
+    bears-on: projection
+relatedConstructions:
+  - id: equative-as-as-001
+    relationship: related-to
+  - id: differential-measure-comparative-001
+    relationship: related-to

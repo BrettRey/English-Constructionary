@@ -30,3 +30,14 @@ relatedConstructions:
   - id: n-common-001
     relationship: related-to
     notes: "Lowercase specification aligns with common-noun readings."
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Examples contrasting small letters and capital letters"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In the literal reading, with a small c specifies lowercase c without committing the speaker to an account of word category. A nomenclatural convention or a descriptive contrast supplies the interpretation in context."
+    evidence: "The dictionary includes intentional lowercase spelling of a name, showing that lowercase cannot diagnose common-noun status by itself."
+    confidence: medium

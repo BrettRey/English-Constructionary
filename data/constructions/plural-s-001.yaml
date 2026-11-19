@@ -4,7 +4,7 @@ pattern: Common noun + -s/-es
 meanings:
   '1':
     implements: plural-001.1
-    specialization: Marks common nouns as non-singular via -s/-es suffix
+    specialization: Realizes plural number on an eligible nominal stem
     examples:
       - form: cats
         note: Marks 'cat' as non-singular
@@ -12,7 +12,7 @@ meanings:
       - 1
   '2':
     implements: plural-001.3
-    specialization: Shifts common noun denotation from instances to types/varieties
+    specialization: Realizes plural number when the noun is used to count types or varieties
     examples:
       - form: wines
         note: Types of wine
@@ -20,7 +20,7 @@ meanings:
       - 2
   '3':
     implements: plural-001.4
-    specialization: Marks common nouns in habitual/recurring contexts
+    specialization: Realizes plural number in a construction that describes recurring instances
     examples:
       - form: I get headaches
         note: Recurring condition
@@ -47,3 +47,19 @@ relations:
     construction: n-proper-001
     type: related-to
     notes: Proper-to-common coercion source
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 18 §4.1.1; Ch. 5 §§3.1–3.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "With transparent regular plural formation, the final sound of the stem predicts the suffix pronunciation. Compare the /s/ in cats, /z/ in dogs, and /ɪz/ in horses. A variety interpretation additionally depends on count use of the noun."
+    evidence: "CGEL describes the sibilant allomorphy and separately documents contextual count readings."
+    confidence: medium
+relatedConstructions:
+  - id: irregular-vowel-plural-001
+    relationship: related-to
+  - id: portion-variety-count-001
+    relationship: related-to

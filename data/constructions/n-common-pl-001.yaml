@@ -10,3 +10,19 @@ meanings:
         note: Plural count noun
       - form: cities
         note: Plural common noun
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.2–3.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Cats licenses plural verbal agreement and cardinals greater than one. A plural-only form such as scissors also takes plural agreement, while counting individual instruments ordinarily uses pairs of scissors."
+    evidence: "CGEL contrasts ordinary plurals and plural-only nouns, including restrictions on count determination."
+    confidence: medium
+relatedConstructions:
+  - id: verb-number-agreement-001
+    relationship: interfaces-with
+  - id: quasi-count-noun-001
+    relationship: related-to

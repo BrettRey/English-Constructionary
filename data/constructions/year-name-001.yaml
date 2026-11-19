@@ -35,3 +35,20 @@ relatedConstructions:
     relationship: related-to
   - id: numerical-label-001
     relationship: related-to
+  - id: calendar-deictic-np-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, calendrical labels"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 8 §6.3"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In They met in 2002, the numerative identifies a calendar year without specifying an amount of elapsed time. In They waited two years, the cardinal instead quantifies a duration. Spelling with digits can obscure the distinction."
+    evidence: "CGEL distinguishes temporal location from duration and Reynolds analyzes the label use of cardinal nouns."
+    confidence: medium

@@ -25,3 +25,20 @@ relatedConstructions:
     relationship: specialization-of
   - id: determination-001
     relationship: related-to
+  - id: numerative-compound-basic-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§3, extended basic numeratives"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 19 §5.10"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Sixty can stand by itself and can supply the first component of sixty-four. The relation to six is transparent, but a new decade form cannot automatically be generated from any numerical expression by adding -ty."
+    evidence: "CGEL treats the decade endings as lexical word formation. Reynolds uses decade-based compounds as evidence for the basic lexicon."
+    confidence: medium

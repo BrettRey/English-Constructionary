@@ -74,3 +74,19 @@ semanticRefs:
   - social-role
 lexiconRefs:
   - gold/pronouns
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§16.3, 16.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Mine contrasts with my in This is mine versus my copy. With whose and his, identical surface forms can appear in independent or dependent slots. Independent its is rare rather than ruled out."
+    evidence: "CGEL separates dependent and independent genitive realizations. Its warning about the exceptional distribution of its limits any paradigm-wide prediction."
+    confidence: medium
+relatedConstructions:
+  - id: np-gen-indep-001
+    relationship: related-to
+  - id: np-pron-interrog-gen-indep-001
+    relationship: related-to

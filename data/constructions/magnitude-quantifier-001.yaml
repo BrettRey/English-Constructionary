@@ -19,7 +19,7 @@ meanings:
         note: Very large approximate quantity
 constraints:
   - type: structural
-    description: Only magnitude nouns (tens, hundreds, thousands, millions) and 'dozens' participate.
+    description: The core pattern uses plural magnitude nouns such as hundreds and thousands. Non-magnitude quantity nouns such as dozens have a related quantified use.
   - type: structural
     description: Distinct from partitive (two of the cats) where numerative is DP in fused-head function.
   - type: syntactic
@@ -36,3 +36,22 @@ relatedConstructions:
     relationship: related-to
   - id: numerative-magnitude-head-001
     relationship: related-to
+  - id: true-partitive-001
+    relationship: related-to
+  - id: measure-pseudopartitive-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§5, Table 2; §2, scope of magnitude class"
+    relation: discusses
+    bears-on: projection
+  - source: cgel-2002
+    locator: "Ch. 5 §7.6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Hundreds of enquiries permits a bare plural complement. Exact two of the enquiries instead selects a subset from an established group. Plural hundreds of can give an approximate scale without fixing how many groups of a hundred there were."
+    evidence: "Reynolds distinguishes the plural magnitudes’ quantifier use from exact cardinal expressions and identifies dozen as outside the paper’s technical magnitude class."
+    confidence: medium

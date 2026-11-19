@@ -13,3 +13,16 @@ meanings:
 relatedConstructions:
   - id: independent-genitive-pronoun-001
     relationship: related-to
+  - id: genitive-s-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§16.3–16.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Jo’s can occur without an overt following noun in Jo’s is blue when the relevant kind is established. In This one is Jo’s, the genitive can instead express a possessive relation predicatively."
+    evidence: "CGEL distinguishes independent genitives with nominal recovery from a distinct predicative-genitive construction."
+    confidence: medium

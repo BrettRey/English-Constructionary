@@ -45,3 +45,13 @@ grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§§3–4, unmarked addition and constituent diagnostics"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In two hundred five, five is added to a complete magnitude phrase. It contributes the same remainder as five in two hundred and five even though there is no spoken coordinator. This differs from a factor selecting a magnitude, as in five hundred."
+    evidence: "The paper compares asyndetic addition, marked addition, and multiplicative modification by word order and prosody."
+    confidence: medium

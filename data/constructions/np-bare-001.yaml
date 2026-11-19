@@ -14,22 +14,24 @@ meanings:
       - 1
       - 2
   '2':
-    definition: Refers to/predicates kind
-    details: Refers to or predicates type/category through plural form
+    definition: Uses a bare plural for kind reference, classification, or an indefinite set
+    details: "Bare plurals can receive a kind, generic, predicative, or episodic interpretation from the construction around them."
     examples:
       - form: Dogs are loyal
         note: Kind reference
       - form: Those are bears
-        note: Kind predication
+        note: Classification
+      - form: Dogs barked all night
+        note: Episodic use with a contextually supplied set of dogs
     relations:
       - 2
   '3':
-    definition: Refers to/predicates role
-    details: Predicates institutional/professional role status
+    definition: Ascribes a role with a bare singular count NP
+    details: "A licensed role NP can be bare in predicative and selected as/of frames. The same role noun generally needs a determiner when used as an ordinary argument referring to the incumbent."
     examples:
-      - form: is president
+      - form: Lee stayed [president]
         note: Role predication
-      - form: became chair
+      - form: Jo became [chair]
         note: Role assumption
   '4':
     definition: Refers to individual
@@ -47,7 +49,7 @@ meanings:
     details: Refers to or predicates generic activity type
     examples:
       - form: Competitive swimming takes practice
-        note: Activity reference (modifier forces the noun analysis; bare "playing piano" is a gerund-participial clause, not an NP)
+        note: Activity reference (the adjectival modifier supports the noun analysis; bare "playing piano" is a gerund-participial clause, not an NP)
       - form: That is competitive swimming
         note: Activity identification
     relations:
@@ -64,10 +66,10 @@ meanings:
     definition: Refers to/predicates place
     details: Refers to or predicates location/space
     examples:
-      - form: Home is where...
-        note: Place reference
-      - form: This is downtown
-        note: Place identification
+      - form: "[Toronto] was the next stop."
+        note: Articleless place name with a nominal head
+      - form: "The venue is [Kingston]."
+        note: Specifies a place by its name
   '8':
     definition: Refers to/predicates abstract concept
     details: Refers to or predicates abstract notion/quality
@@ -96,3 +98,21 @@ semanticRefs:
   - deictic
 syntacticRefs:
   - bare-singular-exceptions
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§3.1, 8.5, 20.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A bare NP can be singular count in a restricted role or naming use, while bare plurals and non-count nouns can normally be arguments. Compare Lee became chair, Chair called on the name reading, and We bought chairs."
+    evidence: "CGEL provides independent distributional grounds for these kinds of bare uses. Absence of a determiner alone does not fix their interpretation."
+    confidence: medium
+relatedConstructions:
+  - id: bare-role-001
+    relationship: related-to
+  - id: bare-institutional-use-001
+    relationship: related-to
+  - id: strong-proper-name-001
+    relationship: related-to

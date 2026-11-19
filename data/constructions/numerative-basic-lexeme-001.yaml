@@ -35,3 +35,16 @@ relatedConstructions:
     relationship: specialization-of
   - id: determination-001
     relationship: related-to
+  - id: numerative-complex-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§§2–3, lexical scope and prosodic diagnostics"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Twenty-four can supply the single lexical unit that ordinal morphology targets in twenty-fourth. A construction such as three hundred twenty-four has additional phrasal structure, which is recoverable in reduced alternatives in an appropriate context."
+    evidence: "Reynolds combines prosody, ordinal morphology and ellipsis evidence for the lexical versus syntactic analysis."
+    confidence: medium

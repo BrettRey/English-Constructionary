@@ -60,3 +60,16 @@ relatedConstructions:
   - id: np-001
     relationship: related-to
     notes: 'Original relationship: can-be-part-of.'
+  - id: synthetic-noun-compound-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§14.2, 14.4; Ch. 19 §4.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Dog breeders normally pluralizes the head breeders. In book review the first nominal can supply the topic or object of a reviewing event. In coffee cup it supplies a conventional purpose. The word order alone does not select the semantic relation."
+    evidence: "CGEL distinguishes noun-headed phrases and compounds and analyzes dependents independently of the inferred relation."
+    confidence: medium

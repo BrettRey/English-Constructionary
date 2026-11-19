@@ -22,3 +22,18 @@ syntacticRefs:
 relatedConstructions:
   - id: determination-001
     relationship: specialization-of
+  - id: genitive-s-001
+    relationship: related-to
+  - id: deverbal-noun-of-argument-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§16.5.1–16.5.3"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In the committee’s approval of the plan, the committee can map to the subject of approved the plan. In the committee’s photograph, an ownership or other relation remains possible. Genitive position alone does not license an agent interpretation."
+    evidence: "CGEL contrasts argument-realizing genitives with the wider range of ordinary genitive relations."
+    confidence: medium

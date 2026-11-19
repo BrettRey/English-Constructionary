@@ -30,3 +30,18 @@ relatedConstructions:
     relationship: related-to
   - id: determination-001
     relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 19 §5.10"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-2026-numerals
+    locator: "§3, basic numeratives"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Eleven and twelve occupy the first two positions after ten but do not use productive -teen suffixation. Their related ordinals eleventh and twelfth can be compared with thirteenth without analyzing eleven and twelve as -teen stems."
+    evidence: "CGEL documents the distinct forms inside the numeral inventory. Current morphological structure is the criterion here."
+    confidence: medium

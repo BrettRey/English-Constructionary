@@ -4,7 +4,7 @@ pattern: "You think you're/NP is [GRADABLE-PRED]"
 type: mixed
 meanings:
   '1':
-    definition: Signals that the speaker will introduce something exceeding the addressee's claim on the relevant scale
+    definition: Can introduce a comparison that shifts the operative standard on a scale
     details: "The surface form attributes a belief to the addressee, but the constructional meaning is scalar recalibration: the speaker has Z that exceeds X on the Y dimension. Direction is flexible - the speaker may exceed from superiority (dismissive) or from being worse off (self-deprecating, ironic). Typically followed by the speaker's evidence for exceeding."
     examples:
       - form: "[You think you're upset]. I wrote a paper predicting that this wouldn't happen."
@@ -34,3 +34,16 @@ relatedConstructions:
     relationship: overlaps-with
     overlap-dimension: functional
     notes: Shares addressee-directed scalar-challenge function; differs in matrix verb and targets category membership rather than degree
+  - id: metalinguistic-more-than-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 13 §3, metalinguistic comparison; Ch. 16 §3.2, proposition assessment, for comparison"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "You think that is loud can introduce an instance that shifts the operative degree standard. In a literal conversation about the hearer’s beliefs, the same sentence need not introduce a higher degree. The comparison depends on the following discourse."
+    evidence: "The source provides related scale and proposition-assessment analyses. The paired contexts illustrate the proposal and do not determine whether the reading has conventionalized."
+    confidence: medium

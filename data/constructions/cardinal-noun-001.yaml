@@ -30,7 +30,19 @@ relatedConstructions:
   - id: cardinal-determinative-001
     relationship: related-to
     notes: Cardinal determinatives vs cardinal nouns
+  - id: denominator-numeral-001
+    relationship: related-to
 grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§5, Tables 1–2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A quantifying or token use can take number inflection and another determiner, as in two tens. The naming use ten in Ten is even and the determinative use in ten cards lack that count-noun environment."
+    evidence: "Reynolds separates cardinal nouns used to name, count, or label from syntactic determiner function."
+    confidence: medium

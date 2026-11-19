@@ -29,3 +29,14 @@ relatedConstructions:
   - id: nom-adjp-mod-001
     relationship: interfaces-with
     notes: "Realized as an adjectival pre-head modifier in nominals."
+grounds:
+  - source: cambridge-dictionary-capital
+    locator: "Literal case contrast, as the comparison for the constructed modifier"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The compact modifier big-D in a big-D Democrat can disambiguate the label before its head. The full PP with a capital D can follow the label and express an equivalent literal contrast."
+    evidence: "The lexical meanings of capital and small supply the comparison. The position and interpretation contrast uses constructed forms rather than claims about regional frequencies."
+    confidence: medium

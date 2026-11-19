@@ -39,3 +39,16 @@ relatedConstructions:
     relationship: contains
   - id: determination-001
     relationship: related-to
+  - id: numerative-ordinal-rightmost-001
+    relationship: related-to
+grounds:
+  - source: reynolds-2026-numerals
+    locator: "§3, lexical compounds and ordinal morphology"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Forty-three expresses one lexicalized sum and supplies a base for forty-third. A coordinator inside forty and three produces a separate structure and is not the ordinary lexical compound."
+    evidence: "Reynolds argues from word formation and prosody for lexical compounding below the magnitude boundary."
+    confidence: medium

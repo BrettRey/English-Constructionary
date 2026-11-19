@@ -31,3 +31,18 @@ relatedConstructions:
     relationship: related-to
   - id: constituent-not-negation-001
     relationship: related-to
+  - id: primary-auxiliary-negation-001
+    relationship: related-to
+  - id: subjunctive-mandative-001
+    relationship: interfaces-with
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 9 §2.3; Ch. 11 §7.1, subjunctive negation"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The negative to-infinitival in a plan not to leave and the mandative that Lee not leave both keep the following verb in the plain form without do. The corresponding finite declarative Lee did not leave uses do."
+    evidence: "CGEL treats these as secondary verbal negation and distinguishes them by form from primary negation."
+    confidence: medium

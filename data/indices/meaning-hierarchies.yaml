@@ -20,7 +20,6 @@ hierarchies:
       - indefinite-001:
           implementations:
             - np-indef-001
-            - bare-role-001
   bare-np:
     root: np-bare-001
     implementations:

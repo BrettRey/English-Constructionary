@@ -20,3 +20,16 @@ relatedConstructions:
   - id: nom-premod-000
     relationship: inherits-from
     notes: Specific type of pre-head modification
+  - id: subject-ascriptive-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §14.2; Ch. 6, attributive versus predicative functions"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "In a former president, former modifies the relation expressed by president. The president is former does not give the same reading. A pre-head adjective need not have a matching predicative use."
+    evidence: "CGEL distinguishes attributive uses and discusses adjectives restricted to particular functions."
+    confidence: medium

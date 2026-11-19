@@ -8,7 +8,7 @@ meanings:
     examples:
       - form: London
         note: Proper name NP
-      - form: the United Nations
+      - form: the Thames
         note: Proper name phrase
 relatedConstructions:
   - id: np-001
@@ -16,3 +16,16 @@ relatedConstructions:
   - id: proper-name-001
     relationship: implements
     notes: Realizes the proper name function
+  - id: proper-name-secondary-use-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§20.1–20.4"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "London can occur without an article when it identifies the city. A construction such as two Kims uses a nomenclatural form with numeral determination and plural marking, so name form alone need not determine the NP’s referential status."
+    evidence: "CGEL distinguishes proper nouns from whole names and documents secondary uses and complex names."
+    confidence: medium

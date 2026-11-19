@@ -11,3 +11,16 @@ meanings:
 relatedConstructions:
   - id: independent-genitive-pronoun-001
     relationship: related-to
+  - id: interrogative-word-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §16.4; Ch. 10 §7.2"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Whose can occur as a clause-level complement in Whose is this? and as an interrogative fused head in Whose did you borrow? The dependent use in Whose key is this? includes a separate nominal."
+    evidence: "CGEL distinguishes three slots for whose and gives an independent NP use with nominal interpretation recovered from context."
+    confidence: medium

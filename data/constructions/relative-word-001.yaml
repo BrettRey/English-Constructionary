@@ -32,3 +32,16 @@ relatedConstructions:
   - id: deitality-001
     relationship: see-also
     notes: Ignorance-reading fused relatives are deital; free-choice readings mixed (Reynolds, deitality inventory)
+  - id: possessive-relative-whose-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 12 §§3.2–3.5, 6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "Whose in the writer whose essay won links the possessor to writer. The whole phrase whose essay occupies subject position of won. A relative may front a larger phrase, unlike treating the relativizing form alone as the entire dependent."
+    evidence: "CGEL analyzes percolation in relative phrases and compares fused, integrated, and interrogative distributions."
+    confidence: medium

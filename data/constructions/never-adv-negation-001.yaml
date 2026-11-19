@@ -20,3 +20,16 @@ syntacticRefs:
 relatedConstructions:
   - id: absolute-negator-determinative-001
     relationship: related-to
+  - id: negative-polarity-ever-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 9 §3.2.1 [20ii], §3.2.2; Ch. 8 §9"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "They never replied can take the positive tag did they? No auxiliary do is needed to host never in the declarative. Its temporal quantification and clausal polarity are independently testable."
+    evidence: "CGEL supplies the confirmation tag and compares never with negation plus ever."
+    confidence: medium

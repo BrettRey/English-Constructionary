@@ -40,6 +40,8 @@ relatedConstructions:
     relationship: related-to
   - id: minor-determiner-001
     relationship: related-to
+  - id: group-genitive-001
+    relationship: related-to
 kind:
   provisional: true
   secured: stable
@@ -69,8 +71,8 @@ kind:
     - type: social-indexing
       evidence: "Prestige selection shapes which determiner variants persist in a community."
   projection:
-    target: "New determinatives or genitives generalize to the determiner slot; semantic definiteness alignment is strong but defeasible."
-    evidence: "Weak/generic definites and bare definites show mismatch."
+    target: "The slot can be filled by the DP this or by a genitive NP such as Jo’s. The relation holds in this book and Jo’s book though the dependent belongs to a different category."
+    evidence: "CGEL separates determiner function from determinative category and documents multiple realizations."
     confidence: medium
   maintenance:
     perturbations:
@@ -101,3 +103,8 @@ kind:
     mechanism: "historical grammaticalization + discourse-pragmatic alignment"
 lexiconRefs:
   - gold/determinatives
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §4, determiner and its realizations"
+    relation: discusses
+    bears-on: projection

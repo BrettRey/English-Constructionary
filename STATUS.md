@@ -18,7 +18,7 @@
 - **CI:** schema validation + lint on every push/PR (`.github/workflows/validate.yml`)
 - `docs/CONTRIBUTING.md` published (data format, style guide, review process)
 - Web interface with bracket highlighting, dimensions, symmetric relations, kind-block display
-- **Evidence links** connect examples and claims to 55 registered sources. The browser displays the links, and the project exports them in its construction graph.
+- **Evidence links** connect examples and claims to 58 registered sources. The browser displays the links, and the project exports them in its construction graph.
 - Morphological strategies index (`data/indices/morphological-strategies.yaml`)
 
 ## Theoretical Framework
@@ -69,6 +69,7 @@ See [the roadmap](docs/ROADMAP.md) for the entry, adjudication, and infrastructu
 
 ## Session Log
 
+- **2026-11-19** — Published revisions to 97 entries, including the bare role construction. Added distributional contrasts and source locators and repaired construction links. The catalogue has 389 published entries and 58 evidence sources.
 - **2026-11-19** — Published 237 entries from the constructicon comparison and the expanded grammar survey. The release brings the public catalogue to 389 constructions with 55 registered sources.
 - **2026-11-18** — Doubled the local catalogue from 195 to 390 records. The 195 new entries have source locators, diagnostic examples, and relations in the browser. [Decision log](DECISIONS.md#2026-11-18)
 - **2026-11-18** — Added 42 local entries after a broader screen of English constructicons. See the coverage and selection notes in [DECISIONS.md](DECISIONS.md#2026-11-18).

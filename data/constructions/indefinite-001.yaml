@@ -1,11 +1,11 @@
 id: indefinite-001
 name: Indefinite Construction
-pattern: Indefinite determiner + Nominal | Existential quantifier + Nominal | Bare NP
+pattern: Indefinite determination or contextually indefinite bare plural/non-count NP
 type: semantic
 meanings:
   '1':
-    definition: Non-identifiable entity
-    details: Entity not uniquely identifiable in context
+    definition: Refers without presenting the referent as already uniquely identifiable
+    details: "The speaker may know the identity. The construction does not require the hearer to resolve it from prior information."
     examples:
       - form: a dog
         note: Novel referent
@@ -21,7 +21,7 @@ meanings:
         note: Discourse-new source
   '3':
     definition: Arbitrary instance
-    details: Any satisfying instance of type
+    details: "Under certain directives or permissions an indefinite can leave the choice of individual open. Choice and permitted quantity are separate."
     examples:
       - form: take a card
         note: Any card
@@ -40,3 +40,23 @@ semanticRefs:
   - familiarity
   - variable
   - category
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §§6.2, 8; Ch. 16 §6.2.2"
+    relation: discusses
+    bears-on: projection
+  - source: reynolds-deitality
+    locator: "Deital form and interpretation, including non-deital residual cases"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A student phoned can refer to a particular student known to the speaker. A student can enter allows a general reading. The article alone does not rule out specific reference or supply an any-member permission."
+    evidence: "CGEL distinguishes referential from non-referential uses and documents both specific and nonspecific interpretations. A determinerless role predication does not itself introduce a novel reference."
+    confidence: medium
+relatedConstructions:
+  - id: deitality-001
+    relationship: interfaces-with
+  - id: np-indef-001
+    relationship: related-to

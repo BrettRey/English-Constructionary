@@ -23,3 +23,16 @@ syntacticRefs:
 relatedConstructions:
   - id: determination-001
     relationship: specialization-of
+  - id: np-property-value-001
+    relationship: related-to
+grounds:
+  - source: cgel-2002
+    locator: "Ch. 5 §4.1, p. 357, property-value NPs and PP determiners"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "What size hat asks for the hat’s size, whereas over thirty hats sets a lower boundary on their number. Those slots license different phrases even though neither is an ordinary bare determinative lexeme."
+    evidence: "CGEL gives restricted phrase realizations of determiner function, including paired word orders for property-value NPs."
+    confidence: medium

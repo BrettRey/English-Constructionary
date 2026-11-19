@@ -31,8 +31,22 @@ relatedConstructions:
   - id: demonstrative-determinative-fused-head-001
     relationship: specialization-of
     parthood: formal
+  - id: the-adjective-np-001
+    relationship: related-to
+  - id: fused-adjective-anaphoric-001
+    relationship: related-to
 grounds:
   - source: cgel-2002
     locator: "Ch. 5 §9"
     relation: discusses
     note: "CGEL's fused-head analysis covers determiner-head and modifier-head uses"
+  - source: cgel-2002
+    locator: "Ch. 5 §§9.1–9.5; Ch. 17 §6.1"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The contrast between some left and the poor left is not merely the same omitted noun. The rich can denote humans without a recoverable nominal, while an anaphoric adjective NP can take its interpretation and number from the previously named nominal."
+    evidence: "CGEL distinguishes fusion of determiner and modifier with head and separates simple, partitive, and special interpretations."
+    confidence: medium

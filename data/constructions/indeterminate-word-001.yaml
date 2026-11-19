@@ -44,6 +44,8 @@ relatedConstructions:
   - id: deitality-001
     relationship: interfaces-with
     notes: "Deitality status varies by packaging: ignorance-reading fused relatives pattern deitally; free-choice readings are mixed; exclamative uses are non-deital (Reynolds, deitality inventory)"
+  - id: fused-relative-np-001
+    relationship: related-to
 lexiconRefs:
   - gold/pronouns
   - gold/determinatives
@@ -51,3 +53,13 @@ grounds:
   - source: kuroda-1965
     relation: cites
     note: "Indeterminate as the term for the analogous Japanese series"
+  - source: cgel-2002
+    locator: "Ch. 10 §§7.9–7.10, 8.1; Ch. 12 §§3.2, 6"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "The same sortal form can occur in what Jo wrote after admire or wonder. With admire, the expression can denote an entity or text. With wonder, it presents an open question. The lexical shape does not determine the packaging."
+    evidence: "CGEL compares matching clause-like strings across fused relatives and embedded interrogatives and gives independent agreement and distributional tests."
+    confidence: medium

@@ -4,12 +4,12 @@ pattern: "Det[cardinal]"
 type: syntactic
 dimensions:
   form: "Basic (0-99) or magnitude determinative; no number inflection"
-  meaning: "Specifies exact cardinality of referent set"
+  meaning: "Supplies a cardinal value. Interpretation as an exact total or as a lower boundary depends on context."
   function: "Heads DPs functioning as determiners, factors, or fused heads"
   distribution: "Determiner in NP; factor in magnitude phrases; fused determiner-head"
 meanings:
   '1':
-    definition: Cardinal numerative used in determiner function to specify exact quantity
+    definition: Cardinal numerative that can determine a nominal by giving a numerical value
     examples:
       - form: "I saw [three] cats."
         note: Low cardinal determiner
@@ -29,9 +29,21 @@ relatedConstructions:
     relationship: related-to
   - id: determination-001
     relationship: related-to
+  - id: numerative-factor-modifier-001
+    relationship: related-to
 lexiconRefs:
   - gold/determinatives
 grounds:
   - source: reynolds-2026-numerals
     relation: cites
     bears-on: category-assignment
+  - source: reynolds-2026-numerals
+    locator: "§5, Table 1; §4, factor versus determiner"
+    relation: discusses
+    bears-on: projection
+kind:
+  provisional: true
+  projection:
+    target: "A cardinal determiner in thirty copies can alternate with some copies. In two hundred, two is internal to the numerative and can coexist with an external determiner in a two hundred, on the token reading."
+    evidence: "Reynolds uses coexistence with an external determiner to distinguish determiner function from multiplicative modification."
+    confidence: medium
