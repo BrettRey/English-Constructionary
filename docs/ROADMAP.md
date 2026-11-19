@@ -1,9 +1,10 @@
 # Roadmap
-<!-- SUMMARY: Prioritized queues after the 2026-07-16 overhaul; Brett authors entries, agents handle infrastructure · status: active · updated: 2026-07-16 -->
+<!-- SUMMARY: English Constructionary entry, adjudication, and infrastructure queues · status: active · updated: 2026-11-18 -->
 ## Division of labour
 **Brett authors construction entries.** Agents plan, maintain infrastructure, keep the lexicon layer and indices in sync, run and triage audits, and record adjudications. Agents do not create entries unprompted.
-## Where things stand (2026-07-16)
-124 entries; public site + CI live; projectibility-first `kind` blocks with ladder-enforcing lint; CGEL audit triaged (26 findings resolved); lexicon layer seeded (600 lexemes from Simple English Wiktionary with glosses, browsable); Clause/VP backbone and five primary Clause types built; clause-analogue semantics kept formally outside Clause; Question modeled as a semantic category with declarative, tag, and echo specializations; argument-structure network expanded through particle, path, resultative, and way constructions.
+## Where things stand (2026-11-18)
+
+The public site has 152 construction entries, 600 lexeme cards, and 44 registered evidence sources. The November release added entries from the CGEL Chapter 5 audit, a selective scan of other English constructicons, and the paired-NP introduction. [Current status and session history](../STATUS.md)
 ## Entry queue (Brett)
 Ordered by how much downstream work each unblocks:
 
@@ -17,7 +18,7 @@ Ordered by how much downstream work each unblocks:
   
 5. **Proper-noun meanings relocation** (audit uncertain case 6) — whether the "feature bundle" meanings move from `n-proper-001` to `proper-name-001`.
   
-6. **Rung reviews** — every `secured: stable` is provisional; deitality's maintained tier is argued in the JoL paper and awaits your award; vocative is closest to maintained (removal counterfactual on record).
+6. **Rung reviews** — review the provisional `secured: stable` assignments and the proposed maintained tier for deitality. Reassess the vocative projection now that its earlier kinship evidence has been withdrawn.
   
 ## Adjudication queue (Brett rules, agents record)
 1. **17 conjunction-residue items** (as well as, rather than, whilst, for, so, yet, iff, ...) — each needs a verdict + tests in `overrides.yaml`.

@@ -1,8 +1,8 @@
 # English Constructionary
-<!-- SUMMARY: CxG dictionary of English constructions, projectibility-first, public site + CI + lexicon layer live; Brett authors entries, agents maintain · status: active · updated: 2026-07-24 -->
+<!-- SUMMARY: Projectibility-first English construction dictionary with 152 published constructions, a lexicon layer, and linked evidence · status: active · updated: 2026-11-18 -->
 
 **Status:** Active development
-**Last updated:** 2026-07-24
+**Last updated:** 2026-11-18
 
 **See also:** `NOTES.md` for theoretical ideas in progress
 
@@ -10,7 +10,7 @@
 
 ## Current State
 
-- **125 construction YAML files** in `data/constructions/`
+- **152 published construction entries** in `data/constructions/`
 - **Lexicon layer**: 600 lexemes from Simple English Wiktionary (Brett's curated closed classes) with glosses, deitality statuses, and construction links, browsable on the site
 - **Division of labour (2026-07-16): Brett authors entries; agents plan and maintain** (see `docs/ROADMAP.md`)
 - Full validation tooling (`npm run validate`, `npm run lint`), now enforcing securing-ladder discipline on `kind` blocks
@@ -18,6 +18,7 @@
 - **CI:** schema validation + lint on every push/PR (`.github/workflows/validate.yml`)
 - `docs/CONTRIBUTING.md` published (data format, style guide, review process)
 - Web interface with bracket highlighting, dimensions, symmetric relations, kind-block display
+- **Evidence links** connect examples and claims to 44 registered sources. The browser displays the links, and the project exports them in its construction graph.
 - Morphological strategies index (`data/indices/morphological-strategies.yaml`)
 
 ## Theoretical Framework
@@ -36,17 +37,18 @@ Major areas:
 - **Numeratives**: Basic lexemes (0–12), teens, decades, compounds (21–99), magnitude, factor, addition, ordinals, fractionals, fused-head
 - **Cardinal nouns & determinatives**: Category entries plus use constructions (numerical labels, abstract numerals, year names, magnitude quantifiers, collective numerals, denominator numerals)
 - **Negation**: Secondary verbal, constituent, imperative, absolute negator determinatives, never-adv
-- **NP structure**: Bare, determined, genitive, pronominal, proper
+- **NP structure**: Bare, determined, genitive, pronominal, and proper NPs. The Chapter 5 entries include bare noun coordination, evaluative binominals, genitive quantification, and property-value modifiers.
 - **Definiteness, number, countability**: kind metadata with securing tiers
 - **Clause structure**: VP-headed Clause backbone; declarative, closed/open interrogative, exclamative, and imperative Clause types; clause-analogue semantics kept outside Clause
 - **Questions**: semantic Question parent with declarative, tag, and echo specializations, interfacing with interrogative Clause types
-- **Argument structure**: ditransitive, caused motion, time-away, prepositional particle-object, goal/source/path, object resultative, and way motion
-- **Fused-head network**: broader `fused-head-001` parent with `fused-determiner-head-001`, plus numerative and demonstrative subtypes
+- **Argument structure and voice**: Ditransitive, caused motion, time-away, particle-object, goal/source/path, object resultative, way motion, conative *at*, *into*-causative, and verbal *be*-passive
+- **Degree and quantity**: Comparative correlatives, indefinite-denominator rates, subject-linked genitive superlatives, and intensifying *so* with a nominal
+- **Discourse**: Strong proper names, paired-NP introductions such as *Alex, Teacup*, *let alone*, and *it*-clefts
 - **Fused-head network**: broader `fused-head-001` parent with `fused-determiner-head-001`, plus numerative and demonstrative subtypes
 
 ## Next Steps
 
-See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry queue (Brett), adjudication queue, and agent infrastructure queue.
+See [the roadmap](docs/ROADMAP.md) for the entry, adjudication, and infrastructure queues.
 
 - [x] Build validation tooling
 - [x] Develop web interface
@@ -56,7 +58,8 @@ See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry q
 - [x] Public deployment (GitHub Pages) + CI + CONTRIBUTING
 - [x] Migrate `hpc` metadata to projectibility-first `kind` blocks
 - [x] Review remaining entries for CGEL alignment (Codex audit triaged 2026-07-16; 26 findings resolved)
-- [x] Add projection targets to `directive-ostensive-001` and `vocative-001`
+- [x] Add a projection target to `directive-ostensive-001`
+- [ ] Reassess the projection target for `vocative-001` after withdrawal of the kinship evidence
 - [ ] Rung-by-rung review of migrated `secured: stable` assignments (all provisional)
 - [ ] Split `adjective-001` (failure-mode: fat)
 - [x] Add Clause/VP backbone and primary Clause-type entries
@@ -66,6 +69,8 @@ See `docs/ROADMAP.md` (rewritten 2026-07-16) for the prioritized queues: entry q
 
 ## Session Log
 
+- **2026-11-18** — Published 26 new entries. Sixteen came from the CGEL Chapter 5 audit, nine from a selective scan of other English constructicons, and one documents the paired-NP introduction. The browser index and evidence graph include the new entries and their sources. The release brought the public inventory to 152 constructions.
+- **2026-10-30** — Added the strong proper name construction and withdrew the kinship evidence previously used in the vocative entry. The public inventory reached 126 constructions.
 - **2026-07-24 (shutdown addendum)**: Broadened the fused-head taxonomy with a new `fused-head-001` parent, renamed `determinative-fused-head-001` to `fused-determiner-head-001`, kept `numerative-fused-head-001` as a determiner-head subtype, and regenerated the derived web artifacts after validation. The clause-analogue rename from the previous session remains in place. Repository now has 125 constructions.
 - **2026-07-16 (construction-network addendum)**: Added 15 connected entries: VP, strict VP-headed Clause, clause-analogue semantics, five primary Clause types, semantic Question, declarative question, Tag Question, and four argument-structure neighbours (prepositional particle-object, path, object resultative, way motion). Reworked Echo Question as a semantic overlay, kept Question distinct from Clause type, connected the new nodes through families and typed relations, and added rung-matching grounds. Repository now has 124 constructions.
 - **2026-07-16 (evening addendum)**: Lexicon layer built end to end (Wiktionary standoff design, gold lists from Simple English, glosses, per-lexeme browser cards). Indeterminate and deitality architectures per Brett's rulings and papers; exclamation/ostensive-NP two-axis analysis; constituent-type layer (phrase/coordination); preposition batch and path-complement family, heavily Brett-corrected (ago, intransitive = no object, PP grain, forcing test). Division of labour set: Brett authors entries, agents plan/maintain. ROADMAP.md rewritten as prioritized queues.
